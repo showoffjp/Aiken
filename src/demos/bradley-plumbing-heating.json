@@ -1,0 +1,202 @@
+{
+  "slug": "bradley-plumbing-heating",
+  "prospect": "bradley-plumbing-and-heating-inc-mechanical-cont",
+  "name": "Bradley Plumbing & Heating, Inc.",
+  "short": "Bradley Plumbing & Heating",
+  "category": "Plumbing & Mechanical Contractor",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "established": "1952",
+  "look": "bold",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f6f8",
+    "surface": "#ffffff",
+    "ink": "#0f1b26",
+    "muted": "#51606e",
+    "primary": "#0f3554",
+    "onPrimary": "#ffffff",
+    "accent": "#ff8a2a",
+    "line": "#d6dde4"
+  },
+  "radius": 4,
+  "icon": "droplets",
+  "contact": {
+    "phone": "(803) 649-2155",
+    "phone2": "(803) 642-2963",
+    "phone2Label": "Second line",
+    "address": [
+      "150 Rutland Drive NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Bradley Plumbing & Heating, 150 Rutland Drive NW, Aiken, SC 29801"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Mechanical contractor since 1952",
+    "title": "Professional. *Reliable.*",
+    "lede": "Residential and commercial plumbing, HVAC and mechanical engineering services for clients in the public and private sectors, from a simple faucet installation to a complete sewer line replacement.",
+    "cta": {
+      "label": "Call (803) 649-2155",
+      "href": "tel:+18036492155"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "points": [
+      "Free consultation",
+      "Residential & commercial",
+      "Satisfaction guaranteed"
+    ]
+  },
+  "facts": [
+    {
+      "value": "1952",
+      "label": "Privately owned since our founding"
+    },
+    {
+      "value": "65+ years",
+      "label": "Of experience behind every job"
+    },
+    {
+      "value": "Public & private",
+      "label": "Sector clients served"
+    },
+    {
+      "value": "Free",
+      "label": "Consultation to explain your options"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Plumbing options *built around you*",
+      "intro": "We explain all of your available options so you can choose the scope of work that is right for your home or business.",
+      "items": [
+        {
+          "icon": "wrench",
+          "title": "Residential plumbing",
+          "text": "From a simple faucet installation to complete sewer line replacement."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial plumbing",
+          "text": "The work we started with in 1952, completed to the highest standards."
+        },
+        {
+          "icon": "fan",
+          "title": "Mechanical & HVAC",
+          "text": "Complete, coordinated building engineering packages."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "engineering",
+      "nav": "Engineering",
+      "style": "list",
+      "eyebrow": "Areas of expertise",
+      "title": "Mechanical and HVAC *engineering services*",
+      "intro": "We are experienced in developing a complete and coordinated building engineering package.",
+      "items": [
+        {
+          "icon": "file-check",
+          "title": "Full contract administration"
+        },
+        {
+          "icon": "drafting-compass",
+          "title": "Design drawings",
+          "text": "Conceptual, partial, phasing and complete."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Complete bid specification packages"
+        },
+        {
+          "icon": "users",
+          "title": "Management of design sub-consultants"
+        },
+        {
+          "icon": "hard-hat",
+          "title": "Construction review services"
+        },
+        {
+          "icon": "package-check",
+          "title": "Specialized bid packages",
+          "text": "Pre-purchased equipment specifications, bid evaluation and vendor negotiation on your behalf."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "systems",
+      "nav": "Systems",
+      "eyebrow": "Engineering systems",
+      "title": "Systems we have *designed and specified*",
+      "columns": [
+        {
+          "title": "Cooling",
+          "items": [
+            "Chiller plants",
+            "Supplemental cooling systems",
+            "Thermal storage systems"
+          ]
+        },
+        {
+          "title": "Air handling",
+          "items": [
+            "Air handling units",
+            "Special computer room HVAC systems"
+          ]
+        },
+        {
+          "title": "How we work",
+          "items": [
+            "Long-lasting client relationships",
+            "Exceptional design",
+            "Cost-effective solutions",
+            "On time, to the highest professional standards"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Customer satisfaction, guaranteed.",
+      "text": "Contact us today for a free consultation.",
+      "cta": {
+        "label": "Call (803) 649-2155",
+        "href": "tel:+18036492155"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Contact us *today*",
+    "formTitle": "Request a consultation",
+    "formTopics": [
+      "Residential plumbing",
+      "Commercial plumbing",
+      "HVAC / mechanical",
+      "Engineering services",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://bradleyplbghtg.com/",
+    "before": [
+      "Footer still reads © 2018",
+      "No description for Google results",
+      "None of the six images has alt text",
+      "No business details for search (hours, service area)",
+      "Seventy years of history gets a single line"
+    ]
+  }
+}

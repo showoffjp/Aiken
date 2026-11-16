@@ -1,0 +1,117 @@
+{
+  "slug": "prescott-and-sons",
+  "prospect": "prescott-and-sons-construction-llc",
+  "name": "Prescott & Sons Construction, LLC",
+  "short": "Prescott & Sons",
+  "category": "Remodeling & Custom Homes",
+  "group": "Trades & Industry",
+  "town": "North Augusta, SC",
+  "look": "clean",
+  "fonts": { "display": "bricolage-grotesque", "body": "inter" },
+  "colors": {
+    "bg": "#faf7f2", "surface": "#ffffff", "ink": "#1c1917", "muted": "#625a54",
+    "primary": "#9b3a1e", "onPrimary": "#ffffff", "accent": "#f1c27d", "line": "#e7dfd4"
+  },
+  "radius": 14,
+  "icon": "hammer",
+  "contact": {
+    "phone": "(803) 819-4142",
+    "email": "info@prescottandsons.com",
+    "address": ["121 E. Marion Ave", "North Augusta, SC 29841"],
+    "mapQuery": "121 E Marion Ave, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/PrescottandSonsConstruction/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Family owned and operated",
+    "title": "Built and remodeled *with our own hands*",
+    "lede": "Kitchens, baths, additions, porches and custom homes across North Augusta and the CSRA. Honest, dependable work at a fair price, with Josh and his crew on site for every project.",
+    "cta": { "label": "Call (803) 819-4142", "href": "tel:+18038194142" },
+    "cta2": { "label": "See our work", "href": "#work" },
+    "image": { "src": "/demo-assets/prescott-and-sons/home.webp", "alt": "A custom home built by Prescott & Sons" },
+    "points": ["Licensed", "Bonded", "Insured"]
+  },
+  "facts": [
+    { "value": "Family owned", "label": "Locally owned and operated in North Augusta" },
+    { "value": "Licensed builder", "label": "Residential and commercial" },
+    { "value": "On site", "label": "Josh and his crew work every project" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "services", "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "From a small remodel to *a whole new home*",
+      "intro": "Small remodeling jobs, kitchen and bath renovations, total home renovations and complete custom home construction.",
+      "items": [
+        { "icon": "cooking-pot", "title": "Kitchen remodels", "text": "From planning to design to finishing on time, we recreate your kitchen to be more functional and more appealing." },
+        { "icon": "bath", "title": "Bathroom remodels", "text": "Fixtures, tile, flooring and more. We make the decisions easy and take care of the details." },
+        { "icon": "door-open", "title": "Room additions", "text": "An in-law suite, a new master suite, a rec room. New living space that flows with your existing home." },
+        { "icon": "warehouse", "title": "Garage additions", "text": "Space for cars, boats, RVs and outdoor equipment, or a shop of your own." },
+        { "icon": "house", "title": "New construction", "text": "Custom homes throughout North Augusta and Aiken, Edgefield, Richmond and Columbia counties." },
+        { "icon": "armchair", "title": "Porches & decks", "text": "Custom decks and porches that add curb appeal and a place to entertain and relax." }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "Who you are hiring",
+      "title": "A builder who *swings the hammer*",
+      "image": { "src": "/demo-assets/prescott-and-sons/brick-home.webp", "alt": "A brick two-story home" },
+      "body": [
+        "Prescott & Sons Construction is a family owned and operated company that prides itself on being hands-on in the everyday construction tasks of its customers.",
+        "Not only are you hiring a licensed residential and commercial builder, you are hiring someone who knows how to build and remodel with his own hands. Josh and his crew are on site and dedicated to every project. Our company is committed to honest and dependable work at a fair price."
+      ],
+      "list": ["Licensed, bonded and insured", "Workers' compensation and general liability carried", "Certificate of insurance available on request"]
+    },
+    {
+      "type": "gallery", "id": "work", "nav": "Our work",
+      "eyebrow": "Recent projects",
+      "title": "Kitchens, baths and *homes we have built*",
+      "images": [
+        { "src": "/demo-assets/prescott-and-sons/kitchen.webp", "alt": "White kitchen with a large island and black chandelier" },
+        { "src": "/demo-assets/prescott-and-sons/exterior.webp", "alt": "New home with a stone chimney among pines" },
+        { "src": "/demo-assets/prescott-and-sons/shower.webp", "alt": "Marble walk-in shower with glass enclosure" },
+        { "src": "/demo-assets/prescott-and-sons/kitchen-dark.webp", "alt": "Kitchen with sage cabinets and a dark island" },
+        { "src": "/demo-assets/prescott-and-sons/living-room.webp", "alt": "Vaulted living room with a stone fireplace" },
+        { "src": "/demo-assets/prescott-and-sons/garage.webp", "alt": "Brick garage addition at dusk" },
+        { "src": "/demo-assets/prescott-and-sons/kitchen-blue.webp", "alt": "Kitchen with a navy island and granite counters" },
+        { "src": "/demo-assets/prescott-and-sons/deck.webp", "alt": "Custom deck beside a pool" },
+        { "src": "/demo-assets/prescott-and-sons/bath-dark.webp", "alt": "Bathroom with dark vanity and lit mirror" },
+        { "src": "/demo-assets/prescott-and-sons/sunroom.webp", "alt": "Sunroom with hardwood floors" }
+      ]
+    },
+    {
+      "type": "faq", "id": "faq", "nav": "FAQ",
+      "eyebrow": "Good questions",
+      "title": "Frequently *asked*",
+      "items": [
+        { "q": "Who is the father and who is the son?", "a": "Josh began the business and has two sons and a daughter. You may meet any or all of them at some point on the job or at the office." },
+        { "q": "Are you licensed and insured?", "a": "Yes. We carry workers' compensation and general liability, and we can always provide a certificate of liability insurance with more detail. That is something any contractor should be willing and able to supply." },
+        { "q": "Do I really need a licensed contractor for my renovation?", "a": "Absolutely. Would you go to a dentist who wasn't licensed?" }
+      ]
+    },
+    {
+      "type": "columns", "id": "area", "nav": "Service area",
+      "eyebrow": "Where we work",
+      "title": "North Augusta and *the CSRA*",
+      "columns": [
+        { "title": "South Carolina", "items": ["North Augusta", "Aiken County", "Edgefield County"] },
+        { "title": "Georgia", "items": ["Augusta – Richmond County", "Columbia County"] },
+        { "title": "Also ask about", "items": ["HomePath and 203(k) renovations", "House plans", "Total home renovations"] }
+      ]
+    }
+  ],
+  "visit": {
+    "title": "Tell us about *your project*",
+    "formTitle": "Request an estimate",
+    "formTopics": ["Kitchen remodel", "Bathroom remodel", "Room addition", "Garage addition", "Porch or deck", "New home"]
+  },
+  "source": {
+    "url": "https://www.prescottandsons.com/",
+    "before": [
+      "Built from a Dreamweaver template, a tool from the 2000s",
+      "No description for Google results",
+      "No business details for search (service area, licensing)",
+      "Strong project photography is buried in small sliders"
+    ]
+  }
+}

@@ -19,10 +19,15 @@ const sizes = JSON.parse(await readFile(sizesFile, 'utf8').catch(() => '{}'));
 
 for (const pick of picks) {
   const [n, rest] = pick.split('=');
-  const [name, max] = rest.split(':');
+  // name[:maxWidth][:trim] -- "trim" crops a solid border baked into the photo
+  const [name, ...flags] = rest.split(':');
+  const max = flags.find((f) => /^\d+$/.test(f));
+  const trim = flags.includes('trim');
   const img = images.find((i) => i.n === Number(n));
   if (!img) { console.log(`  #${n}: not found`); continue; }
-  const input = sharp(path.join(ROOT, img.file), { animated: false }).rotate();
+  let source = path.join(ROOT, img.file);
+  if (trim) source = await sharp(source).rotate().trim({ threshold: 60 }).toBuffer();
+  const input = sharp(source, { animated: false }).rotate();
   const meta = await input.metadata();
   const keepPng = meta.hasAlpha; // logos with transparency stay lossless-ish
   const width = Math.min(meta.width, Number(max) || 1600);

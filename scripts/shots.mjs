@@ -47,7 +47,26 @@ const settle = async (page) => {
   await page.waitForTimeout(400);
 };
 
-if (review) {
+if (args.includes('--present')) {
+  // Shareable full-page captures (desktop + phone) in ./previews
+  const out = path.join(ROOT, 'previews');
+  await mkdir(out, { recursive: true });
+  for (const slug of slugs) {
+    const url = slug === 'index' ? `${base}/` : `${base}/${slug}/`;
+    for (const [label, opts] of [['desktop', { viewport: { width: 1360, height: 900 }, deviceScaleFactor: 1.5 }], ['phone', { viewport: { width: 390, height: 800 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true }]]) {
+      const ctx = await browser.newContext(opts);
+      await prep(ctx);
+      const page = await ctx.newPage();
+      await page.goto(url, { waitUntil: 'load' });
+      await page.addStyleTag({ content: '.callbar{display:none!important}' });
+      await settle(page);
+      const png = await page.screenshot({ fullPage: true, type: 'png' });
+      await sharp(png).jpeg({ quality: 78, mozjpeg: true }).toFile(path.join(out, `${slug}-${label}.jpg`));
+      await ctx.close();
+    }
+    console.log(`${slug}: previews saved`);
+  }
+} else if (review) {
   const out = path.join(ROOT, '.cache', 'review');
   await mkdir(out, { recursive: true });
   for (const slug of slugs) {

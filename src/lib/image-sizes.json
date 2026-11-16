@@ -70,5 +70,101 @@
  "/demo-assets/antonios-italian-eatery/storefront.webp": [
   450,
   290
+ ],
+ "/demo-assets/mitch-johnson-construction/farmhouse.webp": [
+  307,
+  225
+ ],
+ "/demo-assets/mitch-johnson-construction/barn-home.webp": [
+  310,
+  230
+ ],
+ "/demo-assets/mitch-johnson-construction/ranch.webp": [
+  310,
+  230
+ ],
+ "/demo-assets/mitch-johnson-construction/estate.webp": [
+  304,
+  226
+ ],
+ "/demo-assets/mitch-johnson-construction/kitchen.webp": [
+  308,
+  416
+ ],
+ "/demo-assets/mitch-johnson-construction/stalls.webp": [
+  310,
+  417
+ ],
+ "/demo-assets/mitch-johnson-construction/kitchen-island.webp": [
+  307,
+  411
+ ],
+ "/demo-assets/mitch-johnson-construction/staircase.webp": [
+  312,
+  418
+ ],
+ "/demo-assets/mitch-johnson-construction/living-room.webp": [
+  306,
+  413
+ ],
+ "/demo-assets/mitch-johnson-construction/barn-aisle.webp": [
+  320,
+  422
+ ],
+ "/demo-assets/mitch-johnson-construction/garage.webp": [
+  305,
+  227
+ ],
+ "/demo-assets/mitch-johnson-construction/kitchen-bar.webp": [
+  308,
+  229
+ ],
+ "/demo-assets/prescott-and-sons/home.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/brick-home.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/prescott-and-sons/kitchen.webp": [
+  1000,
+  750
+ ],
+ "/demo-assets/prescott-and-sons/kitchen-dark.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/shower.webp": [
+  1000,
+  750
+ ],
+ "/demo-assets/prescott-and-sons/living-room.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/deck.webp": [
+  1080,
+  629
+ ],
+ "/demo-assets/prescott-and-sons/garage.webp": [
+  1045,
+  878
+ ],
+ "/demo-assets/prescott-and-sons/exterior.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/kitchen-blue.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/bath-dark.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/prescott-and-sons/sunroom.webp": [
+  1000,
+  667
  ]
 }
