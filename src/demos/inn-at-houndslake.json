@@ -1,0 +1,96 @@
+{
+  "slug": "inn-at-houndslake",
+  "name": "The Inn at Houndslake",
+  "short": "The Inn at Houndslake",
+  "category": "Boutique Inn",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": { "display": "bitter", "body": "work-sans" },
+  "colors": {
+    "bg": "#f8f5ee", "surface": "#fffdf8", "ink": "#1b2520", "muted": "#5e6a63",
+    "primary": "#1f4b3a", "onPrimary": "#f8f5ee", "accent": "#d2a85a", "line": "#e3dccd"
+  },
+  "radius": 12,
+  "icon": "bed-double",
+  "contact": {
+    "phone": "(803) 648-9535",
+    "phoneLabel": "Reservations",
+    "address": ["897 Houndslake Drive", "Aiken, SC 29803"],
+    "mapQuery": "The Inn at Houndslake, 897 Houndslake Drive, Aiken, SC 29803"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "A family heritage of Southern hospitality",
+    "title": "Your home away from home, *between the fairways*",
+    "lede": "Thirty comfortable, traditional rooms nestled among the fairways of Houndslake Country Club. Still owned by the founding family, and never with that corporate feeling.",
+    "cta": { "label": "Call to reserve", "href": "tel:+18036489535" },
+    "cta2": { "label": "See the rooms", "href": "#rooms" },
+    "image": { "src": "/demo-assets/inn-at-houndslake/king.webp", "alt": "A king room looking out to the golf course" }
+  },
+  "facts": [
+    { "value": "30 rooms", "label": "Privacy when you want it, company at breakfast" },
+    { "value": "Family owned", "label": "By the founding Penland family" },
+    { "value": "On the course", "label": "Views of Houndslake Country Club from each room" },
+    { "value": "23 miles", "label": "From Augusta National" }
+  ],
+  "sections": [
+    {
+      "type": "gallery", "id": "rooms", "nav": "Rooms",
+      "eyebrow": "Accommodations",
+      "title": "Six ways *to stay*",
+      "intro": "King Studio, Double Queen Studio, King, Double Queen, Double and Single Queen rooms, each with a picturesque view and none facing a busy parking lot or main road.",
+      "images": [
+        { "src": "/demo-assets/inn-at-houndslake/double-queen-studio.webp", "alt": "Double Queen Studio" },
+        { "src": "/demo-assets/inn-at-houndslake/double-queen.webp", "alt": "Double Queen room" },
+        { "src": "/demo-assets/inn-at-houndslake/king-studio.webp", "alt": "King Studio" },
+        { "src": "/demo-assets/inn-at-houndslake/double.webp", "alt": "Double room" },
+        { "src": "/demo-assets/inn-at-houndslake/studio-kitchen.webp", "alt": "Studio with kitchenette" },
+        { "src": "/demo-assets/inn-at-houndslake/king.webp", "alt": "King room" },
+        { "src": "/demo-assets/inn-at-houndslake/course.webp", "alt": "The view across the fairway to the clubhouse" }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "Our story",
+      "title": "An established tradition of *family and location*",
+      "image": { "src": "/demo-assets/inn-at-houndslake/course.webp", "alt": "Houndslake Country Club seen from the Inn" },
+      "body": [
+        "The Inn at Houndslake was founded almost 40 years ago by developer Robert E. Penland, and it is still owned by the founding family today. Peggy Penland owns the Inn, and it is not unusual to be met and welcomed by her in person.",
+        "The décor is traditional, with the simplicity and feeling of a home away from home. The patio opens onto the golf course and endless walking paths, and with just 30 rooms each guest can enjoy the Inn's privacy or the social side of breakfast."
+      ],
+      "quote": { "text": "Peggy and the service staff always greet us and make us feel like family.", "by": "Dave G., guest" }
+    },
+    {
+      "type": "services", "id": "aiken", "nav": "Golf & horses", "columns": 3,
+      "eyebrow": "Out the back door",
+      "title": "Golf, horses and *Aiken's seasons*",
+      "items": [
+        { "icon": "land-plot", "title": "Houndslake Country Club", "text": "An 18-hole championship course designed by Joe Lee. Each nine measures a little over 3,300 yards and plays to a par of 36." },
+        { "icon": "trophy", "title": "Masters Week", "text": "A relaxed base 23 miles from Augusta National, with a nightly complimentary cocktail party, a hot Southern breakfast every morning and the tournament on the big screen in the Hospitality Room." },
+        { "icon": "sun", "title": "Seasonal getaways", "text": "We coordinate with local businesses and events, from golf to equestrian weekends, to make your visit seamless." }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Those in the know unwind here.",
+      "text": "Call the Inn to check dates and reserve your room.",
+      "cta": { "label": "Call (803) 648-9535", "href": "tel:+18036489535" }
+    }
+  ],
+  "visit": {
+    "title": "Plan *your stay*",
+    "formTitle": "Ask about dates",
+    "formTopics": ["King Studio", "Double Queen Studio", "King", "Double Queen", "Double", "Single Queen", "Masters Week"]
+  },
+  "source": {
+    "url": "https://www.theinnathoundslake.com/",
+    "before": [
+      "Built on a Weebly template, with \"Powered by Weebly\" in the footer",
+      "Runs jQuery 1.8 from 2012 and old-style <font> tags",
+      "Room photos are small, some under 400 pixels wide",
+      "No description for Google results, no favicon",
+      "No hotel details for search (address, phone, room types)"
+    ]
+  }
+}

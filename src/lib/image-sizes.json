@@ -166,5 +166,33 @@
  "/demo-assets/prescott-and-sons/sunroom.webp": [
   1000,
   667
+ ],
+ "/demo-assets/inn-at-houndslake/king.webp": [
+  1100,
+  619
+ ],
+ "/demo-assets/inn-at-houndslake/course.webp": [
+  600,
+  341
+ ],
+ "/demo-assets/inn-at-houndslake/double-queen-studio.webp": [
+  440,
+  252
+ ],
+ "/demo-assets/inn-at-houndslake/double-queen.webp": [
+  431,
+  249
+ ],
+ "/demo-assets/inn-at-houndslake/king-studio.webp": [
+  381,
+  255
+ ],
+ "/demo-assets/inn-at-houndslake/double.webp": [
+  380,
+  253
+ ],
+ "/demo-assets/inn-at-houndslake/studio-kitchen.webp": [
+  333,
+  250
  ]
 }
