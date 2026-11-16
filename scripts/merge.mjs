@@ -44,6 +44,8 @@ function cleanUrl(raw = '') {
     for (const k of [...url.searchParams.keys()]) if (/^(utm_|gclid|fbclid|y_source|gad_|ref$)/i.test(k)) url.searchParams.delete(k);
     url.hash = '';
     url.hostname = url.hostname.toLowerCase();
+    // Listings sometimes hold junk such as "Instagram: @name" in the website field.
+    if (!/^[a-z0-9-]+(\.[a-z0-9-]+)*\.[a-z]{2,}$/.test(url.hostname)) return '';
     return url.toString();
   } catch { return ''; }
 }

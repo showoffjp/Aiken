@@ -1,0 +1,82 @@
+{
+  "slug": "the-ivy-cottage",
+  "prospect": "the-ivy-cottage-flowers-and-gifts",
+  "name": "The Ivy Cottage Flowers & Gifts",
+  "short": "The Ivy Cottage",
+  "category": "Florist",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": { "display": "playfair-display", "body": "dm-sans" },
+  "colors": {
+    "bg": "#faf7f1", "surface": "#ffffff", "ink": "#1f2a1f", "muted": "#647062",
+    "primary": "#3c5f3d", "onPrimary": "#ffffff", "accent": "#d88ea0", "line": "#e5e0d4"
+  },
+  "radius": 0,
+  "icon": "flower-2",
+  "contact": {
+    "phone": "(803) 643-0535",
+    "phoneLabel": "Call to order",
+    "address": ["206 Park Avenue SE", "Aiken, SC 29801"],
+    "mapQuery": "The Ivy Cottage Flowers & Gifts, 206 Park Avenue SE, Aiken, SC 29801"
+  },
+  "hero": {
+    "variant": "centered",
+    "eyebrow": "Family owned and operated · Aiken, South Carolina",
+    "title": "Flowers that go *the extra mile*",
+    "lede": "Only the finest floral arrangements and gifts, backed by service that is friendly and prompt.",
+    "cta": { "label": "Call (803) 643-0535", "href": "tel:+18036430535" },
+    "cta2": { "label": "Find the shop", "href": "#visit" }
+  },
+  "facts": [
+    { "value": "Family owned", "label": "And operated, proudly serving the Aiken area" },
+    { "value": "Flowers & gifts", "label": "Only the finest arrangements" },
+    { "value": "Park Avenue", "label": "206 Park Avenue SE, Aiken" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "shop", "nav": "Flowers & gifts", "columns": 3,
+      "eyebrow": "From our shop",
+      "title": "Made to be *given*",
+      "items": [
+        { "icon": "flower", "title": "Floral arrangements", "text": "We are committed to offering only the finest." },
+        { "icon": "gift", "title": "Gifts", "text": "Something to go with the flowers, or to stand on its own." },
+        { "icon": "heart-handshake", "title": "Friendly, prompt service", "text": "Our professional staff is dedicated to making your experience a pleasant one." }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "About us",
+      "title": "Every customer is *important*",
+      "body": [
+        "The Ivy Cottage proudly serves the Aiken area. We are family owned and operated, and we are committed to offering only the finest floral arrangements and gifts, backed by service that is friendly and prompt.",
+        "Because all of our customers are important, our professional staff is dedicated to making your experience a pleasant one. That is why we always go the extra mile to make your floral gift perfect."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Sending flowers?",
+      "text": "Call the shop and tell us what you have in mind.",
+      "cta": { "label": "Call (803) 643-0535", "href": "tel:+18036430535" }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the cottage*",
+    "formTitle": "Ask about an order",
+    "formTopics": ["A floral arrangement", "A gift", "Something else"]
+  },
+  "source": {
+    "url": "https://www.theivycottageflowersandgifts.com/",
+    "before": [
+      "The site currently shows only an error: \"Page cannot be displayed. Please contact your service provider.\"",
+      "Anyone searching for the shop lands on that error instead of a phone number",
+      "The words on this concept come from the shop's public Visit Aiken listing, since its own site has none to offer right now"
+    ],
+    "after": [
+      "A working page, today: name, phone, address and map",
+      "One-tap call and directions on a phone",
+      "Served over HTTPS with nothing to break or renew",
+      "Room to grow: arrangements, occasions and photos can be added as the shop supplies them"
+    ]
+  }
+}

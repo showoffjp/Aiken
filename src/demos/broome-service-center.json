@@ -1,0 +1,84 @@
+{
+  "slug": "broome-service-center",
+  "prospect": "broome-service-center-inc",
+  "name": "Broome Service Center, Inc.",
+  "short": "Broome Service Center",
+  "category": "Auto, Truck & Trailer Repair",
+  "group": "Auto & Equipment",
+  "town": "Beech Island, SC",
+  "established": "1952",
+  "look": "bold",
+  "fonts": { "display": "oswald", "body": "inter" },
+  "colors": {
+    "bg": "#f5f4f0", "surface": "#ffffff", "ink": "#151515", "muted": "#5b5b5b",
+    "primary": "#a81c22", "onPrimary": "#ffffff", "accent": "#f6c61b", "line": "#dad7cf"
+  },
+  "radius": 4,
+  "icon": "wrench",
+  "contact": {
+    "phone": "(803) 827-1498",
+    "address": ["463 Old Jackson Hwy", "Jackson, SC 29831"],
+    "mapQuery": "Broome Service Center, 463 Old Jackson Hwy, Jackson, SC 29831",
+    "hours": [["Monday – Friday", "8:00 am – 5:00 pm"]],
+    "facebook": "https://www.facebook.com/broomeservicecenter/"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Founded in 1952 by Spires B. Broome",
+    "title": "Complete auto, truck and *trailer repair*",
+    "lede": "Broome Service Center in Beech Island is proud to serve the Aiken, SC and Augusta, GA areas.",
+    "cta": { "label": "Call (803) 827-1498", "href": "tel:+18038271498" },
+    "cta2": { "label": "Hours & directions", "href": "#visit" },
+    "points": ["Autos", "Trucks", "Trailers"]
+  },
+  "facts": [
+    { "value": "1952", "label": "Founded by Spires B. Broome" },
+    { "value": "Mon – Fri", "label": "Open 8 am to 5 pm" },
+    { "value": "Aiken & Augusta", "label": "Serving both sides of the river" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "services", "nav": "Services", "columns": 3,
+      "eyebrow": "What we repair",
+      "title": "If it rolls, *bring it in*",
+      "items": [
+        { "icon": "car", "title": "Auto repair", "text": "Complete auto repair." },
+        { "icon": "truck", "title": "Truck repair", "text": "Service for working trucks." },
+        { "icon": "container", "title": "Trailer repair", "text": "Trailers repaired and back on the road." }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "About us",
+      "title": "A Beech Island shop *since 1952*",
+      "body": [
+        "Broome Service Center is proud to offer complete auto, truck and trailer repair to the Aiken, SC and Augusta, GA areas. The business was founded in 1952 by Spires B. Broome."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Need it fixed?",
+      "text": "Call the shop, Monday through Friday, 8 to 5.",
+      "cta": { "label": "Call (803) 827-1498", "href": "tel:+18038271498" }
+    }
+  ],
+  "visit": {
+    "title": "Find *the shop*",
+    "formTitle": "Tell us what's wrong",
+    "formTopics": ["Car or light truck", "Truck", "Trailer"]
+  },
+  "source": {
+    "url": "http://broomeservicecenter.com/",
+    "before": [
+      "The site's security certificate has expired, so browsers stop visitors with a full-page \"Your connection is not private\" warning",
+      "Most people will turn back at that warning and never see the shop's phone number",
+      "The words on this concept come from the shop's public chamber listing; the full history and service list would come from the owner"
+    ],
+    "after": [
+      "No certificate to renew: HTTPS is automatic and stays current",
+      "A working page, today: phone, hours, address and map",
+      "One-tap call and directions on a phone",
+      "Room for the full story since 1952 once the shop supplies it"
+    ]
+  }
+}

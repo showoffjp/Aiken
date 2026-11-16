@@ -23,12 +23,26 @@ const TIERS = {
   blocked: 'C · Could not audit (bot-protected)',
 };
 
+// Plain-English site status for the spreadsheet.
+const STATUS = {
+  ok: 'Online',
+  blocked: 'Online, bot-protected (not audited)',
+  'no-dns': 'Domain does not resolve (likely expired) - verify',
+  'cert-error': 'Security certificate invalid or expired',
+  down: 'No response - verify',
+  broken: 'Error page (404 / 500)',
+  parked: 'Parked domain',
+  placeholder: 'Placeholder or error page',
+  empty: 'Empty page',
+  'redirects-to-social': 'Redirects to a social page',
+};
+
 const rows = businesses.filter((b) => b.include).map((b) => {
   const a = audit[b.slug];
   let tier;
   if (!b.website) tier = b.social ? 'none' : 'nosite';
   else if (!a) tier = 'blocked';
-  else if (['down', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social'].includes(a.state)) tier = 'broken';
+  else if (['down', 'no-dns', 'cert-error', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social'].includes(a.state)) tier = 'broken';
   else if (a.state === 'blocked') tier = 'blocked';
   else if (a.score >= 30) tier = 'rebuild';
   else if (a.score >= 15) tier = 'dated';
@@ -46,7 +60,7 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     email: emails[0] || '',
     otherEmails: emails.slice(1),
     website: b.website,
-    siteState: a?.state || (b.website ? 'not audited' : 'no website'),
+    siteState: !b.website ? 'No website' : STATUS[a?.state] || 'Not audited',
     score: a?.score ?? null,
     platform: a?.platform || '',
     issues: a?.findings?.slice(0, 5) || (a?.error ? [a.error] : []),
