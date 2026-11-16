@@ -26,7 +26,7 @@ body.demo {
   --shadow: 0 1px 2px rgb(0 0 0 / .05), 0 12px 32px -12px rgb(0 0 0 / .16);
 }
 .demo img { max-width: 100%; height: auto; display: block; }
-.demo a:not(.btn) { color: inherit; }
+.demo a:where(:not(.btn)) { color: inherit; }
 .demo a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .demo :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
 .demo h1, .demo h2, .demo h3, .demo h4 { font-family: var(--font-display); line-height: 1.08; margin: 0; text-wrap: balance; font-weight: 600; letter-spacing: -0.015em; }
