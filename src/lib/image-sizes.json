@@ -242,5 +242,25 @@
  "/demo-assets/bravefriend/dog-truck.webp": [
   250,
   188
+ ],
+ "/demo-assets/playland-of-aiken/play-area.webp": [
+  1440,
+  1439
+ ],
+ "/demo-assets/playland-of-aiken/peg-board.webp": [
+  785,
+  785
+ ],
+ "/demo-assets/playland-of-aiken/rainbow-nets.webp": [
+  550,
+  550
+ ],
+ "/demo-assets/playland-of-aiken/light-wall.webp": [
+  593,
+  593
+ ],
+ "/demo-assets/playland-of-aiken/grip-socks.webp": [
+  1200,
+  900
  ]
 }
