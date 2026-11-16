@@ -72,7 +72,7 @@ const PLATFORMS = [
   ['Yahoo/Turbify Small Business', /turbify|yahoosmallbusiness|luminate|geocities/i],
   ['Network Solutions / Web.com', /web\.com|networksolutions|register\.com\/|websitebuilder\.com|sitebuilder/i],
   ['Adobe Muse (discontinued)', /museutils|musecdn|Muse\.Utils|adobe muse/i],
-  ['Microsoft FrontPage', /Microsoft FrontPage|_vti_|mso-|ProgId" content="FrontPage/i],
+  ['Microsoft FrontPage', /Microsoft FrontPage|_vti_cnf|_vti_bin|ProgId" content="FrontPage/i],
   ['Dreamweaver template', /InstanceBegin template|MM_preloadImages|MM_swapImage|\.dwt"/i],
   ['Joomla', /\/media\/jui\/|Joomla!|\/components\/com_|\/templates\/[^/]+\/css\/template/i],
   ['Drupal', /Drupal\.settings|\/sites\/default\/files|drupal\.js|data-drupal/i],
