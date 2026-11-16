@@ -1,0 +1,289 @@
+---
+// One redesign concept per business: /<slug>/
+import '../styles/demo.css';
+import Icon from '../components/Icon.astro';
+import Seal from '../components/demo/Seal.astro';
+import Sections from '../components/demo/Sections.astro';
+import { demos, fonts, telHref, title, sectionId, type Demo } from '../lib/demos';
+import { site } from '../lib/site';
+
+export function getStaticPaths() {
+  return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
+}
+interface Props { demo: Demo }
+const { demo } = Astro.props;
+const { contact, hero, colors } = demo;
+
+const display = fonts[demo.fonts.display];
+const body = fonts[demo.fonts.body];
+const faces = [...new Map([display, body].map((f) => [f.family, f])).values()];
+const fontCss = faces.map((f) =>
+  `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}` +
+  (f.italic ? `@font-face{font-family:"${f.family}";src:url(${f.italic}) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}` : '')
+).join('');
+const vars = [
+  `--bg:${colors.bg}`, `--surface:${colors.surface}`, `--ink:${colors.ink}`, `--muted:${colors.muted}`,
+  `--primary:${colors.primary}`, `--on-primary:${colors.onPrimary}`, `--accent:${colors.accent}`, `--line:${colors.line}`,
+  `--radius:${demo.radius ?? 10}px`,
+  `--font-display:"${display.family}",${display.fallback}`, `--font-body:"${body.family}",${body.fallback}`,
+].join(';');
+
+const nav = [
+  ...demo.sections.map((s, i) => ('nav' in s && s.nav ? { label: s.nav, href: `#${sectionId(s, i)}` } : null)).filter(Boolean),
+  { label: 'Contact', href: '#visit' },
+] as { label: string; href: string }[];
+const variant = hero.variant || (hero.image ? 'split' : 'banner');
+const short = demo.short || demo.name;
+const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
+const mapSrc = contact.mapQuery ? `https://www.google.com/maps?q=${encodeURIComponent(contact.mapQuery)}&output=embed` : '';
+const directions = contact.mapQuery ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(contact.mapQuery)}` : '';
+const sourceHost = new URL(demo.source.url).hostname.replace(/^www\./, '');
+const after = demo.source.after || [
+  'Designed phone-first: reads and taps comfortably on any screen',
+  'One-tap call, directions and email from every page',
+  'Served over HTTPS with no plugins to patch or break',
+  'Loads in well under a second: static pages, optimised images, self-hosted fonts',
+  'Clear headings, alt text and contrast for accessibility and for Google',
+  'Hours, address and services in one obvious place',
+];
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{`${demo.name} — website concept`}</title>
+    <meta name="description" content={`A redesign concept for ${demo.name} in ${demo.town}. Not the business's official website.`} />
+    <meta name="theme-color" content={colors.primary} />
+    <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="${colors.primary}"/><text x="16" y="22" font-size="17" font-family="Georgia,serif" font-weight="700" text-anchor="middle" fill="${colors.onPrimary}">${short.replace(/^the\s+/i, '').charAt(0)}</text></svg>`)}`} />
+    <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
+    {body.normal !== display.normal && <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />}
+    <style set:html={fontCss} />
+  </head>
+  <body class="demo" data-look={demo.look} style={vars}>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <aside class="concept" aria-label="About this preview">
+      <div class="wrap">
+        <span class="dot"></span>
+        <span class="grow"><b>Concept preview.</b> <span class="long">A redesign idea for {demo.name}, not their live website ({sourceHost}).</span><span class="short">Not the live site.</span></span>
+        <button type="button" data-open-notes>What changed?</button>
+        <a href="/">{site.name}</a>
+      </div>
+    </aside>
+
+    <header class="site-head" data-head>
+      <div class="wrap">
+        <a class="brand" href="#top" aria-label={`${demo.name} home`}>
+          {demo.logo
+            ? <img src={demo.logo.src} alt={demo.logo.alt} width={demo.logo.width} height={demo.logo.height} />
+            : <><span class="mark"><Icon name={demo.icon} size={22} /></span><span class="word">{short}<small>{demo.town}</small></span></>}
+        </a>
+        <nav class="nav" aria-label="Main">
+          {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+        </nav>
+        {contact.phone && (
+          <a class="head-cta" href={telHref(contact.phone)}>
+            <Icon name="phone" size={18} stroke={2.2} /><span class="long">Call </span>{contact.phone}
+          </a>
+        )}
+        <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" data-menu><Icon name="menu" size={22} /></button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" data-variant={variant}>
+        {variant === 'photo' && hero.image && <img class="bg" src={hero.image.src} alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
+        <div class="wrap">
+          <div>
+            {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
+            <h1 set:html={title(hero.title)} />
+            <p class="lede">{hero.lede}</p>
+            <div class="actions">
+              {hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}
+              {hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}
+            </div>
+            {hero.points && (
+              <ul class="points">
+                {hero.points.map((p) => <li><Icon name="check" size={18} stroke={2.6} />{p}</li>)}
+              </ul>
+            )}
+          </div>
+          {variant !== 'photo' && (
+            <div class="hero-visual">
+              {hero.image ? (
+                <>
+                  <div class={`frame ${hero.image.fit === 'contain' ? 'contain' : ''}`}>
+                    <img src={hero.image.src} alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
+                  </div>
+                  {demo.established && (
+                    <div class="chip"><Icon name="award" size={26} /><span><strong>Since {demo.established}</strong>{demo.town}</span></div>
+                  )}
+                </>
+              ) : (
+                <div class="panel"><Seal top={short} bottom={sealBottom} icon={demo.icon} id={`seal-${demo.slug}`} /></div>
+              )}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {demo.facts && (
+        <section class="facts" aria-label="At a glance">
+          <div class="wrap"><ul>{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul></div>
+        </section>
+      )}
+
+      <Sections demo={demo} />
+
+      <section class={`section visit ${demo.sections.length % 2 === 1 ? 'alt' : ''}`} id="visit">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="eyebrow">Get in touch</div>
+            <h2 set:html={title(demo.visit?.title || 'Come *see us*')} />
+            {demo.visit?.intro && <p>{demo.visit.intro}</p>}
+          </div>
+          <div class="grid">
+            <div class="info">
+              {contact.phone && (
+                <div class="row"><Icon name="phone" size={22} /><div>
+                  <h3>{contact.phoneLabel || 'Call'}</h3>
+                  <a class="big" href={telHref(contact.phone)}>{contact.phone}</a>
+                  {contact.phone2 && <p style="margin-top:6px">{contact.phone2Label || 'Also'}: <a href={telHref(contact.phone2)}>{contact.phone2}</a></p>}
+                </div></div>
+              )}
+              {contact.email && (
+                <div class="row"><Icon name="mail" size={22} /><div>
+                  <h3>Email</h3><a href={`mailto:${contact.email}`}>{contact.email}</a>
+                </div></div>
+              )}
+              {contact.address && (
+                <div class="row"><Icon name="map-pin" size={22} /><div>
+                  <h3>Find us</h3>
+                  <p>{contact.address.map((l, i) => <>{i > 0 && <br />}{l}</>)}</p>
+                  {directions && <p><a href={directions} target="_blank" rel="noopener">Get directions</a></p>}
+                </div></div>
+              )}
+              {contact.hours && (
+                <div class="row"><Icon name="clock" size={22} /><div>
+                  <h3>Hours</h3>
+                  <table class="hours"><tbody>{contact.hours.map(([d, h]) => <tr data-days={d}><td>{d}</td><td>{h}</td></tr>)}</tbody></table>
+                  {contact.hoursNote && <p class="footnote">{contact.hoursNote}</p>}
+                </div></div>
+              )}
+              {(contact.facebook || contact.instagram) && (
+                <div class="row"><Icon name="share-2" size={22} /><div>
+                  <h3>Follow</h3>
+                  <p>
+                    {contact.facebook && <a href={contact.facebook} target="_blank" rel="noopener">Facebook</a>}
+                    {contact.facebook && contact.instagram && ' · '}
+                    {contact.instagram && <a href={contact.instagram} target="_blank" rel="noopener">Instagram</a>}
+                  </p>
+                </div></div>
+              )}
+            </div>
+            <div>
+              {mapSrc && <div class="map"><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
+              {!demo.visit?.hideForm && (
+                <form class="form" data-form novalidate>
+                  <h3>{demo.visit?.formTitle || 'Send us a message'}</h3>
+                  <div class="two">
+                    <label>Name<input type="text" name="name" autocomplete="name" /></label>
+                    <label>Phone<input type="tel" name="phone" autocomplete="tel" /></label>
+                  </div>
+                  <label>Email<input type="email" name="email" autocomplete="email" /></label>
+                  {demo.visit?.formTopics && (
+                    <label>What can we help with?<select name="topic">{demo.visit.formTopics.map((t) => <option>{t}</option>)}</select></label>
+                  )}
+                  <label>Message<textarea name="message"></textarea></label>
+                  <button class="btn" type="submit">Send message</button>
+                  <p class="sent" role="status">Thanks! In the live site this lands in your inbox. (Preview only: nothing was sent.)</p>
+                  <p class="note">Preview form: it is not connected and collects nothing.</p>
+                </form>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <div class="wrap">
+        <div class="top">
+          <div>
+            <div class="word">{demo.name}</div>
+            <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<=[.!?])\s/)[0]}</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul>{nav.map((n) => <li><a href={n.href}>{n.label}</a></li>)}</ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              {contact.phone && <li><a href={telHref(contact.phone)}>{contact.phone}</a></li>}
+              {contact.email && <li><a href={`mailto:${contact.email}`}>{contact.email}</a></li>}
+              {contact.address && <li>{contact.address.join(', ')}</li>}
+            </ul>
+          </div>
+        </div>
+        <div class="legal">
+          <span>© {year} {demo.name}</span>
+          <span>Website concept by {site.name}. Not affiliated with or endorsed by {demo.name.replace(/\.$/, '')}.</span>
+        </div>
+      </div>
+    </footer>
+
+    {contact.phone && (
+      <div class="callbar">
+        <a href={telHref(contact.phone)}><Icon name="phone" size={18} stroke={2.4} />Call now</a>
+        {directions && <a class="alt" href={directions} target="_blank" rel="noopener"><Icon name="navigation" size={18} stroke={2.2} />Directions</a>}
+      </div>
+    )}
+
+    <dialog class="notes" data-notes aria-labelledby="notes-title">
+      <header>
+        <h2 id="notes-title">What this concept changes</h2>
+        <button class="close" type="button" data-close-notes aria-label="Close">×</button>
+      </header>
+      <div class="cols">
+        <div><h3>The current site</h3><ul>{demo.source.before.map((b) => <li>{b}</li>)}</ul></div>
+        <div class="after"><h3>This concept</h3><ul>{after.map((b) => <li>{b}</li>)}</ul></div>
+      </div>
+      <p class="fine">
+        Words, hours and photos here come from {demo.name}'s own public pages (<a href={demo.source.url} target="_blank" rel="noopener nofollow">{sourceHost}</a>) and would be confirmed with the owner before anything goes live.
+      </p>
+    </dialog>
+
+    <script is:inline>
+      (() => {
+        const head = document.querySelector('[data-head]');
+        const btn = document.querySelector('[data-menu]');
+        btn?.addEventListener('click', () => { const open = head.classList.toggle('open'); btn.setAttribute('aria-expanded', String(open)); });
+        head?.querySelectorAll('.nav a').forEach((a) => a.addEventListener('click', () => { head.classList.remove('open'); btn?.setAttribute('aria-expanded', 'false'); }));
+
+        const dlg = document.querySelector('[data-notes]');
+        document.querySelector('[data-open-notes]')?.addEventListener('click', () => dlg.showModal());
+        document.querySelector('[data-close-notes]')?.addEventListener('click', () => dlg.close());
+        dlg?.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+
+        document.querySelector('[data-form]')?.addEventListener('submit', (e) => { e.preventDefault(); e.currentTarget.classList.add('done'); });
+
+        // Highlight today's row in the hours table.
+        const names = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+        const today = new Date().getDay();
+        document.querySelectorAll('.hours tr[data-days]').forEach((tr) => {
+          const d = tr.dataset.days.toLowerCase();
+          const hit = d.match(/(sun|mon|tue|wed|thu|fri|sat)\w*\s*(?:[-–—]|to|through)\s*(sun|mon|tue|wed|thu|fri|sat)/);
+          let on = false;
+          if (/daily|every day|7 days/.test(d)) on = true;
+          else if (hit) { const a = names.indexOf(hit[1]), b = names.indexOf(hit[2]); on = a <= b ? today >= a && today <= b : today >= a || today <= b; }
+          else on = d.split(/[,&/]|\band\b/).some((p) => names[today] && p.trim().startsWith(names[today]));
+          if (on) tr.classList.add('today');
+        });
+      })();
+    </script>
+  </body>
+</html>

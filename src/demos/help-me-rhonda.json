@@ -1,0 +1,94 @@
+{
+  "slug": "help-me-rhonda",
+  "prospect": "help-me-rhonda-bookkeeping-llc",
+  "name": "Help Me Rhonda Bookkeeping, LLC",
+  "short": "Help Me Rhonda",
+  "category": "Bookkeeping",
+  "group": "Professional",
+  "town": "North Augusta, SC",
+  "established": "2008",
+  "look": "clean",
+  "fonts": { "display": "outfit", "body": "dm-sans" },
+  "colors": {
+    "bg": "#f6faf8", "surface": "#ffffff", "ink": "#10201b", "muted": "#566860",
+    "primary": "#1f6b57", "onPrimary": "#ffffff", "accent": "#f2c66d", "line": "#dbe7e1"
+  },
+  "radius": 14,
+  "icon": "calculator",
+  "contact": {
+    "phone": "(706) 829-4070",
+    "email": "rhonda@hmrhonda.net",
+    "address": ["89 Crystal Lake Drive, Suite 200", "North Augusta, SC 29841"],
+    "mapQuery": "89 Crystal Lake Drive, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/hmrbookkeeping/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Locally owned since 2008",
+    "title": "Your books, handled. *Your mind, at ease.*",
+    "lede": "First-rate bookkeeping for local businesses, always with discretion, so you can focus on growing your own company.",
+    "cta": { "label": "Call (706) 829-4070", "href": "tel:+17068294070" },
+    "cta2": { "label": "What we do", "href": "#services" },
+    "points": ["Payroll", "Payables & receivables", "Financial reporting"]
+  },
+  "facts": [
+    { "value": "2008", "label": "Help Me Rhonda opened in September" },
+    { "value": "25+ years", "label": "Rhonda's experience in bookkeeping" },
+    { "value": "Local", "label": "Owned and operated by Rhonda Fry" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "services", "nav": "Services", "columns": 4,
+      "eyebrow": "What we do",
+      "title": "The numbers side of your business, *organized*",
+      "intro": "We give clients immediate access to their financial information, streamline daily transactions, and keep everything in order.",
+      "items": [
+        { "icon": "wallet", "title": "Payroll & daily data entry", "text": "Your team paid on time and your day-to-day transactions kept current." },
+        { "icon": "receipt", "title": "Accounts receivable & payable", "text": "Invoices out, bills paid, nothing slipping through the cracks." },
+        { "icon": "chart-column", "title": "Financial reporting", "text": "Clear reports whenever you need to see where the business stands." },
+        { "icon": "trending-up", "title": "Cash flow forecasting", "text": "Know your cash position today and where it is heading." }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "Meet the owner",
+      "title": "Rhonda J. Fry, *owner*",
+      "body": [
+        "Rhonda Fry began Help Me Rhonda Bookkeeping in September 2008, after six years as bookkeeper and office manager for Hammond's Ferry. She has more than 25 years of experience in the bookkeeping world and has built a stellar reputation among our clients and community.",
+        "Rhonda enjoys problem-solving, keeping clients aware of their current cash flow, and having a hand in helping them reach financial stability. In her down time she loves gardening, stargazing, and taking pictures of her food before she eats it."
+      ]
+    },
+    {
+      "type": "columns", "id": "mission", "nav": "Mission",
+      "eyebrow": "What guides us",
+      "title": "Mission and *vision*",
+      "columns": [
+        { "title": "Our mission", "items": ["Provide first-rate bookkeeping services", "Always exercise discretion", "Give clients immediate access to their financial information", "Manage and streamline daily business transactions", "Keep financial assets organized"] },
+        { "title": "Our vision", "items": ["Be noble in business", "Serve our clients to the best of our ability", "Help clients achieve their financial and business goals", "Be upstanding citizens in our community"] }
+      ]
+    },
+    {
+      "type": "quotes", "id": "testimonials", "nav": "Testimonials",
+      "eyebrow": "Client words",
+      "title": "\"As though I am their *only client*\"",
+      "items": [
+        { "text": "Help Me Rhonda helps me manage my entire payroll, bookkeeping and quarterly tax needs. I can't say enough good things about them. The professionalism and timeliness of this company is fantastic! When I call for anything, I usually get someone right away, and if not, they get back to me within the hour.", "by": "Clint Steerman, Metro One Ambulance Inc." }
+      ]
+    }
+  ],
+  "visit": {
+    "title": "Let's talk about *your books*",
+    "formTitle": "Request a consultation",
+    "formTopics": ["Payroll", "Accounts receivable & payable", "Financial reporting", "Cash flow forecasting", "Not sure yet"]
+  },
+  "source": {
+    "url": "https://hmrhonda.net/",
+    "before": [
+      "Runs WordPress 4.7 from 2016, missing years of security updates",
+      "Hosted on PHP 5.6, which reached end of life in 2018",
+      "No description for Google results or link previews",
+      "No favicon",
+      "For a business that handles financial records, an unpatched site is a real risk"
+    ]
+  }
+}

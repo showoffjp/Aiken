@@ -1,0 +1,45 @@
+{
+  "name": "aiken-web-refresh",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "collect": "node scripts/collect-chamber.mjs && node scripts/collect-visitaiken.mjs && node scripts/collect-adda.mjs && node scripts/collect-northaugusta.mjs",
+    "merge": "node scripts/merge.mjs",
+    "audit": "node scripts/audit.mjs",
+    "export": "node scripts/export.mjs",
+    "data": "npm run collect && npm run merge && npm run audit && npm run export",
+    "prebuild": "node scripts/copy-fonts.mjs",
+    "digest": "node scripts/digest.mjs",
+    "shots": "node scripts/shots.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "@fontsource-variable/bitter": "^5.3.0",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/cormorant": "^5.3.0",
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/libre-franklin": "^5.3.0",
+    "@fontsource-variable/lora": "^5.3.0",
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource-variable/nunito-sans": "^5.3.0",
+    "@fontsource-variable/oswald": "^5.3.0",
+    "@fontsource-variable/outfit": "^5.3.0",
+    "@fontsource-variable/playfair-display": "^5.3.0",
+    "@fontsource-variable/source-sans-3": "^5.3.1",
+    "@fontsource-variable/space-grotesk": "^5.3.0",
+    "@fontsource-variable/work-sans": "^5.3.0",
+    "astro": "^7.4.12",
+    "lucide-static": "^1.73.0",
+    "sharp": "^0.35.5"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "description": "Research, audit and redesign concepts for independent businesses around Aiken, SC."
+}

@@ -1,0 +1,99 @@
+{
+ "archivo": {
+  "family": "Archivo",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/archivo.woff2",
+  "italic": "/fonts/archivo-italic.woff2"
+ },
+ "bitter": {
+  "family": "Bitter",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/bitter.woff2",
+  "italic": "/fonts/bitter-italic.woff2"
+ },
+ "bricolage-grotesque": {
+  "family": "Bricolage Grotesque",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/bricolage-grotesque.woff2"
+ },
+ "cormorant": {
+  "family": "Cormorant",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/cormorant.woff2",
+  "italic": "/fonts/cormorant-italic.woff2"
+ },
+ "dm-sans": {
+  "family": "DM Sans",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/dm-sans.woff2",
+  "italic": "/fonts/dm-sans-italic.woff2"
+ },
+ "fraunces": {
+  "family": "Fraunces",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/fraunces.woff2",
+  "italic": "/fonts/fraunces-italic.woff2"
+ },
+ "inter": {
+  "family": "Inter",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/inter.woff2",
+  "italic": "/fonts/inter-italic.woff2"
+ },
+ "libre-franklin": {
+  "family": "Libre Franklin",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/libre-franklin.woff2",
+  "italic": "/fonts/libre-franklin-italic.woff2"
+ },
+ "lora": {
+  "family": "Lora",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/lora.woff2",
+  "italic": "/fonts/lora-italic.woff2"
+ },
+ "manrope": {
+  "family": "Manrope",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/manrope.woff2"
+ },
+ "nunito-sans": {
+  "family": "Nunito Sans",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/nunito-sans.woff2",
+  "italic": "/fonts/nunito-sans-italic.woff2"
+ },
+ "oswald": {
+  "family": "Oswald",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/oswald.woff2"
+ },
+ "outfit": {
+  "family": "Outfit",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/outfit.woff2"
+ },
+ "playfair-display": {
+  "family": "Playfair Display",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/playfair-display.woff2",
+  "italic": "/fonts/playfair-display-italic.woff2"
+ },
+ "source-sans-3": {
+  "family": "Source Sans 3",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/source-sans-3.woff2",
+  "italic": "/fonts/source-sans-3-italic.woff2"
+ },
+ "space-grotesk": {
+  "family": "Space Grotesk",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/space-grotesk.woff2"
+ },
+ "work-sans": {
+  "family": "Work Sans",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/work-sans.woff2",
+  "italic": "/fonts/work-sans-italic.woff2"
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "include": [
+    "The Willcox",
+    "Hutson-Etherredge Companies",
+    "Legare Gardens",
+    "The Aiken Horse",
+    "Gaston Livery Stable"
+  ],
+  "exclude": [
+    "www.VisitAikenSC.com",
+    "Tom Young - State Senate",
+    "Aiken Downtown Cultural District",
+    "Meta",
+    "Welcome Wagon",
+    "Can You Outwit The Kit?",
+    "Salt + Marrow Kitchen at Crowne Plaza"
+  ]
+}

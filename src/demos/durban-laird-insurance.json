@@ -1,0 +1,97 @@
+{
+  "slug": "durban-laird-insurance",
+  "name": "Durban-Laird Insurance",
+  "short": "Durban-Laird Insurance",
+  "category": "Independent Insurance Agency",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": { "display": "playfair-display", "body": "libre-franklin" },
+  "colors": {
+    "bg": "#f6f5f1", "surface": "#ffffff", "ink": "#14202c", "muted": "#566270",
+    "primary": "#173a5c", "onPrimary": "#ffffff", "accent": "#b98f4f", "line": "#d9d8d1"
+  },
+  "radius": 2,
+  "icon": "shield-check",
+  "contact": {
+    "phone": "(803) 649-2561",
+    "email": "insurance@durban-laird.com",
+    "address": ["155 Laurens Street SW", "Aiken, SC 29801"],
+    "mapQuery": "Durban-Laird Insurance, 155 Laurens Street SW, Aiken, SC 29801",
+    "hours": [["Monday – Friday", "9:00 am – 5:00 pm"]],
+    "hoursNote": "Available at other times by appointment."
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "A Trusted Choice independent agency",
+    "title": "Insuring Aiken for *over 100 years*",
+    "lede": "Personal, professional help with insurance for your family, your home and your business, from an independent agency on Laurens Street.",
+    "cta": { "label": "Call (803) 649-2561", "href": "tel:+18036492561" },
+    "cta2": { "label": "Email us", "href": "mailto:insurance@durban-laird.com" }
+  },
+  "facts": [
+    { "value": "100+ years", "label": "Serving the Aiken area" },
+    { "value": "Independent", "label": "A Trusted Choice agency: we work for you" },
+    { "value": "8 insurers", "label": "Represented, so we can compare for you" },
+    { "value": "Downtown", "label": "155 Laurens Street SW" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "personal", "nav": "Personal", "columns": 3,
+      "eyebrow": "Families and individuals",
+      "title": "Protection for the things *you love*",
+      "items": [
+        { "icon": "car", "title": "Auto" },
+        { "icon": "house", "title": "Homeowners" },
+        { "icon": "sailboat", "title": "Watercraft" },
+        { "icon": "umbrella", "title": "Personal umbrella" },
+        { "icon": "heart-pulse", "title": "Life" }
+      ]
+    },
+    {
+      "type": "services", "id": "business", "nav": "Business", "style": "list",
+      "eyebrow": "Businesses and organizations",
+      "title": "Coverage for the work *you do*",
+      "items": [
+        { "icon": "building-2", "title": "Property & liability" },
+        { "icon": "forklift", "title": "Equipment" },
+        { "icon": "truck", "title": "Commercial auto" },
+        { "icon": "hard-hat", "title": "Workers compensation" },
+        { "icon": "umbrella", "title": "Commercial umbrella" },
+        { "icon": "file-signature", "title": "Surety bonding" },
+        { "icon": "lock", "title": "Cyber liability" },
+        { "icon": "users", "title": "Employment practices" }
+      ]
+    },
+    {
+      "type": "columns", "id": "insurers", "nav": "Insurers",
+      "eyebrow": "Who stands behind your policy",
+      "title": "Insurers we *represent*",
+      "intro": "As an independent agency we are not tied to one company.",
+      "columns": [
+        { "title": "Carriers", "items": ["Auto-Owners", "Main Street America Group", "Kemper", "Progressive"] },
+        { "title": "And", "items": ["Foremost", "Builders Mutual", "Utica National", "SC Home Builders SIF"] }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Please contact us today for personal, professional assistance with your insurance needs.",
+      "cta": { "label": "Call (803) 649-2561", "href": "tel:+18036492561" }
+    }
+  ],
+  "visit": {
+    "title": "Stop in on *Laurens Street*",
+    "formTitle": "Request a quote",
+    "formTopics": ["Auto", "Homeowners", "Life", "Watercraft or umbrella", "Business insurance", "Surety bond"]
+  },
+  "source": {
+    "url": "http://www.aikeninsurance.com/",
+    "before": [
+      "No working HTTPS: browsers warn visitors the site is \"Not secure\", a poor first impression for an insurer",
+      "A single page exported from a desktop design program; the home page file was last changed in 2017",
+      "The page title shown in Google is just \"index\"",
+      "No description, link previews, favicon or business details for search",
+      "No way to request a quote online"
+    ]
+  }
+}

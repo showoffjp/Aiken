@@ -1,0 +1,17 @@
+---
+// Inline a Lucide icon at build time (no icon font, no runtime request).
+import { readFileSync, existsSync } from 'node:fs';
+import path from 'node:path';
+
+interface Props { name: string; size?: number; stroke?: number; class?: string }
+const { name, size = 24, stroke = 1.75, class: className = '' } = Astro.props;
+
+const dir = path.join(process.cwd(), 'node_modules', 'lucide-static', 'icons');
+const file = existsSync(path.join(dir, `${name}.svg`)) ? path.join(dir, `${name}.svg`) : path.join(dir, 'circle.svg');
+const inner = readFileSync(file, 'utf8')
+  .replace(/<!--[\s\S]*?-->/g, '')
+  .replace(/^[\s\S]*?<svg[^>]*>/, '')
+  .replace(/<\/svg>\s*$/, '')
+  .trim();
+---
+<svg class={`icon ${className}`} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width={stroke} stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={inner} />

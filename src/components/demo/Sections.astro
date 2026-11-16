@@ -1,0 +1,171 @@
+---
+// Renders the list of content sections for a concept, in order.
+import Icon from '../Icon.astro';
+import { title, sectionId, type Demo } from '../../lib/demos';
+interface Props { demo: Demo }
+const { demo } = Astro.props;
+---
+{demo.sections.map((s, i) => {
+  const id = sectionId(s, i);
+  const alt = i % 2 === 1 ? 'alt' : '';
+  if (s.type === 'services') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.intro && <p>{s.intro}</p>}
+        </div>
+        {s.style === 'list' ? (
+          <ul class="rows">
+            {s.items.map((it) => (
+              <li>
+                <Icon name={it.icon || 'check'} size={22} />
+                <div><h3>{it.title}</h3>{it.text && <p>{it.text}</p>}</div>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <ul class="cards" style={`--cols:${s.columns || 3}`}>
+            {s.items.map((it) => (
+              <li class="card">
+                {it.icon && <div class="badge"><Icon name={it.icon} size={24} /></div>}
+                <h3>{it.title}</h3>
+                {it.text && <p>{it.text}</p>}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </section>
+  );
+  if (s.type === 'story') return (
+    <section class={`section story ${alt} ${s.flip ? 'flip' : ''} ${s.image ? '' : 'solo'} ${s.image?.width && s.image?.height && s.image.width / s.image.height > 2.3 ? 'pano' : ''}`} id={id}>
+      <div class="wrap">
+        {s.image && (
+          <div class="story-media">
+            <img src={s.image.src} alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
+          </div>
+        )}
+        <div class="body">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.body.map((p) => <p>{p}</p>)}
+          {s.list && (
+            <ul class="ticks">
+              {s.list.map((l) => <li><Icon name="check" size={20} stroke={2.4} /><span>{l}</span></li>)}
+            </ul>
+          )}
+          {s.quote && <blockquote class="pull">{s.quote.text}{s.quote.by && <cite>{s.quote.by}</cite>}</blockquote>}
+        </div>
+      </div>
+    </section>
+  );
+  if (s.type === 'menu') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.intro && <p>{s.intro}</p>}
+        </div>
+        <div class="menu-groups">
+          {s.groups.map((g) => (
+            <div class="menu-group">
+              <h3>{g.title}{g.note && <small>{g.note}</small>}</h3>
+              <ul>
+                {g.items.map((it) => (
+                  <li>
+                    <div class="line"><span>{it.name}</span>{it.price && <><i></i><span class="price">{it.price}</span></>}</div>
+                    {it.desc && <p>{it.desc}</p>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+        {s.footnote && <p class="footnote">{s.footnote}</p>}
+      </div>
+    </section>
+  );
+  if (s.type === 'gallery') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.intro && <p>{s.intro}</p>}
+        </div>
+        <div class="gallery">
+          {s.images.map((img, n) => {
+            const ratio = img.width && img.height ? img.width / img.height : 1;
+            const shape = ratio > 1.55 && n % 3 === 0 ? 'wide' : ratio < 0.72 ? 'tall' : '';
+            return <figure class={shape}><img src={img.src} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
+          })}
+        </div>
+      </div>
+    </section>
+  );
+  if (s.type === 'steps') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.intro && <p>{s.intro}</p>}
+        </div>
+        <ol class="steps" style="list-style:none;margin:0;padding:0">
+          {s.items.map((it) => <li><h3>{it.title}</h3><p>{it.text}</p></li>)}
+        </ol>
+      </div>
+    </section>
+  );
+  if (s.type === 'quotes') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+        </div>
+        <div class="quotes">
+          {s.items.map((q) => <figure><blockquote>{q.text}</blockquote>{q.by && <figcaption>{q.by}</figcaption>}</figure>)}
+        </div>
+      </div>
+    </section>
+  );
+  if (s.type === 'faq') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+        </div>
+        <div class="faq">
+          {s.items.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+        </div>
+      </div>
+    </section>
+  );
+  if (s.type === 'columns') return (
+    <section class={`section ${alt}`} id={id}>
+      <div class="wrap">
+        <div class="section-head">
+          {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+          <h2 set:html={title(s.title)} />
+          {s.intro && <p>{s.intro}</p>}
+        </div>
+        <div class="cols">
+          {s.columns.map((c) => <div><h3>{c.title}</h3><ul>{c.items.map((x) => <li>{x}</li>)}</ul></div>)}
+        </div>
+      </div>
+    </section>
+  );
+  if (s.type === 'band') return (
+    <section class="band" id={id}>
+      <div class="wrap">
+        <div><h2 set:html={title(s.title)} />{s.text && <p>{s.text}</p>}</div>
+        {s.cta && <a class="btn" href={s.cta.href}>{s.cta.label}<Icon name="arrow-right" size={18} stroke={2.2} /></a>}
+      </div>
+    </section>
+  );
+})}

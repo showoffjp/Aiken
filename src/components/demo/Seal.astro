@@ -1,0 +1,32 @@
+---
+// A round "maker's mark" drawn from the business name. Used wherever a
+// concept has no suitable photo, so every site still has a strong visual.
+import Icon from '../Icon.astro';
+interface Props { top: string; bottom: string; icon: string; id: string }
+const { top, bottom, icon, id } = Astro.props;
+// Arc lengths for r=78 (top) and r=96 (bottom) half circles.
+const fit = (text: string, arc: number, per: number) => Math.min(arc, Math.max(60, text.length * per));
+const topText = top.toUpperCase();
+const bottomText = bottom.toUpperCase();
+---
+<svg class="seal" viewBox="0 0 220 220" role="img" aria-label={`${top} emblem`}>
+  <defs>
+    <path id={`${id}-t`} d="M 32,110 A 78,78 0 0 1 188,110" />
+    <path id={`${id}-b`} d="M 14,110 A 96,96 0 0 0 206,110" />
+  </defs>
+  <circle class="ring" cx="110" cy="110" r="106" stroke-width="1.5" />
+  <circle class="ring" cx="110" cy="110" r="100" stroke-width=".75" />
+  <circle class="ring" cx="110" cy="110" r="64" stroke-width=".75" />
+  <circle class="disc" cx="110" cy="110" r="57" />
+  <text font-size="15" text-anchor="middle">
+    <textPath href={`#${id}-t`} startOffset="50%" textLength={fit(topText, 220, 12.5)} lengthAdjust="spacing">{topText}</textPath>
+  </text>
+  <text font-size="10.5" text-anchor="middle">
+    <textPath href={`#${id}-b`} startOffset="50%" textLength={fit(bottomText, 250, 9.2)} lengthAdjust="spacing">{bottomText}</textPath>
+  </text>
+  <circle cx="24" cy="110" r="2.2" fill="currentColor" />
+  <circle cx="196" cy="110" r="2.2" fill="currentColor" />
+  <g class="glyph" transform="translate(79 79)">
+    <Icon name={icon} size={62} stroke={1.35} />
+  </g>
+</svg>

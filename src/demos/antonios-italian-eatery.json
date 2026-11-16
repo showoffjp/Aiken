@@ -1,0 +1,142 @@
+{
+  "slug": "antonios-italian-eatery",
+  "name": "Antonio's Italian Eatery",
+  "short": "Antonio's",
+  "category": "Italian Restaurant",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "warm",
+  "fonts": { "display": "playfair-display", "body": "nunito-sans" },
+  "colors": {
+    "bg": "#fbf5ea", "surface": "#fffdf8", "ink": "#2a1a14", "muted": "#6f5c51",
+    "primary": "#8c1c2b", "onPrimary": "#fff8ee", "accent": "#e9b24c", "line": "#eaddc8"
+  },
+  "radius": 14,
+  "icon": "pizza",
+  "contact": {
+    "phone": "(803) 341-9720",
+    "phoneLabel": "Call to order",
+    "address": ["336 Georgia Avenue, Suite 103", "North Augusta, SC 29841"],
+    "mapQuery": "Antonio's Italian Eatery, 336 Georgia Avenue, North Augusta, SC 29841",
+    "hours": [["Monday – Thursday", "11:00 am – 9:00 pm"], ["Friday", "11:00 am – 10:00 pm"], ["Saturday", "12:00 pm – 9:00 pm"]],
+    "hoursNote": "There is an additional charge for to-go orders."
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Bringing Italy to North Augusta",
+    "title": "Pizza, pasta and *party trays*",
+    "lede": "Hand-tossed Neapolitan pies, thick-crust Sicilian, baked pastas, calzones and fresh salads, served on Georgia Avenue. Everything from pizza to pasta, sandwiches to party trays.",
+    "cta": { "label": "Call (803) 341-9720", "href": "tel:+18033419720" },
+    "cta2": { "label": "See the menu", "href": "#menu" }
+  },
+  "facts": [
+    { "value": "Hand tossed", "label": "Neapolitan pizza, 14 or 16 inch" },
+    { "value": "Sicilian", "label": "Thick crust, by the slice or the pie" },
+    { "value": "Party trays", "label": "Pastas and salads that serve 8 to 10" },
+    { "value": "To go", "label": "Call ahead and pick it up hot" }
+  ],
+  "sections": [
+    {
+      "type": "menu", "id": "menu", "nav": "Menu",
+      "eyebrow": "From our kitchen",
+      "title": "The *menu*",
+      "intro": "Dinners are served with garden salad and Italian bread. Most pastas come with your choice of meat sauce or marinara.",
+      "groups": [
+        { "title": "Appetizers", "items": [
+          { "name": "Breadsticks with sauce", "price": "4.65" },
+          { "name": "Garlic cheese bread with sauce", "price": "4.25" },
+          { "name": "Pesto garlic cheese bread", "price": "5.15" },
+          { "name": "Italian sausage with cheese", "price": "5.75" },
+          { "name": "Meatballs with cheese", "price": "5.50" },
+          { "name": "Pepperoni roll with sauce", "price": "5.75" },
+          { "name": "Garlic dough dots", "price": "6.75" }
+        ] },
+        { "title": "Salads", "note": "Family sizes available", "items": [
+          { "name": "Garden salad", "desc": "Lettuce, tomato, cucumber and red onion", "price": "4.25" },
+          { "name": "Antipasto salad", "desc": "Ham, green olives, pepperoni, mozzarella, salami and red onion", "price": "7.60" },
+          { "name": "Greek salad", "desc": "Feta, Greek olives, cucumbers, pepperoncini and tomato with Antonio's dressing", "price": "7.60" },
+          { "name": "Grilled chicken salad", "desc": "Seasoned grilled chicken breast, tomato, red onion, cucumber and mozzarella", "price": "9.90" },
+          { "name": "Pesto chicken spinach salad", "desc": "Fresh mushrooms, Roma tomatoes and pesto grilled chicken over baby spinach", "price": "9.90" }
+        ] },
+        { "title": "Dinners", "items": [
+          { "name": "Lasagna", "desc": "Layered with ricotta, mozzarella and ground beef, covered with meat sauce", "price": "14.05" },
+          { "name": "Chicken parmigiana", "desc": "Breaded chicken breast with parmesan and mozzarella, with a side of spaghetti", "price": "17.55" },
+          { "name": "Eggplant parmigiana", "desc": "Breaded eggplant layered with marinara and mozzarella", "price": "14.60" },
+          { "name": "Fettuccine Alfredo", "desc": "Tossed in a rich cream sauce with parmesan", "price": "15.10" },
+          { "name": "Linguine with clams", "desc": "Clams sautéed in garlic, white wine and their natural juices", "price": "16.20" },
+          { "name": "Baked penne", "desc": "With ricotta and mozzarella, topped with more mozzarella", "price": "13.95" },
+          { "name": "Stuffed shells", "desc": "Filled with ricotta and mozzarella", "price": "13.05" },
+          { "name": "Cheese ravioli", "desc": "Stuffed with ricotta, parmesan and provolone", "price": "12.30" },
+          { "name": "Manicotti", "price": "12.55" },
+          { "name": "Baked spaghetti", "desc": "Topped with mozzarella", "price": "13.75" }
+        ] },
+        { "title": "Specialty items", "note": "With meat sauce or marinara", "items": [
+          { "name": "Cheese calzone", "desc": "Pizza dough stuffed with ricotta and mozzarella", "price": "7.25" },
+          { "name": "Spinach & feta calzone", "price": "8.85" },
+          { "name": "Sausage roll", "desc": "Sausage, green peppers, onions and mozzarella", "price": "8.95" },
+          { "name": "Stromboli", "desc": "Ham, pepperoni and mozzarella", "price": "7.75" }
+        ] },
+        { "title": "Pizza", "note": "Hand tossed or Sicilian", "items": [
+          { "name": "Neapolitan cheese, 14\"", "desc": "Hand tossed. 16\" for 13.85", "price": "11.75" },
+          { "name": "Sicilian cheese, 8 slice", "desc": "Thick crust. 12 slice for 18.25", "price": "14.00" },
+          { "name": "Olive oil & garlic pizza", "price": "12.25" },
+          { "name": "Pizza by the slice", "desc": "Hand tossed or Sicilian cheese", "price": "from 3.00" }
+        ] },
+        { "title": "Specialty pizza", "note": "14\" prices", "items": [
+          { "name": "Deluxe", "desc": "Ten toppings", "price": "18.60" },
+          { "name": "Meat pizza", "desc": "Pepperoni, Italian sausage, ham, beef and bacon", "price": "15.95" },
+          { "name": "Veggie pizza", "desc": "Olives, fresh mushrooms, onions and bell peppers", "price": "15.35" },
+          { "name": "Greek pizza", "desc": "Feta, Greek olives, tomato, red onion and pepperoncini", "price": "18.60" },
+          { "name": "Margherita", "desc": "Fresh mozzarella, Roma tomatoes and fresh basil", "price": "15.95" },
+          { "name": "The Donna Rae", "desc": "Pepperoni, onion, bacon and banana peppers", "price": "15.15" },
+          { "name": "White clam pizza", "desc": "Olive oil, fresh garlic, chopped clams and mozzarella", "price": "17.95" },
+          { "name": "Buffalo wing pizza", "desc": "Buffalo chicken, wing sauce, bleu cheese crumbles and celery", "price": "15.65" }
+        ] }
+      ],
+      "footnote": "Menu and prices as posted on the restaurant's current website; to be confirmed before launch."
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "Come by and see us",
+      "title": "A neighborhood *Italian kitchen*",
+      "image": { "src": "/demo-assets/antonios-italian-eatery/storefront.webp", "alt": "The striped awning over Antonio's Italian Eatery" },
+      "body": [
+        "Bringing Italy to North Augusta, Antonio's Italian Eatery serves the CSRA some of the best food around. Look for the striped awning on Georgia Avenue.",
+        "Enjoy everything from pizza to pasta, sandwiches to party trays. Your opinions, comments and suggestions are always appreciated, so give us a call."
+      ]
+    },
+    {
+      "type": "columns", "id": "catering", "nav": "Party trays",
+      "eyebrow": "Feeding a crowd",
+      "title": "Party trays that *serve 8 to 10*",
+      "intro": "Catering orders are subject to a catering charge. Ask about other items.",
+      "columns": [
+        { "title": "Pasta trays", "items": ["Lasagna", "Baked penne", "Spaghetti", "Baked spaghetti", "Eggplant parmesan", "Meatballs in sauce"] },
+        { "title": "Stuffed pastas", "items": ["Cheese ravioli", "Meat ravioli", "Manicotti", "Meat cannelloni", "Stuffed shells"] },
+        { "title": "Salad trays", "items": ["Antipasto salad", "Greek salad", "Garden salad", "Italian pasta salad"] },
+        { "title": "Extras", "items": ["Italian bread", "Garlic bread", "Gallon of tea or soda"] }
+      ]
+    },
+    {
+      "type": "quotes", "id": "reviews", "nav": "Reviews",
+      "eyebrow": "From our guests",
+      "title": "What people *say*",
+      "items": [
+        { "text": "Stumbled on this gem of a restaurant by accident. Antipasto salad was delicious, fresh with light wonderful dressing. Pizza was the best we have found in the CSRA!", "by": "Carla B." },
+        { "text": "My son and I had dinner here, and it was absolutely delicious! Nice, warm environment, friendly servers, and our pizza was superb.", "by": "Donna M." },
+        { "text": "My husband and son adore the stromboli and the Italian sausage with cheese appetizer.", "by": "Rebecca" }
+      ]
+    }
+  ],
+  "visit": { "title": "Find *the awning*", "hideForm": true },
+  "source": {
+    "url": "https://antoniositalianeatery.wordpress.com/",
+    "before": [
+      "Lives on a free WordPress.com blog address, with blog comment boxes and trackback links on every page",
+      "The menu is a set of scanned images: hard to read on a phone and invisible to Google",
+      "No mobile layout",
+      "Photos are broken, replaced by a photo-host watermark",
+      "No tap-to-call or directions"
+    ]
+  }
+}

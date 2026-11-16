@@ -1,0 +1,101 @@
+{
+  "slug": "howell-printing",
+  "prospect": "howell-printing-company",
+  "name": "Howell Printing Company",
+  "short": "Howell Printing",
+  "category": "Commercial Printing",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "established": "1867",
+  "look": "editorial",
+  "fonts": { "display": "fraunces", "body": "work-sans" },
+  "colors": {
+    "bg": "#f8f5ee", "surface": "#ffffff", "ink": "#1b1a19", "muted": "#615c55",
+    "primary": "#b0151e", "onPrimary": "#ffffff", "accent": "#e2a82b", "line": "#ddd6c8"
+  },
+  "radius": 2,
+  "icon": "printer",
+  "logo": { "src": "/demo-assets/howell-printing/logo.png", "alt": "Howell Printing Company, since 1867" },
+  "contact": {
+    "phone": "(803) 649-2545",
+    "email": "tara@howellprinting.net",
+    "address": ["345 Barnwell Avenue NW", "Aiken, SC 29801"],
+    "mapQuery": "Howell Printing Company, 345 Barnwell Avenue NW, Aiken, SC 29801",
+    "hours": [["Monday – Thursday", "9:00 – 5:00"], ["Friday", "9:00 – 12:00"], ["Saturday – Sunday", "Closed"]],
+    "hoursNote": "Closed for lunch 12:30 – 1:30.",
+    "facebook": "https://www.facebook.com/p/Howell-Printing-Company-100063631475485/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken's commercial printer since 1867",
+    "title": "Ink on paper, *done properly.*",
+    "lede": "Offset, digital and letterpress printing, graphic design, signs and mailing, from a downtown shop that has been serving Aiken for more than 150 years.",
+    "cta": { "label": "Start a project", "href": "#visit" },
+    "cta2": { "label": "Our services", "href": "#services" },
+    "image": { "src": "/demo-assets/howell-printing/press.webp", "alt": "A letterpress at work in the Howell Printing shop" }
+  },
+  "facts": [
+    { "value": "1867", "label": "The year Howell Printing Co. was founded" },
+    { "value": "3 ways", "label": "Offset, digital and letterpress printing under one roof" },
+    { "value": "30+ years", "label": "Printing full-color racer hero cards" },
+    { "value": "Downtown", "label": "345 Barnwell Avenue NW, Aiken" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "services", "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "From concept to *completion*",
+      "intro": "Our in-house staff can help you put your ideas to paper, whatever your company needs printed.",
+      "items": [
+        { "icon": "layers", "title": "Offset & digital printing", "text": "Books, flyers, forms and business cards. Customize every detail from size to fold, with a wide variety of papers and finishes." },
+        { "icon": "pen-tool", "title": "Graphic design", "text": "Need a new logo, flyer or book design? Our designers create an image that helps you stand out." },
+        { "icon": "flag", "title": "Signs & banners", "text": "Yard signs, banners, retractable banners and faux checks, made from the best materials available." },
+        { "icon": "mailbox", "title": "Mailing", "text": "Standard, bulk and EDDM mail. We handle the printing and the mailing to reach your audience." },
+        { "icon": "flag-triangle-right", "title": "Motorsports printing", "text": "Custom hero cards, handouts and promotional pieces for professional and sportsman racers." },
+        { "icon": "stamp", "title": "Letterpress", "text": "Traditional letterpress, foil stamping, die cutting, embossing, numbering, perforating and scoring." }
+      ]
+    },
+    {
+      "type": "story", "id": "story", "nav": "Our story",
+      "eyebrow": "Who we are",
+      "title": "Old-school service, *since 1867*",
+      "image": { "src": "/demo-assets/howell-printing/storefront.webp", "alt": "The Howell Printing building on Barnwell Avenue" },
+      "body": [
+        "Howell Printing Co. was founded in 1867, and from the first day in business our name has stood for quality throughout Aiken and the surrounding areas.",
+        "Old-school service and top-quality work is what we are all about. We source exactly what you need, work with our suppliers to get the best possible pricing, and pass the savings along to you."
+      ],
+      "quote": { "text": "Come by and talk to one of our graphic designers about your next project." }
+    },
+    {
+      "type": "columns", "id": "print", "nav": "What we print",
+      "eyebrow": "On the press",
+      "title": "If it can be printed, *ask us*",
+      "columns": [
+        { "title": "For business", "items": ["Business cards", "Brochures & rack cards", "Stationery & forms", "Calendars", "Magazines & books"] },
+        { "title": "Signs", "items": ["Yard signs", "Banners", "Retractable banners", "Faux checks"] },
+        { "title": "Mail", "items": ["Standard mail", "Bulk mail", "EDDM mailing"] },
+        { "title": "Finishing", "items": ["Foil stamping", "Die cutting", "Embossing", "Numbering", "Perforating & scoring"] }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Have a project in mind?",
+      "text": "Call, email, or stop in at the shop on Barnwell Avenue.",
+      "cta": { "label": "Call (803) 649-2545", "href": "tel:+18036492545" }
+    }
+  ],
+  "visit": {
+    "title": "Stop by *the shop*",
+    "formTitle": "Request a quote",
+    "formTopics": ["Offset or digital printing", "Graphic design", "Signs & banners", "Mailing", "Motorsports printing", "Letterpress"]
+  },
+  "source": {
+    "url": "http://www.howellprinting.net/",
+    "before": [
+      "No working HTTPS, so browsers label the site \"Not secure\"",
+      "Generic site-builder template with stock photos instead of the real shop",
+      "A cookie banner covers the page on first visit",
+      "More than 150 years of history gets two short paragraphs"
+    ]
+  }
+}

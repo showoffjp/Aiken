@@ -1,0 +1,80 @@
+// Every redesign concept is one JSON file in src/demos. This module loads
+// them all and gives the pages a typed, sorted list.
+import fontsJson from './fonts.json';
+import sizesJson from './image-sizes.json';
+
+export type Img = { src: string; alt: string; width?: number; height?: number; fit?: 'cover' | 'contain' };
+export type Cta = { label: string; href: string };
+
+export type Section =
+  | { type: 'services'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; columns?: 2 | 3 | 4; style?: 'cards' | 'list'; items: { icon?: string; title: string; text?: string }[] }
+  | { type: 'story'; id?: string; nav?: string; eyebrow?: string; title: string; body: string[]; image?: Img; list?: string[]; quote?: { text: string; by?: string }; flip?: boolean }
+  | { type: 'menu'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; footnote?: string; groups: { title: string; note?: string; items: { name: string; desc?: string; price?: string }[] }[] }
+  | { type: 'gallery'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; images: Img[] }
+  | { type: 'steps'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; items: { title: string; text: string }[] }
+  | { type: 'quotes'; id?: string; nav?: string; eyebrow?: string; title: string; items: { text: string; by?: string }[] }
+  | { type: 'faq'; id?: string; nav?: string; eyebrow?: string; title: string; items: { q: string; a: string }[] }
+  | { type: 'columns'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; columns: { title: string; items: string[] }[] }
+  | { type: 'band'; id?: string; title: string; text?: string; cta?: Cta };
+
+export type Demo = {
+  slug: string;
+  /** slug of the matching row in data/prospects.json, if it differs */
+  prospect?: string;
+  name: string;
+  short?: string;
+  category: string;
+  group: string;
+  town: string;
+  look: 'editorial' | 'bold' | 'warm' | 'clean' | 'boutique';
+  fonts: { display: keyof typeof fontsJson; body: keyof typeof fontsJson };
+  colors: { bg: string; surface: string; ink: string; muted: string; primary: string; onPrimary: string; accent: string; line: string };
+  radius?: number;
+  icon: string;
+  established?: string;
+  logo?: Img;
+  contact: {
+    phone?: string; phoneLabel?: string; phone2?: string; phone2Label?: string; email?: string;
+    address?: string[]; mapQuery?: string;
+    hours?: [string, string][]; hoursNote?: string;
+    facebook?: string; instagram?: string;
+  };
+  hero: { variant?: 'split' | 'banner' | 'centered' | 'photo'; eyebrow?: string; title: string; lede: string; cta?: Cta; cta2?: Cta; image?: Img; points?: string[] };
+  facts?: { value: string; label: string }[];
+  sections: Section[];
+  visit?: { title?: string; intro?: string; formTitle?: string; formTopics?: string[]; hideForm?: boolean };
+  source: { url: string; before: string[]; after?: string[] };
+};
+
+const files = import.meta.glob<{ default: Demo }>('../demos/*.json', { eager: true });
+
+// Image dimensions are recorded by scripts/assets.mjs; attach them to every
+// image so the browser can reserve space before the file arrives.
+const sizes = sizesJson as Record<string, [number, number]>;
+function withSizes<T>(node: T): T {
+  if (Array.isArray(node)) return node.map(withSizes) as T;
+  if (node && typeof node === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(node)) out[k] = withSizes(v);
+    const src = out.src;
+    if (typeof src === 'string' && sizes[src] && !out.width) [out.width, out.height] = sizes[src];
+    return out as T;
+  }
+  return node;
+}
+
+export const demos: Demo[] = Object.values(files)
+  .map((m) => withSizes(m.default))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+export const fonts = fontsJson as Record<string, { family: string; fallback: string; normal: string; italic?: string }>;
+
+export const telHref = (phone = '') => `tel:+1${phone.replace(/\D/g, '').replace(/^1(?=\d{10}$)/, '')}`;
+
+/** `*word*` in a title becomes an emphasised span. Everything else is escaped. */
+export function title(text: string): string {
+  const esc = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return esc.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+}
+
+export const sectionId = (s: Section, i: number) => ('id' in s && s.id) || `${s.type}-${i + 1}`;

@@ -1,0 +1,258 @@
+---
+// Portfolio index: every redesign concept in one place.
+import { existsSync, readFileSync } from 'node:fs';
+import path from 'node:path';
+import Icon from '../components/Icon.astro';
+import { demos, fonts } from '../lib/demos';
+import { site } from '../lib/site';
+
+const pub = path.join(process.cwd(), 'public');
+const shot = (name: string) => (existsSync(path.join(pub, 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const cards = demos.map((d) => ({
+  ...d,
+  after: shot(`${d.slug}-after`),
+  before: shot(`${d.prospect || d.slug}-before`),
+  host: new URL(d.source.url).hostname.replace(/^www\./, ''),
+}));
+const groups = [...new Set(cards.map((c) => c.group))].sort();
+const towns = new Set(cards.map((c) => c.town));
+
+// Headline numbers come straight from the research data.
+let researched = 0, needWork = 0;
+try {
+  const rows = JSON.parse(readFileSync(path.join(process.cwd(), 'data', 'prospects.json'), 'utf8'));
+  researched = rows.length;
+  needWork = rows.filter((r: { tier: string }) => ['rebuild', 'broken', 'dated'].includes(r.tier)).length;
+} catch {}
+
+const display = fonts['bricolage-grotesque'];
+const body = fonts.inter;
+const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}`).join('');
+const features = [
+  { icon: 'smartphone', title: 'Phone-first', text: 'Most local searches happen on a phone. Every page is designed for a thumb before a mouse.' },
+  { icon: 'zap', title: 'Fast', text: 'Static pages, optimised photos and self-hosted fonts. No page builders, no plugin bloat.' },
+  { icon: 'lock', title: 'Secure by default', text: 'HTTPS everywhere and nothing to patch, so no "Not secure" warnings.' },
+  { icon: 'phone-call', title: 'Built to get the call', text: 'Tap-to-call, directions and hours where people actually look for them.' },
+  { icon: 'search', title: 'Easy to find', text: 'Clean headings, real text instead of images of text, and descriptions written for search.' },
+  { icon: 'accessibility', title: 'Readable by everyone', text: 'Strong contrast, keyboard access and alt text on every photo.' },
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {!site.indexable && <meta name="robots" content="noindex, nofollow" />}
+    <title>{`${site.name} — website concepts for Aiken-area businesses`}</title>
+    <meta name="description" content={site.tagline} />
+    <meta name="theme-color" content="#143d2f" />
+    <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#143d2f"/><path d="M9 22 16 9l7 13" fill="none" stroke="#f3e9c9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>')}`} />
+    <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />
+    <style set:html={fontCss} />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="/"><span class="glyph"><svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>{site.name}</a>
+        <nav aria-label="Main">
+          <a href="#concepts">Concepts</a>
+          <a href="#included">What's included</a>
+          <a href="#how">How it works</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap">
+          <p class="kicker">Aiken · North Augusta · Graniteville · Jackson · Beech Island</p>
+          <h1>Your business is better than <em>its website.</em></h1>
+          <p class="lede">{site.tagline} We rebuilt {cards.length} local sites as working concepts so owners can see the difference before spending a dollar. Find yours below.</p>
+          <dl class="stats">
+            <div><dt>{cards.length}</dt><dd>working concepts</dd></div>
+            <div><dt>{towns.size}</dt><dd>towns so far</dd></div>
+            {researched > 0 && <div><dt>{researched}</dt><dd>local businesses reviewed</dd></div>}
+            {needWork > 0 && <div><dt>{needWork}</dt><dd>with sites that are down, broken or dated</dd></div>}
+          </dl>
+        </div>
+      </section>
+
+      <section class="concepts" id="concepts">
+        <div class="wrap">
+          <div class="bar">
+            <h2>The concepts</h2>
+            <div class="chips" role="group" aria-label="Filter by type">
+              <button type="button" class="chip on" data-filter="all">All <span>{cards.length}</span></button>
+              {groups.map((g) => <button type="button" class="chip" data-filter={g}>{g} <span>{cards.filter((c) => c.group === g).length}</span></button>)}
+            </div>
+            <label class="switch"><input type="checkbox" data-before /><span></span>Show the current sites</label>
+          </div>
+
+          <ul class="grid" data-grid>
+            {cards.map((c) => (
+              <li class="card" data-group={c.group}>
+                <a href={`/${c.slug}/`} aria-label={`${c.name}: view the concept`}>
+                  <div class="shot" style={`--tone:${c.colors.primary}`}>
+                    {c.after ? <img class="after" src={c.after} alt={`Concept redesign for ${c.name}`} width="1120" height="753" loading="lazy" /> : <div class="blank">{c.short || c.name}</div>}
+                    {c.before && <img class="before" src={c.before} alt={`${c.name}'s current website`} width="1120" height="753" loading="lazy" />}
+                    <span class="tag after-tag">Concept</span>
+                    {c.before && <span class="tag before-tag">Current site</span>}
+                  </div>
+                  <div class="meta">
+                    <div>
+                      <h3>{c.name}</h3>
+                      <p>{c.category} · {c.town}</p>
+                    </div>
+                    <span class="go"><Icon name="arrow-up-right" size={18} stroke={2.2} /></span>
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section class="included" id="included">
+        <div class="wrap">
+          <h2>What every concept includes</h2>
+          <ul class="features">
+            {features.map((f) => <li><span class="ico"><Icon name={f.icon} size={22} /></span><h3>{f.title}</h3><p>{f.text}</p></li>)}
+          </ul>
+        </div>
+      </section>
+
+      <section class="how" id="how">
+        <div class="wrap">
+          <h2>How it works</h2>
+          <ol>
+            <li><h3>Look at your concept</h3><p>It is already built with your own words, hours and photos. Open it on your phone and tap around.</p></li>
+            <li><h3>Tell us what to change</h3><p>New photos, a different colour, another page, an updated menu. We revise until it is right.</p></li>
+            <li><h3>Go live on your own address</h3><p>We move it to your domain, so customers land on the new site at the address they already know.</p></li>
+          </ol>
+          <div class="cta">
+            <h3>See your business here and want to talk?</h3>
+            {site.contactEmail || site.contactPhone ? (
+              <p>
+                {site.contactEmail && <a class="btn" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}
+                {site.contactPhone && <a class="btn ghost" href={`tel:${site.contactPhone.replace(/[^\d+]/g, '')}`}>{site.contactPhone}</a>}
+              </p>
+            ) : (
+              <p>Reply to the note that brought you here and we will take it from there.</p>
+            )}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <p><strong>{site.name}</strong> · {site.tagline}</p>
+        <p class="fine">These are unsolicited design concepts. Business names, logos, words and photographs belong to their respective owners and are shown only to illustrate a proposed redesign. No concept is the official website of the business it depicts.</p>
+      </div>
+    </footer>
+
+    <script is:inline>
+      (() => {
+        const grid = document.querySelector('[data-grid]');
+        const chips = [...document.querySelectorAll('[data-filter]')];
+        chips.forEach((chip) => chip.addEventListener('click', () => {
+          chips.forEach((c) => c.classList.toggle('on', c === chip));
+          const f = chip.dataset.filter;
+          grid.querySelectorAll('.card').forEach((card) => { card.hidden = f !== 'all' && card.dataset.group !== f; });
+        }));
+        document.querySelector('[data-before]')?.addEventListener('change', (e) => grid.classList.toggle('show-before', e.target.checked));
+      })();
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  :root { --bg: #faf8f3; --surface: #ffffff; --ink: #14181a; --muted: #5b6468; --line: #e3ded2; --green: #143d2f; --green-2: #1f6a50; --cream: #f3e9c9; --wrap: 1220px; --gutter: clamp(20px, 4.5vw, 44px); }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.6 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: "Bricolage Grotesque", "Inter", system-ui, sans-serif; margin: 0; line-height: 1.05; letter-spacing: -.025em; text-wrap: balance; }
+  p { margin: 0; text-wrap: pretty; }
+  a { color: inherit; }
+  ul, ol { list-style: none; margin: 0; padding: 0; }
+  img { display: block; max-width: 100%; }
+  :focus-visible { outline: 3px solid var(--green-2); outline-offset: 3px; border-radius: 6px; }
+  .wrap { width: min(100% - var(--gutter) * 2, var(--wrap)); margin-inline: auto; }
+
+  .top { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(12px) saturate(1.4); border-bottom: 1px solid var(--line); }
+  .top .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 64px; gap: 20px; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font: 700 1.08rem/1 "Bricolage Grotesque", sans-serif; letter-spacing: -.02em; text-decoration: none; }
+  .brand .glyph { width: 32px; height: 32px; border-radius: 9px; background: var(--green); color: var(--cream); display: grid; place-items: center; }
+  .top nav { display: flex; gap: 24px; font-size: .93rem; font-weight: 500; }
+  .top nav a { text-decoration: none; color: var(--muted); }
+  .top nav a:hover { color: var(--ink); }
+  @media (max-width: 640px) { .top nav { display: none; } }
+
+  .hero { padding-block: clamp(56px, 9vw, 128px) clamp(40px, 6vw, 80px); }
+  .kicker { font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--green-2); margin-bottom: 22px; }
+  .hero h1 { font-size: clamp(2.7rem, 7.4vw, 6.2rem); font-weight: 700; max-width: 13em; letter-spacing: -.045em; line-height: .96; }
+  .hero h1 em { font-style: normal; color: var(--green-2); }
+  .lede { font-size: clamp(1.1rem, 1.6vw, 1.35rem); color: var(--muted); max-width: 40em; margin-top: 28px; line-height: 1.5; }
+  .stats { display: flex; flex-wrap: wrap; gap: 14px; margin: 44px 0 0; }
+  .stats div { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 22px; min-width: 150px; flex: 0 1 auto; }
+  .stats dt { font: 700 2.1rem/1 "Bricolage Grotesque", sans-serif; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+  .stats dd { margin: 6px 0 0; color: var(--muted); font-size: .9rem; max-width: 15em; line-height: 1.35; }
+
+  .concepts { padding-block: clamp(24px, 4vw, 48px) clamp(64px, 8vw, 112px); }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; margin-bottom: 28px; }
+  .bar h2, .included h2, .how h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); font-weight: 700; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; flex: 1 1 320px; }
+  .chip { font: 500 .88rem/1 "Inter", sans-serif; color: var(--ink); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px; cursor: pointer; }
+  .chip span { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+  .chip:hover { border-color: var(--ink); }
+  .chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .chip.on span { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+  .switch { display: inline-flex; align-items: center; gap: 10px; font-size: .9rem; font-weight: 500; cursor: pointer; user-select: none; }
+  .switch input { position: absolute; opacity: 0; pointer-events: none; }
+  .switch span { width: 42px; height: 24px; border-radius: 999px; background: #cfc9bb; position: relative; transition: background .2s; flex: none; }
+  .switch span::after { content: ""; position: absolute; top: 3px; left: 3px; width: 18px; height: 18px; border-radius: 50%; background: #fff; transition: translate .2s; box-shadow: 0 1px 3px rgb(0 0 0 / .3); }
+  .switch input:checked + span { background: var(--green-2); }
+  .switch input:checked + span::after { translate: 18px 0; }
+  .switch input:focus-visible + span { outline: 3px solid var(--green-2); outline-offset: 3px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr)); gap: 28px 24px; }
+  .card[hidden] { display: none; }
+  .card a { display: block; text-decoration: none; }
+  .shot { position: relative; aspect-ratio: 1120 / 753; border-radius: 14px; overflow: hidden; background: var(--tone, #ddd); border: 1px solid var(--line); box-shadow: 0 1px 2px rgb(0 0 0 / .04), 0 14px 34px -18px rgb(0 0 0 / .28); transition: translate .25s ease, box-shadow .25s ease; }
+  .card a:hover .shot { translate: 0 -4px; box-shadow: 0 1px 2px rgb(0 0 0 / .04), 0 26px 44px -20px rgb(0 0 0 / .38); }
+  .shot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; transition: opacity .35s ease; }
+  .shot .before { opacity: 0; }
+  .show-before .shot .before { opacity: 1; }
+  .shot .blank { position: absolute; inset: 0; display: grid; place-items: center; color: #fff; font: 700 1.5rem/1.1 "Bricolage Grotesque", sans-serif; text-align: center; padding: 20px; }
+  .tag { position: absolute; left: 12px; bottom: 12px; font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 6px 10px; border-radius: 999px; background: rgb(20 24 26 / .82); color: #fff; backdrop-filter: blur(6px); transition: opacity .35s ease; }
+  .before-tag { opacity: 0; background: rgb(150 60 30 / .9); }
+  .show-before .before-tag { opacity: 1; }
+  .show-before .after-tag { opacity: 0; }
+  .meta { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; padding: 16px 4px 0; }
+  .meta h3 { font-size: 1.16rem; font-weight: 650; letter-spacing: -.015em; line-height: 1.2; }
+  .meta p { color: var(--muted); font-size: .9rem; margin-top: 4px; }
+  .go { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; flex: none; transition: background .2s, color .2s, border-color .2s; }
+  .card a:hover .go { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+  .included { background: var(--green); color: #eef3ef; padding-block: clamp(64px, 8vw, 112px); }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 36px 40px; margin-top: 44px; }
+  .features .ico { width: 46px; height: 46px; border-radius: 12px; background: rgb(255 255 255 / .1); color: var(--cream); display: grid; place-items: center; margin-bottom: 16px; }
+  .features h3 { font-size: 1.22rem; font-weight: 650; margin-bottom: 8px; }
+  .features p { color: rgb(238 243 239 / .78); font-size: .98rem; }
+
+  .how { padding-block: clamp(64px, 8vw, 112px); }
+  .how ol { counter-reset: n; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 28px; margin-top: 40px; }
+  .how li { counter-increment: n; border-top: 2px solid var(--ink); padding-top: 20px; }
+  .how li::before { content: counter(n, decimal-leading-zero); font: 700 .9rem/1 "Bricolage Grotesque", sans-serif; color: var(--green-2); letter-spacing: .08em; }
+  .how li h3 { font-size: 1.25rem; font-weight: 650; margin: 12px 0 8px; }
+  .how li p { color: var(--muted); }
+  .cta { margin-top: 56px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: clamp(26px, 4vw, 44px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
+  .cta h3 { font-size: clamp(1.4rem, 2.4vw, 1.9rem); font-weight: 700; max-width: 18em; }
+  .cta p { color: var(--muted); display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { display: inline-flex; align-items: center; padding: 14px 22px; border-radius: 999px; background: var(--ink); color: var(--bg); font-weight: 600; text-decoration: none; border: 2px solid var(--ink); }
+  .btn.ghost { background: transparent; color: var(--ink); }
+
+  .foot { border-top: 1px solid var(--line); padding-block: 36px 48px; font-size: .92rem; }
+  .foot .fine { color: var(--muted); font-size: .82rem; max-width: 62em; margin-top: 10px; }
+</style>
