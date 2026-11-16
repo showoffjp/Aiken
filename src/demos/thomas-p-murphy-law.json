@@ -1,0 +1,91 @@
+{
+  "slug": "thomas-p-murphy-law",
+  "prospect": "thomas-p-murphy-pc-attorney-at-law",
+  "name": "Thomas P. Murphy Law, PC",
+  "short": "Thomas P. Murphy Law",
+  "category": "Attorney",
+  "group": "Professional",
+  "town": "North Augusta, SC",
+  "look": "editorial",
+  "fonts": { "display": "fraunces", "body": "libre-franklin" },
+  "colors": {
+    "bg": "#f5f4ef", "surface": "#ffffff", "ink": "#171b18", "muted": "#59615b",
+    "primary": "#27432f", "onPrimary": "#ffffff", "accent": "#b88c3a", "line": "#dcdad0"
+  },
+  "radius": 2,
+  "icon": "scale",
+  "contact": {
+    "phone": "(803) 202-1188",
+    "email": "tmurphy@tpmurphylaw.com",
+    "address": ["512 Georgia Avenue", "North Augusta, SC 29841"],
+    "mapQuery": "512 Georgia Ave, North Augusta, SC 29841",
+    "hours": [["Monday – Friday", "8:30 – 5:00"]],
+    "hoursNote": "Closed from noon to 1:00 for lunch."
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Downtown North Augusta",
+    "title": "Life is hard. Let us help you *get through it.*",
+    "lede": "Family, probate and real estate law from a compassionate, caring staff willing to go the extra mile. If you cannot come to us, we will make a hospital visit or a house call.",
+    "cta": { "label": "Call (803) 202-1188", "href": "tel:+18032021188" },
+    "cta2": { "label": "What we do", "href": "#services" }
+  },
+  "facts": [
+    { "value": "40+ years", "label": "Thomas Murphy has practiced law" },
+    { "value": "Since 2000", "label": "At our downtown North Augusta office" },
+    { "value": "Statewide", "label": "We close real estate anywhere in South Carolina" },
+    { "value": "Free", "label": "Healthcare Power of Attorney" }
+  ],
+  "sections": [
+    {
+      "type": "columns", "id": "services", "nav": "Services",
+      "eyebrow": "Practice areas",
+      "title": "A wide range of *help*",
+      "intro": "Practicing in Aiken and Edgefield counties.",
+      "columns": [
+        { "title": "Family law", "items": ["Adoptions", "Separations", "Divorces", "Custody", "Child support"] },
+        { "title": "Probate law", "items": ["Wills", "Powers of Attorney", "Healthcare Power of Attorney", "Probating estates", "Setup of trusts", "Conservatorships", "Guardianships"] },
+        { "title": "Real estate law", "items": ["Residential purchases and refinances", "Equity line loans", "Commercial real estate", "Closings anywhere in South Carolina"] }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "About us",
+      "title": "Attorney, city judge, *neighbor*",
+      "body": [
+        "Thomas Murphy has been practicing law for more than 40 years and has been in his current location in downtown North Augusta since 2000. He served with the FBI before practicing law, and has been the City Judge for North Augusta since 1983.",
+        "We are a law firm that will make a hospital visit or a house call if you are unable to come to us."
+      ]
+    },
+    {
+      "type": "services", "id": "team", "nav": "Our team", "columns": 3,
+      "eyebrow": "The people you will work with",
+      "title": "A staff that goes *the extra mile*",
+      "items": [
+        { "icon": "house", "title": "Amy Boudreaux", "text": "Real estate work and civil suits. Energetic, friendly and ready to assist you." },
+        { "icon": "users", "title": "Lynn McLerren", "text": "Family court professional and notary public. With Mr. Murphy's firm since 2004." },
+        { "icon": "scroll-text", "title": "Benita Wade", "text": "Probate specialist, finance manager and notary public. With the firm since 2006." }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to get started?",
+      "text": "Call us today for your legal needs.",
+      "cta": { "label": "Call (803) 202-1188", "href": "tel:+18032021188" }
+    }
+  ],
+  "visit": {
+    "title": "Come *talk with us*",
+    "formTitle": "Tell us how we can help",
+    "formTopics": ["Family law", "Wills and probate", "Real estate closing", "Power of Attorney", "Something else"]
+  },
+  "source": {
+    "url": "https://thomaspmurphylaw.com/",
+    "before": [
+      "Footer still reads © 2015",
+      "Some page assets load over insecure http://",
+      "No description for Google results",
+      "No business details for search (hours, address, practice areas)"
+    ]
+  }
+}

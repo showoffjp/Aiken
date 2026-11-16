@@ -1,0 +1,94 @@
+{
+  "slug": "lambert-insurance",
+  "prospect": "lambert-insurance-agency-inc",
+  "name": "Lambert Insurance Agency, Inc.",
+  "short": "Lambert Insurance",
+  "category": "Independent Insurance Agency",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "established": "2001",
+  "look": "clean",
+  "fonts": { "display": "manrope", "body": "source-sans-3" },
+  "colors": {
+    "bg": "#f4f9fb", "surface": "#ffffff", "ink": "#0e2029", "muted": "#51636c",
+    "primary": "#0d5c7d", "onPrimary": "#ffffff", "accent": "#ffc857", "line": "#d7e4ea"
+  },
+  "radius": 14,
+  "icon": "umbrella",
+  "contact": {
+    "phone": "(803) 642-5007",
+    "phone2": "(803) 642-3702",
+    "phone2Label": "Second line",
+    "email": "dlambertinsurance@yahoo.com",
+    "address": ["217 Silver Bluff Road", "Aiken, SC 29803"],
+    "mapQuery": "Lambert Insurance Agency, 217 Silver Bluff Road, Aiken, SC 29803"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Independent agency on Aiken's Southside",
+    "title": "Good, old-fashioned service, *like days gone by*",
+    "lede": "Auto, home, commercial and life insurance from a third-generation independent agent. We represent only A-rated carriers and compare them for you.",
+    "cta": { "label": "Call (803) 642-5007", "href": "tel:+18036425007" },
+    "cta2": { "label": "Get a quote", "href": "#visit" },
+    "points": ["A-rated carriers only", "Third-generation agent", "Call, stop by or email"]
+  },
+  "facts": [
+    { "value": "2001", "label": "Founded in January by Diana M. Lambert" },
+    { "value": "3rd generation", "label": "Independent insurance agent" },
+    { "value": "Best Agent", "label": "Aiken's Choice, 2018" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "insurance", "nav": "Insurance", "columns": 4,
+      "eyebrow": "What we cover",
+      "title": "Coverage you *actually understand*",
+      "intro": "Many people have a policy but do not know exactly how they are covered. We walk you through it.",
+      "items": [
+        { "icon": "car", "title": "Auto insurance", "text": "Know how you are covered and what happens if you ever need to file a claim." },
+        { "icon": "house", "title": "Home insurance", "text": "Homeowners, renters and the other coverages that protect where you live." },
+        { "icon": "briefcase", "title": "Commercial insurance", "text": "Vital protection for your business, from vehicles to property." },
+        { "icon": "heart-handshake", "title": "Life insurance", "text": "One of the most important financial moves you can make to protect your family." }
+      ]
+    },
+    {
+      "type": "story", "id": "history", "nav": "History",
+      "eyebrow": "Our history",
+      "title": "Three generations of *independent agents*",
+      "body": [
+        "Conveniently located on the Southside of Aiken, Lambert Insurance was founded in January 2001 by Diana M. Lambert, a third-generation independent insurance agent. Her roots go back to Woonsocket, Rhode Island, where she received her professional training working for her parents, Raymond and Claire Levesque, at Levesque Insurance Agency.",
+        "Diana Lambert was awarded Best Insurance Agent for 2018 by Aiken's Choice. The agency prides itself on good, old-fashioned and courteous service."
+      ]
+    },
+    {
+      "type": "columns", "id": "carriers", "nav": "Carriers",
+      "eyebrow": "Who we represent",
+      "title": "Only *A-rated carriers*",
+      "columns": [
+        { "title": "Carriers", "items": ["AAA", "Progressive", "Travelers"] },
+        { "title": "And", "items": ["Main Street America Group", "Foremost", "National Security Group"] },
+        { "title": "For current clients", "items": ["View your policies", "Print insurance ID cards", "Update your contact information", "Download documents"] }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See how much you could save.",
+      "text": "Call, stop by, or email today.",
+      "cta": { "label": "Call (803) 642-5007", "href": "tel:+18036425007" }
+    }
+  ],
+  "visit": {
+    "title": "Call, stop by, or *email today*",
+    "formTitle": "Request a quote",
+    "formTopics": ["Auto", "Home", "Commercial", "Life", "Compare my current policy"]
+  },
+  "source": {
+    "url": "https://www.lambertinsuranceaiken.com/",
+    "before": [
+      "Built on a stock template from an insurance software vendor (EZLynx)",
+      "Runs jQuery 1.10 from 2013",
+      "Eight of nine images have no alt text",
+      "The agency's own story sits below generic insurance articles",
+      "No link previews or business details for search"
+    ]
+  }
+}

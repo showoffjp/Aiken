@@ -1,0 +1,97 @@
+{
+  "slug": "augusta-ready-mix",
+  "prospect": "augusta-ready-mix-inc",
+  "name": "Augusta Ready Mix, Inc.",
+  "short": "Augusta Ready Mix",
+  "category": "Ready Mix Concrete",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "established": "1985",
+  "look": "bold",
+  "fonts": { "display": "archivo", "body": "inter" },
+  "colors": {
+    "bg": "#f3f2ee", "surface": "#ffffff", "ink": "#17191c", "muted": "#595e65",
+    "primary": "#a9261a", "onPrimary": "#ffffff", "accent": "#f6c21c", "line": "#d9d6ce"
+  },
+  "radius": 4,
+  "icon": "truck",
+  "contact": {
+    "phone": "(803) 226-0637",
+    "phoneLabel": "Aiken plant",
+    "phone2": "(706) 733-9781",
+    "phone2Label": "Main office",
+    "address": ["1099 Reynolds Pond Road", "Aiken, SC 29801"],
+    "mapQuery": "Augusta Ready Mix, 1099 Reynolds Pond Road, Aiken, SC 29801"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "The hometown choice since 1985",
+    "title": "There's more *to the mix.*",
+    "lede": "A local, family-owned concrete supplier delivering the right product, to the right place, at the right time, with the right equipment. Whether you need a couple of yards or thousands.",
+    "cta": { "label": "Call the Aiken plant", "href": "tel:+18032260637" },
+    "cta2": { "label": "Trucks & services", "href": "#services" },
+    "points": ["Family owned", "Saturday hours", "Pump and grout trucks"]
+  },
+  "facts": [
+    { "value": "1985", "label": "First load poured in July" },
+    { "value": "7 plants", "label": "Concrete batching facilities across the CSRA" },
+    { "value": "60+ trucks", "label": "From four-yard mixers to 6x6 all-terrain" },
+    { "value": "190 yd/hr", "label": "From each of our two 36-meter pumps" }
+  ],
+  "sections": [
+    {
+      "type": "services", "id": "services", "nav": "Services",
+      "eyebrow": "Products & services",
+      "title": "We deliver more than *ready mix*",
+      "intro": "Service is everything. That is what a hometown family business is all about.",
+      "items": [
+        { "icon": "truck", "title": "Front discharge mixers", "text": "The driver controls the chute from inside the cab for more accurate placement, fewer support crew and a safer, more efficient job site." },
+        { "icon": "minimize-2", "title": "4 cubic yard mixers", "text": "Perfect for tight locations a conventional truck cannot reach. Two are front-wheel drive for even tougher spots." },
+        { "icon": "mountain", "title": "6 x 6 mixers", "text": "Six-wheel drive trucks that cross terrain conventional trucks would never attempt, and keep you working after bad weather." },
+        { "icon": "arrow-up-from-line", "title": "Pump truck services", "text": "Two 36-meter pumps at 190 yards per hour and a 70-foot boom pump at 50 yards per hour for the hardest-to-reach placements." },
+        { "icon": "brick-wall", "title": "Grout pump services", "text": "Two truck-mounted grout pumps with 300 feet of hose, pumping 20 yards per hour. Ideal for retaining walls and blockfill." },
+        { "icon": "factory", "title": "Mobile batching plants", "text": "Concrete batched where your project is." }
+      ]
+    },
+    {
+      "type": "story", "id": "about", "nav": "About",
+      "eyebrow": "The company",
+      "title": "Three trucks, one family, *one mission*",
+      "body": [
+        "In June of 1985, Davis Hauling Company decided to enter the ready mix business. Charles Davis had over 30 years in hauling and knew the industry well as a supplier of aggregate to local operations. He founded Augusta Ready Mix with his son, Terry Davis.",
+        "Since the first load went onto truck number one of three that July, we have grown into the leading full-service concrete supplier in the Central Savannah River Area. Our mission has stayed the same: give the customer a quality product when he wants it, and in the time intervals that he wants it. Just as in the early days, do not be surprised if your order is delivered by Terry."
+      ]
+    },
+    {
+      "type": "columns", "id": "firsts", "nav": "Firsts",
+      "eyebrow": "Trendsetters",
+      "title": "The first ready mix company in Augusta *with*",
+      "columns": [
+        { "title": "Trucks", "items": ["Front discharge mixers", "Four yard concrete mixers", "6 x 6 wheel drive mixers"] },
+        { "title": "Services", "items": ["Concrete pumping services", "Grout pumping services", "Mobile batching services"] },
+        { "title": "And", "items": ["Saturday operating hours", "A comprehensive safety program with weekly training", "Sister companies Davis Hauling and Davis Aggregates"] }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "A couple of yards, or thousands.",
+      "text": "Call the Aiken plant to schedule your pour.",
+      "cta": { "label": "Call (803) 226-0637", "href": "tel:+18032260637" }
+    }
+  ],
+  "visit": {
+    "title": "Schedule *a pour*",
+    "formTitle": "Request a quote",
+    "formTopics": ["Ready mix delivery", "Pump truck", "Grout pump", "Mobile batching", "Something else"]
+  },
+  "source": {
+    "url": "https://www.augustareadymix.com/",
+    "before": [
+      "No mobile layout: the pages do not adapt to phones",
+      "Footer reads © 2014",
+      "Hosted on PHP 5.6, which reached end of life in 2018",
+      "XHTML code from the early 2010s",
+      "No link previews or business details for search"
+    ]
+  }
+}
