@@ -1,0 +1,29 @@
+{
+  "slug": "aiken-flooring", "name": "Aiken Flooring", "short": "Aiken Flooring",
+  "category": "Flooring Store", "group": "Shops & Services", "town": "Aiken, SC",
+  "look": "clean", "fonts": { "display": "outfit", "body": "inter" },
+  "colors": { "bg": "#faf7f2", "surface": "#ffffff", "ink": "#211a14", "muted": "#675c52", "primary": "#8a4b1f", "onPrimary": "#ffffff", "accent": "#f2c879", "line": "#e8dfd3" },
+  "radius": 14, "icon": "layers",
+  "contact": { "phone": "(803) 643-3643", "email": "1aikenflooring@gmail.com", "address": ["2645 Whiskey Road, Suite 103", "Aiken, SC 29803"], "mapQuery": "Aiken Flooring, 2645 Whiskey Road, Aiken, SC 29803" },
+  "hero": { "variant": "split", "eyebrow": "Come see Dallas and Donna", "title": "You can *stand on us!*", "lede": "Carpet, vinyl, hardwood, laminate, LVT, supplies and much more. Stocked items for your convenience, and special orders that arrive in 2 to 3 business days.", "cta": { "label": "Call (803) 643-3643", "href": "tel:+18036433643" }, "cta2": { "label": "Request an estimate", "href": "#visit" }, "points": ["Estimates available", "Stocked items", "Financing"] },
+  "facts": [ { "value": "2 – 3 days", "label": "For special orders to arrive" }, { "value": "In stock", "label": "Flooring and supplies on hand" }, { "value": "In-home", "label": "Professional flooring estimates" }, { "value": "Financing", "label": "Get your floors now, pay over time" } ],
+  "sections": [
+    { "type": "services", "id": "floors", "nav": "Floors", "eyebrow": "You want it, we have it", "title": "Every kind of *floor*", "items": [
+      { "icon": "waves", "title": "Carpet" }, { "icon": "trees", "title": "Hardwood" }, { "icon": "layers", "title": "Laminate" },
+      { "icon": "grid-3x3", "title": "Tile, natural stone & glass tile" }, { "icon": "droplets", "title": "Luxury vinyl & waterproof flooring" }, { "icon": "square", "title": "Vinyl" } ] },
+    { "type": "services", "id": "services", "nav": "Services", "columns": 3, "eyebrow": "More than a showroom", "title": "From estimate to *installation*", "items": [
+      { "icon": "hammer", "title": "Flooring installation", "text": "Your new floor, fitted by people who do it every day." },
+      { "icon": "ruler", "title": "In-home estimates", "text": "An accurate, professional estimate at your home." },
+      { "icon": "scissors", "title": "Custom area rugs", "text": "Rugs made to the size your room needs." } ] },
+    { "type": "story", "id": "about", "nav": "About", "eyebrow": "Why choose us", "title": "Educated advice, *the highest standards*", "body": [
+      "Come see Dallas and Donna for your flooring dreams. Aiken Flooring holds itself to the highest standards, and our flooring specialists give their educated advice to help each customer find their perfect floor.",
+      "Meet with one of our project specialists to get started, or ask about a sample." ] },
+    { "type": "band", "title": "Looking for new floors in the Aiken area?", "text": "Stop by the showroom on Whiskey Road or call for an estimate.", "cta": { "label": "Call (803) 643-3643", "href": "tel:+18036433643" } }
+  ],
+  "visit": { "title": "Visit *the showroom*", "formTitle": "Request an appointment", "formTopics": ["Carpet", "Hardwood", "Laminate", "Tile", "Luxury vinyl", "Area rug", "Installation"] },
+  "source": { "url": "https://www.aikenflooring.com/", "before": [
+    "A national flooring-retailer template: the store's own story is a single short paragraph",
+    "Parts of the page are still laid out with tables (seven on the home page)",
+    "Runs jQuery 1.12 from 2016",
+    "The first screen is a long product menu rather than who you are and how to reach you" ] }
+}

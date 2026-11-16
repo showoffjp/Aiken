@@ -1,0 +1,32 @@
+{
+  "slug": "hbol-architects", "prospect": "hughes-beattie-oneal-law-and-assoc-pc",
+  "name": "Hughes, Beattie, O'Neal, Law & Associates, Architects, P.C.", "short": "HBOL Architects",
+  "category": "Architects & Planners", "group": "Professional", "town": "Aiken, SC",
+  "look": "editorial", "fonts": { "display": "fraunces", "body": "inter" },
+  "colors": { "bg": "#f4f3f0", "surface": "#ffffff", "ink": "#16181a", "muted": "#5a5f63", "primary": "#2b2f33", "onPrimary": "#ffffff", "accent": "#b5562c", "line": "#d8d6d0" },
+  "radius": 0, "icon": "drafting-compass",
+  "contact": { "phone": "(803) 648-9612", "phoneLabel": "Aiken office", "phone2": "(706) 722-3484", "phone2Label": "Augusta office", "email": "dharper@hbolarchitecture.com", "address": ["1075 Brookhaven Drive", "Aiken, SC 29803"], "mapQuery": "1075 Brookhaven Drive, Aiken, SC 29803", "facebook": "http://www.facebook.com/HBOLAiken" },
+  "hero": { "variant": "split", "eyebrow": "Architects / Planners", "title": "Buildings that serve *the communities around them*", "lede": "Medical centers, churches, schools, government buildings, mixed-use and residential projects, designed from offices in Aiken and Augusta.", "cta": { "label": "See our projects", "href": "#projects" }, "cta2": { "label": "Contact the firm", "href": "#visit" } },
+  "facts": [ { "value": "2 offices", "label": "Aiken, SC and Augusta, GA" }, { "value": "6 sectors", "label": "From healthcare to homes" }, { "value": "26,000 SF", "label": "Clyburn Center for Primary Health, Aiken" } ],
+  "sections": [
+    { "type": "services", "id": "projects", "nav": "Projects", "eyebrow": "Our projects", "title": "What we *design*", "items": [
+      { "icon": "hospital", "title": "Medical" }, { "icon": "church", "title": "Churches" }, { "icon": "school", "title": "Schools" },
+      { "icon": "landmark", "title": "Governmental" }, { "icon": "building-2", "title": "Mixed use" }, { "icon": "house", "title": "Residential" } ] },
+    { "type": "story", "id": "featured", "nav": "Featured work", "eyebrow": "Featured project", "title": "Clyburn Center for *Primary Health*", "body": [
+      "Aiken had an acute care facility on the west side and primary care physicians on the Southside, but downtown and Northside residents had few, if any, health-care options. A local group of health-care professionals and residents identified the need and secured land for a new center.",
+      "The 26,000 square foot Clyburn Center includes adult and pediatric medicine, an OB-GYN department, optometry and dental care. Demand for more examination and treatment rooms later led to a new Women's Health Facility, with mammography, ultrasound and pediatric medicine." ],
+      "list": ["Clyburn Center for Primary Health, Aiken, SC", "Clyburn Women's Center, Aiken, SC", "MUSC Camden, Camden, SC"] },
+    { "type": "columns", "id": "areas", "nav": "Where we work", "eyebrow": "Our main areas of focus", "title": "Both sides of *the Savannah*", "columns": [
+      { "title": "South Carolina", "items": ["Aiken", "North Augusta", "Orangeburg"] },
+      { "title": "Georgia", "items": ["Augusta", "Evans", "Appling"] },
+      { "title": "Offices", "items": ["1075 Brookhaven Drive, Aiken, SC", "1201 Broad Street, Ste. 2A, Augusta, GA"] } ] },
+    { "type": "band", "title": "Planning a building?", "text": "Talk with our Aiken or Augusta office.", "cta": { "label": "Call (803) 648-9612", "href": "tel:+18036489612" } }
+  ],
+  "visit": { "title": "Contact *the firm*", "formTitle": "Tell us about your project", "formTopics": ["Medical", "Church", "School", "Governmental", "Mixed use", "Residential"] },
+  "source": { "url": "https://www.hbolarchitecture.com/", "before": [
+    "A placeholder email address from the website template is still in the page",
+    "Five page assets load over insecure http://",
+    "Footer reads © 2022",
+    "No description for Google results or link previews",
+    "The home page lists project categories but shows little of the work itself" ] }
+}
