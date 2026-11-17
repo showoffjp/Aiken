@@ -1,9 +1,21 @@
 ---
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
-import { title, sectionId, srcset, type Demo } from '../../lib/demos';
+import { title, sectionId, srcset, isScenic, cinematicHero, type Demo, type Img } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
+const cine = !!demo.cinematic;
+const pad = (n: number) => String(n).padStart(2, '0');
+// Cinematic galleries: up to five screen-filling photos become pinned scenes;
+// the rest go into a parallax mosaic, and everything into a scrolling reel.
+const heroSrc = cine ? cinematicHero(demo)?.src : undefined;
+const split = (imgs: Img[]) => {
+  const scenes = imgs.filter((i) => isScenic(i) && i.src !== heroSrc).slice(0, 5);
+  const rest = imgs.filter((i) => !scenes.includes(i));
+  const cols: Img[][] = [[], [], []];
+  rest.forEach((img, k) => cols[k % 3].push(img));
+  return { scenes, rest, cols };
+};
 ---
 {demo.sections.map((s, i) => {
   const id = sectionId(s, i);
@@ -43,7 +55,7 @@ const { demo } = Astro.props;
     <section class={`section story ${alt} ${s.flip ? 'flip' : ''} ${s.image ? '' : 'solo'} ${s.image?.width && s.image?.height && s.image.width / s.image.height > 2.3 ? 'pano' : ''}`} id={id}>
       <div class="wrap">
         {s.image && (
-          <div class="story-media">
+          <div class="story-media" data-par={cine ? '' : undefined}>
             <img src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
           </div>
         )}
@@ -88,6 +100,45 @@ const { demo } = Astro.props;
       </div>
     </section>
   );
+  if (s.type === 'gallery' && cine && split(s.images).scenes.length >= 2) {
+    const { scenes, rest, cols } = split(s.images);
+    return (
+      <section class="cine-gallery" id={id}>
+        <div class="wrap">
+          <div class="section-head">
+            {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+            <h2 set:html={title(s.title)} />
+            {s.intro && <p>{s.intro}</p>}
+          </div>
+        </div>
+        <div class="cine-track" style={`--n:${scenes.length}`} data-cine-track>
+          {scenes.map((img, k) => (
+            <figure class="scene">
+              <div class="scene-inner">
+                <img src={img.src} srcset={srcset(img)} sizes="100vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" />
+                <div class="scene-veil" aria-hidden="true"></div>
+              </div>
+              <figcaption><span class="scene-num" aria-hidden="true">{pad(k + 1)} / {pad(scenes.length)}</span><span class="scene-cap">{img.alt}</span></figcaption>
+            </figure>
+          ))}
+        </div>
+        {rest.length > 0 && (
+          <div class="wrap">
+            <div class="cine-mosaic" data-par>
+              {cols.map((col, c) => (
+                <div class="mosaic-col" style={`--speed:${[-1, 0.6, -0.4][c]}`}>
+                  {col.map((img) => <figure><img src={img.src} srcset={srcset(img)} sizes="(max-width: 760px) 46vw, 30vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>)}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        <div class="cine-reel" aria-hidden="true" data-par>
+          <div class="reel-row">{[...s.images, ...s.images].map((img) => <img src={img.src} srcset={srcset(img)} sizes="240px" alt="" width={img.width} height={img.height} loading="lazy" decoding="async" />)}</div>
+        </div>
+      </section>
+    );
+  }
   if (s.type === 'gallery') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">

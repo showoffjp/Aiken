@@ -6,6 +6,7 @@
   "group": "Trades & Industry",
   "town": "North Augusta, SC",
   "look": "editorial",
+  "cinematic": true,
   "fonts": {
     "display": "fraunces",
     "body": "inter"

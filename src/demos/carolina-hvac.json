@@ -8,6 +8,7 @@
   "town": "Windsor, SC",
   "established": "1995",
   "look": "bold",
+  "cinematic": true,
   "fonts": {
     "display": "archivo",
     "body": "inter"
