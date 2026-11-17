@@ -1,6 +1,7 @@
 // Print every checkup page to a Letter-size PDF for in-person visits.
 // The printed page carries a QR code that opens the concept on a phone.
 //   node scripts/leave-behind.mjs [slug ...]   -> outreach/print/<slug>.pdf
+//                                                outreach/print/seo/<slug>-seo-report.pdf
 // Requires `npm run build` first.
 import { createServer } from 'node:http';
 import { readFile, readdir, mkdir, stat } from 'node:fs/promises';
@@ -13,7 +14,7 @@ const { chromium } = require('playwright');
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
 const OUT = path.join(ROOT, 'outreach', 'print');
-await mkdir(OUT, { recursive: true });
+await mkdir(path.join(OUT, 'seo'), { recursive: true });
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 const server = createServer(async (req, res) => {
   try {
@@ -36,6 +37,13 @@ for (const slug of slugs) {
   await page.evaluate(async () => { await Promise.all([...document.images].map((i) => (i.loading = 'eager', i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; })))); });
   await page.waitForTimeout(300);
   await page.pdf({ path: path.join(OUT, `${slug}.pdf`), format: 'Letter', printBackground: true, scale: 0.6, margin: { top: '12mm', bottom: '12mm', left: '12mm', right: '12mm' } });
+  // The full SEO & social report, every section open.
+  const seo = await page.goto(`${base}/${slug}/seo/`, { waitUntil: 'load' });
+  if (seo?.ok()) {
+    await page.evaluate(() => document.querySelectorAll('details').forEach((d) => { d.open = true; }));
+    await page.waitForTimeout(300);
+    await page.pdf({ path: path.join(OUT, 'seo', `${slug}-seo-report.pdf`), format: 'Letter', printBackground: true, scale: 0.7, margin: { top: '12mm', bottom: '12mm', left: '12mm', right: '12mm' } });
+  }
 }
 await browser.close();
 server.close();

@@ -24,7 +24,9 @@
     "cards": "node scripts/cards.mjs",
     "domains": "node scripts/domains.mjs",
     "recheck": "node scripts/recheck.mjs",
-    "lighthouse": "node scripts/lighthouse.mjs"
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "seo": "node scripts/seo.mjs",
+    "rankings": "node scripts/rankings.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",
