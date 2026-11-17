@@ -1,0 +1,43 @@
+{
+  "slug": "toki-jr", "prospect": "toki-jr-llc",
+  "name": "Toki Jr Japanese Restaurant", "short": "Toki Jr",
+  "category": "Japanese Restaurant", "group": "Food & Drink", "town": "North Augusta, SC",
+  "look": "bold", "fonts": { "display": "space-grotesk", "body": "dm-sans" },
+  "colors": { "bg": "#f7f5f0", "surface": "#ffffff", "ink": "#141414", "muted": "#5d5b56", "primary": "#bf252b", "onPrimary": "#ffffff", "accent": "#f3b833", "line": "#dedad1" },
+  "radius": 6, "icon": "soup",
+  "contact": { "phone": "(803) 426-8086", "phoneLabel": "Call to order", "email": "tokijr.sc@gmail.com", "address": ["434 Georgia Avenue, Suite 105", "North Augusta, SC 29841"], "mapQuery": "Toki Jr, 434 Georgia Ave Ste 105, North Augusta, SC 29841", "hours": [["Monday – Sunday", "11:00 am – 9:00 pm"]], "facebook": "https://www.facebook.com/TokiJrNorthAugusta/" },
+  "hero": { "variant": "banner", "eyebrow": "North Augusta · Open every day", "title": "Hibachi, poke *and udon*", "lede": "Good quality, affordable Japanese cuisine on Georgia Avenue. Hibachi entrees, poke bowls, noodles and more, for dine-in or to go.", "cta": { "label": "Call (803) 426-8086", "href": "tel:+18034268086" }, "cta2": { "label": "See the menu", "href": "#menu" }, "points": ["Open 7 days", "11 am – 9 pm", "Order to go"] },
+  "facts": [ { "value": "7 days", "label": "Open 11:00 am to 9:00 pm" }, { "value": "Hibachi", "label": "With vegetables, fried rice and white sauce" }, { "value": "Poke bowls", "label": "Tuna, salmon, shrimp and chicken" }, { "value": "Noodles", "label": "Yaki udon and yaki soba" } ],
+  "sections": [
+    { "type": "menu", "id": "menu", "nav": "Menu", "eyebrow": "From the kitchen", "title": "The *menu*", "intro": "Hibachi entrees are served with vegetables, fried rice and white sauce.", "groups": [
+      { "title": "Hibachi entrees", "items": [
+        { "name": "Hibachi vegetable", "price": "14.55" }, { "name": "Teriyaki chicken", "price": "18.55" }, { "name": "Hibachi shrimp", "price": "19.55" }, { "name": "Hibachi steak", "price": "21.75" },
+        { "name": "Hibachi salmon", "price": "23.55" }, { "name": "Hibachi scallop", "price": "24.55" }, { "name": "Hibachi ribeye steak", "price": "24.75" }, { "name": "Hibachi filet mignon", "price": "29.75" } ] },
+      { "title": "Hibachi combos", "items": [
+        { "name": "Teriyaki chicken & shrimp", "price": "20.55" }, { "name": "Steak & teriyaki chicken", "price": "22.55" }, { "name": "Steak & shrimp", "price": "23.55" },
+        { "name": "Shrimp & scallop", "price": "25.55" }, { "name": "TOKI hibachi combo", "desc": "Steak, chicken and shrimp", "price": "28.75" }, { "name": "Hibachi trio", "desc": "Scallop, filet mignon and shrimp", "price": "35.75" } ] },
+      { "title": "Poke bowls", "items": [
+        { "name": "Aloha", "desc": "Chicken, pineapple, cucumber, green onion, jalapeño, sweet onion, sesame oil", "price": "10.95" },
+        { "name": "Tuna Wasabi", "desc": "Tuna, edamame, cucumber, carrots, crispy onion, honey wasabi", "price": "12.95" },
+        { "name": "Volcano", "desc": "Shrimp, edamame, seaweed, ginger, jalapeño, tobiko, spicy aioli", "price": "13.25" },
+        { "name": "Samurai", "desc": "Salmon, edamame, avocado, cucumber, tobiko, spicy aioli", "price": "14.75" },
+        { "name": "Amazing", "desc": "Tuna, salmon, shrimp, seaweed salad, edamame, jalapeño, sweet onion, cucumber, spicy aioli", "price": "16.25" } ] },
+      { "title": "Kitchen special noodles", "items": [
+        { "name": "Yaki udon", "desc": "Stir-fried chicken, steak or shrimp with fresh vegetables and udon noodles", "price": "11.95" },
+        { "name": "Yaki soba", "desc": "Stir-fried chicken, steak or shrimp with fresh vegetables and soba noodles", "price": "11.95" } ] },
+      { "title": "Appetizers", "items": [
+        { "name": "Asparagus tempura", "price": "3.25" }, { "name": "Spring roll (2)", "price": "4.25" }, { "name": "Age tofu", "desc": "Fried bean curd", "price": "5.85" }, { "name": "Crab rangoon (6)", "price": "6.25" },
+        { "name": "Edamame", "price": "6.25" }, { "name": "Shumai (6)", "desc": "Open dumplings with shrimp", "price": "6.25" }, { "name": "Gyoza", "desc": "Pan-fried pork or shrimp dumplings", "price": "7.25" } ] },
+      { "title": "Salad & soup", "items": [
+        { "name": "Miso soup", "price": "3.25" }, { "name": "Avocado salad", "price": "7.25" }, { "name": "Kani salad", "desc": "Crab salad", "price": "7.25" }, { "name": "Seaweed salad", "price": "7.25" }, { "name": "Squid salad", "price": "7.25" } ] } ],
+      "footnote": "Menu and prices from the restaurant's current site; to be confirmed. Steak, tuna, salmon and tobiko items carry the restaurant's raw or undercooked advisory." },
+    { "type": "band", "title": "Hungry? Call it in.", "text": "Open every day, 11:00 am to 9:00 pm.", "cta": { "label": "Call (803) 426-8086", "href": "tel:+18034268086" } }
+  ],
+  "visit": { "title": "Find us on *Georgia Avenue*", "hideForm": true },
+  "source": { "url": "https://www.tokijapanesesteakhouse.com/tokijr/", "before": [
+    "Lives in a sub-folder of another restaurant's website rather than at its own address",
+    "Runs jQuery 1.10 from 2013",
+    "Seven of eleven images have no alt text",
+    "No favicon or link previews when shared",
+    "No restaurant details for Google (hours, menu, address)" ] }
+}

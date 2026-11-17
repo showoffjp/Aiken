@@ -1,0 +1,30 @@
+{
+  "slug": "simply-social-events", "prospect": "simply-social-events-and-more-llc",
+  "name": "Simply Social Events and More, LLC", "short": "Simply Social Events",
+  "category": "Event Planning & Vintage China Rental", "group": "Shops & Services", "town": "Aiken, SC",
+  "look": "boutique", "fonts": { "display": "cormorant", "body": "nunito-sans" },
+  "colors": { "bg": "#fbf8f4", "surface": "#ffffff", "ink": "#2a2226", "muted": "#6f6168", "primary": "#8a4a5e", "onPrimary": "#ffffff", "accent": "#c9a36a", "line": "#eadfdc" },
+  "radius": 0, "icon": "coffee",
+  "contact": { "phone": "(803) 876-3300", "email": "info@simplysocialsc.com" },
+  "hero": { "variant": "centered", "eyebrow": "Event planning · Vintage china rentals", "title": "Making small celebrations *memorable*", "lede": "Intimate, unforgettable events for groups of up to fifty, set with a thoughtfully mixed-and-matched table of vintage china.", "cta": { "label": "Plan your event", "href": "#visit" }, "cta2": { "label": "Vintage china", "href": "#china" } },
+  "facts": [ { "value": "30+ years", "label": "Of experience in marketing and event planning" }, { "value": "100+ designs", "label": "Of vintage china to mix and match" }, { "value": "Up to 50", "label": "Guests: small, sophisticated gatherings" } ],
+  "sections": [
+    { "type": "services", "id": "events", "nav": "Events", "eyebrow": "Tailored celebrations", "title": "Life's milestones, *beautifully set*", "intro": "Comprehensive planning, from the initial concept to the final execution.", "items": [
+      { "icon": "heart", "title": "Intimate weddings" }, { "icon": "gift", "title": "Baby & wedding showers" }, { "icon": "cake", "title": "Birthday celebrations" },
+      { "icon": "award", "title": "Retirement parties" }, { "icon": "flower-2", "title": "Garden parties" }, { "icon": "briefcase", "title": "Business meetings" } ] },
+    { "type": "story", "id": "china", "nav": "Vintage china", "eyebrow": "Vintage china rentals", "title": "Over 100 patterns, *mixed and matched*", "body": [
+      "Anyone can add a touch of timeless elegance to an event with our vintage china rental service. We have over 100 vintage china designs to choose from, and we will mix and match your rental into a thoughtfully curated table to impress your guests.",
+      "Our vintage china and new china options are available free of charge to those who use our event services." ],
+      "list": ["Rental available to everyone", "Free of charge with our event planning", "Delivery service available"] },
+    { "type": "story", "id": "about", "nav": "About", "eyebrow": "Why choose us", "title": "Born from a passion for *celebrating*", "body": [
+      "With over 30 years of experience in marketing and event planning, Simply Social Events and More was born out of a passion for helping people celebrate life's milestones. From weddings to retirement parties, we take pride in creating memorable experiences for our clients.",
+      "We work closely with you to understand your vision. Our services are designed for adult clients, ensuring a sophisticated and distinctive event." ] },
+    { "type": "band", "title": "Planning something small and special?", "text": "Tell us about your celebration.", "cta": { "label": "Call (803) 876-3300", "href": "tel:+18038763300" } }
+  ],
+  "visit": { "title": "Plan *your event*", "formTitle": "Tell us about your celebration", "formTopics": ["Intimate wedding", "Shower", "Birthday", "Retirement party", "Business meeting", "Vintage china rental only"] },
+  "source": { "url": "https://simplysocialsc.com/", "before": [
+    "Five page assets load over insecure http://",
+    "No description for Google results or link previews",
+    "No favicon",
+    "No business details for search (service area, what you offer)" ] }
+}
