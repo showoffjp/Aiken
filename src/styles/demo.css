@@ -582,3 +582,66 @@ body.demo::before {
   [data-cinematic] .nav a { border-bottom-color: rgb(255 255 255 / .1) !important; }
 }
 [data-cinematic] .brand .mark { box-shadow: 0 0 0 1px rgb(255 255 255 / .2); }
+
+/* ==========================================================================
+   Motion, round two: a more visible theme gradient that flows through the
+   whole page, a scroll progress bar, glowing gradient rings, a tilting hero
+   photo, animated borders on cards, and an aurora behind the dark cinematic
+   sections. Text colours are checked against these tints in contrast.ts.
+   ========================================================================== */
+@property --ring { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+
+/* A livelier ambient wash: four blobs in the theme colours, drifting faster. */
+body.demo::before {
+  background:
+    radial-gradient(42vmax 42vmax at 14% 18%, color-mix(in srgb, var(--primary) 16%, transparent), transparent 70%),
+    radial-gradient(38vmax 38vmax at 86% 24%, color-mix(in srgb, var(--accent) 17%, transparent), transparent 70%),
+    radial-gradient(46vmax 46vmax at 52% 92%, color-mix(in srgb, var(--primary) 12%, transparent), transparent 70%),
+    radial-gradient(30vmax 30vmax at 72% 66%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 70%);
+  animation: demo-ambient 22s ease-in-out infinite alternate;
+}
+/* Let it show through the alternating sections too (cards stay solid). */
+.section.alt { background: color-mix(in srgb, var(--surface) 78%, transparent); }
+
+/* Scroll progress, in the theme gradient (pure CSS where supported). */
+@supports (animation-timeline: scroll()) {
+  body.demo::after { content: ""; position: fixed; z-index: 60; inset: 0 0 auto 0; height: 3px; transform-origin: 0 50%; background: linear-gradient(90deg, var(--primary), var(--accent)); animation: demo-progress linear both; animation-timeline: scroll(root); pointer-events: none; }
+  @keyframes demo-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
+
+/* Hero photo: a slowly turning gradient ring and a gentle tilt toward the pointer. */
+.hero-visual .frame { position: relative; transform: perspective(1000px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform .5s cubic-bezier(.2, .7, .2, 1); }
+.hero-visual .frame::after { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2px; background: conic-gradient(from var(--ring), var(--primary), var(--accent), color-mix(in srgb, var(--primary) 30%, transparent), var(--accent), var(--primary)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; animation: demo-ring 9s linear infinite; pointer-events: none; }
+.hero-visual::before { content: ""; position: absolute; inset: 8% 6%; z-index: -1; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--accent) 45%, transparent), color-mix(in srgb, var(--primary) 25%, transparent) 60%, transparent); filter: blur(40px); animation: demo-glow 7s ease-in-out infinite alternate; pointer-events: none; }
+@keyframes demo-ring { to { --ring: 360deg; } }
+@keyframes demo-glow { from { opacity: .55; transform: scale(.92); } to { opacity: .95; transform: scale(1.05); } }
+.hero-visual { isolation: isolate; }
+
+/* Cards: an animated gradient border joins the lift and spotlight on hover. */
+.card::before { content: ""; position: absolute; inset: 0; z-index: 2; border-radius: inherit; padding: 1.5px; background: conic-gradient(from var(--ring), var(--primary), var(--accent), var(--primary)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity .35s ease; animation: demo-ring 4s linear infinite paused; pointer-events: none; }
+.card:hover::before { opacity: 1; animation-play-state: running; }
+[data-look="editorial"] .card::before, [data-look="boutique"] .card::before, [data-look="bold"] .card::before { display: none; }
+
+/* Quotes and steps catch a little of the theme on hover. */
+.quotes figure { position: relative; overflow: hidden; isolation: isolate; }
+.quotes figure::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 9%, transparent), color-mix(in srgb, var(--accent) 9%, transparent)); opacity: 0; transition: opacity .4s ease; }
+.quotes figure:hover::after { opacity: 1; }
+.steps li::before { transition: color .3s ease, transform .3s ease; display: inline-block; }
+.steps li:hover::before { color: var(--accent); transform: translateX(4px); }
+
+/* Cinematic: a slow aurora in the theme colours behind the dark sections. */
+.cine-gallery > .wrap, [data-cinematic] .facts { position: relative; isolation: isolate; }
+.cine-gallery > .wrap::before, [data-cinematic] .facts::before {
+  content: ""; position: absolute; inset: -30% -25%; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(45% 55% at 18% 35%, color-mix(in srgb, var(--primary) 42%, transparent), transparent 70%),
+    radial-gradient(40% 50% at 82% 60%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 70%),
+    radial-gradient(30% 40% at 55% 10%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%);
+  filter: blur(20px); animation: cine-aurora 18s ease-in-out infinite alternate; will-change: transform;
+}
+[data-cinematic] .facts { overflow: clip; }
+@keyframes cine-aurora { 0% { transform: translate3d(-4%, 0, 0) scale(1); } 50% { transform: translate3d(3%, -5%, 0) scale(1.08); } 100% { transform: translate3d(5%, 4%, 0) scale(1.02); } }
+.cine-gallery { overflow: clip; }
+
+@media print { body.demo::after, .hero-visual::before, .hero-visual .frame::after { display: none; } }
+@media (prefers-reduced-motion: reduce) { body.demo::after { display: none; } .hero-visual .frame { transform: none; } }

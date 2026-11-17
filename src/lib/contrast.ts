@@ -32,7 +32,11 @@ export function accessible(c: { bg: string; surface: string; ink: string; primar
   const onPrimary = ratio(c.onPrimary, c.primary) >= 4.5 ? c.onPrimary : best(c.primary, c.onPrimary, '#ffffff', '#111111');
   const toward = dark ? '#ffffff' : c.ink;
   const soft = mix(c.bg, c.primary, 0.09);
-  const primaryText = ensure(ensure(ensure(c.primary, c.bg, toward), c.surface, toward), soft, toward);
+  // The animated background washes the page with up to ~18% of the primary or
+  // accent colour, so text must also hold up on those tints.
+  const tintP = mix(c.bg, c.primary, 0.18), tintA = mix(c.bg, c.accent, 0.18);
+  const onAll = (fg: string) => [c.bg, c.surface, soft, tintP, tintA].reduce((f, bg) => ensure(f, bg, toward), fg);
+  const primaryText = onAll(c.primary);
   const onAccent = best(c.accent, c.ink, c.bg, '#111111', '#ffffff');
   const accentBtn = ratio(onAccent, c.accent) >= 4.5 ? c.accent : ensure(c.accent, onAccent, lum(hex(onAccent)) > 0.5 ? '#000000' : '#ffffff');
   return {
@@ -44,6 +48,6 @@ export function accessible(c: { bg: string; surface: string; ink: string; primar
     '--accent-btn': accentBtn,
     '--on-primary-soft': ratio(onPrimary, c.primary) >= 8 ? `color-mix(in srgb, ${onPrimary} 84%, transparent)` : onPrimary,
     '--foot-muted': ensure(mix(c.bg, c.ink, 0.45), c.ink, c.bg),
-    '--muted-text': ensure(ensure((c as { muted?: string }).muted || c.ink, c.bg, c.ink), c.surface, c.ink),
+    '--muted-text': [c.bg, c.surface, soft, tintP, tintA].reduce((f, bg) => ensure(f, bg, c.ink), (c as { muted?: string }).muted || c.ink),
   };
 }

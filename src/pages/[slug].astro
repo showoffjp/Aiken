@@ -353,6 +353,31 @@ const ld = {
             io.observe(el);
           });
 
+          // The hero photo tilts a little toward the pointer.
+          const visual = document.querySelector('.hero-visual');
+          const frameEl = visual?.querySelector('.frame');
+          if (frameEl && matchMedia('(hover: hover)').matches) {
+            visual.addEventListener('pointermove', (e) => {
+              const r = visual.getBoundingClientRect();
+              frameEl.style.setProperty('--ry', `${((e.clientX - r.left) / r.width - 0.5) * 8}deg`);
+              frameEl.style.setProperty('--rx', `${(0.5 - (e.clientY - r.top) / r.height) * 8}deg`);
+            });
+            visual.addEventListener('pointerleave', () => { frameEl.style.setProperty('--rx', '0deg'); frameEl.style.setProperty('--ry', '0deg'); });
+          }
+
+          // Facts that start with a number count up when they come into view.
+          const counters = [...document.querySelectorAll('.facts strong')].filter((el) => /^\d{1,3}(?!\d)/.test(el.textContent.trim()));
+          if (counters.length) {
+            const cio = new IntersectionObserver((entries) => entries.forEach((e) => {
+              if (!e.isIntersecting) return;
+              cio.unobserve(e.target);
+              const el = e.target, full = el.textContent, m = full.match(/^(\d{1,3})/), end = Number(m[1]), rest = full.slice(m[1].length), t0 = performance.now();
+              const step = (t) => { const k = Math.min(1, (t - t0) / 1400); el.textContent = `${Math.round(end * (1 - Math.pow(1 - k, 3)))}${rest}`; if (k < 1) requestAnimationFrame(step); else el.textContent = full; };
+              requestAnimationFrame(step);
+            }), { threshold: 0.6 });
+            counters.forEach((el) => cio.observe(el));
+          }
+
           // Cinematic scroll engine: one rAF per scroll, only for what is near
           // the screen. --p is 0..1 progress; scenes get --e (entering) and
           // --c (covered by the next scene).
