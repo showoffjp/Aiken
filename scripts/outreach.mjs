@@ -17,7 +17,8 @@ const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json')
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
 // Seconds to download a page on the 1.6 Mbps connection Lighthouse uses for phones.
-const slowSecs = (key) => { const b = weights[key]?.site?.bytes; return b ? Math.round((b * 8) / 1.6e6) : 0; };
+const slowSecs = (key, which = 'site') => { const b = weights[key]?.[which]?.bytes; return b ? (b * 8) / 1.6e6 : 0; };
+const saySecs = (t) => (t < 1 ? 'under a second' : t < 90 ? `about ${Math.round(t)} seconds` : `about ${Math.round(t / 60)} minutes`);
 // Plain-English names for the accessibility rules that come up most often.
 const PLAIN = {
   'color-contrast': 'text too faint to read easily',
@@ -100,8 +101,8 @@ P.S. While checking, I noticed a local business directory lists your number as $
     : broken
       ? `Visitors who try ${host} right now still hit the problem I mentioned, so every day it stays down is a few customers who may not call.`
       : secs >= 20
-        ? `One more detail: on a slow phone connection, ${host} takes about ${secs >= 90 ? `${Math.round(secs / 60)} minutes` : `${secs} seconds`} to download in full. The concept takes under a second.`
-        : `One more detail: the concept is built to load in under a second on a phone and to pass the standard accessibility checks.`;
+        ? `One more detail: on a slow phone connection, ${host} takes ${saySecs(secs)} to download in full. The concept takes ${saySecs(slowSecs(d.prospect || d.slug, 'concept'))}.`
+        : `One more detail: the concept is built to be light on a phone and to pass the standard automated accessibility checks.`;
   const followup = `Hi ${first || 'there'},
 
 Just following up on the website concept I sent last week for ${short}:
