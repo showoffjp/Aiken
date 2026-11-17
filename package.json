@@ -22,7 +22,8 @@
     "variants": "node scripts/variants.mjs",
     "a11y": "node scripts/a11y.mjs",
     "cards": "node scripts/cards.mjs",
-    "domains": "node scripts/domains.mjs"
+    "domains": "node scripts/domains.mjs",
+    "recheck": "node scripts/recheck.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",

@@ -1,0 +1,297 @@
+{
+  "slug": "aiken-granite",
+  "prospect": "affordable-quality-marble-and-granite",
+  "name": "Affordable Quality Marble & Granite",
+  "short": "Affordable Quality Granite",
+  "category": "Countertops, Cabinets & Tile",
+  "group": "Home & Garden",
+  "town": "Aiken, SC",
+  "established": "2006",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f4f2ee",
+    "surface": "#ffffff",
+    "ink": "#1d1d1f",
+    "muted": "#5f5d58",
+    "primary": "#23272b",
+    "onPrimary": "#f4f2ee",
+    "accent": "#a9824a",
+    "line": "#dedad2"
+  },
+  "radius": 3,
+  "icon": "gem",
+  "contact": {
+    "phone": "(803) 642-5416",
+    "phoneLabel": "Call the showroom",
+    "email": "sales@aikengranite.com",
+    "address": [
+      "1272 Powderhouse Road SE",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Affordable Quality Marble & Granite, 1272 Powderhouse Road SE, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday",
+        "8:30 am – 5:00 pm"
+      ],
+      [
+        "Tuesday – Friday",
+        "8:30 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 2:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Appointments outside showroom hours are welcome. Just call.",
+    "facebook": "https://www.facebook.com/aikengranite/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Family-owned stone fabricator since 2006",
+    "title": "Countertops, cabinets and tile, *made in Aiken*",
+    "lede": "We import, fabricate and install granite, marble, quartz and porcelain slabs, and supply the kitchen and bath cabinets to go with them, from our shop on Powderhouse Road.",
+    "cta": {
+      "label": "Get a free quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Recent projects",
+      "href": "#projects"
+    },
+    "image": {
+      "src": "/demo-assets/aiken-granite/quartz-island.webp",
+      "alt": "A white quartz kitchen island with soft gray veining"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 2006",
+      "label": "Family-owned, locally operated"
+    },
+    {
+      "value": "Hundreds a year",
+      "label": "Countertops fabricated and installed"
+    },
+    {
+      "value": "25+ years",
+      "label": "The owner's experience working stone"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "products",
+      "nav": "Products",
+      "eyebrow": "One stop",
+      "title": "Everything for *the kitchen and bath*",
+      "items": [
+        {
+          "icon": "mountain",
+          "title": "Granite",
+          "text": "Natural stone in every color family, from blue and black to gold, cream and red."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Quartz",
+          "text": "Engineered stone that never needs sealing."
+        },
+        {
+          "icon": "gem",
+          "title": "Marble & quartzite",
+          "text": "Classic veining for kitchens, vanities and fireplaces."
+        },
+        {
+          "icon": "layout-grid",
+          "title": "Tile",
+          "text": "An extensive selection for floors, backsplashes and showers."
+        },
+        {
+          "icon": "archive",
+          "title": "Cabinets",
+          "text": "New kitchen and bathroom cabinets to go with your counters."
+        },
+        {
+          "icon": "flame",
+          "title": "Outdoor kitchens",
+          "text": "Stone tops built to take the weather."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial",
+          "text": "Counters, bar tops and vanities for businesses."
+        },
+        {
+          "icon": "puzzle",
+          "title": "Remnants",
+          "text": "Smaller pieces for vanities and projects on a budget."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "projects",
+      "nav": "Projects",
+      "eyebrow": "Recent installs",
+      "title": "Kitchens, baths *and beyond*",
+      "images": [
+        {
+          "src": "/demo-assets/aiken-granite/black-island.webp",
+          "alt": "A kitchen island in black granite with gold and white veining"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/cream-kitchen.webp",
+          "alt": "A bright kitchen with cream cabinets and light stone counters"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/black-backsplash.webp",
+          "alt": "A full-height black granite backsplash behind a gas range"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/outdoor-kitchen.webp",
+          "alt": "An outdoor kitchen with a built-in grill and granite top"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/quartz-vanity.webp",
+          "alt": "A white bathroom vanity with gold-veined quartz"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/fireplace.webp",
+          "alt": "A black granite fireplace surround"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/cooktop.webp",
+          "alt": "A light granite counter with an induction cooktop"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/outdoor-grill.webp",
+          "alt": "A dark granite outdoor grill station against slatted walls"
+        },
+        {
+          "src": "/demo-assets/aiken-granite/vanity.webp",
+          "alt": "A granite bathroom vanity with an undermount sink"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "Process",
+      "eyebrow": "How it works",
+      "title": "From slab *to installed*",
+      "items": [
+        {
+          "title": "Get a quote",
+          "text": "Call, email or stop by the showroom with your measurements or plans."
+        },
+        {
+          "title": "Choose your stone",
+          "text": "Browse our live inventory, then see the slabs in person and pick the exact piece."
+        },
+        {
+          "title": "We fabricate",
+          "text": "Cut and finished in our own factory with modern equipment."
+        },
+        {
+          "title": "We install",
+          "text": "Our own installers put it in place."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "About us",
+      "title": "A family business, *built on craftsmanship*",
+      "body": [
+        "Owner Chris Hildebrand grew up in a family business in Oak Hill, West Virginia. In 1994 he moved to Columbia and started fabricating stone at one of the area's first marble and granite companies. Seeing a need for better craftsmanship around Aiken, he opened Affordable Quality Marble & Granite in 2006.",
+        "Today we install hundreds of countertops a year. Our craftsmen keep learning through trade shows and Stone Fabricators Alliance workshops, and our mission hasn't changed: the highest quality countertops, the best service, at a fair price."
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our customers",
+      "title": "What people *say*",
+      "items": [
+        {
+          "text": "The installation today was very professional and went really well. The granite surpasses my expectations, and you were instrumental in making it happen.",
+          "by": "Teresa C., Aiken"
+        },
+        {
+          "text": "Deon and Mike were very professional and very knowledgeable. They went out of their way to make sure I was very pleased!",
+          "by": "A. Rosier, Barnwell"
+        },
+        {
+          "text": "As a contractor, I am pleased with the installation. Great installers!",
+          "by": "Mike H."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Stone *questions*",
+      "items": [
+        {
+          "q": "Is every \"granite\" really granite?",
+          "a": "Not always. The trade uses \"granite\" for many stones that geologists wouldn't. A simple test: leave half a lemon on the stone for ten minutes. If it doesn't etch, and a knife doesn't scratch it, it will behave like granite on your counter."
+        },
+        {
+          "q": "What's the difference between quartz and granite?",
+          "a": "Granite is natural stone. Quartz is engineered from natural quartz bound with resins, which seal its pores, so it never needs sealing."
+        },
+        {
+          "q": "What is resined granite?",
+          "a": "After slabs are cut, many are dried and coated with resin that fills natural pores and fissures, sealing and strengthening the stone."
+        },
+        {
+          "q": "Can I visit outside showroom hours?",
+          "a": "Yes. Call and we'll make an appointment that suits you."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to pick your slab?",
+      "text": "Come see the stone in person on Powderhouse Road, or call for a free quote.",
+      "cta": {
+        "label": "Call (803) 642-5416",
+        "href": "tel:+18036425416"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the showroom*",
+    "formTitle": "Request a free quote",
+    "formTopics": [
+      "Kitchen countertops",
+      "Bathroom vanity",
+      "Cabinets",
+      "Tile",
+      "Outdoor kitchen",
+      "Commercial project"
+    ]
+  },
+  "source": {
+    "url": "https://southcarolinagranite.com/",
+    "before": [
+      "The home page downloads about 10 MB across 342 files on a phone",
+      "The menu holds more than 60 links before a visitor sees a single countertop",
+      "118 of 122 images have no text description for screen readers",
+      "An automated check finds 35 serious accessibility problems, mostly text too faint to read"
+    ]
+  }
+}

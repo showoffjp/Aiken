@@ -1,0 +1,270 @@
+{
+  "slug": "carolina-hvac",
+  "prospect": "carolina-hvac-and-electrical",
+  "name": "Carolina HVAC & Electrical",
+  "short": "Carolina HVAC",
+  "category": "Heating, Cooling, Electrical & Generators",
+  "group": "Trades & Industry",
+  "town": "Windsor, SC",
+  "established": "1995",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f6f9",
+    "surface": "#ffffff",
+    "ink": "#0f1c2b",
+    "muted": "#506072",
+    "primary": "#0d4f8b",
+    "onPrimary": "#ffffff",
+    "accent": "#d7322b",
+    "line": "#dbe3eb"
+  },
+  "radius": 8,
+  "icon": "thermometer-snowflake",
+  "contact": {
+    "phone": "(803) 649-2020",
+    "phoneLabel": "Call for service",
+    "email": "office@carolina-hvac.com",
+    "address": [
+      "450 Centerwood Road",
+      "Windsor, SC 29856"
+    ],
+    "mapQuery": "Carolina HVAC & Electrical, 450 Centerwood Road, Windsor, SC 29856",
+    "facebook": "https://www.facebook.com/carolinahvacofficial"
+  },
+  "hero": {
+    "variant": "photo",
+    "eyebrow": "Family-owned since 1995 · Aiken, Lexington & Barnwell counties",
+    "title": "Heating, cooling and electrical, *done right*",
+    "lede": "Repairs, new systems, maintenance plans, electrical work and home generators from a two-generation family company that treats people right.",
+    "cta": {
+      "label": "Request service",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "image": {
+      "src": "/demo-assets/carolina-hvac/team.webp",
+      "alt": "The Carolina HVAC & Electrical team lined up in front of their shop and service trucks"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1995",
+      "label": "Started by Navy veteran Pat Quill"
+    },
+    {
+      "value": "2 generations",
+      "label": "Now led by his son, Kyle Quill"
+    },
+    {
+      "value": "20+ towns",
+      "label": "Across Aiken, Barnwell and Lexington counties"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "One call for *the whole house*",
+      "items": [
+        {
+          "icon": "snowflake",
+          "title": "Air conditioning",
+          "text": "Installation, repair, and maintenance tune-ups."
+        },
+        {
+          "icon": "flame",
+          "title": "Heating & heat pumps",
+          "text": "New systems, repairs and seasonal maintenance."
+        },
+        {
+          "icon": "wind",
+          "title": "Ductwork & air quality",
+          "text": "Duct replacement and sealing, air cleaners, UV lights and thermostats."
+        },
+        {
+          "icon": "zap",
+          "title": "Electrical",
+          "text": "Panel upgrades, wiring, outlets and switches, troubleshooting and whole-home rewiring."
+        },
+        {
+          "icon": "lamp",
+          "title": "Lighting",
+          "text": "Outdoor and landscape lighting installation."
+        },
+        {
+          "icon": "battery-charging",
+          "title": "Home generators",
+          "text": "Generator installation, maintenance and repair."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial",
+          "text": "Commercial heating, air conditioning and electrical, installed and repaired."
+        },
+        {
+          "icon": "siren",
+          "title": "Emergency service",
+          "text": "Emergency heating and cooling service when you need it."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "On the job",
+      "title": "Skilled, friendly *technicians*",
+      "images": [
+        {
+          "src": "/demo-assets/carolina-hvac/tech-truck.webp",
+          "alt": "A smiling technician beside a Carolina HVAC service truck"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/panel.webp",
+          "alt": "A technician wiring an electrical panel in a new build"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/generator.webp",
+          "alt": "A home standby generator installed beside a house"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/tune-up.webp",
+          "alt": "A technician checking an outdoor air conditioning unit"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/condenser-rinse.webp",
+          "alt": "A technician rinsing an outdoor condenser coil"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/new-unit.webp",
+          "alt": "A technician kneeling beside a new Carrier condenser"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/install.webp",
+          "alt": "A technician fastening a panel on an outdoor unit"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/service-call.webp",
+          "alt": "A technician servicing two outdoor units beside a building"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/truck.webp",
+          "alt": "A Carolina HVAC service truck parked under the trees"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "why",
+      "nav": "Why us",
+      "eyebrow": "Why homeowners choose us",
+      "title": "Doing great work, *treating people right*",
+      "items": [
+        {
+          "title": "Skilled, friendly technicians",
+          "text": "People of high character who show integrity and kindness, even in tough situations."
+        },
+        {
+          "title": "Honest recommendations",
+          "text": "Straight answers about repair or replace, without pressure."
+        },
+        {
+          "title": "Maintenance plans",
+          "text": "Regular tune-ups on a plan, so your system gets checked every season."
+        },
+        {
+          "title": "Financing",
+          "text": "A new system for about the cost of a cup of coffee a day."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
+      "eyebrow": "Our story",
+      "title": "A truck, a toolbox *and a pager*",
+      "body": [
+        "After his time in the Navy, Pat Quill wanted to build a business that would provide for his family and leave a legacy. In 1995 he started Carolina HVAC with a Mitsubishi Mighty Max truck, a plastic toolbox and a pager on his hip, running it from a folding table in the home office.",
+        "As soon as Pat's son Kyle graduated high school, he joined his dad's team as an install helper and worked his way through the trades. After more than 20 years side by side they became partners, and Kyle has led the company as President since 2023. Our values haven't changed: honoring God, quality craftsmanship and serving with integrity."
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "family",
+      "nav": "The family",
+      "eyebrow": "The Quill family",
+      "title": "Two generations, *one name on the truck*",
+      "images": [
+        {
+          "src": "/demo-assets/carolina-hvac/quill-family.webp",
+          "alt": "The extended Quill family outdoors in 2023"
+        },
+        {
+          "src": "/demo-assets/carolina-hvac/kyle-family.webp",
+          "alt": "Kyle Quill with his wife and children"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Common *questions*",
+      "items": [
+        {
+          "q": "How long does an HVAC system last?",
+          "a": "Most systems last 10 to 20 years. As equipment ages it loses efficiency, gets noisier and needs repairs more often. At that point you can keep repairing it or replace it, and we'll give you an honest recommendation either way."
+        },
+        {
+          "q": "Do you work on commercial buildings?",
+          "a": "Yes. We install and repair commercial heating, air conditioning and electrical systems."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Aiken, Williston, Blackville, North Augusta, Barnwell, Jackson, New Ellenton, Wagener, Lexington and many more communities across Aiken, Barnwell and Lexington counties, plus Augusta, GA."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "No heat? No air? No power?",
+      "text": "Call the family that's been keeping the region comfortable since 1995.",
+      "cta": {
+        "label": "Call (803) 649-2020",
+        "href": "tel:+18036492020"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Request *service*",
+    "formTitle": "Tell us what's going on",
+    "formTopics": [
+      "Air conditioning",
+      "Heating or heat pump",
+      "Electrical",
+      "Generator",
+      "Maintenance plan",
+      "Commercial"
+    ]
+  },
+  "source": {
+    "url": "https://www.carolina-hvac.com/",
+    "before": [
+      "The menu holds about 70 links, every service and every town, before any content",
+      "An automated check finds 50 serious accessibility problems: faint text, links you can only spot by color and links with no name",
+      "22 of 23 images have no text description for screen readers",
+      "The home page downloads about 5 MB across 132 files on a phone"
+    ]
+  }
+}

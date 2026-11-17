@@ -137,6 +137,20 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
         </figure>
       </section>
 
+      {before && after && (
+        <section class="rp-compare-wrap">
+          <h2>Slide to compare</h2>
+          <div class="rp-compare" style="--pos:50%">
+            <img src={after} alt={`Concept redesign for ${demo.name}`} width="1120" height="753" loading="lazy" />
+            <img class="rp-compare-before" src={before} alt={`${demo.name}'s current website`} width="1120" height="753" loading="lazy" />
+            <span class="rp-compare-line" aria-hidden="true"></span>
+            <span class="rp-tag rp-tag-l" aria-hidden="true">Today</span>
+            <span class="rp-tag rp-tag-r" aria-hidden="true">Concept</span>
+            <input type="range" min="0" max="100" value="50" aria-label="Show more of today's site or of the concept" data-compare />
+          </div>
+        </section>
+      )}
+
       {glance.length > 0 && (
         <section>
           <h2>At a glance</h2>
@@ -210,6 +224,13 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
         Found something we got wrong? Tell us and we will correct it.
       </p>
     </main>
+    <script is:inline>
+      // Before/after slider: the range input sets how much of today's site shows.
+      for (const input of document.querySelectorAll('[data-compare]')) {
+        const box = input.closest('.rp-compare');
+        input.addEventListener('input', () => box.style.setProperty('--pos', `${input.value}%`));
+      }
+    </script>
   </body>
 </html>
 
@@ -275,6 +296,17 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
   .rp-qr { width: 104px; height: 104px; background: #f3e9c9; padding: 10px; border-radius: 12px; flex: none; }
   .rp-qr svg { width: 100%; height: 100%; display: block; }
   @media (max-width: 760px) { .rp-shots, .rp-cols { grid-template-columns: 1fr; } .rp-weight div { grid-template-columns: 1fr auto; } .rp-weight em { display: none; } .rp-qr { display: none; } }
+  .rp-compare { position: relative; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 14px 34px -20px rgb(0 0 0 / .3); background: var(--surface); }
+  .rp-compare img { display: block; width: 100%; height: auto; }
+  .rp-compare-before { position: absolute; inset: 0; height: 100% !important; object-fit: cover; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+  .rp-compare-line { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 3px; margin-left: -1.5px; background: #fff; box-shadow: 0 0 0 1px rgb(0 0 0 / .25); pointer-events: none; }
+  .rp-compare-line::after { content: "⟷"; position: absolute; top: 50%; left: 50%; translate: -50% -50%; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: #fff; color: var(--green); font-weight: 700; box-shadow: 0 4px 14px rgb(0 0 0 / .3); }
+  .rp-tag { position: absolute; bottom: 12px; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; color: #fff; pointer-events: none; }
+  .rp-tag-l { left: 12px; background: var(--warn); }
+  .rp-tag-r { right: 12px; background: var(--green-2); }
+  .rp-compare input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+  .rp-compare:has(input:focus-visible) { outline: 3px solid var(--green-2); outline-offset: 3px; }
+  @media print { .rp-compare-wrap { display: none; } }
   @media print { .rp-qr { display: block; } @page { margin: 14mm; } .rp section { break-inside: avoid; } }
   @media print { .rp { background: #fff; } .rp-cta { background: #fff; color: var(--ink); border: 1px solid var(--line); } .rp-cta p { color: var(--muted); } .rp-btn { border: 1px solid var(--ink); } }
 </style>

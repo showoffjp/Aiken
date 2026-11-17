@@ -1186,5 +1186,161 @@
  "/demo-assets/track-kitchen/kitchen-house-640.webp": [
   640,
   426
+ ],
+ "/demo-assets/aiken-granite/quartz-island.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/cream-kitchen.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/black-island.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/black-backsplash.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/fireplace.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/cooktop.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/vanity.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/outdoor-kitchen.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/outdoor-grill.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/quartz-vanity.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-granite/island-sink.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/aiken-pet-sitters/june.webp": [
+  671,
+  671
+ ],
+ "/demo-assets/aiken-pet-sitters/sam.webp": [
+  900,
+  1502
+ ],
+ "/demo-assets/aiken-pet-sitters/dude.webp": [
+  700,
+  700
+ ],
+ "/demo-assets/carolina-hvac/team.webp": [
+  1800,
+  771
+ ],
+ "/demo-assets/carolina-hvac/tech-truck.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/carolina-hvac/condenser-rinse.webp": [
+  800,
+  1200
+ ],
+ "/demo-assets/carolina-hvac/panel.webp": [
+  900,
+  900
+ ],
+ "/demo-assets/carolina-hvac/generator.webp": [
+  1000,
+  831
+ ],
+ "/demo-assets/carolina-hvac/tune-up.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/carolina-hvac/install.webp": [
+  800,
+  1200
+ ],
+ "/demo-assets/carolina-hvac/new-unit.webp": [
+  900,
+  855
+ ],
+ "/demo-assets/carolina-hvac/service-call.webp": [
+  900,
+  600
+ ],
+ "/demo-assets/carolina-hvac/quill-family.webp": [
+  1000,
+  665
+ ],
+ "/demo-assets/carolina-hvac/kyle-family.webp": [
+  900,
+  743
+ ],
+ "/demo-assets/carolina-hvac/truck.webp": [
+  1000,
+  659
+ ],
+ "/demo-assets/aiken-pet-sitters/sam-640.webp": [
+  640,
+  1068
+ ],
+ "/demo-assets/carolina-hvac/condenser-rinse-640.webp": [
+  640,
+  960
+ ],
+ "/demo-assets/carolina-hvac/generator-640.webp": [
+  640,
+  532
+ ],
+ "/demo-assets/carolina-hvac/install-640.webp": [
+  640,
+  960
+ ],
+ "/demo-assets/carolina-hvac/kyle-family-640.webp": [
+  640,
+  528
+ ],
+ "/demo-assets/carolina-hvac/new-unit-640.webp": [
+  640,
+  608
+ ],
+ "/demo-assets/carolina-hvac/panel-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/carolina-hvac/quill-family-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/carolina-hvac/service-call-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/carolina-hvac/team-640.webp": [
+  640,
+  274
+ ],
+ "/demo-assets/carolina-hvac/tech-truck-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/carolina-hvac/truck-640.webp": [
+  640,
+  422
+ ],
+ "/demo-assets/carolina-hvac/tune-up-640.webp": [
+  640,
+  427
  ]
 }

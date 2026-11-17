@@ -32,6 +32,7 @@ The repo does three things:
 - **The concept itself** at `/<slug>/`, with a "Concept preview" bar and a "What changed?" panel.
 - **A website checkup** at `/<slug>/report/`: the current site next to the concept, what we noticed, and what the concept changes. Written to be sent as a link or printed.
 - **A link preview**: pasting either link into an email, text or Facebook message shows a picture of the redesign.
+- **A slide-to-compare view** on the checkup page: drag (or use the arrow keys) to wipe between today's site and the concept.
 - **A share card**: a 1200x630 before/after image at `/cards/<slug>.jpg`, used as the link preview and copied into the outreach kit for attaching to a Facebook or Instagram message.
 - **An outreach draft**: `npm run outreach` writes an email, a text message, a Facebook/Instagram message and a voicemail script for every concept into `./outreach` (kept out of git). Nothing is sent.
 
@@ -44,6 +45,7 @@ The repo does three things:
 | `npm run a11y -- --sites` | Runs the axe-core accessibility rules (WCAG 2.1 A/AA) on every business home page as a phone sees it, into `data/a11y.json`. Checkup pages show the count next to the concept's. |
 | `npm run a11y -- --concepts` | The same for every concept (add `--details` to print each finding). Every concept should come back with zero. |
 | `npm run domains` | Looks up every business's web address in the public domain registry (RDAP) and records when it expires, whether it has lapsed, and whether it is on hold, in `data/domains.json`. |
+| `npm run recheck` | Before a send: refetches every concept business's current website and writes `outreach/recheck.md`, flagging any site that has come back up, changed platform or been redesigned since the concept was made. |
 | `npm run cards` | Draws the before/after share card for every concept into `public/cards/`. |
 | `npm run variants` | Makes 640px copies of concept photos so phones download small files. |
 | `npm run print` | Prints every checkup page to a two-sided Letter PDF in `outreach/print/`, with a QR code that opens the concept. For walk-in visits. |
@@ -79,7 +81,7 @@ npm run audit      # fetch and score every website
 npm run export     # write data/prospects.csv and .json
 ```
 
-**Fixing the data by hand.** `data/overrides.json` forces businesses in or out of the list by exact name, and its `website` map replaces a directory's link when it points at a dead page but the business's home page still works. Re-run `npm run merge`, then audit that one business with `node scripts/audit.mjs <slug>`.
+**Fixing the data by hand.** `data/overrides.json` forces businesses in or out of the list by exact name, and its `website` map replaces a directory's link when it points at a dead page but the business's home page still works. Re-run `npm run merge`, then audit just those businesses with `node scripts/audit.mjs <slug> [<slug> ...]` (add `--fresh` to refetch instead of using the cache).
 
 ## Adding a concept
 
@@ -109,6 +111,8 @@ npm run a11y -- --concepts <demo-slug> --details && npm run weigh -- --concepts
 - Contact forms on concepts are inert. They collect and send nothing.
 
 ## Before sending anything
+
+- Run `npm run recheck` and read `outreach/recheck.md`: a business may have fixed its site since the concept was made.
 
 - Put your studio name and contact details in `src/lib/site.ts`.
 - Photos and logos in `public/demo-assets/` belong to the businesses. They are used here only to show each owner a proposal for their own site; get their sign-off before a concept becomes a real site.

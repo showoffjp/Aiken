@@ -1,0 +1,261 @@
+{
+  "slug": "aiken-pet-sitters",
+  "prospect": "aiken-pet-sitters-llc",
+  "name": "Aiken Pet Sitters",
+  "short": "Aiken Pet Sitters",
+  "category": "In-Home Pet Sitting & Dog Walking",
+  "group": "Pets & Animals",
+  "town": "Aiken, SC",
+  "established": "2005",
+  "look": "warm",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fbf7f1",
+    "surface": "#ffffff",
+    "ink": "#1f2a33",
+    "muted": "#5d6770",
+    "primary": "#1f6f7a",
+    "onPrimary": "#fbf7f1",
+    "accent": "#e57f2a",
+    "line": "#ebe2d6"
+  },
+  "radius": 16,
+  "icon": "paw-print",
+  "contact": {
+    "phone": "(803) 648-4599",
+    "phoneLabel": "Call June",
+    "email": "june@aikenpetsitters.com",
+    "address": [
+      "Gem Lakes",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Gem Lakes, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/Aiken-Pet-Sitters-289425571148224/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Professional in-home pet care in Aiken since 2005",
+    "title": "Better care for *your best friend*",
+    "lede": "Pet sitting, cat sitting, dog walking, overnights and house sitting in your own home, from a certified professional pet sitter who treats your pets like family.",
+    "cta": {
+      "label": "Book a consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Services & rates",
+      "href": "#rates"
+    },
+    "image": {
+      "src": "/demo-assets/aiken-pet-sitters/june.webp",
+      "alt": "Founder June Crawford at home with one of her black cats"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 2005",
+      "label": "Caring for Aiken's pets for two decades"
+    },
+    {
+      "value": "Certified",
+      "label": "Certified Professional Pet Sitter (Pet Sitters International)"
+    },
+    {
+      "value": "Per visit",
+      "label": "Rates by care time, not per pet"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "Care that *comes to you*",
+      "intro": "Your pets stay home, with their own beds, smells and routines. No kennel stress, and no favors to ask of friends.",
+      "items": [
+        {
+          "icon": "dog",
+          "title": "Pet sitting",
+          "text": "Feeding, fresh water, playtime, medications, walks and yard cleanup while you're away."
+        },
+        {
+          "icon": "cat",
+          "title": "Cat sitting",
+          "text": "Tailored to your cat's personality, whether she wants extra play, lots of affection or to be left alone."
+        },
+        {
+          "icon": "footprints",
+          "title": "Dog walking",
+          "text": "Midday walks and potty breaks for dogs who are alone all day or have energy to burn."
+        },
+        {
+          "icon": "moon",
+          "title": "Overnight sits",
+          "text": "A sleeping buddy for your pets and an occupied house while you travel."
+        },
+        {
+          "icon": "house",
+          "title": "House sitting",
+          "text": "Peace of mind for an empty house while you and your pets travel as snowbirds or on long trips."
+        },
+        {
+          "icon": "lamp",
+          "title": "The lived-in look",
+          "text": "Lights turned on and off and plants watered while you're away."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "rates",
+      "nav": "Rates",
+      "eyebrow": "Simple pricing",
+      "title": "Services *and rates*",
+      "intro": "Rates are based on the care time your pets need, not on how many pets you have.",
+      "groups": [
+        {
+          "title": "Visits",
+          "items": [
+            {
+              "name": "30-minute visit",
+              "desc": "Our regular visit",
+              "price": "29"
+            },
+            {
+              "name": "40-minute visit",
+              "desc": "A longer visit",
+              "price": "37"
+            },
+            {
+              "name": "Hour visit",
+              "price": "45"
+            }
+          ]
+        },
+        {
+          "title": "Away longer",
+          "items": [
+            {
+              "name": "Overnight",
+              "desc": "Starts with a base 12-hour overnight",
+              "price": "100"
+            },
+            {
+              "name": "House sit, basic",
+              "desc": "Up to 30 minutes",
+              "price": "29"
+            },
+            {
+              "name": "Extra time",
+              "desc": "Each additional 15 minutes",
+              "price": "8"
+            }
+          ]
+        }
+      ],
+      "footnote": "Rates effective January 1, 2023, as posted on the current website. Holiday or short-notice fees of about $5 may apply. Need something not listed? Just ask."
+    },
+    {
+      "type": "steps",
+      "id": "start",
+      "nav": "Getting started",
+      "eyebrow": "New clients",
+      "title": "Getting *started*",
+      "items": [
+        {
+          "title": "Call or email",
+          "text": "Tell us about your pets and the dates you'll be away."
+        },
+        {
+          "title": "In-home consultation",
+          "text": "We meet you and your pets and learn their habits, routines and anything else we need to know."
+        },
+        {
+          "title": "Book online",
+          "text": "Once you're set up, schedule visits through the client login and get quick confirmation."
+        },
+        {
+          "title": "Relax",
+          "text": "We send updates and photos while you're gone."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About June",
+      "eyebrow": "Meet the founder",
+      "title": "June Crawford, *a lifelong pet person*",
+      "body": [
+        "June has cared for her own and other people's pets since she was a little girl in Harrison, Arkansas. After a career in statistics, programming and systems analysis that began in 1982, she founded Aiken Pet Sitters in 2005, and she still says she loves her job.",
+        "She keeps her Certified Professional Pet Sitter credential current through Pet Sitters International. At home there are currently eight cats, and June gives time and donations to Stray Cat Outreach, PAWS, FOTAS, the Albrecht Center SPCA and other animal groups."
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "clients",
+      "nav": "Clients",
+      "eyebrow": "A few of our clients",
+      "title": "Friends *we look after*",
+      "images": [
+        {
+          "src": "/demo-assets/aiken-pet-sitters/sam.webp",
+          "alt": "A shaggy black-and-white dog on a red leash"
+        },
+        {
+          "src": "/demo-assets/aiken-pet-sitters/dude.webp",
+          "alt": "A tabby-and-white cat, close up"
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From pet parents",
+      "title": "What clients *say*",
+      "items": [
+        {
+          "text": "June and friends have been looking after Dude for about seven years now. Long vacations are tough on cats, but June takes away the loneliness with brushing, playing and loving. Dude starts purring when June drops by, even when we're home.",
+          "by": "Alica and Doug"
+        },
+        {
+          "text": "June Crawford and her wonderful sitters have showered our house full of pets with love and the best possible pet sitting care for over a decade. We have had as many as seven pets at one time, dogs and cats.",
+          "by": "Bob and Carol"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Going out of town?",
+      "text": "Book your in-home consultation early, especially around the holidays.",
+      "cta": {
+        "label": "Call (803) 648-4599",
+        "href": "tel:+18036484599"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a consultation*",
+    "formTitle": "Tell us about your pets",
+    "formTopics": [
+      "Pet sitting",
+      "Cat sitting",
+      "Dog walking",
+      "Overnight sit",
+      "House sitting"
+    ]
+  },
+  "source": {
+    "url": "https://aikenpetsitters.com/",
+    "before": [
+      "The home page downloads about 6 MB on a phone",
+      "An automated check finds 38 serious accessibility problems, mostly text too faint to read",
+      "Rates are tucked inside each service page instead of in one place",
+      "The page blocks zooming on phones"
+    ]
+  }
+}
