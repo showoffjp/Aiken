@@ -142,6 +142,9 @@ let overrides = { include: [], exclude: [] };
 try { overrides = { ...overrides, ...JSON.parse(await readFile(new URL('../data/overrides.json', import.meta.url), 'utf8')) }; } catch {}
 const forceIn = new Set(overrides.include.map((n) => n.toLowerCase()));
 const forceOut = new Set(overrides.exclude.map((n) => n.toLowerCase()));
+// Directory listings sometimes link to a page that no longer exists while the
+// business's home page still works: "website": { "<exact name>": "<url>" }.
+const siteFix = new Map(Object.entries(overrides.website || {}).map(([n, u]) => [n.toLowerCase(), u]));
 
 // ------------------------------------------------------------- segment ----
 // National / regional chains and franchises: not the target, and their sites
@@ -192,6 +195,8 @@ const slugify = (s) => {
 };
 
 const out = records.map((r) => {
+  const fix = [...r.names].map((n) => siteFix.get(n.toLowerCase())).find(Boolean);
+  if (fix) r.website = fix;
   const host = hostOf(r.website);
   let segment = segmentOf(r);
   if (segment === 'local' && host && hostCount.get(host) >= 3) segment = 'chain';

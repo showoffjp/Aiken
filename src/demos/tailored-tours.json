@@ -1,0 +1,202 @@
+{
+  "slug": "tailored-tours",
+  "prospect": "tailored-tours-of-aiken",
+  "name": "Tailored Tours of Aiken",
+  "short": "Tailored Tours",
+  "category": "Private & Walking Tours",
+  "group": "Things to Do",
+  "town": "Aiken, SC",
+  "established": "2013",
+  "look": "boutique",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f7f3ec",
+    "surface": "#fffdf9",
+    "ink": "#22201d",
+    "muted": "#625b52",
+    "primary": "#2c4a3e",
+    "onPrimary": "#f7f3ec",
+    "accent": "#b5703f",
+    "line": "#e6ddcf"
+  },
+  "radius": 6,
+  "icon": "map",
+  "contact": {
+    "phone": "(803) 295-3870",
+    "phoneLabel": "Call to reserve",
+    "email": "tailoredtoursofaiken@yahoo.com",
+    "address": [
+      "3400 Wagener Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "3400 Wagener Road, Aiken, SC 29801",
+    "hours": [
+      ["Monday – Saturday", "10:00 am – 6:00 pm"],
+      ["Sunday", "Closed"]
+    ],
+    "hoursNote": "Closed July 4th, Thanksgiving, Christmas and New Year's Day. Cash and checks accepted.",
+    "facebook": "https://www.facebook.com/tailoredtoursofaiken"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken's touring service since 2013",
+    "title": "Aiken's history, legends *and a little gossip*",
+    "lede": "Private driving tours for parties of one to seven, daytime walks through downtown, and evening ghost tours, led by a guide who knows the stories behind the Winter Colony cottages.",
+    "cta": {
+      "label": "Reserve a tour",
+      "href": "tel:+18032953870"
+    },
+    "cta2": {
+      "label": "Tours and prices",
+      "href": "#tours"
+    },
+    "image": {
+      "src": "/demo-assets/tailored-tours/winter-colony-house.webp",
+      "alt": "A white-columned Winter Colony house at the end of a curved drive"
+    }
+  },
+  "facts": [
+    {
+      "value": "1 to 7",
+      "label": "Private driving tours in a comfortable minivan"
+    },
+    {
+      "value": "55+ stops",
+      "label": "On the Historic Aiken tour alone"
+    },
+    {
+      "value": "10th free",
+      "label": "The Superstar Sojourner reward for repeat guests"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "tours",
+      "nav": "Tours",
+      "eyebrow": "Most requested",
+      "title": "Tours *and prices*",
+      "intro": "Tours run first come, first served, so reserve ahead to get the day and time you want. Children 3 to 10 are half price, and under 3 ride free.",
+      "groups": [
+        {
+          "title": "By minivan",
+          "items": [
+            {
+              "name": "Historic Aiken",
+              "desc": "More than 55 points of interest: winter cottages, churches, downtown and the horse district. The best overview of Aiken's history.",
+              "price": "25"
+            },
+            {
+              "name": "Aiken's Amazing Cottages",
+              "desc": "The 20-room-plus \"cottages\" where families like the Astors, Vanderbilts and Whitneys spent their winters."
+            },
+            {
+              "name": "Aiken and a Plantation",
+              "desc": "Two plantation homes, admission to Redcliffe Plantation, and round-trip transportation from downtown. Wear comfortable shoes.",
+              "price": "35"
+            }
+          ]
+        },
+        {
+          "title": "On foot",
+          "items": [
+            {
+              "name": "Haunted Aiken",
+              "desc": "An evening walking tour of spirits, stubborn souls and Aiken history, with ghost-hunting tools for the fun of it. Family-friendly; wear walking shoes.",
+              "price": "15"
+            },
+            {
+              "name": "Downtown by day",
+              "desc": "A daytime walking tour of historic downtown Aiken."
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices per person, as listed on the current website."
+    },
+    {
+      "type": "services",
+      "id": "groups",
+      "nav": "Groups",
+      "eyebrow": "Beyond the tours",
+      "title": "Made to *fit your group*",
+      "items": [
+        { "icon": "car", "title": "Private driving tours", "text": "Your party of one to seven in a Kia Carnival minivan, at your pace." },
+        { "icon": "footprints", "title": "Walking tours", "text": "Daytime walks of downtown and evening ghost tours." },
+        { "icon": "school", "title": "School presentations", "text": "Aiken history for classrooms, with hands-on antiques." },
+        { "icon": "church", "title": "Church & social groups", "text": "Presentations on historic Aiken for clubs and congregations." },
+        { "icon": "gift", "title": "Gift certificates", "text": "Always available, for any tour." },
+        { "icon": "star", "title": "Superstar Sojourner", "text": "Each paid guest earns a punch; after nine, the tenth guest rides free, any tour, any time of year." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "On the road",
+      "title": "See Aiken *up close*",
+      "images": [
+        { "src": "/demo-assets/tailored-tours/guide-and-van.webp", "alt": "A tour guide beside the Tailored Tours minivan" },
+        { "src": "/demo-assets/tailored-tours/racing-hall-horse.webp", "alt": "A painted horse statue outside the Racing Hall of Fame" },
+        { "src": "/demo-assets/tailored-tours/horse-district.webp", "alt": "Horses at a paddock fence in Aiken's horse district" }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our guests",
+      "title": "\"Marty *knows her stuff*\"",
+      "items": [
+        { "text": "Perfect! Town trolley was booked so hotel suggested Marty. So glad it worked out that way. Great tour!", "by": "John S." },
+        { "text": "Marty knows her stuff. Great tour! So interesting to learn about my little hometown.", "by": "Emily M." },
+        { "text": "My fiancé and I came all the way from California to visit family and were told we had to do a tour with Marty. We were not disappointed! We're still talking about all the history we learned.", "by": "Brenda F." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you go*",
+      "items": [
+        { "q": "Do I need a reservation?", "a": "Tours run first come, first served, so reservations are strongly encouraged to get the day and time you'd like." },
+        { "q": "How do I pay?", "a": "Cash or check, made payable to Tailored Tours of Aiken." },
+        { "q": "What vehicle do you use?", "a": "Driving tours are in a Kia Carnival minivan that seats up to seven passengers." },
+        { "q": "Are children welcome?", "a": "Yes. Children 3 to 10 are half price and children under 3 are free. Haunted Aiken is a family-friendly tour." }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Visiting Aiken this season?",
+      "text": "Call to reserve a tour, or ask about a gift certificate for someone who'd love the stories.",
+      "cta": {
+        "label": "Call (803) 295-3870",
+        "href": "tel:+18032953870"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a tour*",
+    "formTitle": "Ask about a date",
+    "formTopics": [
+      "Historic Aiken",
+      "Aiken's Amazing Cottages",
+      "Aiken and a Plantation",
+      "Haunted Aiken",
+      "A group or school presentation"
+    ]
+  },
+  "source": {
+    "url": "https://tailoredtoursofaiken.com/",
+    "before": [
+      "Directory listings still link to a tours page that now shows \"404 Not Found\"",
+      "The home page and contact page list different business hours",
+      "One home-page image is still labeled \"Section under construction\"",
+      "No description for Google results, and a footer copyright of 2018"
+    ]
+  }
+}

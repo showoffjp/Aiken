@@ -21,7 +21,8 @@
     "weigh": "node scripts/weigh.mjs",
     "variants": "node scripts/variants.mjs",
     "a11y": "node scripts/a11y.mjs",
-    "cards": "node scripts/cards.mjs"
+    "cards": "node scripts/cards.mjs",
+    "domains": "node scripts/domains.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",
