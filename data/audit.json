@@ -7867,7 +7867,7 @@
   "url": "https://mariasmexicanrestaurantaiken.com/",
   "finalUrl": "http://mariasmexicanrestaurantaiken.com/",
   "status": 200,
-  "state": "ok",
+  "state": "parked",
   "score": 36,
   "findings": [
    "No working HTTPS: browsers show \"Not secure\"",

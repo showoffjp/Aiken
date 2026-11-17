@@ -125,6 +125,7 @@ const features = [
                     <span class="go"><Icon name="arrow-up-right" size={18} stroke={2.2} /></span>
                   </div>
                 </a>
+                <a class="report-link" href={`/${c.slug}/report/`}>See the website checkup<Icon name="arrow-right" size={14} stroke={2.2} /></a>
               </li>
             ))}
           </ul>
@@ -270,6 +271,8 @@ const features = [
   .meta h3 { font-size: 1.16rem; font-weight: 650; letter-spacing: -.015em; line-height: 1.2; }
   .meta p { color: var(--muted); font-size: .9rem; margin-top: 4px; }
   .kind { display: inline-block; margin-top: 8px; font-size: .72rem; font-weight: 600; letter-spacing: .04em; padding: 4px 9px; border-radius: 999px; background: color-mix(in srgb, var(--green-2) 12%, var(--bg)); color: var(--green); }
+  .report-link { display: inline-flex; align-items: center; gap: 6px; margin: 10px 4px 0; font-size: .86rem; font-weight: 600; color: var(--green-2); text-decoration: none; }
+  .report-link:hover { text-decoration: underline; }
   .go { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); display: grid; place-items: center; flex: none; transition: background .2s, color .2s, border-color .2s; }
   .card a:hover .go { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 

@@ -1,0 +1,239 @@
+{
+  "slug": "verdant-landscape",
+  "name": "Verdant Landscape",
+  "short": "Verdant Landscape",
+  "category": "Landscape Design & Outdoor Living",
+  "group": "Trades & Industry",
+  "town": "North Augusta, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f5f4ee",
+    "surface": "#ffffff",
+    "ink": "#18201a",
+    "muted": "#5b6559",
+    "primary": "#24452e",
+    "onPrimary": "#f5f4ee",
+    "accent": "#b98a3e",
+    "line": "#dcdccf"
+  },
+  "radius": 2,
+  "icon": "trees",
+  "contact": {
+    "phone": "(803) 279-2775",
+    "address": [
+      "175 Sweetwater Road",
+      "North Augusta, SC 29860"
+    ],
+    "mapQuery": "Verdant Landscape, 175 Sweetwater Road, North Augusta, SC 29860",
+    "facebook": "https://www.facebook.com/verdantaugusta"
+  },
+  "hero": {
+    "variant": "photo",
+    "eyebrow": "Landscape design & architectural outdoor living",
+    "title": "Outdoor spaces, *designed and built*",
+    "lede": "Pools and poolscapes, outdoor kitchens, hardscapes, pergolas and plantings across the CSRA, from a design-build team with more than 17 years in the region.",
+    "cta": {
+      "label": "Book a consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Recent projects",
+      "href": "#projects"
+    },
+    "image": {
+      "src": "/demo-assets/verdant-landscape/pool-terrace.webp",
+      "alt": ""
+    }
+  },
+  "facts": [
+    {
+      "value": "17+ years",
+      "label": "Designing and building in the CSRA"
+    },
+    {
+      "value": "Design-build",
+      "label": "Plan, design and build under one roof"
+    },
+    {
+      "value": "Financing",
+      "label": "Flexible payment plans through Wells Fargo"
+    }
+  ],
+  "sections": [
+    {
+      "type": "gallery",
+      "id": "projects",
+      "nav": "Projects",
+      "eyebrow": "Recent projects",
+      "title": "Built *across the CSRA*",
+      "intro": "From championship-worthy putting greens to resort-style pools and custom stonework.",
+      "images": [
+        {
+          "src": "/demo-assets/verdant-landscape/pavilion.webp",
+          "alt": "A lakeside pavilion with an outdoor bar"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/aerial-pool.webp",
+          "alt": "Aerial view of a pool and terraced yard"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/river-kitchen.webp",
+          "alt": "An outdoor kitchen overlooking the river"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/stone-fireplace.webp",
+          "alt": "A stacked-stone outdoor fireplace"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/retaining-wall.webp",
+          "alt": "A curved block retaining wall"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/fire-pit.webp",
+          "alt": "A stone fire pit at night"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/pergola.webp",
+          "alt": "A cedar pergola over a stone path"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/deck.webp",
+          "alt": "A new wood deck with stairs"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/grill.webp",
+          "alt": "A built-in grill station"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/bluestone.webp",
+          "alt": "A bluestone patio and boxwoods"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/pavilion-white.webp",
+          "alt": "A white open-air pavilion"
+        },
+        {
+          "src": "/demo-assets/verdant-landscape/planting.webp",
+          "alt": "Fresh beds and plantings along a lawn"
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "From plantings *to poolscapes*",
+      "columns": 3,
+      "items": [
+        {
+          "icon": "pencil-ruler",
+          "title": "Consultations & design",
+          "text": "Plans drawn around how you want to live outside."
+        },
+        {
+          "icon": "waves",
+          "title": "Pools & poolscapes",
+          "text": "Resort-style pools and the stonework around them."
+        },
+        {
+          "icon": "cooking-pot",
+          "title": "Outdoor kitchens",
+          "text": "Grills, counters and bars built for entertaining."
+        },
+        {
+          "icon": "flame",
+          "title": "Fire pits & fireplaces",
+          "text": "Gathering spots in stacked stone and block."
+        },
+        {
+          "icon": "tent",
+          "title": "Gazebos & pergolas",
+          "text": "Shade structures and pavilions, framed and finished."
+        },
+        {
+          "icon": "brick-wall",
+          "title": "Hardscaping & walls",
+          "text": "Patios, walkways and retaining walls."
+        },
+        {
+          "icon": "sprout",
+          "title": "Planting & horticulture",
+          "text": "Beds, gardens and plant selection that lasts."
+        },
+        {
+          "icon": "droplets",
+          "title": "Irrigation & turf",
+          "text": "Irrigation systems and turf management."
+        },
+        {
+          "icon": "scissors",
+          "title": "Landscape maintenance",
+          "text": "Keeping it looking the way it did on day one."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "About Verdant",
+      "title": "The landscape company that *cares about the community*",
+      "image": {
+        "src": "/demo-assets/verdant-landscape/owner.webp",
+        "alt": "A member of the Verdant team"
+      },
+      "body": [
+        "Verdant Landscape, formerly known as Dalzell Design Landscaping, has the vision, technology and skilled landscape design professionals to bring your outdoor plans to life. From plantings and gardens to hardscapes and pool installations, we design, plan and build.",
+        "With more than 17 years of operating and growing in the CSRA, we are dedicated to our craft and to the region's natural ecosystem, with sustainable landscaping practices."
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Customer reviews",
+      "title": "From *our clients*",
+      "items": [
+        {
+          "text": "Verdant Landscape is an exceptional company that provides quality work and great service. They did a large stamped concrete patio and a beautiful customized fireplace for my backyard. From start to finish they were wonderful.",
+          "by": "Patrick D., Augusta, GA"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Bring your vision to life, on your terms.",
+      "text": "Flexible financing through Wells Fargo: build now, with a payment plan that works for you.",
+      "cta": {
+        "label": "Call (803) 279-2775",
+        "href": "tel:+18032792775"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a consultation*",
+    "formTitle": "Tell us about your yard",
+    "formTopics": [
+      "Pool or poolscape",
+      "Outdoor kitchen",
+      "Hardscape or patio",
+      "Pergola or pavilion",
+      "Planting and gardens",
+      "Maintenance"
+    ]
+  },
+  "source": {
+    "url": "https://verdantlandscape.com/",
+    "before": [
+      "The home page downloads about 82 MB across 132 files on a phone, enough to stall on a cellular connection",
+      "Full-size photos are sent to phones that only display them a few inches wide",
+      "No description for Google results or link previews",
+      "The first screen is a menu of 20 links before any project photos"
+    ]
+  }
+}

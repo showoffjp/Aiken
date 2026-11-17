@@ -14,6 +14,26 @@ const base = pick('url').replace(/\/$/, '');
 const me = { name: '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]', email: pick('contactEmail') || '[YOUR EMAIL]', address: '[YOUR MAILING ADDRESS]' };
 
 const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json'), 'utf8'));
+const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
+// Plain-English names for the accessibility rules that come up most often.
+const PLAIN = {
+  'color-contrast': 'text too faint to read easily',
+  'image-alt': 'photos with no description for blind visitors',
+  'link-name': 'links that screen readers announce with no name',
+  'button-name': 'buttons with no label',
+  'label': 'form fields with no label',
+  'link-in-text-block': 'links you can only spot by color',
+  'html-has-lang': 'no page language set',
+  'meta-viewport': 'zooming switched off on phones',
+};
+function a11yNote(key) {
+  const r = a11y[key]?.site;
+  if (!r || r.error) return '';
+  const n = (r.critical || 0) + (r.serious || 0);
+  if (n < 5) return '';
+  const kinds = (r.top || []).filter((t) => PLAIN[t.id] && ['critical', 'serious'].includes(t.impact)).slice(0, 2).map((t) => PLAIN[t.id]);
+  return `An automated accessibility check flags ${n} serious problems on the home page${kinds.length ? `, such as ${kinds.join(' and ')}` : ''}`;
+}
 const out = path.join(ROOT, 'outreach');
 await mkdir(out, { recursive: true });
 
@@ -37,6 +57,8 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
   const broken = row.tier === 'broken';
   const findings = d.source.before.slice(0, broken ? 1 : 2);
+  const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
+  if (access) findings.push(access);
   const none = !!d.source.none;
   const subject = none ? `A website for ${short}` : broken ? `${short}: your website is not loading for visitors` : `A new website idea for ${short}`;
 
@@ -44,7 +66,7 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
 
 I'm ${me.name}. I build websites for small businesses around Aiken. ${none
     ? `I went looking for ${short} online and could not find a website, only a listing and a social page. That means the first thing a new customer sees is something you do not control.`
-    : `I was looking at ${host} and noticed ${broken ? 'a problem' : 'a couple of things'}:\n\n${findings.map((x) => `  - ${x}`).join('\n')}`}
+    : `I was looking at ${host} and noticed ${broken ? 'a problem' : findings.length > 2 ? 'a few things' : 'a couple of things'}:\n\n${findings.map((x) => `  - ${x}`).join('\n')}`}
 
 So I went ahead and built a working concept of what a ${none ? 'first' : 'new'} site could look like for ${d.name.replace(/,? (LLC|Inc\.?|P\.?C\.?)$/i, '')}, using the words${d.hero.image || d.logo ? ' and photos' : ''} you already have online:
 
@@ -64,6 +86,8 @@ Not interested? Reply "no thanks" and I will not contact you again.${row.listedP
 P.S. While checking, I noticed a local business directory lists your number as ${row.listedPhone}, while your website says ${row.phone}. ${/typo/.test(row.phoneNote || '') ? 'It looks like a typo, worth' : 'Worth'} a quick fix so callers reach you.` : ''}`;
 
   const text = `Hi${first ? ` ${first}` : ''}, this is ${me.name} with ${studio} in Aiken. I built a free concept for a new ${short} website: ${link} No obligation. Happy to walk you through it. Reply STOP and I won't text again.`;
+  // Many of these businesses answer Facebook messages faster than email.
+  const messenger = `Hi! I'm ${me.name}, a web designer here in Aiken. I put together a free concept for a ${none ? 'first ' : 'new '}${short} website, built from what you already have online. Here's a one-page look: ${report} (the concept itself: ${link}). No cost or obligation, just thought you might like to see it.`;
   const voicemail = `Hi${first ? ` ${first}` : ''}, this is ${me.name}. I build websites for small businesses here in the Aiken area. ${none ? `I could not find a website for ${short}` : `I noticed that ${lower(findings[0]).replace(/\.$/, '')}`}, so I put together a free concept of a new site for ${short}. I'd love to send you the link. My number is ${me.phone}. Again, that's ${me.name} at ${me.phone}. Thanks.`;
 
   const file = `${d.slug}.md`;
@@ -93,6 +117,14 @@ ${body}
 ${text}
 \`\`\`
 
+## Facebook or Instagram message
+
+Attach \`cards/${d.slug}.jpg\` (the before/after picture) with it.
+
+\`\`\`text
+${messenger}
+\`\`\`
+
 ## Voicemail
 
 \`\`\`text
@@ -107,6 +139,12 @@ ${voicemail}
 `);
   csv.push([d.name, d.town, email, phone, subject, link, report, file]);
   index.push(`| [${d.name}](${file}) | ${d.town} | ${email || '-'} | ${phone || '-'} |`);
+}
+
+// Before/after cards to attach to messages.
+await mkdir(path.join(out, 'cards'), { recursive: true });
+for (const f of await readdir(path.join(ROOT, 'public', 'cards')).catch(() => [])) {
+  await writeFile(path.join(out, 'cards', f), await readFile(path.join(ROOT, 'public', 'cards', f)));
 }
 
 const cell = (v) => (/[",\n]/.test(v) ? `"${String(v).replace(/"/g, '""')}"` : v);
