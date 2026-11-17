@@ -71,6 +71,8 @@ const anyProfile = (p: string) => social.onSite?.[p] || social.listed?.[p];
 if (!anyProfile('Google Business Profile')) recs.push({ title: 'Claim and link your Google Business Profile', text: 'It is what shows in Google Maps and the map pack. Link it from your site so customers can find your reviews and directions.' });
 if (s && !Object.keys(social.onSite || {}).length && Object.keys(social.listed || {}).length) recs.push({ title: 'Link your social profiles from the website', text: 'Your profiles exist but the site does not point to them, so visitors and search engines cannot connect the two.' });
 if (s && h && !Object.values(h.tags || {}).some(Boolean)) recs.push({ title: 'Measure your visitors', text: 'No analytics found. Free tools like Google Analytics or Vercel Analytics show how people find you and which pages lead to calls.' });
+const svc = ranks?.keywords?.find((k: any) => k.kind === 'service');
+if (svc && !svc.google) recs.unshift({ title: `Show up when people search "${svc.keyword}"`, text: `On a phone in Aiken, your site is not in Google's top ${svc.googleDepth || 20} for that search${svc.maps ? '' : ', and the business is not in the top 20 on Google Maps'}. A fast site built around your service and town, plus a complete Google Business Profile, is how local businesses climb.` });
 const kws = seo?.keywords || [];
 for (const k of kws) if (!k.title && !k.h1) recs.push({ title: `Use "${k.term}" where Google looks`, text: `Searchers type your service and town. "${k.term}" is not in the home page title or main heading.` });
 
@@ -149,21 +151,23 @@ const host = s ? s.host : hostOf(demo.source.url);
           <h2>Where you show up in search</h2>
           <div class="sr-table-wrap" tabindex="0" role="region" aria-label="Table (scrolls sideways on small screens)">
             <table class="sr-table">
-              <thead><tr><th>Search</th><th>Google</th><th>Google Maps</th><th>Bing</th><th>Top result</th></tr></thead>
+              <thead><tr><th>Search</th><th>Google</th><th>Google Maps</th><th>Bing</th><th>Top Google result</th></tr></thead>
               <tbody>
                 {ranks.keywords.map((k: any) => (
                   <tr>
-                    <td><b>{k.keyword}</b></td>
-                    <td class={k.google ? (k.google <= 3 ? 'good' : k.google <= 10 ? 'ok' : 'poor') : 'poor'}>{k.google ? `#${k.google}` : 'Not in top 100'}</td>
-                    <td class={k.maps ? (k.maps <= 3 ? 'good' : 'ok') : 'poor'}>{k.maps ? `#${k.maps}` : 'Not in top 20'}</td>
-                    <td class={k.bing ? (k.bing <= 3 ? 'good' : k.bing <= 10 ? 'ok' : 'poor') : 'poor'}>{k.bing ? `#${k.bing}` : 'Not in top 50'}</td>
+                    <td><b>{k.keyword}</b><br /><small>{k.kind === 'name' ? 'Your business name' : 'What a new customer types'}</small></td>
+                    {k.kind === 'name'
+                      ? <td class={k.panel || k.google ? 'good' : 'poor'}>{k.panel ? (k.panelSite ? 'Business panel with your website' : 'Business panel shown') : k.google ? `#${k.google}` : 'Not found'}{k.panel && k.google ? <><br /><small>site also #{k.google}</small></> : ''}</td>
+                      : <td class={k.google ? (k.google <= 3 ? 'good' : k.google <= 10 ? 'ok' : 'poor') : 'poor'}>{k.google ? `#${k.google}` : `Not in top ${k.googleDepth || 20}`}</td>}
+                    {k.mapsDepth ? <td class={k.maps ? (k.maps <= 3 ? 'good' : 'ok') : 'poor'}>{k.maps ? `#${k.maps}` : `Not in top ${k.mapsDepth}`}</td> : <td>–</td>}
+                    {k.bingDepth ? <td class={k.bing ? (k.bing <= 3 ? 'good' : k.bing <= 10 ? 'ok' : 'poor') : 'poor'}>{k.bing ? `#${k.bing}` : `Not in top ${k.bingDepth}`}</td> : <td>–</td>}
                     <td>{k.top || '–'}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p class="rp-note">Positions from a search-data service on {ranks.checked}, searching from {ranks.location || 'Aiken, SC'} on a phone. Rankings move day to day and differ by person and place.</p>
+          <p class="rp-note">Positions from DataForSEO, a licensed search-data service, on {ranks.checked}, searching from {ranks.location || 'Aiken, SC'} on a phone. The business panel is the box Google shows above the results when it recognises a business by name; on phones, that is where your website link appears. Positions on the main search can change noticeably from one search to the next and differ by person and place, so treat them as a snapshot.</p>
         </section>
       )}
 

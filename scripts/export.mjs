@@ -64,6 +64,9 @@ const a11y = JSON.parse(await readFile(new URL('../data/a11y.json', import.meta.
 const domains = JSON.parse(await readFile(new URL('../data/domains.json', import.meta.url), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(new URL('../data/lighthouse.json', import.meta.url), 'utf8').catch(() => '{}'));
 const seoData = JSON.parse(await readFile(new URL('../data/seo.json', import.meta.url), 'utf8').catch(() => '{}'));
+const rankData = JSON.parse(await readFile(new URL('../data/rankings.json', import.meta.url), 'utf8').catch(() => '{}'));
+const svcRank = (slug) => rankData[slug]?.keywords?.find((k) => k.kind === 'service');
+const nameRank = (slug) => rankData[slug]?.keywords?.find((k) => k.kind === 'name');
 
 // What the registry says about the business's web address, in plain words.
 function domainState(d) {
@@ -167,7 +170,7 @@ const cols = [
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
   ['Address', (r) => r.address], ['Contact person', (r) => r.contact], ['Family / local note (from their site)', (r) => r.familyNote],
-  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')], ['SEO health', (r) => r.seoHealth ?? ''], ['Social presence', (r) => r.socialPresence ?? ''], ['SEO & social report', (r) => (r.demo ? `${liveUrl}/${r.demo}/seo/` : '')],
+  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')], ['SEO health', (r) => r.seoHealth ?? ''], ['Main search', (r) => svcRank(r.slug)?.keyword || ''], ['Google position', (r) => (svcRank(r.slug) ? svcRank(r.slug).google ?? 'not in top 20' : '')], ['Google Maps position', (r) => (svcRank(r.slug) ? svcRank(r.slug).maps ?? 'not in top 20' : '')], ['Bing position', (r) => (svcRank(r.slug) ? svcRank(r.slug).bing ?? 'not in top 20' : '')], ['Google business panel', (r) => (nameRank(r.slug) ? (nameRank(r.slug).panel ? 'yes' : 'no') : '')], ['Social presence', (r) => r.socialPresence ?? ''], ['SEO & social report', (r) => (r.demo ? `${liveUrl}/${r.demo}/seo/` : '')],
 
   // Left blank for you to fill in as you work the list.
   ['Status', () => ''], ['Last contact', () => ''], ['Next step', () => ''], ['Notes', () => ''],

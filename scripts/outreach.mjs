@@ -17,6 +17,13 @@ const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json')
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
+const rankings = JSON.parse(await readFile(path.join(ROOT, 'data', 'rankings.json'), 'utf8').catch(() => '{}'));
+// Not showing up for the obvious local search is the point owners feel most.
+function rankNote(key) {
+  const k = rankings[key]?.keywords?.find((r) => r.kind === 'service');
+  if (!k || k.google) return '';
+  return `When I searched "${k.keyword}" on a phone in Aiken, your site was not in Google's top ${k.googleDepth || 20}${k.maps ? '' : ' or the top 20 on Google Maps'}`;
+}
 // "Google's own test" is the most recognizable proof point, when the gap is real.
 function lhNote(key) {
   const s = lighthouse[key]?.site, c = lighthouse[key]?.concept;
@@ -48,7 +55,7 @@ function a11yNote(key) {
 const out = path.join(ROOT, 'outreach');
 await mkdir(out, { recursive: true });
 
-const lower = (s) => (/^(Google|Lighthouse|An automated)/.test(s) ? s.replace(/^An /, 'an ') : s.charAt(0).toLowerCase() + s.slice(1));
+const lower = (s) => (/^(Google|Lighthouse|An automated|When I)/.test(s) ? s.replace(/^An /, 'an ').replace(/^When I searched/, 'when I searched') : s.charAt(0).toLowerCase() + s.slice(1));
 const csv = [['Business', 'Town', 'Email', 'Phone', 'Subject', 'Concept link', 'Checkup link', 'Draft file']];
 const index = [];
 
@@ -68,7 +75,8 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
   const broken = row.tier === 'broken';
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
-  const findings = lhLine ? [lhLine, d.source.before[0]] : d.source.before.slice(0, broken ? 1 : 2);
+  const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);
+  const findings = [rankLine, lhLine].filter(Boolean).length ? [...[rankLine, lhLine].filter(Boolean), d.source.before[0]].slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
   if (access) findings.push(access);
   const none = !!d.source.none;
