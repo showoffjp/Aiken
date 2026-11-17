@@ -201,3 +201,10 @@
   .sr-checks li, .sr-recs li, .sr-table tr, .sr-g, .sr-serp, .sr-share, .rp-glance div { break-inside: avoid; }
   .sr-checks { grid-template-columns: 1fr 1fr; }
 }
+
+@supports (animation-timeline: scroll()) {
+  .rp::after { content: ""; position: fixed; z-index: 60; inset: 0 0 auto 0; height: 3px; transform-origin: 0 50%; background: linear-gradient(90deg, var(--t1), var(--t2)); animation: rp-progress linear both; animation-timeline: scroll(root); pointer-events: none; }
+  @keyframes rp-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
+@media (prefers-reduced-motion: reduce) { .rp::after { display: none; } }
+@media print { .rp::after { display: none; } }

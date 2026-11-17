@@ -220,6 +220,19 @@ const features = [
   html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
   body::before { content: ""; position: fixed; inset: -25vmax; z-index: -1; pointer-events: none; background: radial-gradient(38vmax 38vmax at 12% 15%, rgb(31 106 80 / .11), transparent 70%), radial-gradient(34vmax 34vmax at 88% 25%, rgb(214 168 72 / .13), transparent 70%), radial-gradient(44vmax 44vmax at 55% 95%, rgb(20 61 47 / .08), transparent 70%); animation: ix-ambient 30s ease-in-out infinite alternate; will-change: transform; }
   @keyframes ix-ambient { 0% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); } 50% { transform: translate3d(5%, -4%, 0) rotate(10deg) scale(1.08); } 100% { transform: translate3d(-5%, 4%, 0) rotate(-8deg) scale(1.04); } }
+  @property --ring { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+  .hero h1 em { background: linear-gradient(100deg, #1f6a50 0%, #2f7d5f 35%, #8f6a17 65%, #1f6a50 100%) 0 0 / 220% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; animation: ix-shine 8s ease-in-out infinite alternate; }
+  @keyframes ix-shine { to { background-position: 100% 0; } }
+  .shot::after { content: ""; position: absolute; inset: 0; z-index: 3; border-radius: inherit; padding: 2px; background: conic-gradient(from var(--ring), #1f6a50, #d6a848, #1f6a50); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; opacity: 0; transition: opacity .35s ease; animation: ix-ring 4s linear infinite paused; pointer-events: none; }
+  .card a:hover .shot::after, .card a:focus-visible .shot::after { opacity: 1; animation-play-state: running; }
+  @keyframes ix-ring { to { --ring: 360deg; } }
+  .shot img { transition: opacity .35s ease, transform .6s cubic-bezier(.2, .7, .2, 1); }
+  .card a:hover .shot img { transform: scale(1.04); }
+  @supports (animation-timeline: scroll()) {
+    body::after { content: ""; position: fixed; z-index: 60; inset: 0 0 auto 0; height: 3px; transform-origin: 0 50%; background: linear-gradient(90deg, #1f6a50, #d6a848); animation: ix-progress linear both; animation-timeline: scroll(root); pointer-events: none; }
+    @keyframes ix-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  }
+  @media (prefers-reduced-motion: reduce) { .hero h1 em { animation: none; } body::after { display: none; } .card a:hover .shot img { transform: none; } }
   .card.reveal { opacity: 0; transform: translateY(26px); transition: opacity .8s cubic-bezier(.2, .7, .2, 1) var(--d, 0ms), transform .8s cubic-bezier(.2, .7, .2, 1) var(--d, 0ms); }
   .card.reveal.in { opacity: 1; transform: none; }
   @media (prefers-reduced-motion: reduce) { body::before { animation: none; } .card.reveal { opacity: 1; transform: none; transition: none; } }
