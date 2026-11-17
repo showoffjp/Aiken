@@ -46,8 +46,10 @@ The repo does three things:
 | `npm run a11y -- --concepts` | The same for every concept (add `--details` to print each finding). Every concept should come back with zero. |
 | `npm run domains` | Looks up every business's web address in the public domain registry (RDAP) and records when it expires, whether it has lapsed, and whether it is on hold, in `data/domains.json`. |
 | `npm run recheck` | Before a send: refetches every concept business's current website and writes `outreach/recheck.md`, flagging any site that has come back up, changed platform or been redesigned since the concept was made. |
+| `npm run lighthouse -- --sites` | Runs Google Lighthouse (mobile, simulated slow 4G: the same test as PageSpeed Insights) on the current website of every business with a concept, into `data/lighthouse.json`. Add `--all` for every audited site (about 20 seconds each). |
+| `npm run lighthouse -- --concepts` | The same for every concept, served from `./dist` with gzip. Checkup pages show both scores as Lighthouse-style gauges, and outreach emails quote the score when the current site is under 50. Add `--missing` to fill gaps only. |
 | `npm run cards` | Draws the before/after share card for every concept into `public/cards/`. |
-| `npm run variants` | Makes 640px copies of concept photos so phones download small files. |
+| `npm run variants` | Makes 640px and 960px copies of concept photos so phones download a file sized for their screen. |
 | `npm run print` | Prints every checkup page to a two-sided Letter PDF in `outreach/print/`, with a QR code that opens the concept. For walk-in visits. |
 | `npm run outreach` | Email, follow-up email, text, Facebook/Instagram and voicemail drafts per concept in `outreach/`, including a P.S. when a directory lists a different phone number than the business's own site. Also writes `outreach/urgent-calls.md`: businesses whose site is down or whose domain has lapsed, with a call script for each. |
 

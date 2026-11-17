@@ -1,0 +1,257 @@
+{
+  "slug": "osbons-cleaners",
+  "prospect": "osbons-laundry-and-cleaners-downtown",
+  "name": "Osbon's Laundry & Cleaners",
+  "short": "Osbon's Cleaners",
+  "category": "Dry Cleaning, Laundry & Alterations",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "established": "1947",
+  "look": "clean",
+  "fonts": {
+    "display": "libre-franklin",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f4f7fa",
+    "surface": "#ffffff",
+    "ink": "#14202b",
+    "muted": "#53616e",
+    "primary": "#21507a",
+    "onPrimary": "#ffffff",
+    "accent": "#7fa7c9",
+    "line": "#dbe4ec"
+  },
+  "radius": 12,
+  "icon": "shirt",
+  "contact": {
+    "phone": "(803) 649-2518",
+    "phoneLabel": "Call downtown",
+    "address": [
+      "136 Pendleton Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Osbon's Laundry & Cleaners, 136 Pendleton Street SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "8:00 am – 12:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Downtown Aiken store. Hours for every location are below.",
+    "facebook": "https://www.facebook.com/OsbonsCleaners/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Family-run in Aiken since 1947",
+    "title": "We get the wrinkles *out of everything*",
+    "lede": "Dry cleaning, crisp shirts, alterations, wedding gowns, riding clothes and horse blankets, at four locations or picked up and delivered every Thursday.",
+    "cta": {
+      "label": "Find a location",
+      "href": "#locations"
+    },
+    "cta2": {
+      "label": "Free pickup & delivery",
+      "href": "#delivery"
+    },
+    "image": {
+      "src": "/demo-assets/osbons-cleaners/garments.webp",
+      "alt": "Freshly cleaned garments hanging in clear plastic bags"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1947",
+      "label": "Three generations of the Osbon family"
+    },
+    {
+      "value": "4 locations",
+      "label": "Two in Aiken, North Augusta and Augusta"
+    },
+    {
+      "value": "Thursdays",
+      "label": "Free pickup and delivery"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "What we clean",
+      "title": "From everyday shirts *to the horse blanket*",
+      "items": [
+        {
+          "icon": "sparkles",
+          "title": "Dry cleaning",
+          "text": "Quality cleaning you can count on, every time."
+        },
+        {
+          "icon": "shirt",
+          "title": "Crisp shirt finishing",
+          "text": "Laundered and pressed, ready for work."
+        },
+        {
+          "icon": "gem",
+          "title": "Formal wear",
+          "text": "Suits, gowns and the outfits that matter most."
+        },
+        {
+          "icon": "award",
+          "title": "Equestrian apparel",
+          "text": "Riding clothes, cleaned with care for horse country."
+        },
+        {
+          "icon": "layers",
+          "title": "Equine blankets",
+          "text": "Horse blankets cleaned and ready for the season."
+        },
+        {
+          "icon": "shopping-basket",
+          "title": "Wash & fold",
+          "text": "Drop off the laundry, pick it up folded."
+        },
+        {
+          "icon": "ruler",
+          "title": "Alterations",
+          "text": "Hems, fits and repairs."
+        },
+        {
+          "icon": "heart",
+          "title": "Wedding gown preservation",
+          "text": "Cleaned and preserved to keep for years."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "delivery",
+      "nav": "Delivery",
+      "eyebrow": "Osbon's on the Go",
+      "title": "Free pickup *and delivery*",
+      "intro": "Free with at least $50 of laundry or dry cleaning a month. Pickups and deliveries are every Thursday, so all you have to remember is the day.",
+      "items": [
+        {
+          "title": "You schedule",
+          "text": "Call your nearest store to set up service."
+        },
+        {
+          "title": "We pick up",
+          "text": "Our van comes by on Thursday."
+        },
+        {
+          "title": "We drop off",
+          "text": "Your clothes come back clean and pressed, when you need them."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "locations",
+      "nav": "Locations",
+      "eyebrow": "Four locations",
+      "title": "There's an Osbon's *near you*",
+      "columns": [
+        {
+          "title": "Downtown Aiken",
+          "items": [
+            "136 Pendleton St. SW, Aiken, SC 29801",
+            "(803) 649-2518",
+            "Mon – Fri 8 am – 6 pm",
+            "Sat 8 am – 12 pm"
+          ]
+        },
+        {
+          "title": "Silver Bluff, Aiken",
+          "items": [
+            "732 Silver Bluff Rd., Aiken, SC 29803",
+            "(803) 642-1973",
+            "Mon – Fri 8 am – 6 pm",
+            "Sat 8 am – 12 pm"
+          ]
+        },
+        {
+          "title": "North Augusta",
+          "items": [
+            "706 Old Edgefield Rd., North Augusta, SC 29841",
+            "(803) 279-0784",
+            "Mon – Thu 8 am – 5 pm"
+          ]
+        },
+        {
+          "title": "Augusta",
+          "items": [
+            "2803 Wrightsboro Rd., Augusta, GA 30909",
+            "(706) 432-8570",
+            "Mon – Fri 8 am – 5 pm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "Our history",
+      "eyebrow": "Our history",
+      "title": "A family business *since 1947*",
+      "body": [
+        "Arthur and Bell Osbon opened Osbon's in 1947. When he was old enough, their son Nathan joined the family business, and Nathan and his wife Dessie have been staples of the Aiken community ever since.",
+        "Today Nathan's son Rick and his nephew Tony run the cleaners, though Nate still keeps an eye on things. Our promise hasn't changed: the customer really does come first, and your time matters as much as your clothes. Satisfaction guaranteed."
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "on-the-go",
+      "nav": "On the go",
+      "eyebrow": "On the road",
+      "title": "Look for *the van*",
+      "images": [
+        {
+          "src": "/demo-assets/osbons-cleaners/delivery-van.webp",
+          "alt": "The white Osbon's on the Go delivery van"
+        },
+        {
+          "src": "/demo-assets/osbons-cleaners/suit-bag.webp",
+          "alt": "A dark suit in a garment bag on a hanger"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Too busy to drop off?",
+      "text": "Ask about free Thursday pickup and delivery at any location.",
+      "cta": {
+        "label": "Call (803) 649-2518",
+        "href": "tel:+18036492518"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *downtown*",
+    "formTitle": "Ask us a question",
+    "formTopics": [
+      "Pickup and delivery",
+      "Wedding gown preservation",
+      "Equestrian apparel or blankets",
+      "Alterations",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://osbonscleaners.com/",
+    "before": [
+      "The home page downloads about 11 MB on a phone",
+      "The Services page is titled \"Building Contractor Services | Commercial & Residential: Grycon\", left over from another company's template",
+      "The page blocks zooming on phones",
+      "\"Equestrain Apparel\" is misspelled on the services list"
+    ]
+  }
+}

@@ -70,11 +70,14 @@ export const demos: Demo[] = Object.values(files)
 
 export const fonts = fontsJson as Record<string, { family: string; fallback: string; normal: string; italic?: string }>;
 
-/** A srcset with the 640px copy (made by scripts/variants.mjs) when one exists. */
+/** A srcset with the 640px and 960px copies (made by scripts/variants.mjs) when they exist. */
 export function srcset(img?: Img): string | undefined {
-  if (!img?.src || !img.width) return undefined;
-  const small = img.src.replace(/\.webp$/, '-640.webp');
-  return small !== img.src && sizes[small] ? `${small} 640w, ${img.src} ${img.width}w` : undefined;
+  if (!img?.src || !img.width || !/\.webp$/.test(img.src)) return undefined;
+  const parts = [640, 960]
+    .map((w) => img.src.replace(/\.webp$/, `-${w}.webp`))
+    .filter((s) => sizes[s])
+    .map((s) => `${s} ${sizes[s][0]}w`);
+  return parts.length ? [...parts, `${img.src} ${img.width}w`].join(', ') : undefined;
 }
 
 export const telHref = (phone = '') => `tel:+1${phone.replace(/\D/g, '').replace(/^1(?=\d{10}$)/, '')}`;

@@ -4,6 +4,8 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   output: 'static',
   trailingSlash: 'ignore',
-  build: { format: 'directory' },
+  // Each page's CSS is small (about 7 KB), so inline it rather than make the
+  // browser wait for a separate stylesheet before the first paint.
+  build: { format: 'directory', inlineStylesheets: 'always' },
   devToolbar: { enabled: false },
 });

@@ -1,0 +1,222 @@
+{
+  "slug": "empire-tree",
+  "prospect": "empire-tree",
+  "name": "Empire Tree",
+  "short": "Empire Tree",
+  "category": "Tree Removal, Pruning & Arborist Services",
+  "group": "Home & Garden",
+  "town": "North Augusta, SC",
+  "established": "1985",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f6f4ef",
+    "surface": "#ffffff",
+    "ink": "#161a17",
+    "muted": "#55605a",
+    "primary": "#1f3b2b",
+    "onPrimary": "#ffffff",
+    "accent": "#f08a1c",
+    "line": "#e1ddd2"
+  },
+  "radius": 4,
+  "icon": "trees",
+  "contact": {
+    "phone": "(706) 834-2708",
+    "phoneLabel": "Call for a quote",
+    "address": [
+      "175 Sweetwater Road",
+      "North Augusta, SC 29860"
+    ],
+    "mapQuery": "Empire Tree, 175 Sweetwater Road, North Augusta, SC 29860",
+    "facebook": "https://www.facebook.com/EmpireTreeLLC"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Certified arborists serving the CSRA since 1985",
+    "title": "Tree removal and care, *done safely*",
+    "lede": "Removal, pruning, stump grinding, cabling and lightning protection anywhere within 50 miles of Augusta, from a crew that's been at it for more than 35 years.",
+    "cta": {
+      "label": "Schedule a consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "image": {
+      "src": "/demo-assets/empire-tree/climber.webp",
+      "alt": "A climber in an orange helmet and harness working high in a tree"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1985",
+      "label": "More than 35 years of tree work"
+    },
+    {
+      "value": "Certified",
+      "label": "Arborists on site for every removal"
+    },
+    {
+      "value": "50 miles",
+      "label": "Around Augusta, North Augusta and Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "Arborist services",
+      "title": "Whatever your trees *need*",
+      "items": [
+        {
+          "icon": "axe",
+          "title": "Tree removal",
+          "text": "Hazardous and unwanted trees taken down safely, with certified arborists on site."
+        },
+        {
+          "icon": "circle-dot",
+          "title": "Stump removal",
+          "text": "Stump grinding and removal by our own stump grinder operator."
+        },
+        {
+          "icon": "scissors",
+          "title": "Pruning & trimming",
+          "text": "An expert evaluation, then pruning that keeps each tree healthy and in scale with its spot."
+        },
+        {
+          "icon": "link",
+          "title": "Cabling, rodding & bracing",
+          "text": "Extra support for storm-damaged or aging trees that are still worth saving."
+        },
+        {
+          "icon": "zap",
+          "title": "Lightning protection",
+          "text": "Protection systems installed, inspected and repaired, including after roof work."
+        },
+        {
+          "icon": "bandage",
+          "title": "Tree wound repair",
+          "text": "Care for damaged bark and wounds before they become bigger problems."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "How it works",
+      "title": "From a call *to a clean yard*",
+      "items": [
+        {
+          "title": "Call or send the form",
+          "text": "Tell us what's going on with your trees."
+        },
+        {
+          "title": "We take a look",
+          "text": "We evaluate the trees in person and put together a detailed quote."
+        },
+        {
+          "title": "The crew does the work",
+          "text": "Safely, with top-notch equipment and a certified arborist on site."
+        },
+        {
+          "title": "We clean up",
+          "text": "Reviewers single out the cleanup: we leave the yard clean."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "The A-Team",
+      "title": "The crew *you'll meet*",
+      "intro": "Foreman, climbers, groundmen, a stump grinder operator, our office manager and owner Joe McMahon.",
+      "images": [
+        {
+          "src": "/demo-assets/empire-tree/crew-1.webp",
+          "alt": "An Empire Tree crew member in a black beanie in front of the orange truck"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-2.webp",
+          "alt": "A smiling Empire Tree crew member in a black beanie"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-3.webp",
+          "alt": "An Empire Tree team member in a black hoodie outdoors"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-4.webp",
+          "alt": "An Empire Tree crew member holding a chainsaw on his shoulder"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-5.webp",
+          "alt": "A bearded Empire Tree crew member by the truck"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-6.webp",
+          "alt": "An Empire Tree crew member in a helmet, smiling"
+        },
+        {
+          "src": "/demo-assets/empire-tree/crew-7.webp",
+          "alt": "An Empire Tree team member in an orange shirt"
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Trusted choice",
+      "title": "What customers *say*",
+      "items": [
+        {
+          "text": "They came out quickly to give me a very reasonable quote to remove three trees, grind a stump and trim some bushes. The work was completed in a safe and timely manner.",
+          "by": "Samantha P., November 2025"
+        },
+        {
+          "text": "Joe has solved my tree issues on three occasions. Every time he quotes a fair price, arrives when he says he will, and does a great job, including the cleanup! Top notch.",
+          "by": "John D., August 2025"
+        },
+        {
+          "text": "Knowledgeable, courteous, and answered all my questions before the job was started. They did an excellent clean job after removing all my trees and stumps.",
+          "by": "Elaine K., June 2025"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Worried about a tree before the next storm?",
+      "text": "Call for an evaluation and a detailed quote.",
+      "cta": {
+        "label": "Call (706) 834-2708",
+        "href": "tel:+17068342708"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Schedule *a consultation*",
+    "formTitle": "Tell us about your trees",
+    "formTopics": [
+      "Tree removal",
+      "Stump removal",
+      "Pruning or trimming",
+      "Cabling or bracing",
+      "Lightning protection",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://empiretree.com/",
+    "before": [
+      "The home page downloads about 15 MB across 94 files on a phone",
+      "An automated check finds 60 serious accessibility problems, including 21 images with no description and text too faint to read"
+    ]
+  }
+}
