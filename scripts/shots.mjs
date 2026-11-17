@@ -76,7 +76,7 @@ if (args.includes('--present')) {
     let page = await desktop.newPage();
     await page.goto(url, { waitUntil: 'load' });
     await settle(page);
-    await page.screenshot({ path: path.join(out, `${slug}-desktop.png`), fullPage: true });
+    await page.screenshot({ path: path.join(out, `${slug.replace(/\//g, '-')}-desktop.png`), fullPage: true });
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     await desktop.close();
 
@@ -85,7 +85,7 @@ if (args.includes('--present')) {
     page = await mobile.newPage();
     await page.goto(url, { waitUntil: 'load' });
     await settle(page);
-    await page.screenshot({ path: path.join(out, `${slug}-mobile.png`), fullPage: true });
+    await page.screenshot({ path: path.join(out, `${slug.replace(/\//g, '-')}-mobile.png`), fullPage: true });
     const mOverflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     await mobile.close();
     console.log(`${slug}: review captures saved (horizontal overflow desktop ${overflow}px, mobile ${mOverflow}px)`);

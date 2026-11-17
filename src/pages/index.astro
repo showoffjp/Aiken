@@ -46,6 +46,12 @@ const features = [
     <title>{`${site.name} — website concepts for Aiken-area businesses`}</title>
     <meta name="description" content={site.tagline} />
     <meta name="theme-color" content="#143d2f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${site.name}: website concepts for Aiken-area businesses`} />
+    <meta property="og:description" content={site.tagline} />
+    {site.url && <meta property="og:url" content={`${site.url}/`} />}
+    {site.url && <meta property="og:image" content={`${site.url}/og.jpg`} />}
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="#143d2f"/><path d="M9 22 16 9l7 13" fill="none" stroke="#f3e9c9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>')}`} />
     <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />
@@ -86,12 +92,13 @@ const features = [
               <button type="button" class="chip on" data-filter="all">All <span>{cards.length}</span></button>
               {groups.map((g) => <button type="button" class="chip" data-filter={g}>{g} <span>{cards.filter((c) => c.group === g).length}</span></button>)}
             </div>
+            <input class="search" type="search" data-search placeholder="Search by name, type or town" aria-label="Search concepts" />
             <label class="switch"><input type="checkbox" data-before /><span></span>Show the current sites</label>
           </div>
 
           <ul class="grid" data-grid>
             {cards.map((c) => (
-              <li class="card" data-group={c.group}>
+              <li class="card" data-group={c.group} data-text={`${c.name} ${c.category} ${c.town} ${c.group}`.toLowerCase()}>
                 <a href={`/${c.slug}/`} aria-label={`${c.name}: view the concept`}>
                   <div class="shot" style={`--tone:${c.colors.primary}`}>
                     {c.after ? <img class="after" src={c.after} alt={`Concept redesign for ${c.name}`} width="1120" height="753" loading="lazy" /> : <div class="blank">{c.short || c.name}</div>}
@@ -110,6 +117,7 @@ const features = [
               </li>
             ))}
           </ul>
+          <p class="empty" data-empty hidden>No concepts match that search.</p>
         </div>
       </section>
 
@@ -156,11 +164,25 @@ const features = [
       (() => {
         const grid = document.querySelector('[data-grid]');
         const chips = [...document.querySelectorAll('[data-filter]')];
+        const search = document.querySelector('[data-search]');
+        const empty = document.querySelector('[data-empty]');
+        let group = 'all';
+        const apply = () => {
+          const q = (search?.value || '').trim().toLowerCase();
+          let shown = 0;
+          grid.querySelectorAll('.card').forEach((card) => {
+            const ok = (group === 'all' || card.dataset.group === group) && (!q || card.dataset.text.includes(q));
+            card.hidden = !ok;
+            if (ok) shown++;
+          });
+          if (empty) empty.hidden = shown > 0;
+        };
         chips.forEach((chip) => chip.addEventListener('click', () => {
           chips.forEach((c) => c.classList.toggle('on', c === chip));
-          const f = chip.dataset.filter;
-          grid.querySelectorAll('.card').forEach((card) => { card.hidden = f !== 'all' && card.dataset.group !== f; });
+          group = chip.dataset.filter;
+          apply();
         }));
+        search?.addEventListener('input', apply);
         document.querySelector('[data-before]')?.addEventListener('change', (e) => grid.classList.toggle('show-before', e.target.checked));
       })();
     </script>
@@ -208,6 +230,9 @@ const features = [
   .chip:hover { border-color: var(--ink); }
   .chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
   .chip.on span { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+  .search { font: 400 .95rem/1 "Inter", sans-serif; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 11px 16px; min-width: min(100%, 250px); }
+  .search:focus { outline: 3px solid var(--green-2); outline-offset: 2px; border-color: transparent; }
+  .empty { color: var(--muted); padding: 28px 0; }
   .switch { display: inline-flex; align-items: center; gap: 10px; font-size: .9rem; font-weight: 500; cursor: pointer; user-select: none; }
   .switch input { position: absolute; opacity: 0; pointer-events: none; }
   .switch span { width: 42px; height: 24px; border-radius: 999px; background: #cfc9bb; position: relative; transition: background .2s; flex: none; }
