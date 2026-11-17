@@ -1,0 +1,299 @@
+{
+  "slug": "veg-out",
+  "name": "Veg Out Vegetarian Restaurant",
+  "short": "Veg Out",
+  "category": "Vegetarian Café & Herbal Apothecary",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f7f5ec",
+    "surface": "#fffef8",
+    "ink": "#1d2a1c",
+    "muted": "#5f6b5b",
+    "primary": "#3f6d2f",
+    "onPrimary": "#f8f7ee",
+    "accent": "#e2483d",
+    "line": "#e2e0cf"
+  },
+  "radius": 16,
+  "icon": "leaf",
+  "contact": {
+    "phone": "(803) 843-7788",
+    "email": "vegoutofaiken@gmail.com",
+    "address": [
+      "1619 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Veg Out, 1619 Whiskey Road, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "11:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "10:00 am – 3:30 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Saturday opening time to be confirmed."
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Creative & fun vegetarian café",
+    "title": "Bold vegetarian food, *the wisdom of herbs*",
+    "lede": "Vibrant, plant-based meals and fresh juices alongside an herbal apothecary guided by a Master Herbalist. More than a restaurant: a place to feel good.",
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 843-7788",
+      "href": "tel:+18038437788"
+    },
+    "image": {
+      "src": "/demo-assets/veg-out/avocado-bowl.webp",
+      "alt": "A bowl of greens, avocado and quinoa"
+    },
+    "points": [
+      "Fresh juices & smoothies",
+      "Bowls & sandwiches",
+      "Herbal apothecary"
+    ]
+  },
+  "facts": [
+    {
+      "value": "Food as medicine",
+      "label": "Plant-based meals made with care and intention"
+    },
+    {
+      "value": "Apothecary",
+      "label": "Herbal blends from a Master Herbalist"
+    },
+    {
+      "value": "Mon – Sat",
+      "label": "Lunch on Whiskey Road"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Our menu",
+      "title": "Some of *our favorites*",
+      "intro": "Bowls include quinoa and mixed greens. Sandwiches are served on multigrain bread.",
+      "groups": [
+        {
+          "title": "Bowls",
+          "items": [
+            {
+              "name": "Artichoke Delight",
+              "desc": "Artichokes, cherry tomatoes, fresh basil, pesto, garlic, feta and asiago"
+            },
+            {
+              "name": "Love Stack",
+              "desc": "Roasted eggplant, balsamic, asiago, sun-dried tomato, marinated mushrooms and thyme"
+            },
+            {
+              "name": "Fantastic",
+              "desc": "Marinated mushrooms, garlic, thyme, walnuts, sun-dried tomatoes and brie"
+            },
+            {
+              "name": "Rock & Roll",
+              "desc": "Zucchini, yellow squash, macadamia ricotta, sun-dried tomatoes, basil and pesto"
+            },
+            {
+              "name": "Kokopelli",
+              "desc": "Pan-fried tofu with poblano and anaheim peppers, white cheddar and chimichurri pesto greens"
+            },
+            {
+              "name": "Adam & Eve",
+              "desc": "Figs, apples, dates, walnuts, caramelized onions and brie"
+            },
+            {
+              "name": "Cosmos",
+              "desc": "Chickpeas, sunflower seeds, almonds, onions, garlic, spices and curry"
+            }
+          ]
+        },
+        {
+          "title": "Sandwiches & salad",
+          "items": [
+            {
+              "name": "Dagwood",
+              "desc": "Sweet potatoes, avocado, hummus, sweet peppers, cucumber and mixed greens"
+            },
+            {
+              "name": "Veggie Burger",
+              "desc": "The best veggie burger, topped with sun-dried tomatoes"
+            },
+            {
+              "name": "The Medi",
+              "desc": "Cucumbers, sweet peppers, olive tapenade, hummus, chimichurri and mixed greens"
+            },
+            {
+              "name": "Today's Salad",
+              "desc": "Garden salad with assorted veggies, fruit, nuts and seeds. Add cheese or avocado."
+            }
+          ]
+        },
+        {
+          "title": "Juices & coolers",
+          "items": [
+            {
+              "name": "Beta Boost",
+              "desc": "Carrot, apple, ginger, turmeric"
+            },
+            {
+              "name": "Zinger"
+            },
+            {
+              "name": "Lavender Lemonade"
+            },
+            {
+              "name": "Hibiscus Cooler"
+            },
+            {
+              "name": "Ginger Mint Limeade"
+            }
+          ]
+        },
+        {
+          "title": "Smoothies",
+          "note": "Apple juice and banana base",
+          "items": [
+            {
+              "name": "Berry Blast",
+              "desc": "Blueberries, strawberries, raspberries, blackberries"
+            },
+            {
+              "name": "Jama Me Crazy",
+              "desc": "Pineapple, coconut, mango, papaya"
+            },
+            {
+              "name": "Straw Heaven",
+              "desc": "Mango, strawberries"
+            },
+            {
+              "name": "How Now Brown Cow",
+              "desc": "Almond milk, almond butter, cacao, agave, banana"
+            },
+            {
+              "name": "Can I Get a Date",
+              "desc": "Almond milk, peanut butter, chocolate chips, banana, dates"
+            },
+            {
+              "name": "Add-ons",
+              "desc": "Bee pollen, lion's mane, dulse, power foods or ginger"
+            }
+          ]
+        }
+      ],
+      "footnote": "Items from the restaurant's current menu. Prices are left off until confirmed with Veg Out."
+    },
+    {
+      "type": "gallery",
+      "id": "food",
+      "nav": "The food",
+      "eyebrow": "Real food, real herbs",
+      "title": "More than *a meal*",
+      "images": [
+        {
+          "src": "/demo-assets/veg-out/plate-eggplant.webp",
+          "alt": "Roasted eggplant over greens"
+        },
+        {
+          "src": "/demo-assets/veg-out/plate-greens.webp",
+          "alt": "A plate of greens and quinoa"
+        },
+        {
+          "src": "/demo-assets/veg-out/skillet.webp",
+          "alt": "Vegetables cooking in a skillet"
+        },
+        {
+          "src": "/demo-assets/veg-out/plate-tomato.webp",
+          "alt": "A plate with cherry tomatoes and feta"
+        },
+        {
+          "src": "/demo-assets/veg-out/fruit-salad.webp",
+          "alt": "A bowl of fresh fruit"
+        },
+        {
+          "src": "/demo-assets/veg-out/plate-avocado.webp",
+          "alt": "A plate with avocado and shredded carrot"
+        },
+        {
+          "src": "/demo-assets/veg-out/cookies.webp",
+          "alt": "Trays of fresh-baked cookies"
+        },
+        {
+          "src": "/demo-assets/veg-out/plate-quinoa.webp",
+          "alt": "Quinoa, greens and feta"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "apothecary",
+      "nav": "Apothecary",
+      "eyebrow": "Herbal apothecary",
+      "title": "The quiet power *of plants*",
+      "flip": true,
+      "image": {
+        "src": "/demo-assets/veg-out/apothecary.webp",
+        "alt": "Shelves of herbal blends and tinctures beside the pastry case"
+      },
+      "body": [
+        "Alongside our kitchen you'll find our Herbal Apothecary, guided by a Master Herbalist who believes in the quiet power of plants. Herbs have been used for generations to support balance, calm and everyday wellness, and we honor that tradition with respect and integrity.",
+        "Every blend is crafted with intention, using time-honored practices and quality ingredients, whether you are here for a cup of herbal tea or something to take home."
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Our story",
+      "title": "Food should nourish *more than your appetite*",
+      "image": {
+        "src": "/demo-assets/veg-out/storefront.webp",
+        "alt": "The Veg Out sign: creative and fun vegetarian café"
+      },
+      "body": [
+        "Veg Out started with a love for fresh, vibrant vegetables, bold flavors, and meals that leave you feeling good inside and out. Somewhere along the way, that love grew into an understanding that what we put into our bodies matters, and so does how it is prepared.",
+        "We believe vegetarian food should be exciting, satisfying and full of life. No shortcuts. No bland plates. Veg Out is a place to slow down, take a breath and enjoy something wholesome, where neighbors gather and conversations flow."
+      ],
+      "quote": {
+        "text": "Come as you are. Eat well. Feel good. Veg Out."
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "formTitle": "Ask about catering or the apothecary",
+    "formTopics": [
+      "A question about the menu",
+      "Herbal apothecary",
+      "Catering or a group order",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.vegoutofaiken.com/",
+    "before": [
+      "The home page weighs about 2.4 MB across 46 requests, a lot for a phone on a cellular connection",
+      "The first screen is a single photo: no hours, address or phone until you scroll",
+      "Saturday hours appear as both 10 am and 11 am on the same page",
+      "Prices on the menu are hard to match to their items",
+      "The \"Zinger\" juice is described two different ways on the home page and the menu page"
+    ]
+  }
+}

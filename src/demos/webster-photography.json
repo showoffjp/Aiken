@@ -1,0 +1,223 @@
+{
+  "slug": "webster-photography",
+  "name": "Scott Webster Photography",
+  "short": "Scott Webster Photography",
+  "category": "Wedding & Portrait Photographer",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "established": "1995",
+  "look": "editorial",
+  "fonts": {
+    "display": "cormorant",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f6f4f0",
+    "surface": "#ffffff",
+    "ink": "#191817",
+    "muted": "#625e59",
+    "primary": "#22201e",
+    "onPrimary": "#f6f4f0",
+    "accent": "#b48a54",
+    "line": "#dedad3"
+  },
+  "radius": 0,
+  "icon": "camera",
+  "contact": {
+    "phone": "(803) 599-9940",
+    "email": "websterphotography1@gmail.com",
+    "address": [
+      "Aiken, South Carolina"
+    ]
+  },
+  "hero": {
+    "variant": "photo",
+    "eyebrow": "Weddings · Portraits · Aiken, South Carolina",
+    "title": "Natural light, *real moments*",
+    "lede": "A professional photographer since 1995, Scott specializes in outdoor photography: weddings, bridal portraits, family and senior portraits, and location shoots from Aiken to the beach.",
+    "cta": {
+      "label": "Check your date",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "See the work",
+      "href": "#weddings"
+    },
+    "image": {
+      "src": "/demo-assets/webster-photography/oaks-couple.webp",
+      "alt": ""
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1995",
+      "label": "Photographing Aiken's big days"
+    },
+    {
+      "value": "Outdoors",
+      "label": "Natural light and real settings"
+    },
+    {
+      "value": "On location",
+      "label": "Anywhere, beach included"
+    }
+  ],
+  "sections": [
+    {
+      "type": "gallery",
+      "id": "weddings",
+      "nav": "Weddings",
+      "eyebrow": "Weddings",
+      "title": "The day, *as it felt*",
+      "images": [
+        {
+          "src": "/demo-assets/webster-photography/dock-couple.webp",
+          "alt": "A couple embracing on a white dock over a lake"
+        },
+        {
+          "src": "/demo-assets/webster-photography/rail-car.webp",
+          "alt": "A couple kissing in the doorway of a vintage rail car"
+        },
+        {
+          "src": "/demo-assets/webster-photography/barn-ceremony.webp",
+          "alt": "A ceremony inside a rustic barn"
+        },
+        {
+          "src": "/demo-assets/webster-photography/mirror-veil.webp",
+          "alt": "A bride adjusting her veil in a mirror"
+        },
+        {
+          "src": "/demo-assets/webster-photography/bubble-exit.webp",
+          "alt": "A couple walking out through bubbles"
+        },
+        {
+          "src": "/demo-assets/webster-photography/cake-cutting.webp",
+          "alt": "A couple cutting their wedding cake"
+        },
+        {
+          "src": "/demo-assets/webster-photography/barn-door-bride.webp",
+          "alt": "A bride in a stable doorway"
+        },
+        {
+          "src": "/demo-assets/webster-photography/tiger-dip.webp",
+          "alt": "A groom dipping his bride as a mascot cheers"
+        },
+        {
+          "src": "/demo-assets/webster-photography/chapel.webp",
+          "alt": "A couple at the altar of a chapel"
+        },
+        {
+          "src": "/demo-assets/webster-photography/lace-veil.webp",
+          "alt": "A bride seen through a lace veil"
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "sessions",
+      "nav": "Sessions",
+      "columns": 3,
+      "eyebrow": "What Scott shoots",
+      "title": "Weddings, portraits *and much more*",
+      "items": [
+        {
+          "icon": "heart",
+          "title": "Weddings",
+          "text": "The whole day, from getting ready to the send-off."
+        },
+        {
+          "icon": "gem",
+          "title": "Engagements & bridal portraits",
+          "text": "Save-the-date sessions and bridal portraits on location."
+        },
+        {
+          "icon": "users",
+          "title": "Family portraits",
+          "text": "Outdoors, in natural light."
+        },
+        {
+          "icon": "graduation-cap",
+          "title": "Senior portraits",
+          "text": "A session that looks like them."
+        },
+        {
+          "icon": "user",
+          "title": "Headshots & portraits",
+          "text": "For work, stage or just because."
+        },
+        {
+          "icon": "sun",
+          "title": "Beach & location shoots",
+          "text": "Wherever the light is right."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "portraits",
+      "nav": "Portraits",
+      "eyebrow": "Portraits",
+      "title": "People, *in their element*",
+      "images": [
+        {
+          "src": "/demo-assets/webster-photography/portrait-blue.webp",
+          "alt": "A woman in a blue dress on a brick sidewalk"
+        },
+        {
+          "src": "/demo-assets/webster-photography/dancer-leap.webp",
+          "alt": "A dancer leaping against a red backdrop"
+        },
+        {
+          "src": "/demo-assets/webster-photography/flower-girl.webp",
+          "alt": "A flower girl holding her basket"
+        },
+        {
+          "src": "/demo-assets/webster-photography/beach-sunset.webp",
+          "alt": "A couple on the beach at sunset"
+        },
+        {
+          "src": "/demo-assets/webster-photography/marsh-sunset.webp",
+          "alt": "Sunset over the marsh through live oaks"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Behind the lens",
+      "title": "An Aiken photographer *since 1995*",
+      "image": {
+        "src": "/demo-assets/webster-photography/scott.webp",
+        "alt": "Scott Webster"
+      },
+      "body": [
+        "Scott has been a professional photographer since 1995. He has lived in Aiken most of his life, and he and his wife Laura are raising their family in the Aiken area as well.",
+        "Scott specializes in outdoor photography and enjoys natural light and real settings. He photographs weddings, bridal portraits, family portraits, senior portraits and much more, and enjoys the versatility of location shoots, including the beach."
+      ]
+    }
+  ],
+  "visit": {
+    "title": "Interested in *booking a session?*",
+    "intro": "Send a note with your date and what you have in mind.",
+    "formTitle": "Check your date",
+    "formTopics": [
+      "Wedding",
+      "Engagement or bridal portrait",
+      "Family portrait",
+      "Senior portrait",
+      "Headshot",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.scottwebsterphotography.com/",
+    "before": [
+      "Thirty years of work is shown as small thumbnails you have to click one at a time",
+      "The footer copyright reads \"© 20224\"",
+      "There is no phone number on the site, only an email address",
+      "Page titles read \"ABOUT | websterphoto\" in Google results",
+      "The home page shows a gallery but no words on what Scott offers or where he works"
+    ]
+  }
+}

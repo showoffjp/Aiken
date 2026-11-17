@@ -34,6 +34,20 @@ The repo does three things:
 - **A link preview**: pasting either link into an email, text or Facebook message shows a picture of the redesign.
 - **An outreach draft**: `npm run outreach` writes an email, a text message and a voicemail script for every concept into `./outreach` (kept out of git). Nothing is sent.
 
+## Sales tools
+
+| Command | What it does |
+| --- | --- |
+| `npm run weigh -- --sites` | Loads every business website as a phone would and records page size and file count in `data/weights.json`. |
+| `npm run weigh -- --concepts` | The same for every concept, so checkup pages can compare the two. |
+| `npm run variants` | Makes 640px copies of concept photos so phones download small files. |
+| `npm run print` | Prints every checkup page to a two-sided Letter PDF in `outreach/print/`, with a QR code that opens the concept. For walk-in visits. |
+| `npm run outreach` | Email, text and voicemail drafts per concept in `outreach/`, including a P.S. when a directory lists a different phone number than the business's own site. |
+
+`data/prospects.csv` also flags businesses whose directory phone number differs from their own website (49 of them, 5 that look like typos), and has blank Status / Last contact / Next step / Notes columns for tracking outreach.
+
+**Who looked?** Vercel Web Analytics is enabled on the project. In the Vercel dashboard, open the `aiken-web-refresh` project, then Analytics, and filter by page path to see which concept or checkup pages were opened.
+
 ## Sources
 
 - Greater Aiken Chamber of Commerce member directory

@@ -49,8 +49,9 @@ const PLATFORMS = [
   ['Squarespace', /squarespace\.com|static1\.squarespace|sqs-block/i],
   ['Shopify', /cdn\.shopify\.com|Shopify\.theme/i],
   ['GoDaddy Websites + Marketing', /img1\.wsimg\.com|wsimg\.com\/blobby|data-ux=|godaddy-sites/i],
+  ['Square Online', /content=["']Square Online|square\.site|squareup\.com\/.*online/i],
   ['Weebly', /weebly\.com|editmysite\.com|wsite-/i],
-  ['Square Online', /square\.site|squareup\.com\/.*online|cdn\d*\.editmysite/i],
+
   ['Webflow', /webflow\.(com|io)|data-wf-site/i],
   ['Duda', /dudaone|multiscreensite\.com|irp\.cdn-website\.com|dmRoot|lirp\.cdn-website/i],
   ['Framer', /framerusercontent\.com|framer\.com\/m\//i],

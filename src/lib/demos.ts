@@ -70,6 +70,13 @@ export const demos: Demo[] = Object.values(files)
 
 export const fonts = fontsJson as Record<string, { family: string; fallback: string; normal: string; italic?: string }>;
 
+/** A srcset with the 640px copy (made by scripts/variants.mjs) when one exists. */
+export function srcset(img?: Img): string | undefined {
+  if (!img?.src || !img.width) return undefined;
+  const small = img.src.replace(/\.webp$/, '-640.webp');
+  return small !== img.src && sizes[small] ? `${small} 640w, ${img.src} ${img.width}w` : undefined;
+}
+
 export const telHref = (phone = '') => `tel:+1${phone.replace(/\D/g, '').replace(/^1(?=\d{10}$)/, '')}`;
 
 /** `*word*` in a title becomes an emphasised span. Everything else is escaped. */

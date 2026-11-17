@@ -1,7 +1,7 @@
 ---
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
-import { title, sectionId, type Demo } from '../../lib/demos';
+import { title, sectionId, srcset, type Demo } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 ---
@@ -44,7 +44,7 @@ const { demo } = Astro.props;
       <div class="wrap">
         {s.image && (
           <div class="story-media">
-            <img src={s.image.src} alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
+            <img src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
           </div>
         )}
         <div class="body">
@@ -100,7 +100,7 @@ const { demo } = Astro.props;
           {s.images.map((img, n) => {
             const ratio = img.width && img.height ? img.width / img.height : 1;
             const shape = ratio > 1.55 && n % 3 === 0 ? 'wide' : ratio < 0.72 ? 'tall' : '';
-            return <figure class={shape}><img src={img.src} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
+            return <figure class={shape}><img src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
           })}
         </div>
       </div>

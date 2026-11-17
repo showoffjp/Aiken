@@ -1,0 +1,286 @@
+{
+  "slug": "bloom-salon",
+  "prospect": "bloom-salon-spa-boutique",
+  "name": "Bloom Salon Spa Boutique",
+  "short": "Bloom Salon",
+  "category": "Hair Salon",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#faf7f4",
+    "surface": "#ffffff",
+    "ink": "#2a2224",
+    "muted": "#6d6164",
+    "primary": "#8a5a63",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a77c",
+    "line": "#ebe2df"
+  },
+  "radius": 0,
+  "icon": "flower",
+  "contact": {
+    "phone": "(803) 642-4200",
+    "phoneLabel": "Call or text",
+    "address": [
+      "955 Colony Parkway",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Bloom Salon, 955 Colony Parkway, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/beautyatbloom"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Luxury hair salon · Aiken, South Carolina",
+    "title": "Beautiful hair, *an experience to match*",
+    "lede": "Dimensional blonding, lived-in color and expert gray blending in a charming 1872 Southern home beside the Carolina Bay nature preserve.",
+    "cta": {
+      "label": "New guest? Start here",
+      "href": "#new-guests"
+    },
+    "cta2": {
+      "label": "Call or text",
+      "href": "tel:+18036424200"
+    },
+    "image": {
+      "src": "/demo-assets/bloom-salon/hero-waves.webp",
+      "alt": "Soft honey-blonde waves"
+    }
+  },
+  "facts": [
+    {
+      "value": "1872",
+      "label": "The Southern home Bloom calls home"
+    },
+    {
+      "value": "Color specialists",
+      "label": "Blonding, lived-in color, gray blending"
+    },
+    {
+      "value": "Complimentary",
+      "label": "Consultation for every new color guest"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Signature services",
+      "title": "Expert color. *Healthy hair.*",
+      "intro": "Every women's service includes a scalp massage and a shampoo with products chosen for your hair.",
+      "items": [
+        {
+          "icon": "sun",
+          "title": "Dimensional blonding",
+          "text": "Bright, multi-tonal blonde built for your skin and lifestyle."
+        },
+        {
+          "icon": "palette",
+          "title": "Lived-in color",
+          "text": "Soft, low-maintenance color that grows out beautifully."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Gray blending & transitions",
+          "text": "Coverage, blending or a seamless move to your natural gray."
+        },
+        {
+          "icon": "scissors",
+          "title": "Designer cut & blow dry",
+          "text": "A custom cut finished with a blow-dry style."
+        },
+        {
+          "icon": "droplets",
+          "title": "Texture treatments",
+          "text": "Smoothing and restorative services for shine and manageability."
+        },
+        {
+          "icon": "gift",
+          "title": "Gift cards",
+          "text": "Available online."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "From our chairs",
+      "title": "Color that *looks like you*",
+      "images": [
+        {
+          "src": "/demo-assets/bloom-salon/blonde-waves.webp",
+          "alt": "Bright blonde curled waves"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/brunette-waves.webp",
+          "alt": "Long brunette waves"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/sleek-blonde.webp",
+          "alt": "Sleek dimensional blonde"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/soft-blonde.webp",
+          "alt": "Soft blonde outdoors"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/bronde.webp",
+          "alt": "Bronde lived-in color"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/silver.webp",
+          "alt": "Icy silver blonde"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/dimensional.webp",
+          "alt": "Dimensional brunette with highlights"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/brunette-curls.webp",
+          "alt": "Brunette curls"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/before-after.webp",
+          "alt": "Before and after a color transformation"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "new-guests",
+      "nav": "New guests",
+      "eyebrow": "New to Bloom?",
+      "title": "We make your first visit *easy*",
+      "items": [
+        {
+          "title": "Explore the services",
+          "text": "Learn what each signature service involves and what is best for you."
+        },
+        {
+          "title": "Meet your stylist",
+          "text": "Get to know the Bloom team and find the right fit for your hair goals."
+        },
+        {
+          "title": "Book a consultation",
+          "text": "New color guests start with a complimentary in-person consultation before booking color."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "More than beautiful hair",
+      "title": "A historic home, *a modern salon*",
+      "body": [
+        "Bloom occupies a charming 1872 Southern home, perfectly situated between Aiken's Southside and historic downtown and beside the Carolina Bay nature preserve. It is a serene setting that blends historic character with a modern, elevated salon experience.",
+        "Our skilled, creative stylists are the heart of Bloom. Each brings their own experience, passion and attention to detail, working together to create results you'll love."
+      ],
+      "quote": {
+        "text": "Welcome home."
+      },
+      "image": {
+        "src": "/demo-assets/bloom-salon/house.webp",
+        "alt": "Bloom Salon's 1872 home with its white porch"
+      }
+    },
+    {
+      "type": "story",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "Meet the artists behind Bloom",
+      "title": "Skilled, creative, *and on your side*",
+      "flip": true,
+      "image": {
+        "src": "/demo-assets/bloom-salon/team.webp",
+        "alt": "The Bloom team on the front lawn"
+      },
+      "body": [
+        "Elizabeth, Caitlyn, Kate, Sarah L, Sarah B, Jessica, Jenna, Maddie, Elliot, Lauren and Audrey each bring their own experience, passion and attention to detail.",
+        "Prices vary by stylist level, length, condition, texture and complexity of service, so a consultation is where every new color guest begins."
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "inside",
+      "eyebrow": "Inside the house",
+      "title": "Historic character, *a modern salon*",
+      "images": [
+        {
+          "src": "/demo-assets/bloom-salon/interior.webp",
+          "alt": "A styling station with heart pine floors and tall windows"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/styling.webp",
+          "alt": "A stylist curling a guest's hair"
+        },
+        {
+          "src": "/demo-assets/bloom-salon/color-bar.webp",
+          "alt": "The color bar and product wall"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "policies",
+      "nav": "Policies",
+      "eyebrow": "Good to know",
+      "title": "Salon *policies*",
+      "items": [
+        {
+          "q": "Can I book color online?",
+          "a": "Online booking is not available for color and chemical services, because each depends on your hair's thickness, length and condition. New color guests start with a complimentary consultation."
+        },
+        {
+          "q": "What forms of payment do you accept?",
+          "a": "Mastercard, Visa, Discover, American Express, Apple Pay and Bloom gift cards. Cash is always welcome."
+        },
+        {
+          "q": "Are gratuities included?",
+          "a": "No. Our service providers work on commission or hourly, and tips are always appreciated."
+        },
+        {
+          "q": "What if I'm not feeling well?",
+          "a": "Please consider rescheduling if you are unwell and might be contagious, so illness does not spread to other guests."
+        }
+      ]
+    }
+  ],
+  "visit": {
+    "title": "Visit *Bloom*",
+    "formTitle": "Request a consultation",
+    "formTopics": [
+      "Color consultation",
+      "Haircut",
+      "Texture treatment",
+      "Gift card",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.beautyatbloom.com/",
+    "before": [
+      "The home page weighs about 2.3 MB across 171 requests on a phone",
+      "The policies page is titled \"Privacy Policy\" in Google results",
+      "Stylists each have a separate page, so comparing them takes a lot of clicking",
+      "The salon's 1872 story sits one click away from the home page"
+    ]
+  }
+}

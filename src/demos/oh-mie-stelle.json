@@ -1,0 +1,152 @@
+{
+  "slug": "oh-mie-stelle",
+  "prospect": "oh-mie-stelle-bakery",
+  "name": "Oh! Mie Stelle Bakery",
+  "short": "Oh! Mie Stelle",
+  "category": "Artisan Bagel Bakery",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "established": "2023",
+  "look": "bold",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fff8ef",
+    "surface": "#ffffff",
+    "ink": "#1f1a24",
+    "muted": "#655d6b",
+    "primary": "#2d3a8c",
+    "onPrimary": "#ffffff",
+    "accent": "#f5b83d",
+    "line": "#ece2d5"
+  },
+  "radius": 8,
+  "icon": "croissant",
+  "contact": {
+    "phone": "(803) 989-4676",
+    "email": "ohmiestelle@gmail.com",
+    "address": [
+      "969 Pine Log Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Oh Mie Stelle Bakery, 969 Pine Log Road, Aiken, SC 29803",
+    "hours": [
+      [
+        "Tuesday – Sunday",
+        "Open"
+      ],
+      [
+        "Monday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Daily hours to be confirmed with the bakery."
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Home of the humbly hand-rolled artisan bagel",
+    "title": "Hand-rolled. Boiled. *Baked.*",
+    "lede": "Artisan bagels made just like they're supposed to be, plus breads, pastries and other delights, all baked in house on Pine Log Road.",
+    "cta": {
+      "label": "Call (803) 989-4676",
+      "href": "tel:+18039894676"
+    },
+    "cta2": {
+      "label": "Bagel questions",
+      "href": "#faq"
+    },
+    "points": [
+      "No preservatives",
+      "Seasonal flavors",
+      "Open Tue – Sun"
+    ]
+  },
+  "facts": [
+    {
+      "value": "May 2023",
+      "label": "Built from scratch, like everything we bake"
+    },
+    {
+      "value": "Water boiled",
+      "label": "The traditional bagel method"
+    },
+    {
+      "value": "Seasonal",
+      "label": "New flavors week to week"
+    }
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "bagels",
+      "nav": "Our bagels",
+      "eyebrow": "Our specialty",
+      "title": "Bagels, *the patient way*",
+      "items": [
+        {
+          "title": "Hand-rolled",
+          "text": "Every bagel is shaped by hand."
+        },
+        {
+          "title": "Boiled",
+          "text": "A traditional water boil, what many say makes a real bagel."
+        },
+        {
+          "title": "Baked",
+          "text": "Baked in house, along with breads and pastries."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Frequently asked",
+      "title": "Bagel *questions*",
+      "items": [
+        {
+          "q": "Are your bagels NY bagels?",
+          "a": "We use a traditional water-boiled method. The recipe was developed using several New York-style recipes as guides, but it is our own."
+        },
+        {
+          "q": "Do you get your water from New York?",
+          "a": "No. A great bagel starts with love and then requires a lot of patience. We give the dough the time it needs to develop its full flavor."
+        },
+        {
+          "q": "Do you use preservatives or additives?",
+          "a": "No. Nothing is added to make our bagels last longer or rise faster, including vital wheat gluten. We also offer gluten-friendly products."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "New flavors week to week.",
+      "text": "Ask what's in the case today.",
+      "cta": {
+        "label": "Call (803) 989-4676",
+        "href": "tel:+18039894676"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pine Log Road*",
+    "formTitle": "Ask about a large order",
+    "formTopics": [
+      "Bagels by the dozen",
+      "Breads",
+      "Pastries",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.ohmiestelle.com/",
+    "before": [
+      "The FAQ page still shows the template's placeholder heading, \"Setting up FAQs\"",
+      "The Facebook link points to Wix's own Facebook page, not the bakery's",
+      "Footer reads © 2023",
+      "Hours are not listed, only the days the bakery is open"
+    ]
+  }
+}

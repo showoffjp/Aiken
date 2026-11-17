@@ -29,7 +29,9 @@ for (const pick of picks) {
   if (trim) source = await sharp(source).rotate().trim({ threshold: 60 }).toBuffer();
   const input = sharp(source, { animated: false }).rotate();
   const meta = await input.metadata();
-  const keepPng = meta.hasAlpha; // logos with transparency stay lossless-ish
+  // Logos with transparency stay lossless PNG when asked (":png"); everything else is WebP,
+  // which keeps transparency too.
+  const keepPng = flags.includes('png');
   const width = Math.min(meta.width, Number(max) || 1600);
   const file = `${name}.${keepPng ? 'png' : 'webp'}`;
   const pipeline = input.resize({ width, withoutEnlargement: true });

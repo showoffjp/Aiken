@@ -1,0 +1,210 @@
+{
+  "slug": "iron-gate-candles",
+  "name": "Iron Gate Candles & Co.",
+  "short": "Iron Gate Candles",
+  "category": "Handcrafted Candles & Soaps",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "established": "2017",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f8f3eb",
+    "surface": "#fffdf9",
+    "ink": "#22201d",
+    "muted": "#6a6259",
+    "primary": "#2f3a2e",
+    "onPrimary": "#f8f3eb",
+    "accent": "#c58b3e",
+    "line": "#e7dccc"
+  },
+  "radius": 12,
+  "icon": "flame",
+  "contact": {
+    "phone": "(704) 724-5559",
+    "email": "irongatecandles@gmail.com",
+    "address": [
+      "121 Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Iron Gate Candles, 121 Laurens Street SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:00 am – 5:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/irongatecandles"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Handcrafted in Aiken since 2017",
+    "title": "Natural candles, *poured in small batches*",
+    "lede": "100% soy candles, wax melts, room sprays, handmade soaps and lotions, made by a family-owned company on Laurens Street.",
+    "cta": {
+      "label": "Shop the scents",
+      "href": "#scents"
+    },
+    "cta2": {
+      "label": "Visit the shop",
+      "href": "#visit"
+    },
+    "image": {
+      "src": "/demo-assets/iron-gate-candles/harvest-apple.webp",
+      "alt": "Harvest Apple candle, room spray and wax melts"
+    },
+    "points": [
+      "100% soy",
+      "Cotton wicks",
+      "Phthalate free"
+    ]
+  },
+  "facts": [
+    {
+      "value": "100% soy",
+      "label": "Natural wax from renewable US sources"
+    },
+    {
+      "value": "Small batch",
+      "label": "Handcrafted with our customers in mind"
+    },
+    {
+      "value": "Vegan soaps",
+      "label": "Handmade with plant oils"
+    },
+    {
+      "value": "Family owned",
+      "label": "And operated in Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "scents",
+      "nav": "Products",
+      "columns": 3,
+      "eyebrow": "What we make",
+      "title": "For the home, *and for you*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Candles & melts",
+          "text": "100% natural soy wax and cotton wicks, skin safe, in our signature fragrances."
+        },
+        {
+          "icon": "spray-can",
+          "title": "Room sprays",
+          "text": "The same scents, for any room in a moment."
+        },
+        {
+          "icon": "droplets",
+          "title": "Bath soaps",
+          "text": "Vegan, handmade with coconut, palm, olive and castor oils and cocoa butter."
+        },
+        {
+          "icon": "sprout",
+          "title": "Gardener's soap",
+          "text": "Exfoliating, with ground walnut shells and shredded loofah, for after the garden or the barn."
+        },
+        {
+          "icon": "hand",
+          "title": "Body lotion",
+          "text": "Aloe vera, avocado oil and vitamin E for silky-smooth skin."
+        },
+        {
+          "icon": "gift",
+          "title": "Gifts & tapers",
+          "text": "European and beeswax taper sets, men's essentials and gift cards."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "collection",
+      "nav": "Collection",
+      "eyebrow": "Seasonal favorites",
+      "title": "Harvest Apple to *Saddle & Ride*",
+      "images": [
+        {
+          "src": "/demo-assets/iron-gate-candles/tapers.webp",
+          "alt": "A display of colored taper candles"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/christmas-eve.webp",
+          "alt": "Christmas Eve candle, spray and melts"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/maple-pumpkin.webp",
+          "alt": "Maple Pumpkin candle with pumpkins"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/saddle-ride.webp",
+          "alt": "Saddle & Ride candles and bar soap"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/blackberry-bellini.webp",
+          "alt": "Blackberry Bellini candle, spray and melts"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/shelf.webp",
+          "alt": "Candles in wood-lidded jars on a shelf"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/golf.webp",
+          "alt": "The 19th Hole golf candles"
+        },
+        {
+          "src": "/demo-assets/iron-gate-candles/beeswax.webp",
+          "alt": "A boxed pair of beeswax taper candles"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Our story",
+      "title": "From a dream *to reality*",
+      "image": {
+        "src": "/demo-assets/iron-gate-candles/sandalwood.webp",
+        "alt": "A candle and room spray on a glass stand"
+      },
+      "body": [
+        "Iron Gate Candles is a family-owned and operated company specializing in 100% soy candles, all natural and handcrafted here in Aiken. Our goal is to offer a premium, high-quality and environmentally friendly product.",
+        "Every product is handcrafted in small batches with our customers in mind, from individual market sales to wholesale orders. From our wax, fragrance and essential oils to our containers and labels, we strive to use recycled or renewable resources."
+      ],
+      "list": [
+        "Natural, renewable ingredients",
+        "Skin safe",
+        "Phthalate free"
+      ]
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Laurens Street*",
+    "formTitle": "Ask about wholesale or a gift order",
+    "formTopics": [
+      "A scent question",
+      "Gift order",
+      "Wholesale",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.irongatecandles.com/",
+    "before": [
+      "Footer still reads © 2017",
+      "Product photos are delivered as blurred, thumbnail-sized previews until each one is opened",
+      "Several page addresses are leftovers from copied pages (\"copy-of-news-and-products\")",
+      "Wix builder pages load about 150 separate files for a single visit to the home page",
+      "No business details for Google (hours, address, products)"
+    ]
+  }
+}
