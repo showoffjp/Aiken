@@ -1,0 +1,225 @@
+{
+  "slug": "thai-jasmine-rice",
+  "name": "Thai Jasmine Rice",
+  "short": "Thai Jasmine Rice",
+  "category": "Thai Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fbf6ee",
+    "surface": "#fffdf8",
+    "ink": "#231a17",
+    "muted": "#6b5e57",
+    "primary": "#7c2d4f",
+    "onPrimary": "#fff8ef",
+    "accent": "#e3a33a",
+    "line": "#eadfcf"
+  },
+  "radius": 14,
+  "icon": "soup",
+  "contact": {
+    "phone": "(803) 226-0601",
+    "phoneLabel": "Call to order",
+    "email": "greatmoon1552@gmail.com",
+    "address": [
+      "1552 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Thai Jasmine Rice, 1552 Whiskey Road, Aiken, SC 29803",
+    "hours": [
+      [
+        "Tuesday – Sunday",
+        "11:00 am – 3:00 pm"
+      ],
+      [
+        "Tuesday – Sunday",
+        "5:00 – 9:00 pm"
+      ],
+      [
+        "Monday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "The kitchen closes 30 minutes before closing time. Parties of 8 or more, please reserve."
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Authentic Thai food on Whiskey Road",
+    "title": "Noodles, curries *and Thai tea*",
+    "lede": "Delicious, fresh Thai dishes, with walk-ins welcome and orders by phone or DoorDash. Choose your heat, from mild to Thai hot.",
+    "cta": {
+      "label": "Call to order",
+      "href": "tel:+18032260601"
+    },
+    "cta2": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "points": [
+      "Dine in",
+      "Phone orders",
+      "Five spice levels"
+    ]
+  },
+  "facts": [
+    {
+      "value": "Tue – Sun",
+      "label": "Lunch 11 to 3, dinner 5 to 9"
+    },
+    {
+      "value": "5 spice levels",
+      "label": "From mild to Thai hot"
+    },
+    {
+      "value": "Thai tea",
+      "label": "$4.85, no boba"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "From our kitchen",
+      "title": "The *menu*",
+      "intro": "Stir-fried dishes are served with jasmine white rice. Choose tofu, mixed vegetables, chicken or pork, or substitute shrimp or beef.",
+      "groups": [
+        {
+          "title": "Appetizers",
+          "items": [
+            {
+              "name": "Spring rolls (5)",
+              "desc": "Cabbage, carrots and yellow beans in a wonton wrapper, with sweet chili sauce",
+              "price": "8.55"
+            },
+            {
+              "name": "Fish cakes (5)",
+              "desc": "Tilapia patties with red curry paste and green beans, with sweet chili sauce",
+              "price": "9.55"
+            },
+            {
+              "name": "Goong Hum Pah (5)",
+              "desc": "Shrimp stuffed with ground pork, green onion and sesame oil in a wonton wrapper"
+            },
+            {
+              "name": "Dumplings (5)",
+              "desc": "Steamed or fried, with marinated chicken, cabbage and green onion, and ginger sauce"
+            },
+            {
+              "name": "Thai meatballs (8)",
+              "desc": "In a special sweet and sour sauce"
+            },
+            {
+              "name": "Fried tofu",
+              "desc": "With Thai sweet vinegar peanut sauce"
+            }
+          ]
+        },
+        {
+          "title": "Soups",
+          "note": "Small / large",
+          "items": [
+            {
+              "name": "Tom Yum",
+              "desc": "Lemongrass broth with mushrooms, tomatoes, onion, scallions and chili",
+              "price": "6.95 / 14.95"
+            },
+            {
+              "name": "Tom Ka",
+              "desc": "Coconut milk, galangal, tomatoes, onion, scallions and lime",
+              "price": "8.95 / 16.95"
+            },
+            {
+              "name": "Wonton",
+              "desc": "Stuffed with ground pork, green onion and lettuce",
+              "price": "6.95 / 14.95"
+            }
+          ]
+        },
+        {
+          "title": "Stir fried",
+          "note": "Shrimp +$4, beef +$6",
+          "items": [
+            {
+              "name": "Pad Ka Prow",
+              "desc": "Sweet basil, onions, bell peppers and Thai chili in a brown sauce",
+              "price": "15.95"
+            },
+            {
+              "name": "Sweet and Sour",
+              "desc": "Bell peppers, pineapple, baby corn, mushrooms, tomatoes, carrots and onions",
+              "price": "15.95"
+            },
+            {
+              "name": "Pad Ped",
+              "desc": "Bamboo shoots, string beans and bell peppers in curry paste",
+              "price": "16.95"
+            },
+            {
+              "name": "Pad Pak",
+              "desc": "Stir-fried mixed vegetables",
+              "price": "15.95"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices from the restaurant's current menu, with tofu, vegetables, chicken or pork; to be confirmed. Orders are taken by phone and DoorDash only."
+    },
+    {
+      "type": "columns",
+      "id": "spice",
+      "nav": "Spice levels",
+      "eyebrow": "Pick your heat",
+      "title": "Mild to *Thai hot*",
+      "columns": [
+        {
+          "title": "Easy",
+          "items": [
+            "* Mild",
+            "** Medium"
+          ]
+        },
+        {
+          "title": "Brave",
+          "items": [
+            "*** Spicy",
+            "**** Very spicy"
+          ]
+        },
+        {
+          "title": "Fearless",
+          "items": [
+            "***** Thai hot"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry? Call it in.",
+      "text": "Phone lines are busiest at rush hour, so call a little early if you can.",
+      "cta": {
+        "label": "Call (803) 226-0601",
+        "href": "tel:+18032260601"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "hideForm": true
+  },
+  "source": {
+    "url": "https://jasminericesc.wixsite.com/kaogang",
+    "before": [
+      "Runs on Wix's free plan, so every page carries a \"This website was built on Wix. Create yours today\" ad banner",
+      "The address is a wixsite.com sub-address rather than the restaurant's own name",
+      "One page still reads \"COMING SOON\"",
+      "Footer reads © 2022, and Google shows no description for the site"
+    ]
+  }
+}

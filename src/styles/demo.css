@@ -388,3 +388,8 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 [data-look="boutique"] .hero-visual .frame { border-radius: 999px 999px 0 0; box-shadow: none; }
 [data-look="boutique"] .panel { border-radius: 999px 999px 0 0; aspect-ratio: 4 / 5; }
 [data-look="boutique"] .gallery figure { border-radius: 0; }
+
+/* warm look on a full-colour banner: the emphasis must use the accent, not the
+   primary colour the banner is painted with. */
+[data-look="warm"] .hero[data-variant="banner"] h1 em { color: var(--accent); text-decoration-color: color-mix(in srgb, var(--on-primary) 55%, transparent); }
+[data-look="warm"] .hero[data-variant="photo"] h1 em { color: var(--accent); }

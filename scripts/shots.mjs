@@ -103,6 +103,15 @@ if (args.includes('--present')) {
     const png = await page.screenshot({ type: 'png' });
     await sharp(png).resize(1120).jpeg({ quality: 74, mozjpeg: true }).toFile(path.join(ROOT, 'public', 'shots', `${slug}-after.jpg`));
     await page.close();
+    // The same page on a phone, for the checkup page.
+    const phone = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+    await prep(phone);
+    const pp = await phone.newPage();
+    await pp.goto(`${base}/${slug}/`, { waitUntil: 'load' });
+    await pp.addStyleTag({ content: '.concept{display:none!important}.callbar{display:none!important}' });
+    await settle(pp);
+    await sharp(await pp.screenshot({ type: 'png' })).resize(540).jpeg({ quality: 76, mozjpeg: true }).toFile(path.join(ROOT, 'public', 'shots', `${slug}-after-phone.jpg`));
+    await phone.close();
     console.log(`${slug}: after thumbnail saved`);
   }
 }

@@ -59,7 +59,9 @@ ${studio}
 ${me.phone} · ${me.email}
 ${me.address}
 
-Not interested? Reply "no thanks" and I will not contact you again.`;
+Not interested? Reply "no thanks" and I will not contact you again.${row.listedPhone ? `
+
+P.S. While checking, I noticed a local business directory lists your number as ${row.listedPhone}, while your website says ${row.phone}. ${/typo/.test(row.phoneNote || '') ? 'It looks like a typo, worth' : 'Worth'} a quick fix so callers reach you.` : ''}`;
 
   const text = `Hi${first ? ` ${first}` : ''}, this is ${me.name} with ${studio} in Aiken. I built a free concept for a new ${short} website: ${link} No obligation. Happy to walk you through it. Reply STOP and I won't text again.`;
   const voicemail = `Hi${first ? ` ${first}` : ''}, this is ${me.name}. I build websites for small businesses here in the Aiken area. ${none ? `I could not find a website for ${short}` : `I noticed that ${lower(findings[0]).replace(/\.$/, '')}`}, so I put together a free concept of a new site for ${short}. I'd love to send you the link. My number is ${me.phone}. Again, that's ${me.name} at ${me.phone}. Thanks.`;

@@ -1,0 +1,3953 @@
+{
+ "veg-out": {
+  "site": {
+   "bytes": 2537191,
+   "requests": 46,
+   "loadMs": 1523,
+   "url": "https://www.vegoutofaiken.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 281717,
+   "requests": 6,
+   "loadMs": 142,
+   "url": "/veg-out/",
+   "at": "2026-11-17"
+  }
+ },
+ "aasa-transportation-llc": {
+  "site": {
+   "bytes": 1429297,
+   "requests": 116,
+   "loadMs": 4111,
+   "url": "https://www.aasatransportation.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "a-foxs-tale": {
+  "site": {
+   "bytes": 3331852,
+   "requests": 162,
+   "loadMs": 5090,
+   "url": "https://www.afoxstale.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "803-mobile-detailing-and-wash-llc": {
+  "site": {
+   "bytes": 2720283,
+   "requests": 199,
+   "loadMs": 6239,
+   "url": "https://www.803detail.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "a-p-gouge-photography": {
+  "site": {
+   "bytes": 4431712,
+   "requests": 141,
+   "loadMs": 7757,
+   "url": "https://www.apgougephotography.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "advanced-hearing-health-of-aiken": {
+  "site": {
+   "bytes": 6748721,
+   "requests": 67,
+   "loadMs": 1588,
+   "url": "https://www.hearaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "adams-nursery-and-landscaping-llc": {
+  "site": {
+   "bytes": 3659838,
+   "requests": 60,
+   "loadMs": 3007,
+   "url": "https://www.adamsnursery.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "advanced-oral-and-facial-specialists": {
+  "site": {
+   "bytes": 1573193,
+   "requests": 75,
+   "loadMs": 2285,
+   "url": "https://smileaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-dental": {
+  "site": {
+   "bytes": 746107,
+   "requests": 9,
+   "loadMs": 1508,
+   "url": "https://www.aikendental.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "affordable-quality-marble-and-granite": {
+  "site": {
+   "bytes": 10911221,
+   "requests": 342,
+   "loadMs": 5305,
+   "url": "https://southcarolinagranite.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "ahh-sunshine-llc": {
+  "site": {
+   "bytes": 4342712,
+   "requests": 113,
+   "loadMs": 5809,
+   "url": "https://ahhsunshine.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-city-lifestyle": {
+  "site": {
+   "bytes": 4175021,
+   "requests": 181,
+   "loadMs": 5343,
+   "url": "https://www.citylifestyle.com/aiken",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-embroidery-and-design": {
+  "site": {
+   "bytes": 3680805,
+   "requests": 75,
+   "loadMs": 2768,
+   "url": "https://aikenead.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-fish-house-and-oyster-bar": {
+  "site": {
+   "bytes": 6267572,
+   "requests": 87,
+   "loadMs": 2369,
+   "url": "https://aikenfishhouse.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-golf-club": {
+  "site": {
+   "bytes": 5032050,
+   "requests": 93,
+   "loadMs": 3310,
+   "url": "https://aikengolfclub.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-flooring": {
+  "site": {
+   "bytes": 2753279,
+   "requests": 150,
+   "loadMs": 4339,
+   "url": "https://www.aikenflooring.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 130150,
+   "requests": 5,
+   "loadMs": 141,
+   "url": "/aiken-flooring/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-hound-and-home": {
+  "site": {
+   "bytes": 2502656,
+   "requests": 152,
+   "loadMs": 2839,
+   "url": "https://www.aikenhoundandhome.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-housing-center": {
+  "site": {
+   "bytes": 14546628,
+   "requests": 98,
+   "loadMs": 3134,
+   "url": "https://aikenhousingcenter.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-junk-removal": {
+  "site": {
+   "bytes": 3868061,
+   "requests": 118,
+   "loadMs": 1803,
+   "url": "https://www.aikenjunkremoval.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-medical-aesthetics": {
+  "site": {
+   "bytes": 9539965,
+   "requests": 23,
+   "loadMs": 1677,
+   "url": "https://aikenmedicalaesthetics.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-midtown-hotel": {
+  "site": {
+   "bytes": 840437,
+   "requests": 33,
+   "loadMs": 1830,
+   "url": "https://www.aikenmidtownhotel.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-paint-and-sip": {
+  "site": {
+   "bytes": 2120121,
+   "requests": 85,
+   "loadMs": 3049,
+   "url": "https://www.aikenpaintnsip.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-luxury-rentals": {
+  "site": {
+   "bytes": 164,
+   "requests": 1,
+   "loadMs": 8371,
+   "url": "https://aikenluxuryrentals.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-pet-sitters-llc": {
+  "site": {
+   "bytes": 5900910,
+   "requests": 37,
+   "loadMs": 4632,
+   "url": "https://aikenpetsitters.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-polo-club": {
+  "site": {
+   "bytes": 4001044,
+   "requests": 106,
+   "loadMs": 4598,
+   "url": "https://aikenpolo.org/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-saddlery": {
+  "site": {
+   "bytes": 326826,
+   "requests": 9,
+   "loadMs": 520,
+   "url": "https://aikensaddlery.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-properties-inc": {
+  "site": {
+   "bytes": 4432274,
+   "requests": 82,
+   "loadMs": 2656,
+   "url": "https://aikenproperties.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-secure-storage": {
+  "site": {
+   "bytes": 2653500,
+   "requests": 80,
+   "loadMs": 3019,
+   "url": "https://www.aikensecurestorage.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-veterinary-clinic-pa": {
+  "site": {
+   "bytes": 1956069,
+   "requests": 166,
+   "loadMs": 3030,
+   "url": "https://www.aikenvet.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-wellness-spa-and-boutique": {
+  "site": {
+   "bytes": 3755029,
+   "requests": 79,
+   "loadMs": 3109,
+   "url": "https://www.aikenwellnessspa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-transport-express-llc": {
+  "site": {
+   "bytes": 4710166,
+   "requests": 101,
+   "loadMs": 4090,
+   "url": "https://aikentransportexpress.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aikens-dryer-vent-cleaning-llc": {
+  "site": {
+   "bytes": 1442755,
+   "requests": 45,
+   "loadMs": 2095,
+   "url": "https://aikensdryervent.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "all-south-siding-window-and-roofing": {
+  "site": {
+   "bytes": 6177367,
+   "requests": 105,
+   "loadMs": 3200,
+   "url": "https://augustabuilt.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "aikenite-electrical-services-llc": {
+  "site": {
+   "bytes": 5067506,
+   "requests": 132,
+   "loadMs": 3879,
+   "url": "https://www.aikenite-electrical.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "anderson-insurance-associates-llc": {
+  "site": {
+   "bytes": 3186171,
+   "requests": 96,
+   "loadMs": 2367,
+   "url": "https://www.aiasc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "anderson-plumbing-co-inc": {
+  "site": {
+   "bytes": 1638458,
+   "requests": 73,
+   "loadMs": 2228,
+   "url": "https://www.andersonplumbingaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "all-safe-industrial-services-inc": {
+  "site": {
+   "bytes": 6793355,
+   "requests": 50,
+   "loadMs": 10596,
+   "url": "https://allsafe1.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "allstar-tents-and-events": {
+  "site": {
+   "bytes": 3725876,
+   "requests": 92,
+   "loadMs": 8731,
+   "url": "https://allstartentsandevents.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "andrew-c-marine-attorney": {
+  "site": {
+   "bytes": 1242537,
+   "requests": 71,
+   "loadMs": 2127,
+   "url": "https://www.andrewmarine.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "anshu-asian-caf": {
+  "site": {
+   "bytes": 2459771,
+   "requests": 73,
+   "loadMs": 2650,
+   "url": "https://anshuasiancafe.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "antonios-italian-eatery": {
+  "site": {
+   "bytes": 1822215,
+   "requests": 48,
+   "loadMs": 1451,
+   "url": "https://antoniositalianeatery.wordpress.com/menu/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 160420,
+   "requests": 5,
+   "loadMs": 113,
+   "url": "/antonios-italian-eatery/",
+   "at": "2026-11-17"
+  }
+ },
+ "apex-home-repair-corporation": {
+  "site": {
+   "bytes": 36289962,
+   "requests": 82,
+   "loadMs": 1760,
+   "url": "https://repairwithapex.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "applied-business-strategies-llc": {
+  "site": {
+   "bytes": 578290,
+   "requests": 41,
+   "loadMs": 2219,
+   "url": "https://appliedbusinessstrategies.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "athos": {
+  "site": {
+   "bytes": 5072507,
+   "requests": 78,
+   "loadMs": 2588,
+   "url": "https://athospr.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "argus-visuals": {
+  "site": {
+   "bytes": 9178677,
+   "requests": 115,
+   "loadMs": 5274,
+   "url": "https://www.argusvisuals.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "arnold-advisors-llc": {
+  "site": {
+   "bytes": 3744627,
+   "requests": 79,
+   "loadMs": 7133,
+   "url": "https://www.aiken-cpa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "austin-and-pethick-law-firm": {
+  "site": {
+   "bytes": 1363854,
+   "requests": 15,
+   "loadMs": 2368,
+   "url": "https://www.austinpethick.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "augusta-ready-mix-inc": {
+  "site": {
+   "bytes": 1815581,
+   "requests": 51,
+   "loadMs": 3209,
+   "url": "https://www.augustareadymix.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 132496,
+   "requests": 4,
+   "loadMs": 81,
+   "url": "/augusta-ready-mix/",
+   "at": "2026-11-17"
+  }
+ },
+ "automotive-workbench": {
+  "site": {
+   "bytes": 5637859,
+   "requests": 97,
+   "loadMs": 2554,
+   "url": "https://www.awbench.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "atomic-heating-and-air": {
+  "site": {
+   "bytes": 3784354,
+   "requests": 223,
+   "loadMs": 10151,
+   "url": "https://atomichvac.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "b-and-h-self-storage": {
+  "site": {
+   "bytes": 260790,
+   "requests": 10,
+   "loadMs": 2942,
+   "url": "https://casecolomba.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "b-and-k-grading-and-paving-llc": {
+  "site": {
+   "bytes": 10449586,
+   "requests": 99,
+   "loadMs": 4348,
+   "url": "https://bkgradingandpaving.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "barreto-manufacturing-inc": {
+  "site": {
+   "bytes": 8504238,
+   "requests": 119,
+   "loadMs": 7590,
+   "url": "https://barretomfg.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "baker-family-dentistry": {
+  "site": {
+   "bytes": 1064422,
+   "requests": 74,
+   "loadMs": 10135,
+   "url": "https://bakerfamilydentistryaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "beanie-bens": {
+  "site": {
+   "bytes": 1338638,
+   "requests": 42,
+   "loadMs": 6847,
+   "url": "https://www.beaniebens.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "basco-strategic-enterprises-llc": {
+  "site": {
+   "bytes": 2272708,
+   "requests": 209,
+   "loadMs": 9667,
+   "url": "https://www.bascostrategic.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "beech-island-timber-and-construction-inc": {
+  "site": {
+   "bytes": 455902,
+   "requests": 27,
+   "loadMs": 2016,
+   "url": "https://www.bitimber.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 420162,
+   "requests": 6,
+   "loadMs": 133,
+   "url": "/beech-island-timber/",
+   "at": "2026-11-17"
+  }
+ },
+ "belu-group-llc": {
+  "site": {
+   "bytes": 365346,
+   "requests": 18,
+   "loadMs": 3551,
+   "url": "https://belu-group.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "beyond-bijoux": {
+  "site": {
+   "bytes": 1751998,
+   "requests": 153,
+   "loadMs": 2976,
+   "url": "https://beyondbijouxaiken.shop/",
+   "at": "2026-11-17"
+  }
+ },
+ "beech-island-appliance-service-co-inc": {
+  "site": {
+   "bytes": 4267693,
+   "requests": 85,
+   "loadMs": 7074,
+   "url": "https://beechislandheatingandair.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "big-chris-collision": {
+  "site": {
+   "bytes": 2263261,
+   "requests": 38,
+   "loadMs": 1553,
+   "url": "https://bigchriscollision.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "big-red-barn": {
+  "site": {
+   "bytes": 1063552,
+   "requests": 46,
+   "loadMs": 1974,
+   "url": "https://bigredbarnsc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bill-cunningham-fitness": {
+  "site": {
+   "bytes": 5496902,
+   "requests": 163,
+   "loadMs": 3015,
+   "url": "https://billcunninghamfitness.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bloom-salon-spa-boutique": {
+  "site": {
+   "bytes": 2438198,
+   "requests": 171,
+   "loadMs": 2808,
+   "url": "https://www.beautyatbloom.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 910209,
+   "requests": 15,
+   "loadMs": 183,
+   "url": "/bloom-salon/",
+   "at": "2026-11-17"
+  }
+ },
+ "bit-services": {
+  "site": {
+   "bytes": 1938195,
+   "requests": 94,
+   "loadMs": 5373,
+   "url": "https://www.bitservices.us/",
+   "at": "2026-11-17"
+  }
+ },
+ "blue-collard": {
+  "site": {
+   "bytes": 3333061,
+   "requests": 77,
+   "loadMs": 2304,
+   "url": "https://bluecollard.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "blue-salamander-solutions-llc": {
+  "site": {
+   "bytes": 1663603,
+   "requests": 82,
+   "loadMs": 2078,
+   "url": "https://bluesalamandersolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "board-in-aiken": {
+  "site": {
+   "bytes": 6573665,
+   "requests": 35,
+   "loadMs": 1828,
+   "url": "https://www.boardinaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bobbys-bar-b-q-buffet": {
+  "site": {
+   "bytes": 6842578,
+   "requests": 90,
+   "loadMs": 2101,
+   "url": "https://bobbysbbq.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bolster-bookkeeping-llc": {
+  "site": {
+   "bytes": 840772,
+   "requests": 23,
+   "loadMs": 1770,
+   "url": "https://bolsterbookkeeping.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bowl-boss": {
+  "site": {
+   "bytes": 5883794,
+   "requests": 170,
+   "loadMs": 2165,
+   "url": "https://www.bowlbossacai.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "brandquantum-inc": {
+  "site": {
+   "bytes": 1207286,
+   "requests": 39,
+   "loadMs": 1251,
+   "url": "https://brandquantum.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "brantley-chiropractic-pc": {
+  "site": {
+   "bytes": 597296,
+   "requests": 44,
+   "loadMs": 1599,
+   "url": "https://brantleychiropractic.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bravefriend-apparel-and-design": {
+  "site": {
+   "bytes": 1192134,
+   "requests": 67,
+   "loadMs": 2014,
+   "url": "https://bravefriend.net/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 455697,
+   "requests": 16,
+   "loadMs": 161,
+   "url": "/bravefriend/",
+   "at": "2026-11-17"
+  }
+ },
+ "bradley-plumbing-and-heating-inc-mechanical-cont": {
+  "site": {
+   "bytes": 164,
+   "requests": 1,
+   "loadMs": 8218,
+   "url": "https://bradleyplbghtg.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 120898,
+   "requests": 5,
+   "loadMs": 113,
+   "url": "/bradley-plumbing-heating/",
+   "at": "2026-11-17"
+  }
+ },
+ "bridle-creek": {
+  "site": {
+   "bytes": 722189,
+   "requests": 11,
+   "loadMs": 1711,
+   "url": "https://www.bridlecreekaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "breezy-hill-self-storage": {
+  "site": {
+   "bytes": 3898075,
+   "requests": 139,
+   "loadMs": 4137,
+   "url": "https://www.monsterselfstorage.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "brinks-tavern": {
+  "site": {
+   "bytes": 6602201,
+   "requests": 89,
+   "loadMs": 2191,
+   "url": "https://brinkstavern.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "brinkleys-chop-house": {
+  "site": {
+   "bytes": 3620629,
+   "requests": 73,
+   "loadMs": 1665,
+   "url": "https://www.brinkleyschophouse.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "build-on-your-land-llc": {
+  "site": {
+   "bytes": 2645558,
+   "requests": 81,
+   "loadMs": 2615,
+   "url": "https://buildonyourlandllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "broadwater-toole-realty-llc": {
+  "site": {
+   "bytes": 4773492,
+   "requests": 112,
+   "loadMs": 3505,
+   "url": "https://www.broadwatertoolerealty.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "burrell-and-flynns-farm": {
+  "site": {
+   "bytes": 6151983,
+   "requests": 63,
+   "loadMs": 2638,
+   "url": "https://www.burrellandflynnsfarm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "britts-jump-and-slide-inflatables-llc": {
+  "site": {
+   "bytes": 2170990,
+   "requests": 61,
+   "loadMs": 7141,
+   "url": "https://www.brittsinflatables.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "c-and-c-automotive": {
+  "site": {
+   "bytes": 880404,
+   "requests": 27,
+   "loadMs": 1220,
+   "url": "https://www.ccautomotive.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "c-wallace-design": {
+  "site": {
+   "bytes": 9154468,
+   "requests": 58,
+   "loadMs": 2925,
+   "url": "https://coleenwallacedesign.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "bushs-flower-shop-on-pine-grove": {
+  "site": {
+   "bytes": 2716161,
+   "requests": 164,
+   "loadMs": 3731,
+   "url": "https://bushsflowershop.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "candy-shop-vintage-llc": {
+  "site": {
+   "bytes": 2845393,
+   "requests": 115,
+   "loadMs": 2677,
+   "url": "https://www.candyshopvintage.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-covertech": {
+  "site": {
+   "bytes": 2095255,
+   "requests": 78,
+   "loadMs": 1609,
+   "url": "https://www.carolinacovertech.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-fresh-farms": {
+  "site": {
+   "bytes": 7166297,
+   "requests": 98,
+   "loadMs": 2389,
+   "url": "https://carolinafreshfarms.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-real-estate-company": {
+  "site": {
+   "bytes": 4862678,
+   "requests": 52,
+   "loadMs": 4535,
+   "url": "https://carolinacompany.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-hvac-and-electrical": {
+  "site": {
+   "bytes": 5082926,
+   "requests": 132,
+   "loadMs": 7238,
+   "url": "https://www.carolina-hvac.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolines-boutique-pitter-patter-childrens-bouti": {
+  "site": {
+   "bytes": 3315567,
+   "requests": 229,
+   "loadMs": 4662,
+   "url": "https://www.pitterpattercarolines.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-dragway-inc": {
+  "site": {
+   "bytes": 5670415,
+   "requests": 164,
+   "loadMs": 12125,
+   "url": "https://carolinadragway.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carriage-house-inn": {
+  "site": {
+   "bytes": 4529955,
+   "requests": 72,
+   "loadMs": 2091,
+   "url": "https://www.aikencarriagehouse.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "carver-security-systems-inc": {
+  "site": {
+   "bytes": 683499,
+   "requests": 17,
+   "loadMs": 2794,
+   "url": "https://www.carversecurity.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cassie-bayer-photography": {
+  "site": {
+   "bytes": 5768214,
+   "requests": 41,
+   "loadMs": 1965,
+   "url": "https://www.cassiebayer.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cates-inflates": {
+  "site": {
+   "bytes": 1623853,
+   "requests": 157,
+   "loadMs": 4171,
+   "url": "https://www.catesinflates.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cavaliers-coffeehouse": {
+  "site": {
+   "bytes": 3444495,
+   "requests": 163,
+   "loadMs": 3409,
+   "url": "https://www.cavscoffee.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cedar-creek-golf-club": {
+  "site": {
+   "bytes": 909181,
+   "requests": 48,
+   "loadMs": 3794,
+   "url": "https://ne10vodka.com/pages/about",
+   "at": "2026-11-17"
+  }
+ },
+ "chandler-law-firm-pa": {
+  "site": {
+   "bytes": 3368554,
+   "requests": 116,
+   "loadMs": 5163,
+   "url": "https://thechandlerlawfirm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "changes-day-spa": {
+  "site": {
+   "bytes": 3659762,
+   "requests": 16,
+   "loadMs": 2392,
+   "url": "https://www.dewisloto1000.com/game/slot/",
+   "at": "2026-11-17"
+  }
+ },
+ "chemistrys-tapas-and-tonics": {
+  "site": {
+   "bytes": 1625697,
+   "requests": 59,
+   "loadMs": 2583,
+   "url": "https://chemistrys803.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cherons-bridal-of-aiken": {
+  "site": {
+   "bytes": 540393,
+   "requests": 20,
+   "loadMs": 1885,
+   "url": "https://www.cheronsbridal.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "chief-living-solutions-inc": {
+  "site": {
+   "bytes": 1144100,
+   "requests": 127,
+   "loadMs": 2482,
+   "url": "https://www.chieflivingsolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "city-billiards": {
+  "site": {
+   "bytes": 1349497,
+   "requests": 76,
+   "loadMs": 3282,
+   "url": "https://citybilliardsofaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cold-creek-nurseries-llc": {
+  "site": {
+   "bytes": 2541998,
+   "requests": 116,
+   "loadMs": 3054,
+   "url": "https://coldcreek.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "cole-funeral-home-and-cremation-service": {
+  "site": {
+   "bytes": 2981920,
+   "requests": 100,
+   "loadMs": 2397,
+   "url": "https://www.colefuneralhomeinc.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "concierge-property-management-group": {
+  "site": {
+   "bytes": 1605677,
+   "requests": 162,
+   "loadMs": 2615,
+   "url": "https://www.conciergepmgroup.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "consilium-solutions-llc": {
+  "site": {
+   "bytes": 974316,
+   "requests": 90,
+   "loadMs": 1442,
+   "url": "https://consiliumsolutionsllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "covenant-family-allergy": {
+  "site": {
+   "bytes": 3106326,
+   "requests": 17,
+   "loadMs": 1384,
+   "url": "https://covenantfamilyallergy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "creotibi": {
+  "site": {
+   "bytes": 1134317,
+   "requests": 22,
+   "loadMs": 1582,
+   "url": "https://creotibi.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "coward-and-mcneill-real-estate": {
+  "site": {
+   "bytes": 5306950,
+   "requests": 49,
+   "loadMs": 4794,
+   "url": "https://cowardandmcneill.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "csra-document-solutions": {
+  "site": {
+   "bytes": 4116518,
+   "requests": 85,
+   "loadMs": 2920,
+   "url": "https://csradocumentsolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "csra-veterinary-services": {
+  "site": {
+   "bytes": 4439716,
+   "requests": 85,
+   "loadMs": 3003,
+   "url": "https://csravs.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "cultivating-wellness-llc": {
+  "site": {
+   "bytes": 2381141,
+   "requests": 17,
+   "loadMs": 1252,
+   "url": "https://cultivatingwellnessllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "curated-clothiers-llc": {
+  "site": {
+   "bytes": 1345075,
+   "requests": 112,
+   "loadMs": 1546,
+   "url": "https://www.curatedclothiers.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "deramo-creative": {
+  "site": {
+   "bytes": 1375980,
+   "requests": 81,
+   "loadMs": 3372,
+   "url": "https://deramocreative.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "dear-soul-candle-co": {
+  "site": {
+   "bytes": 4093812,
+   "requests": 229,
+   "loadMs": 4982,
+   "url": "https://www.dearsoulcandleco.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "deborah-a-ashcraft-dmd-pc": {
+  "site": {
+   "bytes": 2177793,
+   "requests": 77,
+   "loadMs": 3796,
+   "url": "https://www.dmd4kids.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "deeper-dive-bookkeeping": {
+  "site": {
+   "bytes": 8237942,
+   "requests": 96,
+   "loadMs": 4995,
+   "url": "https://www.deeperdivebook.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "delores-martin-independent-beauty-consultant": {
+  "site": {
+   "bytes": 1450357,
+   "requests": 10,
+   "loadMs": 2349,
+   "url": "https://www.marykay.com/dmartin54",
+   "at": "2026-11-17"
+  }
+ },
+ "design-persuasion": {
+  "site": {
+   "bytes": 4702066,
+   "requests": 38,
+   "loadMs": 2108,
+   "url": "https://www.designpersuasion.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "dental-care-at-woodside": {
+  "site": {
+   "bytes": 2261402,
+   "requests": 94,
+   "loadMs": 3535,
+   "url": "https://dentalcareatwoodside.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "downtown-dog": {
+  "site": {
+   "bytes": 1675252,
+   "requests": 45,
+   "loadMs": 2072,
+   "url": "https://aikendowntowndog.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "designer-builders-inc": {
+  "site": {
+   "bytes": 2849419,
+   "requests": 85,
+   "loadMs": 5350,
+   "url": "https://designerbuilders.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "downtown-hydration-and-wellness": {
+  "site": {
+   "bytes": 1777411,
+   "requests": 175,
+   "loadMs": 3699,
+   "url": "https://www.downtownhydration.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "durban-laird-insurance": {
+  "site": {
+   "bytes": 70059,
+   "requests": 17,
+   "loadMs": 906,
+   "url": "http://www.aikeninsurance.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 158008,
+   "requests": 6,
+   "loadMs": 142,
+   "url": "/durban-laird-insurance/",
+   "at": "2026-11-17"
+  }
+ },
+ "dukes-bar-b-que": {
+  "site": {
+   "bytes": 4100078,
+   "requests": 67,
+   "loadMs": 2916,
+   "url": "https://www.dukesbbqaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "eagle-corps-services": {
+  "site": {
+   "bytes": 1741138,
+   "requests": 85,
+   "loadMs": 2991,
+   "url": "https://eaglecorpsessentials.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "earthmuffin-spa": {
+  "site": {
+   "bytes": 1160406,
+   "requests": 65,
+   "loadMs": 3309,
+   "url": "https://earthmuffinspa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "emily-revolutionary-marketing-company": {
+  "site": {
+   "bytes": 6177603,
+   "requests": 234,
+   "loadMs": 3681,
+   "url": "https://www.ermarketinggroup.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "dynamic-audio-and-video": {
+  "site": {
+   "bytes": 5825111,
+   "requests": 87,
+   "loadMs": 6497,
+   "url": "https://www.dynamicaudioandvideo.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "equine-divine": {
+  "site": {
+   "bytes": 1357760,
+   "requests": 81,
+   "loadMs": 1433,
+   "url": "https://www.equinedivineonline.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "empire-tree": {
+  "site": {
+   "bytes": 15428178,
+   "requests": 94,
+   "loadMs": 4101,
+   "url": "https://empiretree.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "encore": {
+  "site": {
+   "bytes": 20583515,
+   "requests": 129,
+   "loadMs": 5136,
+   "url": "https://www.encoreglobal.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "eudora-wildlife-safari-park": {
+  "site": {
+   "bytes": 3136078,
+   "requests": 213,
+   "loadMs": 4124,
+   "url": "https://www.eudorasafaripark.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "evello-med-spa": {
+  "site": {
+   "bytes": 879741,
+   "requests": 66,
+   "loadMs": 1942,
+   "url": "https://evelloaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "family-pharmacy": {
+  "site": {
+   "bytes": 2335378,
+   "requests": 163,
+   "loadMs": 2034,
+   "url": "https://www.aikenpharmacy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "ferrandos-italian-pizzeria": {
+  "site": {
+   "bytes": 5092808,
+   "requests": 89,
+   "loadMs": 2639,
+   "url": "https://ferrandospizza.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "fliflet-cassels-and-durant-pa-cpa": {
+  "site": {
+   "bytes": 495749,
+   "requests": 27,
+   "loadMs": 1555,
+   "url": "https://www.flifletcpa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "fitlife-aiken": {
+  "site": {
+   "bytes": 570386,
+   "requests": 14,
+   "loadMs": 3306,
+   "url": "https://maxfitnessaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "floyd-and-green-fine-jewelers": {
+  "site": {
+   "bytes": 3069723,
+   "requests": 100,
+   "loadMs": 2866,
+   "url": "https://www.floydandgreen.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "fox-and-hound-realty": {
+  "site": {
+   "bytes": 1219866,
+   "requests": 67,
+   "loadMs": 1353,
+   "url": "https://www.foxandhoundrealty.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "fox-and-the-bee-farm": {
+  "site": {
+   "bytes": 1237565,
+   "requests": 88,
+   "loadMs": 2771,
+   "url": "https://foxandthebeefarm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "freitas-wealth-management-group": {
+  "site": {
+   "bytes": 5008147,
+   "requests": 41,
+   "loadMs": 2625,
+   "url": "https://freitaswmg.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "g-and-s-computing-inc": {
+  "site": {
+   "bytes": 6441765,
+   "requests": 44,
+   "loadMs": 2595,
+   "url": "https://www.gscompinc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "gl-brightharp-and-sons-mortuary": {
+  "site": {
+   "bytes": 2140363,
+   "requests": 84,
+   "loadMs": 1438,
+   "url": "https://www.glbrightharpmortuary.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "g-l-williams-and-daughter-trucking-inc": {
+  "site": {
+   "bytes": 1049268,
+   "requests": 22,
+   "loadMs": 3716,
+   "url": "https://glwdtrucking.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "g-and-p-construction-hauling-and-environmental-l": {
+  "site": {
+   "bytes": 4918598,
+   "requests": 46,
+   "loadMs": 6802,
+   "url": "https://g-p-constructionllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "g1-land-services-llc": {
+  "site": {
+   "bytes": 1558020,
+   "requests": 58,
+   "loadMs": 1770,
+   "url": "https://www.g1landservices.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "garlin-design-and-remodeling-llc": {
+  "site": {
+   "bytes": 1585616,
+   "requests": 53,
+   "loadMs": 2776,
+   "url": "https://www.garlindesignremodeling.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "ginger-bee-boutique": {
+  "site": {
+   "bytes": 1640725,
+   "requests": 91,
+   "loadMs": 2391,
+   "url": "https://www.gingerbeeboutique.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "gaston-livery-stable": {
+  "site": {
+   "bytes": 3757613,
+   "requests": 84,
+   "loadMs": 3751,
+   "url": "https://gastonliverystable.org/",
+   "at": "2026-11-17"
+  }
+ },
+ "glassworks-by-fishburne-and-shultz-hill": {
+  "site": {
+   "bytes": 442859,
+   "requests": 16,
+   "loadMs": 1761,
+   "url": "https://www.glassworksaiken.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 128137,
+   "requests": 4,
+   "loadMs": 76,
+   "url": "/glassworks/",
+   "at": "2026-11-17"
+  }
+ },
+ "good-morning-sunshine-plumbing": {
+  "site": {
+   "bytes": 1857989,
+   "requests": 79,
+   "loadMs": 2104,
+   "url": "https://www.goodmorningsunshineplumbing.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "goshen-trading-co-inc-goshen-farm": {
+  "site": {
+   "bytes": 2196211,
+   "requests": 93,
+   "loadMs": 2698,
+   "url": "https://goshenfarmaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "green-boundary-club": {
+  "site": {
+   "bytes": 1818415,
+   "requests": 146,
+   "loadMs": 1928,
+   "url": "https://www.greenboundaryclub.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "graybeal-construction-and-design": {
+  "site": {
+   "bytes": 6254094,
+   "requests": 98,
+   "loadMs": 5103,
+   "url": "https://www.graybealconstruction.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "greenleaf-endeavors": {
+  "site": {
+   "bytes": 694100,
+   "requests": 39,
+   "loadMs": 2705,
+   "url": "https://greenleafendeavors.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "grumpys-sports-pub": {
+  "site": {
+   "bytes": 3580111,
+   "requests": 83,
+   "loadMs": 2589,
+   "url": "https://www.grumpyssportspub.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "gutter-specialty-services": {
+  "site": {
+   "bytes": 2997644,
+   "requests": 108,
+   "loadMs": 3474,
+   "url": "https://gutterspecialtyservices.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hals-hair-center": {
+  "site": {
+   "bytes": 683721,
+   "requests": 22,
+   "loadMs": 1725,
+   "url": "https://halshaircenter.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 124025,
+   "requests": 4,
+   "loadMs": 72,
+   "url": "/hals-hair-center/",
+   "at": "2026-11-17"
+  }
+ },
+ "hair-of-the-dog-llc": {
+  "site": {
+   "bytes": 3735089,
+   "requests": 143,
+   "loadMs": 2688,
+   "url": "https://hair-of-the-dog-101741.square.site/",
+   "at": "2026-11-17"
+  }
+ },
+ "hale-dentistry-and-oral-wellness": {
+  "site": {
+   "bytes": 3815017,
+   "requests": 42,
+   "loadMs": 3121,
+   "url": "https://www.dralicehale.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "harrison-k-9-security-services-llc": {
+  "site": {
+   "bytes": 3033399,
+   "requests": 75,
+   "loadMs": 3701,
+   "url": "https://harrisonk9.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hawthorne-aiken-pharmacy": {
+  "site": {
+   "bytes": 1355841,
+   "requests": 70,
+   "loadMs": 2252,
+   "url": "https://www.hawthornesc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hearing-associates-of-south-carolina": {
+  "site": {
+   "bytes": 2153499,
+   "requests": 90,
+   "loadMs": 3358,
+   "url": "https://www.hearingassociatesofsc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "heira-events": {
+  "site": {
+   "bytes": 2457104,
+   "requests": 28,
+   "loadMs": 2219,
+   "url": "https://heiraevents.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "heath-insurance-and-financial-group": {
+  "site": {
+   "bytes": 5236797,
+   "requests": 187,
+   "loadMs": 5008,
+   "url": "https://heathinsuranceandfinancial.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "help-me-rhonda-bookkeeping-llc": {
+  "site": {
+   "bytes": 3284602,
+   "requests": 35,
+   "loadMs": 3570,
+   "url": "https://hmrhonda.net/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 118571,
+   "requests": 4,
+   "loadMs": 85,
+   "url": "/help-me-rhonda/",
+   "at": "2026-11-17"
+  }
+ },
+ "herbal-solutions-and-spa": {
+  "site": {
+   "bytes": 9166072,
+   "requests": 161,
+   "loadMs": 4643,
+   "url": "https://www.twoherbalsolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hibbitts-drug-co": {
+  "site": {
+   "bytes": 1715445,
+   "requests": 126,
+   "loadMs": 1935,
+   "url": "https://www.hibbittsdrug.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "site": {
+   "bytes": 383497,
+   "requests": 35,
+   "loadMs": 1790,
+   "url": "https://homeforskateboarding.org/",
+   "at": "2026-11-17"
+  }
+ },
+ "hh-construction": {
+  "site": {
+   "bytes": 8962481,
+   "requests": 208,
+   "loadMs": 7541,
+   "url": "https://harrisonhomesconstruction.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "high-country-olive-oil": {
+  "site": {
+   "bytes": 2857693,
+   "requests": 120,
+   "loadMs": 1907,
+   "url": "https://www.highcountryoliveoil.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "high-cotton-uptown": {
+  "site": {
+   "bytes": 2786641,
+   "requests": 204,
+   "loadMs": 4275,
+   "url": "https://highcottondowntown.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "hixon-services": {
+  "site": {
+   "bytes": 5236993,
+   "requests": 92,
+   "loadMs": 3457,
+   "url": "https://hixonsroofing.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "historic-aiken-trolley-tours": {
+  "site": {
+   "bytes": 3045681,
+   "requests": 67,
+   "loadMs": 4492,
+   "url": "https://cityofaikensc.recdesk.com/Community/Page?pageId=36927",
+   "at": "2026-11-17"
+  }
+ },
+ "hixon-insurance-and-realty-co": {
+  "site": {
+   "bytes": 1093902,
+   "requests": 80,
+   "loadMs": 6762,
+   "url": "https://hixonco.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "highfields-event-center-is-home-of-aiken-music-f": {
+  "site": {
+   "bytes": 5967415,
+   "requests": 146,
+   "loadMs": 12333,
+   "url": "https://psjshows.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "holley-heating-and-air-conditioning-inc": {
+  "site": {
+   "bytes": 6909137,
+   "requests": 79,
+   "loadMs": 1306,
+   "url": "https://www.holleyheatingandair.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "houndslake-corporation": {
+  "site": {
+   "bytes": 1702936,
+   "requests": 33,
+   "loadMs": 1992,
+   "url": "https://www.houndslakerealty.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "howell-printing-company": {
+  "site": {
+   "bytes": 357492,
+   "requests": 28,
+   "loadMs": 844,
+   "url": "http://www.howellprinting.net/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 777211,
+   "requests": 8,
+   "loadMs": 127,
+   "url": "/howell-printing/",
+   "at": "2026-11-17"
+  }
+ },
+ "holley-and-company": {
+  "site": {
+   "bytes": 2710643,
+   "requests": 30,
+   "loadMs": 4847,
+   "url": "https://www.cpaaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "houndslake-country-club": {
+  "site": {
+   "bytes": 733709,
+   "requests": 39,
+   "loadMs": 2254,
+   "url": "https://www.houndslakecc.com/amenities/golf",
+   "at": "2026-11-17"
+  }
+ },
+ "hutson-etherredge-companies": {
+  "site": {
+   "bytes": 3137055,
+   "requests": 53,
+   "loadMs": 1103,
+   "url": "https://www.hecos.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "inn-at-houndslake": {
+  "site": {
+   "bytes": 3330802,
+   "requests": 35,
+   "loadMs": 1530,
+   "url": "https://www.theinnathoundslake.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 396101,
+   "requests": 13,
+   "loadMs": 193,
+   "url": "/inn-at-houndslake/",
+   "at": "2026-11-17"
+  }
+ },
+ "hull-barrett-attorneys-pc": {
+  "site": {
+   "bytes": 5007803,
+   "requests": 63,
+   "loadMs": 5147,
+   "url": "https://www.hullbarrett.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "iron-gate-candles": {
+  "site": {
+   "bytes": 1488261,
+   "requests": 149,
+   "loadMs": 3351,
+   "url": "https://www.irongatecandles.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 689949,
+   "requests": 14,
+   "loadMs": 147,
+   "url": "/iron-gate-candles/",
+   "at": "2026-11-17"
+  }
+ },
+ "jackson-memorial-funeral-home-and-crematory-form": {
+  "site": {
+   "bytes": 3127914,
+   "requests": 77,
+   "loadMs": 1780,
+   "url": "https://www.jacksonmemorialfh.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "hughes-beattie-oneal-law-and-assoc-pc": {
+  "site": {
+   "bytes": 1209871,
+   "requests": 65,
+   "loadMs": 7952,
+   "url": "https://www.hbolarchitecture.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 801142,
+   "requests": 15,
+   "loadMs": 135,
+   "url": "/hbol-architects/",
+   "at": "2026-11-17"
+  }
+ },
+ "john-harte-law": {
+  "site": {
+   "bytes": 1486960,
+   "requests": 121,
+   "loadMs": 1616,
+   "url": "https://www.jwhartelaw.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "janson-construction": {
+  "site": {
+   "bytes": 6888293,
+   "requests": 140,
+   "loadMs": 3880,
+   "url": "https://jansoncompany.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "jowers-technology-solutions-llc": {
+  "site": {
+   "bytes": 268083,
+   "requests": 26,
+   "loadMs": 1022,
+   "url": "https://jowerstechsolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "jcs-seafood": {
+  "site": {
+   "bytes": 2450259,
+   "requests": 81,
+   "loadMs": 5939,
+   "url": "https://jcseafood.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "johnson-johnson-whittle-lancer-and-staggs-attorn": {
+  "site": {
+   "bytes": 5540221,
+   "requests": 208,
+   "loadMs": 5354,
+   "url": "https://aikenattorneys.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "josue-garcia-cpa-llc": {
+  "site": {
+   "bytes": 929249,
+   "requests": 29,
+   "loadMs": 4112,
+   "url": "https://www.jgcpallc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "jury-pest-services": {
+  "site": {
+   "bytes": 2699725,
+   "requests": 83,
+   "loadMs": 3869,
+   "url": "https://www.jurypest.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "just-julies-sandwich-shop": {
+  "site": {
+   "bytes": 3800816,
+   "requests": 91,
+   "loadMs": 5889,
+   "url": "https://justjuliesrestaurant.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "kelly-paint-and-body-inc": {
+  "site": {
+   "bytes": 5617686,
+   "requests": 159,
+   "loadMs": 4677,
+   "url": "https://kellypaintandbody.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "kendrick-paint-and-body-shop": {
+  "site": {
+   "bytes": 129642,
+   "requests": 5,
+   "loadMs": 1822,
+   "url": "https://www.kendrickbodyshop.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "kelley-appliance-home-store": {
+  "site": {
+   "bytes": 22069019,
+   "requests": 277,
+   "loadMs": 8458,
+   "url": "https://www.kelleyappliance.com/locations/aiken",
+   "at": "2026-11-17"
+  }
+ },
+ "kings-roll-off-dumpsters": {
+  "site": {
+   "bytes": 5509259,
+   "requests": 63,
+   "loadMs": 1567,
+   "url": "https://www.kingsrolloffdumpsters.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "kitfox-pediatric-dentistry": {
+  "site": {
+   "bytes": 1611528,
+   "requests": 57,
+   "loadMs": 1854,
+   "url": "https://kitfoxdental.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "kt-photography-aiken-llc": {
+  "site": {
+   "bytes": 1510772,
+   "requests": 107,
+   "loadMs": 1519,
+   "url": "https://www.ktphotographyaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "knights-companies": {
+  "site": {
+   "bytes": 7611793,
+   "requests": 68,
+   "loadMs": 3488,
+   "url": "https://www.knightscompanies.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "la-vita-bella-llc": {
+  "site": {
+   "bytes": 2184473,
+   "requests": 186,
+   "loadMs": 3365,
+   "url": "https://www.lavitabella.info/",
+   "at": "2026-11-17"
+  }
+ },
+ "lambert-insurance-agency-inc": {
+  "site": {
+   "bytes": 2339739,
+   "requests": 47,
+   "loadMs": 2249,
+   "url": "https://www.lambertinsuranceaiken.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 101973,
+   "requests": 5,
+   "loadMs": 86,
+   "url": "/lambert-insurance/",
+   "at": "2026-11-17"
+  }
+ },
+ "latelier-on-laurens": {
+  "site": {
+   "bytes": 6942731,
+   "requests": 339,
+   "loadMs": 5746,
+   "url": "https://latelieronlaurens.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "langley-tavern": {
+  "site": {
+   "bytes": 13999077,
+   "requests": 34,
+   "loadMs": 2464,
+   "url": "https://langleytavern.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "laurelwood-equipment-company": {
+  "site": {
+   "bytes": 4575308,
+   "requests": 126,
+   "loadMs": 2933,
+   "url": "https://www.laurelwoodequipment.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "legare-gardens": {
+  "site": {
+   "bytes": 3374338,
+   "requests": 42,
+   "loadMs": 2467,
+   "url": "https://legaregardens.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "lawyerlisa": {
+  "site": {
+   "bytes": 7264287,
+   "requests": 137,
+   "loadMs": 3348,
+   "url": "https://lawyerlisa.com/aiken",
+   "at": "2026-11-17"
+  }
+ },
+ "lankys-on-laurens": {
+  "site": {
+   "bytes": 7449903,
+   "requests": 53,
+   "loadMs": 5794,
+   "url": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+   "at": "2026-11-17"
+  }
+ },
+ "legends-grille": {
+  "site": {
+   "bytes": 5777902,
+   "requests": 68,
+   "loadMs": 1741,
+   "url": "https://thelegendsgrille.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "lionel-smith-ltd": {
+  "site": {
+   "bytes": 13755028,
+   "requests": 169,
+   "loadMs": 3804,
+   "url": "https://www.lionelsmithltd.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "lookaway-inn": {
+  "site": {
+   "bytes": 2057104,
+   "requests": 53,
+   "loadMs": 2062,
+   "url": "https://www.lookawayinn.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "legis-equine-insurance": {
+  "site": {
+   "bytes": 3183686,
+   "requests": 95,
+   "loadMs": 5356,
+   "url": "https://legisequine.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "local-threads-aiken": {
+  "site": {
+   "bytes": 7215692,
+   "requests": 185,
+   "loadMs": 3910,
+   "url": "https://localthreadsaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "macks": {
+  "site": {
+   "bytes": 1579778,
+   "requests": 78,
+   "loadMs": 2124,
+   "url": "https://macksinaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "manna-media": {
+  "site": {
+   "bytes": 3155287,
+   "requests": 87,
+   "loadMs": 2295,
+   "url": "https://www.themannamedia.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "maner-builders-supply-company": {
+  "site": {
+   "bytes": 2497154,
+   "requests": 87,
+   "loadMs": 2756,
+   "url": "https://maner.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "manuels-bread-cafe": {
+  "site": {
+   "bytes": 2187474,
+   "requests": 74,
+   "loadMs": 2001,
+   "url": "https://manuelsbreadcafe.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "marias-mexican-restaurant": {
+  "site": {
+   "bytes": 2597428,
+   "requests": 65,
+   "loadMs": 256,
+   "url": "http://mariasmexicanrestaurantaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "malias-restaurant": {
+  "site": {
+   "bytes": 2782873,
+   "requests": 58,
+   "loadMs": 5996,
+   "url": "https://maliasrestaurant.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mark-taylor-insurance": {
+  "site": {
+   "bytes": 1345299,
+   "requests": 62,
+   "loadMs": 3342,
+   "url": "https://marktaylorinsurance.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "marzeka-consulting": {
+  "site": {
+   "bytes": 1420813,
+   "requests": 64,
+   "loadMs": 2518,
+   "url": "https://marzeka.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "marketplace-paints": {
+  "site": {
+   "bytes": 2460306,
+   "requests": 56,
+   "loadMs": 5188,
+   "url": "https://marketplacepaints.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "massage-ology-wellness-studio": {
+  "site": {
+   "bytes": 7150428,
+   "requests": 55,
+   "loadMs": 3084,
+   "url": "https://massageologyaiken.glossgenius.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "maxwell-law-group-llc": {
+  "site": {
+   "bytes": 1920764,
+   "requests": 90,
+   "loadMs": 2700,
+   "url": "https://www.maxwellgroup.law/",
+   "at": "2026-11-17"
+  }
+ },
+ "mccain-atkinson-insurance-andy-cone": {
+  "site": {
+   "bytes": 2558835,
+   "requests": 55,
+   "loadMs": 2328,
+   "url": "https://www.mccainatkinson.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mckinney-tire-service": {
+  "site": {
+   "bytes": 2092420,
+   "requests": 38,
+   "loadMs": 1782,
+   "url": "https://mckinneytireservice.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "meadow-aiken": {
+  "site": {
+   "bytes": 2144976,
+   "requests": 125,
+   "loadMs": 2715,
+   "url": "https://www.meadowaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "medical-comfort-systems-at-home": {
+  "site": {
+   "bytes": 1253391,
+   "requests": 17,
+   "loadMs": 1186,
+   "url": "https://www.medicalcomfortsystems.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "melty": {
+  "site": {
+   "bytes": 3495266,
+   "requests": 160,
+   "loadMs": 3010,
+   "url": "https://www.lovemelty.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "merit-in-home": {
+  "site": {
+   "bytes": 1561346,
+   "requests": 49,
+   "loadMs": 3000,
+   "url": "https://meritinhome.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mgx-equipment-services": {
+  "site": {
+   "bytes": 1328058,
+   "requests": 73,
+   "loadMs": 3603,
+   "url": "https://mgxequipment.com/aiken-sc/",
+   "at": "2026-11-17"
+  }
+ },
+ "milton-shealy-funeral-home-aiken-chapel": {
+  "site": {
+   "bytes": 3778236,
+   "requests": 83,
+   "loadMs": 1613,
+   "url": "https://www.miltonshealy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mobile-office-management-llc-mom": {
+  "site": {
+   "bytes": 242040,
+   "requests": 32,
+   "loadMs": 1117,
+   "url": "https://www.biz-mom.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 127305,
+   "requests": 4,
+   "loadMs": 93,
+   "url": "/mobile-office-management/",
+   "at": "2026-11-17"
+  }
+ },
+ "moonbeans": {
+  "site": {
+   "bytes": 1700664,
+   "requests": 47,
+   "loadMs": 1495,
+   "url": "https://www.newmoondowntown.com/store/",
+   "at": "2026-11-17"
+  }
+ },
+ "mitch-johnson-construction-company-inc": {
+  "site": {
+   "bytes": 545473,
+   "requests": 11,
+   "loadMs": 5907,
+   "url": "https://www.mitchjohnsonconstruction.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 286640,
+   "requests": 15,
+   "loadMs": 140,
+   "url": "/mitch-johnson-construction/",
+   "at": "2026-11-17"
+  }
+ },
+ "moore-and-associates-engineering-and-consulting": {
+  "site": {
+   "bytes": 2430194,
+   "requests": 32,
+   "loadMs": 2537,
+   "url": "https://manda-inc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mount-vintage-golf-club": {
+  "site": {
+   "bytes": 4732006,
+   "requests": 100,
+   "loadMs": 2577,
+   "url": "https://www.mountvintagegolf.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "mr-central-heating-cooling-plumbing-and-electric": {
+  "site": {
+   "bytes": 1157974,
+   "requests": 41,
+   "loadMs": 1208,
+   "url": "https://mrcentral.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "massage-mavin": {
+  "site": {
+   "bytes": 593126,
+   "requests": 29,
+   "loadMs": 33387,
+   "url": "http://wyvernhall.com/TheMassageMaven/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 160394,
+   "requests": 5,
+   "loadMs": 118,
+   "url": "/the-massage-maven/",
+   "at": "2026-11-17"
+  }
+ },
+ "mundys-automotive-llc": {
+  "site": {
+   "bytes": 1166084,
+   "requests": 62,
+   "loadMs": 3044,
+   "url": "https://www.mundysautomotive.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 164706,
+   "requests": 5,
+   "loadMs": 112,
+   "url": "/mundys-automotive/",
+   "at": "2026-11-17"
+  }
+ },
+ "neon-fig": {
+  "site": {
+   "bytes": 3196948,
+   "requests": 81,
+   "loadMs": 2145,
+   "url": "https://neon-fig.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "nandina-home-and-design": {
+  "site": {
+   "bytes": 4044351,
+   "requests": 93,
+   "loadMs": 4553,
+   "url": "https://nandinahome.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "new-moon-caf": {
+  "site": {
+   "bytes": 9179373,
+   "requests": 55,
+   "loadMs": 1478,
+   "url": "https://www.newmoondowntown.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "new-bridge-polo-club": {
+  "site": {
+   "bytes": 3012832,
+   "requests": 56,
+   "loadMs": 2195,
+   "url": "https://www.newbridgepolo.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "newberry-hall": {
+  "site": {
+   "bytes": 1686890,
+   "requests": 30,
+   "loadMs": 1510,
+   "url": "https://www.newberryhall.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "noble-tree-solutions": {
+  "site": {
+   "bytes": 1658657,
+   "requests": 44,
+   "loadMs": 1586,
+   "url": "https://www.nobletreecsra.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "north-augusta-dental-care-llc": {
+  "site": {
+   "bytes": 3038123,
+   "requests": 80,
+   "loadMs": 1755,
+   "url": "https://northaugustadentalcare.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "oh-mie-stelle-bakery": {
+  "site": {
+   "bytes": 1267104,
+   "requests": 124,
+   "loadMs": 1654,
+   "url": "https://www.ohmiestelle.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 124671,
+   "requests": 5,
+   "loadMs": 136,
+   "url": "/oh-mie-stelle/",
+   "at": "2026-11-17"
+  }
+ },
+ "oak-services": {
+  "site": {
+   "bytes": 4046620,
+   "requests": 136,
+   "loadMs": 3462,
+   "url": "https://oakservices.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "nouveau-hair-and-wigs": {
+  "site": {
+   "bytes": 3634603,
+   "requests": 196,
+   "loadMs": 4820,
+   "url": "https://www.nouveau.hair/",
+   "at": "2026-11-17"
+  }
+ },
+ "oh-yea-pizza": {
+  "site": {
+   "bytes": 1778758,
+   "requests": 109,
+   "loadMs": 2984,
+   "url": "https://ohyeahpizza.fronteats.com:443/",
+   "at": "2026-11-17"
+  }
+ },
+ "orange-otter-toys": {
+  "site": {
+   "bytes": 2144680,
+   "requests": 128,
+   "loadMs": 2680,
+   "url": "https://orangeottertoystore.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "owings-and-sam-dentistry": {
+  "site": {
+   "bytes": 5514167,
+   "requests": 71,
+   "loadMs": 2283,
+   "url": "https://owingsandsamdentistry.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "palmetto-golf-club": {
+  "site": {
+   "bytes": 1175157,
+   "requests": 74,
+   "loadMs": 2640,
+   "url": "https://palmettogolfclub.net/guests/",
+   "at": "2026-11-17"
+  }
+ },
+ "osbons-laundry-and-cleaners-downtown": {
+  "site": {
+   "bytes": 11213472,
+   "requests": 39,
+   "loadMs": 5026,
+   "url": "https://osbonscleaners.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "park-avenue-lanes-inc": {
+  "site": {
+   "bytes": 2237399,
+   "requests": 111,
+   "loadMs": 1939,
+   "url": "https://www.parkavelanes.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "palmetto-shooting-complex": {
+  "site": {
+   "bytes": 2330825,
+   "requests": 98,
+   "loadMs": 4661,
+   "url": "https://www.nwtf.org/get-involved/hunting-heritage-center/palmetto-shooting-complex",
+   "at": "2026-11-17"
+  }
+ },
+ "palmetto-propane-fuels": {
+  "site": {
+   "bytes": 5524613,
+   "requests": 149,
+   "loadMs": 5461,
+   "url": "https://palmettopropane.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "palmetto-wellness-and-weight-loss-md": {
+  "site": {
+   "bytes": 3050882,
+   "requests": 85,
+   "loadMs": 2902,
+   "url": "https://www.palmetto-wellness.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "parks-pharmacy": {
+  "site": {
+   "bytes": 1195842,
+   "requests": 23,
+   "loadMs": 1925,
+   "url": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/parks-pharmacy.com/home&followup=https://sites.google.com/parks-pharmacy.com/home&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1291650825:1794776622081662",
+   "at": "2026-11-17"
+  }
+ },
+ "passanantes-home-food-service": {
+  "site": {
+   "bytes": 1916726,
+   "requests": 62,
+   "loadMs": 1989,
+   "url": "https://www.homefoodservices.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "pastore-management-consulting-llc": {
+  "site": {
+   "bytes": 1452678,
+   "requests": 68,
+   "loadMs": 2077,
+   "url": "https://pastoremc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "pave-way-of-augusta-and-aiken": {
+  "site": {
+   "bytes": 2946490,
+   "requests": 55,
+   "loadMs": 2402,
+   "url": "https://pavewayofaugusta.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "performanceabove-llc": {
+  "site": {
+   "bytes": 5908649,
+   "requests": 115,
+   "loadMs": 2485,
+   "url": "https://www.performanceabove.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "peak-mobility-yoga": {
+  "site": {
+   "bytes": 3155191,
+   "requests": 135,
+   "loadMs": 3678,
+   "url": "https://www.peakmobilityyoga.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "phillip-hawkins-motor-co": {
+  "site": {
+   "bytes": 1789300,
+   "requests": 94,
+   "loadMs": 3890,
+   "url": "https://www.hawkinsmc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "pink-icing": {
+  "site": {
+   "bytes": 3256773,
+   "requests": 271,
+   "loadMs": 4750,
+   "url": "https://www.pinkicingboutique.shop//",
+   "at": "2026-11-17"
+  }
+ },
+ "pipedreamers-plumbing-heating-and-air": {
+  "site": {
+   "bytes": 4656906,
+   "requests": 100,
+   "loadMs": 4975,
+   "url": "https://pipedreamerssc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "pipeworks-of-aiken-inc": {
+  "site": {
+   "bytes": 2205370,
+   "requests": 55,
+   "loadMs": 2281,
+   "url": "https://pipeworksinc.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "pizza-joint": {
+  "site": {
+   "bytes": 1191824,
+   "requests": 59,
+   "loadMs": 1623,
+   "url": "https://thepizzajoint.net/",
+   "at": "2026-11-17"
+  }
+ },
+ "polo-grounds-cafe": {
+  "site": {
+   "bytes": 1083045,
+   "requests": 110,
+   "loadMs": 1504,
+   "url": "https://www.pologroundscafe.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "plum-pudding": {
+  "site": {
+   "bytes": 1831483,
+   "requests": 62,
+   "loadMs": 2924,
+   "url": "https://plumpuddingkitchen.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "playland-of-aiken": {
+  "site": {
+   "bytes": 3559514,
+   "requests": 175,
+   "loadMs": 9886,
+   "url": "https://playlandofaiken.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 683257,
+   "requests": 9,
+   "loadMs": 115,
+   "url": "/playland-of-aiken/",
+   "at": "2026-11-17"
+  }
+ },
+ "powell-asset-protection-agency": {
+  "site": {
+   "bytes": 2191229,
+   "requests": 70,
+   "loadMs": 2989,
+   "url": "https://powellasset.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "post-up-careers": {
+  "site": {
+   "bytes": 1940491,
+   "requests": 87,
+   "loadMs": 5926,
+   "url": "https://postupcareers.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "park-avenue-oyster-bar-and-grill": {
+  "site": {
+   "bytes": 4518021,
+   "requests": 97,
+   "loadMs": 32388,
+   "url": "https://parkaveoysterbar.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "prescott-and-sons-construction-llc": {
+  "site": {
+   "bytes": 6247809,
+   "requests": 81,
+   "loadMs": 2683,
+   "url": "https://www.prescottandsons.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 681248,
+   "requests": 6,
+   "loadMs": 86,
+   "url": "/prescott-and-sons/",
+   "at": "2026-11-17"
+  }
+ },
+ "premier-medical-and-medaesthetic-center": {
+  "site": {
+   "bytes": 2652571,
+   "requests": 26,
+   "loadMs": 4317,
+   "url": "https://premiermedispa1.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "prime-steakhouse": {
+  "site": {
+   "bytes": 6049048,
+   "requests": 95,
+   "loadMs": 2465,
+   "url": "https://primesteakhouseaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "prioritypet-urgent-care": {
+  "site": {
+   "bytes": 2377598,
+   "requests": 55,
+   "loadMs": 2340,
+   "url": "https://prioritypetaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "prosynergy-dermatology": {
+  "site": {
+   "bytes": 1377299,
+   "requests": 79,
+   "loadMs": 1381,
+   "url": "https://www.prosynergyderm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "quality-printing-and-graphics-inc": {
+  "site": {
+   "bytes": 3675498,
+   "requests": 56,
+   "loadMs": 1821,
+   "url": "https://qpgraphics.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rack-and-grill-3": {
+  "site": {
+   "bytes": 1626471,
+   "requests": 165,
+   "loadMs": 3357,
+   "url": "https://www.rackngrill.com/rack-3",
+   "at": "2026-11-17"
+  }
+ },
+ "queen-city-homestore": {
+  "site": {
+   "bytes": 19868370,
+   "requests": 388,
+   "loadMs": 6463,
+   "url": "https://queencityonline.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "raines-physical-therapy-and-performance": {
+  "site": {
+   "bytes": 4526440,
+   "requests": 88,
+   "loadMs": 3750,
+   "url": "https://rainesphysicaltherapy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "radioactive-pinball-arcade": {
+  "site": {
+   "bytes": 164,
+   "requests": 1,
+   "loadMs": 8253,
+   "url": "https://radioactivepinballarcade.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rebel-ranch-horse-tours-llc": {
+  "site": {
+   "bytes": 1535601,
+   "requests": 126,
+   "loadMs": 1250,
+   "url": "https://www.rebelranchhorsetours.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 142750,
+   "requests": 6,
+   "loadMs": 117,
+   "url": "/rebel-ranch-horse-tours/",
+   "at": "2026-11-17"
+  }
+ },
+ "return-engagement": {
+  "site": {
+   "bytes": 4169685,
+   "requests": 75,
+   "loadMs": 2826,
+   "url": "https://returnengagementaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rhumba-latin-restaurant-and-bar": {
+  "site": {
+   "bytes": 1671344,
+   "requests": 134,
+   "loadMs": 1883,
+   "url": "https://www.rhumbarestaurant.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rhodes-law-firm": {
+  "site": {
+   "bytes": 1829005,
+   "requests": 79,
+   "loadMs": 5226,
+   "url": "https://gorhodeslaw.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rhodes-murphy": {
+  "site": {
+   "bytes": 5476935,
+   "requests": 112,
+   "loadMs": 5343,
+   "url": "https://www.rhodesmurphy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rare-blue-moon-marketing": {
+  "site": {
+   "bytes": 11272323,
+   "requests": 215,
+   "loadMs": 13596,
+   "url": "https://rarebluemoon.io/",
+   "at": "2026-11-17"
+  }
+ },
+ "richardsons-lake": {
+  "site": {
+   "bytes": 824033,
+   "requests": 41,
+   "loadMs": 1544,
+   "url": "https://richardsonslake.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rittgers-law-firm-llc": {
+  "site": {
+   "bytes": 816808,
+   "requests": 44,
+   "loadMs": 1783,
+   "url": "https://rittgersfirm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "riverfront-dental-care-llc": {
+  "site": {
+   "bytes": 992468,
+   "requests": 41,
+   "loadMs": 1611,
+   "url": "https://riverfrontsmile.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rm-safety-consulting-llc": {
+  "site": {
+   "bytes": 1247544,
+   "requests": 47,
+   "loadMs": 1130,
+   "url": "https://rmsafetyconsulting.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "rnm-llc-georgia-lina-precast": {
+  "site": {
+   "bytes": 2617305,
+   "requests": 73,
+   "loadMs": 2231,
+   "url": "https://georgialinaprecast.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sandra-willis-woodside-aiken-realty": {
+  "site": {
+   "bytes": 716207,
+   "requests": 21,
+   "loadMs": 1550,
+   "url": "https://www.aikenschomes.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sabine-and-waters": {
+  "site": {
+   "bytes": 3425562,
+   "requests": 77,
+   "loadMs": 2545,
+   "url": "https://www.sabineandwaters.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sc-custom-creations": {
+  "site": {
+   "bytes": 501127,
+   "requests": 31,
+   "loadMs": 1415,
+   "url": "https://sccustomcreations.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sc-express-transportation": {
+  "site": {
+   "bytes": 2208407,
+   "requests": 68,
+   "loadMs": 3833,
+   "url": "https://scsedan.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "serenity-impact": {
+  "site": {
+   "bytes": 1558327,
+   "requests": 25,
+   "loadMs": 2742,
+   "url": "https://www.serenityimpact.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "shellhouse-funeral-home": {
+  "site": {
+   "bytes": 3137558,
+   "requests": 95,
+   "loadMs": 2217,
+   "url": "https://www.shellhouseriversfuneralhome.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sharer-dale-team": {
+  "site": {
+   "bytes": 3352511,
+   "requests": 80,
+   "loadMs": 3230,
+   "url": "https://sharerdale.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "shellhouse-rivers-funeral-home-inc": {
+  "site": {
+   "bytes": 3336610,
+   "requests": 99,
+   "loadMs": 2132,
+   "url": "https://www.shellhouseriversfuneralhome.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "silver-ash-cigar-lounge": {
+  "site": {
+   "bytes": 9394451,
+   "requests": 32,
+   "loadMs": 1680,
+   "url": "https://silverashcigarlounge.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "shining-sons-enterprises-llc": {
+  "site": {
+   "bytes": 12847739,
+   "requests": 70,
+   "loadMs": 2257,
+   "url": "https://shiningsonsenterprises.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "simplify-co-llc": {
+  "site": {
+   "bytes": 4005498,
+   "requests": 129,
+   "loadMs": 4349,
+   "url": "https://www.simplifycollc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "skc-north-augusta-llc": {
+  "site": {
+   "bytes": 8676403,
+   "requests": 43,
+   "loadMs": 2016,
+   "url": "https://www.goskc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "simply-social-events-and-more-llc": {
+  "site": {
+   "bytes": 2126108,
+   "requests": 20,
+   "loadMs": 2519,
+   "url": "https://simplysocialsc.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 151924,
+   "requests": 5,
+   "loadMs": 105,
+   "url": "/simply-social-events/",
+   "at": "2026-11-17"
+  }
+ },
+ "sme-cpas-aiken": {
+  "site": {
+   "bytes": 2978740,
+   "requests": 68,
+   "loadMs": 2815,
+   "url": "https://www.smecpa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "snocap-drive-in": {
+  "site": {
+   "bytes": 2740275,
+   "requests": 42,
+   "loadMs": 1517,
+   "url": "https://snocapdrivein.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "soulshine-yoga-and-wellness": {
+  "site": {
+   "bytes": 1554108,
+   "requests": 7,
+   "loadMs": 1653,
+   "url": "https://www.soulshineyogaandwellness.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "smith-mcgee-designs-llc": {
+  "site": {
+   "bytes": 1044254,
+   "requests": 23,
+   "loadMs": 6676,
+   "url": "https://s-mdesigns.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "southbound-aiken": {
+  "site": {
+   "bytes": 5453100,
+   "requests": 96,
+   "loadMs": 2496,
+   "url": "https://southboundsmokehouse.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "south-on-whiskey": {
+  "site": {
+   "bytes": 2883314,
+   "requests": 89,
+   "loadMs": 6045,
+   "url": "https://southonwhiskey.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "southern-equine-service": {
+  "site": {
+   "bytes": 4917786,
+   "requests": 98,
+   "loadMs": 2753,
+   "url": "https://www.southernequineservice.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "southern-health-and-retirement-planning": {
+  "site": {
+   "bytes": 2321692,
+   "requests": 72,
+   "loadMs": 2481,
+   "url": "https://southernhealthandretirementplanning.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "spa-106": {
+  "site": {
+   "bytes": 2523374,
+   "requests": 124,
+   "loadMs": 1884,
+   "url": "https://www.spa106.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "southern-magnolia-dentistry": {
+  "site": {
+   "bytes": 2966679,
+   "requests": 48,
+   "loadMs": 2410,
+   "url": "https://www.southernmagnoliadental.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 145628,
+   "requests": 6,
+   "loadMs": 104,
+   "url": "/southern-magnolia-dentistry/",
+   "at": "2026-11-17"
+  }
+ },
+ "spa-tral-115": {
+  "site": {
+   "bytes": 361712,
+   "requests": 15,
+   "loadMs": 2897,
+   "url": "https://spatrale.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "stable-concepts-llc": {
+  "site": {
+   "bytes": 810478,
+   "requests": 97,
+   "loadMs": 1662,
+   "url": "https://www.stableconceptsllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "spago-medical-day-spa": {
+  "site": {
+   "bytes": 4409174,
+   "requests": 94,
+   "loadMs": 3039,
+   "url": "https://www.spagoaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sparrow-play-and-gather": {
+  "site": {
+   "bytes": 1355872,
+   "requests": 35,
+   "loadMs": 2600,
+   "url": "https://www.sparrownorthaugusta.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "stable-view": {
+  "site": {
+   "bytes": 1134958,
+   "requests": 32,
+   "loadMs": 2506,
+   "url": "https://stableviewfarm.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "stephen-p-barnes-cpa-llc": {
+  "site": {
+   "bytes": 260025,
+   "requests": 28,
+   "loadMs": 1429,
+   "url": "https://stephenpbarnescpa.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "strategic-people-operations-llc": {
+  "site": {
+   "bytes": 1434587,
+   "requests": 137,
+   "loadMs": 1731,
+   "url": "https://www.consultspo.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sto-n-go": {
+  "site": {
+   "bytes": 2583672,
+   "requests": 125,
+   "loadMs": 5469,
+   "url": "https://www.sto-n-goaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "sunbreak-window-tinting": {
+  "site": {
+   "bytes": 2363894,
+   "requests": 74,
+   "loadMs": 2627,
+   "url": "https://sunbreaktint.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "stark-plumbing-llc": {
+  "site": {
+   "bytes": 3526764,
+   "requests": 103,
+   "loadMs": 11367,
+   "url": "https://www.starkplumbingllc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "superior-office-systems": {
+  "site": {
+   "bytes": 3278852,
+   "requests": 60,
+   "loadMs": 6185,
+   "url": "https://superiorofficeonline.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "tabs-professional-transportation": {
+  "site": {
+   "bytes": 6961115,
+   "requests": 265,
+   "loadMs": 4541,
+   "url": "https://www.tabsprofessionaltransportation.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "taste-of-gold-cakery": {
+  "site": {
+   "bytes": 1927171,
+   "requests": 101,
+   "loadMs": 1814,
+   "url": "https://www.tasteofgoldcreations.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "tailgate-tavern": {
+  "site": {
+   "bytes": 2856168,
+   "requests": 166,
+   "loadMs": 7602,
+   "url": "https://tailgatetavern2.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "teeters-group-llc": {
+  "site": {
+   "bytes": 1384766,
+   "requests": 24,
+   "loadMs": 1452,
+   "url": "https://jennyteeters.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "thai-jasmine-rice": {
+  "site": {
+   "bytes": 1418452,
+   "requests": 136,
+   "loadMs": 1249,
+   "url": "https://jasminericesc.wixsite.com/kaogang",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 161144,
+   "requests": 6,
+   "loadMs": 97,
+   "url": "/thai-jasmine-rice/",
+   "at": "2026-11-17"
+  }
+ },
+ "tee-it-up-ladies": {
+  "site": {
+   "bytes": 7970986,
+   "requests": 162,
+   "loadMs": 6183,
+   "url": "https://www.performanceabove.com/tee-it-up-ladies",
+   "at": "2026-11-17"
+  }
+ },
+ "the-alley-downtown-taproom": {
+  "site": {
+   "bytes": 8445282,
+   "requests": 80,
+   "loadMs": 2257,
+   "url": "https://thealleydowntowntaproom.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-aiken-horse": {
+  "site": {
+   "bytes": 5760200,
+   "requests": 66,
+   "loadMs": 2779,
+   "url": "https://theaikenhorse.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-backyard": {
+  "site": {
+   "bytes": 17043168,
+   "requests": 74,
+   "loadMs": 1587,
+   "url": "https://thebackyardaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-big-mo": {
+  "site": {
+   "bytes": 1938384,
+   "requests": 45,
+   "loadMs": 1976,
+   "url": "https://thebigmo.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-dental-center-of-north-augusta": {
+  "site": {
+   "bytes": 3239034,
+   "requests": 99,
+   "loadMs": 4489,
+   "url": "https://tdcna.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-fermata-club": {
+  "site": {
+   "bytes": 7063966,
+   "requests": 115,
+   "loadMs": 4265,
+   "url": "https://fermataclub.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-herlong-financial-group-llc": {
+  "site": {
+   "bytes": 4636371,
+   "requests": 103,
+   "loadMs": 3370,
+   "url": "https://www.herlongfinancial.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-hidden-trough-aesthetics": {
+  "site": {
+   "bytes": 1561773,
+   "requests": 75,
+   "loadMs": 2567,
+   "url": "https://thehiddentrough.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-larder": {
+  "site": {
+   "bytes": 5279460,
+   "requests": 79,
+   "loadMs": 1807,
+   "url": "https://www.hflarder.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-reserve-club-at-woodside": {
+  "site": {
+   "bytes": 2628313,
+   "requests": 62,
+   "loadMs": 3349,
+   "url": "https://www.thereserveclubatwoodside.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-tree-farm-operating-llc": {
+  "site": {
+   "bytes": 1198229,
+   "requests": 23,
+   "loadMs": 2198,
+   "url": "https://thetreefarm.golf/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-jewelers-loupe": {
+  "site": {
+   "bytes": 1688649,
+   "requests": 55,
+   "loadMs": 10712,
+   "url": "https://www.thejewelersloupe.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 148626,
+   "requests": 5,
+   "loadMs": 106,
+   "url": "/the-jewelers-loupe/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-restaurant-at-the-willcox": {
+  "site": {
+   "bytes": 14326260,
+   "requests": 97,
+   "loadMs": 10017,
+   "url": "https://thewillcox.com/dine/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-vintage-bobbin": {
+  "site": {
+   "bytes": 20569505,
+   "requests": 77,
+   "loadMs": 2489,
+   "url": "https://www.vintagebobbin.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-village-caf": {
+  "site": {
+   "bytes": 6476519,
+   "requests": 80,
+   "loadMs": 7127,
+   "url": "https://www.thevillagecafeaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "thomas-p-murphy-pc-attorney-at-law": {
+  "site": {
+   "bytes": 2193028,
+   "requests": 42,
+   "loadMs": 2936,
+   "url": "https://thomaspmurphylaw.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 159038,
+   "requests": 6,
+   "loadMs": 141,
+   "url": "/thomas-p-murphy-law/",
+   "at": "2026-11-17"
+  }
+ },
+ "thomas-agency-group": {
+  "site": {
+   "bytes": 36165036,
+   "requests": 150,
+   "loadMs": 4794,
+   "url": "https://thomasagencygroup.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "thorough-bread-bakery-and-cafe": {
+  "site": {
+   "bytes": 2078887,
+   "requests": 112,
+   "loadMs": 1538,
+   "url": "https://www.thoroughbreadaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "tindall-construction-inc": {
+  "site": {
+   "bytes": 2379195,
+   "requests": 59,
+   "loadMs": 2186,
+   "url": "https://tindallconstructioninc.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "toki-jr-llc": {
+  "site": {
+   "bytes": 351097,
+   "requests": 25,
+   "loadMs": 2053,
+   "url": "https://www.tokijapanesesteakhouse.com/tokijr/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 108721,
+   "requests": 4,
+   "loadMs": 67,
+   "url": "/toki-jr/",
+   "at": "2026-11-17"
+  }
+ },
+ "total-vibe-salon": {
+  "site": {
+   "bytes": 591173,
+   "requests": 11,
+   "loadMs": 911,
+   "url": "https://www.totalvibesalon.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-willcox": {
+  "site": {
+   "bytes": 8239062,
+   "requests": 130,
+   "loadMs": 17338,
+   "url": "https://thewillcox.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "tpi-tyler-press-llc": {
+  "site": {
+   "bytes": 1231646,
+   "requests": 35,
+   "loadMs": 1507,
+   "url": "https://tylerpress.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "trey-vereen-dmd": {
+  "site": {
+   "bytes": 1440298,
+   "requests": 60,
+   "loadMs": 2088,
+   "url": "https://drvereendental.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "trophies-unlimited": {
+  "site": {
+   "bytes": 6929579,
+   "requests": 76,
+   "loadMs": 3686,
+   "url": "https://aikentrophy.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "true-aiken": {
+  "site": {
+   "bytes": 4205315,
+   "requests": 145,
+   "loadMs": 3739,
+   "url": "https://www.trueaiken.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "trustvault-by-private-sector-clearance": {
+  "site": {
+   "bytes": 3208012,
+   "requests": 67,
+   "loadMs": 2293,
+   "url": "https://trustvault.us/",
+   "at": "2026-11-17"
+  }
+ },
+ "tucker-orthodontics": {
+  "site": {
+   "bytes": 1417509,
+   "requests": 39,
+   "loadMs": 2794,
+   "url": "https://www.tuckerorthodontics.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "upstream-recycling-llc": {
+  "site": {
+   "bytes": 3004953,
+   "requests": 151,
+   "loadMs": 3481,
+   "url": "https://upstreamwastesolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-urban-hyena-boutique": {
+  "site": {
+   "bytes": 0,
+   "requests": 1,
+   "loadMs": null,
+   "url": "https://theurbanhyena.com/",
+   "at": "2026-11-17",
+   "error": "TimeoutError: page.goto: Timeout 45000ms exceeded."
+  }
+ },
+ "verdant-landscape": {
+  "site": {
+   "bytes": 85791308,
+   "requests": 132,
+   "loadMs": 4273,
+   "url": "https://verdantlandscape.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "versailles-rugs-and-art": {
+  "site": {
+   "bytes": 3161748,
+   "requests": 108,
+   "loadMs": 2837,
+   "url": "https://www.versaillesartgallery.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "veterinary-healthcare-associates-inc": {
+  "site": {
+   "bytes": 1673113,
+   "requests": 49,
+   "loadMs": 2430,
+   "url": "https://www.veterinaryhealthcareofnorthaugusta.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "veterinary-services-of-aiken": {
+  "site": {
+   "bytes": 3968371,
+   "requests": 69,
+   "loadMs": 2153,
+   "url": "https://aikenpetvet.com/index.cfm",
+   "at": "2026-11-17"
+  }
+ },
+ "vital-nutrition-and-chiropractic-llc": {
+  "site": {
+   "bytes": 861179,
+   "requests": 65,
+   "loadMs": 2136,
+   "url": "https://vitalnutritionchiro.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wayne-heath-automotive-company": {
+  "site": {
+   "bytes": 2799283,
+   "requests": 87,
+   "loadMs": 2995,
+   "url": "https://www.wayneheathautomotive.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "vikkis-a-unique-boutique": {
+  "site": {
+   "bytes": 8910668,
+   "requests": 333,
+   "loadMs": 4933,
+   "url": "https://shopvikkis.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "webster-photography": {
+  "site": {
+   "bytes": 1247658,
+   "requests": 110,
+   "loadMs": 1387,
+   "url": "https://www.scottwebsterphotography.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 964248,
+   "requests": 18,
+   "loadMs": 87,
+   "url": "/webster-photography/",
+   "at": "2026-11-17"
+  }
+ },
+ "waynes-automotive-and-towing-center-aiken": {
+  "site": {
+   "bytes": 5394507,
+   "requests": 149,
+   "loadMs": 5205,
+   "url": "https://waynesautomotivecenter.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wessels-white-and-earley-pc": {
+  "site": {
+   "bytes": 1975373,
+   "requests": 76,
+   "loadMs": 2176,
+   "url": "https://wwe.law/",
+   "at": "2026-11-17"
+  }
+ },
+ "whats-cookin-downtown": {
+  "site": {
+   "bytes": 2914482,
+   "requests": 73,
+   "loadMs": 2005,
+   "url": "https://www.whatscookindowntown.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wheels-up-collective-marketing": {
+  "site": {
+   "bytes": 4026267,
+   "requests": 203,
+   "loadMs": 1746,
+   "url": "https://www.wheelsupcollective.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "whiskey-alley-spirits-and-tapas": {
+  "site": {
+   "bytes": 3276417,
+   "requests": 81,
+   "loadMs": 2390,
+   "url": "https://whiskeyalley.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wife-saver-north-augusta": {
+  "site": {
+   "bytes": 1389804,
+   "requests": 49,
+   "loadMs": 2271,
+   "url": "https://www.wifesaverrestaurants.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "west-haven-pediatric-dentistry": {
+  "site": {
+   "bytes": 1206961,
+   "requests": 64,
+   "loadMs": 8993,
+   "url": "https://westhavenpediatricdentistry.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wilson-studio-of-fine-photography": {
+  "site": {
+   "bytes": 4048946,
+   "requests": 15,
+   "loadMs": 1620,
+   "url": "https://www.wilsonstudio.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "woodchuckers-axe-throwing": {
+  "site": {
+   "bytes": 343977,
+   "requests": 25,
+   "loadMs": 655,
+   "url": "https://woodchuckersaxethrowing.com/lander",
+   "at": "2026-11-17"
+  }
+ },
+ "wise-warehousing-solutions": {
+  "site": {
+   "bytes": 61692014,
+   "requests": 87,
+   "loadMs": 4956,
+   "url": "https://www.wisewarehousingsolutions.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "woodside-country-club": {
+  "site": {
+   "bytes": 4459652,
+   "requests": 54,
+   "loadMs": 3948,
+   "url": "https://www.invitedclubs.com/clubs/woodside-country-club",
+   "at": "2026-11-17"
+  }
+ },
+ "woodside-development-lp": {
+  "site": {
+   "bytes": 20837435,
+   "requests": 139,
+   "loadMs": 5558,
+   "url": "https://woodsidecommunities.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "woody-outfitters": {
+  "site": {
+   "bytes": 5200346,
+   "requests": 188,
+   "loadMs": 5421,
+   "url": "https://woodyoutfitters.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "wrkhorse-real-estate-co": {
+  "site": {
+   "bytes": 9026720,
+   "requests": 102,
+   "loadMs": 4670,
+   "url": "https://www.mattkelly.realestate/",
+   "at": "2026-11-17"
+  }
+ },
+ "zook-homes": {
+  "site": {
+   "bytes": 3750796,
+   "requests": 107,
+   "loadMs": 1797,
+   "url": "https://www.zookhomes.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "young-and-thurmond-llc": {
+  "site": {
+   "bytes": 2590324,
+   "requests": 105,
+   "loadMs": 33653,
+   "url": "https://youngthurmondlaw.com/",
+   "at": "2026-11-17"
+  }
+ },
+ "antiques-and-more-mall": {
+  "concept": {
+   "bytes": 174755,
+   "requests": 6,
+   "loadMs": 137,
+   "url": "/antiques-and-more-mall/",
+   "at": "2026-11-17"
+  }
+ },
+ "aiken-ghost-tours": {
+  "concept": {
+   "bytes": 175714,
+   "requests": 6,
+   "loadMs": 192,
+   "url": "/aiken-ghost-tours/",
+   "at": "2026-11-17"
+  }
+ },
+ "apizza-di-napoli": {
+  "concept": {
+   "bytes": 160380,
+   "requests": 6,
+   "loadMs": 114,
+   "url": "/apizza-di-napoli/",
+   "at": "2026-11-17"
+  }
+ },
+ "big-house-outpost": {
+  "concept": {
+   "bytes": 151074,
+   "requests": 6,
+   "loadMs": 119,
+   "url": "/big-house-outpost/",
+   "at": "2026-11-17"
+  }
+ },
+ "briar-patch-antiques": {
+  "concept": {
+   "bytes": 177288,
+   "requests": 6,
+   "loadMs": 135,
+   "url": "/briar-patch-antiques/",
+   "at": "2026-11-17"
+  }
+ },
+ "broome-service-center-inc": {
+  "concept": {
+   "bytes": 123478,
+   "requests": 5,
+   "loadMs": 143,
+   "url": "/broome-service-center/",
+   "at": "2026-11-17"
+  }
+ },
+ "dos-potrillos-mexican-restaurant": {
+  "concept": {
+   "bytes": 118112,
+   "requests": 5,
+   "loadMs": 74,
+   "url": "/dos-potrillos/",
+   "at": "2026-11-17"
+  }
+ },
+ "el-charrito-taqueria": {
+  "concept": {
+   "bytes": 122084,
+   "requests": 5,
+   "loadMs": 64,
+   "url": "/el-charrito-taqueria/",
+   "at": "2026-11-17"
+  }
+ },
+ "farm-dog": {
+  "concept": {
+   "bytes": 101074,
+   "requests": 4,
+   "loadMs": 60,
+   "url": "/farm-dog/",
+   "at": "2026-11-17"
+  }
+ },
+ "flanigans-ice-cream": {
+  "concept": {
+   "bytes": 108430,
+   "requests": 5,
+   "loadMs": 68,
+   "url": "/flanigans-ice-cream/",
+   "at": "2026-11-17"
+  }
+ },
+ "indigo-bleu": {
+  "concept": {
+   "bytes": 157271,
+   "requests": 6,
+   "loadMs": 108,
+   "url": "/indigo-bleu/",
+   "at": "2026-11-17"
+  }
+ },
+ "joyful-caf": {
+  "concept": {
+   "bytes": 143459,
+   "requests": 6,
+   "loadMs": 122,
+   "url": "/joyful-cafe/",
+   "at": "2026-11-17"
+  }
+ },
+ "pitter-patter-carolines": {
+  "concept": {
+   "bytes": 154161,
+   "requests": 6,
+   "loadMs": 131,
+   "url": "/pitter-patter/",
+   "at": "2026-11-17"
+  }
+ },
+ "smoothie-groove": {
+  "concept": {
+   "bytes": 113122,
+   "requests": 5,
+   "loadMs": 80,
+   "url": "/smoothie-groove/",
+   "at": "2026-11-17"
+  }
+ },
+ "feed-sack-aiken": {
+  "concept": {
+   "bytes": 154685,
+   "requests": 6,
+   "loadMs": 110,
+   "url": "/the-feed-sack/",
+   "at": "2026-11-17"
+  }
+ },
+ "the-ivy-cottage-flowers-and-gifts": {
+  "concept": {
+   "bytes": 160159,
+   "requests": 6,
+   "loadMs": 158,
+   "url": "/the-ivy-cottage/",
+   "at": "2026-11-17"
+  }
+ },
+ "york-cottage-antiques": {
+  "concept": {
+   "bytes": 148514,
+   "requests": 6,
+   "loadMs": 66,
+   "url": "/york-cottage-antiques/",
+   "at": "2026-11-17"
+  }
+ }
+}

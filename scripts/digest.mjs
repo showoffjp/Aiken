@@ -44,7 +44,7 @@ function imagesIn(html, base) {
       const u = new URL(decode(src.trim()), base);
       if (!/^https?:$/.test(u.protocol)) return;
       if (/spacer|pixel|blank|clear\.gif|bullet|arrow|icon|sprite|loader|loading|button|btn|facebook|twitter|instagram|youtube|linkedin|pinterest|yelp|tripadvisor|google|badge|bbb|visa|mastercard|paypal|gravatar|emoji|captcha|counter|\.svg(\?|$)|1x1/i.test(u.pathname)) return;
-      out.push({ url: u.href, alt: decode(alt).trim().slice(0, 80) });
+      out.push({ url: fullSize(u.href), alt: decode(alt).trim().slice(0, 80) });
     } catch {}
   };
   for (const m of html.matchAll(/<img\b[^>]*>/gi)) {
@@ -60,10 +60,68 @@ function imagesIn(html, base) {
   return out;
 }
 
+// Site builders serve resized thumbnails; ask for the original instead.
+function fullSize(url) {
+  const wix = url.match(/^(https?:\/\/static\.wixstatic\.com\/media\/[^/]+)\/v1\//);
+  if (wix) return wix[1];
+  const sq = url.match(/^(https?:\/\/images\.squarespace-cdn\.com\/[^?]+)\?/);
+  if (sq) return `${sq[1]}?format=2500w`;
+  const ems = url.match(/^(https?:\/\/[^?]*editmysite\.com\/[^?]+)\?/);
+  if (ems) return `${ems[1]}?width=2400`;
+  return url;
+}
+
 function download(url, file) {
   return new Promise((resolve) => {
     execFile('curl', ['-sS', '-L', '-m', '30', '--max-filesize', '12000000', '-A', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0 Safari/537.36', '-o', file, url], { timeout: 40000 }, (err) => resolve(!err));
   });
+}
+
+async function renderCrawl(start, host, max = 7) {
+  const { chromium } = require('playwright');
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const page = await ctx.newPage();
+  const out = { pages: [], images: [] };
+  const queue = [{ url: start, label: 'Home (rendered)' }];
+  const seen = new Set([start.replace(/\/$/, '')]);
+  while (queue.length && out.pages.length < max) {
+    const { url, label } = queue.shift();
+    try {
+      await page.goto(url, { waitUntil: 'load', timeout: 35000 });
+      await page.waitForTimeout(2500);
+      // Scroll through the page so lazy images and sections load.
+      await page.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 700) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } window.scrollTo(0, 0); });
+      await page.waitForTimeout(800);
+      const data = await page.evaluate(() => {
+        const text = document.body.innerText || '';
+        const imgs = [];
+        for (const i of document.images) {
+          const src = i.currentSrc || i.src;
+          if (src && i.naturalWidth >= 140) imgs.push({ url: src, alt: (i.alt || '').slice(0, 80) });
+        }
+        for (const el of document.querySelectorAll('[style*="background"], section, div[class*="bg"], div[class*="background"]')) {
+          const m = getComputedStyle(el).backgroundImage.match(/url\(["']?([^"')]+)/);
+          if (m && !m[1].startsWith('data:')) imgs.push({ url: m[1], alt: 'background' });
+        }
+        const links = [...document.querySelectorAll('a[href]')].map((a) => ({ href: a.href, text: (a.innerText || '').trim().slice(0, 40) }));
+        return { text, imgs, links, title: document.title };
+      });
+      out.pages.push({ url: page.url(), label, title: data.title, lines: data.text.split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter((l) => l.length > 1) });
+      for (const i of data.imgs) out.images.push({ ...i, url: fullSize(i.url), page: label });
+      for (const l of data.links) {
+        try {
+          const u = new URL(l.href); u.hash = '';
+          const k = u.href.replace(/\/$/, '');
+          if (u.hostname.replace(/^www\./, '') !== host || seen.has(k) || SKIP_LINK.test(u.href)) continue;
+          seen.add(k);
+          queue.push({ url: u.href, label: `${l.text || u.pathname} (rendered)` });
+        } catch {}
+      }
+    } catch {}
+  }
+  await browser.close();
+  return out;
 }
 
 async function digest(slug) {
@@ -106,6 +164,18 @@ async function digest(slug) {
         queue.push({ url: u.href, label: text || u.pathname, pri: PRIORITY.test(u.pathname + ' ' + text) ? 50 : 10 - u.pathname.split('/').length });
       } catch {}
     }
+  }
+
+  // ---- sites built in the browser (Wix, Square Online, ...) show almost no
+  // text to a plain fetch: render them in Chromium and read the result.
+  const textChars = pages.reduce((n, p) => n + p.lines.join('\n').length, 0);
+  if (textChars < 1500 || process.argv.includes('--render')) {
+    const rendered = await renderCrawl(start, host);
+    for (const p of rendered.pages) {
+      const lines = p.lines.filter((l) => { const k = l.toLowerCase(); if (seenLine.has(k)) return false; seenLine.add(k); return true; });
+      pages.push({ ...p, lines });
+    }
+    for (const img of rendered.images) if (!images.has(img.url)) images.set(img.url, img);
   }
 
   // ---- images: download, measure, keep the ones worth using
