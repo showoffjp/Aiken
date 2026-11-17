@@ -8,7 +8,7 @@ export const site = {
   contactEmail: '',
   contactPhone: '',
   /** Public URL once deployed (used for canonical links). */
-  url: '',
+  url: 'https://aiken-web-refresh.vercel.app',
   /**
    * Keep search engines away from the portfolio index until you are ready.
    * Demo pages are always noindex regardless of this flag, so a concept can
