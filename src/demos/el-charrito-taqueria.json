@@ -1,0 +1,140 @@
+{
+  "name": "El Charrito Taqueria",
+  "short": "El Charrito",
+  "category": "Mexican Eatery",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fbf7ee",
+    "surface": "#ffffff",
+    "ink": "#1a1410",
+    "muted": "#665b52",
+    "primary": "#0d7458",
+    "onPrimary": "#ffffff",
+    "accent": "#ffcc33",
+    "line": "#e6ddcd"
+  },
+  "radius": 6,
+  "icon": "utensils-crossed",
+  "contact": {
+    "phone": "(803) 679-9482",
+    "address": [
+      "156 University Parkway",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "El Charrito Taqueria, 156 University Pkwy, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=100094977015717"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Family and casual Mexican eatery",
+    "title": "Tacos, tortas *and aguas frescas*",
+    "lede": "Lots of choices on tacos and tortas, homemade entrées, kids meals and desserts, plus eggs prepared several ways if you missed breakfast.",
+    "cta": {
+      "label": "Call (803) 679-9482",
+      "href": "tel:+18036799482"
+    },
+    "cta2": {
+      "label": "What we serve",
+      "href": "#menu"
+    },
+    "points": [
+      "Tacos & tortas",
+      "Breakfast",
+      "Kids meals"
+    ]
+  },
+  "facts": [
+    {
+      "value": "Homemade",
+      "label": "Entrées made in our kitchen"
+    },
+    {
+      "value": "Breakfast",
+      "label": "Eggs prepared several ways"
+    },
+    {
+      "value": "Aguas frescas",
+      "label": "Plus Jarritos and Coca-Cola products"
+    }
+  ],
+  "sections": [
+    {
+      "type": "columns",
+      "id": "menu",
+      "nav": "What we serve",
+      "eyebrow": "On the menu",
+      "title": "Something for *everyone at the table*",
+      "columns": [
+        {
+          "title": "Plates",
+          "items": [
+            "Tacos",
+            "Tortas",
+            "Homemade entrées",
+            "Kids meals"
+          ]
+        },
+        {
+          "title": "Breakfast",
+          "items": [
+            "A variety of eggs, prepared several ways"
+          ]
+        },
+        {
+          "title": "Drinks",
+          "items": [
+            "Aguas frescas",
+            "Bottled Jarritos",
+            "Coca-Cola products"
+          ]
+        },
+        {
+          "title": "Sweets",
+          "items": [
+            "Churros",
+            "Cakes",
+            "Sopapillas",
+            "Flan"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Bring the family.",
+      "text": "Find us on University Parkway.",
+      "cta": {
+        "label": "Call (803) 679-9482",
+        "href": "tel:+18036799482"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *University Parkway*",
+    "hideForm": true
+  },
+  "slug": "el-charrito-taqueria",
+  "prospect": "el-charrito-taqueria",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/el-charrito-taqueria/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

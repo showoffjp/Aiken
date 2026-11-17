@@ -1,0 +1,140 @@
+{
+  "name": "Indigo Bleu",
+  "short": "Indigo Bleu",
+  "category": "Artisan Market",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f6f7fa",
+    "surface": "#ffffff",
+    "ink": "#171c2b",
+    "muted": "#5b6274",
+    "primary": "#2f4a7d",
+    "onPrimary": "#ffffff",
+    "accent": "#c8a26a",
+    "line": "#dde1ea"
+  },
+  "radius": 0,
+  "icon": "hammer",
+  "contact": {
+    "phone": "(803) 645-3234",
+    "address": [
+      "120 Laurens Street NW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Indigo Bleu, 120 Laurens Street NW, Aiken, SC",
+    "hours": [
+      [
+        "Tuesday – Saturday",
+        "10:00 am – 5:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/Artisanmarketaiken"
+  },
+  "hero": {
+    "variant": "centered",
+    "eyebrow": "Downtown Aiken",
+    "title": "Handmade pieces, *made to order*",
+    "lede": "Custom farm tables, wood furniture, fireplace mantles, doors, gates and fire pits, in a market that is also home to local art, home décor and gifts.",
+    "cta": {
+      "label": "Visit the market",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 645-3234",
+      "href": "tel:+18036453234"
+    }
+  },
+  "facts": [
+    {
+      "value": "Custom made",
+      "label": "Farm tables and wood furniture"
+    },
+    {
+      "value": "Local art",
+      "label": "Home décor and gift items"
+    },
+    {
+      "value": "Tue – Sat",
+      "label": "Open 10 am to 5 pm"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "work",
+      "nav": "What we make",
+      "eyebrow": "Creative handmade pieces",
+      "title": "Built by hand, *for your home*",
+      "items": [
+        {
+          "icon": "table-2",
+          "title": "Custom farm tables"
+        },
+        {
+          "icon": "armchair",
+          "title": "Wood furniture"
+        },
+        {
+          "icon": "flame",
+          "title": "Fireplace mantles & fire pits"
+        },
+        {
+          "icon": "door-open",
+          "title": "Doors & gates"
+        },
+        {
+          "icon": "palette",
+          "title": "Local art"
+        },
+        {
+          "icon": "gift",
+          "title": "Home décor & gifts"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Have a piece in mind?",
+      "text": "Stop in and talk it through.",
+      "cta": {
+        "label": "Call (803) 645-3234",
+        "href": "tel:+18036453234"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the market*",
+    "formTitle": "Ask about a custom piece",
+    "formTopics": [
+      "Farm table",
+      "Wood furniture",
+      "Mantle",
+      "Door or gate",
+      "Fire pit"
+    ]
+  },
+  "slug": "indigo-bleu",
+  "prospect": "indigo-bleu",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/artisan_market_decor/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

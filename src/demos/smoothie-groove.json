@@ -1,0 +1,147 @@
+{
+  "name": "Smoothie Groove",
+  "short": "Smoothie Groove",
+  "category": "Smoothie & Juice Bar",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "outfit",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f6fbf4",
+    "surface": "#ffffff",
+    "ink": "#14261a",
+    "muted": "#55685a",
+    "primary": "#2f8f4e",
+    "onPrimary": "#ffffff",
+    "accent": "#ffb84d",
+    "line": "#dbe9dc"
+  },
+  "radius": 18,
+  "icon": "cup-soda",
+  "contact": {
+    "phone": "(803) 226-9024",
+    "address": [
+      "448 Fabian Drive",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Smoothie Groove, 448 Fabian Drive, Aiken, SC",
+    "facebook": "https://www.facebook.com/smoothiegroove"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken's Southside",
+    "title": "All-natural smoothies, *with a spin*",
+    "lede": "Healthy smoothies and juices built on almond milk, coconut milk or coconut water, with a variety of fresh fruits and vegetables.",
+    "cta": {
+      "label": "Call (803) 226-9024",
+      "href": "tel:+18032269024"
+    },
+    "cta2": {
+      "label": "Build your own",
+      "href": "#build"
+    },
+    "points": [
+      "All natural",
+      "Build your own",
+      "Food too"
+    ]
+  },
+  "facts": [
+    {
+      "value": "3 bases",
+      "label": "Almond milk, coconut milk or coconut water"
+    },
+    {
+      "value": "Your way",
+      "label": "Choose two fruits, a green and a base"
+    },
+    {
+      "value": "Shots",
+      "label": "Wheatgrass, turmeric and ginger"
+    }
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "build",
+      "nav": "Build your own",
+      "eyebrow": "Create your own smoothie",
+      "title": "Three choices, *one smoothie*",
+      "items": [
+        {
+          "title": "Pick two fruits",
+          "text": "From a variety of fresh fruit."
+        },
+        {
+          "title": "Add a green",
+          "text": "Spinach or kale."
+        },
+        {
+          "title": "Choose a base",
+          "text": "Almond milk, coconut milk or coconut water."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Also on the menu",
+      "title": "Juices, shots *and a bite*",
+      "columns": [
+        {
+          "title": "Drinks",
+          "items": [
+            "All-natural smoothies",
+            "Juices",
+            "Immunity-boosting shots: wheatgrass, turmeric and ginger"
+          ]
+        },
+        {
+          "title": "Food",
+          "items": [
+            "Avocado toast",
+            "House kale salad",
+            "Chicken salad croissant",
+            "Spinach turkey wrap",
+            "Veggie panini"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Healthy options, with a unique spin.",
+      "text": "Find us on Fabian Drive.",
+      "cta": {
+        "label": "Call (803) 226-9024",
+        "href": "tel:+18032269024"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *the Southside*",
+    "hideForm": true
+  },
+  "slug": "smoothie-groove",
+  "prospect": "smoothie-groove",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/smoothie_groove/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

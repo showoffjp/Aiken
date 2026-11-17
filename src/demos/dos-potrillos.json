@@ -1,0 +1,131 @@
+{
+  "name": "Dos Potrillos Mexican Restaurant",
+  "short": "Dos Potrillos",
+  "category": "Mexican Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fff8ee",
+    "surface": "#ffffff",
+    "ink": "#1c1410",
+    "muted": "#685a50",
+    "primary": "#c2410c",
+    "onPrimary": "#ffffff",
+    "accent": "#facc15",
+    "line": "#eadfce"
+  },
+  "radius": 6,
+  "icon": "utensils",
+  "contact": {
+    "phone": "(803) 770-9043",
+    "address": [
+      "119 Laurens Street NW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Dos Potrillos Mexican Restaurant, 119 Laurens St NW, Aiken, SC",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:00 am – 9:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/DosPotrillosFoodtruckAiken"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "From food truck to downtown Aiken",
+    "title": "A local favorite *just leveled up*",
+    "lede": "The bold, authentic flavors you loved from our food truck, now in a brick-and-mortar spot on Laurens Street.",
+    "cta": {
+      "label": "Call (803) 770-9043",
+      "href": "tel:+18037709043"
+    },
+    "cta2": {
+      "label": "What we serve",
+      "href": "#menu"
+    },
+    "points": [
+      "Tacos",
+      "Birria",
+      "Aguas frescas"
+    ]
+  },
+  "facts": [
+    {
+      "value": "Downtown",
+      "label": "119 Laurens Street NW"
+    },
+    {
+      "value": "Mon – Sat",
+      "label": "Open 10 am to 9 pm"
+    },
+    {
+      "value": "Food truck roots",
+      "label": "The same flavors, a new home"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "What we serve",
+      "columns": 3,
+      "eyebrow": "Authentic Mexican cuisine and culture",
+      "title": "Crafted to showcase *the real thing*",
+      "items": [
+        {
+          "icon": "utensils",
+          "title": "Tacos & burritos"
+        },
+        {
+          "icon": "soup",
+          "title": "Birria"
+        },
+        {
+          "icon": "wheat",
+          "title": "Street corn"
+        },
+        {
+          "icon": "cup-soda",
+          "title": "Aguas frescas",
+          "text": "Refreshing flavored Mexican waters."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Next time you're downtown, stop in and grab a bite.",
+      "cta": {
+        "label": "Call (803) 770-9043",
+        "href": "tel:+18037709043"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us *downtown*",
+    "hideForm": true
+  },
+  "slug": "dos-potrillos",
+  "prospect": "dos-potrillos-mexican-restaurant",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/dos-potrillos/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

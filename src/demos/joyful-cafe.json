@@ -1,0 +1,143 @@
+{
+  "name": "Joyful Café",
+  "short": "Joyful Café",
+  "category": "Café",
+  "group": "Food & Drink",
+  "town": "Williston, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fdf7ea",
+    "surface": "#fffdf6",
+    "ink": "#2b1d12",
+    "muted": "#6f5e4f",
+    "primary": "#b4551d",
+    "onPrimary": "#fff8ea",
+    "accent": "#f1c04c",
+    "line": "#eee0c6"
+  },
+  "radius": 14,
+  "icon": "egg-fried",
+  "contact": {
+    "phone": "(803) 770-2321",
+    "address": [
+      "245 White Pond Road",
+      "Williston, SC 29853"
+    ],
+    "mapQuery": "Joyful Cafe, 245 White Pond Road, Williston, SC 29853",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "6:30 am – 2:30 pm"
+      ],
+      [
+        "Sunday",
+        "10:00 am – 2:00 pm"
+      ],
+      [
+        "Thursday & Friday dinner",
+        "5:00 – 7:00 pm"
+      ]
+    ],
+    "hoursNote": "Dinner reservations are encouraged."
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Williston, South Carolina",
+    "title": "Homemade favorites, *made with care*",
+    "lede": "Breakfast and lunch in a warm and welcoming atmosphere, with freshly prepared sandwiches, salads, comforting entrées and homemade desserts. Dinner on Thursday and Friday evenings.",
+    "cta": {
+      "label": "Call (803) 770-2321",
+      "href": "tel:+18037702321"
+    },
+    "cta2": {
+      "label": "Hours",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Small batch",
+      "label": "Fresh food and homemade dishes"
+    },
+    {
+      "value": "7 days",
+      "label": "Breakfast and lunch every day"
+    },
+    {
+      "value": "Thu & Fri",
+      "label": "Dinner from 5:00 to 7:00 pm"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "What we serve",
+      "columns": 3,
+      "eyebrow": "From our kitchen",
+      "title": "Breakfast, lunch *and Southern suppers*",
+      "items": [
+        {
+          "icon": "sunrise",
+          "title": "Breakfast & lunch",
+          "text": "Freshly prepared sandwiches, salads and comforting entrées."
+        },
+        {
+          "icon": "cake-slice",
+          "title": "Homemade desserts",
+          "text": "Made here, in small batches."
+        },
+        {
+          "icon": "utensils",
+          "title": "Thursday & Friday dinner",
+          "text": "Hearty Southern favorites and rotating specials. Reservations are encouraged."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "A small-batch restaurant",
+      "title": "Fresh food, *prepared with pride*",
+      "body": [
+        "Joyful Café in Williston serves up homemade favorites in a warm and welcoming atmosphere. As a small-batch restaurant, we take pride in preparing fresh food and homemade dishes with care."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Coming for dinner?",
+      "text": "Thursday and Friday evenings, 5:00 to 7:00. Call to reserve a table.",
+      "cta": {
+        "label": "Call (803) 770-2321",
+        "href": "tel:+18037702321"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Stop *in*",
+    "hideForm": true
+  },
+  "slug": "joyful-cafe",
+  "prospect": "joyful-caf",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/joyful-cafe/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

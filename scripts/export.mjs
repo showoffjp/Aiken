@@ -13,6 +13,9 @@ for (const f of await readdir(new URL('../src/demos/', import.meta.url)).catch((
   demoSlugs.set(d.prospect || d.slug, d.slug);
 }
 
+const siteTs = await readFile(new URL('../src/lib/site.ts', import.meta.url), 'utf8');
+const liveUrl = ((siteTs.match(/url:\s*'([^']*)'/) || [])[1] || '').replace(/\/$/, '');
+
 const TIERS = {
   rebuild: 'A · Rebuild candidate',
   broken: 'A · Site down or broken',
@@ -48,7 +51,9 @@ const rows = businesses.filter((b) => b.include).map((b) => {
   else if (a.score >= 15) tier = 'dated';
   else tier = 'modern';
 
-  const emails = [...new Set([b.email, ...(a?.emails || [])].filter(Boolean))];
+  // Put a person's or the office's address ahead of webmaster-style ones.
+  const technical = (e) => /^(webmaster|techsupport|support|noreply|no-reply|admin|postmaster|hostmaster)@/i.test(e);
+  const emails = [...new Set([b.email, ...(a?.emails || [])].filter(Boolean))].sort((x, y) => Number(technical(x)) - Number(technical(y)));
   return {
     slug: b.slug,
     name: b.name,
@@ -92,7 +97,7 @@ const cols = [
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
   ['Address', (r) => r.address], ['Contact person', (r) => r.contact], ['Family / local note (from their site)', (r) => r.familyNote],
-  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Demo', (r) => (r.demo ? `/${r.demo}/` : '')],
+  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
 ];
 const cell = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
 const csv = [cols.map(([h]) => h).join(','), ...rows.map((r) => cols.map(([, f]) => cell(f(r))).join(','))].join('\n');

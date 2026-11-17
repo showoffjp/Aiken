@@ -1,0 +1,120 @@
+{
+  "name": "Briar Patch Antiques",
+  "short": "Briar Patch Antiques",
+  "category": "Antiques",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f8f3ea",
+    "surface": "#fffdf8",
+    "ink": "#2b211b",
+    "muted": "#6e6056",
+    "primary": "#7c3f3a",
+    "onPrimary": "#fff8ee",
+    "accent": "#b99a5b",
+    "line": "#e8ddcb"
+  },
+  "radius": 12,
+  "icon": "lamp",
+  "contact": {
+    "phone": "(803) 215-0335",
+    "address": [
+      "724 Richland Avenue W",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Briar Patch Antiques, 724 Richland Ave W, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=61570931655457"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken, South Carolina",
+    "title": "The charm of the past, *in every corner*",
+    "lede": "Each room is filled with timeless furniture, elegant glassware, rustic décor and one-of-a-kind collectibles.",
+    "cta": {
+      "label": "Visit the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 215-0335",
+      "href": "tel:+18032150335"
+    }
+  },
+  "facts": [
+    {
+      "value": "Room after room",
+      "label": "Each one filled with finds"
+    },
+    {
+      "value": "One of a kind",
+      "label": "Collectibles you will not see twice"
+    },
+    {
+      "value": "Richland Avenue",
+      "label": "724 Richland Avenue W"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the shop",
+      "columns": 4,
+      "eyebrow": "In every room",
+      "title": "Timeless *finds*",
+      "items": [
+        {
+          "icon": "armchair",
+          "title": "Timeless furniture"
+        },
+        {
+          "icon": "wine",
+          "title": "Elegant glassware"
+        },
+        {
+          "icon": "lamp",
+          "title": "Rustic décor"
+        },
+        {
+          "icon": "gem",
+          "title": "One-of-a-kind collectibles"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come and browse.",
+      "text": "You never know what you will find.",
+      "cta": {
+        "label": "Call (803) 215-0335",
+        "href": "tel:+18032150335"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the shop*",
+    "hideForm": true
+  },
+  "slug": "briar-patch-antiques",
+  "prospect": "briar-patch-antiques",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/briar-patch-antiques/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

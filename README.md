@@ -27,6 +27,13 @@ The repo does three things:
 | `public/shots/` | Before / after screenshots used on the index. |
 | `scripts/` | The data pipeline (below). |
 
+## What each concept comes with
+
+- **The concept itself** at `/<slug>/`, with a "Concept preview" bar and a "What changed?" panel.
+- **A website checkup** at `/<slug>/report/`: the current site next to the concept, what we noticed, and what the concept changes. Written to be sent as a link or printed.
+- **A link preview**: pasting either link into an email, text or Facebook message shows a picture of the redesign.
+- **An outreach draft**: `npm run outreach` writes an email, a text message and a voicemail script for every concept into `./outreach` (kept out of git). Nothing is sent.
+
 ## Sources
 
 - Greater Aiken Chamber of Commerce member directory

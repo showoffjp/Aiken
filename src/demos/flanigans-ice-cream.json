@@ -1,0 +1,145 @@
+{
+  "name": "Flanigan's Ice Cream",
+  "short": "Flanigan's",
+  "category": "Ice Cream Shop",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "outfit",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fff8f5",
+    "surface": "#ffffff",
+    "ink": "#2a1620",
+    "muted": "#6f5a63",
+    "primary": "#cf2f68",
+    "onPrimary": "#ffffff",
+    "accent": "#ffd166",
+    "line": "#f3dfe3"
+  },
+  "radius": 18,
+  "icon": "ice-cream-cone",
+  "contact": {
+    "phone": "(803) 262-5500",
+    "address": [
+      "221 Barnwell Avenue NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Flanigan's Ice Cream, 221 Barnwell Avenue NW, Aiken, SC 29801",
+    "facebook": "http://facebook.com/flanigansicecream"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Downtown Aiken",
+    "title": "Premium, hand-dipped *ice cream*",
+    "lede": "Sundaes, shakes, malts, cones and cups to satisfy any sweet tooth, served in a friendly place to make memories with family and friends.",
+    "cta": {
+      "label": "Find the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 262-5500",
+      "href": "tel:+18032625500"
+    },
+    "points": [
+      "Hand dipped",
+      "Inside or outside seating",
+      "Events all year"
+    ]
+  },
+  "facts": [
+    {
+      "value": "Hand dipped",
+      "label": "Premium quality ice cream"
+    },
+    {
+      "value": "Inside or out",
+      "label": "Sit indoors or in our outside area"
+    },
+    {
+      "value": "All year",
+      "label": "Events from pumpkin painting to Ice Cream for Breakfast Day"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "Treats",
+      "columns": 3,
+      "eyebrow": "Pick your treat",
+      "title": "Something for *every sweet tooth*",
+      "items": [
+        {
+          "icon": "ice-cream-cone",
+          "title": "Cones & cups"
+        },
+        {
+          "icon": "ice-cream-bowl",
+          "title": "Sundaes"
+        },
+        {
+          "icon": "cup-soda",
+          "title": "Shakes & malts"
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Throughout the year",
+      "title": "There is always *something on*",
+      "columns": [
+        {
+          "title": "For families",
+          "items": [
+            "Pumpkin painting",
+            "Mother's Day specials",
+            "Father's Day specials"
+          ]
+        },
+        {
+          "title": "For ice cream lovers",
+          "items": [
+            "National Ice Cream Day",
+            "Ice Cream for Breakfast Day"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come make a memory.",
+      "text": "We are on Barnwell Avenue in downtown Aiken.",
+      "cta": {
+        "label": "Call (803) 262-5500",
+        "href": "tel:+18032625500"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find *the shop*",
+    "hideForm": true
+  },
+  "slug": "flanigans-ice-cream",
+  "prospect": "flanigans-ice-cream",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/j-_flanagans_ice_cream/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

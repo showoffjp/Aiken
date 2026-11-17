@@ -297,6 +297,10 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 .form .note { font-size: .84rem; color: var(--muted); margin-top: 12px; }
 .form .sent { display: none; padding: 14px 16px; border-radius: var(--r); background: var(--soft); font-weight: 600; margin-top: 14px; }
 .form.done .sent { display: block; }
+/* No map and no form: lay the contact details out across the full width. */
+.visit .grid.solo { grid-template-columns: 1fr; }
+.visit .grid.solo .info { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 48px; }
+.visit .grid.solo .info .row, .visit .grid.solo .info .row:first-child { padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 0; }
 @media (max-width: 860px) { .visit .grid { grid-template-columns: 1fr; } }
 @media (max-width: 520px) { .form .two { grid-template-columns: 1fr; } }
 

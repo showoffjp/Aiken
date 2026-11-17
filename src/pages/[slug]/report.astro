@@ -1,0 +1,187 @@
+---
+// A one-page, plain-English "website checkup" for each business that has a
+// concept: what its current site looks like, what we noticed, and what the
+// concept changes. Made to be sent as a link or printed.
+import { existsSync, readFileSync, statSync } from 'node:fs';
+import path from 'node:path';
+import Icon from '../../components/Icon.astro';
+import { demos, fonts, type Demo } from '../../lib/demos';
+import { site } from '../../lib/site';
+
+export function getStaticPaths() {
+  return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
+}
+interface Props { demo: Demo }
+const { demo } = Astro.props;
+
+const root = process.cwd();
+const shot = (name: string) => (existsSync(path.join(root, 'public', 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const before = shot(`${demo.prospect || demo.slug}-before`);
+const after = shot(`${demo.slug}-after`);
+const host = new URL(demo.source.url).hostname.replace(/^www\./, '');
+
+type Row = { slug: string; siteState: string; platform: string; mobileReady: boolean | null; https: boolean | null; copyrightYear: number | null; tier: string };
+let row: Row | undefined;
+let checked = '';
+try {
+  const rows: Row[] = JSON.parse(readFileSync(path.join(root, 'data', 'prospects.json'), 'utf8'));
+  row = rows.find((r) => r.slug === (demo.prospect || demo.slug));
+  checked = statSync(path.join(root, 'data', 'audit.json')).mtime.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+} catch {}
+
+const online = row?.siteState === 'Online';
+const glance = [
+  row && { label: 'Site status', value: row.siteState.replace(/ - verify$/, ''), good: online },
+  online && row?.mobileReady !== null && { label: 'Adapts to phones', value: row!.mobileReady ? 'Yes' : 'No', good: !!row!.mobileReady },
+  online && row?.https !== null && { label: 'Secure connection (HTTPS)', value: row!.https ? 'Yes' : 'No', good: !!row!.https },
+  online && row?.platform && { label: 'Built with', value: row.platform, good: null },
+  online && row?.copyrightYear && { label: 'Year in the footer', value: String(row.copyrightYear), good: row.copyrightYear >= new Date().getFullYear() - 1 },
+].filter(Boolean) as { label: string; value: string; good: boolean | null }[];
+
+const changes = demo.source.after || [
+  'Designed phone-first: reads and taps comfortably on any screen',
+  'One-tap call, directions and email from every page',
+  'Served over HTTPS with no plugins to patch or break',
+  'Loads in well under a second: static pages, optimised images, self-hosted fonts',
+  'Clear headings, alt text and contrast for accessibility and for Google',
+  'Hours, address and services in one obvious place',
+];
+const display = fonts['bricolage-grotesque'];
+const body = fonts.inter;
+const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}`).join('');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{`Website checkup: ${demo.name}`}</title>
+    <meta name="description" content={`What we noticed about ${host}, and a concept for what it could be.`} />
+    <meta property="og:title" content={`Website checkup: ${demo.name}`} />
+    <meta property="og:description" content={`What we noticed about ${host}, and a concept for what it could be.`} />
+    {site.url && after && <meta property="og:image" content={`${site.url}${after}`} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
+    <style set:html={fontCss} />
+  </head>
+  <body class="rp">
+    <header class="rp-top">
+      <div class="rp-wrap">
+        <a href="/" class="rp-brand">{site.name}</a>
+        <span>Website checkup{checked && ` · ${checked}`}</span>
+      </div>
+    </header>
+
+    <main class="rp-wrap">
+      <p class="rp-kicker">{demo.category} · {demo.town}</p>
+      <h1>{demo.name}</h1>
+      {demo.source.none
+        ? <p class="rp-lede">{demo.name} has no website of its own today. Here is what customers find now, and a working concept for a first site.</p>
+        : <p class="rp-lede">A plain-English look at <a href={demo.source.url} target="_blank" rel="noopener nofollow">{host}</a>, and a working concept for what it could be.</p>}
+
+      <section class="rp-shots">
+        <figure>
+          <figcaption><span class="rp-pill rp-old">Today</span>{demo.source.none ? 'no website' : host}</figcaption>
+          {before
+            ? <img src={before} alt={`${demo.name}'s current website`} width="1120" height="753" />
+            : <div class="rp-none"><Icon name="triangle-alert" size={30} /><p>{demo.source.none ? 'No website: a search leads to a social page or a directory listing' : row?.siteState.replace(/ - verify$/, '') || 'The current site could not be loaded'}</p></div>}
+        </figure>
+        <figure>
+          <figcaption><span class="rp-pill rp-new">The concept</span>ready to open</figcaption>
+          {after && <a href={`/${demo.slug}/`}><img src={after} alt={`Concept redesign for ${demo.name}`} width="1120" height="753" /></a>}
+        </figure>
+      </section>
+
+      {glance.length > 0 && (
+        <section>
+          <h2>At a glance</h2>
+          <dl class="rp-glance">
+            {glance.map((g) => (
+              <div class={g.good === null ? '' : g.good ? 'ok' : 'bad'}>
+                <dt>{g.label}</dt>
+                <dd>{g.good !== null && <Icon name={g.good ? 'circle-check' : 'circle-alert'} size={18} stroke={2.2} />}{g.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
+      <section class="rp-cols">
+        <div>
+          <h2>What we noticed</h2>
+          <ul class="rp-list rp-warn">{demo.source.before.map((b) => <li>{b}</li>)}</ul>
+        </div>
+        <div>
+          <h2>What the concept changes</h2>
+          <ul class="rp-list rp-good">{changes.map((b) => <li>{b}</li>)}</ul>
+        </div>
+      </section>
+
+      <section class="rp-cta">
+        <div>
+          <h2>See it for yourself</h2>
+          <p>The concept is a real, working page. Open it on your phone and tap around.</p>
+        </div>
+        <p class="rp-actions">
+          <a class="rp-btn" href={`/${demo.slug}/`}>Open the concept<Icon name="arrow-right" size={18} stroke={2.2} /></a>
+          {site.contactEmail && <a class="rp-btn rp-ghost" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}
+        </p>
+      </section>
+
+      <p class="rp-fine">
+        How this was checked: {demo.source.none ? `a search of local business directories${checked ? ` in ${checked}` : ''} found no website for this business, only a listing or a social page.` : `an automated look at the public home page of ${host}${checked ? ` in ${checked}` : ''}, plus a read-through of the pages a visitor can reach.`}
+        Nothing was logged into and nothing was changed. This is an unsolicited review from {site.name}, which is not affiliated with {demo.name.replace(/\.$/, '')}.
+        Found something we got wrong? Tell us and we will correct it.
+      </p>
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  .rp { --bg: #faf8f3; --surface: #fff; --ink: #14181a; --muted: #5b6468; --line: #e3ded2; --green: #143d2f; --green-2: #1f6a50; --warn: #b4541a; margin: 0; background: var(--bg); color: var(--ink); font: 400 1.03rem/1.6 "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+  .rp *, .rp *::before, .rp *::after { box-sizing: border-box; }
+  .rp h1, .rp h2 { font-family: "Bricolage Grotesque", "Inter", system-ui, sans-serif; letter-spacing: -.025em; line-height: 1.08; margin: 0; text-wrap: balance; }
+  .rp h1 { font-size: clamp(2.1rem, 5.4vw, 3.8rem); font-weight: 700; letter-spacing: -.04em; }
+  .rp h2 { font-size: 1.35rem; font-weight: 650; margin-bottom: 16px; }
+  .rp p { margin: 0; }
+  .rp a { color: inherit; }
+  .rp img { display: block; width: 100%; height: auto; }
+  .rp ul { list-style: none; margin: 0; padding: 0; }
+  .rp-wrap { width: min(100% - 40px, 1080px); margin-inline: auto; }
+  .rp main { padding-block: clamp(36px, 6vw, 72px) 64px; }
+  .rp section { margin-top: clamp(36px, 5vw, 56px); }
+  .rp-top { border-bottom: 1px solid var(--line); font-size: .9rem; color: var(--muted); }
+  .rp-top .rp-wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-block: 16px; }
+  .rp-brand { font-weight: 700; color: var(--ink); text-decoration: none; font-family: "Bricolage Grotesque", sans-serif; }
+  .rp-kicker { font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--green-2); margin-bottom: 14px; }
+  .rp-lede { font-size: clamp(1.08rem, 1.5vw, 1.25rem); color: var(--muted); margin-top: 16px; max-width: 40em; }
+  .rp-shots { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .rp-shots figure { margin: 0; }
+  .rp-shots figcaption { display: flex; align-items: center; gap: 10px; font-size: .9rem; color: var(--muted); margin-bottom: 10px; }
+  .rp-shots img, .rp-none { border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 14px 34px -20px rgb(0 0 0 / .3); background: var(--surface); }
+  .rp-none { aspect-ratio: 1120 / 753; display: grid; place-content: center; justify-items: center; gap: 10px; color: var(--warn); text-align: center; padding: 24px; font-weight: 600; }
+  .rp-pill { font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; color: #fff; }
+  .rp-old { background: var(--warn); }
+  .rp-new { background: var(--green-2); }
+  .rp-glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin: 0; }
+  .rp-glance div { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .rp-glance dt { font-size: .8rem; color: var(--muted); }
+  .rp-glance dd { margin: 6px 0 0; font-weight: 650; display: flex; align-items: center; gap: 8px; line-height: 1.3; }
+  .rp-glance .ok dd svg { color: var(--green-2); }
+  .rp-glance .bad dd { color: var(--warn); }
+  .rp-cols { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 56px); }
+  .rp-list li { position: relative; padding: 12px 0 12px 26px; border-top: 1px solid var(--line); }
+  .rp-list li::before { content: ""; position: absolute; left: 2px; top: 1.25em; width: 10px; height: 10px; border-radius: 50%; }
+  .rp-warn li::before { background: #d7a13b; }
+  .rp-good li::before { background: #2f9e62; }
+  .rp-cta { background: var(--green); color: #eef3ef; border-radius: 20px; padding: clamp(24px, 4vw, 40px); display: flex; flex-wrap: wrap; gap: 20px; align-items: center; justify-content: space-between; }
+  .rp-cta h2 { margin-bottom: 6px; font-size: 1.6rem; }
+  .rp-cta p { color: rgb(238 243 239 / .8); }
+  .rp-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+  .rp-btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 999px; background: #f3e9c9; color: var(--green) !important; font-weight: 650; text-decoration: none; }
+  .rp-btn.rp-ghost { background: transparent; color: #fff !important; border: 1px solid rgb(255 255 255 / .4); }
+  .rp-fine { margin-top: 36px !important; font-size: .84rem; color: var(--muted); max-width: 62em; }
+  @media (max-width: 760px) { .rp-shots, .rp-cols { grid-template-columns: 1fr; } }
+  @media print { .rp { background: #fff; } .rp-cta { background: #fff; color: var(--ink); border: 1px solid var(--line); } .rp-cta p { color: var(--muted); } .rp-btn { border: 1px solid var(--ink); } }
+</style>

@@ -1,0 +1,134 @@
+{
+  "name": "Aiken Ghost Tours",
+  "short": "Aiken Ghost Tours",
+  "category": "Walking Tours",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#14121a",
+    "surface": "#1d1a26",
+    "ink": "#f1ece4",
+    "muted": "#a9a1b5",
+    "primary": "#c9a25f",
+    "onPrimary": "#14121a",
+    "accent": "#8f6fd1",
+    "line": "#2f2a3c"
+  },
+  "radius": 2,
+  "icon": "ghost",
+  "contact": {
+    "phone": "(803) 270-0773",
+    "phoneLabel": "Call Kent Cubbage",
+    "address": [
+      "Tours begin at St. Thaddeus Church",
+      "125 Pendleton Street SW, Aiken, SC"
+    ],
+    "mapQuery": "St. Thaddeus Church, 125 Pendleton St SW, Aiken, SC"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "A walk through Aiken's past",
+    "title": "Legends, myths *and lore*",
+    "lede": "Lead tour guide Kent Cubbage regales his guests with stories of Aiken's rich history on a 75-minute walking tour of downtown.",
+    "cta": {
+      "label": "Book a private tour",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "About the tour",
+      "href": "#tour"
+    }
+  },
+  "facts": [
+    {
+      "value": "75 minutes",
+      "label": "A walking tour with several stops"
+    },
+    {
+      "value": "Private tours",
+      "label": "Available anytime"
+    },
+    {
+      "value": "Public tours",
+      "label": "The week of Halloween"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "tour",
+      "nav": "The tour",
+      "columns": 3,
+      "eyebrow": "On the route",
+      "title": "Where the stories *are told*",
+      "items": [
+        {
+          "icon": "church",
+          "title": "St. Thaddeus Church",
+          "text": "The tour begins here, at 125 Pendleton Street SW, and visits the graveyard."
+        },
+        {
+          "icon": "mail",
+          "title": "The Old Post Office",
+          "text": "One of several stops throughout the downtown area."
+        },
+        {
+          "icon": "footprints",
+          "title": "On foot",
+          "text": "A walking tour lasting approximately 75 minutes."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "guide",
+      "nav": "Your guide",
+      "eyebrow": "Your guide",
+      "title": "Kent Cubbage, *storyteller*",
+      "body": [
+        "Aiken Ghost Tours invites you to take a journey through Aiken's past. Hear about its legends, myths, lore and much more from lead tour guide Kent Cubbage."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Private tours are available anytime.",
+      "text": "Public tours run the week of Halloween.",
+      "cta": {
+        "label": "Call (803) 270-0773",
+        "href": "tel:+18032700773"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a tour*",
+    "formTitle": "Ask about a private tour",
+    "formTopics": [
+      "Private tour",
+      "Public Halloween tour",
+      "Group or event"
+    ]
+  },
+  "slug": "aiken-ghost-tours",
+  "prospect": "aiken-ghost-tours",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/aiken_ghost_tours/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

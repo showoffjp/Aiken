@@ -43,7 +43,8 @@ export type Demo = {
   facts?: { value: string; label: string }[];
   sections: Section[];
   visit?: { title?: string; intro?: string; formTitle?: string; formTopics?: string[]; hideForm?: boolean };
-  source: { url: string; before: string[]; after?: string[] };
+  /** `none` marks a business with no website of its own; `url` is then the public listing the words came from. */
+  source: { url: string; before: string[]; after?: string[]; none?: boolean };
 };
 
 const files = import.meta.glob<{ default: Demo }>('../demos/*.json', { eager: true });
