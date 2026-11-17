@@ -62,6 +62,7 @@ function phoneTypo(b, a) {
 const weights = JSON.parse(await readFile(new URL('../data/weights.json', import.meta.url), 'utf8').catch(() => '{}'));
 const a11y = JSON.parse(await readFile(new URL('../data/a11y.json', import.meta.url), 'utf8').catch(() => '{}'));
 const domains = JSON.parse(await readFile(new URL('../data/domains.json', import.meta.url), 'utf8').catch(() => '{}'));
+const lighthouse = JSON.parse(await readFile(new URL('../data/lighthouse.json', import.meta.url), 'utf8').catch(() => '{}'));
 
 // What the registry says about the business's web address, in plain words.
 function domainState(d) {
@@ -79,6 +80,7 @@ function pitchScore(r) {
   let s = { broken: 40, rebuild: 32, none: 28, dated: 22, nosite: 16, blocked: 4, modern: 0 }[r.tier] || 0;
   if (r.pageMB >= 10) s += 16; else if (r.pageMB >= 5) s += 10; else if (r.pageMB >= 3) s += 5;
   if (r.a11ySerious >= 20) s += 10; else if (r.a11ySerious >= 5) s += 5;
+  if (r.lhPerformance !== null && r.lhPerformance < 30) s += 6; else if (r.lhPerformance !== null && r.lhPerformance < 50) s += 3;
   if (/typo/.test(r.phoneNote)) s += 8; else if (r.listedPhone) s += 3;
   if (r.mobileReady === false) s += 8;
   if (r.https === false) s += 6;
@@ -138,6 +140,8 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     pageMB: weights[b.slug]?.site?.bytes ? +(weights[b.slug].site.bytes / 1048576).toFixed(1) : null,
     a11yIssues: a11y[b.slug]?.site && !a11y[b.slug].site.error ? a11y[b.slug].site.issues : null,
     a11ySerious: a11y[b.slug]?.site && !a11y[b.slug].site.error ? a11y[b.slug].site.critical + a11y[b.slug].site.serious : null,
+    lhPerformance: lighthouse[b.slug]?.site && !lighthouse[b.slug].site.error ? lighthouse[b.slug].site.performance : null,
+    lhAccessibility: lighthouse[b.slug]?.site && !lighthouse[b.slug].site.error ? lighthouse[b.slug].site.accessibility : null,
     domain: domains[b.slug]?.domain || '',
     domainExpires: domains[b.slug]?.expires || '',
     domainState: domainState(domains[b.slug]),
@@ -160,7 +164,7 @@ const cols = [
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
   ['Address', (r) => r.address], ['Contact person', (r) => r.contact], ['Family / local note (from their site)', (r) => r.familyNote],
-  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
+  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
 
   // Left blank for you to fill in as you work the list.
   ['Status', () => ''], ['Last contact', () => ''], ['Next step', () => ''], ['Notes', () => ''],

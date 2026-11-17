@@ -8,9 +8,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 282713,
-   "requests": 7,
-   "loadMs": 76,
+   "bytes": 283016,
+   "requests": 6,
+   "loadMs": 79,
    "url": "/veg-out/",
    "at": "2026-11-17"
   }
@@ -96,9 +96,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 359575,
-   "requests": 13,
-   "loadMs": 220,
+   "bytes": 359398,
+   "requests": 12,
+   "loadMs": 219,
    "url": "/aiken-granite/",
    "at": "2026-11-17"
   }
@@ -157,9 +157,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 131265,
-   "requests": 6,
-   "loadMs": 194,
+   "bytes": 131088,
+   "requests": 5,
+   "loadMs": 189,
    "url": "/aiken-flooring/",
    "at": "2026-11-17"
   }
@@ -236,9 +236,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 156827,
-   "requests": 6,
-   "loadMs": 170,
+   "bytes": 156650,
+   "requests": 5,
+   "loadMs": 130,
    "url": "/aiken-pet-sitters/",
    "at": "2026-11-17"
   }
@@ -396,9 +396,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 161572,
-   "requests": 6,
-   "loadMs": 162,
+   "bytes": 161395,
+   "requests": 5,
+   "loadMs": 129,
    "url": "/antonios-italian-eatery/",
    "at": "2026-11-17"
   }
@@ -466,9 +466,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 133611,
-   "requests": 5,
-   "loadMs": 139,
+   "bytes": 133434,
+   "requests": 4,
+   "loadMs": 100,
    "url": "/augusta-ready-mix/",
    "at": "2026-11-17"
   }
@@ -554,9 +554,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 421314,
-   "requests": 7,
-   "loadMs": 239,
+   "bytes": 421192,
+   "requests": 6,
+   "loadMs": 127,
    "url": "/beech-island-timber/",
    "at": "2026-11-17"
   }
@@ -624,9 +624,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 911324,
-   "requests": 16,
-   "loadMs": 255,
+   "bytes": 911804,
+   "requests": 15,
+   "loadMs": 147,
    "url": "/bloom-salon/",
    "at": "2026-11-17"
   }
@@ -721,9 +721,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 456812,
-   "requests": 17,
-   "loadMs": 164,
+   "bytes": 456635,
+   "requests": 16,
+   "loadMs": 96,
    "url": "/bravefriend/",
    "at": "2026-11-17"
   }
@@ -737,9 +737,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 122050,
-   "requests": 6,
-   "loadMs": 156,
+   "bytes": 121873,
+   "requests": 5,
+   "loadMs": 111,
    "url": "/bradley-plumbing-heating/",
    "at": "2026-11-17"
   }
@@ -888,9 +888,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 568066,
-   "requests": 13,
-   "loadMs": 204,
+   "bytes": 567936,
+   "requests": 12,
+   "loadMs": 55,
    "url": "/carolina-hvac/",
    "at": "2026-11-17"
   }
@@ -1219,9 +1219,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 159160,
-   "requests": 7,
-   "loadMs": 130,
+   "bytes": 158983,
+   "requests": 6,
+   "loadMs": 125,
    "url": "/durban-laird-insurance/",
    "at": "2026-11-17"
   }
@@ -1286,6 +1286,13 @@
    "requests": 94,
    "loadMs": 4101,
    "url": "https://empiretree.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 242637,
+   "requests": 5,
+   "loadMs": 55,
+   "url": "/empire-tree/",
    "at": "2026-11-17"
   }
  },
@@ -1469,9 +1476,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 129252,
-   "requests": 5,
-   "loadMs": 84,
+   "bytes": 129075,
+   "requests": 4,
+   "loadMs": 41,
    "url": "/glassworks/",
    "at": "2026-11-17"
   }
@@ -1548,9 +1555,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 125177,
-   "requests": 5,
-   "loadMs": 89,
+   "bytes": 125000,
+   "requests": 4,
+   "loadMs": 87,
    "url": "/hals-hair-center/",
    "at": "2026-11-17"
   }
@@ -1627,9 +1634,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 119686,
-   "requests": 5,
-   "loadMs": 172,
+   "bytes": 119509,
+   "requests": 4,
+   "loadMs": 127,
    "url": "/help-me-rhonda/",
    "at": "2026-11-17"
   }
@@ -1643,9 +1650,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 288102,
-   "requests": 6,
-   "loadMs": 199,
+   "bytes": 287976,
+   "requests": 5,
+   "loadMs": 92,
    "url": "/herbal-solutions/",
    "at": "2026-11-17"
   }
@@ -1758,9 +1765,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 778326,
-   "requests": 9,
-   "loadMs": 208,
+   "bytes": 778254,
+   "requests": 8,
+   "loadMs": 80,
    "url": "/howell-printing/",
    "at": "2026-11-17"
   }
@@ -1801,9 +1808,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 397253,
-   "requests": 14,
-   "loadMs": 113,
+   "bytes": 397178,
+   "requests": 13,
+   "loadMs": 109,
    "url": "/inn-at-houndslake/",
    "at": "2026-11-17"
   }
@@ -1826,9 +1833,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 709128,
-   "requests": 15,
-   "loadMs": 116,
+   "bytes": 709359,
+   "requests": 14,
+   "loadMs": 160,
    "url": "/iron-gate-candles/",
    "at": "2026-11-17"
   }
@@ -1851,9 +1858,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 802294,
-   "requests": 16,
-   "loadMs": 166,
+   "bytes": 802676,
+   "requests": 15,
+   "loadMs": 128,
    "url": "/hbol-architects/",
    "at": "2026-11-17"
   }
@@ -2011,9 +2018,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 103088,
-   "requests": 6,
-   "loadMs": 70,
+   "bytes": 102911,
+   "requests": 5,
+   "loadMs": 82,
    "url": "/lambert-insurance/",
    "at": "2026-11-17"
   }
@@ -2297,9 +2304,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 128420,
-   "requests": 5,
-   "loadMs": 78,
+   "bytes": 128243,
+   "requests": 4,
+   "loadMs": 69,
    "url": "/mobile-office-management/",
    "at": "2026-11-17"
   }
@@ -2322,9 +2329,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 287792,
-   "requests": 16,
-   "loadMs": 102,
+   "bytes": 287615,
+   "requests": 15,
+   "loadMs": 95,
    "url": "/mitch-johnson-construction/",
    "at": "2026-11-17"
   }
@@ -2365,9 +2372,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 161509,
-   "requests": 6,
-   "loadMs": 66,
+   "bytes": 161332,
+   "requests": 5,
+   "loadMs": 88,
    "url": "/the-massage-maven/",
    "at": "2026-11-17"
   }
@@ -2381,9 +2388,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 165858,
-   "requests": 6,
-   "loadMs": 92,
+   "bytes": 165681,
+   "requests": 5,
+   "loadMs": 45,
    "url": "/mundys-automotive/",
    "at": "2026-11-17"
   }
@@ -2460,9 +2467,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 125823,
-   "requests": 6,
-   "loadMs": 44,
+   "bytes": 125646,
+   "requests": 5,
+   "loadMs": 49,
    "url": "/oh-mie-stelle/",
    "at": "2026-11-17"
   }
@@ -2527,6 +2534,13 @@
    "requests": 39,
    "loadMs": 5026,
    "url": "https://osbonscleaners.com/",
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 130319,
+   "requests": 5,
+   "loadMs": 81,
+   "url": "/osbons-cleaners/",
    "at": "2026-11-17"
   }
  },
@@ -2692,9 +2706,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 684372,
-   "requests": 10,
-   "loadMs": 96,
+   "bytes": 684308,
+   "requests": 9,
+   "loadMs": 61,
    "url": "/playland-of-aiken/",
    "at": "2026-11-17"
   }
@@ -2735,9 +2749,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 682363,
-   "requests": 7,
-   "loadMs": 75,
+   "bytes": 682243,
+   "requests": 6,
+   "loadMs": 56,
    "url": "/prescott-and-sons/",
    "at": "2026-11-17"
   }
@@ -2832,9 +2846,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 143865,
-   "requests": 7,
-   "loadMs": 121,
+   "bytes": 143688,
+   "requests": 6,
+   "loadMs": 88,
    "url": "/rebel-ranch-horse-tours/",
    "at": "2026-11-17"
   }
@@ -3046,9 +3060,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 153039,
-   "requests": 6,
-   "loadMs": 60,
+   "bytes": 152862,
+   "requests": 5,
+   "loadMs": 84,
    "url": "/simply-social-events/",
    "at": "2026-11-17"
   }
@@ -3143,9 +3157,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 146743,
-   "requests": 7,
-   "loadMs": 95,
+   "bytes": 146566,
+   "requests": 6,
+   "loadMs": 68,
    "url": "/southern-magnolia-dentistry/",
    "at": "2026-11-17"
   }
@@ -3294,9 +3308,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 162296,
-   "requests": 7,
-   "loadMs": 38,
+   "bytes": 162119,
+   "requests": 6,
+   "loadMs": 79,
    "url": "/thai-jasmine-rice/",
    "at": "2026-11-17"
   }
@@ -3418,9 +3432,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 149741,
-   "requests": 6,
-   "loadMs": 64,
+   "bytes": 149564,
+   "requests": 5,
+   "loadMs": 101,
    "url": "/the-jewelers-loupe/",
    "at": "2026-11-17"
   }
@@ -3443,9 +3457,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 850033,
-   "requests": 13,
-   "loadMs": 71,
+   "bytes": 849913,
+   "requests": 12,
+   "loadMs": 117,
    "url": "/the-vintage-bobbin/",
    "at": "2026-11-17"
   }
@@ -3468,9 +3482,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 160190,
-   "requests": 7,
-   "loadMs": 140,
+   "bytes": 160013,
+   "requests": 6,
+   "loadMs": 89,
    "url": "/thomas-p-murphy-law/",
    "at": "2026-11-17"
   }
@@ -3511,9 +3525,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 109836,
-   "requests": 5,
-   "loadMs": 47,
+   "bytes": 109659,
+   "requests": 4,
+   "loadMs": 55,
    "url": "/toki-jr/",
    "at": "2026-11-17"
   }
@@ -3618,9 +3632,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 1344151,
-   "requests": 19,
-   "loadMs": 90,
+   "bytes": 1344765,
+   "requests": 18,
+   "loadMs": 88,
    "url": "/verdant-landscape/",
    "at": "2026-11-17"
   }
@@ -3688,9 +3702,9 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 965400,
-   "requests": 19,
-   "loadMs": 101,
+   "bytes": 966063,
+   "requests": 18,
+   "loadMs": 78,
    "url": "/webster-photography/",
    "at": "2026-11-17"
   }
@@ -3841,162 +3855,162 @@
  },
  "antiques-and-more-mall": {
   "concept": {
-   "bytes": 175870,
-   "requests": 7,
-   "loadMs": 183,
+   "bytes": 175693,
+   "requests": 6,
+   "loadMs": 122,
    "url": "/antiques-and-more-mall/",
    "at": "2026-11-17"
   }
  },
  "aiken-ghost-tours": {
   "concept": {
-   "bytes": 176829,
-   "requests": 7,
-   "loadMs": 237,
+   "bytes": 176652,
+   "requests": 6,
+   "loadMs": 249,
    "url": "/aiken-ghost-tours/",
    "at": "2026-11-17"
   }
  },
  "apizza-di-napoli": {
   "concept": {
-   "bytes": 161495,
-   "requests": 7,
-   "loadMs": 152,
+   "bytes": 161318,
+   "requests": 6,
+   "loadMs": 103,
    "url": "/apizza-di-napoli/",
    "at": "2026-11-17"
   }
  },
  "big-house-outpost": {
   "concept": {
-   "bytes": 152226,
-   "requests": 7,
-   "loadMs": 170,
+   "bytes": 152049,
+   "requests": 6,
+   "loadMs": 134,
    "url": "/big-house-outpost/",
    "at": "2026-11-17"
   }
  },
  "briar-patch-antiques": {
   "concept": {
-   "bytes": 178403,
-   "requests": 7,
-   "loadMs": 144,
+   "bytes": 178226,
+   "requests": 6,
+   "loadMs": 145,
    "url": "/briar-patch-antiques/",
    "at": "2026-11-17"
   }
  },
  "broome-service-center-inc": {
   "concept": {
-   "bytes": 124593,
-   "requests": 6,
-   "loadMs": 151,
+   "bytes": 124416,
+   "requests": 5,
+   "loadMs": 95,
    "url": "/broome-service-center/",
    "at": "2026-11-17"
   }
  },
  "dos-potrillos-mexican-restaurant": {
   "concept": {
-   "bytes": 119227,
-   "requests": 6,
-   "loadMs": 101,
+   "bytes": 119050,
+   "requests": 5,
+   "loadMs": 75,
    "url": "/dos-potrillos/",
    "at": "2026-11-17"
   }
  },
  "el-charrito-taqueria": {
   "concept": {
-   "bytes": 123199,
-   "requests": 6,
-   "loadMs": 104,
+   "bytes": 123022,
+   "requests": 5,
+   "loadMs": 49,
    "url": "/el-charrito-taqueria/",
    "at": "2026-11-17"
   }
  },
  "farm-dog": {
   "concept": {
-   "bytes": 102189,
-   "requests": 5,
-   "loadMs": 90,
+   "bytes": 102012,
+   "requests": 4,
+   "loadMs": 27,
    "url": "/farm-dog/",
    "at": "2026-11-17"
   }
  },
  "flanigans-ice-cream": {
   "concept": {
-   "bytes": 109545,
-   "requests": 6,
-   "loadMs": 59,
+   "bytes": 109368,
+   "requests": 5,
+   "loadMs": 40,
    "url": "/flanigans-ice-cream/",
    "at": "2026-11-17"
   }
  },
  "indigo-bleu": {
   "concept": {
-   "bytes": 158423,
-   "requests": 7,
-   "loadMs": 98,
+   "bytes": 158246,
+   "requests": 6,
+   "loadMs": 152,
    "url": "/indigo-bleu/",
    "at": "2026-11-17"
   }
  },
  "joyful-caf": {
   "concept": {
-   "bytes": 144574,
-   "requests": 7,
-   "loadMs": 69,
+   "bytes": 144397,
+   "requests": 6,
+   "loadMs": 78,
    "url": "/joyful-cafe/",
    "at": "2026-11-17"
   }
  },
  "pitter-patter-carolines": {
   "concept": {
-   "bytes": 155276,
-   "requests": 7,
-   "loadMs": 75,
+   "bytes": 155099,
+   "requests": 6,
+   "loadMs": 94,
    "url": "/pitter-patter/",
    "at": "2026-11-17"
   }
  },
  "smoothie-groove": {
   "concept": {
-   "bytes": 114237,
-   "requests": 6,
-   "loadMs": 46,
+   "bytes": 114060,
+   "requests": 5,
+   "loadMs": 80,
    "url": "/smoothie-groove/",
    "at": "2026-11-17"
   }
  },
  "feed-sack-aiken": {
   "concept": {
-   "bytes": 155837,
-   "requests": 7,
-   "loadMs": 94,
+   "bytes": 155660,
+   "requests": 6,
+   "loadMs": 77,
    "url": "/the-feed-sack/",
    "at": "2026-11-17"
   }
  },
  "the-ivy-cottage-flowers-and-gifts": {
   "concept": {
-   "bytes": 161274,
-   "requests": 7,
-   "loadMs": 78,
+   "bytes": 161097,
+   "requests": 6,
+   "loadMs": 57,
    "url": "/the-ivy-cottage/",
    "at": "2026-11-17"
   }
  },
  "york-cottage-antiques": {
   "concept": {
-   "bytes": 149666,
-   "requests": 7,
-   "loadMs": 108,
+   "bytes": 149489,
+   "requests": 6,
+   "loadMs": 75,
    "url": "/york-cottage-antiques/",
    "at": "2026-11-17"
   }
  },
  "the-wildemont": {
   "concept": {
-   "bytes": 240492,
-   "requests": 7,
-   "loadMs": 64,
+   "bytes": 240315,
+   "requests": 6,
+   "loadMs": 69,
    "url": "/the-wildemount/",
    "at": "2026-11-17"
   }
@@ -4010,27 +4024,27 @@
    "at": "2026-11-17"
   },
   "concept": {
-   "bytes": 236523,
-   "requests": 7,
-   "loadMs": 53,
+   "bytes": 236346,
+   "requests": 6,
+   "loadMs": 68,
    "url": "/tailored-tours/",
    "at": "2026-11-17"
   }
  },
  "carolina-bar-b-que": {
   "concept": {
-   "bytes": 176750,
-   "requests": 6,
-   "loadMs": 99,
+   "bytes": 176573,
+   "requests": 5,
+   "loadMs": 57,
    "url": "/carolina-bar-b-que/",
    "at": "2026-11-17"
   }
  },
  "track-kitchen": {
   "concept": {
-   "bytes": 244577,
-   "requests": 8,
-   "loadMs": 120,
+   "bytes": 244400,
+   "requests": 7,
+   "loadMs": 90,
    "url": "/track-kitchen/",
    "at": "2026-11-17"
   }

@@ -44,6 +44,17 @@ const lighter = showWeight ? Math.round(weight.site!.bytes / weight.concept!.byt
 const secs = (b: number) => (b * 8) / 1.6e6;
 const say = (t: number) => (t < 1 ? 'under a second' : t < 90 ? `about ${Math.round(t)} seconds` : `about ${Math.round(t / 60)} minutes`);
 
+// Google Lighthouse (scripts/lighthouse.mjs): mobile, simulated slow 4G.
+type LH = { performance: number; accessibility: number; lcp: number; error?: string };
+let lh: { site?: LH; concept?: LH } = {};
+try { lh = JSON.parse(readFileSync(path.join(root, 'data', 'lighthouse.json'), 'utf8'))[demo.prospect || demo.slug] || {}; } catch {}
+const showLh = !!(lh.site && !lh.site.error && lh.concept && !lh.concept.error && lh.concept.performance > lh.site.performance);
+const band = (n: number) => (n >= 90 ? 'good' : n >= 50 ? 'ok' : 'poor');
+const lhRows = showLh ? [
+  { label: 'Performance', site: lh.site!.performance, concept: lh.concept!.performance },
+  { label: 'Accessibility', site: lh.site!.accessibility, concept: lh.concept!.accessibility },
+] : [];
+
 const phoneShot = shot(`${demo.slug}-after-phone`);
 const card = existsSync(path.join(root, 'public', 'cards', `${demo.slug}.jpg`)) ? `/cards/${demo.slug}.jpg` : '';
 
@@ -162,6 +173,24 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
               </div>
             ))}
           </dl>
+        </section>
+      )}
+
+      {showLh && (
+        <section>
+          <h2>Google's Lighthouse scores on a phone</h2>
+          <div class="rp-lh">
+            {lhRows.map((r) => (
+              <div class="rp-lh-row">
+                <span class="rp-lh-label">{r.label}</span>
+                <div class="rp-lh-pair">
+                  <figure class={`rp-gauge ${band(r.site)}`} style={`--v:${r.site}`}><strong>{r.site}</strong><figcaption>Today</figcaption></figure>
+                  <figure class={`rp-gauge ${band(r.concept)}`} style={`--v:${r.concept}`}><strong>{r.concept}</strong><figcaption>Concept</figcaption></figure>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p class="rp-note">Lighthouse is Google's own page test, out of 100. It loads each page as a mid-range phone on a slow connection would. The biggest picture or block of text on the first screen appears after about {(lh.site!.lcp / 1000).toFixed(1)} seconds today and {(lh.concept!.lcp / 1000).toFixed(1)} seconds on the concept. Anyone can rerun the test at pagespeed.web.dev; scores move a few points from run to run.</p>
         </section>
       )}
 
@@ -296,6 +325,15 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
   .rp-qr { width: 104px; height: 104px; background: #f3e9c9; padding: 10px; border-radius: 12px; flex: none; }
   .rp-qr svg { width: 100%; height: 100%; display: block; }
   @media (max-width: 760px) { .rp-shots, .rp-cols { grid-template-columns: 1fr; } .rp-weight div { grid-template-columns: 1fr auto; } .rp-weight em { display: none; } .rp-qr { display: none; } }
+  .rp-lh { display: grid; gap: 14px; }
+  .rp-lh-row { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; padding: 14px 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+  .rp-lh-label { font-weight: 650; }
+  .rp-lh-pair { display: flex; gap: 22px; }
+  .rp-gauge { margin: 0; display: grid; justify-items: center; gap: 6px; }
+  .rp-gauge strong { --c: #c5221f; width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; font: 700 1.25rem/1 "Bricolage Grotesque", sans-serif; color: var(--c); background: radial-gradient(closest-side, var(--surface) 80%, transparent 81% 100%), conic-gradient(var(--c) calc(var(--v) * 1%), color-mix(in srgb, var(--c) 16%, transparent) 0); }
+  .rp-gauge.ok strong { --c: #b45309; }
+  .rp-gauge.good strong { --c: #137333; }
+  .rp-gauge figcaption { font-size: .8rem; color: var(--muted); }
   .rp-compare { position: relative; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 14px 34px -20px rgb(0 0 0 / .3); background: var(--surface); }
   .rp-compare img { display: block; width: 100%; height: auto; }
   .rp-compare-before { position: absolute; inset: 0; height: 100% !important; object-fit: cover; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }

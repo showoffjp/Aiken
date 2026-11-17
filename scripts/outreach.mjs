@@ -16,6 +16,13 @@ const me = { name: '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]',
 const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json'), 'utf8'));
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
+const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
+// "Google's own test" is the most recognizable proof point, when the gap is real.
+function lhNote(key) {
+  const s = lighthouse[key]?.site, c = lighthouse[key]?.concept;
+  if (!s || s.error || !c || c.error || s.performance >= 50 || c.performance < 90) return '';
+  return `Google's own Lighthouse test scores the home page ${s.performance} out of 100 for performance on a phone (the concept scores ${c.performance})`;
+}
 // Seconds to download a page on the 1.6 Mbps connection Lighthouse uses for phones.
 const slowSecs = (key, which = 'site') => { const b = weights[key]?.[which]?.bytes; return b ? (b * 8) / 1.6e6 : 0; };
 const saySecs = (t) => (t < 1 ? 'under a second' : t < 90 ? `about ${Math.round(t)} seconds` : `about ${Math.round(t / 60)} minutes`);
@@ -41,7 +48,7 @@ function a11yNote(key) {
 const out = path.join(ROOT, 'outreach');
 await mkdir(out, { recursive: true });
 
-const lower = (s) => s.charAt(0).toLowerCase() + s.slice(1);
+const lower = (s) => (/^(Google|Lighthouse|An automated)/.test(s) ? s.replace(/^An /, 'an ') : s.charAt(0).toLowerCase() + s.slice(1));
 const csv = [['Business', 'Town', 'Email', 'Phone', 'Subject', 'Concept link', 'Checkup link', 'Draft file']];
 const index = [];
 
@@ -60,7 +67,8 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const shared = /^(info|contact|office|sales|admin|hello|mail|service|support|fun|insurance)\d*$/.test(local);
   const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
   const broken = row.tier === 'broken';
-  const findings = d.source.before.slice(0, broken ? 1 : 2);
+  const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
+  const findings = lhLine ? [lhLine, d.source.before[0]] : d.source.before.slice(0, broken ? 1 : 2);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
   if (access) findings.push(access);
   const none = !!d.source.none;

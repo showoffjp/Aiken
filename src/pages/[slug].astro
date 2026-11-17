@@ -123,7 +123,8 @@ const ld = {
 
     <main id="main">
       <section class="hero" id="top" data-variant={variant}>
-        {variant === 'photo' && hero.image && <img class="bg" src={hero.image.src} srcset={srcset(hero.image)} sizes="100vw" alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
+        {/* Behind a dark overlay on phones, so the 640px copy is plenty: a 50vw hint makes high-density phones pick it. */}
+        {variant === 'photo' && hero.image && <img class="bg" src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 50vw, 100vw" alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
         <div class="wrap">
           <div>
             {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
@@ -144,7 +145,7 @@ const ld = {
               {hero.image ? (
                 <>
                   <div class={`frame ${hero.image.fit === 'contain' ? 'contain' : ''}`}>
-                    <img src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 92vw, 42vw" alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
+                    <img src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 85vw, 42vw" alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
                   </div>
                   {demo.established && (
                     <div class="chip"><Icon name="award" size={26} /><span><strong>Since {demo.established}</strong>{demo.town}</span></div>
