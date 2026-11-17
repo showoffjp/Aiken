@@ -6,6 +6,7 @@
   "group": "Food & Drink",
   "town": "Aiken, SC",
   "look": "warm",
+  "cinematic": true,
   "fonts": {
     "display": "fraunces",
     "body": "dm-sans"

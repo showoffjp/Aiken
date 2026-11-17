@@ -43,6 +43,8 @@ export type Demo = {
   facts?: { value: string; label: string }[];
   sections: Section[];
   visit?: { title?: string; intro?: string; formTitle?: string; formTopics?: string[]; hideForm?: boolean };
+  /** Photo-heavy concepts: full-screen scroll-driven hero, pinned photo scenes and parallax galleries. */
+  cinematic?: boolean | { heroImage?: string };
   /** `none` marks a business with no website of its own; `url` is then the public listing the words came from. */
   source: { url: string; before: string[]; after?: string[]; none?: boolean };
 };
@@ -89,3 +91,15 @@ export function title(text: string): string {
 }
 
 export const sectionId = (s: Section, i: number) => ('id' in s && s.id) || `${s.type}-${i + 1}`;
+
+/** For cinematic concepts: the landscape photos large enough to fill a screen. */
+export const isScenic = (img?: Img) => !!img?.width && !!img?.height && img.width >= 1000 && img.width / img.height >= 1.2;
+
+/** The cinematic hero photo: an explicit choice, else the hero image if it is wide, else the widest large gallery photo. */
+export function cinematicHero(demo: Demo): Img | undefined {
+  const all: Img[] = [demo.hero.image, ...demo.sections.flatMap((s: any) => [...(s.images || []), s.image])].filter(Boolean) as Img[];
+  const pick = typeof demo.cinematic === 'object' && demo.cinematic.heroImage ? all.find((i) => i.src === (demo.cinematic as { heroImage?: string }).heroImage) : undefined;
+  if (pick) return pick;
+  if (isScenic(demo.hero.image)) return demo.hero.image;
+  return all.filter(isScenic).sort((a, b) => (b.width || 0) - (a.width || 0))[0] || demo.hero.image;
+}

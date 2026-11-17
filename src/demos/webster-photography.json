@@ -7,6 +7,7 @@
   "town": "Aiken, SC",
   "established": "1995",
   "look": "editorial",
+  "cinematic": true,
   "fonts": {
     "display": "cormorant",
     "body": "inter"
