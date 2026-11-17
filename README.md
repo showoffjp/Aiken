@@ -2,6 +2,8 @@
 
 Research, audit and redesign concepts for independent, locally owned businesses in and around Aiken, South Carolina.
 
+**Live site:** https://aiken-web-refresh.vercel.app (deploys automatically from `main` via Vercel)
+
 The repo does three things:
 
 1. **Finds the businesses.** Collectors pull public member directories into one de-duplicated list with phone, email, website and category.
