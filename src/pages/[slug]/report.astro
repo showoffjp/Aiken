@@ -41,6 +41,32 @@ const showWeight = !!(weight.site?.bytes && weight.concept?.bytes && weight.site
 const lighter = showWeight ? Math.round(weight.site!.bytes / weight.concept!.bytes) : 0;
 
 const phoneShot = shot(`${demo.slug}-after-phone`);
+const card = existsSync(path.join(root, 'public', 'cards', `${demo.slug}.jpg`)) ? `/cards/${demo.slug}.jpg` : '';
+
+// Automated accessibility check (scripts/a11y.mjs, axe-core WCAG 2.1 AA rules).
+type A11y = { issues: number; critical: number; serious: number; rules: number; top?: { id: string; help: string; nodes: number; impact: string }[] };
+let a11y: { site?: A11y; concept?: A11y } = {};
+try { a11y = JSON.parse(readFileSync(path.join(root, 'data', 'a11y.json'), 'utf8'))[demo.prospect || demo.slug] || {}; } catch {}
+const showA11y = !!(a11y.site && typeof a11y.site.issues === 'number' && a11y.site.issues > 0 && a11y.concept && typeof a11y.concept.issues === 'number' && a11y.concept.issues < a11y.site.issues);
+const HELP: Record<string, string> = {
+  'color-contrast': 'Text too faint to read against its background',
+  'image-alt': 'Images with no description for screen readers',
+  'link-name': 'Links with no readable name',
+  'button-name': 'Buttons with no readable name',
+  'label': 'Form fields with no label',
+  'html-has-lang': 'Page does not declare its language',
+  'meta-viewport': 'Zooming is blocked on phones',
+  'document-title': 'Page has no title',
+  'heading-order': 'Headings out of order',
+  'list': 'Lists built incorrectly',
+  'listitem': 'List items outside a list',
+  'aria-hidden-focus': 'Hidden items that keyboards can still reach',
+  'frame-title': 'Embedded frames with no title',
+  'duplicate-id': 'Repeated element IDs',
+  'nested-interactive': 'Clickable items nested inside each other',
+  'link-in-text-block': 'Links that only differ from text by colour',
+  'region': 'Content outside page landmarks',
+};
 const conceptUrl = `${site.url || ''}/${demo.slug}/`;
 const qr = await QRCode.toString(conceptUrl, { type: 'svg', margin: 0, color: { dark: '#143d2f', light: '#00000000' } });
 const glance = [
@@ -73,7 +99,7 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
     <meta name="description" content={`What we noticed about ${host}, and a concept for what it could be.`} />
     <meta property="og:title" content={`Website checkup: ${demo.name}`} />
     <meta property="og:description" content={`What we noticed about ${host}, and a concept for what it could be.`} />
-    {site.url && after && <meta property="og:image" content={`${site.url}${after}`} />}
+    {site.url && (card || after) && <meta property="og:image" content={`${site.url}${card || after}`} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
     <style set:html={fontCss} />
@@ -129,6 +155,18 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
             <div class="new"><span>The concept</span><strong>{mb(weight.concept!.bytes)}</strong><em>{weight.concept!.requests} files</em><i style={`--w:${Math.max(3, Math.round((weight.concept!.bytes / weight.site!.bytes) * 100))}%`}></i></div>
           </div>
           <p class="rp-note">The concept's first screen downloads about {lighter > 1 ? `${lighter} times` : 'a third'} less data. On a cellular connection that is the difference between a page that appears and one people give up on.</p>
+        </section>
+      )}
+
+      {showA11y && (
+        <section>
+          <h2>Accessibility check</h2>
+          <div class="rp-weight">
+            <div><span>Today</span><strong>{a11y.site!.issues}</strong><em>issues{a11y.site!.critical + a11y.site!.serious > 0 && `, ${a11y.site!.critical + a11y.site!.serious} serious`}</em><i style="--w:100%"></i></div>
+            <div class="new"><span>The concept</span><strong>{a11y.concept!.issues}</strong><em>issues</em><i style={`--w:${Math.max(2, Math.round((a11y.concept!.issues / a11y.site!.issues) * 100))}%`}></i></div>
+          </div>
+          {a11y.site!.top?.length ? <ul class="rp-a11y">{a11y.site!.top.slice(0, 4).map((t) => <li><b>{t.nodes}×</b> {HELP[t.id] || t.help}</li>)}</ul> : null}
+          <p class="rp-note">Found with axe, the standard automated accessibility checker, using WCAG 2.1 AA rules. Automated tools catch only part of what a person would, so treat this as a starting point. Accessible sites work better for older customers and anyone on a phone outdoors, and they lower the risk of an ADA complaint.</p>
         </section>
       )}
 
@@ -224,6 +262,9 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
   .rp-weight em { font-style: normal; color: var(--muted); font-size: .9rem; }
   .rp-weight i { position: absolute; left: 0; bottom: 0; height: 4px; width: var(--w); background: var(--warn); }
   .rp-weight .new i { background: var(--green-2); }
+  .rp-a11y { margin-top: 12px !important; display: grid; gap: 6px; font-size: .95rem; }
+  .rp-a11y li { padding-left: 4px; }
+  .rp-a11y b { color: var(--warn); font-variant-numeric: tabular-nums; }
   .rp-note { color: var(--muted); font-size: .95rem; margin-top: 12px !important; max-width: 52em; }
   .rp-flag { background: #fff7ec; border: 1px solid #f0d3a8; border-radius: 16px; padding: 22px 24px; }
   .rp-flag h2 { color: var(--warn); margin-bottom: 8px; }

@@ -1,0 +1,189 @@
+{
+  "slug": "the-wildemount",
+  "prospect": "the-wildemont",
+  "name": "The Wildemount",
+  "short": "The Wildemount",
+  "category": "Made-from-Scratch Dinner",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "cormorant",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#fbfaf6",
+    "ink": "#1b211d",
+    "muted": "#5d625b",
+    "primary": "#1f3a2c",
+    "onPrimary": "#f4f1ea",
+    "accent": "#b8893a",
+    "line": "#dcd6c8"
+  },
+  "radius": 2,
+  "icon": "utensils-crossed",
+  "contact": {
+    "phone": "(803) 262-5269",
+    "phoneLabel": "Call for reservations",
+    "email": "thewildemount@gmail.com",
+    "address": [
+      "200 Park Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "The Wildemount, 200 Park Avenue SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Tuesday – Saturday",
+        "5:00 pm – 9:00 pm"
+      ],
+      [
+        "Sunday – Monday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Dinner only. Call to confirm hours and to reserve.",
+    "facebook": "https://www.facebook.com/profile.php?id=100088523223751"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Dinner on Park Avenue, Tuesday through Saturday",
+    "title": "Fine dining, *come as you are*",
+    "lede": "Fresh pasta, risotto and seafood that arrives three times a week, all made from scratch by a family-run kitchen in downtown Aiken.",
+    "cta": {
+      "label": "Reserve a table",
+      "href": "tel:+18032625269"
+    },
+    "cta2": {
+      "label": "From our kitchen",
+      "href": "#kitchen"
+    },
+    "image": {
+      "src": "/demo-assets/the-wildemount/dining-room.webp",
+      "alt": "The dining room, with velvet curtains, a starburst chandelier and tall windows onto Park Avenue"
+    }
+  },
+  "facts": [
+    {
+      "value": "Tue – Sat",
+      "label": "Dinner from 5 to 9 pm"
+    },
+    {
+      "value": "From scratch",
+      "label": "Pasta, risotto and dressings made in house"
+    },
+    {
+      "value": "Family-run",
+      "label": "Chef Samuel O'Lone and his siblings"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "kitchen",
+      "nav": "Kitchen",
+      "eyebrow": "From our kitchen",
+      "title": "Traditional dishes, *in our own style*",
+      "intro": "The menu wanders across cuisines, some dishes traditional and some with our own take. Our standard is excellence in the food, the service and the room.",
+      "items": [
+        {
+          "icon": "wheat",
+          "title": "Fresh pasta",
+          "text": "Made from scratch in our own kitchen."
+        },
+        {
+          "icon": "soup",
+          "title": "Risotto",
+          "text": "A signature dish, made from scratch."
+        },
+        {
+          "icon": "fish",
+          "title": "Seafood",
+          "text": "Fresh seafood arrives three times a week, scallops included."
+        },
+        {
+          "icon": "chef-hat",
+          "title": "Chicken piccata",
+          "text": "A house favorite, bright with lemon and capers."
+        },
+        {
+          "icon": "salad",
+          "title": "House dressings",
+          "text": "Even the salad dressings are made from scratch."
+        },
+        {
+          "icon": "trees",
+          "title": "Outdoor tables",
+          "text": "Dine outside on Park Avenue when the weather is right."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
+      "eyebrow": "Our story",
+      "title": "Named for a land of *mystery, magic and adventure*",
+      "body": [
+        "The Wildemount takes its name from a continent in Dungeons & Dragons, and Chef Samuel O'Lone brings the same sense of adventure to the kitchen. Self-taught, with a degree in theology, he has been making things since he was a kid and loves creating new dishes.",
+        "His brothers and sisters moved to Aiken with him, and several of them work in the restaurant. We took over the Park Avenue home of Solo Vino Wine Parlor, whose former owners helped us find our footing."
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "plan",
+      "nav": "Plan a dinner",
+      "eyebrow": "Plan your evening",
+      "title": "Date night, business dinner *or a celebration*",
+      "items": [
+        {
+          "title": "Call for a table",
+          "text": "Reservations are taken by phone at (803) 262-5269, Tuesday through Saturday."
+        },
+        {
+          "title": "Come as you are",
+          "text": "Fine dining, but casual. Date night and business dinners both fit right in."
+        },
+        {
+          "title": "Ask about the evening",
+          "text": "Seafood arrives three times a week, so ask your server what's fresh."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a special dinner?",
+      "text": "Call ahead to reserve, and let us know if you're celebrating.",
+      "cta": {
+        "label": "Call (803) 262-5269",
+        "href": "tel:+18032625269"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find *us*",
+    "formTitle": "Send us a note",
+    "formTopics": [
+      "Reservation question",
+      "Private dinner or party",
+      "Dietary needs",
+      "Something else"
+    ]
+  },
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/the_wildemont/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Directory listings spell the restaurant's name two different ways",
+      "Hours and how to reserve are spread across other people's sites"
+    ],
+    "after": [
+      "A site the restaurant owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call to reserve on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add the menu, photos and specials as the owner supplies them"
+    ]
+  }
+}

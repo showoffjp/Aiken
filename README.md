@@ -32,7 +32,8 @@ The repo does three things:
 - **The concept itself** at `/<slug>/`, with a "Concept preview" bar and a "What changed?" panel.
 - **A website checkup** at `/<slug>/report/`: the current site next to the concept, what we noticed, and what the concept changes. Written to be sent as a link or printed.
 - **A link preview**: pasting either link into an email, text or Facebook message shows a picture of the redesign.
-- **An outreach draft**: `npm run outreach` writes an email, a text message and a voicemail script for every concept into `./outreach` (kept out of git). Nothing is sent.
+- **A share card**: a 1200x630 before/after image at `/cards/<slug>.jpg`, used as the link preview and copied into the outreach kit for attaching to a Facebook or Instagram message.
+- **An outreach draft**: `npm run outreach` writes an email, a text message, a Facebook/Instagram message and a voicemail script for every concept into `./outreach` (kept out of git). Nothing is sent.
 
 ## Sales tools
 
@@ -40,11 +41,14 @@ The repo does three things:
 | --- | --- |
 | `npm run weigh -- --sites` | Loads every business website as a phone would and records page size and file count in `data/weights.json`. |
 | `npm run weigh -- --concepts` | The same for every concept, so checkup pages can compare the two. |
+| `npm run a11y -- --sites` | Runs the axe-core accessibility rules (WCAG 2.1 A/AA) on every business home page as a phone sees it, into `data/a11y.json`. Checkup pages show the count next to the concept's. |
+| `npm run a11y -- --concepts` | The same for every concept (add `--details` to print each finding). Every concept should come back with zero. |
+| `npm run cards` | Draws the before/after share card for every concept into `public/cards/`. |
 | `npm run variants` | Makes 640px copies of concept photos so phones download small files. |
 | `npm run print` | Prints every checkup page to a two-sided Letter PDF in `outreach/print/`, with a QR code that opens the concept. For walk-in visits. |
 | `npm run outreach` | Email, text and voicemail drafts per concept in `outreach/`, including a P.S. when a directory lists a different phone number than the business's own site. |
 
-`data/prospects.csv` also flags businesses whose directory phone number differs from their own website (49 of them, 5 that look like typos), and has blank Status / Last contact / Next step / Notes columns for tracking outreach.
+`data/prospects.csv` is sorted by **Rank**, from a 0–100 **Pitch score** that weighs how badly the current site is doing (broken, dated or missing), how heavy it is on a phone, how many serious accessibility problems it has, whether a directory lists the wrong phone number, and whether there is an email address to write to and a concept ready to show. It also flags businesses whose directory phone number differs from their own website (49 of them, 5 that look like typos), domains that have lapsed and now show a parking page, and has blank Status / Last contact / Next step / Notes columns for tracking outreach.
 
 **Who looked?** Vercel Web Analytics is enabled on the project. In the Vercel dashboard, open the `aiken-web-refresh` project, then Analytics, and filter by page path to see which concept or checkup pages were opened.
 
@@ -87,8 +91,9 @@ node scripts/assets.mjs <prospect-slug> <demo-slug> 1=hero 5=shop 17=logo
 
 # 3. Write src/demos/<demo-slug>.json (copy an existing one as a starting point)
 
-# 4. Build and refresh the index thumbnail
-npm run build && node scripts/shots.mjs <demo-slug> && npm run build
+# 4. Build, refresh the thumbnails and share card, and check it
+npm run variants && npm run build && node scripts/shots.mjs <demo-slug> && npm run cards
+npm run a11y -- --concepts <demo-slug> --details && npm run weigh -- --concepts
 ```
 
 `digest.mjs` and `shots.mjs` need Playwright with Chromium available on the machine.
@@ -97,7 +102,7 @@ npm run build && node scripts/shots.mjs <demo-slug> && npm run build
 
 - Every concept carries a visible "Concept preview" bar and a footer note saying it is not the business's official site.
 - Every concept is `noindex`, so it can never compete with the real business in search results. The portfolio index is `noindex` too until `indexable` is switched on in `src/lib/site.ts`.
-- Copy on a concept comes from the business's own public pages. Nothing is invented: no made-up reviews, prices, awards or hours. Where a site did not say, the concept leaves it out.
+- Copy on a concept comes from the business's own public pages (for a business with no site yet: its directory listings and local press). Nothing is invented: no made-up reviews, prices, awards or hours. Where a site did not say, the concept leaves it out.
 - Contact forms on concepts are inert. They collect and send nothing.
 
 ## Before sending anything

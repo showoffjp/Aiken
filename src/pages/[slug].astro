@@ -6,6 +6,7 @@ import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import { demos, fonts, telHref, title, sectionId, srcset, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
+import { accessible } from '../lib/contrast';
 
 export function getStaticPaths() {
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
@@ -21,11 +22,13 @@ const fontCss = faces.map((f) =>
   `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}` +
   (f.italic ? `@font-face{font-family:"${f.family}";src:url(${f.italic}) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}` : '')
 ).join('');
+const safe = accessible(colors);
 const vars = [
   `--bg:${colors.bg}`, `--surface:${colors.surface}`, `--ink:${colors.ink}`, `--muted:${colors.muted}`,
   `--primary:${colors.primary}`, `--on-primary:${colors.onPrimary}`, `--accent:${colors.accent}`, `--line:${colors.line}`,
   `--radius:${demo.radius ?? 10}px`,
   `--font-display:"${display.family}",${display.fallback}`, `--font-body:"${body.family}",${body.fallback}`,
+  ...Object.entries(safe).map(([k, v]) => `${k}:${v}`),
 ].join(';');
 
 const nav = [

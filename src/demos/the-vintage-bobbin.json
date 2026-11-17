@@ -1,0 +1,306 @@
+{
+  "slug": "the-vintage-bobbin",
+  "prospect": "the-vintage-bobbin",
+  "name": "The Vintage Bobbin",
+  "short": "The Vintage Bobbin",
+  "category": "Fabric, Quilting & Sewing Classes",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fbf6ef",
+    "surface": "#ffffff",
+    "ink": "#2b2420",
+    "muted": "#6b5d55",
+    "primary": "#1d5c61",
+    "onPrimary": "#fbf6ef",
+    "accent": "#c4433a",
+    "line": "#eadfd2"
+  },
+  "radius": 10,
+  "icon": "spool",
+  "contact": {
+    "phone": "(839) 839-5293",
+    "phoneLabel": "Call the shop",
+    "email": "contact@vintagebobbin.com",
+    "address": [
+      "754 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "The Vintage Bobbin, 754 Silver Bluff Road, Aiken, SC 29803",
+    "hours": [
+      [
+        "Tuesday – Friday",
+        "10:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "10:00 am – 4:00 pm"
+      ],
+      [
+        "Sunday – Monday",
+        "Closed"
+      ]
+    ]
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Fabric shop & sewing classes on Silver Bluff Road",
+    "title": "Fabric, notions and *a place to learn*",
+    "lede": "Curated quilting cottons, pre-cuts, patterns and kits, classes for every skill level, and long arm quilting for the tops you have already finished.",
+    "cta": {
+      "label": "See upcoming classes",
+      "href": "#classes"
+    },
+    "cta2": {
+      "label": "Long arm quilting",
+      "href": "#long-arm"
+    },
+    "image": {
+      "src": "/demo-assets/the-vintage-bobbin/shop-wall.webp",
+      "alt": "A wall of sewing notions, rulers and tools inside the shop"
+    }
+  },
+  "facts": [
+    {
+      "value": "All levels",
+      "label": "Classes from first stitches to appliqué"
+    },
+    {
+      "value": "Long arm",
+      "label": "Edge-to-edge quilting, about 4–5 weeks"
+    },
+    {
+      "value": "Tue – Sat",
+      "label": "Open Tuesday through Saturday"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "classes",
+      "nav": "Classes",
+      "eyebrow": "On the calendar",
+      "title": "Upcoming *classes*",
+      "intro": "Classes meet in the shop. A deposit holds your spot; patterns and materials are sold separately unless noted, so stop in beforehand to pick out your fabric.",
+      "groups": [
+        {
+          "title": "November",
+          "items": [
+            {
+              "name": "Snowman Appliqué",
+              "desc": "Friday, Nov 20 · 10 am. Turn a favorite shirt or sweatshirt into something fun for winter with raw-edge appliqué and embellishments. Bring your own shirt.",
+              "price": "50"
+            },
+            {
+              "name": "Block of the Month: Choose Happiness",
+              "desc": "Saturdays, Nov 21 and Dec 19 · 10 am. A new quilt block each month, building skills and confidence along the way. Good for every skill level.",
+              "price": "20"
+            },
+            {
+              "name": "Beginner Sewing",
+              "desc": "Tuesday, Nov 24 · 10 am. Learn your way around a sewing machine while making a simple, practical tote bag from fat quarters.",
+              "price": "35"
+            }
+          ]
+        },
+        {
+          "title": "December",
+          "items": [
+            {
+              "name": "The Big Giant Bow",
+              "desc": "Friday and Saturday, Dec 4–5 · 10 am, two sessions. An oversized fabric bow for holidays, décor or gifts. Materials and pattern sold separately.",
+              "price": "40"
+            },
+            {
+              "name": "Beginner Quilt 2.0",
+              "desc": "Wednesday, Dec 9 · 10 am. Read a quilt pattern, cut and sew squares and rectangles accurately, and master the quarter-inch seam. Materials run about $50.",
+              "price": "40"
+            },
+            {
+              "name": "Blossoms Appliqué with Jennifer McClanahan",
+              "desc": "Saturday, Dec 12 · 10 am. A small quilt with the award-winning teacher from Sweet Tea Pattern Company, in hand needle-turn or machine appliqué. Kit sold separately.",
+              "price": "50"
+            },
+            {
+              "name": "Friend and Me Tote Panel",
+              "desc": "Wednesday, Dec 30 · 10 am. Bring a parent or friend and sew a printed panel tote together, kids and grown-ups side by side."
+            }
+          ]
+        }
+      ],
+      "footnote": "Class dates and prices as posted on the shop's current website in November 2026."
+    },
+    {
+      "type": "gallery",
+      "id": "made-here",
+      "nav": "Made here",
+      "eyebrow": "From the classroom and the shelves",
+      "title": "Made *at the shop*",
+      "intro": "Projects from recent classes and patterns you can pick up in store.",
+      "images": [
+        {
+          "src": "/demo-assets/the-vintage-bobbin/daisy-quilt.webp",
+          "alt": "A red, white and yellow daisy chain appliqué quilt"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/snowman-shirt.webp",
+          "alt": "A teal long-sleeve shirt with an appliquéd snowman in a top hat"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/tote.webp",
+          "alt": "A denim-blue tote bag with sewing-tool print pockets"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/blossoms.webp",
+          "alt": "The Blossoms quilt pattern cover by Sweet Tea Pattern Company"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/choose-happiness.webp",
+          "alt": "The Choose Happiness quilt pattern used for Block of the Month"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/beginner-bag.webp",
+          "alt": "Two fat-quarter tote bags from the beginner sewing class"
+        },
+        {
+          "src": "/demo-assets/the-vintage-bobbin/ornament.webp",
+          "alt": "A red and white quilted peppermint ornament"
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "Shop",
+      "eyebrow": "In the shop",
+      "title": "Everything for *the next project*",
+      "items": [
+        {
+          "icon": "swatch-book",
+          "title": "Fabric",
+          "text": "Thoughtfully curated quilting cottons and seasonal prints."
+        },
+        {
+          "icon": "layers",
+          "title": "Pre-cuts",
+          "text": "Fat quarters, bundles and coordinated stacks ready to sew."
+        },
+        {
+          "icon": "book-open",
+          "title": "Patterns",
+          "text": "Quilts, bags and gifts, including the Block of the Month quilt."
+        },
+        {
+          "icon": "package",
+          "title": "Kits",
+          "text": "Everything for a quilt top in one bag, including class kits."
+        },
+        {
+          "icon": "scissors",
+          "title": "Notions & tools",
+          "text": "Rulers, scissors, pins, irons and the little things that make sewing easier."
+        },
+        {
+          "icon": "grid-2x2",
+          "title": "Batting & interfacing",
+          "text": "Batting by the yard, with special orders on request."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Ornaments by Adela",
+          "text": "Handmade quilted ornaments, seasonal and one of a kind."
+        },
+        {
+          "icon": "gift",
+          "title": "Gift cards",
+          "text": "Any amount, for the sewist who already has everything."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "long-arm",
+      "nav": "Long arm",
+      "eyebrow": "Long arm quilting",
+      "title": "We finish *what you started*",
+      "intro": "Your quilt is more than fabric. We help you choose the design and thread that suit your top, then quilt it with attention to every stitch.",
+      "columns": [
+        {
+          "title": "Edge-to-edge quilting",
+          "items": [
+            "From $0.025 per square inch; denser designs may cost more",
+            "Your choice of thread color (Glide thread)",
+            "Standard edge-to-edge design included",
+            "Trimmed to the edge on request",
+            "$50 minimum; about 4–5 weeks"
+          ]
+        },
+        {
+          "title": "Add-ons",
+          "items": [
+            "Piecing a backing seam: $20",
+            "Rush orders: $50",
+            "A pantograph we don't stock yet: $15",
+            "80/20 batting: $10.75 a yard",
+            "Other batting special-ordered on request"
+          ]
+        },
+        {
+          "title": "Before you drop off",
+          "items": [
+            "Press the top and trim loose threads",
+            "Check seams, and remove every pin",
+            "Backing 4 inches larger on all sides, seams pressed open",
+            "Clean, odor-free and free of pet hair",
+            "Fill out the long arm intake form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Welcome",
+      "title": "Rooted in sewing, *creativity and community*",
+      "body": [
+        "The Vintage Bobbin was created to welcome makers of all skill levels, from people learning to sew for the first time to those who have been creating for years. We believe sewing is more than a craft: it's a way to slow down, connect and create with intention.",
+        "The shop pairs curated fabrics, notions and tools with vintage touches that honor the history of the craft. Through classes, workshops and creative gatherings we hope to be a comfortable place to learn, ask questions and share what you're making.",
+        "We can't wait to meet you. — Tanya & Kailie"
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Shopping for someone who sews?",
+      "text": "Vintage Bobbin gift cards come in any amount and are good for fabric, notions or a spot in a class.",
+      "cta": {
+        "label": "Call (839) 839-5293",
+        "href": "tel:+18398395293"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the shop*",
+    "formTitle": "Send the shop a note",
+    "formTopics": [
+      "Sign up for a class",
+      "Long arm quilting",
+      "Fabric or a special order",
+      "Gift cards"
+    ]
+  },
+  "source": {
+    "url": "https://www.vintagebobbin.com/",
+    "before": [
+      "The home page downloads about 21 MB across 77 files on a phone",
+      "Built on a jQuery library from 2013",
+      "Product and class photos have no text descriptions for screen readers",
+      "No preview image or description when the link is shared"
+    ]
+  }
+}

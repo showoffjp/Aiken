@@ -1,0 +1,218 @@
+{
+  "slug": "herbal-solutions",
+  "prospect": "herbal-solutions-and-spa",
+  "name": "Herbal Solutions & Spa",
+  "short": "Herbal Solutions",
+  "category": "Natural Health Store & Massage Spa",
+  "group": "Health & Wellness",
+  "town": "Aiken, SC",
+  "established": "1998",
+  "look": "clean",
+  "fonts": {
+    "display": "fraunces",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f5f7f1",
+    "surface": "#ffffff",
+    "ink": "#1c2a1e",
+    "muted": "#56665a",
+    "primary": "#2f6b3a",
+    "onPrimary": "#f5f7f1",
+    "accent": "#a8c43c",
+    "line": "#dde4d6"
+  },
+  "radius": 14,
+  "icon": "leaf",
+  "contact": {
+    "phone": "(803) 649-9286",
+    "phoneLabel": "Call the store",
+    "email": "herbalsolutions722@gmail.com",
+    "address": [
+      "722 Silver Bluff Road, Centre South Plaza",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Herbal Solutions & Spa, 722 Silver Bluff Road, Aiken, SC 29803",
+    "hours": [
+      ["Monday – Friday", "9:00 am – 6:00 pm"],
+      ["Saturday", "10:00 am – 4:00 pm"],
+      ["Sunday", "Closed"]
+    ],
+    "hoursNote": "Store hours. Massage sessions are booked directly with your therapist.",
+    "facebook": "https://www.facebook.com/naturalsolutionsforyouandyourpets/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Natural health store & massage spa since 1998",
+    "title": "Natural health *for you and your pets*",
+    "lede": "Supplements, herbal remedies and American-made pet foods picked with care, plus licensed massage therapists in six quiet treatment rooms at Centre South Plaza.",
+    "cta": {
+      "label": "Book a massage",
+      "href": "#therapists"
+    },
+    "cta2": {
+      "label": "Shop the store",
+      "href": "#store"
+    },
+    "image": {
+      "src": "/demo-assets/herbal-solutions/store.webp",
+      "alt": "Inside the Herbal Solutions store, with shelves of natural products and pet food"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1998",
+      "label": "Grown from 750 to more than 3,200 square feet"
+    },
+    {
+      "value": "Aiken's Choice",
+      "label": "Aiken Standard readers' winner, 2021 and 2022"
+    },
+    {
+      "value": "Women-owned",
+      "label": "Locally owned by Jeri Barrett"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "store",
+      "nav": "Store",
+      "eyebrow": "The store",
+      "title": "Natural products, *chosen for quality*",
+      "intro": "We're an old-fashioned brick-and-mortar store and don't sell online, because the better we know you, the more we can help. Can't come in? Call, and we'll set your order aside for curbside pickup.",
+      "items": [
+        { "icon": "pill", "title": "Supplements & vitamins", "text": "Proven brands with quality ingredients, and staff who can help you sort through them." },
+        { "icon": "leaf", "title": "Herbal remedies", "text": "Herbs, tinctures, healing clay, sage, honey soap and other natural staples." },
+        { "icon": "bone", "title": "Natural pet food", "text": "American-made foods and treats whenever possible, chosen with input from local veterinarians." },
+        { "icon": "heart-pulse", "title": "Pet supplements", "text": "Natural remedies and supplements for dogs and cats." },
+        { "icon": "package-open", "title": "Free food samples", "text": "Picky dog? Cats eat for shape and texture. Try samples before you commit to a bag." },
+        { "icon": "car", "title": "Curbside pickup", "text": "Call ahead to check availability and we'll bring it out to you." }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "spa",
+      "nav": "Spa",
+      "eyebrow": "The spa",
+      "title": "Massage, *your way*",
+      "intro": "State-licensed therapists work in six private massage rooms in a regularly inspected facility. Sessions run 30, 60 or 90 minutes depending on the massage; tell your therapist where you hold tension and the pressure you like.",
+      "groups": [
+        {
+          "title": "Massage",
+          "items": [
+            { "name": "Swedish massage", "desc": "The classic full-body relaxation massage." },
+            { "name": "Deep tissue massage", "desc": "Slower, firmer work that realigns connective and muscle tissue." },
+            { "name": "Therapeutic massage", "desc": "Focused work on problem areas, from stress relief to chronic pain." },
+            { "name": "Hot stone massage", "desc": "Warm stones add deep heat and relaxation." }
+          ]
+        },
+        {
+          "title": "Together",
+          "items": [
+            { "name": "Couples massage", "desc": "Two therapists, one large room, side by side with your partner.", "price": "160" }
+          ]
+        }
+      ],
+      "footnote": "Ask your therapist about lengths and pricing. Gift certificates are available from each therapist."
+    },
+    {
+      "type": "services",
+      "id": "therapists",
+      "nav": "Book",
+      "eyebrow": "Book directly",
+      "title": "Call or text *your therapist*",
+      "intro": "Each practitioner keeps their own schedule, so book with them directly.",
+      "items": [
+        { "icon": "phone", "title": "Lori Alvanos, LMT", "text": "Massage therapist · (803) 640-4301" },
+        { "icon": "phone", "title": "Nick Chipman, LMT", "text": "Massage therapist · (803) 270-8533" },
+        { "icon": "phone", "title": "Steve Timmerman, LMT", "text": "Massage therapist · (803) 599-2225" },
+        { "icon": "phone", "title": "Lisa Myers", "text": "Certified Ayurvedic health counselor · (704) 860-1943" },
+        { "icon": "phone", "title": "Hartford B. Campbell Jr., L.Ac.", "text": "Acupuncturist · (706) 250-1860" }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "Our team",
+      "title": "Every one of us *has pets at home*",
+      "intro": "Our staff use natural products for their own families, people and animals alike, and that's the experience we bring to the counter.",
+      "images": [
+        { "src": "/demo-assets/herbal-solutions/team-rottweiler.webp", "alt": "A team member with her Rottweiler in a green bandana" },
+        { "src": "/demo-assets/herbal-solutions/team-puppy.webp", "alt": "A team member holding a dachshund puppy" },
+        { "src": "/demo-assets/herbal-solutions/team-cat.webp", "alt": "A team member holding an orange tabby cat" },
+        { "src": "/demo-assets/herbal-solutions/team-arthur.webp", "alt": "A team member in the store" },
+        { "src": "/demo-assets/herbal-solutions/team-frenchies.webp", "alt": "A team member with two French bulldogs in a carrier" },
+        { "src": "/demo-assets/herbal-solutions/team-poodle.webp", "alt": "A team member hugging a white poodle" },
+        { "src": "/demo-assets/herbal-solutions/front-desk.webp", "alt": "The front counter of the store" },
+        { "src": "/demo-assets/herbal-solutions/hot-stone.webp", "alt": "Hot stones placed along a client's back" },
+        { "src": "/demo-assets/herbal-solutions/dogs.webp", "alt": "Three bulldogs lounging on a trampoline" }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Growing with Aiken since 1998",
+      "title": "From 750 square feet *to a wellness destination*",
+      "body": [
+        "Jeri Barrett opened Herbal Solutions in 1998 as a 750-square-foot shop in Centre South Plaza, focused on natural products for people and their pets. The store has since more than tripled in size, to over 3,200 square feet, and added professional massage and a dedicated pet health section.",
+        "\"I'm still excited to come to work every day, even after all these years,\" says Jeri. \"I help people and their pets find better health through natural methods.\""
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our neighbors",
+      "title": "What people *say*",
+      "items": [
+        { "text": "I love this little store. They're always helpful and carry many products I can't find anywhere else. They're reasonable too. They have free samples that are very helpful.", "by": "Kat G." },
+        { "text": "The absolute best place for you and your four-legged companions! I buy all of my dogs' food and treats and supplements here. The staff goes above and beyond every single visit!", "by": "Heather R." },
+        { "text": "Great therapists, great natural dog products, and nice and generous staff and owner!", "by": "Christopher N." }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Common *questions*",
+      "items": [
+        { "q": "Which massage should I choose to relax?", "a": "Swedish massage is the classic relaxation option, and hot stone adds warmth. Your therapist can help you decide." },
+        { "q": "Are your massage therapists licensed?", "a": "Yes. Every massage is given by a South Carolina state-licensed therapist, and the spa is inspected every year." },
+        { "q": "Can I buy a massage gift certificate?", "a": "Yes. Contact your preferred therapist directly to arrange one." },
+        { "q": "Do you ship or sell online?", "a": "No. We're a brick-and-mortar store, but call us and we'll check availability and set up curbside pickup." },
+        { "q": "Where do I park?", "a": "We're at 722 Silver Bluff Road in Centre South Plaza, with parking right outside." }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Not sure where to start?",
+      "text": "Stop by and ask. We'll help you find what works for you, or for the dog waiting in the car.",
+      "cta": {
+        "label": "Call (803) 649-9286",
+        "href": "tel:+18036499286"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the store*",
+    "formTitle": "Ask us a question",
+    "formTopics": [
+      "Is an item in stock?",
+      "Curbside pickup",
+      "Pet food and samples",
+      "Massage or gift certificates"
+    ]
+  },
+  "source": {
+    "url": "https://www.twoherbalsolutions.com/",
+    "before": [
+      "The home page downloads about 9 MB across 161 files on a phone",
+      "Page layout still uses HTML tables",
+      "Every page repeats its title as two headings at different levels, which confuses screen readers"
+    ]
+  }
+}

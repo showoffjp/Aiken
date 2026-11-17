@@ -186,7 +186,8 @@ async function digest(slug) {
     if (!existsSync(tmp) && !(await download(img.url, tmp))) return;
     try {
       const meta = await sharp(tmp).metadata();
-      if (!meta.width || meta.width < 140 || meta.height < 90) return;
+      if (!meta.width || meta.width < 140 || meta.height < 90 || meta.format === 'heif') return;
+      await sharp(tmp).resize(32).toBuffer(); // make sure it actually decodes
       kept.push({ ...img, i, w: meta.width, h: meta.height, format: meta.format, file: tmp });
     } catch {}
   });

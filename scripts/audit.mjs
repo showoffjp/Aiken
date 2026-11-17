@@ -170,7 +170,7 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
 
   // --- broken / parked
   let state = 'ok';
-  if (/domain (is|may be) for sale|buy this domain|hugedomains|sedoparking|parkingcrew|this domain has expired|domain parking|godaddy\.com\/forsale|dan\.com\/buy-domain|is parked free|afternic/i.test(html)) state = 'parked';
+  if (/domain (is|may be) for sale|buy this domain|hugedomains|sedoparking|parkingcrew|this domain has expired|domain parking|godaddy\.com\/forsale|dan\.com\/buy-domain|is parked free|afternic|router\.parklogic\.com|bodis\.com|parking\.above\.com|dsnextgen|domainmarket\.com/i.test(html)) state = 'parked';
   else if (/account (has been )?suspended|bandwidth limit exceeded|apache2 (ubuntu|debian) default page|welcome to nginx|index of \/|it works!<\/h1>|default web site page|website coming soon|site (is )?under construction|launching soon|future home of/i.test(html)) state = 'placeholder';
   else if (/online ordering setup in progress|finish setting up your|page cannot be displayed|this site can.t be reached|website is (currently )?(unavailable|offline)|no longer available/i.test(text)) state = 'placeholder';
   else if (text.length < 400 && /one moment, please|request is being verified|checking your browser|just a moment|verify you are human|enable javascript and cookies|attention required|access denied|captcha/i.test(text)) state = 'blocked';
