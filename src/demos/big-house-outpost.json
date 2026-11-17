@@ -1,0 +1,130 @@
+{
+  "name": "Big House Outpost",
+  "short": "Big House Outpost",
+  "category": "Outdoor Apparel & Gifts",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f5f3ec",
+    "surface": "#ffffff",
+    "ink": "#1b211b",
+    "muted": "#5b635a",
+    "primary": "#34472f",
+    "onPrimary": "#f5f3ec",
+    "accent": "#b9852f",
+    "line": "#dcd8cb"
+  },
+  "radius": 2,
+  "icon": "tent",
+  "contact": {
+    "phone": "(803) 507-5174",
+    "address": [
+      "300 Park Avenue SE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Big House Outpost, 300 Park Ave SE, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=61564006017859"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Southern elegance and adventure",
+    "title": "Gear for the outdoors *and the moments in it*",
+    "lede": "A collection that blends the outdoor arts with premium apparel, selected to enhance every outdoor adventure and family moment.",
+    "cta": {
+      "label": "Visit the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 507-5174",
+      "href": "tel:+18035075174"
+    }
+  },
+  "facts": [
+    {
+      "value": "High-end brands",
+      "label": "A premier, carefully selected collection"
+    },
+    {
+      "value": "Outdoor pursuits",
+      "label": "Tailored to those who cherish them"
+    },
+    {
+      "value": "Park Avenue",
+      "label": "300 Park Avenue SE, Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the shop",
+      "columns": 4,
+      "eyebrow": "In the shop",
+      "title": "Timeless elegance, *unmatched quality*",
+      "items": [
+        {
+          "icon": "shirt",
+          "title": "Fine apparel"
+        },
+        {
+          "icon": "cooking-pot",
+          "title": "Cookware"
+        },
+        {
+          "icon": "flame",
+          "title": "Grilling supplies"
+        },
+        {
+          "icon": "gift",
+          "title": "Unique gifts"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The spirit of Southern living",
+      "title": "Everything here was *chosen on purpose*",
+      "body": [
+        "We feature high-end brands, and our premier collection is tailored to those who cherish outdoor pursuits. We have meticulously selected everything in our space to enhance every outdoor adventure and family moment you are blessed to enjoy."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Elevate your lifestyle.",
+      "text": "Visit the Big House Outpost on Park Avenue.",
+      "cta": {
+        "label": "Call (803) 507-5174",
+        "href": "tel:+18035075174"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the Outpost*",
+    "hideForm": true
+  },
+  "slug": "big-house-outpost",
+  "prospect": "big-house-outpost",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/big-house-outpost/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

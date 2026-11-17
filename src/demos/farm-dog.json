@@ -1,0 +1,121 @@
+{
+  "name": "Farm Dog",
+  "short": "Farm Dog",
+  "category": "Gourmet Hot Dogs",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#fbf6ea",
+    "surface": "#ffffff",
+    "ink": "#1d1a14",
+    "muted": "#655f52",
+    "primary": "#3f6212",
+    "onPrimary": "#ffffff",
+    "accent": "#f59e0b",
+    "line": "#e5dcc8"
+  },
+  "radius": 4,
+  "icon": "sandwich",
+  "contact": {
+    "phone": "(843) 323-0768",
+    "hours": [
+      [
+        "Tuesday – Saturday",
+        "11:00 am – 3:30 pm"
+      ]
+    ],
+    "instagram": "https://www.instagram.com/farmdogsaiken/"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Presented by Burrell and Flynn's Farm",
+    "title": "An American classic, *with a gourmet twist*",
+    "lede": "Premium all-beef franks, artisan buns and bold, chef-inspired toppings you won't find anywhere else.",
+    "cta": {
+      "label": "Call (843) 323-0768",
+      "href": "tel:+18433230768"
+    },
+    "cta2": {
+      "label": "Hours",
+      "href": "#visit"
+    },
+    "points": [
+      "All-beef franks",
+      "Artisan buns",
+      "Locally sourced"
+    ]
+  },
+  "facts": [
+    {
+      "value": "All beef",
+      "label": "Premium franks"
+    },
+    {
+      "value": "Chef inspired",
+      "label": "Bold toppings and creative combinations"
+    },
+    {
+      "value": "Tue – Sat",
+      "label": "11:00 am to 3:30 pm"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "dogs",
+      "nav": "The dogs",
+      "columns": 3,
+      "eyebrow": "Every bite, thoughtfully crafted",
+      "title": "Built *to impress*",
+      "items": [
+        {
+          "icon": "beef",
+          "title": "Premium all-beef franks"
+        },
+        {
+          "icon": "croissant",
+          "title": "Artisan buns"
+        },
+        {
+          "icon": "leaf",
+          "title": "Locally sourced ingredients"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Lunch is served Tuesday through Saturday.",
+      "cta": {
+        "label": "Call (843) 323-0768",
+        "href": "tel:+18433230768"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Come *hungry*",
+    "hideForm": true
+  },
+  "slug": "farm-dog",
+  "prospect": "farm-dog",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/farm-dog/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

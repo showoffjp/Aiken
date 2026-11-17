@@ -152,7 +152,7 @@ const year = new Date().getFullYear();
             <h2 set:html={title(demo.visit?.title || 'Come *see us*')} />
             {demo.visit?.intro && <p>{demo.visit.intro}</p>}
           </div>
-          <div class="grid">
+          <div class={`grid ${!mapSrc && demo.visit?.hideForm ? 'solo' : ''}`}>
             <div class="info">
               {contact.phone && (
                 <div class="row"><Icon name="phone" size={22} /><div>
