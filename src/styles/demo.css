@@ -393,3 +393,83 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
    primary colour the banner is painted with. */
 [data-look="warm"] .hero[data-variant="banner"] h1 em { color: var(--accent-on-primary, var(--accent)); text-decoration-color: color-mix(in srgb, var(--on-primary) 55%, transparent); }
 [data-look="warm"] .hero[data-variant="photo"] h1 em { color: var(--accent-on-photo, var(--accent)); }
+
+/* ==========================================================================
+   Motion layer: an ambient gradient in the business's own colours, sections
+   that rise in as they scroll into view, and richer hover states. Nothing in
+   the first screen is hidden (so the largest paint is never delayed), and all
+   of it switches off for prefers-reduced-motion (see top of file) and print.
+   ========================================================================== */
+body.demo { isolation: isolate; }
+body.demo::before {
+  content: ""; position: fixed; inset: -25vmax; z-index: -1; pointer-events: none;
+  background:
+    radial-gradient(38vmax 38vmax at 18% 22%, color-mix(in srgb, var(--primary) 9%, transparent), transparent 70%),
+    radial-gradient(34vmax 34vmax at 82% 28%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 70%),
+    radial-gradient(42vmax 42vmax at 55% 88%, color-mix(in srgb, var(--primary) 7%, transparent), transparent 70%);
+  animation: demo-ambient 32s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes demo-ambient {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+  50% { transform: translate3d(5%, -4%, 0) rotate(9deg) scale(1.08); }
+  100% { transform: translate3d(-5%, 4%, 0) rotate(-7deg) scale(1.04); }
+}
+
+/* Scroll reveals (the class is added by script, so no-JS visitors see everything). */
+.motion .reveal { opacity: 0; transform: translateY(22px); transition: opacity .75s cubic-bezier(.2, .7, .2, 1) var(--d, 0ms), transform .75s cubic-bezier(.2, .7, .2, 1) var(--d, 0ms); }
+.motion .reveal.in { opacity: 1; transform: none; }
+
+/* Hero: a slow drift on the photo and a gentle float on the badge. */
+.hero-visual .frame img { animation: demo-drift 22s ease-in-out infinite alternate; transform-origin: 60% 40%; }
+@keyframes demo-drift { from { transform: scale(1); } to { transform: scale(1.06); } }
+.hero-visual .frame.contain img { animation: none; }
+.hero-visual .chip { animation: demo-float 6s ease-in-out infinite; }
+@keyframes demo-float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+
+/* Buttons: a sheen sweeps across on hover. */
+.btn { position: relative; overflow: hidden; isolation: isolate; }
+.btn::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / .28) 50%, transparent 70%); translate: -120% 0; transition: translate .7s ease; pointer-events: none; }
+.btn:hover::after { translate: 120% 0; }
+
+/* Nav: the underline grows from the left. */
+.nav a { border-bottom-color: transparent !important; background: linear-gradient(var(--accent), var(--accent)) left bottom / 0 2px no-repeat; transition: background-size .3s ease, color .2s ease; }
+.nav a:hover, .nav a:focus-visible { background-size: 100% 2px; }
+
+/* Cards: lift, a tinted shadow, and a soft spotlight that follows the pointer. */
+.card { position: relative; overflow: hidden; isolation: isolate; transition: transform .35s cubic-bezier(.2, .7, .2, 1), box-shadow .35s ease, border-color .35s ease; }
+.card::after { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0; transition: opacity .35s ease; background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 0%), color-mix(in srgb, var(--primary) 13%, transparent), transparent 70%); }
+.card:hover { transform: translateY(-6px); border-color: color-mix(in srgb, var(--primary) 38%, var(--line)); box-shadow: 0 22px 40px -22px color-mix(in srgb, var(--primary) 55%, transparent); }
+.card:hover::after { opacity: 1; }
+.card .badge { transition: transform .35s cubic-bezier(.2, .7, .2, 1); }
+.card:hover .badge { transform: rotate(-8deg) scale(1.1); }
+/* Bold keeps its hard offset shadow: the card lifts toward the corner instead. */
+[data-look="bold"] .card:hover { transform: translate(-3px, -3px); border-color: var(--ink); box-shadow: 9px 9px 0 var(--ink); }
+/* Editorial and boutique cards have no box, so they lift without a shadow. */
+[data-look="editorial"] .card:hover, [data-look="boutique"] .card:hover { box-shadow: none; }
+[data-look="editorial"] .card:hover { border-top-color: var(--accent); }
+
+/* Gallery: a wash of the theme colour over the zoom. */
+.gallery figure { position: relative; }
+.gallery figure::after { content: ""; position: absolute; inset: 0; background: linear-gradient(160deg, transparent 45%, color-mix(in srgb, var(--primary) 38%, transparent)); opacity: 0; transition: opacity .45s ease; pointer-events: none; }
+.gallery figure:hover::after { opacity: 1; }
+
+/* Reviews, steps, facts and FAQ get a lighter touch. */
+.quotes figure { transition: transform .35s cubic-bezier(.2, .7, .2, 1), box-shadow .35s ease; }
+.quotes figure:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.steps li { transition: border-color .3s ease; }
+.steps li:hover { border-top-color: var(--accent); }
+.facts li { transition: background .3s ease; }
+.facts li:hover { background: var(--soft); }
+.faq summary { transition: color .2s ease, padding-left .25s ease; }
+.faq summary:hover { color: var(--primary-text, var(--primary)); padding-left: 6px; }
+
+/* The closing band: a slow gradient sweep in the theme colours. */
+.band { background: linear-gradient(120deg, var(--primary), color-mix(in srgb, var(--primary) 86%, var(--accent)), var(--primary)) 0 0 / 220% 100%; animation: demo-band 14s ease-in-out infinite alternate; }
+@keyframes demo-band { to { background-position: 100% 0; } }
+
+@media print {
+  body.demo::before { display: none; }
+  .motion .reveal { opacity: 1 !important; transform: none !important; }
+  *, *::before, *::after { animation: none !important; }
+}

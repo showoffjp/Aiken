@@ -313,6 +313,27 @@ const ld = {
           else on = d.split(/[,&/]|\band\b/).some((p) => names[today] && p.trim().startsWith(names[today]));
           if (on) tr.classList.add('today');
         });
+
+        // Motion: sections rise in as they scroll into view, and cards get a
+        // spotlight that follows the pointer. Skipped for reduced motion and
+        // for automated browsers (screenshots and page tests see the final state).
+        if (!matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window && !navigator.webdriver) {
+          document.documentElement.classList.add('motion');
+          const io = new IntersectionObserver((entries) => entries.forEach((e) => {
+            if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+          }), { rootMargin: '0px 0px -8% 0px' });
+          document.querySelectorAll('main > .section .section-head, .cards > li, .gallery figure, .steps li, .quotes figure, .faq details, .menu-group, .story .wrap > *, .band .wrap > *, .visit .wrap > *').forEach((el) => {
+            const i = Array.prototype.indexOf.call(el.parentElement.children, el);
+            el.style.setProperty('--d', `${(i % 6) * 70}ms`);
+            el.classList.add('reveal');
+            io.observe(el);
+          });
+        }
+        document.querySelectorAll('.card').forEach((card) => card.addEventListener('pointermove', (e) => {
+          const r = card.getBoundingClientRect();
+          card.style.setProperty('--mx', `${e.clientX - r.left}px`);
+          card.style.setProperty('--my', `${e.clientY - r.top}px`);
+        }));
       })();
     </script>
   </body>

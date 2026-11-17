@@ -87,6 +87,7 @@ So I went ahead and built a working concept of what a ${none ? 'first' : 'new'} 
 It is free to look at and there is no obligation. If you like it, I can have it live on your own web address within a few days. If not, no hard feelings.
 
 A one-page ${none ? 'summary' : 'checkup of the current site'} is here: ${report}
+And a full search and social media report, with how you compare to local competitors: ${base}/${d.slug}/seo/
 
 ${me.name}
 ${studio}
@@ -140,6 +141,7 @@ Not interested? Reply "no thanks" and I will not contact you again.`;
 | Current site | ${none ? 'none (listing: ' + d.source.url + ')' : `${d.source.url} (${row.siteState || 'not audited'})`} |
 | Concept | ${link} |
 | Checkup | ${report} |
+| SEO & social report | ${base}/${d.slug}/seo/ (PDF: print/seo/${d.slug}-seo-report.pdf) |
 
 ## Email
 

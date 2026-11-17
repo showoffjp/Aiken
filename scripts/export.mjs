@@ -63,6 +63,7 @@ const weights = JSON.parse(await readFile(new URL('../data/weights.json', import
 const a11y = JSON.parse(await readFile(new URL('../data/a11y.json', import.meta.url), 'utf8').catch(() => '{}'));
 const domains = JSON.parse(await readFile(new URL('../data/domains.json', import.meta.url), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(new URL('../data/lighthouse.json', import.meta.url), 'utf8').catch(() => '{}'));
+const seoData = JSON.parse(await readFile(new URL('../data/seo.json', import.meta.url), 'utf8').catch(() => '{}'));
 
 // What the registry says about the business's web address, in plain words.
 function domainState(d) {
@@ -142,6 +143,8 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     a11ySerious: a11y[b.slug]?.site && !a11y[b.slug].site.error ? a11y[b.slug].site.critical + a11y[b.slug].site.serious : null,
     lhPerformance: lighthouse[b.slug]?.site && !lighthouse[b.slug].site.error ? lighthouse[b.slug].site.performance : null,
     lhAccessibility: lighthouse[b.slug]?.site && !lighthouse[b.slug].site.error ? lighthouse[b.slug].site.accessibility : null,
+    seoHealth: seoData[b.slug]?.scores?.seo ?? null,
+    socialPresence: seoData[b.slug]?.scores?.social ?? null,
     domain: domains[b.slug]?.domain || '',
     domainExpires: domains[b.slug]?.expires || '',
     domainState: domainState(domains[b.slug]),
@@ -164,7 +167,7 @@ const cols = [
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
   ['Address', (r) => r.address], ['Contact person', (r) => r.contact], ['Family / local note (from their site)', (r) => r.familyNote],
-  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
+  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')], ['SEO health', (r) => r.seoHealth ?? ''], ['Social presence', (r) => r.socialPresence ?? ''], ['SEO & social report', (r) => (r.demo ? `${liveUrl}/${r.demo}/seo/` : '')],
 
   // Left blank for you to fill in as you work the list.
   ['Status', () => ''], ['Last contact', () => ''], ['Next step', () => ''], ['Notes', () => ''],
