@@ -1,0 +1,133 @@
+{
+  "name": "Apizza di Napoli",
+  "short": "Apizza di Napoli",
+  "category": "Wood-Fired Pizzeria",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fbf6ec",
+    "surface": "#fffdf7",
+    "ink": "#231a14",
+    "muted": "#6b5d52",
+    "primary": "#1f5c3a",
+    "onPrimary": "#fbf6ec",
+    "accent": "#d8452e",
+    "line": "#eadfcb"
+  },
+  "radius": 14,
+  "icon": "pizza",
+  "contact": {
+    "phone": "(803) 226-0700",
+    "address": [
+      "740 Silver Bluff Road",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Apizza di Napoli, 740 Silver Bluff Rd, Aiken, SC",
+    "facebook": "https://www.facebook.com/PizzaDiNapoli/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Family owned and operated",
+    "title": "Authentic wood-fired *Neapolitan pizza*",
+    "lede": "A true Italian experience on Silver Bluff Road. Sit, relax and stay as long as you like, just like in Italy.",
+    "cta": {
+      "label": "Call (803) 226-0700",
+      "href": "tel:+18032260700"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Wood fired",
+      "label": "Authentic Neapolitan pizza"
+    },
+    {
+      "value": "Family owned",
+      "label": "And operated"
+    },
+    {
+      "value": "Take out",
+      "label": "The entire menu is available to go"
+    }
+  ],
+  "sections": [
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "A dream waiting to be born",
+      "title": "Born from a love of *Italy*",
+      "body": [
+        "Apizza di Napoli is a family owned and operated authentic wood-fired Neapolitan pizzeria. It came from Cliff Garzzillo's profound love of Italy and passion for pizza."
+      ],
+      "quote": {
+        "text": "To be able to share my passion for pizza was always a dream waiting to be born.",
+        "by": "Cliff Garzzillo"
+      }
+    },
+    {
+      "type": "services",
+      "id": "visit-us",
+      "nav": "Dine in or take out",
+      "columns": 3,
+      "eyebrow": "True dining with a twist",
+      "title": "Stay a while, *or take it home*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Wood-fired oven",
+          "text": "Authentic Neapolitan pizza, the way it is made in Naples."
+        },
+        {
+          "icon": "armchair",
+          "title": "Dine in",
+          "text": "Sit and relax as long as you like and enjoy the experience."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Take out",
+          "text": "The entire menu is available to go, though we would love your first visit to be dine-in."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Call ahead for take out, or just come in.",
+      "cta": {
+        "label": "Call (803) 226-0700",
+        "href": "tel:+18032260700"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Silver Bluff Road*",
+    "hideForm": true
+  },
+  "slug": "apizza-di-napoli",
+  "prospect": "apizza-di-napoli",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/apizza_di_napoli/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

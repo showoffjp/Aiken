@@ -1,0 +1,127 @@
+{
+  "name": "Pitter Patter Children's Boutique",
+  "short": "Pitter Patter",
+  "category": "Children's Boutique",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "established": "1991",
+  "look": "boutique",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f8fafc",
+    "surface": "#ffffff",
+    "ink": "#1f2a3a",
+    "muted": "#5f6b7c",
+    "primary": "#4f77a3",
+    "onPrimary": "#ffffff",
+    "accent": "#f0a9bb",
+    "line": "#dfe6ee"
+  },
+  "radius": 0,
+  "icon": "baby",
+  "contact": {
+    "phone": "(803) 643-8000",
+    "address": [
+      "131 Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Pitter Patter Children's Boutique, 131 Laurens Street SW, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/PitterPatterAiken/"
+  },
+  "hero": {
+    "variant": "centered",
+    "eyebrow": "Downtown Aiken · Since 1991",
+    "title": "Fine children's fashions, *since 1991*",
+    "lede": "Clothing, toys and gifts for little ones, with monogramming in the shop. Aiken's choice for more than thirty years.",
+    "cta": {
+      "label": "Visit the boutique",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 643-8000",
+      "href": "tel:+18036438000"
+    }
+  },
+  "facts": [
+    {
+      "value": "1991",
+      "label": "Aiken's choice for children's fashions since"
+    },
+    {
+      "value": "We monogram",
+      "label": "Make it theirs"
+    },
+    {
+      "value": "Laurens Street",
+      "label": "In downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the boutique",
+      "columns": 4,
+      "eyebrow": "In the boutique",
+      "title": "Everything for *little ones*",
+      "items": [
+        {
+          "icon": "shirt",
+          "title": "Clothing"
+        },
+        {
+          "icon": "blocks",
+          "title": "Toys"
+        },
+        {
+          "icon": "gift",
+          "title": "Gifts"
+        },
+        {
+          "icon": "pen-tool",
+          "title": "Monogramming"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come by and see us today!",
+      "text": "131 Laurens Street SW, downtown Aiken.",
+      "cta": {
+        "label": "Call (803) 643-8000",
+        "href": "tel:+18036438000"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the boutique*",
+    "formTitle": "Ask us a question",
+    "formTopics": [
+      "Clothing",
+      "Toys",
+      "A gift",
+      "Monogramming"
+    ]
+  },
+  "slug": "pitter-patter",
+  "prospect": "pitter-patter-carolines",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/pitter_patter/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

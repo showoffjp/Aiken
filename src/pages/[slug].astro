@@ -75,7 +75,7 @@ const year = new Date().getFullYear();
     <aside class="concept" aria-label="About this preview">
       <div class="wrap">
         <span class="dot"></span>
-        <span class="grow"><b>Concept preview.</b> <span class="long">A redesign idea for {demo.name}, not their live website ({sourceHost}).</span><span class="short">Not the live site.</span></span>
+        <span class="grow"><b>Concept preview.</b> <span class="long">{demo.source.none ? `A first-website idea for ${demo.name}, which has no site of its own yet.` : `A redesign idea for ${demo.name}, not their live website (${sourceHost}).`}</span><span class="short">Not the live site.</span></span>
         <button type="button" data-open-notes>What changed?</button>
         <a href="/">{site.name}</a>
       </div>
@@ -256,12 +256,12 @@ const year = new Date().getFullYear();
         <button class="close" type="button" data-close-notes aria-label="Close">×</button>
       </header>
       <div class="cols">
-        <div><h3>The current site</h3><ul>{demo.source.before.map((b) => <li>{b}</li>)}</ul></div>
+        <div><h3>{demo.source.none ? 'Today' : 'The current site'}</h3><ul>{demo.source.before.map((b) => <li>{b}</li>)}</ul></div>
         <div class="after"><h3>This concept</h3><ul>{after.map((b) => <li>{b}</li>)}</ul></div>
       </div>
       <p class="fine" style="padding-bottom:10px"><a href={`/${demo.slug}/report/`}><b>See the one-page website checkup →</b></a></p>
       <p class="fine">
-        Words, hours and photos here come from {demo.name}'s own public pages (<a href={demo.source.url} target="_blank" rel="noopener nofollow">{sourceHost}</a>) and would be confirmed with the owner before anything goes live.
+        Words, hours and photos here come from {demo.source.none ? `the public listing for ${demo.name}` : `${demo.name}'s own public pages`} (<a href={demo.source.url} target="_blank" rel="noopener nofollow">{sourceHost}</a>) and would be confirmed with the owner before anything goes live.
       </p>
     </dialog>
 

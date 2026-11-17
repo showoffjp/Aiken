@@ -1,0 +1,139 @@
+{
+  "name": "Antiques & More Mall",
+  "short": "Antiques & More Mall",
+  "category": "Antique Mall",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f9f4ea",
+    "surface": "#fffdf8",
+    "ink": "#2a2018",
+    "muted": "#6d5f52",
+    "primary": "#6a4a2c",
+    "onPrimary": "#fff8ec",
+    "accent": "#c9a24a",
+    "line": "#e9dec9"
+  },
+  "radius": 12,
+  "icon": "lamp",
+  "contact": {
+    "phone": "(803) 644-1060",
+    "address": [
+      "640 E Pine Log Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Antiques & More Mall, 640 E Pine Log Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:30 am – 5:30 pm"
+      ],
+      [
+        "Sunday",
+        "12:30 – 5:00 pm"
+      ]
+    ],
+    "facebook": "http://www.facebook.com/antiquesandmoremall"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Antique · Vintage · Retro · Classic",
+    "title": "A treasure trove *for your home*",
+    "lede": "Antique, vintage, retro and classic furniture and unique home décor at competitive prices, plus a Garden Patio Collection of outdoor furnishings and garden accents.",
+    "cta": {
+      "label": "Plan a visit",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Second Sunday Sale",
+      "href": "#events"
+    }
+  },
+  "facts": [
+    {
+      "value": "Open 7 days",
+      "label": "Monday to Saturday 10:30 to 5:30, Sunday 12:30 to 5:00"
+    },
+    {
+      "value": "Second Sunday Sale",
+      "label": "Every month, Friday through Sunday"
+    },
+    {
+      "value": "Garden patio",
+      "label": "Outdoor furnishings and garden accents"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "What you'll find",
+      "columns": 3,
+      "eyebrow": "What you'll find",
+      "title": "One-of-a-kind *pieces*",
+      "items": [
+        {
+          "icon": "armchair",
+          "title": "Furniture",
+          "text": "Antique, vintage, retro and classic."
+        },
+        {
+          "icon": "lamp",
+          "title": "Home décor",
+          "text": "Unique pieces to inspire your creativity and transform your living spaces."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Garden Patio Collection",
+          "text": "Outdoor furnishings and garden accents, showcased behind the Outdoor Garden Fence."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Events",
+      "title": "The *Second Sunday Sale*",
+      "body": [
+        "Join us for special events throughout the year, including our popular Second Sunday Sale, held every month, Friday through Sunday. It is the perfect opportunity to find that one-of-a-kind piece you have been searching for."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Looking for something in particular?",
+      "text": "Call the mall and ask.",
+      "cta": {
+        "label": "Call (803) 644-1060",
+        "href": "tel:+18036441060"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Plan *a visit*",
+    "hideForm": true
+  },
+  "slug": "antiques-and-more-mall",
+  "prospect": "antiques-and-more-mall",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/antiques-more-mall/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

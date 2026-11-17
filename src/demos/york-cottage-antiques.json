@@ -1,0 +1,126 @@
+{
+  "name": "York Cottage Antiques",
+  "short": "York Cottage Antiques",
+  "category": "Antiques",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "cormorant",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f7f4ee",
+    "surface": "#ffffff",
+    "ink": "#1f1a24",
+    "muted": "#655e69",
+    "primary": "#3d2f4d",
+    "onPrimary": "#ffffff",
+    "accent": "#b08d57",
+    "line": "#dfd9cf"
+  },
+  "radius": 0,
+  "icon": "armchair",
+  "contact": {
+    "phone": "(803) 642-9524",
+    "address": [
+      "409 Hayne Avenue SW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "York Cottage Antiques, 409 Hayne Ave SW, Aiken, SC",
+    "facebook": "https://www.facebook.com/aikenantiques"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken, South Carolina",
+    "title": "For those looking for *a special treasure*",
+    "lede": "A unique shop full of French and English furniture and smalls, sterling silver, fine old plate and vintage sporting collectibles.",
+    "cta": {
+      "label": "Visit the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 642-9524",
+      "href": "tel:+18036429524"
+    }
+  },
+  "facts": [
+    {
+      "value": "French & English",
+      "label": "Furniture and smalls"
+    },
+    {
+      "value": "Sterling silver",
+      "label": "And fine old plate"
+    },
+    {
+      "value": "Sporting",
+      "label": "Vintage sporting collectibles"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the shop",
+      "columns": 4,
+      "eyebrow": "In the shop",
+      "title": "An eclectic *collection*",
+      "items": [
+        {
+          "icon": "armchair",
+          "title": "French & English furniture"
+        },
+        {
+          "icon": "gem",
+          "title": "Smalls"
+        },
+        {
+          "icon": "utensils",
+          "title": "Sterling silver & fine old plate"
+        },
+        {
+          "icon": "trophy",
+          "title": "Vintage sporting collectibles"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "The inventory is always changing.",
+      "text": "Come by, or follow the shop on Facebook for a taste of what is in.",
+      "cta": {
+        "label": "Call (803) 642-9524",
+        "href": "tel:+18036429524"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit *the cottage*",
+    "formTitle": "Ask about a piece",
+    "formTopics": [
+      "Furniture",
+      "Silver",
+      "Sporting collectibles",
+      "Something else"
+    ]
+  },
+  "slug": "york-cottage-antiques",
+  "prospect": "york-cottage-antiques",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/york-cottage-antiques/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  }
+}

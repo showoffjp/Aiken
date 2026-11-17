@@ -37,21 +37,22 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
   const broken = row.tier === 'broken';
   const findings = d.source.before.slice(0, broken ? 1 : 2);
-  const subject = broken ? `${short}: your website is not loading for visitors` : `A new website idea for ${short}`;
+  const none = !!d.source.none;
+  const subject = none ? `A website for ${short}` : broken ? `${short}: your website is not loading for visitors` : `A new website idea for ${short}`;
 
   const body = `Hi ${first || 'there'},
 
-I'm ${me.name}. I build websites for small businesses around Aiken. I was looking at ${host} and noticed ${broken ? 'a problem' : 'a couple of things'}:
+I'm ${me.name}. I build websites for small businesses around Aiken. ${none
+    ? `I went looking for ${short} online and could not find a website, only a listing and a social page. That means the first thing a new customer sees is something you do not control.`
+    : `I was looking at ${host} and noticed ${broken ? 'a problem' : 'a couple of things'}:\n\n${findings.map((x) => `  - ${x}`).join('\n')}`}
 
-${findings.map((x) => `  - ${x}`).join('\n')}
-
-So I went ahead and built a working concept of what a new site could look like for ${d.name.replace(/,? (LLC|Inc\.?|P\.?C\.?)$/i, '')}, using the words${d.hero.image || d.logo ? ' and photos' : ''} you already have online:
+So I went ahead and built a working concept of what a ${none ? 'first' : 'new'} site could look like for ${d.name.replace(/,? (LLC|Inc\.?|P\.?C\.?)$/i, '')}, using the words${d.hero.image || d.logo ? ' and photos' : ''} you already have online:
 
   ${link}
 
 It is free to look at and there is no obligation. If you like it, I can have it live on your own web address within a few days. If not, no hard feelings.
 
-A one-page checkup of the current site is here: ${report}
+A one-page ${none ? 'summary' : 'checkup of the current site'} is here: ${report}
 
 ${me.name}
 ${studio}
@@ -61,7 +62,7 @@ ${me.address}
 Not interested? Reply "no thanks" and I will not contact you again.`;
 
   const text = `Hi${first ? ` ${first}` : ''}, this is ${me.name} with ${studio} in Aiken. I built a free concept for a new ${short} website: ${link} No obligation. Happy to walk you through it. Reply STOP and I won't text again.`;
-  const voicemail = `Hi${first ? ` ${first}` : ''}, this is ${me.name}. I build websites for small businesses here in the Aiken area. I noticed that ${lower(findings[0]).replace(/\.$/, '')}, so I put together a free concept of a new site for ${short}. I'd love to send you the link. My number is ${me.phone}. Again, that's ${me.name} at ${me.phone}. Thanks.`;
+  const voicemail = `Hi${first ? ` ${first}` : ''}, this is ${me.name}. I build websites for small businesses here in the Aiken area. ${none ? `I could not find a website for ${short}` : `I noticed that ${lower(findings[0]).replace(/\.$/, '')}`}, so I put together a free concept of a new site for ${short}. I'd love to send you the link. My number is ${me.phone}. Again, that's ${me.name} at ${me.phone}. Thanks.`;
 
   const file = `${d.slug}.md`;
   await writeFile(path.join(out, file), `# ${d.name}
@@ -72,7 +73,7 @@ Not interested? Reply "no thanks" and I will not contact you again.`;
 | Email | ${email || 'none on file: call or visit'} |
 | Phone | ${phone || 'none on file'} |
 | Contact | ${row.contact || 'unknown'} |
-| Current site | ${d.source.url} (${row.siteState || 'not audited'}) |
+| Current site | ${none ? 'none (listing: ' + d.source.url + ')' : `${d.source.url} (${row.siteState || 'not audited'})`} |
 | Concept | ${link} |
 | Checkup | ${report} |
 

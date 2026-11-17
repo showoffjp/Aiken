@@ -76,14 +76,16 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
     <main class="rp-wrap">
       <p class="rp-kicker">{demo.category} · {demo.town}</p>
       <h1>{demo.name}</h1>
-      <p class="rp-lede">A plain-English look at <a href={demo.source.url} target="_blank" rel="noopener nofollow">{host}</a>, and a working concept for what it could be.</p>
+      {demo.source.none
+        ? <p class="rp-lede">{demo.name} has no website of its own today. Here is what customers find now, and a working concept for a first site.</p>
+        : <p class="rp-lede">A plain-English look at <a href={demo.source.url} target="_blank" rel="noopener nofollow">{host}</a>, and a working concept for what it could be.</p>}
 
       <section class="rp-shots">
         <figure>
-          <figcaption><span class="rp-pill rp-old">Today</span>{host}</figcaption>
+          <figcaption><span class="rp-pill rp-old">Today</span>{demo.source.none ? 'no website' : host}</figcaption>
           {before
             ? <img src={before} alt={`${demo.name}'s current website`} width="1120" height="753" />
-            : <div class="rp-none"><Icon name="triangle-alert" size={30} /><p>{row?.siteState.replace(/ - verify$/, '') || 'The current site could not be loaded'}</p></div>}
+            : <div class="rp-none"><Icon name="triangle-alert" size={30} /><p>{demo.source.none ? 'No website: a search leads to a social page or a directory listing' : row?.siteState.replace(/ - verify$/, '') || 'The current site could not be loaded'}</p></div>}
         </figure>
         <figure>
           <figcaption><span class="rp-pill rp-new">The concept</span>ready to open</figcaption>
@@ -128,7 +130,7 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
       </section>
 
       <p class="rp-fine">
-        How this was checked: an automated look at the public home page of {host}{checked && ` in ${checked}`}, plus a read-through of the pages a visitor can reach.
+        How this was checked: {demo.source.none ? `a search of local business directories${checked ? ` in ${checked}` : ''} found no website for this business, only a listing or a social page.` : `an automated look at the public home page of ${host}${checked ? ` in ${checked}` : ''}, plus a read-through of the pages a visitor can reach.`}
         Nothing was logged into and nothing was changed. This is an unsolicited review from {site.name}, which is not affiliated with {demo.name.replace(/\.$/, '')}.
         Found something we got wrong? Tell us and we will correct it.
       </p>
