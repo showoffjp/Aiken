@@ -43,12 +43,13 @@ The repo does three things:
 | `npm run weigh -- --concepts` | The same for every concept, so checkup pages can compare the two. |
 | `npm run a11y -- --sites` | Runs the axe-core accessibility rules (WCAG 2.1 A/AA) on every business home page as a phone sees it, into `data/a11y.json`. Checkup pages show the count next to the concept's. |
 | `npm run a11y -- --concepts` | The same for every concept (add `--details` to print each finding). Every concept should come back with zero. |
+| `npm run domains` | Looks up every business's web address in the public domain registry (RDAP) and records when it expires, whether it has lapsed, and whether it is on hold, in `data/domains.json`. |
 | `npm run cards` | Draws the before/after share card for every concept into `public/cards/`. |
 | `npm run variants` | Makes 640px copies of concept photos so phones download small files. |
 | `npm run print` | Prints every checkup page to a two-sided Letter PDF in `outreach/print/`, with a QR code that opens the concept. For walk-in visits. |
-| `npm run outreach` | Email, text and voicemail drafts per concept in `outreach/`, including a P.S. when a directory lists a different phone number than the business's own site. |
+| `npm run outreach` | Email, follow-up email, text, Facebook/Instagram and voicemail drafts per concept in `outreach/`, including a P.S. when a directory lists a different phone number than the business's own site. Also writes `outreach/urgent-calls.md`: businesses whose site is down or whose domain has lapsed, with a call script for each. |
 
-`data/prospects.csv` is sorted by **Rank**, from a 0–100 **Pitch score** that weighs how badly the current site is doing (broken, dated or missing), how heavy it is on a phone, how many serious accessibility problems it has, whether a directory lists the wrong phone number, and whether there is an email address to write to and a concept ready to show. It also flags businesses whose directory phone number differs from their own website (49 of them, 5 that look like typos), domains that have lapsed and now show a parking page, and has blank Status / Last contact / Next step / Notes columns for tracking outreach.
+`data/prospects.csv` is sorted by **Rank**, from a 0–100 **Pitch score** that weighs how badly the current site is doing (broken, dated or missing), how heavy it is on a phone, how many serious accessibility problems it has, whether a directory lists the wrong phone number, and whether there is an email address to write to and a concept ready to show. It also flags businesses whose directory phone number differs from their own website (49 of them, 5 that look like typos), domains that have lapsed (no longer registered, or on hold at the registrar) or now show a parking page, and has blank Status / Last contact / Next step / Notes columns for tracking outreach.
 
 **Who looked?** Vercel Web Analytics is enabled on the project. In the Vercel dashboard, open the `aiken-web-refresh` project, then Analytics, and filter by page path to see which concept or checkup pages were opened.
 
@@ -77,6 +78,8 @@ npm run merge      # de-duplicate, filter out chains and institutions
 npm run audit      # fetch and score every website
 npm run export     # write data/prospects.csv and .json
 ```
+
+**Fixing the data by hand.** `data/overrides.json` forces businesses in or out of the list by exact name, and its `website` map replaces a directory's link when it points at a dead page but the business's home page still works. Re-run `npm run merge`, then audit that one business with `node scripts/audit.mjs <slug>`.
 
 ## Adding a concept
 

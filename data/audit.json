@@ -11972,15 +11972,36 @@
  "tailored-tours-of-aiken": {
   "slug": "tailored-tours-of-aiken",
   "name": "Tailored Tours of Aiken",
-  "url": "http://www.tailoredtoursofaiken.com/tours.html",
-  "finalUrl": "https://tailoredtoursofaiken.com/tours.html",
-  "status": 404,
-  "state": "broken",
-  "error": "HTTP 404",
-  "score": null,
-  "findings": [],
+  "url": "https://tailoredtoursofaiken.com/",
+  "finalUrl": "https://tailoredtoursofaiken.com/",
+  "status": 200,
+  "state": "ok",
+  "score": 17,
+  "findings": [
+   "Footer copyright says 2018",
+   "No meta description for search results",
+   "4 of 5 images have no alt text"
+  ],
+  "platform": "GoDaddy Websites + Marketing",
+  "builder": "",
+  "generator": "Starfield Technologies; Go Daddy Website Builder 8.0.0000",
+  "server": "DPS/2.0.0+sha-8a831a9",
+  "viewport": true,
+  "https": true,
+  "copyrightYear": 2018,
+  "lastModYear": null,
+  "title": "Tailored Tours of Aiken",
+  "description": "",
+  "textLength": 2863,
+  "htmlBytes": 100058,
+  "familySignal": "",
+  "since": 2013,
   "emails": [],
-  "phones": []
+  "phones": [
+   "(803) 295-3870"
+  ],
+  "facebook": "https://www.facebook.com/tailoredtoursofaiken",
+  "instagram": ""
  },
  "taste-of-gold-cakery": {
   "slug": "taste-of-gold-cakery",

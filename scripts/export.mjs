@@ -61,6 +61,17 @@ function phoneTypo(b, a) {
 
 const weights = JSON.parse(await readFile(new URL('../data/weights.json', import.meta.url), 'utf8').catch(() => '{}'));
 const a11y = JSON.parse(await readFile(new URL('../data/a11y.json', import.meta.url), 'utf8').catch(() => '{}'));
+const domains = JSON.parse(await readFile(new URL('../data/domains.json', import.meta.url), 'utf8').catch(() => '{}'));
+
+// What the registry says about the business's web address, in plain words.
+function domainState(d) {
+  if (!d || d.error) return '';
+  if (d.registered === false) return 'Lapsed: the address is no longer registered and anyone can buy it';
+  if (d.hold?.length) return `On hold at the registrar (${d.hold.join(', ')}): about to be released`;
+  if (d.daysLeft !== null && d.daysLeft < 0) return `Past its expiry date (${d.expires}): renewal pending`;
+  if (d.daysLeft !== null && d.daysLeft <= 60) return `Renews or expires ${d.expires}`;
+  return '';
+}
 
 // How strong a pitch each business is, 0-100: how much the site needs help,
 // how reachable the owner is, and whether a concept is already built.
@@ -73,6 +84,9 @@ function pitchScore(r) {
   if (r.https === false) s += 6;
   if (r.email) s += 8; else if (r.phone) s += 4;
   if (r.demo) s += 14;
+  // A lapsed or held domain is the most time-sensitive call on the list.
+  if (/^Lapsed|^On hold/.test(r.domainState)) s += 12;
+  else if (/^Renews or expires/.test(r.domainState) && ['broken', 'rebuild'].includes(r.tier)) s += 4;
   return Math.min(100, s);
 }
 
@@ -124,6 +138,9 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     pageMB: weights[b.slug]?.site?.bytes ? +(weights[b.slug].site.bytes / 1048576).toFixed(1) : null,
     a11yIssues: a11y[b.slug]?.site && !a11y[b.slug].site.error ? a11y[b.slug].site.issues : null,
     a11ySerious: a11y[b.slug]?.site && !a11y[b.slug].site.error ? a11y[b.slug].site.critical + a11y[b.slug].site.serious : null,
+    domain: domains[b.slug]?.domain || '',
+    domainExpires: domains[b.slug]?.expires || '',
+    domainState: domainState(domains[b.slug]),
   };
 });
 
@@ -143,7 +160,7 @@ const cols = [
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
   ['Address', (r) => r.address], ['Contact person', (r) => r.contact], ['Family / local note (from their site)', (r) => r.familyNote],
-  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
+  ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')],
 
   // Left blank for you to fill in as you work the list.
   ['Status', () => ''], ['Last contact', () => ''], ['Next step', () => ''], ['Notes', () => ''],
@@ -156,4 +173,5 @@ const n = (t) => rows.filter((r) => r.tier === t).length;
 console.log(`prospects: ${rows.length} local businesses`);
 for (const t of order) console.log(`  ${TIERS[t]}: ${n(t)}`);
 console.log(`  directory phone differs from the business's own website: ${rows.filter((r) => r.listedPhone).length} (likely typos: ${rows.filter((r) => /typo/.test(r.phoneNote)).length})`);
+console.log(`  domains lapsed: ${rows.filter((r) => /^Lapsed/.test(r.domainState)).length}, on hold: ${rows.filter((r) => /^On hold/.test(r.domainState)).length}`);
 console.log(`  with phone: ${rows.filter((r) => r.phone).length}, with email: ${rows.filter((r) => r.email).length}, with website: ${rows.filter((r) => r.website).length}, demos built: ${rows.filter((r) => r.demo).length}`);

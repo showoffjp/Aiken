@@ -1142,5 +1142,49 @@
  "/demo-assets/verdant-landscape/stone-fireplace-640.webp": [
   640,
   962
+ ],
+ "/demo-assets/track-kitchen/kitchen-house.webp": [
+  1024,
+  681
+ ],
+ "/demo-assets/carolina-bar-b-que/roadside-sign.webp": [
+  756,
+  500
+ ],
+ "/demo-assets/tailored-tours/winter-colony-house.webp": [
+  800,
+  598
+ ],
+ "/demo-assets/tailored-tours/guide-and-van.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/tailored-tours/racing-hall-horse.webp": [
+  1000,
+  747
+ ],
+ "/demo-assets/tailored-tours/horse-district.webp": [
+  1000,
+  667
+ ],
+ "/demo-assets/tailored-tours/guide-and-van-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/tailored-tours/horse-district-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/tailored-tours/racing-hall-horse-640.webp": [
+  640,
+  478
+ ],
+ "/demo-assets/tailored-tours/winter-colony-house-640.webp": [
+  640,
+  478
+ ],
+ "/demo-assets/track-kitchen/kitchen-house-640.webp": [
+  640,
+  426
  ]
 }

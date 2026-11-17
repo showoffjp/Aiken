@@ -1,0 +1,237 @@
+{
+  "slug": "carolina-bar-b-que",
+  "prospect": "carolina-bar-b-que",
+  "name": "Carolina Bar-B-Que",
+  "short": "Carolina Bar-B-Que",
+  "category": "Pit-Cooked Barbecue Buffet",
+  "group": "Food & Drink",
+  "town": "New Ellenton, SC",
+  "established": "1968",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#fbf5ea",
+    "surface": "#ffffff",
+    "ink": "#2a1a12",
+    "muted": "#6b5546",
+    "primary": "#8e2a1b",
+    "onPrimary": "#fbf5ea",
+    "accent": "#e3a72a",
+    "line": "#ecdcc3"
+  },
+  "radius": 4,
+  "icon": "flame",
+  "contact": {
+    "phone": "(803) 652-2919",
+    "phoneLabel": "Call the restaurant",
+    "address": [
+      "109 Main Street",
+      "New Ellenton, SC 29809"
+    ],
+    "mapQuery": "Carolina Bar-B-Que, 109 Main Street, New Ellenton, SC 29809",
+    "hours": [
+      [
+        "Wednesday",
+        "11:00 am – 1:30 pm"
+      ],
+      [
+        "Thursday – Saturday",
+        "11:00 am – 8:00 pm"
+      ],
+      [
+        "Sunday – Tuesday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Hours can change with the season, so call ahead.",
+    "facebook": "https://www.facebook.com/pages/Carolina-BBQ/149158115102631"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Pit-cooked in New Ellenton since 1968",
+    "title": "South Carolina barbecue, *the old way*",
+    "lede": "Pork shoulders smoked on the pit, hash, fried chicken skins and a full Southern buffet, with the sauce on the table where it belongs.",
+    "cta": {
+      "label": "Call (803) 652-2919",
+      "href": "tel:+18036522919"
+    },
+    "cta2": {
+      "label": "What's on the buffet",
+      "href": "#buffet"
+    },
+    "image": {
+      "src": "/demo-assets/carolina-bar-b-que/roadside-sign.webp",
+      "alt": "The Carolina Bar-B-Que sign and blue building on Main Street in New Ellenton"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1968",
+      "label": "More than half a century on Main Street"
+    },
+    {
+      "value": "Top 50",
+      "label": "Southern Living's South's Top 50 Barbecue Joints"
+    },
+    {
+      "value": "100-Mile BBQ",
+      "label": "The SC Barbecue Association's highest honor"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "buffet",
+      "nav": "Buffet",
+      "eyebrow": "The buffet",
+      "title": "Pull up *a plate*",
+      "intro": "We cook pork shoulders on the pit the traditional South Carolina way, and we don't sauce the meat ahead of time. That's up to you.",
+      "groups": [
+        {
+          "title": "From the pit",
+          "items": [
+            {
+              "name": "Pulled pork",
+              "desc": "Pit-smoked shoulder, pulled and served unsauced."
+            },
+            {
+              "name": "Hash"
+            },
+            {
+              "name": "Barbecue chicken"
+            },
+            {
+              "name": "Fried chicken skins"
+            }
+          ]
+        },
+        {
+          "title": "Sides",
+          "items": [
+            {
+              "name": "Baked beans"
+            },
+            {
+              "name": "Slaw"
+            },
+            {
+              "name": "Macaroni and cheese"
+            },
+            {
+              "name": "Candied yams"
+            },
+            {
+              "name": "Fried squash"
+            },
+            {
+              "name": "Corn nuggets & hush puppies"
+            }
+          ]
+        },
+        {
+          "title": "Something sweet",
+          "items": [
+            {
+              "name": "Banana pudding"
+            },
+            {
+              "name": "Peach cobbler"
+            },
+            {
+              "name": "Soft-serve ice cream"
+            }
+          ]
+        }
+      ],
+      "footnote": "Items as described by barbecue guides and reviews. Ask what's on the line today."
+    },
+    {
+      "type": "services",
+      "id": "sauce",
+      "nav": "Sauce",
+      "eyebrow": "On every table",
+      "title": "Sauce *your own way*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Rust gravy",
+          "text": "Our sweet house sauce, a blend of mustard and tomato."
+        },
+        {
+          "icon": "flame-kindling",
+          "title": "Hot and sweet",
+          "text": "The same idea with more heat."
+        },
+        {
+          "icon": "droplets",
+          "title": "And the rest",
+          "text": "Mustard, vinegar-pepper and tomato sauces, light and heavy, for every South Carolina loyalty."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Our story",
+      "title": "A family pit, *going since 1968*",
+      "body": [
+        "Willie Mae Baltzegar opened Carolina Bar-B-Que in 1968. She learned from her father, Rowesville pitmaster Willie Baltzegar, which is why folks who know South Carolina barbecue find a family resemblance in the pork, the hash and the sauce.",
+        "Today Jess \"Bubba\" Walker keeps the pit going. We still cook shoulders only, still serve it buffet-style, and still leave the sauce to you."
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "praise",
+      "nav": "Praise",
+      "eyebrow": "Worth the drive",
+      "title": "What *the guides say*",
+      "items": [
+        {
+          "title": "Southern Living",
+          "text": "Named among The South's Top 50 Barbecue Joints."
+        },
+        {
+          "title": "SC Barbecue Association",
+          "text": "Awarded \"100-Mile BBQ\", its highest recognition: worth driving 100 miles for."
+        },
+        {
+          "title": "The Washington Post",
+          "text": "Included among South Carolina's best barbecue restaurants, with an excellent buffet."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Coming from Aiken or Augusta?",
+      "text": "We're on Main Street in New Ellenton, a short drive south of Aiken. Call ahead for today's hours.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find *the pit*",
+    "hideForm": true
+  },
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/carolina_bar_b_que/",
+    "before": [
+      "No website of its own: a search leads to a Facebook page and directory listings",
+      "Directory listings give different hours and even different ZIP codes",
+      "The awards and the 1968 family story are only told on other people's sites"
+    ],
+    "after": [
+      "A site the restaurant owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "The awards and family story, told by the family",
+      "Room to add photos and daily specials as the owner supplies them"
+    ]
+  }
+}

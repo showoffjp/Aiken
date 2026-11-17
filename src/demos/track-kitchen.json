@@ -1,0 +1,137 @@
+{
+  "slug": "track-kitchen",
+  "prospect": "track-kitchen",
+  "name": "Track Kitchen",
+  "short": "Track Kitchen",
+  "category": "Breakfast in the Horse District",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "established": "1957",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f6f2ea",
+    "surface": "#ffffff",
+    "ink": "#1f2a25",
+    "muted": "#5e665f",
+    "primary": "#2f5a4a",
+    "onPrimary": "#f6f2ea",
+    "accent": "#c4572f",
+    "line": "#e3dccd"
+  },
+  "radius": 8,
+  "icon": "coffee",
+  "contact": {
+    "phone": "(803) 641-9628",
+    "phoneLabel": "Call for today's hours",
+    "address": [
+      "420 Mead Avenue",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Track Kitchen, 420 Mead Avenue, Aiken, SC 29801",
+    "hoursNote": "Breakfast starts early for the riders and trainers. Please call ahead for today's hours.",
+    "facebook": "https://www.facebook.com/profile.php?id=100068303355125"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Beside the Aiken Training Track since 1957",
+    "title": "Breakfast *with the horse crowd*",
+    "lede": "Southern home cooking for exercise riders and trainers coming off morning workouts, and for anyone who wants to eat like a local equestrian.",
+    "cta": {
+      "label": "Call (803) 641-9628",
+      "href": "tel:+18036419628"
+    },
+    "cta2": {
+      "label": "First time here?",
+      "href": "#first-visit"
+    },
+    "image": {
+      "src": "/demo-assets/track-kitchen/kitchen-house.webp",
+      "alt": "The Track Kitchen, a green-and-white clapboard building with a hand-painted sign over the door"
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 1957",
+      "label": "Feeding Aiken's horse world"
+    },
+    {
+      "value": "Mead Avenue",
+      "label": "Off the beaten path, by the Training Track"
+    },
+    {
+      "value": "Self-serve",
+      "label": "Pour your own coffee"
+    }
+  ],
+  "sections": [
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "An Aiken institution",
+      "title": "Where the riders *eat breakfast*",
+      "body": [
+        "For decades the Track Kitchen has served Southern-style home cooking to the exercise riders and trainers of the Aiken Training Track when their early-morning workouts are done.",
+        "It sits off the beaten path in Aiken's horse district, and visitors who find it get breakfast and a seat among the people who keep Aiken's horses running."
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "first-visit",
+      "nav": "First visit",
+      "eyebrow": "First time?",
+      "title": "How the Track Kitchen *works*",
+      "items": [
+        {
+          "title": "Find Mead Avenue",
+          "text": "We're at 420 Mead Avenue, beside the Aiken Training Track in the horse district."
+        },
+        {
+          "title": "Come early",
+          "text": "Breakfast is built around the riders' early mornings. Call ahead for the day's hours."
+        },
+        {
+          "title": "Get your own coffee",
+          "text": "Coffee is self-serve, so help yourself."
+        },
+        {
+          "title": "Settle in",
+          "text": "Southern home cooking, shared with the people who ride and train Aiken's horses."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "In town for the horses?",
+      "text": "Start your morning where the riders do. Call for today's hours.",
+      "cta": {
+        "label": "Call (803) 641-9628",
+        "href": "tel:+18036419628"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find *us*",
+    "hideForm": true
+  },
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/track_kitchen/",
+    "before": [
+      "No website of its own: a search leads to a Facebook page and directory listings",
+      "Listings disagree on the hours, and some even on the street number",
+      "Visitors have to piece together how it works from travel blogs"
+    ],
+    "after": [
+      "A site the Track Kitchen owns, at its own address",
+      "Phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A short guide for first-time visitors",
+      "Room to add the menu, photos and hours as the owner supplies them"
+    ]
+  }
+}

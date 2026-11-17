@@ -10204,5 +10204,70 @@
    "top": [],
    "at": "2026-11-17"
   }
+ },
+ "tailored-tours-of-aiken": {
+  "site": {
+   "rules": 3,
+   "issues": 6,
+   "critical": 4,
+   "serious": 2,
+   "moderate": 0,
+   "minor": 0,
+   "top": [
+    {
+     "id": "image-alt",
+     "impact": "critical",
+     "help": "Images must have alternative text",
+     "nodes": 4
+    },
+    {
+     "id": "frame-title",
+     "impact": "serious",
+     "help": "Frames must have an accessible name",
+     "nodes": 1
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "nodes": 1
+    }
+   ],
+   "at": "2026-11-17"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-17"
+  }
+ },
+ "carolina-bar-b-que": {
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-17"
+  }
+ },
+ "track-kitchen": {
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-17"
+  }
  }
 }
