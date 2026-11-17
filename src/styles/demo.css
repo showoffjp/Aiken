@@ -344,8 +344,8 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 [data-look="bold"] h1, [data-look="bold"] h2 { text-transform: uppercase; font-weight: 800; letter-spacing: -.02em; line-height: .98; }
 [data-look="bold"] h3 { font-weight: 750; }
 [data-look="bold"] .hero h1 { font-size: clamp(2.6rem, 6.2vw, 5.2rem); }
-[data-look="bold"] .eyebrow { background: var(--accent); color: var(--ink); padding: 7px 12px; letter-spacing: .12em; border-radius: 3px; }
-[data-look="bold"] .hero .eyebrow { color: var(--ink); }
+[data-look="bold"] .eyebrow { background: var(--accent); color: var(--on-accent, var(--ink)); padding: 7px 12px; letter-spacing: .12em; border-radius: 3px; }
+[data-look="bold"] .hero .eyebrow { color: var(--on-accent, var(--ink)); }
 [data-look="bold"] .btn { text-transform: uppercase; letter-spacing: .06em; font-weight: 800; box-shadow: 5px 5px 0 var(--ink); border-color: var(--ink); }
 [data-look="bold"] .btn:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--ink); }
 [data-look="bold"] .btn.ghost { box-shadow: none; }

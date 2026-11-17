@@ -7,8 +7,12 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { fetchUrl, pool, decode, stripTags } from './lib/http.mjs';
 
 const all = JSON.parse(await readFile(new URL('../data/businesses.json', import.meta.url), 'utf8'));
-const only = process.argv[2];
-const targets = all.filter((b) => b.include && b.website && (!only || b.slug === only));
+// node scripts/audit.mjs [slug ...]: audit only those businesses and merge the
+// results into the existing data/audit.json.
+// --fresh refetches pages instead of reading the .cache copies.
+const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const fresh = process.argv.includes('--fresh');
+const targets = all.filter((b) => b.include && b.website && (!only.length || only.includes(b.slug)));
 console.log(`auditing ${targets.length} sites`);
 
 // ------------------------------------------------------------ helpers ----
@@ -214,10 +218,10 @@ const results = await pool(targets, 8, async (b) => {
   const httpUrl = `http://${u.host}${u.pathname}${u.search}`;
 
   // Try HTTPS first; fall back to plain HTTP (many old sites have no certificate).
-  let res = await fetchUrl(httpsUrl, { bucket: 'sites', timeout: 25 });
+  let res = await fetchUrl(httpsUrl, { bucket: 'sites', timeout: 25, refresh: fresh });
   let httpsWorks = res.ok && res.finalUrl.startsWith('https://');
   if (!res.ok || res.status >= 400) {
-    const alt = await fetchUrl(httpUrl, { bucket: 'sites', timeout: 25 });
+    const alt = await fetchUrl(httpUrl, { bucket: 'sites', timeout: 25, refresh: fresh });
     if (alt.ok) res = alt;
   }
   // Old sites often bounce the visitor with a script or meta refresh.
@@ -226,7 +230,7 @@ const results = await pool(targets, 8, async (b) => {
     const hop = (res.body.match(/location\.(?:replace|assign)\(\s*["']([^"']+)["']/i) || res.body.match(/(?:window\.|document\.)?location(?:\.href)?\s*=\s*["']([^"']+)["']/i) || res.body.match(/http-equiv=["']?refresh["']?[^>]*url=([^"'>\s]+)/i) || [])[1];
     if (hop) {
       try {
-        const next = await fetchUrl(new URL(hop, res.finalUrl).href, { bucket: 'sites', timeout: 25 });
+        const next = await fetchUrl(new URL(hop, res.finalUrl).href, { bucket: 'sites', timeout: 25, refresh: fresh });
         if (next.ok) { res = next; scriptRedirect = true; }
       } catch {}
     }
@@ -258,7 +262,7 @@ const results = await pool(targets, 8, async (b) => {
     try {
       const cu = new URL(decode(contactHref), res.finalUrl);
       if (cu.hostname.replace(/^www\./, '') === finalHost && cu.href !== res.finalUrl) {
-        const c = await fetchUrl(cu.href, { bucket: 'sites', timeout: 20 });
+        const c = await fetchUrl(cu.href, { bucket: 'sites', timeout: 20, refresh: fresh });
         if (c.ok) {
           a.emails = [...new Set([...a.emails, ...emailsIn(c.body)])];
           a.phones = [...new Set([...a.phones, ...phonesIn(c.body)])].slice(0, 3);
@@ -273,7 +277,7 @@ const results = await pool(targets, 8, async (b) => {
   return { ...base, ...a };
 });
 
-const existing = only ? JSON.parse(await readFile(new URL('../data/audit.json', import.meta.url), 'utf8').catch(() => '{}')) : {};
+const existing = only.length ? JSON.parse(await readFile(new URL('../data/audit.json', import.meta.url), 'utf8').catch(() => '{}')) : {};
 const audit = { ...existing, ...Object.fromEntries(results.map((r) => [r.slug, r])) };
 await writeFile(new URL('../data/audit.json', import.meta.url), JSON.stringify(audit, null, 1));
 

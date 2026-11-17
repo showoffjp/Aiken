@@ -498,7 +498,7 @@
   "title": "Flooring Store servicing Aiken, SC | Aiken Flooring",
   "description": "At Aiken Flooring there is always an exceptional selection of flooring products and you can be sure that your visit is friendly and personal.",
   "textLength": 4119,
-  "htmlBytes": 487329,
+  "htmlBytes": 447559,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -1441,11 +1441,11 @@
   "viewport": false,
   "https": true,
   "copyrightYear": null,
-  "lastModYear": null,
+  "lastModYear": 2026,
   "title": "Menu | Antonio's Italian Eatery",
   "description": "      There will be an additional charge for ToGo orders Click here for Printable Menu",
-  "textLength": 3361,
-  "htmlBytes": 105590,
+  "textLength": 3386,
+  "htmlBytes": 105872,
   "familySignal": "",
   "since": null,
   "emails": [],
@@ -2319,7 +2319,7 @@
   "title": "Bloom Salon Spa Boutique | haircut | 955 Colony Parkway, Aiken, SC, USA",
   "description": "Bloom Salon Spa Boutique of Aiken is a Paul Mitchell color salon focused on delivering the very best in hair services from on-trend cuts for women to highlights and hair color services. Our team receives regular training in advanced techniques to keep them cur",
   "textLength": 1436,
-  "htmlBytes": 673737,
+  "htmlBytes": 672594,
   "familySignal": "",
   "since": null,
   "emails": [],
@@ -2667,7 +2667,7 @@
   "title": "Bravefriend Apparel and Design |",
   "description": "",
   "textLength": 3331,
-  "htmlBytes": 35236,
+  "htmlBytes": 35199,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -5986,8 +5986,8 @@
   "lastModYear": null,
   "title": "Natural Health Store & Spa in Aiken, SC | Massage & Wellness",
   "description": "Natural health products & professional spa services in Aiken, SC. Massage therapy,  pet products & supplements. Book a massage: 803-649-9286.",
-  "textLength": 19640,
-  "htmlBytes": 122454,
+  "textLength": 19641,
+  "htmlBytes": 122417,
   "familySignal": "",
   "since": 1998,
   "emails": [
@@ -6520,7 +6520,7 @@
   "title": "Hughes, Beattie, O'Neal, Law, and Associates, Architects, P.C. - HBOL ARCHITECTS",
   "description": "",
   "textLength": 1191,
-  "htmlBytes": 106208,
+  "htmlBytes": 106158,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -6657,7 +6657,7 @@
   "title": "Home | Iron Gate Candles",
   "description": "Iron Gate Candles. Candles and Body care...Unique gifts all Handmade in Aiken, SC in small batches.",
   "textLength": 1783,
-  "htmlBytes": 759498,
+  "htmlBytes": 752667,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -8443,20 +8443,10 @@
   "htmlBytes": 2456,
   "familySignal": "",
   "since": 1989,
-  "emails": [
-   "mitch@mitchjohnsonconstruction.com",
-   "sherrie@mitchjohnsonconstruction.com",
-   "techsupport@mitchjohnsonconstruction.com",
-   "mjohnsons@aol.com"
-  ],
-  "phones": [
-   "(803) 642-8388",
-   "(803) 645-5302",
-   "(803) 649-1968"
-  ],
+  "emails": [],
+  "phones": [],
   "facebook": "",
-  "instagram": "",
-  "contactPage": "https://www.mitchjohnsonconstruction.com/ContactUs.html"
+  "instagram": ""
  },
  "mobile-office-management-llc-mom": {
   "slug": "mobile-office-management-llc-mom",
@@ -9048,7 +9038,7 @@
   "title": "Bread | Oh Mie Stelle | Aiken",
   "description": "Oh Mie Stelle is an artisan bakery specializing in handcrafted bagels and breads.",
   "textLength": 802,
-  "htmlBytes": 696235,
+  "htmlBytes": 686988,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -9806,8 +9796,8 @@
   "lastModYear": null,
   "title": "Play Land Of Aiken",
   "description": "",
-  "textLength": 3713,
-  "htmlBytes": 155737,
+  "textLength": 3786,
+  "htmlBytes": 158556,
   "familySignal": "Land visit, please call 803-226-0096 PlayLand of Aiken is a Family Owned Indoor Playground",
   "since": null,
   "emails": [
@@ -10358,7 +10348,7 @@
   "title": "Rebel Ranch Horse Tours",
   "description": "Rebel Ranch Horse Tours in Aiken, SC offers you a special opportunity. While riding one of our \"user friendly\" horses, you will get the chance to experience nature in a unique way, riding with Annette Beeler.",
   "textLength": 1233,
-  "htmlBytes": 366115,
+  "htmlBytes": 358358,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -11096,7 +11086,7 @@
   "title": "Simply Social Events and More, LLC",
   "description": "",
   "textLength": 6538,
-  "htmlBytes": 129158,
+  "htmlBytes": 129157,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -12001,7 +11991,8 @@
    "(803) 295-3870"
   ],
   "facebook": "https://www.facebook.com/tailoredtoursofaiken",
-  "instagram": ""
+  "instagram": "",
+  "contactPage": "https://tailoredtoursofaiken.com/contact"
  },
  "taste-of-gold-cakery": {
   "slug": "taste-of-gold-cakery",
@@ -12154,7 +12145,7 @@
   "title": "Home | Jasmine Rice",
   "description": "",
   "textLength": 901,
-  "htmlBytes": 429198,
+  "htmlBytes": 422110,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -12812,7 +12803,7 @@
   "title": "Home | The Vintage Bobbin LLC",
   "description": "Discover unique finds at The Vintage Bobbin LLC in Aiken, SC. Shop our diverse collection online or visit us at 754 Silver Bluff Rd.",
   "textLength": 2229,
-  "htmlBytes": 281660,
+  "htmlBytes": 282380,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -13345,7 +13336,7 @@
   "title": "Veg Out Vegetarian Restaurant of Aiken | Explore Healthy Vegetarian Options – Visit Today",
   "description": "Discover vibrant plant-based meals and herbal blends at Veg Out in Aiken, SC. Nourish your body and mind at our welcoming vegetarian restaurant.",
   "textLength": 2093,
-  "htmlBytes": 1298899,
+  "htmlBytes": 240691,
   "familySignal": "",
   "since": null,
   "emails": [
@@ -13666,7 +13657,7 @@
   "title": "Wedding photographer Aiken SC Scott Webster Photography",
   "description": "Scott Webster photography is located in Aiken, SC. He has been in business for over 20 years, and was born and raised in Aiken. ",
   "textLength": 512,
-  "htmlBytes": 452931,
+  "htmlBytes": 452077,
   "familySignal": "",
   "since": null,
   "emails": [
