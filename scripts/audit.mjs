@@ -157,6 +157,8 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
   const years = [...text.matchAll(/(?:©|&copy;|copyright|\(c\))[^.]{0,40}?((?:19|20)\d{2})(?:\s*[-–]\s*((?:19|20)\d{2}))?/gi)]
     .map((m) => Number(m[2] || m[1])).filter((y) => y >= 1995 && y <= 2027);
   const copyrightYear = years.length ? Math.max(...years) : null;
+  // Sample copy a website builder ships with, never replaced by the business's own words.
+  if (/Definitely promote it here|What's something exciting your business offers|Say it here\.|lorem ipsum dolor|This is your About section|Add a description (here|of your)|Click (here )?to edit (this )?text|Write a short (description|intro) here/i.test(text)) add(12, 'Website builder sample text still on the page');
   if (copyrightYear && copyrightYear <= 2016) add(15, `Footer copyright says ${copyrightYear}`);
   else if (copyrightYear && copyrightYear <= 2020) add(10, `Footer copyright says ${copyrightYear}`);
   else if (copyrightYear && copyrightYear <= 2023) add(4, `Footer copyright says ${copyrightYear}`);
@@ -174,7 +176,7 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
 
   // --- broken / parked
   let state = 'ok';
-  if (/domain (is|may be) for sale|buy this domain|hugedomains|sedoparking|parkingcrew|this domain has expired|domain parking|godaddy\.com\/forsale|dan\.com\/buy-domain|is parked free|afternic|router\.parklogic\.com|bodis\.com|parking\.above\.com|dsnextgen|domainmarket\.com/i.test(html)) state = 'parked';
+  if (/domain (is|may be) for sale|buy this domain|hugedomains|sedoparking|parkingcrew|this domain has expired|domain parking|godaddy\.com\/forsale|dan\.com\/buy-domain|is parked free|afternic|router\.parklogic\.com|bodis\.com|parking\.above\.com|dsnextgen|domainmarket\.com|parking-lander|LANDER_SYSTEM/i.test(html)) state = 'parked'; // GoDaddy's script-drawn parked page carries parking-lander
   else if (/account (has been )?suspended|bandwidth limit exceeded|apache2 (ubuntu|debian) default page|welcome to nginx|index of \/|it works!<\/h1>|default web site page|website coming soon|site (is )?under construction|launching soon|future home of/i.test(html)) state = 'placeholder';
   else if (/online ordering setup in progress|finish setting up your|page cannot be displayed|this site can.t be reached|website is (currently )?(unavailable|offline)|no longer available/i.test(text)) state = 'placeholder';
   else if (text.length < 400 && /one moment, please|request is being verified|checking your browser|just a moment|verify you are human|enable javascript and cookies|attention required|access denied|captcha/i.test(text)) state = 'blocked';
@@ -248,7 +250,9 @@ const results = await pool(targets, 8, async (b) => {
     const bare = (h = '') => h.replace(/^www\./, '').toLowerCase();
     let finalHost = '';
     try { finalHost = bare(new URL(res.finalUrl).hostname); } catch {}
-    const state = finalHost && finalHost !== bare(u.host) ? 'redirects-away'
+    // (A redirect to the business's own new domain that answers with a 403 or 404 is
+    // not this: only a destination that does not answer at all counts.)
+    const state = finalHost && finalHost !== bare(u.host) && !res.status ? 'redirects-away'
       : [401, 403, 406, 429, 503].includes(res.status) ? 'blocked'
       : res.status >= 400 ? 'broken'
       : /SSL|certificate/i.test(err) ? 'cert-error'          // visitors get a full-page browser warning

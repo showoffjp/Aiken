@@ -20016,5 +20016,597 @@
     "domainYears": 7
    }
   ]
+ },
+ "woodchuckers-axe-throwing": {
+  "slug": "woodchuckers-axe-throwing",
+  "name": "Woodchuckers Axe Throwing",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Parked domain",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/woodchuckers_axe_throwing/",
+    "name": "Woodchuckers Axe Throwing",
+    "phone": "803-500-AXES (2937)",
+    "website": "https://woodchuckersaxethrowing.com/",
+    "address": "208 The Alley Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Woodchucker’s Axe Throwing",
+    "phone": "",
+    "website": "https://woodchuckersaxethrowing.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "woodchuckersaxethrowing.com",
+   "created": "2021-06-16",
+   "expires": "2027-06-16",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 5
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 893,
+   "lcp": 1506,
+   "tbt": 5,
+   "si": 893,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "downtown-dog": {
+  "slug": "downtown-dog",
+  "name": "Downtown Dog",
+  "checked": "2026-11-18",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikendowntowndog.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://aikendowntowndog.com/",
+    "title": "Aiken Downtown Dog - The downtown store for dogs…and the people who love them.",
+    "description": "",
+    "canonical": "https://aikendowntowndog.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home"
+    ],
+    "h1Count": 1,
+    "h2": 0,
+    "h3": 4,
+    "words": 133,
+    "images": 7,
+    "imagesNoAlt": 6,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://aikendowntowndog.com/sitemap.xml",
+    "pages": 19
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 0,
+    "multipleH1": 5,
+    "thin": 9,
+    "noindex": 0,
+    "dupTitles": 4,
+    "dupDescs": 0,
+    "imagesNoAlt": 11,
+    "images": 38,
+    "sample": [
+     {
+      "url": "https://aikendowntowndog.com/",
+      "title": "Aiken Downtown Dog - The downtown store for dogs…and the people who love them.",
+      "description": 0,
+      "h1": 1,
+      "words": 133
+     },
+     {
+      "url": "https://aikendowntowndog.com/about-us/",
+      "title": "About Us - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 2,
+      "words": 321
+     },
+     {
+      "url": "https://aikendowntowndog.com/events/",
+      "title": "Events - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 133
+     },
+     {
+      "url": "https://aikendowntowndog.com/contact/",
+      "title": "Contact - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 134
+     },
+     {
+      "url": "https://aikendowntowndog.com/grooming/",
+      "title": "Grooming - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 2,
+      "words": 395
+     },
+     {
+      "url": "https://aikendowntowndog.com/dog-food/",
+      "title": "Dog Food - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 2,
+      "words": 292
+     },
+     {
+      "url": "https://aikendowntowndog.com/dog-treats/",
+      "title": "Dog Treats - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 134
+     },
+     {
+      "url": "https://aikendowntowndog.com/dog-treats/",
+      "title": "Dog Treats - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 134
+     },
+     {
+      "url": "https://aikendowntowndog.com/shop/",
+      "title": "Shop - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 154
+     },
+     {
+      "url": "https://aikendowntowndog.com/lostandfound/",
+      "title": "Lost and Found Pets - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 321
+     },
+     {
+      "url": "https://aikendowntowndog.com/dog-treats-2/",
+      "title": "Dog Treats - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 629
+     },
+     {
+      "url": "https://aikendowntowndog.com/dog-food-2/",
+      "title": "Dog Food - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 2,
+      "words": 292
+     },
+     {
+      "url": "https://aikendowntowndog.com/packages/",
+      "title": "Packages - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 133
+     },
+     {
+      "url": "https://aikendowntowndog.com/treat/",
+      "title": "Personalized Dog Treat - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 2,
+      "words": 183
+     },
+     {
+      "url": "https://aikendowntowndog.com/events/",
+      "title": "Events - Aiken Downtown Dog",
+      "description": 0,
+      "h1": 1,
+      "words": 133
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 40,
+    "broken": [
+     {
+      "url": "http://aikendowntowndog.com/downtowndog/index.php/about-us/photo-gallery",
+      "status": 404,
+      "from": "https://aikendowntowndog.com/"
+     },
+     {
+      "url": "http://aikendowntowndog.com/about-us/photo-gallery",
+      "status": 404,
+      "from": "https://aikendowntowndog.com/"
+     },
+     {
+      "url": "http://aikendowntowndog.com/downtowndog/index.php/sample-page/products",
+      "status": 404,
+      "from": "https://aikendowntowndog.com/"
+     }
+    ],
+    "brokenCount": 3
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/pages/aiken-pets-reunited/73073411701"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Dog Store",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=406&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=0619276278281142e814a4ec4bcbccc7",
+    "name": "Downtown Dog",
+    "phone": "(803) 226-0347",
+    "website": "http://www.aikendowntowndog.com",
+    "address": "150 A Laurens Street, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/downtown_dog/",
+    "name": "Downtown Dog",
+    "phone": "(803) 226-0347",
+    "website": "https://www.aikendowntowndog.com",
+    "address": "150-A Laurens St. SW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Aiken Downtown Dog",
+    "phone": "",
+    "website": "https://aikendowntowndog.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/pages/aiken-pets-reunited/73073411701"
+   },
+   "listed": {}
+  },
+  "domain": {
+   "name": "aikendowntowndog.com",
+   "created": "2014-07-14",
+   "expires": "2027-07-14",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 12
+  },
+  "performance": {
+   "performance": 79,
+   "accessibility": 92,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2215,
+   "lcp": 4721,
+   "tbt": 21,
+   "si": 3589,
+   "cls": 0,
+   "at": "2026-11-17"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 800,
+   "lcp": 1810,
+   "tbt": 189,
+   "si": 808,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "hair-of-the-dog-llc",
+   "aiken-pet-sitters-llc"
+  ],
+  "scores": {
+   "seo": 50,
+   "social": 35,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "hair-of-the-dog-llc",
+    "name": "Hair of the Dog LLC",
+    "website": "https://hair-of-the-dog-101741.square.site/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 7,
+    "pageMB": 3.6,
+    "a11ySerious": 66,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "aiken-pet-sitters-llc",
+    "name": "Aiken Pet Sitters, LLC",
+    "website": "https://aikenpetsitters.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.6,
+    "a11ySerious": 38,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 21
+   }
+  ]
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "slug": "hic-warehouse-indoor-skateboard-park",
+  "name": "HIC Warehouse",
+  "checked": "2026-11-18",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "homeforskateboarding.org",
+   "https": true,
+   "pagesCrawled": 3,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://homeforskateboarding.org/",
+    "title": "Home For Skateboarding",
+    "description": "",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "(UNDER CONSTRUCTION) Home For Skateboarding",
+     "description": "Discover a Home for skateboarding",
+     "image": "https://img1.wsimg.com/isteam/ip/bd1ffc3c-d430-43f6-8c6a-b28cb1b5512f/sht_131916275(1).jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Skateboarders Dedicated to Helping the Next Generation",
+     "Skateboarders Dedicated to Helping the Next Generation"
+    ],
+    "h1Count": 2,
+    "h2": 4,
+    "h3": 3,
+    "words": 487,
+    "images": 6,
+    "imagesNoAlt": 6,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://homeforskateboarding.org/sitemap.xml",
+    "pages": 4
+   },
+   "crawl": {
+    "pages": 3,
+    "missingTitle": 0,
+    "missingDescription": 3,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 0,
+    "imagesNoAlt": 10,
+    "images": 10,
+    "sample": [
+     {
+      "url": "https://homeforskateboarding.org/",
+      "title": "Home For Skateboarding",
+      "description": 0,
+      "h1": 2,
+      "words": 487
+     },
+     {
+      "url": "https://homeforskateboarding.org/contact-us",
+      "title": "Home For Skateboarding",
+      "description": 0,
+      "h1": 1,
+      "words": 187
+     },
+     {
+      "url": "https://homeforskateboarding.org/about-us",
+      "title": "About Us",
+      "description": 0,
+      "h1": 1,
+      "words": 423
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 4,
+    "broken": [
+     {
+      "url": "https://homeforskateboarding.org/making-a-difference",
+      "status": 0,
+      "from": "https://homeforskateboarding.org/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/hicwarehouse",
+    "Instagram": "https://www.instagram.com/homeforskateboarding/",
+    "X (Twitter)": "https://www.twitter.com/hicwarehouse",
+    "YouTube": "https://www.youtube.com/@hollywoodsinc"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Indoor Skatepark",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/hic_warehouse_indoor_skateboard_park/",
+    "name": "HIC Warehouse Indoor Skateboard Park",
+    "phone": "(803) 335-1368",
+    "website": "http://www.homeforskateboarding.org/",
+    "address": "1120 Edgefield Hwy Aiken SC",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/hicwarehouse",
+    "Instagram": "https://www.instagram.com/homeforskateboarding/",
+    "X (Twitter)": "https://www.twitter.com/hicwarehouse",
+    "YouTube": "https://www.youtube.com/@hollywoodsinc"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/hicwarehouse",
+    "Instagram": "https://www.instagram.com/homeforskateboarding/"
+   }
+  },
+  "domain": {
+   "name": "homeforskateboarding.org",
+   "created": "2016-01-19",
+   "expires": "2027-01-19",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 10
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 798,
+   "lcp": 1504,
+   "tbt": 22,
+   "si": 798,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 44,
+   "social": 80,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }

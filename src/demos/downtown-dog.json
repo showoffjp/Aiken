@@ -1,0 +1,285 @@
+{
+  "name": "Downtown Dog",
+  "short": "Downtown Dog",
+  "category": "Dog Store & Grooming",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf8f1",
+    "surface": "#ffffff",
+    "ink": "#2a2219",
+    "muted": "#62584c",
+    "primary": "#2f6b2f",
+    "onPrimary": "#ffffff",
+    "accent": "#9bd23c",
+    "line": "#ece3d3"
+  },
+  "radius": 20,
+  "icon": "dog",
+  "contact": {
+    "phone": "(803) 226-0347",
+    "email": "info@aikendowntowndog.com",
+    "address": [
+      "150-A Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Downtown Dog, 150 Laurens St SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 5:30 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 5:00 pm"
+      ]
+    ]
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "In historic downtown Aiken",
+    "title": "The downtown store *for dogs*",
+    "lede": "And the people who love them. Natural dog foods, homemade treats, toys, leashes and collars, gifts for dog lovers, and grooming, on Laurens Street.",
+    "points": [
+      "Natural dog food",
+      "Homemade treats",
+      "Grooming"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0347",
+      "href": "tel:+18032260347"
+    },
+    "cta2": {
+      "label": "Grooming prices",
+      "href": "#grooming"
+    },
+    "image": {
+      "src": "/demo-assets/downtown-dog/owners.webp",
+      "alt": "Sheri and Vic Scarborough in front of a wall of collars and leashes at Downtown Dog",
+      "width": 1280,
+      "height": 1144
+    }
+  },
+  "facts": [
+    {
+      "value": "20 years",
+      "label": "Sheri's years in the pet industry"
+    },
+    {
+      "value": "Buy 12",
+      "label": "Get 1 free, on most foods"
+    },
+    {
+      "value": "Never",
+      "label": "Food or treats sourced from China"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "The shop",
+      "columns": 3,
+      "eyebrow": "Something for every canine",
+      "title": "Everything your dog *will love*",
+      "items": [
+        {
+          "icon": "bone",
+          "title": "Natural dog food",
+          "text": "Chosen for its ingredients: no by-products."
+        },
+        {
+          "icon": "cookie",
+          "title": "Homemade treats",
+          "text": "Bring Fido in for one."
+        },
+        {
+          "icon": "dog",
+          "title": "Toys, leashes & collars",
+          "text": "An assortment for every dog."
+        },
+        {
+          "icon": "gift",
+          "title": "For dog lovers",
+          "text": "Novelty items for the people, too."
+        },
+        {
+          "icon": "scissors",
+          "title": "Grooming",
+          "text": "From a quick bath to a full session."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Rescue fundraisers",
+          "text": "Held often, with local rescue groups."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "grooming",
+      "nav": "Grooming",
+      "eyebrow": "Grooming packages",
+      "title": "Clean, trimmed *and treated*",
+      "intro": "Prices by size: small, medium, large and giant. All bathing services include our house shampoo and conditioner.",
+      "groups": [
+        {
+          "title": "Packages",
+          "note": "Small / medium / large / giant",
+          "items": [
+            {
+              "name": "downtown BATH",
+              "price": "$45–65",
+              "desc": "Bath, nails, ear cleaning and dry. $45 / $50 / $55 / $65"
+            },
+            {
+              "name": "downtown BATH PLUS",
+              "price": "from $60",
+              "desc": "Bath, nails, ear cleaning, brush out, trim of face, feet and rear, dry, bandana and a treat. From $60 / $70 / $80 / $90"
+            },
+            {
+              "name": "downtown GROOMING SESSION",
+              "price": "from $65",
+              "desc": "Bath, nails, ear cleaning, brush out, all-over cut, dry, bandana and a treat. From $65 / $80 / $95 / $120"
+            },
+            {
+              "name": "Breed surcharge",
+              "price": "$10–40",
+              "desc": "Some breeds take twice as long to groom as others"
+            }
+          ]
+        },
+        {
+          "title": "Add to a package",
+          "items": [
+            {
+              "name": "Anal glands",
+              "price": "$10"
+            },
+            {
+              "name": "Brush teeth",
+              "price": "$5"
+            },
+            {
+              "name": "Flea shampoo",
+              "price": "$7"
+            },
+            {
+              "name": "De-mat",
+              "price": "from $5",
+              "desc": "Per 15 minutes"
+            },
+            {
+              "name": "Nails, on their own",
+              "price": "$20"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices as listed on the current site; they can rise with the dog and the condition of the coat, and packages do not include de-matting. For everyone’s safety, a rabies certificate showing its expiration date is needed before booking: email it to info@aikendowntowndog.com."
+    },
+    {
+      "type": "columns",
+      "id": "food",
+      "nav": "Dog food",
+      "eyebrow": "We feed our dogs these too",
+      "title": "The guesswork, *taken out*",
+      "intro": "There are several hundred dog foods on the market. We have narrowed ours to the best.",
+      "columns": [
+        {
+          "title": "How we choose",
+          "items": [
+            "Ingredients first: no by-products",
+            "Requests from our veterinarians",
+            "Extensive market research",
+            "Never food or treats sourced from China"
+          ]
+        },
+        {
+          "title": "On our shelves",
+          "items": [
+            "Fromm",
+            "ACANA",
+            "Zignature",
+            "The Honest Kitchen",
+            "Sojos",
+            "Stella & Chewy's",
+            "Instinct"
+          ]
+        },
+        {
+          "title": "Our promise",
+          "items": [
+            "Buy 12, get 1 free on most foods (bag or can)",
+            "Special orders for what we do not stock",
+            "If your dog does not care for it, bring it back and we will switch it"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Owned by adopted dogs",
+      "title": "Hi, we’re *Sheri and Vic*",
+      "image": {
+        "src": "/demo-assets/downtown-dog/grooming-day.webp",
+        "alt": "A spotted pointer wearing a shower cap and curlers, ready for a grooming day",
+        "width": 800,
+        "height": 834
+      },
+      "body": [
+        "We’re Sheri and Vic Scarborough, and we’re owned by several lovable adopted dogs. We’ve always loved animals, but have a special bond with the kind that bark.",
+        "Sheri has been part of the pet industry for 20 years, as a store owner, a sales representative and now a manufacturer, and she co-founded a dog rescue during our 10 years in Jacksonville, Florida. It’s still running today. Vic’s background is in corporate America, but you could say he has gone to the dogs.",
+        "We feel a real responsibility to help the dogs in our area, and we hold frequent fundraisers with rescue organizations. Stop by and say hello, and bring your best friend."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Bring your best friend",
+      "text": "Open Monday to Saturday at 150-A Laurens Street SW.",
+      "cta": {
+        "label": "Call (803) 226-0347",
+        "href": "tel:+18032260347"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "formTitle": "Book grooming or ask a question",
+    "formTopics": [
+      "Grooming appointment",
+      "Dog food question",
+      "Special order",
+      "Something else"
+    ]
+  },
+  "slug": "downtown-dog",
+  "added": "2026-11-18",
+  "prospect": "downtown-dog",
+  "source": {
+    "url": "https://aikendowntowndog.com/",
+    "before": [
+      "The site's Shop page shows WordPress's default \"Hello world!\" post instead of anything from the store",
+      "Six files on the home page load over insecure http://, which browsers can flag",
+      "No description for Google results and no preview when the link is shared"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

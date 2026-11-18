@@ -1746,5 +1746,25 @@
  "/demo-assets/osbons-cleaners/suit-bag-640.webp": [
   640,
   960
+ ],
+ "/demo-assets/downtown-dog/owners.webp": [
+  1280,
+  1144
+ ],
+ "/demo-assets/downtown-dog/grooming-day.webp": [
+  800,
+  834
+ ],
+ "/demo-assets/downtown-dog/grooming-day-640.webp": [
+  640,
+  667
+ ],
+ "/demo-assets/downtown-dog/owners-640.webp": [
+  640,
+  572
+ ],
+ "/demo-assets/downtown-dog/owners-960.webp": [
+  960,
+  858
  ]
 }

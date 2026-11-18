@@ -26,7 +26,7 @@ body .hero.hx-poster { background: var(--primary); color: var(--on-primary); }
 .hx-bento .b-main > .eyebrow { align-self: flex-start; justify-self: start; width: fit-content; max-width: 100%; }
 .hx-poster .btn { background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); border-color: transparent; }
 .hx-poster .btn.ghost { background: transparent; color: var(--on-primary); border-color: color-mix(in srgb, var(--on-primary) 55%, transparent); }
-.hx-marquee { overflow: hidden; border-top: 1.5px solid color-mix(in srgb, var(--on-primary) 30%, transparent); background: color-mix(in srgb, var(--primary) 82%, #000); }
+.hx-marquee { overflow: hidden; border-top: 1.5px solid color-mix(in srgb, var(--on-primary) 30%, transparent); background: color-mix(in srgb, var(--primary) 82%, var(--mq-mix, #000)); } /* darkened under white text, lightened under dark text */
 .hx-track { display: flex; width: max-content; animation: hx-marquee 38s linear infinite; }
 .hx-track span { display: inline-flex; align-items: center; gap: 22px; padding: 16px 22px; font: 700 clamp(1.1rem, 2vw, 1.6rem)/1 var(--font-display); text-transform: uppercase; letter-spacing: .02em; white-space: nowrap; }
 .hx-track .icon { color: var(--accent-on-primary, var(--accent)); }

@@ -1,0 +1,128 @@
+{
+  "name": "Woodchuckers Axe Throwing",
+  "short": "Woodchuckers",
+  "category": "Axe Throwing",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f5efe6",
+    "surface": "#fffaf2",
+    "ink": "#21170f",
+    "muted": "#5d4f42",
+    "primary": "#9c2f1c",
+    "onPrimary": "#ffffff",
+    "accent": "#e0a32e",
+    "line": "#e7d9c6"
+  },
+  "radius": 4,
+  "icon": "axe",
+  "contact": {
+    "phone": "(803) 500-2937",
+    "phoneLabel": "Call 803-500-AXES",
+    "address": [
+      "208 The Alley",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Woodchuckers Axe Throwing, 208 The Alley, Aiken, SC"
+  },
+  "hero": {
+    "eyebrow": "Downtown Aiken",
+    "title": "Ten lanes of *axe throwing*",
+    "lede": "Woodchuckers is a 10-lane axe throwing facility in The Alley in downtown Aiken. Call 803-500-AXES to plan your throw.",
+    "cta": {
+      "label": "Call 803-500-AXES",
+      "href": "tel:+18035002937"
+    },
+    "cta2": {
+      "label": "Find The Alley",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "10",
+      "label": "Throwing lanes"
+    },
+    {
+      "value": "The Alley",
+      "label": "Downtown Aiken"
+    },
+    {
+      "value": "500-AXES",
+      "label": "Our number, (803)"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "throw",
+      "nav": "Throw",
+      "columns": 3,
+      "eyebrow": "Grab an axe",
+      "title": "Aim, throw, *repeat*",
+      "items": [
+        {
+          "icon": "target",
+          "title": "10 lanes",
+          "text": "Room for the whole group."
+        },
+        {
+          "icon": "map-pin",
+          "title": "In The Alley",
+          "text": "Right in downtown Aiken."
+        },
+        {
+          "icon": "phone",
+          "title": "803-500-AXES",
+          "text": "Easy to remember, easy to call."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Bring the crew",
+      "text": "Call 803-500-AXES to plan a night at the lanes.",
+      "cta": {
+        "label": "Call 803-500-AXES",
+        "href": "tel:+18035002937"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *The Alley*",
+    "hideForm": true
+  },
+  "slug": "woodchuckers-axe-throwing",
+  "added": "2026-11-18",
+  "prospect": "woodchuckers-axe-throwing",
+  "source": {
+    "url": "https://woodchuckersaxethrowing.com/",
+    "before": [
+      "The business's web address now shows a GoDaddy parked-domain page instead of Woodchuckers",
+      "Anyone searching finds no lanes, prices or booking details from the business itself",
+      "The words on this concept come from the Visit Aiken listing; prices, hours, booking and safety rules would come from the owner"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call (803-500-AXES) and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for lane booking, prices, group packages and safety rules once the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "shadow"
+  }
+}

@@ -14,5 +14,6 @@ export function builtIn(demo: Demo): string[] {
     'Save to contacts: name, number, address and hours go straight into a customer\'s phone',
     photos && 'Photos open full screen, with swipe on phones and arrow keys on computers',
     'A share button for texting the page to a friend, and a phone menu with big, easy buttons',
+    contact.phone && 'On a computer: a code to scan that opens the page on a phone, and one-click copy of the number and address',
   ].filter(Boolean) as string[];
 }

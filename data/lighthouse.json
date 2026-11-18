@@ -1989,6 +1989,18 @@
    "si": 3589,
    "cls": 0,
    "at": "2026-11-17"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 800,
+   "lcp": 1810,
+   "tbt": 189,
+   "si": 808,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "dukes-bar-b-que": {
@@ -3261,6 +3273,34 @@
    "lcp": 1803,
    "tbt": 0,
    "si": 1719,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 798,
+   "lcp": 1504,
+   "tbt": 22,
+   "si": 798,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "woodchuckers-axe-throwing": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 893,
+   "lcp": 1506,
+   "tbt": 5,
+   "si": 893,
    "cls": 0,
    "at": "2026-11-18"
   }
