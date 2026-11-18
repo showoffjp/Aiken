@@ -2732,5 +2732,145 @@
    "cls": 0.246,
    "at": "2026-11-17"
   }
+ },
+ "208-abbeville-bed-and-breakfast": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1057,
+   "lcp": 1732,
+   "tbt": 40,
+   "si": 1057,
+   "cls": 0.074,
+   "at": "2026-11-18"
+  }
+ },
+ "cabanas-salvadorean-restaurant": {
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1804,
+   "lcp": 2329,
+   "tbt": 0,
+   "si": 1804,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "la-parisienne-french-restaurant-and-bakery": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1504,
+   "tbt": 0,
+   "si": 1053,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "la-scuderia-aiken": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1653,
+   "tbt": 0,
+   "si": 1053,
+   "cls": 0.001,
+   "at": "2026-11-18"
+  }
+ },
+ "mcghees-mile": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 801,
+   "lcp": 1503,
+   "tbt": 0,
+   "si": 801,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "piece-of-potato": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 810,
+   "lcp": 1503,
+   "tbt": 12,
+   "si": 810,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "rhumba-rum-and-cigar-lounge": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1674,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1674,
+   "cls": 0.002,
+   "at": "2026-11-18"
+  }
+ },
+ "scotch-hutch": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1708,
+   "lcp": 1954,
+   "tbt": 0,
+   "si": 1708,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "sweet-bs": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1680,
+   "lcp": 1680,
+   "tbt": 0,
+   "si": 1680,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "trail-riding-the-trail-riding-company": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1052,
+   "lcp": 1652,
+   "tbt": 0,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
  }
 }

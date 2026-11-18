@@ -15057,5 +15057,1133 @@
     "domainYears": 33
    }
   ]
+ },
+ "208-abbeville-bed-and-breakfast": {
+  "slug": "208-abbeville-bed-and-breakfast",
+  "name": "208 Abbeville Bed and Breakfast",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/stays/208_abbeville_bed_and_breakfast/",
+    "name": "208 Abbeville Bed and Breakfast",
+    "phone": "(803) 649-3109",
+    "website": "",
+    "address": "208 Abbeville Ave. NW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1057,
+   "lcp": 1732,
+   "tbt": 40,
+   "si": 1057,
+   "cls": 0.074,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-luxury-rentals",
+   "aiken-midtown-hotel",
+   "burrell-and-flynns-farm",
+   "carriage-house-inn",
+   "inn-at-houndslake"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-luxury-rentals",
+    "name": "Aiken Luxury Rentals",
+    "website": "https://aikenluxuryrentals.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 0,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "aiken-midtown-hotel",
+    "name": "Aiken Midtown Hotel",
+    "website": "https://www.aikenmidtownhotel.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 83,
+    "pageMB": 0.8,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "burrell-and-flynns-farm",
+    "name": "Burrell and Flynn's Farm",
+    "website": "https://www.burrellandflynnsfarm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 83,
+    "pageMB": 5.9,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "carriage-house-inn",
+    "name": "Carriage House Inn",
+    "website": "https://www.aikencarriagehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 4.3,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "inn-at-houndslake",
+    "name": "Inn at Houndslake",
+    "website": "https://www.theinnathoundslake.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 61,
+    "pageMB": 3.2,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 12
+   }
+  ]
+ },
+ "cabanas-salvadorean-restaurant": {
+  "slug": "cabanas-salvadorean-restaurant",
+  "name": "Cabanas Salvadorean Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/cabanas_salvadorean_restaurant/",
+    "name": "Cabanas Salvadorean Restaurant",
+    "phone": "803-226-9170",
+    "website": "",
+    "address": "1625 Richland Avenue East Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1804,
+   "lcp": 2329,
+   "tbt": 0,
+   "si": 1804,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "neon-fig",
+   "anshu-asian-caf",
+   "blue-collard",
+   "ferrandos-italian-pizzeria",
+   "macks"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "la-parisienne-french-restaurant-and-bakery": {
+  "slug": "la-parisienne-french-restaurant-and-bakery",
+  "name": "La Parisienne French Restaurant & Bakery",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/la_parisienne_french_restaurant_bakery/",
+    "name": "La Parisienne French Restaurant & Bakery",
+    "phone": "(803) 226-0899",
+    "website": "https://www.facebook.com/laparisienne.aiken",
+    "address": "233 chesterfield street, Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/laparisienne.aiken"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1504,
+   "tbt": 0,
+   "si": 1053,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "the-village-caf",
+   "oh-mie-stelle-bakery",
+   "neon-fig",
+   "polo-grounds-cafe",
+   "the-restaurant-at-the-willcox"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "oh-mie-stelle-bakery",
+    "name": "Oh Mie Stelle! Bakery",
+    "website": "https://www.ohmiestelle.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 1.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "polo-grounds-cafe",
+    "name": "Polo Grounds Cafe",
+    "website": "https://www.pologroundscafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "the-restaurant-at-the-willcox",
+    "name": "The Restaurant at The Willcox",
+    "website": "https://thewillcox.com/dine/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 39,
+    "pageMB": 13.7,
+    "a11ySerious": 32,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 25
+   }
+  ]
+ },
+ "la-scuderia-aiken": {
+  "slug": "la-scuderia-aiken",
+  "name": "La Scuderia",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/la-scuderia-aiken-2/",
+    "name": "La Scuderia - Aiken",
+    "phone": "",
+    "website": "https://www.facebook.com/LaScuderiaAiken",
+    "address": "455 York Street, Aiken, SC, United States, South Carolina",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/LaScuderiaAiken"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1653,
+   "tbt": 0,
+   "si": 1053,
+   "cls": 0.001,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "ferrandos-italian-pizzeria",
+   "pizza-joint",
+   "the-village-caf",
+   "whats-cookin-downtown",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "pizza-joint",
+    "name": "Pizza Joint",
+    "website": "https://thepizzajoint.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 1.1,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "mcghees-mile": {
+  "slug": "mcghees-mile",
+  "name": "McGhees' Mile",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/mcghees_mile/",
+    "name": "McGhees' Mile",
+    "phone": "(803) 617-8511 or (803) 640-0211",
+    "website": "https://www.facebook.com/mcgheesmiletraining",
+    "address": "620 Banks Mill Rd Aiken SC",
+    "phoneMatch": false,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/mcgheesmiletraining"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 801,
+   "lcp": 1503,
+   "tbt": 0,
+   "si": 801,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "piece-of-potato": {
+  "slug": "piece-of-potato",
+  "name": "Piece of Potato",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/pieceofpotato/",
+    "name": "Piece of Potato",
+    "phone": "",
+    "website": "",
+    "address": "221 Greenville St. NW Aiken SC",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 810,
+   "lcp": 1503,
+   "tbt": 12,
+   "si": 810,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "blue-collard",
+   "lankys-on-laurens",
+   "legends-grille",
+   "macks",
+   "neon-fig"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "lankys-on-laurens",
+    "name": "Lanky's On Laurens",
+    "website": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 7.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "legends-grille",
+    "name": "Legends Grille",
+    "website": "https://thelegendsgrille.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 75,
+    "pageMB": 5.5,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "rhumba-rum-and-cigar-lounge": {
+  "slug": "rhumba-rum-and-cigar-lounge",
+  "name": "Rhumba Rum & Cigar Lounge",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/rhumba-rum-cigar-lounge/",
+    "name": "Rhumba Rum & Cigar Lounge",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61555642828324",
+    "address": "321 Richland Ave West , Aiken, SC, United States, South Carolina",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61555642828324"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1674,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1674,
+   "cls": 0.002,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "anshu-asian-caf",
+   "the-alley-downtown-taproom",
+   "whiskey-alley-spirits-and-tapas",
+   "ferrandos-italian-pizzeria",
+   "grumpys-sports-pub"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "the-alley-downtown-taproom",
+    "name": "The Alley Downtown Taproom",
+    "website": "https://thealleydowntowntaproom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 8.1,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 9
+   },
+   {
+    "slug": "whiskey-alley-spirits-and-tapas",
+    "name": "Whiskey Alley Spirits & Tapas",
+    "website": "https://whiskeyalley.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.1,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 9
+   },
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "grumpys-sports-pub",
+    "name": "Grumpy's Sports Pub",
+    "website": "https://www.grumpyssportspub.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   }
+  ]
+ },
+ "scotch-hutch": {
+  "slug": "scotch-hutch",
+  "name": "Scotch + Hutch",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/scotch-hutch/",
+    "name": "Scotch + Hutch",
+    "phone": "[email protected]",
+    "website": "https://www.facebook.com/scotchandhutch",
+    "address": "208B The Alley, Aiken, SC, United States, South Carolina 29801",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/scotchandhutch"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1708,
+   "lcp": 1954,
+   "tbt": 0,
+   "si": 1708,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "sweet-bs": {
+  "slug": "sweet-bs",
+  "name": "Sweet B's Soft Serve & Sweet Treats",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1107&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=81b339470994b3ee9ba572e926c4d0a8",
+    "name": "Sweet B's",
+    "phone": "Not provided",
+    "website": "",
+    "address": "137 Laurens Street, SW, Aiken , SC 29801",
+    "phoneMatch": null,
+    "websiteMatch": null
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/sweet-bs-soft-serve-sweet-treats/",
+    "name": "Sweet B's Soft Serve & Sweet Treats",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61580542355131",
+    "address": "137 Laurens Street SW Aiken, SC, United States, South Carolina 29801",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61580542355131"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1680,
+   "lcp": 1680,
+   "tbt": 0,
+   "si": 1680,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "the-village-caf",
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   }
+  ]
+ },
+ "trail-riding-the-trail-riding-company": {
+  "slug": "trail-riding-the-trail-riding-company",
+  "name": "The Trail Riding Company",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/trail-riding-the-trail-riding-company/",
+    "name": "Trail Riding (The Trail Riding Company)",
+    "phone": "(803) 507-5487",
+    "website": "https://www.facebook.com/thetrailridingcompany",
+    "address": "",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/thetrailridingcompany"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1052,
+   "lcp": 1652,
+   "tbt": 0,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }
