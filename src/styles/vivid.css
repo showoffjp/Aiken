@@ -1,0 +1,286 @@
+/* ==========================================================================
+   Vivid: colour, light and depth on top of each concept's personality.
+   Everything is drawn from the concept's own palette (--primary, --accent and
+   a related third hue, --hue3) and its own service icons, so each site keeps
+   its character. Text colours are held to WCAG AA on every tint used here
+   (see contrast.ts); motion switches off for reduced motion and print.
+   ========================================================================== */
+
+body.demo { color: var(--ink-safe, var(--ink)); }
+
+/* ------------------------------------------------------------ hero stage */
+.hero > .wrap, .hero > .hx-marquee, .hero > .hx-wave, .hero > .hx-plane { position: relative; z-index: 2; }
+.hero > .hx-plane { position: absolute; z-index: 1; }
+.hero > .hx-wave { position: absolute; z-index: 3; }
+.hero > .hx-shapes { position: absolute; inset: 0; z-index: 1; }
+.hero > .hx-glow { z-index: 1; }
+
+.fx { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.hero[data-variant="photo"] .fx { z-index: 1; }
+.hero[data-variant="photo"] .fx-mesh, .hero[data-variant="photo"] .fx-grain { display: none; }
+
+/* A slow mesh of the theme colours. The strongest washes sit to the right
+   and bottom, away from the headline; nothing passes ~30% of a colour. */
+.fx-mesh {
+  position: absolute; inset: -25%;
+  background:
+    radial-gradient(34% 40% at 82% 22%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 70%),
+    radial-gradient(30% 38% at 62% 88%, color-mix(in srgb, var(--hue3) 26%, transparent), transparent 70%),
+    radial-gradient(30% 36% at 18% 12%, color-mix(in srgb, var(--primary) 16%, transparent), transparent 70%),
+    radial-gradient(26% 30% at 96% 70%, color-mix(in srgb, var(--primary) 26%, transparent), transparent 70%),
+    radial-gradient(22% 28% at 40% 60%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 70%);
+  animation: fx-mesh 22s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@keyframes fx-mesh {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
+  50% { transform: translate3d(-4%, 3%, 0) rotate(8deg) scale(1.06); }
+  100% { transform: translate3d(3%, -3%, 0) rotate(-6deg) scale(1.02); }
+}
+.fx-dark .fx-mesh {
+  background:
+    radial-gradient(34% 40% at 84% 18%, color-mix(in srgb, var(--accent) 24%, transparent), transparent 70%),
+    radial-gradient(32% 40% at 70% 92%, color-mix(in srgb, var(--hue3) 22%, transparent), transparent 70%),
+    radial-gradient(30% 36% at 6% 96%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%),
+    radial-gradient(26% 30% at 40% 6%, rgb(255 255 255 / .06), transparent 70%);
+}
+/* A glow that follows the pointer (rests top right until it moves). */
+.fx-glow { position: absolute; inset: 0; background: radial-gradient(380px circle at var(--gx, 78%) var(--gy, 26%), color-mix(in srgb, var(--accent) 18%, transparent), transparent 65%); transition: opacity .4s ease; }
+.fx-dark .fx-glow { background: radial-gradient(420px circle at var(--gx, 78%) var(--gy, 26%), color-mix(in srgb, var(--accent) 20%, transparent), transparent 65%); }
+.fx-grain { position: absolute; inset: 0; opacity: .07; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+.fx-dark .fx-grain { opacity: .12; mix-blend-mode: screen; }
+
+/* Depth: --z is how far a piece moves. --sy (scroll), --px/--py (pointer)
+   come from the page script; without it everything simply rests. */
+.fx-tok { width: max-content; height: max-content; }
+.fx-tok, .fx-ring, .fx-dots, .fx-spark { position: absolute; translate: calc(var(--px, 0) * var(--z) * 70px) calc(var(--py, 0) * var(--z) * 70px + var(--sy, 0) * var(--z) * -0.45px); transition: translate .5s cubic-bezier(.2, .7, .2, 1); }
+.fx-live .fx-tok, .fx-live .fx-ring, .fx-live .fx-dots, .fx-live .fx-spark { will-change: translate; }
+
+.fx-tok i {
+  display: grid; place-items: center; width: 74px; height: 74px; border-radius: 26px;
+  color: var(--primary-text, var(--primary));
+  background: linear-gradient(145deg, color-mix(in srgb, var(--surface) 92%, transparent), color-mix(in srgb, var(--surface) 55%, transparent));
+  border: 1px solid color-mix(in srgb, var(--surface) 70%, var(--primary) 12%);
+  box-shadow: 0 18px 40px -18px color-mix(in srgb, var(--primary) 55%, transparent), inset 0 1px 0 rgb(255 255 255 / .7);
+  animation: fx-bob 7s ease-in-out infinite; animation-delay: var(--d, 0s);
+  position: relative; overflow: hidden;
+}
+.fx-tok i::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, transparent 35%, rgb(255 255 255 / .75) 50%, transparent 65%) 0 0 / 260% 100% no-repeat; background-position: 160% 0; animation: fx-glint 7s ease-in-out infinite; animation-delay: calc(var(--d, 0s) * 2); }
+.fx-dark .fx-tok i { color: #fff; background: linear-gradient(145deg, rgb(255 255 255 / .16), rgb(255 255 255 / .05)); border-color: rgb(255 255 255 / .22); box-shadow: 0 18px 40px -18px rgb(0 0 0 / .6), inset 0 1px 0 rgb(255 255 255 / .25); }
+.fx-tok.t1 i, .fx-tok.t4 i { width: 58px; height: 58px; border-radius: 50%; }
+.fx-tok.t2 i { width: 52px; height: 52px; border-radius: 16px; transform: rotate(-8deg); }
+.fx-tok.t3 i { width: 88px; height: 88px; border-radius: 30px; }
+@keyframes fx-bob { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-14px) rotate(4deg); } }
+
+.fx-ring { border-radius: 50%; border: 1.5px solid color-mix(in srgb, var(--primary) 30%, transparent); }
+.fx-ring.g1 { width: 300px; height: 300px; right: -90px; top: -110px; border-style: dashed; animation: hx-spin 60s linear infinite; }
+.fx-ring.g2 { width: 180px; height: 180px; left: -60px; bottom: -70px; border-color: color-mix(in srgb, var(--accent) 45%, transparent); border-width: 10px; opacity: .45; }
+.fx-dark .fx-ring { border-color: rgb(255 255 255 / .18); }
+.fx-dark .fx-ring.g2 { border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+.fx-dots { width: 150px; height: 110px; right: 30%; top: 8%; background-image: radial-gradient(color-mix(in srgb, var(--primary) 45%, transparent) 1.6px, transparent 2px); background-size: 15px 15px; opacity: .55; -webkit-mask: linear-gradient(135deg, #000, transparent); mask: linear-gradient(135deg, #000, transparent); }
+.fx-dark .fx-dots { background-image: radial-gradient(rgb(255 255 255 / .4) 1.6px, transparent 2px); }
+
+.fx-spark { width: 18px; height: 18px; fill: var(--accent); animation: fx-twinkle 3.6s ease-in-out infinite; animation-delay: var(--d, 0s); filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent)); }
+.fx-dark .fx-spark { fill: var(--accent-on-deep, #fff); }
+@keyframes fx-twinkle { 0%, 100% { transform: scale(.4) rotate(0deg); opacity: .35; } 50% { transform: scale(1.1) rotate(90deg); opacity: 1; } }
+.fx-spark.s0 { right: 8%; top: 18%; } .fx-spark.s1 { right: 34%; bottom: 14%; width: 12px; height: 12px; } .fx-spark.s2 { left: 46%; top: 9%; width: 14px; height: 14px; }
+.fx-spark.s3 { right: 3%; bottom: 30%; width: 24px; height: 24px; } .fx-spark.s4 { left: 3%; top: 70%; width: 12px; height: 12px; }
+
+/* Where the badges sit: around the edges and the visual, clear of the copy. */
+.fx-tok.t0 { right: 3%; top: 12%; } .fx-tok.t1 { right: 44%; bottom: 7%; } .fx-tok.t2 { left: 47%; top: 7%; }
+.fx-tok.t3 { right: 6%; bottom: 10%; } .fx-tok.t4 { left: -14px; bottom: 16%; }
+[data-kind="spotlight"] .fx-tok.t0 { right: 7%; top: 16%; } [data-kind="spotlight"] .fx-tok.t1 { left: 8%; right: auto; bottom: 18%; } [data-kind="spotlight"] .fx-tok.t2 { left: 6%; top: 14%; }
+[data-kind="spotlight"] .fx-tok.t3 { right: 9%; bottom: 14%; } [data-kind="spotlight"] .fx-tok.t4 { display: none; }
+/* The magazine page is full of type edge to edge: no badges, just light. */
+[data-kind="magazine"] .fx-tok { display: none; }
+[data-kind="blueprint"] .fx-tok.t1, [data-kind="blueprint"] .fx-tok.t3 { display: none; }
+/* Flipped split heroes (photo on the left): the badges mirror to that side. */
+@media (min-width: 861px) {
+  [data-flip] [data-kind="split"] .fx-tok.t0 { right: auto; left: 3%; }
+  [data-flip] [data-kind="split"] .fx-tok.t3 { right: auto; left: 7%; }
+  [data-flip] [data-kind="split"] .fx-tok.t1 { right: auto; left: 43%; }
+}
+[data-kind="poster"] .fx-tok.t2, [data-kind="poster"] .fx-tok.t1, [data-kind="poster"] .fx-tok.t3 { display: none; } [data-kind="poster"] .fx-tok.t0 { top: 30%; right: 3%; }
+[data-kind="bento"] .fx-tok.t1 { right: 30%; bottom: 2%; } [data-kind="bento"] .fx-tok.t2 { top: 2%; left: 60%; }
+[data-kind="board"] .fx-tok.t2 { left: 44%; top: 6%; } [data-kind="board"] .fx-tok.t0 { top: 6%; }
+@media (max-width: 640px) { .fx-tok { display: none !important; } }
+@media (max-width: 860px) {
+  .fx-tok.t1, .fx-tok.t2, .fx-tok.t4, .fx-dots { display: none; }
+  .fx-tok.t0 { right: -16px; top: 8px; } .fx-tok.t3 { right: -20px; bottom: 6%; top: auto; }
+  .fx-tok i { width: 56px !important; height: 56px !important; border-radius: 18px; }
+  .fx-tok i .icon { width: 22px; height: 22px; }
+  .fx-ring.g1 { width: 200px; height: 200px; }
+  .fx-mesh { inset: -40%; }
+}
+
+/* Headline: each word settles in from a soft blur (only with the motion layer). */
+.fx-w { display: inline-block; animation: fx-word .9s cubic-bezier(.2, .7, .2, 1) both; animation-delay: calc(var(--i, 0) * 55ms + 80ms); }
+@keyframes fx-word { from { transform: translateY(.42em) rotate(2deg); filter: blur(10px); } }
+.motion h1.fx-split { animation: none; }
+
+/* Emphasis in headlines: a slow gradient sweep between two readable colours. */
+/* Each word is its own box once split, so the gradient goes on the words. */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .motion .hero:not(.hx-poster):not(.hx-board):not(.hx-blueprint):not([data-variant="banner"]):not([data-variant="photo"]) h1 em .fx-w,
+  .motion .section-head h2 em {
+    background: linear-gradient(100deg, var(--primary-text, var(--primary)) 0%, var(--accent-text, var(--primary-text)) 45%, var(--primary-text, var(--primary)) 90%) 0 0 / 220% 100%;
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    animation: fx-flow 7s ease-in-out infinite alternate;
+  }
+  .motion .hero:not(.hx-poster):not(.hx-board):not(.hx-blueprint):not([data-variant="banner"]):not([data-variant="photo"]) h1 em .fx-w {
+    animation: fx-word .9s cubic-bezier(.2, .7, .2, 1) calc(var(--i, 0) * 55ms + 80ms) both, fx-flow 7s ease-in-out infinite alternate;
+  }
+}
+@keyframes fx-flow { to { background-position: 100% 0; } }
+
+/* -------------------------------------------------------- the offer ribbon */
+.fx-ribbon { position: relative; height: clamp(104px, 11vw, 140px); overflow: hidden; z-index: 3; margin-block: -28px; pointer-events: none; }
+.fx-band { position: absolute; left: -5%; right: -5%; top: 50%; overflow: hidden; box-shadow: 0 18px 40px -22px rgb(0 0 0 / .45); }
+.fx-band.b1 { transform: translateY(-50%) rotate(-2.2deg); background: linear-gradient(100deg, var(--primary), var(--primary-2, var(--primary)), var(--primary)); color: var(--on-primary); }
+.fx-band.b2 { transform: translateY(-50%) rotate(1.8deg); background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); }
+.fx-track { display: flex; width: max-content; animation: hx-marquee 46s linear infinite; }
+.fx-band.b2 .fx-track { animation-direction: reverse; animation-duration: 60s; opacity: .95; }
+.fx-track span { display: inline-flex; align-items: center; gap: 20px; padding: 13px 20px; font: 700 clamp(.95rem, 1.5vw, 1.2rem)/1 var(--font-display); text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
+.fx-band.b2 .fx-track span { font-size: clamp(.8rem, 1.1vw, .95rem); padding-block: 10px; letter-spacing: .14em; }
+.fx-track svg { width: 16px; height: 16px; fill: currentColor; opacity: .85; }
+
+/* ----------------------------------------------------------- the logo */
+.site-head { position: sticky; }
+.site-head::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; background: linear-gradient(90deg, var(--primary), var(--accent), var(--hue3), var(--primary)) 0 0 / 300% 100%; animation: fx-flow 14s linear infinite alternate; opacity: .9; }
+.site-head.scrolled { background: color-mix(in srgb, var(--bg) 82%, transparent); box-shadow: 0 10px 30px -18px color-mix(in srgb, var(--primary) 55%, transparent); }
+.brand .mark { position: relative; overflow: hidden; background: linear-gradient(140deg, var(--primary), var(--primary-2, var(--primary))); box-shadow: 0 8px 18px -8px color-mix(in srgb, var(--primary) 75%, transparent), inset 0 1px 0 rgb(255 255 255 / .25); transition: transform .5s cubic-bezier(.3, 1.6, .5, 1), box-shadow .3s ease; }
+.brand .mark .icon { position: relative; z-index: 1; transition: transform .6s cubic-bezier(.3, 1.6, .5, 1); }
+.brand:hover .mark { transform: rotate(-8deg) scale(1.1); box-shadow: 0 12px 26px -8px color-mix(in srgb, var(--primary) 85%, transparent), 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent); }
+.brand:hover .mark .icon { transform: rotate(16deg) scale(1.08); }
+.brand .logo { position: relative; display: inline-flex; transition: transform .4s cubic-bezier(.3, 1.4, .5, 1), filter .3s ease; }
+.brand:hover .logo { transform: scale(1.04); filter: drop-shadow(0 6px 14px color-mix(in srgb, var(--primary) 40%, transparent)); }
+/* The glint: a band of light that crosses the emblem now and then, and on hover. */
+.glint { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / .1) 42%, rgb(255 255 255 / .9) 50%, rgb(255 255 255 / .1) 58%, transparent 70%) 0 0 / 260% 100% no-repeat; background-position: 170% 0; animation: fx-glint 8s ease-in-out infinite 2s; }
+.brand .logo .glint { -webkit-mask: var(--logo) center / contain no-repeat; mask: var(--logo) center / contain no-repeat; }
+.brand:hover .glint, .site-foot .word:hover .glint { animation: fx-glint-now .9s ease-out; }
+@keyframes fx-glint { 0%, 82% { background-position: 170% 0; } 100% { background-position: -70% 0; } }
+@keyframes fx-glint-now { from { background-position: 170% 0; } to { background-position: -70% 0; } }
+/* The name catches the light too. */
+.brand:hover .word { background: linear-gradient(100deg, currentColor 0 38%, var(--accent-text, var(--primary)) 45%, color-mix(in srgb, var(--accent-text, var(--primary)) 55%, #fff) 50%, var(--accent-text, var(--primary)) 55%, currentColor 62% 100%) 0 0 / 300% 100%; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: fx-word-shine 1s ease-out both; }
+.brand:hover .word small { -webkit-text-fill-color: var(--muted-text, var(--muted)); }
+[data-cinematic] .brand:hover .word small { -webkit-text-fill-color: rgb(255 255 255 / .66); }
+@keyframes fx-word-shine { from { background-position: 100% 0; } to { background-position: 0 0; } }
+
+/* -------------------------------------------------- buttons and badges */
+:where(.btn):not(.ghost) { background-image: linear-gradient(120deg, var(--primary) 0%, var(--primary-2, var(--primary)) 100%); }
+.btn { translate: var(--bx, 0) var(--by, 0); transition: transform .2s ease, box-shadow .25s ease, background .2s ease, translate .25s ease; }
+.btn:not(.ghost):hover { box-shadow: 0 14px 30px -12px color-mix(in srgb, var(--primary) 80%, transparent), 0 0 0 4px color-mix(in srgb, var(--accent) 28%, transparent); }
+.btn::after { background: linear-gradient(115deg, transparent 30%, rgb(255 255 255 / .45) 50%, transparent 70%); }
+.card .badge { background: linear-gradient(140deg, var(--primary), var(--primary-2, var(--primary))); color: var(--on-primary); box-shadow: 0 10px 22px -12px color-mix(in srgb, var(--primary) 80%, transparent); position: relative; overflow: hidden; }
+.card .badge::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, transparent 35%, rgb(255 255 255 / .6) 50%, transparent 65%) 0 0 / 260% 100% no-repeat; background-position: 170% 0; transition: background-position .8s ease; }
+.card:hover .badge::after { background-position: -70% 0; }
+
+/* Cards: a gentle 3D tilt toward the pointer, and a glare that follows it. */
+.card::after { background: radial-gradient(200px circle at var(--mx, 50%) var(--my, 0%), rgb(255 255 255 / .55), transparent 60%), radial-gradient(320px circle at var(--mx, 50%) var(--my, 0%), color-mix(in srgb, var(--primary) 14%, transparent), transparent 70%); }
+.motion body:not([data-services]) .card, .motion [data-services="tiles"] .card { transform-style: preserve-3d; }
+.motion body:not([data-services]) .card:hover { transform: perspective(900px) translateY(-6px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); }
+.motion body[data-services="tiles"] .cards > .card:hover { transform: perspective(900px) scale(1.03) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); }
+body[data-services="tiles"] .card::after { display: block; background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 0%), rgb(255 255 255 / .22), transparent 60%); }
+
+/* Emblems glisten: the orbit core, the collage blob, bento icon, spotlight badge. */
+.hx-core, .hx-blob, .b-icon, .hx-badge, .hx-draw { position: relative; overflow: hidden; }
+.hx-core::after, .hx-blob::after, .b-icon::after, .hx-badge::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: linear-gradient(115deg, transparent 32%, rgb(255 255 255 / .55) 50%, transparent 68%) 0 0 / 260% 100% no-repeat; background-position: 170% 0; animation: fx-glint 6s ease-in-out infinite 1s; }
+.b-icon { background: linear-gradient(145deg, var(--primary), var(--primary-2, var(--primary))) !important; }
+.hx-core { background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--accent-btn, var(--accent)) 70%, #fff), var(--accent-btn, var(--accent)) 60%); }
+.hx-blob { background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--primary) 70%, #fff), var(--primary) 55%, color-mix(in srgb, var(--primary) 80%, #000)); }
+.hero-visual .frame img { transition: transform .6s cubic-bezier(.2, .7, .2, 1), filter .4s ease; }
+.hero-visual:hover .frame img { filter: saturate(1.15) contrast(1.04); }
+
+/* ------------------------------------------------ colour through the page */
+/* Alternate sections: a soft mesh of the theme colours instead of a flat fill. */
+.section.alt {
+  background:
+    radial-gradient(48% 60% at 0% 0%, color-mix(in srgb, var(--primary) 12%, transparent), transparent 70%),
+    radial-gradient(42% 55% at 100% 100%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 70%),
+    radial-gradient(30% 40% at 85% 10%, color-mix(in srgb, var(--hue3) 9%, transparent), transparent 70%),
+    color-mix(in srgb, var(--surface) 80%, transparent);
+}
+/* Colour orbs that drift past at their own pace as the page scrolls. */
+main > .section:not(.band):not(.cine-gallery) { position: relative; isolation: isolate; overflow-x: clip; }
+main > .section:not(.band):not(.cine-gallery)::after { content: ""; position: absolute; z-index: -1; pointer-events: none; width: min(560px, 70vw); aspect-ratio: 1; border-radius: 50%; top: 10%; right: -14%; background: radial-gradient(closest-side, color-mix(in srgb, var(--accent) 14%, transparent), transparent); }
+main > .section:nth-of-type(even):not(.band)::after { right: auto; left: -16%; top: 30%; background: radial-gradient(closest-side, color-mix(in srgb, var(--hue3) 12%, transparent), transparent); }
+main > .section:nth-of-type(3n):not(.band)::after { background: radial-gradient(closest-side, color-mix(in srgb, var(--primary) 12%, transparent), transparent); }
+@supports (animation-timeline: view()) {
+  .motion main > .section:not(.band):not(.cine-gallery)::after { animation: fx-orb linear both; animation-timeline: view(); }
+  @keyframes fx-orb { from { transform: translateY(140px) scale(.85); } to { transform: translateY(-140px) scale(1.1); } }
+}
+
+/* Photos drift inside their frames (parallax) as they pass. */
+body:not([data-cinematic]) .story-media:has(img:not(.contain)) { overflow: hidden; border-radius: var(--r-lg); box-shadow: var(--shadow); }
+body:not([data-cinematic]) .story-media img:not(.contain) { box-shadow: none; }
+.motion body:not([data-cinematic]) .story-media img:not(.contain) { scale: 1.14; translate: 0 calc((var(--p, .5) - .5) * -70px); will-change: translate; }
+.motion body:not([data-cinematic]) .gallery figure img { scale: 1.12; translate: 0 calc((var(--p, .5) - .5) * -40px); }
+
+/* Facts strip (the default style): a deep gradient band with glowing numbers. */
+body:not([data-facts]):not([data-cinematic]) .facts { position: relative; isolation: isolate; overflow: clip; border: 0; color: #fff; background: linear-gradient(120deg, var(--deep), var(--deep2)); }
+body:not([data-facts]):not([data-cinematic]) .facts::before { content: ""; position: absolute; inset: -40% -10%; z-index: -1; background: radial-gradient(30% 70% at 15% 50%, color-mix(in srgb, var(--primary) 26%, transparent), transparent 70%), radial-gradient(26% 70% at 85% 40%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 70%); animation: cine-aurora 18s ease-in-out infinite alternate; }
+body:not([data-facts]):not([data-cinematic]) .facts ul { background: transparent; border: 0; box-shadow: none; }
+body:not([data-facts]):not([data-cinematic]) .facts li { border-color: rgb(255 255 255 / .14); }
+body:not([data-facts]):not([data-cinematic]) .facts li:hover { background: rgb(255 255 255 / .06); }
+body:not([data-facts]):not([data-cinematic]) .facts strong { color: var(--accent-on-deep, #fff); text-shadow: 0 0 24px color-mix(in srgb, var(--accent) 45%, transparent); }
+body:not([data-facts]):not([data-cinematic]) .facts span { color: rgb(255 255 255 / .82); }
+/* Round badges get a ring of light. */
+[data-facts="badges"] .facts strong { background: linear-gradient(140deg, var(--primary), var(--primary-2, var(--primary))); box-shadow: 0 0 0 6px var(--bg), 0 0 0 8px var(--accent), 0 18px 34px -16px color-mix(in srgb, var(--primary) 80%, transparent); }
+
+/* The closing band: a flowing gradient, a sheen and floating rings. */
+.band { position: relative; isolation: isolate; overflow: clip; background: linear-gradient(115deg, var(--primary), var(--primary-2, var(--primary)), var(--primary)) 0 0 / 240% 100%; animation: demo-band 12s ease-in-out infinite alternate; }
+.band::before { content: ""; position: absolute; z-index: -1; width: 420px; aspect-ratio: 1; right: -120px; top: -180px; border-radius: 50%; border: 40px solid color-mix(in srgb, var(--on-primary) 8%, transparent); animation: hx-spin 40s linear infinite; }
+.band::after { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(110deg, transparent 40%, rgb(255 255 255 / .1) 50%, transparent 60%) 0 0 / 300% 100% no-repeat; animation: fx-sheen 7s ease-in-out infinite; }
+@keyframes fx-sheen { 0%, 40% { background-position: 150% 0; } 100% { background-position: -50% 0; } }
+
+/* Footer: a deep gradient in the theme colours with a slow aurora. */
+.site-foot { position: relative; isolation: isolate; overflow: clip; color: rgb(255 255 255 / .88); background: linear-gradient(160deg, var(--deep), var(--deep2)); }
+.site-foot::before { content: ""; position: absolute; z-index: -1; inset: -30% -10%; background: radial-gradient(34% 60% at 10% 0%, color-mix(in srgb, var(--primary) 22%, transparent), transparent 70%), radial-gradient(30% 60% at 92% 100%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%); animation: cine-aurora 22s ease-in-out infinite alternate; }
+.site-foot .word { color: #fff; display: flex; align-items: center; gap: 12px; }
+.site-foot h4, .site-foot .legal { color: rgb(255 255 255 / .72); }
+.site-foot a:hover { color: #fff; }
+.site-foot .top, .site-foot .legal { border-color: rgb(255 255 255 / .12); }
+.foot-mark { position: relative; overflow: hidden; flex: none; width: 38px; height: 38px; border-radius: var(--r); display: grid; place-items: center; background: linear-gradient(140deg, var(--primary), var(--primary-2, var(--primary))); color: var(--on-primary); box-shadow: 0 0 0 1px rgb(255 255 255 / .15); }
+.foot-mark .icon { position: relative; z-index: 1; }
+
+/* Section headings: the eyebrow gets a small gradient bar that draws in. */
+.section-head .eyebrow { position: relative; }
+.motion .section-head.reveal .eyebrow::after { content: ""; display: block; width: 0; height: 3px; border-radius: 3px; margin-top: 8px; background: linear-gradient(90deg, var(--primary), var(--accent)); transition: width .9s cubic-bezier(.2, .7, .2, 1) .3s; }
+.motion .section-head.reveal.in .eyebrow::after { width: 46px; }
+[data-heads="center"] .section-head .eyebrow::after, [data-look="boutique"] .section-head .eyebrow::after { margin-inline: auto; }
+
+/* Phones: the callbar gets the gradient too. */
+.callbar a:not(.alt) { background: linear-gradient(120deg, var(--primary), var(--primary-2, var(--primary))); box-shadow: 0 10px 26px -10px color-mix(in srgb, var(--primary) 85%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .fx *, .fx-track, .glint, .band, .band::before, .band::after, .site-foot::before, .facts::before { animation: none !important; }
+  .fx-tok, .fx-ring, .fx-dots, .fx-spark, .btn { translate: none !important; }
+}
+@media print { .fx, .fx-ribbon, .glint { display: none !important; } }
+
+/* ---------------------------------------------------- statement section
+   One section per page in a deep gradient of the theme colours. It re-themes
+   the colour variables, so every component inside (cards, lists, quotes,
+   steps, menus) reads white-on-deep at 4.5:1 or better. */
+.section.fx-deep {
+  --ink: #fff; --ink-safe: #fff; --muted-text: rgb(255 255 255 / .8); --muted: rgb(255 255 255 / .8);
+  --primary-text: var(--accent-on-deep, #fff); --accent-text: #fff;
+  --line: rgb(255 255 255 / .16); --surface: color-mix(in srgb, var(--deep) 88%, #fff); --soft: rgb(255 255 255 / .08);
+  --bg: color-mix(in srgb, var(--deep) 92%, #fff);
+  color: #fff; border: 0;
+  background: linear-gradient(150deg, var(--deep), var(--deep2));
+}
+.section.fx-deep::before { content: ""; position: absolute; z-index: -1; inset: -20% -10%; pointer-events: none; background: radial-gradient(34% 50% at 12% 20%, color-mix(in srgb, var(--primary) 24%, transparent), transparent 70%), radial-gradient(30% 46% at 88% 80%, color-mix(in srgb, var(--accent) 15%, transparent), transparent 70%), radial-gradient(24% 34% at 70% 10%, color-mix(in srgb, var(--hue3) 14%, transparent), transparent 70%); animation: cine-aurora 20s ease-in-out infinite alternate; }
+main > .section.fx-deep::after { background: radial-gradient(closest-side, rgb(255 255 255 / .05), transparent); }
+.section.fx-deep .card, .section.fx-deep .quotes figure, .section.fx-deep .steps li, .section.fx-deep .faq details { background: rgb(255 255 255 / .06); border-color: rgb(255 255 255 / .14); }
+.section.fx-deep .card:hover { border-color: color-mix(in srgb, var(--accent) 50%, transparent); }
+.section.fx-deep .card::after { background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 0%), rgb(255 255 255 / .12), transparent 60%); }
+.section.fx-deep .btn.ghost { color: #fff; border-color: rgb(255 255 255 / .5); }
+.section.fx-deep a:not(.btn) { color: #fff; }
+.section.fx-deep .story-media img.contain { background: rgb(255 255 255 / .92); }
+.section.fx-deep .eyebrow { color: var(--accent-on-deep, #fff); }
+[data-look="bold"] .section.fx-deep .card { box-shadow: 6px 6px 0 rgb(0 0 0 / .45); border-color: rgb(255 255 255 / .3); }
+[data-look="clean"] .section.fx-deep .eyebrow { background: rgb(255 255 255 / .1); }
+[data-heads="outline"] .section.fx-deep .section-head::before { -webkit-text-stroke-color: rgb(255 255 255 / .14); }
+body[data-services="tiles"] .section.fx-deep .cards > .card:nth-child(even) { background: color-mix(in srgb, var(--deep) 70%, #fff); }
+.section.fx-deep .btn:not(.ghost) { background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); border-color: var(--accent-btn, var(--accent)); }
