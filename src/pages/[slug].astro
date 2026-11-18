@@ -501,6 +501,17 @@ const ld = {
             b.addEventListener('pointerleave', () => { b.style.setProperty('--bx', '0px'); b.style.setProperty('--by', '0px'); });
           });
 
+          // Decorative loops start on the first interaction (see vivid.css).
+          // Chrome sends synthetic pointer moves after layout changes (to update
+          // hover), so a move only counts when the pointer really moved.
+          const kinds = ['pointermove', 'pointerdown', 'wheel', 'keydown', 'touchstart'];
+          const wake = (e) => {
+            if (e.type === 'pointermove' && !(e.isTrusted && (e.movementX || e.movementY))) return;
+            document.documentElement.classList.add('awake');
+            kinds.forEach((t) => removeEventListener(t, wake));
+          };
+          kinds.forEach((t) => addEventListener(t, wake, { passive: true }));
+
           // The header settles into a tinted glass bar once the page scrolls.
           const sh = document.querySelector('[data-head]');
           const tick = () => sh?.classList.toggle('scrolled', scrollY > 24);
