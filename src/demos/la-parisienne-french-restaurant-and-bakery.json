@@ -1,0 +1,144 @@
+{
+  "name": "La Parisienne French Restaurant & Bakery",
+  "short": "La Parisienne",
+  "category": "French Bakery & Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "manrope",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f6f4fa",
+    "surface": "#ffffff",
+    "ink": "#1b1f33",
+    "muted": "#585d72",
+    "primary": "#1f3a8a",
+    "onPrimary": "#ffffff",
+    "accent": "#e88aa0",
+    "line": "#e2e0ec"
+  },
+  "radius": 14,
+  "icon": "croissant",
+  "contact": {
+    "phone": "(803) 226-0899",
+    "address": [
+      "233 Chesterfield Street",
+      "Aiken, SC"
+    ],
+    "mapQuery": "La Parisienne, 233 Chesterfield Street, Aiken, SC",
+    "facebook": "https://www.facebook.com/laparisienne.aiken"
+  },
+  "hero": {
+    "eyebrow": "Authentic French bakery & restaurant",
+    "title": "Croissants, crêpes *et croques*",
+    "lede": "Quiches, sandwiches, croissant sandwiches, croques and crêpes, with pastries and viennoiseries from the bakery, on Chesterfield Street.",
+    "cta": {
+      "label": "Call (803) 226-0899",
+      "href": "tel:+18032260899"
+    },
+    "cta2": {
+      "label": "La carte",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Authentic",
+      "label": "French bakery and restaurant"
+    },
+    {
+      "value": "Viennoiseries",
+      "label": "And pastries"
+    },
+    {
+      "value": "Crêpes",
+      "label": "Croques and quiches"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "La carte",
+      "columns": 3,
+      "eyebrow": "Bonjour, Aiken",
+      "title": "From the *bakery & kitchen*",
+      "items": [
+        {
+          "icon": "croissant",
+          "title": "Pastries & viennoiseries",
+          "text": "From the French bakery."
+        },
+        {
+          "icon": "egg",
+          "title": "Quiches",
+          "text": "Savory and French."
+        },
+        {
+          "icon": "sandwich",
+          "title": "Sandwiches",
+          "text": "Including croissant sandwiches."
+        },
+        {
+          "icon": "flame",
+          "title": "Croques",
+          "text": "Toasted, the French way."
+        },
+        {
+          "icon": "cake-slice",
+          "title": "Crêpes",
+          "text": "Sweet or savory."
+        },
+        {
+          "icon": "coffee",
+          "title": "Stay a while",
+          "text": "A French restaurant and bakery in one."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Bon appétit",
+      "text": "Call ahead or stop in on Chesterfield Street.",
+      "cta": {
+        "label": "Call (803) 226-0899",
+        "href": "tel:+18032260899"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Chesterfield Street*",
+    "hideForm": true
+  },
+  "slug": "la-parisienne-french-restaurant-and-bakery",
+  "prospect": "la-parisienne-french-restaurant-and-bakery",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/la_parisienne_french_restaurant_bakery/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

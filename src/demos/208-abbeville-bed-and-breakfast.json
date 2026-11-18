@@ -1,0 +1,148 @@
+{
+  "name": "208 Abbeville Bed and Breakfast",
+  "short": "208 Abbeville",
+  "category": "Bed and Breakfast",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f7f4ec",
+    "surface": "#fffdf8",
+    "ink": "#1e231f",
+    "muted": "#5c635d",
+    "primary": "#2f5d46",
+    "onPrimary": "#f7f4ec",
+    "accent": "#c97b84",
+    "line": "#e3ddd0"
+  },
+  "radius": 4,
+  "icon": "bed-double",
+  "contact": {
+    "phone": "(803) 649-3109",
+    "address": [
+      "208 Abbeville Avenue NW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "208 Abbeville Ave NW, Aiken, SC"
+  },
+  "hero": {
+    "eyebrow": "A garden hideaway near downtown Aiken",
+    "title": "Cozy, tranquil, and *a short walk to town*",
+    "lede": "Two acres of gardens, exquisitely decorated rooms and a breakfast cooked every morning by a local chef, within walking distance of downtown Aiken's restaurants and shops.",
+    "points": [
+      "Two acres of gardens",
+      "Breakfast cooked daily",
+      "Free Wi-Fi throughout"
+    ],
+    "cta": {
+      "label": "Call (803) 649-3109",
+      "href": "tel:+18036493109"
+    },
+    "cta2": {
+      "label": "The rooms",
+      "href": "#stay"
+    }
+  },
+  "facts": [
+    {
+      "value": "2+ acres",
+      "label": "Of splendid plant life and garden features"
+    },
+    {
+      "value": "Walkable",
+      "label": "To downtown restaurants and shops"
+    },
+    {
+      "value": "Daily",
+      "label": "Breakfast cooked by the proprietor"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "stay",
+      "nav": "Your stay",
+      "columns": 2,
+      "eyebrow": "The perfect hideaway",
+      "title": "Everything for *a restful stay*",
+      "items": [
+        {
+          "icon": "bed-double",
+          "title": "Exquisitely decorated rooms",
+          "text": "Comfortable beds and fully modernized private baths."
+        },
+        {
+          "icon": "egg",
+          "title": "A scrumptious breakfast",
+          "text": "Fresh eggs, breakfast meats and seasonal fruit, cooked daily, with juice, cereal and freshly brewed coffee."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Two acres of gardens",
+          "text": "Splendid plant life and delightful garden features."
+        },
+        {
+          "icon": "wifi",
+          "title": "Stay connected",
+          "text": "Free wireless internet throughout the home."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "host",
+      "nav": "Your host",
+      "eyebrow": "From the kitchen",
+      "title": "Breakfast by *Bruce Shipman*",
+      "body": [
+        "Bruce Shipman, a local chef and the proprietor, cooks breakfast every morning: fresh eggs, breakfast meats and a variety of seasonal fruits, with juice, cereal and freshly brewed coffee on hand."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a visit to Aiken?",
+      "text": "Call to ask about dates and rooms.",
+      "cta": {
+        "label": "Call (803) 649-3109",
+        "href": "tel:+18036493109"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Abbeville Avenue*",
+    "hideForm": true
+  },
+  "slug": "208-abbeville-bed-and-breakfast",
+  "prospect": "208-abbeville-bed-and-breakfast",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/stays/208_abbeville_bed_and_breakfast/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "Scotch + Hutch",
+  "short": "Scotch + Hutch",
+  "category": "Vintage Furniture & Decor",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "syne",
+    "body": "work-sans",
+    "accent": "jetbrains-mono"
+  },
+  "colors": {
+    "bg": "#f5f2ec",
+    "surface": "#fffdf9",
+    "ink": "#1c1d1f",
+    "muted": "#5d5f63",
+    "primary": "#1f4e5f",
+    "onPrimary": "#f5f2ec",
+    "accent": "#d08a3a",
+    "line": "#e2ddd3"
+  },
+  "radius": 2,
+  "icon": "armchair",
+  "contact": {
+    "address": [
+      "208B The Alley",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Scotch + Hutch, 208B The Alley, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/scotchandhutch"
+  },
+  "hero": {
+    "eyebrow": "Curated by Harpman Interiors",
+    "title": "Make yourself *at home*",
+    "lede": "Aiken's destination for eclectic vintage furniture, decor and style, in The Alley downtown.",
+    "cta": {
+      "label": "Visit The Alley",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "What you'll find",
+      "href": "#finds"
+    }
+  },
+  "facts": [
+    {
+      "value": "Vintage",
+      "label": "Eclectic furniture"
+    },
+    {
+      "value": "Decor",
+      "label": "And style"
+    },
+    {
+      "value": "Curated",
+      "label": "By Harpman Interiors"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "finds",
+      "nav": "What you'll find",
+      "columns": 3,
+      "eyebrow": "Eclectic, vintage, curated",
+      "title": "Pieces with *a story*",
+      "items": [
+        {
+          "icon": "armchair",
+          "title": "Vintage furniture",
+          "text": "Eclectic pieces for every room."
+        },
+        {
+          "icon": "lamp",
+          "title": "Decor",
+          "text": "The finishing touches."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Style",
+          "text": "Curated by Harpman Interiors."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Find us in The Alley",
+      "text": "Downtown Aiken's destination for vintage style.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *The Alley*",
+    "hideForm": true
+  },
+  "slug": "scotch-hutch",
+  "prospect": "scotch-hutch",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/scotch-hutch/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "rows",
+    "heads": "numbered",
+    "pattern": "grid",
+    "divider": "slant",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

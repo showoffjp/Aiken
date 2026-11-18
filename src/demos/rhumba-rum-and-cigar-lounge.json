@@ -1,0 +1,139 @@
+{
+  "name": "Rhumba Rum & Cigar Lounge",
+  "short": "Rhumba",
+  "category": "Rum & Cigar Lounge",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#15100c",
+    "surface": "#1f1812",
+    "ink": "#f3e9dc",
+    "muted": "#c2b3a2",
+    "primary": "#c58b3e",
+    "onPrimary": "#15100c",
+    "accent": "#b8442f",
+    "line": "#3a2e24"
+  },
+  "radius": 6,
+  "icon": "cigarette",
+  "contact": {
+    "address": [
+      "321 Richland Avenue West",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Rhumba Rum & Cigar Lounge, 321 Richland Ave W, Aiken, SC",
+    "facebook": "https://www.facebook.com/profile.php?id=61555642828324"
+  },
+  "hero": {
+    "eyebrow": "In the heart of downtown Aiken",
+    "title": "Rum, cigars and *a patio to enjoy them*",
+    "lede": "A cigar and bar lounge with a walk-in humidor, monthly cigar memberships, food, music and a cigar patio.",
+    "cta": {
+      "label": "Get directions",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "The lounge",
+      "href": "#lounge"
+    }
+  },
+  "facts": [
+    {
+      "value": "Walk-in",
+      "label": "Humidor, open to explore"
+    },
+    {
+      "value": "Monthly",
+      "label": "Cigar memberships"
+    },
+    {
+      "value": "Patio",
+      "label": "For cigars outdoors"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "lounge",
+      "nav": "The lounge",
+      "columns": 3,
+      "eyebrow": "Great atmosphere",
+      "title": "Settle in at *Rhumba*",
+      "items": [
+        {
+          "icon": "cigarette",
+          "title": "Walk-in humidor",
+          "text": "Open and ready for you to explore."
+        },
+        {
+          "icon": "calendar-check",
+          "title": "Monthly memberships",
+          "text": "Cigar memberships, month by month."
+        },
+        {
+          "icon": "martini",
+          "title": "The bar",
+          "text": "Rum and more at the bar."
+        },
+        {
+          "icon": "utensils",
+          "title": "Delicious food",
+          "text": "Something to go with your drink."
+        },
+        {
+          "icon": "music",
+          "title": "Music",
+          "text": "A great atmosphere to unwind in."
+        },
+        {
+          "icon": "sun",
+          "title": "Cigar patio",
+          "text": "Take it outside."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Downtown on Richland Avenue",
+      "text": "Explore the humidor and ask about a monthly membership.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us *downtown*",
+    "hideForm": true
+  },
+  "slug": "rhumba-rum-and-cigar-lounge",
+  "prospect": "rhumba-rum-and-cigar-lounge",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/rhumba-rum-cigar-lounge/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "list",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

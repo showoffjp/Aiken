@@ -1,0 +1,151 @@
+{
+  "name": "La Scuderia",
+  "short": "La Scuderia",
+  "category": "Italian Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#faf6ef",
+    "surface": "#ffffff",
+    "ink": "#211714",
+    "muted": "#62554f",
+    "primary": "#7a1f2b",
+    "onPrimary": "#fff8f0",
+    "accent": "#c9a227",
+    "line": "#e9dfd2"
+  },
+  "radius": 10,
+  "icon": "pizza",
+  "contact": {
+    "address": [
+      "455 York Street",
+      "Aiken, SC"
+    ],
+    "mapQuery": "La Scuderia, 455 York Street, Aiken, SC",
+    "facebook": "https://www.facebook.com/LaScuderiaAiken",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "11 am – 2 pm · 5 – 8 pm"
+      ],
+      [
+        "Friday – Sunday",
+        "11 am – 2 pm · 5 – 9 pm"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Old World Italian on York Street",
+    "title": "The flavors and traditions *of Italy*",
+    "lede": "Wood-fired pizzas, handcrafted pastas, fresh antipasti, panini, salads and classic Italian specialties, in a warm and inviting dining room.",
+    "cta": {
+      "label": "Get directions",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "On the menu",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Wood fired",
+      "label": "Pizzas from the oven"
+    },
+    {
+      "value": "Handcrafted",
+      "label": "Pastas"
+    },
+    {
+      "value": "Lunch + dinner",
+      "label": "Seven days a week"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "On the menu",
+      "columns": 3,
+      "eyebrow": "Authentic Old World cuisine",
+      "title": "From the *wood-fired oven* and beyond",
+      "items": [
+        {
+          "icon": "pizza",
+          "title": "Wood-fired pizzas",
+          "text": "Baked in the wood-fired oven."
+        },
+        {
+          "icon": "utensils",
+          "title": "Handcrafted pastas",
+          "text": "Made by hand, the traditional way."
+        },
+        {
+          "icon": "salad",
+          "title": "Fresh antipasti & salads",
+          "text": "Fresh starters and salads."
+        },
+        {
+          "icon": "sandwich",
+          "title": "Panini",
+          "text": "For a lighter lunch."
+        },
+        {
+          "icon": "chef-hat",
+          "title": "Classic specialties",
+          "text": "Classic Italian dishes."
+        },
+        {
+          "icon": "clock-3",
+          "title": "Lunch and dinner",
+          "text": "Seven days: lunch from 11, dinner from 5."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Buon appetito",
+      "text": "Lunch and dinner every day on York Street.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *York Street*",
+    "hideForm": true
+  },
+  "slug": "la-scuderia-aiken",
+  "prospect": "la-scuderia-aiken",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/la-scuderia-aiken-2/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "list",
+    "facts": "big",
+    "pattern": "grid",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

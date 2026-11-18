@@ -1,0 +1,151 @@
+{
+  "name": "Sweet B's Soft Serve & Sweet Treats",
+  "short": "Sweet B's",
+  "category": "Soft Serve & Sweet Treats",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fff6f8",
+    "surface": "#ffffff",
+    "ink": "#2a1820",
+    "muted": "#6a5560",
+    "primary": "#c2185b",
+    "onPrimary": "#ffffff",
+    "accent": "#7ad3c5",
+    "line": "#f1dfe5"
+  },
+  "radius": 22,
+  "icon": "ice-cream-bowl",
+  "contact": {
+    "address": [
+      "137 Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Sweet B's, 137 Laurens Street SW, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=61580542355131",
+    "hours": [
+      [
+        "Monday",
+        "Closed"
+      ],
+      [
+        "Tuesday – Thursday",
+        "2 – 8 pm"
+      ],
+      [
+        "Friday – Saturday",
+        "12 – 8 pm"
+      ],
+      [
+        "Sunday",
+        "2 – 8 pm"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Soft serve on Laurens Street",
+    "title": "Sundaes, shakes and *sweet memories*",
+    "lede": "Soft serve and sweet treats in downtown Aiken.",
+    "points": [
+      "Soft serve",
+      "Sundaes",
+      "Shakes"
+    ],
+    "cta": {
+      "label": "Find the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Today's hours",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Soft serve",
+      "label": "And sweet treats"
+    },
+    {
+      "value": "Downtown",
+      "label": "On Laurens Street"
+    },
+    {
+      "value": "Tue – Sun",
+      "label": "Open six days"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "treats",
+      "nav": "Treats",
+      "columns": 3,
+      "eyebrow": "Pick your treat",
+      "title": "Something *sweet*",
+      "items": [
+        {
+          "icon": "ice-cream-cone",
+          "title": "Soft serve",
+          "text": "The classic, swirled."
+        },
+        {
+          "icon": "ice-cream-bowl",
+          "title": "Sundaes",
+          "text": "Piled high."
+        },
+        {
+          "icon": "milk",
+          "title": "Shakes",
+          "text": "Thick and cold."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Treat yourself",
+      "text": "Open Tuesday to Sunday on Laurens Street.",
+      "cta": {
+        "label": "Find the shop",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "hideForm": true
+  },
+  "slug": "sweet-bs",
+  "prospect": "sweet-bs",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/sweet-bs-soft-serve-sweet-treats/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "tiles",
+    "facts": "strip",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "name": "McGhees' Mile",
+  "short": "McGhees' Mile",
+  "category": "Standardbred Training Track",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f7f1e8",
+    "surface": "#fffaf2",
+    "ink": "#1d1611",
+    "muted": "#665a50",
+    "primary": "#8c2f1b",
+    "onPrimary": "#fff7ee",
+    "accent": "#e9b949",
+    "line": "#e8dccb"
+  },
+  "radius": 6,
+  "icon": "trophy",
+  "contact": {
+    "phone": "(803) 617-8511",
+    "phone2": "(803) 640-0211",
+    "phone2Label": "Or",
+    "address": [
+      "620 Banks Mill Road",
+      "Aiken, SC"
+    ],
+    "mapQuery": "McGhees' Mile, 620 Banks Mill Rd, Aiken, SC",
+    "facebook": "https://www.facebook.com/mcgheesmiletraining"
+  },
+  "hero": {
+    "eyebrow": "Family owned · Standardbred training",
+    "title": "Three tracks. *Year-round.*",
+    "lede": "A 77-acre Standardbred training facility in Aiken, run by a family with more than 70 years of racing and training experience between them.",
+    "points": [
+      "One-mile red clay track",
+      "Half-mile red clay track",
+      "7/8 mile sand track",
+      "Over 250 stalls"
+    ],
+    "cta": {
+      "label": "Call (803) 617-8511",
+      "href": "tel:+18036178511"
+    },
+    "cta2": {
+      "label": "The facility",
+      "href": "#facility"
+    }
+  },
+  "facts": [
+    {
+      "value": "77 acres",
+      "label": "Of training facility"
+    },
+    {
+      "value": "3 tracks",
+      "label": "Groomed regularly, kept in tiptop shape"
+    },
+    {
+      "value": "250+",
+      "label": "Stalls, plus paddocks and barn space"
+    },
+    {
+      "value": "70+ years",
+      "label": "Of Standardbred racing and training experience"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "facility",
+      "nav": "The facility",
+      "columns": 3,
+      "eyebrow": "Everything you need",
+      "title": "Built to *optimize your training*",
+      "intro": "All three tracks are groomed regularly and kept in tiptop shape. They have to be: we train our own Standardbred horses here, too.",
+      "items": [
+        {
+          "icon": "flag",
+          "title": "One-mile red clay track",
+          "text": "A full mile of red clay, groomed regularly."
+        },
+        {
+          "icon": "route",
+          "title": "Half-mile red clay track",
+          "text": "A second red clay track for shorter work."
+        },
+        {
+          "icon": "waves",
+          "title": "7/8 mile sand track",
+          "text": "Sand footing for a change of surface."
+        },
+        {
+          "icon": "warehouse",
+          "title": "Over 250 stalls",
+          "text": "With plenty of paddocks and ample barn space."
+        },
+        {
+          "icon": "house",
+          "title": "Living quarters on-site",
+          "text": "For extended guests, and you can stay as long as you want."
+        },
+        {
+          "icon": "sun",
+          "title": "A year-round climate",
+          "text": "Average winter temperatures between 48 and 70 degrees, and about 36 inches of rain a year."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "family",
+      "nav": "Our family",
+      "eyebrow": "Family owned and operated",
+      "title": "We don't just *run the track*",
+      "body": [
+        "We're a family owned and operated track and have more than 70 years of Standardbred racing and training experience between us.",
+        "We've dedicated our lives to making McGhees' Mile the most professional track in the business. We train our own horses here, so the tracks get the same care we'd want for ours."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning your training season?",
+      "text": "Call to ask about stalls and living quarters.",
+      "cta": {
+        "label": "Call (803) 617-8511",
+        "href": "tel:+18036178511"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Banks Mill Road*",
+    "hideForm": true
+  },
+  "slug": "mcghees-mile",
+  "prospect": "mcghees-mile",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/mcghees_mile/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "big",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}
