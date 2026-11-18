@@ -6,7 +6,7 @@
   "town": "Aiken, SC",
   "look": "bold",
   "fonts": {
-    "display": "unbounded",
+    "display": "anybody",
     "body": "source-sans-3"
   },
   "colors": {
@@ -119,9 +119,9 @@
     ]
   },
   "style": {
-    "hero": "poster",
+    "hero": "diagonal",
     "services": "tiles",
-    "facts": "badges",
+    "facts": "big",
     "pattern": "checker",
     "divider": "zigzag",
     "heads": "numbered",

@@ -6,7 +6,7 @@
   "town": "Aiken, SC",
   "look": "editorial",
   "fonts": {
-    "display": "bricolage-grotesque",
+    "display": "bodoni-moda",
     "body": "source-sans-3"
   },
   "colors": {
@@ -128,13 +128,13 @@
     ]
   },
   "style": {
-    "hero": "diagonal",
+    "hero": "spotlight",
     "services": "pills",
     "facts": "badges",
-    "pattern": "stripes",
     "divider": "wave",
-    "heads": "rule",
-    "motion": "flip",
-    "buttons": "pill"
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square",
+    "pattern": "waves"
   }
 }

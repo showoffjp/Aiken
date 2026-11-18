@@ -177,12 +177,13 @@
     ]
   },
   "style": {
-    "hero": "diagonal",
+    "hero": "bento",
     "services": "tiles",
     "pattern": "grid",
     "divider": "slant",
     "heads": "rule",
     "motion": "flip",
-    "buttons": "square"
+    "buttons": "square",
+    "facts": "badges"
   }
 }
