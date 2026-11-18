@@ -337,6 +337,51 @@
   "rank": 7
  },
  {
+  "slug": "little-red-fox-shop",
+  "name": "Little Red Fox Shop",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Attraction / Shopping",
+  "phone": "",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.littleredfoxshop.com/",
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "109 Laurens St. NW Aiken SC",
+  "contact": "",
+  "familyNote": "",
+  "since": null,
+  "blurb": "We are a compilation of 15+ artists ranging from paintings to handmade glassware, handmade soaps and bathbombs, all kinds of home decor, and jewelry and clothing, all made at our artist’s hands! We seek to inspire you as we create our works! We have temporarily downsized and have renamed the shop the “Little Red Fox [&hellip;]",
+  "sources": [
+   "Visit Aiken",
+   "Downtown Aiken (ADDA)"
+  ],
+  "demo": "little-red-fox-shop",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "littleredfoxshop.com",
+  "domainExpires": "",
+  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
+  "pitch": 66,
+  "rank": 8
+ },
+ {
   "slug": "the-ivy-cottage-flowers-and-gifts",
   "name": "The Ivy Cottage Flowers & Gifts",
   "priority": "A · Site down or broken",
@@ -385,7 +430,7 @@
   "domainExpires": "2028-03-21",
   "domainState": "",
   "pitch": 66,
-  "rank": 8
+  "rank": 9
  },
  {
   "slug": "playland-of-aiken",
@@ -433,7 +478,7 @@
   "domainExpires": "2027-09-18",
   "domainState": "",
   "pitch": 65,
-  "rank": 9
+  "rank": 10
  },
  {
   "slug": "marias-mexican-restaurant",
@@ -483,7 +528,56 @@
   "domainExpires": "2027-08-04",
   "domainState": "",
   "pitch": 64,
-  "rank": 10
+  "rank": 11
+ },
+ {
+  "slug": "mi-rancho",
+  "name": "Mi Rancho",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Restaurant",
+  "phone": "(803) 644-1111",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://www.miranchomexicanrestaurants.com/",
+  "siteState": "Parked domain",
+  "score": 38,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "No working HTTPS: browsers show \"Not secure\"",
+   "Very old jQuery 1.11",
+   "No social sharing (Open Graph) tags",
+   "No structured data for Google business results"
+  ],
+  "https": false,
+  "mobileReady": true,
+  "copyrightYear": 2026,
+  "facebook": "",
+  "instagram": "",
+  "address": "3607 Richland Ave W 124 Dominion Dr Aiken SC",
+  "contact": "",
+  "familyNote": "",
+  "since": null,
+  "blurb": "Tasty Mexican meals and drinks to satisfy your needs!",
+  "sources": [
+   "Visit Aiken"
+  ],
+  "demo": "mi-rancho",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "miranchomexicanrestaurants.com",
+  "domainExpires": "2027-08-30",
+  "domainState": "",
+  "pitch": 64,
+  "rank": 12
  },
  {
   "slug": "mobile-office-management-llc-mom",
@@ -533,7 +627,7 @@
   "domainExpires": "2027-07-01",
   "domainState": "",
   "pitch": 62,
-  "rank": 11
+  "rank": 13
  },
  {
   "slug": "the-jewelers-loupe",
@@ -582,7 +676,7 @@
   "domainExpires": "2027-04-25",
   "domainState": "",
   "pitch": 62,
-  "rank": 12
+  "rank": 14
  },
  {
   "slug": "feed-sack-aiken",
@@ -627,7 +721,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 62,
-  "rank": 13
+  "rank": 15
  },
  {
   "slug": "augusta-ready-mix-inc",
@@ -677,7 +771,7 @@
   "domainExpires": "2031-08-10",
   "domainState": "",
   "pitch": 61,
-  "rank": 14
+  "rank": 16
  },
  {
   "slug": "howell-printing-company",
@@ -727,7 +821,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 60,
-  "rank": 15
+  "rank": 17
  },
  {
   "slug": "help-me-rhonda-bookkeeping-llc",
@@ -777,7 +871,7 @@
   "domainExpires": "2027-05-06",
   "domainState": "",
   "pitch": 59,
-  "rank": 16
+  "rank": 18
  },
  {
   "slug": "mitch-johnson-construction-company-inc",
@@ -827,7 +921,7 @@
   "domainExpires": "2027-03-11",
   "domainState": "",
   "pitch": 58,
-  "rank": 17
+  "rank": 19
  },
  {
   "slug": "broome-service-center-inc",
@@ -871,7 +965,7 @@
   "domainExpires": "2027-01-31",
   "domainState": "",
   "pitch": 58,
-  "rank": 18
+  "rank": 20
  },
  {
   "slug": "kens-warehouse",
@@ -915,7 +1009,7 @@
   "domainExpires": "2028-05-27",
   "domainState": "",
   "pitch": 58,
-  "rank": 19
+  "rank": 21
  },
  {
   "slug": "prescott-and-sons-construction-llc",
@@ -963,7 +1057,7 @@
   "domainExpires": "2035-08-23",
   "domainState": "",
   "pitch": 57,
-  "rank": 20
+  "rank": 22
  },
  {
   "slug": "durban-laird-insurance",
@@ -1013,7 +1107,7 @@
   "domainExpires": "2027-11-01",
   "domainState": "",
   "pitch": 56,
-  "rank": 21
+  "rank": 23
  },
  {
   "slug": "massage-mavin",
@@ -1063,7 +1157,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 56,
-  "rank": 22
+  "rank": 24
  },
  {
   "slug": "ads-supply",
@@ -1107,7 +1201,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 23
+  "rank": 25
  },
  {
   "slug": "mccalls-supply",
@@ -1152,7 +1246,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 24
+  "rank": 26
  },
  {
   "slug": "northgroup-real-estate-llc",
@@ -1200,7 +1294,7 @@
   "domainExpires": "2026-10-05",
   "domainState": "On hold at the registrar (redemption period): about to be released",
   "pitch": 56,
-  "rank": 25
+  "rank": 27
  },
  {
   "slug": "pablos-mexican-restaurant",
@@ -1244,7 +1338,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 26
+  "rank": 28
  },
  {
   "slug": "twin-willows-medical-and-dental-center",
@@ -1288,7 +1382,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 27
+  "rank": 29
  },
  {
   "slug": "lambert-insurance-agency-inc",
@@ -1338,7 +1432,7 @@
   "domainExpires": "2027-02-17",
   "domainState": "",
   "pitch": 54,
-  "rank": 28
+  "rank": 30
  },
  {
   "slug": "affordable-quality-marble-and-granite",
@@ -1384,7 +1478,7 @@
   "domainExpires": "2028-10-05",
   "domainState": "",
   "pitch": 54,
-  "rank": 29
+  "rank": 31
  },
  {
   "slug": "arthur-w-rich-pa",
@@ -1428,52 +1522,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 52,
-  "rank": 30
- },
- {
-  "slug": "little-red-fox-shop",
-  "name": "Little Red Fox Shop",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Attraction / Shopping",
-  "phone": "",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.littleredfoxshop.com/",
-  "siteState": "Domain does not resolve (likely expired) - verify",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "109 Laurens St. NW Aiken SC",
-  "contact": "",
-  "familyNote": "",
-  "since": null,
-  "blurb": "We are a compilation of 15+ artists ranging from paintings to handmade glassware, handmade soaps and bathbombs, all kinds of home decor, and jewelry and clothing, all made at our artist’s hands! We seek to inspire you as we create our works! We have temporarily downsized and have renamed the shop the “Little Red Fox [&hellip;]",
-  "sources": [
-   "Visit Aiken",
-   "Downtown Aiken (ADDA)"
-  ],
-  "demo": "",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "littleredfoxshop.com",
-  "domainExpires": "",
-  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
-  "pitch": 52,
-  "rank": 31
+  "rank": 32
  },
  {
   "slug": "aiken-flooring",
@@ -1520,55 +1569,6 @@
   "domainExpires": "2027-08-21",
   "domainState": "",
   "pitch": 52,
-  "rank": 32
- },
- {
-  "slug": "mi-rancho",
-  "name": "Mi Rancho",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 644-1111",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://www.miranchomexicanrestaurants.com/",
-  "siteState": "Parked domain",
-  "score": 38,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "No working HTTPS: browsers show \"Not secure\"",
-   "Very old jQuery 1.11",
-   "No social sharing (Open Graph) tags",
-   "No structured data for Google business results"
-  ],
-  "https": false,
-  "mobileReady": true,
-  "copyrightYear": 2026,
-  "facebook": "",
-  "instagram": "",
-  "address": "3607 Richland Ave W 124 Dominion Dr Aiken SC",
-  "contact": "",
-  "familyNote": "",
-  "since": null,
-  "blurb": "Tasty Mexican meals and drinks to satisfy your needs!",
-  "sources": [
-   "Visit Aiken"
-  ],
-  "demo": "",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "miranchomexicanrestaurants.com",
-  "domainExpires": "2027-08-30",
-  "domainState": "",
-  "pitch": 50,
   "rank": 33
  },
  {

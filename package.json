@@ -26,7 +26,8 @@
     "recheck": "node scripts/recheck.mjs",
     "lighthouse": "node scripts/lighthouse.mjs",
     "seo": "node scripts/seo.mjs",
-    "rankings": "node scripts/rankings.mjs"
+    "rankings": "node scripts/rankings.mjs",
+    "contacts": "node scripts/contacts.mjs"
   },
   "dependencies": {
     "@fontsource-variable/anybody": "^5.3.0",

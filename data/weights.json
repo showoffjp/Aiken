@@ -4334,5 +4334,23 @@
    "url": "/419hayne-luxury-suites/",
    "at": "2026-11-18"
   }
+ },
+ "mi-rancho": {
+  "concept": {
+   "bytes": 199734,
+   "requests": 6,
+   "loadMs": 49,
+   "url": "/mi-rancho/",
+   "at": "2026-11-18"
+  }
+ },
+ "little-red-fox-shop": {
+  "concept": {
+   "bytes": 269249,
+   "requests": 8,
+   "loadMs": 164,
+   "url": "/little-red-fox-shop/",
+   "at": "2026-11-18"
+  }
  }
 }
