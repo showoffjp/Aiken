@@ -9,7 +9,7 @@ import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
-import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, type Demo } from '../lib/demos';
+import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
@@ -79,8 +79,8 @@ const ld = businessLd(demo, site.url);
 // Opening hours in a form the page can check against the clock in Aiken ("Open now").
 const hoursSpec = openingHours(contact.hours);
 const hasPhotos = demo.sections.some((s) => s.type === 'gallery' || (s.type === 'story' && s.image));
-const vcard = `/${demo.slug}/contact.vcf`;
-const vcardName = `${demo.name.replace(/[^\w&' .-]+/g, '').trim() || 'contact'}.vcf`;
+const vcardName = `${vcardFile(demo)}.vcf`;
+const vcard = `/${demo.slug}/${vcardName}`;
 // Facts are sized on phones so the longest word always fits its column.
 const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
 ---
@@ -461,7 +461,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             // The original file (the largest), so its real size is known and small photos are not over-enlarged.
             big.src = src.getAttribute('src');
             big.alt = src.alt; cap.textContent = src.alt; count.textContent = pics.length > 1 ? `${at + 1} / ${pics.length}` : '';
-            big.style.width = big.style.height = '';
+            // Keeps the last size until the next photo has loaded, so it never flashes at its raw size.
             if (big.complete) fit(); else big.onload = fit;
           };
           // Fill the screen, but never blow a small photo up more than 1.6 times.

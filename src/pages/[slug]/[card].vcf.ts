@@ -1,12 +1,14 @@
-// A contact card for each business (/<slug>/contact.vcf). "Save to contacts"
-// on a phone opens it straight into the address book: name, phone, email,
-// address, hours and the web address, so customers can find them again.
+// A contact card for each business (/<slug>/<Business-Name>.vcf). "Save to
+// contacts" on a phone opens it straight into the address book: name, phone,
+// email, address, hours and the web address, so customers can find them again.
+// The file is named after the business because the host's own filename header
+// wins over the link's download name.
 import type { APIRoute } from 'astro';
-import { demos, type Demo } from '../../lib/demos';
+import { demos, vcardFile, type Demo } from '../../lib/demos';
 import { site } from '../../lib/site';
 
 export function getStaticPaths() {
-  return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
+  return demos.map((demo) => ({ params: { slug: demo.slug, card: vcardFile(demo) }, props: { demo } }));
 }
 
 // vCard text values escape backslashes, commas, semicolons and newlines.
