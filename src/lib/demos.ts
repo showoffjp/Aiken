@@ -143,3 +143,7 @@ export function brandIcons(demo: Demo, max = 6): string[] {
   while (all.length && all.length < max) all.push(...all.slice(0, max - all.length));
   return all.slice(0, max);
 }
+
+/** The contact card's file name: "Herbal Solutions & Spa" -> "Herbal-Solutions-and-Spa". */
+export const vcardFile = (demo: Demo) =>
+  demo.name.replace(/&/g, ' and ').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || demo.slug;
