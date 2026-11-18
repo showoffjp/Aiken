@@ -46,7 +46,7 @@ const mega = `--mega: min(${megaCap}rem, ${fit(longest(hero.title), cwU)}); --me
 const mast = `--mh-one: min(10rem, 15vh, ${fit(short.length, cwL)}); --mh-wrap: min(3.1rem, ${fit(longest(short), cwL)})`;
 ---
 {kind === 'poster' && (
-  <section class="hero hx hx-poster" id="top">
+  <section class="hero hx hx-poster" id="top" style={`--mq-mix:${onDarkPrimary ? '#000' : '#fff'}`}>
     <Decor demo={demo} kind="poster" tone={onDarkPrimary ? 'dark' : 'light'} />
     <div class="wrap">
       <div class="hx-top">{hero.eyebrow && <span class="hx-tag">{hero.eyebrow}</span>}<span class="hx-meta">{[est, town].filter(Boolean).join(' · ')}</span></div>

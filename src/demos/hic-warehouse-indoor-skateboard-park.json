@@ -1,0 +1,205 @@
+{
+  "name": "HIC Warehouse",
+  "short": "HIC Warehouse",
+  "category": "Indoor Skatepark & Youth Center",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#121314",
+    "surface": "#1b1d1f",
+    "ink": "#f4f4f0",
+    "muted": "#b9bcb6",
+    "primary": "#e4572e",
+    "onPrimary": "#ffffff",
+    "accent": "#c7f464",
+    "line": "#2c2f31"
+  },
+  "radius": 6,
+  "icon": "trophy",
+  "contact": {
+    "phone": "(803) 507-1291",
+    "phoneLabel": "Call the park",
+    "phone2": "(803) 335-1368",
+    "phone2Label": "Also listed",
+    "address": [
+      "1120 Edgefield Highway",
+      "Aiken, SC"
+    ],
+    "mapQuery": "HIC Warehouse, 1120 Edgefield Hwy, Aiken, SC",
+    "facebook": "https://www.facebook.com/hicwarehouse",
+    "instagram": "https://www.instagram.com/homeforskateboarding/"
+  },
+  "hero": {
+    "eyebrow": "Nonprofit skatepark & youth center",
+    "title": "A home for *skateboarding*",
+    "lede": "HIC Warehouse is an indoor and outdoor skatepark in Aiken, run by Home for Skateboarding, a nonprofit that serves the community through mentoring, recreation and education for all ages.",
+    "cta": {
+      "label": "Call (803) 507-1291",
+      "href": "tel:+18035071291"
+    },
+    "cta2": {
+      "label": "Lessons",
+      "href": "#park"
+    }
+  },
+  "facts": [
+    {
+      "value": "Indoor",
+      "label": "And outdoor park"
+    },
+    {
+      "value": "Thursdays",
+      "label": "Lessons, by appointment"
+    },
+    {
+      "value": "501(c)(3)",
+      "label": "Nonprofit"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "park",
+      "nav": "The park",
+      "columns": 3,
+      "eyebrow": "More than a skate park",
+      "title": "Skate, learn, *hang out*",
+      "items": [
+        {
+          "icon": "trophy",
+          "title": "Indoor and outdoor park",
+          "text": "Room to skate whatever the weather."
+        },
+        {
+          "icon": "graduation-cap",
+          "title": "Lessons",
+          "text": "Thursdays, 4:30 to 5:30 pm or 5:30 to 6:30 pm. Call to schedule."
+        },
+        {
+          "icon": "music",
+          "title": "Bands on weekend nights",
+          "text": "Sometimes the park stays open until midnight."
+        },
+        {
+          "icon": "cup-soda",
+          "title": "Drinks and snacks",
+          "text": "Sold at the park."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Waivers",
+          "text": "A parent signs for skaters under 18."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Mentoring",
+          "text": "Support for the kids who need it."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Founded by Bo Mitchell",
+      "title": "Giving back *to Aiken’s skaters*",
+      "body": [
+        "Home for Skateboarding was founded by Bo Mitchell, an actor, entrepreneur and professional skater, known for playing Wayne Powers on HBO’s Eastbound & Down.",
+        "Bo grew up in Aiken, skating since he was a child, and knew there was no place for kids here to practice. He started HIC Warehouse to give back to the children of the community.",
+        "He uses his connections to bring popular skaters to the park to talk with kids and show them tricks, introduces young skaters with the talent and drive to sponsors, and takes them to competitions in other states, such as California."
+      ],
+      "list": [
+        "Pro skaters visit",
+        "Introductions to sponsors",
+        "Trips to out-of-state contests"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "events",
+      "nav": "Events",
+      "columns": 3,
+      "eyebrow": "On the calendar",
+      "title": "Days *worth skating for*",
+      "items": [
+        {
+          "icon": "calendar-heart",
+          "title": "Skatesgiving"
+        },
+        {
+          "icon": "party-popper",
+          "title": "Go Skate Day"
+        },
+        {
+          "icon": "trophy",
+          "title": "Contests"
+        },
+        {
+          "icon": "star",
+          "title": "Pro demos"
+        },
+        {
+          "icon": "wrench",
+          "title": "Workshops"
+        },
+        {
+          "icon": "mic",
+          "title": "Live bands"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Under 18? Bring a parent the first time",
+      "text": "A parent or guardian signs the waiver before you skate.",
+      "cta": {
+        "label": "Call (803) 507-1291",
+        "href": "tel:+18035071291"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Edgefield Highway*",
+    "formTitle": "Ask about lessons, events or helping out",
+    "formTopics": [
+      "Lessons",
+      "Events and bands",
+      "Donating or volunteering",
+      "Something else"
+    ]
+  },
+  "slug": "hic-warehouse-indoor-skateboard-park",
+  "added": "2026-11-18",
+  "prospect": "hic-warehouse-indoor-skateboard-park",
+  "source": {
+    "url": "https://homeforskateboarding.org/",
+    "before": [
+      "The home page is labelled \"(UNDER CONSTRUCTION)\" and still shows the website builder's sample text, such as \"Running a holiday sale or weekly special? Definitely promote it here\"",
+      "The home, About and Contact pages give no street address, lesson times or band nights",
+      "The site and the listing give two different phone numbers",
+      "None of the six photos on the home page has a description (alt text)"
+    ],
+    "after": [
+      "Real words in place of the template text, written from the park's own About page and listing",
+      "Lessons, band nights, waivers and the address in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared on Facebook or Instagram",
+      "Room for photos, an events calendar and a donate button once the park supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

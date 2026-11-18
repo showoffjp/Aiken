@@ -13,6 +13,7 @@ import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWo
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
+import QRCode from 'qrcode';
 import { accessible, ratio } from '../lib/contrast';
 
 export function getStaticPaths() {
@@ -80,6 +81,9 @@ const ld = businessLd(demo, site.url);
 const hoursSpec = openingHours(contact.hours);
 const hasPhotos = demo.sections.some((s) => s.type === 'gallery' || (s.type === 'story' && s.image));
 const vcardName = `${vcardFile(demo)}.vcf`;
+// On a computer: a code to scan, so the page (call button, directions) opens on the visitor's phone.
+const pageUrl = `${site.url}/${demo.slug}/`;
+const phoneQr = await QRCode.toString(pageUrl, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#00000000' } });
 const vcard = `/${demo.slug}/${vcardName}`;
 // Facts are sized on phones so the longest word always fits its column.
 const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
@@ -137,8 +141,8 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           )}
         </nav>
         {contact.phone && (
-          <a class="head-cta" href={telHref(contact.phone)}>
-            <Icon name="phone" size={18} stroke={2.2} /><span class="long">Call </span>{contact.phone}
+          <a class="head-cta" href={telHref(contact.phone)} aria-label={`Call ${contact.phone}`}>
+            <Icon name="phone" size={18} stroke={2.2} /><span class="long">Call </span><span class="num">{contact.phone}</span>
           </a>
         )}
         <button class="menu-btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav" data-menu><Icon name="menu" size={22} class="i-open" /><Icon name="x" size={22} class="i-close" /></button>
@@ -246,7 +250,10 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                 <div class="row"><Icon name="map-pin" size={22} /><div>
                   <h3>Find us</h3>
                   <p>{contact.address.map((l, i) => <>{i > 0 && <br />}{l}</>)}</p>
-                  {directions && <div class="chips"><a class="chip" href={directions} target="_blank" rel="noopener" data-directions={contact.mapQuery}><Icon name="navigation" size={17} stroke={2.2} />Get directions</a></div>}
+                  {(directions || contact.address) && <div class="chips">
+                    {directions && <a class="chip" href={directions} target="_blank" rel="noopener" data-directions={contact.mapQuery}><Icon name="navigation" size={17} stroke={2.2} />Get directions</a>}
+                    <button class="chip desk-only" type="button" data-copy={contact.address.join(', ')} data-copied="Address copied"><Icon name="copy" size={17} stroke={2.1} />Copy address</button>
+                  </div>}
                 </div></div>
               )}
               {contact.hours && (
@@ -272,6 +279,10 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                   <button class="chip" type="button" data-share><Icon name="share-2" size={17} stroke={2.1} />Share</button>
                 </div>
               </div></div>
+              <div class="send-phone desk-only">
+                <span class="send-qr" set:html={phoneQr} role="img" aria-label={`QR code that opens this page on a phone`}></span>
+                <p><b>Open it on your phone</b> Scan to call or get directions in one tap.</p>
+              </div>
             </div>
             <div>
               {mapSrc && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
@@ -333,7 +344,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     )}
 
     <a class="to-top" href="#top" aria-label="Back to top" data-to-top tabindex="-1"><Icon name="arrow-up" size={22} stroke={2.2} /></a>
-    <p class="toast" role="status" aria-live="polite" data-toast></p>
+    <div class="toast" role="status" aria-live="polite" data-toast><span data-toast-text></span><a data-toast-link hidden></a></div>
     {hasPhotos && (
       <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
         <figure><figcaption><span data-lb-cap></span><span class="lb-count" data-lb-count></span></figcaption></figure>
@@ -380,6 +391,17 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         addEventListener('keydown', (e) => { if (e.key === 'Escape' && head?.classList.contains('open')) { setMenu(false); btn?.focus(); } });
         matchMedia('(min-width: 941px)').addEventListener('change', (m) => { if (m.matches) setMenu(false); });
 
+        // A long menu on a narrow laptop: tighten the header (closer links, call button as an icon)
+        // rather than let the menu slide under the logo.
+        const brandEl = head?.querySelector('.brand');
+        const fit = () => {
+          if (!head || !brandEl) return;
+          head.classList.remove('tight', 'tighter');
+          const over = () => brandEl.scrollWidth > brandEl.clientWidth + 1;
+          if (innerWidth > 940 && over()) { head.classList.add('tight'); if (over()) head.classList.add('tighter'); }
+        };
+        fit(); addEventListener('resize', fit); document.fonts?.ready.then(fit);
+
         // Open now? Checked against the clock in Aiken, whatever the visitor's time zone.
         const spec = JSON.parse(document.body.dataset.hours || 'null');
         if (spec) {
@@ -415,7 +437,28 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         // Share: the phone's share sheet, or copy the link on a computer.
         const toast = document.querySelector('[data-toast]');
         let toastT = 0;
-        const say = (msg) => { if (!toast) return; toast.textContent = msg; toast.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => toast.classList.remove('show'), 2600); };
+        const say = (msg, link) => {
+          if (!toast) return;
+          toast.querySelector('[data-toast-text]').textContent = msg;
+          const a = toast.querySelector('[data-toast-link]');
+          a.hidden = !link; if (link) { a.href = link.href; a.textContent = link.label; }
+          toast.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => toast.classList.remove('show'), link ? 5200 : 2600);
+        };
+        const copy = async (text) => { try { await navigator.clipboard.writeText(text); return true; } catch { return false; } };
+
+        // On a computer a phone link copies the number (most desktops cannot dial it),
+        // with a link to call from the computer anyway, e.g. through a paired phone.
+        const desk = matchMedia('(hover: hover) and (pointer: fine)').matches && !navigator.maxTouchPoints;
+        if (desk) document.querySelectorAll('a[href^="tel:"]').forEach((a) => a.addEventListener('click', async (e) => {
+          if (e.metaKey || e.ctrlKey || e.shiftKey) return;
+          e.preventDefault();
+          const num = a.getAttribute('href').replace(/^tel:\+?1?/, '').replace(/^(\d{3})(\d{3})(\d{4})$/, '($1) $2-$3');
+          const ok = await copy(num);
+          say(ok ? `Number copied: ${num}` : num, { href: a.getAttribute('href'), label: 'Call from this computer' });
+        }));
+        document.querySelectorAll('[data-copy]').forEach((b) => b.addEventListener('click', async () => {
+          say((await copy(b.dataset.copy)) ? b.dataset.copied || 'Copied' : b.dataset.copy);
+        }));
         document.querySelectorAll('[data-share]').forEach((b) => b.addEventListener('click', async () => {
           const data = { title: document.title, url: location.href.split('#')[0] };
           if (navigator.share) { try { await navigator.share(data); } catch {} return; }

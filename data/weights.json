@@ -1190,6 +1190,13 @@
    "loadMs": 2072,
    "url": "https://aikendowntowndog.com/",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 363921,
+   "requests": 6,
+   "loadMs": 153,
+   "url": "/downtown-dog/",
+   "at": "2026-11-18"
   }
  },
  "designer-builders-inc": {
@@ -1673,6 +1680,13 @@
    "loadMs": 1790,
    "url": "https://homeforskateboarding.org/",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 278845,
+   "requests": 5,
+   "loadMs": 110,
+   "url": "/hic-warehouse-indoor-skateboard-park/",
+   "at": "2026-11-18"
   }
  },
  "hh-construction": {
@@ -3795,6 +3809,13 @@
    "loadMs": 655,
    "url": "https://woodchuckersaxethrowing.com/lander",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 252314,
+   "requests": 6,
+   "loadMs": 111,
+   "url": "/woodchuckers-axe-throwing/",
+   "at": "2026-11-18"
   }
  },
  "wise-warehousing-solutions": {

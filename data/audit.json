@@ -68,7 +68,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -5672,7 +5672,7 @@
    "No meta description for search results",
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -6073,8 +6073,9 @@
   "finalUrl": "https://homeforskateboarding.org/",
   "status": 200,
   "state": "ok",
-  "score": 13,
+  "score": 25,
   "findings": [
+   "Website builder sample text still on the page",
    "Footer copyright says 2022",
    "No meta description for search results",
    "6 of 6 images have no alt text",
@@ -6083,7 +6084,7 @@
   "platform": "GoDaddy Websites + Marketing",
   "builder": "",
   "generator": "Starfield Technologies; Go Daddy Website Builder 8.0.0000",
-  "server": "DPS/2.0.0+sha-8a831a9",
+  "server": "DPS/2.0.0+sha-0e88ca6",
   "viewport": true,
   "https": true,
   "copyrightYear": 2022,
@@ -6144,7 +6145,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -7902,8 +7903,9 @@
   "finalUrl": "https://marktaylorinsurance.com/",
   "status": 200,
   "state": "ok",
-  "score": 2,
+  "score": 14,
   "findings": [
+   "Website builder sample text still on the page",
    "No favicon declared"
   ],
   "platform": "WordPress",
@@ -9350,7 +9352,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -11041,7 +11043,7 @@
    "No meta description for search results",
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -11447,7 +11449,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -12006,7 +12008,7 @@
    "No meta description for search results",
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -12933,7 +12935,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -13170,7 +13172,7 @@
   "findings": [
    "No structured data for Google business results"
   ],
-  "platform": "Weebly",
+  "platform": "Square Online",
   "builder": "",
   "generator": "Square Online",
   "server": "cloudflare",
@@ -13982,7 +13984,7 @@
   "url": "https://woodchuckersaxethrowing.com/",
   "finalUrl": "https://woodchuckersaxethrowing.com/lander",
   "status": 200,
-  "state": "ok",
+  "state": "parked",
   "score": 15,
   "findings": [
    "No meta description for search results",

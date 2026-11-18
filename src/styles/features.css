@@ -41,7 +41,6 @@
 .hours td:first-child { padding-right: 14px; }
 .info a.big { display: inline-block; padding-block: 4px; }
 .info a.mail { display: inline-block; padding-block: 8px; font-weight: 600; }
-[data-cinematic] .chip { background: rgb(255 255 255 / .06); color: inherit; border-color: rgb(255 255 255 / .22); }
 
 /* ------------------------------------------------ header: progress, current section */
 .head-progress { position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; transform-origin: 0 50%; transform: scaleX(var(--progress, 0)); background: linear-gradient(90deg, var(--primary), var(--accent)); pointer-events: none; }
@@ -248,3 +247,45 @@ dialog.lightbox::backdrop { background: transparent; }
    tint is light, which left their white text unreadable). */
 [data-cinematic] .site-head.scrolled { background: color-mix(in srgb, var(--cine) 86%, transparent); box-shadow: 0 10px 30px -18px rgb(0 0 0 / .6); }
 @media print { html.print-menu .print-head { margin: 0 var(--gutter) 18px; } }
+
+/* ------------------------------------------------- computer-only helpers */
+.desk-only { display: none !important; }
+@media (hover: hover) and (pointer: fine) and (min-width: 861px) {
+  .desk-only:not(.send-phone) { display: inline-flex !important; }
+  .send-phone.desk-only { display: flex !important; }
+}
+.send-phone { align-items: center; gap: 16px; margin-top: 18px; padding: 14px 16px; border-radius: var(--r-lg, 14px); border: 1px dashed color-mix(in srgb, var(--ink) 22%, transparent); background: color-mix(in srgb, var(--surface) 70%, transparent); }
+.send-qr { flex: none; width: 92px; height: 92px; padding: 7px; border-radius: 10px; background: #fff; box-shadow: 0 6px 16px -10px rgb(0 0 0 / .4); }
+.send-qr svg { display: block; width: 100%; height: 100%; }
+.send-phone p { margin: 0; font-size: .92rem; line-height: 1.45; color: var(--muted-text, var(--muted)); max-width: 26ch; }
+.send-phone b { display: block; color: var(--ink); font-size: 1rem; margin-bottom: 2px; }
+.toast { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; justify-content: center; }
+.toast a { color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; pointer-events: auto; }
+.toast.show { pointer-events: auto; }
+
+/* Tight header (set by the page script when the menu would run under the logo). */
+@media (min-width: 941px) {
+  .site-head.tight .wrap { gap: 16px; }
+  .site-head.tight .nav { gap: 14px; font-size: .86rem; }
+  .site-head.tight .head-cta .num, .site-head.tight .head-cta .long { display: none; }
+  .site-head.tight .head-cta { width: 42px; height: 42px; justify-content: center; border-radius: 50%; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); }
+}
+@media (min-width: 941px) {
+  .site-head.tighter .nav { gap: 10px; font-size: .8rem; letter-spacing: .02em; }
+  .site-head.tighter .brand .word small { display: none; }
+}
+
+/* Phones held sideways (short screens): a one-line concept bar, a slimmer
+   header and less padding above the headline, so more of the page shows. */
+@media (max-height: 500px) and (orientation: landscape) {
+  .concept .grow .long, .concept a.studio { display: none; }
+  .concept .grow .short { display: inline; }
+  .concept .wrap { flex-wrap: nowrap; padding-block: 6px; }
+  .concept .grow { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .site-head .wrap { min-height: 56px; }
+  .site-head .brand .mark { width: 34px; height: 34px; }
+  .site-head .brand .word small { display: none; }
+  .hero:not(.cine-hero) > .wrap { padding-block: 26px 34px; }
+  .hx-badge, .hero-visual .chip { display: none; }
+  .menu-jump { top: 56px; }
+}
