@@ -3180,5 +3180,33 @@
    "cls": 0,
    "at": "2026-11-18"
   }
+ },
+ "little-red-fox-shop": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1056,
+   "lcp": 1806,
+   "tbt": 53,
+   "si": 1056,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "mi-rancho": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1743,
+   "lcp": 1743,
+   "tbt": 0,
+   "si": 1743,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
  }
 }

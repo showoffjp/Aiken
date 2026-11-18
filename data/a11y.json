@@ -10701,5 +10701,29 @@
    "top": [],
    "at": "2026-11-18"
   }
+ },
+ "mi-rancho": {
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-18"
+  }
+ },
+ "little-red-fox-shop": {
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-18"
+  }
  }
 }

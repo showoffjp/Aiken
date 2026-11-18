@@ -19228,5 +19228,208 @@
     "domainYears": 16
    }
   ]
+ },
+ "little-red-fox-shop": {
+  "slug": "little-red-fox-shop",
+  "name": "Little Red Fox Shop",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/little_red_fox_shop/",
+    "name": "Little Red Fox Shop",
+    "phone": "",
+    "website": "http://www.littleredfoxshop.com/",
+    "address": "109 Laurens St. NW Aiken SC",
+    "phoneMatch": null,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Little Red Fox Shop",
+    "phone": "",
+    "website": "http://www.littleredfoxshop.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "littleredfoxshop.com",
+   "years": null
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1056,
+   "lcp": 1806,
+   "tbt": 53,
+   "si": 1056,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "mi-rancho": {
+  "slug": "mi-rancho",
+  "name": "Mi Rancho",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Parked domain",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/mi_rancho/",
+    "name": "Mi Rancho",
+    "phone": "803-644-1111",
+    "website": "https://www.miranchomexicanrestaurants.com",
+    "address": "3607 Richland Ave W 124 Dominion Dr Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "miranchomexicanrestaurants.com",
+   "created": "2013-08-30",
+   "expires": "2027-08-30",
+   "registrar": "NameCheap, Inc.",
+   "years": 13
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1743,
+   "lcp": 1743,
+   "tbt": 0,
+   "si": 1743,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "marias-mexican-restaurant",
+   "salsas-mex-mex-grill",
+   "tequilas-mexican-grill-and-bar",
+   "victoria-mexican-restaurant",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "marias-mexican-restaurant",
+    "name": "Maria's Mexican Restaurant",
+    "website": "http://mariasmexicanrestaurantaiken.com/",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": 2.5,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "salsas-mex-mex-grill",
+    "name": "Salsa's Mex-Mex Grill",
+    "website": "https://www.salsasbarandgrill.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "tequilas-mexican-grill-and-bar",
+    "name": "Tequila's Mexican Grill & Bar",
+    "website": "http://tequilasmexicangrillsc.com/",
+    "state": "placeholder",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "victoria-mexican-restaurant",
+    "name": "Victoria Mexican Restaurant",
+    "website": "https://lodge-coco.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
  }
 }

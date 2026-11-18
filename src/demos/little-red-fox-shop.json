@@ -1,0 +1,160 @@
+{
+  "name": "Little Red Fox Shop",
+  "short": "Little Red Fox",
+  "category": "Local Artists' Shop",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf5ee",
+    "surface": "#fffdf9",
+    "ink": "#2a1a14",
+    "muted": "#655449",
+    "primary": "#b8441c",
+    "onPrimary": "#ffffff",
+    "accent": "#7fa37a",
+    "line": "#eddccd"
+  },
+  "radius": 16,
+  "icon": "palette",
+  "contact": {
+    "phone": "(803) 226-0039",
+    "address": [
+      "109 Laurens Street NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Little Red Fox Shop, 109 Laurens St NW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Made by local artists",
+    "title": "Handmade by *15+ local artists*",
+    "lede": "Paintings, handmade glassware, soaps and bath bombs, home decor, jewelry and clothing, all made by our artists' own hands, plus a clothing line for women and girls, on Laurens Street.",
+    "points": [
+      "Paintings",
+      "Glassware",
+      "Soaps & bath bombs",
+      "Jewelry"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0039",
+      "href": "tel:+18032260039"
+    },
+    "cta2": {
+      "label": "Meet the makers",
+      "href": "#makers"
+    }
+  },
+  "facts": [
+    {
+      "value": "15+",
+      "label": "Local artists"
+    },
+    {
+      "value": "Handmade",
+      "label": "By our artists' own hands"
+    },
+    {
+      "value": "Downtown",
+      "label": "On Laurens Street"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the shop",
+      "columns": 3,
+      "eyebrow": "All made by hand",
+      "title": "Something for *every wall and shelf*",
+      "items": [
+        {
+          "icon": "palette",
+          "title": "Paintings",
+          "text": "Original work by local artists."
+        },
+        {
+          "icon": "wine",
+          "title": "Handmade glassware",
+          "text": "Made by hand, piece by piece."
+        },
+        {
+          "icon": "droplets",
+          "title": "Soaps & bath bombs",
+          "text": "Handmade and ready to gift."
+        },
+        {
+          "icon": "lamp",
+          "title": "Home decor",
+          "text": "All kinds, all handmade."
+        },
+        {
+          "icon": "gem",
+          "title": "Jewelry",
+          "text": "Made by our artists."
+        },
+        {
+          "icon": "shirt",
+          "title": "Clothing",
+          "text": "Including a line for women and girls."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "makers",
+      "nav": "The makers",
+      "eyebrow": "We seek to inspire you",
+      "title": "A shop *full of makers*",
+      "body": [
+        "We are a compilation of more than fifteen artists, from painters to glassmakers, soap makers and jewelers, and everything in the shop is made by our artists' own hands.",
+        "We have temporarily downsized and renamed the shop the Little Red Fox Shop, but many of our amazing local artists are still here, along with a clothing line for women and girls."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come see what's new",
+      "text": "Find us at 109 Laurens Street NW.",
+      "cta": {
+        "label": "Call (803) 226-0039",
+        "href": "tel:+18032260039"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "hideForm": true
+  },
+  "slug": "little-red-fox-shop",
+  "added": "2026-11-18",
+  "prospect": "little-red-fox-shop",
+  "source": {
+    "url": "http://www.littleredfoxshop.com/",
+    "before": [
+      "The shop's web address, littleredfoxshop.com, no longer exists, and neither does its online store at shopinspiredinside.com",
+      "Customers looking for the artists or the new storefront find old listings instead",
+      "The words on this concept come from the Visit Aiken listing; photos of the work and the artists would come from the shop"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for a page per artist, photos of new work and an online shop once the artists supply them"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}
