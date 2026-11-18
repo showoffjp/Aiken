@@ -67,16 +67,16 @@
  },
  "aiken-flooring": {
   "concept": {
-   "performance": 100,
+   "performance": 80,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 648,
-   "lcp": 1354,
-   "tbt": 8,
-   "si": 648,
+   "fcp": 794,
+   "lcp": 1505,
+   "tbt": 893,
+   "si": 934,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 34,
@@ -93,30 +93,30 @@
  },
  "aiken-ghost-tours": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1055,
-   "lcp": 1505,
+   "fcp": 1730,
+   "lcp": 1881,
    "tbt": 0,
-   "si": 1055,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1730,
+   "cls": 0.001,
+   "at": "2026-11-18"
   }
  },
  "affordable-quality-marble-and-granite": {
   "concept": {
-   "performance": 99,
+   "performance": 83,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
    "fcp": 1059,
-   "lcp": 2109,
-   "tbt": 0,
+   "lcp": 1659,
+   "tbt": 669,
    "si": 1059,
-   "cls": 0.005,
-   "at": "2026-11-17"
+   "cls": 0.007,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 27,
@@ -133,16 +133,16 @@
  },
  "aiken-pet-sitters-llc": {
   "concept": {
-   "performance": 100,
+   "performance": 80,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 797,
-   "lcp": 1508,
-   "tbt": 56,
-   "si": 797,
+   "fcp": 799,
+   "lcp": 1504,
+   "tbt": 851,
+   "si": 1021,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 50,
@@ -159,30 +159,30 @@
  },
  "antiques-and-more-mall": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1693,
+   "lcp": 1952,
    "tbt": 0,
-   "si": 904,
+   "si": 1693,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "antonios-italian-eatery": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1653,
+   "lcp": 2103,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1653,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 54,
@@ -199,16 +199,16 @@
  },
  "apizza-di-napoli": {
   "concept": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 905,
-   "lcp": 1506,
-   "tbt": 0,
-   "si": 905,
-   "cls": 0.067,
-   "at": "2026-11-17"
+   "fcp": 794,
+   "lcp": 1503,
+   "tbt": 87,
+   "si": 794,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "augusta-ready-mix-inc": {
@@ -217,12 +217,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1355,
-   "tbt": 0,
-   "si": 647,
+   "fcp": 1063,
+   "lcp": 1813,
+   "tbt": 7,
+   "si": 1063,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 87,
@@ -243,12 +243,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 799,
-   "lcp": 2030,
-   "tbt": 91,
-   "si": 799,
+   "fcp": 800,
+   "lcp": 2104,
+   "tbt": 0,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 92,
@@ -265,16 +265,16 @@
  },
  "big-house-outpost": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1684,
+   "lcp": 1684,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1684,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "bloom-salon-spa-boutique": {
