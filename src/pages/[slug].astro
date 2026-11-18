@@ -344,7 +344,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     )}
 
     <a class="to-top" href="#top" aria-label="Back to top" data-to-top tabindex="-1"><Icon name="arrow-up" size={22} stroke={2.2} /></a>
-    <div class="toast" role="status" aria-live="polite" data-toast><span data-toast-text></span><a data-toast-link hidden></a></div>
+    <div class="toast" role="status" aria-live="polite" data-toast><span data-toast-text></span></div>
     {hasPhotos && (
       <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
         <figure><figcaption><span data-lb-cap></span><span class="lb-count" data-lb-count></span></figcaption></figure>
@@ -440,8 +440,9 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         const say = (msg, link) => {
           if (!toast) return;
           toast.querySelector('[data-toast-text]').textContent = msg;
-          const a = toast.querySelector('[data-toast-link]');
-          a.hidden = !link; if (link) { a.href = link.href; a.textContent = link.label; }
+          // The action link exists only while the notice offers one (no empty link in the page).
+          toast.querySelector('[data-toast-link]')?.remove();
+          if (link) { const a = document.createElement('a'); a.setAttribute('data-toast-link', ''); a.href = link.href; a.textContent = link.label; toast.append(a); }
           toast.classList.add('show'); clearTimeout(toastT); toastT = setTimeout(() => toast.classList.remove('show'), link ? 5200 : 2600);
         };
         const copy = async (text) => { try { await navigator.clipboard.writeText(text); return true; } catch { return false; } };
