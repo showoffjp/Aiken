@@ -32,7 +32,7 @@ walk(CACHE);
 const hostOf = (u = '') => { try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase(); } catch { return ''; } };
 
 // ---- email extraction
-const JUNK = /(example|domain|yourname|youremail|email|name)@|@(example|domain|sentry|wixpress|sentry-next|godaddy|squarespace|wix|yourdomain|email)\.|\.(png|jpe?g|gif|webp|svg|css|js)$|^[0-9a-f]{12,}@|@[0-9]+x\./i;
+const JUNK = /(example|domain|yourname|youremail|email|name)@|@(example|domain|sentry|wixpress|sentry-next|godaddy|squarespace|wix|yourdomain|email)\.|@[a-z0-9-]*(your[a-z]*site|wpsite|themes?|demo)[a-z0-9-]*\.|\.(png|jpe?g|gif|webp|svg|css|js)$|^[0-9a-f]{12,}@|@[0-9]+x\./i;
 const COMMON = /@(gmail|yahoo|aol|hotmail|outlook|icloud|me|live|msn|bellsouth|comcast|att|sc\.rr|charter|earthlink|verizon)\./i;
 function emailsIn(text) {
   const t = text.replace(/&#0*64;|&#x0*40;|%40/gi, '@').replace(/&#0*46;|&#x0*2e;/gi, '.').replace(/\s*\[\s*at\s*\]\s*/gi, '@').replace(/\s*\[\s*dot\s*\]\s*/gi, '.');
@@ -49,7 +49,7 @@ const rows = demos.map((d) => {
   // Phones: the concept's, then any other numbers the directories list.
   const phones = [...new Map([d.contact.phone, d.contact.phone2, r.phone, r.listedPhone, ...(s.citations || []).map((c) => c.phone)].filter(Boolean).map((p) => [digits(p), fmt(p)])).values()].filter((p) => digits(p).length === 10);
   // Emails already in the research, then any found on cached pages of this business.
-  const known = [r.email, ...(r.otherEmails || []), d.contact.email].filter(Boolean).map((e) => e.toLowerCase());
+  const known = [r.email, ...(r.otherEmails || []), d.contact.email].filter(Boolean).map((e) => e.toLowerCase()).filter((e) => !JUNK.test(e));
   const urls = new Set([d.source.url, r.website, ...(s.citations || []).map((c) => c.url)].filter(Boolean));
   const found = [];
   for (const pg of pages) {
