@@ -166,7 +166,7 @@ body .hero.hx-blueprint { background-color: var(--deep2, #0c1a33); color: #fff;
 /* ----------------------------------------------------------- 8 spotlight */
 .hx-spotlight { text-align: center; }
 .hx-spotlight .wrap { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; justify-items: center; padding-block: clamp(64px, 10vw, 140px); }
-.hx-glow { position: absolute; left: 50%; top: 50%; width: min(820px, 120vw); aspect-ratio: 1.4; translate: -50% -50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--accent) 18%, transparent), color-mix(in srgb, var(--primary) 9%, transparent) 55%, transparent 72%); filter: blur(30px); animation: hx-breathe 9s ease-in-out infinite alternate; pointer-events: none; }
+.hx-glow { position: absolute; left: 50%; top: 280px; width: min(820px, 120vw); aspect-ratio: 1.4; translate: -50% -50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--accent) 18%, transparent), color-mix(in srgb, var(--primary) 9%, transparent) 55%, transparent 72%); filter: blur(30px); animation: hx-breathe 9s ease-in-out infinite alternate; pointer-events: none; }
 @keyframes hx-breathe { from { transform: scale(.9) rotate(0deg); opacity: .7; } to { transform: scale(1.08) rotate(12deg); opacity: 1; } }
 .hx-badge { width: 74px; height: 74px; border-radius: 50%; display: grid; place-items: center; background: var(--surface); color: var(--primary); border: 1px solid var(--line); box-shadow: 0 0 0 10px color-mix(in srgb, var(--surface) 55%, transparent), 0 18px 40px -20px rgb(0 0 0 / .4); margin-bottom: 26px; animation: hx-bob 6s ease-in-out infinite; }
 .hx-spotlight h1 { font-size: clamp(2.8rem, 7vw, 6.2rem); letter-spacing: -.04em; max-width: 15ch; margin-inline: auto; }

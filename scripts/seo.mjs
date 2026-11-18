@@ -174,9 +174,11 @@ async function siteReport(b, a) {
   // Social profiles linked from anywhere crawled.
   const social = {};
   for (const p of ok) for (const l of p.links) for (const [name, re] of SOCIAL) if (re.test(l) && !NOT_BUSINESS.test(l) && !social[name]) social[name] = l.split('?')[0];
+  // Social icons that still point at the website builder's own accounts (template placeholders).
+  const placeholderSocial = [...new Set(ok.flatMap((p) => p.links).filter((l) => NOT_BUSINESS.test(l) && !/2008\/fbml/i.test(l)).map((l) => l.split('?')[0].replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, '').toLowerCase()))].slice(0, 4);
 
   return {
-    host, https: start.startsWith('https://'), pagesCrawled: ok.length,
+    host, https: start.startsWith('https://'), pagesCrawled: ok.length, placeholderSocial,
     home: {
       url: home.url, title: home.title, description: home.description, canonical: home.canonical, noindex: home.noindex, lang: home.lang,
       viewport: home.viewport, favicon: home.favicon, og: home.og, twitterCard: home.twitterCard, h1: home.h1.slice(0, 3), h1Count: home.h1.length,
