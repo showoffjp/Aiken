@@ -91,9 +91,16 @@ body.demo { color: var(--ink-safe, var(--ink)); }
 .fx-tok.t3 { right: 6%; bottom: 10%; } .fx-tok.t4 { left: -14px; bottom: 16%; }
 [data-kind="spotlight"] .fx-tok.t0 { right: 7%; top: 16%; } [data-kind="spotlight"] .fx-tok.t1 { left: 8%; right: auto; bottom: 18%; } [data-kind="spotlight"] .fx-tok.t2 { left: 6%; top: 14%; }
 [data-kind="spotlight"] .fx-tok.t3 { right: 9%; bottom: 14%; } [data-kind="spotlight"] .fx-tok.t4 { display: none; }
-[data-kind="magazine"] .fx-tok.t0, [data-kind="magazine"] .fx-tok.t2 { top: auto; bottom: 6%; } [data-kind="magazine"] .fx-tok.t2 { left: 30%; }
-[data-kind="magazine"] .fx-tok.t1 { display: none; }
-[data-kind="poster"] .fx-tok.t2, [data-kind="poster"] .fx-tok.t1 { display: none; } [data-kind="poster"] .fx-tok.t0 { top: 26%; right: 4%; } [data-kind="poster"] .fx-tok.t3 { bottom: 22%; right: 16%; }
+/* The magazine page is full of type edge to edge: no badges, just light. */
+[data-kind="magazine"] .fx-tok { display: none; }
+[data-kind="blueprint"] .fx-tok.t1, [data-kind="blueprint"] .fx-tok.t3 { display: none; }
+/* Flipped split heroes (photo on the left): the badges mirror to that side. */
+@media (min-width: 861px) {
+  [data-flip] [data-kind="split"] .fx-tok.t0 { right: auto; left: 3%; }
+  [data-flip] [data-kind="split"] .fx-tok.t3 { right: auto; left: 7%; }
+  [data-flip] [data-kind="split"] .fx-tok.t1 { right: auto; left: 43%; }
+}
+[data-kind="poster"] .fx-tok.t2, [data-kind="poster"] .fx-tok.t1, [data-kind="poster"] .fx-tok.t3 { display: none; } [data-kind="poster"] .fx-tok.t0 { top: 30%; right: 3%; }
 [data-kind="bento"] .fx-tok.t1 { right: 30%; bottom: 2%; } [data-kind="bento"] .fx-tok.t2 { top: 2%; left: 60%; }
 [data-kind="board"] .fx-tok.t2 { left: 44%; top: 6%; } [data-kind="board"] .fx-tok.t0 { top: 6%; }
 @media (max-width: 640px) { .fx-tok { display: none !important; } }
