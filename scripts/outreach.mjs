@@ -11,7 +11,7 @@ const siteTs = await readFile(path.join(ROOT, 'src', 'lib', 'site.ts'), 'utf8');
 const pick = (k) => (siteTs.match(new RegExp(`${k}:\\s*'([^']*)'`)) || [])[1] || '';
 const studio = pick('name');
 const base = pick('url').replace(/\/$/, '');
-const me = { name: '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]', email: pick('contactEmail') || '[YOUR EMAIL]', address: '[YOUR MAILING ADDRESS]' };
+const me = { name: pick('contactName') || '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]', email: pick('contactEmail') || '[YOUR EMAIL]', address: '[YOUR MAILING ADDRESS]' };
 
 const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json'), 'utf8'));
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));

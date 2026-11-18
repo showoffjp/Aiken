@@ -10,6 +10,7 @@ import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
 import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
+import { businessLd } from '../lib/schema';
 import { accessible, ratio } from '../lib/contrast';
 
 export function getStaticPaths() {
@@ -70,20 +71,7 @@ const after = demo.source.after || [
 const year = new Date().getFullYear();
 
 // The business details Google reads (schema.org). Part of what the real site would ship.
-const TYPE: Record<string, string> = { 'Food & Drink': 'FoodEstablishment', 'Shops & Boutiques': 'Store', Services: 'LocalBusiness', 'Home & Garden': 'HomeAndConstructionBusiness', 'Health & Beauty': 'HealthAndBeautyBusiness', Professional: 'ProfessionalService', 'Trades & Industry': 'HomeAndConstructionBusiness', 'Auto & Equipment': 'AutomotiveBusiness', 'Stay & Play': 'LocalBusiness' };
-const addr = contact.address?.length ? contact.address : undefined;
-const ld = {
-  '@context': 'https://schema.org',
-  '@type': TYPE[demo.group] || 'LocalBusiness',
-  name: demo.name,
-  description: hero.lede,
-  ...(contact.phone && { telephone: contact.phone }),
-  ...(contact.email && { email: contact.email }),
-  ...(addr && { address: { '@type': 'PostalAddress', streetAddress: addr.length > 1 ? addr[0] : undefined, addressLocality: demo.town.replace(/,?\s*SC$/i, ''), addressRegion: 'SC', addressCountry: 'US' } }),
-  ...(hero.image && site.url && { image: `${site.url}${hero.image.src}` }),
-  ...(demo.established && { foundingDate: demo.established }),
-  sameAs: [contact.facebook, contact.instagram].filter(Boolean),
-};
+const ld = businessLd(demo, site.url);
 ---
 <!doctype html>
 <html lang="en">
@@ -328,6 +316,9 @@ const ld = {
         <div class="after"><h3>This concept</h3><ul>{after.map((b) => <li>{b}</li>)}</ul></div>
       </div>
       <p class="fine" style="padding-bottom:10px"><a href={`/${demo.slug}/report/`}><b>See the one-page website checkup →</b></a></p>
+      {(site.contactPhone || site.contactEmail) && (
+        <p class="notes-contact">Like it? Talk to {site.name}:{site.contactPhone && <> <a href={telHref(site.contactPhone)}>{site.contactPhone}</a></>}{site.contactPhone && site.contactEmail && ' · '}{site.contactEmail && <a href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(`Website concept for ${demo.name}`)}`}>{site.contactEmail}</a>}</p>
+      )}
       <p class="fine">
         Words, hours and photos here come from {demo.source.none ? `the public listing for ${demo.name}` : `${demo.name}'s own public pages`} (<a href={demo.source.url} target="_blank" rel="noopener nofollow">{sourceHost}</a>) and would be confirmed with the owner before anything goes live.
       </p>

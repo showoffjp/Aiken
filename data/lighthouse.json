@@ -3124,5 +3124,61 @@
    "cls": 0,
    "at": "2026-11-18"
   }
+ },
+ "419hayne-luxury-suites": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1054,
+   "lcp": 1579,
+   "tbt": 0,
+   "si": 1054,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "kens-warehouse": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1701,
+   "lcp": 1753,
+   "tbt": 0,
+   "si": 1701,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "marias-mexican-restaurant": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 799,
+   "lcp": 1355,
+   "tbt": 0,
+   "si": 799,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "williamsons-auto-center": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1692,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1692,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
  }
 }

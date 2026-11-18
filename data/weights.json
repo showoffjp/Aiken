@@ -2167,6 +2167,13 @@
    "loadMs": 256,
    "url": "http://mariasmexicanrestaurantaiken.com/",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 203078,
+   "requests": 6,
+   "loadMs": 82,
+   "url": "/marias-mexican-restaurant/",
+   "at": "2026-11-18"
   }
  },
  "malias-restaurant": {
@@ -4298,6 +4305,33 @@
    "requests": 7,
    "loadMs": 174,
    "url": "/timeless-touch-events-llc/",
+   "at": "2026-11-18"
+  }
+ },
+ "kens-warehouse": {
+  "concept": {
+   "bytes": 209149,
+   "requests": 6,
+   "loadMs": 57,
+   "url": "/kens-warehouse/",
+   "at": "2026-11-18"
+  }
+ },
+ "williamsons-auto-center": {
+  "concept": {
+   "bytes": 241566,
+   "requests": 7,
+   "loadMs": 163,
+   "url": "/williamsons-auto-center/",
+   "at": "2026-11-18"
+  }
+ },
+ "419hayne-luxury-suites": {
+  "concept": {
+   "bytes": 237060,
+   "requests": 7,
+   "loadMs": 232,
+   "url": "/419hayne-luxury-suites/",
    "at": "2026-11-18"
   }
  }

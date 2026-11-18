@@ -8,6 +8,8 @@ import path from 'node:path';
 import Icon from '../../components/Icon.astro';
 import { demos, fonts, type Demo } from '../../lib/demos';
 import { site } from '../../lib/site';
+import { telHref } from '../../lib/demos';
+import { businessLd, proposedMeta, serp } from '../../lib/schema';
 import '../../styles/report.css';
 import { accessible } from '../../lib/contrast';
 import { existsSync } from 'node:fs';
@@ -100,6 +102,52 @@ const display = fonts['bricolage-grotesque'];
 const body = fonts.inter;
 const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}`).join('');
 const host = s ? s.host : hostOf(demo.source.url);
+// ---- how the business looks on Google today, and with the concept as its site
+const town = demo.town.replace(/,?\s*SC$/i, '');
+const meta = proposedMeta(demo);
+const todaySerp = serp(h?.title || '', h?.description || '');
+const newSerp = serp(meta.title, meta.description);
+const todayFlags: string[] = [];
+if (h) {
+  const tl = (h.title || '').trim().length, dl = (h.description || '').trim().length;
+  if (!tl) todayFlags.push('No page title');
+  else if (todaySerp.titleCut) todayFlags.push(`Title is cut off: ${tl} characters, about 60 fit`);
+  if (tl && !h.title.toLowerCase().includes(town.toLowerCase())) todayFlags.push(`Title does not mention ${town}`);
+  if (!dl) todayFlags.push('No description, so Google improvises one');
+  else if (todaySerp.descriptionCut) todayFlags.push(`Description is cut off: ${dl} characters, about 158 fit`);
+  else if (dl < 70) todayFlags.push(`Description is very short: ${dl} characters`);
+}
+const ld: any = businessLd(demo, site.url);
+const hoursSpec = ld.openingHoursSpecification as any[] | undefined;
+const newFlags = [
+  meta.title.toLowerCase().includes(town.toLowerCase()) ? `Business, service and ${town} in the title` : 'Business and service in the title',
+  'Title and description fit without being cut off',
+  ...(demo.contact.phone && meta.description.includes(demo.contact.phone) ? ['Phone number right in the result'] : []),
+];
+// What is wrong with the web address today, in plain words.
+const st = seo?.siteState || '';
+const downNote = st === 'No website' || demo.source.none ? 'No website of its own.'
+  : /parked/i.test(st) ? `${hostOf(demo.source.url)} shows a parked page, not the business.`
+  : /resolve|lapsed|expired/i.test(st) || /Lapsed/i.test(seo?.domain?.state || '') ? `${hostOf(demo.source.url)} no longer works.`
+  : /error page|404|500/i.test(st) ? `${hostOf(demo.source.url)} shows an error page.`
+  : /certificate/i.test(st) ? `${hostOf(demo.source.url)} shows a security warning.`
+  : 'The website did not load.';
+// Where a search lands today when there is no site of its own.
+const elsewhere = [
+  ...cites.filter((c: any) => c.url).map((c: any) => ({ host: hostOf(c.url), label: c.source })),
+  ...Object.entries({ ...(social.listed || {}), ...(social.onSite || {}) }).map(([p, u]) => ({ host: hostOf(u as string), label: `${p} page` })),
+].filter((e, i, a) => e.host && a.findIndex((x) => x.host === e.host) === i).slice(0, 5);
+// Structured data: what the home page hands Google today, and what the concept ships.
+const has = h?.schemaHas || {};
+const yes = (v: any, text = 'Included') => (v ? text : 'Not included');
+const ldRows = [
+  { label: 'Business type', why: 'Tells Google what kind of business this is', today: !!h?.schemaLocal, todayText: !s ? 'No website' : h.schemaLocal ? 'Included' : 'Not included', next: true, nextText: ld['@type'].replace(/([a-z])([A-Z])/g, '$1 $2') },
+  { label: 'Phone number', why: 'Tap-to-call in the business panel', today: !!has.telephone, todayText: !s ? 'No website' : yes(has.telephone), next: !!ld.telephone, nextText: ld.telephone || 'Add when confirmed' },
+  { label: 'Address', why: 'Maps, directions and "near me" searches', today: !!has.address, todayText: !s ? 'No website' : yes(has.address), next: !!ld.address, nextText: ld.address ? `${ld.address.streetAddress ? `${ld.address.streetAddress}, ` : ''}${ld.address.addressLocality}` : 'Add when confirmed' },
+  { label: 'Opening hours', why: '"Open now" and holiday hours in Google', today: !!has.hours, todayText: !s ? 'No website' : yes(has.hours), next: !!hoursSpec, nextText: hoursSpec ? `${new Set(hoursSpec.flatMap((x) => x.dayOfWeek)).size} days a week, in Google's format` : 'Add once hours are confirmed' },
+  { label: 'Map location', why: 'Connects the site to the Google Maps pin', today: !!has.geo, todayText: !s ? 'No website' : yes(has.geo), next: !!ld.hasMap, nextText: ld.hasMap ? 'Map link' : 'Add with the address' },
+  { label: 'Social profiles', why: 'Links your site and your profiles as one business', today: null, todayText: !s ? 'No website' : 'Not measured', next: !!ld.sameAs, nextText: ld.sameAs ? ld.sameAs.map((u: string) => (/facebook/i.test(u) ? 'Facebook' : /instagram/i.test(u) ? 'Instagram' : hostOf(u))).join(', ') : 'Add when you have them' },
+];
 // Deep grounds in the business's own colours for the banner (white text at 7:1+).
 const tone = accessible(demo.colors);
 const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs', `${demo.slug}.webp`)) ? `/shots/thumbs/${demo.slug}.webp` : '';
@@ -190,24 +238,60 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
         </section>
       )}
 
-      {s && (
+      {seo && (
         <section>
-          <h2>How you look on Google and when shared</h2>
+          <h2>How you look on Google{s ? ' and when shared' : ''}</h2>
           <div class="rp-cols sr-previews">
             <div class="sr-serp">
-              <span class="sr-cap"><Icon name="search" size={15} /> Google result</span>
-              <cite>{host}</cite>
-              <h3>{h.title || 'Untitled page'}</h3>
-              <p>{h.description || <i>No description: Google will pick text from the page.</i>}</p>
+              <span class="sr-cap"><Icon name="search" size={15} /> Today</span>
+              {s ? (
+                <>
+                  <cite>{host}</cite>
+                  <h3>{todaySerp.title || 'Untitled page'}</h3>
+                  <p>{h.description ? todaySerp.description : <i>No description: Google picks some text from the page.</i>}</p>
+                  {todayFlags.length > 0 && <ul class="sr-flags">{todayFlags.map((f) => <li>{f}</li>)}</ul>}
+                </>
+              ) : (
+                <>
+                  <p class="sr-none"><b>{downNote}</b> A search for {demo.short || demo.name} lands on pages other people control{elsewhere.length ? ':' : '.'}</p>
+                  {elsewhere.length > 0 && <ul class="sr-elsewhere">{elsewhere.map((e) => <li><cite>{e.host}</cite><span>{e.label}</span></li>)}</ul>}
+                </>
+              )}
             </div>
+            <div class="sr-serp sr-serp-new">
+              <span class="sr-cap"><Icon name="sparkles" size={15} /> With the new site</span>
+              <cite>{s ? host : !demo.source.none ? hostOf(demo.source.url) : 'your own web address'}</cite>
+              <h3>{newSerp.title}</h3>
+              <p>{newSerp.description}</p>
+              <ul class="sr-flags sr-flags-good">{newFlags.map((f) => <li>{f}</li>)}</ul>
+            </div>
+          </div>
+          {s && (
             <div class="sr-share">
-              <span class="sr-cap"><Icon name="share-2" size={15} /> Link shared on Facebook or in a text</span>
+              <span class="sr-cap"><Icon name="share-2" size={15} /> Link shared on Facebook or in a text, today</span>
               <div class="sr-share-card">
                 <div class="sr-share-img">{imgBroken ? <span>Preview image would not load</span> : h.og.image ? <img src={h.og.image} alt="" width="1200" height="628" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<span>Preview image would not load</span>'" /> : <span>No preview image</span>}</div>
                 <div class="sr-share-body"><cite>{host}</cite><b>{h.og.title || h.title || host}</b><span>{h.og.description || h.description || ''}</span></div>
               </div>
             </div>
+          )}
+        </section>
+      )}
+
+      {seo && (
+        <section>
+          <h2>What Google can read about your business</h2>
+          <div class="sr-table-wrap" tabindex="0" role="region" aria-label="Table (scrolls sideways on small screens)">
+            <table class="sr-table sr-ld">
+              <thead><tr><th>Business detail</th><th>Today</th><th>With the new site</th></tr></thead>
+              <tbody>
+                {ldRows.map((r) => (
+                  <tr><td><b>{r.label}</b><br /><small>{r.why}</small></td><td class={r.today === true ? 'good' : r.today === null && s ? '' : 'poor'}>{r.todayText}</td><td class={r.next ? 'good' : ''}>{r.nextText}</td></tr>
+                ))}
+              </tbody>
+            </table>
           </div>
+          <p class="rp-note">Structured data (schema.org markup) is the business card a website hands to search engines directly. Google uses it for the business panel, Maps and rich results, instead of guessing from the page. {hoursSpec ? `The new site lists ${hoursSpec.length === 1 ? 'one set' : `${hoursSpec.length} sets`} of opening hours in this form.` : ''}</p>
         </section>
       )}
 
@@ -370,7 +454,11 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
           <h2>Want this fixed?</h2>
           <p>The concept for {demo.short || demo.name} is ready to look at, and every item above can be part of the new site.</p>
         </div>
-        <a class="rp-btn" href={`/${demo.slug}/`}>Open the concept <Icon name="arrow-right" size={18} /></a>
+        <p class="rp-actions">
+          <a class="rp-btn" href={`/${demo.slug}/`}>Open the concept <Icon name="arrow-right" size={18} /></a>
+          {site.contactPhone && <a class="rp-btn rp-ghost" href={telHref(site.contactPhone)}>Call {site.contactPhone}</a>}
+          {site.contactEmail && <a class="rp-btn rp-ghost" href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(`SEO report for ${demo.name}`)}`}>{site.contactEmail}</a>}
+        </p>
       </section>
 
       <p class="rp-fine">

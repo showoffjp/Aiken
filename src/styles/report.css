@@ -194,6 +194,20 @@
 .sr-open { background: var(--green); color: #fff !important; white-space: nowrap; }
 @media (max-width: 760px) { .sr-mini { grid-template-columns: 1fr; } }
 .sr-previews { align-items: start; }
+/* Today vs the new site, as Google would show them. */
+.sr-serp-new { border-color: color-mix(in srgb, var(--green-2, #1f7a57) 45%, var(--line)); box-shadow: 0 10px 28px -18px color-mix(in srgb, var(--green-2, #1f7a57) 70%, transparent); }
+.sr-flags { list-style: none; margin: 14px 0 0; padding: 12px 0 0; border-top: 1px dashed var(--line); display: grid; gap: 6px; font-size: .85rem; }
+.sr-flags li { position: relative; padding-left: 22px; color: #8a2a12; }
+.sr-flags li::before { content: "!"; position: absolute; left: 0; top: .1em; width: 15px; height: 15px; border-radius: 50%; background: #c2410c; color: #fff; font: 700 .68rem/15px system-ui, sans-serif; text-align: center; }
+.sr-flags-good li { color: #14532d; }
+.sr-flags-good li::before { content: "✓"; background: #1f7a57; }
+.sr-none { font-size: .95rem; margin: 0 0 10px; }
+.sr-elsewhere { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.sr-elsewhere li { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; padding: 8px 12px; border-radius: 10px; background: color-mix(in srgb, var(--line) 35%, transparent); font-size: .88rem; }
+.sr-elsewhere cite { font-style: normal; font-weight: 600; color: #1a0dab; }
+.sr-elsewhere span { color: var(--muted); }
+.sr-previews + .sr-share { margin-top: 18px; max-width: 560px; }
+.sr-ld td small { color: var(--muted); }
 .sr-table-wrap:focus-visible { outline: 3px solid var(--green-2); outline-offset: 3px; }
 @media print {
   .rp.sr section { break-inside: auto; }
