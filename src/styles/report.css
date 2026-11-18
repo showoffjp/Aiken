@@ -224,3 +224,75 @@
 .rp-brand:hover .rp-glyph { transform: rotate(-10deg) scale(1.1); }
 @media (prefers-reduced-motion: reduce) { .rp-top::after, .rp-glint::before { animation: none; } }
 @media print { .rp-top { background: none; color: var(--muted); border-bottom: 1px solid var(--line); } .rp-top::after, .rp-glint { display: none; } .rp-brand { color: var(--ink); } .rp-glyph { background: #143d2f; box-shadow: none; } }
+
+/* ==========================================================================
+   Report glow-up: a banner in the business's own deep colours (contrast-
+   checked in contrast.ts, white text at 7:1 or better), a tilted preview of
+   the concept, colour-accented cards, gradient table heads and an animated
+   call to action. Print keeps the plain, ink-friendly layout.
+   ========================================================================== */
+.rp main { padding-block: 0 64px; }
+.rp-hero { position: relative; isolation: isolate; overflow: clip; color: #fff; background: linear-gradient(150deg, var(--deep, #0b2a20) 0%, var(--deep2, #0b2536) 100%); padding-block: clamp(40px, 6vw, 76px) clamp(70px, 8vw, 104px); margin-bottom: clamp(20px, 3vw, 36px); }
+.rp-hero-aurora { position: absolute; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.rp-hero-aurora i { position: absolute; width: 52vmax; aspect-ratio: 1; border-radius: 50%; }
+.rp-hero-aurora i:nth-child(1) { right: -14vmax; top: -24vmax; background: radial-gradient(closest-side, color-mix(in srgb, var(--t1) 34%, transparent), transparent 72%); }
+.rp-hero-aurora i:nth-child(2) { right: 18%; bottom: -36vmax; background: radial-gradient(closest-side, color-mix(in srgb, var(--t2) 22%, transparent), transparent 72%); }
+.rp-hero-aurora i:nth-child(3) { left: -20vmax; top: -30vmax; width: 40vmax; background: radial-gradient(closest-side, rgb(18 184 134 / .16), transparent 72%); }
+.rp-hero-in { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 320px); gap: clamp(24px, 4vw, 56px); align-items: center; }
+.rp-hero .rp-kicker { display: inline-block; color: rgb(255 255 255 / .9); padding: 8px 13px; border-radius: 999px; background: rgb(255 255 255 / .09); border: 1px solid rgb(255 255 255 / .18); }
+.rp .rp-hero h1 { color: #fff; background: none; -webkit-text-fill-color: currentColor; animation: none; margin-top: 4px; }
+.rp-hero h1::after { content: ""; display: block; width: 84px; height: 5px; border-radius: 5px; margin-top: 18px; background: linear-gradient(90deg, var(--accent-on-deep, #f2b33d), #ffd27a); }
+.rp-hero .rp-lede { color: rgb(255 255 255 / .88); }
+.rp-hero .rp-lede a { color: #fff; text-decoration-color: var(--accent-on-deep, #f2b33d); text-underline-offset: 3px; }
+.rp-hero .sr-actions .rp-btn { color: #1b1205 !important; background: linear-gradient(120deg, #ffd27a, #f2b33d 50%, #ff9a5a); box-shadow: 0 12px 26px -14px rgb(242 179 61 / .9); }
+.rp-hero .sr-link { color: #fff; }
+.rp-hero-shot { position: relative; display: block; border-radius: 16px; overflow: hidden; transform: perspective(900px) rotateY(-14deg) rotateX(6deg) rotateZ(2deg); box-shadow: 0 30px 50px -24px rgb(0 0 0 / .8), 0 0 0 1px rgb(255 255 255 / .14); transition: transform .5s cubic-bezier(.2, .7, .2, 1), box-shadow .4s ease; }
+.rp-hero-shot img { width: 100%; height: auto; display: block; }
+.rp-hero-shot span { position: absolute; left: 10px; bottom: 10px; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; color: #1b1205; background: linear-gradient(120deg, #ffd27a, #f2b33d); }
+.rp-hero-shot:hover { transform: perspective(900px) rotateY(-4deg) rotateX(2deg) translateY(-6px); box-shadow: 0 36px 60px -24px rgb(0 0 0 / .85), 0 0 0 2px var(--accent-on-deep, #f2b33d); }
+.rp-hero-shot::after { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 45%; background: linear-gradient(105deg, transparent, rgb(255 255 255 / .35), transparent); transform: translateX(-140%) skewX(-14deg); transition: transform .8s ease; }
+.rp-hero-shot:hover::after { transform: translateX(300%) skewX(-14deg); }
+.rp-hero-wave { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: clamp(36px, 5vw, 70px); fill: var(--bg); }
+@media (max-width: 760px) { .rp-hero-in { grid-template-columns: 1fr; } .rp-hero-shot { display: none; } }
+
+/* Section titles get a bar in the business's colours. */
+.rp main section > h2 { display: flex; align-items: center; gap: 12px; }
+.rp main section > h2::before { content: ""; flex: none; width: 6px; height: 1.1em; border-radius: 6px; background: linear-gradient(180deg, var(--t1), var(--t2)); }
+.rp main .rp-cta h2::before, .rp main .rp-flag h2::before { display: none; }
+
+/* Cards: a colour edge and a soft tint. */
+.rp-glance div, .rp-weight div, .rp-lh-row, .sr-g { position: relative; overflow: hidden; background: linear-gradient(160deg, var(--surface), color-mix(in srgb, var(--t1) 4%, var(--surface))); }
+.rp-glance div::after, .rp-lh-row::after, .sr-g::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: linear-gradient(90deg, var(--t1), var(--t2)); opacity: .85; }
+.rp-glance .bad::after { background: linear-gradient(90deg, #c5221f, #f29a3a); }
+.sr-g.good::after { background: linear-gradient(90deg, #137333, #2fbf71); }
+.sr-g.ok::after { background: linear-gradient(90deg, #b45309, #f2b33d); }
+.sr-g.bad::after { background: linear-gradient(90deg, #c5221f, #f29a3a); }
+.rp-pill.rp-new { background: linear-gradient(120deg, var(--green-2), #12856a); }
+.rp-pill.rp-old { background: linear-gradient(120deg, #b4541a, #c5221f); }
+
+/* Tables: a deep header in the business's colours. */
+.sr-table th { color: #fff; background: linear-gradient(120deg, var(--deep, #0b2a20), var(--deep2, #0b2536)); border-bottom: 0; }
+.sr-table-wrap { box-shadow: 0 18px 36px -30px rgb(0 0 0 / .45); }
+
+/* The call to action: deep colours, a slow sheen, a gold button. */
+.rp-cta { position: relative; isolation: isolate; overflow: clip; background: linear-gradient(125deg, var(--deep, #0b2a20), var(--deep2, #0b2536)); animation: none; }
+.rp-cta::before { content: ""; position: absolute; z-index: -1; width: 360px; aspect-ratio: 1; right: -100px; top: -150px; border-radius: 50%; border: 34px solid rgb(255 255 255 / .07); }
+.rp-cta::after { content: ""; position: absolute; z-index: -1; top: -50%; bottom: -50%; left: 0; width: 35%; background: linear-gradient(105deg, transparent, rgb(255 255 255 / .1), transparent); transform: translateX(-120%) skewX(-14deg); animation: rp-sheen 7s ease-in-out infinite; }
+@keyframes rp-sheen { 0%, 45% { transform: translateX(-120%) skewX(-14deg); } 100% { transform: translateX(400%) skewX(-14deg); } }
+.rp-cta .rp-btn:not(.rp-ghost) { color: #1b1205 !important; background: linear-gradient(120deg, #ffd27a, #f2b33d 50%, #ff9a5a); }
+.rp-cta .rp-qr { background: #fff; }
+
+@media (prefers-reduced-motion: reduce) { .rp-cta::after { animation: none; } .rp-hero-shot { transition: none; } }
+@media print {
+  .rp-hero { background: none; color: var(--ink); padding-block: 8px 0; margin: 0; }
+  .rp-hero-aurora, .rp-hero-wave, .rp-hero-shot { display: none !important; }
+  .rp-hero-in { grid-template-columns: 1fr; }
+  .rp-hero .rp-kicker { color: var(--green-2); background: none; border: 0; padding: 0; }
+  .rp .rp-hero h1 { color: var(--ink); }
+  .rp-hero h1::after { display: none; }
+  .rp-hero .rp-lede, .rp-hero .rp-lede a, .rp-hero .sr-link { color: var(--muted); }
+  .sr-table th { color: var(--muted); background: #f3f1ec; }
+  .rp-cta { background: #fff; color: var(--ink); }
+  .rp-cta::before, .rp-cta::after { display: none; }
+}
+.rp main > .rp-hero { margin-top: 0; }

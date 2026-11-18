@@ -9,6 +9,7 @@ import { demos, fonts, type Demo } from '../../lib/demos';
 import { site } from '../../lib/site';
 import QRCode from 'qrcode';
 import '../../styles/report.css';
+import { accessible } from '../../lib/contrast';
 
 export function getStaticPaths() {
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
@@ -114,6 +115,9 @@ const changes = demo.source.after || [
 const display = fonts['bricolage-grotesque'];
 const body = fonts.inter;
 const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}`).join('');
+// Deep grounds in the business's own colours for the banner (white text at 7:1+).
+const tone = accessible(demo.colors);
+const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs', `${demo.slug}.webp`)) ? `/shots/thumbs/${demo.slug}.webp` : '';
 ---
 <!doctype html>
 <html lang="en">
@@ -132,7 +136,7 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
     <style set:html={fontCss} />
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
-  <body class="rp" style={`--t1:${demo.colors.primary};--t2:${demo.colors.accent}`}>
+  <body class="rp" style={`--t1:${demo.colors.primary};--t2:${demo.colors.accent};--deep:${tone["--deep"]};--deep2:${tone["--deep2"]};--accent-on-deep:${tone["--accent-on-deep"]}`}>
     <header class="rp-top">
       <div class="rp-wrap">
         <a href="/" class="rp-brand"><span class="rp-glyph"><svg viewBox="0 0 32 32" width="16" height="16" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="rp-glint" aria-hidden="true"></i></span>{site.name}</a>
@@ -140,12 +144,22 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
       </div>
     </header>
 
-    <main class="rp-wrap">
-      <p class="rp-kicker">{demo.category} · {demo.town}</p>
-      <h1>{demo.name}</h1>
-      {demo.source.none
-        ? <p class="rp-lede">{demo.name} has no website of its own today. Here is what customers find now, and a working concept for a first site.</p>
-        : <p class="rp-lede">A plain-English look at <a href={demo.source.url} target="_blank" rel="noopener nofollow">{host}</a>, and a working concept for what it could be.</p>}
+    <main>
+      <section class="rp-hero">
+        <div class="rp-hero-aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="rp-wrap rp-hero-in">
+          <div class="rp-hero-copy">
+            <p class="rp-kicker">{demo.category} · {demo.town}</p>
+            <h1>{demo.name}</h1>
+            {demo.source.none
+              ? <p class="rp-lede">{demo.name} has no website of its own today. Here is what customers find now, and a working concept for a first site.</p>
+              : <p class="rp-lede">A plain-English look at <a href={demo.source.url} target="_blank" rel="noopener nofollow">{host}</a>, and a working concept for what it could be.</p>}
+          </div>
+          {heroThumb && <a class="rp-hero-shot" href={`/${demo.slug}/`} aria-label={`Open the concept for ${demo.name}`}><img src={heroThumb} alt="" width="440" height="296" /><span>The concept</span></a>}
+        </div>
+        <svg class="rp-hero-wave" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C 240 80 480 0 720 34 S 1200 80 1440 26 V70 H0 Z" /></svg>
+      </section>
+      <div class="rp-wrap">
 
       <section class="rp-shots">
         <figure>
@@ -279,6 +293,7 @@ const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}"
         Nothing was logged into and nothing was changed. This is an unsolicited review from {site.name}, which is not affiliated with {demo.name.replace(/\.$/, '')}.
         Found something we got wrong? Tell us and we will correct it.
       </p>
+      </div>
     </main>
     <script is:inline>
       // Before/after slider: the range input sets how much of today's site shows.

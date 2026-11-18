@@ -1,0 +1,144 @@
+{
+  "name": "The Trail Riding Company",
+  "short": "Trail Riding Co.",
+  "category": "Horseback Trail Rides",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "archivo",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f8f3ea",
+    "surface": "#fffdf8",
+    "ink": "#1b2219",
+    "muted": "#58604f",
+    "primary": "#2d5a27",
+    "onPrimary": "#f8f3ea",
+    "accent": "#e07a2e",
+    "line": "#e6dece"
+  },
+  "radius": 12,
+  "icon": "trees",
+  "contact": {
+    "phone": "(803) 507-5487",
+    "facebook": "https://www.facebook.com/thetrailridingcompany"
+  },
+  "hero": {
+    "eyebrow": "Horseback riding in Aiken",
+    "title": "Trail rides for *every skill level*",
+    "lede": "Horseback riding tours, camping adventures, lake rides and parties in Aiken, a haven for equestrian enthusiasts and nature lovers alike.",
+    "points": [
+      "Riding tours",
+      "Camping adventures",
+      "Lake rides",
+      "Parties"
+    ],
+    "cta": {
+      "label": "Call (803) 507-5487",
+      "href": "tel:+18035075487"
+    },
+    "cta2": {
+      "label": "The rides",
+      "href": "#rides"
+    }
+  },
+  "facts": [
+    {
+      "value": "Tours",
+      "label": "Horseback riding tours"
+    },
+    {
+      "value": "Camping",
+      "label": "Adventures overnight"
+    },
+    {
+      "value": "Lake rides",
+      "label": "And parties"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rides",
+      "nav": "The rides",
+      "columns": 2,
+      "eyebrow": "For all interests and skill levels",
+      "title": "Pick your *adventure*",
+      "items": [
+        {
+          "icon": "compass",
+          "title": "Horseback riding tours",
+          "text": "Explore Aiken's scenic landscapes on horseback."
+        },
+        {
+          "icon": "tent",
+          "title": "Camping adventures",
+          "text": "Ride out and stay out."
+        },
+        {
+          "icon": "waves",
+          "title": "Lake rides",
+          "text": "Rides with the water in view."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Parties",
+          "text": "Make a celebration of it."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "aiken",
+      "nav": "Why Aiken",
+      "eyebrow": "Horse country",
+      "title": "Rich history, *scenic trails*",
+      "body": [
+        "Aiken, South Carolina, is a haven for equestrian enthusiasts and nature lovers alike. With its rich history, scenic landscapes and vibrant equestrian community, it offers trail riding for all interests and skill levels."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to ride?",
+      "text": "Call to book a tour, a lake ride or a party.",
+      "cta": {
+        "label": "Call (803) 507-5487",
+        "href": "tel:+18035075487"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a ride*",
+    "hideForm": true
+  },
+  "slug": "trail-riding-the-trail-riding-company",
+  "prospect": "trail-riding-the-trail-riding-company",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/trail-riding-the-trail-riding-company/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "rows",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "outline",
+    "motion": "flip",
+    "buttons": "pill"
+  }
+}

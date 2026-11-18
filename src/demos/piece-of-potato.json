@@ -1,0 +1,143 @@
+{
+  "name": "Piece of Potato",
+  "short": "Piece of Potato",
+  "category": "Carry-out, Delivery & Catering",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "syne",
+    "body": "dm-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fff8ec",
+    "surface": "#ffffff",
+    "ink": "#221a2b",
+    "muted": "#5f566a",
+    "primary": "#5b2a86",
+    "onPrimary": "#ffffff",
+    "accent": "#ffc93c",
+    "line": "#efe3d0"
+  },
+  "radius": 18,
+  "icon": "chef-hat",
+  "contact": {
+    "address": [
+      "221 Greenville Street NW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Piece of Potato, 221 Greenville St NW, Aiken, SC"
+  },
+  "hero": {
+    "eyebrow": "Carry-out · Delivery · Catering",
+    "title": "Regular potatoes into *edible masterpieces*",
+    "lede": "An exclusive eatery serving Aiken and the surrounding areas, built around one idea: what happens when you remix a potato?",
+    "points": [
+      "Carry-out",
+      "Delivery",
+      "Catering"
+    ],
+    "cta": {
+      "label": "Find us",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Our story",
+      "href": "#story"
+    }
+  },
+  "facts": [
+    {
+      "value": "25 years",
+      "label": "The owner's time in the food industry, from cook to general manager"
+    },
+    {
+      "value": "Carry-out",
+      "label": "Plus delivery and catering"
+    },
+    {
+      "value": "Aiken",
+      "label": "And the surrounding areas"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "order",
+      "nav": "How to order",
+      "columns": 3,
+      "eyebrow": "However you like it",
+      "title": "Three ways to get *a piece*",
+      "items": [
+        {
+          "icon": "shopping-bag",
+          "title": "Carry-out",
+          "text": "Order and pick up on Greenville Street."
+        },
+        {
+          "icon": "truck",
+          "title": "Delivery",
+          "text": "Serving Aiken and the surrounding areas."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Catering",
+          "text": "Bring the potatoes to your event."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "\"I wonder if I could remix some potatoes?\"",
+      "title": "An idea that *marinated*",
+      "body": [
+        "The owner has nearly 25 years in the food industry, from cook to general manager. A few years ago came the thought: \"I wonder if I could remix some potatoes?\" The idea marinated for a few years but never took off.",
+        "During an employment transition amid the pandemic, Piece of Potato was finally born. Word of mouth traveled through social media, people started ordering and posting about it, and new customers kept coming."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry for something different?",
+      "text": "Carry-out on Greenville Street, delivery around Aiken.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Greenville Street*",
+    "hideForm": true
+  },
+  "slug": "piece-of-potato",
+  "prospect": "piece-of-potato",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/pieceofpotato/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "pills",
+    "facts": "badges",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "shadow",
+    "pattern": "dots"
+  }
+}
