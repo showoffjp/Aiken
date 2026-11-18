@@ -70,6 +70,7 @@ const platforms = ['Facebook', 'Instagram', 'Google Business Profile', 'YouTube'
 const anyProfile = (p: string) => social.onSite?.[p] || social.listed?.[p];
 if (!anyProfile('Google Business Profile')) recs.push({ title: 'Claim and link your Google Business Profile', text: 'It is what shows in Google Maps and the map pack. Link it from your site so customers can find your reviews and directions.' });
 if (s && !Object.keys(social.onSite || {}).length && Object.keys(social.listed || {}).length) recs.push({ title: 'Link your social profiles from the website', text: 'Your profiles exist but the site does not point to them, so visitors and search engines cannot connect the two.' });
+if (s?.placeholderSocial?.length) recs.unshift({ title: 'Fix the social icons on your site', text: `They still link to the website builder's or designer's own accounts (${s.placeholderSocial.join(', ')}), not to yours, so visitors who tap them land on someone else's page.` });
 if (s && h && !Object.values(h.tags || {}).some(Boolean)) recs.push({ title: 'Measure your visitors', text: 'No analytics found. Free tools like Google Analytics or Vercel Analytics show how people find you and which pages lead to calls.' });
 const svc = ranks?.keywords?.find((k: any) => k.kind === 'service');
 if (svc && !svc.google) recs.unshift({ title: `Show up when people search "${svc.keyword}"`, text: `On a phone in Aiken, your site is not in Google's top ${svc.googleDepth || 20} for that search${svc.maps ? '' : ', and the business is not in the top 20 on Google Maps'}. A fast site built around your service and town, plus a complete Google Business Profile, is how local businesses climb.` });
@@ -184,7 +185,7 @@ const host = s ? s.host : hostOf(demo.source.url);
             <div class="sr-share">
               <span class="sr-cap"><Icon name="share-2" size={15} /> Link shared on Facebook or in a text</span>
               <div class="sr-share-card">
-                <div class="sr-share-img">{h.og.image ? <img src={h.og.image} alt="" loading="lazy" referrerpolicy="no-referrer" /> : <span>No preview image</span>}</div>
+                <div class="sr-share-img">{h.og.image ? <img src={h.og.image} alt="" width="1200" height="628" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<span>Preview image would not load</span>'" /> : <span>No preview image</span>}</div>
                 <div class="sr-share-body"><cite>{host}</cite><b>{h.og.title || h.title || host}</b><span>{h.og.description || h.description || ''}</span></div>
               </div>
             </div>

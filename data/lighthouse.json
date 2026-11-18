@@ -5,12 +5,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 795,
-   "lcp": 1879,
-   "tbt": 2,
-   "si": 795,
+   "fcp": 797,
+   "lcp": 1880,
+   "tbt": 17,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 40,
@@ -27,16 +27,16 @@
  },
  "the-vintage-bobbin": {
   "concept": {
-   "performance": 96,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1056,
-   "lcp": 2706,
+   "fcp": 1053,
+   "lcp": 2553,
    "tbt": 0,
-   "si": 1056,
+   "si": 1053,
    "cls": 0.022,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 44,
@@ -53,16 +53,16 @@
  },
  "the-wildemont": {
   "concept": {
-   "performance": 99,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 905,
-   "lcp": 2105,
+   "fcp": 1700,
+   "lcp": 2102,
    "tbt": 0,
-   "si": 905,
+   "si": 1700,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "aiken-flooring": {
@@ -71,12 +71,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 648,
-   "lcp": 1354,
-   "tbt": 8,
-   "si": 648,
+   "fcp": 800,
+   "lcp": 1505,
+   "tbt": 43,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 34,
@@ -93,30 +93,30 @@
  },
  "aiken-ghost-tours": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1055,
-   "lcp": 1505,
+   "fcp": 1727,
+   "lcp": 1804,
    "tbt": 0,
-   "si": 1055,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1727,
+   "cls": 0.001,
+   "at": "2026-11-18"
   }
  },
  "affordable-quality-marble-and-granite": {
   "concept": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1059,
-   "lcp": 2109,
+   "fcp": 1056,
+   "lcp": 1656,
    "tbt": 0,
-   "si": 1059,
-   "cls": 0.005,
-   "at": "2026-11-17"
+   "si": 1056,
+   "cls": 0.007,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 27,
@@ -137,12 +137,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 797,
+   "fcp": 818,
    "lcp": 1508,
-   "tbt": 56,
-   "si": 797,
+   "tbt": 49,
+   "si": 818,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 50,
@@ -159,30 +159,30 @@
  },
  "antiques-and-more-mall": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1751,
+   "lcp": 1958,
    "tbt": 0,
-   "si": 904,
+   "si": 1751,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "antonios-italian-eatery": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1653,
+   "lcp": 2178,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1653,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 54,
@@ -199,16 +199,16 @@
  },
  "apizza-di-napoli": {
   "concept": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 905,
-   "lcp": 1506,
+   "fcp": 799,
+   "lcp": 1502,
    "tbt": 0,
-   "si": 905,
-   "cls": 0.067,
-   "at": "2026-11-17"
+   "si": 799,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "augusta-ready-mix-inc": {
@@ -217,12 +217,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1355,
+   "fcp": 1052,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 647,
+   "si": 1052,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 87,
@@ -243,12 +243,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 799,
-   "lcp": 2030,
-   "tbt": 91,
-   "si": 799,
+   "fcp": 797,
+   "lcp": 2105,
+   "tbt": 8,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 92,
@@ -265,16 +265,16 @@
  },
  "big-house-outpost": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1691,
+   "lcp": 1691,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1691,
+   "cls": 0.002,
+   "at": "2026-11-18"
   }
  },
  "bloom-salon-spa-boutique": {
@@ -283,12 +283,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1052,
-   "lcp": 3302,
-   "tbt": 101,
-   "si": 1052,
+   "fcp": 1055,
+   "lcp": 3305,
+   "tbt": 0,
+   "si": 1055,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 53,
@@ -305,16 +305,16 @@
  },
  "bradley-plumbing-and-heating-inc-mechanical-cont": {
   "concept": {
-   "performance": 100,
+   "performance": 95,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 645,
-   "lcp": 1354,
-   "tbt": 0,
-   "si": 645,
+   "fcp": 882,
+   "lcp": 1505,
+   "tbt": 250,
+   "si": 906,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 73,
@@ -335,12 +335,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1064,
-   "lcp": 1964,
-   "tbt": 0,
-   "si": 1064,
+   "fcp": 800,
+   "lcp": 1961,
+   "tbt": 11,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 64,
@@ -357,30 +357,30 @@
  },
  "briar-patch-antiques": {
   "concept": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1052,
-   "lcp": 1652,
-   "tbt": 0,
-   "si": 1052,
-   "cls": 0,
-   "at": "2026-11-17"
+   "fcp": 1061,
+   "lcp": 1811,
+   "tbt": 91,
+   "si": 1061,
+   "cls": 0.085,
+   "at": "2026-11-18"
   }
  },
  "broome-service-center-inc": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 648,
-   "lcp": 1354,
-   "tbt": 8,
-   "si": 648,
+   "fcp": 1686,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1686,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "carolina-bar-b-que": {
@@ -389,40 +389,40 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 632,
-   "lcp": 1656,
-   "tbt": 0,
-   "si": 632,
+   "fcp": 804,
+   "lcp": 1807,
+   "tbt": 23,
+   "si": 804,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "dos-potrillos-mexican-restaurant": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 642,
-   "lcp": 1205,
+   "fcp": 1716,
+   "lcp": 1716,
    "tbt": 0,
-   "si": 642,
+   "si": 1716,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "durban-laird-insurance": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 908,
-   "lcp": 1508,
+   "fcp": 1685,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 908,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1685,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "site": {
    "error": "NO_FCP",
@@ -431,16 +431,16 @@
  },
  "el-charrito-taqueria": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 638,
-   "lcp": 1204,
-   "tbt": 22,
-   "si": 638,
+   "fcp": 1680,
+   "lcp": 2106,
+   "tbt": 0,
+   "si": 1680,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "farm-dog": {
@@ -449,26 +449,26 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1206,
-   "tbt": 6,
-   "si": 647,
+   "fcp": 846,
+   "lcp": 1356,
+   "tbt": 40,
+   "si": 846,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "flanigans-ice-cream": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 650,
-   "lcp": 1207,
-   "tbt": 24,
-   "si": 650,
+   "fcp": 1702,
+   "lcp": 1702,
+   "tbt": 0,
+   "si": 1702,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "glassworks-by-fishburne-and-shultz-hill": {
@@ -477,12 +477,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 633,
-   "lcp": 1354,
-   "tbt": 0,
-   "si": 633,
+   "fcp": 797,
+   "lcp": 1428,
+   "tbt": 60,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 92,
@@ -499,16 +499,16 @@
  },
  "hals-hair-center": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 649,
-   "lcp": 1358,
+   "fcp": 1690,
+   "lcp": 1747,
    "tbt": 0,
-   "si": 649,
+   "si": 1690,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 93,
@@ -529,12 +529,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1055,
-   "lcp": 2855,
+   "fcp": 1056,
+   "lcp": 2781,
    "tbt": 0,
-   "si": 1055,
+   "si": 1056,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "error": "PROTOCOL_TIMEOUT",
@@ -547,12 +547,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 641,
-   "lcp": 1203,
+   "fcp": 1052,
+   "lcp": 1652,
    "tbt": 0,
-   "si": 641,
+   "si": 1052,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 61,
@@ -569,16 +569,16 @@
  },
  "herbal-solutions-and-spa": {
   "concept": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 797,
-   "lcp": 1809,
-   "tbt": 2,
-   "si": 797,
+   "fcp": 795,
+   "lcp": 1804,
+   "tbt": 198,
+   "si": 795,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 37,
@@ -599,12 +599,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1057,
-   "lcp": 2257,
+   "fcp": 1054,
+   "lcp": 2254,
    "tbt": 0,
-   "si": 1057,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1054,
+   "cls": 0.001,
+   "at": "2026-11-18"
   },
   "site": {
    "error": "NO_FCP",
@@ -617,12 +617,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 907,
-   "lcp": 1357,
+   "fcp": 1055,
+   "lcp": 1581,
    "tbt": 0,
-   "si": 907,
-   "cls": 0.001,
-   "at": "2026-11-17"
+   "si": 1055,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "inn-at-houndslake": {
@@ -631,12 +631,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 904,
-   "lcp": 2179,
-   "tbt": 0,
-   "si": 904,
-   "cls": 0.039,
-   "at": "2026-11-17"
+   "fcp": 1062,
+   "lcp": 2262,
+   "tbt": 16,
+   "si": 1062,
+   "cls": 0.021,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 61,
@@ -657,12 +657,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1057,
-   "lcp": 2032,
+   "fcp": 1054,
+   "lcp": 2029,
    "tbt": 0,
-   "si": 1057,
+   "si": 1054,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 61,
@@ -679,30 +679,30 @@
  },
  "joyful-caf": {
   "concept": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 1952,
+   "lcp": 2477,
    "tbt": 0,
-   "si": 904,
+   "si": 1952,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "lambert-insurance-agency-inc": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1203,
+   "fcp": 1737,
+   "lcp": 1737,
    "tbt": 0,
-   "si": 647,
+   "si": 1737,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 53,
@@ -719,16 +719,16 @@
  },
  "mitch-johnson-construction-company-inc": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 906,
-   "lcp": 1806,
+   "fcp": 1357,
+   "lcp": 2032,
    "tbt": 0,
-   "si": 906,
+   "si": 1357,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 84,
@@ -745,16 +745,16 @@
  },
  "mobile-office-management-llc-mom": {
   "concept": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 627,
-   "lcp": 1203,
-   "tbt": 3,
-   "si": 627,
+   "fcp": 796,
+   "lcp": 1429,
+   "tbt": 170,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 100,
@@ -775,12 +775,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 649,
-   "lcp": 1286,
-   "tbt": 5,
-   "si": 649,
+   "fcp": 796,
+   "lcp": 1427,
+   "tbt": 32,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 82,
@@ -801,12 +801,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 643,
-   "lcp": 1205,
-   "tbt": 0,
-   "si": 643,
+   "fcp": 796,
+   "lcp": 1502,
+   "tbt": 29,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 62,
@@ -823,30 +823,30 @@
  },
  "pitter-patter-carolines": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1722,
+   "lcp": 1722,
    "tbt": 0,
-   "si": 904,
-   "cls": 0.003,
-   "at": "2026-11-17"
+   "si": 1722,
+   "cls": 0,
+   "at": "2026-11-18"
   }
  },
  "playland-of-aiken": {
   "concept": {
-   "performance": 99,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 638,
-   "lcp": 2255,
-   "tbt": 11,
-   "si": 638,
+   "fcp": 796,
+   "lcp": 2406,
+   "tbt": 125,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 43,
@@ -867,12 +867,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 806,
-   "lcp": 3230,
-   "tbt": 10,
-   "si": 806,
+   "fcp": 800,
+   "lcp": 3231,
+   "tbt": 36,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 44,
@@ -893,12 +893,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 807,
+   "lcp": 1355,
    "tbt": 0,
-   "si": 904,
+   "si": 807,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 79,
@@ -919,12 +919,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1353,
+   "fcp": 1053,
+   "lcp": 1503,
    "tbt": 0,
-   "si": 903,
+   "si": 1053,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 75,
@@ -941,16 +941,16 @@
  },
  "smoothie-groove": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 646,
-   "lcp": 1204,
-   "tbt": 1,
-   "si": 646,
+   "fcp": 1686,
+   "lcp": 1746,
+   "tbt": 0,
+   "si": 1686,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "southern-magnolia-dentistry": {
@@ -959,12 +959,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 905,
-   "lcp": 1505,
-   "tbt": 0,
-   "si": 905,
-   "cls": 0.001,
-   "at": "2026-11-17"
+   "fcp": 795,
+   "lcp": 1353,
+   "tbt": 47,
+   "si": 795,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 71,
@@ -985,12 +985,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 905,
-   "lcp": 1955,
+   "fcp": 1057,
+   "lcp": 2032,
    "tbt": 0,
-   "si": 905,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1057,
+   "cls": 0.005,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 83,
@@ -1007,16 +1007,16 @@
  },
  "thai-jasmine-rice": {
   "concept": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1056,
-   "lcp": 1506,
+   "fcp": 1957,
+   "lcp": 2482,
    "tbt": 0,
-   "si": 1056,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1957,
+   "cls": 0.001,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 79,
@@ -1033,30 +1033,30 @@
  },
  "feed-sack-aiken": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1694,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 904,
+   "si": 1694,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "the-ivy-cottage-flowers-and-gifts": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1709,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 903,
+   "si": 1709,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "the-jewelers-loupe": {
@@ -1065,12 +1065,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1053,
+   "lcp": 1503,
    "tbt": 0,
-   "si": 904,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1053,
+   "cls": 0.003,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 64,
@@ -1091,12 +1091,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
-   "tbt": 0,
-   "si": 903,
-   "cls": 0.039,
-   "at": "2026-11-17"
+   "fcp": 802,
+   "lcp": 1432,
+   "tbt": 20,
+   "si": 802,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "site": {
    "error": "NO_FCP",
@@ -1105,16 +1105,16 @@
  },
  "thomas-p-murphy-pc-attorney-at-law": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1053,
-   "lcp": 1503,
+   "fcp": 1652,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 1053,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1652,
+   "cls": 0.003,
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 63,
@@ -1131,16 +1131,16 @@
  },
  "toki-jr-llc": {
   "concept": {
-   "performance": 100,
+   "performance": 87,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 635,
-   "lcp": 1203,
-   "tbt": 0,
-   "si": 635,
+   "fcp": 1204,
+   "lcp": 1879,
+   "tbt": 483,
+   "si": 1204,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 97,
@@ -1157,16 +1157,16 @@
  },
  "track-kitchen": {
   "concept": {
-   "performance": 99,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 904,
-   "lcp": 2104,
+   "fcp": 1692,
+   "lcp": 1953,
    "tbt": 0,
-   "si": 904,
+   "si": 1692,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   }
  },
  "veg-out": {
@@ -1175,12 +1175,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1054,
-   "lcp": 1954,
+   "fcp": 1055,
+   "lcp": 2030,
    "tbt": 0,
-   "si": 1054,
+   "si": 1055,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 51,
@@ -1201,12 +1201,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1056,
-   "lcp": 3081,
+   "fcp": 1054,
+   "lcp": 3079,
    "tbt": 0,
-   "si": 1056,
+   "si": 1054,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 45,
@@ -1232,7 +1232,7 @@
    "tbt": 0,
    "si": 1054,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 76,
@@ -1249,30 +1249,30 @@
  },
  "york-cottage-antiques": {
   "concept": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 1728,
+   "lcp": 1805,
    "tbt": 0,
-   "si": 904,
-   "cls": 0.003,
-   "at": "2026-11-17"
+   "si": 1728,
+   "cls": 0.103,
+   "at": "2026-11-18"
   }
  },
  "empire-tree": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 641,
-   "lcp": 1671,
-   "tbt": 0,
-   "si": 641,
+   "fcp": 807,
+   "lcp": 1734,
+   "tbt": 92,
+   "si": 807,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 44,
@@ -1289,16 +1289,16 @@
  },
  "osbons-laundry-and-cleaners-downtown": {
   "concept": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 804,
-   "lcp": 1512,
-   "tbt": 61,
-   "si": 804,
+   "fcp": 803,
+   "lcp": 1505,
+   "tbt": 188,
+   "si": 803,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "site": {
    "performance": 60,

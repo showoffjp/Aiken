@@ -116,7 +116,7 @@
     "hideForm": true
   },
   "source": {
-    "url": "https://www.thefeedsackrestaurants.com/",
+    "url": "https://thefeedsackrestaurants.com/",
     "before": [
       "The site's security certificate has expired, so browsers stop visitors with a full-page warning before they see the menu",
       "A second check of the site returned a \"service unavailable\" error",

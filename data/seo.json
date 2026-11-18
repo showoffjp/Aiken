@@ -2,7 +2,7 @@
  "carolina-bar-b-que": {
   "slug": "carolina-bar-b-que",
   "name": "Carolina Bar-B-Que",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -32,12 +32,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 632,
-   "lcp": 1656,
-   "tbt": 0,
-   "si": 632,
+   "fcp": 804,
+   "lcp": 1807,
+   "tbt": 23,
+   "si": 804,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "blue-collard",
@@ -142,13 +142,14 @@
  "osbons-laundry-and-cleaners-downtown": {
   "slug": "osbons-cleaners",
   "name": "Osbon's Laundry & Cleaners",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "osbonscleaners.com",
    "https": true,
    "pagesCrawled": 4,
+   "placeholderSocial": [],
    "home": {
     "url": "https://osbonscleaners.com/",
     "title": "Osbon's Cleaners",
@@ -321,16 +322,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 647,
-   "lcp": 1356,
-   "tbt": 0,
-   "si": 647,
+   "fcp": 803,
+   "lcp": 1505,
+   "tbt": 188,
+   "si": 803,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -343,13 +344,16 @@
  "affordable-quality-marble-and-granite": {
   "slug": "aiken-granite",
   "name": "Affordable Quality Marble & Granite",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "southcarolinagranite.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [
+    "twitter.com/aqmg_marketing"
+   ],
    "home": {
     "url": "https://southcarolinagranite.com/",
     "title": "Countertops, Cabinets, & Tile | Aiken SC | Affordable Quality",
@@ -546,7 +550,6 @@
    "social": {
     "Google Business Profile": "https://g.page/south-carolina-granite",
     "Facebook": "https://www.facebook.com/aikengranite/",
-    "X (Twitter)": "http://www.twitter.com/aqmg_marketing",
     "YouTube": "https://www.youtube.com/channel/UCR0X5oaW9z41U9ok-m1xJxA"
    }
   },
@@ -584,7 +587,6 @@
    "onSite": {
     "Google Business Profile": "https://g.page/south-carolina-granite",
     "Facebook": "https://www.facebook.com/aikengranite/",
-    "X (Twitter)": "http://www.twitter.com/aqmg_marketing",
     "YouTube": "https://www.youtube.com/channel/UCR0X5oaW9z41U9ok-m1xJxA"
    },
    "listed": {
@@ -611,16 +613,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
    "fcp": 1056,
-   "lcp": 1956,
+   "lcp": 1656,
    "tbt": 0,
    "si": 1056,
-   "cls": 0.005,
-   "at": "2026-11-17"
+   "cls": 0.007,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-flooring",
@@ -689,13 +691,14 @@
  "the-vintage-bobbin": {
   "slug": "the-vintage-bobbin",
   "name": "The Vintage Bobbin",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "vintagebobbin.com",
    "https": true,
    "pagesCrawled": 14,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.vintagebobbin.com/",
     "title": "Home | The Vintage Bobbin LLC",
@@ -926,16 +929,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 96,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1059,
-   "lcp": 2709,
+   "fcp": 1053,
+   "lcp": 2553,
    "tbt": 0,
-   "si": 1059,
-   "cls": 0.023,
-   "at": "2026-11-17"
+   "si": 1053,
+   "cls": 0.022,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -948,13 +951,14 @@
  "aiken-pet-sitters-llc": {
   "slug": "aiken-pet-sitters",
   "name": "Aiken Pet Sitters",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "aikenpetsitters.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://aikenpetsitters.com/",
     "title": "Pet Sitting, Cat Sitting in Aiken, SC by Aiken Pet Sitters LLC",
@@ -1205,12 +1209,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 635,
-   "lcp": 1360,
-   "tbt": 5,
-   "si": 635,
+   "fcp": 818,
+   "lcp": 1508,
+   "tbt": 49,
+   "si": 818,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "downtown-dog",
@@ -1261,13 +1265,14 @@
  "herbal-solutions-and-spa": {
   "slug": "herbal-solutions",
   "name": "Herbal Solutions & Spa",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "twoherbalsolutions.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.twoherbalsolutions.com/",
     "title": "Natural Health Store & Spa in Aiken, SC | Massage & Wellness",
@@ -1516,16 +1521,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 797,
-   "lcp": 1809,
-   "tbt": 2,
-   "si": 797,
+   "fcp": 795,
+   "lcp": 1804,
+   "tbt": 198,
+   "si": 795,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -1630,13 +1635,14 @@
  "empire-tree": {
   "slug": "empire-tree",
   "name": "Empire Tree",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "empiretree.com",
    "https": true,
    "pagesCrawled": 14,
+   "placeholderSocial": [],
    "home": {
     "url": "https://empiretree.com/",
     "title": "Home - Empire Tree",
@@ -1945,16 +1951,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 641,
-   "lcp": 1671,
-   "tbt": 0,
-   "si": 641,
+   "fcp": 807,
+   "lcp": 1734,
+   "tbt": 92,
+   "si": 807,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "noble-tree-solutions",
@@ -2059,13 +2065,14 @@
  "carolina-hvac-and-electrical": {
   "slug": "carolina-hvac",
   "name": "Carolina HVAC & Electrical",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "carolina-hvac.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.carolina-hvac.com/",
     "title": "Heating, Cooling & Electrical Services In Aiken, SC | Carolina HVAC & Electrical",
@@ -2331,16 +2338,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 666,
-   "lcp": 2051,
-   "tbt": 0,
-   "si": 666,
+   "fcp": 797,
+   "lcp": 1880,
+   "tbt": 17,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "atomic-heating-and-air",
@@ -2427,7 +2434,7 @@
  "aiken-ghost-tours": {
   "slug": "aiken-ghost-tours",
   "name": "Aiken Ghost Tours",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -2451,16 +2458,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1055,
-   "lcp": 1505,
+   "fcp": 1727,
+   "lcp": 1804,
    "tbt": 0,
-   "si": 1055,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1727,
+   "cls": 0.001,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "historic-aiken-trolley-tours",
@@ -2529,7 +2536,7 @@
  "antiques-and-more-mall": {
   "slug": "antiques-and-more-mall",
   "name": "Antiques & More Mall",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -2565,16 +2572,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1751,
+   "lcp": 1958,
    "tbt": 0,
-   "si": 904,
+   "si": 1751,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -2679,7 +2686,7 @@
  "apizza-di-napoli": {
   "slug": "apizza-di-napoli",
   "name": "Apizza di Napoli",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -2705,16 +2712,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 100,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 905,
-   "lcp": 1506,
+   "fcp": 799,
+   "lcp": 1502,
    "tbt": 0,
-   "si": 905,
-   "cls": 0.067,
-   "at": "2026-11-17"
+   "si": 799,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "ferrandos-italian-pizzeria",
@@ -2819,13 +2826,14 @@
  "antonios-italian-eatery": {
   "slug": "antonios-italian-eatery",
   "name": "Antonio's Italian Eatery",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "antoniositalianeatery.wordpress.com",
    "https": true,
    "pagesCrawled": 14,
+   "placeholderSocial": [],
    "home": {
     "url": "https://antoniositalianeatery.wordpress.com/menu/",
     "title": "Menu | Antonio's Italian Eatery",
@@ -3046,9 +3054,7 @@
   ],
   "social": {
    "onSite": {},
-   "listed": {
-    "Facebook": "https://www.facebook.com/WordPresscom"
-   }
+   "listed": {}
   },
   "domain": null,
   "performance": {
@@ -3064,16 +3070,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1653,
+   "lcp": 2178,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1653,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "beanie-bens",
@@ -3084,7 +3090,7 @@
   ],
   "scores": {
    "seo": 62,
-   "social": 40,
+   "social": 15,
    "lighthouseSeo": 92
   },
   "competitors": [
@@ -3178,13 +3184,14 @@
  "augusta-ready-mix-inc": {
   "slug": "augusta-ready-mix",
   "name": "Augusta Ready Mix, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "augustareadymix.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.augustareadymix.com/",
     "title": "Concrete, Mixer Trucks, Augusta, GA | Augusta Ready Mix",
@@ -3422,12 +3429,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1355,
+   "fcp": 1052,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 647,
+   "si": 1052,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "knights-companies"
@@ -3460,7 +3467,7 @@
  "big-house-outpost": {
   "slug": "big-house-outpost",
   "name": "Big House Outpost",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -3486,16 +3493,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1691,
+   "lcp": 1691,
    "tbt": 0,
-   "si": 903,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1691,
+   "cls": 0.002,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -3508,13 +3515,14 @@
  "beech-island-timber-and-construction-inc": {
   "slug": "beech-island-timber",
   "name": "Beech Island Timber & Construction, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "bitimber.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.bitimber.com/",
     "title": "",
@@ -3764,12 +3772,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 799,
-   "lcp": 2030,
-   "tbt": 91,
-   "si": 799,
+   "fcp": 797,
+   "lcp": 2105,
+   "tbt": 8,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-housing-center",
@@ -3874,13 +3882,14 @@
  "bradley-plumbing-and-heating-inc-mechanical-cont": {
   "slug": "bradley-plumbing-heating",
   "name": "Bradley Plumbing & Heating, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "bradleyplbghtg.com",
    "https": true,
    "pagesCrawled": 1,
+   "placeholderSocial": [],
    "home": {
     "url": "https://bradleyplbghtg.com/",
     "title": "Bradley Plumbing & Heating, Inc",
@@ -4017,16 +4026,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 95,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 645,
-   "lcp": 1354,
-   "tbt": 0,
-   "si": 645,
+   "fcp": 882,
+   "lcp": 1505,
+   "tbt": 250,
+   "si": 906,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "atomic-heating-and-air",
@@ -4131,13 +4140,14 @@
  "aiken-flooring": {
   "slug": "aiken-flooring",
   "name": "Aiken Flooring",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "aikenflooring.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.aikenflooring.com/",
     "title": "Flooring Store servicing Aiken, SC | Aiken Flooring",
@@ -4409,12 +4419,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 648,
-   "lcp": 1354,
-   "tbt": 8,
-   "si": 648,
+   "fcp": 800,
+   "lcp": 1505,
+   "tbt": 43,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "merit-in-home",
@@ -4483,7 +4493,7 @@
  "briar-patch-antiques": {
   "slug": "briar-patch-antiques",
   "name": "Briar Patch Antiques",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -4501,7 +4511,7 @@
    },
    {
     "source": "Aiken Downtown Development",
-    "url": "meet-our-members",
+    "url": "https://aikendda.us/meet-our-members/",
     "name": "The Briar Patch Antiques",
     "phone": "",
     "website": "https://www.facebook.com/profile.php?id=61570931655457",
@@ -4519,16 +4529,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1052,
-   "lcp": 1652,
-   "tbt": 0,
-   "si": 1052,
-   "cls": 0,
-   "at": "2026-11-17"
+   "fcp": 1061,
+   "lcp": 1811,
+   "tbt": 91,
+   "si": 1061,
+   "cls": 0.085,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -4633,7 +4643,7 @@
  "broome-service-center-inc": {
   "slug": "broome-service-center",
   "name": "Broome Service Center, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "Security certificate invalid or expired",
   "site": null,
@@ -4665,16 +4675,16 @@
   },
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 648,
-   "lcp": 1354,
-   "tbt": 8,
-   "si": 648,
+   "fcp": 1686,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1686,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "sunbreak-window-tinting",
@@ -4779,7 +4789,7 @@
  "dos-potrillos-mexican-restaurant": {
   "slug": "dos-potrillos",
   "name": "Dos Potrillos Mexican Restaurant",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -4805,16 +4815,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 642,
-   "lcp": 1205,
+   "fcp": 1716,
+   "lcp": 1716,
    "tbt": 0,
-   "si": 642,
+   "si": 1716,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "marias-mexican-restaurant",
@@ -4919,13 +4929,14 @@
  "bravefriend-apparel-and-design": {
   "slug": "bravefriend",
   "name": "Bravefriend Apparel and Design",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "bravefriend.net",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://bravefriend.net/",
     "title": "Bravefriend Apparel and Design |",
@@ -5143,9 +5154,7 @@
   ],
   "social": {
    "onSite": {},
-   "listed": {
-    "Facebook": "http://www.facebook.com/2008/fbml"
-   }
+   "listed": {}
   },
   "domain": {
    "name": "bravefriend.net",
@@ -5171,12 +5180,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1064,
-   "lcp": 1964,
-   "tbt": 0,
-   "si": 1064,
+   "fcp": 800,
+   "lcp": 1961,
+   "tbt": 11,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "ahh-sunshine-llc",
@@ -5187,7 +5196,7 @@
   ],
   "scores": {
    "seo": 50,
-   "social": 25,
+   "social": 0,
    "lighthouseSeo": 77
   },
   "competitors": [
@@ -5281,7 +5290,7 @@
  "el-charrito-taqueria": {
   "slug": "el-charrito-taqueria",
   "name": "El Charrito Taqueria",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -5307,16 +5316,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 638,
-   "lcp": 1204,
-   "tbt": 22,
-   "si": 638,
+   "fcp": 1680,
+   "lcp": 2106,
+   "tbt": 0,
+   "si": 1680,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "marias-mexican-restaurant",
@@ -5421,7 +5430,7 @@
  "farm-dog": {
   "slug": "farm-dog",
   "name": "Farm Dog",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -5441,7 +5450,6 @@
   "social": {
    "onSite": {},
    "listed": {
-    "Facebook": "https://www.instagram.com/farmdogsaiken/",
     "Instagram": "https://www.instagram.com/farmdogsaiken/"
    }
   },
@@ -5452,12 +5460,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1206,
-   "tbt": 6,
-   "si": 647,
+   "fcp": 846,
+   "lcp": 1356,
+   "tbt": 40,
+   "si": 846,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-fish-house-and-oyster-bar",
@@ -5468,7 +5476,7 @@
   ],
   "scores": {
    "seo": null,
-   "social": 45,
+   "social": 20,
    "lighthouseSeo": null
   },
   "competitors": [
@@ -5562,7 +5570,7 @@
  "flanigans-ice-cream": {
   "slug": "flanigans-ice-cream",
   "name": "Flanigan's Ice Cream",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -5590,7 +5598,7 @@
    },
    {
     "source": "Aiken Downtown Development",
-    "url": "meet-our-members",
+    "url": "https://aikendda.us/meet-our-members/",
     "name": "Flanigan’s Ice Cream",
     "phone": "",
     "website": "https://www.facebook.com/FlanigansIceCream",
@@ -5608,16 +5616,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 650,
-   "lcp": 1207,
-   "tbt": 24,
-   "si": 650,
+   "fcp": 1702,
+   "lcp": 1702,
+   "tbt": 0,
+   "si": 1702,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "the-village-caf",
@@ -5722,13 +5730,14 @@
  "durban-laird-insurance": {
   "slug": "durban-laird-insurance",
   "name": "Durban-Laird Insurance",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "aikeninsurance.com",
    "https": false,
    "pagesCrawled": 1,
+   "placeholderSocial": [],
    "home": {
     "url": "http://www.aikeninsurance.com/",
     "title": "index",
@@ -5848,16 +5857,16 @@
   },
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 908,
-   "lcp": 1508,
+   "fcp": 1685,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 908,
-   "cls": 0.004,
-   "at": "2026-11-17"
+   "si": 1685,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "anderson-insurance-associates-llc",
@@ -5962,13 +5971,14 @@
  "bloom-salon-spa-boutique": {
   "slug": "bloom-salon",
   "name": "Bloom Salon Spa Boutique",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "beautyatbloom.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.beautyatbloom.com/",
     "title": "Bloom Salon Spa Boutique | haircut | 955 Colony Parkway, Aiken, SC, USA",
@@ -6221,16 +6231,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 92,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 908,
-   "lcp": 2183,
+   "fcp": 1055,
+   "lcp": 3305,
    "tbt": 0,
-   "si": 908,
-   "cls": 0.006,
-   "at": "2026-11-17"
+   "si": 1055,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -6335,13 +6345,14 @@
  "hals-hair-center": {
   "slug": "hals-hair-center",
   "name": "Hal's Hair Center",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "halshaircenter.com",
    "https": true,
    "pagesCrawled": 10,
+   "placeholderSocial": [],
    "home": {
     "url": "https://halshaircenter.com/",
     "title": "Hal's Hair Restoration Center, LLC - Hair Loss Solutions",
@@ -6546,16 +6557,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 649,
-   "lcp": 1358,
+   "fcp": 1690,
+   "lcp": 1747,
    "tbt": 0,
-   "si": 649,
+   "si": 1690,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "delores-martin-independent-beauty-consultant",
@@ -6660,13 +6671,14 @@
  "glassworks-by-fishburne-and-shultz-hill": {
   "slug": "glassworks",
   "name": "Glass Works",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "glassworksaiken.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.glassworksaiken.com/",
     "title": "Aiken, SC Auto Glass, Glass Table Tops & Foggy Window Repair",
@@ -6910,12 +6922,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 633,
-   "lcp": 1354,
-   "tbt": 0,
-   "si": 633,
+   "fcp": 797,
+   "lcp": 1428,
+   "tbt": 60,
+   "si": 797,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "automotive-workbench",
@@ -7020,13 +7032,14 @@
  "howell-printing-company": {
   "slug": "howell-printing",
   "name": "Howell Printing Company",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "howellprinting.net",
    "https": false,
    "pagesCrawled": 4,
+   "placeholderSocial": [],
    "home": {
     "url": "http://www.howellprinting.net/",
     "title": "Howell Printing",
@@ -7164,7 +7177,7 @@
    },
    {
     "source": "Aiken Downtown Development",
-    "url": "meet-our-members",
+    "url": "https://aikendda.us/meet-our-members/",
     "name": "Howell Printing Company",
     "phone": "",
     "website": "http://www.howellprinting.net/",
@@ -7194,12 +7207,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1057,
-   "lcp": 2257,
+   "fcp": 1054,
+   "lcp": 2254,
    "tbt": 0,
-   "si": 1057,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1054,
+   "cls": 0.001,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "quality-printing-and-graphics-inc",
@@ -7304,7 +7317,7 @@
  "indigo-bleu": {
   "slug": "indigo-bleu",
   "name": "Indigo Bleu",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -7334,12 +7347,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 907,
-   "lcp": 1357,
+   "fcp": 1055,
+   "lcp": 1581,
    "tbt": 0,
-   "si": 907,
-   "cls": 0.001,
-   "at": "2026-11-17"
+   "si": 1055,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -7352,13 +7365,14 @@
  "inn-at-houndslake": {
   "slug": "inn-at-houndslake",
   "name": "The Inn at Houndslake",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "theinnathoundslake.com",
    "https": true,
    "pagesCrawled": 4,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.theinnathoundslake.com/",
     "title": "THE INN AT HOUNDSLAKE - Home",
@@ -7506,7 +7520,7 @@
    },
    {
     "source": "Aiken Downtown Development",
-    "url": "meet-our-members",
+    "url": "https://aikendda.us/meet-our-members/",
     "name": "The Inn at Houndslake",
     "phone": "",
     "website": "http://www.theinnathoundslake.com/",
@@ -7543,12 +7557,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 904,
-   "lcp": 2179,
-   "tbt": 0,
-   "si": 904,
-   "cls": 0.039,
-   "at": "2026-11-17"
+   "fcp": 1062,
+   "lcp": 2262,
+   "tbt": 16,
+   "si": 1062,
+   "cls": 0.021,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-luxury-rentals",
@@ -7653,13 +7667,14 @@
  "help-me-rhonda-bookkeeping-llc": {
   "slug": "help-me-rhonda",
   "name": "Help Me Rhonda Bookkeeping, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "hmrhonda.net",
    "https": true,
    "pagesCrawled": 1,
+   "placeholderSocial": [],
    "home": {
     "url": "https://hmrhonda.net/",
     "title": "Help Me Rhonda",
@@ -7804,12 +7819,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 641,
-   "lcp": 1203,
+   "fcp": 1052,
+   "lcp": 1652,
    "tbt": 0,
-   "si": 641,
+   "si": 1052,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "arnold-advisors-llc",
@@ -7914,7 +7929,7 @@
  "joyful-caf": {
   "slug": "joyful-cafe",
   "name": "Joyful Café",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -7938,16 +7953,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 1952,
+   "lcp": 2477,
    "tbt": 0,
-   "si": 904,
+   "si": 1952,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "blue-collard",
@@ -8052,13 +8067,14 @@
  "lambert-insurance-agency-inc": {
   "slug": "lambert-insurance",
   "name": "Lambert Insurance Agency, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "lambertinsuranceaiken.com",
    "https": true,
    "pagesCrawled": 8,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.lambertinsuranceaiken.com/",
     "title": "Insurance Quotes | Lambert Insurance Agency, Inc",
@@ -8242,16 +8258,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 647,
-   "lcp": 1203,
+   "fcp": 1737,
+   "lcp": 1737,
    "tbt": 0,
-   "si": 647,
+   "si": 1737,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "anderson-insurance-associates-llc",
@@ -8356,13 +8372,16 @@
  "iron-gate-candles": {
   "slug": "iron-gate-candles",
   "name": "Iron Gate Candles & Co.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "irongatecandles.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [
+    "facebook.com/wix"
+   ],
    "home": {
     "url": "https://www.irongatecandles.com/",
     "title": "Home | Iron Gate Candles",
@@ -8581,7 +8600,7 @@
    },
    {
     "source": "Aiken Downtown Development",
-    "url": "meet-our-members",
+    "url": "https://aikendda.us/meet-our-members/",
     "name": "Iron Gate Candles",
     "phone": "",
     "website": "",
@@ -8621,16 +8640,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 98,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 906,
-   "lcp": 2481,
+   "fcp": 1054,
+   "lcp": 2029,
    "tbt": 0,
-   "si": 906,
-   "cls": 0.031,
-   "at": "2026-11-17"
+   "si": 1054,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -8735,13 +8754,14 @@
  "mitch-johnson-construction-company-inc": {
   "slug": "mitch-johnson-construction",
   "name": "Mitch Johnson Construction Company, Inc.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "mitchjohnsonconstruction.com",
    "https": true,
    "pagesCrawled": 14,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.mitchjohnsonconstruction.com/",
     "title": "Mitch Johnson Construction Company Inc",
@@ -8965,16 +8985,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 906,
-   "lcp": 1806,
+   "fcp": 1357,
+   "lcp": 2032,
    "tbt": 0,
-   "si": 906,
+   "si": 1357,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "designer-builders-inc",
@@ -9061,13 +9081,14 @@
  "mundys-automotive-llc": {
   "slug": "mundys-automotive",
   "name": "Mundy's Automotive, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "mundysautomotive.com",
    "https": true,
    "pagesCrawled": 1,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.mundysautomotive.com/",
     "title": "Mundy's Automotive & Truck Repair, Aiken SC",
@@ -9207,12 +9228,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 649,
-   "lcp": 1286,
-   "tbt": 5,
-   "si": 649,
+   "fcp": 796,
+   "lcp": 1427,
+   "tbt": 32,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "automotive-workbench",
@@ -9317,13 +9338,14 @@
  "mobile-office-management-llc-mom": {
   "slug": "mobile-office-management",
   "name": "Mobile Office Management, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "biz-mom.com",
    "https": true,
    "pagesCrawled": 7,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.biz-mom.com/",
     "title": "Mobile Office Management | Administrative Services Serving Entrepreneurs in Aiken & CSRA",
@@ -9513,16 +9535,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 627,
-   "lcp": 1203,
-   "tbt": 3,
-   "si": 627,
+   "fcp": 796,
+   "lcp": 1429,
+   "tbt": 170,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -9535,7 +9557,7 @@
  "pitter-patter-carolines": {
   "slug": "pitter-patter",
   "name": "Pitter Patter Children's Boutique",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -9571,16 +9593,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1722,
+   "lcp": 1722,
    "tbt": 0,
-   "si": 904,
-   "cls": 0.003,
-   "at": "2026-11-17"
+   "si": 1722,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "candy-shop-vintage-llc",
@@ -9685,13 +9707,17 @@
  "oh-mie-stelle-bakery": {
   "slug": "oh-mie-stelle",
   "name": "Oh! Mie Stelle Bakery",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "ohmiestelle.com",
    "https": true,
    "pagesCrawled": 5,
+   "placeholderSocial": [
+    "facebook.com/wix",
+    "instagram.com/wix"
+   ],
    "home": {
     "url": "https://www.ohmiestelle.com/",
     "title": "Bread | Oh Mie Stelle | Aiken",
@@ -9803,10 +9829,7 @@
     "broken": [],
     "brokenCount": 0
    },
-   "social": {
-    "Facebook": "https://www.facebook.com/wix",
-    "Instagram": "https://www.instagram.com/wix"
-   }
+   "social": {}
   },
   "keywords": [
    {
@@ -9849,14 +9872,8 @@
    }
   ],
   "social": {
-   "onSite": {
-    "Facebook": "https://www.facebook.com/wix",
-    "Instagram": "https://www.instagram.com/wix"
-   },
-   "listed": {
-    "Facebook": "https://www.facebook.com/wix",
-    "Instagram": "https://www.instagram.com/wix"
-   }
+   "onSite": {},
+   "listed": {}
   },
   "domain": {
    "name": "ohmiestelle.com",
@@ -9882,12 +9899,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 643,
-   "lcp": 1205,
-   "tbt": 0,
-   "si": 643,
+   "fcp": 796,
+   "lcp": 1502,
+   "tbt": 29,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "blue-collard",
@@ -9898,7 +9915,7 @@
   ],
   "scores": {
    "seo": 74,
-   "social": 70,
+   "social": 15,
    "lighthouseSeo": 100
   },
   "competitors": [
@@ -9992,13 +10009,14 @@
  "prescott-and-sons-construction-llc": {
   "slug": "prescott-and-sons",
   "name": "Prescott & Sons Construction, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "prescottandsons.com",
    "https": true,
    "pagesCrawled": 9,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.prescottandsons.com/",
     "title": "Remodeling | Porches | Kitchens & Baths | Prescott & Sons Construction",
@@ -10196,16 +10214,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 93,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 644,
-   "lcp": 2106,
-   "tbt": 41,
-   "si": 644,
+   "fcp": 800,
+   "lcp": 3231,
+   "tbt": 36,
+   "si": 800,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-housing-center",
@@ -10310,13 +10328,14 @@
  "rebel-ranch-horse-tours-llc": {
   "slug": "rebel-ranch-horse-tours",
   "name": "Rebel Ranch Horse Tours, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "rebelranchhorsetours.com",
    "https": true,
    "pagesCrawled": 5,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.rebelranchhorsetours.com/",
     "title": "Rebel Ranch Horse Tours",
@@ -10484,12 +10503,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 807,
+   "lcp": 1355,
    "tbt": 0,
-   "si": 904,
+   "si": 807,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "historic-aiken-trolley-tours",
@@ -10540,13 +10559,14 @@
  "hughes-beattie-oneal-law-and-assoc-pc": {
   "slug": "hbol-architects",
   "name": "Hughes, Beattie, O'Neal, Law & Associates, Architects, P.C.",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "hbolarchitecture.com",
    "https": true,
    "pagesCrawled": 11,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.hbolarchitecture.com/",
     "title": "Hughes, Beattie, O'Neal, Law, and Associates, Architects, P.C. - HBOL ARCHITECTS",
@@ -10749,16 +10769,16 @@
   },
   "performance": null,
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1058,
-   "lcp": 2183,
+   "fcp": 1056,
+   "lcp": 2781,
    "tbt": 0,
-   "si": 1058,
-   "cls": 0.013,
-   "at": "2026-11-17"
+   "si": 1056,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "c-wallace-design"
@@ -10791,7 +10811,7 @@
  "smoothie-groove": {
   "slug": "smoothie-groove",
   "name": "Smoothie Groove",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -10817,16 +10837,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 646,
-   "lcp": 1204,
-   "tbt": 1,
-   "si": 646,
+   "fcp": 1686,
+   "lcp": 1746,
+   "tbt": 0,
+   "si": 1686,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "the-village-caf",
@@ -10931,13 +10951,14 @@
  "simply-social-events-and-more-llc": {
   "slug": "simply-social-events",
   "name": "Simply Social Events and More, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "simplysocialsc.com",
    "https": true,
    "pagesCrawled": 2,
+   "placeholderSocial": [],
    "home": {
     "url": "https://simplysocialsc.com/",
     "title": "Simply Social Events and More, LLC",
@@ -11098,12 +11119,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1353,
+   "fcp": 1053,
+   "lcp": 1503,
    "tbt": 0,
-   "si": 903,
+   "si": 1053,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "cates-inflates",
@@ -11208,13 +11229,14 @@
  "southern-magnolia-dentistry": {
   "slug": "southern-magnolia-dentistry",
   "name": "Southern Magnolia Dentistry",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "southernmagnoliadental.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.southernmagnoliadental.com/",
     "title": "Dentist in Aiken, SC - Family & Cosmetic Dental 29803",
@@ -11453,12 +11475,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 905,
-   "lcp": 1505,
-   "tbt": 0,
-   "si": 905,
-   "cls": 0.001,
-   "at": "2026-11-17"
+   "fcp": 795,
+   "lcp": 1353,
+   "tbt": 47,
+   "si": 795,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-dental",
@@ -11563,13 +11585,14 @@
  "thai-jasmine-rice": {
   "slug": "thai-jasmine-rice",
   "name": "Thai Jasmine Rice",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "jasminericesc.wixsite.com",
    "https": true,
    "pagesCrawled": 5,
+   "placeholderSocial": [],
    "home": {
     "url": "https://jasminericesc.wixsite.com/kaogang",
     "title": "Home | Jasmine Rice",
@@ -11728,16 +11751,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1056,
-   "lcp": 1506,
+   "fcp": 1957,
+   "lcp": 2482,
    "tbt": 0,
-   "si": 1056,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1957,
+   "cls": 0.001,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "anshu-asian-caf",
@@ -11842,7 +11865,7 @@
  "feed-sack-aiken": {
   "slug": "the-feed-sack",
   "name": "The Feed Sack Restaurant",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "Security certificate invalid or expired",
   "site": null,
@@ -11850,7 +11873,7 @@
   "citations": [
    {
     "source": "Visit Aiken (city tourism)",
-    "url": "https://www.visitaikensc.com/eat/feed-sack-%c2%b7-aiken/",
+    "url": "",
     "name": "Feed Sack · Aiken",
     "phone": "",
     "website": "",
@@ -11871,9 +11894,7 @@
   ],
   "social": {
    "onSite": {},
-   "listed": {
-    "Facebook": "http://Thefeedsackrestaurants.com"
-   }
+   "listed": {}
   },
   "domain": {
    "name": "thefeedsackrestaurants.com",
@@ -11884,16 +11905,16 @@
   },
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1694,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 904,
+   "si": 1694,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "park-avenue-oyster-bar-and-grill",
@@ -11904,7 +11925,7 @@
   ],
   "scores": {
    "seo": null,
-   "social": 25,
+   "social": 0,
    "lighthouseSeo": null
   },
   "competitors": [
@@ -11998,7 +12019,7 @@
  "the-ivy-cottage-flowers-and-gifts": {
   "slug": "the-ivy-cottage",
   "name": "The Ivy Cottage Flowers & Gifts",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "Placeholder or error page",
   "site": null,
@@ -12038,16 +12059,16 @@
   },
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
+   "fcp": 1709,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 903,
+   "si": 1709,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -12060,13 +12081,14 @@
  "tailored-tours-of-aiken": {
   "slug": "tailored-tours",
   "name": "Tailored Tours of Aiken",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "tailoredtoursofaiken.com",
    "https": true,
    "pagesCrawled": 3,
+   "placeholderSocial": [],
    "home": {
     "url": "https://tailoredtoursofaiken.com/",
     "title": "Tailored Tours of Aiken",
@@ -12239,12 +12261,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 905,
-   "lcp": 1955,
+   "fcp": 1057,
+   "lcp": 2032,
    "tbt": 0,
-   "si": 905,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1057,
+   "cls": 0.005,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "historic-aiken-trolley-tours",
@@ -12295,13 +12317,14 @@
  "the-jewelers-loupe": {
   "slug": "the-jewelers-loupe",
   "name": "The Jeweler's Loupe",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "thejewelersloupe.com",
    "https": true,
    "pagesCrawled": 7,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.thejewelersloupe.com/",
     "title": "The Jewelers Loupe of Aiken, SC - Jewelry, Jewelry Repair, Diamond Jewelry",
@@ -12491,12 +12514,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1504,
+   "fcp": 1053,
+   "lcp": 1503,
    "tbt": 0,
-   "si": 904,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1053,
+   "cls": 0.003,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "floyd-and-green-fine-jewelers"
@@ -12529,7 +12552,7 @@
  "the-wildemont": {
   "slug": "the-wildemount",
   "name": "The Wildemount",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -12555,16 +12578,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 905,
-   "lcp": 2105,
+   "fcp": 1700,
+   "lcp": 2102,
    "tbt": 0,
-   "si": 905,
+   "si": 1700,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "malias-restaurant",
@@ -12669,13 +12692,14 @@
  "thomas-p-murphy-pc-attorney-at-law": {
   "slug": "thomas-p-murphy-law",
   "name": "Thomas P. Murphy Law, PC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "thomaspmurphylaw.com",
    "https": true,
    "pagesCrawled": 8,
+   "placeholderSocial": [],
    "home": {
     "url": "https://thomaspmurphylaw.com/",
     "title": "Thomas P. Murphy Law, PC | North Augusta, SC",
@@ -12864,16 +12888,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1053,
-   "lcp": 1503,
+   "fcp": 1652,
+   "lcp": 1802,
    "tbt": 0,
-   "si": 1053,
-   "cls": 0,
-   "at": "2026-11-17"
+   "si": 1652,
+   "cls": 0.003,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "maxwell-law-group-llc",
@@ -12978,13 +13002,14 @@
  "toki-jr-llc": {
   "slug": "toki-jr",
   "name": "Toki Jr Japanese Restaurant",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "tokijapanesesteakhouse.com",
    "https": true,
    "pagesCrawled": 2,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.tokijapanesesteakhouse.com/tokijr/",
     "title": "Toki Jr Japanese Restaurant",
@@ -13145,16 +13170,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 87,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 635,
-   "lcp": 1203,
-   "tbt": 0,
-   "si": 635,
+   "fcp": 1204,
+   "lcp": 1879,
+   "tbt": 483,
+   "si": 1204,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "antonios-italian-eatery",
@@ -13259,7 +13284,7 @@
  "track-kitchen": {
   "slug": "track-kitchen",
   "name": "Track Kitchen",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -13285,16 +13310,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 98,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 904,
-   "lcp": 2104,
+   "fcp": 1692,
+   "lcp": 1953,
    "tbt": 0,
-   "si": 904,
+   "si": 1692,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "blue-collard",
@@ -13399,13 +13424,17 @@
  "veg-out": {
   "slug": "veg-out",
   "name": "Veg Out Vegetarian Restaurant",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "vegoutofaiken.com",
    "https": true,
    "pagesCrawled": 4,
+   "placeholderSocial": [
+    "facebook.com/squarespace",
+    "instagram.com/squarespace"
+   ],
    "home": {
     "url": "https://www.vegoutofaiken.com/",
     "title": "Veg Out Vegetarian Restaurant of Aiken | Explore Healthy Vegetarian Options – Visit Today",
@@ -13508,9 +13537,8 @@
     "brokenCount": 0
    },
    "social": {
-    "Facebook": "http://facebook.com/squarespace",
-    "Instagram": "http://instagram.com/squarespace",
-    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours"
+    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours",
+    "Facebook": "https://www.facebook.com/VegOutCafe"
    }
   },
   "keywords": [
@@ -13555,14 +13583,10 @@
   ],
   "social": {
    "onSite": {
-    "Facebook": "http://facebook.com/squarespace",
-    "Instagram": "http://instagram.com/squarespace",
-    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours"
+    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours",
+    "Facebook": "https://www.facebook.com/VegOutCafe"
    },
-   "listed": {
-    "Facebook": "http://www.facebook.com/2008/fbml",
-    "Instagram": "http://instagram.com/squarespace"
-   }
+   "listed": {}
   },
   "domain": {
    "name": "vegoutofaiken.com",
@@ -13588,12 +13612,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1057,
-   "lcp": 1957,
+   "fcp": 1055,
+   "lcp": 2030,
    "tbt": 0,
-   "si": 1057,
+   "si": 1055,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-fish-house-and-oyster-bar",
@@ -13604,7 +13628,7 @@
   ],
   "scores": {
    "seo": 69,
-   "social": 60,
+   "social": 40,
    "lighthouseSeo": 100
   },
   "competitors": [
@@ -13698,13 +13722,14 @@
  "playland-of-aiken": {
   "slug": "playland-of-aiken",
   "name": "PlayLand of Aiken",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "playlandofaiken.com",
    "https": true,
    "pagesCrawled": 8,
+   "placeholderSocial": [],
    "home": {
     "url": "https://playlandofaiken.com/",
     "title": "Play Land Of Aiken",
@@ -13896,16 +13921,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 99,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 638,
-   "lcp": 2255,
-   "tbt": 11,
-   "si": 638,
+   "fcp": 796,
+   "lcp": 2406,
+   "tbt": 125,
+   "si": 796,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [],
   "scores": {
@@ -13918,13 +13943,14 @@
  "webster-photography": {
   "slug": "webster-photography",
   "name": "Scott Webster Photography",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "scottwebsterphotography.com",
    "https": true,
    "pagesCrawled": 4,
+   "placeholderSocial": [],
    "home": {
     "url": "https://www.scottwebsterphotography.com/",
     "title": "Wedding photographer Aiken SC Scott Webster Photography",
@@ -14085,16 +14111,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 98,
+   "performance": 93,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 910,
-   "lcp": 2335,
+   "fcp": 1054,
+   "lcp": 3229,
    "tbt": 0,
-   "si": 910,
+   "si": 1054,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "a-p-gouge-photography",
@@ -14163,7 +14189,7 @@
  "york-cottage-antiques": {
   "slug": "york-cottage-antiques",
   "name": "York Cottage Antiques",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": false,
   "siteState": "No website",
   "site": null,
@@ -14189,16 +14215,16 @@
   "domain": null,
   "performance": null,
   "conceptPerformance": {
-   "performance": 100,
+   "performance": 96,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 904,
-   "lcp": 1354,
+   "fcp": 1728,
+   "lcp": 1805,
    "tbt": 0,
-   "si": 904,
-   "cls": 0.003,
-   "at": "2026-11-17"
+   "si": 1728,
+   "cls": 0.103,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-wellness-spa-and-boutique",
@@ -14303,13 +14329,14 @@
  "verdant-landscape": {
   "slug": "verdant-landscape",
   "name": "Verdant Landscape",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "verdantlandscape.com",
    "https": true,
    "pagesCrawled": 15,
+   "placeholderSocial": [],
    "home": {
     "url": "https://verdantlandscape.com/",
     "title": "Verdant Landscape - Full Service Landscape Design",
@@ -14568,16 +14595,16 @@
    "at": "2026-11-17"
   },
   "conceptPerformance": {
-   "performance": 95,
+   "performance": 94,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1065,
-   "lcp": 2865,
+   "fcp": 1054,
+   "lcp": 3079,
    "tbt": 0,
-   "si": 1065,
+   "si": 1054,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "empire-tree",
@@ -14682,13 +14709,14 @@
  "massage-mavin": {
   "slug": "the-massage-maven",
   "name": "The Massage Maven, LLC",
-  "checked": "2026-11-17",
+  "checked": "2026-11-18",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "wyvernhall.com",
    "https": false,
    "pagesCrawled": 10,
+   "placeholderSocial": [],
    "home": {
     "url": "http://wyvernhall.com/TheMassageMaven/",
     "title": "The Massage Maven, LLC - wisdom in healing hands",
@@ -14923,12 +14951,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 903,
-   "lcp": 1503,
-   "tbt": 0,
-   "si": 903,
-   "cls": 0.039,
-   "at": "2026-11-17"
+   "fcp": 802,
+   "lcp": 1432,
+   "tbt": 20,
+   "si": 802,
+   "cls": 0,
+   "at": "2026-11-18"
   },
   "competitorSlugs": [
    "aiken-medical-aesthetics",
