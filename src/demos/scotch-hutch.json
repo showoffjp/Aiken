@@ -2,7 +2,7 @@
   "name": "Scotch + Hutch",
   "short": "Scotch + Hutch",
   "category": "Vintage Furniture & Decor",
-  "group": "Shops & Services",
+  "group": "Shops & Boutiques",
   "town": "Aiken, SC",
   "look": "editorial",
   "fonts": {
@@ -98,6 +98,7 @@
     "hideForm": true
   },
   "slug": "scotch-hutch",
+  "added": "2026-11-18",
   "prospect": "scotch-hutch",
   "source": {
     "none": true,

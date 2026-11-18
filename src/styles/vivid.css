@@ -98,6 +98,9 @@ body.demo { color: var(--ink-safe, var(--ink)); }
   [data-flip] [data-kind="split"] .fx-tok.t0 { right: auto; left: 3%; }
   [data-flip] [data-kind="split"] .fx-tok.t3 { right: auto; left: 7%; }
   [data-flip] [data-kind="split"] .fx-tok.t1 { right: auto; left: 43%; }
+  [data-flip] [data-kind="diagonal"] .fx-tok.t0 { right: auto; left: 3%; }
+  [data-flip] [data-kind="diagonal"] .fx-tok.t3 { right: auto; left: 6%; }
+  [data-flip] [data-kind="diagonal"] .fx-tok.t4 { left: auto; right: -14px; }
 }
 [data-kind="poster"] .fx-tok.t2, [data-kind="poster"] .fx-tok.t1, [data-kind="poster"] .fx-tok.t3 { display: none; } [data-kind="poster"] .fx-tok.t0 { top: 30%; right: 3%; }
 [data-kind="bento"] .fx-tok.t1 { right: 30%; bottom: 2%; } [data-kind="bento"] .fx-tok.t2 { top: 2%; left: 60%; }
@@ -282,6 +285,8 @@ main > .section.fx-deep::after { background: radial-gradient(closest-side, rgb(2
 .section.fx-deep .eyebrow { color: var(--accent-on-deep, #fff); }
 [data-look="bold"] .section.fx-deep .card { box-shadow: 6px 6px 0 rgb(0 0 0 / .45); border-color: rgb(255 255 255 / .3); }
 [data-look="clean"] .section.fx-deep .eyebrow { background: rgb(255 255 255 / .1); }
+/* Bold eyebrows are solid accent pills: keep their own dark-on-accent text in the deep section too. */
+[data-look="bold"] .section.fx-deep .eyebrow { color: var(--on-accent, var(--ink)); }
 [data-heads="outline"] .section.fx-deep .section-head::before { -webkit-text-stroke-color: rgb(255 255 255 / .14); }
 body[data-services="tiles"] .section.fx-deep .cards > .card:nth-child(even) { background: color-mix(in srgb, var(--deep) 70%, #fff); }
 .section.fx-deep .btn:not(.ghost) { background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); border-color: var(--accent-btn, var(--accent)); }

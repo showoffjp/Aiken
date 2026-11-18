@@ -23,7 +23,11 @@ const cards = demos.map((d) => ({
   after: shot(`${d.slug}-after`),
   before: shot(`${d.prospect || d.slug}-before`),
   host: new URL(d.source.url).hostname.replace(/^www\./, ''),
+  // Marked New for six weeks after it joins the portfolio.
+  fresh: !!d.added && Date.now() - Date.parse(d.added) < 42 * 864e5,
 }));
+const freshCount = cards.filter((c) => c.fresh).length;
+const firstCount = cards.filter((c) => c.source.none).length;
 const groups = [...new Set(cards.map((c) => c.group))].sort();
 const towns = new Set(cards.map((c) => c.town));
 
@@ -36,7 +40,7 @@ const groupColor = Object.fromEntries(groups.map((g, k) => {
 }));
 
 // The showcase wall in the banner: a spread of styles, in three drifting columns.
-const WALL = ['apizza-di-napoli', 'flanigans-ice-cream', 'antonios-italian-eatery', 'bloom-salon', 'augusta-ready-mix', 'big-house-outpost', 'farm-dog', 'glassworks', 'veg-out', 'durban-laird-insurance', 'empire-tree', 'carolina-hvac', 'toki-jr', 'smoothie-groove', 'aiken-pet-sitters'];
+const WALL = ['apizza-di-napoli', 'flanigans-ice-cream', 'antonios-italian-eatery', 'bloom-salon', 'augusta-ready-mix', 'big-house-outpost', 'farm-dog', 'glassworks', 'macalusos-restaurant', 'durban-laird-insurance', 'empire-tree', 'carolina-hvac', 'toki-jr', 'los-tres-compadres', 'aiken-pet-sitters'];
 const thumb = (slug: string) => (existsSync(path.join(pub, 'shots', 'thumbs', `${slug}.webp`)) ? `/shots/thumbs/${slug}.webp` : '');
 const wall = WALL.map((slug) => cards.find((c) => c.slug === slug)).filter((c) => c && thumb(c.slug));
 const cols = [0, 1, 2].map((k) => wall.filter((_, i) => i % 3 === k));
@@ -144,8 +148,11 @@ const features = [
           <div class="bar">
             <h2>The <em>concepts</em></h2>
             <div class="chips" role="group" aria-label="Filter by type">
-              <button type="button" class="chip on" data-filter="all">All <span>{cards.length}</span></button>
-              {groups.map((g) => <button type="button" class="chip" data-filter={g} style={`--c:${groupColor[g].raw};--cs:${groupColor[g].solid};--ct:${groupColor[g].text}`}>{g} <span>{cards.filter((c) => c.group === g).length}</span></button>)}
+              <button type="button" class="chip on" data-filter="all" aria-pressed="true">All <span>{cards.length}</span></button>
+              {freshCount > 0 && <button type="button" class="chip chip-new" data-filter="new" aria-pressed="false"><b aria-hidden="true">✦</b> New <span>{freshCount}</span></button>}
+              {firstCount > 0 && <button type="button" class="chip chip-first" data-filter="first" aria-pressed="false">First websites <span>{firstCount}</span></button>}
+              <i class="chip-sep" aria-hidden="true"></i>
+              {groups.map((g) => <button type="button" class="chip" data-filter={g} aria-pressed="false" style={`--c:${groupColor[g].raw};--cs:${groupColor[g].solid};--ct:${groupColor[g].text}`}>{g} <span>{cards.filter((c) => c.group === g).length}</span></button>)}
             </div>
             <input class="search" type="search" data-search placeholder="Search name, type or town" aria-label="Search concepts" />
             <label class="switch"><input type="checkbox" data-before /><span></span>Show the current sites</label>
@@ -153,12 +160,13 @@ const features = [
 
           <ul class="grid" data-grid>
             {cards.map((c) => (
-              <li class="card" style={`--tone:${c.colors.primary};--tone2:${c.colors.accent}`} data-group={c.group} data-text={`${c.name} ${c.category} ${c.town} ${c.group} ${c.kind}`.toLowerCase()}>
+              <li class="card" style={`--tone:${c.colors.primary};--tone2:${c.colors.accent}`} data-group={c.group} data-new={c.fresh ? '1' : undefined} data-first={c.source.none ? '1' : undefined} data-text={`${c.name} ${c.category} ${c.town} ${c.group} ${c.kind}`.toLowerCase()}>
                 <a href={`/${c.slug}/`} aria-label={`${c.name}: view the concept`}>
                   <div class="shot" style={`--tone:${c.colors.primary}`}>
                     {c.after ? <img class="after" src={c.after} alt={`Concept redesign for ${c.name}`} width="1120" height="753" loading="lazy" /> : <div class="blank">{c.short || c.name}</div>}
                     {c.before && <img class="before" src={c.before} alt={`${c.name}'s current website`} width="1120" height="753" loading="lazy" />}
                     <span class="tag after-tag">Concept</span>
+                    {c.fresh && <span class="new-badge">New</span>}
                     {c.before && <span class="tag before-tag">Current site</span>}
                   </div>
                   <div class="meta">
@@ -230,14 +238,15 @@ const features = [
           const q = (search?.value || '').trim().toLowerCase();
           let shown = 0;
           grid.querySelectorAll('.card').forEach((card) => {
-            const ok = (group === 'all' || card.dataset.group === group) && (!q || card.dataset.text.includes(q));
+            const inGroup = group === 'all' || (group === 'new' ? card.dataset.new === '1' : group === 'first' ? card.dataset.first === '1' : card.dataset.group === group);
+            const ok = inGroup && (!q || card.dataset.text.includes(q));
             card.hidden = !ok;
             if (ok) shown++;
           });
           if (empty) empty.hidden = shown > 0;
         };
         chips.forEach((chip) => chip.addEventListener('click', () => {
-          chips.forEach((c) => c.classList.toggle('on', c === chip));
+          chips.forEach((c) => { c.classList.toggle('on', c === chip); c.setAttribute('aria-pressed', String(c === chip)); });
           group = chip.dataset.filter;
           apply();
         }));
@@ -442,6 +451,20 @@ const features = [
   .chip:hover { transform: translateY(-2px); box-shadow: 0 8px 18px -10px var(--c, #444); }
   .chip.on { background: var(--cs, var(--ink)); color: #fff; border-color: var(--cs, var(--ink)); box-shadow: 0 8px 20px -10px var(--c, #000); }
   .chip.on span { color: #fff; opacity: .85; }
+  .chip-sep { width: 1px; align-self: stretch; margin: 4px 4px; background: var(--line); }
+  @media (max-width: 720px) { .chip-sep { display: none; } }
+  /* The two cross-cutting filters get their own look: gold for New, the brand green for first websites. */
+  .chip-new { --c: #c98a12; --cs: #7a4d00; --ct: #6b4300; position: relative; overflow: hidden; background: linear-gradient(120deg, #fff4d6, #ffe2b8); border-color: #e9b45a; }
+  .chip-new b { color: #c27a00; font-weight: 700; }
+  .chip-new::after { content: ""; position: absolute; inset: 0; width: 40%; background: linear-gradient(105deg, transparent, rgb(255 255 255 / .8), transparent); transform: translateX(-160%) skewX(-14deg); pointer-events: none; }
+  .awake .chip-new::after { animation: ix-sweep 4.5s ease-in-out infinite; }
+  .chip-new.on { background: linear-gradient(120deg, #8a5600, #6b4300); }
+  .chip-new.on b { color: #ffd27a; }
+  .chip-first { --c: #12b886; --cs: #0b6b4f; --ct: #0b5a43; }
+  .new-badge { position: absolute; top: 12px; right: 12px; z-index: 4; overflow: hidden; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; padding: 6px 11px; border-radius: 999px; color: #2a1800; background: linear-gradient(120deg, #ffd27a, var(--gold) 50%, #ff9a5a); box-shadow: 0 6px 16px -6px rgb(242 140 40 / .8), inset 0 1px 0 rgb(255 255 255 / .5); }
+  .new-badge::after { content: ""; position: absolute; inset: 0; width: 45%; background: linear-gradient(105deg, transparent, rgb(255 255 255 / .85), transparent); transform: translateX(-160%) skewX(-14deg); }
+  .awake .new-badge::after { animation: ix-sweep 5s ease-in-out infinite; }
+  .show-before .new-badge { opacity: 0; }
   .search { font: 400 .95rem/1 "Inter", sans-serif; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line); border-radius: 999px; padding: 11px 16px; min-width: min(100%, 260px); }
   .search:focus { outline: 3px solid var(--em); outline-offset: 2px; border-color: transparent; }
   .empty { color: var(--muted); padding: 28px 0; }

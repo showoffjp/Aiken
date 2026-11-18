@@ -1,0 +1,160 @@
+{
+  "name": "TumbleWeed",
+  "short": "TumbleWeed",
+  "category": "Western & Boho Boutique",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "syne",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f8f0e3",
+    "surface": "#fffaf2",
+    "ink": "#2a1d16",
+    "muted": "#66574c",
+    "primary": "#a8482a",
+    "onPrimary": "#fff8ef",
+    "accent": "#2a9d8f",
+    "line": "#eadbc6"
+  },
+  "radius": 18,
+  "icon": "gem",
+  "contact": {
+    "address": [
+      "216 Park Avenue SE",
+      "Aiken, SC"
+    ],
+    "mapQuery": "TumbleWeed, 216 Park Ave SE, Aiken, SC"
+  },
+  "hero": {
+    "eyebrow": "Bringing the west to the southeast",
+    "title": "Where western meets *boho chic*",
+    "lede": "Ranchwear and accessories for men and women, handmade jewelry, handwoven blankets, hats and cute gifts, with a dab of vintage taste.",
+    "points": [
+      "Ranchwear",
+      "Handmade jewelry",
+      "Handwoven blankets",
+      "Hats"
+    ],
+    "cta": {
+      "label": "Visit the shop",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Our brands",
+      "href": "#brands"
+    }
+  },
+  "facts": [
+    {
+      "value": "US made",
+      "label": "Sustainably made, or woman owned"
+    },
+    {
+      "value": "Boss lady",
+      "label": "Owned"
+    },
+    {
+      "value": "Curated",
+      "label": "Brands with a story behind them"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "In the shop",
+      "columns": 3,
+      "eyebrow": "Western, boho, a dab of vintage",
+      "title": "Find *your style*",
+      "items": [
+        {
+          "icon": "shirt",
+          "title": "Ranchwear",
+          "text": "Clothing and accessories for men and women."
+        },
+        {
+          "icon": "gem",
+          "title": "Handmade jewelry",
+          "text": "Pieces with a story."
+        },
+        {
+          "icon": "sun",
+          "title": "Hats",
+          "text": "Western style, boho spirit."
+        },
+        {
+          "icon": "flame",
+          "title": "Candles",
+          "text": "And cute gifts."
+        },
+        {
+          "icon": "leaf",
+          "title": "Handwoven blankets",
+          "text": "Made with care."
+        },
+        {
+          "icon": "tractor",
+          "title": "Farm life supplies",
+          "text": "Plus CBD."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "brands",
+      "nav": "Our brands",
+      "eyebrow": "Brands with meaning",
+      "title": "Comfortable in *your own skin*",
+      "body": [
+        "TumbleWeed is a boss lady owned company empowering everyday women to be comfortable in their own skin, and to take the path that is best for them, not what others believe is best.",
+        "We carry a collection of curated brands that have meaning and a story behind them, and are either US made, sustainably made, or by a woman-owned company."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "The west, in downtown Aiken",
+      "text": "Come find us on Park Avenue.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Park Avenue*",
+    "hideForm": true
+  },
+  "slug": "tumbleweed",
+  "added": "2026-11-18",
+  "prospect": "tumbleweed",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/tumbleweed/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "pills",
+    "facts": "strip",
+    "pattern": "dots",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}

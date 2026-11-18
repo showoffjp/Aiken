@@ -4138,5 +4138,95 @@
    "url": "/trail-riding-the-trail-riding-company/",
    "at": "2026-11-18"
   }
+ },
+ "its-all-good-market-and-catering": {
+  "concept": {
+   "bytes": 210973,
+   "requests": 6,
+   "loadMs": 132,
+   "url": "/its-all-good-market-and-catering/",
+   "at": "2026-11-18"
+  }
+ },
+ "los-tres-compadres": {
+  "concept": {
+   "bytes": 192857,
+   "requests": 6,
+   "loadMs": 121,
+   "url": "/los-tres-compadres/",
+   "at": "2026-11-18"
+  }
+ },
+ "aiken-antique-mall": {
+  "concept": {
+   "bytes": 253691,
+   "requests": 7,
+   "loadMs": 251,
+   "url": "/aiken-antique-mall/",
+   "at": "2026-11-18"
+  }
+ },
+ "macalusos-restaurant": {
+  "concept": {
+   "bytes": 235695,
+   "requests": 7,
+   "loadMs": 277,
+   "url": "/macalusos-restaurant/",
+   "at": "2026-11-18"
+  }
+ },
+ "soul-and-seafood-house": {
+  "concept": {
+   "bytes": 222721,
+   "requests": 7,
+   "loadMs": 193,
+   "url": "/soul-and-seafood-house/",
+   "at": "2026-11-18"
+  }
+ },
+ "pats-sub-shop": {
+  "concept": {
+   "bytes": 267001,
+   "requests": 8,
+   "loadMs": 202,
+   "url": "/pats-sub-shop/",
+   "at": "2026-11-18"
+  }
+ },
+ "taj-aiken": {
+  "concept": {
+   "bytes": 240282,
+   "requests": 7,
+   "loadMs": 210,
+   "url": "/taj-aiken/",
+   "at": "2026-11-18"
+  }
+ },
+ "tumbleweed": {
+  "concept": {
+   "bytes": 216625,
+   "requests": 6,
+   "loadMs": 173,
+   "url": "/tumbleweed/",
+   "at": "2026-11-18"
+  }
+ },
+ "unique-catering": {
+  "concept": {
+   "bytes": 202326,
+   "requests": 7,
+   "loadMs": 58,
+   "url": "/unique-catering/",
+   "at": "2026-11-18"
+  }
+ },
+ "white-rose-eclectics": {
+  "concept": {
+   "bytes": 235339,
+   "requests": 7,
+   "loadMs": 153,
+   "url": "/white-rose-eclectics/",
+   "at": "2026-11-18"
+  }
  }
 }

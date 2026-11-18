@@ -1,0 +1,122 @@
+{
+  "name": "Unique Catering",
+  "short": "Unique Catering",
+  "category": "Soul Food & Catering",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf5ec",
+    "surface": "#fffdf8",
+    "ink": "#24170f",
+    "muted": "#62554a",
+    "primary": "#7a3b1d",
+    "onPrimary": "#fff8ef",
+    "accent": "#e8a33d",
+    "line": "#ecdcc7"
+  },
+  "radius": 16,
+  "icon": "chef-hat",
+  "contact": {
+    "phone": "(803) 648-7003",
+    "address": [
+      "1624 Hampton Avenue NW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Unique Catering, 1624 Hampton Ave NW, Aiken, SC",
+    "facebook": "https://www.facebook.com/pages/Unique%20Catering/133653796686046/"
+  },
+  "hero": {
+    "eyebrow": "Soul food in Aiken",
+    "title": "Soul food, *done right*",
+    "lede": "Delicious soul food on Hampton Avenue, and catering when you need it. Wednesday is the day for smothered pork chops.",
+    "points": [
+      "Soul food",
+      "Catering",
+      "Wednesday pork chops"
+    ],
+    "cta": {
+      "label": "Call (803) 648-7003",
+      "href": "tel:+18036487003"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Soul food",
+      "label": "Done right"
+    },
+    {
+      "value": "Wednesday",
+      "label": "Smothered pork chops"
+    },
+    {
+      "value": "Catering",
+      "label": "For your event"
+    }
+  ],
+  "sections": [
+    {
+      "type": "quotes",
+      "id": "press",
+      "nav": "In the news",
+      "eyebrow": "In the Aiken Standard",
+      "title": "What *the paper* said",
+      "items": [
+        {
+          "text": "Unique Catering does soul food right. Wednesday is the best day to go, for smothered pork chops.",
+          "by": "Aiken Standard"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Call ahead, or ask about catering.",
+      "cta": {
+        "label": "Call (803) 648-7003",
+        "href": "tel:+18036487003"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hampton Avenue*",
+    "hideForm": true
+  },
+  "slug": "unique-catering",
+  "added": "2026-11-18",
+  "prospect": "unique-catering",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/unique_catering/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "facts": "big",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

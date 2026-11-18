@@ -1,0 +1,135 @@
+{
+  "name": "Soul & Seafood House",
+  "short": "Soul & Seafood House",
+  "category": "Seafood & Soul Food",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f3f7fa",
+    "surface": "#ffffff",
+    "ink": "#14202b",
+    "muted": "#516070",
+    "primary": "#12355b",
+    "onPrimary": "#ffffff",
+    "accent": "#ff7f50",
+    "line": "#dbe5ee"
+  },
+  "radius": 12,
+  "icon": "fish",
+  "contact": {
+    "phone": "(803) 226-0555",
+    "address": [
+      "3553 Richland Avenue West",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Soul & Seafood House, 3553 Richland Ave W, Aiken, SC",
+    "facebook": "https://www.facebook.com/SeafoodHouseAiken"
+  },
+  "hero": {
+    "eyebrow": "Dine in or take out",
+    "title": "Fresh seafood, *dine in or take out*",
+    "lede": "Delicious seafood at affordable prices, known for its variety and high-quality fresh ingredients, on Richland Avenue West.",
+    "points": [
+      "Fresh ingredients",
+      "Dine in",
+      "Take out",
+      "Affordable"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0555",
+      "href": "tel:+18032260555"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Fresh",
+      "label": "High-quality ingredients"
+    },
+    {
+      "value": "Dine in",
+      "label": "Or take out"
+    },
+    {
+      "value": "Affordable",
+      "label": "Prices, in a convenient spot"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "why",
+      "nav": "Why come in",
+      "columns": 3,
+      "eyebrow": "Friendly atmosphere, excellent service",
+      "title": "A natural choice *for seafood*",
+      "items": [
+        {
+          "icon": "fish",
+          "title": "Variety in taste",
+          "text": "Known for its variety and fresh, high-quality ingredients."
+        },
+        {
+          "icon": "utensils",
+          "title": "Dine in",
+          "text": "A friendly atmosphere and excellent service."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Take out",
+          "text": "A convenient location for take-out meals."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry for seafood?",
+      "text": "Call ahead for take-out or come dine in.",
+      "cta": {
+        "label": "Call (803) 226-0555",
+        "href": "tel:+18032260555"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "hideForm": true
+  },
+  "slug": "soul-and-seafood-house",
+  "added": "2026-11-18",
+  "prospect": "soul-and-seafood-house",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/seafood_house/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

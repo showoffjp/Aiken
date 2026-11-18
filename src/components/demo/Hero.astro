@@ -23,6 +23,8 @@ const facts = demo.facts || [];
 // Floating decor is light glass on dark grounds, tinted glass on light ones.
 const onDarkPrimary = ratio('#ffffff', demo.colors.primary) >= ratio('#111111', demo.colors.primary);
 const est = demo.established ? `Est. ${demo.established}` : '';
+// A factual fallback for the masthead: the street the business is on.
+const street = (demo.contact.address?.[0] || '').replace(/^\d+[A-Za-z]?\s+/, '').trim();
 
 // Giant type sized to the words it has to hold: the longest word always fits
 // the page width, so a long name never runs off the edge.
@@ -140,7 +142,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
   <section class="hero hx hx-magazine" id="top">
     <Decor demo={demo} kind="magazine" tone={'light'} />
     <div class="wrap">
-      <div class="hx-mast-line"><span>{est || 'Local since day one'}</span><span>{demo.category}</span><span>{town}, South Carolina</span></div>
+      <div class="hx-mast-line"><span>{est || street || demo.group}</span><span>{demo.category}</span><span>{town}, South Carolina</span></div>
       <p class="hx-masthead" aria-hidden="true" style={mast}>{short}</p>
       <div class="hx-cols">
         <p class="lede hx-drop">{hero.lede}</p>

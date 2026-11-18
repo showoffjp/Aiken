@@ -1,0 +1,143 @@
+{
+  "name": "It's All Good Market & Catering",
+  "short": "It's All Good",
+  "category": "Market, Lunch & Catering",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6faf3",
+    "surface": "#ffffff",
+    "ink": "#18241a",
+    "muted": "#55625a",
+    "primary": "#2e7d32",
+    "onPrimary": "#ffffff",
+    "accent": "#ffb300",
+    "line": "#dfe9da"
+  },
+  "radius": 16,
+  "icon": "salad",
+  "contact": {
+    "phone": "(803) 226-9068",
+    "address": [
+      "337 Hayne Avenue SW",
+      "Aiken, SC"
+    ],
+    "mapQuery": "It's All Good Market & Catering, 337 Hayne Ave SW, Aiken, SC",
+    "facebook": "https://www.facebook.com/ITSALLGOODMarketandCatering/"
+  },
+  "hero": {
+    "eyebrow": "Downtown Aiken",
+    "title": "Wonderful lunches and *casseroles to go*",
+    "lede": "Soups, salads and sandwiches for lunch, and casseroles to take home, in downtown Aiken.",
+    "cta": {
+      "label": "Call (803) 226-9068",
+      "href": "tel:+18032269068"
+    },
+    "cta2": {
+      "label": "What we make",
+      "href": "#food"
+    }
+  },
+  "facts": [
+    {
+      "value": "Lunch",
+      "label": "Soups, salads and sandwiches"
+    },
+    {
+      "value": "To go",
+      "label": "Casseroles for home"
+    },
+    {
+      "value": "Catering",
+      "label": "For your gathering"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "food",
+      "nav": "What we make",
+      "columns": 3,
+      "eyebrow": "Market & catering",
+      "title": "Good food, *any way you need it*",
+      "items": [
+        {
+          "icon": "soup",
+          "title": "Soups",
+          "text": "Part of a wonderful lunch."
+        },
+        {
+          "icon": "salad",
+          "title": "Salads",
+          "text": "For lunch downtown."
+        },
+        {
+          "icon": "sandwich",
+          "title": "Sandwiches",
+          "text": "Lunch to eat in or take back to work."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Casseroles to go",
+          "text": "Take one home."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Catering",
+          "text": "Call to talk about your event."
+        },
+        {
+          "icon": "map-pin",
+          "title": "Downtown",
+          "text": "On Hayne Avenue."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Lunch sorted",
+      "text": "Call ahead or stop in on Hayne Avenue.",
+      "cta": {
+        "label": "Call (803) 226-9068",
+        "href": "tel:+18032269068"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hayne Avenue*",
+    "hideForm": true
+  },
+  "slug": "its-all-good-market-and-catering",
+  "added": "2026-11-18",
+  "prospect": "its-all-good-market-and-catering",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/its_all_good_market_catering/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "grid",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

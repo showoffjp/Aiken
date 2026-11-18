@@ -1,0 +1,130 @@
+{
+  "name": "Aiken Antique Mall",
+  "short": "Aiken Antique Mall",
+  "category": "Antique Mall",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "cormorant",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f6f1e6",
+    "surface": "#fffcf4",
+    "ink": "#1e231d",
+    "muted": "#59604f",
+    "primary": "#2f4a3a",
+    "onPrimary": "#fffaf0",
+    "accent": "#b8893b",
+    "line": "#e3dccb"
+  },
+  "radius": 8,
+  "icon": "lamp",
+  "contact": {
+    "phone": "(803) 648-6700",
+    "address": [
+      "112 Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Aiken Antique Mall, 112 Laurens Street SW, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/AikenAntiqueMall"
+  },
+  "hero": {
+    "eyebrow": "Many dealers under one roof",
+    "title": "Something new *every day*",
+    "lede": "Enjoy a variety of antiques in a multiple-owner antique mall on Laurens Street. Items change daily, so visit often.",
+    "cta": {
+      "label": "Call (803) 648-6700",
+      "href": "tel:+18036486700"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Many owners",
+      "label": "Under one roof"
+    },
+    {
+      "value": "Daily",
+      "label": "New items arrive"
+    },
+    {
+      "value": "Downtown",
+      "label": "On Laurens Street"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "browse",
+      "nav": "Browse",
+      "eyebrow": "What you might find",
+      "title": "Always something *to discover*",
+      "intro": "With many dealers and stock that changes every day, no two visits are the same.",
+      "groups": [
+        {
+          "title": "On the floor",
+          "items": [
+            {
+              "name": "Antiques from many dealers"
+            },
+            {
+              "name": "New arrivals daily"
+            },
+            {
+              "name": "Downtown on Laurens Street"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come see what's new",
+      "text": "Items change daily, so visit often.",
+      "cta": {
+        "label": "Call (803) 648-6700",
+        "href": "tel:+18036486700"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "hideForm": true
+  },
+  "slug": "aiken-antique-mall",
+  "added": "2026-11-18",
+  "prospect": "aiken-antique-mall",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/do/aiken_antique_mall/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "flip": true,
+    "services": "list",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

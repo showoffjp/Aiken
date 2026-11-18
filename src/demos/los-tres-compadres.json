@@ -1,0 +1,135 @@
+{
+  "name": "Los Tres Compadres",
+  "short": "Los Tres Compadres",
+  "category": "Mexican Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "anybody",
+    "body": "dm-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fff8ee",
+    "surface": "#ffffff",
+    "ink": "#241510",
+    "muted": "#5f4c44",
+    "primary": "#b3261e",
+    "onPrimary": "#ffffff",
+    "accent": "#ffc23d",
+    "line": "#f0dcc8"
+  },
+  "radius": 14,
+  "icon": "utensils-crossed",
+  "contact": {
+    "phone": "(803) 226-0780",
+    "address": [
+      "3566 Richland Avenue West",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Los Tres Compadres, 3566 Richland Ave W, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=100075974029324"
+  },
+  "hero": {
+    "eyebrow": "Try the Carolina Margarita",
+    "title": "Fresh, authentic and *generous*",
+    "lede": "Fresh and authentic Mexican cuisine served in generous portions, with delicious flavors at affordable prices.",
+    "points": [
+      "Generous portions",
+      "Affordable prices",
+      "Carolina Margarita"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0780",
+      "href": "tel:+18032260780"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Authentic",
+      "label": "Fresh Mexican cuisine"
+    },
+    {
+      "value": "Generous",
+      "label": "Portions"
+    },
+    {
+      "value": "Must-try",
+      "label": "The Carolina Margarita"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "why",
+      "nav": "Why come in",
+      "columns": 3,
+      "eyebrow": "¡Bienvenidos!",
+      "title": "Big flavor, *fair prices*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Fresh & authentic",
+          "text": "Mexican cuisine made fresh."
+        },
+        {
+          "icon": "utensils",
+          "title": "Generous portions",
+          "text": "Come hungry."
+        },
+        {
+          "icon": "martini",
+          "title": "The Carolina Margarita",
+          "text": "A must-try."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "¿Tienes hambre?",
+      "text": "Find us on Richland Avenue West.",
+      "cta": {
+        "label": "Call (803) 226-0780",
+        "href": "tel:+18032260780"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "hideForm": true
+  },
+  "slug": "los-tres-compadres",
+  "added": "2026-11-18",
+  "prospect": "los-tres-compadres",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/los-tres-compadres/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "center",
+    "motion": "flip",
+    "buttons": "shadow"
+  }
+}

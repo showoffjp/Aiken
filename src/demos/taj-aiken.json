@@ -1,0 +1,132 @@
+{
+  "name": "Taj Aiken",
+  "short": "Taj Aiken",
+  "category": "Indian Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fdf7ee",
+    "surface": "#ffffff",
+    "ink": "#2a1420",
+    "muted": "#665560",
+    "primary": "#8e1b4f",
+    "onPrimary": "#ffffff",
+    "accent": "#f4a300",
+    "line": "#eedfd0"
+  },
+  "radius": 14,
+  "icon": "soup",
+  "contact": {
+    "phone": "(803) 845-9245",
+    "address": [
+      "213 Richland Avenue West",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Taj Aiken, 213 Richland Ave W, Aiken, SC",
+    "facebook": "https://www.facebook.com/tajaiken"
+  },
+  "hero": {
+    "eyebrow": "The place for Indian cuisine in Aiken",
+    "title": "Everything your taste buds *will enjoy*",
+    "lede": "If you enjoy Indian cuisine, Taj Aiken is the place to be, from spinach pakoda to chicken chettinad and tadka dal.",
+    "points": [
+      "Spinach pakoda",
+      "Chicken chettinad",
+      "Tadka dal"
+    ],
+    "cta": {
+      "label": "Call (803) 845-9245",
+      "href": "tel:+18038459245"
+    },
+    "cta2": {
+      "label": "A taste of the menu",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Indian",
+      "label": "Cuisine in downtown Aiken"
+    },
+    {
+      "value": "Pakoda",
+      "label": "Spinach pakoda"
+    },
+    {
+      "value": "Chettinad",
+      "label": "Chicken chettinad"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "A taste of the menu",
+      "title": "From *our kitchen*",
+      "intro": "Call for the full menu.",
+      "groups": [
+        {
+          "title": "Favorites",
+          "items": [
+            {
+              "name": "Spinach pakoda"
+            },
+            {
+              "name": "Chicken chettinad"
+            },
+            {
+              "name": "Tadka dal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Craving Indian?",
+      "text": "Call ahead or come in on Richland Avenue West.",
+      "cta": {
+        "label": "Call (803) 845-9245",
+        "href": "tel:+18038459245"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "hideForm": true
+  },
+  "slug": "taj-aiken",
+  "added": "2026-11-18",
+  "prospect": "taj-aiken",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/taj_aiken_indian_cruisine/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

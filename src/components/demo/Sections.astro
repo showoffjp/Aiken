@@ -91,7 +91,7 @@ if (cine) deepIdx = -1;
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
         </div>
-        <div class="menu-groups">
+        <div class={`menu-groups${s.groups.length === 1 ? ' solo' : ''}`}>
           {s.groups.map((g) => (
             <div class="menu-group">
               <h3>{g.title}{g.note && <small>{g.note}</small>}</h3>
