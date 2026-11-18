@@ -1,0 +1,202 @@
+/* ==========================================================================
+   Site features shared by every concept: live opening status, contact
+   chips, save-to-contacts and share, reading progress, the active menu
+   link, back to top, the phone menu sheet and the photo viewer. Plus the
+   polish found by the phone/tablet/desktop layout check.
+   ========================================================================== */
+
+/* ------------------------------------------------------------ open now */
+.open-now {
+  display: inline-flex; align-items: center; gap: 9px; width: fit-content; margin: 0;
+  padding: 7px 14px 7px 11px; border-radius: 999px; font: 650 .9rem/1.2 var(--font-body); letter-spacing: 0;
+  background: color-mix(in srgb, var(--surface) 94%, transparent); color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--ink) 14%, transparent); box-shadow: 0 6px 16px -10px rgb(0 0 0 / .35);
+}
+.open-now[hidden] { display: none; }
+.open-now::before { content: ""; flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--dot, #1f9d55); box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot, #1f9d55) 22%, transparent); }
+.open-now[data-state="soon"] { --dot: #d98a00; }
+.open-now[data-state="closed"] { --dot: #c8372d; }
+.awake .open-now[data-state="open"]::before { animation: live-ping 2.2s ease-out infinite; }
+@keyframes live-ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--dot, #1f9d55) 55%, transparent); } 80%, 100% { box-shadow: 0 0 0 9px transparent; } }
+.hero-open { margin-top: 18px; }
+.hx-spotlight .hero-open { margin-inline: auto; }
+.hours-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; margin-bottom: 10px; }
+.hours-head h3 { margin-bottom: 0 !important; }
+.hours-head .open-now { font-size: .82rem; padding: 5px 11px 5px 9px; box-shadow: none; }
+
+/* -------------------------------------------------------------- chips */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 9px 16px; border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--ink) 18%, transparent); background: var(--surface); color: var(--ink);
+  font: 600 .92rem/1.1 var(--font-body); text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: border-color .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.section.alt .chip { background: var(--bg); }
+.chip .icon { color: var(--primary-text, var(--primary)); flex: none; }
+.chip:hover { border-color: var(--primary); color: var(--primary-text, var(--primary)); transform: translateY(-1px); box-shadow: 0 8px 18px -12px color-mix(in srgb, var(--primary) 70%, transparent); }
+.info .row.keep { border-bottom: 0; }
+/* Split shifts ("11 am – 2 pm · 5 – 8 pm") get a line each instead of wrapping mid-time. */
+.hours td span { display: block; white-space: nowrap; }
+.hours td:first-child { padding-right: 14px; }
+.info a.big { display: inline-block; padding-block: 4px; }
+.info a.mail { display: inline-block; padding-block: 8px; font-weight: 600; }
+[data-cinematic] .chip { background: rgb(255 255 255 / .06); color: inherit; border-color: rgb(255 255 255 / .22); }
+
+/* ------------------------------------------------ header: progress, current section */
+.head-progress { position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; transform-origin: 0 50%; transform: scaleX(var(--progress, 0)); background: linear-gradient(90deg, var(--primary), var(--accent)); pointer-events: none; }
+.nav > a[aria-current] { background-size: 100% 2px; color: var(--primary-text, var(--primary)); }
+[data-cinematic] .nav > a[aria-current] { color: #fff; }
+.nav-go, .nav-extra { display: none; }
+.menu-btn .i-close { display: none; }
+.site-head.open .menu-btn .i-open { display: none; }
+.site-head.open .menu-btn .i-close { display: block; }
+
+/* ---------------------------------------------- phone menu: a full sheet */
+@media (max-width: 940px) {
+  .site-head .nav {
+    /* The header's glass blur makes it the containing block, so the sheet hangs from its bottom edge. */
+    position: absolute; top: 100%; left: 0; right: 0; height: calc(100dvh - var(--menu-top, 72px)); overflow-y: auto; overscroll-behavior: contain;
+    padding: 6px var(--gutter) calc(28px + env(safe-area-inset-bottom)); border-bottom: 0; box-shadow: none;
+    background: var(--bg); z-index: 39;
+  }
+  .site-head.open .nav { display: flex; animation: sheet-in .28s cubic-bezier(.2, .7, .2, 1); }
+  .site-head .nav > a {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 58px; padding: 14px 2px;
+    font: 600 1.28rem/1.15 var(--font-display); letter-spacing: -.01em; background-image: none;
+    border-bottom: 1px solid var(--line) !important;
+  }
+  .site-head .nav > a .nav-go { display: block; color: var(--primary-text, var(--primary)); transition: transform .2s ease; }
+  .site-head .nav > a:hover .nav-go, .site-head .nav > a[aria-current] .nav-go { transform: translateX(4px); }
+  .site-head .nav > a[aria-current] { color: var(--primary-text, var(--primary)); }
+  .nav-extra { display: grid; gap: 10px; margin-top: 22px; text-transform: none; letter-spacing: 0; }
+  .nav-extra .open-now { margin-bottom: 4px; }
+  /* The menu links' underline styling must not reach the two buttons. */
+  .site-head .nav .nav-extra .btn { width: 100%; min-height: 54px; padding: 15px 22px; font-size: 1.02rem; border: 2px solid transparent !important; background: linear-gradient(120deg, var(--primary), var(--primary-2, var(--primary))); color: var(--on-primary); }
+  .site-head .nav .nav-extra .btn.ghost { background: transparent; color: var(--ink); border-color: color-mix(in srgb, var(--ink) 28%, transparent) !important; }
+  html.menu-open { overflow: hidden; }
+  html.menu-open .callbar { display: none; }
+  [data-cinematic] .site-head .nav { background: var(--cine); }
+  [data-cinematic] .site-head .nav > a { border-color: rgb(255 255 255 / .12) !important; }
+  [data-cinematic] .nav-extra .btn.ghost { color: #fff; border-color: rgb(255 255 255 / .4); }
+}
+@keyframes sheet-in { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: none; } }
+
+/* -------------------------------------------------------- back to top */
+.to-top {
+  position: fixed; right: 22px; bottom: 22px; z-index: 45; width: 48px; height: 48px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--ink); color: var(--bg); text-decoration: none;
+  box-shadow: 0 12px 26px -10px rgb(0 0 0 / .5); opacity: 0; transform: translateY(14px) scale(.9); pointer-events: none;
+  transition: opacity .25s ease, transform .25s ease, background .2s ease;
+}
+.to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+.to-top:hover { background: var(--primary); color: var(--on-primary); }
+@media (max-width: 700px) {
+  .to-top { right: 14px; bottom: 82px; width: 44px; height: 44px; }
+  .demo:not(:has(.callbar)) .to-top { bottom: 18px; }
+  html.menu-open .to-top { display: none; }
+}
+
+/* -------------------------------------------------------------- toast */
+.toast {
+  position: fixed; left: 50%; bottom: 28px; z-index: 60; margin: 0; padding: 12px 20px; border-radius: 999px;
+  background: var(--ink); color: var(--bg); font: 600 .95rem/1.2 var(--font-body); box-shadow: 0 14px 30px -12px rgb(0 0 0 / .5);
+  transform: translate(-50%, 20px); opacity: 0; pointer-events: none; transition: opacity .25s ease, transform .25s ease; max-width: calc(100vw - 32px); overflow-wrap: anywhere;
+}
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (max-width: 700px) { .toast { bottom: 84px; } }
+
+/* -------------------------------------------------------- photo viewer */
+img.zoomable { cursor: zoom-in; }
+img.zoomable:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+dialog.lightbox {
+  width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0;
+  background: rgb(9 10 13 / .96); color: #fff; overflow: hidden;
+}
+dialog.lightbox[open] { animation: lb-in .25s ease; }
+dialog.lightbox::backdrop { background: transparent; }
+@keyframes lb-in { from { opacity: 0; } to { opacity: 1; } }
+.lightbox figure { position: absolute; inset: 64px clamp(12px, 7vw, 96px) 18px; margin: 0; display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 14px; place-items: center; }
+.lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; background: rgb(255 255 255 / .04); border-radius: 6px; box-shadow: 0 30px 80px -20px rgb(0 0 0 / .8); user-select: none; -webkit-user-drag: none; }
+.lightbox figcaption { display: flex; gap: 16px; align-items: baseline; justify-content: center; max-width: 60ch; text-align: center; font: 500 .95rem/1.4 var(--font-body); color: rgb(255 255 255 / .86); padding-bottom: 4px; }
+.lb-count { flex: none; font-variant-numeric: tabular-nums; color: rgb(255 255 255 / .6); font-size: .85rem; }
+.lb-btn { position: absolute; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; border: 1px solid rgb(255 255 255 / .2); background: rgb(255 255 255 / .1); color: #fff; cursor: pointer; transition: background .2s ease; }
+.lb-btn:hover { background: rgb(255 255 255 / .22); }
+.lb-close { top: 10px; right: 12px; }
+.lb-prev, .lb-next { top: 50%; translate: 0 -50%; }
+.lb-prev { left: clamp(6px, 2vw, 24px); } .lb-next { right: clamp(6px, 2vw, 24px); }
+.lightbox.single .lb-prev, .lightbox.single .lb-next { display: none; }
+@media (max-width: 700px) {
+  .lightbox figure { inset: 62px 8px 76px; }
+  .lb-prev, .lb-next { top: auto; bottom: 14px; translate: none; }
+  .lb-prev { left: calc(50% - 60px); } .lb-next { right: calc(50% - 60px); }
+}
+
+/* ==========================================================================
+   Polish from the layout check
+   ========================================================================== */
+
+/* Bigger tap targets in the footer on every screen. */
+.site-foot li { margin-bottom: 2px; }
+.site-foot li a { display: inline-block; padding-block: 7px; }
+
+/* Wide paragraphs stay readable on big screens. */
+.footnote, .story .body p { max-width: 68ch; }
+
+/* Long poster titles step down on phones (sizes come from the hero). */
+.hero .hx-mega { font-size: var(--mega, 5.6rem); }
+@media (max-width: 640px) { .hero .hx-mega { font-size: var(--mega-ph, var(--mega)); } }
+
+/* Magazine heroes on phones: headline and buttons first, the story after. */
+@media (max-width: 860px) {
+  .hx-cols .hx-head { order: -1; border-top: 0 !important; padding-top: 0 !important; }
+  .hx-cols .hx-drop { border-top: 1px solid var(--line); padding-top: 20px; }
+}
+
+/* Facts on phones: each value sized so its longest word fits the column. */
+@media (max-width: 640px) {
+  .demo:not([data-facts="ticker"], [data-facts="badges"]) .facts ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .demo:not([data-facts="ticker"], [data-facts="badges"]) .facts li { min-width: 0; }
+  .demo:not([data-facts="ticker"], [data-facts="badges"]) .facts li:last-child:nth-child(odd) { grid-column: 1 / -1; border-left: 0; }
+  .demo:not([data-facts="ticker"], [data-facts="badges"]) .facts li strong { font-size: min(var(--fact-max, 1.5rem), calc((50vw - var(--gutter) - 30px) / (var(--ch, 6) * var(--cw, .6)))); }
+  .demo[data-facts="big"] { --fact-max: 1.7rem; }
+  .demo[data-look="bold"] { --cw: .74; }
+  .demo[data-facts="big"] .facts li:last-child:nth-child(odd) { border-top: 1px solid var(--line); }
+}
+
+/* Labels never drop under 12px on phones. */
+@media (max-width: 700px) {
+  .site-foot h4, .eyebrow, .hx-code, .hx-spec dt, .b-call small, .b-hours small, .b-where small, .hx-mast-line, .cine-eyebrow { font-size: max(12px, .78rem) !important; }
+}
+
+/* Bento hours card: one line per shift; on phones the day sits above its times. */
+.b-hours .b-t { font-style: normal; text-align: right; }
+.b-hours .b-t i { display: block; font-style: normal; white-space: nowrap; }
+@media (max-width: 560px) {
+  .b-hours span { display: grid; gap: 2px; justify-content: start; }
+  .b-hours .b-t { text-align: left; }
+}
+
+/* Long headlines in the bigger-type looks come down a size, and cinematic ones on phones. */
+[data-look="bold"] .hero:not(.hx) h1[data-long], [data-look="boutique"] .hero:not(.hx) h1[data-long] { font-size: clamp(2.4rem, 4.8vw, 4.1rem); }
+@media (max-width: 700px) { .cine-hero h1[data-long] { font-size: clamp(2.1rem, 9.6vw, 2.9rem); } }
+
+/* Magazine heroes on wide screens: a wider middle column, so the headline takes three lines, not five. */
+@media (min-width: 861px) { .hx-cols { grid-template-columns: minmax(0, .9fr) minmax(0, 1.5fr) minmax(0, .78fr); } }
+.hx-head h1[data-long] { font-size: clamp(1.9rem, 2.9vw, 2.6rem); }
+@media (max-width: 640px) { .demo[data-facts="badges"] .facts li:last-child:nth-child(odd) { grid-column: 1 / -1; } }
+
+/* The concept bar takes one row on phones; the studio link moves to the footer line. */
+@media (max-width: 700px) {
+  .concept .wrap { gap: 10px; flex-wrap: nowrap; padding-block: 8px; }
+  .concept .grow { flex: 1 1 auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .concept a.studio { display: none; }
+  .concept button { padding: 6px 12px; min-height: 32px; }
+}
+.site-foot .legal a { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 350px) { .concept .wrap { flex-wrap: wrap; } .concept .grow { white-space: normal; overflow: visible; } }
+
+/* The "What changed?" panel shares the .cols class with the columns section; keep its own list style. */
+.notes .cols h3 { font: 700 .72rem/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 12px; padding: 0; border: 0; color: #6a6f7a; }
+.notes .cols h3.also { margin-top: 20px; }
+.notes .cols li { padding: 0 0 0 22px; margin-bottom: 9px; font-size: .95rem; color: inherit; }
