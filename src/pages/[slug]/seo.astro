@@ -115,7 +115,7 @@ const host = s ? s.host : hostOf(demo.source.url);
   <body class="rp sr" style={`--t1:${demo.colors.primary};--t2:${demo.colors.accent}`}>
     <header class="rp-top">
       <div class="rp-wrap">
-        <a href="/" class="rp-brand">{site.name}</a>
+        <a href="/" class="rp-brand"><span class="rp-glyph"><svg viewBox="0 0 32 32" width="16" height="16" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="rp-glint" aria-hidden="true"></i></span>{site.name}</a>
         <span>SEO & social media report{checked && ` · checked ${checked}`}</span>
       </div>
     </header>

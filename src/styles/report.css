@@ -208,3 +208,19 @@
 }
 @media (prefers-reduced-motion: reduce) { .rp::after { display: none; } }
 @media print { .rp::after { display: none; } }
+
+/* Brand header, shared with the portfolio home: deep green glass, a moving
+   gradient line, and a logo that catches the light. Plain again in print. */
+.rp-top { position: relative; overflow-x: clip; color: rgb(255 255 255 / .82); border-bottom: 0; background: linear-gradient(160deg, #06201a, #0b2536); }
+.rp-top::after { content: ""; position: absolute; left: 0; bottom: 0; width: 200%; height: 2px; background: linear-gradient(90deg, #12b886, #14a3b8, #f2b33d, #ff6b4a, #12b886, #14a3b8, #f2b33d, #ff6b4a, #12b886); animation: rp-line 16s linear infinite; }
+@keyframes rp-line { to { transform: translateX(-50%); } }
+.rp-top .rp-wrap { align-items: center; }
+.rp-brand { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 1.02rem; }
+.rp-glyph { position: relative; overflow: hidden; width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center; color: #fff; background: linear-gradient(140deg, #12b886, #14a3b8 55%, #f2b33d); box-shadow: 0 6px 16px -8px rgb(18 184 134 / .9); transition: transform .5s cubic-bezier(.3, 1.6, .5, 1); }
+.rp-glyph svg { position: relative; z-index: 1; }
+.rp-glint { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; }
+.rp-glint::before { content: ""; position: absolute; top: 0; bottom: 0; left: 0; width: 60%; background: linear-gradient(105deg, transparent, rgb(255 255 255 / .9), transparent); transform: translateX(-130%) skewX(-14deg); animation: rp-sweep 6s ease-in-out infinite 1s; }
+@keyframes rp-sweep { 0%, 80% { transform: translateX(-130%) skewX(-14deg); } 100% { transform: translateX(270%) skewX(-14deg); } }
+.rp-brand:hover .rp-glyph { transform: rotate(-10deg) scale(1.1); }
+@media (prefers-reduced-motion: reduce) { .rp-top::after, .rp-glint::before { animation: none; } }
+@media print { .rp-top { background: none; color: var(--muted); border-bottom: 1px solid var(--line); } .rp-top::after, .rp-glint { display: none; } .rp-brand { color: var(--ink); } .rp-glyph { background: #143d2f; box-shadow: none; } }
