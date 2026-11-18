@@ -165,7 +165,12 @@ async function siteReport(b, a) {
   if (!home) return { error: 'home page could not be read' };
   // Does the share image actually load? A preview pointing at a dead image shows a blank card.
   if (home.og?.image) {
-    try { const r = await get(new URL(home.og.image, home.url).href, { maxBytes: 60_000, timeout: 20 }); home.og.imageStatus = r.status || 0; } catch { home.og.imageStatus = 0; }
+    try {
+      const r = await get(new URL(home.og.image, home.url).href, { maxBytes: 60_000, timeout: 20 });
+      home.og.imageStatus = r.status || 0;
+      // A 200 that is a web page (a soft 404) is just as broken: browsers refuse to show it as a picture.
+      if (r.status >= 200 && r.status < 400 && r.contentType && !/^image\//i.test(r.contentType)) { home.og.imageStatus = 415; home.og.imageType = r.contentType.split(';')[0]; }
+    } catch { home.og.imageStatus = 0; }
   }
 
   // Broken internal links: every link target found, up to 60, crawled pages included.
