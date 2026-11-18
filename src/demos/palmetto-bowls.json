@@ -1,0 +1,151 @@
+{
+  "name": "Palmetto Bowls",
+  "short": "Palmetto Bowls",
+  "category": "Acai Bowl Food Truck",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#faf6fb",
+    "surface": "#ffffff",
+    "ink": "#24142a",
+    "muted": "#5f5266",
+    "primary": "#4e1d5c",
+    "onPrimary": "#ffffff",
+    "accent": "#ffb627",
+    "line": "#eadff0"
+  },
+  "radius": 20,
+  "icon": "truck",
+  "contact": {
+    "address": [
+      "126 Dominion Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Palmetto Bowls, 126 Dominion Dr, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/palmettobowls"
+  },
+  "hero": {
+    "eyebrow": "Acai bowls in Aiken",
+    "title": "Acai bowls, *wherever the truck is*",
+    "lede": "Acai bowls from a food truck around Aiken. Hours and location change each week, so check the schedule, or message us to book the truck.",
+    "cta": {
+      "label": "This week's schedule",
+      "href": "https://www.facebook.com/palmettobowls"
+    },
+    "cta2": {
+      "label": "Book the truck",
+      "href": "#book"
+    }
+  },
+  "facts": [
+    {
+      "value": "Acai",
+      "label": "Bowls, in Aiken"
+    },
+    {
+      "value": "Weekly",
+      "label": "New hours and location"
+    },
+    {
+      "value": "Bookable",
+      "label": "Message us to book"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "truck",
+      "nav": "The truck",
+      "columns": 3,
+      "eyebrow": "On the board",
+      "title": "Bowls *on wheels*",
+      "items": [
+        {
+          "icon": "cherry",
+          "title": "Acai bowls",
+          "text": "Right here in Aiken."
+        },
+        {
+          "icon": "truck",
+          "title": "A food truck",
+          "text": "Hours and location change each week."
+        },
+        {
+          "icon": "message-circle",
+          "title": "Bookings",
+          "text": "Message us to book the truck."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "book",
+      "nav": "Find the truck",
+      "eyebrow": "Where to find us",
+      "title": "Three steps *to a bowl*",
+      "items": [
+        {
+          "title": "Check the schedule",
+          "text": "Hours and location change each week. The schedule is posted on Facebook."
+        },
+        {
+          "title": "Find the truck",
+          "text": "The schedule has that week's hours and address."
+        },
+        {
+          "title": "Or bring it to you",
+          "text": "Message us to book the truck for your event."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Want the truck at your event?",
+      "text": "Send a message to book.",
+      "cta": {
+        "label": "Message us",
+        "href": "https://www.facebook.com/palmettobowls"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find *the truck*",
+    "intro": "The truck moves: this week's hours and address are on the schedule.",
+    "hideForm": true
+  },
+  "slug": "palmetto-bowls",
+  "added": "2026-11-18",
+  "prospect": "palmetto-bowls",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/palmetto-bowls/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "pill",
+    "services": "grid"
+  }
+}

@@ -17636,5 +17636,1089 @@
     "domainYears": 6
    }
   ]
+ },
+ "dinner-bell": {
+  "slug": "dinner-bell",
+  "name": "Dinner Bell",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/dinner-bell/",
+    "name": "Dinner Bell",
+    "phone": "803.648.5000",
+    "website": "https://www.facebook.com/dinner.bell.2025",
+    "address": "2411 Wagener Rd., Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/dinner.bell.2025"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 794,
+   "lcp": 1357,
+   "tbt": 35,
+   "si": 794,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "elevate-aiken": {
+  "slug": "elevate-aiken",
+  "name": "Elevate Aiken",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/elevate-aiken/",
+    "name": "Elevate Aiken",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61560082211648",
+    "address": "311 Hayne Ave SW Aiken, SC 29801",
+    "phoneMatch": null,
+    "websiteMatch": null
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Elevate Aiken",
+    "phone": "",
+    "website": "https://www.facebook.com/p/Elevate-Aiken-61560082211648/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61560082211648"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 819,
+   "lcp": 1507,
+   "tbt": 52,
+   "si": 819,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "lilianhaus": {
+  "slug": "lilianhaus",
+  "name": "Lilianhaus",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/lilianhaus/",
+    "name": "LilianHaus",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61577859700544",
+    "address": "101 LAURENS Street SW, Aiken, SC, United States, South Carolina",
+    "phoneMatch": null,
+    "websiteMatch": null
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "LilianHaus",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61577859700544",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61577859700544"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1743,
+   "lcp": 1958,
+   "tbt": 0,
+   "si": 1743,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique",
+   "carolines-boutique-pitter-patter-childrens-bouti",
+   "dear-soul-candle-co",
+   "ginger-bee-boutique"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "carolines-boutique-pitter-patter-childrens-bouti",
+    "name": "Caroline’s Boutique/Pitter Patter Children’s Boutique",
+    "website": "https://www.pitterpattercarolines.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 55,
+    "pageMB": 3.2,
+    "a11ySerious": 18,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "ginger-bee-boutique",
+    "name": "Ginger Bee Boutique",
+    "website": "https://www.gingerbeeboutique.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.6,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "local-junction": {
+  "slug": "local-junction",
+  "name": "Local Junction",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/local-junction/",
+    "name": "Local Junction",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61562312405989",
+    "address": "1208 Whiskey Road Aiken, SC, United States, South Carolina 29803",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61562312405989"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 793,
+   "lcp": 1352,
+   "tbt": 204,
+   "si": 793,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "okinawa-japanese-steakhouse-and-sushi-bowl": {
+  "slug": "okinawa-japanese-steakhouse-and-sushi-bowl",
+  "name": "Okinawa Japanese Steakhouse & Sushi Bowl",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/okinawa-japanese-steakhouse-sushi-bowl/",
+    "name": "Okinawa: Japanese Steakhouse & Sushi Bowl",
+    "phone": "(803) 226-0062",
+    "website": "https://www.facebook.com/profile.php?id=61558770060065",
+    "address": "1695 Richland Ave. East , Aiken, SC, United States, South Carolina",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61558770060065"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1714,
+   "lcp": 1714,
+   "tbt": 0,
+   "si": 1714,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "anshu-asian-caf",
+   "aiken-fish-house-and-oyster-bar",
+   "ferrandos-italian-pizzeria",
+   "jcs-seafood",
+   "neon-fig"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "jcs-seafood",
+    "name": "JC's Seafood",
+    "website": "https://jcseafood.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 13
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "palmetto-bowls": {
+  "slug": "palmetto-bowls",
+  "name": "Palmetto Bowls",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/palmetto-bowls/",
+    "name": "Palmetto Bowls",
+    "phone": "",
+    "website": "https://www.facebook.com/palmettobowls",
+    "address": "126 Dominion Dr Aiken, SC 29803",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/palmettobowls"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 0,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "romas-italian-restaurant": {
+  "slug": "romas-italian-restaurant",
+  "name": "Roma's Italian Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/romas_pizza/",
+    "name": "Roma's Italian Restaurant",
+    "phone": "803-643-7828",
+    "website": "https://www.facebook.com/pages/Roma-Pizza-Restaurant/656904887794306",
+    "address": "116 Coach Light Way Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/pages/Roma-Pizza-Restaurant/656904887794306"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1754,
+   "lcp": 1779,
+   "tbt": 0,
+   "si": 1754,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "ferrandos-italian-pizzeria",
+   "anshu-asian-caf",
+   "neon-fig",
+   "thai-jasmine-rice",
+   "the-village-caf"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "thai-jasmine-rice",
+    "name": "Thai Jasmine Rice",
+    "website": "https://jasminericesc.wixsite.com/kaogang",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   }
+  ]
+ },
+ "timeless-touch-events-llc": {
+  "slug": "timeless-touch-events-llc",
+  "name": "Timeless Touch Events",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/timeless-touch-events-llc-4358",
+    "name": "Timeless Touch Events, LLC",
+    "phone": "(803) 302-1990",
+    "website": "",
+    "address": "49 Branch Court, Beech Island SC 29842",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1052,
+   "lcp": 1802,
+   "tbt": 0,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "encore",
+   "simply-social-events-and-more-llc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "encore",
+    "name": "Encore",
+    "website": "https://www.encoreglobal.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 28,
+    "pageMB": 19.6,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 17
+   },
+   {
+    "slug": "simply-social-events-and-more-llc",
+    "name": "Simply Social Events & More LLC",
+    "website": "https://simplysocialsc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 75,
+    "pageMB": 2,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   }
+  ]
  }
 }

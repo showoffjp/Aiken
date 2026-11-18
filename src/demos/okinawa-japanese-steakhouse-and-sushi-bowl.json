@@ -1,0 +1,134 @@
+{
+  "name": "Okinawa Japanese Steakhouse & Sushi Bowl",
+  "short": "Okinawa",
+  "category": "Japanese Steakhouse & Sushi Bowls",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#121317",
+    "surface": "#1b1d23",
+    "ink": "#f5f1ea",
+    "muted": "#bdb6ad",
+    "primary": "#d33a2b",
+    "onPrimary": "#ffffff",
+    "accent": "#ff9db5",
+    "line": "#2c2f37"
+  },
+  "radius": 10,
+  "icon": "flame",
+  "contact": {
+    "phone": "(803) 226-0062",
+    "address": [
+      "1695 Richland Avenue East",
+      "Aiken, SC"
+    ],
+    "mapQuery": "Okinawa Japanese Steakhouse & Sushi Bowl, 1695 Richland Ave E, Aiken, SC",
+    "facebook": "https://www.facebook.com/profile.php?id=61558770060065"
+  },
+  "hero": {
+    "eyebrow": "Dine in or take out",
+    "title": "Japanese steakhouse *& sushi bowls*",
+    "lede": "A casual Japanese-style restaurant on Richland Avenue East, for dine-in or take-out.",
+    "points": [
+      "Dine in",
+      "Take out",
+      "Casual"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0062",
+      "href": "tel:+18032260062"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Japanese",
+      "label": "Steakhouse and sushi bowls"
+    },
+    {
+      "value": "Casual",
+      "label": "Japanese-style restaurant"
+    },
+    {
+      "value": "Dine in",
+      "label": "Or take out"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "eat",
+      "nav": "Eat with us",
+      "columns": 3,
+      "eyebrow": "Casual Japanese",
+      "title": "Your way, *every time*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Steakhouse",
+          "text": "Japanese steakhouse, in a casual room."
+        },
+        {
+          "icon": "fish",
+          "title": "Sushi bowls",
+          "text": "Right there in the name."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Take out",
+          "text": "Call ahead and pick up."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Call ahead for take-out or come dine in.",
+      "cta": {
+        "label": "Call (803) 226-0062",
+        "href": "tel:+18032260062"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "hideForm": true
+  },
+  "slug": "okinawa-japanese-steakhouse-and-sushi-bowl",
+  "added": "2026-11-18",
+  "prospect": "okinawa-japanese-steakhouse-and-sushi-bowl",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/okinawa-japanese-steakhouse-sushi-bowl/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "square",
+    "services": "tiles"
+  }
+}
