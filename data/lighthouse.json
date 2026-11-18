@@ -3208,5 +3208,61 @@
    "cls": 0,
    "at": "2026-11-18"
   }
+ },
+ "bottom-line-bakery": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1354,
+   "lcp": 1804,
+   "tbt": 0,
+   "si": 1354,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "pablos-mexican-restaurant": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1752,
+   "lcp": 1752,
+   "tbt": 0,
+   "si": 1752,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "victoria-mexican-restaurant": {
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1804,
+   "lcp": 2404,
+   "tbt": 0,
+   "si": 1804,
+   "cls": 0.025,
+   "at": "2026-11-18"
+  }
+ },
+ "zier-law-firm": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1719,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1719,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
  }
 }

@@ -9,7 +9,7 @@ import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
-import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, type Demo } from '../lib/demos';
+import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, tint, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
@@ -146,11 +146,12 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       <span class="head-progress" aria-hidden="true"></span>
     </header>
 
+    <div class="print-head" aria-hidden="true"><strong>{demo.name}</strong>{[contact.phone, contact.address?.join(', ')].filter(Boolean).map((x) => <span>{x}</span>)}</div>
     <main id="main">
       {archetype ? <Hero demo={demo} kind={archetype} /> : cine && cineImg ? (
         <section class="cine-hero" id="top" data-cine-hero>
           <div class="cine-stick">
-            <img class="cine-bg" src={cineImg.src} srcset={srcset(cineImg)} sizes="100vw" alt="" width={cineImg.width} height={cineImg.height} fetchpriority="high" />
+            <img class="cine-bg" style={tint(cineImg)} src={cineImg.src} srcset={srcset(cineImg)} sizes="100vw" alt="" width={cineImg.width} height={cineImg.height} fetchpriority="high" />
             <div class="cine-wash" aria-hidden="true"></div>
             <div class="cine-grain" aria-hidden="true"></div>
             <div class="wrap cine-copy">
@@ -169,7 +170,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       <section class="hero" id="top" data-variant={variant}>
         <Decor demo={demo} kind={variant} tone={variant === 'photo' || (variant === 'banner' && ratio('#ffffff', colors.primary) >= ratio('#111111', colors.primary)) ? 'dark' : 'light'} />
         {/* Behind a dark overlay on phones, so the 640px copy is plenty: a 50vw hint makes high-density phones pick it. */}
-        {variant === 'photo' && hero.image && <img class="bg" src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 50vw, 100vw" alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
+        {variant === 'photo' && hero.image && <img class="bg" style={tint(hero.image)} src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 50vw, 100vw" alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
         <div class="wrap">
           <div>
             {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
@@ -190,7 +191,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
               {hero.image ? (
                 <>
                   <div class={`frame ${hero.image.fit === 'contain' ? 'contain' : ''}`}>
-                    <img src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 85vw, 42vw" alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
+                    <img style={tint(hero.image)} src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 85vw, 42vw" alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
                   </div>
                   {demo.established && (
                     <div class="chip"><Icon name="award" size={26} /><span><strong>Since {demo.established}</strong>{demo.town}</span></div>
@@ -445,6 +446,28 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           }), { rootMargin: '-45% 0px -50% 0px' });
           [document.getElementById('top'), ...spyLinks.map((a) => document.querySelector(a.getAttribute('href')))].forEach((t) => t && spy.observe(t));
         }
+
+        // Menu chips: the group on screen is marked, and the bar scrolls to keep it in view.
+        document.querySelectorAll('[data-menu-jump]').forEach((bar) => {
+          const links = [...bar.querySelectorAll('a')];
+          const groups = links.map((a) => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+          if (!('IntersectionObserver' in window) || !groups.length) return;
+          const mark = (id) => links.forEach((a) => {
+            const on = a.getAttribute('href') === `#${id}`;
+            if (on) { a.setAttribute('aria-current', 'true'); bar.scrollTo({ left: a.offsetLeft - 16, behavior: 'smooth' }); } else a.removeAttribute('aria-current');
+          });
+          const gio = new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) mark(e.target.id); }), { rootMargin: '-35% 0px -55% 0px' });
+          groups.forEach((g) => gio.observe(g));
+        });
+
+        // Print just the menu (or price list), headed with the business's name, phone and address.
+        document.querySelectorAll('[data-print-menu]').forEach((b) => b.addEventListener('click', () => {
+          const sec = b.closest('section');
+          sec.classList.add('print-this'); root.classList.add('print-menu');
+          const done = () => { sec.classList.remove('print-this'); root.classList.remove('print-menu'); removeEventListener('afterprint', done); };
+          addEventListener('afterprint', done);
+          print();
+        }));
 
         // Photos open full screen: arrows, swipe and the keyboard move between them.
         const lb = document.querySelector('[data-lightbox]');

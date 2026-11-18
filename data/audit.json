@@ -13492,7 +13492,7 @@
   "url": "http://ordervictoriamexicangrillandbarrestaurant.com/",
   "finalUrl": "https://lodge-coco.com/",
   "status": 0,
-  "state": "no-dns",
+  "state": "redirects-away",
   "error": "curl: (56) CONNECT tunnel failed, response 502",
   "score": null,
   "findings": [],
