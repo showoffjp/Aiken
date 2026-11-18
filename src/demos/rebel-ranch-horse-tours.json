@@ -7,10 +7,19 @@
   "group": "Stay & Play",
   "town": "Warrenville, SC",
   "look": "warm",
-  "fonts": { "display": "bitter", "body": "source-sans-3" },
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "source-sans-3"
+  },
   "colors": {
-    "bg": "#f8f3e9", "surface": "#fffdf8", "ink": "#2a1f17", "muted": "#6c5d50",
-    "primary": "#7a4a22", "onPrimary": "#fff8ee", "accent": "#9fb37a", "line": "#e8dcc7"
+    "bg": "#f8f3e9",
+    "surface": "#fffdf8",
+    "ink": "#2a1f17",
+    "muted": "#6c5d50",
+    "primary": "#7a4a22",
+    "onPrimary": "#fff8ee",
+    "accent": "#9fb37a",
+    "line": "#e8dcc7"
   },
   "radius": 12,
   "icon": "mountain-snow",
@@ -18,7 +27,9 @@
     "phone": "(803) 640-2765",
     "phoneLabel": "Call Annette",
     "email": "annettehbeeler@rebelranchhorsetours.com",
-    "address": ["Warrenville, SC 29851"],
+    "address": [
+      "Warrenville, SC 29851"
+    ],
     "mapQuery": "Rebel Ranch Horse Tours, Warrenville, SC 29851"
   },
   "hero": {
@@ -26,47 +37,90 @@
     "eyebrow": "Come ride with us",
     "title": "See Aiken's outdoors *from the saddle*",
     "lede": "Whether you are visiting for the weekend or you live nearby, ride one of our user-friendly horses with Annette Beeler and experience nature in a unique way. No prior riding experience needed.",
-    "cta": { "label": "Call to reserve a horse", "href": "tel:+18036402765" },
-    "cta2": { "label": "Ride details", "href": "#details" }
+    "cta": {
+      "label": "Call to reserve a horse",
+      "href": "tel:+18036402765"
+    },
+    "cta2": {
+      "label": "Ride details",
+      "href": "#details"
+    }
   },
   "facts": [
-    { "value": "All levels", "label": "Rides are tailored to your experience" },
-    { "value": "No experience", "label": "Needed to take a ride with us" },
-    { "value": "Your horse", "label": "Or one of ours: bring your own if you like" }
+    {
+      "value": "All levels",
+      "label": "Rides are tailored to your experience"
+    },
+    {
+      "value": "No experience",
+      "label": "Needed to take a ride with us"
+    },
+    {
+      "value": "Your horse",
+      "label": "Or one of ours: bring your own if you like"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "details", "nav": "Details", "columns": 3,
+      "type": "services",
+      "id": "details",
+      "nav": "Details",
+      "columns": 3,
       "eyebrow": "Before you ride",
       "title": "What to *know*",
       "items": [
-        { "icon": "sliders-horizontal", "title": "Tailored to you", "text": "Every ride is matched to your level of experience, from first-timers to seasoned riders." },
-        { "icon": "weight", "title": "Weight limit", "text": "There is a 250 lb. weight limit for riders." },
-        { "icon": "file-signature", "title": "Liability waiver", "text": "All riders are required to fill out a liability waiver before the ride." }
+        {
+          "icon": "sliders-horizontal",
+          "title": "Tailored to you",
+          "text": "Every ride is matched to your level of experience, from first-timers to seasoned riders."
+        },
+        {
+          "icon": "weight",
+          "title": "Weight limit",
+          "text": "There is a 250 lb. weight limit for riders."
+        },
+        {
+          "icon": "file-signature",
+          "title": "Liability waiver",
+          "text": "All riders are required to fill out a liability waiver before the ride."
+        }
       ]
     },
     {
-      "type": "story", "id": "about", "nav": "About",
+      "type": "story",
+      "id": "about",
+      "nav": "About",
       "eyebrow": "Your guide",
       "title": "Riding with *Annette*",
       "body": [
         "Annette Beeler has many years of experience and has always wanted to offer tourists and locals the chance to enjoy the outdoors on horseback.",
         "You do not need any prior horseback riding experience, and we encourage riders at all levels to take a ride with us. While we have many horses, you may use your own."
       ],
-      "quote": { "text": "We are both novice riders but felt very comfortable with the horses and trails we explored with her. She was very friendly and welcoming, and our ride was exactly what we were looking for.", "by": "A guest" }
+      "quote": {
+        "text": "We are both novice riders but felt very comfortable with the horses and trails we explored with her. She was very friendly and welcoming, and our ride was exactly what we were looking for.",
+        "by": "A guest"
+      }
     },
     {
       "type": "band",
       "title": "Ready to ride?",
       "text": "Please call for information on reserving a horse.",
-      "cta": { "label": "Call (803) 640-2765", "href": "tel:+18036402765" }
+      "cta": {
+        "label": "Call (803) 640-2765",
+        "href": "tel:+18036402765"
+      }
     }
   ],
   "visit": {
     "title": "Reserve *a horse*",
     "intro": "Call, or send a note and include a contact number.",
     "formTitle": "Reserve a horse",
-    "formTopics": ["First-time rider", "Some experience", "Experienced rider", "Bringing my own horse"]
+    "formTopics": [
+      "First-time rider",
+      "Some experience",
+      "Experienced rider",
+      "Bringing my own horse"
+    ]
   },
   "source": {
     "url": "https://www.rebelranchhorsetours.com/",
@@ -75,5 +129,14 @@
       "Page titles shown in Google are builder defaults (\"services\", \"contact\")",
       "Very little for Google to read: the key details are spread over nearly empty pages"
     ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "rows",
+    "facts": "big",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "square"
   }
 }

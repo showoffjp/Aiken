@@ -1,0 +1,179 @@
+---
+// Distinct hero compositions, chosen per concept with style.hero, so concepts
+// do not all open the same way. Every variant uses only the concept's own
+// content: title, lede, calls to action, points, facts, contact, menu or services.
+import Icon from '../Icon.astro';
+import { title, telHref, type Demo } from '../../lib/demos';
+interface Props { demo: Demo; kind: string }
+const { demo, kind } = Astro.props;
+const { hero, contact } = demo;
+const short = demo.short || demo.name;
+const town = demo.town.replace(/,\s*SC$/i, '');
+
+// Words for marquees and lists, from what the business actually offers.
+const services = (demo.sections.find((s: any) => s.type === 'services') as any)?.items?.map((i: any) => i.title) || [];
+const menuGroup = (demo.sections.find((s: any) => s.type === 'menu') as any)?.groups?.[0];
+const words: string[] = (hero.points?.length ? hero.points : services.length ? services : (demo.facts || []).map((f) => f.value)).slice(0, 8);
+const board: { name: string; price?: string }[] = menuGroup?.items?.slice(0, 6).map((i: any) => ({ name: i.name, price: i.price })) || (services.length ? services : words).slice(0, 6).map((n: string) => ({ name: n }));
+const boardTitle = menuGroup?.title || 'On the board';
+const hours = contact.hours?.slice(0, 2) || [];
+const facts = demo.facts || [];
+const est = demo.established ? `Est. ${demo.established}` : '';
+
+// Giant type sized to the words it has to hold: the longest word always fits
+// the page width, so a long name never runs off the edge.
+const UPPER: Record<string, number> = { unbounded: 0.98, anybody: 0.8, syne: 0.8, archivo: 0.74, 'space-grotesk': 0.72, 'bricolage-grotesque': 0.7, fredoka: 0.7, outfit: 0.7, oswald: 0.56, 'big-shoulders-display': 0.52 };
+const LOWER: Record<string, number> = { cormorant: 0.46, unbounded: 0.8, anybody: 0.62, syne: 0.64 };
+const plain = (t: string) => t.replace(/\*/g, '');
+const words_ = (t: string) => plain(t).split(/\s+/).filter(Boolean);
+const longest = (t: string) => Math.max(...words_(t).map((w) => w.length));
+const fit = (chars: number, cw: number) => `calc(min(100vw - 2 * var(--gutter), var(--wrap)) / ${(chars * cw * 1.06).toFixed(2)})`;
+const cwU = UPPER[demo.fonts.display] ?? 0.72, cwL = LOWER[demo.fonts.display] ?? 0.56;
+const tl = plain(hero.title).length;
+const megaCap = tl <= 20 ? 9 : tl <= 34 ? 7 : 5.6;
+const mega = `font-size: min(${megaCap}rem, ${fit(longest(hero.title), cwU)})`;
+const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5rem, ${fit(longest(short), cwL)})`;
+---
+{kind === 'poster' && (
+  <section class="hero hx hx-poster" id="top">
+    <div class="wrap">
+      <div class="hx-top">{hero.eyebrow && <span class="hx-tag">{hero.eyebrow}</span>}<span class="hx-meta">{[est, town].filter(Boolean).join(' · ')}</span></div>
+      <h1 class="hx-mega" style={mega} set:html={title(hero.title)} />
+      <div class="hx-foot">
+        <p class="lede">{hero.lede}</p>
+        <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+      </div>
+    </div>
+    {words.length > 0 && (
+      <div class="hx-marquee" aria-hidden="true"><div class="hx-track">{[...words, ...words, ...words, ...words].map((w) => <span>{w}<Icon name="sparkle" size={20} /></span>)}</div></div>
+    )}
+  </section>
+)}
+
+{kind === 'bento' && (
+  <section class="hero hx hx-bento" id="top">
+    <div class="wrap">
+      <div class="bento">
+        <div class="b-main">
+          {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
+          <h1 set:html={title(hero.title)} />
+          <p class="lede">{hero.lede}</p>
+          <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+        </div>
+        <div class="b-icon" aria-hidden="true"><Icon name={demo.icon} size={64} stroke={1.5} /></div>
+        {contact.phone && <a class="b-call" href={telHref(contact.phone)}><small>Call us</small><strong>{contact.phone}</strong><Icon name="arrow-up-right" size={22} /></a>}
+        {hours.length > 0 && <div class="b-hours"><small>Hours</small>{hours.map(([d, t]) => <span><b>{d}</b>{t}</span>)}</div>}
+        {contact.address && <div class="b-where"><Icon name="map-pin" size={20} /><small>Find us</small><span>{contact.address[0]}</span><span>{contact.address[1] || town}</span></div>}
+        {facts[0] && <div class="b-fact"><strong>{facts[0].value}</strong><span>{facts[0].label}</span></div>}
+      </div>
+    </div>
+  </section>
+)}
+
+{kind === 'board' && (
+  <section class="hero hx hx-board" id="top">
+    <div class="wrap">
+      <div class="hx-copy">
+        {hero.eyebrow && <div class="hx-hand">{hero.eyebrow}</div>}
+        <h1 set:html={title(hero.title)} />
+        <p class="lede">{hero.lede}</p>
+        <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+      </div>
+      <div class="hx-slate">
+        <p class="hx-hand hx-slate-title">{boardTitle}</p>
+        <ul>{board.map((b) => <li><span>{b.name}</span><i></i>{b.price && <b>{/^\d/.test(b.price) ? `$${b.price}` : b.price}</b>}</li>)}</ul>
+        <p class="hx-hand hx-slate-sign">— {short}</p>
+      </div>
+    </div>
+  </section>
+)}
+
+{kind === 'collage' && (
+  <section class="hero hx hx-collage" id="top">
+    <div class="hx-shapes" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wrap">
+      <div class="hx-copy">
+        {hero.eyebrow && <div class="hx-sticker">{hero.eyebrow}</div>}
+        <h1 set:html={title(hero.title)} />
+        <p class="lede">{hero.lede}</p>
+        <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+      </div>
+      <div class="hx-blob-wrap" aria-hidden="true">
+        <div class="hx-blob"><Icon name={demo.icon} size={96} stroke={1.4} /></div>
+        {words.slice(0, 4).map((w, k) => <span class={`hx-chip c${k}`}>{w}</span>)}
+      </div>
+    </div>
+    <svg class="hx-wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C 240 90 480 -10 720 40 S 1200 90 1440 40 V80 H0 Z" /></svg>
+  </section>
+)}
+
+{kind === 'blueprint' && (
+  <section class="hero hx hx-blueprint" id="top">
+    <div class="wrap">
+      <div class="hx-copy">
+        <div class="hx-code">{[short.toUpperCase(), town.toUpperCase(), est.toUpperCase()].filter(Boolean).join(' / ')}</div>
+        <h1 set:html={title(hero.title)} />
+        <p class="lede">{hero.lede}</p>
+        <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+      </div>
+      <div class="hx-plan" aria-hidden="true">
+        <div class="hx-draw"><Icon name={demo.icon} size={180} stroke={0.9} /></div>
+        <span class="tick t1"></span><span class="tick t2"></span><span class="tick t3"></span><span class="tick t4"></span>
+      </div>
+      {facts.length > 0 && (
+        <dl class="hx-spec">{facts.slice(0, 3).map((f, k) => <div><dt>SPEC {String(k + 1).padStart(2, '0')}</dt><dd><b>{f.value}</b>{f.label}</dd></div>)}</dl>
+      )}
+    </div>
+  </section>
+)}
+
+{kind === 'magazine' && (
+  <section class="hero hx hx-magazine" id="top">
+    <div class="wrap">
+      <div class="hx-mast-line"><span>{est || 'Local since day one'}</span><span>{demo.category}</span><span>{town}, South Carolina</span></div>
+      <p class="hx-masthead" aria-hidden="true" style={mast}>{short}</p>
+      <div class="hx-cols">
+        <p class="lede hx-drop">{hero.lede}</p>
+        <div class="hx-head">
+          {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
+          <h1 set:html={title(hero.title)} />
+          <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+        </div>
+        {facts.length > 0 && <ul class="hx-side">{facts.slice(0, 3).map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}
+      </div>
+    </div>
+  </section>
+)}
+
+{kind === 'diagonal' && (
+  <section class="hero hx hx-diagonal" id="top">
+    <div class="hx-plane" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hx-copy">
+        {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
+        <h1 set:html={title(hero.title)} />
+        <p class="lede">{hero.lede}</p>
+        <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+        {hero.points && <ul class="points">{hero.points.map((p) => <li><Icon name="check" size={18} stroke={2.6} />{p}</li>)}</ul>}
+      </div>
+      <div class="hx-orbit" aria-hidden="true">
+        <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+        <div class="hx-core"><Icon name={demo.icon} size={84} stroke={1.5} /></div>
+      </div>
+    </div>
+  </section>
+)}
+
+{kind === 'spotlight' && (
+  <section class="hero hx hx-spotlight" id="top">
+    <div class="hx-glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hx-badge" aria-hidden="true"><Icon name={demo.icon} size={34} stroke={1.6} /></div>
+      {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
+      <h1 set:html={title(hero.title)} />
+      <p class="lede">{hero.lede}</p>
+      <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
+      {words.length > 0 && <ul class="hx-pills">{words.slice(0, 5).map((w) => <li>{w}</li>)}</ul>}
+    </div>
+  </section>
+)}

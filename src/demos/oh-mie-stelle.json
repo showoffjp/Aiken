@@ -10,7 +10,8 @@
   "look": "bold",
   "fonts": {
     "display": "bricolage-grotesque",
-    "body": "dm-sans"
+    "body": "dm-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fff8ef",
@@ -148,5 +149,14 @@
       "Footer reads © 2023",
       "Hours are not listed, only the days the bakery is open"
     ]
+  },
+  "style": {
+    "hero": "collage",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "flip",
+    "buttons": "shadow"
   }
 }

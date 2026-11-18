@@ -9,7 +9,7 @@
   "established": "2006",
   "look": "editorial",
   "fonts": {
-    "display": "fraunces",
+    "display": "bodoni-moda",
     "body": "manrope"
   },
   "colors": {
@@ -293,5 +293,14 @@
       "118 of 122 images have no text description for screen readers",
       "An automated check finds 35 serious accessibility problems, mostly text too faint to read"
     ]
+  },
+  "style": {
+    "frame": "offset",
+    "flip": true,
+    "services": "rows",
+    "facts": "big",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square"
   }
 }

@@ -8,10 +8,20 @@
   "town": "Aiken, SC",
   "established": "1989",
   "look": "editorial",
-  "fonts": { "display": "lora", "body": "source-sans-3" },
+  "fonts": {
+    "display": "archivo",
+    "body": "source-sans-3",
+    "accent": "jetbrains-mono"
+  },
   "colors": {
-    "bg": "#f7f3ec", "surface": "#fffdf9", "ink": "#211a17", "muted": "#6a5f57",
-    "primary": "#7b1f1f", "onPrimary": "#fff8f0", "accent": "#c39a55", "line": "#e2d9cb"
+    "bg": "#f7f3ec",
+    "surface": "#fffdf9",
+    "ink": "#211a17",
+    "muted": "#6a5f57",
+    "primary": "#7b1f1f",
+    "onPrimary": "#fff8f0",
+    "accent": "#c39a55",
+    "line": "#e2d9cb"
   },
   "radius": 2,
   "icon": "house",
@@ -21,7 +31,10 @@
     "phone2": "(803) 645-5302",
     "phone2Label": "Cell",
     "email": "mitch@mitchjohnsonconstruction.com",
-    "address": ["26 Commerce Court", "Aiken, SC 29803"],
+    "address": [
+      "26 Commerce Court",
+      "Aiken, SC 29803"
+    ],
     "mapQuery": "26 Commerce Court, Aiken, SC 29803"
   },
   "hero": {
@@ -29,29 +42,68 @@
     "eyebrow": "Aiken, South Carolina",
     "title": "Making dreams a reality *since 1989*",
     "lede": "Elegant single-family homes, horse farms, barns and equestrian estates, built without compromise on quality or craftsmanship.",
-    "cta": { "label": "Call (803) 642-8388", "href": "tel:+18036428388" },
-    "cta2": { "label": "See our work", "href": "#work" }
+    "cta": {
+      "label": "Call (803) 642-8388",
+      "href": "tel:+18036428388"
+    },
+    "cta2": {
+      "label": "See our work",
+      "href": "#work"
+    }
   },
   "facts": [
-    { "value": "1989", "label": "Building in Aiken since" },
-    { "value": "Homes", "label": "Elegant single-family residences" },
-    { "value": "Horse farms", "label": "Barns and equestrian estates" },
-    { "value": "One on one", "label": "Our project designer works directly with you" }
+    {
+      "value": "1989",
+      "label": "Building in Aiken since"
+    },
+    {
+      "value": "Homes",
+      "label": "Elegant single-family residences"
+    },
+    {
+      "value": "Horse farms",
+      "label": "Barns and equestrian estates"
+    },
+    {
+      "value": "One on one",
+      "label": "Our project designer works directly with you"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "build", "nav": "What we build", "columns": 4,
+      "type": "services",
+      "id": "build",
+      "nav": "What we build",
+      "columns": 4,
       "eyebrow": "What we build",
       "title": "Homes and *horse country*",
       "items": [
-        { "icon": "house", "title": "Custom homes", "text": "Elegant single-family homes designed around the way you live." },
-        { "icon": "warehouse", "title": "Barns", "text": "Working barns with stalls, aisles and tack rooms built to last." },
-        { "icon": "fence", "title": "Horse farms", "text": "Complete farms planned for horses and the people who care for them." },
-        { "icon": "trees", "title": "Equestrian estates", "text": "Home and stable together, from the first sketch to the final walk-through." }
+        {
+          "icon": "house",
+          "title": "Custom homes",
+          "text": "Elegant single-family homes designed around the way you live."
+        },
+        {
+          "icon": "warehouse",
+          "title": "Barns",
+          "text": "Working barns with stalls, aisles and tack rooms built to last."
+        },
+        {
+          "icon": "fence",
+          "title": "Horse farms",
+          "text": "Complete farms planned for horses and the people who care for them."
+        },
+        {
+          "icon": "trees",
+          "title": "Equestrian estates",
+          "text": "Home and stable together, from the first sketch to the final walk-through."
+        }
       ]
     },
     {
-      "type": "story", "id": "about", "nav": "About",
+      "type": "story",
+      "id": "about",
+      "nav": "About",
       "eyebrow": "About us",
       "title": "Setting the standard in Aiken for *over thirty years*",
       "body": [
@@ -60,36 +112,83 @@
       ]
     },
     {
-      "type": "gallery", "id": "work", "nav": "Our work",
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
       "eyebrow": "Portfolio",
       "title": "Recently *built*",
       "intro": "New construction homes and equestrian properties around Aiken.",
       "images": [
-        { "src": "/demo-assets/mitch-johnson-construction/farmhouse.webp", "alt": "White farmhouse with a full-width front porch" },
-        { "src": "/demo-assets/mitch-johnson-construction/kitchen.webp", "alt": "Kitchen with a wood island and pendant lights" },
-        { "src": "/demo-assets/mitch-johnson-construction/barn-home.webp", "alt": "Red board-and-batten barn home" },
-        { "src": "/demo-assets/mitch-johnson-construction/stalls.webp", "alt": "Barn aisle lined with horse stalls" },
-        { "src": "/demo-assets/mitch-johnson-construction/ranch.webp", "alt": "Ranch home with an attached barn" },
-        { "src": "/demo-assets/mitch-johnson-construction/staircase.webp", "alt": "Staircase with white balusters and wood treads" },
-        { "src": "/demo-assets/mitch-johnson-construction/estate.webp", "alt": "Estate home with a gravel drive" },
-        { "src": "/demo-assets/mitch-johnson-construction/living-room.webp", "alt": "Living room with a brick fireplace" },
-        { "src": "/demo-assets/mitch-johnson-construction/garage.webp", "alt": "White home with a three-car garage" },
-        { "src": "/demo-assets/mitch-johnson-construction/kitchen-island.webp", "alt": "Kitchen island with granite counters" },
-        { "src": "/demo-assets/mitch-johnson-construction/kitchen-bar.webp", "alt": "Kitchen with bar seating" },
-        { "src": "/demo-assets/mitch-johnson-construction/barn-aisle.webp", "alt": "Timber-framed barn interior" }
+        {
+          "src": "/demo-assets/mitch-johnson-construction/farmhouse.webp",
+          "alt": "White farmhouse with a full-width front porch"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/kitchen.webp",
+          "alt": "Kitchen with a wood island and pendant lights"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/barn-home.webp",
+          "alt": "Red board-and-batten barn home"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/stalls.webp",
+          "alt": "Barn aisle lined with horse stalls"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/ranch.webp",
+          "alt": "Ranch home with an attached barn"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/staircase.webp",
+          "alt": "Staircase with white balusters and wood treads"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/estate.webp",
+          "alt": "Estate home with a gravel drive"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/living-room.webp",
+          "alt": "Living room with a brick fireplace"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/garage.webp",
+          "alt": "White home with a three-car garage"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/kitchen-island.webp",
+          "alt": "Kitchen island with granite counters"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/kitchen-bar.webp",
+          "alt": "Kitchen with bar seating"
+        },
+        {
+          "src": "/demo-assets/mitch-johnson-construction/barn-aisle.webp",
+          "alt": "Timber-framed barn interior"
+        }
       ]
     },
     {
       "type": "band",
       "title": "Ready for a new home, or a barn to go with it?",
       "text": "Find out how we can make your dream of a beautiful estate a reality.",
-      "cta": { "label": "Call (803) 642-8388", "href": "tel:+18036428388" }
+      "cta": {
+        "label": "Call (803) 642-8388",
+        "href": "tel:+18036428388"
+      }
     }
   ],
   "visit": {
     "title": "Let's talk about *your plans*",
     "formTitle": "Tell us what you'd like to build",
-    "formTopics": ["A new home", "A barn", "A horse farm", "An equestrian estate", "Something else"]
+    "formTopics": [
+      "A new home",
+      "A barn",
+      "A horse farm",
+      "An equestrian estate",
+      "Something else"
+    ]
   },
   "source": {
     "url": "https://www.mitchjohnsonconstruction.com/",
@@ -101,5 +200,15 @@
       "No link previews or favicon",
       "For a custom home builder, the portfolio is the pitch: it deserves full-size photographs"
     ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "rows",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square"
   }
 }

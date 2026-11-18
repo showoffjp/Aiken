@@ -7,19 +7,52 @@
   "group": "Health & Beauty",
   "town": "Aiken, SC",
   "look": "boutique",
-  "fonts": { "display": "playfair-display", "body": "nunito-sans" },
+  "fonts": {
+    "display": "syne",
+    "body": "nunito-sans"
+  },
   "colors": {
-    "bg": "#f7f5ef", "surface": "#ffffff", "ink": "#22302b", "muted": "#65706a",
-    "primary": "#476a5b", "onPrimary": "#ffffff", "accent": "#d7a394", "line": "#e2ded3"
+    "bg": "#f7f5ef",
+    "surface": "#ffffff",
+    "ink": "#22302b",
+    "muted": "#65706a",
+    "primary": "#476a5b",
+    "onPrimary": "#ffffff",
+    "accent": "#d7a394",
+    "line": "#e2ded3"
   },
   "radius": 0,
   "icon": "hand-heart",
   "contact": {
     "phone": "(803) 998-0405",
     "phoneLabel": "Book by phone",
-    "address": ["1204 Whiskey Road, Suite E", "Aiken, SC 29801"],
+    "address": [
+      "1204 Whiskey Road, Suite E",
+      "Aiken, SC 29801"
+    ],
     "mapQuery": "1204 Whiskey Road, Suite E, Aiken, SC",
-    "hours": [["Monday", "12:00 – 7:00 pm"], ["Tuesday", "10:00 am – 7:00 pm"], ["Wednesday", "Closed"], ["Thursday – Saturday", "10:00 am – 7:00 pm"], ["Sunday", "Closed"]],
+    "hours": [
+      [
+        "Monday",
+        "12:00 – 7:00 pm"
+      ],
+      [
+        "Tuesday",
+        "10:00 am – 7:00 pm"
+      ],
+      [
+        "Wednesday",
+        "Closed"
+      ],
+      [
+        "Thursday – Saturday",
+        "10:00 am – 7:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
     "hoursNote": "By appointment only. Parking is in the rear; take the outside stair to the second level, middle suite."
   },
   "hero": {
@@ -27,66 +60,160 @@
     "eyebrow": "Wisdom in healing hands",
     "title": "A massage blended *just for you*",
     "lede": "Custom massage from a licensed massage therapist and registered nurse with more than thirty years in health care. A full 60, 90 or 120 minutes on the table.",
-    "cta": { "label": "Book an appointment", "href": "#visit" },
-    "cta2": { "label": "Services & prices", "href": "#services" }
+    "cta": {
+      "label": "Book an appointment",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Services & prices",
+      "href": "#services"
+    }
   },
   "facts": [
-    { "value": "30+ years", "label": "Nancy's experience as a Registered Nurse" },
-    { "value": "Licensed", "label": "Massage therapist, certified ABMP member" },
-    { "value": "Full time", "label": "A true 60, 90 or 120 minutes on the table" },
-    { "value": "Gift certificates", "label": "In various amounts or for selected services" }
+    {
+      "value": "30+ years",
+      "label": "Nancy's experience as a Registered Nurse"
+    },
+    {
+      "value": "Licensed",
+      "label": "Massage therapist, certified ABMP member"
+    },
+    {
+      "value": "Full time",
+      "label": "A true 60, 90 or 120 minutes on the table"
+    },
+    {
+      "value": "Gift certificates",
+      "label": "In various amounts or for selected services"
+    }
   ],
   "sections": [
     {
-      "type": "menu", "id": "services", "nav": "Services",
+      "type": "menu",
+      "id": "services",
+      "nav": "Services",
       "eyebrow": "Service menu",
       "title": "Services and *add-ons*",
       "intro": "There is no need to choose a style in advance. Your therapist will discuss your goals and suggest the right blend.",
       "groups": [
-        { "title": "Custom massage", "items": [
-          { "name": "60 minutes", "price": "$90" },
-          { "name": "90 minutes", "price": "$130" },
-          { "name": "120 minutes", "price": "$170" },
-          { "name": "Chair massage", "desc": "15 or 30 minute sessions, fully clothed, in a specially designed chair." }
-        ] },
-        { "title": "Add-ons", "note": "With custom massage", "items": [
-          { "name": "Aromatherapy", "desc": "Five lotions made with pure essential oils: Bliss, Calming, Energy, Renewal and Serenity.", "price": "$10" },
-          { "name": "Silicone cupping", "desc": "A traditional treatment that can help resolve chronic muscle tightness and pain faster than massage alone.", "price": "$15" },
-          { "name": "CBD massage", "desc": "CBD massage oil to help reduce inflammation and soothe muscles and joints.", "price": "$20" }
-        ] }
+        {
+          "title": "Custom massage",
+          "items": [
+            {
+              "name": "60 minutes",
+              "price": "$90"
+            },
+            {
+              "name": "90 minutes",
+              "price": "$130"
+            },
+            {
+              "name": "120 minutes",
+              "price": "$170"
+            },
+            {
+              "name": "Chair massage",
+              "desc": "15 or 30 minute sessions, fully clothed, in a specially designed chair."
+            }
+          ]
+        },
+        {
+          "title": "Add-ons",
+          "note": "With custom massage",
+          "items": [
+            {
+              "name": "Aromatherapy",
+              "desc": "Five lotions made with pure essential oils: Bliss, Calming, Energy, Renewal and Serenity.",
+              "price": "$10"
+            },
+            {
+              "name": "Silicone cupping",
+              "desc": "A traditional treatment that can help resolve chronic muscle tightness and pain faster than massage alone.",
+              "price": "$15"
+            },
+            {
+              "name": "CBD massage",
+              "desc": "CBD massage oil to help reduce inflammation and soothe muscles and joints.",
+              "price": "$20"
+            }
+          ]
+        }
       ],
       "footnote": "Standard prices as listed on the current site. Be sure to ask about promotional rates."
     },
     {
-      "type": "services", "id": "styles", "nav": "Massage styles",
+      "type": "services",
+      "id": "styles",
+      "nav": "Massage styles",
       "eyebrow": "Massage styles",
       "title": "The right style for *what you need*",
       "items": [
-        { "icon": "waves", "title": "Swedish massage", "text": "Smooth, gliding strokes with firm but gentle pressure to promote relaxation and ease muscle tension." },
-        { "icon": "layers", "title": "Deep tissue massage", "text": "Relieves severe tension in the muscles and connective tissue below the surface." },
-        { "icon": "target", "title": "Trigger point therapy", "text": "Releases tension around specific points. Great for cramped and overused muscles." },
-        { "icon": "armchair", "title": "Chair massage", "text": "Performed with your clothes on. Excellent for relaxation." },
-        { "icon": "sparkles", "title": "Reiki", "text": "A hands-on technique intended to bring a state of balance." },
-        { "icon": "activity", "title": "Sports massage", "text": "For bodies that work hard." }
+        {
+          "icon": "waves",
+          "title": "Swedish massage",
+          "text": "Smooth, gliding strokes with firm but gentle pressure to promote relaxation and ease muscle tension."
+        },
+        {
+          "icon": "layers",
+          "title": "Deep tissue massage",
+          "text": "Relieves severe tension in the muscles and connective tissue below the surface."
+        },
+        {
+          "icon": "target",
+          "title": "Trigger point therapy",
+          "text": "Releases tension around specific points. Great for cramped and overused muscles."
+        },
+        {
+          "icon": "armchair",
+          "title": "Chair massage",
+          "text": "Performed with your clothes on. Excellent for relaxation."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Reiki",
+          "text": "A hands-on technique intended to bring a state of balance."
+        },
+        {
+          "icon": "activity",
+          "title": "Sports massage",
+          "text": "For bodies that work hard."
+        }
       ]
     },
     {
-      "type": "story", "id": "about", "nav": "About",
+      "type": "story",
+      "id": "about",
+      "nav": "About",
       "eyebrow": "About Nancy",
       "title": "A nurse's knowledge, *a therapist's hands*",
       "body": [
         "Nancy has been a practicing health care professional for over thirty years as a Registered Nurse. She is a graduate of the Connecticut Center for Massage Therapy, a Licensed Massage Therapist, and a Certified Member of the Associated Bodywork & Massage Professionals.",
         "Her bodywork includes Swedish massage, deep-tissue massage, trigger-point massage, sports massage, silicone cupping, aromatherapy and CBD massage."
       ],
-      "list": ["Decreased anxiety", "Enhanced sleep quality", "Greater energy", "Improved concentration", "Increased circulation", "Reduced fatigue"]
+      "list": [
+        "Decreased anxiety",
+        "Enhanced sleep quality",
+        "Greater energy",
+        "Improved concentration",
+        "Increased circulation",
+        "Reduced fatigue"
+      ]
     },
     {
-      "type": "quotes", "id": "reviews", "nav": "Reviews",
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
       "eyebrow": "Kind words",
       "title": "\"I truly felt like *a new woman*\"",
       "items": [
-        { "text": "I very much enjoyed my massage, very relaxing, and Nancy did a great job. I will definitely be back and will tell all my friends.", "by": "Karen D." },
-        { "text": "Massage with Nancy was awesome!", "by": "Joanne L." }
+        {
+          "text": "I very much enjoyed my massage, very relaxing, and Nancy did a great job. I will definitely be back and will tell all my friends.",
+          "by": "Karen D."
+        },
+        {
+          "text": "Massage with Nancy was awesome!",
+          "by": "Joanne L."
+        }
       ]
     }
   ],
@@ -94,7 +221,13 @@
     "title": "Book *an appointment*",
     "intro": "Online appointments are accepted at least 24 hours in advance.",
     "formTitle": "Request an appointment",
-    "formTopics": ["Custom massage, 60 minutes", "Custom massage, 90 minutes", "Custom massage, 120 minutes", "Chair massage", "Gift certificate"]
+    "formTopics": [
+      "Custom massage, 60 minutes",
+      "Custom massage, 90 minutes",
+      "Custom massage, 120 minutes",
+      "Chair massage",
+      "Gift certificate"
+    ]
   },
   "source": {
     "url": "http://wyvernhall.com/TheMassageMaven/",
@@ -105,5 +238,14 @@
       "The posted hours contain typos (several days open at \"10:00 p.m.\")",
       "No description or business details for Google"
     ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "pills",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "pill"
   }
 }

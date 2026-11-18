@@ -6,8 +6,9 @@
   "town": "Aiken, SC",
   "look": "bold",
   "fonts": {
-    "display": "bricolage-grotesque",
-    "body": "dm-sans"
+    "display": "big-shoulders-display",
+    "body": "dm-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fbf7ee",
@@ -136,5 +137,13 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "board",
+    "facts": "ticker",
+    "divider": "zigzag",
+    "heads": "center",
+    "motion": "slide",
+    "buttons": "pill"
   }
 }

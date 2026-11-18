@@ -34,8 +34,14 @@
     ],
     "mapQuery": "3400 Wagener Road, Aiken, SC 29801",
     "hours": [
-      ["Monday – Saturday", "10:00 am – 6:00 pm"],
-      ["Sunday", "Closed"]
+      [
+        "Monday – Saturday",
+        "10:00 am – 6:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
     ],
     "hoursNote": "Closed July 4th, Thanksgiving, Christmas and New Year's Day. Cash and checks accepted.",
     "facebook": "https://www.facebook.com/tailoredtoursofaiken"
@@ -124,12 +130,36 @@
       "eyebrow": "Beyond the tours",
       "title": "Made to *fit your group*",
       "items": [
-        { "icon": "car", "title": "Private driving tours", "text": "Your party of one to seven in a Kia Carnival minivan, at your pace." },
-        { "icon": "footprints", "title": "Walking tours", "text": "Daytime walks of downtown and evening ghost tours." },
-        { "icon": "school", "title": "School presentations", "text": "Aiken history for classrooms, with hands-on antiques." },
-        { "icon": "church", "title": "Church & social groups", "text": "Presentations on historic Aiken for clubs and congregations." },
-        { "icon": "gift", "title": "Gift certificates", "text": "Always available, for any tour." },
-        { "icon": "star", "title": "Superstar Sojourner", "text": "Each paid guest earns a punch; after nine, the tenth guest rides free, any tour, any time of year." }
+        {
+          "icon": "car",
+          "title": "Private driving tours",
+          "text": "Your party of one to seven in a Kia Carnival minivan, at your pace."
+        },
+        {
+          "icon": "footprints",
+          "title": "Walking tours",
+          "text": "Daytime walks of downtown and evening ghost tours."
+        },
+        {
+          "icon": "school",
+          "title": "School presentations",
+          "text": "Aiken history for classrooms, with hands-on antiques."
+        },
+        {
+          "icon": "church",
+          "title": "Church & social groups",
+          "text": "Presentations on historic Aiken for clubs and congregations."
+        },
+        {
+          "icon": "gift",
+          "title": "Gift certificates",
+          "text": "Always available, for any tour."
+        },
+        {
+          "icon": "star",
+          "title": "Superstar Sojourner",
+          "text": "Each paid guest earns a punch; after nine, the tenth guest rides free, any tour, any time of year."
+        }
       ]
     },
     {
@@ -139,9 +169,18 @@
       "eyebrow": "On the road",
       "title": "See Aiken *up close*",
       "images": [
-        { "src": "/demo-assets/tailored-tours/guide-and-van.webp", "alt": "A tour guide beside the Tailored Tours minivan" },
-        { "src": "/demo-assets/tailored-tours/racing-hall-horse.webp", "alt": "A painted horse statue outside the Racing Hall of Fame" },
-        { "src": "/demo-assets/tailored-tours/horse-district.webp", "alt": "Horses at a paddock fence in Aiken's horse district" }
+        {
+          "src": "/demo-assets/tailored-tours/guide-and-van.webp",
+          "alt": "A tour guide beside the Tailored Tours minivan"
+        },
+        {
+          "src": "/demo-assets/tailored-tours/racing-hall-horse.webp",
+          "alt": "A painted horse statue outside the Racing Hall of Fame"
+        },
+        {
+          "src": "/demo-assets/tailored-tours/horse-district.webp",
+          "alt": "Horses at a paddock fence in Aiken's horse district"
+        }
       ]
     },
     {
@@ -151,9 +190,18 @@
       "eyebrow": "From our guests",
       "title": "\"Marty *knows her stuff*\"",
       "items": [
-        { "text": "Perfect! Town trolley was booked so hotel suggested Marty. So glad it worked out that way. Great tour!", "by": "John S." },
-        { "text": "Marty knows her stuff. Great tour! So interesting to learn about my little hometown.", "by": "Emily M." },
-        { "text": "My fiancé and I came all the way from California to visit family and were told we had to do a tour with Marty. We were not disappointed! We're still talking about all the history we learned.", "by": "Brenda F." }
+        {
+          "text": "Perfect! Town trolley was booked so hotel suggested Marty. So glad it worked out that way. Great tour!",
+          "by": "John S."
+        },
+        {
+          "text": "Marty knows her stuff. Great tour! So interesting to learn about my little hometown.",
+          "by": "Emily M."
+        },
+        {
+          "text": "My fiancé and I came all the way from California to visit family and were told we had to do a tour with Marty. We were not disappointed! We're still talking about all the history we learned.",
+          "by": "Brenda F."
+        }
       ]
     },
     {
@@ -163,10 +211,22 @@
       "eyebrow": "Good to know",
       "title": "Before *you go*",
       "items": [
-        { "q": "Do I need a reservation?", "a": "Tours run first come, first served, so reservations are strongly encouraged to get the day and time you'd like." },
-        { "q": "How do I pay?", "a": "Cash or check, made payable to Tailored Tours of Aiken." },
-        { "q": "What vehicle do you use?", "a": "Driving tours are in a Kia Carnival minivan that seats up to seven passengers." },
-        { "q": "Are children welcome?", "a": "Yes. Children 3 to 10 are half price and children under 3 are free. Haunted Aiken is a family-friendly tour." }
+        {
+          "q": "Do I need a reservation?",
+          "a": "Tours run first come, first served, so reservations are strongly encouraged to get the day and time you'd like."
+        },
+        {
+          "q": "How do I pay?",
+          "a": "Cash or check, made payable to Tailored Tours of Aiken."
+        },
+        {
+          "q": "What vehicle do you use?",
+          "a": "Driving tours are in a Kia Carnival minivan that seats up to seven passengers."
+        },
+        {
+          "q": "Are children welcome?",
+          "a": "Yes. Children 3 to 10 are half price and children under 3 are free. Haunted Aiken is a family-friendly tour."
+        }
       ]
     },
     {
@@ -198,5 +258,14 @@
       "One home-page image is still labeled \"Section under construction\"",
       "No description for Google results, and a footer copyright of 2018"
     ]
+  },
+  "style": {
+    "frame": "arch",
+    "flip": true,
+    "services": "list",
+    "divider": "curve",
+    "heads": "outline",
+    "motion": "blur",
+    "buttons": "underline"
   }
 }

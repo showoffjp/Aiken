@@ -1,9 +1,20 @@
 {
+ "anybody": {
+  "family": "Anybody",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/anybody.woff2",
+  "italic": "/fonts/anybody-italic.woff2"
+ },
  "archivo": {
   "family": "Archivo",
   "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
   "normal": "/fonts/archivo.woff2",
   "italic": "/fonts/archivo-italic.woff2"
+ },
+ "big-shoulders-display": {
+  "family": "Big Shoulders Display",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/big-shoulders-display.woff2"
  },
  "bitter": {
   "family": "Bitter",
@@ -11,10 +22,21 @@
   "normal": "/fonts/bitter.woff2",
   "italic": "/fonts/bitter-italic.woff2"
  },
+ "bodoni-moda": {
+  "family": "Bodoni Moda",
+  "fallback": "Georgia, \"Times New Roman\", serif",
+  "normal": "/fonts/bodoni-moda.woff2",
+  "italic": "/fonts/bodoni-moda-italic.woff2"
+ },
  "bricolage-grotesque": {
   "family": "Bricolage Grotesque",
   "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
   "normal": "/fonts/bricolage-grotesque.woff2"
+ },
+ "caveat": {
+  "family": "Caveat",
+  "fallback": "\"Segoe Print\", \"Bradley Hand\", cursive",
+  "normal": "/fonts/caveat.woff2"
  },
  "cormorant": {
   "family": "Cormorant",
@@ -34,11 +56,22 @@
   "normal": "/fonts/fraunces.woff2",
   "italic": "/fonts/fraunces-italic.woff2"
  },
+ "fredoka": {
+  "family": "Fredoka",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/fredoka.woff2"
+ },
  "inter": {
   "family": "Inter",
   "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
   "normal": "/fonts/inter.woff2",
   "italic": "/fonts/inter-italic.woff2"
+ },
+ "jetbrains-mono": {
+  "family": "JetBrains Mono",
+  "fallback": "ui-monospace, \"SF Mono\", Menlo, Consolas, monospace",
+  "normal": "/fonts/jetbrains-mono.woff2",
+  "italic": "/fonts/jetbrains-mono-italic.woff2"
  },
  "libre-franklin": {
   "family": "Libre Franklin",
@@ -89,6 +122,16 @@
   "family": "Space Grotesk",
   "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
   "normal": "/fonts/space-grotesk.woff2"
+ },
+ "syne": {
+  "family": "Syne",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/syne.woff2"
+ },
+ "unbounded": {
+  "family": "Unbounded",
+  "fallback": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+  "normal": "/fonts/unbounded.woff2"
  },
  "work-sans": {
   "family": "Work Sans",

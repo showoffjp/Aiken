@@ -9,8 +9,9 @@
   "established": "2005",
   "look": "warm",
   "fonts": {
-    "display": "bricolage-grotesque",
-    "body": "nunito-sans"
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fbf7f1",
@@ -257,5 +258,15 @@
       "Rates are tucked inside each service page instead of in one place",
       "The page blocks zooming on phones"
     ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "shadow"
   }
 }

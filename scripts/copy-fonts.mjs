@@ -15,8 +15,12 @@ const LABELS = {
   'dm-sans': 'DM Sans', fraunces: 'Fraunces', inter: 'Inter', 'libre-franklin': 'Libre Franklin', lora: 'Lora',
   manrope: 'Manrope', 'nunito-sans': 'Nunito Sans', oswald: 'Oswald', outfit: 'Outfit',
   'playfair-display': 'Playfair Display', 'source-sans-3': 'Source Sans 3', 'space-grotesk': 'Space Grotesk', 'work-sans': 'Work Sans',
+  unbounded: 'Unbounded', syne: 'Syne', caveat: 'Caveat', 'bodoni-moda': 'Bodoni Moda', 'big-shoulders-display': 'Big Shoulders Display',
+  fredoka: 'Fredoka', 'jetbrains-mono': 'JetBrains Mono', anybody: 'Anybody',
 };
-const SERIF = new Set(['bitter', 'cormorant', 'fraunces', 'lora', 'playfair-display']);
+const SERIF = new Set(['bitter', 'cormorant', 'fraunces', 'lora', 'playfair-display', 'bodoni-moda']);
+const MONO = new Set(['jetbrains-mono']);
+const SCRIPT = new Set(['caveat']);
 
 const manifest = {};
 for (const id of await readdir(src)) {
@@ -25,7 +29,7 @@ for (const id of await readdir(src)) {
   const italic = `${id}-latin-wght-italic.woff2`;
   if (!existsSync(path.join(files, normal))) continue;
   await copyFile(path.join(files, normal), path.join(out, `${id}.woff2`));
-  const entry = { family: LABELS[id] || id, fallback: SERIF.has(id) ? 'Georgia, "Times New Roman", serif' : 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif', normal: `/fonts/${id}.woff2` };
+  const entry = { family: LABELS[id] || id, fallback: SERIF.has(id) ? 'Georgia, "Times New Roman", serif' : MONO.has(id) ? 'ui-monospace, "SF Mono", Menlo, Consolas, monospace' : SCRIPT.has(id) ? '"Segoe Print", "Bradley Hand", cursive' : 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif', normal: `/fonts/${id}.woff2` };
   if (existsSync(path.join(files, italic))) {
     await copyFile(path.join(files, italic), path.join(out, `${id}-italic.woff2`));
     entry.italic = `/fonts/${id}-italic.woff2`;

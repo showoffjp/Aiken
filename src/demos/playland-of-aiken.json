@@ -6,17 +6,30 @@
   "group": "Stay & Play",
   "town": "Aiken, SC",
   "look": "clean",
-  "fonts": { "display": "outfit", "body": "nunito-sans" },
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
   "colors": {
-    "bg": "#f5f9ff", "surface": "#ffffff", "ink": "#14213d", "muted": "#56617a",
-    "primary": "#2550b3", "onPrimary": "#ffffff", "accent": "#ffb321", "line": "#dbe3f2"
+    "bg": "#f5f9ff",
+    "surface": "#ffffff",
+    "ink": "#14213d",
+    "muted": "#56617a",
+    "primary": "#2550b3",
+    "onPrimary": "#ffffff",
+    "accent": "#ffb321",
+    "line": "#dbe3f2"
   },
   "radius": 18,
   "icon": "party-popper",
   "contact": {
     "phone": "(803) 226-0096",
     "email": "fun@playlandofaiken.com",
-    "address": ["951 (B) Dougherty Road", "Aiken, SC 29803"],
+    "address": [
+      "951 (B) Dougherty Road",
+      "Aiken, SC 29803"
+    ],
     "mapQuery": "PlayLand of Aiken, 951 Dougherty Road, Aiken, SC 29803",
     "facebook": "https://www.facebook.com/pages/category/Arts---entertainment/Playland-of-Aiken-114658729945627/"
   },
@@ -25,74 +38,191 @@
     "eyebrow": "Family owned indoor playground",
     "title": "Where kids can *just be kids*",
     "lede": "A jungle-themed place to play, learn and grow together. About 3,000 square feet of slides, tunnels, trampoline, climbing wall and obstacle course for kids ages 0 through 13.",
-    "cta": { "label": "Book a party", "href": "#parties" },
-    "cta2": { "label": "Plan a visit", "href": "#visit" },
-    "image": { "src": "/demo-assets/playland-of-aiken/play-area.webp", "alt": "The jungle-themed play area and ball pit" },
-    "points": ["Ages 0 – 13", "Air conditioned", "Free WiFi"]
+    "cta": {
+      "label": "Book a party",
+      "href": "#parties"
+    },
+    "cta2": {
+      "label": "Plan a visit",
+      "href": "#visit"
+    },
+    "image": {
+      "src": "/demo-assets/playland-of-aiken/play-area.webp",
+      "alt": "The jungle-themed play area and ball pit"
+    },
+    "points": [
+      "Ages 0 – 13",
+      "Air conditioned",
+      "Free WiFi"
+    ]
   },
   "facts": [
-    { "value": "3,000 sq. ft.", "label": "Of jungle-themed play area" },
-    { "value": "2 party rooms", "label": "For birthdays and special events" },
-    { "value": "Ages 0 – 13", "label": "With a designated toddler area" },
-    { "value": "Family owned", "label": "So we can be flexible for your event" }
+    {
+      "value": "3,000 sq. ft.",
+      "label": "Of jungle-themed play area"
+    },
+    {
+      "value": "2 party rooms",
+      "label": "For birthdays and special events"
+    },
+    {
+      "value": "Ages 0 – 13",
+      "label": "With a designated toddler area"
+    },
+    {
+      "value": "Family owned",
+      "label": "So we can be flexible for your event"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "play", "nav": "Play",
+      "type": "services",
+      "id": "play",
+      "nav": "Play",
       "eyebrow": "What's inside",
       "title": "So much *to climb, bounce and build*",
       "items": [
-        { "icon": "tent-tree", "title": "Jungle play structure", "text": "Slides, climbing tunnels, a trampoline, a climbing wall and an obstacle course." },
-        { "icon": "baby", "title": "Toddler area", "text": "A designated space with equipment sized for the little ones." },
-        { "icon": "rainbow", "title": "Rainbow nets", "text": "Our rainbow nets climbing structure, plus sand tables." },
-        { "icon": "coffee", "title": "Playland Cafe", "text": "Gourmet coffee, ice cream, soft drinks, pastries and pizza." },
-        { "icon": "sofa", "title": "Seating for parents", "text": "A comfortable sitting area, air conditioning and free WiFi." },
-        { "icon": "ticket", "title": "Loyal customer card", "text": "Five paid visits and the sixth one is on us." }
+        {
+          "icon": "tent-tree",
+          "title": "Jungle play structure",
+          "text": "Slides, climbing tunnels, a trampoline, a climbing wall and an obstacle course."
+        },
+        {
+          "icon": "baby",
+          "title": "Toddler area",
+          "text": "A designated space with equipment sized for the little ones."
+        },
+        {
+          "icon": "rainbow",
+          "title": "Rainbow nets",
+          "text": "Our rainbow nets climbing structure, plus sand tables."
+        },
+        {
+          "icon": "coffee",
+          "title": "Playland Cafe",
+          "text": "Gourmet coffee, ice cream, soft drinks, pastries and pizza."
+        },
+        {
+          "icon": "sofa",
+          "title": "Seating for parents",
+          "text": "A comfortable sitting area, air conditioning and free WiFi."
+        },
+        {
+          "icon": "ticket",
+          "title": "Loyal customer card",
+          "text": "Five paid visits and the sixth one is on us."
+        }
       ]
     },
     {
-      "type": "gallery", "id": "gallery", "nav": "Photos",
+      "type": "gallery",
+      "id": "gallery",
+      "nav": "Photos",
       "eyebrow": "Take a look",
       "title": "Inside *PlayLand*",
       "images": [
-        { "src": "/demo-assets/playland-of-aiken/rainbow-nets.webp", "alt": "Rainbow nets climbing structure" },
-        { "src": "/demo-assets/playland-of-aiken/peg-board.webp", "alt": "Giant peg board with a panda design" },
-        { "src": "/demo-assets/playland-of-aiken/light-wall.webp", "alt": "Light-up peg wall" },
-        { "src": "/demo-assets/playland-of-aiken/grip-socks.webp", "alt": "Grip socks in green, yellow and orange" }
+        {
+          "src": "/demo-assets/playland-of-aiken/rainbow-nets.webp",
+          "alt": "Rainbow nets climbing structure"
+        },
+        {
+          "src": "/demo-assets/playland-of-aiken/peg-board.webp",
+          "alt": "Giant peg board with a panda design"
+        },
+        {
+          "src": "/demo-assets/playland-of-aiken/light-wall.webp",
+          "alt": "Light-up peg wall"
+        },
+        {
+          "src": "/demo-assets/playland-of-aiken/grip-socks.webp",
+          "alt": "Grip socks in green, yellow and orange"
+        }
       ]
     },
     {
-      "type": "menu", "id": "parties", "nav": "Parties",
+      "type": "menu",
+      "id": "parties",
+      "nav": "Parties",
       "eyebrow": "Party reservations & field trips",
       "title": "Celebrate *here*",
       "intro": "Every package includes 1 hour 30 minutes in a party room, unlimited playtime afterwards, basic cutlery, a juice pouch per child, and set-up and clean-up. Bring any food and drinks you like. The birthday child gets grip socks.",
       "groups": [
-        { "title": "Monday – Thursday", "items": [
-          { "name": "Up to 10 kids", "price": "$226" },
-          { "name": "Up to 15 kids", "price": "$280" },
-          { "name": "Up to 20 kids", "price": "$335" },
-          { "name": "Up to 25 kids", "price": "$390" }
-        ] },
-        { "title": "Friday – Sunday", "items": [
-          { "name": "Up to 10 kids", "price": "$280" },
-          { "name": "Up to 15 kids", "price": "$335" },
-          { "name": "Up to 20 kids", "price": "$390" },
-          { "name": "Up to 25 kids", "price": "$443" }
-        ] }
+        {
+          "title": "Monday – Thursday",
+          "items": [
+            {
+              "name": "Up to 10 kids",
+              "price": "$226"
+            },
+            {
+              "name": "Up to 15 kids",
+              "price": "$280"
+            },
+            {
+              "name": "Up to 20 kids",
+              "price": "$335"
+            },
+            {
+              "name": "Up to 25 kids",
+              "price": "$390"
+            }
+          ]
+        },
+        {
+          "title": "Friday – Sunday",
+          "items": [
+            {
+              "name": "Up to 10 kids",
+              "price": "$280"
+            },
+            {
+              "name": "Up to 15 kids",
+              "price": "$335"
+            },
+            {
+              "name": "Up to 20 kids",
+              "price": "$390"
+            },
+            {
+              "name": "Up to 25 kids",
+              "price": "$443"
+            }
+          ]
+        }
       ],
       "footnote": "Time slots: 10:00–11:30, 12:00–1:30, 2:00–3:30, 4:00–5:30 and 6:00–7:30. A 50% non-refundable deposit reserves your space, and you must tour the party rooms before booking. Ask about slumber parties, after-hours events, characters, face painting and balloon decorations. Prices as listed on the current site."
     },
     {
-      "type": "faq", "id": "faq", "nav": "FAQ",
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
       "eyebrow": "Before you come",
       "title": "Good to *know*",
       "items": [
-        { "q": "Do we need grip socks?", "a": "Yes. Grip socks are required for everybody in the play area, adults included. They are available at PlayLand for $4.50 per pair." },
-        { "q": "Is there a charge for adults?", "a": "Two adults per group are free. Each additional adult is charged a $5.00 occupancy fee." },
-        { "q": "Can adults play too?", "a": "Yes. Parents have free range to play in every part of the facility. Please keep in mind that some equipment is designed for the little ones." },
-        { "q": "Can I leave my child unattended?", "a": "No. All children must be accompanied by a guardian or an adult." },
-        { "q": "Why do I need to fill out a waiver?", "a": "Waivers help keep you and your children safe, and in case of emergency we need your contact information. You can fill one out before you visit." },
-        { "q": "How do you clean the playground?", "a": "We disinfect using industrial disinfectant." }
+        {
+          "q": "Do we need grip socks?",
+          "a": "Yes. Grip socks are required for everybody in the play area, adults included. They are available at PlayLand for $4.50 per pair."
+        },
+        {
+          "q": "Is there a charge for adults?",
+          "a": "Two adults per group are free. Each additional adult is charged a $5.00 occupancy fee."
+        },
+        {
+          "q": "Can adults play too?",
+          "a": "Yes. Parents have free range to play in every part of the facility. Please keep in mind that some equipment is designed for the little ones."
+        },
+        {
+          "q": "Can I leave my child unattended?",
+          "a": "No. All children must be accompanied by a guardian or an adult."
+        },
+        {
+          "q": "Why do I need to fill out a waiver?",
+          "a": "Waivers help keep you and your children safe, and in case of emergency we need your contact information. You can fill one out before you visit."
+        },
+        {
+          "q": "How do you clean the playground?",
+          "a": "We disinfect using industrial disinfectant."
+        }
       ]
     }
   ],
@@ -100,7 +230,13 @@
     "title": "Come *play*",
     "intro": "Questions about your visit? Call us.",
     "formTitle": "Ask about a party or field trip",
-    "formTopics": ["Birthday party", "Field trip", "Slumber party or after-hours event", "Memberships", "Something else"]
+    "formTopics": [
+      "Birthday party",
+      "Field trip",
+      "Slumber party or after-hours event",
+      "Memberships",
+      "Something else"
+    ]
   },
   "source": {
     "url": "https://playlandofaiken.com/",
@@ -110,5 +246,15 @@
       "Standard hours are not published as text that search engines can read",
       "Party prices are a long run of text rather than a table"
     ]
+  },
+  "style": {
+    "frame": "blob",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "flip",
+    "buttons": "shadow"
   }
 }

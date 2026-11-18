@@ -6,8 +6,9 @@
   "town": "Williston, SC",
   "look": "warm",
   "fonts": {
-    "display": "bitter",
-    "body": "nunito-sans"
+    "display": "fraunces",
+    "body": "nunito-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fdf7ea",
@@ -139,5 +140,14 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "list",
+    "facts": "badges",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
   }
 }

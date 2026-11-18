@@ -7,17 +7,29 @@
   "group": "Shops & Services",
   "town": "Aiken, SC",
   "look": "warm",
-  "fonts": { "display": "fraunces", "body": "dm-sans" },
+  "fonts": {
+    "display": "syne",
+    "body": "dm-sans"
+  },
   "colors": {
-    "bg": "#f7f2e6", "surface": "#fffdf7", "ink": "#1e2a24", "muted": "#5c665f",
-    "primary": "#24523f", "onPrimary": "#f7f2e6", "accent": "#ea8a3c", "line": "#e4dcc8"
+    "bg": "#f7f2e6",
+    "surface": "#fffdf7",
+    "ink": "#1e2a24",
+    "muted": "#5c665f",
+    "primary": "#24523f",
+    "onPrimary": "#f7f2e6",
+    "accent": "#ea8a3c",
+    "line": "#e4dcc8"
   },
   "radius": 14,
   "icon": "dog",
   "contact": {
     "phone": "(803) 816-2695",
     "email": "patrick@bravefriend.net",
-    "address": ["122 Laurens Street NW", "Aiken, SC 29801"],
+    "address": [
+      "122 Laurens Street NW",
+      "Aiken, SC 29801"
+    ],
     "mapQuery": "Bravefriend Apparel and Design, 122 Laurens St NW, Aiken, SC 29801"
   },
   "hero": {
@@ -25,72 +37,168 @@
     "eyebrow": "Homegrown in South Carolina",
     "title": "Sometimes a dog is as good as *any man*",
     "lede": "Original apparel, hats and pet gear, plus full custom screen printing, embroidery and design, from a downtown Aiken shop named for one very brave friend.",
-    "cta": { "label": "See the shop", "href": "#shop" },
-    "cta2": { "label": "Read our story", "href": "#story" },
-    "image": { "src": "/demo-assets/bravefriend/tanner.webp", "alt": "Tanner, the dog Bravefriend is named for" }
+    "cta": {
+      "label": "See the shop",
+      "href": "#shop"
+    },
+    "cta2": {
+      "label": "Read our story",
+      "href": "#story"
+    },
+    "image": {
+      "src": "/demo-assets/bravefriend/tanner.webp",
+      "alt": "Tanner, the dog Bravefriend is named for"
+    }
   },
   "facts": [
-    { "value": "1999", "label": "The first shirt, sold out in two days" },
-    { "value": "Custom shop", "label": "Screen printing, embroidery and design" },
-    { "value": "Made in USA", "label": "Our Bravefriend dog collars and leashes" },
-    { "value": "Downtown", "label": "122 Laurens Street NW, Aiken" }
+    {
+      "value": "1999",
+      "label": "The first shirt, sold out in two days"
+    },
+    {
+      "value": "Custom shop",
+      "label": "Screen printing, embroidery and design"
+    },
+    {
+      "value": "Made in USA",
+      "label": "Our Bravefriend dog collars and leashes"
+    },
+    {
+      "value": "Downtown",
+      "label": "122 Laurens Street NW, Aiken"
+    }
   ],
   "sections": [
     {
-      "type": "gallery", "id": "shop", "nav": "Shop",
+      "type": "gallery",
+      "id": "shop",
+      "nav": "Shop",
       "eyebrow": "In the shop",
       "title": "Hats, shirts and *good gear*",
       "intro": "Shirts, outerwear, hats, kids apparel, stickers, koozies and pet accessories. Many pieces can be customized with our embroidery designs.",
       "images": [
-        { "src": "/demo-assets/bravefriend/shirts.webp", "alt": "Bravefriend shirts hanging on a line" },
-        { "src": "/demo-assets/bravefriend/trucker-hats.webp", "alt": "Pimento Cheese & Chill retro foam trucker hats" },
-        { "src": "/demo-assets/bravefriend/beanies.webp", "alt": "Leather-patch pom beanies" },
-        { "src": "/demo-assets/bravefriend/collar.webp", "alt": "Bravefriend dog collar" },
-        { "src": "/demo-assets/bravefriend/aint-life-grand.webp", "alt": "Ain't Life Grand retro foam trucker hat" },
-        { "src": "/demo-assets/bravefriend/koozies.webp", "alt": "Pimento Cheese & Chill koozies" },
-        { "src": "/demo-assets/bravefriend/rope-hats.webp", "alt": "Rope hats in five colors" },
-        { "src": "/demo-assets/bravefriend/collars.webp", "alt": "Bravefriend collars in blaze orange" },
-        { "src": "/demo-assets/bravefriend/tree-hat.webp", "alt": "Seven-panel hat with tree patch" },
-        { "src": "/demo-assets/bravefriend/dog-truck.webp", "alt": "A Weimaraner in the back of a truck with Bravefriend gear" }
+        {
+          "src": "/demo-assets/bravefriend/shirts.webp",
+          "alt": "Bravefriend shirts hanging on a line"
+        },
+        {
+          "src": "/demo-assets/bravefriend/trucker-hats.webp",
+          "alt": "Pimento Cheese & Chill retro foam trucker hats"
+        },
+        {
+          "src": "/demo-assets/bravefriend/beanies.webp",
+          "alt": "Leather-patch pom beanies"
+        },
+        {
+          "src": "/demo-assets/bravefriend/collar.webp",
+          "alt": "Bravefriend dog collar"
+        },
+        {
+          "src": "/demo-assets/bravefriend/aint-life-grand.webp",
+          "alt": "Ain't Life Grand retro foam trucker hat"
+        },
+        {
+          "src": "/demo-assets/bravefriend/koozies.webp",
+          "alt": "Pimento Cheese & Chill koozies"
+        },
+        {
+          "src": "/demo-assets/bravefriend/rope-hats.webp",
+          "alt": "Rope hats in five colors"
+        },
+        {
+          "src": "/demo-assets/bravefriend/collars.webp",
+          "alt": "Bravefriend collars in blaze orange"
+        },
+        {
+          "src": "/demo-assets/bravefriend/tree-hat.webp",
+          "alt": "Seven-panel hat with tree patch"
+        },
+        {
+          "src": "/demo-assets/bravefriend/dog-truck.webp",
+          "alt": "A Weimaraner in the back of a truck with Bravefriend gear"
+        }
       ]
     },
     {
-      "type": "services", "id": "custom", "nav": "Custom work",
+      "type": "services",
+      "id": "custom",
+      "nav": "Custom work",
       "eyebrow": "For your business, band or event",
       "title": "A full *custom design shop*",
       "intro": "What began as screening art for band shirts has grown into a complete custom shop.",
       "items": [
-        { "icon": "shirt", "title": "Screen printing", "text": "Shirts and apparel printed with your design or one of ours." },
-        { "icon": "spool", "title": "Embroidery", "text": "Hats, vests and outerwear stitched to order." },
-        { "icon": "brush", "title": "Original illustrations", "text": "Hand-drawn artwork from an artist who has been drawing all his life." },
-        { "icon": "pen-tool", "title": "Logo design", "text": "A mark for your business that looks right on a shirt and a sign." },
-        { "icon": "megaphone", "title": "Promotional goods", "text": "Advertising and promotional items with your name on them." },
-        { "icon": "package", "title": "Merchant fulfillment", "text": "Ask us about handling merchandise orders for your band or brand." }
+        {
+          "icon": "shirt",
+          "title": "Screen printing",
+          "text": "Shirts and apparel printed with your design or one of ours."
+        },
+        {
+          "icon": "spool",
+          "title": "Embroidery",
+          "text": "Hats, vests and outerwear stitched to order."
+        },
+        {
+          "icon": "brush",
+          "title": "Original illustrations",
+          "text": "Hand-drawn artwork from an artist who has been drawing all his life."
+        },
+        {
+          "icon": "pen-tool",
+          "title": "Logo design",
+          "text": "A mark for your business that looks right on a shirt and a sign."
+        },
+        {
+          "icon": "megaphone",
+          "title": "Promotional goods",
+          "text": "Advertising and promotional items with your name on them."
+        },
+        {
+          "icon": "package",
+          "title": "Merchant fulfillment",
+          "text": "Ask us about handling merchandise orders for your band or brand."
+        }
       ]
     },
     {
-      "type": "story", "id": "story", "nav": "Our story",
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
       "eyebrow": "How it all got started",
       "title": "Named for *Tanner*",
-      "image": { "src": "/demo-assets/bravefriend/collar.webp", "alt": "A Bravefriend collar in the grass" },
+      "image": {
+        "src": "/demo-assets/bravefriend/collar.webp",
+        "alt": "A Bravefriend collar in the grass"
+      },
       "body": [
         "On the night of April 20th, 1999, my house caught fire while my roommate and I were sleeping. Tanner, my dog, woke me up by licking my face. I had only a few seconds to break my roommate's door down and pull him to safety. Tanner did not make it out. He gave his life to save ours, and I lost everything I had ever owned.",
         "Family and friends carried me through. A friend suggested I put my art to work, so I drew a portrait of the singer of my favorite band, made it into a shirt, and took it to their two-night run that year. I sold every one in two days.",
         "From those ashes I rebuilt. Brave Friend Apparel & Design has grown from band shirts into a full custom design shop, and I take a lot of pride in keeping it a small business."
       ],
-      "quote": { "text": "Sometimes a dog is as good as any man." }
+      "quote": {
+        "text": "Sometimes a dog is as good as any man."
+      }
     },
     {
       "type": "band",
       "title": "Need shirts, hats or a logo?",
       "text": "Stop by the shop on Laurens Street or drop us a line.",
-      "cta": { "label": "Call (803) 816-2695", "href": "tel:+18038162695" }
+      "cta": {
+        "label": "Call (803) 816-2695",
+        "href": "tel:+18038162695"
+      }
     }
   ],
   "visit": {
     "title": "Come by *the shop*",
     "formTitle": "Ask about a custom order",
-    "formTopics": ["Screen printing", "Embroidery", "Logo or illustration", "Promotional goods", "Merchant fulfillment", "An item in the shop"]
+    "formTopics": [
+      "Screen printing",
+      "Embroidery",
+      "Logo or illustration",
+      "Promotional goods",
+      "Merchant fulfillment",
+      "An item in the shop"
+    ]
   },
   "source": {
     "url": "https://bravefriend.net/",
@@ -102,5 +210,15 @@
       "No description for Google results",
       "Product photos are thumbnail-sized, 250 pixels or less"
     ]
+  },
+  "style": {
+    "frame": "blob",
+    "flip": true,
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "shadow"
   }
 }

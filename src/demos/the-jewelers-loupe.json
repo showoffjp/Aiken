@@ -7,19 +7,40 @@
   "town": "Aiken, SC",
   "established": "1987",
   "look": "boutique",
-  "fonts": { "display": "cormorant", "body": "manrope" },
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "manrope"
+  },
   "colors": {
-    "bg": "#faf8f4", "surface": "#ffffff", "ink": "#181614", "muted": "#6c665f",
-    "primary": "#876534", "onPrimary": "#ffffff", "accent": "#c9a45c", "line": "#e6dfd3"
+    "bg": "#faf8f4",
+    "surface": "#ffffff",
+    "ink": "#181614",
+    "muted": "#6c665f",
+    "primary": "#876534",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a45c",
+    "line": "#e6dfd3"
   },
   "radius": 0,
   "icon": "gem",
   "contact": {
     "phone": "(803) 648-3875",
     "email": "john@thejewelersloupe.net",
-    "address": ["1304 Richland Avenue West", "Aiken, SC 29801"],
+    "address": [
+      "1304 Richland Avenue West",
+      "Aiken, SC 29801"
+    ],
     "mapQuery": "The Jewelers Loupe, 1304 Richland Avenue West, Aiken, SC 29801",
-    "hours": [["Tuesday – Saturday", "9:00 – 6:00"], ["Sunday – Monday", "Closed"]],
+    "hours": [
+      [
+        "Tuesday – Saturday",
+        "9:00 – 6:00"
+      ],
+      [
+        "Sunday – Monday",
+        "Closed"
+      ]
+    ],
     "hoursNote": "Closed New Year's Day, Memorial Day, July 4, Labor Day, Thanksgiving and Christmas Day.",
     "facebook": "https://www.facebook.com/thejewelersloupe/"
   },
@@ -28,60 +49,150 @@
     "eyebrow": "Aiken, South Carolina · Since 1987",
     "title": "Where life's great celebrations *begin*",
     "lede": "Diamonds, bridal, fine and designer jewelry, timepieces and expert repair, in a 5,000 square foot showroom on Richland Avenue.",
-    "cta": { "label": "Visit the showroom", "href": "#visit" },
-    "cta2": { "label": "Explore", "href": "#collections" }
+    "cta": {
+      "label": "Visit the showroom",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Explore",
+      "href": "#collections"
+    }
   },
   "facts": [
-    { "value": "1987", "label": "The year we opened our doors" },
-    { "value": "5,000 sq. ft.", "label": "Showroom on Richland Avenue West" },
-    { "value": "Loose diamonds", "label": "And semi-mounts, to build your own ring" },
-    { "value": "Tue – Sat", "label": "Open 9:00 to 6:00" }
+    {
+      "value": "1987",
+      "label": "The year we opened our doors"
+    },
+    {
+      "value": "5,000 sq. ft.",
+      "label": "Showroom on Richland Avenue West"
+    },
+    {
+      "value": "Loose diamonds",
+      "label": "And semi-mounts, to build your own ring"
+    },
+    {
+      "value": "Tue – Sat",
+      "label": "Open 9:00 to 6:00"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "collections", "nav": "Collections",
+      "type": "services",
+      "id": "collections",
+      "nav": "Collections",
       "eyebrow": "In the cases",
       "title": "Something for every *occasion*",
       "items": [
-        { "icon": "heart", "title": "Bridal", "text": "Diamond engagement rings and bands from several high-end bridal designers." },
-        { "icon": "diamond", "title": "Choose your diamond", "text": "Our sales associates help you pair a loose diamond with a semi-mount to create a ring that is yours alone." },
-        { "icon": "sparkles", "title": "Fine jewelry", "text": "Gold and sterling bracelets, pendants, necklaces, earrings and bangles in modern, contemporary and vintage styles." },
-        { "icon": "crown", "title": "Designer jewelry", "text": "Samuel B, Andrea Candela, Belle Étoile, Southern Gates, Bellissima, Lafonn, PiyaRo and more." },
-        { "icon": "watch", "title": "Timepieces", "text": "G-Shock, Citizen, Seiko, Pulsar, Bulova, TW Steel and Virata, plus a collection of pre-owned Rolex watches." },
-        { "icon": "wrench", "title": "Jewelry repair", "text": "Repairs done with expertise, quality and care." }
+        {
+          "icon": "heart",
+          "title": "Bridal",
+          "text": "Diamond engagement rings and bands from several high-end bridal designers."
+        },
+        {
+          "icon": "diamond",
+          "title": "Choose your diamond",
+          "text": "Our sales associates help you pair a loose diamond with a semi-mount to create a ring that is yours alone."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Fine jewelry",
+          "text": "Gold and sterling bracelets, pendants, necklaces, earrings and bangles in modern, contemporary and vintage styles."
+        },
+        {
+          "icon": "crown",
+          "title": "Designer jewelry",
+          "text": "Samuel B, Andrea Candela, Belle Étoile, Southern Gates, Bellissima, Lafonn, PiyaRo and more."
+        },
+        {
+          "icon": "watch",
+          "title": "Timepieces",
+          "text": "G-Shock, Citizen, Seiko, Pulsar, Bulova, TW Steel and Virata, plus a collection of pre-owned Rolex watches."
+        },
+        {
+          "icon": "wrench",
+          "title": "Jewelry repair",
+          "text": "Repairs done with expertise, quality and care."
+        }
       ]
     },
     {
-      "type": "story", "id": "about", "nav": "Our story",
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
       "eyebrow": "About us",
       "title": "A family trade, *learned young*",
       "body": [
         "The Jeweler's Loupe opened in 1987. Owner John Finley has been in the jewelry industry since the age of 15, when his father, a longtime local business owner, trained him in every aspect of the family business: jewelry repair, purchasing, marketing, customer service and management.",
         "John credits his success to loyal customers and a great staff. Our team is experienced in the jewelry industry, and they know that customer satisfaction is the most important part of what we do. We strive to give the best service and the best prices possible."
       ],
-      "quote": { "text": "Break out of the department store rut." }
+      "quote": {
+        "text": "Break out of the department store rut."
+      }
     },
     {
-      "type": "columns", "id": "brands", "nav": "Brands",
+      "type": "columns",
+      "id": "brands",
+      "nav": "Brands",
       "eyebrow": "Names we carry",
       "title": "Designers and *watchmakers*",
       "columns": [
-        { "title": "Designer jewelry", "items": ["Samuel B", "Andrea Candela", "Belle Étoile", "Southern Gates", "Bellissima", "Lafonn", "PiyaRo"] },
-        { "title": "Timepieces", "items": ["G-Shock", "Citizen", "Seiko", "Pulsar", "Bulova", "TW Steel", "Virata"] },
-        { "title": "Also in store", "items": ["Pre-owned Rolex watches", "Loose diamonds and semi-mounts", "Rifles and handguns", "Online firearm orders shipped to the store"] }
+        {
+          "title": "Designer jewelry",
+          "items": [
+            "Samuel B",
+            "Andrea Candela",
+            "Belle Étoile",
+            "Southern Gates",
+            "Bellissima",
+            "Lafonn",
+            "PiyaRo"
+          ]
+        },
+        {
+          "title": "Timepieces",
+          "items": [
+            "G-Shock",
+            "Citizen",
+            "Seiko",
+            "Pulsar",
+            "Bulova",
+            "TW Steel",
+            "Virata"
+          ]
+        },
+        {
+          "title": "Also in store",
+          "items": [
+            "Pre-owned Rolex watches",
+            "Loose diamonds and semi-mounts",
+            "Rifles and handguns",
+            "Online firearm orders shipped to the store"
+          ]
+        }
       ]
     },
     {
       "type": "band",
       "title": "Looking for the ring?",
       "text": "Come see the largest selection of diamond engagement rings in Aiken.",
-      "cta": { "label": "Call (803) 648-3875", "href": "tel:+18036483875" }
+      "cta": {
+        "label": "Call (803) 648-3875",
+        "href": "tel:+18036483875"
+      }
     }
   ],
   "visit": {
     "title": "Visit the *showroom*",
     "formTitle": "Ask us a question",
-    "formTopics": ["Engagement rings", "Loose diamonds", "Fine or designer jewelry", "Watches", "Jewelry repair", "Something else"]
+    "formTopics": [
+      "Engagement rings",
+      "Loose diamonds",
+      "Fine or designer jewelry",
+      "Watches",
+      "Jewelry repair",
+      "Something else"
+    ]
   },
   "source": {
     "url": "https://www.thejewelersloupe.com/",
@@ -92,5 +203,13 @@
       "No business details for Google (hours, address, reviews)",
       "No favicon or link previews when shared"
     ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "list",
+    "facts": "big",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "underline"
   }
 }

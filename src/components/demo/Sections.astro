@@ -23,7 +23,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'services') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
@@ -76,7 +76,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'menu') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
@@ -105,7 +105,7 @@ const split = (imgs: Img[]) => {
     return (
       <section class="cine-gallery" id={id}>
         <div class="wrap">
-          <div class="section-head">
+          <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
             {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
             <h2 set:html={title(s.title)} />
             {s.intro && <p>{s.intro}</p>}
@@ -142,7 +142,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'gallery') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
@@ -160,7 +160,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'steps') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
@@ -174,7 +174,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'quotes') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
         </div>
@@ -187,7 +187,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'faq') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
         </div>
@@ -200,7 +200,7 @@ const split = (imgs: Img[]) => {
   if (s.type === 'columns') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-label={s.nav || s.eyebrow || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}

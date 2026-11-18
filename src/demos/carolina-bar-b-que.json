@@ -10,7 +10,8 @@
   "look": "bold",
   "fonts": {
     "display": "oswald",
-    "body": "source-sans-3"
+    "body": "source-sans-3",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fbf5ea",
@@ -233,5 +234,15 @@
       "The awards and family story, told by the family",
       "Room to add photos and daily specials as the owner supplies them"
     ]
+  },
+  "style": {
+    "frame": "slant",
+    "flip": true,
+    "services": "list",
+    "facts": "big",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "shadow"
   }
 }

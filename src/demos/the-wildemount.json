@@ -185,5 +185,13 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add the menu, photos and specials as the owner supplies them"
     ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "list",
+    "facts": "ticker",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "underline"
   }
 }

@@ -7,16 +7,28 @@
   "town": "North Augusta, SC",
   "established": "1965",
   "look": "clean",
-  "fonts": { "display": "manrope", "body": "inter" },
+  "fonts": {
+    "display": "syne",
+    "body": "inter"
+  },
   "colors": {
-    "bg": "#f8f6fb", "surface": "#ffffff", "ink": "#1b1630", "muted": "#5e5975",
-    "primary": "#5a3e8c", "onPrimary": "#ffffff", "accent": "#f4c6a3", "line": "#e3deef"
+    "bg": "#f8f6fb",
+    "surface": "#ffffff",
+    "ink": "#1b1630",
+    "muted": "#5e5975",
+    "primary": "#5a3e8c",
+    "onPrimary": "#ffffff",
+    "accent": "#f4c6a3",
+    "line": "#e3deef"
   },
   "radius": 16,
   "icon": "sparkles",
   "contact": {
     "phone": "(803) 278-1817",
-    "address": ["358 Edgefield Road", "North Augusta, SC 29841"],
+    "address": [
+      "358 Edgefield Road",
+      "North Augusta, SC 29841"
+    ],
     "mapQuery": "Hal's Hair Center, 358 Edgefield Road, North Augusta, SC 29841"
   },
   "hero": {
@@ -24,40 +36,98 @@
     "eyebrow": "Hair loss solutions since 1965",
     "title": "Restore your hair *and your confidence*",
     "lede": "Non-surgical hair restoration and replacement for men and women, with discreet, private, one-on-one service. Shower, exercise, walk into the wind: live life the way you want.",
-    "cta": { "label": "Request a free evaluation", "href": "#visit" },
-    "cta2": { "label": "Call (803) 278-1817", "href": "tel:+18032781817" },
-    "points": ["Free evaluation", "Private styling rooms", "No obligation"]
+    "cta": {
+      "label": "Request a free evaluation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 278-1817",
+      "href": "tel:+18032781817"
+    },
+    "points": [
+      "Free evaluation",
+      "Private styling rooms",
+      "No obligation"
+    ]
   },
   "facts": [
-    { "value": "1965", "label": "Serving the CSRA since" },
-    { "value": "Thousands", "label": "Of area men and women helped" },
-    { "value": "Free", "label": "Private, confidential hair and scalp evaluation" },
-    { "value": "Private", "label": "Styling rooms and off-street parking" }
+    {
+      "value": "1965",
+      "label": "Serving the CSRA since"
+    },
+    {
+      "value": "Thousands",
+      "label": "Of area men and women helped"
+    },
+    {
+      "value": "Free",
+      "label": "Private, confidential hair and scalp evaluation"
+    },
+    {
+      "value": "Private",
+      "label": "Styling rooms and off-street parking"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "men", "nav": "For men", "columns": 4,
+      "type": "services",
+      "id": "men",
+      "nav": "For men",
+      "columns": 4,
       "eyebrow": "Solutions for men",
       "title": "Options for *every stage* of hair loss",
       "items": [
-        { "icon": "shield-check", "title": "Non-surgical solutions", "text": "Hair restoration without surgery." },
-        { "icon": "refresh-cw", "title": "Hair replacement", "text": "A sensational new look, or a happy welcome back to your own favorite style." },
-        { "icon": "zap", "title": "Laser hair loss treatment", "text": "Low level laser therapy for thinning hair." },
-        { "icon": "leaf", "title": "Hair loss prevention", "text": "Programs to help keep the hair you have." }
+        {
+          "icon": "shield-check",
+          "title": "Non-surgical solutions",
+          "text": "Hair restoration without surgery."
+        },
+        {
+          "icon": "refresh-cw",
+          "title": "Hair replacement",
+          "text": "A sensational new look, or a happy welcome back to your own favorite style."
+        },
+        {
+          "icon": "zap",
+          "title": "Laser hair loss treatment",
+          "text": "Low level laser therapy for thinning hair."
+        },
+        {
+          "icon": "leaf",
+          "title": "Hair loss prevention",
+          "text": "Programs to help keep the hair you have."
+        }
       ]
     },
     {
-      "type": "services", "id": "women", "nav": "For women", "columns": 3,
+      "type": "services",
+      "id": "women",
+      "nav": "For women",
+      "columns": 3,
       "eyebrow": "Solutions for women",
       "title": "Thinning hair is not *just a men's issue*",
       "items": [
-        { "icon": "sparkles", "title": "Non-surgical restoration", "text": "Replacement solutions designed for women's hair loss." },
-        { "icon": "zap", "title": "Low level laser treatment", "text": "A gentle laser program for thinning hair." },
-        { "icon": "scissors", "title": "Hair extensions", "text": "Added length and fullness, fitted in a totally private styling room." }
+        {
+          "icon": "sparkles",
+          "title": "Non-surgical restoration",
+          "text": "Replacement solutions designed for women's hair loss."
+        },
+        {
+          "icon": "zap",
+          "title": "Low level laser treatment",
+          "text": "A gentle laser program for thinning hair."
+        },
+        {
+          "icon": "scissors",
+          "title": "Hair extensions",
+          "text": "Added length and fullness, fitted in a totally private styling room."
+        }
       ]
     },
     {
-      "type": "story", "id": "promise", "nav": "Our promise",
+      "type": "story",
+      "id": "promise",
+      "nav": "Our promise",
       "eyebrow": "Why choose Hal's",
       "title": "Caring, confidential, *in business since 1965*",
       "body": [
@@ -72,20 +142,31 @@
         "Convenient location with private, off-street parking",
         "Member of Transitions Hair Loss Centers and the American Hair Loss Council"
       ],
-      "quote": { "text": "Don't let hair loss control your life!" }
+      "quote": {
+        "text": "Don't let hair loss control your life!"
+      }
     },
     {
       "type": "band",
       "title": "Take the first step to a new you.",
       "text": "Schedule your free, private and confidential hair loss evaluation today.",
-      "cta": { "label": "Call (803) 278-1817", "href": "tel:+18032781817" }
+      "cta": {
+        "label": "Call (803) 278-1817",
+        "href": "tel:+18032781817"
+      }
     }
   ],
   "visit": {
     "title": "Request your *free evaluation*",
     "intro": "Everything you share with us stays private.",
     "formTitle": "Free, confidential hair loss evaluation",
-    "formTopics": ["Solutions for men", "Solutions for women", "Laser treatment", "Hair extensions", "Not sure yet"]
+    "formTopics": [
+      "Solutions for men",
+      "Solutions for women",
+      "Laser treatment",
+      "Hair extensions",
+      "Not sure yet"
+    ]
   },
   "source": {
     "url": "https://halshaircenter.com/",
@@ -96,5 +177,14 @@
       "No link previews when the site is shared",
       "No business details for search (hours, address, reviews)"
     ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "pills",
+    "facts": "big",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "pill"
   }
 }

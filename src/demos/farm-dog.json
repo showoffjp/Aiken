@@ -6,7 +6,7 @@
   "town": "Aiken, SC",
   "look": "bold",
   "fonts": {
-    "display": "oswald",
+    "display": "unbounded",
     "body": "source-sans-3"
   },
   "colors": {
@@ -117,5 +117,15 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "shadow"
   }
 }

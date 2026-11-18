@@ -7,17 +7,29 @@
   "group": "Auto & Equipment",
   "town": "Aiken, SC",
   "look": "bold",
-  "fonts": { "display": "oswald", "body": "source-sans-3" },
+  "fonts": {
+    "display": "anybody",
+    "body": "source-sans-3"
+  },
   "colors": {
-    "bg": "#f3f4f8", "surface": "#ffffff", "ink": "#0e1230", "muted": "#555a75",
-    "primary": "#232f86", "onPrimary": "#ffffff", "accent": "#ffc530", "line": "#d9dbe6"
+    "bg": "#f3f4f8",
+    "surface": "#ffffff",
+    "ink": "#0e1230",
+    "muted": "#555a75",
+    "primary": "#232f86",
+    "onPrimary": "#ffffff",
+    "accent": "#ffc530",
+    "line": "#d9dbe6"
   },
   "radius": 4,
   "icon": "wrench",
   "contact": {
     "phone": "(803) 652-3202",
     "email": "mundysautomotive@yahoo.com",
-    "address": ["2364 Williston Road", "Aiken, SC 29803"],
+    "address": [
+      "2364 Williston Road",
+      "Aiken, SC 29803"
+    ],
     "mapQuery": "Mundy's Automotive, 2364 Williston Road, Aiken, SC 29803"
   },
   "hero": {
@@ -25,54 +37,139 @@
     "eyebrow": "Gas & diesel service and repair",
     "title": "We do it *all.*",
     "lede": "Cars, semi-trucks, trailers, RVs, tractors and hydraulic cylinders. ASE certified technicians, the latest diagnostic equipment, and a quick turnaround, in the shop or wherever you broke down.",
-    "cta": { "label": "Call (803) 652-3202", "href": "tel:+18036523202" },
-    "cta2": { "label": "See services", "href": "#services" },
-    "points": ["ASE certified", "NAPA Truck Service Center", "Federal DOT inspections"]
+    "cta": {
+      "label": "Call (803) 652-3202",
+      "href": "tel:+18036523202"
+    },
+    "cta2": {
+      "label": "See services",
+      "href": "#services"
+    },
+    "points": [
+      "ASE certified",
+      "NAPA Truck Service Center",
+      "Federal DOT inspections"
+    ]
   },
   "facts": [
-    { "value": "Gas & diesel", "label": "Engines of every size, serviced and repaired" },
-    { "value": "DOT", "label": "Registered Federal DOT Inspection shop" },
-    { "value": "SRS vendor", "label": "Approved and badged for the Savannah River Site" },
-    { "value": "Mobile", "label": "Service at your home, job site, roadside or field" }
+    {
+      "value": "Gas & diesel",
+      "label": "Engines of every size, serviced and repaired"
+    },
+    {
+      "value": "DOT",
+      "label": "Registered Federal DOT Inspection shop"
+    },
+    {
+      "value": "SRS vendor",
+      "label": "Approved and badged for the Savannah River Site"
+    },
+    {
+      "value": "Mobile",
+      "label": "Service at your home, job site, roadside or field"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "services", "nav": "Services", "columns": 4,
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 4,
       "eyebrow": "What we fix",
       "title": "One shop for *everything you run*",
       "intro": "From the family car to a complete semi and trailer rebuild, with welding and machine work done on site.",
       "items": [
-        { "icon": "car", "title": "Automotive service", "text": "Cars, light trucks and medium trucks kept in top condition." },
-        { "icon": "truck", "title": "Truck & RV service", "text": "Diesel service, brakes, tires, pumps, blowers and Federal DOT inspections." },
-        { "icon": "tractor", "title": "Farm & heavy equipment", "text": "Tractors, harvesters, combines and more." },
-        { "icon": "cog", "title": "Hydraulic cylinders", "text": "Cylinder repair and rebuilds, plus 2 or 4 wire hydraulic hose." }
+        {
+          "icon": "car",
+          "title": "Automotive service",
+          "text": "Cars, light trucks and medium trucks kept in top condition."
+        },
+        {
+          "icon": "truck",
+          "title": "Truck & RV service",
+          "text": "Diesel service, brakes, tires, pumps, blowers and Federal DOT inspections."
+        },
+        {
+          "icon": "tractor",
+          "title": "Farm & heavy equipment",
+          "text": "Tractors, harvesters, combines and more."
+        },
+        {
+          "icon": "cog",
+          "title": "Hydraulic cylinders",
+          "text": "Cylinder repair and rebuilds, plus 2 or 4 wire hydraulic hose."
+        }
       ]
     },
     {
-      "type": "story", "id": "shop", "nav": "The shop",
+      "type": "story",
+      "id": "shop",
+      "nav": "The shop",
       "eyebrow": "Mundy's of Aiken",
       "title": "Skilled hands, *the right tools*",
-      "image": { "src": "/demo-assets/mundys-automotive/shop.webp", "alt": "The Mundy's Automotive shop on Williston Road" },
+      "image": {
+        "src": "/demo-assets/mundys-automotive/shop.webp",
+        "alt": "The Mundy's Automotive shop on Williston Road"
+      },
       "body": [
         "At Mundy's Automotive we specialize in the service and repair of all automotive vehicles, semi-trucks, trailers and RVs. We also provide expert service on a wide variety of farm and commercial equipment, hydraulic hoses and cylinders.",
         "Our ASE certified technicians are highly skilled, with years of experience, and use the latest diagnostic technology to deliver high-quality work and a quick turnaround. As a certified NAPA Truck Service Center, we can do everything from complete semi and trailer rebuilds to replacing pumps and blowers or installing new brakes and tires."
       ],
-      "list": ["ASE certified technicians", "Certified NAPA Truck Service Center", "Welding and machine work on site"]
+      "list": [
+        "ASE certified technicians",
+        "Certified NAPA Truck Service Center",
+        "Welding and machine work on site"
+      ]
     },
     {
-      "type": "band", "id": "mobile",
+      "type": "band",
+      "id": "mobile",
       "title": "Broken down? We'll come to you.",
       "text": "Mundy's Mobile Service fixes diesel and gasoline cars, vans, semi-trucks, trailers, RVs and farm equipment at your home, your job, the side of the road, even in the field or pasture.",
-      "cta": { "label": "Call (803) 652-3202", "href": "tel:+18036523202" }
+      "cta": {
+        "label": "Call (803) 652-3202",
+        "href": "tel:+18036523202"
+      }
     },
     {
-      "type": "columns", "id": "area", "nav": "Service area",
+      "type": "columns",
+      "id": "area",
+      "nav": "Service area",
       "eyebrow": "At a glance",
       "title": "What we work on, and *where*",
       "columns": [
-        { "title": "We work on", "items": ["Cars and light trucks", "Medium trucks", "Semi-trucks and trailers", "RVs", "Tractors, harvesters and combines", "Hydraulic cylinders and hoses"] },
-        { "title": "Credentials", "items": ["ASE certified technicians", "NAPA Truck Service Center", "Federal DOT Inspection shop", "Badged Savannah River Site vendor"] },
-        { "title": "Towns we serve", "items": ["Aiken", "Barnwell", "Beech Island", "Jackson", "New Ellenton", "Windsor", "Williston"] }
+        {
+          "title": "We work on",
+          "items": [
+            "Cars and light trucks",
+            "Medium trucks",
+            "Semi-trucks and trailers",
+            "RVs",
+            "Tractors, harvesters and combines",
+            "Hydraulic cylinders and hoses"
+          ]
+        },
+        {
+          "title": "Credentials",
+          "items": [
+            "ASE certified technicians",
+            "NAPA Truck Service Center",
+            "Federal DOT Inspection shop",
+            "Badged Savannah River Site vendor"
+          ]
+        },
+        {
+          "title": "Towns we serve",
+          "items": [
+            "Aiken",
+            "Barnwell",
+            "Beech Island",
+            "Jackson",
+            "New Ellenton",
+            "Windsor",
+            "Williston"
+          ]
+        }
       ]
     }
   ],
@@ -80,7 +177,14 @@
     "title": "Bring it by, or *call us out*",
     "intro": "We are on Williston Road, southeast of Aiken.",
     "formTitle": "Tell us what's wrong",
-    "formTopics": ["Car or light truck", "Semi-truck or trailer", "RV", "Farm or heavy equipment", "Hydraulic cylinder or hose", "Mobile service call"]
+    "formTopics": [
+      "Car or light truck",
+      "Semi-truck or trailer",
+      "RV",
+      "Farm or heavy equipment",
+      "Hydraulic cylinder or hose",
+      "Mobile service call"
+    ]
   },
   "source": {
     "url": "https://www.mundysautomotive.com/",
@@ -91,5 +195,15 @@
       "Runs jQuery 1.8, released in 2012",
       "No link previews or business details for Google"
     ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
   }
 }
