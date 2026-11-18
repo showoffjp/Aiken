@@ -310,3 +310,4 @@
   .rp-cta::before, .rp-cta::after { display: none; }
 }
 .rp main > .rp-hero { margin-top: 0; }
+.rp h2.rp-sub { margin-top: 30px; font-size: 1.15rem; }

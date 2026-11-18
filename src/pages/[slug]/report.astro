@@ -2,6 +2,7 @@
 // A one-page, plain-English "website checkup" for each business that has a
 // concept: what its current site looks like, what we noticed, and what the
 // concept changes. Made to be sent as a link or printed.
+import { builtIn } from '../../lib/features';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../../components/Icon.astro';
@@ -105,6 +106,7 @@ const glance = [
   online && row?.copyrightYear && { label: 'Year in the footer', value: String(row.copyrightYear), good: row.copyrightYear >= new Date().getFullYear() - 1 },
 ].filter(Boolean) as { label: string; value: string; good: boolean | null }[];
 
+const features = builtIn(demo);
 const changes = demo.source.after || [
   'Designed phone-first: reads and taps comfortably on any screen',
   'One-tap call, directions and email from every page',
@@ -274,6 +276,8 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
         <div>
           <h2>What the concept changes</h2>
           <ul class="rp-list rp-good">{changes.map((b) => <li>{b}</li>)}</ul>
+          <h2 class="rp-sub">Built in for your customers</h2>
+          <ul class="rp-list rp-good">{features.map((b) => <li>{b}</li>)}</ul>
         </div>
       </section>
 

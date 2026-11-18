@@ -39,8 +39,11 @@ const fit = (chars: number, cw: number) => `calc(min(100vw - 2 * var(--gutter), 
 const cwU = UPPER[demo.fonts.display] ?? 0.72, cwL = LOWER[demo.fonts.display] ?? 0.56;
 const tl = plain(hero.title).length;
 const megaCap = tl <= 20 ? 9 : tl <= 34 ? 7 : 5.6;
-const mega = `font-size: min(${megaCap}rem, ${fit(longest(hero.title), cwU)})`;
-const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.1rem, ${fit(longest(short), cwL)})`;
+// On phones a long poster title is capped lower, so the call to action still shows on the first screen.
+const megaPhone = tl <= 20 ? 4.4 : tl <= 34 ? 3.4 : 2.7;
+const mega = `--mega: min(${megaCap}rem, ${fit(longest(hero.title), cwU)}); --mega-ph: min(${megaPhone}rem, ${fit(longest(hero.title), cwU)})`;
+// The masthead also gives way on short laptop screens, so the headline and buttons stay in view.
+const mast = `--mh-one: min(10rem, 15vh, ${fit(short.length, cwL)}); --mh-wrap: min(3.1rem, ${fit(longest(short), cwL)})`;
 ---
 {kind === 'poster' && (
   <section class="hero hx hx-poster" id="top">
@@ -86,7 +89,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
             <span class="b-arrow" aria-hidden="true"><Icon name="arrow-up-right" size={22} /></span>
           </a>
         )}
-        {hours.length > 0 && <div class="b-hours"><small>Hours</small>{hours.map(([d, t]) => <span><b>{d}</b>{t}</span>)}</div>}
+        {hours.length > 0 && <div class="b-hours"><small>Hours</small>{hours.map(([d, t]) => <span><b>{d}</b><em class="b-t">{t.split(/\s+·\s+/).map((part) => <i>{part}</i>)}</em></span>)}</div>}
         {contact.address && (
           <div class="b-where">
             <span class="b-map" aria-hidden="true"><i class="road h1"></i><i class="road h2"></i><i class="road v1"></i><i class="road v2"></i><i class="pin"><Icon name="map-pin" size={22} stroke={2.2} /></i></span>
@@ -178,7 +181,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
         <p class="lede hx-drop">{hero.lede}</p>
         <div class="hx-head">
           {hero.eyebrow && <div class="eyebrow">{hero.eyebrow}</div>}
-          <h1 set:html={title(hero.title)} />
+          <h1 data-long={tl > 30 ? '' : undefined} set:html={title(hero.title)} />
           <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
         </div>
         {facts.length > 0 && <ul class="hx-side">{facts.slice(0, 3).map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}
