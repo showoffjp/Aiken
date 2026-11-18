@@ -1,10 +1,14 @@
 ---
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
+import Seal from './Seal.astro';
 import { title, sectionId, srcset, isScenic, cinematicHero, type Demo, type Img } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 const cine = !!demo.cinematic;
+// A story with no photo gets the business's round seal beside it, so the section is never a lone column of text.
+const sealTop = demo.short || demo.name;
+const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
 const pad = (n: number) => String(n).padStart(2, '0');
 // Cinematic galleries: up to five screen-filling photos become pinned scenes;
 // the rest go into a parallax mosaic, and everything into a scrolling reel.
@@ -80,6 +84,12 @@ if (cine) deepIdx = -1;
           )}
           {s.quote && <blockquote class="pull">{s.quote.text}{s.quote.by && <cite>{s.quote.by}</cite>}</blockquote>}
         </div>
+        {!s.image && (
+          <div class="story-seal" aria-hidden="true">
+            <span class="story-glow"></span>
+            <Seal top={sealTop} bottom={sealBottom} icon={demo.icon} id={`seal-${demo.slug}-${i}`} />
+          </div>
+        )}
       </div>
     </section>
   );

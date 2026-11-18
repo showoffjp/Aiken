@@ -5,7 +5,7 @@
 import Icon from '../Icon.astro';
 import Decor from './Decor.astro';
 import { ratio } from '../../lib/contrast';
-import { title, telHref, offerWords, type Demo } from '../../lib/demos';
+import { title, telHref, offerWords, brandIcons, type Demo } from '../../lib/demos';
 interface Props { demo: Demo; kind: string }
 const { demo, kind } = Astro.props;
 const { hero, contact } = demo;
@@ -19,6 +19,8 @@ const words: string[] = offerWords(demo, 8);
 const board: { name: string; price?: string }[] = menuGroup?.items?.slice(0, 6).map((i: any) => ({ name: i.name, price: i.price })) || (services.length ? services : words).slice(0, 6).map((n: string) => ({ name: n }));
 const boardTitle = menuGroup?.title || 'On the board';
 const hours = contact.hours?.slice(0, 2) || [];
+// The bento scene's orbiting icons: the business's own, minus its emblem.
+const orbit = [...brandIcons(demo, 6), 'sparkles', 'heart', 'star', 'map-pin'].filter((v, k, a) => a.indexOf(v) === k && v !== demo.icon).slice(0, 4);
 const facts = demo.facts || [];
 // Floating decor is light glass on dark grounds, tinted glass on light ones.
 const onDarkPrimary = ratio('#ffffff', demo.colors.primary) >= ratio('#111111', demo.colors.primary);
@@ -68,11 +70,30 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
           <p class="lede">{hero.lede}</p>
           <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
         </div>
-        <div class="b-icon" aria-hidden="true"><Icon name={demo.icon} size={64} stroke={1.5} /></div>
-        {contact.phone && <a class="b-call" href={telHref(contact.phone)}><small>Call us</small><strong>{contact.phone}</strong><Icon name="arrow-up-right" size={22} /></a>}
+        <div class={`b-scene${contact.phone ? '' : ' tall'}`} aria-hidden="true">
+          <span class="b-mesh"></span>
+          <span class="b-ring r1"></span><span class="b-ring r2"></span><span class="b-ring r3"></span>
+          <span class="b-orbit">{orbit.map((ic, k) => <i class={`o${k}`}><Icon name={ic} size={18} stroke={1.8} /></i>)}</span>
+          <span class="b-emblem"><Icon name={demo.icon} size={52} stroke={1.5} /></span>
+          <span class="b-spark s0"></span><span class="b-spark s1"></span><span class="b-spark s2"></span>
+          <span class="b-caption">{demo.category}</span>
+        </div>
+        {contact.phone && (
+          <a class="b-call" href={telHref(contact.phone)}>
+            <span class="b-stripes" aria-hidden="true"></span>
+            <span class="b-ph" aria-hidden="true"><Icon name="phone" size={20} stroke={2.2} /></span>
+            <small>Call us</small><strong>{contact.phone}</strong><em>Tap to call</em>
+            <span class="b-arrow" aria-hidden="true"><Icon name="arrow-up-right" size={22} /></span>
+          </a>
+        )}
         {hours.length > 0 && <div class="b-hours"><small>Hours</small>{hours.map(([d, t]) => <span><b>{d}</b>{t}</span>)}</div>}
-        {contact.address && <div class="b-where"><Icon name="map-pin" size={20} /><small>Find us</small><span>{contact.address[0]}</span><span>{contact.address[1] || town}</span></div>}
-        {facts[0] && <div class="b-fact"><strong>{facts[0].value}</strong><span>{facts[0].label}</span></div>}
+        {contact.address && (
+          <div class="b-where">
+            <span class="b-map" aria-hidden="true"><i class="road h1"></i><i class="road h2"></i><i class="road v1"></i><i class="road v2"></i><i class="pin"><Icon name="map-pin" size={22} stroke={2.2} /></i></span>
+            <small>Find us</small><span>{contact.address[0]}</span><span>{contact.address[1] || town}</span>
+          </div>
+        )}
+        {facts[0] && <div class="b-fact"><span class="b-fact-icon" aria-hidden="true"><Icon name={orbit[1] || demo.icon} size={22} /></span><strong>{facts[0].value}</strong><span>{facts[0].label}</span></div>}
       </div>
     </div>
   </section>
@@ -109,7 +130,12 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
         <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
       </div>
       <div class="hx-blob-wrap" aria-hidden="true">
-        <div class="hx-blob"><Icon name={demo.icon} size={96} stroke={1.4} /></div>
+        <div class="hx-blob">
+          <span class="hx-blob-ring"></span>
+          <span class="hx-blob-sats">{orbit.slice(0, 3).map((ic, k) => <i class={`o${k}`}><Icon name={ic} size={18} stroke={1.8} /></i>)}</span>
+          <Icon name={demo.icon} size={96} stroke={1.4} />
+          <span class="b-spark s0"></span><span class="b-spark s1"></span><span class="b-spark s2"></span>
+        </div>
         {words.slice(0, 4).map((w, k) => <span class={`hx-chip c${k}`}>{w}</span>)}
       </div>
     </div>
@@ -128,8 +154,12 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
         <div class="actions">{hero.cta && <a class="btn" href={hero.cta.href}>{hero.cta.label}</a>}{hero.cta2 && <a class="btn ghost" href={hero.cta2.href}>{hero.cta2.label}</a>}</div>
       </div>
       <div class="hx-plan" aria-hidden="true">
+        <span class="hx-dim">{est ? est.toUpperCase() : `${town.toUpperCase()}, SC`}</span>
+        <span class="hx-scan"></span>
+        <span class="hx-compass"></span>
         <div class="hx-draw"><Icon name={demo.icon} size={180} stroke={0.9} /></div>
         <span class="tick t1"></span><span class="tick t2"></span><span class="tick t3"></span><span class="tick t4"></span>
+        {words.slice(0, 3).map((w, k) => <span class={`hx-note n${k}`}><i></i>{w}</span>)}
       </div>
       {facts.length > 0 && (
         <dl class="hx-spec">{facts.slice(0, 3).map((f, k) => <div><dt>SPEC {String(k + 1).padStart(2, '0')}</dt><dd><b>{f.value}</b>{f.label}</dd></div>)}</dl>
@@ -171,7 +201,11 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.
       </div>
       <div class="hx-orbit" aria-hidden="true">
         <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+        <span class="hx-sats">{orbit.map((ic, k) => <i class={`o${k}`}><Icon name={ic} size={20} stroke={1.8} /></i>)}</span>
         <div class="hx-core"><Icon name={demo.icon} size={84} stroke={1.5} /></div>
+        <span class="b-spark s0"></span><span class="b-spark s1"></span><span class="b-spark s2"></span>
+        {words[0] && <span class="hx-label l0">{words[0]}</span>}
+        {words[1] && <span class="hx-label l1">{words[1]}</span>}
       </div>
     </div>
   </section>
