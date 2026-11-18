@@ -126,6 +126,9 @@ body.demo { color: var(--ink-safe, var(--ink)); }
   .motion .section-head h2 em {
     background: linear-gradient(100deg, var(--primary-text, var(--primary)) 0%, var(--accent-text, var(--primary-text)) 45%, var(--primary-text, var(--primary)) 90%) 0 0 / 220% 100%;
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    /* The gradient is painted only inside the word's box: pad the box so italic overhangs
+       (the last letter of "friend", the t in "get it") are not sliced off. No layout change. */
+    padding-inline: .06em .16em; margin-inline: -.06em -.16em;
   }
   .motion .hero:not(.hx-poster):not(.hx-board):not(.hx-blueprint):not([data-variant="banner"]):not([data-variant="photo"]) h1 em .fx-w {
     animation: fx-word .9s cubic-bezier(.2, .7, .2, 1) calc(var(--i, 0) * 55ms + 80ms) both;

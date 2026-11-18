@@ -508,6 +508,9 @@ body.demo::before {
 .cine-copy { position: relative; z-index: 2; padding-block: 64px clamp(84px, 12vh, 140px); }
 .cine-eyebrow { display: flex; align-items: center; gap: 14px; font: 700 .78rem/1.3 var(--font-body); letter-spacing: .26em; text-transform: uppercase; color: var(--accent-on-photo, #fff); margin-bottom: 20px; }
 .cine-eyebrow::before { content: ""; width: 44px; height: 2px; background: currentColor; flex: none; }
+/* On a phone the copy runs up over the bright part of the photo: give the label its own dark backing. */
+.cine-eyebrow { text-shadow: 0 1px 3px rgb(0 0 0 / .8); }
+@media (max-width: 760px) { .cine-eyebrow { width: fit-content; max-width: 100%; gap: 10px; padding: 7px 12px; border-radius: 8px; background: rgb(8 10 14 / .8); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); letter-spacing: .18em; } .cine-eyebrow::before { width: 18px; } }
 .cine-hero h1 { font-size: clamp(2.9rem, 8.2vw, 8.2rem); line-height: .93; letter-spacing: -.04em; max-width: 13ch; text-wrap: balance; text-shadow: 0 2px 34px rgb(0 0 0 / .35); }
 .cine-hero h1 em { font-style: normal; color: var(--accent-on-photo, var(--accent)); }
 .cine-hero .lede { color: rgb(255 255 255 / .88); max-width: 36em; font-size: clamp(1.05rem, 1.45vw, 1.28rem); line-height: 1.55; margin-top: 22px; }

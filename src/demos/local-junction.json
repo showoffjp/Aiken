@@ -1,0 +1,133 @@
+{
+  "name": "Local Junction",
+  "short": "Local Junction",
+  "category": "Restaurant & Bar",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f7f4fb",
+    "surface": "#ffffff",
+    "ink": "#1c1426",
+    "muted": "#5b5167",
+    "primary": "#2d1650",
+    "onPrimary": "#ffffff",
+    "accent": "#ff7a3d",
+    "line": "#e6def0"
+  },
+  "radius": 8,
+  "icon": "beer",
+  "contact": {
+    "address": [
+      "1208 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Local Junction, 1208 Whiskey Road, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/profile.php?id=61562312405989"
+  },
+  "hero": {
+    "eyebrow": "Food · Drinks · Good times",
+    "title": "Your local *hangout*",
+    "lede": "The local hangout on Whiskey Road for good food, good drinks and a great time.",
+    "points": [
+      "Good food",
+      "Good drinks",
+      "A great time"
+    ],
+    "cta": {
+      "label": "Find us",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Follow along",
+      "href": "https://www.facebook.com/profile.php?id=61562312405989"
+    }
+  },
+  "facts": [
+    {
+      "value": "Good food",
+      "label": "At the local hangout"
+    },
+    {
+      "value": "Good drinks",
+      "label": "To go with it"
+    },
+    {
+      "value": "Whiskey Rd",
+      "label": "Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "why",
+      "nav": "The Junction",
+      "columns": 3,
+      "eyebrow": "The local hangout",
+      "title": "All three, *every time*",
+      "items": [
+        {
+          "icon": "utensils",
+          "title": "Good food",
+          "text": "Come hungry."
+        },
+        {
+          "icon": "beer",
+          "title": "Good drinks",
+          "text": "Come thirsty."
+        },
+        {
+          "icon": "music",
+          "title": "A great time",
+          "text": "Bring your people."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See you at the Junction",
+      "text": "Find us on Whiskey Road.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "hideForm": true
+  },
+  "slug": "local-junction",
+  "added": "2026-11-18",
+  "prospect": "local-junction",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/local-junction/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

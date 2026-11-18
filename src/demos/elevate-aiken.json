@@ -1,0 +1,128 @@
+{
+  "name": "Elevate Aiken",
+  "short": "Elevate",
+  "category": "Shakes, Energy Drinks & Protein Coffee",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "unbounded",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f2fbfa",
+    "surface": "#ffffff",
+    "ink": "#10232a",
+    "muted": "#4c5f66",
+    "primary": "#0b7285",
+    "onPrimary": "#ffffff",
+    "accent": "#ff4f8b",
+    "line": "#d6ecea"
+  },
+  "radius": 22,
+  "icon": "zap",
+  "contact": {
+    "address": [
+      "311 Hayne Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Elevate Aiken, 311 Hayne Ave SW, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=61560082211648"
+  },
+  "hero": {
+    "eyebrow": "The newest place in town",
+    "title": "Shakes, energy drinks *& protein coffee*",
+    "lede": "Your go-to spot on Hayne Avenue for healthy meal replacement shakes, energy drinks and protein coffee.",
+    "cta": {
+      "label": "Find us",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "What we make",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Shakes",
+      "label": "Healthy meal replacement"
+    },
+    {
+      "value": "Energy",
+      "label": "Drinks"
+    },
+    {
+      "value": "Protein",
+      "label": "Coffee"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "menu",
+      "nav": "What we make",
+      "columns": 3,
+      "eyebrow": "Your go-to spot",
+      "title": "Fuel, *three ways*",
+      "items": [
+        {
+          "icon": "cup-soda",
+          "title": "Meal replacement shakes",
+          "text": "Healthy meal replacement."
+        },
+        {
+          "icon": "zap",
+          "title": "Energy drinks",
+          "text": "When you need a lift."
+        },
+        {
+          "icon": "coffee",
+          "title": "Protein coffee",
+          "text": "Your coffee, with protein."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Fuel up",
+      "text": "Find us on Hayne Avenue.",
+      "cta": {
+        "label": "Get directions",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hayne Avenue*",
+    "hideForm": true
+  },
+  "slug": "elevate-aiken",
+  "added": "2026-11-18",
+  "prospect": "elevate-aiken",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/elevate-aiken/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "plain",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

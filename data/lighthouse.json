@@ -3012,5 +3012,117 @@
    "cls": 0,
    "at": "2026-11-18"
   }
+ },
+ "dinner-bell": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 794,
+   "lcp": 1357,
+   "tbt": 35,
+   "si": 794,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "elevate-aiken": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 819,
+   "lcp": 1507,
+   "tbt": 52,
+   "si": 819,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "lilianhaus": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1743,
+   "lcp": 1958,
+   "tbt": 0,
+   "si": 1743,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "local-junction": {
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 793,
+   "lcp": 1352,
+   "tbt": 204,
+   "si": 793,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "okinawa-japanese-steakhouse-and-sushi-bowl": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1714,
+   "lcp": 1714,
+   "tbt": 0,
+   "si": 1714,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "palmetto-bowls": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 0,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "romas-italian-restaurant": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1754,
+   "lcp": 1779,
+   "tbt": 0,
+   "si": 1754,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
+ },
+ "timeless-touch-events-llc": {
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1052,
+   "lcp": 1802,
+   "tbt": 0,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-18"
+  }
  }
 }

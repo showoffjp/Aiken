@@ -20,6 +20,10 @@ body .hero.hx-poster { background: var(--primary); color: var(--on-primary); }
 .hero.hx-poster h1 em { color: var(--accent-on-primary, var(--accent)); font-style: normal; display: inline-block; }
 .hx-foot { display: flex; justify-content: space-between; align-items: end; gap: 24px 48px; flex-wrap: wrap; }
 .hx-poster .lede { color: var(--on-primary-soft, var(--on-primary)); margin: 0; }
+/* Long poster headlines stay clear of the floating badge at the right edge. */
+@media (min-width: 861px) { .hero.hx-poster .hx-mega { padding-right: 76px; } }
+/* The bento label hugs its words instead of stretching into a bar. */
+.hx-bento .b-main > .eyebrow { align-self: flex-start; justify-self: start; width: fit-content; max-width: 100%; }
 .hx-poster .btn { background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); border-color: transparent; }
 .hx-poster .btn.ghost { background: transparent; color: var(--on-primary); border-color: color-mix(in srgb, var(--on-primary) 55%, transparent); }
 .hx-marquee { overflow: hidden; border-top: 1.5px solid color-mix(in srgb, var(--on-primary) 30%, transparent); background: color-mix(in srgb, var(--primary) 82%, #000); }
@@ -98,7 +102,7 @@ body .hero.hx-collage { background: color-mix(in srgb, var(--accent) 12%, var(--
 .hx-shapes i:nth-child(5) { width: 60px; height: 60px; border: 8px dotted var(--accent); bottom: 5%; left: 2%; animation-delay: -6s; }
 @keyframes hx-drift { from { transform: translate(0, 0) rotate(0deg); } to { transform: translate(24px, -18px) rotate(40deg); } }
 .hx-wave { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 60px; fill: var(--bg); }
-@media (max-width: 860px) { .hx-collage .wrap { grid-template-columns: 1fr; } .hx-blob-wrap { min-height: 300px; } .hx-shapes i:nth-child(2), .hx-shapes i:nth-child(4), .hx-shapes i:nth-child(5) { display: none; } }
+@media (max-width: 860px) { .hx-collage .wrap { grid-template-columns: 1fr; } .hx-blob-wrap { min-height: 300px; } .hx-shapes i:nth-child(2), .hx-shapes i:nth-child(4), .hx-shapes i:nth-child(5) { display: none; } .hx-shapes i:nth-child(1) { top: 10px; left: auto; right: 8%; width: 64px; height: 64px; } }
 
 /* ----------------------------------------------------------- 5 blueprint */
 body .hero.hx-blueprint { background-color: var(--deep2, #0c1a33); color: #fff;

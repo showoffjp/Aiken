@@ -1,0 +1,139 @@
+{
+  "name": "Timeless Touch Events",
+  "short": "Timeless Touch",
+  "category": "Event Rentals & Décor",
+  "group": "Services",
+  "town": "Beech Island, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "lora",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f7f5ef",
+    "surface": "#ffffff",
+    "ink": "#1f2a26",
+    "muted": "#5a645f",
+    "primary": "#3f5e52",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a86a",
+    "line": "#e3e0d4"
+  },
+  "radius": 4,
+  "icon": "armchair",
+  "contact": {
+    "phone": "(803) 302-1990",
+    "address": [
+      "49 Branch Court",
+      "Beech Island, SC 29842"
+    ],
+    "mapQuery": "49 Branch Court, Beech Island, SC 29842"
+  },
+  "hero": {
+    "eyebrow": "Event rentals & décor",
+    "title": "Dress every table *for the occasion*",
+    "lede": "Chair covers, sashes, tablecloths and table runners to rent for your event, from Beech Island.",
+    "points": [
+      "Chair covers",
+      "Sashes",
+      "Tablecloths",
+      "Table runners"
+    ],
+    "cta": {
+      "label": "Call (803) 302-1990",
+      "href": "tel:+18033021990"
+    },
+    "cta2": {
+      "label": "What we rent",
+      "href": "#rentals"
+    }
+  },
+  "facts": [
+    {
+      "value": "Chair covers",
+      "label": "And sashes to match"
+    },
+    {
+      "value": "Tablecloths",
+      "label": "And table runners"
+    },
+    {
+      "value": "Beech Island",
+      "label": "South Carolina"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rentals",
+      "nav": "Rentals",
+      "columns": 2,
+      "eyebrow": "For rent",
+      "title": "Everything *for the table*",
+      "items": [
+        {
+          "icon": "armchair",
+          "title": "Chair covers",
+          "text": "To dress every chair."
+        },
+        {
+          "icon": "ribbon",
+          "title": "Sashes",
+          "text": "To finish each chair cover."
+        },
+        {
+          "icon": "table",
+          "title": "Tablecloths",
+          "text": "For every table in the room."
+        },
+        {
+          "icon": "align-justify",
+          "title": "Table runners",
+          "text": "Down the middle of the table."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning an event?",
+      "text": "Call to ask what is available for your date.",
+      "cta": {
+        "label": "Call (803) 302-1990",
+        "href": "tel:+18033021990"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Call *Timeless Touch*",
+    "hideForm": true
+  },
+  "slug": "timeless-touch-events-llc",
+  "added": "2026-11-18",
+  "prospect": "timeless-touch-events-llc",
+  "source": {
+    "none": true,
+    "url": "https://northaugustachamber.chambermaster.com/list/member/timeless-touch-events-llc-4358",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "outline"
+  }
+}

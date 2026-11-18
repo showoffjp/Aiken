@@ -1,0 +1,115 @@
+{
+  "name": "Dinner Bell",
+  "short": "Dinner Bell",
+  "category": "Southern Cooking",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf6ec",
+    "surface": "#fffdf8",
+    "ink": "#261a12",
+    "muted": "#62564b",
+    "primary": "#a3261b",
+    "onPrimary": "#ffffff",
+    "accent": "#e8b33a",
+    "line": "#ecdfca"
+  },
+  "radius": 4,
+  "icon": "bell",
+  "contact": {
+    "phone": "(803) 648-5000",
+    "address": [
+      "2411 Wagener Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Dinner Bell, 2411 Wagener Rd, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/dinner.bell.2025"
+  },
+  "hero": {
+    "eyebrow": "Down home southern cooking",
+    "title": "Come and *get it*",
+    "lede": "Down home southern cooking on Wagener Road. Call ahead, or just come hungry.",
+    "cta": {
+      "label": "Call (803) 648-5000",
+      "href": "tel:+18036485000"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Southern",
+      "label": "Down home cooking"
+    },
+    {
+      "value": "Wagener Rd",
+      "label": "Aiken"
+    },
+    {
+      "value": "Call ahead",
+      "label": "(803) 648-5000"
+    }
+  ],
+  "sections": [
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "The cooking",
+      "eyebrow": "Down home",
+      "title": "Down home *southern cooking*",
+      "body": [
+        "Dinner Bell serves down home southern cooking on Wagener Road in Aiken.",
+        "Call ahead with questions, or just come hungry."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Supper's on",
+      "text": "Call ahead or come in on Wagener Road.",
+      "cta": {
+        "label": "Call (803) 648-5000",
+        "href": "tel:+18036485000"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Wagener Road*",
+    "hideForm": true
+  },
+  "slug": "dinner-bell",
+  "added": "2026-11-18",
+  "prospect": "dinner-bell",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/dinner-bell/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "facts": "strip",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}
