@@ -1,9 +1,11 @@
 ---
 // One redesign concept per business: /<slug>/
 import '../styles/demo.css';
+import '../styles/personality.css';
 import Icon from '../components/Icon.astro';
 import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
+import Hero from '../components/demo/Hero.astro';
 import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
 import { accessible } from '../lib/contrast';
@@ -17,7 +19,8 @@ const { contact, hero, colors } = demo;
 
 const display = fonts[demo.fonts.display];
 const body = fonts[demo.fonts.body];
-const faces = [...new Map([display, body].map((f) => [f.family, f])).values()];
+const accentFont = demo.fonts.accent ? fonts[demo.fonts.accent] : undefined;
+const faces = [...new Map([display, body, accentFont].filter(Boolean).map((f) => [f!.family, f!])).values()];
 const fontCss = faces.map((f) =>
   `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}` +
   (f.italic ? `@font-face{font-family:"${f.family}";src:url(${f.italic}) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}` : '')
@@ -28,6 +31,7 @@ const vars = [
   `--primary:${colors.primary}`, `--on-primary:${colors.onPrimary}`, `--accent:${colors.accent}`, `--line:${colors.line}`,
   `--radius:${demo.radius ?? 10}px`,
   `--font-display:"${display.family}",${display.fallback}`, `--font-body:"${body.family}",${body.fallback}`,
+  ...(accentFont ? [`--font-accent:"${accentFont.family}",${accentFont.fallback}`] : []),
   ...Object.entries(safe).map(([k, v]) => `${k}:${v}`),
 ].join(';');
 
@@ -38,6 +42,11 @@ const nav = [
 const variant = hero.variant || (hero.image ? 'split' : 'banner');
 // Cinematic concepts (photo-heavy) get a full-screen, scroll-driven hero.
 const cine = !!demo.cinematic;
+// Personality: a hero archetype and section treatments chosen per concept.
+const st = demo.style || {};
+const archetype = !cine ? st.hero : undefined;
+// The blueprint and magazine heroes already set out the key facts.
+const factsInHero = archetype === 'blueprint' || archetype === 'magazine';
 const cineImg = cine ? cinematicHero(demo) : undefined;
 const short = demo.short || demo.name;
 const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
@@ -93,7 +102,7 @@ const ld = {
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
-  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} style={vars}>
+  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} style={vars}>
     <a class="skip" href="#main">Skip to content</a>
 
     <aside class="concept" aria-label="About this preview">
@@ -125,7 +134,7 @@ const ld = {
     </header>
 
     <main id="main">
-      {cine && cineImg ? (
+      {archetype ? <Hero demo={demo} kind={archetype} /> : cine && cineImg ? (
         <section class="cine-hero" id="top" data-cine-hero>
           <div class="cine-stick">
             <img class="cine-bg" src={cineImg.src} srcset={srcset(cineImg)} sizes="100vw" alt="" width={cineImg.width} height={cineImg.height} fetchpriority="high" />
@@ -183,9 +192,9 @@ const ld = {
       )}
 
       <span id="main-content"></span>
-      {demo.facts && (
+      {demo.facts && !factsInHero && (
         <section class="facts" aria-label="At a glance">
-          <div class="wrap"><ul>{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul></div>
+          <div class="wrap"><ul>{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>{st.facts === 'ticker' && <ul aria-hidden="true">{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}</div>
         </section>
       )}
 

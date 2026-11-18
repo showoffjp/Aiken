@@ -6,8 +6,9 @@
   "town": "Aiken, SC",
   "look": "clean",
   "fonts": {
-    "display": "outfit",
-    "body": "nunito-sans"
+    "display": "fredoka",
+    "body": "nunito-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fff8f5",
@@ -141,5 +142,15 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
   }
 }

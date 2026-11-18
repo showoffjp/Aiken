@@ -9,7 +9,7 @@
   "established": "1985",
   "look": "bold",
   "fonts": {
-    "display": "oswald",
+    "display": "anybody",
     "body": "work-sans"
   },
   "colors": {
@@ -218,5 +218,16 @@
       "The home page downloads about 15 MB across 94 files on a phone",
       "An automated check finds 60 serious accessibility problems, including 21 images with no description and text too faint to read"
     ]
+  },
+  "style": {
+    "frame": "circle",
+    "flip": true,
+    "services": "rows",
+    "facts": "big",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "outline",
+    "motion": "rise",
+    "buttons": "square"
   }
 }

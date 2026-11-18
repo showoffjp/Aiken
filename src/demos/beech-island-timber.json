@@ -8,17 +8,29 @@
   "town": "Jackson, SC",
   "established": "1985",
   "look": "bold",
-  "fonts": { "display": "archivo", "body": "source-sans-3" },
+  "fonts": {
+    "display": "anybody",
+    "body": "source-sans-3"
+  },
   "colors": {
-    "bg": "#f6f3ea", "surface": "#ffffff", "ink": "#131a13", "muted": "#566053",
-    "primary": "#1d4a2b", "onPrimary": "#f6f3ea", "accent": "#f5a81c", "line": "#dcd6c6"
+    "bg": "#f6f3ea",
+    "surface": "#ffffff",
+    "ink": "#131a13",
+    "muted": "#566053",
+    "primary": "#1d4a2b",
+    "onPrimary": "#f6f3ea",
+    "accent": "#f5a81c",
+    "line": "#dcd6c6"
   },
   "radius": 6,
   "icon": "trees",
   "contact": {
     "phone": "(803) 827-1807",
     "email": "sbowman@bitimber.com",
-    "address": ["10 Kimberly Acres Dr.", "Jackson, SC 29831"],
+    "address": [
+      "10 Kimberly Acres Dr.",
+      "Jackson, SC 29831"
+    ],
     "mapQuery": "10 Kimberly Acres Dr, Jackson, SC 29831",
     "facebook": "https://www.facebook.com/pages/Beech-Island-Timber-Construction-Inc/282177977664"
   },
@@ -27,37 +39,93 @@
     "eyebrow": "Family owned since 1985",
     "title": "If it's wood, it's *our business.*",
     "lede": "A full-service timber company buying and harvesting timber for landowners, mills and biomass plants across the Savannah River region. Professional crews, careful stewardship, and top market price for your trees.",
-    "cta": { "label": "Call (803) 827-1807", "href": "tel:+18038271807" },
-    "cta2": { "label": "What we do", "href": "#services" },
-    "image": { "src": "/demo-assets/beech-island-timber/forest.webp", "alt": "" },
-    "points": ["Top market price, guaranteed", "SFI certified", "BMP-trained crews"]
+    "cta": {
+      "label": "Call (803) 827-1807",
+      "href": "tel:+18038271807"
+    },
+    "cta2": {
+      "label": "What we do",
+      "href": "#services"
+    },
+    "image": {
+      "src": "/demo-assets/beech-island-timber/forest.webp",
+      "alt": ""
+    },
+    "points": [
+      "Top market price, guaranteed",
+      "SFI certified",
+      "BMP-trained crews"
+    ]
   },
   "facts": [
-    { "value": "1985", "label": "Founded by owner and president Josh T. Key" },
-    { "value": "2 crews", "label": "Tree-length logging and biomass chipping" },
-    { "value": "100+ yrs", "label": "Combined experience on the team" },
-    { "value": "Logger of the Year", "label": "Elliott Sawmilling Co., 2009" }
+    {
+      "value": "1985",
+      "label": "Founded by owner and president Josh T. Key"
+    },
+    {
+      "value": "2 crews",
+      "label": "Tree-length logging and biomass chipping"
+    },
+    {
+      "value": "100+ yrs",
+      "label": "Combined experience on the team"
+    },
+    {
+      "value": "Logger of the Year",
+      "label": "Elliott Sawmilling Co., 2009"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "services", "nav": "Services",
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
       "eyebrow": "What we do",
       "title": "Forestry and land clearing, *start to finish*",
       "intro": "We cut, skid, load and haul. One company, our own equipment, and crews who have worked together for years.",
       "items": [
-        { "icon": "tree-pine", "title": "Thinning", "text": "Selective harvests that open up a stand so the best trees keep growing." },
-        { "icon": "axe", "title": "Clear cutting", "text": "Complete, efficient harvests when a tract is ready for a fresh start." },
-        { "icon": "factory", "title": "Biomass chipping", "text": "Non-merchantable timber chipped on site for biomass energy facilities." },
-        { "icon": "construction", "title": "Road building", "text": "Access roads, decks and water crossings planned before the first tree falls." },
-        { "icon": "bird", "title": "Harvesting for wildlife", "text": "Timber work designed around habitat and the way you use your land." },
-        { "icon": "truck", "title": "Hauling", "text": "Our own log trucks and chip vans move your wood to the mill." }
+        {
+          "icon": "tree-pine",
+          "title": "Thinning",
+          "text": "Selective harvests that open up a stand so the best trees keep growing."
+        },
+        {
+          "icon": "axe",
+          "title": "Clear cutting",
+          "text": "Complete, efficient harvests when a tract is ready for a fresh start."
+        },
+        {
+          "icon": "factory",
+          "title": "Biomass chipping",
+          "text": "Non-merchantable timber chipped on site for biomass energy facilities."
+        },
+        {
+          "icon": "construction",
+          "title": "Road building",
+          "text": "Access roads, decks and water crossings planned before the first tree falls."
+        },
+        {
+          "icon": "bird",
+          "title": "Harvesting for wildlife",
+          "text": "Timber work designed around habitat and the way you use your land."
+        },
+        {
+          "icon": "truck",
+          "title": "Hauling",
+          "text": "Our own log trucks and chip vans move your wood to the mill."
+        }
       ]
     },
     {
-      "type": "story", "id": "about", "nav": "About",
+      "type": "story",
+      "id": "about",
+      "nav": "About",
       "eyebrow": "Our story",
       "title": "One truck, one trailer, and a lot of *faith*",
-      "image": { "src": "/demo-assets/beech-island-timber/kenworth.webp", "alt": "A Beech Island Timber Kenworth loaded with logs" },
+      "image": {
+        "src": "/demo-assets/beech-island-timber/kenworth.webp",
+        "alt": "A Beech Island Timber Kenworth loaded with logs"
+      },
       "body": [
         "Josh T. Key fell for logging as a teenager, working for his uncle's logging company. He started on his own with a single truck and trailer, hauling timber as an owner-operator, and together with his wife Cindy built the company the two of them still own and operate today.",
         "We employ 15 to 20 hard-working men and women, and most of them have been with us for more than ten years. That experience shows up on your land: in swamps, on hills and on level ground, with chip-n-saw, pulpwood, hardwood and saw timber."
@@ -69,54 +137,123 @@
       ]
     },
     {
-      "type": "story", "id": "stewardship", "nav": "Stewardship",
+      "type": "story",
+      "id": "stewardship",
+      "nav": "Stewardship",
       "eyebrow": "Best Management Practices",
       "title": "Harvested the *right way*",
       "flip": true,
-      "image": { "src": "/demo-assets/beech-island-timber/skidder-woods.webp", "alt": "A John Deere skidder working among standing pines" },
+      "image": {
+        "src": "/demo-assets/beech-island-timber/skidder-woods.webp",
+        "alt": "A John Deere skidder working among standing pines"
+      },
       "body": [
         "Best Management Practices are simple techniques that reduce erosion and keep soil out of streams. Many of our employees are trained and certified under South Carolina's BMP program, and we are SFI certified under the Sustainable Forestry Initiative.",
         "We plan ahead so that road and deck locations, skid trails and water crossings all follow the BMP method. You get peace of mind that your timberland is in the hands of a well-trained, experienced and dedicated crew."
       ],
-      "list": ["Water quality and erosion standards met on every tract", "Roads, decks and skid trails planned in advance", "Work completed on schedule, with precision"]
+      "list": [
+        "Water quality and erosion standards met on every tract",
+        "Roads, decks and skid trails planned in advance",
+        "Work completed on schedule, with precision"
+      ]
     },
     {
-      "type": "gallery", "id": "equipment", "nav": "Equipment",
+      "type": "gallery",
+      "id": "equipment",
+      "nav": "Equipment",
       "eyebrow": "The iron",
       "title": "Our own equipment, *our own trucks*",
       "intro": "John Deere and Tigercat cutters and skidders, Prentice and Tigercat loaders, a Bandit chipper, and a fleet of Peterbilt, Mack, Kenworth and Freightliner trucks.",
       "images": [
-        { "src": "/demo-assets/beech-island-timber/log-truck.webp", "alt": "Peterbilt log truck loaded with pine" },
-        { "src": "/demo-assets/beech-island-timber/cutter.webp", "alt": "John Deere 643K cutter" },
-        { "src": "/demo-assets/beech-island-timber/dozer.webp", "alt": "John Deere 700J bulldozer" },
-        { "src": "/demo-assets/beech-island-timber/chipper.webp", "alt": "Bandit 2590 chipper loading a chip van" },
-        { "src": "/demo-assets/beech-island-timber/skidder.webp", "alt": "John Deere 648H skidder" },
-        { "src": "/demo-assets/beech-island-timber/chip-van.webp", "alt": "Freightliner with chip van" },
-        { "src": "/demo-assets/beech-island-timber/felling.webp", "alt": "Cutter felling trees" },
-        { "src": "/demo-assets/beech-island-timber/lowboy.webp", "alt": "Peterbilt hauling a skidder on a lowboy" }
+        {
+          "src": "/demo-assets/beech-island-timber/log-truck.webp",
+          "alt": "Peterbilt log truck loaded with pine"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/cutter.webp",
+          "alt": "John Deere 643K cutter"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/dozer.webp",
+          "alt": "John Deere 700J bulldozer"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/chipper.webp",
+          "alt": "Bandit 2590 chipper loading a chip van"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/skidder.webp",
+          "alt": "John Deere 648H skidder"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/chip-van.webp",
+          "alt": "Freightliner with chip van"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/felling.webp",
+          "alt": "Cutter felling trees"
+        },
+        {
+          "src": "/demo-assets/beech-island-timber/lowboy.webp",
+          "alt": "Peterbilt hauling a skidder on a lowboy"
+        }
       ]
     },
     {
-      "type": "columns", "id": "customers", "nav": "Customers",
+      "type": "columns",
+      "id": "customers",
+      "nav": "Customers",
       "eyebrow": "Who we work with",
       "title": "Landowners, mills and *power plants*",
       "columns": [
-        { "title": "Private landowners", "items": ["Timber purchased at top market price", "Thinning and final harvests", "Tracts of every terrain"] },
-        { "title": "Corporate clients", "items": ["Ameresco, Aiken, SC", "Elliott Sawmilling, Estill, SC", "Pollard Lumber Company, Appling, GA", "Creek Plantation, Martin, SC"] },
-        { "title": "Proud members of", "items": ["American Loggers Council", "South Carolina Forestry Association", "SC Timber Producers Association", "South Carolina Biomass Council", "South Carolina Trucking Association"] }
+        {
+          "title": "Private landowners",
+          "items": [
+            "Timber purchased at top market price",
+            "Thinning and final harvests",
+            "Tracts of every terrain"
+          ]
+        },
+        {
+          "title": "Corporate clients",
+          "items": [
+            "Ameresco, Aiken, SC",
+            "Elliott Sawmilling, Estill, SC",
+            "Pollard Lumber Company, Appling, GA",
+            "Creek Plantation, Martin, SC"
+          ]
+        },
+        {
+          "title": "Proud members of",
+          "items": [
+            "American Loggers Council",
+            "South Carolina Forestry Association",
+            "SC Timber Producers Association",
+            "South Carolina Biomass Council",
+            "South Carolina Trucking Association"
+          ]
+        }
       ]
     },
     {
       "type": "band",
       "title": "We pay the top market price for your timber. Guaranteed.",
       "text": "Tell us about your tract and we will come take a look.",
-      "cta": { "label": "Call (803) 827-1807", "href": "tel:+18038271807" }
+      "cta": {
+        "label": "Call (803) 827-1807",
+        "href": "tel:+18038271807"
+      }
     },
     {
-      "type": "story", "id": "careers", "nav": "Careers",
+      "type": "story",
+      "id": "careers",
+      "nav": "Careers",
       "eyebrow": "Work with us",
       "title": "Join *Team Beech Island*",
-      "image": { "src": "/demo-assets/beech-island-timber/crew.webp", "alt": "The Beech Island Timber crew in safety vests" },
+      "image": {
+        "src": "/demo-assets/beech-island-timber/crew.webp",
+        "alt": "The Beech Island Timber crew in safety vests"
+      },
       "body": [
         "Our success depends on skilled, motivated people, and safety comes first in everything we do. We treat every employee with respect, dignity and trust, which is why so many stay with us for the long haul.",
         "Positions that come available include equipment operators (skidder, cutter, loader) and truck drivers within a 75-mile radius. Owner-operators with chip vans or log trailers are welcome to get on file as subcontractors. Send your resume to Shelley K. Bowman by email, or fax it to (803) 302-1126."
@@ -127,7 +264,15 @@
     "title": "Have timber to sell? *Let's talk.*",
     "intro": "Call the office or send a note and we will arrange a time to walk your land.",
     "formTitle": "Tell us about your tract",
-    "formTopics": ["Selling timber", "Thinning", "Clear cutting", "Biomass chipping", "Road building", "Employment", "Something else"]
+    "formTopics": [
+      "Selling timber",
+      "Thinning",
+      "Clear cutting",
+      "Biomass chipping",
+      "Road building",
+      "Employment",
+      "Something else"
+    ]
   },
   "source": {
     "url": "https://www.bitimber.com/",
@@ -139,5 +284,13 @@
       "Body text set over textured backgrounds, which is hard to read outdoors",
       "Phone number is an image, so it cannot be tapped to call"
     ]
+  },
+  "style": {
+    "services": "rows",
+    "facts": "big",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "square"
   }
 }

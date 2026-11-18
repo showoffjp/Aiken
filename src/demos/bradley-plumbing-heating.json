@@ -9,7 +9,7 @@
   "established": "1952",
   "look": "bold",
   "fonts": {
-    "display": "space-grotesk",
+    "display": "archivo",
     "body": "inter"
   },
   "colors": {
@@ -198,5 +198,13 @@
       "No business details for search (hours, service area)",
       "Seventy years of history gets a single line"
     ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "pattern": "dots",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "shadow"
   }
 }

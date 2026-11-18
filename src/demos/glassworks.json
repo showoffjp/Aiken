@@ -8,17 +8,29 @@
   "town": "Aiken, SC",
   "established": "1991",
   "look": "bold",
-  "fonts": { "display": "bricolage-grotesque", "body": "dm-sans" },
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "dm-sans"
+  },
   "colors": {
-    "bg": "#f1f6fa", "surface": "#ffffff", "ink": "#0c1b2a", "muted": "#506273",
-    "primary": "#0a69ad", "onPrimary": "#ffffff", "accent": "#ffd13b", "line": "#d3e0ea"
+    "bg": "#f1f6fa",
+    "surface": "#ffffff",
+    "ink": "#0c1b2a",
+    "muted": "#506273",
+    "primary": "#0a69ad",
+    "onPrimary": "#ffffff",
+    "accent": "#ffd13b",
+    "line": "#d3e0ea"
   },
   "radius": 6,
   "icon": "app-window",
   "contact": {
     "phone": "(803) 642-6926",
     "email": "info@glassworksaiken.com",
-    "address": ["1004 Owens Street", "Aiken, SC 29803"],
+    "address": [
+      "1004 Owens Street",
+      "Aiken, SC 29803"
+    ],
     "mapQuery": "Glass Works, 1004 Owens Street, Aiken, SC 29803"
   },
   "hero": {
@@ -26,61 +38,134 @@
     "eyebrow": "Serving the CSRA since 1991",
     "title": "Our glass *works for you.*",
     "lede": "The CSRA's one-stop shop for glass. Windshields, home windows, mirrors and table tops, with mobile service throughout the area and in-shop service on Owens Street in Aiken.",
-    "cta": { "label": "Call (803) 642-6926", "href": "tel:+18036426926" },
-    "cta2": { "label": "Get a free quote", "href": "#visit" },
-    "points": ["Written lifetime warranty on auto glass", "Mobile service", "We handle insurance paperwork"]
+    "cta": {
+      "label": "Call (803) 642-6926",
+      "href": "tel:+18036426926"
+    },
+    "cta2": {
+      "label": "Get a free quote",
+      "href": "#visit"
+    },
+    "points": [
+      "Written lifetime warranty on auto glass",
+      "Mobile service",
+      "We handle insurance paperwork"
+    ]
   },
   "facts": [
-    { "value": "1991", "label": "Serving the people of the CSRA since" },
-    { "value": "Lifetime", "label": "Written warranty on auto glass replacements" },
-    { "value": "Mobile", "label": "We come to you, anywhere in the CSRA" },
-    { "value": "Free", "label": "Quotes for auto, home and office glass" }
+    {
+      "value": "1991",
+      "label": "Serving the people of the CSRA since"
+    },
+    {
+      "value": "Lifetime",
+      "label": "Written warranty on auto glass replacements"
+    },
+    {
+      "value": "Mobile",
+      "label": "We come to you, anywhere in the CSRA"
+    },
+    {
+      "value": "Free",
+      "label": "Quotes for auto, home and office glass"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "auto", "nav": "Auto glass", "columns": 4,
+      "type": "services",
+      "id": "auto",
+      "nav": "Auto glass",
+      "columns": 4,
       "eyebrow": "For your car, truck or RV",
       "title": "Auto glass, *repaired or replaced*",
       "intro": "Most damaged windshields do not need to be replaced. If the damage is small enough, a repair stops it spreading for far less than the cost of a replacement.",
       "items": [
-        { "icon": "sparkle", "title": "Windshield repairs", "text": "Rock chips repaired to restore clarity and stop the damage from spreading." },
-        { "icon": "car-front", "title": "Auto glass replacements", "text": "Windshields, door glass and back glass for all cars, trucks and SUVs." },
-        { "icon": "caravan", "title": "Motor home & RV glass", "text": "Big glass for big rigs." },
-        { "icon": "arrow-up-down", "title": "Power window repair", "text": "Windows that go up and down again." }
+        {
+          "icon": "sparkle",
+          "title": "Windshield repairs",
+          "text": "Rock chips repaired to restore clarity and stop the damage from spreading."
+        },
+        {
+          "icon": "car-front",
+          "title": "Auto glass replacements",
+          "text": "Windshields, door glass and back glass for all cars, trucks and SUVs."
+        },
+        {
+          "icon": "caravan",
+          "title": "Motor home & RV glass",
+          "text": "Big glass for big rigs."
+        },
+        {
+          "icon": "arrow-up-down",
+          "title": "Power window repair",
+          "text": "Windows that go up and down again."
+        }
       ]
     },
     {
-      "type": "services", "id": "home", "nav": "Home & office", "columns": 3,
+      "type": "services",
+      "id": "home",
+      "nav": "Home & office",
+      "columns": 3,
       "eyebrow": "For your home or business",
       "title": "We fix your *\"panes\"*",
       "intro": "From replacing the glass in windows to table tops and shelving, at an affordable price.",
       "items": [
-        { "icon": "table-2", "title": "Glass tables & shelves", "text": "Table tops and shelving cut to fit." },
-        { "icon": "scan-face", "title": "Mirrors & vanities", "text": "Mirrors for baths, bedrooms and businesses." },
-        { "icon": "cloud-fog", "title": "Foggy windows", "text": "Clarity restored to fogged-up windows, including bay windows and skylights." }
+        {
+          "icon": "table-2",
+          "title": "Glass tables & shelves",
+          "text": "Table tops and shelving cut to fit."
+        },
+        {
+          "icon": "scan-face",
+          "title": "Mirrors & vanities",
+          "text": "Mirrors for baths, bedrooms and businesses."
+        },
+        {
+          "icon": "cloud-fog",
+          "title": "Foggy windows",
+          "text": "Clarity restored to fogged-up windows, including bay windows and skylights."
+        }
       ]
     },
     {
-      "type": "story", "id": "why", "nav": "Why Glass Works",
+      "type": "story",
+      "id": "why",
+      "nav": "Why Glass Works",
       "eyebrow": "Why Glass Works?",
       "title": "Your satisfaction is *our #1 priority*",
       "body": [
         "Glass Works has been serving the people of the CSRA since 1991. We want to build a relationship with you, so that we continue to be your choice in glass repair.",
         "Filing a claim with your insurance company? We can handle all the paperwork for you."
       ],
-      "list": ["Quality auto glass replacements backed by a written lifetime warranty", "Insurance billing handled for you", "Mobile service throughout the CSRA", "In-shop service on Owens Street in Aiken"]
+      "list": [
+        "Quality auto glass replacements backed by a written lifetime warranty",
+        "Insurance billing handled for you",
+        "Mobile service throughout the CSRA",
+        "In-shop service on Owens Street in Aiken"
+      ]
     },
     {
       "type": "band",
       "title": "Cracked, chipped or foggy? Let us take a look.",
       "text": "Free quotes for auto, home and office glass.",
-      "cta": { "label": "Call (803) 642-6926", "href": "tel:+18036426926" }
+      "cta": {
+        "label": "Call (803) 642-6926",
+        "href": "tel:+18036426926"
+      }
     }
   ],
   "visit": {
     "title": "Visit *our shop*",
     "formTitle": "Request a free quote",
-    "formTopics": ["Windshield repair", "Auto glass replacement", "RV or motor home glass", "Power window repair", "Home or office glass", "Mirrors, tables or shelves"]
+    "formTopics": [
+      "Windshield repair",
+      "Auto glass replacement",
+      "RV or motor home glass",
+      "Power window repair",
+      "Home or office glass",
+      "Mirrors, tables or shelves"
+    ]
   },
   "source": {
     "url": "https://www.glassworksaiken.com/",
@@ -90,5 +175,15 @@
       "No link previews when the site is shared",
       "No favicon"
     ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "rule",
+    "motion": "flip",
+    "buttons": "square",
+    "facts": "badges"
   }
 }

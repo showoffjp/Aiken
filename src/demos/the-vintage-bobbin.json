@@ -9,7 +9,8 @@
   "look": "warm",
   "fonts": {
     "display": "lora",
-    "body": "nunito-sans"
+    "body": "nunito-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fbf6ef",
@@ -302,5 +303,15 @@
       "Product and class photos have no text descriptions for screen readers",
       "No preview image or description when the link is shared"
     ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "flip",
+    "buttons": "shadow"
   }
 }

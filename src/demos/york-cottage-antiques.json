@@ -122,5 +122,13 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "rows",
+    "divider": "curve",
+    "heads": "outline",
+    "motion": "blur",
+    "buttons": "underline"
   }
 }

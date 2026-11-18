@@ -9,7 +9,7 @@
   "established": "1947",
   "look": "clean",
   "fonts": {
-    "display": "libre-franklin",
+    "display": "outfit",
     "body": "source-sans-3"
   },
   "colors": {
@@ -253,5 +253,15 @@
       "The page blocks zooming on phones",
       "\"Equestrain Apparel\" is misspelled on the services list"
     ]
+  },
+  "style": {
+    "frame": "circle",
+    "services": "rows",
+    "facts": "big",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "pill"
   }
 }

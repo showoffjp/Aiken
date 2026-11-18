@@ -133,5 +133,16 @@
       "A short guide for first-time visitors",
       "Room to add the menu, photos and hours as the owner supplies them"
     ]
+  },
+  "style": {
+    "frame": "circle",
+    "flip": true,
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "pill"
   }
 }

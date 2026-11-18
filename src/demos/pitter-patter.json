@@ -7,7 +7,7 @@
   "established": "1991",
   "look": "boutique",
   "fonts": {
-    "display": "playfair-display",
+    "display": "fredoka",
     "body": "nunito-sans"
   },
   "colors": {
@@ -123,5 +123,15 @@
       "A proper preview when the link is shared by text or on Facebook",
       "Room to add a menu, photos and news as the owner supplies them"
     ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
   }
 }

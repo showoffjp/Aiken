@@ -8,7 +8,8 @@
   "look": "warm",
   "fonts": {
     "display": "fraunces",
-    "body": "nunito-sans"
+    "body": "nunito-sans",
+    "accent": "caveat"
   },
   "colors": {
     "bg": "#fbf6ee",
@@ -221,5 +222,13 @@
       "One page still reads \"COMING SOON\"",
       "Footer reads © 2022, and Google shows no description for the site"
     ]
+  },
+  "style": {
+    "hero": "board",
+    "facts": "ticker",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
   }
 }

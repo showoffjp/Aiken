@@ -27,7 +27,21 @@ export type Demo = {
   group: string;
   town: string;
   look: 'editorial' | 'bold' | 'warm' | 'clean' | 'boutique';
-  fonts: { display: keyof typeof fontsJson; body: keyof typeof fontsJson };
+  /** `accent` is an optional third face (handwriting, mono) used by some hero styles. */
+  fonts: { display: keyof typeof fontsJson; body: keyof typeof fontsJson; accent?: keyof typeof fontsJson };
+  /** Per-concept personality: layout archetype and section treatments (see demo.css). */
+  style?: {
+    hero?: 'poster' | 'bento' | 'board' | 'collage' | 'blueprint' | 'magazine' | 'diagonal' | 'spotlight';
+    frame?: 'arch' | 'circle' | 'polaroid' | 'offset' | 'blob' | 'slant';
+    flip?: boolean;
+    services?: 'grid' | 'list' | 'tiles' | 'pills' | 'rows';
+    facts?: 'strip' | 'big' | 'badges' | 'ticker';
+    pattern?: 'dots' | 'grid' | 'stripes' | 'waves' | 'checker' | 'none';
+    divider?: 'wave' | 'zigzag' | 'slant' | 'curve' | 'none';
+    heads?: 'numbered' | 'outline' | 'center' | 'rule' | 'plain';
+    motion?: 'rise' | 'slide' | 'zoom' | 'blur' | 'flip' | 'clip';
+    buttons?: 'pill' | 'square' | 'underline' | 'shadow' | 'outline';
+  };
   colors: { bg: string; surface: string; ink: string; muted: string; primary: string; onPrimary: string; accent: string; line: string };
   radius?: number;
   icon: string;

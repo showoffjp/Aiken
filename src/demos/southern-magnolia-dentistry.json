@@ -1,28 +1,157 @@
 {
-  "slug": "southern-magnolia-dentistry", "name": "Southern Magnolia Dentistry", "short": "Southern Magnolia Dentistry",
-  "category": "Family & Cosmetic Dentist", "group": "Health & Beauty", "town": "Aiken, SC",
-  "look": "boutique", "fonts": { "display": "cormorant", "body": "manrope" },
-  "colors": { "bg": "#f8f7f2", "surface": "#ffffff", "ink": "#1c2823", "muted": "#606c66", "primary": "#3d6a58", "onPrimary": "#ffffff", "accent": "#d9b98a", "line": "#e2e0d6" },
-  "radius": 0, "icon": "smile",
-  "contact": { "phone": "(803) 648-9511", "address": ["598 Silver Bluff Road, Suite 1", "Aiken, SC 29803"], "mapQuery": "Southern Magnolia Dentistry, 598 Silver Bluff Road, Aiken, SC 29803" },
-  "hero": { "variant": "centered", "eyebrow": "Your friendly Aiken dentist", "title": "Creating the perfect smile *for your family*", "lede": "Gentle, comfortable, personal dental care in a family-friendly practice, with state-of-the-art equipment and techniques.", "cta": { "label": "Request an appointment", "href": "#visit" }, "cta2": { "label": "Call (803) 648-9511", "href": "tel:+18036489511" } },
-  "facts": [ { "value": "Family", "label": "General, family and cosmetic dentistry" }, { "value": "Gentle", "label": "Comfortable, personal care for every patient" }, { "value": "New patients", "label": "Welcome" } ],
-  "sections": [
-    { "type": "services", "id": "services", "nav": "Services", "eyebrow": "What we do", "title": "Care for *every smile*", "items": [
-      { "icon": "search-check", "title": "Exam & cleaning" }, { "icon": "sparkles", "title": "Teeth whitening" }, { "icon": "crown", "title": "Dental crowns" },
-      { "icon": "anchor", "title": "Dental implants" }, { "icon": "shield-check", "title": "Dental fillings" }, { "icon": "heart-pulse", "title": "Root canal" } ] },
-    { "type": "story", "id": "doctor", "nav": "Meet the doctor", "eyebrow": "Meet the doctor", "title": "Dr. David Urbanawiz, *DMD*", "body": [
-      "Dr. Urbanawiz is a gentle and caring dentist who believes in providing comfortable, personal care to all of his patients. He received his BBA in business management from Augusta State University and continued his studies at the Dental College of Georgia at Augusta University." ] },
-    { "type": "story", "id": "practice", "nav": "Our practice", "eyebrow": "About us", "title": "Attentive care, *impeccable work*", "body": [
-      "We understand the importance of having a dental practice that provides you with exceptional care in a family-friendly environment. Our staff is committed to serving each and every patient with attentive care and impeccable dental work. As one of our patients, you deserve nothing less.",
-      "Our practice provides general dentistry services including the prevention, diagnosis and treatment of a wide variety of conditions that affect your teeth, gums and oral health." ] },
-    { "type": "band", "title": "Time for a check-up?", "text": "Call us today or request your consultation.", "cta": { "label": "Call (803) 648-9511", "href": "tel:+18036489511" } }
+  "slug": "southern-magnolia-dentistry",
+  "name": "Southern Magnolia Dentistry",
+  "short": "Southern Magnolia Dentistry",
+  "category": "Family & Cosmetic Dentist",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "outfit",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f8f7f2",
+    "surface": "#ffffff",
+    "ink": "#1c2823",
+    "muted": "#606c66",
+    "primary": "#3d6a58",
+    "onPrimary": "#ffffff",
+    "accent": "#d9b98a",
+    "line": "#e2e0d6"
+  },
+  "radius": 0,
+  "icon": "smile",
+  "contact": {
+    "phone": "(803) 648-9511",
+    "address": [
+      "598 Silver Bluff Road, Suite 1",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Southern Magnolia Dentistry, 598 Silver Bluff Road, Aiken, SC 29803"
+  },
+  "hero": {
+    "variant": "centered",
+    "eyebrow": "Your friendly Aiken dentist",
+    "title": "Creating the perfect smile *for your family*",
+    "lede": "Gentle, comfortable, personal dental care in a family-friendly practice, with state-of-the-art equipment and techniques.",
+    "cta": {
+      "label": "Request an appointment",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 648-9511",
+      "href": "tel:+18036489511"
+    }
+  },
+  "facts": [
+    {
+      "value": "Family",
+      "label": "General, family and cosmetic dentistry"
+    },
+    {
+      "value": "Gentle",
+      "label": "Comfortable, personal care for every patient"
+    },
+    {
+      "value": "New patients",
+      "label": "Welcome"
+    }
   ],
-  "visit": { "title": "Request *your consultation*", "formTitle": "Request an appointment", "formTopics": ["New patient exam", "Cleaning", "Whitening", "Crowns or implants", "Tooth pain", "Something else"] },
-  "source": { "url": "https://www.southernmagnoliadental.com/", "before": [
-    "A dental-marketing vendor's template, similar to many other practices",
-    "Runs jQuery 1.11 from 2014",
-    "Old-style <center> tag in the page code",
-    "No favicon or link previews when shared",
-    "No dentist details for Google (hours, address, reviews)" ] }
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "What we do",
+      "title": "Care for *every smile*",
+      "items": [
+        {
+          "icon": "search-check",
+          "title": "Exam & cleaning"
+        },
+        {
+          "icon": "sparkles",
+          "title": "Teeth whitening"
+        },
+        {
+          "icon": "crown",
+          "title": "Dental crowns"
+        },
+        {
+          "icon": "anchor",
+          "title": "Dental implants"
+        },
+        {
+          "icon": "shield-check",
+          "title": "Dental fillings"
+        },
+        {
+          "icon": "heart-pulse",
+          "title": "Root canal"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "doctor",
+      "nav": "Meet the doctor",
+      "eyebrow": "Meet the doctor",
+      "title": "Dr. David Urbanawiz, *DMD*",
+      "body": [
+        "Dr. Urbanawiz is a gentle and caring dentist who believes in providing comfortable, personal care to all of his patients. He received his BBA in business management from Augusta State University and continued his studies at the Dental College of Georgia at Augusta University."
+      ]
+    },
+    {
+      "type": "story",
+      "id": "practice",
+      "nav": "Our practice",
+      "eyebrow": "About us",
+      "title": "Attentive care, *impeccable work*",
+      "body": [
+        "We understand the importance of having a dental practice that provides you with exceptional care in a family-friendly environment. Our staff is committed to serving each and every patient with attentive care and impeccable dental work. As one of our patients, you deserve nothing less.",
+        "Our practice provides general dentistry services including the prevention, diagnosis and treatment of a wide variety of conditions that affect your teeth, gums and oral health."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Time for a check-up?",
+      "text": "Call us today or request your consultation.",
+      "cta": {
+        "label": "Call (803) 648-9511",
+        "href": "tel:+18036489511"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Request *your consultation*",
+    "formTitle": "Request an appointment",
+    "formTopics": [
+      "New patient exam",
+      "Cleaning",
+      "Whitening",
+      "Crowns or implants",
+      "Tooth pain",
+      "Something else"
+    ]
+  },
+  "source": {
+    "url": "https://www.southernmagnoliadental.com/",
+    "before": [
+      "A dental-marketing vendor's template, similar to many other practices",
+      "Runs jQuery 1.11 from 2014",
+      "Old-style <center> tag in the page code",
+      "No favicon or link previews when shared",
+      "No dentist details for Google (hours, address, reviews)"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "rows",
+    "facts": "big",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "pill"
+  }
 }

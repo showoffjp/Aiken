@@ -7,10 +7,19 @@
   "group": "Professional",
   "town": "Aiken, SC",
   "look": "clean",
-  "fonts": { "display": "bricolage-grotesque", "body": "dm-sans" },
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "dm-sans"
+  },
   "colors": {
-    "bg": "#f7f8fc", "surface": "#ffffff", "ink": "#151a2c", "muted": "#586079",
-    "primary": "#3a57a3", "onPrimary": "#ffffff", "accent": "#ffc24b", "line": "#dde1ee"
+    "bg": "#f7f8fc",
+    "surface": "#ffffff",
+    "ink": "#151a2c",
+    "muted": "#586079",
+    "primary": "#3a57a3",
+    "onPrimary": "#ffffff",
+    "accent": "#ffc24b",
+    "line": "#dde1ee"
   },
   "radius": 16,
   "icon": "brain",
@@ -25,71 +34,172 @@
     "eyebrow": "Serving entrepreneurs in Aiken and the CSRA",
     "title": "Left-brain help for the *right-brained entrepreneur*",
     "lede": "Are you a one-person business putting in 20 hours a week on paperwork? m.o.m. comes to your location and takes the office, administrative and bookkeeping tasks off your plate.",
-    "cta": { "label": "Book a free consultation", "href": "#visit" },
-    "cta2": { "label": "See fees", "href": "#fees" },
-    "points": ["Same person every week", "At your location", "First hour free"]
+    "cta": {
+      "label": "Book a free consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "See fees",
+      "href": "#fees"
+    },
+    "points": [
+      "Same person every week",
+      "At your location",
+      "First hour free"
+    ]
   },
   "facts": [
-    { "value": "On site", "label": "m.o.m. comes to your location" },
-    { "value": "Same person", "label": "Every week, someone who knows your business" },
-    { "value": "1 hour free", "label": "Consultation, followed by a written proposal" }
+    {
+      "value": "On site",
+      "label": "m.o.m. comes to your location"
+    },
+    {
+      "value": "Same person",
+      "label": "Every week, someone who knows your business"
+    },
+    {
+      "value": "1 hour free",
+      "label": "Consultation, followed by a written proposal"
+    }
   ],
   "sections": [
     {
-      "type": "services", "id": "why", "nav": "Why m.o.m.", "columns": 3,
+      "type": "services",
+      "id": "why",
+      "nav": "Why m.o.m.",
+      "columns": 3,
       "eyebrow": "What's in it for you?",
       "title": "Do what you do best. *We'll do the rest.*",
       "items": [
-        { "icon": "clock", "title": "Time", "text": "To develop more business, for your other life, and to enjoy using your skills." },
-        { "icon": "piggy-bank", "title": "Money", "text": "Make your accountant happy with the information they need, on time, in the format they want." },
-        { "icon": "smile", "title": "Stress relief", "text": "No more worrying about what you forgot, did not get to, or missed. It's done." },
-        { "icon": "briefcase", "title": "Professional image", "text": "You keep appointments, you are on time, and you respond promptly." },
-        { "icon": "battery-charging", "title": "Energy", "text": "Focus on what you do best. When you enjoy what you are doing, it shows." }
+        {
+          "icon": "clock",
+          "title": "Time",
+          "text": "To develop more business, for your other life, and to enjoy using your skills."
+        },
+        {
+          "icon": "piggy-bank",
+          "title": "Money",
+          "text": "Make your accountant happy with the information they need, on time, in the format they want."
+        },
+        {
+          "icon": "smile",
+          "title": "Stress relief",
+          "text": "No more worrying about what you forgot, did not get to, or missed. It's done."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Professional image",
+          "text": "You keep appointments, you are on time, and you respond promptly."
+        },
+        {
+          "icon": "battery-charging",
+          "title": "Energy",
+          "text": "Focus on what you do best. When you enjoy what you are doing, it shows."
+        }
       ]
     },
     {
-      "type": "columns", "id": "tasks", "nav": "What we do",
+      "type": "columns",
+      "id": "tasks",
+      "nav": "What we do",
       "eyebrow": "Some of the things m.o.m. can do",
       "title": "The paperwork, *handled*",
       "columns": [
-        { "title": "Keeping in touch", "items": ["Mail management", "Contact management", "Office correspondence", "Handwritten correspondence"] },
-        { "title": "Paper and records", "items": ["Data entry", "Filing", "Client file management", "Reports"] },
-        { "title": "Getting paid", "items": ["Proposals", "Quotes", "Invoices", "Billing"] }
+        {
+          "title": "Keeping in touch",
+          "items": [
+            "Mail management",
+            "Contact management",
+            "Office correspondence",
+            "Handwritten correspondence"
+          ]
+        },
+        {
+          "title": "Paper and records",
+          "items": [
+            "Data entry",
+            "Filing",
+            "Client file management",
+            "Reports"
+          ]
+        },
+        {
+          "title": "Getting paid",
+          "items": [
+            "Proposals",
+            "Quotes",
+            "Invoices",
+            "Billing"
+          ]
+        }
       ]
     },
     {
-      "type": "menu", "id": "fees", "nav": "Fees",
+      "type": "menu",
+      "id": "fees",
+      "nav": "Fees",
       "eyebrow": "How m.o.m. charges",
       "title": "Simple, *monthly* fees",
       "intro": "Fees are per month, a 30-day period from the agreed start date.",
       "groups": [
-        { "title": "Starting package", "items": [
-          { "name": "4 hours in one month", "desc": "Administrative services at your location.", "price": "$135" },
-          { "name": "Additional hours", "desc": "Mileage may be charged beyond Aiken.", "price": "$30 / hr" }
-        ] },
-        { "title": "Packages & projects", "items": [
-          { "name": "Package rates", "desc": "A discount for clients who need a set number of hours each month on set days." },
-          { "name": "Special projects", "desc": "A complimentary one-hour consultation, then a written proposal detailing the project and costs.", "price": "from $35 / hr" }
-        ] }
+        {
+          "title": "Starting package",
+          "items": [
+            {
+              "name": "4 hours in one month",
+              "desc": "Administrative services at your location.",
+              "price": "$135"
+            },
+            {
+              "name": "Additional hours",
+              "desc": "Mileage may be charged beyond Aiken.",
+              "price": "$30 / hr"
+            }
+          ]
+        },
+        {
+          "title": "Packages & projects",
+          "items": [
+            {
+              "name": "Package rates",
+              "desc": "A discount for clients who need a set number of hours each month on set days."
+            },
+            {
+              "name": "Special projects",
+              "desc": "A complimentary one-hour consultation, then a written proposal detailing the project and costs.",
+              "price": "from $35 / hr"
+            }
+          ]
+        }
       ],
       "footnote": "Fees do not include postage, courier, telephone charges, materials or items purchased for a project. Rates as listed on the current site; to be confirmed."
     },
     {
-      "type": "story", "id": "about", "nav": "About",
+      "type": "story",
+      "id": "about",
+      "nav": "About",
       "eyebrow": "m.o.m. in charge",
       "title": "Pegi Flahault, *a small business owner just like you*",
       "body": [
         "m.o.m. specializes in the one-person or home-based business that needs help with paperwork and business details on an occasional or project basis. You get hands-on assistance from the same person each time, with a network of professionals who can be brought in when a project needs them.",
         "Pegi brings 25 years of corporate experience, from file clerk to corporate officer, and more than 20 years running her own one-person business. She is an active member of the Greater Aiken Chamber of Commerce and a Chamber Ambassador."
       ],
-      "quote": { "text": "I could do the bookkeeping and administrative functions, but it would take me much longer, and my time and skills are best spent on marketing and running the business.", "by": "Kelly MacVean, LaDolce Gourmet Bakery, Coffee & Tea Bar" }
+      "quote": {
+        "text": "I could do the bookkeeping and administrative functions, but it would take me much longer, and my time and skills are best spent on marketing and running the business.",
+        "by": "Kelly MacVean, LaDolce Gourmet Bakery, Coffee & Tea Bar"
+      }
     }
   ],
   "visit": {
     "title": "You can do it all. *Should you?*",
     "intro": "Start with a complimentary one-hour consultation.",
     "formTitle": "Tell us about your business",
-    "formTopics": ["A few hours a month", "A package of hours", "A special project", "Not sure yet"]
+    "formTopics": [
+      "A few hours a month",
+      "A package of hours",
+      "A special project",
+      "Not sure yet"
+    ]
   },
   "source": {
     "url": "https://www.biz-mom.com/",
@@ -99,5 +209,13 @@
       "No favicon, link previews or business details for search",
       "No way to ask for a consultation except by email"
     ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "pills",
+    "pattern": "dots",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "pill"
   }
 }

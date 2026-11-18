@@ -1,32 +1,141 @@
 {
-  "slug": "the-feed-sack", "prospect": "feed-sack-aiken",
-  "name": "The Feed Sack Restaurant", "short": "The Feed Sack",
-  "category": "Restaurant & Bar", "group": "Food & Drink", "town": "Aiken, SC",
-  "look": "warm", "fonts": { "display": "lora", "body": "nunito-sans" },
-  "colors": { "bg": "#faf4e8", "surface": "#fffdf7", "ink": "#2a1c17", "muted": "#6d5c52", "primary": "#6c1f2b", "onPrimary": "#fff8ec", "accent": "#dba63f", "line": "#eaddc6" },
-  "radius": 14, "icon": "wine",
-  "contact": { "phone": "(803) 226-0459", "email": "nora@feedsackaiken.com", "address": ["1593 Whiskey Road", "Aiken, SC"], "mapQuery": "The Feed Sack, 1593 Whiskey Road, Aiken, SC" },
-  "hero": { "variant": "split", "eyebrow": "Casual dining on Whiskey Road", "title": "Dinner, wine and *live piano*", "lede": "A menu crafted to showcase the freshest ingredients and bold flavors, two full bars, a retail wine selection, and live piano every Monday through Saturday evening.", "cta": { "label": "Call (803) 226-0459", "href": "tel:+18032260459" }, "cta2": { "label": "What's on", "href": "#music" } },
-  "facts": [ { "value": "2 full bars", "label": "With an exclusive wine and cocktail menu" }, { "value": "Live piano", "label": "Monday – Saturday, 6:00 to 8:00 pm" }, { "value": "Wine Wednesdays", "label": "Monthly wine tastings" }, { "value": "To go", "label": "Pickup, or delivery by DoorDash and Uber Eats" } ],
-  "sections": [
-    { "type": "services", "id": "music", "nav": "Music & wine", "columns": 3, "eyebrow": "More than dinner", "title": "Something on *most nights*", "items": [
-      { "icon": "piano", "title": "Live piano", "text": "Every Monday through Saturday evening from 6:00 pm to 8:00 pm." },
-      { "icon": "music", "title": "Music on the patio", "text": "Live music on Saturdays, weather permitting." },
-      { "icon": "wine", "title": "Wine Tasting Wednesdays", "text": "Held monthly. Watch our social channels for dates." } ] },
-    { "type": "story", "id": "about", "nav": "About", "eyebrow": "The new taste of The Feed Sack", "title": "Made with care, *from appetizers to desserts*", "body": [
-      "Our menu is carefully crafted to showcase the freshest ingredients and bold flavors. From appetizers to desserts, every dish is made with care and attention to detail.",
-      "The Feed Sack has two full bars and a retail wine selection, with an exclusive wine and cocktail menu. Everything is also available for pickup, or for delivery on DoorDash and Uber Eats." ] },
-    { "type": "band", "title": "Come experience it.", "text": "Call for a table, or order pickup.", "cta": { "label": "Call (803) 226-0459", "href": "tel:+18032260459" } }
+  "slug": "the-feed-sack",
+  "prospect": "feed-sack-aiken",
+  "name": "The Feed Sack Restaurant",
+  "short": "The Feed Sack",
+  "category": "Restaurant & Bar",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#faf4e8",
+    "surface": "#fffdf7",
+    "ink": "#2a1c17",
+    "muted": "#6d5c52",
+    "primary": "#6c1f2b",
+    "onPrimary": "#fff8ec",
+    "accent": "#dba63f",
+    "line": "#eaddc6"
+  },
+  "radius": 14,
+  "icon": "wine",
+  "contact": {
+    "phone": "(803) 226-0459",
+    "email": "nora@feedsackaiken.com",
+    "address": [
+      "1593 Whiskey Road",
+      "Aiken, SC"
+    ],
+    "mapQuery": "The Feed Sack, 1593 Whiskey Road, Aiken, SC"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Casual dining on Whiskey Road",
+    "title": "Dinner, wine and *live piano*",
+    "lede": "A menu crafted to showcase the freshest ingredients and bold flavors, two full bars, a retail wine selection, and live piano every Monday through Saturday evening.",
+    "cta": {
+      "label": "Call (803) 226-0459",
+      "href": "tel:+18032260459"
+    },
+    "cta2": {
+      "label": "What's on",
+      "href": "#music"
+    }
+  },
+  "facts": [
+    {
+      "value": "2 full bars",
+      "label": "With an exclusive wine and cocktail menu"
+    },
+    {
+      "value": "Live piano",
+      "label": "Monday – Saturday, 6:00 to 8:00 pm"
+    },
+    {
+      "value": "Wine Wednesdays",
+      "label": "Monthly wine tastings"
+    },
+    {
+      "value": "To go",
+      "label": "Pickup, or delivery by DoorDash and Uber Eats"
+    }
   ],
-  "visit": { "title": "Find us on *Whiskey Road*", "hideForm": true },
-  "source": { "url": "https://www.thefeedsackrestaurants.com/",
+  "sections": [
+    {
+      "type": "services",
+      "id": "music",
+      "nav": "Music & wine",
+      "columns": 3,
+      "eyebrow": "More than dinner",
+      "title": "Something on *most nights*",
+      "items": [
+        {
+          "icon": "piano",
+          "title": "Live piano",
+          "text": "Every Monday through Saturday evening from 6:00 pm to 8:00 pm."
+        },
+        {
+          "icon": "music",
+          "title": "Music on the patio",
+          "text": "Live music on Saturdays, weather permitting."
+        },
+        {
+          "icon": "wine",
+          "title": "Wine Tasting Wednesdays",
+          "text": "Held monthly. Watch our social channels for dates."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The new taste of The Feed Sack",
+      "title": "Made with care, *from appetizers to desserts*",
+      "body": [
+        "Our menu is carefully crafted to showcase the freshest ingredients and bold flavors. From appetizers to desserts, every dish is made with care and attention to detail.",
+        "The Feed Sack has two full bars and a retail wine selection, with an exclusive wine and cocktail menu. Everything is also available for pickup, or for delivery on DoorDash and Uber Eats."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come experience it.",
+      "text": "Call for a table, or order pickup.",
+      "cta": {
+        "label": "Call (803) 226-0459",
+        "href": "tel:+18032260459"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "hideForm": true
+  },
+  "source": {
+    "url": "https://www.thefeedsackrestaurants.com/",
     "before": [
       "The site's security certificate has expired, so browsers stop visitors with a full-page warning before they see the menu",
       "A second check of the site returned a \"service unavailable\" error",
-      "The words on this concept come from the restaurant's public Visit Aiken listing; the menu itself would come from the owner" ],
+      "The words on this concept come from the restaurant's public Visit Aiken listing; the menu itself would come from the owner"
+    ],
     "after": [
       "No certificate to renew: HTTPS is automatic and stays current",
       "A working page, today: phone, address, map and what's on this week",
       "One-tap call and directions on a phone",
-      "Ready for a real, readable menu as soon as the restaurant supplies it" ] }
+      "Ready for a real, readable menu as soon as the restaurant supplies it"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "stripes",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "square"
+  }
 }
