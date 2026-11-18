@@ -205,7 +205,18 @@ dialog.notes::backdrop { background: rgb(10 12 16 / .6); backdrop-filter: blur(3
 
 .story .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 88px); align-items: center; }
 .story.flip .story-media { order: 2; }
-.story.solo .wrap { grid-template-columns: minmax(0, 780px); }
+.story.solo .wrap { grid-template-columns: minmax(0, 1.25fr) minmax(0, .75fr); }
+/* The seal beside a text-only story: the business name set round its emblem, slowly turning. */
+.story-seal { position: relative; display: grid; place-items: center; }
+.story-seal .seal { width: min(100%, 320px); position: relative; z-index: 1; filter: drop-shadow(0 18px 30px color-mix(in srgb, var(--primary) 28%, transparent)); }
+.story-glow { position: absolute; inset: 8%; border-radius: 50%; background: radial-gradient(circle, color-mix(in srgb, var(--accent) 30%, transparent), transparent 68%); }
+.fx-deep .story-seal .seal { color: var(--accent-on-deep, #fff); }
+.fx-deep .story-seal .seal .disc { fill: var(--accent-on-deep, #fff); }
+.fx-deep .story-seal .seal .glyph { color: var(--deep, #111); }
+.awake .story-seal .seal { animation: seal-turn 60s linear infinite; }
+.awake .story-seal .seal .glyph { transform-box: fill-box; transform-origin: center; animation: seal-turn 60s linear infinite reverse; }
+@keyframes seal-turn { to { rotate: 360deg; } }
+@media (max-width: 860px) { .story.solo .wrap { grid-template-columns: 1fr; } .story-seal .seal { width: min(70%, 240px); } }
 .story-media { position: relative; }
 .story-media img { border-radius: var(--r-lg); width: 100%; aspect-ratio: 5 / 4; object-fit: cover; box-shadow: var(--shadow); }
 .story-media img.contain { object-fit: contain; background: var(--surface); padding: 6%; box-shadow: none; border: 1px solid var(--line); }
@@ -294,7 +305,16 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 .hours td:last-child { text-align: right; font-variant-numeric: tabular-nums; color: color-mix(in srgb, var(--ink) 80%, var(--bg)); }
 .hours tr.today td { font-weight: 700; color: var(--primary-text, var(--primary)); }
 .map { border-radius: var(--r-lg); overflow: hidden; border: 1px solid var(--line); background: var(--surface); aspect-ratio: 16 / 10; }
-.map iframe { width: 100%; height: 100%; border: 0; display: block; filter: saturate(.85); }
+.map iframe { width: 100%; height: 100%; border: 0; display: block; filter: saturate(.85); position: relative; z-index: 1; }
+/* Drawn behind the embed: a street map with a pin, so the box is never blank while Google's map loads. */
+.map { position: relative; }
+.map-ph { position: absolute; inset: 0; overflow: hidden; background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 5%, var(--surface)), color-mix(in srgb, var(--accent) 9%, var(--surface))); }
+.map-ph .road { position: absolute; border-radius: 8px; background: color-mix(in srgb, var(--primary) 11%, transparent); }
+.map-ph .a { left: -10%; right: -10%; top: 42%; height: 16px; transform: rotate(-6deg); } .map-ph .b { left: -10%; right: -10%; top: 74%; height: 9px; transform: rotate(4deg); }
+.map-ph .c { top: -10%; bottom: -10%; left: 38%; width: 12px; transform: rotate(8deg); } .map-ph .d { top: -10%; bottom: -10%; left: 76%; width: 8px; transform: rotate(-5deg); }
+.map-pin { position: absolute; left: calc(40% - 15px); top: calc(42% - 40px); color: var(--primary-text, var(--primary)); filter: drop-shadow(0 8px 6px rgb(0 0 0 / .2)); }
+.awake .map-pin { animation: b-drop 3.4s ease-in-out infinite; }
+.map-addr { position: absolute; left: calc(40% + 22px); top: calc(42% - 34px); padding: 6px 10px; border-radius: 8px; background: var(--surface); color: var(--ink); font-size: .82rem; font-weight: 600; box-shadow: 0 8px 18px -10px rgb(0 0 0 / .35); white-space: nowrap; }
 .form { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: clamp(22px, 3vw, 34px); margin-top: 20px; }
 .section.alt .form { background: var(--bg); }
 .form h3 { font-size: 1.3rem; margin-bottom: 18px; }

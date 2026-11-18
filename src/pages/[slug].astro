@@ -248,7 +248,7 @@ const ld = businessLd(demo, site.url);
               )}
             </div>
             <div>
-              {mapSrc && <div class="map"><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
+              {mapSrc && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
               {!demo.visit?.hideForm && (
                 <form class="form" data-form novalidate>
                   <h3>{demo.visit?.formTitle || 'Send us a message'}</h3>
