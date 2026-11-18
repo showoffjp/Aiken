@@ -16185,5 +16185,1443 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "aiken-antique-mall": {
+  "slug": "aiken-antique-mall",
+  "name": "Aiken Antique Mall",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=34&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=dd4d53121b66d98b6cceb2b1bb49d3b2",
+    "name": "Aiken Antique Mall",
+    "phone": "(803) 648-6700",
+    "website": "http://www.facebook.com/Aikenantiquemall/",
+    "address": "112 Laurens Street, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/aiken_antique_mall/",
+    "name": "Aiken Antique Mall",
+    "phone": "(803) 648-6700",
+    "website": "https://www.facebook.com/AikenAntiqueMall",
+    "address": "112 Laurens St., SW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Aiken Antique Mall",
+    "phone": "",
+    "website": "https://www.facebook.com/AikenAntiqueMall",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "http://www.facebook.com/Aikenantiquemall/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1056,
+   "lcp": 1806,
+   "tbt": 3,
+   "si": 1056,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique",
+   "carolines-boutique-pitter-patter-childrens-bouti",
+   "dear-soul-candle-co",
+   "ginger-bee-boutique"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "carolines-boutique-pitter-patter-childrens-bouti",
+    "name": "Caroline’s Boutique/Pitter Patter Children’s Boutique",
+    "website": "https://www.pitterpattercarolines.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 55,
+    "pageMB": 3.2,
+    "a11ySerious": 18,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "ginger-bee-boutique",
+    "name": "Ginger Bee Boutique",
+    "website": "https://www.gingerbeeboutique.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.6,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "its-all-good-market-and-catering": {
+  "slug": "its-all-good-market-and-catering",
+  "name": "It's All Good Market & Catering",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/its_all_good_market_catering/",
+    "name": "It's All Good Market & Catering",
+    "phone": "(803) 226-9068",
+    "website": "https://www.facebook.com/ITSALLGOODMarketandCatering/",
+    "address": "337 Hayne Ave SW, Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/ITSALLGOODMarketandCatering/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 828,
+   "lcp": 1355,
+   "tbt": 0,
+   "si": 828,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "oh-mie-stelle-bakery",
+   "blue-collard",
+   "macks",
+   "neon-fig",
+   "polo-grounds-cafe"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "oh-mie-stelle-bakery",
+    "name": "Oh Mie Stelle! Bakery",
+    "website": "https://www.ohmiestelle.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 1.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "polo-grounds-cafe",
+    "name": "Polo Grounds Cafe",
+    "website": "https://www.pologroundscafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "los-tres-compadres": {
+  "slug": "los-tres-compadres",
+  "name": "Los Tres Compadres",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/los-tres-compadres/",
+    "name": "Los Tres Compadres",
+    "phone": "(803) 226-0780",
+    "website": "https://www.facebook.com/profile.php?id=100075974029324&sk=about",
+    "address": "3566 Richland Ave W, Aiken, SC 29801-6312, United States, Aiken, SC, United States, 29801-6312",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=100075974029324&sk=about"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1691,
+   "lcp": 1691,
+   "tbt": 0,
+   "si": 1691,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "marias-mexican-restaurant",
+   "mi-rancho",
+   "salsas-mex-mex-grill",
+   "tequilas-mexican-grill-and-bar",
+   "victoria-mexican-restaurant"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "marias-mexican-restaurant",
+    "name": "Maria's Mexican Restaurant",
+    "website": "http://mariasmexicanrestaurantaiken.com/",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": 2.5,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "mi-rancho",
+    "name": "Mi Rancho",
+    "website": "http://www.miranchomexicanrestaurants.com/index.php",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 13
+   },
+   {
+    "slug": "salsas-mex-mex-grill",
+    "name": "Salsa's Mex-Mex Grill",
+    "website": "https://www.salsasbarandgrill.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "tequilas-mexican-grill-and-bar",
+    "name": "Tequila's Mexican Grill & Bar",
+    "website": "http://tequilasmexicangrillsc.com/",
+    "state": "placeholder",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "victoria-mexican-restaurant",
+    "name": "Victoria Mexican Restaurant",
+    "website": "https://lodge-coco.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   }
+  ]
+ },
+ "macalusos-restaurant": {
+  "slug": "macalusos-restaurant",
+  "name": "Macaluso's Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=646&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=28f5abbb0b5c4893ecef5a2e3d3a234d",
+    "name": "Macaluso's Restaurant",
+    "phone": "(803) 262-5334",
+    "website": "http://Instagram: @Macalusosaiken",
+    "address": "135 York Street, SE, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/macalusos_macalusos_co/",
+    "name": "Macaluso's Restaurant",
+    "phone": "803-262-5334",
+    "website": "https://www.facebook.com/MacalusosAiken/",
+    "address": "135 York Street SE Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/MacalusosAiken/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1693,
+   "lcp": 1878,
+   "tbt": 0,
+   "si": 1693,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "ferrandos-italian-pizzeria",
+   "anshu-asian-caf",
+   "malias-restaurant",
+   "neon-fig",
+   "thai-jasmine-rice"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "malias-restaurant",
+    "name": "Malia's Restaurant",
+    "website": "https://maliasrestaurant.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 73,
+    "pageMB": 2.7,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 19
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "thai-jasmine-rice",
+    "name": "Thai Jasmine Rice",
+    "website": "https://jasminericesc.wixsite.com/kaogang",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   }
+  ]
+ },
+ "pats-sub-shop": {
+  "slug": "pats-sub-shop",
+  "name": "Pat's Sub Shop",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=753&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=e27f891d0f4b54fed8fc307046fa9211",
+    "name": "Pat's Sub Shop",
+    "phone": "(803) 649-1523",
+    "website": "http://www.facebook.com/Pats-Sub-Shop-222764991084029/",
+    "address": "728 E. Pine Log Road, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/pats_sub_shop/",
+    "name": "Pat’s Sub Shop",
+    "phone": "803-649-1523",
+    "website": "https://www.facebook.com/Pats-Sub-Shop-222764991084029/",
+    "address": "728 E Pine Log Road Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "http://www.facebook.com/Pats-Sub-Shop-222764991084029/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1681,
+   "lcp": 2103,
+   "tbt": 0,
+   "si": 1681,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "macks",
+   "the-village-caf",
+   "whats-cookin-downtown",
+   "bottom-line-bakery",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "bottom-line-bakery",
+    "name": "Bottom Line Bakery",
+    "website": "https://www.bottomlinebakeryaiken.com/",
+    "state": "broken",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "soul-and-seafood-house": {
+  "slug": "soul-and-seafood-house",
+  "name": "Soul & Seafood House",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/seafood_house/",
+    "name": "Soul & Seafood House",
+    "phone": "(803) 226-0555",
+    "website": "https://www.facebook.com/SeafoodHouseAiken",
+    "address": "3553 Richland Avenue West, Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/SeafoodHouseAiken"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1698,
+   "lcp": 1752,
+   "tbt": 0,
+   "si": 1698,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "park-avenue-oyster-bar-and-grill",
+   "feed-sack-aiken",
+   "aiken-fish-house-and-oyster-bar",
+   "blue-collard",
+   "lankys-on-laurens"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "park-avenue-oyster-bar-and-grill",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "website": "https://parkaveoysterbar.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 4.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "lankys-on-laurens",
+    "name": "Lanky's On Laurens",
+    "website": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 7.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   }
+  ]
+ },
+ "taj-aiken": {
+  "slug": "taj-aiken",
+  "name": "Taj Aiken",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/taj_aiken_indian_cruisine/",
+    "name": "Taj Aiken",
+    "phone": "803-845-9245",
+    "website": "https://www.facebook.com/tajaiken",
+    "address": "213 Richland Ave W. Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/tajaiken"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1722,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1722,
+   "cls": 0.004,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "anshu-asian-caf",
+   "ferrandos-italian-pizzeria",
+   "neon-fig",
+   "thai-jasmine-rice",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "thai-jasmine-rice",
+    "name": "Thai Jasmine Rice",
+    "website": "https://jasminericesc.wixsite.com/kaogang",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "tumbleweed": {
+  "slug": "tumbleweed",
+  "name": "TumbleWeed",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/tumbleweed/",
+    "name": "TumbleWeed",
+    "phone": "",
+    "website": "",
+    "address": "216 Park Ave SE Aiken SC",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1702,
+   "lcp": 1753,
+   "tbt": 0,
+   "si": 1702,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique",
+   "carolines-boutique-pitter-patter-childrens-bouti",
+   "dear-soul-candle-co",
+   "ginger-bee-boutique"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "carolines-boutique-pitter-patter-childrens-bouti",
+    "name": "Caroline’s Boutique/Pitter Patter Children’s Boutique",
+    "website": "https://www.pitterpattercarolines.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 55,
+    "pageMB": 3.2,
+    "a11ySerious": 18,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "ginger-bee-boutique",
+    "name": "Ginger Bee Boutique",
+    "website": "https://www.gingerbeeboutique.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.6,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "unique-catering": {
+  "slug": "unique-catering",
+  "name": "Unique Catering",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/unique_catering/",
+    "name": "Unique Catering",
+    "phone": "803-648-7003",
+    "website": "https://www.facebook.com/pages/Unique%20Catering/133653796686046/",
+    "address": "1624 Hampton Ave NW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/pages/Unique%20Catering/133653796686046/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1720,
+   "lcp": 1720,
+   "tbt": 0,
+   "si": 1720,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "blue-collard",
+   "lankys-on-laurens",
+   "legends-grille",
+   "macks",
+   "neon-fig"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "lankys-on-laurens",
+    "name": "Lanky's On Laurens",
+    "website": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 7.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "legends-grille",
+    "name": "Legends Grille",
+    "website": "https://thelegendsgrille.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 75,
+    "pageMB": 5.5,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "white-rose-eclectics": {
+  "slug": "white-rose-eclectics",
+  "name": "White Rose Eclectics",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/white_rose_eclectics/",
+    "name": "White Rose Eclectics",
+    "phone": "(803) 724-7285",
+    "website": "https://www.facebook.com/whiterosesc",
+    "address": "142 Laurens St., SW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/whiterosesc"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1691,
+   "lcp": 1958,
+   "tbt": 0,
+   "si": 1691,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique",
+   "carolines-boutique-pitter-patter-childrens-bouti",
+   "dear-soul-candle-co",
+   "ginger-bee-boutique"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "carolines-boutique-pitter-patter-childrens-bouti",
+    "name": "Caroline’s Boutique/Pitter Patter Children’s Boutique",
+    "website": "https://www.pitterpattercarolines.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 55,
+    "pageMB": 3.2,
+    "a11ySerious": 18,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "ginger-bee-boutique",
+    "name": "Ginger Bee Boutique",
+    "website": "https://www.gingerbeeboutique.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.6,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
  }
 }

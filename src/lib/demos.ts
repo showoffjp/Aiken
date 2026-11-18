@@ -19,6 +19,8 @@ export type Section =
 
 export type Demo = {
   slug: string;
+  /** ISO date the concept joined the portfolio; the home page marks it New for a few weeks. */
+  added?: string;
   /** slug of the matching row in data/prospects.json, if it differs */
   prospect?: string;
   name: string;

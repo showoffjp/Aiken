@@ -70,7 +70,7 @@ const after = demo.source.after || [
 const year = new Date().getFullYear();
 
 // The business details Google reads (schema.org). Part of what the real site would ship.
-const TYPE: Record<string, string> = { 'Food & Drink': 'FoodEstablishment', 'Shops & Services': 'Store', 'Health & Beauty': 'HealthAndBeautyBusiness', Professional: 'ProfessionalService', 'Trades & Industry': 'HomeAndConstructionBusiness', 'Auto & Equipment': 'AutomotiveBusiness', 'Stay & Play': 'LocalBusiness' };
+const TYPE: Record<string, string> = { 'Food & Drink': 'FoodEstablishment', 'Shops & Boutiques': 'Store', Services: 'LocalBusiness', 'Home & Garden': 'HomeAndConstructionBusiness', 'Health & Beauty': 'HealthAndBeautyBusiness', Professional: 'ProfessionalService', 'Trades & Industry': 'HomeAndConstructionBusiness', 'Auto & Equipment': 'AutomotiveBusiness', 'Stay & Play': 'LocalBusiness' };
 const addr = contact.address?.length ? contact.address : undefined;
 const ld = {
   '@context': 'https://schema.org',

@@ -92,13 +92,13 @@ body .hero.hx-collage { background: color-mix(in srgb, var(--accent) 12%, var(--
 .hx-chip.c3 { bottom: 4%; right: 6%; transform: rotate(-4deg); animation-delay: -4.5s; }
 .hx-shapes i { position: absolute; border-radius: 50%; opacity: .55; animation: hx-drift 16s ease-in-out infinite alternate; }
 .hx-shapes i:nth-child(1) { width: 90px; height: 90px; background: var(--accent); top: 12%; left: 4%; }
-.hx-shapes i:nth-child(2) { width: 40px; height: 40px; background: var(--primary); top: 70%; left: 42%; animation-delay: -4s; }
+.hx-shapes i:nth-child(2) { width: 40px; height: 40px; background: var(--primary); top: 74%; left: 51%; animation-delay: -4s; }
 .hx-shapes i:nth-child(3) { width: 140px; height: 140px; border: 14px solid color-mix(in srgb, var(--primary) 35%, transparent); top: -30px; right: 30%; animation-delay: -8s; }
 .hx-shapes i:nth-child(4) { width: 24px; height: 24px; background: var(--accent); top: 30%; left: 48%; border-radius: 4px; animation-delay: -2s; }
-.hx-shapes i:nth-child(5) { width: 60px; height: 60px; border: 8px dotted var(--accent); bottom: 18%; left: 8%; animation-delay: -6s; }
+.hx-shapes i:nth-child(5) { width: 60px; height: 60px; border: 8px dotted var(--accent); bottom: 5%; left: 2%; animation-delay: -6s; }
 @keyframes hx-drift { from { transform: translate(0, 0) rotate(0deg); } to { transform: translate(24px, -18px) rotate(40deg); } }
 .hx-wave { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 60px; fill: var(--bg); }
-@media (max-width: 860px) { .hx-collage .wrap { grid-template-columns: 1fr; } .hx-blob-wrap { min-height: 300px; } }
+@media (max-width: 860px) { .hx-collage .wrap { grid-template-columns: 1fr; } .hx-blob-wrap { min-height: 300px; } .hx-shapes i:nth-child(2), .hx-shapes i:nth-child(4), .hx-shapes i:nth-child(5) { display: none; } }
 
 /* ----------------------------------------------------------- 5 blueprint */
 body .hero.hx-blueprint { background-color: var(--deep2, #0c1a33); color: #fff;
@@ -161,6 +161,12 @@ body .hero.hx-blueprint { background-color: var(--deep2, #0c1a33); color: #fff;
 @keyframes hx-spin { to { transform: rotate(360deg); } }
 .hx-core { width: 40%; aspect-ratio: 1; border-radius: 50%; background: var(--accent-btn, var(--accent)); color: var(--on-accent, var(--ink)); display: grid; place-items: center; box-shadow: 0 0 0 10px color-mix(in srgb, var(--accent) 25%, transparent), 0 24px 50px -20px rgb(0 0 0 / .6); animation: hx-pulse 4s ease-in-out infinite; }
 @keyframes hx-pulse { 0%, 100% { box-shadow: 0 0 0 10px color-mix(in srgb, var(--accent) 25%, transparent), 0 24px 50px -20px rgb(0 0 0 / .6); } 50% { box-shadow: 0 0 0 22px color-mix(in srgb, var(--accent) 10%, transparent), 0 24px 50px -20px rgb(0 0 0 / .6); } }
+/* Mirrored: the coloured plane and its emblem on the left, the words on the right. */
+@media (min-width: 861px) {
+  [data-flip] .hx-plane { inset: 0 52% 0 0; clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%); }
+  [data-flip] .hx-diagonal .wrap { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); }
+  [data-flip] .hx-diagonal .hx-orbit { order: -1; }
+}
 @media (max-width: 860px) { .hx-plane { display: none; } .hx-diagonal .wrap { grid-template-columns: 1fr; } .hx-orbit { width: min(300px, 80%); background: var(--primary); border-radius: 50%; } }
 
 /* ----------------------------------------------------------- 8 spotlight */

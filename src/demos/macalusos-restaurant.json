@@ -1,0 +1,116 @@
+{
+  "name": "Macaluso's Restaurant",
+  "short": "Macaluso's",
+  "category": "Italian Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#14110f",
+    "surface": "#1e1a17",
+    "ink": "#f4ece2",
+    "muted": "#c4b6a6",
+    "primary": "#c8a24a",
+    "onPrimary": "#14110f",
+    "accent": "#c8102e",
+    "line": "#38302a"
+  },
+  "radius": 8,
+  "icon": "utensils",
+  "contact": {
+    "phone": "(803) 262-5334",
+    "address": [
+      "135 York Street SE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Macaluso's Restaurant, 135 York Street SE, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/MacalusosAiken/"
+  },
+  "hero": {
+    "eyebrow": "Homemade Italian from Staten Island, New York",
+    "title": "Staten Island Italian, *made at home in Aiken*",
+    "lede": "Delicious, homemade Italian food in beautiful downtown Aiken, prepared the Staten Island way.",
+    "points": [
+      "Homemade",
+      "Staten Island style",
+      "Downtown Aiken"
+    ],
+    "cta": {
+      "label": "Call (803) 262-5334",
+      "href": "tel:+18032625334"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Homemade",
+      "label": "Italian food"
+    },
+    {
+      "value": "Staten Island",
+      "label": "New York, by way of York Street"
+    },
+    {
+      "value": "Downtown",
+      "label": "Beautiful downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our food",
+      "eyebrow": "From Staten Island to York Street",
+      "title": "The only place for *Staten Island Italian*",
+      "body": [
+        "Macaluso's prepares homemade Italian food from Staten Island, New York, in the heart of downtown Aiken."
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Mangia",
+      "text": "Call ahead for a table downtown.",
+      "cta": {
+        "label": "Call (803) 262-5334",
+        "href": "tel:+18032625334"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *York Street*",
+    "hideForm": true
+  },
+  "slug": "macalusos-restaurant",
+  "added": "2026-11-18",
+  "prospect": "macalusos-restaurant",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/macalusos_macalusos_co/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "facts": "strip",
+    "heads": "outline",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

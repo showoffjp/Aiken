@@ -1,0 +1,135 @@
+{
+  "name": "Pat's Sub Shop",
+  "short": "Pat's Sub Shop",
+  "category": "Sub & Sandwich Shop",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf7ee",
+    "surface": "#ffffff",
+    "ink": "#1c2018",
+    "muted": "#5a5f52",
+    "primary": "#1d6b3a",
+    "onPrimary": "#ffffff",
+    "accent": "#f4b400",
+    "line": "#e7e0cf"
+  },
+  "radius": 6,
+  "icon": "sandwich",
+  "contact": {
+    "phone": "(803) 649-1523",
+    "phone2": "(803) 649-9402",
+    "phone2Label": "Or",
+    "address": [
+      "728 East Pine Log Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Pat's Sub Shop, 728 E Pine Log Road, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/Pats-Sub-Shop-222764991084029/"
+  },
+  "hero": {
+    "eyebrow": "Run by Alex & Lori Gomez",
+    "title": "Subs made fresh, *every day*",
+    "lede": "Fresh subs and sandwiches made daily, homemade vegetable soup and chili, and what we think is the best chicken salad in town.",
+    "cta": {
+      "label": "Call (803) 649-1523",
+      "href": "tel:+18036491523"
+    },
+    "cta2": {
+      "label": "What's on",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Fresh daily",
+      "label": "Subs and sandwiches"
+    },
+    {
+      "value": "Homemade",
+      "label": "Vegetable soup and chili"
+    },
+    {
+      "value": "The best",
+      "label": "Chicken salad in town"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "What's on",
+      "eyebrow": "Made fresh daily",
+      "title": "On the *board*",
+      "intro": "Call ahead for today's subs and prices.",
+      "groups": [
+        {
+          "title": "Fresh daily",
+          "items": [
+            {
+              "name": "Subs"
+            },
+            {
+              "name": "Sandwiches"
+            },
+            {
+              "name": "Chicken salad"
+            },
+            {
+              "name": "Homemade vegetable soup"
+            },
+            {
+              "name": "Homemade chili"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come try the chicken salad",
+      "text": "Call ahead for pickup on Pine Log Road.",
+      "cta": {
+        "label": "Call (803) 649-1523",
+        "href": "tel:+18036491523"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pine Log Road*",
+    "hideForm": true
+  },
+  "slug": "pats-sub-shop",
+  "added": "2026-11-18",
+  "prospect": "pats-sub-shop",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/pats_sub_shop/",
+    "before": [
+      "No website of its own: a search leads to a social page or a directory listing",
+      "Hours, address and what you offer are spread across other people's sites",
+      "The first thing a new customer sees is not something the business controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add a menu, photos and news as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "facts": "ticker",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}
