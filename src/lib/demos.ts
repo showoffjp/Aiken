@@ -117,3 +117,27 @@ export function cinematicHero(demo: Demo): Img | undefined {
   if (isScenic(demo.hero.image)) return demo.hero.image;
   return all.filter(isScenic).sort((a, b) => (b.width || 0) - (a.width || 0))[0] || demo.hero.image;
 }
+
+/** What the business offers, in its own words: hero points, else service names, else facts. */
+export function offerWords(demo: Demo, max = 8): string[] {
+  if (demo.hero.points?.length) return demo.hero.points.slice(0, max);
+  // The first section about what they sell or do (not the team or reviews).
+  const people = /team|staff|people|meet|who we|about|review|client|testimonial|guide/i;
+  for (const s of demo.sections as any[]) {
+    if (people.test(`${s.nav || ''} ${s.eyebrow || ''}`)) continue;
+    let w: string[] = [];
+    if (s.type === 'services') w = s.items.map((i: any) => i.title);
+    else if (s.type === 'menu') w = s.groups.map((g: any) => g.title);
+    else if (s.type === 'columns') w = [...s.columns.map((c: any) => c.title), ...s.columns.flatMap((c: any) => c.items.slice(0, 2))];
+    if (w.length >= 2) return w.slice(0, max);
+  }
+  return (demo.facts || []).map((f) => f.value).slice(0, max);
+}
+
+/** The business's own icons (its emblem plus the icons on its services), for decoration. */
+export function brandIcons(demo: Demo, max = 6): string[] {
+  const fromSections = demo.sections.flatMap((s: any) => (s.items || []).map((i: any) => i.icon)).filter(Boolean);
+  const all = [demo.icon, ...fromSections].filter((v, k, a) => a.indexOf(v) === k && !['check', 'circle', 'arrow-right'].includes(v));
+  while (all.length && all.length < max) all.push(...all.slice(0, max - all.length));
+  return all.slice(0, max);
+}

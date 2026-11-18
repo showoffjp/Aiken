@@ -3,7 +3,9 @@
 // do not all open the same way. Every variant uses only the concept's own
 // content: title, lede, calls to action, points, facts, contact, menu or services.
 import Icon from '../Icon.astro';
-import { title, telHref, type Demo } from '../../lib/demos';
+import Decor from './Decor.astro';
+import { ratio } from '../../lib/contrast';
+import { title, telHref, offerWords, type Demo } from '../../lib/demos';
 interface Props { demo: Demo; kind: string }
 const { demo, kind } = Astro.props;
 const { hero, contact } = demo;
@@ -13,11 +15,13 @@ const town = demo.town.replace(/,\s*SC$/i, '');
 // Words for marquees and lists, from what the business actually offers.
 const services = (demo.sections.find((s: any) => s.type === 'services') as any)?.items?.map((i: any) => i.title) || [];
 const menuGroup = (demo.sections.find((s: any) => s.type === 'menu') as any)?.groups?.[0];
-const words: string[] = (hero.points?.length ? hero.points : services.length ? services : (demo.facts || []).map((f) => f.value)).slice(0, 8);
+const words: string[] = offerWords(demo, 8);
 const board: { name: string; price?: string }[] = menuGroup?.items?.slice(0, 6).map((i: any) => ({ name: i.name, price: i.price })) || (services.length ? services : words).slice(0, 6).map((n: string) => ({ name: n }));
 const boardTitle = menuGroup?.title || 'On the board';
 const hours = contact.hours?.slice(0, 2) || [];
 const facts = demo.facts || [];
+// Floating decor is light glass on dark grounds, tinted glass on light ones.
+const onDarkPrimary = ratio('#ffffff', demo.colors.primary) >= ratio('#111111', demo.colors.primary);
 const est = demo.established ? `Est. ${demo.established}` : '';
 
 // Giant type sized to the words it has to hold: the longest word always fits
@@ -32,10 +36,11 @@ const cwU = UPPER[demo.fonts.display] ?? 0.72, cwL = LOWER[demo.fonts.display] ?
 const tl = plain(hero.title).length;
 const megaCap = tl <= 20 ? 9 : tl <= 34 ? 7 : 5.6;
 const mega = `font-size: min(${megaCap}rem, ${fit(longest(hero.title), cwU)})`;
-const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5rem, ${fit(longest(short), cwL)})`;
+const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(3.1rem, ${fit(longest(short), cwL)})`;
 ---
 {kind === 'poster' && (
   <section class="hero hx hx-poster" id="top">
+    <Decor demo={demo} kind="poster" tone={onDarkPrimary ? 'dark' : 'light'} />
     <div class="wrap">
       <div class="hx-top">{hero.eyebrow && <span class="hx-tag">{hero.eyebrow}</span>}<span class="hx-meta">{[est, town].filter(Boolean).join(' · ')}</span></div>
       <h1 class="hx-mega" style={mega} set:html={title(hero.title)} />
@@ -52,6 +57,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'bento' && (
   <section class="hero hx hx-bento" id="top">
+    <Decor demo={demo} kind="bento" tone={'light'} />
     <div class="wrap">
       <div class="bento">
         <div class="b-main">
@@ -72,6 +78,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'board' && (
   <section class="hero hx hx-board" id="top">
+    <Decor demo={demo} kind="board" tone={'dark'} />
     <div class="wrap">
       <div class="hx-copy">
         {hero.eyebrow && <div class="hx-hand">{hero.eyebrow}</div>}
@@ -90,6 +97,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'collage' && (
   <section class="hero hx hx-collage" id="top">
+    <Decor demo={demo} kind="collage" tone={'light'} />
     <div class="hx-shapes" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
     <div class="wrap">
       <div class="hx-copy">
@@ -109,6 +117,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'blueprint' && (
   <section class="hero hx hx-blueprint" id="top">
+    <Decor demo={demo} kind="blueprint" tone={'dark'} />
     <div class="wrap">
       <div class="hx-copy">
         <div class="hx-code">{[short.toUpperCase(), town.toUpperCase(), est.toUpperCase()].filter(Boolean).join(' / ')}</div>
@@ -129,6 +138,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'magazine' && (
   <section class="hero hx hx-magazine" id="top">
+    <Decor demo={demo} kind="magazine" tone={'light'} />
     <div class="wrap">
       <div class="hx-mast-line"><span>{est || 'Local since day one'}</span><span>{demo.category}</span><span>{town}, South Carolina</span></div>
       <p class="hx-masthead" aria-hidden="true" style={mast}>{short}</p>
@@ -147,6 +157,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'diagonal' && (
   <section class="hero hx hx-diagonal" id="top">
+    <Decor demo={demo} kind="diagonal" tone={'light'} />
     <div class="hx-plane" aria-hidden="true"></div>
     <div class="wrap">
       <div class="hx-copy">
@@ -166,6 +177,7 @@ const mast = `--mh-one: min(10rem, ${fit(short.length, cwL)}); --mh-wrap: min(5r
 
 {kind === 'spotlight' && (
   <section class="hero hx hx-spotlight" id="top">
+    <Decor demo={demo} kind="spotlight" tone={'light'} />
     <div class="hx-glow" aria-hidden="true"></div>
     <div class="wrap">
       <div class="hx-badge" aria-hidden="true"><Icon name={demo.icon} size={34} stroke={1.6} /></div>

@@ -16,10 +16,20 @@ const split = (imgs: Img[]) => {
   rest.forEach((img, k) => cols[k % 3].push(img));
   return { scenes, rest, cols };
 };
+// One statement section per page in a deep gradient of the theme colours:
+// reviews or steps if there are any, else a later section, never the first
+// (it follows the facts band) and never the closing band.
+const kinds = demo.sections.map((s) => s.type);
+const pick = (t: string[]) => kinds.findIndex((k, j) => t.includes(k) && j > 0);
+let deepIdx = demo.sections.length < 3 ? -1 : [pick(['quotes', 'steps']), pick(['columns', 'faq', 'story']), pick(['services', 'menu'])].find((j) => j > 0) ?? -1;
+// Short pages: the first section, unless the facts band right above is already deep.
+if (deepIdx < 0 && kinds.length >= 2 && (demo.style?.facts || !demo.facts?.length) && ['services', 'columns', 'story', 'menu', 'steps', 'quotes'].includes(kinds[0])) deepIdx = 0;
+// Cinematic pages are dark-led already.
+if (cine) deepIdx = -1;
 ---
 {demo.sections.map((s, i) => {
   const id = sectionId(s, i);
-  const alt = i % 2 === 1 ? 'alt' : '';
+  const alt = `${i % 2 === 1 ? 'alt' : ''} ${i === deepIdx ? 'fx-deep' : ''}`;
   if (s.type === 'services') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
@@ -55,7 +65,7 @@ const split = (imgs: Img[]) => {
     <section class={`section story ${alt} ${s.flip ? 'flip' : ''} ${s.image ? '' : 'solo'} ${s.image?.width && s.image?.height && s.image.width / s.image.height > 2.3 ? 'pano' : ''}`} id={id}>
       <div class="wrap">
         {s.image && (
-          <div class="story-media" data-par={cine ? '' : undefined}>
+          <div class="story-media" data-par="">
             <img src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
           </div>
         )}
@@ -151,7 +161,7 @@ const split = (imgs: Img[]) => {
           {s.images.map((img, n) => {
             const ratio = img.width && img.height ? img.width / img.height : 1;
             const shape = ratio > 1.55 && n % 3 === 0 ? 'wide' : ratio < 0.72 ? 'tall' : '';
-            return <figure class={shape}><img src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
+            return <figure class={shape} data-par=""><img src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
           })}
         </div>
       </div>

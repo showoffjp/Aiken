@@ -2,13 +2,15 @@
 // One redesign concept per business: /<slug>/
 import '../styles/demo.css';
 import '../styles/personality.css';
+import '../styles/vivid.css';
 import Icon from '../components/Icon.astro';
 import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
-import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, type Demo } from '../lib/demos';
+import Decor from '../components/demo/Decor.astro';
+import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
-import { accessible } from '../lib/contrast';
+import { accessible, ratio } from '../lib/contrast';
 
 export function getStaticPaths() {
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
@@ -48,6 +50,10 @@ const archetype = !cine ? st.hero : undefined;
 // The blueprint and magazine heroes already set out the key facts.
 const factsInHero = archetype === 'blueprint' || archetype === 'magazine';
 const cineImg = cine ? cinematicHero(demo) : undefined;
+// A slanted ribbon of what they offer, in their colours (the poster hero and the
+// facts ticker already scroll, so they skip it).
+const ribbonWords = offerWords(demo, 6);
+const ribbon = ribbonWords.length >= 2 && archetype !== 'poster' && st.facts !== 'ticker';
 const short = demo.short || demo.name;
 const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
 const mapSrc = contact.mapQuery ? `https://www.google.com/maps?q=${encodeURIComponent(contact.mapQuery)}&output=embed` : '';
@@ -118,8 +124,8 @@ const ld = {
       <div class="wrap">
         <a class="brand" href="#top" aria-label={`${demo.name} home`}>
           {demo.logo
-            ? <img src={demo.logo.src} alt={demo.logo.alt} width={demo.logo.width} height={demo.logo.height} />
-            : <><span class="mark"><Icon name={demo.icon} size={22} /></span><span class="word">{short}<small>{demo.town}</small></span></>}
+            ? <span class="logo" style={`--logo:url(${demo.logo.src})`}><img src={demo.logo.src} alt={demo.logo.alt} width={demo.logo.width} height={demo.logo.height} /><span class="glint" aria-hidden="true"></span></span>
+            : <><span class="mark"><Icon name={demo.icon} size={22} /><span class="glint" aria-hidden="true"></span></span><span class="word">{short}<small>{demo.town}</small></span></>}
         </a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => <a href={n.href}>{n.label}</a>)}
@@ -154,6 +160,7 @@ const ld = {
         </section>
       ) : (
       <section class="hero" id="top" data-variant={variant}>
+        <Decor demo={demo} kind={variant} tone={variant === 'photo' || (variant === 'banner' && ratio('#ffffff', colors.primary) >= ratio('#111111', colors.primary)) ? 'dark' : 'light'} />
         {/* Behind a dark overlay on phones, so the 640px copy is plenty: a 50vw hint makes high-density phones pick it. */}
         {variant === 'photo' && hero.image && <img class="bg" src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 50vw, 100vw" alt="" width={hero.image.width} height={hero.image.height} fetchpriority="high" />}
         <div class="wrap">
@@ -192,6 +199,12 @@ const ld = {
       )}
 
       <span id="main-content"></span>
+      {ribbon && (
+        <div class="fx-ribbon" aria-hidden="true">
+          <div class="fx-band b2"><div class="fx-track">{[...ribbonWords, ...ribbonWords, ...ribbonWords, ...ribbonWords].map((w) => <span>{w}<svg viewBox="0 0 24 24"><path d="M12 1.5c.6 5.2 3.3 8 8.5 8.6-5.2.6-7.9 3.3-8.5 8.5-.6-5.2-3.3-7.9-8.5-8.5 5.2-.6 7.9-3.4 8.5-8.6z" /></svg></span>)}</div></div>
+          <div class="fx-band b1"><div class="fx-track">{[...ribbonWords, ...ribbonWords, ...ribbonWords, ...ribbonWords].map((w) => <span>{w}<svg viewBox="0 0 24 24"><path d="M12 1.5c.6 5.2 3.3 8 8.5 8.6-5.2.6-7.9 3.3-8.5 8.5-.6-5.2-3.3-7.9-8.5-8.5 5.2-.6 7.9-3.4 8.5-8.6z" /></svg></span>)}</div></div>
+        </div>
+      )}
       {demo.facts && !factsInHero && (
         <section class="facts" aria-label="At a glance">
           <div class="wrap"><ul>{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>{st.facts === 'ticker' && <ul aria-hidden="true">{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}</div>
@@ -275,7 +288,7 @@ const ld = {
       <div class="wrap">
         <div class="top">
           <div>
-            <div class="word">{demo.name}</div>
+            <div class="word"><span class="foot-mark"><Icon name={demo.icon} size={20} /><span class="glint"></span></span>{demo.name}</div>
             <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<=[.!?])\s/)[0]}</p>
           </div>
           <div>
@@ -425,11 +438,74 @@ const ld = {
             frame();
           }
         }
+        const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
+        const moving = document.documentElement.classList.contains('motion');
         document.querySelectorAll('.card').forEach((card) => card.addEventListener('pointermove', (e) => {
           const r = card.getBoundingClientRect();
-          card.style.setProperty('--mx', `${e.clientX - r.left}px`);
-          card.style.setProperty('--my', `${e.clientY - r.top}px`);
+          const x = e.clientX - r.left, y = e.clientY - r.top;
+          card.style.setProperty('--mx', `${x}px`);
+          card.style.setProperty('--my', `${y}px`);
+          // A gentle 3D tilt toward the pointer, with a glare that follows it.
+          if (moving && fine) { card.style.setProperty('--ry', `${(x / r.width - 0.5) * 9}deg`); card.style.setProperty('--rx', `${(0.5 - y / r.height) * 9}deg`); }
         }));
+        document.querySelectorAll('.card').forEach((card) => card.addEventListener('pointerleave', () => { card.style.setProperty('--rx', '0deg'); card.style.setProperty('--ry', '0deg'); }));
+
+        if (moving) {
+          // Headline: each word settles in from a soft blur, one after another.
+          document.querySelectorAll('.hero h1, .cine-hero h1').forEach((h) => {
+            let i = 0;
+            const walk = (node) => [...node.childNodes].forEach((n) => {
+              if (n.nodeType === 3) {
+                const frag = document.createDocumentFragment();
+                n.textContent.split(/(\s+)/).forEach((part) => {
+                  if (!part) return;
+                  if (/^\s+$/.test(part)) { frag.append(part); return; }
+                  const w = document.createElement('span'); w.className = 'fx-w'; w.style.setProperty('--i', i++); w.textContent = part; frag.append(w);
+                });
+                n.replaceWith(frag);
+              } else if (n.nodeType === 1) walk(n);
+            });
+            walk(h);
+            h.classList.add('fx-split');
+          });
+
+          // Hero depth: badges, rings and sparkles drift at their own speed as
+          // the page scrolls, lean toward the pointer, and a glow follows it.
+          document.querySelectorAll('[data-fx]').forEach((fx) => {
+            const host = fx.parentElement;
+            let q = false, px = 0, py = 0, gx = 0, gy = 0;
+            const paint = () => {
+              q = false;
+              const r = host.getBoundingClientRect();
+              if (r.bottom < 0 || r.top > innerHeight) return;
+              host.style.setProperty('--sy', String(Math.round(-r.top)));
+              host.style.setProperty('--px', px.toFixed(3));
+              host.style.setProperty('--py', py.toFixed(3));
+              host.style.setProperty('--gx', `${gx}px`);
+              host.style.setProperty('--gy', `${gy}px`);
+            };
+            const ask = () => { if (!q) { q = true; requestAnimationFrame(paint); } };
+            addEventListener('scroll', ask, { passive: true });
+            if (fine) host.addEventListener('pointermove', (e) => {
+              const r = host.getBoundingClientRect();
+              gx = Math.round(e.clientX - r.left); gy = Math.round(e.clientY - r.top);
+              px = gx / r.width - 0.5; py = gy / r.height - 0.5; ask();
+            });
+            host.classList.add('fx-live');
+            paint();
+          });
+
+          // Buttons lean toward the pointer a little (magnetic).
+          if (fine) document.querySelectorAll('.hero .btn, .cine-hero .btn, .band .btn').forEach((b) => {
+            b.addEventListener('pointermove', (e) => { const r = b.getBoundingClientRect(); b.style.setProperty('--bx', `${((e.clientX - r.left) / r.width - 0.5) * 10}px`); b.style.setProperty('--by', `${((e.clientY - r.top) / r.height - 0.5) * 8}px`); });
+            b.addEventListener('pointerleave', () => { b.style.setProperty('--bx', '0px'); b.style.setProperty('--by', '0px'); });
+          });
+
+          // The header settles into a tinted glass bar once the page scrolls.
+          const sh = document.querySelector('[data-head]');
+          const tick = () => sh?.classList.toggle('scrolled', scrollY > 24);
+          addEventListener('scroll', tick, { passive: true }); tick();
+        }
       })();
     </script>
   </body>
