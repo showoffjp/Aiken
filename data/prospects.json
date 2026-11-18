@@ -49,6 +49,95 @@
   "rank": 1
  },
  {
+  "slug": "419hayne-luxury-suites",
+  "name": "419Hayne Luxury Suites",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Accommodations",
+  "phone": "(803) 761-2980",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://www.419hayne.com/make-a-reservation",
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "https://www.airbnb.com/aiken-county-sc/stays",
+  "instagram": "",
+  "address": "419 Hayne Avenue, SW, Aiken, SC 29801",
+  "contact": "Caroline Garcia",
+  "familyNote": "",
+  "since": null,
+  "blurb": "Enjoy the four luxury suites at 419Hayne.",
+  "sources": [
+   "Aiken Chamber",
+   "Visit Aiken"
+  ],
+  "demo": "419hayne-luxury-suites",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "419hayne.com",
+  "domainExpires": "",
+  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
+  "pitch": 70,
+  "rank": 2
+ },
+ {
+  "slug": "williamsons-auto-center",
+  "name": "Williamson's Auto Center",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Automotive Repairs",
+  "phone": "(803) 649-6101",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.williamsonsauto.net/",
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "3773 Whiskey Road, Aiken, SC 29803",
+  "contact": "Melissa Edwards",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "williamsons-auto-center",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "williamsonsauto.net",
+  "domainExpires": "",
+  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
+  "pitch": 70,
+  "rank": 3
+ },
+ {
   "slug": "beech-island-timber-and-construction-inc",
   "name": "Beech Island Timber & Construction, Inc.",
   "priority": "A · Rebuild candidate",
@@ -98,7 +187,7 @@
   "domainExpires": "2027-03-03",
   "domainState": "",
   "pitch": 67,
-  "rank": 2
+  "rank": 4
  },
  {
   "slug": "bravefriend-apparel-and-design",
@@ -149,7 +238,7 @@
   "domainExpires": "2027-02-08",
   "domainState": "",
   "pitch": 67,
-  "rank": 3
+  "rank": 5
  },
  {
   "slug": "mundys-automotive-llc",
@@ -199,7 +288,7 @@
   "domainExpires": "2027-09-10",
   "domainState": "",
   "pitch": 67,
-  "rank": 4
+  "rank": 6
  },
  {
   "slug": "herbal-solutions-and-spa",
@@ -245,7 +334,7 @@
   "domainExpires": "2029-04-04",
   "domainState": "",
   "pitch": 67,
-  "rank": 5
+  "rank": 7
  },
  {
   "slug": "the-ivy-cottage-flowers-and-gifts",
@@ -296,7 +385,7 @@
   "domainExpires": "2028-03-21",
   "domainState": "",
   "pitch": 66,
-  "rank": 6
+  "rank": 8
  },
  {
   "slug": "playland-of-aiken",
@@ -344,7 +433,57 @@
   "domainExpires": "2027-09-18",
   "domainState": "",
   "pitch": 65,
-  "rank": 7
+  "rank": 9
+ },
+ {
+  "slug": "marias-mexican-restaurant",
+  "name": "Maria's Mexican Restaurant",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Restaurant",
+  "phone": "(803) 648-8840",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://mariasmexicanrestaurantaiken.com/",
+  "siteState": "Parked domain",
+  "score": 36,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "No working HTTPS: browsers show \"Not secure\"",
+   "No meta description for search results",
+   "No social sharing (Open Graph) tags",
+   "No favicon declared",
+   "No structured data for Google business results"
+  ],
+  "https": false,
+  "mobileReady": true,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "716 E Pine Log Rd. Aiken SC",
+  "contact": "",
+  "familyNote": "",
+  "since": null,
+  "blurb": "Authentic Mexican fare",
+  "sources": [
+   "Visit Aiken"
+  ],
+  "demo": "marias-mexican-restaurant",
+  "pageMB": 2.5,
+  "a11yIssues": 0,
+  "a11ySerious": 0,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "mariasmexicanrestaurantaiken.com",
+  "domainExpires": "2027-08-04",
+  "domainState": "",
+  "pitch": 64,
+  "rank": 10
  },
  {
   "slug": "mobile-office-management-llc-mom",
@@ -394,7 +533,7 @@
   "domainExpires": "2027-07-01",
   "domainState": "",
   "pitch": 62,
-  "rank": 8
+  "rank": 11
  },
  {
   "slug": "the-jewelers-loupe",
@@ -443,7 +582,7 @@
   "domainExpires": "2027-04-25",
   "domainState": "",
   "pitch": 62,
-  "rank": 9
+  "rank": 12
  },
  {
   "slug": "feed-sack-aiken",
@@ -488,7 +627,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 62,
-  "rank": 10
+  "rank": 13
  },
  {
   "slug": "augusta-ready-mix-inc",
@@ -538,7 +677,7 @@
   "domainExpires": "2031-08-10",
   "domainState": "",
   "pitch": 61,
-  "rank": 11
+  "rank": 14
  },
  {
   "slug": "howell-printing-company",
@@ -588,7 +727,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 60,
-  "rank": 12
+  "rank": 15
  },
  {
   "slug": "help-me-rhonda-bookkeeping-llc",
@@ -638,7 +777,7 @@
   "domainExpires": "2027-05-06",
   "domainState": "",
   "pitch": 59,
-  "rank": 13
+  "rank": 16
  },
  {
   "slug": "mitch-johnson-construction-company-inc",
@@ -688,7 +827,7 @@
   "domainExpires": "2027-03-11",
   "domainState": "",
   "pitch": 58,
-  "rank": 14
+  "rank": 17
  },
  {
   "slug": "broome-service-center-inc",
@@ -732,7 +871,51 @@
   "domainExpires": "2027-01-31",
   "domainState": "",
   "pitch": 58,
-  "rank": 15
+  "rank": 18
+ },
+ {
+  "slug": "kens-warehouse",
+  "name": "Ken's Warehouse",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Appliances + Furniture",
+  "phone": "(803) 646-7650",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://kenswarehouse.com/",
+  "siteState": "Error page (404 / 500)",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "944 Dougherty Road, Aiken, SC 29803",
+  "contact": "Kennedy Haley",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "kens-warehouse",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "kenswarehouse.com",
+  "domainExpires": "2028-05-27",
+  "domainState": "",
+  "pitch": 58,
+  "rank": 19
  },
  {
   "slug": "prescott-and-sons-construction-llc",
@@ -780,7 +963,7 @@
   "domainExpires": "2035-08-23",
   "domainState": "",
   "pitch": 57,
-  "rank": 16
+  "rank": 20
  },
  {
   "slug": "durban-laird-insurance",
@@ -830,7 +1013,7 @@
   "domainExpires": "2027-11-01",
   "domainState": "",
   "pitch": 56,
-  "rank": 17
+  "rank": 21
  },
  {
   "slug": "massage-mavin",
@@ -880,52 +1063,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 56,
-  "rank": 18
- },
- {
-  "slug": "419hayne-luxury-suites",
-  "name": "419Hayne Luxury Suites",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Accommodations",
-  "phone": "(803) 761-2980",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://www.419hayne.com/make-a-reservation",
-  "siteState": "Domain does not resolve (likely expired) - verify",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "https://www.airbnb.com/aiken-county-sc/stays",
-  "instagram": "",
-  "address": "419 Hayne Avenue, SW, Aiken, SC 29801",
-  "contact": "Caroline Garcia",
-  "familyNote": "",
-  "since": null,
-  "blurb": "Enjoy the four luxury suites at 419Hayne.",
-  "sources": [
-   "Aiken Chamber",
-   "Visit Aiken"
-  ],
-  "demo": "",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "419hayne.com",
-  "domainExpires": "",
-  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
-  "pitch": 56,
-  "rank": 19
+  "rank": 22
  },
  {
   "slug": "ads-supply",
@@ -969,7 +1107,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 20
+  "rank": 23
  },
  {
   "slug": "mccalls-supply",
@@ -1014,7 +1152,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 21
+  "rank": 24
  },
  {
   "slug": "northgroup-real-estate-llc",
@@ -1062,7 +1200,7 @@
   "domainExpires": "2026-10-05",
   "domainState": "On hold at the registrar (redemption period): about to be released",
   "pitch": 56,
-  "rank": 22
+  "rank": 25
  },
  {
   "slug": "pablos-mexican-restaurant",
@@ -1106,7 +1244,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 23
+  "rank": 26
  },
  {
   "slug": "twin-willows-medical-and-dental-center",
@@ -1150,51 +1288,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 24
- },
- {
-  "slug": "williamsons-auto-center",
-  "name": "Williamson's Auto Center",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Automotive Repairs",
-  "phone": "(803) 649-6101",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.williamsonsauto.net/",
-  "siteState": "Domain does not resolve (likely expired) - verify",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "3773 Whiskey Road, Aiken, SC 29803",
-  "contact": "Melissa Edwards",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "williamsonsauto.net",
-  "domainExpires": "",
-  "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
-  "pitch": 56,
-  "rank": 25
+  "rank": 27
  },
  {
   "slug": "lambert-insurance-agency-inc",
@@ -1244,7 +1338,7 @@
   "domainExpires": "2027-02-17",
   "domainState": "",
   "pitch": 54,
-  "rank": 26
+  "rank": 28
  },
  {
   "slug": "affordable-quality-marble-and-granite",
@@ -1290,7 +1384,7 @@
   "domainExpires": "2028-10-05",
   "domainState": "",
   "pitch": 54,
-  "rank": 27
+  "rank": 29
  },
  {
   "slug": "arthur-w-rich-pa",
@@ -1334,7 +1428,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 52,
-  "rank": 28
+  "rank": 30
  },
  {
   "slug": "little-red-fox-shop",
@@ -1379,7 +1473,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 52,
-  "rank": 29
+  "rank": 31
  },
  {
   "slug": "aiken-flooring",
@@ -1426,57 +1520,7 @@
   "domainExpires": "2027-08-21",
   "domainState": "",
   "pitch": 52,
-  "rank": 30
- },
- {
-  "slug": "marias-mexican-restaurant",
-  "name": "Maria's Mexican Restaurant",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 648-8840",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://mariasmexicanrestaurantaiken.com/",
-  "siteState": "Parked domain",
-  "score": 36,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "No working HTTPS: browsers show \"Not secure\"",
-   "No meta description for search results",
-   "No social sharing (Open Graph) tags",
-   "No favicon declared",
-   "No structured data for Google business results"
-  ],
-  "https": false,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "716 E Pine Log Rd. Aiken SC",
-  "contact": "",
-  "familyNote": "",
-  "since": null,
-  "blurb": "Authentic Mexican fare",
-  "sources": [
-   "Visit Aiken"
-  ],
-  "demo": "",
-  "pageMB": 2.5,
-  "a11yIssues": 0,
-  "a11ySerious": 0,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "mariasmexicanrestaurantaiken.com",
-  "domainExpires": "2027-08-04",
-  "domainState": "",
-  "pitch": 50,
-  "rank": 31
+  "rank": 32
  },
  {
   "slug": "mi-rancho",
@@ -1525,7 +1569,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 50,
-  "rank": 32
+  "rank": 33
  },
  {
   "slug": "tequilas-mexican-grill-and-bar",
@@ -1575,7 +1619,7 @@
   "domainExpires": "2027-08-25",
   "domainState": "",
   "pitch": 50,
-  "rank": 33
+  "rank": 34
  },
  {
   "slug": "palmetto-bowls",
@@ -1619,7 +1663,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 34
+  "rank": 35
  },
  {
   "slug": "rhumba-rum-and-cigar-lounge",
@@ -1663,7 +1707,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 35
+  "rank": 36
  },
  {
   "slug": "scotch-hutch",
@@ -1707,7 +1751,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 36
+  "rank": 37
  },
  {
   "slug": "the-wildemont",
@@ -1751,7 +1795,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 37
+  "rank": 38
  },
  {
   "slug": "glassworks-by-fishburne-and-shultz-hill",
@@ -1800,7 +1844,7 @@
   "domainExpires": "2027-12-05",
   "domainState": "",
   "pitch": 49,
-  "rank": 38
+  "rank": 39
  },
  {
   "slug": "tailored-tours-of-aiken",
@@ -1848,7 +1892,7 @@
   "domainExpires": "2027-04-12",
   "domainState": "",
   "pitch": 49,
-  "rank": 39
+  "rank": 40
  },
  {
   "slug": "thomas-p-murphy-pc-attorney-at-law",
@@ -1897,7 +1941,7 @@
   "domainExpires": "2027-09-09",
   "domainState": "",
   "pitch": 49,
-  "rank": 40
+  "rank": 41
  },
  {
   "slug": "toki-jr-llc",
@@ -1947,7 +1991,7 @@
   "domainExpires": "2026-12-02",
   "domainState": "Renews or expires 2026-12-02",
   "pitch": 49,
-  "rank": 41
+  "rank": 42
  },
  {
   "slug": "bottom-line-bakery",
@@ -1992,7 +2036,7 @@
   "domainExpires": "2027-01-11",
   "domainState": "Renews or expires 2027-01-11",
   "pitch": 48,
-  "rank": 42
+  "rank": 43
  },
  {
   "slug": "antonios-italian-eatery",
@@ -2038,7 +2082,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 48,
-  "rank": 43
+  "rank": 44
  },
  {
   "slug": "empire-tree",
@@ -2082,7 +2126,7 @@
   "domainExpires": "2027-03-05",
   "domainState": "",
   "pitch": 47,
-  "rank": 44
+  "rank": 45
  },
  {
   "slug": "aiken-antique-mall",
@@ -2128,7 +2172,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 45
+  "rank": 46
  },
  {
   "slug": "antiques-and-more-mall",
@@ -2173,7 +2217,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 46
+  "rank": 47
  },
  {
   "slug": "apizza-di-napoli",
@@ -2217,7 +2261,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 47
+  "rank": 48
  },
  {
   "slug": "big-house-outpost",
@@ -2261,7 +2305,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 48
+  "rank": 49
  },
  {
   "slug": "briar-patch-antiques",
@@ -2306,7 +2350,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 49
+  "rank": 50
  },
  {
   "slug": "carolina-bar-b-que",
@@ -2350,7 +2394,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 50
+  "rank": 51
  },
  {
   "slug": "dinner-bell",
@@ -2394,7 +2438,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 51
+  "rank": 52
  },
  {
   "slug": "dos-potrillos-mexican-restaurant",
@@ -2438,7 +2482,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 52
+  "rank": 53
  },
  {
   "slug": "el-charrito-taqueria",
@@ -2482,7 +2526,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 53
+  "rank": 54
  },
  {
   "slug": "farm-dog",
@@ -2526,7 +2570,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 54
+  "rank": 55
  },
  {
   "slug": "flanigans-ice-cream",
@@ -2572,7 +2616,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 55
+  "rank": 56
  },
  {
   "slug": "indigo-bleu",
@@ -2616,7 +2660,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 56
+  "rank": 57
  },
  {
   "slug": "its-all-good-market-and-catering",
@@ -2660,7 +2704,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 57
+  "rank": 58
  },
  {
   "slug": "la-parisienne-french-restaurant-and-bakery",
@@ -2704,7 +2748,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 58
+  "rank": 59
  },
  {
   "slug": "los-tres-compadres",
@@ -2748,7 +2792,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 59
+  "rank": 60
  },
  {
   "slug": "macalusos-restaurant",
@@ -2793,7 +2837,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 60
+  "rank": 61
  },
  {
   "slug": "okinawa-japanese-steakhouse-and-sushi-bowl",
@@ -2837,7 +2881,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 61
+  "rank": 62
  },
  {
   "slug": "pats-sub-shop",
@@ -2882,7 +2926,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 62
+  "rank": 63
  },
  {
   "slug": "pitter-patter-carolines",
@@ -2927,7 +2971,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 63
+  "rank": 64
  },
  {
   "slug": "romas-italian-restaurant",
@@ -2971,7 +3015,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 64
+  "rank": 65
  },
  {
   "slug": "smoothie-groove",
@@ -3015,7 +3059,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 65
+  "rank": 66
  },
  {
   "slug": "soul-and-seafood-house",
@@ -3059,7 +3103,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 66
+  "rank": 67
  },
  {
   "slug": "taj-aiken",
@@ -3103,7 +3147,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 67
+  "rank": 68
  },
  {
   "slug": "track-kitchen",
@@ -3147,7 +3191,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 68
+  "rank": 69
  },
  {
   "slug": "trail-riding-the-trail-riding-company",
@@ -3191,7 +3235,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 69
+  "rank": 70
  },
  {
   "slug": "unique-catering",
@@ -3235,7 +3279,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 70
+  "rank": 71
  },
  {
   "slug": "white-rose-eclectics",
@@ -3279,7 +3323,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 71
+  "rank": 72
  },
  {
   "slug": "york-cottage-antiques",
@@ -3323,7 +3367,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 72
+  "rank": 73
  },
  {
   "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
@@ -3372,7 +3416,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 45,
-  "rank": 73
+  "rank": 74
  },
  {
   "slug": "hals-hair-center",
@@ -3421,7 +3465,7 @@
   "domainExpires": "2027-07-21",
   "domainState": "",
   "pitch": 45,
-  "rank": 74
+  "rank": 75
  },
  {
   "slug": "inn-at-houndslake",
@@ -3473,7 +3517,7 @@
   "domainExpires": "2027-07-31",
   "domainState": "",
   "pitch": 45,
-  "rank": 75
+  "rank": 76
  },
  {
   "slug": "southern-magnolia-dentistry",
@@ -3523,7 +3567,7 @@
   "domainExpires": "2028-01-06",
   "domainState": "",
   "pitch": 45,
-  "rank": 76
+  "rank": 77
  },
  {
   "slug": "arthur-w-buzz-rich-pc",
@@ -3567,7 +3611,7 @@
   "domainExpires": "2028-05-16",
   "domainState": "",
   "pitch": 44,
-  "rank": 77
+  "rank": 78
  },
  {
   "slug": "eastside-village",
@@ -3611,7 +3655,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 44,
-  "rank": 78
+  "rank": 79
  },
  {
   "slug": "electric-selfie-360",
@@ -3653,50 +3697,6 @@
   "socialPresence": null,
   "domain": "electricselfie360.com",
   "domainExpires": "2028-09-03",
-  "domainState": "",
-  "pitch": 44,
-  "rank": 79
- },
- {
-  "slug": "kens-warehouse",
-  "name": "Ken's Warehouse",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Appliances + Furniture",
-  "phone": "(803) 646-7650",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://kenswarehouse.com/",
-  "siteState": "Error page (404 / 500)",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "944 Dougherty Road, Aiken, SC 29803",
-  "contact": "Kennedy Haley",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "kenswarehouse.com",
-  "domainExpires": "2028-05-27",
   "domainState": "",
   "pitch": 44,
   "rank": 80

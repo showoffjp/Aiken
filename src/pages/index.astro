@@ -5,6 +5,7 @@ import path from 'node:path';
 import Icon from '../components/Icon.astro';
 import { demos, fonts } from '../lib/demos';
 import { site } from '../lib/site';
+import { telHref } from '../lib/demos';
 import { ensure } from '../lib/contrast';
 
 const pub = path.join(process.cwd(), 'public');
@@ -55,6 +56,19 @@ try {
   needWork = rows.filter((r: { tier: string }) => ['rebuild', 'broken', 'dated'].includes(r.tier)).length;
 } catch {}
 
+// The studio's own business details, for search engines (matters once the home page is indexable).
+const studioLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: site.name,
+  description: site.tagline,
+  ...(site.url && { url: `${site.url}/`, image: `${site.url}/og.jpg` }),
+  ...(site.contactPhone && { telephone: site.contactPhone }),
+  ...(site.contactEmail && { email: site.contactEmail }),
+  areaServed: site.areaServed.map((name) => ({ '@type': 'Place', name })),
+  serviceType: ['Website design', 'Website redesign', 'Local SEO'],
+};
+
 const display = fonts['bricolage-grotesque'];
 const body = fonts.inter;
 const fontCss = [display, body].map((f) => `@font-face{font-family:"${f.family}";src:url(${f.normal}) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}`).join('');
@@ -79,6 +93,7 @@ const features = [
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${site.name}: website concepts for Aiken-area businesses`} />
     <meta property="og:description" content={site.tagline} />
+    {site.url && <link rel="canonical" href={`${site.url}/`} />}
     {site.url && <meta property="og:url" content={`${site.url}/`} />}
     {site.url && <meta property="og:image" content={`${site.url}/og.jpg`} />}
     <meta name="twitter:card" content="summary_large_image" />
@@ -87,6 +102,7 @@ const features = [
     <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />
     <style set:html={fontCss} />
     <script defer src="/_vercel/insights/script.js"></script>
+    <script type="application/ld+json" set:html={JSON.stringify(studioLd)} />
   </head>
   <body>
     <header class="top" data-top>
@@ -209,7 +225,7 @@ const features = [
             {site.contactEmail || site.contactPhone ? (
               <p>
                 {site.contactEmail && <a class="btn" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}
-                {site.contactPhone && <a class="btn ghost" href={`tel:${site.contactPhone.replace(/[^\d+]/g, '')}`}>{site.contactPhone}</a>}
+                {site.contactPhone && <a class="btn ghost" href={telHref(site.contactPhone)}>{site.contactPhone}</a>}
               </p>
             ) : (
               <p>Reply to the note that brought you here and we will take it from there.</p>
@@ -223,6 +239,7 @@ const features = [
       <div class="wrap">
         <p class="foot-brand"><span class="glyph"><svg viewBox="0 0 32 32" width="16" height="16" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="glint" aria-hidden="true"></i></span><strong>{site.name}</strong></p>
         <p>{site.tagline}</p>
+        {(site.contactPhone || site.contactEmail) && <p class="foot-contact">{site.contactPhone && <a href={telHref(site.contactPhone)}>{site.contactPhone}</a>}{site.contactPhone && site.contactEmail && <span aria-hidden="true"> · </span>}{site.contactEmail && <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}</p>}
         <p class="fine">These are unsolicited design concepts. Business names, logos, words and photographs belong to their respective owners and are shown only to illustrate a proposed redesign. No concept is the official website of the business it depicts.</p>
       </div>
     </footer>
@@ -555,6 +572,9 @@ const features = [
   .foot-brand { display: flex; align-items: center; gap: 10px; font: 700 1.15rem/1 "Bricolage Grotesque", sans-serif; color: #fff; margin-bottom: 10px; }
   .foot-brand .glyph { width: 30px; height: 30px; border-radius: 9px; }
   .foot .fine { color: rgb(255 255 255 / .7); font-size: .82rem; max-width: 62em; margin-top: 14px; }
+  .foot-contact { margin-top: 10px; font-weight: 600; }
+  .foot-contact a { color: #ffd27a; text-decoration: none; border-bottom: 1px solid rgb(255 210 122 / .4); }
+  .foot-contact a:hover { border-bottom-color: currentColor; }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }

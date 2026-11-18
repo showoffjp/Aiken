@@ -18720,5 +18720,513 @@
     "domainYears": 1
    }
   ]
+ },
+ "419hayne-luxury-suites": {
+  "slug": "419hayne-luxury-suites",
+  "name": "419Hayne Luxury Suites",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=4&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=f8dd1847d540f131a3ad2dca996cdc62",
+    "name": "419Hayne Luxury Suites",
+    "phone": "(803) 761-2980",
+    "website": "https://www.airbnb.com/aiken-county-sc/stays",
+    "address": "419 Hayne Avenue, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": false
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/stays/419hayne/",
+    "name": "419Hayne",
+    "phone": "(803)761-2980",
+    "website": "https://www.419hayne.com/make-a-reservation",
+    "address": "419 Hayne Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "419hayne.com",
+   "years": null
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1054,
+   "lcp": 1579,
+   "tbt": 0,
+   "si": 1054,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "aiken-luxury-rentals",
+   "aiken-midtown-hotel",
+   "burrell-and-flynns-farm",
+   "carriage-house-inn",
+   "inn-at-houndslake"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-luxury-rentals",
+    "name": "Aiken Luxury Rentals",
+    "website": "https://aikenluxuryrentals.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 0,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "aiken-midtown-hotel",
+    "name": "Aiken Midtown Hotel",
+    "website": "https://www.aikenmidtownhotel.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 83,
+    "pageMB": 0.8,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "burrell-and-flynns-farm",
+    "name": "Burrell and Flynn's Farm",
+    "website": "https://www.burrellandflynnsfarm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 83,
+    "pageMB": 5.9,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "carriage-house-inn",
+    "name": "Carriage House Inn",
+    "website": "https://www.aikencarriagehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 4.3,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "inn-at-houndslake",
+    "name": "Inn at Houndslake",
+    "website": "https://www.theinnathoundslake.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 61,
+    "pageMB": 3.2,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 12
+   }
+  ]
+ },
+ "kens-warehouse": {
+  "slug": "kens-warehouse",
+  "name": "Ken's Warehouse",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Error page (404 / 500)",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=607&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=d628b40cf9747be5f4b1c91239125a8e",
+    "name": "Ken's Warehouse",
+    "phone": "(803) 646-7650",
+    "website": "http://kenswarehouse.com",
+    "address": "944 Dougherty Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "kenswarehouse.com",
+   "created": "2023-05-27",
+   "expires": "2028-05-27",
+   "registrar": "Squarespace Domains LLC",
+   "years": 3
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1701,
+   "lcp": 1753,
+   "tbt": 0,
+   "si": 1701,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "kelley-appliance-home-store",
+   "queen-city-homestore"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "kelley-appliance-home-store",
+    "name": "Kelley Appliance + Home Store",
+    "website": "https://www.kelleyappliance.com/locations/aiken",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 21,
+    "a11ySerious": 62,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "queen-city-homestore",
+    "name": "Queen City Homestore",
+    "website": "https://queencityonline.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 18.9,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 16
+   }
+  ]
+ },
+ "marias-mexican-restaurant": {
+  "slug": "marias-mexican-restaurant",
+  "name": "Maria's Mexican Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Parked domain",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/marias_tienda/",
+    "name": "Maria's Mexican Restaurant",
+    "phone": "(803) 648 8840",
+    "website": "https://mariasmexicanrestaurantaiken.com/",
+    "address": "716 E Pine Log Rd. Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "mariasmexicanrestaurantaiken.com",
+   "created": "2020-08-04",
+   "expires": "2027-08-04",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 6
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 799,
+   "lcp": 1355,
+   "tbt": 0,
+   "si": 799,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "mi-rancho",
+   "salsas-mex-mex-grill",
+   "tequilas-mexican-grill-and-bar",
+   "victoria-mexican-restaurant",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "mi-rancho",
+    "name": "Mi Rancho",
+    "website": "http://www.miranchomexicanrestaurants.com/index.php",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 13
+   },
+   {
+    "slug": "salsas-mex-mex-grill",
+    "name": "Salsa's Mex-Mex Grill",
+    "website": "https://www.salsasbarandgrill.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "tequilas-mexican-grill-and-bar",
+    "name": "Tequila's Mexican Grill & Bar",
+    "website": "http://tequilasmexicangrillsc.com/",
+    "state": "placeholder",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "victoria-mexican-restaurant",
+    "name": "Victoria Mexican Restaurant",
+    "website": "https://lodge-coco.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "williamsons-auto-center": {
+  "slug": "williamsons-auto-center",
+  "name": "Williamson's Auto Center",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1070&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=73bb06027dba900c1e78195dac6f42f3",
+    "name": "Williamson's Auto Center",
+    "phone": "(803) 649-6101",
+    "website": "http://www.williamsonsauto.net",
+    "address": "3773 Whiskey Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "williamsonsauto.net",
+   "years": null
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1692,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1692,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "automotive-workbench",
+   "c-and-c-automotive",
+   "waynes-automotive-and-towing-center-aiken",
+   "auto-tech-inc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "waynes-automotive-and-towing-center-aiken",
+    "name": "Wayne's Automotive and Towing Center - Aiken",
+    "website": "https://waynesautomotivecenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.1,
+    "a11ySerious": 14,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "auto-tech-inc",
+    "name": "Auto Tech, Inc.",
+    "website": "https://www.aikenautotechinc.com/",
+    "state": "blocked",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   }
+  ]
  }
 }

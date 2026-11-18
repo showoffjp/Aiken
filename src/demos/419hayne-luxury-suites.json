@@ -1,0 +1,171 @@
+{
+  "name": "419Hayne Luxury Suites",
+  "short": "419Hayne",
+  "category": "Luxury Suites",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f7f4f1",
+    "surface": "#ffffff",
+    "ink": "#221b26",
+    "muted": "#5d5562",
+    "primary": "#4a2c4f",
+    "onPrimary": "#ffffff",
+    "accent": "#c4a15a",
+    "line": "#e6dfe4"
+  },
+  "radius": 14,
+  "icon": "bed-double",
+  "contact": {
+    "phone": "(803) 761-2980",
+    "address": [
+      "419 Hayne Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "419 Hayne Avenue SW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Four luxury suites in downtown Aiken",
+    "title": "Stay in the heart *of downtown*",
+    "lede": "Four spacious, stylish suites with exquisite artwork, a king-sized bed, a sofa bed and a kitchenette, a short walk from shops, restaurants, the Aiken Golf Club and the Aiken Center for the Arts.",
+    "cta": {
+      "label": "Call to reserve",
+      "href": "tel:+18037612980"
+    },
+    "cta2": {
+      "label": "The suites",
+      "href": "#suites"
+    }
+  },
+  "facts": [
+    {
+      "value": "Four",
+      "label": "Luxury suites"
+    },
+    {
+      "value": "King",
+      "label": "Bed in every suite"
+    },
+    {
+      "value": "Walk",
+      "label": "To golf, shops and dinner"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "suites",
+      "nav": "The suites",
+      "columns": 3,
+      "eyebrow": "In every suite",
+      "title": "Room to *settle in*",
+      "items": [
+        {
+          "icon": "bed-double",
+          "title": "King-sized bed",
+          "text": "In a separate bedroom."
+        },
+        {
+          "icon": "sofa",
+          "title": "Living area",
+          "text": "With a sofa bed for an extra guest."
+        },
+        {
+          "icon": "coffee",
+          "title": "Kitchenette",
+          "text": "Small refrigerator, microwave, dinnerware and a Keurig coffee maker."
+        },
+        {
+          "icon": "wifi",
+          "title": "Wi-Fi & cable TV",
+          "text": "Throughout your stay."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Daily housekeeping",
+          "text": "Fresh every day."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Special services",
+          "text": "Ask about massages and food options."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "nearby",
+      "nav": "Nearby",
+      "eyebrow": "Centrally located",
+      "title": "All *within walking distance*",
+      "columns": [
+        {
+          "title": "Play",
+          "items": [
+            "The Aiken Golf Club",
+            "The Aiken Center for the Arts"
+          ]
+        },
+        {
+          "title": "Eat & drink",
+          "items": [
+            "Downtown restaurants",
+            "Downtown bars"
+          ]
+        },
+        {
+          "title": "Browse",
+          "items": [
+            "The shops of downtown Aiken"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Book your stay",
+      "text": "Call to reserve one of the four suites.",
+      "cta": {
+        "label": "Call (803) 761-2980",
+        "href": "tel:+18037612980"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hayne Avenue*",
+    "hideForm": true
+  },
+  "slug": "419hayne-luxury-suites",
+  "added": "2026-11-18",
+  "prospect": "419hayne-luxury-suites",
+  "source": {
+    "url": "https://www.419hayne.com/make-a-reservation",
+    "before": [
+      "The web address 419hayne.com has lapsed, taking the reservation page with it: it no longer loads, and anyone can register it",
+      "Guests looking to book find listings on other sites instead of the suites' own page",
+      "The words on this concept come from the Visit Aiken listing; photos and rates would come from the owner"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for photos of each suite, rates and a booking form once the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "pill"
+  }
+}

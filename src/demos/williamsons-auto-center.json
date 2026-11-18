@@ -1,0 +1,176 @@
+{
+  "name": "Williamson's Auto Center",
+  "short": "Williamson's",
+  "category": "Auto Repair",
+  "group": "Auto & Equipment",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "source-sans-3",
+    "accent": "jetbrains-mono"
+  },
+  "colors": {
+    "bg": "#f3f5f4",
+    "surface": "#ffffff",
+    "ink": "#14201d",
+    "muted": "#4f5d58",
+    "primary": "#1d4d43",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a541",
+    "line": "#dbe2df"
+  },
+  "radius": 6,
+  "icon": "wrench",
+  "established": "1967",
+  "contact": {
+    "phone": "(803) 649-6101",
+    "address": [
+      "3773 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Williamson's Auto Center, 3773 Whiskey Road, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 5:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Family owned on Whiskey Road",
+    "title": "Pretty much everything *a car needs*",
+    "lede": "Transmission and exhaust work, general and computer repairs, brakes, and the A/C repairs the shop is best known for, from a family in the car business in Aiken since 1967.",
+    "points": [
+      "A/C repairs",
+      "Brakes",
+      "Transmission",
+      "Computer repairs"
+    ],
+    "cta": {
+      "label": "Call (803) 649-6101",
+      "href": "tel:+18036496101"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    }
+  },
+  "facts": [
+    {
+      "value": "1967",
+      "label": "The first Williamson station opens"
+    },
+    {
+      "value": "A/C",
+      "label": "Our most popular repair, with brakes"
+    },
+    {
+      "value": "Mon–Fri",
+      "label": "8 am to 5 pm"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "In the shop",
+      "title": "What we *fix*",
+      "items": [
+        {
+          "icon": "snowflake",
+          "title": "A/C repairs",
+          "text": "Our specialty, and our most popular service."
+        },
+        {
+          "icon": "disc",
+          "title": "Brakes",
+          "text": "The other job customers trust us with most."
+        },
+        {
+          "icon": "cog",
+          "title": "Transmission work",
+          "text": "Transmission repairs."
+        },
+        {
+          "icon": "wind",
+          "title": "Exhaust work",
+          "text": "Exhaust repairs."
+        },
+        {
+          "icon": "cpu",
+          "title": "Computer repairs",
+          "text": "When the warning lights come on."
+        },
+        {
+          "icon": "wrench",
+          "title": "General repairs",
+          "text": "Pretty much everything that can be done to a car."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Father to son",
+      "title": "From a Texaco station *to Whiskey Road*",
+      "body": [
+        "Cebie Williamson opened his first gas station in Aiken in 1967: a Texaco open around the clock with five bays. Within a few years he was running all three Texaco stations in town.",
+        "When the full-service stations closed in the early 1980s, he saw the growth coming to Aiken, bought ten acres on Whiskey Road and built an automotive shop. His son Ronnie, who started working for his dad at thirteen, owns it today.",
+        "Some customers have been coming to Ronnie for more than thirty years. Honesty and good work are what carried the shop this far."
+      ],
+      "quote": {
+        "text": "We do pretty much everything to a car that can be done to a car.",
+        "by": "Ronnie Williamson"
+      }
+    },
+    {
+      "type": "band",
+      "title": "Car trouble?",
+      "text": "Call the shop or stop by on Whiskey Road.",
+      "cta": {
+        "label": "Call (803) 649-6101",
+        "href": "tel:+18036496101"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "hideForm": true
+  },
+  "slug": "williamsons-auto-center",
+  "added": "2026-11-18",
+  "prospect": "williamsons-auto-center",
+  "source": {
+    "url": "http://www.williamsonsauto.net/",
+    "before": [
+      "The shop's web address, williamsonsauto.net, has lapsed: it no longer loads, and anyone can register it",
+      "A search for the shop now finds directory listings instead of its own site",
+      "The words on this concept come from a published profile of the shop and its chamber listing; the owner would confirm every detail"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for the full family story, photos of the shop and the services list in the owner's words"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "tiles",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

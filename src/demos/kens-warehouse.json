@@ -1,0 +1,127 @@
+{
+  "name": "Ken's Warehouse",
+  "short": "Ken's Warehouse",
+  "category": "Furniture, Mattresses & Appliances",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f2f6f6",
+    "surface": "#ffffff",
+    "ink": "#122023",
+    "muted": "#4c5c60",
+    "primary": "#0f4c5c",
+    "onPrimary": "#ffffff",
+    "accent": "#ffb000",
+    "line": "#d8e3e4"
+  },
+  "radius": 4,
+  "icon": "sofa",
+  "contact": {
+    "phone": "(803) 646-7650",
+    "address": [
+      "944 Dougherty Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Ken's Warehouse, 944 Dougherty Road, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "On Dougherty Road",
+    "title": "Furniture, mattresses *& appliances*",
+    "lede": "Ken's Warehouse: furniture, mattresses and appliances on Dougherty Road in Aiken. Call or stop in to see what is on the floor.",
+    "cta": {
+      "label": "Call (803) 646-7650",
+      "href": "tel:+18036467650"
+    },
+    "cta2": {
+      "label": "Find us",
+      "href": "#visit"
+    }
+  },
+  "facts": [
+    {
+      "value": "Furniture",
+      "label": "In the showroom"
+    },
+    {
+      "value": "Mattresses",
+      "label": "On the floor"
+    },
+    {
+      "value": "Appliances",
+      "label": "Too"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "floor",
+      "nav": "On the floor",
+      "columns": 3,
+      "eyebrow": "Under one roof",
+      "title": "Three reasons *to stop in*",
+      "items": [
+        {
+          "icon": "sofa",
+          "title": "Furniture",
+          "text": "Call or stop in to see what is in stock."
+        },
+        {
+          "icon": "bed-double",
+          "title": "Mattresses",
+          "text": "Stop in to see them."
+        },
+        {
+          "icon": "refrigerator",
+          "title": "Appliances",
+          "text": "Ask what is on the floor."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See it in person",
+      "text": "Stop in on Dougherty Road.",
+      "cta": {
+        "label": "Call (803) 646-7650",
+        "href": "tel:+18036467650"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Dougherty Road*",
+    "hideForm": true
+  },
+  "slug": "kens-warehouse",
+  "added": "2026-11-18",
+  "prospect": "kens-warehouse",
+  "source": {
+    "url": "http://kenswarehouse.com/",
+    "before": [
+      "The store's web address, kenswarehouse.com, shows an error page (404) instead of the store",
+      "Shoppers comparing furniture stores online have nothing to look at",
+      "The words on this concept come from the store's chamber listing; stock, photos and specials would come from the owner"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for photos of the showroom floor, brands and specials once the store supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

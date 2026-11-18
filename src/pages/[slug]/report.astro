@@ -7,6 +7,7 @@ import path from 'node:path';
 import Icon from '../../components/Icon.astro';
 import { demos, fonts, type Demo } from '../../lib/demos';
 import { site } from '../../lib/site';
+import { telHref } from '../../lib/demos';
 import QRCode from 'qrcode';
 import '../../styles/report.css';
 import { accessible } from '../../lib/contrast';
@@ -284,14 +285,15 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
         <div class="rp-qr" set:html={qr} aria-label={`QR code for ${conceptUrl}`} role="img"></div>
         <p class="rp-actions">
           <a class="rp-btn" href={`/${demo.slug}/`}>Open the concept<Icon name="arrow-right" size={18} stroke={2.2} /></a>
-          {site.contactEmail && <a class="rp-btn rp-ghost" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}
+          {site.contactPhone && <a class="rp-btn rp-ghost" href={telHref(site.contactPhone)}>Call {site.contactPhone}</a>}
+          {site.contactEmail && <a class="rp-btn rp-ghost" href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(`Website concept for ${demo.name}`)}`}>{site.contactEmail}</a>}
         </p>
       </section>
 
       <p class="rp-fine">
         How this was checked: {demo.source.none ? `a search of local business directories${checked ? ` in ${checked}` : ''} found no website for this business, only a listing or a social page.` : `an automated look at the public home page of ${host}${checked ? ` in ${checked}` : ''}, plus a read-through of the pages a visitor can reach.`}{' '}
         Nothing was logged into and nothing was changed. This is an unsolicited review from {site.name}, which is not affiliated with {demo.name.replace(/\.$/, '')}.
-        Found something we got wrong? Tell us and we will correct it.
+        Found something we got wrong? {site.contactEmail ? <>Email <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a> and we will correct it.</> : 'Tell us and we will correct it.'}
       </p>
       </div>
     </main>
