@@ -128,6 +128,7 @@ const newFlags = [
 const st = seo?.siteState || '';
 const downNote = st === 'No website' || demo.source.none ? 'No website of its own.'
   : /parked/i.test(st) ? `${hostOf(demo.source.url)} shows a parked page, not the business.`
+  : /forwards/i.test(st) ? `${hostOf(demo.source.url)} sends visitors to another website.`
   : /resolve|lapsed|expired/i.test(st) || /Lapsed/i.test(seo?.domain?.state || '') ? `${hostOf(demo.source.url)} no longer works.`
   : /error page|404|500/i.test(st) ? `${hostOf(demo.source.url)} shows an error page.`
   : /certificate/i.test(st) ? `${hostOf(demo.source.url)} shows a security warning.`

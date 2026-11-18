@@ -2,6 +2,7 @@
 // them all and gives the pages a typed, sorted list.
 import fontsJson from './fonts.json';
 import sizesJson from './image-sizes.json';
+import tintsJson from './image-tints.json';
 
 export type Img = { src: string; alt: string; width?: number; height?: number; fit?: 'cover' | 'contain' };
 export type Cta = { label: string; href: string };
@@ -147,3 +148,7 @@ export function brandIcons(demo: Demo, max = 6): string[] {
 /** The contact card's file name: "Herbal Solutions & Spa" -> "Herbal-Solutions-and-Spa". */
 export const vcardFile = (demo: Demo) =>
   demo.name.replace(/&/g, ' and ').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || demo.slug;
+
+const tints = tintsJson as Record<string, string>;
+/** A photo's average colour as its background while it loads (not for contained cut-outs). */
+export const tint = (img?: Img) => (img && img.fit !== 'contain' && tints[img.src] ? `background-color:${tints[img.src]}` : undefined);

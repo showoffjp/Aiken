@@ -1,0 +1,150 @@
+{
+  "name": "Victoria Mexican Restaurant",
+  "short": "Victoria",
+  "category": "Mexican Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f6f4ef",
+    "surface": "#ffffff",
+    "ink": "#161c2c",
+    "muted": "#4f5668",
+    "primary": "#1d4a94",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a541",
+    "line": "#dfe3ec"
+  },
+  "radius": 10,
+  "icon": "utensils-crossed",
+  "contact": {
+    "phone": "(803) 998-9234",
+    "address": [
+      "510 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Victoria Mexican Restaurant, 510 Silver Bluff Rd, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "Fresh Mexican food on Silver Bluff Road",
+    "title": "A wide array of *fresh food*",
+    "lede": "Camarones al chipotle, carnitas dinners, super costillas, wet burritos, combo fajitas, Victoria’s enchiladas and lunch flautas, on Silver Bluff Road in Aiken.",
+    "points": [
+      "Camarones al chipotle",
+      "Combo fajitas",
+      "Lunch flautas"
+    ],
+    "cta": {
+      "label": "Call (803) 998-9234",
+      "href": "tel:+18039989234"
+    },
+    "cta2": {
+      "label": "See the dishes",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Fresh",
+      "label": "A wide array of it"
+    },
+    {
+      "value": "Lunch",
+      "label": "Flautas at midday"
+    },
+    {
+      "value": "Silver Bluff",
+      "label": "Road, Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "The dishes",
+      "eyebrow": "From our menu",
+      "title": "Favorites *from the kitchen*",
+      "intro": "A few of the dishes on our menu. Call for the full menu and today’s prices.",
+      "groups": [
+        {
+          "title": "From the menu",
+          "items": [
+            {
+              "name": "Camarones al chipotle",
+              "desc": "Shrimp in chipotle sauce"
+            },
+            {
+              "name": "Carnitas dinner"
+            },
+            {
+              "name": "Super costillas"
+            },
+            {
+              "name": "Combo fajitas"
+            },
+            {
+              "name": "Victoria’s enchiladas"
+            },
+            {
+              "name": "Burritos wet",
+              "desc": "Smothered in sauce"
+            },
+            {
+              "name": "Lunch flautas"
+            },
+            {
+              "name": "Chicken fingers with fries"
+            }
+          ]
+        }
+      ],
+      "footnote": "Dish names from the restaurant’s Visit Aiken listing; prices and the full menu would come from the owner."
+    },
+    {
+      "type": "band",
+      "title": "¿Qué se te antoja?",
+      "text": "Call ahead or come by 510 Silver Bluff Road.",
+      "cta": {
+        "label": "Call (803) 998-9234",
+        "href": "tel:+18039989234"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Silver Bluff Road*",
+    "hideForm": true
+  },
+  "slug": "victoria-mexican-restaurant",
+  "added": "2026-11-18",
+  "prospect": "victoria-mexican-restaurant",
+  "source": {
+    "url": "http://ordervictoriamexicangrillandbarrestaurant.com/",
+    "before": [
+      "The restaurant's web address now forwards to an unrelated website, so customers who type it never reach Victoria",
+      "There is no working place online to see the dishes, the phone number or the address together",
+      "The words on this concept come from the Visit Aiken listing; prices, hours and photos would come from the owner"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for the full menu with prices, hours and photos of the plates once the restaurant supplies them"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "slide",
+    "buttons": "shadow"
+  }
+}

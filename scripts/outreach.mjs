@@ -205,13 +205,13 @@ for (const f of await readdir(path.join(ROOT, 'public', 'cards')).catch(() => []
 
 // Urgent calls: businesses whose site is down or whose web address has lapsed.
 // No concept needed to call; the news itself is the reason.
-const urgent = rows.filter((r) => r.phone && (/^Lapsed|^On hold/.test(r.domainState || '') || ['Parked domain'].includes(r.siteState) || (r.tier === 'broken' && !/verify/.test(r.siteState))));
+const urgent = rows.filter((r) => r.phone && (/^Lapsed|^On hold/.test(r.domainState || '') || ['Parked domain', 'Forwards to another website'].includes(r.siteState) || (r.tier === 'broken' && !/verify/.test(r.siteState))));
 const poss = (n) => (/s$/i.test(n) ? `${n}'` : `${n}'s`);
 const script = (r) => /^Lapsed/.test(r.domainState || '')
   ? `Hi, this is ${me.name}, a web designer here in Aiken. I was checking local business websites and noticed ${r.domain} is no longer registered, so the address listed for ${r.name} in local directories leads nowhere, and anyone could buy it. I can help you get it back or set up a new one. Do you have a minute?`
   : /^On hold/.test(r.domainState || '')
     ? `Hi, this is ${me.name}, a web designer here in Aiken. I noticed ${r.domain} has expired and is in its grace period at the registrar, so ${poss(r.name)} website address is about to be released. If you want to keep it, it needs renewing soon. Happy to help.`
-    : r.siteState === 'Parked domain'
+    : r.siteState === 'Parked domain' || r.siteState === 'Forwards to another website'
       ? `Hi, this is ${me.name}, a web designer here in Aiken. The web address local directories list for ${r.name} (${r.domain || r.website}) now shows someone else's page, not yours. I can help you get a working site back up. Do you have a minute?`
       : `Hi, this is ${me.name}, a web designer here in Aiken. I tried ${poss(r.name)} website (${r.website}) and it isn't loading for visitors right now (${(r.siteState || '').toLowerCase()}). I can help get it back up. Do you have a minute?`;
 await writeFile(path.join(out, 'urgent-calls.md'), `# Urgent calls

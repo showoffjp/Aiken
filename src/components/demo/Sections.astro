@@ -2,7 +2,7 @@
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
 import Seal from './Seal.astro';
-import { title, sectionId, srcset, isScenic, cinematicHero, type Demo, type Img } from '../../lib/demos';
+import { title, sectionId, srcset, isScenic, cinematicHero, tint, type Demo, type Img } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 const cine = !!demo.cinematic;
@@ -70,7 +70,7 @@ if (cine) deepIdx = -1;
       <div class="wrap">
         {s.image && (
           <div class="story-media" data-par="">
-            <img src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
+            <img style={tint(s.image)} src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
           </div>
         )}
         <div class="body">
@@ -93,17 +93,29 @@ if (cine) deepIdx = -1;
       </div>
     </section>
   );
-  if (s.type === 'menu') return (
-    <section class={`section ${alt}`} id={id}>
+  if (s.type === 'menu') {
+    // Long menus get a row of chips to jump between groups (it sticks under the header on phones),
+    // and any menu or price list of five or more items can be printed on its own.
+    const items = s.groups.reduce((n, g) => n + g.items.length, 0);
+    const food = demo.group === 'Food & Drink';
+    const priced = s.groups.some((g) => g.items.some((it) => it.price));
+    const printable = items >= 5 && (food || priced);
+    return (
+    <section class={`section ${alt} menu-sec`} id={id}>
       <div class="wrap">
         <div class="section-head" data-label={s.nav || ''}>
           {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
         </div>
+        {s.groups.length >= 3 && (
+          <nav class="menu-jump" aria-label={`${s.nav || 'Menu'} sections`} data-menu-jump>
+            {s.groups.map((g, k) => <a href={`#${id}-g${k}`}>{g.title}</a>)}
+          </nav>
+        )}
         <div class={`menu-groups${s.groups.length === 1 ? ' solo' : ''}`}>
-          {s.groups.map((g) => (
-            <div class="menu-group">
+          {s.groups.map((g, k) => (
+            <div class="menu-group" id={`${id}-g${k}`}>
               <h3>{g.title}{g.note && <small>{g.note}</small>}</h3>
               <ul>
                 {g.items.map((it) => (
@@ -117,9 +129,11 @@ if (cine) deepIdx = -1;
           ))}
         </div>
         {s.footnote && <p class="footnote">{s.footnote}</p>}
+        {printable && <p class="menu-print"><button class="chip" type="button" data-print-menu><Icon name="printer" size={17} stroke={2.1} />{food ? 'Print the menu' : 'Print these prices'}</button></p>}
       </div>
     </section>
-  );
+    );
+  }
   if (s.type === 'gallery' && cine && split(s.images).scenes.length >= 2) {
     const { scenes, rest, cols } = split(s.images);
     return (
@@ -135,7 +149,7 @@ if (cine) deepIdx = -1;
           {scenes.map((img, k) => (
             <figure class="scene">
               <div class="scene-inner">
-                <img src={img.src} srcset={srcset(img)} sizes="100vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" />
+                <img style={tint(img)} src={img.src} srcset={srcset(img)} sizes="100vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" />
                 <div class="scene-veil" aria-hidden="true"></div>
               </div>
               <figcaption><span class="scene-num" aria-hidden="true">{pad(k + 1)} / {pad(scenes.length)}</span><span class="scene-cap">{img.alt}</span></figcaption>
@@ -147,14 +161,14 @@ if (cine) deepIdx = -1;
             <div class="cine-mosaic" data-par>
               {cols.map((col, c) => (
                 <div class="mosaic-col" style={`--speed:${[-1, 0.6, -0.4][c]}`}>
-                  {col.map((img) => <figure><img src={img.src} srcset={srcset(img)} sizes="(max-width: 760px) 46vw, 30vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>)}
+                  {col.map((img) => <figure><img style={tint(img)} src={img.src} srcset={srcset(img)} sizes="(max-width: 760px) 46vw, 30vw" alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>)}
                 </div>
               ))}
             </div>
           </div>
         )}
         <div class="cine-reel" aria-hidden="true" data-par>
-          <div class="reel-row">{[...s.images, ...s.images].map((img) => <img src={img.src} srcset={srcset(img)} sizes="240px" alt="" width={img.width} height={img.height} loading="lazy" decoding="async" />)}</div>
+          <div class="reel-row">{[...s.images, ...s.images].map((img) => <img style={tint(img)} src={img.src} srcset={srcset(img)} sizes="240px" alt="" width={img.width} height={img.height} loading="lazy" decoding="async" />)}</div>
         </div>
       </section>
     );
@@ -171,7 +185,7 @@ if (cine) deepIdx = -1;
           {s.images.map((img, n) => {
             const ratio = img.width && img.height ? img.width / img.height : 1;
             const shape = ratio > 1.55 && n % 3 === 0 ? 'wide' : ratio < 0.72 ? 'tall' : '';
-            return <figure class={shape} data-par=""><img src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
+            return <figure class={shape} data-par=""><img style={tint(img)} src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
           })}
         </div>
       </div>

@@ -38,6 +38,7 @@ const STATUS = {
   placeholder: 'Placeholder or error page',
   empty: 'Empty page',
   'redirects-to-social': 'Redirects to a social page',
+  'redirects-away': 'Forwards to another website',
 };
 
 // Toll-free numbers on a site are usually an ordering platform or head office,
@@ -101,7 +102,7 @@ const rows = businesses.filter((b) => b.include).map((b) => {
   let tier;
   if (!b.website) tier = b.social ? 'none' : 'nosite';
   else if (!a) tier = 'blocked';
-  else if (['down', 'no-dns', 'cert-error', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social'].includes(a.state)) tier = 'broken';
+  else if (['down', 'no-dns', 'cert-error', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away'].includes(a.state)) tier = 'broken';
   else if (a.state === 'blocked') tier = 'blocked';
   else if (a.score >= 30) tier = 'rebuild';
   else if (a.score >= 15) tier = 'dated';

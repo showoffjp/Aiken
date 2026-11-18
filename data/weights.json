@@ -4352,5 +4352,41 @@
    "url": "/little-red-fox-shop/",
    "at": "2026-11-18"
   }
+ },
+ "pablos-mexican-restaurant": {
+  "concept": {
+   "bytes": 230531,
+   "requests": 6,
+   "loadMs": 140,
+   "url": "/pablos-mexican-restaurant/",
+   "at": "2026-11-18"
+  }
+ },
+ "zier-law-firm": {
+  "concept": {
+   "bytes": 283593,
+   "requests": 7,
+   "loadMs": 280,
+   "url": "/zier-law-firm/",
+   "at": "2026-11-18"
+  }
+ },
+ "victoria-mexican-restaurant": {
+  "concept": {
+   "bytes": 370594,
+   "requests": 9,
+   "loadMs": 340,
+   "url": "/victoria-mexican-restaurant/",
+   "at": "2026-11-18"
+  }
+ },
+ "bottom-line-bakery": {
+  "concept": {
+   "bytes": 325228,
+   "requests": 9,
+   "loadMs": 364,
+   "url": "/bottom-line-bakery/",
+   "at": "2026-11-18"
+  }
  }
 }

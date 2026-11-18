@@ -243,7 +243,13 @@ const results = await pool(targets, 8, async (b) => {
     // 401/403/429 = a firewall refusing automated visitors (the site is up);
     // anything else = the site did not answer at all.
     const err = res.error || '';
-    const state = [401, 403, 406, 429, 503].includes(res.status) ? 'blocked'
+    // The address answered with a redirect to a different website that then failed to load
+    // (typical of a lapsed domain picked up by a redirect network): it no longer leads to the business.
+    const bare = (h = '') => h.replace(/^www\./, '').toLowerCase();
+    let finalHost = '';
+    try { finalHost = bare(new URL(res.finalUrl).hostname); } catch {}
+    const state = finalHost && finalHost !== bare(u.host) ? 'redirects-away'
+      : [401, 403, 406, 429, 503].includes(res.status) ? 'blocked'
       : res.status >= 400 ? 'broken'
       : /SSL|certificate/i.test(err) ? 'cert-error'          // visitors get a full-page browser warning
       : /CONNECT tunnel failed|Could not resolve/i.test(err) ? 'no-dns'  // the domain no longer points anywhere
@@ -285,6 +291,6 @@ await writeFile(new URL('../data/audit.json', import.meta.url), JSON.stringify(a
 const r = Object.values(audit);
 const n = (f) => r.filter(f).length;
 console.log(`audit saved: ${r.length} sites`);
-console.log(`  down ${n((x) => ['down', 'no-dns', 'cert-error'].includes(x.state))}, broken ${n((x) => x.state === 'broken')}, bot-blocked ${n((x) => x.state === 'blocked')}, parked/placeholder/empty ${n((x) => ['parked', 'placeholder', 'empty', 'redirects-to-social'].includes(x.state))}, ok ${n((x) => x.state === 'ok')}`);
+console.log(`  down ${n((x) => ['down', 'no-dns', 'cert-error'].includes(x.state))}, broken ${n((x) => x.state === 'broken')}, bot-blocked ${n((x) => x.state === 'blocked')}, parked/placeholder/empty/forwarding ${n((x) => ['parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away'].includes(x.state))}, ok ${n((x) => x.state === 'ok')}`);
 console.log(`  score >=45: ${n((x) => x.score >= 45)}, 30-44: ${n((x) => x.score >= 30 && x.score < 45)}, 15-29: ${n((x) => x.score >= 15 && x.score < 30)}, <15: ${n((x) => x.score !== null && x.score < 15)}`);
 console.log(`  no viewport: ${n((x) => x.state === 'ok' && !x.viewport)}, no https: ${n((x) => x.state === 'ok' && !x.https)}, with email: ${n((x) => x.emails?.length)}`);

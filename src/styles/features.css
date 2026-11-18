@@ -200,3 +200,51 @@ dialog.lightbox::backdrop { background: transparent; }
 .notes .cols h3 { font: 700 .72rem/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; margin: 0 0 12px; padding: 0; border: 0; color: #6a6f7a; }
 .notes .cols h3.also { margin-top: 20px; }
 .notes .cols li { padding: 0 0 0 22px; margin-bottom: 9px; font-size: .95rem; color: inherit; }
+
+/* ---------------------------------------------------------- menu chips */
+.menu-jump {
+  display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: -6px 0 30px; padding: 4px 2px;
+  -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent);
+}
+.menu-jump::-webkit-scrollbar { display: none; }
+.menu-jump a {
+  flex: none; display: inline-flex; align-items: center; min-height: 40px; padding: 8px 16px; border-radius: 999px; white-space: nowrap;
+  border: 1px solid color-mix(in srgb, currentColor 22%, transparent); text-decoration: none; font: 600 .92rem/1.1 var(--font-body);
+  background: color-mix(in srgb, currentColor 4%, transparent); transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.menu-jump a:hover { border-color: var(--primary); }
+.menu-jump a[aria-current] { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
+.fx-deep .menu-jump a[aria-current] { background: var(--accent-btn, var(--accent)); border-color: transparent; color: var(--on-accent, var(--ink)); }
+@media (max-width: 760px) {
+  .menu-jump {
+    position: sticky; top: 72px; z-index: 5; margin: -6px calc(-1 * var(--gutter)) 24px; padding: 10px var(--gutter);
+    background: color-mix(in srgb, var(--bg) 94%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .section.alt .menu-jump { background: color-mix(in srgb, var(--surface) 94%, transparent); }
+  .fx-deep .menu-jump { background: color-mix(in srgb, var(--deep, #14181b) 92%, transparent); border-color: rgb(255 255 255 / .12); }
+  [data-cinematic] .menu-jump { top: var(--head, 72px); }
+  .menu-sec .menu-group { scroll-margin-top: 54px; } /* plus the page's 88px scroll padding: lands just under the chips */
+}
+.menu-print { margin: 26px 0 0; }
+.fx-deep .chip { background: rgb(255 255 255 / .08); color: inherit; border-color: rgb(255 255 255 / .25); }
+.fx-deep .chip .icon { color: inherit; }
+
+/* ----------------------------------------------------------------- print */
+.print-head { display: none; }
+@media print {
+  .concept, .site-head, .callbar, .to-top, .toast, .fx-ribbon, .menu-jump, .menu-print, .chips, dialog { display: none !important; }
+  html.print-menu main > :not(.print-this), html.print-menu .site-foot { display: none !important; }
+  html.print-menu .print-head { display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: baseline; padding: 0 0 12px; margin-bottom: 18px; border-bottom: 2px solid #000; font: 14px/1.4 var(--font-body); color: #000; }
+  html.print-menu .print-head strong { font: 700 22px/1.2 var(--font-display); width: 100%; }
+  html.print-menu .print-this { padding: 0 !important; background: none !important; }
+  html.print-menu .print-this, html.print-menu .print-this * { color: #000 !important; background: none !important; box-shadow: none !important; text-shadow: none !important; -webkit-text-fill-color: #000 !important; }
+  html.print-menu .print-this .section-head::before, html.print-menu .print-this::before, html.print-menu .print-this::after { display: none !important; }
+  html.print-menu .print-this .menu-groups:not(.solo) { columns: 2; }
+  html.print-menu .print-this .menu-group li { break-inside: avoid; }
+}
+
+/* Cinematic headers stay dark glass once the page scrolls (the shared scrolled
+   tint is light, which left their white text unreadable). */
+[data-cinematic] .site-head.scrolled { background: color-mix(in srgb, var(--cine) 86%, transparent); box-shadow: 0 10px 30px -18px rgb(0 0 0 / .6); }
+@media print { html.print-menu .print-head { margin: 0 var(--gutter) 18px; } }

@@ -1,0 +1,167 @@
+{
+  "name": "Zier Law Firm",
+  "short": "Zier Law",
+  "category": "Attorney",
+  "group": "Professional",
+  "town": "North Augusta, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "lora",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f7f5f0",
+    "surface": "#ffffff",
+    "ink": "#14202e",
+    "muted": "#4f5a66",
+    "primary": "#1d3a5c",
+    "onPrimary": "#ffffff",
+    "accent": "#b08d57",
+    "line": "#e2ddd2"
+  },
+  "radius": 4,
+  "icon": "scale",
+  "contact": {
+    "phone": "(803) 279-5998",
+    "address": [
+      "602 West Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Zier Law Firm, 602 West Ave, North Augusta, SC 29841"
+  },
+  "hero": {
+    "eyebrow": "Attorneys in North Augusta",
+    "title": "Legal help, *close to home*",
+    "lede": "Real estate, family law, civil litigation, business law, and estates, wills and trusts, mostly in Aiken and Edgefield counties and throughout South Carolina.",
+    "points": [
+      "Real estate",
+      "Family law",
+      "Wills & trusts"
+    ],
+    "cta": {
+      "label": "Call (803) 279-5998",
+      "href": "tel:+18032795998"
+    },
+    "cta2": {
+      "label": "Practice areas",
+      "href": "#practice"
+    }
+  },
+  "facts": [
+    {
+      "value": "Aiken",
+      "label": "and Edgefield counties, mostly"
+    },
+    {
+      "value": "Statewide",
+      "label": "Throughout South Carolina"
+    },
+    {
+      "value": "West Ave",
+      "label": "Office in North Augusta"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "practice",
+      "nav": "Practice areas",
+      "columns": 3,
+      "eyebrow": "How we can help",
+      "title": "Areas *of practice*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Real estate",
+          "text": "Real estate matters."
+        },
+        {
+          "icon": "users",
+          "title": "Family law",
+          "text": "Family law matters."
+        },
+        {
+          "icon": "gavel",
+          "title": "Civil litigation",
+          "text": "Civil cases and disputes."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Business law",
+          "text": "Legal matters for businesses."
+        },
+        {
+          "icon": "scroll-text",
+          "title": "Estates, wills and trusts",
+          "text": "Wills, trusts and estate matters."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "where",
+      "nav": "Where we work",
+      "eyebrow": "Where we practice",
+      "title": "Aiken and Edgefield, *and statewide*",
+      "body": [
+        "The Zier Law Firm handles its matters mostly in Aiken and Edgefield counties, but also throughout the entire state of South Carolina.",
+        "Our office is on West Avenue in North Augusta."
+      ],
+      "list": [
+        "Aiken County",
+        "Edgefield County",
+        "Throughout South Carolina"
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Talk it through with us",
+      "text": "Call the office on West Avenue to set up a time.",
+      "cta": {
+        "label": "Call (803) 279-5998",
+        "href": "tel:+18032795998"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *West Avenue*",
+    "intro": "A message here reaches the office; please do not include confidential details.",
+    "formTitle": "Ask about your matter",
+    "formTopics": [
+      "Real estate",
+      "Family law",
+      "Civil litigation",
+      "Business law",
+      "Estates, wills and trusts",
+      "Something else"
+    ]
+  },
+  "slug": "zier-law-firm",
+  "added": "2026-11-18",
+  "prospect": "zier-law-firm",
+  "source": {
+    "url": "http://www.zierlawfirm.com/",
+    "before": [
+      "The firm's website does not load: it answers with a \"Service Unavailable\" error, or not at all",
+      "Clients looking for practice areas or the office address online find nothing",
+      "The words on this concept come from the North Augusta Chamber listing; attorney bios and details would come from the firm"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for attorney bios, a page per practice area and office hours once the firm supplies them"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

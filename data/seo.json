@@ -19431,5 +19431,590 @@
     "domainYears": 7
    }
   ]
+ },
+ "bottom-line-bakery": {
+  "slug": "bottom-line-bakery",
+  "name": "Bottom Line Bakery & Cafe",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Error page (404 / 500)",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/salty-tomatoes/",
+    "name": "Bottom Line Bakery & Cafe",
+    "phone": "(803) 226-0911",
+    "website": "https://www.facebook.com/profile.php?id=61555722472922",
+    "address": "148 Laurens Street SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": false
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Bottom Line Bakery",
+    "phone": "",
+    "website": "https://www.bottomlinebakeryaiken.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61555722472922"
+   }
+  },
+  "domain": {
+   "name": "bottomlinebakeryaiken.com",
+   "created": "2025-01-11",
+   "expires": "2027-01-11",
+   "registrar": "Register.com - Network Solutions, LLC",
+   "years": 1
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1354,
+   "lcp": 1804,
+   "tbt": 0,
+   "si": 1354,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "the-village-caf",
+   "oh-mie-stelle-bakery",
+   "whats-cookin-downtown",
+   "aiken-fish-house-and-oyster-bar",
+   "macks"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 6.2,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "oh-mie-stelle-bakery",
+    "name": "Oh Mie Stelle! Bakery",
+    "website": "https://www.ohmiestelle.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 1.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "pablos-mexican-restaurant": {
+  "slug": "pablos-mexican-restaurant",
+  "name": "Pablo's Mexican Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/pablo-s-mexican-restaurant-2700",
+    "name": "Pablo's Mexican Restaurant",
+    "phone": "(803) 599-5182",
+    "website": "http://pablosmex.com",
+    "address": "1069 Edgefield Road, Suite 101, North Augusta SC 29860",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "pablosmex.com",
+   "years": null
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1752,
+   "lcp": 1752,
+   "tbt": 0,
+   "si": 1752,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "bowl-boss",
+   "brinks-tavern",
+   "brinkleys-chop-house"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "bowl-boss",
+    "name": "Bowl Boss",
+    "website": "https://www.bowlbossacai.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 5.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "brinkleys-chop-house",
+    "name": "Brinkley's Chop House",
+    "website": "https://www.brinkleyschophouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 39,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "victoria-mexican-restaurant": {
+  "slug": "victoria-mexican-restaurant",
+  "name": "Victoria Mexican Restaurant",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/victoria-mexican-restaurant/",
+    "name": "Victoria Mexican Restaurant",
+    "phone": "803-998-9234",
+    "website": "http://ordervictoriamexicangrillandbarrestaurant.com/",
+    "address": "510 Silver Bluff Rd. Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": false
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "ordervictoriamexicangrillandbarrestaurant.com",
+   "created": "2026-05-13",
+   "expires": "2027-05-13",
+   "registrar": "NameCheap, Inc.",
+   "years": 0
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1804,
+   "lcp": 2404,
+   "tbt": 0,
+   "si": 1804,
+   "cls": 0.025,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "marias-mexican-restaurant",
+   "mi-rancho",
+   "salsas-mex-mex-grill",
+   "tequilas-mexican-grill-and-bar",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "marias-mexican-restaurant",
+    "name": "Maria's Mexican Restaurant",
+    "website": "http://mariasmexicanrestaurantaiken.com/",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": 2.5,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "mi-rancho",
+    "name": "Mi Rancho",
+    "website": "http://www.miranchomexicanrestaurants.com/index.php",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 13
+   },
+   {
+    "slug": "salsas-mex-mex-grill",
+    "name": "Salsa's Mex-Mex Grill",
+    "website": "https://www.salsasbarandgrill.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "tequilas-mexican-grill-and-bar",
+    "name": "Tequila's Mexican Grill & Bar",
+    "website": "http://tequilasmexicangrillsc.com/",
+    "state": "placeholder",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "zier-law-firm": {
+  "slug": "zier-law-firm",
+  "name": "Zier Law Firm",
+  "checked": "2026-11-18",
+  "hasSite": false,
+  "siteState": "No response - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/zier-law-firm-1821",
+    "name": "Zier Law Firm",
+    "phone": "(803) 279-5998",
+    "website": "http://www.zierlawfirm.com/",
+    "address": "602 West Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "zierlawfirm.com",
+   "created": "2007-10-02",
+   "expires": "2027-10-02",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 19
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1719,
+   "lcp": 1803,
+   "tbt": 0,
+   "si": 1719,
+   "cls": 0,
+   "at": "2026-11-18"
+  },
+  "competitorSlugs": [
+   "maxwell-law-group-llc",
+   "rhodes-law-firm",
+   "thomas-p-murphy-pc-attorney-at-law",
+   "wessels-white-and-earley-pc",
+   "malchow-johnson-injury-lawyers"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "maxwell-law-group-llc",
+    "name": "Maxwell Law Group, LLC",
+    "website": "https://www.maxwellgroup.law/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 51,
+    "pageMB": 1.8,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "rhodes-law-firm",
+    "name": "Rhodes Law Firm",
+    "website": "https://gorhodeslaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 1.7,
+    "a11ySerious": 53,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "thomas-p-murphy-pc-attorney-at-law",
+    "name": "Thomas P. Murphy, P.C., Attorney at Law",
+    "website": "https://thomaspmurphylaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 63,
+    "pageMB": 2.1,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "wessels-white-and-earley-pc",
+    "name": "Wessels, White, & Earley, P.C.",
+    "website": "https://wwe.law/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 56,
+    "pageMB": 1.9,
+    "a11ySerious": 45,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "malchow-johnson-injury-lawyers",
+    "name": "Malchow Johnson Injury Lawyers",
+    "website": "https://www.nmjfirm.com/",
+    "state": "blocked",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 7
+   }
+  ]
  }
 }
