@@ -163,7 +163,8 @@
      "title": "Osbon's Cleaners",
      "description": "Aiken's top laundromat and dry-cleaning service",
      "image": "https://osbonscleaners.com/staging/9564/wp-content/uploads/2022/09/osbons_van-2.jpg",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary_large_image",
     "h1": [
@@ -1286,7 +1287,8 @@
      "title": "Natural Health Store & Spa in Aiken, SC | Massage & Wellness",
      "description": "Natural health products & professional spa services in Aiken, SC. Massage therapy,  pet products & supplements. Book a massage: 803-649-9286.",
      "image": "https://www.twoherbalsolutions.com/templates/fi-generic/images/logo/social.webp",
-     "type": ""
+     "type": "",
+     "imageStatus": 200
     },
     "twitterCard": "",
     "h1": [
@@ -1656,7 +1658,8 @@
      "title": "Home - Empire Tree",
      "description": "Augusta's Premier Tree Removal and Pruning Experts For over 35 years, Empire Tree has built a reputation as the #1 arborist and tree removal service of Augusta, GA. Give us a call and put your tree-related worries behind you! Schedule a Consultation THE TreeExperts. Since 1985, Empire Tree has been providing highly rated tree services for countless satisfied [&hellip;]",
      "image": "https://empiretree.com/wp-content/uploads/2022/06/empire_tree_6_2022_1920-12-300x225.jpg",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary_large_image",
     "h1": [
@@ -2086,7 +2089,8 @@
      "title": "Heating, Cooling & Electrical Services In Aiken, SC | Carolina HVAC & Electrical",
      "description": "Carolina HVAC & Electrical provides complete heating, cooling, electrical & generator services for families across Aiken County, Barnwell County & nearby areas.",
      "image": "https://cdn.carolina-hvac.com/wp-content/uploads/2025/12/561972889_1128492986058088_8286666248925214726_n.jpg",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary_large_image",
     "h1": [
@@ -2847,7 +2851,8 @@
      "title": "Menu",
      "description": "There will be an additional charge for ToGo orders Click here for Printable Menu",
      "image": "http://i980.photobucket.com/albums/ae282/bigt8977/menucover_zps21d85846.jpg",
-     "type": "article"
+     "type": "article",
+     "imageStatus": 403
     },
     "twitterCard": "summary_large_image",
     "h1": [
@@ -3089,8 +3094,8 @@
    "cavaliers-coffeehouse"
   ],
   "scores": {
-   "seo": 62,
-   "social": 15,
+   "seo": 57,
+   "social": 0,
    "lighthouseSeo": 92
   },
   "competitors": [
@@ -3903,7 +3908,8 @@
      "title": "Bradley Plumbing & Heating, Inc",
      "description": "Since 1952, we have provided exceptional service to a variety of clients in the public and private sectors.",
      "image": "https://img1.wsimg.com/isteam/stock/3286",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary",
     "h1": [
@@ -7386,7 +7392,8 @@
      "title": "THE INN AT HOUNDSLAKE",
      "description": "The Inn at Houndslake is simply an invitation to experience a family heritage of Southern hospitality, a welcoming home away from home. Those in the know unwind, relax, and retreat at our...",
      "image": "http://www.theinnathoundslake.com/uploads/1/4/3/9/143941035/published/color.png?1669076023",
-     "type": ""
+     "type": "",
+     "imageStatus": 200
     },
     "twitterCard": "",
     "h1": [],
@@ -8395,7 +8402,8 @@
      "title": "Home | Iron Gate Candles",
      "description": "Iron Gate Candles. Candles and Body care...Unique gifts all Handmade in Aiken, SC in small batches.",
      "image": "https://static.wixstatic.com/media/ebcd12_b34988077e7749fe908057873f4e6cf9%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ebcd12_b34988077e7749fe908057873f4e6cf9%7Emv2.jpg",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary_large_image",
     "h1": [
@@ -9731,7 +9739,8 @@
      "title": "Bread | Oh Mie Stelle | Aiken",
      "description": "Oh Mie Stelle is an artisan bakery specializing in handcrafted bagels and breads.",
      "image": "https://static.wixstatic.com/media/c2ac1a_f812c37258f248f6b5c289d5b8a23c97%7Emv2.png/v1/fit/w_2500,h_1330,al_c/c2ac1a_f812c37258f248f6b5c289d5b8a23c97%7Emv2.png",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary_large_image",
     "h1": [],
@@ -10030,7 +10039,8 @@
      "title": "Remodeling | Porches | Kitchens & Baths | Prescott & Sons Construction",
      "description": "Prescott & Sons Construction is a locally owned and operated construction company in North Augusta, SC.",
      "image": "https://www.prescottandsons.com/assets/images/Prescott-Logo-2021.png",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "",
     "h1": [],
@@ -11044,7 +11054,7 @@
     "brokenCount": 0
    },
    "social": {
-    "Facebook": "https://www.facebook.com/profile.php"
+    "Facebook": "https://www.facebook.com/profile.php?id=61580979564734"
    }
   },
   "keywords": [
@@ -11089,10 +11099,10 @@
   ],
   "social": {
    "onSite": {
-    "Facebook": "https://www.facebook.com/profile.php"
+    "Facebook": "https://www.facebook.com/profile.php?id=61580979564734"
    },
    "listed": {
-    "Facebook": "https://www.facebook.com/profile.php"
+    "Facebook": "https://www.facebook.com/profile.php?id=61580979564734"
    }
   },
   "domain": {
@@ -12102,7 +12112,8 @@
      "title": "Tailored Tours of Aiken",
      "description": "Let us show you Aiken's beauty while amazing you with our city's history, legends, and tantalizing gossip of yesteryear.",
      "image": "https://img1.wsimg.com/isteam/ip/228bdc01-f0ca-4d4d-bdb9-15b35d5a2010/da2c2f9e-3141-43d9-bc2a-d777420f1b18.JPG",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary",
     "h1": [
@@ -12338,7 +12349,8 @@
      "title": "The Jewelers Loupe of Aiken, SC - Jewelry, Jewelry Repair, Diamond Jewelry",
      "description": "The Jeweler's Loupe in Aiken, SC, has been Aiken's most trusted diamond jewelry dealer since 1987. We offer fine jewelry and repairs at competitive prices.",
      "image": "//nebula.wsimg.com/a994922be9d8116a739496d2e9139e95?AccessKeyId=F5B3155BA206E34FD1C6&disposition=0&alloworigin=1",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "",
     "h1": [
@@ -12713,7 +12725,8 @@
      "title": "Thomas P. Murphy Law, PC | North Augusta, SC",
      "description": "",
      "image": "https://s0.wp.com/i/blank.jpg",
-     "type": "website"
+     "type": "website",
+     "imageStatus": 200
     },
     "twitterCard": "summary",
     "h1": [
@@ -13537,7 +13550,7 @@
     "brokenCount": 0
    },
    "social": {
-    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours",
+    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken",
     "Facebook": "https://www.facebook.com/VegOutCafe"
    }
   },
@@ -13583,7 +13596,7 @@
   ],
   "social": {
    "onSite": {
-    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken#location-and-hours",
+    "Yelp": "https://www.yelp.com/biz/veg-out-cafe-aiken",
     "Facebook": "https://www.facebook.com/VegOutCafe"
    },
    "listed": {}

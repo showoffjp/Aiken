@@ -204,7 +204,8 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
     since: since ? Number(since) : null,
     emails: emailsIn(html),
     phones: phonesIn(html),
-    facebook: decode((html.match(/https?:\/\/(?:www\.|m\.)?facebook\.com\/(?!sharer|tr\b|plugins|dialog|share)[^"'\s<>?]+/i) || [''])[0]),
+    // Keep the id on profile.php links, and skip a bare profile.php (a dead icon) for the real one.
+    facebook: decode([...html.matchAll(/https?:\/\/(?:www\.|m\.)?facebook\.com\/(?!sharer|tr\b|plugins|dialog|share)(?:profile\.php\?id=\d+|[^"'\s<>?]+)/gi)].map((m) => m[0]).find((u) => !/facebook\.com\/profile\.php$/i.test(u)) || ''),
     instagram: decode((html.match(/https?:\/\/(?:www\.)?instagram\.com\/(?!p\/|explore)[^"'\s<>?]+/i) || [''])[0]),
   };
 }

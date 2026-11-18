@@ -47,6 +47,13 @@ function metaContent(html, key) {
   }
   return '';
 }
+// A share image counts only if it loads (a 4xx/5xx is a broken preview; no answer is given the benefit of the doubt).
+const ogImageOk = (og) => !!og?.image && !(og.imageStatus >= 400);
+// Drop tracking queries from a profile link, but keep the id a profile.php link needs.
+const cleanSocial = (l) => {
+  const id = /facebook\.com\/profile\.php/i.test(l) && (l.match(/[?&]id=(\d+)/) || [])[1];
+  return l.split(/[?#]/)[0] + (id ? `?id=${id}` : '');
+};
 const SOCIAL = [
   ['Facebook', /facebook\.com\/(?!sharer|share\.php|plugins|tr\?|dialog)/i],
   ['Instagram', /instagram\.com\/(?!p\/|explore)/i],
@@ -62,7 +69,8 @@ const SOCIAL = [
 ];
 // Links to a website platform's or web designer's own accounts, or XML
 // namespaces that look like profile links, are not the business's profiles.
-const NOT_BUSINESS = /facebook\.com\/(2008\/fbml|wix|wixcom|wordpresscom|wordpress|squarespace|godaddy|weebly|shopify)\b|instagram\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify)\b|(twitter|x)\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify|aqmg_marketing)\b/i;
+// A bare profile.php (no id) opens nothing: a dead icon, counted with the placeholders.
+const NOT_BUSINESS = /facebook\.com\/profile\.php(?!\S*[?&]id=)|facebook\.com\/(2008\/fbml|wix|wixcom|wordpresscom|wordpress|squarespace|godaddy|weebly|shopify)\b|instagram\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify)\b|(twitter|x)\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify|aqmg_marketing)\b/i;
 function parsePage(html, url) {
   const head = (html.match(/<head[\s\S]*?<\/head>/i) || [''])[0];
   const bodyHtml = html.replace(/<head[\s\S]*?<\/head>/i, ' ');
@@ -155,6 +163,10 @@ async function siteReport(b, a) {
   }
   const home = pages.find((p) => !p.error) || null;
   if (!home) return { error: 'home page could not be read' };
+  // Does the share image actually load? A preview pointing at a dead image shows a blank card.
+  if (home.og?.image) {
+    try { const r = await get(new URL(home.og.image, home.url).href, { maxBytes: 60_000, timeout: 20 }); home.og.imageStatus = r.status || 0; } catch { home.og.imageStatus = 0; }
+  }
 
   // Broken internal links: every link target found, up to 60, crawled pages included.
   const crawled = new Map(pages.map((p) => [norm(p.url), p.status || 0]));
@@ -173,7 +185,7 @@ async function siteReport(b, a) {
 
   // Social profiles linked from anywhere crawled.
   const social = {};
-  for (const p of ok) for (const l of p.links) for (const [name, re] of SOCIAL) if (re.test(l) && !NOT_BUSINESS.test(l) && !social[name]) social[name] = l.split('?')[0];
+  for (const p of ok) for (const l of p.links) for (const [name, re] of SOCIAL) if (re.test(l) && !NOT_BUSINESS.test(l) && !social[name]) social[name] = cleanSocial(l);
   // Social icons that still point at the website builder's own accounts (template placeholders).
   const placeholderSocial = [...new Set(ok.flatMap((p) => p.links).filter((l) => NOT_BUSINESS.test(l) && !/2008\/fbml/i.test(l)).map((l) => l.split('?')[0].replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, '').toLowerCase()))].slice(0, 4);
 
@@ -306,7 +318,7 @@ function seoScore(s, kw, cites) {
   const checks = [
     [8, s.https], [8, h.viewport], [8, !!h.title && h.title.length >= 20 && h.title.length <= 65], [7, !!h.description && h.description.length >= 70 && h.description.length <= 170],
     [6, h.h1Count === 1], [5, !!h.canonical], [6, !h.noindex && !s.robots.blocksAll], [4, s.robots.found], [6, !!s.sitemap],
-    [8, h.schemaLocal], [5, !!(h.og.title && h.og.image)], [3, h.favicon], [2, !!h.lang],
+    [8, h.schemaLocal], [5, !!(h.og.title && ogImageOk(h.og))], [3, h.favicon], [2, !!h.lang],
     [6, h.images === 0 || h.imagesNoAlt / h.images <= 0.1], [6, s.links.brokenCount === 0], [4, s.crawl.missingDescription === 0], [3, s.crawl.dupTitles === 0],
     [5, kw.every((k) => k.title || k.h1)], [5, cites.every((c) => c.phoneMatch !== false && c.websiteMatch !== false)],
   ];
@@ -322,7 +334,7 @@ function socialScore(social, dirSocial, og) {
   if ([...platforms].some((p) => /YouTube|TikTok|LinkedIn|Pinterest|X \(/.test(p))) s += 10;
   if ([...platforms].some((p) => /Yelp|Nextdoor|TripAdvisor/.test(p))) s += 5;
   if (Object.keys(social).length) s += 10; // the website points people to the profiles
-  if (og && og.title && og.image) s += 15; // links shared on social show a proper preview
+  if (og && og.title && ogImageOk(og)) s += 15; // links shared on social show a proper preview
   return Math.min(100, s);
 }
 
