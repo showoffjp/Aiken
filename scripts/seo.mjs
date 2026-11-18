@@ -60,6 +60,9 @@ const SOCIAL = [
   ['Google Business Profile', /g\.page\/|business\.google\.com|maps\.app\.goo\.gl|goo\.gl\/maps|google\.com\/maps\/place|search\.google\.com\/local\/writereview/i],
   ['TripAdvisor', /tripadvisor\.com\//i],
 ];
+// Links to a website platform's or web designer's own accounts, or XML
+// namespaces that look like profile links, are not the business's profiles.
+const NOT_BUSINESS = /facebook\.com\/(2008\/fbml|wix|wixcom|wordpresscom|wordpress|squarespace|godaddy|weebly|shopify)\b|instagram\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify)\b|(twitter|x)\.com\/(wix|squarespace|wordpressdotcom|godaddy|shopify|aqmg_marketing)\b/i;
 function parsePage(html, url) {
   const head = (html.match(/<head[\s\S]*?<\/head>/i) || [''])[0];
   const bodyHtml = html.replace(/<head[\s\S]*?<\/head>/i, ' ');
@@ -170,7 +173,7 @@ async function siteReport(b, a) {
 
   // Social profiles linked from anywhere crawled.
   const social = {};
-  for (const p of ok) for (const l of p.links) for (const [name, re] of SOCIAL) if (re.test(l) && !social[name]) social[name] = l.split('?')[0];
+  for (const p of ok) for (const l of p.links) for (const [name, re] of SOCIAL) if (re.test(l) && !NOT_BUSINESS.test(l) && !social[name]) social[name] = l.split('?')[0];
 
   return {
     host, https: start.startsWith('https://'), pagesCrawled: ok.length,
@@ -201,6 +204,8 @@ async function siteReport(b, a) {
 }
 
 // Directory listings: the same business as each directory shows it.
+const SOURCE_BASE = { adda: 'https://aikendda.us/' };
+const listingUrl = (src, u) => { if (!u || /^https?:/i.test(u)) return u; if (!SOURCE_BASE[src]) return ''; try { return new URL(u.replace(/\/?$/, '/'), SOURCE_BASE[src]).href; } catch { return ''; } };
 function citations(b, sitePhones, siteHost) {
   const urls = new Set(b.sourceUrls || []);
   const nk = nameKey(b.name);
@@ -212,7 +217,9 @@ function citations(b, sitePhones, siteHost) {
     const phone = digits(hit.phone || '');
     const web = hostOf(hit.website || '');
     rows.push({
-      source: SOURCE_NAME[src] || src, url: hit.detailUrl || hit.page || '', name: hit.name || '', phone: hit.phone || '', website: hit.website || '', address: hit.address || '',
+      // A relative page name (downtown association) resolves against its site;
+      // a listing page that no longer loads is not linked.
+      source: SOURCE_NAME[src] || src, url: hit.error ? '' : listingUrl(src, hit.detailUrl || hit.page || ''), name: hit.name || '', phone: hit.phone || '', website: hit.website || '', address: hit.address || '',
       phoneMatch: !phone ? null : sitePhones.length ? sitePhones.includes(phone) : null,
       websiteMatch: !siteHost ? null : !web ? false : web === siteHost || web.endsWith(`.${siteHost}`) || siteHost.endsWith(`.${web}`),
     });
@@ -336,8 +343,11 @@ await pool(targets, 3, async (d) => {
   const siteHost = site && !site.error ? site.host : hostOf(a.finalUrl || b.website || '');
   const cites = citations(b, sitePhones, d.source.none ? '' : siteHost);
   const dirSocial = {};
-  if (row.facebook || a.facebook || d.contact?.facebook) dirSocial.Facebook = row.facebook || a.facebook || d.contact.facebook;
-  if (row.instagram || a.instagram || d.contact?.instagram) dirSocial.Instagram = row.instagram || a.instagram || d.contact.instagram;
+  // Directory fields sometimes hold a website in the Facebook box: keep only real profile links.
+  const fb = [row.facebook, a.facebook, d.contact?.facebook].find((u) => u && /facebook\.com\//i.test(u) && !NOT_BUSINESS.test(u));
+  const ig = [row.instagram, a.instagram, d.contact?.instagram].find((u) => u && /instagram\.com\//i.test(u) && !NOT_BUSINESS.test(u));
+  if (fb) dirSocial.Facebook = fb;
+  if (ig) dirSocial.Instagram = ig;
   const kw = site && !site.error ? keywordCheck(d, site.home) : [];
   const comps = competitorsFor(b, d);
   comps.forEach((c) => allCompetitors.add(c));

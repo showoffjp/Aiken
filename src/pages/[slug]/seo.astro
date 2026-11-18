@@ -184,7 +184,7 @@ const host = s ? s.host : hostOf(demo.source.url);
             <div class="sr-share">
               <span class="sr-cap"><Icon name="share-2" size={15} /> Link shared on Facebook or in a text</span>
               <div class="sr-share-card">
-                <div class="sr-share-img">{h.og.image ? <img src={h.og.image} alt="" loading="lazy" referrerpolicy="no-referrer" /> : <span>No preview image</span>}</div>
+                <div class="sr-share-img">{h.og.image ? <img src={h.og.image} alt="" width="1200" height="628" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<span>Preview image would not load</span>'" /> : <span>No preview image</span>}</div>
                 <div class="sr-share-body"><cite>{host}</cite><b>{h.og.title || h.title || host}</b><span>{h.og.description || h.description || ''}</span></div>
               </div>
             </div>
