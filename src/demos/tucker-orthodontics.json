@@ -1,0 +1,304 @@
+{
+  "name": "Tucker Orthodontics",
+  "short": "Tucker Orthodontics",
+  "category": "Orthodontist",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "established": "1967",
+  "look": "clean",
+  "fonts": {
+    "display": "outfit",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f4f8fd",
+    "surface": "#ffffff",
+    "ink": "#12233d",
+    "muted": "#4a5b73",
+    "primary": "#1f5fbf",
+    "onPrimary": "#ffffff",
+    "accent": "#14a39a",
+    "line": "#dbe5f2"
+  },
+  "radius": 18,
+  "icon": "smile",
+  "logo": {
+    "src": "/demo-assets/tucker-orthodontics/logo.png",
+    "alt": "Tucker Orthodontics",
+    "width": 769,
+    "height": 126
+  },
+  "contact": {
+    "phone": "(803) 648-3266",
+    "email": "aikenbraces@tuckerorthodontics.com",
+    "address": [
+      "1050 Seven Oaks Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Tucker Orthodontics, 1050 Seven Oaks Dr, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Wednesday",
+        "8:15 am – 5:00 pm"
+      ],
+      [
+        "Thursday",
+        "8:15 am – 4:00 pm"
+      ],
+      [
+        "Friday",
+        "8:15 am – 11:30 am"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/Tucker-Orthodontics-246684955363283/"
+  },
+  "hero": {
+    "eyebrow": "Orthodontic care in Aiken since 1967",
+    "title": "Smiles that *run in the family*",
+    "lede": "Drs. John and Perry Tucker carry on the practice their father, Dr. John W. Tucker, Sr., built. Braces and clear aligners for children, teens and adults, starting with a free consultation.",
+    "points": [
+      "Metal & clear braces",
+      "Clear aligners",
+      "Free consultation"
+    ],
+    "cta": {
+      "label": "Book a free consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 648-3266",
+      "href": "tel:+18036483266"
+    }
+  },
+  "facts": [
+    {
+      "value": "1967",
+      "label": "Caring for Aiken smiles since"
+    },
+    {
+      "value": "2",
+      "label": "Orthodontists, both Tuckers"
+    },
+    {
+      "value": "Free",
+      "label": "First consultation"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "treatments",
+      "nav": "Treatments",
+      "columns": 3,
+      "eyebrow": "For every age",
+      "title": "Braces, aligners *and more*",
+      "items": [
+        {
+          "icon": "smile",
+          "title": "Metal braces",
+          "text": "The dependable choice for children, teens and adults."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Clear braces",
+          "text": "Tooth-colored brackets that blend in with your smile."
+        },
+        {
+          "icon": "smile-plus",
+          "title": "Clear aligners",
+          "text": "Removable clear trays that straighten teeth without brackets."
+        },
+        {
+          "icon": "baby",
+          "title": "Early treatment",
+          "text": "The American Association of Orthodontists recommends a first visit around age seven."
+        },
+        {
+          "icon": "users",
+          "title": "Adults",
+          "text": "About one in five orthodontic patients is over 21. Any age is a good age to start."
+        },
+        {
+          "icon": "siren",
+          "title": "Emergency care",
+          "text": "A loose bracket or a poking wire? Call and we’ll tell you what to do."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "family",
+      "nav": "Our family",
+      "eyebrow": "Since 1967",
+      "title": "A family *tradition*",
+      "image": {
+        "src": "/demo-assets/tucker-orthodontics/team.webp",
+        "alt": "The Tucker Orthodontics doctors and team gathered in the office",
+        "width": 1600,
+        "height": 1069
+      },
+      "body": [
+        "Dr. John W. Tucker, Sr. began caring for Aiken smiles in 1967. Today his sons, Dr. John W. Tucker, Jr. and Dr. Perry S. Tucker, carry on the practice.",
+        "Dr. John Tucker has spent more than 20 years helping patients see what treatment can do for them. Dr. Perry Tucker has lived in Aiken all his life and trained at the University of South Carolina, the Medical University of South Carolina and the University of Pennsylvania."
+      ],
+      "list": [
+        "A treatment plan made for each patient",
+        "One-on-one attention",
+        "Video games, TVs and fish tanks in the waiting area"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "team",
+      "nav": "Team",
+      "columns": 4,
+      "eyebrow": "Who you’ll see",
+      "title": "Meet *the team*",
+      "items": [
+        {
+          "icon": "user",
+          "title": "Jennifer",
+          "text": "Treatment coordinator. In dentistry since 1984, and here since 2010."
+        },
+        {
+          "icon": "user",
+          "title": "Brentni",
+          "text": "Insurance coordinator since 2014: she handles claims and billing."
+        },
+        {
+          "icon": "user",
+          "title": "Katie",
+          "text": "Appointment and new-patient coordinator since 2017."
+        },
+        {
+          "icon": "user",
+          "title": "Toni",
+          "text": "Communications coordinator since 2022, writing to patients and doctors."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "first-visit",
+      "nav": "First visit",
+      "eyebrow": "Getting started",
+      "title": "Your first *visit*",
+      "items": [
+        {
+          "title": "Call or request",
+          "text": "Call (803) 648-3266, or send an appointment request below."
+        },
+        {
+          "title": "Fill out the form",
+          "text": "Print the patient information form and bring it with you."
+        },
+        {
+          "title": "Free consultation",
+          "text": "Meet the doctor and leave with a plan, and the cost, before treatment begins."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "payment",
+      "nav": "Payment",
+      "eyebrow": "Affordable care",
+      "title": "Plans that *fit your budget*",
+      "columns": [
+        {
+          "title": "Payment plans",
+          "items": [
+            "A plan built around your budget",
+            "Know the cost before treatment begins"
+          ]
+        },
+        {
+          "title": "Insurance",
+          "items": [
+            "Most major insurance plans accepted",
+            "Our office helps with claims and paperwork"
+          ]
+        },
+        {
+          "title": "Cards",
+          "items": [
+            "Most major credit cards accepted"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "When should my child first see an orthodontist?",
+          "a": "The American Association of Orthodontists recommends a first visit around age seven."
+        },
+        {
+          "q": "Am I too old for braces?",
+          "a": "No. About one in every five orthodontic patients is over 21, and any age can be a great age to start."
+        },
+        {
+          "q": "Is the first consultation free?",
+          "a": "Yes. Your first consultation is complimentary."
+        },
+        {
+          "q": "What if a bracket breaks?",
+          "a": "Call the office at (803) 648-3266 and we’ll tell you what to do next."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready for a new smile?",
+      "text": "Book your free consultation at our Seven Oaks Drive office.",
+      "cta": {
+        "label": "Call (803) 648-3266",
+        "href": "tel:+18036483266"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Seven Oaks Drive*",
+    "formTitle": "Request an appointment",
+    "formTopics": [
+      "Free consultation",
+      "Braces",
+      "Clear aligners",
+      "An emergency",
+      "Billing & insurance"
+    ]
+  },
+  "slug": "tucker-orthodontics",
+  "added": "2026-11-19",
+  "prospect": "tucker-orthodontics",
+  "source": {
+    "url": "https://www.tuckerorthodontics.com/",
+    "before": [
+      "The home page says “since1967” (missing a space), while another page says the family has cared for patients for 40 years",
+      "Typos on pages patients read: “Survery” on the Testimonials page and “paitents” in a staff bio",
+      "27 accessibility problems on the home page, most of them text too faint to read, and no page language set",
+      "No preview when the link is shared, and no business details for Google"
+    ],
+    "after": [
+      "The family story and the free consultation on the first screen",
+      "Treatments for every age in plain words",
+      "Hours, payment plans and insurance on one page",
+      "Clear labels and contrast for every visitor"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "wave",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "shadow"
+  }
+}

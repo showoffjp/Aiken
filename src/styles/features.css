@@ -320,3 +320,6 @@ dialog.lightbox::backdrop { background: transparent; }
 
 /* A small, wide hero photo keeps a landscape frame (see lowResWide), so it is never enlarged past its pixels. */
 .hero-visual.wide-frame .frame, [data-frame] .hero-visual.wide-frame .frame { aspect-ratio: 16 / 10; }
+
+/* The second phone number is a sentence-sized link; give it a full 24px tap height. */
+.tel2 { display: inline-block; padding-block: 3px; }

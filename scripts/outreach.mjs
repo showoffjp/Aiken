@@ -20,6 +20,13 @@ const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse
 const rankings = JSON.parse(await readFile(path.join(ROOT, 'data', 'rankings.json'), 'utf8').catch(() => '{}'));
 const firstScreen = JSON.parse(await readFile(path.join(ROOT, 'data', 'firstscreen.json'), 'utf8').catch(() => '{}'));
 // A phone visitor who sees no phone number at all before scrolling (no call link, no number).
+const readNote = (key) => {
+  const f = firstScreen[key]?.site;
+  if (!f || f.targets == null) return '';
+  if (f.overflow) return 'On a phone the page is wider than the screen, so it slides sideways as people try to scroll';
+  if (f.tinyText > 25) return `On a phone, ${f.tinyText}% of the text is smaller than 12 px, too small to read without zooming in`;
+  return '';
+};
 const callNote = (key) => (firstScreen[key]?.site && !firstScreen[key].site.call && !firstScreen[key].site.number ? 'On a phone, the first screen shows no phone number or call button, so a customer has to scroll or open the menu to find it' : '');
 // Not showing up for the obvious local search is the point owners feel most.
 function rankNote(key) {
@@ -80,7 +87,9 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
   const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);
   const callLine = broken || d.source.none ? '' : callNote(d.prospect || d.slug);
-  const findings = [rankLine, callLine, lhLine].filter(Boolean).length ? [...[rankLine, callLine, lhLine].filter(Boolean), d.source.before[0]].slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
+  const readLine = broken || d.source.none ? '' : readNote(d.prospect || d.slug);
+  const lead = [rankLine, callLine, readLine, lhLine].filter(Boolean);
+  const findings = lead.length ? [...lead, d.source.before[0]].slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
   if (access) findings.push(access);
   const none = !!d.source.none;

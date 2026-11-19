@@ -1,8 +1,10 @@
-// Can a customer call from the first screen? Loads each home page as an iPhone
-// sees it and records whether a tap-to-call link and the phone number itself
-// are visible before any scrolling (a number tucked inside a closed menu does
-// not count). Results merge into data/firstscreen.json:
-//   { "<slug>": { "site": { call, number, at }, "concept": { call, number, at } } }
+// Can a customer call from the first screen, and read the page on a phone?
+// Loads each home page as an iPhone sees it and records whether a tap-to-call
+// link and the phone number itself are visible before any scrolling (a number
+// tucked inside a closed menu does not count), whether the page scrolls
+// sideways, how much of its text is under 12px and how many links and buttons
+// are under 24px. Results merge into data/firstscreen.json:
+//   { "<slug>": { "site": { call, number, overflow, tinyText, targets, smallTargets, at }, "concept": {...} } }
 //
 //   node scripts/firstscreen.mjs --sites [slug ...]      current sites of businesses with a concept
 //   node scripts/firstscreen.mjs --concepts [slug ...]   built concepts (serves ./dist locally)
@@ -86,6 +88,63 @@ function firstScreen(phone) {
   return { call, number };
 }
 
+// Runs in the page: can the whole page be read and used on a phone? Measures
+// sideways scrolling, the share of visible text under 12px (the old Lighthouse
+// legibility line) and links/buttons smaller than 24px (WCAG 2.2 target size;
+// links inside a sentence don't count).
+async function readable() {
+  const pause = () => new Promise((r) => setTimeout(r, 1200));
+  await pause();
+  const W = innerWidth;
+  // A page with no mobile viewport is laid out ~980px wide and shrunk to fit
+  // the phone, so its text and buttons look smaller than their CSS sizes.
+  const scale = Math.min(1, screen.width / W);
+  const doc = document.documentElement;
+  // Wider than the screen, and a visitor can actually drag it sideways (a page
+  // whose overflow is clipped doesn't count).
+  // Checked twice, a moment apart, so a slideshow caught mid-slide doesn't count.
+  const sideways = () => {
+    if (Math.max(doc.scrollWidth, document.body?.scrollWidth || 0) <= W + 4) return false;
+    const y = scrollY;
+    scrollTo(60, y);
+    const moved = scrollX > 4;
+    scrollTo(0, y);
+    return moved;
+  };
+  let overflow = sideways();
+  if (overflow) { await pause(); overflow = sideways(); }
+  const visible = (el) => {
+    for (let e = el; e && e !== document.body; e = e.parentElement) {
+      const cs = getComputedStyle(e);
+      if (cs.display === 'none' || cs.visibility === 'hidden' || +cs.opacity === 0) return false;
+    }
+    const r = el.getBoundingClientRect();
+    return r.width > 0 && r.height > 0;
+  };
+  let chars = 0, tiny = 0;
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+    const text = n.textContent.replace(/\s+/g, '');
+    if (!text || !n.parentElement || /^(SCRIPT|STYLE|NOSCRIPT|OPTION)$/.test(n.parentElement.tagName)) continue;
+    if (!visible(n.parentElement)) continue;
+    chars += text.length;
+    if (parseFloat(getComputedStyle(n.parentElement).fontSize) * scale < 12) tiny += text.length;
+  }
+  let targets = 0, small = 0;
+  for (const el of document.querySelectorAll('a[href], button, input:not([type="hidden"]), select, [role="button"]')) {
+    if (!visible(el)) continue;
+    const r = el.getBoundingClientRect();
+    if (r.bottom < 0 || r.right < 0 || r.left > W) continue;
+    targets++;
+    if (r.width * scale >= 24 && r.height * scale >= 24) continue;
+    // A link inside running text is exempt (WCAG's inline exception).
+    const block = el.closest('p, li, td, dd, blockquote') || (getComputedStyle(el).display === 'inline' ? el.parentElement : null);
+    if (el.tagName === 'A' && block && block.textContent.trim().length > el.textContent.trim().length + 20) continue;
+    small++;
+  }
+  return { overflow, tinyText: chars ? Math.round((tiny / chars) * 100) : 0, targets, smallTargets: small };
+}
+
 const browser = await chromium.launch();
 const at = new Date().toISOString().slice(0, 10);
 let done = 0;
@@ -99,9 +158,9 @@ const work = async () => {
     try {
       await page.goto(t.url, { waitUntil: 'load', timeout: 45000 });
       await page.waitForTimeout(2500);
-      const r = await page.evaluate(firstScreen, t.phone);
+      const r = { ...(await page.evaluate(firstScreen, t.phone)), ...(await page.evaluate(readable)) };
       (results[t.key] ||= {})[mode] = { ...r, at };
-      console.log(`  ${++done}/${targets.length} ${t.key}: call ${r.call ? 'yes' : 'NO'}, number ${r.number ? 'yes' : 'no'}`);
+      console.log(`  ${++done}/${targets.length} ${t.key}: call ${r.call ? 'yes' : 'NO'}, number ${r.number ? 'yes' : 'no'}, sideways ${r.overflow ? 'YES' : 'no'}, tiny text ${r.tinyText}%, small targets ${r.smallTargets}/${r.targets}`);
     } catch (e) {
       console.log(`  ${++done}/${targets.length} ${t.key}: error ${e.message.split('\n')[0].slice(0, 80)}`);
     }
@@ -115,3 +174,5 @@ const sorted = Object.fromEntries(Object.keys(results).sort().map((k) => [k, res
 await writeFile(OUT, JSON.stringify(sorted, null, 1) + '\n');
 const rows = Object.values(results).map((r) => r[mode]).filter(Boolean);
 console.log(`${mode}: ${rows.length} checked; tap-to-call on the first screen: ${rows.filter((r) => r.call).length}, number shown: ${rows.filter((r) => r.number).length}`);
+const measured = rows.filter((r) => r.targets != null);
+console.log(`  sideways scrolling: ${measured.filter((r) => r.overflow).length}, over 25% tiny text: ${measured.filter((r) => r.tinyText > 25).length}, over 10% small targets: ${measured.filter((r) => r.targets && r.smallTargets / r.targets > 0.1).length} (of ${measured.length})`);

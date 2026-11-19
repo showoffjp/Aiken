@@ -1,0 +1,384 @@
+{
+  "name": "Gaston Livery Stable",
+  "short": "Gaston Livery",
+  "category": "Historic Barn & Event Venue",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f6efe4",
+    "surface": "#fffaf3",
+    "ink": "#2b1b14",
+    "muted": "#6a5244",
+    "primary": "#8c3a22",
+    "onPrimary": "#ffffff",
+    "accent": "#3d6b45",
+    "line": "#e5d6c3"
+  },
+  "radius": 6,
+  "icon": "warehouse",
+  "contact": {
+    "phone": "(803) 648-4123",
+    "email": "aiken33back@aol.com",
+    "address": [
+      "1315 Richland Avenue East",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Gaston Livery Stable, 1315 Richland Ave E, Aiken, SC 29801",
+    "hours": [
+      [
+        "Guided tours",
+        "1st & 3rd Saturdays · 10 am – 1 pm"
+      ],
+      [
+        "Other visits",
+        "By appointment"
+      ]
+    ],
+    "hoursNote": "Call Coleen at (803) 648-4123 to set up a tour or to see the event rooms."
+  },
+  "hero": {
+    "eyebrow": "On the National Register of Historic Places",
+    "title": "Aiken’s horse-and-carriage days, *still standing*",
+    "lede": "A 10,000-square-foot brick livery barn, saved by volunteers and open for guided tours, market days, music and your next event.",
+    "points": [
+      "Guided tours",
+      "Event rentals",
+      "Market days & music"
+    ],
+    "cta": {
+      "label": "Plan a visit",
+      "href": "#things"
+    },
+    "cta2": {
+      "label": "Call (803) 648-4123",
+      "href": "tel:+18036484123"
+    },
+    "image": {
+      "src": "/demo-assets/gaston-livery-stable/event-room.webp",
+      "alt": "The event room inside the barn: brick walls, heavy wooden beams and a restored horse-drawn wagon",
+      "width": 2400,
+      "height": 1353
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/gaston-livery-stable/event-room.webp"
+  },
+  "facts": [
+    {
+      "value": "c. 1893",
+      "label": "The first barn is built"
+    },
+    {
+      "value": "10,000 sq ft",
+      "label": "All brick, U-shaped"
+    },
+    {
+      "value": "28,500+",
+      "label": "Volunteer hours to save it"
+    }
+  ],
+  "sections": [
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "History",
+      "eyebrow": "A working livery until 1932",
+      "title": "From livery stable *to landmark*",
+      "image": {
+        "src": "/demo-assets/gaston-livery-stable/barn.webp",
+        "alt": "The long brick barn with its new red roof, seen across a green field",
+        "width": 1024,
+        "height": 485
+      },
+      "body": [
+        "The first barn here was built of wood around 1893. It burned to the ground in 1909 and was rebuilt in brick, then repaired after more fires in 1911 and 1915, leaving the building that stands today.",
+        "D.W. Gaston, Sr. acquired the property in 1909 and ran a full-service livery with his son, D.W. Gaston, Jr., until 1932. They rented and boarded horses and kept horse-drawn vehicles in repair for year-round Aiken residents and the Winter Colony.",
+        "Inside is the original carriage lift, still in working order, that moved carriages and equipment up to the second floor. It is the only operational lift of its kind in the country that the Friends know of."
+      ],
+      "list": [
+        "City of Aiken historic landmark, 2012",
+        "National Register of Historic Places, 2020",
+        "State historical marker, 2021"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "things",
+      "nav": "Visit",
+      "columns": 3,
+      "eyebrow": "Tours, markets and music",
+      "title": "Come see *the barn*",
+      "items": [
+        {
+          "icon": "landmark",
+          "title": "Guided tours",
+          "text": "Docent-led tours on the first and third Saturdays of each month, 10 am to 1 pm, and by appointment."
+        },
+        {
+          "icon": "arrow-up-from-line",
+          "title": "The carriage lift",
+          "text": "The original, working lift that raised carriages to the second floor: Victorian ingenuity and simple mechanics."
+        },
+        {
+          "icon": "shopping-basket",
+          "title": "Gaston Market Days",
+          "text": "Market days in the brick barn aisle and out on the lawn."
+        },
+        {
+          "icon": "music",
+          "title": "Gaston Unplugged",
+          "text": "Live music events under the old beams."
+        },
+        {
+          "icon": "school",
+          "title": "Learning & living history",
+          "text": "An educational facility and living history venue for schools and groups."
+        },
+        {
+          "icon": "gift",
+          "title": "Books & ornaments",
+          "text": "Aiken County Jeopardy books and the Gaston ornament, sold at Howell Printing. Every dollar goes to the mortgage."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Life at the barn",
+      "title": "Markets, music *and milestones*",
+      "images": [
+        {
+          "src": "/demo-assets/gaston-livery-stable/market-aisle.webp",
+          "alt": "Vendors’ tables lining the brick barn aisle under string lights on a market day",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/event-tables.webp",
+          "alt": "Round tables with green cloths set for an event in a whitewashed brick room",
+          "width": 801,
+          "height": 835
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/tent-evening.webp",
+          "alt": "Guests under a lit white tent beside the barn on a summer evening",
+          "width": 795,
+          "height": 559
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/musician.webp",
+          "alt": "A musician with an acoustic guitar performing in the barn’s brick-paved aisle",
+          "width": 1067,
+          "height": 1601
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/market-day.webp",
+          "alt": "Handmade wooden benches and tables for sale on the lawn at a market day",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/party.webp",
+          "alt": "Balloon palm trees and a decorated table set up for a party in the barn",
+          "width": 710,
+          "height": 837
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/concert.webp",
+          "alt": "A full house seated for a concert inside the barn",
+          "width": 593,
+          "height": 395
+        },
+        {
+          "src": "/demo-assets/gaston-livery-stable/marker.webp",
+          "alt": "The South Carolina historical marker for the Gaston Livery Stable",
+          "width": 1000,
+          "height": 854
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "rentals",
+      "nav": "Rentals",
+      "eyebrow": "Host your event",
+      "title": "Rent *the barn*",
+      "intro": "The event room is 1,300 square feet, seating 80 at tables or 120 standing, and there is a conference room for meetings. Call to see the rooms; reservations are made in person at the barn, and requests with less than 30 days’ notice are up to the board.",
+      "groups": [
+        {
+          "title": "Event rental",
+          "note": "Hours include setup and cleanup",
+          "items": [
+            {
+              "name": "Full day",
+              "price": "$650",
+              "desc": "Up to 12 hours"
+            },
+            {
+              "name": "Half day",
+              "price": "$350"
+            },
+            {
+              "name": "Two days in a row",
+              "price": "$1,250",
+              "desc": "$500 for each day after, up to five"
+            },
+            {
+              "name": "Nonprofit rate",
+              "price": "$500",
+              "desc": "12 hours, for 501(c)(3) organizations"
+            }
+          ]
+        },
+        {
+          "title": "Clubs & civic groups",
+          "note": "Conference room",
+          "items": [
+            {
+              "name": "Weekly or monthly meetings",
+              "price": "No charge",
+              "desc": "An annual donation to the Friends is appreciated"
+            }
+          ]
+        },
+        {
+          "title": "Deposit",
+          "items": [
+            {
+              "name": "Security deposit",
+              "price": "$350",
+              "desc": "Refunded after the room is checked"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the Friends’ rental agreement. Renters carry event insurance, and the full agreement is signed at booking."
+    },
+    {
+      "type": "columns",
+      "id": "good-to-know",
+      "eyebrow": "Before you book",
+      "title": "Good *to know*",
+      "columns": [
+        {
+          "title": "The building",
+          "items": [
+            "A real barn: the floors are uneven throughout",
+            "Downstairs rooms only; the second floor is off limits",
+            "One restroom, next to the conference room"
+          ]
+        },
+        {
+          "title": "Food & drink",
+          "items": [
+            "No kitchen: food arrives ready to serve",
+            "Caterers should hold a City of Aiken business license",
+            "Selling alcohol needs a state license"
+          ]
+        },
+        {
+          "title": "Booking",
+          "items": [
+            "$350 deposit when you book",
+            "The balance is due two weeks before",
+            "Cancel in writing at least 30 days ahead"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "support",
+      "nav": "Support",
+      "eyebrow": "Friends of the Gaston Livery Stable",
+      "title": "Saved by *the community*",
+      "body": [
+        "The Friends of the Gaston Livery Stable formed in 2011, a 501(c)(3) set up to buy, protect and restore the barn. They bought the property that December.",
+        "Since then volunteers have given more than 28,500 hours, including four groups of officers from the 442nd Signal Battalion leadership course at Fort Gordon, alongside gifts of money, goods and services from all over Aiken."
+      ],
+      "list": [
+        "Become a member of the Friends",
+        "Donate toward the mortgage",
+        "Volunteer as a tour docent"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before *you come*",
+      "items": [
+        {
+          "q": "When can I tour the barn?",
+          "a": "Guided tours run on the first and third Saturdays of each month from 10 am to 1 pm. For another day, call (803) 648-4123 to set up a tour."
+        },
+        {
+          "q": "How many guests fit?",
+          "a": "The event room seats 80 at tables and chairs, or 120 standing."
+        },
+        {
+          "q": "Can we bring our own caterer?",
+          "a": "Yes, and you’ll need one: the barn has no kitchen, so food is prepared before it arrives."
+        },
+        {
+          "q": "How can I help?",
+          "a": "Join the Friends (mail the membership form to PO Box 5357, Aiken, SC 29804), donate, or buy a book or ornament at Howell Printing on Barnwell Avenue. Proceeds go toward the mortgage."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See the barn for yourself",
+      "text": "Guided tours on the first and third Saturdays, 10 am to 1 pm, or call to set up a visit.",
+      "cta": {
+        "label": "Call (803) 648-4123",
+        "href": "tel:+18036484123"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue East*",
+    "formTitle": "Ask about a tour or a rental",
+    "formTopics": [
+      "A tour",
+      "Event rental",
+      "Meeting space",
+      "Membership",
+      "Donating"
+    ]
+  },
+  "slug": "gaston-livery-stable",
+  "added": "2026-11-19",
+  "prospect": "gaston-livery-stable",
+  "source": {
+    "url": "https://gastonliverystable.org/",
+    "before": [
+      "Rental prices and rules are only in a 14-page PDF; the site itself never says what a rental costs",
+      "Tour days are listed only on the Contact page, not on the home page",
+      "On a phone the main image takes about 12 seconds to appear, and the page jumps as it loads (Google Lighthouse speed score: 37 out of 100)",
+      "The page title is the name twice (“Gaston Livery Stable – Gaston Livery Stable”), with no description for Google results and no preview for shared links"
+    ],
+    "after": [
+      "Tour days and the carriage lift on the first screens",
+      "Rental prices, room sizes and rules on the page instead of in a 14-page PDF",
+      "The barn’s story in a few short paragraphs",
+      "One tap to call or get directions"
+    ]
+  },
+  "style": {
+    "services": "list",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "underline"
+  }
+}

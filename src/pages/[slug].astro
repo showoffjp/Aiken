@@ -244,7 +244,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                 <div class="row"><Icon name="phone" size={22} /><div>
                   <h3>{contact.phoneLabel || 'Call'}</h3>
                   <a class="big" href={telHref(contact.phone)} data-call>{contact.phone}</a>
-                  {contact.phone2 && <p style="margin-top:6px">{contact.phone2Label || 'Also'}: <a href={telHref(contact.phone2)}>{contact.phone2}</a></p>}
+                  {contact.phone2 && <p style="margin-top:6px">{contact.phone2Label || 'Also'}: <a class="tel2" href={telHref(contact.phone2)}>{contact.phone2}</a></p>}
                 </div></div>
               )}
               {contact.email && (
@@ -321,7 +321,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         <div class="top">
           <div>
             <div class="word"><span class="foot-mark"><Icon name={demo.icon} size={20} /><span class="glint"></span></span>{demo.name}</div>
-            <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<=[.!?])\s/)[0]}</p>
+            <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<!\b(?:Dr|Drs|Mr|Mrs|Ms|St|Jr|Sr|Mt|No|vs)\.)(?<=[.!?])\s/)[0]}</p>
           </div>
           <div>
             <h4>Explore</h4>
@@ -379,6 +379,10 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       </p>
     </dialog>
 
+    <script is:inline define:vars={{ swUrl: `/${demo.slug}/sw.js` }}>
+      // Keep an offline copy of this page once it has loaded (see sw.js).
+      if ('serviceWorker' in navigator) addEventListener('load', () => setTimeout(() => navigator.serviceWorker.register(swUrl).catch(() => {}), 1500));
+    </script>
     <script is:inline>
       (() => {
         const root = document.documentElement;

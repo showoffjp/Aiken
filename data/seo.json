@@ -23898,5 +23898,1140 @@
     "domainYears": 29
    }
   ]
+ },
+ "gaston-livery-stable": {
+  "slug": "gaston-livery-stable",
+  "name": "Gaston Livery Stable",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "gastonliverystable.org",
+   "https": true,
+   "pagesCrawled": 13,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://gastonliverystable.org/",
+    "title": "Gaston Livery Stable - Gaston Livery Stable",
+    "description": "",
+    "canonical": "https://gastonliverystable.org/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home",
+     "About Gaston Livery Stable"
+    ],
+    "h1Count": 2,
+    "h2": 0,
+    "h3": 0,
+    "words": 501,
+    "images": 12,
+    "imagesNoAlt": 10,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://gastonliverystable.org/wp-sitemap.xml",
+    "pages": 26
+   },
+   "crawl": {
+    "pages": 13,
+    "missingTitle": 0,
+    "missingDescription": 13,
+    "missingH1": 9,
+    "multipleH1": 1,
+    "thin": 11,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 159,
+    "images": 163,
+    "sample": [
+     {
+      "url": "https://gastonliverystable.org/",
+      "title": "Gaston Livery Stable - Gaston Livery Stable",
+      "description": 0,
+      "h1": 2,
+      "words": 501
+     },
+     {
+      "url": "https://gastonliverystable.org/our-barn/",
+      "title": "Our Progress - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 72
+     },
+     {
+      "url": "https://gastonliverystable.org/photo-gallery/",
+      "title": "Photo Gallery - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 72
+     },
+     {
+      "url": "https://gastonliverystable.org/raise-the-roof-fundraising-event/",
+      "title": "Raise the Roof Fundraising Event - Gaston Livery Stable",
+      "description": 0,
+      "h1": 1,
+      "words": 226
+     },
+     {
+      "url": "https://gastonliverystable.org/stable-supporters/",
+      "title": "Stable Supporters - Gaston Livery Stable",
+      "description": 0,
+      "h1": 1,
+      "words": 598
+     },
+     {
+      "url": "https://gastonliverystable.org/goals/",
+      "title": "Goals - Gaston Livery Stable",
+      "description": 0,
+      "h1": 1,
+      "words": 147
+     },
+     {
+      "url": "https://gastonliverystable.org/docent-handbook/",
+      "title": "Docent Handbook - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 74
+     },
+     {
+      "url": "https://gastonliverystable.org/membership/",
+      "title": "Membership - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 101
+     },
+     {
+      "url": "https://gastonliverystable.org/rental-agreement/",
+      "title": "Rental Agreement - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 75
+     },
+     {
+      "url": "https://gastonliverystable.org/video/",
+      "title": "Video - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 72
+     },
+     {
+      "url": "https://gastonliverystable.org/event-photos/",
+      "title": "Event Photos - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 72
+     },
+     {
+      "url": "https://gastonliverystable.org/christmas-at-the-barn/",
+      "title": "Christmas at the Barn - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 72
+     },
+     {
+      "url": "https://gastonliverystable.org/contact/",
+      "title": "Contact - Gaston Livery Stable",
+      "description": 0,
+      "h1": 0,
+      "words": 177
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 50,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Historic Barn",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/gaston-livery-stable/",
+    "name": "Gaston Livery Stable",
+    "phone": "803-648-4123",
+    "website": "https://gastonliverystable.org/",
+    "address": "1315 Richland Ave E, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "gastonliverystable.org",
+   "created": "2018-03-13",
+   "expires": "2027-03-13",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 8
+  },
+  "performance": {
+   "performance": 37,
+   "accessibility": 91,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2820,
+   "lcp": 12454,
+   "tbt": 355,
+   "si": 3942,
+   "cls": 0.662,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "historic-aiken-trolley-tours",
+   "rebel-ranch-horse-tours-llc",
+   "tailored-tours-of-aiken"
+  ],
+  "scores": {
+   "seo": 58,
+   "social": 0,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "historic-aiken-trolley-tours",
+    "name": "Historic Aiken Trolley Tours",
+    "website": "https://cityofaikensc.recdesk.com/Community/Page?pageId=36927",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 41,
+    "pageMB": 2.9,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "rebel-ranch-horse-tours-llc",
+    "name": "Rebel Ranch Horse Tours, LLC",
+    "website": "https://www.rebelranchhorsetours.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.5,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "tailored-tours-of-aiken",
+    "name": "Tailored Tours of Aiken",
+    "website": "https://tailoredtoursofaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 83,
+    "pageMB": 0,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 13
+   }
+  ]
+ },
+ "wayne-heath-automotive-company": {
+  "slug": "wayne-heath-automotive",
+  "name": "Wayne Heath Automotive Company",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "wayneheathautomotive.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.wayneheathautomotive.com/",
+    "title": "Wayne Heath Automotive Company | Aiken's Hometown Dealer! One Day Only Pricing (August 1st)",
+    "description": "Wayne Heath Automotive Company is your",
+    "canonical": "https://www.wayneheathautomotive.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": false,
+    "favicon": false,
+    "og": {
+     "title": "Wayne Heath Automotive Company | Aiken's Hometown Dealer! One Day Only Pricing (August 1st)",
+     "description": "Wayne Heath Automotive Company is your",
+     "image": "https://www.wayneheathautomotive.com/images/wayne-heath-logo.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Aiken's Hometown Dealer!",
+     "Wayne Heath Automotive Company!"
+    ],
+    "h1Count": 2,
+    "h2": 3,
+    "h3": 1,
+    "words": 473,
+    "images": 39,
+    "imagesNoAlt": 10,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 6,
+    "missingH1": 3,
+    "multipleH1": 4,
+    "thin": 7,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 0,
+    "imagesNoAlt": 245,
+    "images": 357,
+    "sample": [
+     {
+      "url": "https://www.wayneheathautomotive.com/",
+      "title": "Wayne Heath Automotive Company | Aiken's Hometown Dealer! One Day Only Pricing (August 1st)",
+      "description": 38,
+      "h1": 2,
+      "words": 473
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/locate.aspx",
+      "title": "Get Directions to Wayne Heath Automotive Company in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 207
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/contact.aspx",
+      "title": "Contact Wayne Heath Automotive Company: Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 239
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/inventory/used-cars-aiken-sc",
+      "title": "Used Cars in Aiken SC",
+      "description": 131,
+      "h1": 0,
+      "words": 1651
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/inventory/used-cars-aiken-sc?p1=5&p2=5000",
+      "title": "Used cars for sale under $5,000 in Aiken SC",
+      "description": 93,
+      "h1": 0,
+      "words": 415
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/inventory/used-cars-aiken-sc?p1=5&p2=10000",
+      "title": "Used cars for sale under $10,000 in Aiken SC",
+      "description": 95,
+      "h1": 0,
+      "words": 730
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/finance/used-car-financing-aiken",
+      "title": "Used Car Financing in West Aiken, SC",
+      "description": 176,
+      "h1": 2,
+      "words": 181
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/sell.aspx",
+      "title": "Sell Us Your Car: We Buy Cars at Wayne Heath Automotive Company",
+      "description": 0,
+      "h1": 1,
+      "words": 184
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/request.aspx",
+      "title": "Help Find a Car - Wayne Heath Automotive Company",
+      "description": 0,
+      "h1": 1,
+      "words": 196
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/Sell.aspx",
+      "title": "Sell Us Your Car: We Buy Cars at Wayne Heath Automotive Company",
+      "description": 0,
+      "h1": 1,
+      "words": 184
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/1/trade-your-vehicle",
+      "title": "Trade in Your Vehicle",
+      "description": 0,
+      "h1": 1,
+      "words": 201
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/1832_V20261116131645/Aiken/2017-Lexus-ES-350-Sedan-for-sale",
+      "title": "2017 Lexus ES 350 Sedan for sale in Aiken",
+      "description": 135,
+      "h1": 1,
+      "words": 599
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/1832_V20261112142650/Aiken/2007-Toyota-Highlander-Limited-V6-2WD-for-sale",
+      "title": "2007 Toyota Highlander Limited V6 2WD for sale in Aiken",
+      "description": 103,
+      "h1": 1,
+      "words": 622
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/1832_V20261106152920/Aiken/2016-Ford-Transit-250-Van-Low-Roof-60-40-Pass-130-in--WB-for-sale",
+      "title": "2016 Ford Transit 250 Van Low Roof 60/40 Pass.130-in. WB for sale in Aiken",
+      "description": 95,
+      "h1": 1,
+      "words": 554
+     },
+     {
+      "url": "https://www.wayneheathautomotive.com/1832_V20261106112914/Aiken/2003-Ford-F-250-SD-XLT-Crew-Cab-4WD-for-sale",
+      "title": "2003 Ford F-250 SD XLT Crew Cab 4WD for sale in Aiken",
+      "description": 118,
+      "h1": 1,
+      "words": 582
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/WayneHeathAuto",
+    "X (Twitter)": "https://www.carfax.com/vehiclehistory/ar20/KtIOmP7ZOm3igMZFcBAzfOafRsd-xaX9MVadY_pOhdlDmDwFo1_lhO0ihfzC_Mk4WXemgkRTIaeW--EYCnZ178zMRjpn5gFbPPs"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Pre-Owned Car Dealer",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 10
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1055&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=d24fb5a711e7ccf834c00df7f9189411",
+    "name": "Wayne Heath Automotive Company",
+    "phone": "(803) 641-0096",
+    "website": "http://www.wayneheathautomotive.com",
+    "address": "3900 Richland Avenue, W, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/WayneHeathAuto",
+    "X (Twitter)": "https://www.carfax.com/vehiclehistory/ar20/KtIOmP7ZOm3igMZFcBAzfOafRsd-xaX9MVadY_pOhdlDmDwFo1_lhO0ihfzC_Mk4WXemgkRTIaeW--EYCnZ178zMRjpn5gFbPPs"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/WayneHeathAuto"
+   }
+  },
+  "domain": {
+   "name": "wayneheathautomotive.com",
+   "created": "2015-04-24",
+   "expires": "2027-04-24",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 11
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "phillip-hawkins-motor-co",
+   "automotive-workbench",
+   "big-chris-collision",
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "c-and-c-automotive"
+  ],
+  "scores": {
+   "seo": 35,
+   "social": 60,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "phillip-hawkins-motor-co",
+    "name": "Phillip Hawkins Motor Co.",
+    "website": "https://www.hawkinsmc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.7,
+    "a11ySerious": 25,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 16
+   },
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "big-chris-collision",
+    "name": "Big Chris Collision",
+    "website": "https://bigchriscollision.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 68,
+    "pageMB": 2.2,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 9
+   },
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   }
+  ]
+ },
+ "allstar-tents-and-events": {
+  "slug": "allstar-tents",
+  "name": "AllStar Tents & Events",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "allstartentsandevents.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://allstartentsandevents.com/",
+    "title": "AllStar Tents and Events | Let's Get the Party Started",
+    "description": "",
+    "canonical": "https://allstartentsandevents.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 3,
+    "h3": 3,
+    "words": 419,
+    "images": 12,
+    "imagesNoAlt": 12,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://allstartentsandevents.com/wp-sitemap.xml",
+    "pages": 315
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 1,
+    "multipleH1": 1,
+    "thin": 11,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 56,
+    "images": 189,
+    "sample": [
+     {
+      "url": "https://allstartentsandevents.com/",
+      "title": "AllStar Tents and Events | Let's Get the Party Started",
+      "description": 0,
+      "h1": 0,
+      "words": 419
+     },
+     {
+      "url": "https://allstartentsandevents.com/about-us/",
+      "title": "About Us | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 323
+     },
+     {
+      "url": "https://allstartentsandevents.com/weddings-private-events/",
+      "title": "Weddings & Private Events | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 242
+     },
+     {
+      "url": "https://allstartentsandevents.com/corporate-hospitality/",
+      "title": "Corporate Hospitality | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 241
+     },
+     {
+      "url": "https://allstartentsandevents.com/festival-concert-staging/",
+      "title": "Festival & Concert Staging | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 219
+     },
+     {
+      "url": "https://allstartentsandevents.com/products/",
+      "title": "Products | AllStar Tents and Events",
+      "description": 0,
+      "h1": 2,
+      "words": 227
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/catering-equipment/",
+      "title": "Catering Equipment | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 253
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/china/",
+      "title": "China | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 223
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/chairs/",
+      "title": "Chairs | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 233
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/bars/",
+      "title": "Bars | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 231
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/flatware/",
+      "title": "Flatware | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 220
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/glassware/",
+      "title": "Glassware | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 295
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/hvac/",
+      "title": "HVAC | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 212
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/kwick-covers/",
+      "title": "Kwik-Covers | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 210
+     },
+     {
+      "url": "https://allstartentsandevents.com/product-category/linen/",
+      "title": "Linen | Product categories | AllStar Tents and Events",
+      "description": 0,
+      "h1": 1,
+      "words": 217
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://www.allstartentsandevents.com/product-category/china-and-glassware",
+      "status": 404,
+      "from": "https://allstartentsandevents.com/products"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Tent",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 11
+   },
+   {
+    "term": "Graniteville",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=169&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=2cf2992a188d33acfd8757da04831eb9",
+    "name": "AllStar Tents & Events",
+    "phone": "(803) 649-5402",
+    "website": "http://www.allstartentsandevents.com",
+    "address": "176 Bettis Academy Road, Graniteville, SC 29829",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "allstartentsandevents.com",
+   "created": "2010-07-14",
+   "expires": "2027-07-14",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 16
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 52,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "tucker-orthodontics": {
+  "slug": "tucker-orthodontics",
+  "name": "Tucker Orthodontics",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "tuckerorthodontics.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.tuckerorthodontics.com/",
+    "title": "Tucker Orthodontics | Orthodontist Aiken SC",
+    "description": "Tucker Orthodontics provides quality orthodontic care to patients in Aiken, SC. Call today to schedule your appointment!",
+    "canonical": "",
+    "noindex": false,
+    "lang": "",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Welcome to Tucker Orthodontics"
+    ],
+    "h1Count": 1,
+    "h2": 1,
+    "h3": 0,
+    "words": 298,
+    "images": 4,
+    "imagesNoAlt": 1,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://www.tuckerorthodontics.com/sitemap.xml",
+    "pages": 29
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 10,
+    "imagesNoAlt": 25,
+    "images": 77,
+    "sample": [
+     {
+      "url": "https://www.tuckerorthodontics.com/",
+      "title": "Tucker Orthodontics | Orthodontist Aiken SC",
+      "description": 120,
+      "h1": 1,
+      "words": 298
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/aiken-office",
+      "title": "Tucker Orthodontics | Aiken SC Orthodontist",
+      "description": 121,
+      "h1": 1,
+      "words": 195
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/",
+      "title": "Tucker Orthodontics | Orthodontist Aiken SC",
+      "description": 120,
+      "h1": 1,
+      "words": 298
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/meet-dr-john-tucker",
+      "title": "John W. Tucker, Jr., DMD | Aiken SC Orthodontist",
+      "description": 126,
+      "h1": 1,
+      "words": 713
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/meet-dr-perry-tucker",
+      "title": "Perry S. Tucker, DMD | Aiken SC Orthodontist",
+      "description": 147,
+      "h1": 1,
+      "words": 415
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/meet-the-team",
+      "title": "Meet the Team - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 13,
+      "words": 1541
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/what-sets-us-apart",
+      "title": "What Sets Us Apart - Tucker Orthodontics | Aiken SC",
+      "description": 146,
+      "h1": 1,
+      "words": 412
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/financial-information",
+      "title": "Financial Information - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 308
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/patient-forms",
+      "title": "Patient Forms - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 204
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/testimonials",
+      "title": "Testimonials - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 188
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/office-tour",
+      "title": "Office Tour - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 141
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/life-with-braces",
+      "title": "Life with Braces - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 712
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/brushing-and-flossing",
+      "title": "Brushing and Flossing - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 504
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/types-of-braces",
+      "title": "Types of Braces - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 354
+     },
+     {
+      "url": "https://www.tuckerorthodontics.com/types-of-appliances",
+      "title": "Types of Appliances - Tucker Orthodontics | Aiken SC",
+      "description": 121,
+      "h1": 1,
+      "words": 415
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 33,
+    "broken": [
+     {
+      "url": "https://www.tuckerorthodontics.com/blog",
+      "status": 404,
+      "from": "https://www.tuckerorthodontics.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Tucker-Orthodontics-246684955363283/",
+    "Google Business Profile": "https://www.google.com/maps/place/Tucker+Orthodontics/@33.511645,-81.7412027,17z/data=!3m1!4b1!4m2!3m1!1s0x88f9b328e8188a45:0xf6414dcb9057322c"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Orthodontist",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1026&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=03d4d4c9de2136018a85d2b76edb8e1f",
+    "name": "Tucker Orthodontics",
+    "phone": "(803) 648-3266",
+    "website": "http://www.tuckerorthodontics.com",
+    "address": "1050 Seven Oaks Drive, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Tucker-Orthodontics-246684955363283/",
+    "Google Business Profile": "https://www.google.com/maps/place/Tucker+Orthodontics/@33.511645,-81.7412027,17z/data=!3m1!4b1!4m2!3m1!1s0x88f9b328e8188a45:0xf6414dcb9057322c"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/Tucker-Orthodontics-246684955363283/"
+   }
+  },
+  "domain": {
+   "name": "tuckerorthodontics.com",
+   "created": "2008-04-21",
+   "expires": "2027-04-21",
+   "registrar": "eNom, LLC",
+   "years": 18
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 67,
+   "social": 50,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }

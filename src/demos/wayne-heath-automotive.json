@@ -1,0 +1,315 @@
+{
+  "name": "Wayne Heath Automotive Company",
+  "short": "Wayne Heath Auto",
+  "category": "Pre-Owned Car Dealer",
+  "group": "Auto & Equipment",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f7f6f4",
+    "surface": "#ffffff",
+    "ink": "#1b1d24",
+    "muted": "#555b66",
+    "primary": "#c4161c",
+    "onPrimary": "#ffffff",
+    "accent": "#e8b400",
+    "line": "#e3e1dc"
+  },
+  "radius": 4,
+  "icon": "car-front",
+  "contact": {
+    "phone": "(803) 641-0096",
+    "phone2": "(803) 295-7540",
+    "phone2Label": "After hours",
+    "email": "wayneheathautomotive@aol.com",
+    "address": [
+      "3900 Richland Avenue West",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Wayne Heath Automotive Company, 3900 Richland Ave W, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 5:30 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/WayneHeathAuto"
+  },
+  "hero": {
+    "eyebrow": "Aiken’s hometown dealer",
+    "title": "Local cars for *local drivers*",
+    "lede": "Family owned for more than 41 years. The cars on our lot were locally owned, never bought at auction, and every one comes with a CARFAX report.",
+    "points": [
+      "Buy",
+      "Sell",
+      "Trade"
+    ],
+    "cta": {
+      "label": "See the lot",
+      "href": "#lot"
+    },
+    "cta2": {
+      "label": "Call (803) 641-0096",
+      "href": "tel:+18036410096"
+    },
+    "image": {
+      "src": "/demo-assets/wayne-heath-automotive/lot-sign.webp",
+      "alt": "A blue Jaguar convertible on the lot below the tall red Wayne Heath Automotive Co. sign",
+      "width": 1024,
+      "height": 768
+    }
+  },
+  "facts": [
+    {
+      "value": "41+ years",
+      "label": "Family owned and operated"
+    },
+    {
+      "value": "2020–24",
+      "label": "Aiken’s Choice, Best of Aiken"
+    },
+    {
+      "value": "CARFAX",
+      "label": "On every car we sell"
+    }
+  ],
+  "sections": [
+    {
+      "type": "gallery",
+      "id": "lot",
+      "nav": "On the lot",
+      "eyebrow": "Recently on the lot",
+      "title": "Trucks, SUVs *and a few classics*",
+      "intro": "A sample from the dealer’s listings in November 2026. The lot changes every week, so call to ask what’s here today.",
+      "images": [
+        {
+          "src": "/demo-assets/wayne-heath-automotive/cyclone.webp",
+          "alt": "A white 1969 Mercury Cyclone coupe with red stripes under the dealership canopy",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/jeep.webp",
+          "alt": "A blue 2018 Jeep Wrangler Unlimited Sport on oversized off-road tires",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/porsche.webp",
+          "alt": "A black 2007 Porsche Boxster with the top down",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/escalade.webp",
+          "alt": "A silver 2019 Cadillac Escalade Platinum",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/alfa-spider.webp",
+          "alt": "A black 1981 Alfa Romeo Spider Veloce with a tan convertible top",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/f250.webp",
+          "alt": "A silver 2017 Ford F-250 Super Duty XLT pickup",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/camaro.webp",
+          "alt": "A red 2011 Chevrolet Camaro coupe",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/lexus.webp",
+          "alt": "A white 2017 Lexus ES 350 sedan",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/durango.webp",
+          "alt": "A dark red 2016 Dodge Durango Limited",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wayne-heath-automotive/acadia.webp",
+          "alt": "A dark gray 2020 GMC Acadia SLT",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "buy-sell-trade",
+      "nav": "Buy, sell, trade",
+      "columns": 3,
+      "eyebrow": "How we help",
+      "title": "Buy, sell *or trade*",
+      "items": [
+        {
+          "icon": "car",
+          "title": "Buy",
+          "text": "Quality pre-owned cars, trucks and SUVs, all locally owned. No auction cars here."
+        },
+        {
+          "icon": "hand-coins",
+          "title": "Sell your car",
+          "text": "Bring it by for an offer, even if you aren’t buying today."
+        },
+        {
+          "icon": "refresh-cw",
+          "title": "Trade",
+          "text": "Put your current car toward the next one."
+        },
+        {
+          "icon": "badge-dollar-sign",
+          "title": "Financing",
+          "text": "Finance options, and a credit application you can start before you visit."
+        },
+        {
+          "icon": "search-check",
+          "title": "Car finder",
+          "text": "Tell us what you’re after and we’ll keep an eye out for it."
+        },
+        {
+          "icon": "shield-check",
+          "title": "CARFAX & warranties",
+          "text": "A CARFAX report on every car, and many come with a warranty."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Family owned",
+      "title": "Treating customers *like family*",
+      "image": {
+        "src": "/demo-assets/wayne-heath-automotive/model-a.webp",
+        "alt": "A black 1931 Ford Model A coupe parked under the dealership canopy",
+        "width": 1024,
+        "height": 768
+      },
+      "body": [
+        "Wayne Heath Automotive Company has served Aiken for more than 41 years as a family owned and operated small business. Customers come back, and the online reviews say why.",
+        "Our inventory is quality pre-owned vehicles that were locally owned. We run a CARFAX report on every one, and many include a warranty."
+      ],
+      "list": [
+        "Ask for Wayne, Mareese or Chase",
+        "Between Sam’s Club and Walmart on Richland Avenue West",
+        "After-hours line: (803) 295-7540"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "Simple as 1, 2, 3",
+      "title": "How buying *works*",
+      "items": [
+        {
+          "title": "Look",
+          "text": "See what’s on the lot online, or tell us what you’re looking for."
+        },
+        {
+          "title": "Drive it",
+          "text": "Come by Monday to Friday, 9 to 5:30, and take it for a spin."
+        },
+        {
+          "title": "Drive home",
+          "text": "Pay, finance or trade in, and leave with the keys."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Where do your cars come from?",
+          "a": "They were locally owned. We don’t buy auction cars, and every car gets a CARFAX report."
+        },
+        {
+          "q": "Can I trade in my car?",
+          "a": "Yes. We buy, sell and trade, so bring your car along when you come to look."
+        },
+        {
+          "q": "Do you offer financing?",
+          "a": "Yes. Ask about finance options, or start a credit application before you come in."
+        },
+        {
+          "q": "Can I call after hours?",
+          "a": "Yes. Wayne’s after-hours line is (803) 295-7540."
+        },
+        {
+          "q": "Where are you?",
+          "a": "At 3900 Richland Avenue West in Aiken, between Sam’s Club and Walmart."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come see the lot",
+      "text": "Open Monday to Friday, 9 to 5:30. Call ahead and we’ll have the car ready.",
+      "cta": {
+        "label": "Call (803) 641-0096",
+        "href": "tel:+18036410096"
+      }
+    }
+  ],
+  "visit": {
+    "title": "On *Richland Avenue West*",
+    "formTitle": "Ask about a car",
+    "formTopics": [
+      "A car on the lot",
+      "Trading in",
+      "Selling my car",
+      "Financing",
+      "Finding a car"
+    ]
+  },
+  "slug": "wayne-heath-automotive",
+  "added": "2026-11-19",
+  "prospect": "wayne-heath-automotive-company",
+  "source": {
+    "url": "https://www.wayneheathautomotive.com/",
+    "before": [
+      "The page title still advertises “One Day Only Pricing (August 1st)”, months after the sale",
+      "The home page says “Best Overall Auto Dealer” 5 years in a row in one place and 7 years in another",
+      "On a phone the main photo takes about 6.5 seconds to appear, and the page jumps around as it loads (Google Lighthouse speed score: 49 out of 100)",
+      "The layout uses 22 <font> tags, an HTML element retired years ago, and there is no icon for browser tabs"
+    ],
+    "after": [
+      "Real lot photos on the first screen",
+      "Buy, sell, trade and financing in one place",
+      "Hours and the after-hours line where people look for them",
+      "The Best of Aiken awards stated once, consistently"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "pills",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}
