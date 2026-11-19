@@ -63,7 +63,7 @@
  },
  "superior-office-systems": {
   "site": {
-   "first": 10661,
+   "first": 10942,
    "frames": [
     {
      "t": 1000,
@@ -93,7 +93,7 @@
    "at": "2026-11-19"
   },
   "concept": {
-   "first": 1496,
+   "first": 1211,
    "frames": [
     {
      "t": 1000,
@@ -1892,6 +1892,1680 @@
   },
   "concept": {
    "first": 1246,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "harrison-k-9-security-services-llc": {
+  "site": {
+   "first": 5086,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1368,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "hughes-beattie-oneal-law-and-assoc-pc": {
+  "site": {
+   "first": 7638,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1219,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "help-me-rhonda-bookkeeping-llc": {
+  "site": {
+   "first": 4096,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1323,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "herbal-solutions-and-spa": {
+  "site": {
+   "first": 3870,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1173,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "site": {
+   "first": 1204,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1187,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "hixon-insurance-and-realty-co": {
+  "site": {
+   "first": 9774,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": true
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1287,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "howell-printing-company": {
+  "site": {
+   "first": 1816,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1304,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "inn-at-houndslake": {
+  "site": {
+   "first": 4389,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1252,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "iron-gate-candles": {
+  "site": {
+   "first": 1882,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1197,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "lambert-insurance-agency-inc": {
+  "site": {
+   "first": 2327,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1211,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "mitch-johnson-construction-company-inc": {
+  "site": {
+   "first": 3626,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1311,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "mobile-office-management-llc-mom": {
+  "site": {
+   "first": 2031,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1332,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "mundys-automotive-llc": {
+  "site": {
+   "first": 2158,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1249,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "oh-mie-stelle-bakery": {
+  "site": {
+   "first": 1507,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1223,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "osbons-laundry-and-cleaners-downtown": {
+  "site": {
+   "first": 4141,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1255,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "playland-of-aiken": {
+  "site": {
+   "first": null,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": true
+    },
+    {
+     "t": 12000,
+     "blank": true
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1251,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "prescott-and-sons-construction-llc": {
+  "site": {
+   "first": 4681,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1225,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "rebel-ranch-horse-tours-llc": {
+  "site": {
+   "first": 1261,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1188,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "return-engagement": {
+  "site": {
+   "first": 9303,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": true
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1320,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "simply-social-events-and-more-llc": {
+  "site": {
+   "first": 2508,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1209,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "south-on-whiskey": {
+  "site": {
+   "first": 5990,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1266,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "southern-magnolia-dentistry": {
+  "site": {
+   "first": 2180,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1304,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "tailored-tours-of-aiken": {
+  "site": {
+   "first": 1908,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1341,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "thai-jasmine-rice": {
+  "site": {
+   "first": 1447,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1250,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "the-jewelers-loupe": {
+  "site": {
+   "first": 2599,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1366,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "massage-mavin": {
+  "site": {
+   "first": null,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": true
+    },
+    {
+     "t": 12000,
+     "blank": true
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1474,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "the-vintage-bobbin": {
+  "site": {
+   "first": 3727,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1385,
    "frames": [
     {
      "t": 1000,

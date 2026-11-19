@@ -78,12 +78,19 @@ async function record(url) {
   });
   await cdp.send('Page.startScreencast', { format: 'jpeg', quality: 72, maxWidth: W, maxHeight: H, everyNthFrame: 1 });
   const t0 = Date.now();
-  let error = null;
-  page.goto(url, { waitUntil: 'commit', timeout: 30000 }).catch((e) => { error = String(e.message || e).split('\n')[0]; });
+  let error = null, status;
+  // A page that errors or never answers says nothing about loading speed (it may
+  // be down, or unreachable from here), so it gets no filmstrip. A navigation
+  // the page itself replaces with a redirect (ERR_ABORTED) is fine.
+  page.goto(url, { waitUntil: 'commit', timeout: 30000 })
+    .then((r) => { status = r?.status(); })
+    .catch((e) => { const m = String(e.message || e).split('\n')[0]; if (!/ERR_ABORTED/.test(m)) error = m; });
   const end = TIMES[TIMES.length - 1] + 400;
   while (Date.now() - t0 < end) await new Promise((r) => setTimeout(r, 200));
   await cdp.send('Page.stopScreencast').catch(() => {});
   await ctx.close();
+  if (!error && status >= 400) error = `HTTP ${status}`;
+  if (!error && status === undefined) error = `no response within ${end / 1000} s`;
   return { frames: frames.map((f) => ({ t: f.at - t0, data: f.data })).sort((a, b) => a.t - b.t), error };
 }
 
@@ -120,7 +127,7 @@ for (const d of targets) {
   const out = { ...(results[key] || {}) };
   for (const [side, url] of [['site', audit[key].finalUrl || audit[key].url], ['concept', `${base}/${d.slug}/`]]) {
     const rec = await record(url);
-    if (rec.error && !rec.frames.length) { out[side] = { error: rec.error.slice(0, 120), at: new Date().toISOString().slice(0, 10) }; continue; }
+    if (rec.error) { out[side] = { error: rec.error.slice(0, 120), at: new Date().toISOString().slice(0, 10) }; continue; }
     out[side] = await strip(d.slug, side, rec);
   }
   results[key] = out;
