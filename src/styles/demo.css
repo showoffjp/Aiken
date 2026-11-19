@@ -335,6 +335,8 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 .form .note { font-size: .84rem; color: var(--muted-text, var(--muted)); margin-top: 12px; }
 .form .sent { display: none; padding: 14px 16px; border-radius: var(--r); background: var(--soft); font-weight: 600; margin-top: 14px; }
 .form.done .sent { display: block; }
+.form-missing { margin: 10px 0 0; font-size: .92rem; font-weight: 600; color: var(--primary-text, var(--primary)); }
+.form-missing[hidden] { display: none; }
 /* No map and no form: lay the contact details out across the full width. */
 .visit .grid.solo { grid-template-columns: 1fr; }
 .visit .grid.solo .info { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 48px; }

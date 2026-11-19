@@ -291,7 +291,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             <div>
               {mapSrc && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
               {!demo.visit?.hideForm && (
-                <form class="form" data-form novalidate>
+                <form class="form" data-form data-to={contact.email || ""} data-biz={short} novalidate>
                   <h3>{demo.visit?.formTitle || 'Send us a message'}</h3>
                   <div class="two">
                     <label>Name<input type="text" name="name" autocomplete="name" /></label>
@@ -303,7 +303,8 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                   )}
                   <label>Message<textarea name="message"></textarea></label>
                   <button class="btn" type="submit">Send message</button>
-                  <p class="sent" role="status">Thanks! In the live site this lands in your inbox. (Preview only: nothing was sent.)</p>
+                  <p class="form-missing" role="alert" data-form-missing hidden>Add your name and a phone number or email, so we can get back to you.</p>
+                  <p class="sent" role="status" data-form-sent>Thanks! In the live site this lands in your inbox. (Preview only: nothing was sent.)</p>
                   <p class="note">Preview form: it is not connected and collects nothing.</p>
                 </form>
               )}
@@ -588,7 +589,18 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         document.querySelector('[data-close-notes]')?.addEventListener('click', () => dlg.close());
         dlg?.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
 
-        document.querySelector('[data-form]')?.addEventListener('submit', (e) => { e.preventDefault(); e.currentTarget.classList.add('done'); });
+        // Preview form: checks it has enough to reply to, then says where a real message would go.
+        document.querySelector('[data-form]')?.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const f = e.currentTarget, v = (n) => (f.elements[n]?.value || '').trim();
+          const missing = f.querySelector('[data-form-missing]');
+          const gap = !v('name') ? f.elements.name : !v('phone') && !v('email') ? f.elements.phone : null;
+          missing.hidden = !gap;
+          if (gap) { f.classList.remove('done'); gap.focus(); return; }
+          const first = v('name').split(/\s+/)[0], topic = v('topic');
+          f.querySelector('[data-form-sent]').textContent = `Thanks, ${first}! On the live site, your ${topic ? `"${topic}" ` : ''}message would go straight to ${f.dataset.to || f.dataset.biz}, with your ${v('phone') ? 'number' : 'email'} to reply to. (Preview only: nothing was sent.)`;
+          f.classList.add('done');
+        });
 
         // Highlight today's row in the hours table.
         const names = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];

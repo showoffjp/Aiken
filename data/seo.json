@@ -3875,8 +3875,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 40,
-    "pageMB": 10,
+    "performance": 49,
+    "pageMB": 10.1,
     "a11ySerious": 34,
     "facebook": true,
     "instagram": true,
@@ -10326,8 +10326,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 40,
-    "pageMB": 10,
+    "performance": 49,
+    "pageMB": 10.1,
     "a11ySerious": 34,
     "facebook": true,
     "instagram": true,
@@ -21493,6 +21493,1008 @@
     "facebook": false,
     "instagram": false,
     "domainYears": 6
+   }
+  ]
+ },
+ "argus-visuals": {
+  "slug": "argus-visuals",
+  "name": "Argus Visuals",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "argusvisuals.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.argusvisuals.com/",
+    "title": "Argus Visuals",
+    "description": "",
+    "canonical": "https://www.argusvisuals.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Our Services"
+    ],
+    "h1Count": 1,
+    "h2": 7,
+    "h3": 0,
+    "words": 182,
+    "images": 8,
+    "imagesNoAlt": 6,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.argusvisuals.com/wp-sitemap.xml",
+    "pages": 55
+   },
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 8,
+    "missingH1": 3,
+    "multipleH1": 1,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 42,
+    "images": 94,
+    "sample": [
+     {
+      "url": "https://www.argusvisuals.com/",
+      "title": "Argus Visuals",
+      "description": 0,
+      "h1": 1,
+      "words": 182
+     },
+     {
+      "url": "https://www.argusvisuals.com/commercial/",
+      "title": "Commercial - Argus Visuals",
+      "description": 0,
+      "h1": 1,
+      "words": 229
+     },
+     {
+      "url": "https://www.argusvisuals.com/event-photography/",
+      "title": "Event Photography - Argus Visuals",
+      "description": 0,
+      "h1": 2,
+      "words": 299
+     },
+     {
+      "url": "https://www.argusvisuals.com/real-estate-photography/",
+      "title": "Real Estate Photography - Argus Visuals",
+      "description": 0,
+      "h1": 1,
+      "words": 446
+     },
+     {
+      "url": "https://www.argusvisuals.com/construction-photography/",
+      "title": "Construction Photography - Argus Visuals",
+      "description": 0,
+      "h1": 0,
+      "words": 334
+     },
+     {
+      "url": "https://www.argusvisuals.com/drone-photography/",
+      "title": "Drone Photography - Argus Visuals",
+      "description": 0,
+      "h1": 1,
+      "words": 85
+     },
+     {
+      "url": "https://www.argusvisuals.com/about-us/",
+      "title": "About Us - Argus Visuals",
+      "description": 0,
+      "h1": 0,
+      "words": 252
+     },
+     {
+      "url": "https://www.argusvisuals.com/contact/",
+      "title": "Contact - Argus Visuals",
+      "description": 0,
+      "h1": 0,
+      "words": 87
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 8,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/argusvisuals"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Photography",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/argus-visuals-4125",
+    "name": "Argus Visuals",
+    "phone": "(803) 762-7830",
+    "website": "http://argusvisuals.com",
+    "address": "336 Georgia Ave., North Augusta SC 298451",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/argusvisuals"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/argusvisuals",
+    "Instagram": "https://www.instagram.com/argusvisuals/"
+   }
+  },
+  "domain": {
+   "name": "argusvisuals.com",
+   "created": "2020-06-02",
+   "expires": "2027-06-02",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 6
+  },
+  "performance": {
+   "performance": 57,
+   "accessibility": 82,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 8404,
+   "lcp": 15877,
+   "tbt": 6,
+   "si": 8404,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "wilson-studio-of-fine-photography",
+   "electric-selfie-360",
+   "a-p-gouge-photography",
+   "cassie-bayer-photography",
+   "kt-photography-aiken-llc"
+  ],
+  "scores": {
+   "seo": 59,
+   "social": 55,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "wilson-studio-of-fine-photography",
+    "name": "Wilson Studio of Fine Photography",
+    "website": "https://www.wilsonstudio.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "electric-selfie-360",
+    "name": "Electric Selfie 360",
+    "website": "https://electric-selfie-360.systeme.io/info-page",
+    "state": "broken",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "a-p-gouge-photography",
+    "name": "A. P. Gouge Photography",
+    "website": "https://www.apgougephotography.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 28,
+    "pageMB": 4.2,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 12
+   },
+   {
+    "slug": "cassie-bayer-photography",
+    "name": "Cassie Bayer Photography",
+    "website": "https://www.cassiebayer.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 83,
+    "pageMB": 5.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "kt-photography-aiken-llc",
+    "name": "KT Photography Aiken, LLC",
+    "website": "https://www.ktphotographyaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.4,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "b-and-k-grading-and-paving-llc": {
+  "slug": "bk-grading-and-paving",
+  "name": "B&K Grading and Paving",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "bkgradingandpaving.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://bkgradingandpaving.com/",
+    "title": "BK Grading & Paving | Grading & Asphalt Paving in Aiken SC & Augusta GA",
+    "description": "Grading, excavation, asphalt & concrete paving, hauling, roll-off dumpsters, and portable restrooms in Aiken, SC and Augusta, GA. Call (803) 652-3232 for a quote.",
+    "canonical": "https://bkgradingandpaving.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "BK Grading & Paving | Grading & Asphalt Paving in Aiken SC & Augusta GA",
+     "description": "Grading, excavation, asphalt & concrete paving, hauling, roll-off dumpsters, and portable restrooms in Aiken, SC and Augusta, GA. Call (803) 652-3232 for a quote.",
+     "image": "https://bkgradingandpaving.com/wp-content/uploads/2025/10/515385005_1336813221243374_7675324096717859271_n-e1760555938955.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Grading and Paving in Aiken, SC & Augusta, GA"
+    ],
+    "h1Count": 1,
+    "h2": 8,
+    "h3": 0,
+    "words": 1409,
+    "images": 15,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization",
+     "LocalBusiness",
+     "City",
+     "State",
+     "AdministrativeArea",
+     "EducationalOccupationalCredential",
+     "OfferCatalog",
+     "Offer",
+     "Service",
+     "PostalAddress",
+     "FAQPage",
+     "Question",
+     "Answer"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://bkgradingandpaving.com/sitemap_index.xml",
+    "pages": 195
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 3,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 7,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 49,
+    "images": 102,
+    "sample": [
+     {
+      "url": "https://bkgradingandpaving.com/",
+      "title": "BK Grading & Paving | Grading & Asphalt Paving in Aiken SC & Augusta GA",
+      "description": 162,
+      "h1": 1,
+      "words": 1409
+     },
+     {
+      "url": "https://bkgradingandpaving.com/dump-truck-and-hauling/",
+      "title": "Dump Truck and Hauling - BK Grading & Paving",
+      "description": 0,
+      "h1": 1,
+      "words": 209
+     },
+     {
+      "url": "https://bkgradingandpaving.com/roll-off-dumpsters/",
+      "title": "Roll off dumpsters - BK Grading & Paving",
+      "description": 0,
+      "h1": 1,
+      "words": 217
+     },
+     {
+      "url": "https://bkgradingandpaving.com/portable-restrooms/",
+      "title": "Portable Restroom Rentals in Aiken SC & Augusta GA | BK Grading & Paving",
+      "description": 196,
+      "h1": 1,
+      "words": 199
+     },
+     {
+      "url": "https://bkgradingandpaving.com/asphalt-and-concrete-paving/",
+      "title": "Asphalt & Concrete Paving in Aiken SC & Augusta GA | BK Grading & Paving",
+      "description": 199,
+      "h1": 1,
+      "words": 370
+     },
+     {
+      "url": "https://bkgradingandpaving.com/grading-and-excavation/",
+      "title": "Grading and Excavation - BK Grading & Paving",
+      "description": 0,
+      "h1": 1,
+      "words": 212
+     },
+     {
+      "url": "https://bkgradingandpaving.com/about/",
+      "title": "About BK Grading & Paving | 17 Years Serving Aiken SC & Augusta GA",
+      "description": 178,
+      "h1": 1,
+      "words": 169
+     },
+     {
+      "url": "https://bkgradingandpaving.com/projects/",
+      "title": "Our Projects | Grading & Paving Work in Aiken SC & Augusta GA | BK Grading & Paving",
+      "description": 168,
+      "h1": 1,
+      "words": 94
+     },
+     {
+      "url": "https://bkgradingandpaving.com/contact/",
+      "title": "Contact BK Grading & Paving | Aiken SC & Augusta GA",
+      "description": 189,
+      "h1": 1,
+      "words": 177
+     },
+     {
+      "url": "https://bkgradingandpaving.com/careers/",
+      "title": "Careers at BK Grading & Paving | CDL Driver & Equipment Operator Jobs in Aiken SC",
+      "description": 166,
+      "h1": 1,
+      "words": 272
+     },
+     {
+      "url": "https://bkgradingandpaving.com/blog/",
+      "title": "Grading, Paving & Site Work Tips | BK Grading & Paving Blog",
+      "description": 155,
+      "h1": 0,
+      "words": 846
+     },
+     {
+      "url": "https://bkgradingandpaving.com/why-is-my-asphalt-driveway-cracking-bk-grading-and-paving/",
+      "title": "Why Is My Asphalt Driveway Cracking? | BK Grading and Paving",
+      "description": 144,
+      "h1": 1,
+      "words": 2140
+     },
+     {
+      "url": "https://bkgradingandpaving.com/roll-off-dumpster-sizes-explained-which-one-do-you-actually-need/",
+      "title": "Roll-Off Dumpster Sizes: Which Do You Need? | BK Grading and Paving",
+      "description": 133,
+      "h1": 1,
+      "words": 2137
+     },
+     {
+      "url": "https://bkgradingandpaving.com/concrete-patio-costs-in-aiken-sc-2026-pricing-breakdown/",
+      "title": "Concrete Patio Costs in Aiken SC | BK Grading and Paving",
+      "description": 136,
+      "h1": 1,
+      "words": 1962
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://bkgradingandpaving.com/services",
+      "status": 0,
+      "from": "https://bkgradingandpaving.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/bkgradingandpaving",
+    "Instagram": "https://www.instagram.com/bkgradingpavingllc/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Grading",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 33
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 20
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=225&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=060f4312c037526a900bbd91e0dcf8ed",
+    "name": "B&K Grading and Paving, LLC",
+    "phone": "(803) 652-3232",
+    "website": "http://www.bkgradingandpaving.com",
+    "address": "2087 Williston Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/bkgradingandpaving",
+    "Instagram": "https://www.instagram.com/bkgradingpavingllc/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/bkgradingandpaving",
+    "Instagram": "https://www.instagram.com/bkgradingpavingllc/"
+   }
+  },
+  "domain": {
+   "name": "bkgradingandpaving.com",
+   "created": "2018-12-17",
+   "expires": "2026-12-17",
+   "registrar": "Name106, Inc.",
+   "years": 7
+  },
+  "performance": {
+   "performance": 49,
+   "accessibility": 92,
+   "bestPractices": 96,
+   "seo": 92,
+   "fcp": 3161,
+   "lcp": 15401,
+   "tbt": 425,
+   "si": 14230,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "g-l-williams-and-daughter-trucking-inc",
+   "kings-roll-off-dumpsters",
+   "upstream-recycling-llc"
+  ],
+  "scores": {
+   "seo": 77,
+   "social": 70,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "g-l-williams-and-daughter-trucking-inc",
+    "name": "G. L. Williams & Daughter Trucking Inc.",
+    "website": "https://glwdtrucking.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1,
+    "a11ySerious": 23,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 7
+   },
+   {
+    "slug": "kings-roll-off-dumpsters",
+    "name": "Kings Roll-Off Dumpsters",
+    "website": "https://www.kingsrolloffdumpsters.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.3,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "upstream-recycling-llc",
+    "name": "Upstream Recycling LLC",
+    "website": "https://upstreamwastesolutions.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.9,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
+   }
+  ]
+ },
+ "beech-island-appliance-service-co-inc": {
+  "slug": "beech-island-appliance",
+  "name": "Beech Island Appliance Service",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "beechislandheatingandair.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://beechislandheatingandair.com/",
+    "title": "Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+    "description": "",
+    "canonical": "https://beechislandheatingandair.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+     "description": "",
+     "image": "https://beechislandheatingandair.com/wp-content/uploads/2019/02/cropped-logo.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+     "Aiken, SC HVAC Contractor & Appliance Repair Service"
+    ],
+    "h1Count": 2,
+    "h2": 8,
+    "h3": 0,
+    "words": 745,
+    "images": 15,
+    "imagesNoAlt": 13,
+    "schemaTypes": [
+     "WebSite",
+     "Organization",
+     "ContactPoint",
+     "HVACBusiness",
+     "PostalAddress",
+     "GeoCoordinates",
+     "OpeningHoursSpecification"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://beechislandheatingandair.com/sitemaps.xml",
+    "pages": 31
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 13,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 125,
+    "images": 141,
+    "sample": [
+     {
+      "url": "https://beechislandheatingandair.com/",
+      "title": "Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 0,
+      "h1": 2,
+      "words": 745
+     },
+     {
+      "url": "https://beechislandheatingandair.com/contact/",
+      "title": "Contact - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 311,
+      "h1": 2,
+      "words": 139
+     },
+     {
+      "url": "https://beechislandheatingandair.com/about/",
+      "title": "About - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 339,
+      "h1": 3,
+      "words": 297
+     },
+     {
+      "url": "https://beechislandheatingandair.com/air-conditioning/",
+      "title": "Air Conditioning - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 344,
+      "h1": 2,
+      "words": 259
+     },
+     {
+      "url": "https://beechislandheatingandair.com/heating/",
+      "title": "Heating - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 339,
+      "h1": 2,
+      "words": 327
+     },
+     {
+      "url": "https://beechislandheatingandair.com/appliance-repair/",
+      "title": "Appliance Repair - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 375,
+      "h1": 3,
+      "words": 149
+     },
+     {
+      "url": "https://beechislandheatingandair.com/maintenance/",
+      "title": "Maintenance - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 362,
+      "h1": 2,
+      "words": 350
+     },
+     {
+      "url": "https://beechislandheatingandair.com/financing/",
+      "title": "Financing - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 340,
+      "h1": 2,
+      "words": 158
+     },
+     {
+      "url": "https://beechislandheatingandair.com/products/",
+      "title": "Products - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 95,
+      "h1": 2,
+      "words": 80
+     },
+     {
+      "url": "https://beechislandheatingandair.com/blog/",
+      "title": "Blog - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 306,
+      "h1": 2,
+      "words": 261
+     },
+     {
+      "url": "https://beechislandheatingandair.com/careers/",
+      "title": "Careers - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 302,
+      "h1": 2,
+      "words": 645
+     },
+     {
+      "url": "https://beechislandheatingandair.com/review/",
+      "title": "Review - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 68,
+      "h1": 2,
+      "words": 67
+     },
+     {
+      "url": "https://beechislandheatingandair.com/areas-served/",
+      "title": "Areas Served - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 313,
+      "h1": 2,
+      "words": 137
+     },
+     {
+      "url": "https://beechislandheatingandair.com/why-you-should-choose-a-maintenance-plan-for-your-hvac-system/",
+      "title": "Why You Should Choose a Maintenance Plan for Your HVAC System - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 326,
+      "h1": 1,
+      "words": 415
+     },
+     {
+      "url": "https://beechislandheatingandair.com/keep-your-hvac-system-working-properly-with-pets/",
+      "title": "Keep your HVAC System Working Properly with Pets - Aiken HVAC Contractor | Heating and Air Conditioning Service SC | Beech Island Appliance Service Co.",
+      "description": 300,
+      "h1": 1,
+      "words": 636
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 25,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Beech-Island-Appliance-Service-Co-1800194193607018/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Heating",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 5
+   },
+   {
+    "term": "Beech Island",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 10
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/beech-island-appliance-service-co-inc-1137",
+    "name": "Beech Island Appliance Service Co., Inc",
+    "phone": "(803) 827-0421",
+    "website": "https://beechislandheatingandair.com/",
+    "address": "1576 Sand Bar Ferry Road, Beech Island SC 29842",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Beech-Island-Appliance-Service-Co-1800194193607018/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/csraservice/"
+   }
+  },
+  "domain": {
+   "name": "beechislandheatingandair.com",
+   "created": "2019-01-17",
+   "expires": "2027-01-17",
+   "registrar": "Wild West Domains, LLC",
+   "years": 7
+  },
+  "performance": {
+   "performance": 43,
+   "accessibility": 80,
+   "bestPractices": 100,
+   "seo": 77,
+   "fcp": 2461,
+   "lcp": 9768,
+   "tbt": 894,
+   "si": 8045,
+   "cls": 0.062,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "good-morning-sunshine-plumbing",
+   "stark-plumbing-llc",
+   "aiken-housing-center",
+   "aikenite-electrical-services-llc"
+  ],
+  "scores": {
+   "seo": 70,
+   "social": 50,
+   "lighthouseSeo": 77
+  },
+  "competitors": [
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "good-morning-sunshine-plumbing",
+    "name": "Good Morning Sunshine Plumbing",
+    "website": "https://www.goodmorningsunshineplumbing.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.8,
+    "a11ySerious": 12,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "stark-plumbing-llc",
+    "name": "Stark Plumbing LLC",
+    "website": "https://www.starkplumbingllc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.4,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "aiken-housing-center",
+    "name": "Aiken Housing Center",
+    "website": "https://aikenhousingcenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 39,
+    "pageMB": 13.9,
+    "a11ySerious": 55,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "aikenite-electrical-services-llc",
+    "name": "Aikenite Electrical Services LLC",
+    "website": "https://www.aikenite-electrical.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
    }
   ]
  }

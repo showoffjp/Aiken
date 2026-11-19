@@ -2403,7 +2403,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "atomic-heating-and-air": {
@@ -2559,7 +2569,17 @@
      "nodes": 34
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "baker-family-dentistry": {
@@ -2733,7 +2753,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "bill-cunningham-fitness": {

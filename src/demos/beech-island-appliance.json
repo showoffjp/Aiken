@@ -1,0 +1,357 @@
+{
+  "name": "Beech Island Appliance Service",
+  "short": "Beech Island Appliance",
+  "category": "Heating, Air & Appliance Repair",
+  "group": "Trades & Industry",
+  "town": "Beech Island, SC",
+  "established": "1959",
+  "look": "clean",
+  "fonts": {
+    "display": "bitter",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f6f8fb",
+    "surface": "#ffffff",
+    "ink": "#121c2b",
+    "muted": "#526073",
+    "primary": "#1c3f94",
+    "onPrimary": "#ffffff",
+    "accent": "#c62f2c",
+    "line": "#dbe2ec"
+  },
+  "radius": 10,
+  "icon": "air-vent",
+  "logo": {
+    "src": "/demo-assets/beech-island-appliance/logo.png",
+    "alt": "Beech Island Appliance Service",
+    "width": 700,
+    "height": 175
+  },
+  "contact": {
+    "phone": "(803) 827-0421",
+    "email": "jalbion@comcast.net",
+    "address": [
+      "1576 Sand Bar Ferry Road",
+      "Beech Island, SC 29842"
+    ],
+    "mapQuery": "Beech Island Appliance Service, 1576 Sand Bar Ferry Rd, Beech Island, SC 29842",
+    "facebook": "https://www.facebook.com/csraservice/"
+  },
+  "hero": {
+    "eyebrow": "Family-owned since 1959",
+    "title": "Heating, air *and appliance repair*",
+    "lede": "One of the oldest family-owned HVAC and appliance service companies in the CSRA, keeping homes and small businesses comfortable from Beech Island to Aiken and Augusta for three generations. Emergency service available.",
+    "points": [
+      "Emergency service",
+      "Trane Comfort Specialist",
+      "All major appliances"
+    ],
+    "cta": {
+      "label": "Call (803) 827-0421",
+      "href": "tel:+18038270421"
+    },
+    "cta2": {
+      "label": "Maintenance plans",
+      "href": "#plans"
+    }
+  },
+  "facts": [
+    {
+      "value": "1959",
+      "label": "Serving the CSRA since"
+    },
+    {
+      "value": "3",
+      "label": "Generations of service"
+    },
+    {
+      "value": "$10.88",
+      "label": "A month for a VIP plan"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Repair, maintain, replace",
+      "title": "Comfort and *peace of mind*",
+      "items": [
+        {
+          "icon": "snowflake",
+          "title": "Air conditioning",
+          "text": "Repairs on all HVAC brands, maintenance, and replacement when it’s time."
+        },
+        {
+          "icon": "flame",
+          "title": "Heating",
+          "text": "Heat pumps and furnaces inspected before the cold arrives and repaired when they quit."
+        },
+        {
+          "icon": "refrigerator",
+          "title": "Appliance repair",
+          "text": "In-home service for refrigerators, dishwashers, ovens, ranges, cooktops, washers and dryers."
+        },
+        {
+          "icon": "badge-check",
+          "title": "Trane installation",
+          "text": "Free on-site estimates on a new Trane comfort system for your home or business."
+        },
+        {
+          "icon": "fan",
+          "title": "Air quality",
+          "text": "Air quality and energy-use services for cleaner air and lower utility bills."
+        },
+        {
+          "icon": "credit-card",
+          "title": "Financing",
+          "text": "Buy now and pay over time, with approved credit."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "plans",
+      "nav": "Maintenance plans",
+      "eyebrow": "VIP memberships",
+      "title": "Fewer breakdowns, *lower bills*",
+      "intro": "Three levels of maintenance for homes and small businesses: fewer repair calls, longer equipment life and cleaner air.",
+      "groups": [
+        {
+          "title": "Cair VIP",
+          "note": "$10.88/mo · $130.56 a year",
+          "items": [
+            {
+              "name": "Priority service"
+            },
+            {
+              "name": "1 visit a year, heating & cooling"
+            },
+            {
+              "name": "Annual safety & efficiency inspection"
+            },
+            {
+              "name": "Efficiency tune-up"
+            },
+            {
+              "name": "Comfort report card for your records"
+            },
+            {
+              "name": "Outdoor coil treatment & indoor coil cleaning"
+            },
+            {
+              "name": "Duct inspection, drains cleared, filter replaced"
+            }
+          ]
+        },
+        {
+          "title": "Select VIP",
+          "note": "$19.88/mo · $238.56 a year",
+          "items": [
+            {
+              "name": "2 visits a year, heating & cooling"
+            },
+            {
+              "name": "Service calls only $29, diagnostic charges waived"
+            },
+            {
+              "name": "Twice-yearly safety & efficiency inspection"
+            },
+            {
+              "name": "Full outdoor unit detail, yearly"
+            },
+            {
+              "name": "Blower wheels cleaned as needed"
+            },
+            {
+              "name": "Burner compartment clean-up, yearly"
+            },
+            {
+              "name": "Drains cleaned, filters changed twice a year"
+            },
+            {
+              "name": "10% off clean air solutions"
+            }
+          ]
+        },
+        {
+          "title": "Prestige VIP",
+          "note": "$32.88/mo · $394.56 a year",
+          "items": [
+            {
+              "name": "Guaranteed service within 24 hours"
+            },
+            {
+              "name": "Free service calls"
+            },
+            {
+              "name": "Comfort report card for your records"
+            },
+            {
+              "name": "Indoor & outdoor coils treated yearly"
+            },
+            {
+              "name": "Yearly cabinet restoration & preservation"
+            },
+            {
+              "name": "10% off clean air services, 25% off clean air solutions"
+            },
+            {
+              "name": "Lifetime free filters"
+            }
+          ]
+        }
+      ],
+      "footnote": "Monthly prices are for the first system; additional systems are $5.00 a month each. Prices as listed on the current site."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Since 1959",
+      "title": "Three generations *of service*",
+      "image": {
+        "src": "/demo-assets/beech-island-appliance/team.webp",
+        "alt": "The Beech Island Appliance Service team in company shirts in front of a branded service van",
+        "width": 1200,
+        "height": 544
+      },
+      "body": [
+        "Established in 1959, Beech Island Appliance Service is one of the oldest family-owned HVAC and appliance service companies in the CSRA. Since our first service visit over 60 years ago, we’ve been committed to customer satisfaction.",
+        "Whether the heat pump, furnace, air conditioner or an appliance at your home or business needs regular maintenance, a time-sensitive repair or replacement, our trained technicians combine timeless craftsmanship with modern technology, and they’re ready to answer your questions along the way."
+      ],
+      "list": [
+        "We service all HVAC brands",
+        "Emergency service available",
+        "Trane Comfort Specialist"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our customers",
+      "title": "No *high-pressure* sales",
+      "items": [
+        {
+          "text": "The representative presented all of our options with prices. There were no high pressure tactics used to attempt to sell me “more”. The technicians arrived on time. They were very professional and efficient.",
+          "by": "Jim Gossage"
+        },
+        {
+          "text": "They didn’t rush me in any kind of way in making a decision to buy and made sure I understood the unit. They showed me how to work it and program the settings and helped me download the app on my phone.",
+          "by": "Ralph Smith"
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "area",
+      "nav": "Service area",
+      "eyebrow": "Across the CSRA",
+      "title": "Where *we work*",
+      "columns": [
+        {
+          "title": "South Carolina",
+          "items": [
+            "Beech Island",
+            "North Augusta",
+            "Aiken"
+          ]
+        },
+        {
+          "title": "Georgia",
+          "items": [
+            "Augusta",
+            "Evans",
+            "Martinez",
+            "Grovetown"
+          ]
+        },
+        {
+          "title": "Who we serve",
+          "items": [
+            "Homes",
+            "Small businesses"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Common *questions*",
+      "items": [
+        {
+          "q": "Do you offer emergency service?",
+          "a": "Yes. Call (803) 827-0421."
+        },
+        {
+          "q": "Which brands do you work on?",
+          "a": "We service all HVAC brands. For new systems we install Trane comfort systems exclusively, with a free on-site estimate."
+        },
+        {
+          "q": "Which appliances do you repair?",
+          "a": "All brands of major appliances: refrigerators, dishwashers, ovens, ranges, cooktops, washers and dryers, with in-home service."
+        },
+        {
+          "q": "Can I finance a new system?",
+          "a": "Yes, with approved credit, including the Wells Fargo Home Projects credit card. Call us for details."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "AC or heat out?",
+      "text": "Emergency service is available across the CSRA.",
+      "cta": {
+        "label": "Call (803) 827-0421",
+        "href": "tel:+18038270421"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Sand Bar Ferry Road*",
+    "formTitle": "Schedule service",
+    "formTopics": [
+      "Heating or AC repair",
+      "Appliance repair",
+      "New system estimate",
+      "Maintenance plan",
+      "Something else"
+    ]
+  },
+  "slug": "beech-island-appliance",
+  "added": "2026-11-19",
+  "prospect": "beech-island-appliance-service-co-inc",
+  "source": {
+    "url": "https://beechislandheatingandair.com/",
+    "before": [
+      "The footer still says ©2019, and the newest blog post is from September 2020",
+      "The Products page holds a single line: \"Click on the three bars icon on the top right to reveal menu.\"",
+      "The Contact page spells the town \"BEEECH ISLAND\" and gives no street address",
+      "13 of the 15 images on the home page have no description (alt text), and there’s no description for Google results",
+      "On a phone, the main content takes about 10 seconds to appear (Google Lighthouse speed score: 43 out of 100)"
+    ],
+    "after": [
+      "Emergency service and the phone number on the first screen",
+      "All three VIP plans side by side, with what each one includes",
+      "The street address, a map and one-tap directions",
+      "The family story since 1959, up front",
+      "Every photo described for screen readers and search"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

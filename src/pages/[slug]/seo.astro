@@ -141,11 +141,23 @@ const elsewhere = [
 // Structured data: what the home page hands Google today, and what the concept ships.
 const has = h?.schemaHas || {};
 const yes = (v: any, text = 'Included') => (v ? text : 'Not included');
+// What the business sells, as the concept hands it to Google (a restaurant menu or a price list / services).
+const offerLeaves = (ld.hasMenu ? [ld.hasMenu].flat().flatMap((m: any) => m.hasMenuSection.flatMap((x: any) => x.hasMenuItem.map((i: any) => i.offers))) : ld.hasOfferCatalog ? ld.hasOfferCatalog.itemListElement.flatMap((x: any) => (x.itemListElement ? x.itemListElement : [x])).map((o: any) => (o.price || o.priceSpecification ? o : undefined)) : []);
+const offerPriced = offerLeaves.filter(Boolean).length;
+const todayOffers = (h?.schemaTypes || []).some((t: string) => /^(Menu|MenuSection|MenuItem|OfferCatalog)$/.test(t));
+const offerRow = offerLeaves.length ? {
+  label: ld.hasMenu ? 'Menu' : offerPriced ? 'Prices' : 'Services',
+  why: ld.hasMenu ? 'Dishes and prices Google can read' : offerPriced ? 'What you charge, in a form Google can read' : 'What you offer, in a form Google can read',
+  today: s ? todayOffers : null, todayText: !s ? 'No website' : yes(todayOffers),
+  next: true,
+  nextText: ld.hasMenu ? `${offerLeaves.length} dishes${offerPriced ? `, ${offerPriced === offerLeaves.length ? 'all' : offerPriced} with prices` : ''}` : `${offerLeaves.length} ${offerPriced ? 'services with prices' : 'services'}`,
+} : null;
 const ldRows = [
   { label: 'Business type', why: 'Tells Google what kind of business this is', today: !!h?.schemaLocal, todayText: !s ? 'No website' : h.schemaLocal ? 'Included' : 'Not included', next: true, nextText: ld['@type'].replace(/([a-z])([A-Z])/g, '$1 $2') },
   { label: 'Phone number', why: 'Tap-to-call in the business panel', today: !!has.telephone, todayText: !s ? 'No website' : yes(has.telephone), next: !!ld.telephone, nextText: ld.telephone || 'Add when confirmed' },
   { label: 'Address', why: 'Maps, directions and "near me" searches', today: !!has.address, todayText: !s ? 'No website' : yes(has.address), next: !!ld.address, nextText: ld.address ? `${ld.address.streetAddress ? `${ld.address.streetAddress}, ` : ''}${ld.address.addressLocality}` : 'Add when confirmed' },
   { label: 'Opening hours', why: '"Open now" and holiday hours in Google', today: !!has.hours, todayText: !s ? 'No website' : yes(has.hours), next: !!hoursSpec, nextText: hoursSpec ? `${new Set(hoursSpec.flatMap((x) => x.dayOfWeek)).size} days a week, in Google's format` : 'Add once hours are confirmed' },
+  ...(offerRow ? [offerRow] : []),
   { label: 'Map location', why: 'Connects the site to the Google Maps pin', today: !!has.geo, todayText: !s ? 'No website' : yes(has.geo), next: !!ld.hasMap, nextText: ld.hasMap ? 'Map link' : 'Add with the address' },
   { label: 'Social profiles', why: 'Links your site and your profiles as one business', today: null, todayText: !s ? 'No website' : 'Not measured', next: !!ld.sameAs, nextText: ld.sameAs ? ld.sameAs.map((u: string) => (/facebook/i.test(u) ? 'Facebook' : /instagram/i.test(u) ? 'Instagram' : hostOf(u))).join(', ') : 'Add when you have them' },
 ];

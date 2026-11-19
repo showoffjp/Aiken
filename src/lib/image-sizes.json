@@ -1914,5 +1914,253 @@
  "/demo-assets/trophies-unlimited/crystal-award-640.webp": [
   640,
   481
+ ],
+ "/demo-assets/argus-visuals/construction-aerial.webp": [
+  1600,
+  1199
+ ],
+ "/demo-assets/argus-visuals/rooftops.webp": [
+  1600,
+  1213
+ ],
+ "/demo-assets/argus-visuals/new-home-aerial.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/argus-visuals/street-festival.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/argus-visuals/ribbon-cutting.webp": [
+  1600,
+  946
+ ],
+ "/demo-assets/argus-visuals/headshot-session.webp": [
+  1600,
+  945
+ ],
+ "/demo-assets/argus-visuals/product-shoot.webp": [
+  1600,
+  954
+ ],
+ "/demo-assets/argus-visuals/listing-photo.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/argus-visuals/brian-and-sheryl.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/beech-island-appliance/team.webp": [
+  1200,
+  544
+ ],
+ "/demo-assets/beech-island-appliance/logo.png": [
+  700,
+  175
+ ],
+ "/demo-assets/bk-grading-and-paving/paving-crew.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/bk-grading-and-paving/dump-trucks.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/bk-grading-and-paving/roll-off-trucks.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/bk-grading-and-paving/road-crew.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/bk-grading-and-paving/site-prep.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/bk-grading-and-paving/parking-lot.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/bk-grading-and-paving/portable-restrooms.webp": [
+  1600,
+  798
+ ],
+ "/demo-assets/bk-grading-and-paving/grading-lot.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/bk-grading-and-paving/office.webp": [
+  1600,
+  1213
+ ],
+ "/demo-assets/bk-grading-and-paving/paver.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/bk-grading-and-paving/logo.webp": [
+  734,
+  246
+ ],
+ "/demo-assets/argus-visuals/brian-and-sheryl-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/argus-visuals/brian-and-sheryl-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/argus-visuals/construction-aerial-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/argus-visuals/construction-aerial-960.webp": [
+  960,
+  719
+ ],
+ "/demo-assets/argus-visuals/headshot-session-640.webp": [
+  640,
+  378
+ ],
+ "/demo-assets/argus-visuals/headshot-session-960.webp": [
+  960,
+  567
+ ],
+ "/demo-assets/argus-visuals/listing-photo-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/argus-visuals/listing-photo-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/argus-visuals/new-home-aerial-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/argus-visuals/new-home-aerial-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/argus-visuals/product-shoot-640.webp": [
+  640,
+  382
+ ],
+ "/demo-assets/argus-visuals/product-shoot-960.webp": [
+  960,
+  572
+ ],
+ "/demo-assets/argus-visuals/ribbon-cutting-640.webp": [
+  640,
+  378
+ ],
+ "/demo-assets/argus-visuals/ribbon-cutting-960.webp": [
+  960,
+  568
+ ],
+ "/demo-assets/argus-visuals/rooftops-640.webp": [
+  640,
+  485
+ ],
+ "/demo-assets/argus-visuals/rooftops-960.webp": [
+  960,
+  728
+ ],
+ "/demo-assets/argus-visuals/street-festival-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/argus-visuals/street-festival-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/beech-island-appliance/team-640.webp": [
+  640,
+  290
+ ],
+ "/demo-assets/beech-island-appliance/team-960.webp": [
+  960,
+  435
+ ],
+ "/demo-assets/bk-grading-and-paving/dump-trucks-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/bk-grading-and-paving/dump-trucks-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/bk-grading-and-paving/grading-lot-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/bk-grading-and-paving/grading-lot-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/bk-grading-and-paving/office-640.webp": [
+  640,
+  485
+ ],
+ "/demo-assets/bk-grading-and-paving/office-960.webp": [
+  960,
+  728
+ ],
+ "/demo-assets/bk-grading-and-paving/parking-lot-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/bk-grading-and-paving/parking-lot-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/bk-grading-and-paving/paver-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/bk-grading-and-paving/paver-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/bk-grading-and-paving/paving-crew-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/bk-grading-and-paving/paving-crew-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/bk-grading-and-paving/portable-restrooms-640.webp": [
+  640,
+  319
+ ],
+ "/demo-assets/bk-grading-and-paving/portable-restrooms-960.webp": [
+  960,
+  479
+ ],
+ "/demo-assets/bk-grading-and-paving/road-crew-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/bk-grading-and-paving/road-crew-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/bk-grading-and-paving/roll-off-trucks-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/bk-grading-and-paving/roll-off-trucks-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/bk-grading-and-paving/site-prep-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/bk-grading-and-paving/site-prep-960.webp": [
+  960,
+  720
  ]
 }

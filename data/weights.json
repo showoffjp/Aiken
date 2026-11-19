@@ -432,11 +432,18 @@
  },
  "argus-visuals": {
   "site": {
-   "bytes": 9178677,
-   "requests": 115,
-   "loadMs": 5274,
+   "bytes": 9180221,
+   "requests": 116,
+   "loadMs": 5459,
    "url": "https://www.argusvisuals.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 1289239,
+   "requests": 8,
+   "loadMs": 150,
+   "url": "/argus-visuals/",
+   "at": "2026-11-19"
   }
  },
  "arnold-advisors-llc": {
@@ -502,11 +509,18 @@
  },
  "b-and-k-grading-and-paving-llc": {
   "site": {
-   "bytes": 10449586,
-   "requests": 99,
-   "loadMs": 4348,
+   "bytes": 10541528,
+   "requests": 107,
+   "loadMs": 2935,
    "url": "https://bkgradingandpaving.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 862889,
+   "requests": 16,
+   "loadMs": 140,
+   "url": "/bk-grading-and-paving/",
+   "at": "2026-11-19"
   }
  },
  "barreto-manufacturing-inc": {
@@ -581,11 +595,18 @@
  },
  "beech-island-appliance-service-co-inc": {
   "site": {
-   "bytes": 4267693,
+   "bytes": 4268054,
    "requests": 85,
-   "loadMs": 7074,
+   "loadMs": 3133,
    "url": "https://beechislandheatingandair.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 343531,
+   "requests": 8,
+   "loadMs": 176,
+   "url": "/beech-island-appliance/",
+   "at": "2026-11-19"
   }
  },
  "big-chris-collision": {
