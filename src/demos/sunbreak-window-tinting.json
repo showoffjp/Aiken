@@ -1,0 +1,313 @@
+{
+  "name": "SunBreak Window Tinting",
+  "short": "SunBreak",
+  "category": "Window Tinting",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f5f7",
+    "surface": "#ffffff",
+    "ink": "#111418",
+    "muted": "#4b525c",
+    "primary": "#c9401a",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a23a",
+    "line": "#dfe3e8"
+  },
+  "radius": 12,
+  "icon": "sun",
+  "contact": {
+    "phone": "(803) 226-0035",
+    "phoneLabel": "Aiken",
+    "phone2": "(803) 426-8067",
+    "phone2Label": "North Augusta",
+    "email": "genehart@sbofaiken.com",
+    "address": [
+      "2153 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "SunBreak Window Tinting, 2153 Whiskey Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 5:00 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 1:00 pm"
+      ]
+    ],
+    "hoursNote": "Walk-ins welcome at both shops.",
+    "facebook": "https://www.facebook.com/sunbreaktint"
+  },
+  "hero": {
+    "eyebrow": "Automotive · Residential · Commercial",
+    "title": "Window film, *done right*",
+    "lede": "Family-owned window tinting in Aiken and North Augusta: SunTek ceramic and carbon film for cars, solar and security film for homes, and storefront and office film for businesses. Free estimates, and walk-ins are welcome.",
+    "points": [
+      "Exclusive SunTek dealer",
+      "Two locations",
+      "Free estimates"
+    ],
+    "cta": {
+      "label": "Get a free quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 226-0035",
+      "href": "tel:+18032260035"
+    },
+    "image": {
+      "src": "/demo-assets/sunbreak-window-tinting/corvette-bay.webp",
+      "alt": "A white sports car with freshly tinted windows in the SunBreak shop bay",
+      "width": 1300,
+      "height": 1733
+    }
+  },
+  "facts": [
+    {
+      "value": "2 shops",
+      "label": "Aiken and North Augusta"
+    },
+    {
+      "value": "99%",
+      "label": "Of UV rays blocked by our films"
+    },
+    {
+      "value": "200",
+      "label": "Google reviews, rated excellent"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "For cars, homes and businesses",
+      "title": "The right film *for every window*",
+      "items": [
+        {
+          "icon": "car",
+          "title": "Automotive tint",
+          "text": "SunTek films in a range of shades, with metal-free ceramic and carbon options that keep GPS and phone signals clear."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Ceramic tint",
+          "text": "Our best heat rejection: blocks up to 99% of UV and cuts glare, without signal interference."
+        },
+        {
+          "icon": "house",
+          "title": "Residential solar film",
+          "text": "Lower cooling and heating bills, fewer hot spots and less fading, recommended by the Skin Cancer Foundation."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Safety & security film",
+          "text": "Holds shattered glass together against storms, accidents and break-ins."
+        },
+        {
+          "icon": "store",
+          "title": "Commercial & storefront",
+          "text": "Lower energy costs, less glare for staff and customers, and a sharper storefront."
+        },
+        {
+          "icon": "eye-off",
+          "title": "Decorative & privacy",
+          "text": "Frosted, etched and custom films for doors, offices, bathrooms and branding."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Family owned and operated",
+      "title": "In honor *of James*",
+      "image": {
+        "src": "/demo-assets/sunbreak-window-tinting/installer.webp",
+        "alt": "A SunBreak installer fitting film to a car window",
+        "width": 1200,
+        "height": 1500
+      },
+      "body": [
+        "Brothers Gene and James Hart grew up with a love for cars. James was one of the best tinters in the country until he passed away in 2019, and Gene carries on the family tradition with SunBreak in his honor and memory.",
+        "Our mission is simple: timely, value-enhancing window tinting for cars, homes and businesses, in a clean, friendly shop, with professionalism, excellence and timeliness on every job."
+      ],
+      "list": [
+        "An exclusive SunTek dealer",
+        "Open communication from estimate to finish",
+        "Two shops on either side of the river"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Recent jobs",
+      "title": "Cars, homes *and storefronts*",
+      "images": [
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/shop-mustang.webp",
+          "alt": "A black Mustang with tinted windows outside the SunBreak shop",
+          "width": 1300,
+          "height": 1619
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/camaro.webp",
+          "alt": "A classic blue Camaro with tinted windows",
+          "width": 1200,
+          "height": 1500
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/frosted-office.webp",
+          "alt": "Frosted privacy film along an office’s glass wall",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/house.webp",
+          "alt": "A brick home with newly tinted windows",
+          "width": 1200,
+          "height": 1500
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/storefront-film.webp",
+          "alt": "A storefront with tinted windows and frosted doors",
+          "width": 1200,
+          "height": 1500
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/frosted-doors.webp",
+          "alt": "Frosted film on a set of interior glass doors",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/sliding-doors.webp",
+          "alt": "Tinted sliding glass doors looking out to a yard",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/sunbreak-window-tinting/shop-suv.webp",
+          "alt": "A black SUV with tinted windows outside the shop",
+          "width": 1300,
+          "height": 1733
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "locations",
+      "nav": "Locations",
+      "eyebrow": "Two convenient shops",
+      "title": "Aiken *and North Augusta*",
+      "columns": [
+        {
+          "title": "Aiken",
+          "items": [
+            "2153 Whiskey Road",
+            "Aiken, SC 29803",
+            "(803) 226-0035"
+          ]
+        },
+        {
+          "title": "North Augusta",
+          "items": [
+            "125 Merovan Drive, Unit 3",
+            "North Augusta, SC",
+            "(803) 426-8067"
+          ]
+        },
+        {
+          "title": "Hours",
+          "items": [
+            "Monday to Friday, 9 am to 5 pm",
+            "Saturday, 9 am to 1 pm",
+            "Walk-ins welcome"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What’s the difference with ceramic tint?",
+          "a": "Ceramic film uses non-metallic particles, so it rejects more heat, cuts more glare and lasts longer than dyed or carbon film, without interfering with phone, GPS, radio or keyless entry."
+        },
+        {
+          "q": "How long does tint last?",
+          "a": "High-quality ceramic film can last 10 years or more with professional installation and care, and is often backed by a manufacturer’s warranty."
+        },
+        {
+          "q": "Do you tint homes and businesses too?",
+          "a": "Yes: solar, security, privacy and decorative film for homes, offices and storefronts."
+        },
+        {
+          "q": "Do I need an appointment?",
+          "a": "Walk-ins are welcome at both shops. Call for a free, no-obligation estimate on bigger projects."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready for a cooler ride?",
+      "text": "Call either shop for a free estimate, or just stop by.",
+      "cta": {
+        "label": "Call (803) 226-0035",
+        "href": "tel:+18032260035"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "formTitle": "Get a free quote",
+    "formTopics": [
+      "Car tint",
+      "Ceramic tint",
+      "Home window film",
+      "Commercial or storefront film",
+      "Something else"
+    ]
+  },
+  "slug": "sunbreak-window-tinting",
+  "added": "2026-11-19",
+  "prospect": "sunbreak-window-tinting",
+  "source": {
+    "url": "https://sunbreaktint.com/",
+    "before": [
+      "The business name is spelled three ways across the site: SunBreak, Sun Break and Sunbreak",
+      "Zooming is blocked on phones, so customers can’t enlarge small text",
+      "On a phone, the first screen shows no phone number or call button",
+      "Google Lighthouse speed score on a phone: 27 out of 100, with the main content taking about 5.5 seconds"
+    ],
+    "after": [
+      "Every kind of film on one screen, in plain words",
+      "Both shops, phone numbers and hours in one place",
+      "The family story up front",
+      "One tap to call for a free quote"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

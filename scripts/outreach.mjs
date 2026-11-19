@@ -182,6 +182,7 @@ Not interested? Reply "no thanks" and I will not contact you again.`;
 | Current site | ${none ? 'none (listing: ' + d.source.url + ')' : `${d.source.url} (${row.siteState || 'not audited'})`} |
 | Concept | ${link} |
 | Checkup | ${report} |
+| One-page summary | ${base}/${d.slug}/card/ (PDF to print and leave behind: print/one-page/${d.slug}.pdf) |
 | SEO & social report | ${base}/${d.slug}/seo/ (PDF: print/seo/${d.slug}-seo-report.pdf) |
 
 ## Email

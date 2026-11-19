@@ -347,6 +347,7 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
         <div class="rp-qr" set:html={qr} aria-label={`QR code for ${conceptUrl}`} role="img"></div>
         <p class="rp-actions">
           <a class="rp-btn" href={`/${demo.slug}/`}>Open the concept<Icon name="arrow-right" size={18} stroke={2.2} /></a>
+          <a class="rp-btn rp-ghost" href={`/${demo.slug}/card/`}>One-page summary</a>
           {site.contactPhone && <a class="rp-btn rp-ghost" href={telHref(site.contactPhone)}>Call {site.contactPhone}</a>}
           {site.contactEmail && <a class="rp-btn rp-ghost" href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(`Website concept for ${demo.name}`)}`}>{site.contactEmail}</a>}
         </p>

@@ -1412,11 +1412,18 @@
  },
  "eudora-wildlife-safari-park": {
   "site": {
-   "bytes": 3136078,
-   "requests": 213,
-   "loadMs": 4124,
+   "bytes": 3098959,
+   "requests": 221,
+   "loadMs": 4457,
    "url": "https://www.eudorasafaripark.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 404102,
+   "requests": 7,
+   "loadMs": 186,
+   "url": "/eudora-wildlife-safari-park/",
+   "at": "2026-11-19"
   }
  },
  "evello-med-spa": {
@@ -2956,11 +2963,18 @@
  },
  "prime-steakhouse": {
   "site": {
-   "bytes": 6049048,
+   "bytes": 6052986,
    "requests": 95,
-   "loadMs": 2465,
+   "loadMs": 3009,
    "url": "https://primesteakhouseaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 480144,
+   "requests": 7,
+   "loadMs": 194,
+   "url": "/prime-steakhouse/",
+   "at": "2026-11-19"
   }
  },
  "prioritypet-urgent-care": {
@@ -3441,11 +3455,18 @@
  },
  "sunbreak-window-tinting": {
   "site": {
-   "bytes": 2363894,
-   "requests": 74,
-   "loadMs": 2627,
+   "bytes": 2373838,
+   "requests": 73,
+   "loadMs": 3063,
    "url": "https://sunbreaktint.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 555579,
+   "requests": 7,
+   "loadMs": 162,
+   "url": "/sunbreak-window-tinting/",
+   "at": "2026-11-19"
   }
  },
  "stark-plumbing-llc": {

@@ -315,6 +315,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "eudora-wildlife-safari-park": {
+  "q": "219 Salem Lane, Salley, SC 29137",
+  "lat": 33.653771,
+  "lon": -81.252585,
+  "kind": "tourism",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "fermata-club": {
   "q": "841 Whiskey Road, Aiken, SC 29801",
   "lat": 33.543977,
@@ -693,6 +701,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "prime-steakhouse": {
+  "q": "316 Richland Avenue West, Aiken, SC 29801",
+  "lat": 33.561583,
+  "lon": -81.722813,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "rebel-ranch-horse-tours": {
   "q": "Warrenville, SC 29851",
   "lat": 33.550156,
@@ -761,6 +777,14 @@
   "q": "598 Silver Bluff Road, Suite 1, Aiken, SC 29803",
   "lat": 33.509439,
   "lon": -81.739752,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "sunbreak-window-tinting": {
+  "q": "2153 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.515205,
+  "lon": -81.714959,
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"

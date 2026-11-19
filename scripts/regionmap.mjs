@@ -101,13 +101,18 @@ async function frame({ pts, W, H, z, pad, roads, placeClasses, minPlaceRank = 99
   return { w: W, h: H, water: j(L.water), green: j(L.green), waterway: j(L.waterway), major: j(L.major), mid: j(L.mid), minor: j(L.minor), labels, pins };
 }
 
-// Region: every pin. Close-up: the downtown Aiken cluster.
-const region = await frame({ pts: points, W: 1000, H: 640, z: 11, pad: 0.12, roads: { motorway: 'major', trunk: 'major', primary: 'major', secondary: 'mid', tertiary: 'minor' }, placeClasses: ['city', 'town', 'village'] });
+// Region: every pin within FAR km of downtown Aiken, so one far-off business
+// can't shrink the whole map; any farther out are listed under it instead.
+// Close-up: the downtown Aiken cluster.
 const center = { lat: 33.5604, lon: -81.7196 }; // Laurens Street and Richland Avenue
-const near = points.filter(({ g }) => Math.hypot((g.lat - center.lat) * 111, (g.lon - center.lon) * 92.6) < 1.6);
+const km = ({ g }) => Math.hypot((g.lat - center.lat) * 111, (g.lon - center.lon) * 92.6);
+const FAR = 35;
+const outside = points.filter((p) => km(p) > FAR).map(({ d }) => ({ slug: d.slug, name: d.name, town: d.town }));
+const region = await frame({ pts: points.filter((p) => km(p) <= FAR), W: 1000, H: 640, z: 11, pad: 0.12, roads: { motorway: 'major', trunk: 'major', primary: 'major', secondary: 'mid', tertiary: 'minor' }, placeClasses: ['city', 'town', 'village'] });
+const near = points.filter((p) => km(p) < 1.6);
 const downtown = await frame({ pts: near, W: 640, H: 640, z: 14, pad: 0.16, roads: { motorway: 'major', trunk: 'major', primary: 'major', secondary: 'major', tertiary: 'mid', minor: 'minor', service: 'minor' }, placeClasses: [] });
 // Where the close-up sits on the regional map, for the outline drawn there.
 const xs = downtown.pins.length ? near.map(({ d }) => region.pins.find((p) => p.slug === d.slug)) : [];
 const box = xs.length ? { x: Math.min(...xs.map((p) => p.x)) - 8, y: Math.min(...xs.map((p) => p.y)) - 8, w: Math.max(...xs.map((p) => p.x)) - Math.min(...xs.map((p) => p.x)) + 16, h: Math.max(...xs.map((p) => p.y)) - Math.min(...xs.map((p) => p.y)) + 16 } : null;
-await writeFile(path.join(ROOT, 'data', 'regionmap.json'), JSON.stringify({ region, downtown, box, made: new Date().toISOString().slice(0, 10) }) + '\n');
+await writeFile(path.join(ROOT, 'data', 'regionmap.json'), JSON.stringify({ region, downtown, box, outside, made: new Date().toISOString().slice(0, 10) }) + '\n');
 console.log(`regionmap: ${region.pins.length} pins across the region (${region.labels.map((l) => l.name).join(', ')}); ${downtown.pins.length} in downtown Aiken; ${(JSON.stringify({ region, downtown }).length / 1024).toFixed(0)} KB`);
