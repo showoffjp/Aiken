@@ -709,11 +709,18 @@
  },
  "board-in-aiken": {
   "site": {
-   "bytes": 6573665,
+   "bytes": 6573664,
    "requests": 35,
-   "loadMs": 1828,
+   "loadMs": 1935,
    "url": "https://www.boardinaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 370952,
+   "requests": 8,
+   "loadMs": 173,
+   "url": "/board-in-aiken/",
+   "at": "2026-11-19"
   }
  },
  "bobbys-bar-b-q-buffet": {
@@ -1460,11 +1467,18 @@
  },
  "g-and-s-computing-inc": {
   "site": {
-   "bytes": 6441765,
+   "bytes": 6445961,
    "requests": 44,
-   "loadMs": 2595,
+   "loadMs": 2268,
    "url": "https://www.gscompinc.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 308511,
+   "requests": 5,
+   "loadMs": 137,
+   "url": "/g-and-s-computing/",
+   "at": "2026-11-19"
   }
  },
  "gl-brightharp-and-sons-mortuary": {
@@ -1659,11 +1673,18 @@
  },
  "harrison-k-9-security-services-llc": {
   "site": {
-   "bytes": 3033399,
+   "bytes": 3034236,
    "requests": 75,
-   "loadMs": 3701,
+   "loadMs": 2754,
    "url": "https://harrisonk9.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 899009,
+   "requests": 9,
+   "loadMs": 96,
+   "url": "/harrison-k9/",
+   "at": "2026-11-19"
   }
  },
  "hawthorne-aiken-pharmacy": {

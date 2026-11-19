@@ -288,12 +288,13 @@ body[data-services="tiles"] .cards > .card:nth-child(3n) { background: var(--acc
 [data-facts="big"] .facts li { text-align: center; border-left: 1px solid var(--line); padding: 34px 20px; }
 [data-facts="big"] .facts li:first-child { padding-left: 20px; border-left: 0; }
 [data-facts="big"] .facts strong { font-size: clamp(1.7rem, 3.2vw, 2.7rem); color: var(--primary-text, var(--primary)); letter-spacing: -.03em; text-wrap: balance; }
-/* Cinematic pages paint facts on the dark strip; "big" facts sit on the page instead, so their labels go back to the page colours. */
-[data-cinematic][data-facts="big"] .facts { color: var(--ink); }
+/* Cinematic pages paint facts on the dark strip; "big" facts and "badges" sit on the page instead, so their labels go back to the page colours. */
+[data-cinematic][data-facts="big"] .facts, [data-cinematic][data-facts="badges"] .facts { color: var(--ink); }
 [data-cinematic][data-facts="big"] .facts strong { color: var(--primary-text, var(--primary)); }
-[data-cinematic][data-facts="big"] .facts span { color: var(--muted); }
-[data-cinematic][data-facts="big"] .facts li { border-color: var(--line); }
-[data-cinematic][data-facts="big"] .facts li:hover { background: transparent; }
+[data-cinematic][data-facts="badges"] .facts strong { color: var(--on-primary); }
+[data-cinematic][data-facts="big"] .facts span, [data-cinematic][data-facts="badges"] .facts span { color: var(--muted); }
+[data-cinematic][data-facts="big"] .facts li, [data-cinematic][data-facts="badges"] .facts li { border-color: var(--line); }
+[data-cinematic][data-facts="big"] .facts li:hover, [data-cinematic][data-facts="badges"] .facts li:hover { background: transparent; }
 [data-facts="badges"] .facts { border: 0; background: transparent; padding-block: 28px; }
 [data-facts="badges"] .facts ul { gap: 18px; justify-content: center; }
 [data-facts="badges"] .facts li { border: 0; padding: 0; display: grid; justify-items: center; text-align: center; }
@@ -303,6 +304,8 @@ body[data-services="tiles"] .cards > .card:nth-child(3n) { background: var(--acc
 [data-facts="ticker"] .facts { overflow: hidden; background: var(--deep, #14181b); color: #fff; border: 0; }
 [data-facts="ticker"] .facts .wrap { display: flex; width: max-content; max-width: none; padding: 0; animation: hx-marquee 40s linear infinite; }
 [data-facts="ticker"] .facts ul { display: flex; flex: none; }
+/* The clean look boxes the facts in a white card; a ticker runs on the dark strip instead. */
+[data-look="clean"][data-facts="ticker"] .facts ul { background: transparent; border: 0; border-radius: 0; padding-inline: 0; box-shadow: none; }
 [data-facts="ticker"] .facts li { display: flex; align-items: baseline; gap: 12px; padding: 18px 34px; border-left: 1px solid rgb(255 255 255 / .2); border-top: 0; white-space: nowrap; }
 [data-facts="ticker"] .facts li:hover { background: rgb(255 255 255 / .06); }
 [data-facts="ticker"] .facts strong { color: var(--accent-on-deep, #fff); font-size: 1.4rem; }

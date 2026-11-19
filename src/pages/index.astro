@@ -1,5 +1,6 @@
 ---
 // Portfolio index: every redesign concept in one place.
+import MotionToggle from '../components/demo/MotionToggle.astro';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../components/Icon.astro';
@@ -85,6 +86,7 @@ const features = [
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script is:inline>try { if (localStorage.getItem('motion') === 'paused') document.documentElement.classList.add('motion-paused'); } catch {}</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {!site.indexable && <meta name="robots" content="noindex, nofollow" />}
     <title>{`${site.name} — website concepts for Aiken-area businesses`}</title>
@@ -154,9 +156,12 @@ const features = [
         <svg class="hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50 C 240 100 480 0 720 40 S 1200 100 1440 30 V90 H0 Z" /></svg>
       </section>
 
+      <div class="ribbon-wrap">
       <div class="ribbon" aria-hidden="true">
         <div class="band b2"><div class="track">{[...towns, ...towns, ...towns, ...towns, ...towns, ...towns].map((t) => <span>{t}<i>✦</i></span>)}</div></div>
         <div class="band b1"><div class="track">{[...kinds, ...kinds].map((k) => <span>{k}<i>✦</i></span>)}</div></div>
+      </div>
+        <MotionToggle />
       </div>
 
       <section class="concepts" id="concepts">
@@ -240,10 +245,32 @@ const features = [
         <p class="foot-brand"><span class="glyph"><svg viewBox="0 0 32 32" width="16" height="16" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="glint" aria-hidden="true"></i></span><strong>{site.name}</strong></p>
         <p>{site.tagline}</p>
         {(site.contactPhone || site.contactEmail) && <p class="foot-contact">{site.contactPhone && <a href={telHref(site.contactPhone)}>{site.contactPhone}</a>}{site.contactPhone && site.contactEmail && <span aria-hidden="true"> · </span>}{site.contactEmail && <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}</p>}
+        <p class="foot-motion"><MotionToggle variant="link" /></p>
         <p class="fine">These are unsolicited design concepts. Business names, logos, words and photographs belong to their respective owners and are shown only to illustrate a proposed redesign. No concept is the official website of the business it depicts.</p>
       </div>
     </footer>
 
+    <script is:inline>
+      // Pause or play the page's animations (WCAG 2.2.2); one setting for
+      // every toggle, shared with the concept pages on this device.
+      (() => {
+        const root = document.documentElement;
+        const sync = () => {
+          const paused = root.classList.contains('motion-paused');
+          document.querySelectorAll('[data-motion-toggle]').forEach((b) => {
+            b.setAttribute('aria-pressed', String(paused));
+            if (b.classList.contains('motion-link')) b.textContent = paused ? 'Play animations' : 'Pause animations';
+            else { b.setAttribute('aria-label', paused ? 'Play animations' : 'Pause animations'); b.title = b.getAttribute('aria-label'); }
+          });
+        };
+        sync();
+        document.querySelectorAll('[data-motion-toggle]').forEach((b) => b.addEventListener('click', () => {
+          const paused = root.classList.toggle('motion-paused');
+          try { localStorage.setItem('motion', paused ? 'paused' : 'on'); } catch {}
+          sync();
+        }));
+      })();
+    </script>
     <script is:inline>
       (() => {
         const grid = document.querySelector('[data-grid]');
@@ -582,4 +609,14 @@ const features = [
     body::after { display: none; }
   }
   @media print { .aurora, .hero-grid, .hero-glow, .sparks, .wall, .ribbon, body::before, body::after { display: none !important; } .hero, .included, .foot, .cta { color: #000; background: none; } }
+  /* Pause animations (MotionToggle) */
+  html.motion-paused *, html.motion-paused *::before, html.motion-paused *::after { animation-play-state: paused !important; }
+  .ribbon-wrap { position: relative; }
+  .motion-btn { position: absolute; z-index: 4; right: max(12px, env(safe-area-inset-right)); top: 50%; translate: 0 -50%; width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border-radius: 50%; border: 1px solid rgb(0 0 0 / .1); background: #fff; color: #10201a; box-shadow: 0 8px 20px -10px rgb(0 0 0 / .45); cursor: pointer; }
+  .motion-btn svg { width: 17px; height: 17px; fill: currentColor; }
+  .motion-btn .mi-play, .motion-btn[aria-pressed="true"] .mi-pause { display: none; }
+  .motion-btn[aria-pressed="true"] .mi-play { display: block; }
+  .motion-link { padding: 2px 0; min-height: 24px; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .motion-btn:focus-visible, .motion-link:focus-visible { outline: 3px solid #12b886; outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { .motion-btn, .foot-motion { display: none; } }
 </style>

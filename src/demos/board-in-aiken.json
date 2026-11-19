@@ -1,0 +1,328 @@
+{
+  "name": "Board in Aiken",
+  "short": "Board in Aiken",
+  "category": "Charcuterie & Catering",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "cormorant",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fbf7f1",
+    "surface": "#ffffff",
+    "ink": "#2b2420",
+    "muted": "#6b5d52",
+    "primary": "#6b2f3a",
+    "onPrimary": "#ffffff",
+    "accent": "#8fa36b",
+    "line": "#ece2d6"
+  },
+  "radius": 14,
+  "icon": "grape",
+  "contact": {
+    "phone": "(803) 646-8630",
+    "email": "boardinaiken@gmail.com",
+    "address": [
+      "6160 Woodside Executive Court",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Board in Aiken, 6160 Woodside Executive Ct, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/boardinaiken/",
+    "instagram": "https://www.instagram.com/boardinaiken/"
+  },
+  "hero": {
+    "eyebrow": "Charcuterie & specialty boards in Aiken",
+    "title": "Handcrafted, *made fresh*",
+    "lede": "Boards built the day you enjoy them by two best friends, Ashley and Casey: cured meats and cheeses, fresh fruit and veggies, dips and something pickled. Curbside pickup, or delivery in Aiken for $15.",
+    "points": [
+      "Mini Grazers to XL boards",
+      "Brunch, kid & sweets boards",
+      "Delivered in Aiken"
+    ],
+    "cta": {
+      "label": "See the boards",
+      "href": "#boards"
+    },
+    "cta2": {
+      "label": "Call (803) 646-8630",
+      "href": "tel:+18036468630"
+    },
+    "image": {
+      "src": "/demo-assets/board-in-aiken/board-hands.webp",
+      "alt": "Hands reaching for crackers and cheese on a long wooden charcuterie board",
+      "width": 1918,
+      "height": 1278
+    }
+  },
+  "facts": [
+    {
+      "value": "$14",
+      "label": "Mini Grazer, the smallest board"
+    },
+    {
+      "value": "$15",
+      "label": "Delivery anywhere in Aiken"
+    },
+    {
+      "value": "1 day",
+      "label": "Notice we like for an order"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "boards",
+      "nav": "Boards",
+      "eyebrow": "Order a board",
+      "title": "Traditional *charcuterie*",
+      "intro": "Every traditional board has cured meats, cheeses, veggies and dip, fresh fruit, crackers or bread, and something pickled. We change it up with what’s fresh, so just tell us anything to leave off.",
+      "groups": [
+        {
+          "title": "Traditional charcuterie",
+          "items": [
+            {
+              "name": "Mini Grazer",
+              "price": "$14",
+              "desc": "One person, packed to go; a minimum of 6"
+            },
+            {
+              "name": "Bento",
+              "price": "$24",
+              "desc": "A snack for two, or a meal for one"
+            },
+            {
+              "name": "Small",
+              "price": "$59",
+              "desc": "A meal for 3–4, or appetizers for 6–8"
+            },
+            {
+              "name": "Tweener",
+              "price": "$95",
+              "desc": "A meal for 4–6, or appetizers for about 10"
+            },
+            {
+              "name": "Medium",
+              "price": "$148",
+              "desc": "A meal for 6–8, or appetizers for about 12"
+            },
+            {
+              "name": "Large",
+              "price": "$264",
+              "desc": "A meal for 12–18, or appetizers for 25 or more, on a real wooden board"
+            },
+            {
+              "name": "Extra Large",
+              "price": "$310",
+              "desc": "Built tall for a crowd, on a real board returned the next day"
+            }
+          ]
+        },
+        {
+          "title": "More boards",
+          "note": "Ask for sizes and prices",
+          "items": [
+            {
+              "name": "Brunch Board",
+              "desc": "Homemade mini bagels and cream cheese, mini quiche and yogurt parfaits, with charcuterie"
+            },
+            {
+              "name": "Kid Board",
+              "desc": "Ham or turkey Hawaiian roll sammies, veggies and dip, fruit, cheese, pepperoni and sweet bites"
+            },
+            {
+              "name": "Sammie & charcuterie combo",
+              "desc": "Sandwiches and a traditional board in one"
+            },
+            {
+              "name": "Fruit Board",
+              "desc": "Fresh fruit with a homemade fruit dip"
+            },
+            {
+              "name": "Veggie Board",
+              "desc": "All the fresh veggies, with two dips"
+            }
+          ]
+        },
+        {
+          "title": "Sweets & extras",
+          "items": [
+            {
+              "name": "Small Sweets Board",
+              "price": "$50",
+              "desc": "Mini pound cake, chocolate chunk cookies, macarons and chocolate bites"
+            },
+            {
+              "name": "Medium Sweets Board",
+              "price": "$110"
+            },
+            {
+              "name": "Candied bacon",
+              "price": "$35",
+              "desc": "One pound"
+            },
+            {
+              "name": "Spinach artichoke dip",
+              "price": "$6",
+              "desc": "8 oz"
+            },
+            {
+              "name": "Gluten-free crackers",
+              "price": "$3"
+            },
+            {
+              "name": "Happy Birthday pick",
+              "price": "$1.50"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices from the online order page. You pay through Toast when you order."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Fresh from the kitchen",
+      "title": "Boards *worth a photo*",
+      "images": [
+        {
+          "src": "/demo-assets/board-in-aiken/traditional.webp",
+          "alt": "A traditional board with cheeses, salami, carrots, celery, grapes and pickles around a dip",
+          "width": 959,
+          "height": 622
+        },
+        {
+          "src": "/demo-assets/board-in-aiken/spread.webp",
+          "alt": "Brunch bites, bagels and charcuterie boards laid out for a party",
+          "width": 1154,
+          "height": 822
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet Ashley & Casey",
+      "title": "Best friends, *and board besties*",
+      "image": {
+        "src": "/demo-assets/board-in-aiken/ashley-casey.webp",
+        "alt": "Ashley and Casey in their kitchen with wine and a charcuterie board",
+        "width": 499,
+        "height": 613
+      },
+      "body": [
+        "We are best friends who found each other in adulthood, even though we grew up in the same small town. We couldn’t have more opposite personalities, and that’s what makes us click.",
+        "We share a passion for creating, planning, laughing and drinking wine. Both of us are boy moms, and every board we make is customized and special: no two are the same."
+      ],
+      "list": [
+        "Curbside pickup for everyone",
+        "Delivery in Aiken for $15",
+        "Real wooden trays and serving pieces for events"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Board besties say",
+      "title": "Kind *words*",
+      "items": [
+        {
+          "text": "First time ordering and was very impressed with the quality and quantity of the Board! Made a beautiful anniversary surprise!",
+          "by": "Rebecca S."
+        },
+        {
+          "text": "Got a small bento box for a friend as a birthday present, it was PERFECT! Affordable, the perfect size, and arranged amazingly!",
+          "by": "Carlee L."
+        },
+        {
+          "text": "I’ve loved every board I’ve ordered for myself, get-togethers, and just for the kids! It’s so convenient to have them delivered right to your door.",
+          "by": "Jenn F."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How far ahead should I order?",
+          "a": "We like a day’s notice but can sometimes do same day, so always call and ask. We’re closed on Sundays, but call and ask then too."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Curbside pickup is available to everyone. We deliver in Aiken for $15; outside Aiken, ask about the delivery charge."
+        },
+        {
+          "q": "Can I send a board as a gift?",
+          "a": "Yes. Give us the address and we’ll take it to them, with a note if you like. Make sure they’ll be home, as we can’t leave food outside."
+        },
+        {
+          "q": "What about allergies?",
+          "a": "Tell us and we’ll leave it off. Our kitchen does use a variety of nuts, so we can’t guarantee there’s no cross-contamination."
+        },
+        {
+          "q": "How long can a board sit out?",
+          "a": "The CDC recommends refrigerated food not sit out longer than two hours. For travel, bring a cooler and a few ice packs."
+        },
+        {
+          "q": "Do you cater events?",
+          "a": "Yes: larger boards and grazing tables, priced by size, on real wooden trays with serving pieces that come back to us the next day."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Feeling BOARD?",
+      "text": "Order a board for pickup or delivery, or call to plan an event.",
+      "cta": {
+        "label": "Call (803) 646-8630",
+        "href": "tel:+18036468630"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Pick up on *Woodside Executive Court*",
+    "formTitle": "Plan a board or an event",
+    "formTopics": [
+      "A board",
+      "A gift",
+      "An event or grazing table",
+      "A themed board",
+      "A donation request"
+    ]
+  },
+  "slug": "board-in-aiken",
+  "added": "2026-11-19",
+  "prospect": "board-in-aiken",
+  "source": {
+    "url": "https://www.boardinaiken.com/",
+    "before": [
+      "Prices are only on a separate ordering page, and the site never lists opening hours",
+      "On a phone the main image takes about 12 seconds to appear on a 6.6 MB page (Google Lighthouse speed score: 69 out of 100)",
+      "27 accessibility problems, most of them text too faint to read",
+      "No preview when the link is shared, and no business details for Google"
+    ],
+    "after": [
+      "Every board, its size and its price on the first screens",
+      "Pickup, delivery and gift orders explained up front",
+      "Ashley and Casey’s story with their photo",
+      "One tap to call or order"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "facts": "strip",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

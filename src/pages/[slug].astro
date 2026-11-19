@@ -10,6 +10,7 @@ import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
 import StreetMap from '../components/demo/StreetMap.astro';
+import MotionToggle from '../components/demo/MotionToggle.astro';
 import { streetMap } from '../lib/streets';
 import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, tint, coverSizes, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
@@ -100,6 +101,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script is:inline>try { if (localStorage.getItem('motion') === 'paused') document.documentElement.classList.add('motion-paused'); } catch {}</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>{`${demo.name} — website concept`}</title>
@@ -223,14 +225,17 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
 
       <span id="main-content"></span>
       {ribbon && (
+        <div class="fx-ribbon-wrap">
         <div class="fx-ribbon" aria-hidden="true">
           <div class="fx-band b2"><div class="fx-track">{[...ribbonWords, ...ribbonWords, ...ribbonWords, ...ribbonWords].map((w) => <span>{w}<svg viewBox="0 0 24 24"><path d="M12 1.5c.6 5.2 3.3 8 8.5 8.6-5.2.6-7.9 3.3-8.5 8.5-.6-5.2-3.3-7.9-8.5-8.5 5.2-.6 7.9-3.4 8.5-8.6z" /></svg></span>)}</div></div>
           <div class="fx-band b1"><div class="fx-track">{[...ribbonWords, ...ribbonWords, ...ribbonWords, ...ribbonWords].map((w) => <span>{w}<svg viewBox="0 0 24 24"><path d="M12 1.5c.6 5.2 3.3 8 8.5 8.6-5.2.6-7.9 3.3-8.5 8.5-.6-5.2-3.3-7.9-8.5-8.5 5.2-.6 7.9-3.4 8.5-8.6z" /></svg></span>)}</div></div>
         </div>
+          <MotionToggle />
+        </div>
       )}
       {demo.facts && !factsInHero && (
         <section class="facts" aria-label="At a glance">
-          <div class="wrap"><ul>{demo.facts.map((f) => <li style={`--ch:${factCh(f.value)}`}><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>{st.facts === 'ticker' && <ul aria-hidden="true">{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}</div>
+          <div class="wrap"><ul>{demo.facts.map((f) => <li style={`--ch:${factCh(f.value)}`}><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>{st.facts === 'ticker' && <ul aria-hidden="true">{demo.facts.map((f) => <li><strong>{f.value}</strong><span>{f.label}</span></li>)}</ul>}</div>{st.facts === 'ticker' && <MotionToggle />}
         </section>
       )}
 
@@ -351,6 +356,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         <div class="legal">
           <span>© {year} {demo.name}</span>
           <span>Website concept by <a href="/">{site.name}</a>. Not affiliated with or endorsed by {demo.name.replace(/\.$/, '')}.</span>
+          <MotionToggle variant="link" />
         </div>
       </div>
     </footer>
@@ -474,6 +480,22 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             document.querySelectorAll('[data-open-now]').forEach((el) => { el.textContent = text; el.dataset.state = state; el.hidden = false; });
           }
         }
+
+        // Pause or play the page's animations; every toggle shares one setting.
+        const motionSync = () => {
+          const paused = root.classList.contains('motion-paused');
+          document.querySelectorAll('[data-motion-toggle]').forEach((b) => {
+            b.setAttribute('aria-pressed', String(paused));
+            if (b.classList.contains('motion-link')) b.textContent = paused ? 'Play animations' : 'Pause animations';
+            else { b.setAttribute('aria-label', paused ? 'Play animations' : 'Pause animations'); b.title = b.getAttribute('aria-label'); }
+          });
+        };
+        motionSync();
+        document.querySelectorAll('[data-motion-toggle]').forEach((b) => b.addEventListener('click', () => {
+          const paused = root.classList.toggle('motion-paused');
+          try { localStorage.setItem('motion', paused ? 'paused' : 'on'); } catch {}
+          motionSync();
+        }));
 
         // Google's interactive map loads only when asked for: the drawn map is
         // already there, and nothing is fetched from Google before the tap.

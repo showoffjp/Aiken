@@ -3668,5 +3668,83 @@
    "cls": 0,
    "at": "2026-11-19"
   }
+ },
+ "board-in-aiken": {
+  "site": {
+   "performance": 69,
+   "accessibility": 79,
+   "bestPractices": 100,
+   "seo": 91,
+   "fcp": 3151,
+   "lcp": 11746,
+   "tbt": 25,
+   "si": 3151,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 92,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2104,
+   "tbt": 43,
+   "si": 1204,
+   "cls": 0.162,
+   "at": "2026-11-19"
+  }
+ },
+ "g-and-s-computing-inc": {
+  "site": {
+   "performance": 46,
+   "accessibility": 65,
+   "bestPractices": 50,
+   "seo": 91,
+   "fcp": 2285,
+   "lcp": 27810,
+   "tbt": 702,
+   "si": 9370,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 944,
+   "lcp": 1952,
+   "tbt": 189,
+   "si": 944,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "harrison-k-9-security-services-llc": {
+  "site": {
+   "performance": 61,
+   "accessibility": 90,
+   "bestPractices": 96,
+   "seo": 100,
+   "fcp": 2921,
+   "lcp": 7204,
+   "tbt": 404,
+   "si": 2921,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2406,
+   "tbt": 147,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
  }
 }
