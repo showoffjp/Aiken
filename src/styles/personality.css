@@ -306,6 +306,7 @@ body[data-services="tiles"] .cards > .card:nth-child(3n) { background: var(--acc
 [data-facts="ticker"] .facts ul { display: flex; flex: none; }
 /* The clean look boxes the facts in a white card; a ticker runs on the dark strip instead. */
 [data-look="clean"][data-facts="ticker"] .facts ul { background: transparent; border: 0; border-radius: 0; padding-inline: 0; box-shadow: none; }
+[data-look="clean"][data-cinematic]:not([data-facts]) .facts ul { background: transparent; border: 0; border-radius: 0; box-shadow: none; }
 [data-facts="ticker"] .facts li { display: flex; align-items: baseline; gap: 12px; padding: 18px 34px; border-left: 1px solid rgb(255 255 255 / .2); border-top: 0; white-space: nowrap; }
 [data-facts="ticker"] .facts li:hover { background: rgb(255 255 255 / .06); }
 [data-facts="ticker"] .facts strong { color: var(--accent-on-deep, #fff); font-size: 1.4rem; }
