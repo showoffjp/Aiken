@@ -510,11 +510,18 @@
  },
  "automotive-workbench": {
   "site": {
-   "bytes": 5637859,
+   "bytes": 5640693,
    "requests": 97,
-   "loadMs": 2554,
+   "loadMs": 4085,
    "url": "https://www.awbench.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 470355,
+   "requests": 7,
+   "loadMs": 169,
+   "url": "/automotive-workbench/",
+   "at": "2026-11-19"
   }
  },
  "atomic-heating-and-air": {
@@ -1028,11 +1035,18 @@
  },
  "cavaliers-coffeehouse": {
   "site": {
-   "bytes": 3444495,
-   "requests": 163,
-   "loadMs": 3409,
+   "bytes": 3408372,
+   "requests": 160,
+   "loadMs": 4765,
    "url": "https://www.cavscoffee.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 393100,
+   "requests": 8,
+   "loadMs": 225,
+   "url": "/cavaliers-coffeehouse/",
+   "at": "2026-11-19"
   }
  },
  "cedar-creek-golf-club": {
@@ -3440,11 +3454,18 @@
  },
  "tabs-professional-transportation": {
   "site": {
-   "bytes": 6961115,
-   "requests": 265,
-   "loadMs": 4541,
+   "bytes": 6206426,
+   "requests": 218,
+   "loadMs": 4857,
    "url": "https://www.tabsprofessionaltransportation.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 290761,
+   "requests": 5,
+   "loadMs": 162,
+   "url": "/tabs-professional-transportation/",
+   "at": "2026-11-19"
   }
  },
  "taste-of-gold-cakery": {

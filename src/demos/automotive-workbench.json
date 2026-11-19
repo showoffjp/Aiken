@@ -1,0 +1,269 @@
+{
+  "name": "Automotive Workbench",
+  "short": "Automotive Workbench",
+  "category": "Auto Repair",
+  "group": "Auto & Equipment",
+  "town": "Aiken, SC",
+  "established": "1973",
+  "look": "clean",
+  "fonts": {
+    "display": "outfit",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f6f9",
+    "surface": "#ffffff",
+    "ink": "#0f1b2a",
+    "muted": "#4a5a6b",
+    "primary": "#124574",
+    "onPrimary": "#ffffff",
+    "accent": "#e8a33d",
+    "line": "#dbe3ec"
+  },
+  "radius": 12,
+  "icon": "wrench",
+  "contact": {
+    "phone": "(803) 384-9539",
+    "address": [
+      "958 East Pine Log Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Automotive Workbench, 958 E Pine Log Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 5:00 pm"
+      ]
+    ],
+    "facebook": "https://facebook.com/awbench"
+  },
+  "hero": {
+    "eyebrow": "Independent auto repair since 1973",
+    "title": "Honest repairs, *done right*",
+    "lede": "One of Aiken’s oldest independently owned repair shops: ASE-certified technicians, Worldpac parts, and a 36-month, 36,000-mile nationwide warranty, on East Pine Log Road.",
+    "points": [
+      "ASE-certified",
+      "Nationwide warranty",
+      "Financing available"
+    ],
+    "cta": {
+      "label": "Book a service",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 384-9539",
+      "href": "tel:+18033849539"
+    }
+  },
+  "facts": [
+    {
+      "value": "1973",
+      "label": "Serving Aiken since"
+    },
+    {
+      "value": "36 / 36K",
+      "label": "Months and miles of nationwide warranty"
+    },
+    {
+      "value": "ASE",
+      "label": "Certified technicians"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 4,
+      "eyebrow": "Quality automotive care",
+      "title": "Everything *your car needs*",
+      "items": [
+        {
+          "icon": "disc",
+          "title": "Brakes",
+          "text": "Inspections of pads, rotors and the hydraulic system, then repairs or replacements."
+        },
+        {
+          "icon": "car-front",
+          "title": "Suspension",
+          "text": "Shocks, struts and control arms for a smooth, controlled ride and even tire wear."
+        },
+        {
+          "icon": "thermometer-snowflake",
+          "title": "Heating & A/C",
+          "text": "Weak airflow, odd smells or no defrost: leaks, compressors and condensers checked."
+        },
+        {
+          "icon": "gauge",
+          "title": "Tune-ups",
+          "text": "Spark plugs, coils and filters for better mileage, smoother idle and quicker starts."
+        },
+        {
+          "icon": "calendar-check",
+          "title": "Preventive maintenance",
+          "text": "Oil changes, tire rotations and the scheduled care that heads off bigger repairs."
+        },
+        {
+          "icon": "circle-dot",
+          "title": "Tires",
+          "text": "Tire service and rotations to keep you safe on the road."
+        },
+        {
+          "icon": "battery-charging",
+          "title": "Electrical",
+          "text": "Diagnostics for batteries, charging, lights and the electronics in today’s cars."
+        },
+        {
+          "icon": "cog",
+          "title": "Transmission",
+          "text": "Service and repair to keep your car shifting the way it should."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our legacy",
+      "title": "A trusted name *since 1973*",
+      "image": {
+        "src": "/demo-assets/automotive-workbench/shop.webp",
+        "alt": "The Automotive Workbench shop on East Pine Log Road, with its sign and a palm tree out front",
+        "width": 1132,
+        "height": 762
+      },
+      "body": [
+        "Since 1973, Automotive Workbench has been a trusted name in auto repair in Aiken. As one of the oldest independently owned repair shops in the area, we take pride in a decades-long commitment to quality, integrity and service.",
+        "We believe trust is earned through honesty: accurate diagnostics and fair pricing, doing what’s right even when no one’s watching. Our goal is long-term relationships, not just transactions."
+      ],
+      "list": [
+        "ASE-certified technicians",
+        "Quality parts from Worldpac",
+        "A TechNet Professional Service shop and Aiken Chamber of Commerce member"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "makes",
+      "nav": "Makes",
+      "eyebrow": "Sedans, SUVs and trucks",
+      "title": "Most makes *and models*",
+      "columns": [
+        {
+          "title": "Everyday",
+          "items": [
+            "Toyota, Honda and Nissan",
+            "Ford, GM and Chrysler",
+            "Hyundai and Kia"
+          ]
+        },
+        {
+          "title": "Luxury & performance",
+          "items": [
+            "Lexus and Volvo",
+            "BMW, Mercedes-Benz and Audi",
+            "Porsche"
+          ]
+        },
+        {
+          "title": "Every visit",
+          "items": [
+            "A clear explanation before any work begins",
+            "Worldpac parts",
+            "A 36-month, 36,000-mile nationwide warranty"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Customer reviews",
+      "title": "Above and *beyond*",
+      "items": [
+        {
+          "text": "Amber J was so sweet! She got me in for a last minute oil change and tire rotation. I don’t come to Aiken often and thought I’d try this place out. I was very pleased with my experience!",
+          "by": "Hannah Bolduc"
+        },
+        {
+          "text": "This place is great and professional. A special shout out to Rick for ensuring my needs were met. You exceeded above and beyond the call of duty.",
+          "by": "Hermeone Williams"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What warranty do repairs carry?",
+          "a": "The TechNet nationwide limited repair warranty: 36 months or 36,000 miles on covered parts and labor. More than 25 miles from the shop? Call the warranty administrator at 1-866-588-0728 before any repairs are made."
+        },
+        {
+          "q": "Can I pay over time?",
+          "a": "Yes. Financing through Synchrony lets you get the repair now and pay in monthly payments."
+        },
+        {
+          "q": "What cars do you work on?",
+          "a": "Most makes and models, from Toyota, Honda and Ford to BMW, Mercedes-Benz and Porsche: sedans, SUVs and trucks."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Friday, 8 am to 5 pm."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Car acting up?",
+      "text": "Call to book a service on East Pine Log Road.",
+      "cta": {
+        "label": "Call (803) 384-9539",
+        "href": "tel:+18033849539"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pine Log Road*",
+    "formTitle": "Book a service",
+    "formTopics": [
+      "An oil change or maintenance",
+      "Brakes",
+      "Heating or A/C",
+      "A warning light",
+      "Something else"
+    ]
+  },
+  "slug": "automotive-workbench",
+  "added": "2026-11-19",
+  "prospect": "automotive-workbench",
+  "source": {
+    "url": "https://www.awbench.com/",
+    "before": [
+      "The home page shows only 3 of the shop’s 8 services",
+      "No email address anywhere on the site",
+      "A 5.4 MB home page whose scripts leave a phone unresponsive to taps for about 1.4 seconds (Google Lighthouse speed score: 63 out of 100)",
+      "7 accessibility problems, 5 of them text too faint to read"
+    ],
+    "after": [
+      "Every service on one screen, in plain words",
+      "The nationwide warranty and financing explained up front",
+      "Hours with an “Open now” sign",
+      "One tap to call and book"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

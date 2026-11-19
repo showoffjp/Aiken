@@ -1,0 +1,215 @@
+{
+  "name": "Tab’s Professional Transportation",
+  "short": "Tab’s Transportation",
+  "category": "Car Service",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f4f4f6",
+    "surface": "#ffffff",
+    "ink": "#121218",
+    "muted": "#50505c",
+    "primary": "#1b1b2f",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a54c",
+    "line": "#e1e1e8"
+  },
+  "radius": 10,
+  "icon": "car-taxi-front",
+  "contact": {
+    "phone": "(864) 901-6550",
+    "phoneLabel": "Call or text",
+    "phone2": "(803) 998-0672",
+    "email": "support@tabsprofessionaltransportation.com",
+    "facebook": "https://www.facebook.com/ridewithtab"
+  },
+  "hero": {
+    "eyebrow": "Prompt · Personal · Professional",
+    "title": "Getting you where *you need to go*",
+    "lede": "A privately owned car service in Aiken, run by owner and driver Tab Butler, for airport runs, weddings, funerals, corporate functions and special events across the CSRA and up to 350 miles away.",
+    "points": [
+      "Airport service",
+      "Weddings & events",
+      "Up to 350 miles"
+    ],
+    "cta": {
+      "label": "Get a quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call or text (864) 901-6550",
+      "href": "tel:+18649016550"
+    }
+  },
+  "facts": [
+    {
+      "value": "350 miles",
+      "label": "How far we’ll take you"
+    },
+    {
+      "value": "ATL",
+      "label": "Hartsfield-Jackson airport runs"
+    },
+    {
+      "value": "Award",
+      "label": "Quality Business Awards for service"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Where we drive",
+      "title": "A car service *for every occasion*",
+      "items": [
+        {
+          "icon": "plane",
+          "title": "Airport service",
+          "text": "Pickups and drop-offs, now including Hartsfield-Jackson Atlanta International."
+        },
+        {
+          "icon": "car-taxi-front",
+          "title": "Personal car service",
+          "text": "Appointments, errands and trips, with a driver who knows the CSRA."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Corporate functions",
+          "text": "Reliable rides for clients, staff and visiting guests."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Special events",
+          "text": "Nights out and celebrations, with no worries about the drive home."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Weddings",
+          "text": "Getting the couple and the wedding party there on time."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Funerals",
+          "text": "Calm, dependable transportation for families on a hard day."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "book",
+      "nav": "How to book",
+      "eyebrow": "Easy to book",
+      "title": "Your ride *in three steps*",
+      "items": [
+        {
+          "title": "Call, text or email",
+          "text": "Reach Tab at (864) 901-6550 or (803) 998-0672, or send an email from the form below."
+        },
+        {
+          "title": "Share the details",
+          "text": "Where you’re going, when, and how many people are riding."
+        },
+        {
+          "title": "Get your quote",
+          "text": "You’ll hear back with a price before you book."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Owner & operator",
+      "title": "Meet *Tab Butler*",
+      "body": [
+        "Tab’s Professional Transportation is a privately owned transportation company in Aiken, serving the CSRA and surrounding areas within 350 miles.",
+        "Recognized by the Quality Business Awards for top professionalism and service, Tab treats every ride the same way: prompt, personal and professional."
+      ],
+      "list": [
+        "Privately owned and locally operated",
+        "Recognized for top professionalism and service",
+        "Call or text for a quote"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you go to the Atlanta airport?",
+          "a": "Yes. We now provide transportation to and from Hartsfield-Jackson Atlanta International Airport."
+        },
+        {
+          "q": "How far will you drive?",
+          "a": "Anywhere within about 350 miles of Aiken."
+        },
+        {
+          "q": "How do I get a price?",
+          "a": "Call or text (864) 901-6550, or send where and when with the quote form below."
+        },
+        {
+          "q": "Can you handle a wedding or a funeral?",
+          "a": "Yes. Weddings, funerals and special events are part of what we do."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Need a ride?",
+      "text": "Call or text for a quote on your next trip.",
+      "cta": {
+        "label": "Call or text (864) 901-6550",
+        "href": "tel:+18649016550"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *your ride*",
+    "formTitle": "Request a quote",
+    "formTopics": [
+      "An airport trip",
+      "A wedding",
+      "A corporate function",
+      "A special event",
+      "Something else"
+    ]
+  },
+  "slug": "tabs-professional-transportation",
+  "added": "2026-11-19",
+  "prospect": "tabs-professional-transportation",
+  "source": {
+    "url": "https://www.tabsprofessionaltransportation.com/",
+    "before": [
+      "On a phone, 95% of the text is smaller than 12 pixels, and 14 of 20 buttons and links are too small to tap",
+      "The Airport page’s title in Google results and browser tabs is “$$$”",
+      "A typo in the first paragraph: “within in 350 miles”",
+      "On a phone the main content takes about 10 seconds to appear (Google Lighthouse speed score: 50 out of 100)"
+    ],
+    "after": [
+      "Every service on the first screens, in plain words",
+      "A simple three-step way to book",
+      "Tab’s story up front",
+      "One tap to call or text for a quote"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "pills",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}
