@@ -2262,9 +2262,9 @@
  "allstar-tents-and-events": {
   "site": {
    "rules": 3,
-   "issues": 9,
+   "issues": 7,
    "critical": 1,
-   "serious": 8,
+   "serious": 6,
    "moderate": 0,
    "minor": 0,
    "top": [
@@ -2272,22 +2272,32 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "nodes": 6
-    },
-    {
-     "id": "link-name",
-     "impact": "serious",
-     "help": "Links must have discernible text",
-     "nodes": 2
+     "nodes": 5
     },
     {
      "id": "image-alt",
      "impact": "critical",
      "help": "Images must have alternative text",
      "nodes": 1
+    },
+    {
+     "id": "link-name",
+     "impact": "serious",
+     "help": "Links must have discernible text",
+     "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "anshu-asian-caf": {
@@ -4940,6 +4950,16 @@
     }
    ],
    "at": "2026-11-17"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "ginger-bee-boutique": {
@@ -9720,7 +9740,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "trustvault-by-private-sector-clearance": {
@@ -9967,7 +9997,17 @@
      "nodes": 2
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "waynes-automotive-and-towing-center-aiken": {

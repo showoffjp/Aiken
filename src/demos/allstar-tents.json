@@ -1,0 +1,298 @@
+{
+  "name": "AllStar Tents & Events",
+  "short": "AllStar Tents",
+  "category": "Tent & Party Rentals",
+  "group": "Services",
+  "town": "Graniteville, SC",
+  "established": "2004",
+  "look": "boutique",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f5f6fa",
+    "surface": "#ffffff",
+    "ink": "#151b2e",
+    "muted": "#4f5670",
+    "primary": "#1e2d5a",
+    "onPrimary": "#ffffff",
+    "accent": "#d29a12",
+    "line": "#dfe3ee"
+  },
+  "radius": 12,
+  "icon": "tent",
+  "contact": {
+    "phone": "(803) 649-5402",
+    "email": "info@asrtents.com",
+    "address": [
+      "176 Bettis Academy Road",
+      "Graniteville, SC 29829"
+    ],
+    "mapQuery": "AllStar Tents and Events, 176 Bettis Academy Rd, Graniteville, SC 29829",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 5:00 pm"
+      ]
+    ],
+    "hoursNote": "Showroom visits by appointment."
+  },
+  "hero": {
+    "eyebrow": "Party and event rentals since 2004",
+    "title": "Let’s get *the party started*",
+    "lede": "Tents, tables, chairs, lighting, dance floors and everything in between, for weddings, parties and corporate events across the CSRA. No matter the distance, AllStar will deliver.",
+    "points": [
+      "Tents & dance floors",
+      "Tables, chairs & linens",
+      "Lighting & sound"
+    ],
+    "cta": {
+      "label": "See what we rent",
+      "href": "#rentals"
+    },
+    "cta2": {
+      "label": "Call (803) 649-5402",
+      "href": "tel:+18036495402"
+    }
+  },
+  "facts": [
+    {
+      "value": "2004",
+      "label": "Serving the CSRA since"
+    },
+    {
+      "value": "15",
+      "label": "Rental categories, tents to restrooms"
+    },
+    {
+      "value": "Propane",
+      "label": "New tanks and refills at the office"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rentals",
+      "nav": "Rentals",
+      "columns": 3,
+      "eyebrow": "What we rent",
+      "title": "Everything *for the event*",
+      "intro": "Prices change with the season and the size of the event, so call or email for a quote on your date.",
+      "items": [
+        {
+          "icon": "tent",
+          "title": "Tents",
+          "text": "Frame tents from 10×10 to 30×130, and pole tents up to 60×180."
+        },
+        {
+          "icon": "armchair",
+          "title": "Chairs",
+          "text": "Chiavari, crossback, Louis XIV and padded chairs, plus benches and barstools."
+        },
+        {
+          "icon": "table",
+          "title": "Tables & linens",
+          "text": "Tables for every layout, and linens in colors from ivory and gold to gingham."
+        },
+        {
+          "icon": "utensils",
+          "title": "China & catering",
+          "text": "China, flatware, glassware, chafers, coffee urns and beverage dispensers."
+        },
+        {
+          "icon": "lightbulb",
+          "title": "Lighting & sound",
+          "text": "Edison and bistro lights, lanterns, chandeliers, uplights, podiums and PA systems."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Wedding décor",
+          "text": "Arches, columns, a boxwood champagne wall, cathedral windows and cake stands."
+        },
+        {
+          "icon": "layers",
+          "title": "Dance floors & staging",
+          "text": "Parquet, white and wood-plank dance floors, staging and risers."
+        },
+        {
+          "icon": "thermometer-snowflake",
+          "title": "Heating & cooling",
+          "text": "HVAC units to keep a tent comfortable in any season."
+        },
+        {
+          "icon": "toilet",
+          "title": "Restrooms & fencing",
+          "text": "Portable restrooms, fencing, and pipe and drape."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Big or small",
+      "title": "Weddings to *Masters week*",
+      "intro": "From an elegant small affair to the ten-day Western Carolina State Fair, we help plan the layout and bring everything it needs.",
+      "columns": [
+        {
+          "title": "Weddings & parties",
+          "items": [
+            "Weddings and receptions",
+            "Large parties and small affairs",
+            "Fundraisers"
+          ]
+        },
+        {
+          "title": "Corporate",
+          "items": [
+            "A week at the Masters",
+            "Employee luncheons and company picnics",
+            "Ground breakings, trade shows and expos",
+            "Horse events"
+          ]
+        },
+        {
+          "title": "Planning help",
+          "items": [
+            "Event layouts that use the space well",
+            "Site surveys by appointment",
+            "Showroom visits by appointment"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Kind words",
+      "title": "Our customers *say it best*",
+      "items": [
+        {
+          "text": "This company’s attention to detail surpasses any other of their kind in the CSRA. They continue to go above and beyond to help make the Western Carolina State Fair happen.",
+          "by": "Dianne P."
+        },
+        {
+          "text": "Every detail was handled very professionally. We will definitely use them again in the future.",
+          "by": "Pat B., after their daughter’s wedding"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Since 2004",
+      "title": "AllStar *gets it right*",
+      "image": {
+        "src": "/demo-assets/allstar-tents/showroom.webp",
+        "alt": "The AllStar Tents & Events showroom: a white building with black awnings under a blue sky",
+        "width": 530,
+        "height": 516
+      },
+      "body": [
+        "AllStar Tents & Events started in 2004 as a small party rental company and has grown to handle large events all over the Southeast.",
+        "Weddings and corporate events are a big part of the business. Our event specialists guide you through renting, help lay out the space, and deliver wherever the party is."
+      ],
+      "list": [
+        "Showroom visits by appointment, Monday to Friday",
+        "Propane tanks and refills at the office",
+        "Pay your invoice online"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "eyebrow": "How renting works",
+      "title": "Three steps *to the party*",
+      "items": [
+        {
+          "title": "Call or visit",
+          "text": "Tell us the date, the place and roughly how many guests."
+        },
+        {
+          "title": "Plan the layout",
+          "text": "We help choose the tent, tables and extras, with a site survey if you need one."
+        },
+        {
+          "title": "We deliver",
+          "text": "Near or far, your rentals arrive for the big day."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How far do you deliver?",
+          "a": "We serve the CSRA and many surrounding counties and cities, and we handle large events all over the Southeast."
+        },
+        {
+          "q": "Can I see the rentals first?",
+          "a": "Yes. The showroom is open Monday to Friday, 9 am to 5 pm, by appointment."
+        },
+        {
+          "q": "Do you sell propane?",
+          "a": "Yes. Stop by the office for a new tank or a refill."
+        },
+        {
+          "q": "Why aren’t prices listed?",
+          "a": "Prices change with the season, so call or email for a quote on your date."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning an event?",
+      "text": "Call for a quote, or set up a showroom visit.",
+      "cta": {
+        "label": "Call (803) 649-5402",
+        "href": "tel:+18036495402"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit the *showroom*",
+    "formTitle": "Ask for a quote",
+    "formTopics": [
+      "Wedding",
+      "Party",
+      "Corporate event",
+      "Tent only",
+      "Propane"
+    ]
+  },
+  "slug": "allstar-tents",
+  "added": "2026-11-19",
+  "prospect": "allstar-tents-and-events",
+  "source": {
+    "url": "https://allstartentsandevents.com/",
+    "before": [
+      "No description for Google results, no preview when the link is shared, and no icon for browser tabs",
+      "No business details for Google (structured data), so the hours and address aren’t read as facts",
+      "Showroom hours appear only on the About page",
+      "On a phone the first words take almost 5 seconds to appear on a 3.6 MB page (Google Lighthouse speed score: 54 out of 100)"
+    ],
+    "after": [
+      "Every rental category on one screen, in plain words",
+      "Weddings, corporate events and planning help, side by side",
+      "Showroom hours and propane on the home page",
+      "Customer reviews where people decide"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

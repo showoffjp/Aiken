@@ -369,11 +369,18 @@
  },
  "allstar-tents-and-events": {
   "site": {
-   "bytes": 3725876,
-   "requests": 92,
-   "loadMs": 8731,
+   "bytes": 3570606,
+   "requests": 91,
+   "loadMs": 3659,
    "url": "https://allstartentsandevents.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 305323,
+   "requests": 6,
+   "loadMs": 476,
+   "url": "/allstar-tents/",
+   "at": "2026-11-19"
   }
  },
  "andrew-c-marine-attorney": {
@@ -1514,6 +1521,13 @@
    "loadMs": 3751,
    "url": "https://gastonliverystable.org/",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 635940,
+   "requests": 9,
+   "loadMs": 548,
+   "url": "/gaston-livery-stable/",
+   "at": "2026-11-19"
   }
  },
  "glassworks-by-fishburne-and-shultz-hill": {
@@ -3688,11 +3702,18 @@
  },
  "tucker-orthodontics": {
   "site": {
-   "bytes": 1417509,
+   "bytes": 1417484,
    "requests": 39,
-   "loadMs": 2794,
+   "loadMs": 2837,
    "url": "https://www.tuckerorthodontics.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 449572,
+   "requests": 9,
+   "loadMs": 393,
+   "url": "/tucker-orthodontics/",
+   "at": "2026-11-19"
   }
  },
  "upstream-recycling-llc": {
@@ -3768,11 +3789,18 @@
  },
  "wayne-heath-automotive-company": {
   "site": {
-   "bytes": 2799283,
-   "requests": 87,
-   "loadMs": 2995,
+   "bytes": 2827623,
+   "requests": 88,
+   "loadMs": 2805,
    "url": "https://www.wayneheathautomotive.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 2203753,
+   "requests": 17,
+   "loadMs": 273,
+   "url": "/wayne-heath-automotive/",
+   "at": "2026-11-19"
   }
  },
  "vikkis-a-unique-boutique": {
