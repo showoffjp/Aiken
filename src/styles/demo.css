@@ -258,6 +258,16 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 .gallery img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
 .gallery figure:hover img { transform: scale(1.04); }
 @media (max-width: 760px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; } }
+/* Two or three photos: one row of matching tiles (on phones, the first of three spans the row). */
+.gallery.few { grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); }
+.gallery.few[data-n="2"] { --cols: 2; }
+.gallery.few figure { aspect-ratio: var(--ar, 1); }
+@media (max-width: 760px) { .gallery.few { --cols: 2; } .gallery.few[data-n="3"] figure:first-child { grid-column: span 2; aspect-ratio: calc(var(--ar, 1) * 2); } .gallery.few[data-n="1"] { --cols: 1; } }
+.gallery.few[data-n="1"] { --cols: 1; max-width: 720px; }
+/* Photos that can't fill whole rows without a hard crop: plain tiles, last row centred. */
+.gallery.center { grid-template-columns: repeat(8, minmax(0, 1fr)); grid-auto-flow: row; }
+.gallery.center figure { grid-column: var(--cd, auto) / span 2; }
+@media (max-width: 760px) { .gallery.center { grid-template-columns: repeat(4, minmax(0, 1fr)); } .gallery.center figure { grid-column: var(--cm, auto) / span 2; } }
 
 .steps { counter-reset: step; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px; }
 .steps li { counter-increment: step; padding-top: 22px; border-top: 2px solid var(--primary); }

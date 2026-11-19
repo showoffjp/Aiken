@@ -2,7 +2,7 @@
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
 import Seal from './Seal.astro';
-import { title, sectionId, srcset, isScenic, cinematicHero, tint, type Demo, type Img } from '../../lib/demos';
+import { title, sectionId, srcset, isScenic, cinematicHero, tint, galleryShapes, type Demo, type Img } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 const cine = !!demo.cinematic;
@@ -173,7 +173,19 @@ if (cine) deepIdx = -1;
       </section>
     );
   }
-  if (s.type === 'gallery') return (
+  if (s.type === 'gallery') {
+    const { shapes, center } = galleryShapes(s.images);
+    const few = s.images.length <= 3;
+    const count = s.images.length;
+    // Centred galleries: where the first tile of a short last row starts, on the
+    // 8-column desktop grid and the 4-column phone grid (tiles span 2).
+    const startAt = (n: number) => {
+      const d = count % 4, m = count % 2;
+      const vars = [n === count - d && d ? `--cd:${5 - d}` : '', n === count - 1 && m ? '--cm:2' : ''].filter(Boolean);
+      return vars.length ? vars.join(';') : undefined;
+    };
+    const ar = few ? Math.min(1.5, Math.max(0.8, s.images.reduce((t, i) => t + (i.width && i.height ? i.width / i.height : 1), 0) / s.images.length)) : 1;
+    return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">
         <div class="section-head" data-label={s.nav || ''}>
@@ -181,16 +193,17 @@ if (cine) deepIdx = -1;
           <h2 set:html={title(s.title)} />
           {s.intro && <p>{s.intro}</p>}
         </div>
-        <div class="gallery">
+        <div class={few ? 'gallery few' : center ? 'gallery center' : 'gallery'} data-n={few ? count : undefined} style={few ? `--ar:${ar.toFixed(2)}` : undefined}>
           {s.images.map((img, n) => {
-            const ratio = img.width && img.height ? img.width / img.height : 1;
-            const shape = ratio > 1.55 && n % 3 === 0 ? 'wide' : ratio < 0.72 ? 'tall' : '';
-            return <figure class={shape} data-par=""><img style={tint(img)} src={img.src} srcset={srcset(img)} sizes={shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw'} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
+            const shape = shapes[n];
+            const sizes = few ? `(max-width: 760px) ${s.images.length === 3 && n === 0 ? 92 : 46}vw, ${Math.round(92 / s.images.length)}vw` : shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw';
+            return <figure class={shape} style={center ? startAt(n) : undefined} data-par=""><img style={tint(img)} src={img.src} srcset={srcset(img)} sizes={sizes} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
           })}
         </div>
       </div>
     </section>
-  );
+    );
+  }
   if (s.type === 'steps') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">

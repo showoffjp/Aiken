@@ -1,0 +1,475 @@
+{
+  "name": "Carolina Dragway",
+  "short": "Carolina Dragway",
+  "category": "Drag Strip",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "established": "1957",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "archivo"
+  },
+  "colors": {
+    "bg": "#0f1012",
+    "surface": "#1a1c1f",
+    "ink": "#f4f2ec",
+    "muted": "#b6b2a8",
+    "primary": "#ff6b1a",
+    "onPrimary": "#14110f",
+    "accent": "#ffd23f",
+    "line": "#2b2e33"
+  },
+  "radius": 4,
+  "icon": "flag",
+  "logo": {
+    "src": "/demo-assets/carolina-dragway/logo.png",
+    "alt": "Carolina Dragway, The House of Hook",
+    "width": 700,
+    "height": 221
+  },
+  "contact": {
+    "phone": "(803) 471-2285",
+    "phoneLabel": "Call the track",
+    "email": "info@carolinadragway.com",
+    "address": [
+      "302 Dragstrip Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Carolina Dragway, 302 Dragstrip Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Thursday test-n-tune",
+        "Gates 6:30 pm · Racing till about 11 pm"
+      ],
+      [
+        "Weekends",
+        "Event days only"
+      ]
+    ],
+    "hoursNote": "Thursday nights run March through November. Weekend gates open only for events on the schedule.",
+    "facebook": "https://www.facebook.com/thehouseofhook/",
+    "instagram": "https://instagram.com/carolinadragway/"
+  },
+  "hero": {
+    "eyebrow": "Aiken, SC · Since 1957",
+    "title": "The House *of Hook*",
+    "lede": "An NHRA member quarter-mile, built in 1957 and nicknamed for its sticky, high-traction track prep. Test-n-tune every Thursday night from March to November, plus bracket, no-prep and heads-up events.",
+    "points": [
+      "Thursday test-n-tune",
+      "Bracket racing",
+      "No-prep & heads-up"
+    ],
+    "cta": {
+      "label": "Call (803) 471-2285",
+      "href": "tel:+18034712285"
+    },
+    "cta2": {
+      "label": "Thursday nights",
+      "href": "#thursday"
+    },
+    "image": {
+      "src": "/demo-assets/carolina-dragway/launch.webp",
+      "alt": "A blue pickup drag truck launches at night with flames from its exhaust as the crowd watches from the wall",
+      "width": 1600,
+      "height": 667
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/carolina-dragway/launch.webp"
+  },
+  "facts": [
+    {
+      "value": "1957",
+      "label": "Built by LB (Junior) Steed"
+    },
+    {
+      "value": "6.627",
+      "label": "Track record ET, at 217.74 mph"
+    },
+    {
+      "value": "1/4 mile",
+      "label": "With 1,800 ft of shutdown"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "racing",
+      "nav": "The track",
+      "columns": 3,
+      "eyebrow": "Why racers and fans come back",
+      "title": "Built *for traction*",
+      "items": [
+        {
+          "icon": "flame",
+          "title": "Top-quality track prep",
+          "text": "Sticky glue and great traction. It’s how we got our name."
+        },
+        {
+          "icon": "flag",
+          "title": "Something every week",
+          "text": "Test-n-tune, ET points series, bracket races, no-prep and grudge races and big heads-up events."
+        },
+        {
+          "icon": "wrench",
+          "title": "A tech department that knows racing",
+          "text": "Our team helps make sure your vehicle is safe and ready to race."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Certified safety crew",
+          "text": "We hope you never need them. When seconds matter, they’re there."
+        },
+        {
+          "icon": "utensils",
+          "title": "Two concession stands",
+          "text": "From a cup of coffee to a full meal for the family."
+        },
+        {
+          "icon": "users",
+          "title": "Family at the track",
+          "text": "Racer or spectator, you’re part of the family here."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "thursday",
+      "nav": "Thursday nights",
+      "eyebrow": "Thursday Night Thunder",
+      "title": "Your first *test-n-tune*",
+      "items": [
+        {
+          "title": "Check your car",
+          "text": "Good working order: no leaks and no loose parts or items. Bring a helmet."
+        },
+        {
+          "title": "Pick your tires",
+          "text": "Run what you like, street tires included. Radials or slicks are preferred."
+        },
+        {
+          "title": "Get a tech card",
+          "text": "$30, and it’s required to run. Spectators are $20; kids 12 and under get in free."
+        },
+        {
+          "title": "Gates at 6:30",
+          "text": "We run until around 11 pm, March through November."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Race nights",
+      "title": "Hooked *off the line*",
+      "images": [
+        {
+          "src": "/demo-assets/carolina-dragway/night-run.webp",
+          "alt": "A green blown fastback runs past the packed spectator wall with flames from its headers",
+          "width": 1600,
+          "height": 667
+        },
+        {
+          "src": "/demo-assets/carolina-dragway/burnout.webp",
+          "alt": "A black Challenger does a smoky burnout in the water box, in black and white",
+          "width": 1600,
+          "height": 667
+        },
+        {
+          "src": "/demo-assets/carolina-dragway/camaro.webp",
+          "alt": "A red first-generation Camaro SS lifts its front wheels at the launch",
+          "width": 700,
+          "height": 402
+        },
+        {
+          "src": "/demo-assets/carolina-dragway/dragster.webp",
+          "alt": "A crew member steadies the huge rear slick of a rear-engine dragster in the staging lanes",
+          "width": 700,
+          "height": 402
+        },
+        {
+          "src": "/demo-assets/carolina-dragway/wheelie.webp",
+          "alt": "A silver Mustang wheels up in front of a big night crowd",
+          "width": 700,
+          "height": 402
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "concessions",
+      "nav": "Concessions",
+      "eyebrow": "Fuel up",
+      "title": "Race-night *food*",
+      "intro": "Two stands, plus visiting vendors on event days. One takes cash only, so plan ahead.",
+      "groups": [
+        {
+          "title": "Carolina Cafe",
+          "note": "Cash only",
+          "items": [
+            {
+              "name": "Cheeseburgers & hamburgers"
+            },
+            {
+              "name": "Chicken fingers"
+            },
+            {
+              "name": "Chicken wings"
+            },
+            {
+              "name": "French fries & chili fries"
+            },
+            {
+              "name": "Fried bologna sandwiches"
+            },
+            {
+              "name": "Grilled cheese"
+            },
+            {
+              "name": "Cheesy chicken sandwiches"
+            },
+            {
+              "name": "Nachos with cheese"
+            },
+            {
+              "name": "Candy & ice cream"
+            },
+            {
+              "name": "Coffee & hot cocoa"
+            },
+            {
+              "name": "Water, sweet tea, Pepsi products & Gatorade"
+            }
+          ]
+        },
+        {
+          "title": "Uncle Bill’s Snack Shack",
+          "note": "Cards accepted",
+          "items": [
+            {
+              "name": "Hot dogs & sausage dogs"
+            },
+            {
+              "name": "Corn dogs"
+            },
+            {
+              "name": "Chili cheese dogs & burgers"
+            },
+            {
+              "name": "Slaw dogs & sauerkraut dogs"
+            },
+            {
+              "name": "Barbecue sandwiches"
+            },
+            {
+              "name": "Bacon ranch fries"
+            },
+            {
+              "name": "Fried honey buns"
+            },
+            {
+              "name": "Fried Oreos"
+            },
+            {
+              "name": "Fried pinwheels"
+            },
+            {
+              "name": "Sodas, sweet tea, fruit punch & Gatorade"
+            }
+          ]
+        },
+        {
+          "title": "Other vendors",
+          "note": "Varies by event",
+          "items": [
+            {
+              "name": "Pork skins"
+            },
+            {
+              "name": "Boiled peanuts"
+            },
+            {
+              "name": "Shaved ice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "track",
+      "nav": "Track info",
+      "eyebrow": "Before you come",
+      "title": "Track *facts*",
+      "columns": [
+        {
+          "title": "The strip",
+          "items": [
+            "NHRA member track",
+            "Quarter-mile, concrete and asphalt",
+            "1,800 ft of shutdown past the stripe",
+            "Eighth-mile racing on request",
+            "Record: Bryant Goldstone, 6.627 @ 217.74 mph (Sept. 21, 2023)"
+          ]
+        },
+        {
+          "title": "Race day",
+          "items": [
+            "Track radio on 90.1 FM",
+            "Race fuel on site: VP 110, VP Blue, C12, C16, C23, C85, M1 and more",
+            "Anything VP Racing Fuels carries, with 7 days’ notice",
+            "Season car numbers from Shannon at the gate"
+          ]
+        },
+        {
+          "title": "Please leave at home",
+          "items": [
+            "Glass bottles",
+            "Firearms and weapons of any kind",
+            "Dirt bikes",
+            "Pull-behind or trailer grills"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "Since 1957",
+      "title": "Run by people *who race*",
+      "image": {
+        "src": "/demo-assets/carolina-dragway/aerial.webp",
+        "alt": "An aerial view of the strip, the tower, the pits and the pine trees around the track",
+        "width": 1200,
+        "height": 800
+      },
+      "body": [
+        "LB (Junior) Steed built Carolina Dragway in 1957. Today it’s owned by Tracy Lanning and staffed by a team who are as passionate about drag racing as the people in the lanes.",
+        "Dent Johnson has been our track announcer for more than 60 years. Behind him: track specialists Jason Hall and Chris Kneece, Henry Wyndham in the ET shack, Jeremy “Bones” Mullins in tech inspection, Paul Swygert on timing and the start, and Pete Fabisiak in staging."
+      ],
+      "list": [
+        "Tracy Lanning, owner",
+        "Dent Johnson, announcer for 60+ years",
+        "Jeremy “Bones” Mullins, tech"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "fans",
+      "nav": "Fans",
+      "eyebrow": "From racers and spectators",
+      "title": "Truly *the House of Hook*",
+      "items": [
+        {
+          "text": "Went and saw street cars on street tires not have any problems hooking. Best prepped track in SC, hands down. Family friendly, very organized, polite staff and loads of fun.",
+          "by": "Ricardo B."
+        },
+        {
+          "text": "A good place to get that speed bug out of your system and be safe and have fun.",
+          "by": "James W."
+        },
+        {
+          "text": "Great racing, good food, and you really have fun.",
+          "by": "Paula M."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you roll in*",
+      "items": [
+        {
+          "q": "How much is it to get in on Thursday nights?",
+          "a": "$20 for adult spectators, and kids 12 and under are free. Tech cards, required to run, are $30. Other events are priced separately."
+        },
+        {
+          "q": "Are credit cards accepted?",
+          "a": "Yes, at the gate. Uncle Bill’s Snack Shack takes cards too, but the Carolina Cafe is cash only."
+        },
+        {
+          "q": "Is the track open on weekends?",
+          "a": "Only when there’s an event on the schedule."
+        },
+        {
+          "q": "Is it an eighth-mile or a quarter-mile?",
+          "a": "Both. It’s a quarter-mile track with 1,800 feet of shutdown past the stripe, and it easily handles eighth-mile racing."
+        },
+        {
+          "q": "Are motorcycles allowed at test-n-tune?",
+          "a": "Yes, but no dirt bikes. Riders need a helmet, gloves, an armored jacket, jeans and high-top shoes at minimum; quicker ETs need more, up to full leathers."
+        },
+        {
+          "q": "Can I bring a camper or a golf cart?",
+          "a": "Yes. Campers are $50 a weekend and golf carts $20 a weekend; a cart that comes with a race car isn’t charged."
+        },
+        {
+          "q": "Can I bring a chair, a grill or my dog?",
+          "a": "Camping chairs, yes. Small grills are fine behind the fence past the bleachers, but not pull-behind or trailer grills. Small dogs are welcome on a leash at all times."
+        },
+        {
+          "q": "What if it rains?",
+          "a": "Text HOUSEOFHOOK to 84483 for instant updates on weather cancellations. There are no refunds or rain checks."
+        },
+        {
+          "q": "I’m new to drag racing. Where do I start?",
+          "a": "Come to a Thursday test-n-tune with a helmet and a car in good working order. The NHRA also publishes a guide for new racers on what to expect."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Rained out? Know first",
+      "text": "Text HOUSEOFHOOK to 84483 for weather-related cancellations.",
+      "cta": {
+        "label": "Call (803) 471-2285",
+        "href": "tel:+18034712285"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Dragstrip Road*",
+    "formTitle": "Ask about racing, events or chassis certs",
+    "formTopics": [
+      "Thursday test-n-tune",
+      "Racing an event",
+      "Chassis certification",
+      "Sponsorship",
+      "Something else"
+    ]
+  },
+  "slug": "carolina-dragway",
+  "added": "2026-11-19",
+  "prospect": "carolina-dragway-inc",
+  "source": {
+    "url": "https://carolinadragway.com/",
+    "before": [
+      "Shared links show no preview: the site answers apps like Facebook with a blank \"are you human?\" check page instead of the home page",
+      "The home page still shows page-builder placeholders: \"Add Your Heading Text Here\" and two \"List Item\" lines",
+      "The contact block on the home page reads \"Error: Contact form not found.\"",
+      "No description for Google results and no social preview tags; the footer still says © 2024",
+      "The FAQ answers are hidden in closed accordions, so the prices and rules aren’t visible at a glance"
+    ],
+    "after": [
+      "Thursday-night prices, gate times, tire and tech rules on the first screen anyone sees",
+      "Both concession menus, with cash-only and card stands marked",
+      "Every FAQ answer readable and searchable, with the rain-out text line one tap away",
+      "One-tap call and directions to Dragstrip Road",
+      "A proper preview when the link is shared on Facebook or Instagram"
+    ]
+  },
+  "style": {
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

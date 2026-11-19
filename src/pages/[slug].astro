@@ -13,6 +13,7 @@ import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWo
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
+import { appName } from '../lib/appicon';
 import QRCode from 'qrcode';
 import { accessible, ratio } from '../lib/contrast';
 
@@ -105,6 +106,9 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     {site.url && <meta property="og:image" content={`${site.url}/shots/${demo.slug}-after.jpg`} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="${colors.primary}"/><text x="16" y="22" font-size="17" font-family="Georgia,serif" font-weight="700" text-anchor="middle" fill="${colors.onPrimary}">${short.replace(/^the\s+/i, '').charAt(0)}</text></svg>`)}`} />
+    <link rel="apple-touch-icon" href={`/${demo.slug}/icon-180.png`} />
+    <link rel="manifest" href={`/${demo.slug}/manifest.webmanifest`} />
+    <meta name="apple-mobile-web-app-title" content={appName(demo)} />
     <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
     {body.normal !== display.normal && <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />}
     <style set:html={fontCss} />
@@ -259,7 +263,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
               {contact.hours && (
                 <div class="row"><Icon name="clock" size={22} /><div>
                   <div class="hours-head"><h3>Hours</h3>{hoursSpec && <p class="open-now" data-open-now hidden></p>}</div>
-                  <table class="hours"><tbody>{contact.hours.map(([d, h]) => <tr data-days={d}><td>{d}</td><td>{h.split(/\s+·\s+/).map((part) => <span>{part}</span>)}</td></tr>)}</tbody></table>
+                  <table class="hours"><tbody>{contact.hours.map(([d, h]) => <tr data-days={d}><td>{d}</td><td>{h.split(/\s+·\s+/).map((part) => <span class={part.length > 22 ? 'long' : undefined}>{part}</span>)}</td></tr>)}</tbody></table>
                   {contact.hoursNote && <p class="footnote">{contact.hoursNote}</p>}
                 </div></div>
               )}
@@ -406,21 +410,44 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         const spec = JSON.parse(document.body.dataset.hours || 'null');
         if (spec) {
           const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-          const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' }).formatToParts(new Date()).map((x) => [x.type, x.value]));
+          const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'long', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' }).formatToParts(new Date()).map((x) => [x.type, x.value]));
+          // Holidays when regular hours often don't apply: say so rather than promise "Open now".
+          const holiday = (offset) => {
+            const t = new Date(Date.UTC(+parts.year, +parts.month - 1, +parts.day + offset));
+            const y = t.getUTCFullYear(), m = t.getUTCMonth() + 1, d = t.getUTCDate(), wd = t.getUTCDay();
+            const nth = (n) => Math.ceil(d / 7) === n, last = d + 7 > new Date(Date.UTC(y, m, 0)).getUTCDate();
+            if (m === 1 && d === 1) return 'New Year’s Day';
+            if (m === 5 && wd === 1 && last) return 'Memorial Day';
+            if (m === 7 && d === 4) return 'Independence Day';
+            if (m === 9 && wd === 1 && nth(1)) return 'Labor Day';
+            if (m === 11 && wd === 4 && nth(4)) return 'Thanksgiving';
+            if (m === 12 && d === 24) return 'Christmas Eve';
+            if (m === 12 && d === 25) return 'Christmas Day';
+            return '';
+          };
           const day = DAYS.indexOf(parts.weekday), now = (+parts.hour % 24) * 60 + +parts.minute;
           const mins = (t) => +t.slice(0, 2) * 60 + +t.slice(3, 5);
           const fmt = (t) => { const h = +t.slice(0, 2), m = t.slice(3, 5); return `${h % 12 || 12}${m === '00' ? '' : `:${m}`} ${h < 12 ? 'am' : 'pm'}`; };
           const spans = (d) => spec.filter((x) => x.dayOfWeek.includes(DAYS[d])).sort((a, b) => mins(a.opens) - mins(b.opens));
           let state = 'closed', text = '';
           const cur = day < 0 ? null : spans(day).find((x) => now >= mins(x.opens) && now < mins(x.closes));
-          if (cur) {
+          if (holiday(0) && day >= 0 && spans(day).length) {
+            state = 'holiday';
+            text = `${holiday(0)} · hours may differ, call ahead`;
+          } else if (cur) {
             const left = mins(cur.closes) - now;
             state = left <= 60 ? 'soon' : 'open';
             text = left <= 60 ? `Closing soon · ${fmt(cur.closes)}` : `Open now · until ${fmt(cur.closes)}`;
           } else if (day >= 0) {
             const later = spans(day).find((x) => mins(x.opens) > now);
             if (later) text = `Closed now · opens at ${fmt(later.opens)}`;
-            else for (let k = 1; k < 8; k++) { const d = (day + k) % 7, first = spans(d)[0]; if (first) { text = `Closed now · opens ${k === 1 ? 'tomorrow' : DAYS[d]} ${fmt(first.opens)}`; break; } }
+            else for (let k = 1; k < 8; k++) {
+              const d = (day + k) % 7, first = spans(d)[0];
+              if (!first) continue;
+              const when = k === 1 ? 'tomorrow' : DAYS[d];
+              text = holiday(k) ? `Closed now · ${holiday(k)} ${when}, call ahead` : `Closed now · opens ${when} ${fmt(first.opens)}`;
+              break;
+            }
           }
           if (text) {
             const heroActions = document.querySelector('#top .actions');

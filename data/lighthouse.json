@@ -2145,16 +2145,28 @@
  },
  "hair-of-the-dog-llc": {
   "site": {
-   "performance": 7,
+   "performance": 9,
    "accessibility": 85,
    "bestPractices": 57,
    "seo": 85,
-   "fcp": 2622,
-   "lcp": 21669,
-   "tbt": 6536,
-   "si": 11772,
+   "fcp": 2367,
+   "lcp": 21079,
+   "tbt": 4056,
+   "si": 10267,
    "cls": 0.912,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1202,
+   "lcp": 2252,
+   "tbt": 0,
+   "si": 1202,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "hale-dentistry-and-oral-wellness": {
@@ -3303,6 +3315,50 @@
    "si": 893,
    "cls": 0,
    "at": "2026-11-18"
+  }
+ },
+ "carolina-dragway-inc": {
+  "site": {
+   "error": "ERRORED_DOCUMENT_REQUEST",
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 947,
+   "lcp": 2483,
+   "tbt": 61,
+   "si": 947,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "trophies-unlimited": {
+  "site": {
+   "performance": 92,
+   "accessibility": 97,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1578,
+   "lcp": 2206,
+   "tbt": 135,
+   "si": 5746,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2706,
+   "tbt": 77,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  }
 }

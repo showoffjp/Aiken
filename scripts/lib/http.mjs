@@ -42,7 +42,12 @@ export async function fetchUrl(url, { bucket = 'misc', timeout = 30, refresh = f
     return { ...meta, body, cached: true };
   }
 
+  // Some hosts answer a first visit with a tiny "human check" page: a script that sets a
+  // cookie and reloads. A browser passes it at once; do the same, once.
+  let cookie = '';
+  for (let attempt = 0; attempt < 2; attempt++) {
   const args = [
+    ...(cookie ? ['-b', cookie] : []),
     '-sS', '-L', '--compressed',
     '--max-redirs', '6',
     '-A', UA,
@@ -56,9 +61,16 @@ export async function fetchUrl(url, { bucket = 'misc', timeout = 30, refresh = f
     '-w', '%{http_code}\t%{url_effective}\t%{ssl_verify_result}\t%{content_type}\t%{num_redirects}',
     url,
   ];
-  const { err, stdout, stderr } = await curl(args, (timeout + 10) * 1000);
-  const [code, finalUrl, sslVerify, contentType, redirects] = stdout.split('\t');
-  const status = Number(code) || 0;
+  var { err, stdout, stderr } = await curl(args, (timeout + 10) * 1000);
+  var [code, finalUrl, sslVerify, contentType, redirects] = stdout.split('\t');
+  var status = Number(code) || 0;
+  if (cookie || status < 400) break;
+  let first = '';
+  try { first = await readFile(bodyFile, 'utf8'); } catch {}
+  const set = first.length < 800 && /location\.reload/.test(first) && /document\.cookie\s*=\s*["']([^"';]+)/.exec(first);
+  if (!set) break;
+  cookie = set[1];
+  }
   let headers = '';
   try { headers = await readFile(hdrFile, 'utf8'); } catch {}
   const meta = {
