@@ -1631,16 +1631,28 @@
  },
  "baker-family-dentistry": {
   "site": {
-   "performance": 54,
+   "performance": 58,
    "accessibility": 75,
    "bestPractices": 79,
    "seo": 100,
-   "fcp": 5031,
-   "lcp": 9731,
-   "tbt": 236,
-   "si": 7648,
+   "fcp": 4568,
+   "lcp": 8319,
+   "tbt": 175,
+   "si": 6545,
+   "cls": 0.04,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 2031,
+   "tbt": 0,
+   "si": 1206,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
   }
  },
  "beanie-bens": {
@@ -3793,6 +3805,58 @@
    "lcp": 1802,
    "tbt": 12,
    "si": 1033,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "superior-office-systems": {
+  "site": {
+   "performance": 62,
+   "accessibility": 86,
+   "bestPractices": 96,
+   "seo": 77,
+   "fcp": 5432,
+   "lcp": 7339,
+   "tbt": 0,
+   "si": 5548,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1086,
+   "lcp": 1882,
+   "tbt": 13,
+   "si": 1086,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "veterinary-healthcare-associates-inc": {
+  "site": {
+   "performance": 50,
+   "accessibility": 74,
+   "bestPractices": 82,
+   "seo": 75,
+   "fcp": 6319,
+   "lcp": 11840,
+   "tbt": 362,
+   "si": 7003,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 944,
+   "lcp": 1729,
+   "tbt": 104,
+   "si": 944,
    "cls": 0,
    "at": "2026-11-19"
   }

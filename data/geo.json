@@ -111,6 +111,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "baker-family-dentistry": {
+  "q": "2065 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.518095,
+  "lon": -81.717197,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "beech-island-appliance": {
   "q": "1576 Sand Bar Ferry Road, Beech Island, SC 29842",
   "lat": 33.438408,
@@ -696,6 +704,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "superior-office-systems": {
+  "q": "125-1 Merovan Drive, North Augusta, SC 29860",
+  "lat": 33.574809,
+  "lon": -81.937199,
+  "kind": "unclassified",
+  "exact": false,
+  "at": "2026-11-19"
+ },
  "sweet-bs": {
   "q": "137 Laurens Street SW, Aiken, SC 29801",
   "lat": 33.560484,
@@ -858,6 +874,14 @@
   "lat": 33.590359,
   "lon": -81.948149,
   "kind": "craft",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "veterinary-healthcare-associates": {
+  "q": "1341 W. Martintown Road, North Augusta, SC 29860",
+  "lat": 33.550433,
+  "lon": -82.003992,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },

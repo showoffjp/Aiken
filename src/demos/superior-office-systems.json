@@ -1,0 +1,264 @@
+{
+  "name": "Superior Office Systems",
+  "short": "Superior Office",
+  "category": "Copiers, Printers & Phones",
+  "group": "Services",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f2f6fa",
+    "surface": "#ffffff",
+    "ink": "#0f1d2e",
+    "muted": "#4a5a6c",
+    "primary": "#0d4c8b",
+    "onPrimary": "#ffffff",
+    "accent": "#3fb6e8",
+    "line": "#d9e3ee"
+  },
+  "radius": 12,
+  "icon": "copy",
+  "contact": {
+    "phone": "(803) 278-3131",
+    "email": "info@superiorofficeonline.com",
+    "address": [
+      "125-1 Merovan Drive",
+      "North Augusta, SC 29860"
+    ],
+    "mapQuery": "Superior Office Systems, 125 Merovan Dr, North Augusta, SC 29860",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 5:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/Superior-Office-Systems-246768012177934"
+  },
+  "hero": {
+    "eyebrow": "Serving the CSRA for more than 25 years",
+    "title": "Copiers, printers *and phones that just work*",
+    "lede": "Kyocera multifunction copiers and printers, managed print, toner and supplies with fast local delivery, document management and hosted VoIP phones for offices across Augusta and Aiken.",
+    "points": [
+      "Copiers & printers",
+      "Managed print",
+      "Supplies & service"
+    ],
+    "cta": {
+      "label": "Request service",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 278-3131",
+      "href": "tel:+18032783131"
+    },
+    "image": {
+      "src": "/demo-assets/superior-office-systems/copier.webp",
+      "alt": "A Kyocera multifunction copier with a paper finisher",
+      "width": 1600,
+      "height": 1066
+    }
+  },
+  "facts": [
+    {
+      "value": "25+ years",
+      "label": "Serving the CSRA"
+    },
+    {
+      "value": "Local",
+      "label": "Fast supply delivery"
+    },
+    {
+      "value": "Mon–Fri",
+      "label": "Open 8 to 5"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "For your office",
+      "title": "Everything *your documents need*",
+      "items": [
+        {
+          "icon": "printer",
+          "title": "Copiers & printers",
+          "text": "Multifunction devices for sharp, error-free documents that are quick to save and share."
+        },
+        {
+          "icon": "chart-column",
+          "title": "Managed print",
+          "text": "Keep printing costs down and productivity up, with one plan for every device."
+        },
+        {
+          "icon": "package",
+          "title": "Toner, ink & supplies",
+          "text": "100% compatible supplies for HP, Brother, Dell and most major brands, delivered fast."
+        },
+        {
+          "icon": "wrench",
+          "title": "Service & repair",
+          "text": "Skilled technicians who arrive promptly when a printer or copier acts up."
+        },
+        {
+          "icon": "file-text",
+          "title": "Document management",
+          "text": "Capture, store and find documents without the filing cabinet."
+        },
+        {
+          "icon": "phone",
+          "title": "Business phones",
+          "text": "Hosted VoIP phone service, with us as your guide through the switch."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "A local business",
+      "title": "A straightforward deal, *with no surprises*",
+      "image": {
+        "src": "/demo-assets/superior-office-systems/toner.webp",
+        "alt": "Kyocera toner cartridges in cyan, magenta, yellow and black",
+        "width": 1400,
+        "height": 933
+      },
+      "body": [
+        "For more than 25 years, Superior Office Systems has served the CSRA. As a local business, we know what offices here need, and we care about your success.",
+        "Remote monitoring, automatic supply replenishment and automatic meter readings keep your machines running and your supplies stocked without a phone call."
+      ],
+      "list": [
+        "Remote monitoring of your devices",
+        "Toner that arrives before you run out",
+        "Automatic meter readings"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "industries",
+      "nav": "Who we serve",
+      "eyebrow": "Document solutions",
+      "title": "For *your industry*",
+      "columns": [
+        {
+          "title": "Professional offices",
+          "items": [
+            "Law firms",
+            "Healthcare practices"
+          ]
+        },
+        {
+          "title": "Schools & nonprofits",
+          "items": [
+            "Education",
+            "Nonprofit organizations"
+          ]
+        },
+        {
+          "title": "Every office",
+          "items": [
+            "Copiers, printers and phones from one local team"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "service",
+      "nav": "Get service",
+      "eyebrow": "Machine acting up?",
+      "title": "Service *in three steps*",
+      "items": [
+        {
+          "title": "Tell us",
+          "text": "Call (803) 278-3131 or send a service request with your machine and the problem."
+        },
+        {
+          "title": "We come to you",
+          "text": "A skilled technician arrives promptly."
+        },
+        {
+          "title": "Back to work",
+          "text": "Your office is running smoothly again."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Which brands of supplies do you carry?",
+          "a": "100% compatible supplies for HP, Brother, Dell and most major brands, with fast local delivery."
+        },
+        {
+          "q": "Can you watch our toner for us?",
+          "a": "Yes. Automatic supply replenishment sends toner before you run out."
+        },
+        {
+          "q": "Do you handle phones too?",
+          "a": "Yes: hosted VoIP business phone service."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Friday, 8 am to 5 pm."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Interested in a consultation?",
+      "text": "Call and we’ll find the right equipment for your office.",
+      "cta": {
+        "label": "Call (803) 278-3131",
+        "href": "tel:+18032783131"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Merovan Drive*",
+    "formTitle": "Request service or a quote",
+    "formTopics": [
+      "A service call",
+      "Supplies",
+      "A new copier or printer",
+      "Managed print",
+      "Business phones"
+    ]
+  },
+  "slug": "superior-office-systems",
+  "added": "2026-11-19",
+  "prospect": "superior-office-systems",
+  "source": {
+    "url": "https://superiorofficeonline.com/",
+    "before": [
+      "The Business Phone Services page says only “More Content Coming Soon.”",
+      "No description for Google search results and no preview when the link is shared",
+      "On a phone the main content takes about 7 seconds to appear on a 3.2 MB page (Google Lighthouse speed score: 62 out of 100)",
+      "21 accessibility problems, 19 of them text too faint to read"
+    ],
+    "after": [
+      "Every service on one page, in plain words",
+      "A three-step service request on the first screens",
+      "Hours and the phone number where people look",
+      "One tap to call for service"
+    ]
+  },
+  "style": {
+    "services": "grid",
+    "facts": "ticker",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}

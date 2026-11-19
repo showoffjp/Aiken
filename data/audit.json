@@ -11873,7 +11873,7 @@
   ],
   "platform": "WordPress",
   "builder": "Gutenberg blocks",
-  "generator": "WordPress 6.4.14",
+  "generator": "WordPress 6.4.15",
   "server": "nginx",
   "viewport": true,
   "https": true,
@@ -13439,7 +13439,7 @@
   "title": "Welcome | North Augusta, South Carolina | Veterinary Healthcare Associates",
   "description": "Welcome to our Welcome page. Contact Veterinary Healthcare Associates today at (803) 613-9123 or visit our office servicing North Augusta, South Carolina",
   "textLength": 12801,
-  "htmlBytes": 125516,
+  "htmlBytes": 125532,
   "familySignal": "",
   "since": null,
   "emails": [

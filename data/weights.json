@@ -562,11 +562,18 @@
  },
  "baker-family-dentistry": {
   "site": {
-   "bytes": 1064422,
+   "bytes": 1064529,
    "requests": 74,
-   "loadMs": 10135,
+   "loadMs": 4302,
    "url": "https://bakerfamilydentistryaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 334599,
+   "requests": 6,
+   "loadMs": 209,
+   "url": "/baker-family-dentistry/",
+   "at": "2026-11-19"
   }
  },
  "beanie-bens": {
@@ -3396,11 +3403,18 @@
  },
  "superior-office-systems": {
   "site": {
-   "bytes": 3278852,
-   "requests": 60,
-   "loadMs": 6185,
+   "bytes": 3153478,
+   "requests": 54,
+   "loadMs": 21949,
    "url": "https://superiorofficeonline.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 332870,
+   "requests": 7,
+   "loadMs": 200,
+   "url": "/superior-office-systems/",
+   "at": "2026-11-19"
   }
  },
  "tabs-professional-transportation": {
@@ -3825,11 +3839,18 @@
  },
  "veterinary-healthcare-associates-inc": {
   "site": {
-   "bytes": 1673113,
+   "bytes": 1674794,
    "requests": 49,
-   "loadMs": 2430,
+   "loadMs": 2992,
    "url": "https://www.veterinaryhealthcareofnorthaugusta.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 271745,
+   "requests": 6,
+   "loadMs": 261,
+   "url": "/veterinary-healthcare-associates/",
+   "at": "2026-11-19"
   }
  },
  "veterinary-services-of-aiken": {

@@ -26,7 +26,7 @@ const frames = data ? [
       <div class="rm-grid">
         {frames.map(({ key, title, f, r }) => (
           <figure class={`rm rm-${key}`} data-rm>
-            <figcaption>{title}<span>{f.pins.length} businesses</span></figcaption>
+            <figcaption>{title}<span data-rm-count data-total={f.pins.length}>{f.pins.length} businesses</span></figcaption>
             <div class="rm-box">
               <svg viewBox={`0 0 ${f.w} ${f.h}`} role="img" aria-label={`Map of ${title.toLowerCase()} with ${f.pins.length} businesses that have a concept`} preserveAspectRatio="xMidYMid meet">
                 <rect class="rm-land" width={f.w} height={f.h} />
@@ -37,7 +37,7 @@ const frames = data ? [
                 {f.mid && <path class="rm-mid" d={f.mid} />}
                 {f.major && <path class="rm-major" d={f.major} />}
                 {key === 'region' && data!.box && <rect class="rm-inset" x={data!.box.x} y={data!.box.y} width={data!.box.w} height={data!.box.h} rx="6" />}
-                <g class="rm-pins">{f.pins.map((p, i) => <circle class="rm-pin" cx={p.x} cy={p.y} r={r} style={`--pc:${p.color}`} data-i={i} />)}</g>
+                <g class="rm-pins">{f.pins.map((p, i) => <circle class="rm-pin" cx={p.x} cy={p.y} r={r} style={`--pc:${p.color}`} data-i={i} data-slug={p.slug} />)}</g>
                 {f.labels.map((l) => <text class:list={['rm-place', { big: l.big }]} x={l.x} y={l.y} text-anchor="middle">{l.name}</text>)}
               </svg>
               <div class="rm-card" data-rm-card hidden><strong data-rm-name></strong><span data-rm-meta></span><a data-rm-link href="#">See the concept<span aria-hidden="true"> →</span></a></div>
@@ -68,7 +68,7 @@ const frames = data ? [
       const nearest = (cx, cy, reach) => {
         const b = box.getBoundingClientRect(); const pts = place();
         let best = -1, bd = reach;
-        pts.forEach(([x, y], i) => { const d = Math.hypot(x - (cx - b.left), y - (cy - b.top)); if (d < bd) { bd = d; best = i; } });
+        pts.forEach(([x, y], i) => { if (dots[i].classList.contains('dim')) return; const d = Math.hypot(x - (cx - b.left), y - (cy - b.top)); if (d < bd) { bd = d; best = i; } });
         return best;
       };
       const show = (i) => {
@@ -95,6 +95,14 @@ const frames = data ? [
       });
       document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { pinned = false; show(-1); } });
       addEventListener('resize', () => { const i = current; current = -1; if (i >= 0) show(i); });
+      // Follow the concept list's filter and search: fade the businesses it hides.
+      const count = fig.querySelector('[data-rm-count]');
+      document.addEventListener('concepts:filter', (e) => {
+        const { all, slugs } = e.detail; let n = 0;
+        dots.forEach((dot) => { const on = all || slugs.has(dot.dataset.slug); dot.classList.toggle('dim', !on); if (on) n++; });
+        if (current >= 0 && dots[current].classList.contains('dim')) { pinned = false; show(-1); }
+        count.textContent = all ? `${count.dataset.total} businesses` : `${n} of ${count.dataset.total} shown`;
+      });
     });
   })();
 </script>

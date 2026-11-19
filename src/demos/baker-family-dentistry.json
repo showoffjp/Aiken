@@ -1,0 +1,236 @@
+{
+  "name": "Baker Family Dentistry",
+  "short": "Baker Family Dentistry",
+  "category": "Family Dentist",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "established": "2003",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f6f8fb",
+    "surface": "#ffffff",
+    "ink": "#18233a",
+    "muted": "#56607a",
+    "primary": "#2c4f8a",
+    "onPrimary": "#ffffff",
+    "accent": "#e0a83a",
+    "line": "#e0e6f0"
+  },
+  "radius": 10,
+  "icon": "smile",
+  "contact": {
+    "phone": "(803) 648-4231",
+    "email": "office@bfdaiken.com",
+    "address": [
+      "2065 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Baker Family Dentistry, 2065 Whiskey Rd, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/bakerfamilydentistryaiken"
+  },
+  "hero": {
+    "eyebrow": "Family dentistry in Aiken",
+    "title": "A family tradition *of caring for families*",
+    "lede": "Dr. Stephen Baker carries on the family dentistry his father, Dr. Fred Baker, began in his hometown of Aiken: checkups and cleanings, repairs and crowns, and cosmetic dentistry for every age.",
+    "points": [
+      "Cleanings & checkups",
+      "Restorative care",
+      "Cosmetic dentistry"
+    ],
+    "cta": {
+      "label": "Our care",
+      "href": "#care"
+    },
+    "cta2": {
+      "label": "Call (803) 648-4231",
+      "href": "tel:+18036484231"
+    }
+  },
+  "facts": [
+    {
+      "value": "1972",
+      "label": "Dr. Fred Baker begins practicing"
+    },
+    {
+      "value": "75+ years",
+      "label": "Of combined team experience"
+    },
+    {
+      "value": "Since 1994",
+      "label": "Tonya, our longest-serving team member"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "care",
+      "nav": "Our care",
+      "columns": 3,
+      "eyebrow": "From first visit to adulthood",
+      "title": "Dental care *for the whole family*",
+      "items": [
+        {
+          "icon": "sparkles",
+          "title": "Cleanings",
+          "text": "Routine cleanings that help prevent gum disease, decay and tooth loss."
+        },
+        {
+          "icon": "search",
+          "title": "Exams & screenings",
+          "text": "Checks for oral cancer, tooth decay and gum disease, so problems are caught early."
+        },
+        {
+          "icon": "wrench",
+          "title": "Restorative dentistry",
+          "text": "Repairs for chipped or broken teeth, and crowns."
+        },
+        {
+          "icon": "smile-plus",
+          "title": "Cosmetic dentistry",
+          "text": "Whitening, bonding and veneers for a smile you’ll want to show off."
+        },
+        {
+          "icon": "align-justify",
+          "title": "Braces",
+          "text": "Straighter teeth for children and adults."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Advanced care",
+          "text": "Root canals and oral surgery, made as comfortable as we can."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "family",
+      "nav": "Our family",
+      "eyebrow": "Dentistry runs in the family",
+      "title": "Two generations *of Dr. Baker*",
+      "body": [
+        "Dr. Fred L. Baker graduated from the Medical University of South Carolina in 1972, in only the second class since the school was formed, after earning a pharmacy degree at the University of South Carolina. He began practicing in his hometown of Aiken and dedicated more than 30 years to family dentistry. Retired now, he still helps out, and the paintings in the office are his, from art classes at USC Aiken.",
+        "His son, Dr. Stephen J. Baker, grew up in Aiken surrounded by dentistry. He graduated from The Citadel and then from MUSC’s dental school in 2003. He and his wife Dana have three boys, and he enjoys hunting, fishing, tennis and coaching his children’s teams."
+      ],
+      "list": [
+        "Many patients grew up here and now bring their own children",
+        "A team with more than 75 years of combined experience",
+        "Care for every age, from toddlers to grandparents"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "team",
+      "nav": "Team",
+      "columns": 3,
+      "eyebrow": "Who you’ll see",
+      "title": "A team *that stays*",
+      "items": [
+        {
+          "icon": "user",
+          "title": "Tonya Goff",
+          "text": "With the practice since 1994; graduated from Midlands Technical College in 1989."
+        },
+        {
+          "icon": "user",
+          "title": "Tamie Bledsoe",
+          "text": "On the team since 1997, a certified dental assistant from Aiken Technical College."
+        },
+        {
+          "icon": "user",
+          "title": "Tasha Staples",
+          "text": "Part of the Baker family since 2003, a certified dental assistant from Aiken Technical College."
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Our patients",
+      "title": "Truly *a family*",
+      "items": [
+        {
+          "text": "Being a retired dentist, I was especially concerned about quality dental care. I have been a patient for 15 years and I am very pleased with the treatment I have received. Baker Family Dentistry is truly a family.",
+          "by": "C. William Blosser, D.D.S., Aiken"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you see children?",
+          "a": "Yes. From a toddler’s first visit to regular checkups for adults, we care for the whole family."
+        },
+        {
+          "q": "Can you fix a chipped or broken tooth?",
+          "a": "Yes. Repairs, crowns and other restorative work are part of what we do every day."
+        },
+        {
+          "q": "Do you offer cosmetic dentistry?",
+          "a": "Yes: whitening, bonding, veneers and braces."
+        },
+        {
+          "q": "How do I reach the office?",
+          "a": "Call (803) 648-4231 or email office@bfdaiken.com."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Be part of the family",
+      "text": "Call to schedule a cleaning or checkup on Whiskey Road.",
+      "cta": {
+        "label": "Call (803) 648-4231",
+        "href": "tel:+18036484231"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "formTitle": "Request an appointment",
+    "formTopics": [
+      "A cleaning or checkup",
+      "A new patient",
+      "A chipped or broken tooth",
+      "Cosmetic dentistry",
+      "Something else"
+    ]
+  },
+  "slug": "baker-family-dentistry",
+  "added": "2026-11-19",
+  "prospect": "baker-family-dentistry",
+  "source": {
+    "url": "https://bakerfamilydentistryaiken.com/",
+    "before": [
+      "Typos on the home page: “You daily routine” and “rinsing with for extra protection”",
+      "On a phone, the first screen shows no phone number or call button",
+      "No office hours anywhere on the site",
+      "On a phone the main content takes about 8 seconds to appear (Google Lighthouse speed score: 58 out of 100)"
+    ],
+    "after": [
+      "The family story, two generations of Dr. Baker, up front",
+      "Every kind of care in plain words",
+      "The long-serving team with their years of service",
+      "One tap to call the office"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "numbered",
+    "motion": "blur",
+    "buttons": "square"
+  }
+}

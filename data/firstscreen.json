@@ -285,6 +285,26 @@
    "at": "2026-11-19"
   }
  },
+ "baker-family-dentistry": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 11,
+   "smallTargets": 4,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 32,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
  "beech-island-appliance-service-co-inc": {
   "concept": {
    "call": true,
@@ -1415,6 +1435,26 @@
    "at": "2026-11-19"
   }
  },
+ "superior-office-systems": {
+  "site": {
+   "call": false,
+   "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 24,
+   "smallTargets": 7,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 31,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
  "tailored-tours-of-aiken": {
   "concept": {
    "call": true,
@@ -1749,6 +1789,26 @@
    "tinyText": 0,
    "targets": 37,
    "smallTargets": 4,
+   "at": "2026-11-19"
+  }
+ },
+ "veterinary-healthcare-associates-inc": {
+  "site": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 12,
+   "smallTargets": 8,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 31,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },

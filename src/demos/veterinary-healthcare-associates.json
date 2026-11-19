@@ -1,0 +1,246 @@
+{
+  "name": "Veterinary Healthcare Associates",
+  "short": "Veterinary Healthcare",
+  "category": "Veterinary Clinic",
+  "group": "Services",
+  "town": "North Augusta, SC",
+  "established": "2001",
+  "look": "warm",
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f3f8f7",
+    "surface": "#ffffff",
+    "ink": "#13292c",
+    "muted": "#4b6265",
+    "primary": "#1d6670",
+    "onPrimary": "#ffffff",
+    "accent": "#e9785d",
+    "line": "#d6e6e4"
+  },
+  "radius": 18,
+  "icon": "paw-print",
+  "contact": {
+    "phone": "(803) 613-9123",
+    "email": "veterinaryhealth@att.net",
+    "address": [
+      "1341 W. Martintown Road",
+      "North Augusta, SC 29860"
+    ],
+    "mapQuery": "Veterinary Healthcare Associates, 1341 W Martintown Rd, North Augusta, SC 29860",
+    "facebook": "https://www.facebook.com/veterinaryhealthcareofnorthaugusta"
+  },
+  "hero": {
+    "eyebrow": "Small-animal veterinary care since 2001",
+    "title": "Excellent pets, *excellent care*",
+    "lede": "A full-service clinic for dogs and cats in North Augusta, owned by Drs. Barry and Kim Strock: wellness care, surgery, dentistry, imaging, boarding and bathing.",
+    "points": [
+      "Wellness & surgery",
+      "Dental care",
+      "Boarding & bathing"
+    ],
+    "cta": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "cta2": {
+      "label": "Call (803) 613-9123",
+      "href": "tel:+18036139123"
+    }
+  },
+  "facts": [
+    {
+      "value": "2001",
+      "label": "Opened by the Strocks"
+    },
+    {
+      "value": "3 vets",
+      "label": "On the team"
+    },
+    {
+      "value": "New pets",
+      "label": "Dogs and cats always welcome"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Full-service care",
+      "title": "Medical, surgical *and dental care*",
+      "items": [
+        {
+          "icon": "stethoscope",
+          "title": "Wellness & preventive care",
+          "text": "Routine exams and the everyday care that keeps pets healthy for longer."
+        },
+        {
+          "icon": "scissors",
+          "title": "Surgery",
+          "text": "Spay and neuter, soft-tissue and orthopedic surgery, and reconstructive surgery."
+        },
+        {
+          "icon": "smile",
+          "title": "Dental care",
+          "text": "Cleanings and dental treatment for a healthier mouth."
+        },
+        {
+          "icon": "heart-pulse",
+          "title": "Cardiology",
+          "text": "Heart care and monitoring for dogs and cats."
+        },
+        {
+          "icon": "scan-face",
+          "title": "Diagnostic imaging",
+          "text": "Imaging in the clinic to find answers sooner."
+        },
+        {
+          "icon": "bone",
+          "title": "Nutrition",
+          "text": "Diet advice for every age and condition."
+        },
+        {
+          "icon": "house",
+          "title": "Boarding",
+          "text": "Personal dog kennels, a secluded cat area, and care for diabetic and special-needs pets."
+        },
+        {
+          "icon": "bath",
+          "title": "Bathing",
+          "text": "Baths to send your pet home fresh."
+        },
+        {
+          "icon": "id-card",
+          "title": "Microchipping",
+          "text": "A permanent ID that helps a lost pet find its way home."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "Meet the doctors",
+      "title": "Owned by veterinarians, *since 2001*",
+      "body": [
+        "Dr. Barry and Dr. Kim Strock both studied at Clemson University, then met in veterinary school at Tuskegee University. In 2001 they opened Veterinary Healthcare Associates together, and they have been its proud owners ever since.",
+        "Dr. Ray Henley, a University of Florida veterinary graduate with decades of experience, joined the team in 2015, and head technician Shellie Robinson, LVT, joined in 2016."
+      ],
+      "list": [
+        "Drs. Barry and Kim Strock, owners",
+        "Dr. Ray Henley, associate veterinarian",
+        "Shellie Robinson, LVT, head technician"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "boarding",
+      "nav": "Boarding",
+      "eyebrow": "Going away?",
+      "title": "Boarding *with care*",
+      "intro": "Pets are fed once or twice a day, as you ask, with Hill’s Science Diet or their own food, and medications are given as directed.",
+      "columns": [
+        {
+          "title": "Included",
+          "items": [
+            "A personal kennel for each dog",
+            "A secluded cat area",
+            "Care for diabetic and special-needs pets",
+            "One-on-one playtime, for an extra fee"
+          ]
+        },
+        {
+          "title": "Please bring",
+          "items": [
+            "Toys, labeled with your last name",
+            "Your pet’s own food, if they need it",
+            "Medications, and tell us when you book"
+          ]
+        },
+        {
+          "title": "Please leave at home",
+          "items": [
+            "Pet beds, which can be chewed or carry fleas"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need an appointment?",
+          "a": "Yes. Doctor visits are by appointment only; call (803) 613-9123 to schedule."
+        },
+        {
+          "q": "Are you taking new patients?",
+          "a": "Yes. We’re always welcoming new dogs and cats."
+        },
+        {
+          "q": "How do appointment reminders work?",
+          "a": "They come by text and email, so call to make sure we have your current number and address."
+        },
+        {
+          "q": "Can my pet stay with you while I travel?",
+          "a": "Yes. Boarding includes personal dog kennels, a secluded cat area, and care for diabetic and special-needs pets."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Book a visit",
+      "text": "Call to schedule an appointment for your dog or cat.",
+      "cta": {
+        "label": "Call (803) 613-9123",
+        "href": "tel:+18036139123"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Martintown Road*",
+    "formTitle": "Request an appointment",
+    "formTopics": [
+      "A wellness visit",
+      "Surgery or dental care",
+      "Boarding",
+      "Bathing",
+      "A new patient"
+    ]
+  },
+  "slug": "veterinary-healthcare-associates",
+  "added": "2026-11-19",
+  "prospect": "veterinary-healthcare-associates-inc",
+  "source": {
+    "url": "https://www.veterinaryhealthcareofnorthaugusta.com/",
+    "before": [
+      "The home page still opens with an “Important Update” about reminders that started in November 2025",
+      "No office hours anywhere on the site",
+      "On a phone the main content takes about 12 seconds to appear (Google Lighthouse speed score: 50 out of 100)",
+      "9 accessibility problems, 2 of them critical, including an image with no description"
+    ],
+    "after": [
+      "Every service on one screen, in plain words",
+      "The doctors and their story up front",
+      "Boarding rules a pet owner can read in a minute",
+      "One tap to call for an appointment"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}
