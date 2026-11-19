@@ -1,0 +1,319 @@
+{
+  "name": "B&K Grading and Paving",
+  "short": "B&K Grading & Paving",
+  "category": "Grading, Paving & Site Work",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "established": "2009",
+  "look": "bold",
+  "fonts": {
+    "display": "anybody",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f5f7",
+    "surface": "#ffffff",
+    "ink": "#131e2c",
+    "muted": "#4e5a68",
+    "primary": "#17365c",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a516",
+    "line": "#dbe1e8"
+  },
+  "radius": 4,
+  "icon": "construction",
+  "logo": {
+    "src": "/demo-assets/bk-grading-and-paving/logo.webp",
+    "alt": "BK Grading & Paving",
+    "width": 734,
+    "height": 246
+  },
+  "contact": {
+    "phone": "(803) 652-3232",
+    "phoneLabel": "Aiken office",
+    "phone2": "(706) 251-8608",
+    "phone2Label": "Augusta office",
+    "email": "contact@bkgradingandpaving.com",
+    "address": [
+      "2087 Williston Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "B&K Grading and Paving, 2087 Williston Rd, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/bkgradingandpaving"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken, SC & Augusta, GA · Since 2009",
+    "title": "Build on *a solid base*",
+    "lede": "Grading, excavation, asphalt and concrete paving, hauling, roll-off dumpsters and portable restrooms for homes, businesses and job sites across the CSRA. From driveways to developments, done right and on schedule.",
+    "points": [
+      "Grading & excavation",
+      "Asphalt & concrete",
+      "Dumpsters & hauling"
+    ],
+    "cta": {
+      "label": "Call (803) 652-3232",
+      "href": "tel:+18036523232"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "image": {
+      "src": "/demo-assets/bk-grading-and-paving/paving-crew.webp",
+      "alt": "A B&K crew member rakes fresh asphalt beside a paving machine",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "facts": [
+    {
+      "value": "2009",
+      "label": "Founded by Jason Brittain"
+    },
+    {
+      "value": "10 · 20 · 30",
+      "label": "Yard roll-off dumpsters"
+    },
+    {
+      "value": "SC & GA",
+      "label": "Aiken and Augusta offices"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "One contractor, fewer vendors",
+      "title": "From site prep *to finished surface*",
+      "intro": "We mobilize the equipment, tools and operators for residential, maintenance and site-construction work, meeting insurance and safety requirements. We handle many large jobs, but no job is too small.",
+      "items": [
+        {
+          "icon": "construction",
+          "title": "Grading & excavation",
+          "text": "Land clearing, lot leveling, trenching, drainage and slope, erosion control: foundation-ready and paving-ready."
+        },
+        {
+          "icon": "route",
+          "title": "Asphalt paving",
+          "text": "Driveways, parking lots, private roads, resurfacing, patching, seal-coating and line striping."
+        },
+        {
+          "icon": "square",
+          "title": "Concrete",
+          "text": "Sidewalks, slabs, pads, curbs and gutters, patios and driveways, with clean finishing and good drainage."
+        },
+        {
+          "icon": "truck",
+          "title": "Dump truck & hauling",
+          "text": "Dirt, gravel, sand, asphalt and debris, delivered or removed on schedule."
+        },
+        {
+          "icon": "container",
+          "title": "Roll-off dumpsters",
+          "text": "10, 20 and 30 yard containers for construction waste, cleanouts, roofing and storm debris."
+        },
+        {
+          "icon": "bath",
+          "title": "Portable restrooms",
+          "text": "Clean, serviced units for job sites and events, keeping crews close and OSHA-compliant."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "projects",
+      "nav": "Projects",
+      "eyebrow": "On the job",
+      "title": "Recent *work*",
+      "images": [
+        {
+          "src": "/demo-assets/bk-grading-and-paving/dump-trucks.webp",
+          "alt": "A row of red B&K dump trucks parked on a gravel lot",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/road-crew.webp",
+          "alt": "A crew in hi-vis vests paving a road behind traffic cones",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/roll-off-trucks.webp",
+          "alt": "Roll-off trucks with dumpsters on their beds at sunset",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/parking-lot.webp",
+          "alt": "A newly paved and striped parking lot with a fresh curb",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/site-prep.webp",
+          "alt": "A dump truck unloading on a graded commercial site",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/grading-lot.webp",
+          "alt": "A dozer grading the lot beside a new house under construction",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/paver.webp",
+          "alt": "A paving machine laying new asphalt on a town street",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/bk-grading-and-paving/portable-restrooms.webp",
+          "alt": "A row of B&K portable restrooms on a job site",
+          "width": 1600,
+          "height": 798
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "fleet",
+      "nav": "Equipment",
+      "eyebrow": "Ready to mobilize",
+      "title": "Our *fleet*",
+      "columns": [
+        {
+          "title": "Earthwork",
+          "items": [
+            "Dozers",
+            "Track loaders",
+            "Excavators"
+          ]
+        },
+        {
+          "title": "Hauling",
+          "items": [
+            "Tri-axle dump trucks",
+            "Tandems",
+            "Road tractors",
+            "Full-size roll-off and hook trucks"
+          ]
+        },
+        {
+          "title": "Asphalt services",
+          "items": [
+            "Stone base & asphalt paving",
+            "Storm drainage",
+            "Crack seal & repair",
+            "Seal-coating & line striping"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Since 2009",
+      "title": "From a small contractor *to a full-service firm*",
+      "image": {
+        "src": "/demo-assets/bk-grading-and-paving/office.webp",
+        "alt": "The B&K Grading and Paving office, a metal building with the BK logo",
+        "width": 1600,
+        "height": 1213
+      },
+      "body": [
+        "Jason Brittain founded B&K Grading and Paving in 2009 as a small contracting company specializing in general site work and waste disposal. Through acquisitions it grew into a fully integrated contracting firm with three locations and hundreds of employees.",
+        "We’re known for clear communication, safe operations, efficient scheduling and workmanship that holds up, on residential, commercial and industrial projects in Aiken, Augusta, North Augusta and across the CSRA."
+      ],
+      "list": [
+        "Residential, commercial & industrial",
+        "Safety first on every site",
+        "Straightforward quotes"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you call*",
+      "items": [
+        {
+          "q": "Do you take small jobs?",
+          "a": "Yes. We handle many large jobs, but no job is too small, from a single driveway to a full development."
+        },
+        {
+          "q": "What size dumpsters do you rent?",
+          "a": "10, 20 and 30 yard roll-off dumpsters, delivered and picked up on schedule."
+        },
+        {
+          "q": "Can you prepare the site and pave it?",
+          "a": "Yes. We grade and prepare the base, then pave in asphalt or concrete, so one contractor handles it start to finish."
+        },
+        {
+          "q": "Do you work in Georgia?",
+          "a": "Yes. We have offices in Aiken, SC and Augusta, GA and work across the CSRA. Call (706) 251-8608 for Augusta."
+        },
+        {
+          "q": "Are you hiring?",
+          "a": "We’re always looking for Class A and B CDL drivers, paving crew foremen and skilled construction workers. Email your resume to contact@bkgradingandpaving.com."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Get a straightforward quote",
+      "text": "Tell us about your project and we’ll confirm availability.",
+      "cta": {
+        "label": "Call (803) 652-3232",
+        "href": "tel:+18036523232"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Williston Road*",
+    "formTitle": "Request a quote",
+    "formTopics": [
+      "Grading or excavation",
+      "Asphalt or concrete",
+      "Hauling",
+      "Roll-off dumpster",
+      "Portable restrooms",
+      "Something else"
+    ]
+  },
+  "slug": "bk-grading-and-paving",
+  "added": "2026-11-19",
+  "prospect": "b-and-k-grading-and-paving-llc",
+  "source": {
+    "url": "https://bkgradingandpaving.com/",
+    "before": [
+      "On a phone, the main photo takes about 15 seconds to appear (Google Lighthouse speed score: 49 out of 100)",
+      "The home page downloads 10.5 MB across 107 files, a lot for a phone on a cell signal",
+      "34 pieces of text are too faint against their background to read easily (automated accessibility check)",
+      "The home page says \"over 15 years\" in business while the About page says 17"
+    ],
+    "after": [
+      "A page that shows up in a couple of seconds on a phone",
+      "All six services on one screen, with photos of real jobs",
+      "Both office numbers and a quote request on every screen",
+      "Dumpster sizes and the equipment fleet at a glance",
+      "Text that meets contrast standards everywhere"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "rows",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

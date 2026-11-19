@@ -242,7 +242,7 @@ const results = await pool(targets, 8, async (b) => {
 
   const base = { slug: b.slug, name: b.name, url: given, finalUrl: res.finalUrl, status: res.status };
   if (!res.ok) {
-    // 401/403/409/429 = a firewall or human check refusing automated visitors (the site is up);
+    // 401/403/429 = a firewall refusing automated visitors (the site is up);
     // anything else = the site did not answer at all.
     const err = res.error || '';
     // The address answered with a redirect to a different website that then failed to load
@@ -253,9 +253,9 @@ const results = await pool(targets, 8, async (b) => {
     // (A redirect to the business's own new domain that answers with a 403 or 404 is
     // not this: only a destination that does not answer at all counts.)
     const state = finalHost && finalHost !== bare(u.host) && !res.status ? 'redirects-away'
-      // 409: some hosts answer a first visit with a tiny script that sets a cookie and reloads
-      // (a "human check"); people get the site, bots don't.
-      : [401, 403, 406, 409, 429, 503].includes(res.status) ? 'blocked'
+      // (Cookie-and-reload "human checks" are passed in fetchUrl, so a 409 left here is a real
+      // error, such as Cloudflare's 1001 for a domain with no working DNS record.)
+      : [401, 403, 406, 429, 503].includes(res.status) ? 'blocked'
       : res.status >= 400 ? 'broken'
       : /SSL|certificate/i.test(err) ? 'cert-error'          // visitors get a full-page browser warning
       : /CONNECT tunnel failed|Could not resolve/i.test(err) ? 'no-dns'  // the domain no longer points anywhere

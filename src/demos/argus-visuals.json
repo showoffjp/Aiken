@@ -1,0 +1,341 @@
+{
+  "name": "Argus Visuals",
+  "short": "Argus Visuals",
+  "category": "Photography, Video & Drone",
+  "group": "Services",
+  "town": "North Augusta, SC",
+  "established": "2020",
+  "look": "editorial",
+  "fonts": {
+    "display": "syne",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f5f6f8",
+    "surface": "#ffffff",
+    "ink": "#111827",
+    "muted": "#59616e",
+    "primary": "#13294b",
+    "onPrimary": "#ffffff",
+    "accent": "#e0a02a",
+    "line": "#dde1e7"
+  },
+  "radius": 8,
+  "icon": "camera",
+  "contact": {
+    "phone": "(803) 762-7830",
+    "phoneLabel": "Call or text",
+    "phone2": "(706) 405-2248",
+    "phone2Label": "Georgia line",
+    "email": "argusvisuals@gmail.com",
+    "address": [
+      "336 Georgia Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Argus Visuals, 336 Georgia Ave, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/argusvisuals",
+    "instagram": "https://www.instagram.com/argusvisuals/"
+  },
+  "hero": {
+    "eyebrow": "Photo · Video · Drone · North Augusta",
+    "title": "Up close *or from the air*",
+    "lede": "Photography, video and FAA-certified drone work for businesses, events, real estate and construction across the CSRA, from Brian and Sheryl at Argus Visuals.",
+    "points": [
+      "Real estate & aerial",
+      "Events & grand openings",
+      "Construction progress"
+    ],
+    "cta": {
+      "label": "Call (803) 762-7830",
+      "href": "tel:+18037627830"
+    },
+    "cta2": {
+      "label": "See the work",
+      "href": "#work"
+    },
+    "image": {
+      "src": "/demo-assets/argus-visuals/construction-aerial.webp",
+      "alt": "A drone view of a construction site: excavators and dozers cutting into red Carolina clay",
+      "width": 1600,
+      "height": 1199
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/argus-visuals/construction-aerial.webp"
+  },
+  "facts": [
+    {
+      "value": "Part 107",
+      "label": "FAA-certified drone pilots"
+    },
+    {
+      "value": "SC & GA",
+      "label": "Licensed in both states"
+    },
+    {
+      "value": "30+ years",
+      "label": "Of media and customer service"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we shoot",
+      "title": "Media that helps *you succeed*",
+      "items": [
+        {
+          "icon": "house-plus",
+          "title": "Real estate",
+          "text": "Listing photos, twilight shots, drone photos and 4K video. Floor plans come with every interior shoot."
+        },
+        {
+          "icon": "drone",
+          "title": "Drone & aerial",
+          "text": "Ultra-HD drones for a whole property, site or event in a single frame."
+        },
+        {
+          "icon": "hard-hat",
+          "title": "Construction",
+          "text": "Pre-construction, progress, milestone and insurance photos, weekly, monthly or quarterly."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Events",
+          "text": "Ceremonies, corporate events, grand openings, ribbon cuttings and fundraisers."
+        },
+        {
+          "icon": "camera",
+          "title": "Products",
+          "text": "Clean, crisp images for your website, social media, brochures and catalogs."
+        },
+        {
+          "icon": "user",
+          "title": "Headshots & video",
+          "text": "Team photos for your website and newsletter, plus commercials and video."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Around the CSRA",
+      "title": "Recent *shoots*",
+      "images": [
+        {
+          "src": "/demo-assets/argus-visuals/new-home-aerial.webp",
+          "alt": "A drone view of a new blue two-story house on a freshly cleared wooded lot",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/argus-visuals/street-festival.webp",
+          "alt": "A street festival from above: white vendor tents and crowds filling a downtown street",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/argus-visuals/ribbon-cutting.webp",
+          "alt": "A crowd of business and community leaders at a red-ribbon grand opening",
+          "width": 1600,
+          "height": 946
+        },
+        {
+          "src": "/demo-assets/argus-visuals/headshot-session.webp",
+          "alt": "A headshot session: a businesswoman poses against a dark backdrop as the photographer directs",
+          "width": 1600,
+          "height": 945
+        },
+        {
+          "src": "/demo-assets/argus-visuals/product-shoot.webp",
+          "alt": "A photographer shooting pastries on a wooden board under studio lights",
+          "width": 1600,
+          "height": 954
+        },
+        {
+          "src": "/demo-assets/argus-visuals/rooftops.webp",
+          "alt": "Rows of new homes seen straight down from a drone",
+          "width": 1600,
+          "height": 1213
+        },
+        {
+          "src": "/demo-assets/argus-visuals/listing-photo.webp",
+          "alt": "A white two-story home with a deep front porch and red azaleas, shot for a listing",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "real-estate",
+      "nav": "Real estate",
+      "eyebrow": "Make your listing stand out",
+      "title": "Packages for *realtors and owners*",
+      "intro": "Tailored to the property, for professional realtors and sell-by-owner homeowners alike. Floor plans are included with all interior shoots.",
+      "columns": [
+        {
+          "title": "Listing photos",
+          "items": [
+            "Professionally edited",
+            "Print and MLS quality",
+            "Interior and exterior",
+            "Vacation rentals, too"
+          ]
+        },
+        {
+          "title": "From the air",
+          "items": [
+            "Aerial drone photos",
+            "4K aerial drone video",
+            "Landmarks and surroundings in view"
+          ]
+        },
+        {
+          "title": "Extras",
+          "items": [
+            "Twilight photos",
+            "2D floor plans",
+            "Wide-angle, high-resolution cameras"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Event photography",
+      "title": "Be a guest *at your own event*",
+      "items": [
+        {
+          "title": "Before",
+          "text": "We meet to talk through the venue, the number of guests, the shots you want and your budget, and write up a clear list of objectives."
+        },
+        {
+          "title": "During",
+          "text": "We capture the defining moments and the details, so you can mingle with your guests."
+        },
+        {
+          "title": "After",
+          "text": "You get a gallery to review. For social media, we match photos with their captions, ready to post."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Since June 2020",
+      "title": "Meet *Brian and Sheryl*",
+      "image": {
+        "src": "/demo-assets/argus-visuals/brian-and-sheryl.webp",
+        "alt": "Brian and Sheryl of Argus Visuals on a clifftop high above the sea",
+        "width": 1600,
+        "height": 1200
+      },
+      "body": [
+        "Argus Visuals began in June 2020 as a creative outlet and a way to serve the community after long careers in automation packaging and education. We soon found how much it costs a small business to hire a digital marketing professional, and saw that the CSRA needed high-quality media at a reasonable rate.",
+        "Between us we have over thirty years of digital media and customer service experience. We’re incorporated with business licenses in South Carolina and Georgia, and insured as professional photographers, videographers and FAA-certified Part 107 drone pilots. We treat our customers how we want to be treated."
+      ],
+      "list": [
+        "Friendly, honest and prompt",
+        "Very reasonable rates",
+        "Hard hats and hi-vis on every job site"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "The surprise proposal",
+      "title": "A forever *memory*",
+      "items": [
+        {
+          "text": "I could not have asked for a better company and couple to capture my son’s proposal! Brian and Sheryl were absolutely fabulous to work with! My son and I met with them prior to the big day and they helped him plan every detail. It was a perfect day!",
+          "by": "Penny Oates"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *the shoot*",
+      "items": [
+        {
+          "q": "Are your drone pilots licensed?",
+          "a": "Yes. We’re FAA-certified Part 107 drone pilots, and we carry commercial insurance for photo, video and drone work."
+        },
+        {
+          "q": "Are floor plans included for real estate?",
+          "a": "Yes, 2D floor plans come with every interior real estate shoot."
+        },
+        {
+          "q": "Can you work on an active construction site?",
+          "a": "Yes. We arrive with safety boots, high-visibility vests and hard hats, and we won’t interfere with your crew’s progress."
+        },
+        {
+          "q": "Do you work in Georgia?",
+          "a": "Yes. We’re licensed in both South Carolina and Georgia. Call (706) 405-2248 for our Georgia line."
+        },
+        {
+          "q": "Can you help with social media posts after an event?",
+          "a": "Yes. Along with your gallery, we can match photos with their captions so they’re ready to post."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a shoot?",
+      "text": "Call, text or email argusvisuals@gmail.com.",
+      "cta": {
+        "label": "Call (803) 762-7830",
+        "href": "tel:+18037627830"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book *a shoot*",
+    "formTitle": "Tell us about your shoot",
+    "formTopics": [
+      "Real estate",
+      "Event",
+      "Construction",
+      "Products or headshots",
+      "Drone / aerial"
+    ]
+  },
+  "slug": "argus-visuals",
+  "added": "2026-11-19",
+  "prospect": "argus-visuals",
+  "source": {
+    "url": "https://www.argusvisuals.com/",
+    "before": [
+      "No description for Google results, and no title or preview image when the link is shared on Facebook or by text",
+      "6 of the 8 images on the home page have no description (alt text)",
+      "On a phone, the main photo takes about 16 seconds to appear (Google Lighthouse speed score: 57 out of 100)",
+      "The home page downloads 9.2 MB across 116 files, slow on a phone signal"
+    ],
+    "after": [
+      "Full-screen photos and drone shots up front: the work sells itself",
+      "Real estate, events, construction and drone services, each with what’s included",
+      "Call, text and email on every screen, with both state numbers",
+      "A proper preview when the link is shared",
+      "A page that loads quickly on a phone"
+    ]
+  },
+  "style": {
+    "services": "list",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "plain",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

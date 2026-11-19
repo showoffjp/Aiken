@@ -66,7 +66,7 @@ if (cine) deepIdx = -1;
     </section>
   );
   if (s.type === 'story') return (
-    <section class={`section story ${alt} ${s.flip ? 'flip' : ''} ${s.image ? '' : 'solo'} ${s.image?.width && s.image?.height && s.image.width / s.image.height > 2.3 ? 'pano' : ''}`} id={id}>
+    <section class={`section story ${alt} ${s.flip ? 'flip' : ''} ${s.image ? '' : 'solo'} ${s.image?.width && s.image?.height && s.image.width / s.image.height > 2 ? 'pano' : ''}`} id={id}>
       <div class="wrap">
         {s.image && (
           <div class="story-media" data-par="">

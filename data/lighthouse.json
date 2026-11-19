@@ -1581,16 +1581,28 @@
  },
  "b-and-k-grading-and-paving-llc": {
   "site": {
-   "performance": 40,
+   "performance": 49,
    "accessibility": 92,
-   "bestPractices": 79,
+   "bestPractices": 96,
    "seo": 92,
-   "fcp": 3287,
-   "lcp": 15192,
-   "tbt": 830,
-   "si": 12968,
+   "fcp": 3161,
+   "lcp": 15401,
+   "tbt": 425,
+   "si": 14230,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 948,
+   "lcp": 2635,
+   "tbt": 24,
+   "si": 948,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "baker-family-dentistry": {
@@ -3357,6 +3369,58 @@
    "lcp": 2706,
    "tbt": 77,
    "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "argus-visuals": {
+  "site": {
+   "performance": 57,
+   "accessibility": 82,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 8404,
+   "lcp": 15877,
+   "tbt": 6,
+   "si": 8404,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 94,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1049,
+   "lcp": 3155,
+   "tbt": 0,
+   "si": 1049,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "beech-island-appliance-service-co-inc": {
+  "site": {
+   "performance": 43,
+   "accessibility": 80,
+   "bestPractices": 100,
+   "seo": 77,
+   "fcp": 2461,
+   "lcp": 9768,
+   "tbt": 894,
+   "si": 8045,
+   "cls": 0.062,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1078,
+   "lcp": 2029,
+   "tbt": 55,
+   "si": 1078,
    "cls": 0,
    "at": "2026-11-19"
   }

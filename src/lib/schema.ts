@@ -19,7 +19,7 @@ const SPECIFIC: [RegExp, string][] = [
   [/bookkeeping|accountant/i, 'AccountingService'], [/architect/i, 'ProfessionalService'], [/florist/i, 'Florist'], [/jewel/i, 'JewelryStore'],
   [/furniture|mattress/i, 'FurnitureStore'], [/antique/i, 'Store'], [/hair salon|hair restoration/i, 'HairSalon'], [/massage/i, 'HealthAndBeautyBusiness'],
   [/plumb/i, 'Plumber'], [/heating|cooling|hvac/i, 'HVACBusiness'], [/roof/i, 'RoofingContractor'], [/landscape|tree/i, 'HomeAndConstructionBusiness'],
-  [/remodel|custom homes|construction/i, 'GeneralContractor'], [/printing/i, 'ProfessionalService'], [/photograph/i, 'ProfessionalService'],
+  [/remodel|custom homes|construction/i, 'GeneralContractor'], [/drag strip|race ?track|speedway/i, 'SportsActivityLocation'], [/printing/i, 'ProfessionalService'], [/photograph/i, 'ProfessionalService'],
   [/pet sitting|dog walking/i, 'LocalBusiness'], [/clean/i, 'DryCleaningOrLaundry'], [/training track/i, 'SportsActivityLocation'], [/playground/i, 'EntertainmentBusiness'], [/tours?\b|trail rides?/i, 'TouristAttraction'],
 ];
 export const businessType = (demo: Demo) => SPECIFIC.find(([re]) => re.test(demo.category))?.[1] || TYPE[demo.group] || 'LocalBusiness';
@@ -90,6 +90,70 @@ export const mapLink = (demo: Demo) =>
   demo.contact.mapQuery ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(demo.contact.mapQuery)}` : '';
 
 /** schema.org markup for the business, as the real site would ship it. */
+const plain = (t = '') => t.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+
+/** A listed price as schema.org reads it: "$12.99", "$45–65", "from $60", "$65+", "$30 / hr", "6.95 / 14.95". */
+export function priceLd(p?: string): Record<string, unknown> | undefined {
+  if (!p || /market|varies|ask|call|free|\bfor\b/i.test(p)) return undefined;
+  const nums = [...p.replace(/,/g, '').matchAll(/\d+(?:\.\d+)?/g)].map((m) => +m[0]);
+  if (!nums.length || nums.length > 2) return undefined;
+  const hourly = /\/\s*(hr|hour)\b/i.test(p);
+  const atLeast = /\+|from/i.test(p);
+  if (nums.length === 1 && !atLeast && !hourly) return { price: nums[0].toFixed(2), priceCurrency: 'USD' };
+  return { priceSpecification: {
+    '@type': hourly ? 'UnitPriceSpecification' : 'PriceSpecification',
+    ...(nums.length === 1 && !atLeast ? { price: nums[0] } : { minPrice: nums[0] }),
+    ...(nums.length === 2 && { maxPrice: nums[1] }),
+    priceCurrency: 'USD',
+    ...(hourly && { unitText: 'hour' }),
+  } };
+}
+
+/**
+ * What the business sells, in the form Google reads: a restaurant's menu as
+ * Menu > MenuSection > MenuItem (with prices where the page lists them); any
+ * other business's price list or services as an OfferCatalog.
+ */
+export function offersLd(demo: Demo) {
+  const sections = demo.sections as any[];
+  const menus = sections.filter((s) => s.type === 'menu');
+  const food = demo.group === 'Food & Drink';
+  if (food && menus.length) {
+    const menu = (s: any) => ({
+      '@type': 'Menu', name: plain(s.nav || s.title),
+      hasMenuSection: s.groups.map((g: any) => ({
+        '@type': 'MenuSection', name: plain(g.title), ...(g.note && { description: plain(g.note) }),
+        hasMenuItem: g.items.map((it: any) => {
+          const price = priceLd(it.price);
+          return { '@type': 'MenuItem', name: plain(it.name), ...(it.desc && { description: plain(it.desc) }), ...(price && { offers: { '@type': 'Offer', ...price } }) };
+        }),
+      })),
+    });
+    return { hasMenu: menus.length === 1 ? menu(menus[0]) : menus.map(menu) };
+  }
+  const offer = (name: string, description?: string, price?: string) => {
+    const p = priceLd(price);
+    return { '@type': 'Offer', itemOffered: { '@type': 'Service', name: plain(name), ...(description && { description: plain(description) }) }, ...(p || {}) };
+  };
+  // A price list (grooming, massage, party packages): only when most of it is priced,
+  // so a list of plan features or concession snacks is not passed off as services.
+  const priced = menus.find((s) => { const items = s.groups.flatMap((g: any) => g.items); return items.filter((it: any) => priceLd(it.price)).length * 2 >= items.length; });
+  if (priced) {
+    return { hasOfferCatalog: { '@type': 'OfferCatalog', name: plain(priced.nav || priced.title), itemListElement: priced.groups.map((g: any) => ({
+      '@type': 'OfferCatalog', name: plain(g.title),
+      // "Small, 5–20 lb" means nothing on its own: name each item with its group ("Haircut: Small, 5–20 lb").
+      itemListElement: g.items.map((it: any) => offer(new RegExp(plain(g.title).split(/\s+/)[0], 'i').test(it.name) ? it.name : `${plain(g.title)}: ${it.name}`, it.desc, it.price)),
+    })) } };
+  }
+  // Otherwise the services section, if the page labels it as what the business offers
+  // (not "The park", "Your stay" or a list of selling points).
+  if (food) return {};
+  const offering = /\b(services|practice areas|products|floors|rentals|sessions|what we build|what we make|custom work|auto glass|the rides)\b/i;
+  const services = sections.find((s) => s.type === 'services' && s.items?.length >= 2 && offering.test(`${s.id || ''} ${s.nav || ''}`));
+  if (!services) return {};
+  return { hasOfferCatalog: { '@type': 'OfferCatalog', name: plain(services.nav || services.title), itemListElement: services.items.map((it: any) => offer(it.title, it.text)) } };
+}
+
 export function businessLd(demo: Demo, siteUrl = '') {
   const { contact, hero } = demo;
   const addr = contact.address?.length ? contact.address : undefined;
@@ -111,6 +175,7 @@ export function businessLd(demo: Demo, siteUrl = '') {
     ...(hero.image && siteUrl && { image: `${siteUrl}${hero.image.src}` }),
     ...(demo.established && { foundingDate: demo.established }),
     ...(sameAs.length && { sameAs }),
+    ...offersLd(demo),
   };
 }
 
