@@ -525,16 +525,16 @@
  },
  "hughes-beattie-oneal-law-and-assoc-pc": {
   "concept": {
-   "performance": 96,
+   "performance": 94,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 1056,
-   "lcp": 2781,
+   "fcp": 1209,
+   "lcp": 3084,
    "tbt": 0,
-   "si": 1056,
+   "si": 1209,
    "cls": 0,
-   "at": "2026-11-18"
+   "at": "2026-11-19"
   },
   "site": {
    "error": "PROTOCOL_TIMEOUT",
@@ -543,16 +543,16 @@
  },
  "help-me-rhonda-bookkeeping-llc": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1052,
-   "lcp": 1652,
+   "fcp": 1202,
+   "lcp": 1952,
    "tbt": 0,
-   "si": 1052,
+   "si": 1202,
    "cls": 0,
-   "at": "2026-11-18"
+   "at": "2026-11-19"
   },
   "site": {
    "performance": 61,
@@ -573,10 +573,10 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 970,
-   "lcp": 2182,
-   "tbt": 130,
-   "si": 970,
+   "fcp": 943,
+   "lcp": 2178,
+   "tbt": 99,
+   "si": 943,
    "cls": 0,
    "at": "2026-11-19"
   },
