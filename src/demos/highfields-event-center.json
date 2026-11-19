@@ -1,0 +1,356 @@
+{
+  "name": "Highfields Event Center",
+  "short": "Highfields",
+  "category": "Horse Shows & Event Center",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f6f4ef",
+    "surface": "#ffffff",
+    "ink": "#171a26",
+    "muted": "#545a6c",
+    "primary": "#28356b",
+    "onPrimary": "#ffffff",
+    "accent": "#a4385a",
+    "line": "#e3e0d8"
+  },
+  "radius": 8,
+  "icon": "trophy",
+  "contact": {
+    "phone": "(803) 649-3505",
+    "email": "psjshows87@gmail.com",
+    "address": [
+      "118 Gaston Street NE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Highfields Event Center, Aiken, SC",
+    "facebook": "https://www.facebook.com/PSJSHOWS/"
+  },
+  "hero": {
+    "eyebrow": "Home of Progressive Show Jumping",
+    "title": "Horse shows in the heart *of Aiken*",
+    "lede": "A 74-acre show grounds and RV park eight blocks from historic downtown Aiken, home to Progressive Show Jumping’s hunter and jumper shows, from grassroots classes to USEF-rated competition.",
+    "points": [
+      "2027 season set",
+      "Stabling & RV park",
+      "Enter online"
+    ],
+    "cta": {
+      "label": "See the show dates",
+      "href": "#shows"
+    },
+    "cta2": {
+      "label": "Call (803) 649-3505",
+      "href": "tel:+18036493505"
+    },
+    "image": {
+      "src": "/demo-assets/highfields-event-center/jumper.webp",
+      "alt": "A chestnut horse and rider clearing a fence at Highfields",
+      "width": 1920,
+      "height": 1083
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/highfields-event-center/jumper.webp"
+  },
+  "facts": [
+    {
+      "value": "74 acres",
+      "label": "Show grounds, barns and RV park"
+    },
+    {
+      "value": "8 blocks",
+      "label": "From historic downtown Aiken"
+    },
+    {
+      "value": "1992",
+      "label": "PSJ Medal Finals champions since"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "shows",
+      "nav": "Show dates",
+      "eyebrow": "The 2027 season is set",
+      "title": "Upcoming *shows*",
+      "intro": "USEF-rated, PSJ C Series and Just For Fun shows. Prize lists, schedules and online entry through Ring Radar.",
+      "groups": [
+        {
+          "title": "Winter",
+          "items": [
+            {
+              "name": "Holiday Celebration",
+              "price": "Dec 11–13"
+            },
+            {
+              "name": "Winter Classic I",
+              "price": "Jan 8–10"
+            },
+            {
+              "name": "Winter Classic II",
+              "price": "Jan 15–17"
+            },
+            {
+              "name": "PSJ Winter I",
+              "price": "Jan 29–31"
+            }
+          ]
+        },
+        {
+          "title": "February",
+          "note": "First day of each show",
+          "items": [
+            {
+              "name": "Just For Fun",
+              "price": "Feb 6"
+            },
+            {
+              "name": "Cupid Classic",
+              "price": "Feb 12"
+            },
+            {
+              "name": "Carolina Classic",
+              "price": "Feb 19"
+            },
+            {
+              "name": "PSJ Winter II",
+              "price": "Feb 26"
+            }
+          ]
+        },
+        {
+          "title": "Spring",
+          "note": "First day of each show",
+          "items": [
+            {
+              "name": "March Madness I",
+              "price": "Mar 5"
+            },
+            {
+              "name": "PSJ Spring Classic",
+              "price": "Apr 2"
+            }
+          ]
+        }
+      ],
+      "footnote": "Dates from the 2027 schedule on the current website; see each show’s prize list for classes and fees.",
+      "printLabel": "Print the schedule"
+    },
+    {
+      "type": "services",
+      "id": "psj",
+      "nav": "Progressive Show Jumping",
+      "columns": 3,
+      "eyebrow": "Grassroots to premier",
+      "title": "Shows *for every level*",
+      "items": [
+        {
+          "icon": "award",
+          "title": "USEF-rated shows",
+          "text": "Rated hunter and jumper competition at Highfields and across the Carolinas."
+        },
+        {
+          "icon": "star",
+          "title": "PSJ C Series",
+          "text": "Accessible shows at reasonable rates that build riders and horses step by step."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Just For Fun",
+          "text": "Relaxed, low-pressure shows for schooling and first outings."
+        },
+        {
+          "icon": "trophy",
+          "title": "Medal & Derby Finals",
+          "text": "PSJ Finals, with champions recorded back to 1992, and a new Jumper Team Championship."
+        },
+        {
+          "icon": "medal",
+          "title": "Year-end trophies",
+          "text": "Challenge trophies donated by families and farms, awarded every season."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "Membership & points",
+          "text": "Join PSJ online and follow the points standings all year."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "At the show",
+      "title": "Every stride *counts*",
+      "images": [
+        {
+          "src": "/demo-assets/highfields-event-center/over-the-oxer.webp",
+          "alt": "A horse and rider jumping a wooden fence in the ring",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/highfields-event-center/rainbow-arena.webp",
+          "alt": "A rainbow over the show arena and its jumps",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/highfields-event-center/ribbon.webp",
+          "alt": "A rider and her horse with their ribbons beside a winner’s backdrop",
+          "width": 1600,
+          "height": 887
+        },
+        {
+          "src": "/demo-assets/highfields-event-center/pavilion.webp",
+          "alt": "The open-air Mary Ann Parmelee Pavilion",
+          "width": 750,
+          "height": 251
+        },
+        {
+          "src": "/demo-assets/highfields-event-center/rv-park.webp",
+          "alt": "Campers parked under the trees in the Highfields RV park",
+          "width": 750,
+          "height": 498
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "highfields",
+      "nav": "Highfields",
+      "eyebrow": "The grounds",
+      "title": "Room for *every event*",
+      "image": {
+        "src": "/demo-assets/highfields-event-center/arena.webp",
+        "alt": "The sand arena at Highfields, with barns beyond",
+        "width": 815,
+        "height": 455
+      },
+      "body": [
+        "Highfields Event Center is a 74-acre event facility and RV park just eight blocks from historic downtown Aiken. It has hosted horse shows of every discipline, and has plenty of room for non-equestrian events too.",
+        "Centrally located between Florida and the Northeast, we offer dry stall rentals for short or seasonal layovers for the traveling equestrian, and an RV park with room for your rig."
+      ],
+      "list": [
+        "The Mary Ann Parmelee Pavilion: 48 × 100 feet, opened in 2016, with power and water",
+        "Barns, stabling tents, a polo and derby field and paddocks",
+        "Day ship-in parking and vendor space"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "directions",
+      "nav": "Getting here",
+      "eyebrow": "Two gates",
+      "title": "Finding *your barn*",
+      "columns": [
+        {
+          "title": "Main entrance",
+          "items": [
+            "118 Gaston Street NE",
+            "Show and corporate offices, Barn 1",
+            "UPS and FedEx deliveries"
+          ]
+        },
+        {
+          "title": "Northwest gate",
+          "items": [
+            "198 Gaston Street NE",
+            "Barns 2–4 and stabling tents",
+            "Polo and derby field, paddocks, ship-in parking and vendors"
+          ]
+        },
+        {
+          "title": "From I-20",
+          "items": [
+            "Take exit 22 onto US 1 toward Aiken",
+            "About 8 miles into town",
+            "Call us for turn-by-turn help"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How do I enter a show?",
+          "a": "Online through Ring Radar, from each show’s page. Prize lists and schedules are posted for every show."
+        },
+        {
+          "q": "Can I reserve stalls or a camper spot?",
+          "a": "Yes. Use the stall and bedding or camper reservation forms, or call (803) 649-3505."
+        },
+        {
+          "q": "Can I lay over with my horses between Florida and the Northeast?",
+          "a": "Yes. Dry stalls are available for short-term and seasonal layovers; call for availability and rates."
+        },
+        {
+          "q": "Who do I ask about points, membership or sponsorship?",
+          "a": "Call (803) 649-3505 or email psjshows87@gmail.com, and we’ll point you to the right person."
+        },
+        {
+          "q": "Can Highfields host other events?",
+          "a": "Yes. The grounds have room for non-equestrian events as well as horse shows."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See you at the in-gate",
+      "text": "Questions about a show, stabling or the RV park? Give us a call.",
+      "cta": {
+        "label": "Call (803) 649-3505",
+        "href": "tel:+18036493505"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Gaston Street*",
+    "formTitle": "Ask about a show or the grounds",
+    "formTopics": [
+      "Entering a show",
+      "Stalls or bedding",
+      "The RV park",
+      "Hosting an event",
+      "Something else"
+    ]
+  },
+  "slug": "highfields-event-center",
+  "added": "2026-11-19",
+  "prospect": "highfields-event-center-is-home-of-aiken-music-f",
+  "source": {
+    "url": "https://psjshows.com/",
+    "before": [
+      "The phone number at the top of every page is 202-555-0188, a made-up 555 number",
+      "On a phone the screen stays blank for about 10 seconds, and the main content takes about 32 (Google Lighthouse speed score: 50 out of 100)",
+      "A heading reads “Highfields Event Cetner”, and the Medal Finals results stop at 2021",
+      "On a phone, the first screen shows no phone number or call button"
+    ],
+    "after": [
+      "The season’s show dates on the first screens",
+      "Stabling, the RV park and the two gates explained in plain words",
+      "A real phone number at the top of every page",
+      "One tap to call the show office"
+    ]
+  },
+  "style": {
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

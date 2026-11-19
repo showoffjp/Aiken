@@ -101,12 +101,15 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const blankLine = broken || d.source.none ? '' : blankNote(d.prospect || d.slug);
   // The blank-screen line says the speed problem more plainly than the score, so it replaces it.
   const lead = [rankLine, callLine, blankLine, readLine, blankLine ? '' : lhLine].filter(Boolean);
-  // The concept's own first finding fills a second slot, unless it says the same
-  // thing as a lead line (two speed points, or tiny text twice).
+  // The concept's own first finding that says something no lead line says
+  // (no second speed point, no tiny text twice).
   const topic = (x) => (/Lighthouse|blank screen|stays blank|seconds to appear/i.test(x) ? 'speed' : /\b12 (px|pixels)\b/.test(x) ? 'tiny' : /call button|tap to call/i.test(x) ? 'call' : x);
   const said = new Set(lead.map(topic));
   const extra = d.source.before.find((b) => !said.has(topic(b)));
-  const findings = lead.length ? [...lead, extra].filter(Boolean).slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
+  // One measured point and the concept's own first finding (usually the most
+  // specific: a placeholder phone number, another company's name), then a
+  // second measured point if there is no own finding to use.
+  const findings = lead.length ? [lead[0], extra, lead[1]].filter(Boolean).slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
   if (access) findings.push(access);
   const none = !!d.source.none;

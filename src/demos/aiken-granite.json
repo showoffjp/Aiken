@@ -288,7 +288,7 @@
   "source": {
     "url": "https://southcarolinagranite.com/",
     "before": [
-      "The home page downloads about 10 MB across 342 files on a phone",
+      "The home page downloads about 11 MB across 342 files on a phone",
       "The menu holds more than 60 links before a visitor sees a single countertop",
       "118 of 122 images have no text description for screen readers",
       "An automated check finds 35 serious accessibility problems, mostly text too faint to read"

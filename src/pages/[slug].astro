@@ -16,6 +16,7 @@ import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWo
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
+import { measures } from '../lib/measures';
 import { appName } from '../lib/appicon';
 import QRCode from 'qrcode';
 import { accessible, ratio } from '../lib/contrast';
@@ -65,6 +66,8 @@ const cineImg = cine ? cinematicHero(demo) : undefined;
 const ribbonWords = offerWords(demo, 6);
 const ribbon = ribbonWords.length >= 2 && archetype !== 'poster' && st.facts !== 'ticker';
 const short = demo.short || demo.name;
+// Measured before-and-after for the "What changed?" panel (src/lib/measures.ts).
+const nums = measures(demo);
 const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
 const mapSrc = contact.mapQuery ? `https://www.google.com/maps?q=${encodeURIComponent(contact.mapQuery)}&output=embed` : '';
 // A drawn street map (OpenStreetMap data) shows first; Google's interactive
@@ -384,6 +387,13 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         <h2 id="notes-title">What this concept changes</h2>
         <button class="close" type="button" data-close-notes aria-label="Close">×</button>
       </header>
+      {nums.length > 0 && (
+        <table class="nums">
+          <caption>By the numbers: the current home page and this concept, measured the same way</caption>
+          <thead><tr><th scope="col">Test</th><th scope="col">Today</th><th scope="col">Concept</th></tr></thead>
+          <tbody>{nums.map((m) => <tr><th scope="row">{m.label}</th><td class="old">{m.today}</td><td class="new">{m.concept}</td></tr>)}</tbody>
+        </table>
+      )}
       <div class="cols">
         <div><h3>{demo.source.none ? 'Today' : 'The current site'}</h3><ul>{demo.source.before.map((b) => <li>{b}</li>)}</ul></div>
         <div class="after"><h3>This concept</h3><ul>{after.map((b) => <li>{b}</li>)}</ul><h3 class="also">Built in for customers</h3><ul>{builtIn(demo).map((b) => <li>{b}</li>)}</ul></div>

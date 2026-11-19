@@ -172,6 +172,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "bobbys-bar-b-q-buffet": {
+  "q": "1897 Jefferson Davis Highway, Warrenville, SC 29851",
+  "lat": 33.553222,
+  "lon": -81.814996,
+  "kind": "trunk",
+  "exact": false,
+  "at": "2026-11-19"
+ },
  "bottom-line-bakery": {
   "q": "148 Laurens Street SW, Aiken, SC 29801",
   "lat": 33.560294,
@@ -401,6 +409,11 @@
   "lon": -81.719634,
   "kind": "place",
   "exact": true,
+  "at": "2026-11-19"
+ },
+ "highfields-event-center": {
+  "q": "118 Gaston Street NE, Aiken, SC 29801",
+  "missing": true,
   "at": "2026-11-19"
  },
  "hixon-insurance": {
@@ -637,6 +650,14 @@
   "lat": 33.53064,
   "lon": -81.700935,
   "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "pave-way-of-augusta-and-aiken": {
+  "q": "306 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.515871,
+  "lon": -81.729691,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },

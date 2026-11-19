@@ -290,7 +290,7 @@
   "source": {
     "url": "https://www.vegoutofaiken.com/",
     "before": [
-      "The home page weighs about 2.4 MB across 46 requests, a lot for a phone on a cellular connection",
+      "The home page weighs about 2.5 MB across 46 requests, a lot for a phone on a cellular connection",
       "The first screen is a single photo: no hours, address or phone until you scroll",
       "Saturday hours appear as both 10 am and 11 am on the same page",
       "Prices on the menu are hard to match to their items",

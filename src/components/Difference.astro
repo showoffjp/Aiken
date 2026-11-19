@@ -15,7 +15,8 @@ const median = (xs: number[]) => { const s = [...xs].sort((a, b) => a - b), n = 
 const ok = (x: any) => x && !x.error;
 const LAST = 12000; // the filmstrip's last frame: "nothing yet" there counts as 12 seconds
 const secs = (ms: number) => (ms >= LAST ? '12+ s' : `${(ms / 1000).toFixed(1)} s`);
-const size = (b: number) => (b >= 1048576 ? `${(b / 1048576).toFixed(1)} MB` : `${Math.round(b / 1024)} KB`);
+// Decimal units (1 MB = 1,000,000 bytes), as browsers' developer tools show them.
+const size = (b: number) => (b >= 1e6 ? `${(b / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1e3))} KB`);
 
 type Card = { label: string; sub: string; n: number; site: number; concept: number; show: (v: number) => string; max: number; example?: { name: string; slug: string; text: string } };
 const cards: Card[] = [];
