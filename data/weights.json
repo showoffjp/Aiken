@@ -2007,6 +2007,13 @@
    "loadMs": 4364,
    "url": "https://jansoncompany.com/",
    "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 1387955,
+   "requests": 9,
+   "loadMs": 224,
+   "url": "/janson-construction/",
+   "at": "2026-11-19"
   }
  },
  "jowers-technology-solutions-llc": {
@@ -2069,6 +2076,13 @@
    "requests": 159,
    "loadMs": 3627,
    "url": "https://kellypaintandbody.net/",
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 283902,
+   "requests": 5,
+   "loadMs": 188,
+   "url": "/kelly-paint-and-body/",
    "at": "2026-11-19"
   }
  },
@@ -2166,6 +2180,13 @@
    "requests": 34,
    "loadMs": 1752,
    "url": "https://langleytavern.com/",
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 510135,
+   "requests": 6,
+   "loadMs": 181,
+   "url": "/langley-tavern/",
    "at": "2026-11-19"
   }
  },

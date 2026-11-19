@@ -1,6 +1,6 @@
 {
   "name": "Janson Construction",
-  "short": "Janson",
+  "short": "Janson Construction",
   "category": "Roofing & Construction",
   "group": "Trades & Industry",
   "town": "North Augusta, SC",
@@ -318,7 +318,12 @@
   "prospect": "janson-construction",
   "source": {
     "url": "https://jansoncompany.com/",
-    "before": [],
+    "before": [
+      "The footer reads “Contour Homes 2026 – All Rights Reserved”, another company’s name",
+      "On a phone the screen stays blank for about 12 seconds, and the main content takes about 24 (Google Lighthouse speed score: 39 out of 100)",
+      "On a phone, the first screen shows no phone number or call button",
+      "The roof plan page offers “four levels” but shows only one"
+    ],
     "after": [
       "Every service and recent project on the first screens",
       "The roof maintenance plan explained in a minute",

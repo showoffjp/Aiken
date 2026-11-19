@@ -539,7 +539,12 @@
   "prospect": "langley-tavern",
   "source": {
     "url": "https://langleytavern.com/",
-    "before": [],
+    "before": [
+      "The Events page still shows template placeholders like “July XX – UFC Fight Night”",
+      "The menu is four pictures of the printed menu, so it can’t be searched or read aloud, and the home page weighs 13.4 MB",
+      "Sunday hours disagree: 11 to 3 on the menu, 11 to 9 on the Game Room page, and a Sunday happy hour advertised from 2 to 5",
+      "On a phone the main content takes about 31 seconds to appear, and the first screen has no phone number or call button"
+    ],
     "after": [
       "The whole menu as text: searchable, zoomable and quick to load",
       "One set of hours, with an “Open now” sign",

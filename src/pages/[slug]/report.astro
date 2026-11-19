@@ -70,7 +70,7 @@ const stripOk = (side: 'site' | 'concept') => { const s = film[side]; return !!(
 const showFilm = stripOk('site') && stripOk('concept') && film.concept!.first != null && (film.site!.first == null || film.site!.first > film.concept!.first + 800);
 const sec = (ms: number) => `${(ms / 1000).toFixed(1)} seconds`;
 const filmRows = showFilm ? [
-  { side: 'site', label: 'Today', pill: 'rp-old', s: film.site!, say: film.site!.first == null ? `Still blank after ${film.site!.frames[film.site!.frames.length - 1].t / 1000} seconds` : `Blank for ${sec(film.site!.first)}` },
+  { side: 'site', label: 'Today', pill: 'rp-old', s: film.site!, say: film.site!.first == null ? `Nothing on screen after ${film.site!.frames[film.site!.frames.length - 1].t / 1000} seconds` : `Nothing on screen for ${sec(film.site!.first)}` },
   { side: 'concept', label: 'The concept', pill: 'rp-new', s: film.concept!, say: `On screen after ${sec(film.concept!.first!)}` },
 ] : [];
 
@@ -268,7 +268,7 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
                   {r.s.frames.map((f, i) => (
                     <li class:list={[{ blank: f.blank }]} style={`--i:${i}`}>
                       <img src={stripSrc(r.side)} alt="" width="200" height="433" loading="lazy" decoding="async" style={`object-position:${((i / (r.s.frames.length - 1)) * 100).toFixed(2)}% 0`} />
-                      {f.blank && <span class="rp-film-blank">Blank</span>}
+                      {f.blank && <span class="rp-film-blank"><b>Nothing yet</b></span>}
                       <span class="rp-film-t">{f.t / 1000} s</span>
                     </li>
                   ))}

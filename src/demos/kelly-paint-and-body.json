@@ -247,7 +247,12 @@
   "prospect": "kelly-paint-and-body-inc",
   "source": {
     "url": "https://kellypaintandbody.net/",
-    "before": [],
+    "before": [
+      "On a phone the main content takes about 29 seconds to appear (Google Lighthouse speed score: 36 out of 100)",
+      "A third of the text on a phone is smaller than 12 pixels",
+      "19 accessibility problems, 9 of them critical, including 7 form fields with no label",
+      "Business hours appear only in the FAQ, as the answer to one question"
+    ],
     "after": [
       "What happens after an accident, step by step, on one page",
       "Business hours where people look, with an “Open now” sign",
