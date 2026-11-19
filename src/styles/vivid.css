@@ -285,6 +285,9 @@ body:not([data-facts]):not([data-cinematic]) .facts span { color: rgb(255 255 25
 .section.fx-deep::before { content: ""; position: absolute; z-index: -1; inset: -20% -10%; pointer-events: none; background: radial-gradient(34% 50% at 12% 20%, color-mix(in srgb, var(--primary) 24%, transparent), transparent 70%), radial-gradient(30% 46% at 88% 80%, color-mix(in srgb, var(--accent) 15%, transparent), transparent 70%), radial-gradient(24% 34% at 70% 10%, color-mix(in srgb, var(--hue3) 14%, transparent), transparent 70%); animation: cine-aurora 20s ease-in-out infinite alternate; }
 main > .section.fx-deep::after { background: radial-gradient(closest-side, rgb(255 255 255 / .05), transparent); }
 .section.fx-deep .card, .section.fx-deep .quotes figure, .section.fx-deep .steps li, .section.fx-deep .faq details { background: rgb(255 255 255 / .06); border-color: rgb(255 255 255 / .14); }
+/* Steps become tinted cards here, so they need room inside and a number that reads on the deep colour. */
+.section.fx-deep .steps li { padding: 22px 22px 24px; }
+.section.fx-deep .steps li::before { color: var(--primary-text); }
 .section.fx-deep .card:hover { border-color: color-mix(in srgb, var(--accent) 50%, transparent); }
 .section.fx-deep .card::after { background: radial-gradient(220px circle at var(--mx, 50%) var(--my, 0%), rgb(255 255 255 / .12), transparent 60%); }
 .section.fx-deep .btn.ghost { color: #fff; border-color: rgb(255 255 255 / .5); }

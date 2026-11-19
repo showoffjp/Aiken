@@ -179,11 +179,12 @@ const features = [
             </div>
             <input class="search" type="search" data-search placeholder="Search name, type or town" aria-label="Search concepts" />
             <label class="switch"><input type="checkbox" data-before /><span></span>Show the current sites</label>
+            <a class="map-link" href="#map" data-map-link>See them on the map</a>
           </div>
 
           <ul class="grid" data-grid>
             {cards.map((c) => (
-              <li class="card" style={`--tone:${c.colors.primary};--tone2:${c.colors.accent}`} data-group={c.group} data-new={c.fresh ? '1' : undefined} data-first={c.source.none ? '1' : undefined} data-text={`${c.name} ${c.category} ${c.town} ${c.group} ${c.kind}`.toLowerCase()}>
+              <li class="card" style={`--tone:${c.colors.primary};--tone2:${c.colors.accent}`} data-slug={c.slug} data-group={c.group} data-new={c.fresh ? '1' : undefined} data-first={c.source.none ? '1' : undefined} data-text={`${c.name} ${c.category} ${c.town} ${c.group} ${c.kind}`.toLowerCase()}>
                 <a href={`/${c.slug}/`} aria-label={`${c.name}: view the concept`}>
                   <div class="shot" style={`--tone:${c.colors.primary}`}>
                     {c.after ? <img class="after" src={c.after} alt={`Concept redesign for ${c.name}`} width="1120" height="753" loading="lazy" /> : <div class="blank">{c.short || c.name}</div>}
@@ -292,6 +293,12 @@ const features = [
             if (ok) shown++;
           });
           if (empty) empty.hidden = shown > 0;
+          // Tell the map which businesses are showing, so it can fade the rest.
+          const all = group === 'all' && !q;
+          const slugs = new Set([...grid.querySelectorAll('.card:not([hidden])')].map((c) => c.dataset.slug));
+          document.dispatchEvent(new CustomEvent('concepts:filter', { detail: { all, slugs } }));
+          const link = document.querySelector('[data-map-link]');
+          if (link) link.textContent = all || !shown ? 'See them on the map' : 'Show these on the map';
         };
         chips.forEach((chip) => chip.addEventListener('click', () => {
           chips.forEach((c) => { c.classList.toggle('on', c === chip); c.setAttribute('aria-pressed', String(c === chip)); });
@@ -657,4 +664,6 @@ const features = [
   .rm-credit { margin: 14px 0 0; font-size: .82rem; color: var(--muted); }
   .rm-credit a { color: inherit; }
   @media (max-width: 860px) { .rm-grid { grid-template-columns: 1fr; } .rm-place { font-size: 22px; } .rm-place.big { font-size: 28px; } }
+  .map-link { display: inline-flex; align-items: center; min-height: 40px; color: var(--ink); font-weight: 650; text-decoration: underline; text-decoration-color: var(--em); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .rm-pin.dim { opacity: .14; stroke-width: 1; }
 </style>

@@ -3354,5 +3354,41 @@
  "/demo-assets/tpi-tyler-press/samples-magazines-960.webp": [
   960,
   420
+ ],
+ "/demo-assets/superior-office-systems/copier.webp": [
+  1600,
+  1066
+ ],
+ "/demo-assets/superior-office-systems/control-panel.webp": [
+  1400,
+  933
+ ],
+ "/demo-assets/superior-office-systems/toner.webp": [
+  1400,
+  933
+ ],
+ "/demo-assets/superior-office-systems/control-panel-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/superior-office-systems/control-panel-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/superior-office-systems/copier-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/superior-office-systems/copier-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/superior-office-systems/toner-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/superior-office-systems/toner-960.webp": [
+  960,
+  640
  ]
 }

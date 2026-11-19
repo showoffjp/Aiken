@@ -5250,7 +5250,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 57,
+    "performance": 63,
     "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
@@ -7260,7 +7260,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 78,
+    "performance": 77,
     "pageMB": 1.2,
     "a11ySerious": 16,
     "facebook": true,
@@ -10809,7 +10809,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 57,
+    "performance": 63,
     "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
@@ -11532,7 +11532,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 54,
+    "performance": 58,
     "pageMB": 1,
     "a11ySerious": 6,
     "facebook": true,
@@ -21470,7 +21470,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 57,
+    "performance": 63,
     "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
@@ -27340,5 +27340,979 @@
     "domainYears": 19
    }
   ]
+ },
+ "veterinary-healthcare-associates-inc": {
+  "slug": "veterinary-healthcare-associates",
+  "name": "Veterinary Healthcare Associates",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "veterinaryhealthcareofnorthaugusta.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.veterinaryhealthcareofnorthaugusta.com/",
+    "title": "Welcome | North Augusta, South Carolina | Veterinary Healthcare Associates",
+    "description": "Welcome to our Welcome page. Contact Veterinary Healthcare Associates today at (803) 613-9123 or visit our office servicing North Augusta, South Carolina",
+    "canonical": "https://www.veterinaryhealthcareofnorthaugusta.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Welcome To Our Website"
+    ],
+    "h1Count": 1,
+    "h2": 0,
+    "h3": 0,
+    "words": 2048,
+    "images": 6,
+    "imagesNoAlt": 4,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "GeoCoordinates",
+     "OpeningHoursSpecification",
+     "VeterinaryCare"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.veterinaryhealthcareofnorthaugusta.com/sitemap.xml",
+    "pages": 135
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 2,
+    "dupDescs": 2,
+    "imagesNoAlt": 60,
+    "images": 88,
+    "sample": [
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/",
+      "title": "Welcome | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 153,
+      "h1": 1,
+      "words": 2048
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/?_rnd=134395686648961065",
+      "title": "Welcome | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 153,
+      "h1": 1,
+      "words": 2048
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/?_rnd=134395686656235296",
+      "title": "Welcome | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 153,
+      "h1": 1,
+      "words": 2048
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/contact",
+      "title": "Contact | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 153,
+      "h1": 1,
+      "words": 510
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/our-practice",
+      "title": "Our Practice | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 158,
+      "h1": 1,
+      "words": 952
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/our-practice/meet-the-team",
+      "title": "Meet The Team | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 159,
+      "h1": 1,
+      "words": 1781
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services",
+      "title": "Services | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 154,
+      "h1": 1,
+      "words": 685
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/general-medicine",
+      "title": "General Medicine | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 162,
+      "h1": 1,
+      "words": 907
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/general-medicine/cardiology",
+      "title": "Cardiology | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 156,
+      "h1": 1,
+      "words": 876
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/general-medicine/dental-services",
+      "title": "Dental Services | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 161,
+      "h1": 1,
+      "words": 1065
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/general-medicine/diagnostic-imaging",
+      "title": "Diagnostic Imaging | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 164,
+      "h1": 1,
+      "words": 1005
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/pet-nutrition",
+      "title": "Pet Nutrition | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 159,
+      "h1": 1,
+      "words": 1576
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/boarding",
+      "title": "Boarding | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 155,
+      "h1": 1,
+      "words": 1040
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/microchipping",
+      "title": "Microchipping | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 160,
+      "h1": 1,
+      "words": 1088
+     },
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/services/preventative-care",
+      "title": "Preventative Care | North Augusta, South Carolina | Veterinary Healthcare Associates",
+      "description": 163,
+      "h1": 1,
+      "words": 675
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://www.veterinaryhealthcareofnorthaugusta.com/appointment-request",
+      "status": 404,
+      "from": "https://www.veterinaryhealthcareofnorthaugusta.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/veterinaryhealthcareofnorthaugusta"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Veterinary Clinic",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "North Augusta",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/veterinary-healthcare-associates-inc-1777",
+    "name": "Veterinary Healthcare Associates, Inc.",
+    "phone": "(803) 613-9123",
+    "website": "http://www.veterinaryhealthcareofnorthaugusta.com",
+    "address": "1341 W Martintown Road, North Augusta SC 29860",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/veterinaryhealthcareofnorthaugusta"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/veterinaryhealthcareofnorthaugusta"
+   }
+  },
+  "domain": {
+   "name": "veterinaryhealthcareofnorthaugusta.com",
+   "created": "2013-08-20",
+   "expires": "2028-08-20",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 13
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 74,
+   "bestPractices": 82,
+   "seo": 75,
+   "fcp": 6319,
+   "lcp": 11840,
+   "tbt": 362,
+   "si": 7003,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "aiken-veterinary-clinic-pa",
+   "csra-veterinary-services",
+   "prioritypet-urgent-care",
+   "southern-equine-service",
+   "veterinary-services-of-aiken"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 35,
+   "lighthouseSeo": 75
+  },
+  "competitors": [
+   {
+    "slug": "aiken-veterinary-clinic-pa",
+    "name": "Aiken Veterinary Clinic, PA",
+    "website": "https://www.aikenvet.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.9,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "csra-veterinary-services",
+    "name": "CSRA Veterinary Services",
+    "website": "https://csravs.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "prioritypet-urgent-care",
+    "name": "PriorityPet Urgent Care",
+    "website": "https://prioritypetaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "southern-equine-service",
+    "name": "Southern Equine Service",
+    "website": "https://www.southernequineservice.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 18
+   },
+   {
+    "slug": "veterinary-services-of-aiken",
+    "name": "Veterinary Services of Aiken",
+    "website": "https://aikenpetvet.com/index.cfm",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 3.8,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   }
+  ]
+ },
+ "baker-family-dentistry": {
+  "slug": "baker-family-dentistry",
+  "name": "Baker Family Dentistry",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "bakerfamilydentistryaiken.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://bakerfamilydentistryaiken.com/",
+    "title": "Family Dentist in Aiken, SC | Baker Family Dentistry",
+    "description": "Family Dentist in Aiken, SC | Baker Family Dentistry | Baker Family Dentistry Aiken, SC.",
+    "canonical": "https://bakerfamilydentistryaiken.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Family Dentist in Aiken, SC | Baker Family Dentistry",
+     "description": "Baker Family Dentistry provides general, cosmetic, and pediatric dental care for families in Aiken, SC and the Augusta, GA area. Call 803-648-4231 to schedule your appointment.",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Family Dentist in Aiken, SC — Baker Family Dentistry"
+    ],
+    "h1Count": 1,
+    "h2": 8,
+    "h3": 2,
+    "words": 502,
+    "images": 6,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "BreadcrumbList",
+     "ListItem",
+     "WebPage",
+     "Organization",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "LocalBusiness",
+     "PostalAddress"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 2
+   },
+   "sitemap": {
+    "url": "https://bakerfamilydentistryaiken.com/sitemap.xml",
+    "pages": 0
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 8,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 40,
+    "images": 90,
+    "sample": [
+     {
+      "url": "https://bakerfamilydentistryaiken.com/",
+      "title": "Family Dentist in Aiken, SC | Baker Family Dentistry",
+      "description": 88,
+      "h1": 1,
+      "words": 502
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/about/",
+      "title": "About Baker Family Dentistry | Your Family Dentist in Aiken, SC Since 2003",
+      "description": 110,
+      "h1": 1,
+      "words": 650
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/forms/",
+      "title": "New Patient Forms | Baker Family Dentistry | Aiken, SC",
+      "description": 90,
+      "h1": 1,
+      "words": 133
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/contacts/",
+      "title": "Contact Baker Family Dentistry in Aiken, SC | Call 803-648-4231",
+      "description": 99,
+      "h1": 1,
+      "words": 87
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/general-dental/",
+      "title": "General Dentistry in Aiken, SC | Exams, Cleanings & Fillings | Baker Family Dentistry",
+      "description": 121,
+      "h1": 1,
+      "words": 360
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/cosmetic-dentistry/",
+      "title": "Cosmetic Dentistry in Aiken, SC | Teeth Whitening, Veneers & Bonding | Baker Family Dentistry",
+      "description": 129,
+      "h1": 1,
+      "words": 213
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/pediatric-dentistry/",
+      "title": "Pediatric Dentistry Aiken, SC | Kids Dentist — Baker Family Dentistry",
+      "description": 105,
+      "h1": 1,
+      "words": 220
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/privacy-policy/",
+      "title": "Privacy Policy - Baker Family Dentistry Aiken, SC.",
+      "description": 86,
+      "h1": 1,
+      "words": 56
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/news/",
+      "title": "Private: News - Baker Family Dentistry Aiken, SC.",
+      "description": 85,
+      "h1": 1,
+      "words": 453
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/testimonial-view/testimonial-2/",
+      "title": "Testimonial #2 - Baker Family Dentistry Aiken, SC.",
+      "description": 86,
+      "h1": 1,
+      "words": 319
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/testimonial-view/testimonial-1/",
+      "title": "Testimonial #1 - Baker Family Dentistry Aiken, SC.",
+      "description": 86,
+      "h1": 1,
+      "words": 369
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/about/dr-fred-baker/",
+      "title": "Dr. Fred Baker - Baker Family Dentistry Aiken, SC.",
+      "description": 86,
+      "h1": 1,
+      "words": 186
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/about/dr-stephen-j-baker/",
+      "title": "Dr. Stephen J. Baker - Baker Family Dentistry Aiken, SC.",
+      "description": 92,
+      "h1": 1,
+      "words": 200
+     },
+     {
+      "url": "https://bakerfamilydentistryaiken.com/about/tamie-bledsoe/",
+      "title": "Tamie Bledsoe - Baker Family Dentistry Aiken, SC.",
+      "description": 85,
+      "h1": 1,
+      "words": 101
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 37,
+    "broken": [
+     {
+      "url": "https://bakerfamilydentistryaiken.com/portfolio",
+      "status": 404,
+      "from": "https://bakerfamilydentistryaiken.com/about"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/bakerfamilydentistryaiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Family Dentist",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=228&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=e3b345647e1ef4a5f77d5d34c79b817b",
+    "name": "Baker Family Dentistry",
+    "phone": "(803) 648-4231",
+    "website": "http://www.bakerfamilydentistryaiken.com",
+    "address": "2065 Whiskey Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/bakerfamilydentistryaiken"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/bakerfamilydentistryaiken"
+   }
+  },
+  "domain": {
+   "name": "bakerfamilydentistryaiken.com",
+   "created": "2016-01-25",
+   "expires": "2028-01-25",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 10
+  },
+  "performance": {
+   "performance": 58,
+   "accessibility": 75,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 4568,
+   "lcp": 8319,
+   "tbt": 175,
+   "si": 6545,
+   "cls": 0.04,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "aiken-dental",
+   "dental-care-at-woodside",
+   "hale-dentistry-and-oral-wellness",
+   "southern-magnolia-dentistry",
+   "twin-willows-medical-and-dental-center"
+  ],
+  "scores": {
+   "seo": 84,
+   "social": 35,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aiken-dental",
+    "name": "Aiken Dental",
+    "website": "https://www.aikendental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 70,
+    "pageMB": 0.7,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "dental-care-at-woodside",
+    "name": "Dental Care at Woodside",
+    "website": "https://dentalcareatwoodside.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 2.2,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "hale-dentistry-and-oral-wellness",
+    "name": "Hale Dentistry & Oral Wellness",
+    "website": "https://www.dralicehale.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 3.6,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 15
+   },
+   {
+    "slug": "southern-magnolia-dentistry",
+    "name": "Southern Magnolia Dentistry",
+    "website": "https://www.southernmagnoliadental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 71,
+    "pageMB": 2.8,
+    "a11ySerious": 8,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "twin-willows-medical-and-dental-center",
+    "name": "Twin Willows Medical and Dental Center",
+    "website": "https://www.twmeddent.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   }
+  ]
+ },
+ "superior-office-systems": {
+  "slug": "superior-office-systems",
+  "name": "Superior Office Systems",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "superiorofficeonline.com",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://superiorofficeonline.com/",
+    "title": "Superior Office Systems - Copiers, Printers, Phones serving Augusta GA and Aiken SC",
+    "description": "",
+    "canonical": "https://superiorofficeonline.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Superior Office Systems"
+    ],
+    "h1Count": 1,
+    "h2": 3,
+    "h3": 0,
+    "words": 332,
+    "images": 14,
+    "imagesNoAlt": 13,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://superiorofficeonline.com/wp-sitemap.xml",
+    "pages": 98
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 12,
+    "missingH1": 0,
+    "multipleH1": 11,
+    "thin": 11,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 128,
+    "images": 140,
+    "sample": [
+     {
+      "url": "https://superiorofficeonline.com/",
+      "title": "Superior Office Systems - Copiers, Printers, Phones serving Augusta GA and Aiken SC",
+      "description": 0,
+      "h1": 1,
+      "words": 332
+     },
+     {
+      "url": "https://superiorofficeonline.com/customer-center/",
+      "title": "Customer Center - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 163
+     },
+     {
+      "url": "https://superiorofficeonline.com/supplies/",
+      "title": "Supplies - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 147
+     },
+     {
+      "url": "https://superiorofficeonline.com/request-service/",
+      "title": "Request Service - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 97
+     },
+     {
+      "url": "https://superiorofficeonline.com/business-phone-services/",
+      "title": "Business Phone Services - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 122
+     },
+     {
+      "url": "https://superiorofficeonline.com/apps/",
+      "title": "Apps - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 194
+     },
+     {
+      "url": "https://superiorofficeonline.com/document-management/",
+      "title": "Document Management - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 174
+     },
+     {
+      "url": "https://superiorofficeonline.com/contact/",
+      "title": "Contact - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 126
+     },
+     {
+      "url": "https://superiorofficeonline.com/service/",
+      "title": "Service - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 152
+     },
+     {
+      "url": "https://superiorofficeonline.com/meter-reads/",
+      "title": "SUBMIT METER READING - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 99
+     },
+     {
+      "url": "https://superiorofficeonline.com/request-supplies/",
+      "title": "Request Supplies - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 97
+     },
+     {
+      "url": "https://superiorofficeonline.com/drivers/",
+      "title": "Download Drivers - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 102
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 21,
+    "broken": [
+     {
+      "url": "https://superiorofficeonline.com/about",
+      "status": 0,
+      "from": "https://superiorofficeonline.com/"
+     },
+     {
+      "url": "https://superiorofficeonline.com/office-copiers-mfps",
+      "status": 0,
+      "from": "https://superiorofficeonline.com/"
+     },
+     {
+      "url": "https://superiorofficeonline.com/solutions",
+      "status": 404,
+      "from": "https://superiorofficeonline.com/"
+     }
+    ],
+    "brokenCount": 3
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Superior-Office-Systems-246768012177934"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Copiers",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 4
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/superior-office-systems-1941",
+    "name": "Superior Office Systems",
+    "phone": "(803) 278-3131",
+    "website": "http://www.superiorofficeonline.com",
+    "address": "125-1 Merovan Drive, North Augusta SC 29860",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Superior-Office-Systems-246768012177934"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/Superior-Office-Systems-246768012177934"
+   }
+  },
+  "domain": {
+   "name": "superiorofficeonline.com",
+   "created": "2009-08-31",
+   "expires": "2027-08-31",
+   "registrar": "Promo People, Inc.",
+   "years": 17
+  },
+  "performance": {
+   "performance": 62,
+   "accessibility": 86,
+   "bestPractices": 96,
+   "seo": 77,
+   "fcp": 5432,
+   "lcp": 7339,
+   "tbt": 0,
+   "si": 5548,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 53,
+   "social": 35,
+   "lighthouseSeo": 77
+  },
+  "competitors": []
  }
 }
