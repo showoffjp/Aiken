@@ -2,7 +2,7 @@
 // Renders the list of content sections for a concept, in order.
 import Icon from '../Icon.astro';
 import Seal from './Seal.astro';
-import { title, sectionId, srcset, isScenic, cinematicHero, tint, galleryShapes, type Demo, type Img } from '../../lib/demos';
+import { title, sectionId, srcset, isScenic, cinematicHero, tint, galleryShapes, coverSizes, type Demo, type Img } from '../../lib/demos';
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 const cine = !!demo.cinematic;
@@ -70,7 +70,7 @@ if (cine) deepIdx = -1;
       <div class="wrap">
         {s.image && (
           <div class="story-media" data-par="">
-            <img style={tint(s.image)} src={s.image.src} srcset={srcset(s.image)} sizes="(max-width: 860px) 92vw, 46vw" alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
+            <img style={tint(s.image)} src={s.image.src} srcset={srcset(s.image)} sizes={s.image.width && s.image.height && s.image.width / s.image.height > 2 ? '(max-width: 860px) 92vw, min(1180px, 92vw)' : coverSizes(s.image, 5 / 4, [92, 46])} alt={s.image.alt} width={s.image.width} height={s.image.height} class={s.image.fit === 'contain' ? 'contain' : ''} loading="lazy" decoding="async" />
           </div>
         )}
         <div class="body">
@@ -168,7 +168,7 @@ if (cine) deepIdx = -1;
           </div>
         )}
         <div class="cine-reel" aria-hidden="true" data-par>
-          <div class="reel-row">{[...s.images, ...s.images].map((img) => <img style={tint(img)} src={img.src} srcset={srcset(img)} sizes="240px" alt="" width={img.width} height={img.height} loading="lazy" decoding="async" />)}</div>
+          <div class="reel-row">{[...s.images, ...s.images].map((img) => <img style={tint(img)} src={img.src} srcset={srcset(img)} sizes={`(max-width: 760px) ${Math.round(130 * (img.width && img.height ? img.width / img.height : 1.5))}px, ${Math.round(230 * (img.width && img.height ? img.width / img.height : 1.5))}px`} alt="" width={img.width} height={img.height} loading="lazy" decoding="async" />)}</div>
         </div>
       </section>
     );
@@ -196,7 +196,9 @@ if (cine) deepIdx = -1;
         <div class={few ? 'gallery few' : center ? 'gallery center' : 'gallery'} data-n={few ? count : undefined} style={few ? `--ar:${ar.toFixed(2)}` : undefined}>
           {s.images.map((img, n) => {
             const shape = shapes[n];
-            const sizes = few ? `(max-width: 760px) ${s.images.length === 3 && n === 0 ? 92 : 46}vw, ${Math.round(92 / s.images.length)}vw` : shape === 'wide' ? '(max-width: 760px) 92vw, 46vw' : '(max-width: 760px) 46vw, 23vw';
+            // Tiles crop their photo to the tile's shape, so size the file for the crop.
+            const sizes = few ? coverSizes(img, ar, [s.images.length === 3 && n === 0 ? 92 : 46, Math.round(92 / s.images.length)], 760)
+              : coverSizes(img, shape === 'wide' ? 2 : shape === 'tall' ? 0.49 : 1, shape === 'wide' ? [92, 46] : [46, 23], 760);
             return <figure class={shape} style={center ? startAt(n) : undefined} data-par=""><img style={tint(img)} src={img.src} srcset={srcset(img)} sizes={sizes} alt={img.alt} width={img.width} height={img.height} loading="lazy" decoding="async" /></figure>;
           })}
         </div>

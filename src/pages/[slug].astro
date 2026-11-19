@@ -9,7 +9,7 @@ import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
-import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, tint, type Demo } from '../lib/demos';
+import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, tint, coverSizes, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
 import { builtIn } from '../lib/features';
@@ -49,6 +49,8 @@ const nav = [
 const variant = hero.variant || (hero.image ? 'split' : 'banner');
 // Cinematic concepts (photo-heavy) get a full-screen, scroll-driven hero.
 const cine = !!demo.cinematic;
+// A small, wide hero photo would be blown up to fill the tall frame: give it a landscape frame instead.
+const lowResWide = !!hero.image && !!hero.image.width && !!hero.image.height && hero.image.width < 900 && hero.image.width / hero.image.height > 1.4;
 // Personality: a hero archetype and section treatments chosen per concept.
 const st = demo.style || {};
 const archetype = !cine ? st.hero : undefined;
@@ -195,11 +197,11 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             )}
           </div>
           {variant !== 'photo' && (
-            <div class="hero-visual">
+            <div class={`hero-visual${lowResWide ? ' wide-frame' : ''}`}>
               {hero.image ? (
                 <>
                   <div class={`frame ${hero.image.fit === 'contain' ? 'contain' : ''}`}>
-                    <img style={tint(hero.image)} src={hero.image.src} srcset={srcset(hero.image)} sizes="(max-width: 860px) 85vw, 42vw" alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
+                    <img style={tint(hero.image)} src={hero.image.src} srcset={srcset(hero.image)} sizes={coverSizes(hero.image, lowResWide ? 1.6 : 4 / 4.4, [85, 42], 860, true)} alt={hero.image.alt} width={hero.image.width} height={hero.image.height} fetchpriority="high" />
                   </div>
                   {demo.established && (
                     <div class="chip"><Icon name="award" size={26} /><span><strong>Since {demo.established}</strong>{demo.town}</span></div>

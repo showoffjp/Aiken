@@ -175,11 +175,18 @@
  },
  "aiken-housing-center": {
   "site": {
-   "bytes": 14546628,
+   "bytes": 14547243,
    "requests": 98,
-   "loadMs": 3134,
+   "loadMs": 4340,
    "url": "https://aikenhousingcenter.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 1194610,
+   "requests": 13,
+   "loadMs": 166,
+   "url": "/aiken-housing-center/",
+   "at": "2026-11-19"
   }
  },
  "aiken-junk-removal": {
@@ -405,11 +412,18 @@
  },
  "apex-home-repair-corporation": {
   "site": {
-   "bytes": 36289962,
-   "requests": 82,
-   "loadMs": 1760,
+   "bytes": 36288199,
+   "requests": 81,
+   "loadMs": 3629,
    "url": "https://repairwithapex.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 678456,
+   "requests": 8,
+   "loadMs": 153,
+   "url": "/apex-home-repair/",
+   "at": "2026-11-19"
   }
  },
  "applied-business-strategies-llc": {
@@ -3427,11 +3441,18 @@
  },
  "the-fermata-club": {
   "site": {
-   "bytes": 7063966,
+   "bytes": 7061389,
    "requests": 115,
-   "loadMs": 4265,
+   "loadMs": 5384,
    "url": "https://fermataclub.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 1087668,
+   "requests": 19,
+   "loadMs": 189,
+   "url": "/fermata-club/",
+   "at": "2026-11-19"
   }
  },
  "the-herlong-financial-group-llc": {
@@ -3522,11 +3543,18 @@
  },
  "the-village-caf": {
   "site": {
-   "bytes": 6476519,
-   "requests": 80,
-   "loadMs": 7127,
+   "bytes": 6391170,
+   "requests": 78,
+   "loadMs": 3469,
    "url": "https://www.thevillagecafeaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 445077,
+   "requests": 8,
+   "loadMs": 201,
+   "url": "/village-cafe/",
+   "at": "2026-11-19"
   }
  },
  "thomas-p-murphy-pc-attorney-at-law": {

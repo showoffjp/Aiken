@@ -1,0 +1,437 @@
+{
+  "name": "The Village Café",
+  "short": "The Village Café",
+  "category": "Café, Gelato & Sunday Brunch",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f7f9f8",
+    "surface": "#ffffff",
+    "ink": "#1d2a2e",
+    "muted": "#566468",
+    "primary": "#2f6e85",
+    "onPrimary": "#ffffff",
+    "accent": "#e9a23b",
+    "line": "#dbe6e8"
+  },
+  "radius": 16,
+  "icon": "coffee",
+  "contact": {
+    "phone": "(803) 599-2982",
+    "phone2": "(803) 640-0247",
+    "phone2Label": "Events & meeting room",
+    "email": "info@thevillagecafeaiken.com",
+    "address": [
+      "110 Coach Light Way",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "The Village Cafe, 110 Coach Light Way, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "7:00 am – 3:30 pm"
+      ],
+      [
+        "Sunday",
+        "10:00 am – 2:00 pm"
+      ]
+    ],
+    "hoursNote": "Sunday is brunch. Beer and wine Monday to Saturday.",
+    "facebook": "https://www.facebook.com/thevillagecafeaiken"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "The Village at Woodside",
+    "title": "Eat, drink, *gelato*",
+    "lede": "Breakfast, lunch, specialty coffee and gelato near Woodside in Aiken, made with ingredients from local farms and businesses like Ramey Farms, Hickory Hill Dairy and Grice’s Butcher Shop. Sunday brunch, 10 to 2.",
+    "points": [
+      "Breakfast & lunch",
+      "Italian gelato",
+      "Sunday brunch"
+    ],
+    "cta": {
+      "label": "Call (803) 599-2982",
+      "href": "tel:+18035992982"
+    },
+    "cta2": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "image": {
+      "src": "/demo-assets/village-cafe/breakfast-table.webp",
+      "alt": "A salad, a breakfast bagel sandwich and two blue cups of coffee on a white wooden table",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "7 am",
+      "label": "Coffee and breakfast, Monday to Saturday"
+    },
+    {
+      "value": "10–2",
+      "label": "Sunday brunch"
+    },
+    {
+      "value": "Weekly",
+      "label": "New gelato flavors"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Breakfast • lunch • dessert • coffee",
+      "title": "Made here, *from local farms*",
+      "intro": "Sandwiches come on your choice of bread or a bed of lettuce. Half sandwiches and half salads are the second price.",
+      "groups": [
+        {
+          "title": "Breakfast",
+          "items": [
+            {
+              "name": "Gourmet NY bagel",
+              "price": "3.50",
+              "desc": "Plain, cinnamon raisin, everything or sesame, with house-made cream cheese, butter or jelly"
+            },
+            {
+              "name": "Breakfast bagel sandwich",
+              "price": "8.00",
+              "desc": "Bacon or sausage, scrambled eggs and cheddar"
+            },
+            {
+              "name": "Smoked salmon bagel",
+              "price": "11.00",
+              "desc": "Norwegian smoked salmon, cream cheese and capers"
+            },
+            {
+              "name": "Breakfast panini",
+              "price": "8.75",
+              "desc": "Ham, bacon or sausage, scrambled eggs and cheddar on rustic Italian bread"
+            },
+            {
+              "name": "Classic breakfast plate",
+              "price": "8.25",
+              "desc": "Bacon or sausage, scrambled eggs and toasted wheat berry bread"
+            },
+            {
+              "name": "Yogurt parfait",
+              "price": "5.50"
+            },
+            {
+              "name": "Old-fashioned oatmeal",
+              "price": "5.25"
+            },
+            {
+              "name": "Strata or quiche of the day",
+              "price": "4.50",
+              "desc": "Strata Monday, Wednesday and Friday; quiche Tuesday, Thursday and Saturday"
+            }
+          ]
+        },
+        {
+          "title": "Sandwiches & paninis",
+          "items": [
+            {
+              "name": "Village BLT",
+              "price": "8.50 / 4.25",
+              "desc": "Applewood-smoked bacon, green leaf lettuce and tomato on toasted wheat berry bread"
+            },
+            {
+              "name": "Village Club",
+              "price": "10.25 / 5.25",
+              "desc": "Tavern ham, roasted turkey, bacon, Havarti, lettuce and tomato"
+            },
+            {
+              "name": "Chicken salad sandwich",
+              "price": "10.50 / 5.25",
+              "desc": "Organic chicken with tarragon mustard mayo"
+            },
+            {
+              "name": "Smoked salmon BLT",
+              "price": "14.00 / 7.00",
+              "desc": "With house-made lemon dill mayo"
+            },
+            {
+              "name": "Café cheeseburger",
+              "price": "12.00",
+              "desc": "6 oz Angus blend on a brioche bun"
+            },
+            {
+              "name": "Village Cuban",
+              "price": "11.00",
+              "desc": "Rosemary pork, ham, Gruyère, grain mustard and pickle, press-grilled"
+            },
+            {
+              "name": "Pesto chicken panini",
+              "price": "11.00",
+              "desc": "Organic chicken, aged provolone, spinach and roasted tomato pesto"
+            },
+            {
+              "name": "International grilled cheese",
+              "price": "10.00",
+              "desc": "Gruyère, Irish cheddar, Havarti and aged provolone"
+            }
+          ]
+        },
+        {
+          "title": "Soups, salads & combos",
+          "items": [
+            {
+              "name": "Soup of the day",
+              "price": "4.75 / 5.75",
+              "desc": "Cup or bowl, made daily"
+            },
+            {
+              "name": "Village house salad",
+              "price": "9.50 / 5.50"
+            },
+            {
+              "name": "Smoked salmon salad",
+              "price": "13.50 / 9.25",
+              "desc": "With capers, pickled red onion and lemon dill vinaigrette"
+            },
+            {
+              "name": "Salad and half sandwich",
+              "price": "10.75"
+            },
+            {
+              "name": "Soup and half sandwich",
+              "price": "11.00"
+            }
+          ]
+        },
+        {
+          "title": "Coffee",
+          "note": "Hot or iced",
+          "items": [
+            {
+              "name": "Café latte",
+              "price": "5.00"
+            },
+            {
+              "name": "Mocha or white chocolate mocha",
+              "price": "5.30"
+            },
+            {
+              "name": "Golden milk latte",
+              "price": "5.00",
+              "desc": "Turmeric, ginger and cinnamon"
+            },
+            {
+              "name": "London fog",
+              "price": "5.25",
+              "desc": "Earl Grey and lavender"
+            },
+            {
+              "name": "Cold brew",
+              "price": "4.75"
+            },
+            {
+              "name": "Drip coffee, 16 oz",
+              "price": "3.50"
+            }
+          ]
+        },
+        {
+          "title": "Sweets & gelato",
+          "items": [
+            {
+              "name": "Italian gelato",
+              "price": "4.25",
+              "desc": "New flavors every week"
+            },
+            {
+              "name": "New York cheesecake",
+              "price": "5.50"
+            },
+            {
+              "name": "Chocolate decadence",
+              "price": "5.50",
+              "desc": "Flourless chocolate cake"
+            },
+            {
+              "name": "Hello Dollie bar",
+              "price": "3.50"
+            },
+            {
+              "name": "Lemon bar",
+              "price": "3.50"
+            },
+            {
+              "name": "Fresh-baked cookies",
+              "price": "2.75"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices from the café’s current menu; larger sizes of coffee cost more. Taco Tuesday has its own menu, and dinner entrées are at the counter on Tuesdays."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Inside the café",
+      "title": "Come hungry, *stay a while*",
+      "images": [
+        {
+          "src": "/demo-assets/village-cafe/salad.webp",
+          "alt": "A grilled chicken salad with fresh vegetables and a cup of dressing",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/village-cafe/gelato.webp",
+          "alt": "Three cups of gelato on a marble counter",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/village-cafe/club-sandwich.webp",
+          "alt": "A tall club sandwich with lettuce and tomato on toasted bread",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/village-cafe/espresso.webp",
+          "alt": "Espresso pouring into blue cups at the café’s machine",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/village-cafe/dining-room.webp",
+          "alt": "The bright dining room with café chairs and marble tables",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/village-cafe/french-toast.webp",
+          "alt": "Thick French toast topped with blueberries",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/village-cafe/tacos.webp",
+          "alt": "Three tacos with fresh salsa on a dark board, for Taco Tuesday",
+          "width": 1214,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/village-cafe/farm-eggs.webp",
+          "alt": "A crate of fresh brown and blue farm eggs",
+          "width": 1200,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About us",
+      "eyebrow": "Farm to table",
+      "title": "The best flavors come from *the best ingredients*",
+      "image": {
+        "src": "/demo-assets/village-cafe/gelato-case.webp",
+        "alt": "Trays of house-made gelato in the case, including coffee Oreo and vanilla crisp",
+        "width": 1200,
+        "height": 800
+      },
+      "body": [
+        "We source from local farmers, nurseries and businesses to bring you the best Aiken has to offer, from classic breakfast plates to fresh salads, sandwiches and seasonal specials.",
+        "Our gelato is churned slowly from fresh ingredients: about 20 to 30 percent less air than ice cream, more milk than cream, and served a little warmer, so it’s dense, silky and full of flavor. No brain freeze."
+      ],
+      "list": [
+        "Ramey Farms eggs, Wagener",
+        "Hickory Hill Dairy, Edgefield",
+        "Grice’s Butcher Shop, Aiken"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Gather here",
+      "title": "A room *for your group*",
+      "intro": "Our private meeting room fits up to 24 people comfortably, for holiday parties, showers and corporate lunches. Order from the menu or ask about on-site catering.",
+      "columns": [
+        {
+          "title": "The room",
+          "items": [
+            "Up to 24 guests",
+            "Professional but relaxed",
+            "Budget-friendly booking"
+          ]
+        },
+        {
+          "title": "Catering",
+          "items": [
+            "Office catering",
+            "Wedding party plates",
+            "Holiday take-home meals"
+          ]
+        },
+        {
+          "title": "Book it",
+          "items": [
+            "Call (803) 640-0247",
+            "Or email thevillagecafeaiken@gmail.com"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Sunday brunch, 10 to 2",
+      "text": "Featuring fresh Ramey Farm eggs.",
+      "cta": {
+        "label": "Call (803) 599-2982",
+        "href": "tel:+18035992982"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us at *The Village at Woodside*",
+    "formTitle": "Catering, events or a question",
+    "formTopics": [
+      "Pick-up catering order",
+      "Meeting room booking",
+      "Sunday brunch",
+      "Something else"
+    ]
+  },
+  "slug": "village-cafe",
+  "added": "2026-11-19",
+  "prospect": "the-village-caf",
+  "source": {
+    "url": "https://www.thevillagecafeaiken.com/",
+    "before": [
+      "On a phone the main content takes about 9 seconds to appear (Google Lighthouse speed score: 58 out of 100)",
+      "The page title Google shows is \"Home - The Village Café\", and there’s no description for Google results",
+      "The site gives two phone numbers: (803) 599-2982 on most pages and (803) 640-0247 on the Events page and the listing"
+    ],
+    "after": [
+      "The full menu with prices on one page, with jump links on a phone",
+      "Hours, brunch time and one-tap call on the first screen",
+      "Main and events numbers clearly labelled",
+      "A page title and Google description that say Aiken, café and gelato",
+      "A page that loads in a couple of seconds"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

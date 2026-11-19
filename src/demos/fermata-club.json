@@ -1,0 +1,379 @@
+{
+  "name": "The Fermata Club",
+  "short": "Fermata Club",
+  "category": "Swim & Racquet Club",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "established": "1952",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f4f8f7",
+    "surface": "#ffffff",
+    "ink": "#13221e",
+    "muted": "#4f625c",
+    "primary": "#1d5a45",
+    "onPrimary": "#ffffff",
+    "accent": "#2bb3c0",
+    "line": "#d8e6e2"
+  },
+  "radius": 14,
+  "icon": "waves",
+  "logo": {
+    "src": "/demo-assets/fermata-club/logo.webp",
+    "alt": "Fermata Club, est. 1952, Aiken, SC: swim, play, pause",
+    "width": 398,
+    "height": 344
+  },
+  "contact": {
+    "phone": "(803) 648-5673",
+    "email": "thefermataclub@gmail.com",
+    "address": [
+      "841 Whiskey Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Fermata Club, 841 Whiskey Rd, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/fermataclub"
+  },
+  "hero": {
+    "eyebrow": "Member-owned since 1952",
+    "title": "Swim, play, *pause*",
+    "lede": "A saltwater pool with eight lap lanes, six courts for tennis and pickleball, and a 1929 gymnasium, on the grounds of the old Fermata School in the heart of Aiken.",
+    "points": [
+      "Saltwater pool",
+      "Tennis & pickleball",
+      "Historic gymnasium"
+    ],
+    "cta": {
+      "label": "Join the club",
+      "href": "#membership"
+    },
+    "cta2": {
+      "label": "Call (803) 648-5673",
+      "href": "tel:+18036485673"
+    },
+    "image": {
+      "src": "/demo-assets/fermata-club/pool-sunset.webp",
+      "alt": "The Fermata pool at sunset, the still water reflecting an orange sky",
+      "width": 1600,
+      "height": 995
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/fermata-club/pool-sunset.webp"
+  },
+  "facts": [
+    {
+      "value": "1952",
+      "label": "16 families founded the club"
+    },
+    {
+      "value": "8 lanes",
+      "label": "25-yard saltwater pool"
+    },
+    {
+      "value": "6 courts",
+      "label": "Tennis and pickleball"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "club",
+      "nav": "The club",
+      "columns": 3,
+      "eyebrow": "A gem in Aiken’s crown",
+      "title": "Take a pause *with us*",
+      "intro": "A fermata is a musical sign to pause and hold a note longer than usual: an apt name for a place to slow down with family and friends.",
+      "items": [
+        {
+          "icon": "waves",
+          "title": "Saltwater pool",
+          "text": "Eight 25-yard lap lanes and a diving area, plus a 1½-foot wading pool for the youngest swimmers."
+        },
+        {
+          "icon": "volleyball",
+          "title": "Tennis & pickleball",
+          "text": "Five tennis courts and two pickleball courts with moveable nets, shaded by longleaf pines and oaks."
+        },
+        {
+          "icon": "school",
+          "title": "Historic gymnasium",
+          "text": "Built in 1929 for the Fermata School for Girls, and the home of the club’s holiday parties."
+        },
+        {
+          "icon": "users-round",
+          "title": "Swim team & lessons",
+          "text": "A competitive swim team and Red Cross Learn to Swim classes of up to six."
+        },
+        {
+          "icon": "trophy",
+          "title": "Leagues & clinics",
+          "text": "Home to CSRA and USTA league teams, with weekly clinics and private lessons."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Parties & events",
+          "text": "Pool parties, gym rentals and socials like Twist, after Sunday Funday tennis."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Summer at Fermata",
+      "title": "Long days *by the pool*",
+      "images": [
+        {
+          "src": "/demo-assets/fermata-club/pool.webp",
+          "alt": "Swimmers and a diver at the Fermata pool on a sunny day, blue umbrellas along the deck",
+          "width": 1600,
+          "height": 1456
+        },
+        {
+          "src": "/demo-assets/fermata-club/tennis.webp",
+          "alt": "A doubles game on the blue hard courts, ringed by tall pines",
+          "width": 1600,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/fermata-club/pool-dusk.webp",
+          "alt": "The empty pool at dusk with a pink and orange sky",
+          "width": 750,
+          "height": 968
+        },
+        {
+          "src": "/demo-assets/fermata-club/courts.webp",
+          "alt": "Freshly resurfaced blue and green tennis courts in afternoon sun",
+          "width": 980,
+          "height": 788
+        },
+        {
+          "src": "/demo-assets/fermata-club/lap-swimmer.webp",
+          "alt": "A swimmer doing freestyle laps between lane ropes",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "src": "/demo-assets/fermata-club/poolside.webp",
+          "alt": "A beach bag and towel on a lounge chair beside the pool",
+          "width": 1600,
+          "height": 1066
+        },
+        {
+          "src": "/demo-assets/fermata-club/racket.webp",
+          "alt": "A tennis racket and white sneakers on a blue court",
+          "width": 1600,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/fermata-club/swim-cap.webp",
+          "alt": "A green Fermata swim cap and goggles on a navy towel",
+          "width": 1600,
+          "height": 1600
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "membership",
+      "nav": "Membership",
+      "eyebrow": "Become a member",
+      "title": "Join *the club*",
+      "intro": "Membership includes full pool and court access, low rates for pool parties and the historic gym, and access to the club’s events and programs. A one-time initiation fee is added for new members.",
+      "groups": [
+        {
+          "title": "Swim & tennis",
+          "note": "Full pool and courts",
+          "items": [
+            {
+              "name": "Family",
+              "price": "$910",
+              "desc": "3 or more people in the same household"
+            },
+            {
+              "name": "Couples",
+              "price": "$810",
+              "desc": "2 people in the same household; at least one 16 or older"
+            },
+            {
+              "name": "Single",
+              "price": "$690",
+              "desc": "16 or older"
+            }
+          ]
+        },
+        {
+          "title": "Tennis only",
+          "note": "Courts and CSRA day leagues",
+          "items": [
+            {
+              "name": "Tennis couples",
+              "price": "$415",
+              "desc": "2 people in the same household, 16 or older"
+            },
+            {
+              "name": "Tennis single",
+              "price": "$280",
+              "desc": "16 or older"
+            }
+          ]
+        },
+        {
+          "title": "Guests",
+          "note": "Passes never expire",
+          "items": [
+            {
+              "name": "Guest pass",
+              "price": "$10",
+              "desc": "Per guest, per visit"
+            },
+            {
+              "name": "Guest 5-pack",
+              "price": "$40"
+            },
+            {
+              "name": "Guest 10-pack",
+              "price": "$80"
+            }
+          ]
+        }
+      ],
+      "footnote": "Dues as listed on the club’s current site. Returning members usually renew by emailed invoice."
+    },
+    {
+      "type": "columns",
+      "id": "rentals",
+      "nav": "Rentals",
+      "eyebrow": "Host a party",
+      "title": "The pool *and the gym*",
+      "intro": "Book at least 10 days ahead, for up to four hours and 25 guests online; for anything bigger or longer, email the club. A party is booked once it is paid and confirmed.",
+      "columns": [
+        {
+          "title": "Pool parties",
+          "items": [
+            "Members: up to 15 guests, $100, twice a year",
+            "Member-sponsored: up to 30 guests, $200",
+            "Non-members: up to 15 guests, $300, with board approval",
+            "Extra guests $25–50 per 10"
+          ]
+        },
+        {
+          "title": "Historic gymnasium",
+          "items": [
+            "Members: $200 for six hours or $300 for twelve, twice a year",
+            "Non-members: $500 for six hours or $800 for a full day",
+            "Refundable damage deposit"
+          ]
+        },
+        {
+          "title": "Good to know",
+          "items": [
+            "Children under 12 with someone 16 or older",
+            "Check in at the lifeguard office",
+            "Court reservations online"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "Our history",
+      "eyebrow": "Since 1952",
+      "title": "From the Fermata School *to a family club*",
+      "image": {
+        "src": "/demo-assets/fermata-club/historic-building.webp",
+        "alt": "A white two-story building from the Fermata School days, behind blooming azaleas",
+        "width": 1270,
+        "height": 952
+      },
+      "body": [
+        "The club stands on the grounds of the Fermata School for Girls, founded in 1919 by the internationally famous pianist Josef Hofmann and his wife, Marie Eustis Hofmann, for the young women of Aiken’s Winter Colony. A fire in 1944 left only the gymnasium and the headmaster’s home and infirmary.",
+        "In 1952, 16 families leased and later bought the property to form a social club; by the end of that summer there were 116. It is still member-owned, and the Fermata Foundation, a 501(c)(3), works to preserve the 1929 gymnasium."
+      ],
+      "list": [
+        "Member-owned since 1952",
+        "Weddings and milestone parties for generations",
+        "Gymnasium preservation through the Fermata Foundation"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you visit*",
+      "items": [
+        {
+          "q": "Can I bring guests?",
+          "a": "Yes. Guest passes are $10 per guest per visit, or $40 for five and $80 for ten, and they never expire."
+        },
+        {
+          "q": "Do non-members take swim lessons?",
+          "a": "Yes. Group lessons follow the Red Cross Learn to Swim program, Monday to Friday, with up to six students per class. Non-members may use the pool only during their lesson."
+        },
+        {
+          "q": "When is open tennis?",
+          "a": "Open mixed play is on Wednesdays from 6 to 8 pm and Sundays from 2:30 to 4:30 pm. Clinics and socials are organized on the free TeamReach app."
+        },
+        {
+          "q": "Can I tour the club?",
+          "a": "Of course. Email thefermataclub@gmail.com or call (803) 648-5673 to set up a visit."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come take a pause",
+      "text": "Tours, memberships and party bookings: call or email the club.",
+      "cta": {
+        "label": "Call (803) 648-5673",
+        "href": "tel:+18036485673"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "formTitle": "Ask about membership or a tour",
+    "formTopics": [
+      "Membership",
+      "A tour",
+      "Pool party",
+      "Gym rental",
+      "Swim or tennis lessons"
+    ]
+  },
+  "slug": "fermata-club",
+  "added": "2026-11-19",
+  "prospect": "the-fermata-club",
+  "source": {
+    "url": "https://fermataclub.com/",
+    "before": [
+      "21 of the 30 images on the home page have no description (alt text), and there’s no description for Google results",
+      "The page is laid out with 28 <center> tags, an HTML element retired years ago",
+      "The quick links at the top are bare emoji (👤 🎾 📆 🏠 👨‍⚖️) with no words, so screen readers announce them by emoji name",
+      "On a phone the main content takes about 20 seconds to appear (Google Lighthouse speed score: 58 out of 100)"
+    ],
+    "after": [
+      "The pool, courts and gym, with photos, on the first screens",
+      "Every membership level and guest fee on one table",
+      "Party and gym rental prices and rules in plain words",
+      "The club’s history from the Fermata School, told up front",
+      "Clear labels and contrast for every visitor"
+    ]
+  },
+  "style": {
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "plain",
+    "motion": "blur",
+    "buttons": "pill"
+  }
+}

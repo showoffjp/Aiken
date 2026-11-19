@@ -1,0 +1,307 @@
+{
+  "name": "Aiken Housing Center",
+  "short": "Aiken Housing Center",
+  "category": "Manufactured & Modular Homes",
+  "group": "Home & Garden",
+  "town": "Aiken, SC",
+  "established": "1984",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f5f6f8",
+    "surface": "#ffffff",
+    "ink": "#111a26",
+    "muted": "#4c5868",
+    "primary": "#123a6b",
+    "onPrimary": "#ffffff",
+    "accent": "#f4c20d",
+    "line": "#dce2ea"
+  },
+  "radius": 8,
+  "icon": "house",
+  "contact": {
+    "phone": "(803) 649-1603",
+    "email": "info@aikenhousingcenter.com",
+    "address": [
+      "190 Old Wagener Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Aiken Housing Center, 190 Old Wagener Rd, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "8:00 am – 7:00 pm"
+      ],
+      [
+        "Friday",
+        "8:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 5:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/AikenHousingCenter"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Serving the CSRA for over 40 years",
+    "title": "Land, home, financing, *one team*",
+    "lede": "Manufactured and modular homes with a true turn-key process: we find the land, the home and the financing, then handle the permits, delivery and setup. Over 40 homes in stock in Aiken.",
+    "points": [
+      "40+ homes in stock",
+      "Land & home packages",
+      "All credit types"
+    ],
+    "cta": {
+      "label": "Call (803) 649-1603",
+      "href": "tel:+18036491603"
+    },
+    "cta2": {
+      "label": "How it works",
+      "href": "#turn-key"
+    },
+    "image": {
+      "src": "/demo-assets/aiken-housing-center/modular-home.webp",
+      "alt": "A gray modular home with a covered front porch and a green lawn",
+      "width": 1400,
+      "height": 933
+    }
+  },
+  "facts": [
+    {
+      "value": "40+",
+      "label": "Homes in stock"
+    },
+    {
+      "value": "10",
+      "label": "Counties served"
+    },
+    {
+      "value": "70+",
+      "label": "Years of combined experience"
+    }
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "turn-key",
+      "nav": "Turn-key",
+      "eyebrow": "One team, one process",
+      "title": "From empty lot *to move-in day*",
+      "items": [
+        {
+          "title": "Choose your home",
+          "text": "Single wide, double wide or modular, from Clayton, Champion and Timber Creek. Don’t see it? Order any home and customize the floor plan."
+        },
+        {
+          "title": "Land and financing",
+          "text": "Use land we have, let us find land where you want it, or bring your own. Home only, land and home, construction-to-perm, FHA, VA and USDA loans."
+        },
+        {
+          "title": "Site work and permits",
+          "text": "Land clearing and grading, every permit and inspection, and the utility connections."
+        },
+        {
+          "title": "Delivery and setup",
+          "text": "Our construction team delivers and sets up your home, down to the deck, then you move in."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "homes",
+      "nav": "Homes",
+      "eyebrow": "On the lot and to order",
+      "title": "Find *your floor plan*",
+      "intro": "Manufactured homes on a permanent chassis, built to the HUD Code, and modular homes on a permanent foundation, built to local and state codes. Call for current pricing.",
+      "images": [
+        {
+          "src": "/demo-assets/aiken-housing-center/double-wide.webp",
+          "alt": "A white double-wide home with black shutters on a wide lawn",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/kitchen.webp",
+          "alt": "A bright kitchen with white cabinets, an island and pendant lights",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/craftsman-home.webp",
+          "alt": "A dark gray craftsman-style home with a front porch and stone accents",
+          "width": 1400,
+          "height": 987
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/living-room.webp",
+          "alt": "A living room with board-and-batten walls, a ceiling fan and a sectional sofa",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/dark-modern.webp",
+          "alt": "A modern home in black board-and-batten siding with wood steps",
+          "width": 1400,
+          "height": 933
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/open-plan.webp",
+          "alt": "An open living room and kitchen with white cabinets and gray floors",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/aiken-housing-center/ranch-home.webp",
+          "alt": "A long white ranch-style home with a covered porch",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "why",
+      "nav": "Why us",
+      "columns": 3,
+      "eyebrow": "A better way to buy",
+      "title": "No guesswork, *no runaround*",
+      "items": [
+        {
+          "icon": "key-round",
+          "title": "True turn-key dealer",
+          "text": "Land, home, financing, delivery and setup handled in-house, so you don’t juggle companies."
+        },
+        {
+          "icon": "badge-check",
+          "title": "Licensed and bonded",
+          "text": "Our housing consultants are licensed and bonded in South Carolina and trained on every manufactured housing rule."
+        },
+        {
+          "icon": "credit-card",
+          "title": "All credit types",
+          "text": "Creative financing programs and strong relationships with multiple lenders."
+        },
+        {
+          "icon": "calendar-days",
+          "title": "Layaway program",
+          "text": "A weekly payment that builds your down payment until you’re ready to move in."
+        },
+        {
+          "icon": "truck",
+          "title": "Trade-ins welcome",
+          "text": "Cars, old mobile homes, land, RVs: we’ll use them toward your down payment."
+        },
+        {
+          "icon": "map-pin",
+          "title": "Across ten counties",
+          "text": "Aiken, Lexington, Edgefield, McCormick, Orangeburg, Barnwell, Bamberg, Saluda, Allendale and Hampton."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "team",
+      "nav": "Our team",
+      "eyebrow": "Over 40 years in Aiken",
+      "title": "A team that knows *manufactured homes*",
+      "image": {
+        "src": "/demo-assets/aiken-housing-center/team.webp",
+        "alt": "The Aiken Housing Center staff on the porch of the sales office",
+        "width": 1600,
+        "height": 1066
+      },
+      "body": [
+        "Aiken Housing Center Superstore has helped families across Aiken, Augusta, North Augusta, Graniteville, Edgefield, Barnwell and the CSRA for over 40 years. Owner Scott Brinson and General Manager Earnest Lee lead a team with over 70 years of combined experience.",
+        "Sales Manager Coleman Brinson’s team will walk you through floor plans, land and financing, and after you buy, our construction team, led by Neil Arbaugh, manages delivery, setup and completion. One team, one process, done right from start to finish."
+      ],
+      "list": [
+        "Clear answers, not guesswork",
+        "Multiple lenders under one roof",
+        "Our own construction crew"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Common *questions*",
+      "items": [
+        {
+          "q": "Do you sell land, or land and home packages?",
+          "a": "Yes. We can put you on land we have, or find land in the area you want, and package it with your home and financing."
+        },
+        {
+          "q": "What can I trade in?",
+          "a": "Almost anything: cars, old mobile homes, land, RVs. We’ll use it toward your down payment."
+        },
+        {
+          "q": "What’s the difference between modular and manufactured?",
+          "a": "Manufactured homes have a permanent metal chassis and are built to the federal HUD Code. Modular homes sit on a permanent foundation and are built to the same local and state codes as a site-built home."
+        },
+        {
+          "q": "What credit score do I need?",
+          "a": "We work with all credit types and have many financing programs, including FHA, VA and USDA. Call (803) 649-1603 to talk through your options."
+        },
+        {
+          "q": "How does layaway work?",
+          "a": "We set a weekly payment that works for you and hold it in an account until you reach your down payment, then put you in the home you chose."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to see the homes?",
+      "text": "Visit the lot on Old Wagener Road, Monday to Saturday.",
+      "cta": {
+        "label": "Call (803) 649-1603",
+        "href": "tel:+18036491603"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Old Wagener Road*",
+    "formTitle": "Ask about a home or financing",
+    "formTopics": [
+      "A home I saw",
+      "Land & home package",
+      "Financing or pre-qualifying",
+      "Trade-in",
+      "Something else"
+    ]
+  },
+  "slug": "aiken-housing-center",
+  "added": "2026-11-19",
+  "prospect": "aiken-housing-center",
+  "source": {
+    "url": "https://aikenhousingcenter.com/",
+    "before": [
+      "On a phone the main content takes about 11 seconds to appear (Google Lighthouse speed score: 36 out of 100), and the home page downloads 14.5 MB",
+      "55 accessibility problems, most of them text too faint to read, plus links and buttons with no name",
+      "The page title is just \"Aiken Housing Center\", with no description for Google and no preview when shared",
+      "All 51 homes on the home page say \"Contact Us For Pricing\", and the hours appear only on the Contact page"
+    ],
+    "after": [
+      "The turn-key process, step by step, on the first screen",
+      "Hours, address and one-tap call on every phone",
+      "Financing, layaway and trade-ins explained in plain words",
+      "A page that loads in a couple of seconds",
+      "Text that meets contrast standards everywhere"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

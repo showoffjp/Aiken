@@ -161,6 +161,20 @@ export function galleryShapes(images: Img[]): { shapes: string[]; center: boolea
   return { shapes: best.pick, center: false };
 }
 
+/**
+ * A `sizes` value for a photo that fills (object-fit: cover) a box of the given
+ * shape: a wide photo in a square or upright frame is drawn wider than the box,
+ * so the browser needs a correspondingly larger file to stay sharp.
+ * `vw` is the box's width on [phones, larger screens]; `box` is the box's width/height.
+ * `phoneAsIs` keeps the phone size uncorrected: for the first image on the page
+ * (the hero), a smaller file that shows up sooner matters more than the crop.
+ */
+export function coverSizes(img: Img, box: number, vw: [number, number], bp = 860, phoneAsIs = false) {
+  const r = img.width && img.height ? img.width / img.height : 1;
+  const k = Math.max(1, r / box);
+  return `(max-width: ${bp}px) ${phoneAsIs ? vw[0] : Math.min(Math.round(vw[0] * k), 200)}vw, ${Math.min(Math.round(vw[1] * k), 100)}vw`;
+}
+
 export function cinematicHero(demo: Demo): Img | undefined {
   const all: Img[] = [demo.hero.image, ...demo.sections.flatMap((s: any) => [...(s.images || []), s.image])].filter(Boolean) as Img[];
   const pick = typeof demo.cinematic === 'object' && demo.cinematic.heroImage ? all.find((i) => i.src === (demo.cinematic as { heroImage?: string }).heroImage) : undefined;
