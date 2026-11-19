@@ -3177,7 +3177,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 43,
+    "performance": 56,
     "pageMB": 3.3,
     "a11ySerious": 8,
     "facebook": true,
@@ -4732,7 +4732,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -6958,7 +6958,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -7026,7 +7026,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 31,
+    "performance": 36,
     "pageMB": 5.3,
     "a11ySerious": 19,
     "facebook": true,
@@ -9266,7 +9266,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -9334,7 +9334,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 31,
+    "performance": 36,
     "pageMB": 5.3,
     "a11ySerious": 19,
     "facebook": true,
@@ -19169,7 +19169,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -24474,7 +24474,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -28613,7 +28613,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 49,
+    "performance": 63,
     "pageMB": 5.4,
     "a11ySerious": 7,
     "facebook": true,
@@ -29321,6 +29321,915 @@
     "facebook": true,
     "instagram": false,
     "domainYears": 2
+   }
+  ]
+ },
+ "automotive-workbench": {
+  "slug": "automotive-workbench",
+  "name": "Automotive Workbench",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "awbench.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.awbench.com/",
+    "title": "Trusted Auto Repair in Aiken, SC | Automotive Workbench",
+    "description": "Automotive Workbench offers expert auto repair and maintenance in Aiken, SC. ASE-certified technicians and quality service you can trust. Call us today!",
+    "canonical": "https://www.awbench.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Trusted Auto Repair in Aiken, SC | Automotive Workbench",
+     "description": "Automotive Workbench offers expert auto repair and maintenance in Aiken, SC. ASE-certified technicians and quality service you can trust. Call us today!",
+     "image": "https://irp.cdn-website.com/f810be43/dms3rep/multi/opt/Screenshot+2025-09-17+at+10.10.50-PM-1920w.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Your REPUTABLE Auto Repair Shop in AIKEN, SC"
+    ],
+    "h1Count": 1,
+    "h2": 9,
+    "h3": 26,
+    "words": 1374,
+    "images": 26,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "WebSite",
+     "AutoRepair",
+     "PostalAddress",
+     "GeoCoordinates",
+     "OpeningHoursSpecification",
+     "FAQPage",
+     "Question",
+     "Answer"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.awbench.com/sitemap.xml",
+    "pages": 72
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 279,
+    "sample": [
+     {
+      "url": "https://www.awbench.com/",
+      "title": "Trusted Auto Repair in Aiken, SC | Automotive Workbench",
+      "description": 152,
+      "h1": 1,
+      "words": 1374
+     },
+     {
+      "url": "https://www.awbench.com/services",
+      "title": "Auto Repair Services in Aiken, SC | Automotive Workbench",
+      "description": 152,
+      "h1": 1,
+      "words": 191
+     },
+     {
+      "url": "https://www.awbench.com/services/brakes",
+      "title": "Brakes Service in Aiken, SC | Automotive Workbench",
+      "description": 164,
+      "h1": 1,
+      "words": 893
+     },
+     {
+      "url": "https://www.awbench.com/services/suspension",
+      "title": "Suspension Services in Aiken, SC | Automotive Workbench",
+      "description": 162,
+      "h1": 1,
+      "words": 870
+     },
+     {
+      "url": "https://www.awbench.com/services/hvac",
+      "title": "HVAC Services in Aiken, SC | Automotive Workbench",
+      "description": 163,
+      "h1": 1,
+      "words": 867
+     },
+     {
+      "url": "https://www.awbench.com/services/tune-ups",
+      "title": "Tune-Up Services in Aiken, SC | Automotive Workbench",
+      "description": 166,
+      "h1": 1,
+      "words": 858
+     },
+     {
+      "url": "https://www.awbench.com/services/preventive-maintenance",
+      "title": "Preventive Maintenance in Aiken, SC | Automotive Workbench",
+      "description": 152,
+      "h1": 1,
+      "words": 850
+     },
+     {
+      "url": "https://www.awbench.com/services/tires",
+      "title": "Tire Services in Aiken, SC | Automotive Workbench",
+      "description": 169,
+      "h1": 1,
+      "words": 865
+     },
+     {
+      "url": "https://www.awbench.com/services/electrical",
+      "title": "Electrical Services in Aiken, SC | Automotive Workbench",
+      "description": 156,
+      "h1": 1,
+      "words": 858
+     },
+     {
+      "url": "https://www.awbench.com/services/transmissions",
+      "title": "Transmission Services in Aiken, SC | Automotive Workbench",
+      "description": 173,
+      "h1": 1,
+      "words": 852
+     },
+     {
+      "url": "https://www.awbench.com/vehicles",
+      "title": "Vehicles Serviced in Aiken, SC | Automotive Workbench",
+      "description": 166,
+      "h1": 1,
+      "words": 368
+     },
+     {
+      "url": "https://www.awbench.com/vehicles6c0c4a38/audi",
+      "title": "Audi Auto Repair - Aiken, SC | Automotive Workbench",
+      "description": 149,
+      "h1": 1,
+      "words": 709
+     },
+     {
+      "url": "https://www.awbench.com/vehicles6c0c4a38/bmw",
+      "title": "BMW Auto Repair - Aiken, SC | Automotive Workbench",
+      "description": 148,
+      "h1": 1,
+      "words": 706
+     },
+     {
+      "url": "https://www.awbench.com/vehicles6c0c4a38/chrysler",
+      "title": "Chrysler Auto Repair - Aiken, SC | Automotive Workbench",
+      "description": 153,
+      "h1": 1,
+      "words": 684
+     },
+     {
+      "url": "https://www.awbench.com/vehicles6c0c4a38/fiat",
+      "title": "Fiat Auto Repair - Aiken, SC | Automotive Workbench",
+      "description": 149,
+      "h1": 1,
+      "words": 714
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 43,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://maps.app.goo.gl/QWD3x7kRXankhtim7",
+    "Facebook": "https://facebook.com/awbench/",
+    "Yelp": "http://yelp.com/biz/automotive-work-bench-aiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Auto Repair",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 5
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 25
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=219&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=98cfc30ba72efbd7feb660abbfb43ec6",
+    "name": "Automotive Workbench",
+    "phone": "(803) 649-3574",
+    "website": "http://www.awbench.com",
+    "address": "958 East Pine Log Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://maps.app.goo.gl/QWD3x7kRXankhtim7",
+    "Facebook": "https://facebook.com/awbench/",
+    "Yelp": "http://yelp.com/biz/automotive-work-bench-aiken"
+   },
+   "listed": {
+    "Facebook": "https://facebook.com/awbench"
+   }
+  },
+  "domain": {
+   "name": "awbench.com",
+   "created": "2007-12-05",
+   "expires": "2027-12-05",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 18
+  },
+  "performance": {
+   "performance": 63,
+   "accessibility": 90,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 1807,
+   "lcp": 3159,
+   "tbt": 1385,
+   "si": 4988,
+   "cls": 0.037,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2255,
+   "tbt": 4,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "c-and-c-automotive",
+   "waynes-automotive-and-towing-center-aiken",
+   "auto-tech-inc",
+   "williamsons-auto-center"
+  ],
+  "scores": {
+   "seo": 100,
+   "social": 70,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "waynes-automotive-and-towing-center-aiken",
+    "name": "Wayne's Automotive and Towing Center - Aiken",
+    "website": "https://waynesautomotivecenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.1,
+    "a11ySerious": 14,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "auto-tech-inc",
+    "name": "Auto Tech, Inc.",
+    "website": "https://www.aikenautotechinc.com/",
+    "state": "blocked",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "williamsons-auto-center",
+    "name": "Williamson's Auto Center",
+    "website": "https://www.williamsonsauto.net/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   }
+  ]
+ },
+ "cavaliers-coffeehouse": {
+  "slug": "cavaliers-coffeehouse",
+  "name": "Cavalier’s Coffeehouse",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "cavscoffee.com",
+   "https": true,
+   "pagesCrawled": 4,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.cavscoffee.com/",
+    "title": "North Augusta | Cavalier's Coffeehouse | Wine Bar & Cafe",
+    "description": "Cavalier's Coffeehouse is a specialty cafe and wine bar in downtown North Augusta, SC. We offer a neoclassical space for meetings, conversation, or working. Along with curbside to-go, our lovely courtyard is perfect for hosting events and parties. Take a look at our rotating beer and wine selection!",
+    "canonical": "https://www.cavscoffee.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "North Augusta | Cavalier's Coffeehouse | Wine Bar & Cafe",
+     "description": "Cavalier's Coffeehouse is a specialty cafe and wine bar in downtown North Augusta, SC. We offer a neoclassical space for meetings, conversation, or working. Along with curbside to-go, our lovely courtyard is perfect for hosting events and parties. Take a look at our rotating beer and wine selection!",
+     "image": "https://static.wixstatic.com/media/cc889b_b25181057d514fa7a153699c691f26dd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/cc889b_b25181057d514fa7a153699c691f26dd%7Emv2.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "BOOK NOW",
+     "Click a button to email us!"
+    ],
+    "h1Count": 2,
+    "h2": 1,
+    "h3": 0,
+    "words": 306,
+    "images": 11,
+    "imagesNoAlt": 4,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "WebSite"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.cavscoffee.com/sitemap.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 4,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 2,
+    "multipleH1": 1,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 11,
+    "images": 41,
+    "sample": [
+     {
+      "url": "https://www.cavscoffee.com/",
+      "title": "North Augusta | Cavalier's Coffeehouse | Wine Bar & Cafe",
+      "description": 300,
+      "h1": 2,
+      "words": 306
+     },
+     {
+      "url": "https://www.cavscoffee.com/menu",
+      "title": "Menu | Cavalier's Coffeehouse | North Augusta",
+      "description": 291,
+      "h1": 0,
+      "words": 130
+     },
+     {
+      "url": "https://www.cavscoffee.com/events",
+      "title": "Events | Cav's Coffeehouse",
+      "description": 0,
+      "h1": 0,
+      "words": 346
+     },
+     {
+      "url": "https://www.cavscoffee.com/defender",
+      "title": "Defender | Cav's Coffeehouse",
+      "description": 255,
+      "h1": 1,
+      "words": 284
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 4,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Instagram": "https://www.instagram.com/cavscoffee/",
+    "Facebook": "https://www.facebook.com/cavscoffeenorthaugusta/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Coffeehouse",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "North Augusta",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/cavalier-s-coffeehouse-4268",
+    "name": "Cavalier's Coffeehouse",
+    "phone": "(803) 613-6240",
+    "website": "http://cavscoffee.com",
+    "address": "336 Georgia Avenue, Suite 107, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Instagram": "https://www.instagram.com/cavscoffee/",
+    "Facebook": "https://www.facebook.com/cavscoffeenorthaugusta/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/cavscoffeenorthaugusta/",
+    "Instagram": "https://www.instagram.com/cavscoffee/"
+   }
+  },
+  "domain": {
+   "name": "cavscoffee.com",
+   "created": "2021-02-02",
+   "expires": "2031-02-02",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 5
+  },
+  "performance": {
+   "performance": 56,
+   "accessibility": 86,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 2273,
+   "lcp": 7483,
+   "tbt": 398,
+   "si": 7979,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2029,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "bowl-boss",
+   "brinks-tavern",
+   "brinkleys-chop-house"
+  ],
+  "scores": {
+   "seo": 72,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "bowl-boss",
+    "name": "Bowl Boss",
+    "website": "https://www.bowlbossacai.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 5.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "brinkleys-chop-house",
+    "name": "Brinkley's Chop House",
+    "website": "https://www.brinkleyschophouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 39,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "tabs-professional-transportation": {
+  "slug": "tabs-professional-transportation",
+  "name": "Tab’s Professional Transportation",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "tabsprofessionaltransportation.com",
+   "https": true,
+   "pagesCrawled": 3,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.tabsprofessionaltransportation.com/",
+    "title": "Home | TAB'S PROFESSIONAL TRANSPORTATION | Aiken",
+    "description": "TAB'S PROFESSIONAL TRANSPORTATION, LLC is a privately owned transportation company located in Aiken, SC servicing the CSRA and surrounding areas.  TPT provides:\nPersonal Airport Transportation\nPersonal Point-to-Point Transportation\nPersonal Hourly Transportation",
+    "canonical": "https://www.tabsprofessionaltransportation.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home | TAB'S PROFESSIONAL TRANSPORTATION | Aiken",
+     "description": "TAB'S PROFESSIONAL TRANSPORTATION, LLC is a privately owned transportation company located in Aiken, SC servicing the CSRA and surrounding areas.  TPT provides:\nPersonal Airport Transportation\nPersonal Point-to-Point Transportation\nPersonal Hourly Transportation",
+     "image": "https://static.wixstatic.com/media/4fc8d8_43ba7a02bbfe4ec6a5849a64be16441e~mv2.png/v1/fill/w_2500,h_1022,al_c/4fc8d8_43ba7a02bbfe4ec6a5849a64be16441e~mv2.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "TPT",
+     "CERTIFIED TO OFFER YOU THE BEST SERVICE",
+     "RECOGNIZED FOR TOP PROFESSIONALISM AND SERVICE"
+    ],
+    "h1Count": 4,
+    "h2": 5,
+    "h3": 0,
+    "words": 208,
+    "images": 28,
+    "imagesNoAlt": 5,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "WebSite"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.tabsprofessionaltransportation.com/sitemap.xml",
+    "pages": 27
+   },
+   "crawl": {
+    "pages": 3,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 1,
+    "multipleH1": 1,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 9,
+    "images": 54,
+    "sample": [
+     {
+      "url": "https://www.tabsprofessionaltransportation.com/",
+      "title": "Home | TAB'S PROFESSIONAL TRANSPORTATION | Aiken",
+      "description": 262,
+      "h1": 4,
+      "words": 208
+     },
+     {
+      "url": "https://www.tabsprofessionaltransportation.com/airport",
+      "title": "$$$ | Tab's Professional Transportation, Llc | Aiken",
+      "description": 129,
+      "h1": 1,
+      "words": 82
+     },
+     {
+      "url": "https://www.tabsprofessionaltransportation.com/products",
+      "title": "PRODUCTS & AFFILIATES | Tabs Pro Transport",
+      "description": 471,
+      "h1": 0,
+      "words": 173
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 3,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "YouTube": "https://www.youtube.com/@tpttalks",
+    "Instagram": "https://www.instagram.com/tabsprotransportation",
+    "Facebook": "https://www.facebook.com/ridewithtab",
+    "X (Twitter)": "https://www.twitter.com/tabprofessional",
+    "LinkedIn": "https://www.linkedin.com/in/tabithabutler/",
+    "TikTok": "https://www.tiktok.com/@tabrb"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Car Service",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=937&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=b97437c279c05588d982cfd881ec0be7",
+    "name": "Tab’s Professional Transportation",
+    "phone": "(803) 998-0672",
+    "website": "http://www.tabsprofessionaltransportation.com",
+    "address": "2540 Golden Bridge Court, Aiken, SC 29803",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "YouTube": "https://www.youtube.com/@tpttalks",
+    "Instagram": "https://www.instagram.com/tabsprotransportation",
+    "Facebook": "https://www.facebook.com/ridewithtab",
+    "X (Twitter)": "https://www.twitter.com/tabprofessional",
+    "LinkedIn": "https://www.linkedin.com/in/tabithabutler/",
+    "TikTok": "https://www.tiktok.com/@tabrb"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/ridewithtab",
+    "Instagram": "https://www.instagram.com/tabsprotransportation"
+   }
+  },
+  "domain": {
+   "name": "tabsprofessionaltransportation.com",
+   "created": "2024-05-02",
+   "expires": "2028-05-02",
+   "registrar": "Wix.com Ltd.",
+   "years": 2
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 95,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 1905,
+   "lcp": 10003,
+   "tbt": 740,
+   "si": 6038,
+   "cls": 0.006,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1804,
+   "tbt": 71,
+   "si": 948,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "aasa-transportation-llc",
+   "aiken-transport-express-llc",
+   "sc-express-transportation"
+  ],
+  "scores": {
+   "seo": 67,
+   "social": 80,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aasa-transportation-llc",
+    "name": "AASA Transportation LLC",
+    "website": "https://www.aasatransportation.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "aiken-transport-express-llc",
+    "name": "Aiken Transport Express, LLC",
+    "website": "https://aikentransportexpress.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": null,
+    "pageMB": 4.5,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "sc-express-transportation",
+    "name": "SC Express Transportation",
+    "website": "https://scsedan.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
    }
   ]
  }

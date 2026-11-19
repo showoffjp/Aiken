@@ -189,7 +189,12 @@
   "prospect": "tabs-professional-transportation",
   "source": {
     "url": "https://www.tabsprofessionaltransportation.com/",
-    "before": [],
+    "before": [
+      "On a phone, 95% of the text is smaller than 12 pixels, and 14 of 20 buttons and links are too small to tap",
+      "The Airport page’s title in Google results and browser tabs is “$$$”",
+      "A typo in the first paragraph: “within in 350 miles”",
+      "On a phone the main content takes about 10 seconds to appear (Google Lighthouse speed score: 50 out of 100)"
+    ],
     "after": [
       "Every service on the first screens, in plain words",
       "A simple three-step way to book",

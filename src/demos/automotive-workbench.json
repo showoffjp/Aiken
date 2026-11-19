@@ -243,7 +243,12 @@
   "prospect": "automotive-workbench",
   "source": {
     "url": "https://www.awbench.com/",
-    "before": [],
+    "before": [
+      "The home page shows only 3 of the shop’s 8 services",
+      "No email address anywhere on the site",
+      "A 5.4 MB home page whose scripts leave a phone unresponsive to taps for about 1.4 seconds (Google Lighthouse speed score: 63 out of 100)",
+      "7 accessibility problems, 5 of them text too faint to read"
+    ],
     "after": [
       "Every service on one screen, in plain words",
       "The nationwide warranty and financing explained up front",

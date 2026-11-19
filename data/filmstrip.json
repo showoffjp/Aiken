@@ -4384,5 +4384,191 @@
    ],
    "at": "2026-11-19"
   }
+ },
+ "automotive-workbench": {
+  "site": {
+   "first": 1094,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1305,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "cavaliers-coffeehouse": {
+  "site": {
+   "first": 1666,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1405,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "tabs-professional-transportation": {
+  "site": {
+   "first": 1787,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1225,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
  }
 }

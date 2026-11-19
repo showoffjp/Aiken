@@ -2591,6 +2591,16 @@
     }
    ],
    "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "b-and-k-grading-and-paving-llc": {
@@ -3721,6 +3731,16 @@
      "nodes": 1
     }
    ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
    "at": "2026-11-19"
   }
  },
@@ -9043,6 +9063,16 @@
      "nodes": 1
     }
    ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
    "at": "2026-11-19"
   }
  },

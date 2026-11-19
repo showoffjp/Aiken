@@ -253,7 +253,12 @@
   "prospect": "cavaliers-coffeehouse",
   "source": {
     "url": "https://www.cavscoffee.com/",
-    "before": [],
+    "before": [
+      "The Menu page lists no drinks or prices, only “Explore these amazing drinks with your barista or bartender”",
+      "Wednesday’s hours read “6:30-8:30pm”, and the address reads “N orth Augusta”",
+      "The events page says Jessica will reach out, then that Bri or Brad will",
+      "On a phone the main content takes about 7.5 seconds to appear (Google Lighthouse speed score: 56 out of 100)"
+    ],
     "after": [
       "What you pour, from coffee to cocktails, in plain words",
       "Clear hours with an “Open now” sign",

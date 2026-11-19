@@ -515,6 +515,13 @@
    "loadMs": 4085,
    "url": "https://www.awbench.com/",
    "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 470355,
+   "requests": 7,
+   "loadMs": 169,
+   "url": "/automotive-workbench/",
+   "at": "2026-11-19"
   }
  },
  "atomic-heating-and-air": {
@@ -1032,6 +1039,13 @@
    "requests": 160,
    "loadMs": 4765,
    "url": "https://www.cavscoffee.com/",
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 393100,
+   "requests": 8,
+   "loadMs": 225,
+   "url": "/cavaliers-coffeehouse/",
    "at": "2026-11-19"
   }
  },
@@ -3444,6 +3458,13 @@
    "requests": 218,
    "loadMs": 4857,
    "url": "https://www.tabsprofessionaltransportation.com/",
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 290761,
+   "requests": 5,
+   "loadMs": 162,
+   "url": "/tabs-professional-transportation/",
    "at": "2026-11-19"
   }
  },

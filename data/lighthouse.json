@@ -1601,6 +1601,18 @@
    "si": 4988,
    "cls": 0.037,
    "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2255,
+   "tbt": 4,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "b-and-k-grading-and-paving-llc": {
@@ -1893,16 +1905,28 @@
  },
  "cavaliers-coffeehouse": {
   "site": {
-   "performance": 43,
+   "performance": 56,
    "accessibility": 86,
    "bestPractices": 79,
    "seo": 100,
-   "fcp": 2528,
-   "lcp": 7362,
-   "tbt": 1015,
-   "si": 8108,
+   "fcp": 2273,
+   "lcp": 7483,
+   "tbt": 398,
+   "si": 7979,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2029,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "changes-day-spa": {
@@ -3921,6 +3945,32 @@
    "lcp": 2253,
    "tbt": 87,
    "si": 949,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "tabs-professional-transportation": {
+  "site": {
+   "performance": 50,
+   "accessibility": 95,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 1905,
+   "lcp": 10003,
+   "tbt": 740,
+   "si": 6038,
+   "cls": 0.006,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1804,
+   "tbt": 71,
+   "si": 948,
    "cls": 0,
    "at": "2026-11-19"
   }
