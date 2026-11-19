@@ -1,0 +1,40 @@
+---
+// A street map drawn from OpenStreetMap data (scripts/maps.mjs), painted in
+// the concept's own colours. The business sits at the centre of the frame, so
+// the drawing can be cropped to any box ("slice") and the pin still lines up.
+export type MapData = {
+  w: number; h: number;
+  water: string; green: string; waterway: string; building: string;
+  rail: string; path: string; minor: string; mid: string; major: string;
+  labels: { name: string; d: string }[];
+};
+interface Props { data: MapData; labels?: boolean; class?: string; id?: string }
+const { data, labels = true, class: cls, id = 'sm' } = Astro.props;
+---
+<svg class:list={['street-map', cls]} viewBox={`0 0 ${data.w} ${data.h}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <rect class="sm-land" width={data.w} height={data.h} />
+  {data.green && <path class="sm-green" d={data.green} />}
+  {data.water && <path class="sm-water" d={data.water} />}
+  {data.waterway && <path class="sm-waterway" d={data.waterway} />}
+  {data.building && <path class="sm-building" d={data.building} />}
+  {data.rail && <path class="sm-rail" d={data.rail} />}
+  {data.path && <path class="sm-path" d={data.path} />}
+  <g class="sm-casing">
+    {data.minor && <path class="sm-minor" d={data.minor} />}
+    {data.mid && <path class="sm-mid" d={data.mid} />}
+    {data.major && <path class="sm-major" d={data.major} />}
+  </g>
+  <g class="sm-fill">
+    {data.minor && <path class="sm-minor" d={data.minor} />}
+    {data.mid && <path class="sm-mid" d={data.mid} />}
+    {data.major && <path class="sm-major" d={data.major} />}
+  </g>
+  {labels && data.labels.length > 0 && (
+    <>
+      <defs>{data.labels.map((l, i) => <path id={`${id}-l${i}`} d={l.d} />)}</defs>
+      {data.labels.map((l, i) => (
+        <text class="sm-label" dominant-baseline="central"><textPath href={`#${id}-l${i}`} startOffset="50%" text-anchor="middle">{l.name}</textPath></text>
+      ))}
+    </>
+  )}
+</svg>
