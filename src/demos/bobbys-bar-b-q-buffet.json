@@ -1,0 +1,412 @@
+{
+  "name": "Bobby’s Bar-B-Q Buffet",
+  "short": "Bobby’s Bar-B-Q",
+  "category": "Barbecue Buffet",
+  "group": "Food & Drink",
+  "town": "Warrenville, SC",
+  "established": "1985",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f8f2ea",
+    "surface": "#fffaf4",
+    "ink": "#22160f",
+    "muted": "#5c4a3e",
+    "primary": "#9b2c1f",
+    "onPrimary": "#ffffff",
+    "accent": "#e2a33c",
+    "line": "#ead9c6"
+  },
+  "radius": 12,
+  "icon": "flame",
+  "contact": {
+    "phone": "(803) 593-5900",
+    "email": "bobbysbbq@bellsouth.net",
+    "address": [
+      "1897 Jefferson Davis Highway",
+      "Warrenville, SC 29851"
+    ],
+    "mapQuery": "Bobby’s Bar-B-Q Buffet, 1897 Jefferson Davis Hwy, Warrenville, SC 29851",
+    "hours": [
+      [
+        "Thursday – Saturday",
+        "11:00 am – 8:30 pm"
+      ],
+      [
+        "Sunday",
+        "11:00 am – 3:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/164934756874217"
+  },
+  "hero": {
+    "eyebrow": "Family-owned Southern Bar-B-Q in Warrenville",
+    "title": "Hickory-smoked *since 1985*",
+    "lede": "A classic Southern buffet of chopped pork, ribs, chicken, hash and rice, and all the sides, in a casual, family-run dining room, with private rooms for parties and catering for up to 2,000 guests.",
+    "points": [
+      "Buffet & carry-out",
+      "Private party rooms",
+      "Catering"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 593-5900",
+      "href": "tel:+18035935900"
+    },
+    "image": {
+      "src": "/demo-assets/bobbys-bar-b-q-buffet/bbq-spread.webp",
+      "alt": "Plates of barbecue, fried chicken, collards and mac and cheese on a wooden table",
+      "width": 1800,
+      "height": 1013
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/bobbys-bar-b-q-buffet/bbq-spread.webp"
+  },
+  "facts": [
+    {
+      "value": "1985",
+      "label": "Opened by Bobby Sr. and Barbara Griffin"
+    },
+    {
+      "value": "4 rooms",
+      "label": "For parties of up to 200"
+    },
+    {
+      "value": "2,000",
+      "label": "Guests we can cater for"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "From the pit and the kitchen",
+      "title": "The *buffet and more*",
+      "intro": "Drinks aren’t included with the adult buffet. Sides vary daily.",
+      "groups": [
+        {
+          "title": "Buffet",
+          "items": [
+            {
+              "name": "Dinner buffet",
+              "desc": "Thursday and Friday 3–8:30, Saturday 11–8:30",
+              "price": "$16"
+            },
+            {
+              "name": "Dinner buffet with ribs",
+              "price": "$18"
+            },
+            {
+              "name": "Lunch buffet",
+              "desc": "Thursday and Friday 11–3; $16 with ribs",
+              "price": "$14"
+            },
+            {
+              "name": "Child’s buffet",
+              "desc": "Ages 3–5 $4, ages 6–10 $6, with a drink and dessert; 2 and under free"
+            }
+          ]
+        },
+        {
+          "title": "Sandwiches",
+          "items": [
+            {
+              "name": "BBQ sandwich",
+              "desc": "Chopped or pulled",
+              "price": "$8"
+            },
+            {
+              "name": "Sandwich special",
+              "desc": "With one side and a drink",
+              "price": "$11"
+            },
+            {
+              "name": "Chicken sandwich",
+              "desc": "BBQ or fried"
+            }
+          ]
+        },
+        {
+          "title": "Carry-out plates",
+          "note": "With hash and rice, two sides and two hush puppies",
+          "items": [
+            {
+              "name": "BBQ plate",
+              "desc": "Chopped or pulled; small $12, large $14"
+            },
+            {
+              "name": "Chicken plate",
+              "desc": "BBQ or fried; small $12, large $14"
+            },
+            {
+              "name": "Rib plate",
+              "desc": "Two to three ribs",
+              "price": "$15"
+            },
+            {
+              "name": "Vegetable plate",
+              "desc": "Choice of four sides",
+              "price": "$11"
+            }
+          ]
+        },
+        {
+          "title": "Meat by the pound",
+          "items": [
+            {
+              "name": "BBQ",
+              "desc": "Pulled, sauce on the meat",
+              "price": "$13/lb"
+            },
+            {
+              "name": "Ribs",
+              "price": "$14/lb"
+            },
+            {
+              "name": "Chicken",
+              "desc": "Eight pieces, BBQ or fried",
+              "price": "$12"
+            },
+            {
+              "name": "Hash",
+              "desc": "Small pan $40, large pan $65"
+            },
+            {
+              "name": "BBQ sauce",
+              "desc": "Pint $6, quart $11"
+            }
+          ]
+        },
+        {
+          "title": "Sides & desserts",
+          "note": "Sides vary daily: slaw, potato salad, green beans, baked beans, fried okra, field peas, candied yams, greens, mac and cheese, collards, sweet potato soufflé",
+          "items": [
+            {
+              "name": "Hush puppies",
+              "desc": "Six for $1, twelve for $2"
+            },
+            {
+              "name": "Banana pudding",
+              "desc": "Serving $2, pint $5, pans for a crowd"
+            },
+            {
+              "name": "Soft serve vanilla ice cream",
+              "price": "$1"
+            }
+          ]
+        },
+        {
+          "title": "Drinks",
+          "items": [
+            {
+              "name": "Soft drinks or tea",
+              "desc": "16 oz $2, 32 oz $2.50"
+            },
+            {
+              "name": "Tea by the gallon",
+              "price": "$4.50"
+            },
+            {
+              "name": "Coffee",
+              "price": "$1"
+            }
+          ]
+        }
+      ],
+      "footnote": "Menu and prices as posted on the restaurant’s current website."
+    },
+    {
+      "type": "story",
+      "id": "family",
+      "nav": "Our story",
+      "eyebrow": "A Southern barbecue tradition",
+      "title": "A family tradition *since 1985*",
+      "image": {
+        "src": "/demo-assets/bobbys-bar-b-q-buffet/sign.webp",
+        "alt": "The Bobby’s BBQ sign on a log wall, established 1985",
+        "width": 800,
+        "height": 800
+      },
+      "body": [
+        "Bobby’s Bar-B-Q was established in 1985 by Bobby Sr. and Barbara Griffin. More than forty years later, Bobby Jr. proudly carries on the family tradition of Southern-style Bar-B-Q in a charming, casual atmosphere.",
+        "We’ve built our name on hickory-smoked barbecue and the cooking that has kept guests coming back through the years: chopped pork, ribs, chicken and Southern sides on a classic buffet."
+      ],
+      "list": [
+        "Family owned since 1985",
+        "Hickory-smoked barbecue",
+        "A casual, rustic dining room"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Come hungry",
+      "title": "Plates *worth the drive*",
+      "images": [
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/dining-room.webp",
+          "alt": "The wood-paneled dining room with ceiling fans and checked curtains",
+          "width": 1800,
+          "height": 1013
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/rib-plate.webp",
+          "alt": "A plate of ribs, pulled pork, baked beans and potato salad",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/buffet-line.webp",
+          "alt": "The buffet line with mac and cheese, rice and sides",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/sandwich-plate.webp",
+          "alt": "A barbecue sandwich with hush puppies and slaw",
+          "width": 1400,
+          "height": 788
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/horsecreek-room.webp",
+          "alt": "The entrance to the Horsecreek Room",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/soft-serve.webp",
+          "alt": "A cup of chocolate and vanilla soft serve",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/antique-car.webp",
+          "alt": "A vintage automobile on display inside the restaurant",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/bobbys-bar-b-q-buffet/plates-overhead.webp",
+          "alt": "Two plates of barbecue and sides seen from above",
+          "width": 1400,
+          "height": 788
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "parties",
+      "nav": "Parties & catering",
+      "eyebrow": "Great parties start here",
+      "title": "Parties *and catering*",
+      "intro": "Birthdays, baby showers, holiday parties, rehearsal dinners, reunions and corporate events: we’ll handle the food while you enjoy your guests.",
+      "columns": [
+        {
+          "title": "Private parties",
+          "items": [
+            "Four dining spaces, including the Horsecreek Room",
+            "Groups of up to 200 guests",
+            "A casual setting that’s still nice enough for photos and speeches"
+          ]
+        },
+        {
+          "title": "Catering",
+          "items": [
+            "Weddings, graduations and corporate events",
+            "Parties of up to 2,000 guests",
+            "Pick-up, delivery or fully staffed"
+          ]
+        },
+        {
+          "title": "On the catering menu",
+          "items": [
+            "Pork, chicken (BBQ or fried) and ribs",
+            "Hash and rice, mac and cheese, green beans",
+            "Peach cobbler and banana pudding"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you take reservations?",
+          "a": "Yes, and we recommend booking ahead. Call (803) 593-5900 to reserve a table."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Thursday to Saturday, 11 am to 8:30 pm, and Sunday 11 am to 3 pm, with an expanded buffet."
+        },
+        {
+          "q": "Are drinks included in the buffet?",
+          "a": "Not with the adult buffet. The child’s buffet includes a drink and dessert."
+        },
+        {
+          "q": "Can you cater a big event?",
+          "a": "Yes: pick-up, delivery or fully staffed, for up to 2,000 guests."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a party?",
+      "text": "Book a private room or catering for your next gathering.",
+      "cta": {
+        "label": "Call (803) 593-5900",
+        "href": "tel:+18035935900"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Jefferson Davis Highway*",
+    "formTitle": "Book a party or catering",
+    "formTopics": [
+      "A table reservation",
+      "A private party",
+      "Catering",
+      "A question about the menu",
+      "Something else"
+    ]
+  },
+  "slug": "bobbys-bar-b-q-buffet",
+  "added": "2026-11-19",
+  "prospect": "bobbys-bar-b-q-buffet",
+  "source": {
+    "url": "https://bobbysbbq.com/",
+    "before": [
+      "On a phone, the first screen shows no phone number or call button",
+      "The site drops the apostrophe in its own name: “Bobbys Bar-B-Q Buffet” in the page title and text",
+      "The home page says “more than forty years”; the catering page says “over 30 years”",
+      "A 6.8 MB home page with a background video takes about 10 seconds to show its main content on a phone (Google Lighthouse speed score: 54 out of 100)"
+    ],
+    "after": [
+      "The menu and prices on the first screens, quick to load on a phone",
+      "The family story, all forty years of it, told once and consistently",
+      "Party rooms and catering explained side by side",
+      "One tap to call and book"
+    ]
+  },
+  "style": {
+    "services": "list",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

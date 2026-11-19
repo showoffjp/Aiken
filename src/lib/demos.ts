@@ -10,7 +10,7 @@ export type Cta = { label: string; href: string };
 export type Section =
   | { type: 'services'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; columns?: 2 | 3 | 4; style?: 'cards' | 'list'; items: { icon?: string; title: string; text?: string }[] }
   | { type: 'story'; id?: string; nav?: string; eyebrow?: string; title: string; body: string[]; image?: Img; list?: string[]; quote?: { text: string; by?: string }; flip?: boolean }
-  | { type: 'menu'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; footnote?: string; groups: { title: string; note?: string; items: { name: string; desc?: string; price?: string }[] }[] }
+  | { type: 'menu'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; footnote?: string; printLabel?: string; groups: { title: string; note?: string; items: { name: string; desc?: string; price?: string }[] }[] }
   | { type: 'gallery'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; images: Img[] }
   | { type: 'steps'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; items: { title: string; text: string }[] }
   | { type: 'quotes'; id?: string; nav?: string; eyebrow?: string; title: string; items: { text: string; by?: string }[] }

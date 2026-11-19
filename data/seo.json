@@ -5547,7 +5547,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -13706,7 +13706,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -16142,7 +16142,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -17751,7 +17751,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -17901,7 +17901,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -18191,7 +18191,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -18471,7 +18471,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -22774,8 +22774,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
-    "pageMB": 2.8,
+    "performance": 59,
+    "pageMB": 3.1,
     "a11ySerious": 29,
     "facebook": true,
     "instagram": false,
@@ -28944,7 +28944,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 54,
     "pageMB": 6.5,
     "a11ySerious": 0,
     "facebook": true,
@@ -30230,6 +30230,972 @@
     "facebook": false,
     "instagram": false,
     "domainYears": 15
+   }
+  ]
+ },
+ "bobbys-bar-b-q-buffet": {
+  "slug": "bobbys-bar-b-q-buffet",
+  "name": "Bobby’s Bar-B-Q Buffet",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "bobbysbbq.com",
+   "https": true,
+   "pagesCrawled": 13,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://bobbysbbq.com/",
+    "title": "Bobbys Bar-B-Q Buffet - Restaurant in Warrenville, SC",
+    "description": "Visit Bobby’s Bar-B-Q Buffet, a Southern BBQ restaurant in Warrenville, SC, serving hickory-smoked barbecue, ribs, chicken and classic sides.",
+    "canonical": "https://bobbysbbq.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Bobbys Bar-B-Q Buffet  - Restaurant in Warrenville",
+     "description": "Visit Bobby’s Bar-B-Q Buffet, a Southern BBQ restaurant in Warrenville, SC, serving hickory-smoked barbecue, ribs, chicken and classic sides.",
+     "image": "https://static.spotapps.co/website_images/ab_websites/660437_website_v1/social_share.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Bobby's Bar-B-Q Buffet, Restaurant in Warrenville"
+    ],
+    "h1Count": 1,
+    "h2": 18,
+    "h3": 9,
+    "words": 747,
+    "images": 31,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "Restaurant",
+     "PostalAddress",
+     "OpeningHoursSpecification",
+     "Menu",
+     "MenuSection",
+     "Offer"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://bobbysbbq.com/sitemap.xml",
+    "pages": 9
+   },
+   "crawl": {
+    "pages": 13,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 10,
+    "noindex": 0,
+    "dupTitles": 4,
+    "dupDescs": 4,
+    "imagesNoAlt": 1,
+    "images": 88,
+    "sample": [
+     {
+      "url": "https://bobbysbbq.com/",
+      "title": "Bobbys Bar-B-Q Buffet - Restaurant in Warrenville, SC",
+      "description": 141,
+      "h1": 1,
+      "words": 747
+     },
+     {
+      "url": "https://bobbysbbq.com/party",
+      "title": "Group Events & Parties at Bobby’s Bar-B-Q | Warrenville, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 205
+     },
+     {
+      "url": "https://bobbysbbq.com/catering",
+      "title": "BBQ Catering in Warrenville, SC | Bobby’s",
+      "description": 142,
+      "h1": 1,
+      "words": 246
+     },
+     {
+      "url": "https://bobbysbbq.com/reservations",
+      "title": "Book a table | Bobbys Bar-B-Q Buffet, Warrenville, SC",
+      "description": 148,
+      "h1": 1,
+      "words": 144
+     },
+     {
+      "url": "https://bobbysbbq.com/party",
+      "title": "Group Events & Parties at Bobby’s Bar-B-Q | Warrenville, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 205
+     },
+     {
+      "url": "https://bobbysbbq.com/food-menu",
+      "title": "Bobby’s Bar-B-Q Menu | Southern Favorites in Warrenville, SC",
+      "description": 149,
+      "h1": 1,
+      "words": 560
+     },
+     {
+      "url": "https://bobbysbbq.com/drink-menu",
+      "title": "Drink Menu | Bobby’s Bar-B-Q in Warrenville, SC",
+      "description": 133,
+      "h1": 1,
+      "words": 92
+     },
+     {
+      "url": "https://bobbysbbq.com/specials",
+      "title": "Specials at Bobby’s Bar-B-Q | Warrenville, SC",
+      "description": 135,
+      "h1": 1,
+      "words": 110
+     },
+     {
+      "url": "https://bobbysbbq.com/events",
+      "title": "Upcoming Events at Bobby’s Bar-B-Q | Warrenville, SC",
+      "description": 139,
+      "h1": 1,
+      "words": 4064
+     },
+     {
+      "url": "https://bobbysbbq.com/reservations",
+      "title": "Book a table | Bobbys Bar-B-Q Buffet, Warrenville, SC",
+      "description": 148,
+      "h1": 1,
+      "words": 144
+     },
+     {
+      "url": "https://bobbysbbq.com/party",
+      "title": "Group Events & Parties at Bobby’s Bar-B-Q | Warrenville, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 205
+     },
+     {
+      "url": "https://bobbysbbq.com/catering",
+      "title": "BBQ Catering in Warrenville, SC | Bobby’s",
+      "description": 142,
+      "h1": 1,
+      "words": 246
+     },
+     {
+      "url": "https://bobbysbbq.com/accessibility-page-01",
+      "title": "Accessibility Statement",
+      "description": 134,
+      "h1": 1,
+      "words": 245
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 22,
+    "broken": [
+     {
+      "url": "https://bobbysbbq.com/$%7Be.url%7D",
+      "status": 404,
+      "from": "https://bobbysbbq.com/"
+     },
+     {
+      "url": "https://bobbysbbq.com/call-us",
+      "status": 404,
+      "from": "https://bobbysbbq.com/"
+     }
+    ],
+    "brokenCount": 2
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/164934756874217",
+    "Instagram": "https://www.instagram.com/bobbysbbqsc"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Barbecue Buffet",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Warrenville",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": false,
+    "count": 7
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/bobbys_bar_b_q_buffet/",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "phone": "(803) 593-5900",
+    "website": "https://bobbysbbq.com/",
+    "address": "1897 Jefferson Davis Highway Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/164934756874217",
+    "Instagram": "https://www.instagram.com/bobbysbbqsc"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/164934756874217",
+    "Instagram": "https://www.instagram.com/bobbysbbqsc"
+   }
+  },
+  "domain": {
+   "name": "bobbysbbq.com",
+   "created": "2002-10-08",
+   "expires": "2027-10-08",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 24
+  },
+  "performance": {
+   "performance": 54,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 2660,
+   "lcp": 10185,
+   "tbt": 429,
+   "si": 7256,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2256,
+   "tbt": 1,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "blue-collard",
+   "southbound-aiken",
+   "feed-sack-aiken",
+   "dukes-bar-b-que",
+   "lankys-on-laurens"
+  ],
+  "scores": {
+   "seo": 87,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "southbound-aiken",
+    "name": "Southbound Aiken",
+    "website": "https://southboundsmokehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 42,
+    "pageMB": 5.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
+   },
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "dukes-bar-b-que",
+    "name": "Dukes Bar-B-Que",
+    "website": "https://www.dukesbbqaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.9,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 6
+   },
+   {
+    "slug": "lankys-on-laurens",
+    "name": "Lanky's On Laurens",
+    "website": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 7.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   }
+  ]
+ },
+ "highfields-event-center-is-home-of-aiken-music-f": {
+  "slug": "highfields-event-center",
+  "name": "Highfields Event Center",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "psjshows.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://psjshows.com/",
+    "title": "Progressive Show Jumping - Progressive Show Jumping | Horse Shows in the Carolinas",
+    "description": "Progressive Show Jumping Premier Hunter & Jumper Horse Shows in the Carolinas",
+    "canonical": "https://psjshows.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Progressive Show Jumping - Progressive Show Jumping | Horse Shows in the Carolinas",
+     "description": "Progressive Show Jumping Premier Hunter & Jumper Horse Shows in the Carolinas",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Progressive Show Jumping"
+    ],
+    "h1Count": 1,
+    "h2": 3,
+    "h3": 4,
+    "words": 1060,
+    "images": 61,
+    "imagesNoAlt": 15,
+    "schemaTypes": [
+     "WebSite",
+     "WebPage",
+     "Organization",
+     "Person",
+     "SearchAction",
+     "Event",
+     "Place",
+     "PostalAddress"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://psjshows.com/sitemap_index.xml",
+    "pages": 108
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 12,
+    "multipleH1": 0,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 15,
+    "images": 152,
+    "sample": [
+     {
+      "url": "https://psjshows.com/",
+      "title": "Progressive Show Jumping - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 77,
+      "h1": 1,
+      "words": 1060
+     },
+     {
+      "url": "https://psjshows.com/calendar/",
+      "title": "Calendar - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 157,
+      "h1": 0,
+      "words": 530
+     },
+     {
+      "url": "https://psjshows.com/highfield-event-center/",
+      "title": "Highfields Event Center - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 158,
+      "h1": 0,
+      "words": 632
+     },
+     {
+      "url": "https://psjshows.com/foothills-nature-equestrian-center/",
+      "title": "Foothills Nature Equestrian Center - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 157,
+      "h1": 0,
+      "words": 246
+     },
+     {
+      "url": "https://psjshows.com/tryon-international-equestrian-center/",
+      "title": "Tryon International, Mill Spring, NC - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 155,
+      "h1": 0,
+      "words": 383
+     },
+     {
+      "url": "https://psjshows.com/blowing-rock-equestrian-preserve/",
+      "title": "Blowing Rock Equestrian Preserve - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 155,
+      "h1": 0,
+      "words": 312
+     },
+     {
+      "url": "https://psjshows.com/south-carolina-equine-park/",
+      "title": "South Carolina Equine Park - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 159,
+      "h1": 0,
+      "words": 223
+     },
+     {
+      "url": "https://psjshows.com/points-standings/",
+      "title": "Points & Standings - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 158,
+      "h1": 1,
+      "words": 186
+     },
+     {
+      "url": "https://psjshows.com/medal-winners/",
+      "title": "Medal Winners - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 156,
+      "h1": 0,
+      "words": 354
+     },
+     {
+      "url": "https://psjshows.com/medal-history/",
+      "title": "Medal History - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 158,
+      "h1": 0,
+      "words": 1313
+     },
+     {
+      "url": "https://psjshows.com/trophy-room/",
+      "title": "Trophy Room - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 159,
+      "h1": 0,
+      "words": 3029
+     },
+     {
+      "url": "https://psjshows.com/memberships/",
+      "title": "Memberships - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 155,
+      "h1": 1,
+      "words": 169
+     },
+     {
+      "url": "https://psjshows.com/rules/",
+      "title": "Rules - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 158,
+      "h1": 0,
+      "words": 230
+     },
+     {
+      "url": "https://psjshows.com/be-a-sponsor/",
+      "title": "Be a Sponsor - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 155,
+      "h1": 0,
+      "words": 375
+     },
+     {
+      "url": "https://psjshows.com/sponsors/",
+      "title": "Sponsors - Progressive Show Jumping | Horse Shows in the Carolinas",
+      "description": 12,
+      "h1": 0,
+      "words": 137
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://www.psjshows.com/FormsApps/releaseform.pdf",
+      "status": 404,
+      "from": "https://psjshows.com/highfield-event-center"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/PSJSHOWS/",
+    "X (Twitter)": "https://x.com/psjshows",
+    "Instagram": "https://www.instagram.com/progressiveshowjumping/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Horse Shows",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=534&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=3a786f5706c77f59efafef3781052b8a",
+    "name": "Highfields Event Center is Home of: Aiken Music Fest",
+    "phone": "(803) 649-3505",
+    "website": "http://www.psjshows.com",
+    "address": "118 Gaston Road, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/highfields_event_center/",
+    "name": "Highfields Event Center",
+    "phone": "803-649-3505",
+    "website": "https://www.psjshows.com/highfields.html",
+    "address": "118 Gaston St Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/PSJSHOWS/",
+    "X (Twitter)": "https://x.com/psjshows",
+    "Instagram": "https://www.instagram.com/progressiveshowjumping/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/PSJSHOWS/",
+    "Instagram": "https://www.instagram.com/progressiveshowjumping/"
+   }
+  },
+  "domain": {
+   "name": "psjshows.com",
+   "created": "2001-04-11",
+   "expires": "2027-04-11",
+   "registrar": "The Registry at Info Avenue, LLC d/b/a Spirit Communications",
+   "years": 25
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 90,
+   "bestPractices": 93,
+   "seo": 100,
+   "fcp": 11907,
+   "lcp": 31835,
+   "tbt": 266,
+   "si": 11907,
+   "cls": 0.001,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2255,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 71,
+   "social": 65,
+   "lighthouseSeo": 100
+  },
+  "competitors": []
+ },
+ "pave-way-of-augusta-and-aiken": {
+  "slug": "pave-way-of-augusta-and-aiken",
+  "name": "Pave-Way of Augusta & Aiken",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "pavewayofaugusta.com",
+   "https": true,
+   "pagesCrawled": 5,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://pavewayofaugusta.com/",
+    "title": "Top Paving Companies in Augusta & Aiken | Commercial & Residential | Paveway",
+    "description": "Asphalt Paving, Grading, Road Construction, Site Clearing, Driveway Paving, and Sitework - Aiken, Augusta, Evans, Martinez, Grovetown and North Augusta - (706) 724-3342 or (803) 642-9242",
+    "canonical": "https://pavewayofaugusta.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Top Paving Companies in Augusta & Aiken | Commercial & Residential | Paveway",
+     "description": "Asphalt Paving, Grading, Road Construction, Site Clearing, Driveway Paving, and Sitework - Aiken, Augusta, Evans, Martinez, Grovetown and North Augusta - (706) 724-3342 or (803) 642-9242",
+     "image": "https://pavewayofaugusta.com",
+     "type": "website",
+     "imageStatus": 415,
+     "imageType": "text/html"
+    },
+    "twitterCard": "",
+    "h1": [
+     "THERE IS NO SUBSTITUTE FOR QUALITY",
+     "Paveway of Augusta, Aiken Inc. is a locally owned family run business.",
+     "We have offices in Augusta, Georgia and"
+    ],
+    "h1Count": 5,
+    "h2": 9,
+    "h3": 1,
+    "words": 172,
+    "images": 9,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://pavewayofaugusta.com/sitemap.xml",
+    "pages": 5
+   },
+   "crawl": {
+    "pages": 5,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 4,
+    "imagesNoAlt": 1,
+    "images": 15,
+    "sample": [
+     {
+      "url": "https://pavewayofaugusta.com/",
+      "title": "Top Paving Companies in Augusta & Aiken | Commercial & Residential | Paveway",
+      "description": 186,
+      "h1": 5,
+      "words": 172
+     },
+     {
+      "url": "https://pavewayofaugusta.com/about",
+      "title": "Commercial Asphalt Paving in Augusta & Aiken - Parking Lots, Subdivisions, and More | Paveway",
+      "description": 186,
+      "h1": 1,
+      "words": 277
+     },
+     {
+      "url": "https://pavewayofaugusta.com/services",
+      "title": "Expert Paving Services in Augusta & Aiken | Paveway",
+      "description": 186,
+      "h1": 1,
+      "words": 161
+     },
+     {
+      "url": "https://pavewayofaugusta.com/employment-opportunities",
+      "title": "Construction Jobs in Augusta, GA & Aiken, SC | Paveway",
+      "description": 186,
+      "h1": 1,
+      "words": 195
+     },
+     {
+      "url": "https://pavewayofaugusta.com/contact",
+      "title": "Contact Paveway of Augusta Aiken Inc",
+      "description": 186,
+      "h1": 1,
+      "words": 117
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 5,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Pave-Way-of-Augusta-104528656279857/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Paving",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=754&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=3af5db774ac1e4b7218f081e73acb7f3",
+    "name": "Pave-Way of Augusta & Aiken",
+    "phone": "(803) 642-6396",
+    "website": "http://www.pavewayofaugusta.com",
+    "address": "306 Silver Bluff Road, Aiken, SC 29803",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Pave-Way-of-Augusta-104528656279857/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/Pave-Way-of-Augusta-104528656279857/"
+   }
+  },
+  "domain": {
+   "name": "pavewayofaugusta.com",
+   "created": "2001-07-27",
+   "expires": "2027-07-27",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 25
+  },
+  "performance": {
+   "performance": 59,
+   "accessibility": 86,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 1576,
+   "lcp": 10476,
+   "tbt": 585,
+   "si": 2547,
+   "cls": 0.007,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 945,
+   "lcp": 1953,
+   "tbt": 174,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "apex-home-repair-corporation",
+   "aiken-housing-center",
+   "all-south-siding-window-and-roofing",
+   "all-safe-industrial-services-inc",
+   "b-and-k-grading-and-paving-llc"
+  ],
+  "scores": {
+   "seo": 70,
+   "social": 35,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   },
+   {
+    "slug": "aiken-housing-center",
+    "name": "Aiken Housing Center",
+    "website": "https://aikenhousingcenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 36,
+    "pageMB": 13.9,
+    "a11ySerious": 55,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "all-south-siding-window-and-roofing",
+    "name": "All South Siding, Window & Roofing",
+    "website": "https://augustabuilt.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.9,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "all-safe-industrial-services-inc",
+    "name": "All-Safe Industrial Services, Inc.",
+    "website": "https://allsafe1.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 67,
+    "pageMB": 6.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 23
+   },
+   {
+    "slug": "b-and-k-grading-and-paving-llc",
+    "name": "B&K Grading and Paving, LLC",
+    "website": "https://bkgradingandpaving.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 10.1,
+    "a11ySerious": 34,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
    }
   ]
  }

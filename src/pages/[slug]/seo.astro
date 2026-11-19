@@ -91,7 +91,7 @@ const me = s ? {
 let weightsAll: any = {}, a11yAll: any = {};
 try { weightsAll = JSON.parse(readFileSync(path.join(root, 'data', 'weights.json'), 'utf8')); a11yAll = JSON.parse(readFileSync(path.join(root, 'data', 'a11y.json'), 'utf8')); } catch {}
 if (s) {
-  (me as any).pageMB = weightsAll[key]?.site?.bytes ? +(weightsAll[key].site.bytes / 1048576).toFixed(1) : null;
+  (me as any).pageMB = weightsAll[key]?.site?.bytes ? +(weightsAll[key].site.bytes / 1e6).toFixed(1) : null;
   const ax = a11yAll[key]?.site; (me as any).a11ySerious = ax && !ax.error ? ax.critical + ax.serious : null;
 }
 const comps: any[] = seo?.competitors || [];
@@ -442,7 +442,7 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
                   <tr class={c.me ? 'me' : ''}>
                     <td><b>{c.name}</b>{c.me && <span class="sr-you">You</span>}<br /><small>{c.website ? hostOf(c.website) : c.state === 'none' ? 'no website' : 'site down'}</small></td>
                     <td class={c.performance == null ? '' : band(c.performance)}>{c.performance ?? '–'}</td>
-                    <td>{c.pageMB != null ? `${c.pageMB} MB` : '–'}</td>
+                    <td>{c.pageMB != null ? `${c.me ? c.pageMB : +(c.pageMB * 1.048576).toFixed(1)} MB` : '–'}</td>
                     <td>{c.a11ySerious ?? '–'}</td>
                     {[c.mobile, c.https, c.description, c.schema, c.og, c.facebook, c.instagram].map((v) => <td class={v === true ? 'good' : v === false ? 'poor' : ''}>{tick(v)}</td>)}
                   </tr>

@@ -739,11 +739,18 @@
  },
  "bobbys-bar-b-q-buffet": {
   "site": {
-   "bytes": 6842578,
+   "bytes": 6845836,
    "requests": 90,
-   "loadMs": 2101,
+   "loadMs": 2902,
    "url": "https://bobbysbbq.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 502260,
+   "requests": 8,
+   "loadMs": 203,
+   "url": "/bobbys-bar-b-q-buffet/",
+   "at": "2026-11-19"
   }
  },
  "bolster-bookkeeping-llc": {
@@ -1871,11 +1878,18 @@
  },
  "highfields-event-center-is-home-of-aiken-music-f": {
   "site": {
-   "bytes": 5967415,
+   "bytes": 5969997,
    "requests": 146,
-   "loadMs": 12333,
+   "loadMs": 5629,
    "url": "https://psjshows.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 463834,
+   "requests": 7,
+   "loadMs": 187,
+   "url": "/highfields-event-center/",
+   "at": "2026-11-19"
   }
  },
  "holley-heating-and-air-conditioning-inc": {
@@ -2777,11 +2791,18 @@
  },
  "pave-way-of-augusta-and-aiken": {
   "site": {
-   "bytes": 2946490,
+   "bytes": 3277814,
    "requests": 55,
-   "loadMs": 2402,
+   "loadMs": 2190,
    "url": "https://pavewayofaugusta.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 298598,
+   "requests": 5,
+   "loadMs": 171,
+   "url": "/pave-way-of-augusta-and-aiken/",
+   "at": "2026-11-19"
   }
  },
  "performanceabove-llc": {

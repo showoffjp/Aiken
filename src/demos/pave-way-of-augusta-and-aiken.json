@@ -1,0 +1,276 @@
+{
+  "name": "Pave-Way of Augusta & Aiken",
+  "short": "Pave-Way",
+  "category": "Paving & Site Work",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "established": "1978",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f3f1",
+    "surface": "#ffffff",
+    "ink": "#16181b",
+    "muted": "#50545a",
+    "primary": "#c4561b",
+    "onPrimary": "#ffffff",
+    "accent": "#f2c230",
+    "line": "#e2dfda"
+  },
+  "radius": 6,
+  "icon": "construction",
+  "contact": {
+    "phone": "(803) 642-9242",
+    "phoneLabel": "Aiken office",
+    "phone2": "(706) 724-3342",
+    "phone2Label": "Augusta office",
+    "email": "info@pavewayofaugusta.com",
+    "address": [
+      "306 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Pave-Way of Augusta & Aiken, 306 Silver Bluff Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 5:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/Pave-Way-of-Augusta-104528656279857/"
+  },
+  "hero": {
+    "eyebrow": "Paving and site work since 1978",
+    "title": "There is no substitute *for quality*",
+    "lede": "A locally owned, family-run paving and site work company with offices in Aiken and Augusta: driveways, parking lots, roads and subdivisions, bonded, licensed and insured in South Carolina and Georgia.",
+    "points": [
+      "Free, no-obligation quotes",
+      "Commercial & residential",
+      "SC & GA licensed"
+    ],
+    "cta": {
+      "label": "Get a free quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 642-9242",
+      "href": "tel:+18036429242"
+    }
+  },
+  "facts": [
+    {
+      "value": "1978",
+      "label": "Serving the CSRA since"
+    },
+    {
+      "value": "2 offices",
+      "label": "Aiken and Augusta"
+    },
+    {
+      "value": "SC & GA",
+      "label": "Bonded, licensed and insured"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Site work, start to finish",
+      "title": "From the first grade *to the last stripe*",
+      "items": [
+        {
+          "icon": "route",
+          "title": "Asphalt paving",
+          "text": "New asphalt for commercial and residential sites, laid to last."
+        },
+        {
+          "icon": "house",
+          "title": "Driveways",
+          "text": "Smooth, durable driveways for homes across Aiken and Augusta."
+        },
+        {
+          "icon": "square-parking",
+          "title": "Parking lots",
+          "text": "Paving, patching and layout for business and church lots."
+        },
+        {
+          "icon": "layers",
+          "title": "Sealing & patching",
+          "text": "Asphalt maintenance that adds years to the surface you have."
+        },
+        {
+          "icon": "traffic-cone",
+          "title": "Curb & gutter",
+          "text": "Concrete curb and gutter that keeps water where it belongs."
+        },
+        {
+          "icon": "signpost",
+          "title": "Road construction",
+          "text": "Road building and subdivision work, from base to finish."
+        },
+        {
+          "icon": "shovel",
+          "title": "Site grading",
+          "text": "Clearing and grading to get a site ready to build."
+        },
+        {
+          "icon": "ruler",
+          "title": "Surveying",
+          "text": "Survey work to plan the job right from the start."
+        },
+        {
+          "icon": "hard-hat",
+          "title": "Commercial work",
+          "text": "Full site work construction for commercial projects."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "A family business",
+      "title": "A family business *since 1978*",
+      "body": [
+        "Carl Bryan began his paving career at 22, working for the state of South Carolina, then spent eight years at W. C. Wall Construction before partnering with Jan H. Bryan to form Aiken Asphalt Paving.",
+        "Aiken Asphalt Paving became Pave-Way of Augusta, Aiken Inc. in 1978. Today Tripp Bryan is general manager, running the daily operations with the same commitment to quality on every job."
+      ],
+      "list": [
+        "Locally owned and family run",
+        "Offices in Aiken and Augusta",
+        "Bonded, licensed and insured in South Carolina and Georgia"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "quote",
+      "nav": "Free quote",
+      "eyebrow": "No obligation",
+      "title": "Your quote *in three steps*",
+      "items": [
+        {
+          "title": "Call either office",
+          "text": "Aiken at (803) 642-9242 or Augusta at (706) 724-3342, or send the form below."
+        },
+        {
+          "title": "Tell us about the job",
+          "text": "A driveway, a parking lot, a road or a whole subdivision."
+        },
+        {
+          "title": "Get your free quote",
+          "text": "With no obligation, for commercial and residential work alike."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "offices",
+      "nav": "Offices",
+      "eyebrow": "Two offices",
+      "title": "Close to *every job*",
+      "columns": [
+        {
+          "title": "Aiken, South Carolina",
+          "items": [
+            "306 Silver Bluff Road",
+            "Aiken, SC 29803",
+            "(803) 642-9242"
+          ]
+        },
+        {
+          "title": "Augusta, Georgia",
+          "items": [
+            "1353 Gordon Highway",
+            "Augusta, GA 30901",
+            "(706) 724-3342"
+          ]
+        },
+        {
+          "title": "Hours",
+          "items": [
+            "Monday to Friday",
+            "9 am to 5 pm",
+            "info@pavewayofaugusta.com"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you pave residential driveways?",
+          "a": "Yes. We handle residential and commercial work, from a single driveway to a subdivision."
+        },
+        {
+          "q": "Are you licensed and insured?",
+          "a": "Yes. We’re bonded, licensed and insured in South Carolina and Georgia for all types of site work construction."
+        },
+        {
+          "q": "Is a quote free?",
+          "a": "Yes, and there’s no obligation. Call either office or send the form."
+        },
+        {
+          "q": "Are you hiring?",
+          "a": "We’re accepting applications for a site work construction superintendent or foreman. Call for details."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to pave?",
+      "text": "Call for a free, no-obligation quote.",
+      "cta": {
+        "label": "Call (803) 642-9242",
+        "href": "tel:+18036429242"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Silver Bluff Road*",
+    "formTitle": "Request a free quote",
+    "formTopics": [
+      "A driveway",
+      "A parking lot",
+      "Sealing or patching",
+      "Site work or grading",
+      "Something else"
+    ]
+  },
+  "slug": "pave-way-of-augusta-and-aiken",
+  "added": "2026-11-19",
+  "prospect": "pave-way-of-augusta-and-aiken",
+  "source": {
+    "url": "https://pavewayofaugusta.com/",
+    "before": [
+      "The site says it has served the CSRA “for over 41 years”; since 1978, it’s been 48",
+      "Services are listed as headings, with no description of any of them",
+      "29 accessibility problems, 21 of them text too faint to read",
+      "On a phone the main content takes about 10 seconds to appear (Google Lighthouse speed score: 59 out of 100)"
+    ],
+    "after": [
+      "Every service with a plain description, not just a heading",
+      "Both offices, phone numbers and hours in one place",
+      "The family story up front",
+      "One tap to call for a free quote"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

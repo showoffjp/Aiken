@@ -129,7 +129,7 @@ if (cine) deepIdx = -1;
           ))}
         </div>
         {s.footnote && <p class="footnote">{s.footnote}</p>}
-        {printable && <p class="menu-print"><button class="chip" type="button" data-print-menu><Icon name="printer" size={17} stroke={2.1} />{food ? 'Print the menu' : 'Print these prices'}</button></p>}
+        {printable && <p class="menu-print"><button class="chip" type="button" data-print-menu><Icon name="printer" size={17} stroke={2.1} />{s.printLabel || (food ? 'Print the menu' : 'Print these prices')}</button></p>}
       </div>
     </section>
     );
