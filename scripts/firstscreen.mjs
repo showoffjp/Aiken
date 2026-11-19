@@ -92,7 +92,9 @@ function firstScreen(phone) {
 // sideways scrolling, the share of visible text under 12px (the old Lighthouse
 // legibility line) and links/buttons smaller than 24px (WCAG 2.2 target size;
 // links inside a sentence don't count).
-function readable() {
+async function readable() {
+  const pause = () => new Promise((r) => setTimeout(r, 1200));
+  await pause();
   const W = innerWidth;
   // A page with no mobile viewport is laid out ~980px wide and shrunk to fit
   // the phone, so its text and buttons look smaller than their CSS sizes.
@@ -100,13 +102,17 @@ function readable() {
   const doc = document.documentElement;
   // Wider than the screen, and a visitor can actually drag it sideways (a page
   // whose overflow is clipped doesn't count).
-  let overflow = false;
-  if (Math.max(doc.scrollWidth, document.body?.scrollWidth || 0) > W + 4) {
+  // Checked twice, a moment apart, so a slideshow caught mid-slide doesn't count.
+  const sideways = () => {
+    if (Math.max(doc.scrollWidth, document.body?.scrollWidth || 0) <= W + 4) return false;
     const y = scrollY;
     scrollTo(60, y);
-    overflow = scrollX > 4;
+    const moved = scrollX > 4;
     scrollTo(0, y);
-  }
+    return moved;
+  };
+  let overflow = sideways();
+  if (overflow) { await pause(); overflow = sideways(); }
   const visible = (el) => {
     for (let e = el; e && e !== document.body; e = e.parentElement) {
       const cs = getComputedStyle(e);

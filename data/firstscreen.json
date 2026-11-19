@@ -3,6 +3,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -10,6 +14,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -17,6 +25,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -33,6 +45,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -40,6 +56,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -56,6 +76,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -72,6 +96,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 36,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -79,6 +107,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 32,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -86,19 +118,19 @@
    "number": true,
    "overflow": false,
    "tinyText": 0,
-   "targets": 42,
-   "smallTargets": 17,
+   "targets": 43,
+   "smallTargets": 18,
    "at": "2026-11-19"
   }
  },
  "allstar-tents-and-events": {
   "site": {
    "call": false,
-   "number": false,
+   "number": true,
    "overflow": false,
    "tinyText": 0,
-   "targets": 0,
-   "smallTargets": 0,
+   "targets": 13,
+   "smallTargets": 2,
    "at": "2026-11-19"
   },
   "concept": {
@@ -107,7 +139,7 @@
    "overflow": false,
    "tinyText": 0,
    "targets": 29,
-   "smallTargets": 1,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -115,6 +147,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -122,6 +158,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 24,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -129,8 +169,8 @@
    "number": false,
    "overflow": false,
    "tinyText": 0,
-   "targets": 1,
-   "smallTargets": 1,
+   "targets": 0,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -147,6 +187,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 32,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -154,6 +198,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -161,18 +209,10 @@
   "concept": {
    "call": true,
    "number": true,
-   "at": "2026-11-19"
-  },
-  "site": {
-   "call": false,
-   "number": false,
-   "at": "2026-11-19"
-  }
- },
- "augusta-ready-mix-inc": {
-  "concept": {
-   "call": true,
-   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 39,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -180,6 +220,26 @@
    "number": false,
    "overflow": false,
    "tinyText": 0,
+   "targets": 14,
+   "smallTargets": 3,
+   "at": "2026-11-19"
+  }
+ },
+ "augusta-ready-mix-inc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 24,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 100,
    "targets": 15,
    "smallTargets": 15,
    "at": "2026-11-19"
@@ -189,6 +249,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -205,6 +269,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 32,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -221,13 +289,17 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 39,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 12,
+   "tinyText": 100,
    "targets": 18,
    "smallTargets": 1,
    "at": "2026-11-19"
@@ -237,6 +309,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -244,6 +320,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -260,6 +340,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 19,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -267,6 +351,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 25,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -283,15 +371,19 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 36,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 4,
+   "tinyText": 98,
    "targets": 36,
-   "smallTargets": 10,
+   "smallTargets": 22,
    "at": "2026-11-19"
   }
  },
@@ -299,6 +391,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -306,6 +402,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -313,6 +413,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -320,6 +424,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 24,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -327,12 +435,16 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 40,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": true,
    "number": true,
-   "overflow": true,
+   "overflow": false,
    "tinyText": 1,
    "targets": 43,
    "smallTargets": 4,
@@ -343,6 +455,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 39,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -359,6 +475,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -366,6 +486,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -373,6 +497,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 28,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -389,13 +517,17 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 25,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": true,
    "overflow": false,
-   "tinyText": 6,
+   "tinyText": 99,
    "targets": 2,
    "smallTargets": 2,
    "at": "2026-11-19"
@@ -405,6 +537,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -412,6 +548,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 32,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -428,6 +568,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 15,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -435,6 +579,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 20,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -442,6 +590,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -461,7 +613,7 @@
    "overflow": false,
    "tinyText": 0,
    "targets": 40,
-   "smallTargets": 1,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -469,6 +621,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -485,6 +641,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 31,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -492,8 +652,8 @@
    "number": true,
    "overflow": false,
    "tinyText": 0,
-   "targets": 8,
-   "smallTargets": 0,
+   "targets": 52,
+   "smallTargets": 20,
    "at": "2026-11-19"
   }
  },
@@ -501,15 +661,19 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 0,
+   "tinyText": 21,
    "targets": 21,
-   "smallTargets": 0,
+   "smallTargets": 9,
    "at": "2026-11-19"
   }
  },
@@ -517,6 +681,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -533,12 +701,16 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 40,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
-   "overflow": true,
+   "overflow": false,
    "tinyText": 0,
    "targets": 106,
    "smallTargets": 42,
@@ -549,6 +721,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -556,8 +732,8 @@
    "number": false,
    "overflow": false,
    "tinyText": 0,
-   "targets": 0,
-   "smallTargets": 0,
+   "targets": 17,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -565,6 +741,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 27,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -581,6 +761,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 36,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -597,6 +781,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -604,6 +792,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 31,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -620,6 +812,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 33,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -636,6 +832,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -643,6 +843,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -650,6 +854,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -657,6 +865,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -664,6 +876,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -680,6 +896,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -687,6 +907,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -694,6 +918,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -701,6 +929,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -708,6 +940,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 24,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -724,6 +960,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 19,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -731,6 +971,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -738,15 +982,19 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 0,
+   "tinyText": 100,
    "targets": 6,
-   "smallTargets": 6,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -754,15 +1002,19 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 25,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 0,
+   "tinyText": 100,
    "targets": 20,
-   "smallTargets": 2,
+   "smallTargets": 20,
    "at": "2026-11-19"
   }
  },
@@ -770,6 +1022,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -786,6 +1042,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 24,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -802,6 +1062,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -809,6 +1073,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 28,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -825,6 +1093,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -832,6 +1104,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 19,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -839,6 +1115,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -846,6 +1126,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 31,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -862,6 +1146,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 37,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -878,6 +1166,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 24,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -894,6 +1186,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -901,6 +1197,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -917,6 +1217,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -924,6 +1228,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -931,6 +1239,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -947,6 +1259,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 32,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -963,6 +1279,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -970,6 +1290,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -995,6 +1319,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 41,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1002,6 +1330,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1009,6 +1341,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1025,7 +1361,7 @@
   "site": {
    "call": false,
    "number": false,
-   "overflow": true,
+   "overflow": false,
    "tinyText": 14,
    "targets": 27,
    "smallTargets": 10,
@@ -1034,6 +1370,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 41,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1041,6 +1381,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 35,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1057,6 +1401,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1064,6 +1412,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 25,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1080,6 +1432,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1087,15 +1443,19 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 23,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
    "call": false,
    "number": false,
    "overflow": false,
-   "tinyText": 28,
-   "targets": 12,
-   "smallTargets": 6,
+   "tinyText": 30,
+   "targets": 16,
+   "smallTargets": 10,
    "at": "2026-11-19"
   }
  },
@@ -1103,6 +1463,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 18,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1110,6 +1474,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1117,6 +1485,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 35,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1141,11 +1513,11 @@
   },
   "concept": {
    "call": true,
-   "number": true,
+   "number": false,
    "overflow": false,
    "tinyText": 0,
    "targets": 30,
-   "smallTargets": 1,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1153,6 +1525,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1160,6 +1536,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1176,6 +1556,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 37,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1192,6 +1576,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1211,7 +1599,7 @@
    "overflow": false,
    "tinyText": 0,
    "targets": 39,
-   "smallTargets": 2,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1219,6 +1607,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 38,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "site": {
@@ -1235,6 +1627,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1242,6 +1638,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 17,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1249,6 +1649,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 16,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1256,6 +1660,10 @@
   "concept": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -1263,6 +1671,10 @@
   "concept": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 22,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  }

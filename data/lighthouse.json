@@ -3499,6 +3499,18 @@
    "si": 6884,
    "cls": 0,
    "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1208,
+   "lcp": 1808,
+   "tbt": 151,
+   "si": 1208,
+   "cls": 0.005,
+   "at": "2026-11-19"
   }
  },
  "gaston-livery-stable": {
@@ -3512,6 +3524,18 @@
    "tbt": 355,
    "si": 3942,
    "cls": 0.662,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1214,
+   "lcp": 2264,
+   "tbt": 77,
+   "si": 1214,
+   "cls": 0,
    "at": "2026-11-19"
   }
  },
@@ -3527,6 +3551,18 @@
    "si": 4095,
    "cls": 0,
    "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 990,
+   "lcp": 1878,
+   "tbt": 57,
+   "si": 990,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "wayne-heath-automotive-company": {
@@ -3540,6 +3576,18 @@
    "tbt": 315,
    "si": 2592,
    "cls": 0.356,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 946,
+   "lcp": 2180,
+   "tbt": 103,
+   "si": 946,
+   "cls": 0,
    "at": "2026-11-19"
   }
  }
