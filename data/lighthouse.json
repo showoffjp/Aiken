@@ -1641,6 +1641,18 @@
    "si": 6545,
    "cls": 0.04,
    "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 2031,
+   "tbt": 0,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "beanie-bens": {
@@ -3809,6 +3821,18 @@
    "si": 5548,
    "cls": 0,
    "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1086,
+   "lcp": 1882,
+   "tbt": 13,
+   "si": 1086,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "veterinary-healthcare-associates-inc": {
@@ -3821,6 +3845,18 @@
    "lcp": 11840,
    "tbt": 362,
    "si": 7003,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 944,
+   "lcp": 1729,
+   "tbt": 104,
+   "si": 944,
    "cls": 0,
    "at": "2026-11-19"
   }
