@@ -3390,5 +3390,205 @@
  "/demo-assets/superior-office-systems/toner-960.webp": [
   960,
   640
+ ],
+ "/demo-assets/janson-construction/green-house.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/janson-construction/brick-ranch.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/janson-construction/pool-house.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/janson-construction/kitchen.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/janson-construction/deck.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/janson-construction/siding.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/janson-construction/blue-house.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/janson-construction/metal-roof.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/janson-construction/aerial-roof.webp": [
+  1400,
+  788
+ ],
+ "/demo-assets/janson-construction/kitchen-before-after.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/langley-tavern/storefront.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/langley-tavern/lounge.webp": [
+  1600,
+  1072
+ ],
+ "/demo-assets/langley-tavern/draft-beer.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/langley-tavern/behind-the-bar.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/langley-tavern/cocktails.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/langley-tavern/pool-table.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/langley-tavern/lounge-art.webp": [
+  1400,
+  843
+ ],
+ "/demo-assets/langley-tavern/simulator.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/janson-construction/aerial-roof-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/janson-construction/aerial-roof-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/janson-construction/blue-house-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/blue-house-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/brick-ranch-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/brick-ranch-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/deck-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/deck-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/green-house-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/green-house-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/kitchen-before-after-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/janson-construction/kitchen-before-after-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/janson-construction/kitchen-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/kitchen-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/metal-roof-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/metal-roof-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/pool-house-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/janson-construction/pool-house-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/janson-construction/siding-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/langley-tavern/behind-the-bar-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/langley-tavern/cocktails-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/langley-tavern/draft-beer-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/langley-tavern/lounge-art-640.webp": [
+  640,
+  385
+ ],
+ "/demo-assets/langley-tavern/lounge-art-960.webp": [
+  960,
+  578
+ ],
+ "/demo-assets/langley-tavern/lounge-640.webp": [
+  640,
+  429
+ ],
+ "/demo-assets/langley-tavern/lounge-960.webp": [
+  960,
+  643
+ ],
+ "/demo-assets/langley-tavern/pool-table-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/langley-tavern/pool-table-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/langley-tavern/simulator-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/langley-tavern/simulator-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/langley-tavern/storefront-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/langley-tavern/storefront-960.webp": [
+  960,
+  640
  ]
 }

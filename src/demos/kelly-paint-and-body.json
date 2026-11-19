@@ -1,0 +1,273 @@
+{
+  "name": "Kelly Paint & Body",
+  "short": "Kelly Paint & Body",
+  "category": "Collision Repair",
+  "group": "Auto & Equipment",
+  "town": "Aiken, SC",
+  "established": "2006",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f3f5f9",
+    "surface": "#ffffff",
+    "ink": "#111827",
+    "muted": "#4b5563",
+    "primary": "#1f3f8a",
+    "onPrimary": "#ffffff",
+    "accent": "#e3a923",
+    "line": "#dde3ee"
+  },
+  "radius": 10,
+  "icon": "car",
+  "contact": {
+    "phone": "(803) 649-7474",
+    "email": "cassy@kellypaintandbody.net",
+    "address": [
+      "866 York Street NE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Kelly Paint & Body, 866 York St NE, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "8:00 am – 5:30 pm"
+      ],
+      [
+        "Friday",
+        "8:00 am – 4:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/kellypaintandbody/"
+  },
+  "hero": {
+    "eyebrow": "Family owned collision repair in Aiken",
+    "title": "Like it *never happened*",
+    "lede": "Certified collision repair and factory-matched paint on York Street. We work with your insurance company, set up your rental, and stand behind our work for as long as you own the car.",
+    "points": [
+      "Free estimates",
+      "Insurance handled",
+      "Lifetime warranty"
+    ],
+    "cta": {
+      "label": "Get a free estimate",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 649-7474",
+      "href": "tel:+18036497474"
+    }
+  },
+  "facts": [
+    {
+      "value": "2006",
+      "label": "Family owned since"
+    },
+    {
+      "value": "35+ years",
+      "label": "Ross Smith’s collision experience"
+    },
+    {
+      "value": "Lifetime",
+      "label": "Warranty on our workmanship"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "After an accident",
+      "title": "Everything *the repair takes*",
+      "items": [
+        {
+          "icon": "car",
+          "title": "Collision repair",
+          "text": "Major or minor damage, assessed carefully, including the damage you can’t see after a “small” accident."
+        },
+        {
+          "icon": "spray-can",
+          "title": "Paint matching",
+          "text": "Our painter matches your car’s exact color in the paint department, so the repair disappears."
+        },
+        {
+          "icon": "file-check",
+          "title": "Insurance claims",
+          "text": "Direct Repair for State Farm and Nationwide, and part of Progressive’s Guaranteed Repair program."
+        },
+        {
+          "icon": "key-round",
+          "title": "Rental cars",
+          "text": "We reserve your rental before drop-off, and Enterprise can pick you up right here at the shop."
+        },
+        {
+          "icon": "truck",
+          "title": "Towing after hours",
+          "text": "Call Keith’s Towing at (803) 663-3793. They can bring your car inside our gate even when we’re closed."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Free estimates",
+          "text": "Book a time, use our online damage assessment, or call to talk with a repair specialist."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "How it works",
+      "eyebrow": "From accident to driveway",
+      "title": "Repairs *without the stress*",
+      "items": [
+        {
+          "title": "Free estimate",
+          "text": "We go over your vehicle with you, answer your questions, and write up the repair."
+        },
+        {
+          "title": "Insurance and parts",
+          "text": "We work directly with your insurer and preorder parts once you confirm your appointment."
+        },
+        {
+          "title": "A rental waiting",
+          "text": "Your rental reservation is ready for drop-off day, and a ride home is available on request."
+        },
+        {
+          "title": "We call you",
+          "text": "Certified technicians finish the work, and we call as soon as your car is ready."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Family owned",
+      "title": "A family business *first*",
+      "body": [
+        "Ross and Donna Smith bought Kelly Paint and Body in November 2006. Ross brings more than 35 years of management experience in the collision industry, and over 20 years of direct repair work for insurance companies.",
+        "Our promise is to keep you informed from start to finish, to train our people in honesty and integrity, and to have qualified, certified technicians on every repair. The shop has earned AutocheX Premier Achiever awards for customer satisfaction in 2012 and 2015, and an Aiken’s Choice award in 2018."
+      ],
+      "list": [
+        "We donated a refurbished car to an Aiken veteran with State Farm through NABC Recycled Rides",
+        "We support Mothers Against Drunk Driving and the Special Olympics",
+        "Professional office staff to help with every claim"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "certified",
+      "nav": "Certified",
+      "eyebrow": "Trained to factory standards",
+      "title": "Certified *for your make*",
+      "columns": [
+        {
+          "title": "Training",
+          "items": [
+            "I-CAR Gold Class Trained Repair Professionals",
+            "Certified Assured Performance"
+          ]
+        },
+        {
+          "title": "Manufacturer programs",
+          "items": [
+            "FCA US (Mopar) Certified Collision Repair Center",
+            "Nissan and Infiniti Certified Collision Repair Network",
+            "Honda and Acura ProFirst Collision Repair Facility"
+          ]
+        },
+        {
+          "title": "Recognized by",
+          "items": [
+            "Hyundai Recognized Collision Repair Center",
+            "Kia Recognized Collision Repair Center",
+            "Ford Repair Capable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What warranty comes with the repair?",
+          "a": "A limited lifetime warranty on our labor for as long as you own the car and maintain the paint. Parts are covered by their manufacturer, and stripes and decals for 3 years."
+        },
+        {
+          "q": "Can you match my paint color?",
+          "a": "Yes. Our painter matches the color when your car goes to the paint department."
+        },
+        {
+          "q": "When do I pay my deductible?",
+          "a": "If you have one, you pay it to us when you pick up your car."
+        },
+        {
+          "q": "What forms of payment do you accept?",
+          "a": "MasterCard, Visa, Discover, insurance checks and cash."
+        },
+        {
+          "q": "When can I wash my car?",
+          "a": "Wait six weeks: until then, no automatic car washes, dish detergent or hard soaps."
+        },
+        {
+          "q": "Can I get a ride home when I drop off?",
+          "a": "Yes, on request."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Had an accident?",
+      "text": "Call for a free estimate, and we’ll take it from there.",
+      "cta": {
+        "label": "Call (803) 649-7474",
+        "href": "tel:+18036497474"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *York Street*",
+    "formTitle": "Request a free estimate",
+    "formTopics": [
+      "A free estimate",
+      "An insurance claim",
+      "A rental car",
+      "Paint work",
+      "Something else"
+    ]
+  },
+  "slug": "kelly-paint-and-body",
+  "added": "2026-11-19",
+  "prospect": "kelly-paint-and-body-inc",
+  "source": {
+    "url": "https://kellypaintandbody.net/",
+    "before": [
+      "On a phone the main content takes about 29 seconds to appear (Google Lighthouse speed score: 36 out of 100)",
+      "A third of the text on a phone is smaller than 12 pixels",
+      "19 accessibility problems, 9 of them critical, including 7 form fields with no label",
+      "Business hours appear only in the FAQ, as the answer to one question"
+    ],
+    "after": [
+      "What happens after an accident, step by step, on one page",
+      "Business hours where people look, with an “Open now” sign",
+      "Insurance, rentals and towing explained in plain words",
+      "One tap to call for a free estimate"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "shadow"
+  }
+}

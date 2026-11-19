@@ -2343,16 +2343,28 @@
  },
  "kelly-paint-and-body-inc": {
   "site": {
-   "performance": 31,
+   "performance": 36,
    "accessibility": 72,
    "bestPractices": 79,
    "seo": 100,
-   "fcp": 2494,
-   "lcp": 28878,
-   "tbt": 2041,
-   "si": 14587,
-   "cls": 0.097,
-   "at": "2026-11-17"
+   "fcp": 2340,
+   "lcp": 29087,
+   "tbt": 1243,
+   "si": 12870,
+   "cls": 0.098,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1653,
+   "tbt": 92,
+   "si": 948,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "knights-companies": {
@@ -3857,6 +3869,58 @@
    "lcp": 1729,
    "tbt": 104,
    "si": 944,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "janson-construction": {
+  "site": {
+   "performance": 39,
+   "accessibility": 86,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 12398,
+   "lcp": 23784,
+   "tbt": 641,
+   "si": 12398,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2706,
+   "tbt": 42,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "langley-tavern": {
+  "site": {
+   "performance": 62,
+   "accessibility": 94,
+   "bestPractices": 96,
+   "seo": 100,
+   "fcp": 2416,
+   "lcp": 30753,
+   "tbt": 79,
+   "si": 14833,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 2253,
+   "tbt": 87,
+   "si": 949,
    "cls": 0,
    "at": "2026-11-19"
   }

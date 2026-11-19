@@ -17,6 +17,7 @@ const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json')
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
+const filmstrip = JSON.parse(await readFile(path.join(ROOT, 'data', 'filmstrip.json'), 'utf8').catch(() => '{}'));
 const rankings = JSON.parse(await readFile(path.join(ROOT, 'data', 'rankings.json'), 'utf8').catch(() => '{}'));
 const firstScreen = JSON.parse(await readFile(path.join(ROOT, 'data', 'firstscreen.json'), 'utf8').catch(() => '{}'));
 // A phone visitor who sees no phone number at all before scrolling (no call link, no number).
@@ -39,6 +40,15 @@ function lhNote(key) {
   const s = lighthouse[key]?.site, c = lighthouse[key]?.concept;
   if (!s || s.error || !c || c.error || s.performance >= 50 || c.performance < 90) return '';
   return `Google's own Lighthouse test scores the home page ${s.performance} out of 100 for performance on a phone (the concept scores ${c.performance})`;
+}
+// What a phone shows while the page loads (scripts/filmstrip.mjs): worth a line
+// when today's page stays blank for 5 seconds or more and the concept is up in 2.
+function blankNote(key) {
+  const s = filmstrip[key]?.site, c = filmstrip[key]?.concept;
+  if (!s || s.error || !c || c.error || c.first == null || c.first > 2000) return '';
+  if (s.first == null) return `On a phone, the home page is still a blank screen ${s.frames.at(-1).t / 1000} seconds after it starts loading (the concept appears in under 2 seconds)`;
+  if (s.first < 5000) return '';
+  return `On a phone, the home page shows a blank screen for about ${Math.round(s.first / 1000)} seconds while it loads (the concept appears in under 2 seconds)`;
 }
 // Seconds to download a page on the 1.6 Mbps connection Lighthouse uses for phones.
 const slowSecs = (key, which = 'site') => { const b = weights[key]?.[which]?.bytes; return b ? (b * 8) / 1.6e6 : 0; };
@@ -88,7 +98,9 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);
   const callLine = broken || d.source.none ? '' : callNote(d.prospect || d.slug);
   const readLine = broken || d.source.none ? '' : readNote(d.prospect || d.slug);
-  const lead = [rankLine, callLine, readLine, lhLine].filter(Boolean);
+  const blankLine = broken || d.source.none ? '' : blankNote(d.prospect || d.slug);
+  // The blank-screen line says the speed problem more plainly than the score, so it replaces it.
+  const lead = [rankLine, callLine, blankLine, readLine, blankLine ? '' : lhLine].filter(Boolean);
   const findings = lead.length ? [...lead, d.source.before[0]].slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
   if (access) findings.push(access);

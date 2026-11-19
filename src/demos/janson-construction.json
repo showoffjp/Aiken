@@ -1,0 +1,343 @@
+{
+  "name": "Janson Construction",
+  "short": "Janson Construction",
+  "category": "Roofing & Construction",
+  "group": "Trades & Industry",
+  "town": "North Augusta, SC",
+  "established": "2005",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f7f5f3",
+    "surface": "#ffffff",
+    "ink": "#1a1a1d",
+    "muted": "#55555c",
+    "primary": "#a8131c",
+    "onPrimary": "#ffffff",
+    "accent": "#3a7ca5",
+    "line": "#e5e0dc"
+  },
+  "radius": 8,
+  "icon": "house",
+  "contact": {
+    "phone": "(803) 426-8365",
+    "email": "jansonconstruction@gmail.com",
+    "address": [
+      "10976 Atomic Road",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Janson Construction, 10976 Atomic Rd, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/jansoncompany"
+  },
+  "hero": {
+    "eyebrow": "Roofing & general contracting · SC and GA",
+    "title": "Quality structures, *lasting relationships*",
+    "lede": "Roofs, siding and windows, remodels, new homes and commercial renovations from a locally owned team in North Augusta, with help on the insurance claim from start to settlement.",
+    "points": [
+      "Lifetime shingle warranty",
+      "Insurance claim experts",
+      "Licensed, bonded, insured"
+    ],
+    "cta": {
+      "label": "See our work",
+      "href": "#projects"
+    },
+    "cta2": {
+      "label": "Call (803) 426-8365",
+      "href": "tel:+18034268365"
+    },
+    "image": {
+      "src": "/demo-assets/janson-construction/green-house.webp",
+      "alt": "A two-story green house with three dormers and a new shingle roof",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/janson-construction/green-house.webp"
+  },
+  "facts": [
+    {
+      "value": "30+ years",
+      "label": "Of craftsmanship in the CSRA"
+    },
+    {
+      "value": "88%",
+      "label": "Of our clients come back"
+    },
+    {
+      "value": "2005",
+      "label": "Janson founded"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "One team, start to finish",
+      "title": "From the roof *down*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Roofing",
+          "text": "Replacements and repairs, with shingles that carry a lifetime warranty."
+        },
+        {
+          "icon": "umbrella",
+          "title": "Insurance claims",
+          "text": "Storm or tornado damage? We help you navigate a large claim from start to settlement."
+        },
+        {
+          "icon": "brick-wall",
+          "title": "Siding",
+          "text": "Hundreds of siding installations and repairs, from a quick fix to the whole house."
+        },
+        {
+          "icon": "app-window",
+          "title": "Windows",
+          "text": "Replacement windows for curb appeal, energy savings and storm repairs."
+        },
+        {
+          "icon": "hammer",
+          "title": "Remodeling",
+          "text": "Kitchens, bathrooms and whole-home renovations designed around how you live."
+        },
+        {
+          "icon": "house-plus",
+          "title": "New builds",
+          "text": "Custom homes from blueprint to final walkthrough, with clear communication throughout."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "projects",
+      "nav": "Our work",
+      "eyebrow": "Recent projects",
+      "title": "Built *right here*",
+      "images": [
+        {
+          "src": "/demo-assets/janson-construction/brick-ranch.webp",
+          "alt": "A brick ranch house with a new gray shingle roof",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/janson-construction/pool-house.webp",
+          "alt": "A covered pool house with an outdoor kitchen beside a pool",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/janson-construction/kitchen.webp",
+          "alt": "A remodeled kitchen with gray cabinets and stone counters",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/janson-construction/metal-roof.webp",
+          "alt": "A cabin-style home with a new metal roof and wraparound porch",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/janson-construction/siding.webp",
+          "alt": "New sea-green siding on a brick home",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/janson-construction/blue-house.webp",
+          "alt": "A two-story blue house with a new roof among tall pines",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/janson-construction/deck.webp",
+          "alt": "A new two-level wooden deck behind a house",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/janson-construction/kitchen-before-after.webp",
+          "alt": "A kitchen before and after its remodel",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "advantage",
+      "nav": "Roof plan",
+      "eyebrow": "The Janson Advantage",
+      "title": "Worry-proof *your roof*",
+      "image": {
+        "src": "/demo-assets/janson-construction/aerial-roof.webp",
+        "alt": "An aerial view of a newly shingled roof",
+        "width": 1400,
+        "height": 788
+      },
+      "body": [
+        "A maintenance plan for $8.99 a month, a $350 value, that extends the life of your roof and keeps your gutters in top condition. One roof repair can cover the cost of a year’s membership.",
+        "Benefits apply while your membership is active. Emergency service isn’t available during active storms, and discounts don’t apply to insurance work."
+      ],
+      "list": [
+        "An annual roof inspection with a written report",
+        "An insurance expert on demand",
+        "15% off roof repairs, with a warranty on repairs",
+        "Priority emergency service and a discount on temporary tarping"
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our legacy & vision",
+      "title": "Locally owned, *not a franchise*",
+      "body": [
+        "Janson Construction began in 2005, when founders Red Harding and Jay Armstrong combined their experience and their passion for the construction industry. Their vision was a company of excellent quality, service and value.",
+        "Red passed away in 2016, and the vision carries on: Jay and the team still live by the Janson IDEAS, the five values behind every job."
+      ],
+      "list": [
+        "Integrity",
+        "Dedication",
+        "Excellence",
+        "Attitude",
+        "Safety"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "team",
+      "nav": "Team",
+      "eyebrow": "Who you’ll work with",
+      "title": "Meet *the team*",
+      "columns": [
+        {
+          "title": "Leadership & office",
+          "items": [
+            "Jay Armstrong, general contractor and CEO",
+            "Kam Reames, CFO",
+            "Andra Armstrong, office coordinator"
+          ]
+        },
+        {
+          "title": "Construction",
+          "items": [
+            "Nate Jones, construction manager",
+            "Will Smith, construction project manager",
+            "Lacie Jarozs, construction administrator"
+          ]
+        },
+        {
+          "title": "Roofing, siding & windows",
+          "items": [
+            "Wayne Burnett, roofing manager",
+            "Trey Armstrong, roofing project manager",
+            "Alexis Gentry, roofing administrative coordinator",
+            "Kolton Barnes, siding, windows and doors manager"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "What our clients say",
+      "title": "Honest, trustworthy *and hard-working*",
+      "items": [
+        {
+          "text": "They replaced our roof after a recent tornado hit and did an excellent job. Highly recommend.",
+          "by": "Sherry Parkman Smith"
+        },
+        {
+          "text": "These folks are honest, trustworthy, and HARD-WORKING. They’ve done roofing, construction, and general home maintenance for us through the years. I highly recommend Janson to everyone who asks.",
+          "by": "Jennifer Jackson Pruett"
+        },
+        {
+          "text": "They did an excellent job on my roof a few years back. Still no leaks. They did a great job on the clean up also.",
+          "by": "Ann Storey Cotton"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can you help with my insurance claim?",
+          "a": "Yes. Large insurance claims are a specialty, and we help from the first inspection to settlement."
+        },
+        {
+          "q": "Is financing available?",
+          "a": "Yes, through Wells Fargo. Ask us about it when we talk through your project."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Across the CSRA, as a general contractor licensed in South Carolina and Georgia."
+        },
+        {
+          "q": "What warranty comes with a new roof?",
+          "a": "Our shingles come with a lifetime warranty."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to start?",
+      "text": "Call to talk through your roof, remodel or new build.",
+      "cta": {
+        "label": "Call (803) 426-8365",
+        "href": "tel:+18034268365"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Atomic Road*",
+    "formTitle": "Start your project",
+    "formTopics": [
+      "A roof repair or replacement",
+      "Storm damage or an insurance claim",
+      "Siding or windows",
+      "A remodel",
+      "A new build"
+    ]
+  },
+  "slug": "janson-construction",
+  "added": "2026-11-19",
+  "prospect": "janson-construction",
+  "source": {
+    "url": "https://jansoncompany.com/",
+    "before": [
+      "The footer reads “Contour Homes 2026 – All Rights Reserved”, another company’s name",
+      "On a phone the screen stays blank for about 12 seconds, and the main content takes about 24 (Google Lighthouse speed score: 39 out of 100)",
+      "On a phone, the first screen shows no phone number or call button",
+      "The roof plan page offers “four levels” but shows only one"
+    ],
+    "after": [
+      "Every service and recent project on the first screens",
+      "The roof maintenance plan explained in a minute",
+      "Reviews and the team up front",
+      "One tap to call about your project"
+    ]
+  },
+  "style": {
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

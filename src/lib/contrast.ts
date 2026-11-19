@@ -84,7 +84,10 @@ export function accessible(c: { bg: string; surface: string; ink: string; primar
     '--on-primary': onPrimary,
     '--primary-text': primaryText,
     '--accent-on-primary': ensure(c.accent, c.primary, ratio('#ffffff', c.primary) > ratio('#000000', c.primary) ? '#ffffff' : '#000000'),
-    '--accent-on-photo': ensure(c.accent, '#0d0f13', '#ffffff'),
+    // On photos under the hero's dark scrim, which is often only a mid-dark
+    // grey: big headline words need 3:1, small eyebrow text 4.5:1.
+    '--accent-on-photo': ensure(c.accent, '#30333a', '#ffffff', 3),
+    '--accent-on-photo-sm': ensure(c.accent, '#30333a', '#ffffff'),
     '--on-accent': onAccent,
     '--accent-btn': accentBtn,
     '--on-primary-soft': ratio(onPrimary, c.primary) >= 8 ? `color-mix(in srgb, ${onPrimary} 84%, transparent)` : onPrimary,

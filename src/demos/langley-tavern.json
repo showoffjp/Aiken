@@ -1,0 +1,564 @@
+{
+  "name": "Langley Tavern",
+  "short": "Langley Tavern",
+  "category": "Tavern & Game Room",
+  "group": "Food & Drink",
+  "town": "Warrenville, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f5efe8",
+    "surface": "#fffaf5",
+    "ink": "#1c2633",
+    "muted": "#53606e",
+    "primary": "#2e4560",
+    "onPrimary": "#ffffff",
+    "accent": "#d98a2b",
+    "line": "#e6dacd"
+  },
+  "radius": 12,
+  "icon": "beer",
+  "contact": {
+    "phone": "(803) 392-7029",
+    "email": "michaeliezzi@bellsouth.net",
+    "address": [
+      "2549 Jefferson Davis Highway",
+      "Warrenville, SC 29851"
+    ],
+    "mapQuery": "Langley Tavern, 2549 Jefferson Davis Hwy, Warrenville, SC 29851",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "11:00 am – 10:00 pm"
+      ],
+      [
+        "Friday – Saturday",
+        "11:00 am – 11:00 pm"
+      ],
+      [
+        "Sunday",
+        "11:00 am – 3:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/langleytavern"
+  },
+  "hero": {
+    "eyebrow": "Food · Fun · Fellowship",
+    "title": "Your neighborhood *tavern*",
+    "lede": "Burgers, wings and tavern classics, cold drafts and handcrafted cocktails, a game room with pool tables and a sports simulator, and something happening every week in Langley.",
+    "points": [
+      "Happy hour weekdays 4–6",
+      "SimBay & pool tables",
+      "Trivia, bingo & live music"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 392-7029",
+      "href": "tel:+18033927029"
+    },
+    "image": {
+      "src": "/demo-assets/langley-tavern/storefront.webp",
+      "alt": "Langley Tavern’s blue storefront with its sign and patio tables",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/langley-tavern/storefront.webp"
+  },
+  "facts": [
+    {
+      "value": "Best new",
+      "label": "Voted Aiken’s best new restaurant"
+    },
+    {
+      "value": "4–6 pm",
+      "label": "Happy hour, Monday to Friday"
+    },
+    {
+      "value": "Till 10",
+      "label": "Late-night menu Friday and Saturday"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "From the kitchen",
+      "title": "Tavern *favorites*",
+      "intro": "Hand helds come with your choice of side, and gluten-free bread is available on request. The kitchen closes at 9 pm.",
+      "groups": [
+        {
+          "title": "Appetizers",
+          "items": [
+            {
+              "name": "Pretzel bites",
+              "desc": "Bavarian pretzel sticks with warm queso",
+              "price": "$8"
+            },
+            {
+              "name": "Mozzarella sticks",
+              "desc": "With marinara",
+              "price": "$9"
+            },
+            {
+              "name": "Fried pickles",
+              "desc": "Dill pickle chips, lightly battered, with ranch",
+              "price": "$10"
+            },
+            {
+              "name": "Trash can nachos",
+              "desc": "Chips layered with chili and cheese, lettuce and pico de gallo; add pulled pork or chicken for $3",
+              "price": "$18"
+            },
+            {
+              "name": "Jalapeño poppers",
+              "desc": "Filled with cream cheese, with ranch and Thai sweet chili sauce",
+              "price": "$8"
+            },
+            {
+              "name": "Deviled eggs",
+              "desc": "Topped with candied bacon",
+              "price": "$8"
+            },
+            {
+              "name": "Party platter",
+              "desc": "Pretzels, mozz sticks, chips and queso, wings and tenders",
+              "price": "$25"
+            }
+          ]
+        },
+        {
+          "title": "Winging it",
+          "note": "Classic bone-in wings, with celery and ranch or bleu cheese",
+          "items": [
+            {
+              "name": "Six wings",
+              "price": "$12"
+            },
+            {
+              "name": "Twelve wings",
+              "price": "$20"
+            },
+            {
+              "name": "Choose your toss",
+              "desc": "Honey BBQ, lemon pepper, Thai sweet chili, hot honey, Buffalo, teriyaki or Cajun"
+            }
+          ]
+        },
+        {
+          "title": "Soups, salads & spuds",
+          "items": [
+            {
+              "name": "Soup of the day or homemade chili",
+              "desc": "Cup $5 or bowl $7"
+            },
+            {
+              "name": "Apple pecan salad",
+              "desc": "Baby spinach, Granny Smith apples, glazed pecans, feta, balsamic vinaigrette",
+              "price": "$16"
+            },
+            {
+              "name": "Cobb salad",
+              "desc": "Tomato, bacon, egg, bleu cheese, red onion and avocado over greens",
+              "price": "$13"
+            },
+            {
+              "name": "Caesar salad",
+              "desc": "Add chicken for $5 or shrimp for $7",
+              "price": "$11"
+            },
+            {
+              "name": "Langley spud",
+              "desc": "A jumbo baked potato loaded with chili, cheese and sour cream",
+              "price": "$11"
+            }
+          ]
+        },
+        {
+          "title": "Hand helds",
+          "items": [
+            {
+              "name": "Build a burger",
+              "desc": "7 oz chuck on brioche with your choice of cheddar, Swiss, American or pimento cheese",
+              "price": "$16"
+            },
+            {
+              "name": "Fried bologna sandwich",
+              "desc": "Two thick-cut slices on toasted white bread",
+              "price": "$12"
+            },
+            {
+              "name": "Tavern club",
+              "desc": "Triple-decker ham, turkey and bacon with Swiss",
+              "price": "$17"
+            },
+            {
+              "name": "Philly cheesesteak",
+              "desc": "Shaved steak, mushrooms, onions and provolone",
+              "price": "$16"
+            },
+            {
+              "name": "Pulled pork sandwich",
+              "desc": "BBQ pulled pork and crispy onion straws",
+              "price": "$15"
+            },
+            {
+              "name": "Big fish sandy",
+              "desc": "Fried haddock on a hoagie roll",
+              "price": "$18"
+            },
+            {
+              "name": "Italian grinder",
+              "desc": "Ham, pepperoni, salami and provolone with balsamic aioli, hot or cold",
+              "price": "$17"
+            },
+            {
+              "name": "Classic chicken sandwich",
+              "desc": "Grilled or fried, on brioche",
+              "price": "$15"
+            },
+            {
+              "name": "Chicken fingers",
+              "desc": "Plain and crispy, or tossed in any sauce",
+              "price": "$15"
+            },
+            {
+              "name": "Chicken Caesar wrap",
+              "price": "$15"
+            }
+          ]
+        },
+        {
+          "title": "Entrées",
+          "items": [
+            {
+              "name": "Salmon dinner",
+              "desc": "Blackened or lemon pepper, with mashed potatoes and the vegetable of the day",
+              "price": "$25"
+            },
+            {
+              "name": "Fish and chips",
+              "desc": "Beer-battered haddock, tavern fries, coleslaw",
+              "price": "$21"
+            },
+            {
+              "name": "Chicken Alfredo pasta",
+              "desc": "Cavatappi with grilled chicken and a side salad",
+              "price": "$20"
+            },
+            {
+              "name": "Hamburger steak",
+              "desc": "Sautéed onions and gravy over mashed potatoes",
+              "price": "$19"
+            },
+            {
+              "name": "Meatloaf",
+              "desc": "Homemade, with mashed potatoes and the vegetable of the day",
+              "price": "$19"
+            },
+            {
+              "name": "Beef tips",
+              "desc": "Over mashed potatoes with mushroom gravy",
+              "price": "$18"
+            }
+          ]
+        },
+        {
+          "title": "Sides & desserts",
+          "note": "Sides $5: onion rings, mashed potatoes, fried okra, tavern fries, coleslaw, vegetable of the day, side salad",
+          "items": [
+            {
+              "name": "Wild blueberry lemon cake",
+              "price": "$9"
+            },
+            {
+              "name": "Tuxedo cake",
+              "price": "$12"
+            },
+            {
+              "name": "Apple empanada",
+              "desc": "Add a scoop of vanilla ice cream for $1",
+              "price": "$9"
+            }
+          ]
+        }
+      ],
+      "footnote": "Menu and prices as posted on the tavern’s current website; 18% gratuity is added for parties of six or more."
+    },
+    {
+      "type": "menu",
+      "id": "drinks",
+      "nav": "Drinks",
+      "eyebrow": "Behind the bar",
+      "title": "Cold drafts *and good company*",
+      "intro": "Happy hour runs Monday to Friday, 4 to 6 pm: $2 domestic bottles, $3 domestic drafts, and $1 off wine and well drinks.",
+      "groups": [
+        {
+          "title": "Cocktail specials",
+          "items": [
+            {
+              "name": "The Langley",
+              "desc": "Vodka, triple sec, cranberry, lime and a splash of strawberry",
+              "price": "$10"
+            },
+            {
+              "name": "Princess Peach",
+              "desc": "Crown Peach, pineapple, orange, Sprite and grenadine",
+              "price": "$9"
+            },
+            {
+              "name": "Peanut butter espresso martini",
+              "desc": "Peanut butter tequila, coffee liqueur and Baileys",
+              "price": "$11"
+            },
+            {
+              "name": "Tavern fashioned",
+              "desc": "Bulleit rye, bitters, orange peel and a Luxardo cherry",
+              "price": "$12"
+            }
+          ]
+        },
+        {
+          "title": "Draft beer",
+          "note": "Pitchers: domestic $18, import $20, IPA $22",
+          "items": [
+            {
+              "name": "Modelo or Miller Lite",
+              "price": "$4"
+            },
+            {
+              "name": "Michelob Ultra",
+              "price": "$5"
+            },
+            {
+              "name": "Blue Moon, rotating IPA or rotating porter",
+              "price": "$6"
+            }
+          ]
+        },
+        {
+          "title": "Mocktails",
+          "note": "All $6",
+          "items": [
+            {
+              "name": "Blue lagoon breeze",
+              "desc": "Pineapple, orange, lime, coconut and blue curaçao syrup"
+            },
+            {
+              "name": "Nojito",
+              "desc": "Mint, lime, simple syrup and soda"
+            },
+            {
+              "name": "Summer blush spritz",
+              "desc": "Lemonade, cranberry, strawberry and Sprite"
+            },
+            {
+              "name": "Pink cloud lemonade",
+              "desc": "Lemonade, strawberry syrup and cream"
+            }
+          ]
+        },
+        {
+          "title": "Wine & bottles",
+          "items": [
+            {
+              "name": "House wine",
+              "desc": "Pinot grigio, chardonnay, moscato, sauvignon blanc, pinot noir or cabernet",
+              "price": "$6"
+            },
+            {
+              "name": "Domestic bottles",
+              "desc": "Coors, Bud, Miller, Michelob Ultra, Yuengling and more",
+              "price": "$4"
+            },
+            {
+              "name": "Buckets",
+              "desc": "Domestic $20 or import $25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "game-room",
+      "nav": "Game room",
+      "columns": 2,
+      "eyebrow": "Casual, comfortable, always a good time",
+      "title": "The Langley *game room*",
+      "items": [
+        {
+          "icon": "target",
+          "title": "Multi-Sport SimBay",
+          "text": "Golf, soccer, hockey, baseball and more on an interactive simulator. Hourly rates with drink service at your bay; guests 12 and up, walk-ins welcome when it’s free."
+        },
+        {
+          "icon": "circle-dot",
+          "title": "Pool & games",
+          "text": "Two pool tables, pinball and claw machines: classic bar games in a modern room."
+        },
+        {
+          "icon": "tv",
+          "title": "Wall of TVs",
+          "text": "NFL, NBA, NCAA, Premier League and more, with game sound on for the big matchups."
+        },
+        {
+          "icon": "beer",
+          "title": "A bar right there",
+          "text": "The lounge bar serves cold beer, quick cocktails and game-day snacks without leaving your game."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Every week",
+      "eyebrow": "Something happening every week",
+      "title": "Your week *at Langley*",
+      "intro": "No reservations needed. Planning a birthday, team outing or party? Call to book the game room or a SimBay.",
+      "columns": [
+        {
+          "title": "Weeknights",
+          "items": [
+            "Happy hour, Monday to Friday, 4–6 pm",
+            "Trivia night, Tuesdays at 7 pm",
+            "Music bingo, Wednesdays at 7 pm"
+          ]
+        },
+        {
+          "title": "Saturday nights",
+          "items": [
+            "Live music, 8–11 pm, no cover",
+            "Local artists, acoustic sets and the occasional full band",
+            "Full bar and the late-night menu"
+          ]
+        },
+        {
+          "title": "Game days",
+          "items": [
+            "Saturdays and Sundays on the big screens",
+            "$4 drafts, $5 wings and $2 off pitchers",
+            "SimBays by reservation before or after the game"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Come on in",
+      "title": "Pull up *a chair*",
+      "images": [
+        {
+          "src": "/demo-assets/langley-tavern/draft-beer.webp",
+          "alt": "A frosted mug of draft beer on the bar",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/langley-tavern/lounge.webp",
+          "alt": "The lounge’s leather sofas, framed golf prints and a chandelier",
+          "width": 1600,
+          "height": 1072
+        },
+        {
+          "src": "/demo-assets/langley-tavern/pool-table.webp",
+          "alt": "A pool table racked and ready in the game room",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/langley-tavern/cocktails.webp",
+          "alt": "Two red cocktails over ice on the bar",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/langley-tavern/lounge-art.webp",
+          "alt": "Leather sofa beneath framed golf club prints",
+          "width": 1400,
+          "height": 843
+        },
+        {
+          "src": "/demo-assets/langley-tavern/behind-the-bar.webp",
+          "alt": "A bartender mixing drinks behind the bar",
+          "width": 1000,
+          "height": 1333
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our guests",
+      "title": "A real *gem*",
+      "items": [
+        {
+          "text": "Great food and service. They have a sports simulator and two pool tables as well. Full bar and several beers on tap. The grilled chicken sandwich was very tender and juicy. Great experience and plan to be back soon!",
+          "by": "Brian"
+        },
+        {
+          "text": "This restaurant is a gem. All our food was delicious. The service was attentive, without hovering. I really enjoyed the overall atmosphere, from the wall art to the chandelier lighting.",
+          "by": "A guest"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Throwing a party?",
+      "text": "Book the game room or a SimBay for birthdays, team outings and nights out.",
+      "cta": {
+        "label": "Call (803) 392-7029",
+        "href": "tel:+18033927029"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *Warrenville*",
+    "formTitle": "Book the game room",
+    "formTopics": [
+      "A SimBay",
+      "A party or group",
+      "A private event",
+      "A question about the menu",
+      "Something else"
+    ]
+  },
+  "slug": "langley-tavern",
+  "added": "2026-11-19",
+  "prospect": "langley-tavern",
+  "source": {
+    "url": "https://langleytavern.com/",
+    "before": [
+      "The Events page still shows template placeholders like “July XX – UFC Fight Night”",
+      "The menu is four pictures of the printed menu, so it can’t be searched or read aloud, and the home page weighs 13.4 MB",
+      "Sunday hours disagree: 11 to 3 on the menu, 11 to 9 on the Game Room page, and a Sunday happy hour advertised from 2 to 5",
+      "On a phone the main content takes about 31 seconds to appear, and the first screen has no phone number or call button"
+    ],
+    "after": [
+      "The whole menu as text: searchable, zoomable and quick to load",
+      "One set of hours, with an “Open now” sign",
+      "Every weekly event on one page, no placeholders",
+      "One tap to call and book the game room"
+    ]
+  },
+  "style": {
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "dots",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

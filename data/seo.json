@@ -7027,7 +7027,7 @@
     "schema": true,
     "og": true,
     "performance": 31,
-    "pageMB": 5.4,
+    "pageMB": 5.3,
     "a11ySerious": 19,
     "facebook": true,
     "instagram": true,
@@ -9335,7 +9335,7 @@
     "schema": true,
     "og": true,
     "performance": 31,
-    "pageMB": 5.4,
+    "pageMB": 5.3,
     "a11ySerious": 19,
     "facebook": true,
     "instagram": true,
@@ -28314,5 +28314,1014 @@
    "lighthouseSeo": 77
   },
   "competitors": []
+ },
+ "kelly-paint-and-body-inc": {
+  "slug": "kelly-paint-and-body",
+  "name": "Kelly Paint & Body",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "kellypaintandbody.net",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://kellypaintandbody.net/",
+    "title": "Auto Body Shop in Aiken, SC | Kelly Paint & Body Shop | Collision Repair",
+    "description": "Kelly Paint & Body Shop is Aiken, SC's trusted auto body shop. Expert collision repair, painting, free estimates, and insurance claims handling. Call today!",
+    "canonical": "https://kellypaintandbody.net/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Auto Body Shop in Aiken, SC | Kelly Paint & Body Shop | Collision Repair",
+     "description": "Kelly Paint & Body Shop is Aiken, SC's trusted auto body shop. Expert collision repair, painting, free estimates, and insurance claims handling. Call today!",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Auto Body Repair & Collision Services in Aiken, SC"
+    ],
+    "h1Count": 1,
+    "h2": 4,
+    "h3": 1,
+    "words": 474,
+    "images": 15,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization",
+     "ImageObject",
+     "AutoBodyShop",
+     "PostalAddress",
+     "GeoCoordinates",
+     "City",
+     "State",
+     "AdministrativeArea",
+     "OpeningHoursSpecification",
+     "OfferCatalog",
+     "Offer",
+     "Service",
+     "ContactPoint"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://kellypaintandbody.net/sitemap_index.xml",
+    "pages": 13
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 9,
+    "multipleH1": 0,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 11,
+    "images": 40,
+    "sample": [
+     {
+      "url": "https://kellypaintandbody.net/",
+      "title": "Auto Body Shop in Aiken, SC | Kelly Paint & Body Shop | Collision Repair",
+      "description": 156,
+      "h1": 1,
+      "words": 474
+     },
+     {
+      "url": "https://kellypaintandbody.net/automotive-collision-repair-aiken-sc/",
+      "title": "Automotive Collision Repair in Aiken, SC | Kelly Paint & Body Shop",
+      "description": 168,
+      "h1": 1,
+      "words": 1078
+     },
+     {
+      "url": "https://kellypaintandbody.net/collision-repair-and-painting-aiken-sc/",
+      "title": "Collision Repair and Painting - Kelly Paint and Body Shop Aiken SC",
+      "description": 156,
+      "h1": 0,
+      "words": 997
+     },
+     {
+      "url": "https://kellypaintandbody.net/insurance/",
+      "title": "Insurance Claims & Auto Body Repair | Kelly Paint & Body Shop Aiken, SC",
+      "description": 169,
+      "h1": 0,
+      "words": 206
+     },
+     {
+      "url": "https://kellypaintandbody.net/rentals/",
+      "title": "Car Rental Assistance During Collision Repair | Kelly Paint & Body Shop Aiken, SC",
+      "description": 172,
+      "h1": 0,
+      "words": 343
+     },
+     {
+      "url": "https://kellypaintandbody.net/estimates/",
+      "title": "Free Car Repair Estimates | Kelly Paint and Body Shop Aiken SC",
+      "description": 156,
+      "h1": 0,
+      "words": 147
+     },
+     {
+      "url": "https://kellypaintandbody.net/towing/",
+      "title": "24/7 Vehicle Towing in Aiken, SC | Kelly Paint & Body Shop",
+      "description": 120,
+      "h1": 0,
+      "words": 148
+     },
+     {
+      "url": "https://kellypaintandbody.net/careers/",
+      "title": "Careers at Kelly Paint & Body Shop | Auto Body Jobs in Aiken, SC",
+      "description": 148,
+      "h1": 1,
+      "words": 273
+     },
+     {
+      "url": "https://kellypaintandbody.net/about/",
+      "title": "About Kelly Paint & Body Shop | Trusted Auto Body Repair in Aiken, SC",
+      "description": 177,
+      "h1": 0,
+      "words": 293
+     },
+     {
+      "url": "https://kellypaintandbody.net/customer-care/",
+      "title": "Customer Care | Kelly Paint & Body Shop in Aiken, SC",
+      "description": 146,
+      "h1": 0,
+      "words": 131
+     },
+     {
+      "url": "https://kellypaintandbody.net/warranty/",
+      "title": "Lifetime Warranty on Collision Repairs | Kelly Paint & Body Shop Aiken, SC",
+      "description": 190,
+      "h1": 0,
+      "words": 260
+     },
+     {
+      "url": "https://kellypaintandbody.net/f-a-q-s/",
+      "title": "Auto Body Repair FAQs | Kelly Paint & Body Shop in Aiken, SC",
+      "description": 135,
+      "h1": 0,
+      "words": 435
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 14,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://maps.app.goo.gl/XDewFnDXsgtPCASC6",
+    "Facebook": "https://www.facebook.com/kellypaintandbody/",
+    "X (Twitter)": "https://twitter.com/Kellypaint1",
+    "Instagram": "https://www.instagram.com/kellypaintandbodyshop/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Collision Repair",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=604&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=fe52be116bdf2341cd2af433e321e746",
+    "name": "Kelly Paint & Body Inc.",
+    "phone": "(803) 649-7474",
+    "website": "http://www.kellypaintandbody.net",
+    "address": "866 York Street, NE, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://maps.app.goo.gl/XDewFnDXsgtPCASC6",
+    "Facebook": "https://www.facebook.com/kellypaintandbody/",
+    "X (Twitter)": "https://twitter.com/Kellypaint1",
+    "Instagram": "https://www.instagram.com/kellypaintandbodyshop/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/kellypaintandbody/",
+    "Instagram": "https://www.instagram.com/kellypaintandbodyaiken/"
+   }
+  },
+  "domain": {
+   "name": "kellypaintandbody.net",
+   "created": "2011-02-19",
+   "expires": "2027-02-19",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 15
+  },
+  "performance": {
+   "performance": 31,
+   "accessibility": 72,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 2494,
+   "lcp": 28878,
+   "tbt": 2041,
+   "si": 14587,
+   "cls": 0.097,
+   "at": "2026-11-17"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "big-chris-collision",
+   "automotive-workbench",
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "c-and-c-automotive",
+   "kendrick-paint-and-body-shop"
+  ],
+  "scores": {
+   "seo": 88,
+   "social": 80,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "big-chris-collision",
+    "name": "Big Chris Collision",
+    "website": "https://bigchriscollision.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 68,
+    "pageMB": 2.2,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 9
+   },
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "kendrick-paint-and-body-shop",
+    "name": "Kendrick Paint and Body Shop",
+    "website": "https://www.kendrickbodyshop.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 19
+   }
+  ]
+ },
+ "langley-tavern": {
+  "slug": "langley-tavern",
+  "name": "Langley Tavern",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "langleytavern.com",
+   "https": true,
+   "pagesCrawled": 4,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://langleytavern.com/",
+    "title": "Home - Langley Tavern",
+    "description": "The Langley Tavern brings two great experiences under one roof. On one side, you’ll find a thoughtfully designed tavern serving elevated food and drinks in a warm, welcoming atmosphere. On the other, a sports lounge built for casual fun—games, simulators, TVs, and room to hang out.",
+    "canonical": "https://langleytavern.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home - Langley Tavern",
+     "description": "The Langley Tavern brings two great experiences under one roof. On one side, you’ll find a thoughtfully designed tavern serving elevated food and drinks in a warm, welcoming atmosphere. On the other, a sports lounge built for casual fun—games, simulators, TVs, and room to hang out.",
+     "image": "https://langleytavern.com/wp-content/uploads/2026/01/IMG_5676-1-1024x683.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Langley Tavern"
+    ],
+    "h1Count": 1,
+    "h2": 5,
+    "h3": 0,
+    "words": 766,
+    "images": 10,
+    "imagesNoAlt": 7,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://langleytavern.com/sitemap_index.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 4,
+    "missingTitle": 0,
+    "missingDescription": 3,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 20,
+    "images": 36,
+    "sample": [
+     {
+      "url": "https://langleytavern.com/",
+      "title": "Home - Langley Tavern",
+      "description": 282,
+      "h1": 1,
+      "words": 766
+     },
+     {
+      "url": "https://langleytavern.com/our-menu/",
+      "title": "Our Menu - Langley Tavern",
+      "description": 0,
+      "h1": 1,
+      "words": 173
+     },
+     {
+      "url": "https://langleytavern.com/langley-game-room/",
+      "title": "Langley Game Room - Langley Tavern",
+      "description": 0,
+      "h1": 0,
+      "words": 357
+     },
+     {
+      "url": "https://langleytavern.com/events/",
+      "title": "Events - Langley Tavern",
+      "description": 0,
+      "h1": 1,
+      "words": 508
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 14,
+    "broken": [
+     {
+      "url": "https://langleytavern.com/cdn-cgi/l/email-protection",
+      "status": 404,
+      "from": "https://langleytavern.com/"
+     },
+     {
+      "url": "https://langleytavern.com/wp-content/uploads/2026/07/IMG_6516.heic",
+      "status": 200,
+      "from": "https://langleytavern.com/langley-game-room"
+     },
+     {
+      "url": "https://langleytavern.com/book-room",
+      "status": 404,
+      "from": "https://langleytavern.com/events"
+     },
+     {
+      "url": "https://langleytavern.com/sports-lounge",
+      "status": 404,
+      "from": "https://langleytavern.com/events"
+     }
+    ],
+    "brokenCount": 4
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/langleytavern",
+    "Instagram": "https://www.instagram.com/langley_tavern/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Tavern",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 10
+   },
+   {
+    "term": "Warrenville",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/langley-tavern/",
+    "name": "Langley Tavern",
+    "phone": "(803) 392-7029",
+    "website": "https://langleytavern.com/",
+    "address": "2549 Jefferson Davis hwy, Warrenville, SC, United States, South Carolina",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/langleytavern",
+    "Instagram": "https://www.instagram.com/langley_tavern/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/langleytavern",
+    "Instagram": "https://www.instagram.com/langley_tavern/"
+   }
+  },
+  "domain": {
+   "name": "langleytavern.com",
+   "created": "2025-05-29",
+   "expires": "2027-05-29",
+   "registrar": "NameCheap, Inc.",
+   "years": 1
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": 66,
+   "social": 70,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "janson-construction": {
+  "slug": "janson-construction",
+  "name": "Janson Construction",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "jansoncompany.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://jansoncompany.com/",
+    "title": "Construction & Roofing - Janson Construction",
+    "description": "Janson Roofing & Construction is a trusted general contractor in the CSRA, delivering expert roofing and construction with craftsmanship, integrity, and modern design.",
+    "canonical": "https://jansoncompany.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Construction & Roofing - Janson Construction",
+     "description": "Janson Roofing & Construction is a trusted general contractor in the CSRA, delivering expert roofing and construction with craftsmanship, integrity, and modern design.",
+     "image": "https://jansoncompany.com/wp-content/uploads/2025/05/KitchenWebsite-1.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Janson Construction"
+    ],
+    "h1Count": 1,
+    "h2": 1,
+    "h3": 12,
+    "words": 1204,
+    "images": 9,
+    "imagesNoAlt": 9,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://jansoncompany.com/sitemap_index.xml",
+    "pages": 62
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 7,
+    "missingH1": 6,
+    "multipleH1": 0,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 71,
+    "images": 71,
+    "sample": [
+     {
+      "url": "https://jansoncompany.com/",
+      "title": "Construction & Roofing - Janson Construction",
+      "description": 167,
+      "h1": 1,
+      "words": 1204
+     },
+     {
+      "url": "https://jansoncompany.com/about/",
+      "title": "About - Janson Construction",
+      "description": 143,
+      "h1": 1,
+      "words": 353
+     },
+     {
+      "url": "https://jansoncompany.com/services/",
+      "title": "Services - Janson Construction",
+      "description": 164,
+      "h1": 1,
+      "words": 464
+     },
+     {
+      "url": "https://jansoncompany.com/janson-construction/",
+      "title": "Janson Construction - Janson Construction",
+      "description": 155,
+      "h1": 0,
+      "words": 319
+     },
+     {
+      "url": "https://jansoncompany.com/janson-roofing/",
+      "title": "Janson Roofing - Janson Construction",
+      "description": 163,
+      "h1": 0,
+      "words": 359
+     },
+     {
+      "url": "https://jansoncompany.com/janson-advantage/",
+      "title": "Janson Advantage - Janson Construction",
+      "description": 165,
+      "h1": 0,
+      "words": 254
+     },
+     {
+      "url": "https://jansoncompany.com/service/siding/",
+      "title": "Siding - Janson Construction",
+      "description": 0,
+      "h1": 1,
+      "words": 162
+     },
+     {
+      "url": "https://jansoncompany.com/service/windows/",
+      "title": "Windows - Janson Construction",
+      "description": 0,
+      "h1": 1,
+      "words": 169
+     },
+     {
+      "url": "https://jansoncompany.com/portfolio/",
+      "title": "Portfolio - Janson Construction",
+      "description": 182,
+      "h1": 1,
+      "words": 119
+     },
+     {
+      "url": "https://jansoncompany.com/our-process/",
+      "title": "Our Process - Janson Construction",
+      "description": 0,
+      "h1": 1,
+      "words": 429
+     },
+     {
+      "url": "https://jansoncompany.com/wells-fargo-financing/",
+      "title": "Wells Fargo Financing - Janson Construction",
+      "description": 0,
+      "h1": 0,
+      "words": 236
+     },
+     {
+      "url": "https://jansoncompany.com/hearth/",
+      "title": "Hearth - Janson Construction",
+      "description": 0,
+      "h1": 0,
+      "words": 472
+     },
+     {
+      "url": "https://jansoncompany.com/testimonials/",
+      "title": "Testimonials - Janson Construction",
+      "description": 0,
+      "h1": 1,
+      "words": 998
+     },
+     {
+      "url": "https://jansoncompany.com/contact/",
+      "title": "Contact - Janson Construction",
+      "description": 163,
+      "h1": 1,
+      "words": 161
+     },
+     {
+      "url": "https://jansoncompany.com/janson-siding-and-windows/",
+      "title": "Janson Siding and Windows - Janson Construction",
+      "description": 0,
+      "h1": 0,
+      "words": 114
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 24,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/jansoncompany",
+    "Instagram": "https://www.instagram.com/jansonconstructionllc/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Roofing",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 11
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/janson-construction-4269",
+    "name": "Janson Construction",
+    "phone": "(803) 864-2742",
+    "website": "https://jansoncompany.com/",
+    "address": "10976 Atomic Rd., North Augusta SC 29841",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/jansoncompany",
+    "Instagram": "https://www.instagram.com/jansonconstructionllc/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/jansoncompany",
+    "Instagram": "https://www.instagram.com/jansonconstructionllc/"
+   }
+  },
+  "domain": {
+   "name": "jansoncompany.com",
+   "created": "2017-09-06",
+   "expires": "2027-09-06",
+   "registrar": "Bluehost Inc.",
+   "years": 9
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "all-south-siding-window-and-roofing",
+   "hixon-services",
+   "aiken-housing-center",
+   "all-safe-industrial-services-inc",
+   "apex-home-repair-corporation"
+  ],
+  "scores": {
+   "seo": 81,
+   "social": 70,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "all-south-siding-window-and-roofing",
+    "name": "All South Siding, Window & Roofing",
+    "website": "https://augustabuilt.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.9,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "hixon-services",
+    "name": "Hixon Services",
+    "website": "https://hixonsroofing.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 9
+   },
+   {
+    "slug": "aiken-housing-center",
+    "name": "Aiken Housing Center",
+    "website": "https://aikenhousingcenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 36,
+    "pageMB": 13.9,
+    "a11ySerious": 55,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "all-safe-industrial-services-inc",
+    "name": "All-Safe Industrial Services, Inc.",
+    "website": "https://allsafe1.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 67,
+    "pageMB": 6.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 23
+   },
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   }
+  ]
  }
 }
