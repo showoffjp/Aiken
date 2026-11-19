@@ -54,6 +54,20 @@
 .rp-a11y { margin-top: 12px !important; display: grid; gap: 6px; font-size: .95rem; }
 .rp-a11y li { padding-left: 4px; }
 .rp-a11y b { color: var(--warn); font-variant-numeric: tabular-nums; }
+/* Loading filmstrip: what a phone shows at fixed moments, today vs the concept. */
+.rp-film-rows { display: grid; gap: 16px; }
+.rp-film-row { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px 14px; }
+.rp-film-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-bottom: 14px !important; }
+.rp-film-head strong { font-weight: 650; }
+.rp-film-frames { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(var(--n, 6), minmax(0, 1fr)); gap: 10px; }
+.rp-film-frames li { position: relative; min-width: 0; }
+.rp-film-frames img { aspect-ratio: 200 / 433; height: auto; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); background: #fff; box-shadow: 0 10px 22px -16px rgb(0 0 0 / .35); }
+.rp-film-blank { position: absolute; inset: 0 0 28px; display: grid; place-items: center; font-size: .78rem; font-weight: 650; letter-spacing: .04em; color: var(--muted); }
+.rp-film-t { display: block; text-align: center; font-size: .8rem; color: var(--muted); margin-top: 6px; font-variant-numeric: tabular-nums; }
+.rp-film-row.concept { border-color: color-mix(in srgb, var(--green-2) 35%, var(--line)); }
+.rp-film-frames li { transition: opacity .5s ease calc(var(--i) * 110ms), transform .5s cubic-bezier(.2, .7, .2, 1) calc(var(--i) * 110ms); }
+.rp-motion .rp-reveal:not(.in) .rp-film-frames li { opacity: 0; transform: translateY(10px); }
+@media (max-width: 640px) { .rp-film-frames { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 10px; } }
 .rp-note { color: var(--muted); font-size: .95rem; margin-top: 12px !important; max-width: 52em; }
 .rp-flag { background: #fff7ec; border: 1px solid #f0d3a8; border-radius: 16px; padding: 22px 24px; }
 .rp-flag h2 { color: var(--warn); margin-bottom: 8px; }

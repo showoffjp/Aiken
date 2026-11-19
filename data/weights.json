@@ -2002,11 +2002,11 @@
  },
  "janson-construction": {
   "site": {
-   "bytes": 6888293,
+   "bytes": 8363500,
    "requests": 140,
-   "loadMs": 3880,
+   "loadMs": 4364,
    "url": "https://jansoncompany.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
   }
  },
  "jowers-technology-solutions-llc": {
@@ -2065,11 +2065,11 @@
  },
  "kelly-paint-and-body-inc": {
   "site": {
-   "bytes": 5617686,
+   "bytes": 5583665,
    "requests": 159,
-   "loadMs": 4677,
+   "loadMs": 3627,
    "url": "https://kellypaintandbody.net/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
   }
  },
  "kendrick-paint-and-body-shop": {
@@ -2162,11 +2162,11 @@
  },
  "langley-tavern": {
   "site": {
-   "bytes": 13999077,
+   "bytes": 14010009,
    "requests": 34,
-   "loadMs": 2464,
+   "loadMs": 1752,
    "url": "https://langleytavern.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
   }
  },
  "laurelwood-equipment-company": {

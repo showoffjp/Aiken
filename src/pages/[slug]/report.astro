@@ -59,6 +59,21 @@ const lhRows = showLh ? [
   { label: 'Accessibility', site: lh.site!.accessibility, concept: lh.concept!.accessibility },
 ] : [];
 
+// What a phone shows while each page loads (scripts/filmstrip.mjs): frames at
+// fixed moments, one image per page with the frames side by side.
+type Strip = { first: number | null; frames: { t: number; blank: boolean }[]; error?: string };
+let film: { site?: Strip; concept?: Strip } = {};
+try { film = JSON.parse(readFileSync(path.join(root, 'data', 'filmstrip.json'), 'utf8'))[demo.prospect || demo.slug] || {}; } catch {}
+const stripSrc = (side: string) => `/filmstrips/${demo.slug}-${side}.webp`;
+const stripOk = (side: 'site' | 'concept') => { const s = film[side]; return !!(s && !s.error && s.frames?.length && existsSync(path.join(root, 'public', stripSrc(side)))); };
+// Shown when the concept puts something on screen clearly sooner.
+const showFilm = stripOk('site') && stripOk('concept') && film.concept!.first != null && (film.site!.first == null || film.site!.first > film.concept!.first + 800);
+const sec = (ms: number) => `${(ms / 1000).toFixed(1)} seconds`;
+const filmRows = showFilm ? [
+  { side: 'site', label: 'Today', pill: 'rp-old', s: film.site!, say: film.site!.first == null ? `Still blank after ${film.site!.frames[film.site!.frames.length - 1].t / 1000} seconds` : `Blank for ${sec(film.site!.first)}` },
+  { side: 'concept', label: 'The concept', pill: 'rp-new', s: film.concept!, say: `On screen after ${sec(film.concept!.first!)}` },
+] : [];
+
 // Search & social summary from the full report (scripts/seo.mjs).
 let seo: any = null;
 try { seo = JSON.parse(readFileSync(path.join(root, 'data', 'seo.json'), 'utf8'))[demo.prospect || demo.slug] || null; } catch {}
@@ -239,6 +254,29 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
             ))}
           </div>
           <p class="rp-note">Lighthouse is Google's own page test, out of 100. It loads each page as a mid-range phone on a slow connection would. The biggest picture or block of text on the first screen appears after about {(lh.site!.lcp / 1000).toFixed(1)} seconds today and {(lh.concept!.lcp / 1000).toFixed(1)} seconds on the concept. Anyone can rerun the test at pagespeed.web.dev; scores move a few points from run to run.</p>
+        </section>
+      )}
+
+      {showFilm && (
+        <section class="rp-film">
+          <h2>Watch both pages load on a phone</h2>
+          <div class="rp-film-rows">
+            {filmRows.map((r) => (
+              <div class={`rp-film-row ${r.side}`}>
+                <p class="rp-film-head"><span class={`rp-pill ${r.pill}`}>{r.label}</span><strong>{r.say}</strong></p>
+                <ol class="rp-film-frames" style={`--n:${r.s.frames.length}`} aria-label={`${r.label === 'Today' ? "Today's home page" : 'The concept'} at ${r.s.frames.map((f) => f.t / 1000).join(', ')} seconds`}>
+                  {r.s.frames.map((f, i) => (
+                    <li class:list={[{ blank: f.blank }]} style={`--i:${i}`}>
+                      <img src={stripSrc(r.side)} alt="" width="200" height="433" loading="lazy" decoding="async" style={`object-position:${((i / (r.s.frames.length - 1)) * 100).toFixed(2)}% 0`} />
+                      {f.blank && <span class="rp-film-blank">Blank</span>}
+                      <span class="rp-film-t">{f.t / 1000} s</span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+          <p class="rp-note">Both pages were opened one after the other on the same simulated phone, using the slow-phone settings of Google's Lighthouse test (a processor slowed four times, a slow 4G connection), and the screen was recorded from the moment the address was entered. Real phones and connections vary, and the times move a little from run to run.</p>
         </section>
       )}
 

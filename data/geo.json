@@ -435,9 +435,25 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "janson-construction": {
+  "q": "10976 Atomic Road, North Augusta, SC 29841",
+  "lat": 33.49258,
+  "lon": -81.930198,
+  "kind": "secondary",
+  "exact": false,
+  "at": "2026-11-19"
+ },
  "joyful-cafe": {
   "q": "245 White Pond Road, Williston, SC 29853",
   "missing": true,
+  "at": "2026-11-19"
+ },
+ "kelly-paint-and-body": {
+  "q": "866 York Street NE, Aiken, SC 29801",
+  "lat": 33.572829,
+  "lon": -81.705642,
+  "kind": "place",
+  "exact": true,
   "at": "2026-11-19"
  },
  "kens-warehouse": {
@@ -470,6 +486,14 @@
   "lon": -81.752794,
   "kind": "place",
   "exact": true,
+  "at": "2026-11-19"
+ },
+ "langley-tavern": {
+  "q": "2549 Jefferson Davis Highway, Warrenville, SC 29851",
+  "lat": 33.553222,
+  "lon": -81.814996,
+  "kind": "trunk",
+  "exact": false,
   "at": "2026-11-19"
  },
  "lilianhaus": {
