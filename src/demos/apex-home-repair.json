@@ -1,0 +1,299 @@
+{
+  "name": "Apex Home Repair",
+  "short": "Apex Home Repair",
+  "category": "Roofing & Home Repair",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f6f7f9",
+    "surface": "#ffffff",
+    "ink": "#14181f",
+    "muted": "#535b67",
+    "primary": "#b4361e",
+    "onPrimary": "#ffffff",
+    "accent": "#1f4e79",
+    "line": "#e0e3e8"
+  },
+  "radius": 10,
+  "icon": "hammer",
+  "contact": {
+    "phone": "(803) 645-3998",
+    "address": [
+      "Aiken, SC 29803"
+    ],
+    "facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/"
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Aiken roofing & home repair",
+    "title": "Where quality *meets craftsmanship*",
+    "lede": "Roofing, decks, gutters, siding and storm repair for homes around Aiken, with a simple three-step process and clear estimates before work begins.",
+    "points": [
+      "Roofing & storm repair",
+      "Decks & siding",
+      "Kitchens & baths"
+    ],
+    "cta": {
+      "label": "Call (803) 645-3998",
+      "href": "tel:+18036453998"
+    },
+    "cta2": {
+      "label": "Get a quote",
+      "href": "#visit"
+    },
+    "image": {
+      "src": "/demo-assets/apex-home-repair/new-roof.webp",
+      "alt": "A two-story blue house with a newly installed dark shingle roof under a clear sky",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "facts": [
+    {
+      "value": "3 steps",
+      "label": "Discovery, design, build"
+    },
+    {
+      "value": "Storm",
+      "label": "Fast response, insurance help"
+    },
+    {
+      "value": "Inside & out",
+      "label": "Roofs to kitchens"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Protect, repair, *improve*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Roofing",
+          "text": "Installs, repairs and replacements with premium materials, clean finishes and leak protection."
+        },
+        {
+          "icon": "cloud-lightning",
+          "title": "Storm repair",
+          "text": "Emergency response, damage assessment and full restoration, working with your insurance when needed."
+        },
+        {
+          "icon": "hammer",
+          "title": "Decks",
+          "text": "Custom decks in quality wood or composite, built to last."
+        },
+        {
+          "icon": "droplets",
+          "title": "Gutters",
+          "text": "Seamless, custom-fit gutters that move water away and resist clogs and corrosion."
+        },
+        {
+          "icon": "paint-roller",
+          "title": "Siding",
+          "text": "Modern, durable siding for curb appeal, insulation and weather protection."
+        },
+        {
+          "icon": "wrench",
+          "title": "Home repairs",
+          "text": "From structural fixes to drywall, for storm damage or everyday wear and tear."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "Our process",
+      "eyebrow": "What happens when you call",
+      "title": "Our *3-step* process",
+      "items": [
+        {
+          "title": "Discovery",
+          "text": "We start with your goals, your space and your budget, so we’re aligned from day one."
+        },
+        {
+          "title": "Design",
+          "text": "Plans and material choices you can see, with clear estimates that balance look, function and cost."
+        },
+        {
+          "title": "Build",
+          "text": "Our team gets to work, keeps you posted throughout and stays on schedule."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Recent projects",
+      "title": "Around *Aiken*",
+      "images": [
+        {
+          "src": "/demo-assets/apex-home-repair/house-and-deck.webp",
+          "alt": "A light blue two-story house with a new screened porch and deck",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/deck.webp",
+          "alt": "A new stained wood deck with black metal railings against a brick wall",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/roof-repair.webp",
+          "alt": "An open section of roof decking during a roof repair",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/cabin.webp",
+          "alt": "A rustic two-story house with dormers and a long front porch",
+          "width": 1320,
+          "height": 1038
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/deck-steps.webp",
+          "alt": "New stained wooden steps and railings leading up to a back door",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/siding.webp",
+          "alt": "New dark gray vertical siding going up on the side of a house",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/gable.webp",
+          "alt": "A cream-colored gable with a new arched window and trim",
+          "width": 1312,
+          "height": 1015
+        },
+        {
+          "src": "/demo-assets/apex-home-repair/teal-siding.webp",
+          "alt": "Teal lap siding and white gutters beside a brick chimney",
+          "width": 1200,
+          "height": 1600
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "more",
+      "nav": "More services",
+      "eyebrow": "Inside and out",
+      "title": "Bigger *projects*",
+      "columns": [
+        {
+          "title": "Rebuild",
+          "items": [
+            "Property reconstruction",
+            "Restoration",
+            "Mold remediation"
+          ]
+        },
+        {
+          "title": "Remodel",
+          "items": [
+            "Kitchens & bathrooms",
+            "Renovations",
+            "Home additions",
+            "Custom cabinetry"
+          ]
+        },
+        {
+          "title": "Plan",
+          "items": [
+            "Design & renderings",
+            "Clear estimates up front",
+            "Help with insurance claims"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you call*",
+      "items": [
+        {
+          "q": "Do you help after a storm?",
+          "a": "Yes. We respond fast, assess the damage and handle the full restoration, working directly with your insurance company when needed."
+        },
+        {
+          "q": "Will I know the cost before you start?",
+          "a": "Yes. The design step gives you material choices and a clear estimate before any work begins."
+        },
+        {
+          "q": "Do you build decks in composite?",
+          "a": "Yes, in quality wood or composite."
+        },
+        {
+          "q": "Do you do inside work too?",
+          "a": "Yes: kitchens and bathrooms, renovations, additions, custom cabinetry, drywall and mold remediation."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Storm damage or a project in mind?",
+      "text": "Call for a quote.",
+      "cta": {
+        "label": "Call (803) 645-3998",
+        "href": "tel:+18036453998"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Get *a quote*",
+    "formTitle": "Tell us about your project",
+    "formTopics": [
+      "Roofing",
+      "Storm damage",
+      "Deck",
+      "Gutters or siding",
+      "Inside work",
+      "Something else"
+    ]
+  },
+  "slug": "apex-home-repair",
+  "added": "2026-11-19",
+  "prospect": "apex-home-repair-corporation",
+  "source": {
+    "url": "https://repairwithapex.com/",
+    "before": [
+      "The home page downloads 36 MB, and on a simulated phone connection Google’s Lighthouse test takes over a minute and a half to show the main content",
+      "Some home page copy doesn’t fit a home repair company, such as \"we understand how important your pool is to you\", and one line is garbled: \"projects were completed by the team of with top notch quality\"",
+      "30 of the 51 images on the home page have no description (alt text)",
+      "The Aiken Chamber listing gives (803) 646-3998; the site says (803) 645-3998"
+    ],
+    "after": [
+      "A page around 1 MB that loads in a couple of seconds on a phone",
+      "Every service in the company’s own words, without stray or garbled copy",
+      "One phone number, everywhere, with one-tap call",
+      "Real project photos, each described for search and screen readers",
+      "A quote request on every screen"
+    ]
+  },
+  "style": {
+    "frame": "blob",
+    "services": "list",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}

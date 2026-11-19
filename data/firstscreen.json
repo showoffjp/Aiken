@@ -1,0 +1,976 @@
+{
+ "208-abbeville-bed-and-breakfast": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "419hayne-luxury-suites": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "affordable-quality-marble-and-granite": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "aiken-antique-mall": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "aiken-flooring": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "aiken-ghost-tours": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "aiken-housing-center": {
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "aiken-pet-sitters-llc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "antiques-and-more-mall": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "antonios-italian-eatery": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "apex-home-repair-corporation": {
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "apizza-di-napoli": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "argus-visuals": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "augusta-ready-mix-inc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "b-and-k-grading-and-paving-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "beech-island-appliance-service-co-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "beech-island-timber-and-construction-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "big-house-outpost": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "bloom-salon-spa-boutique": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "bottom-line-bakery": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "bradley-plumbing-and-heating-inc-mechanical-cont": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "bravefriend-apparel-and-design": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "briar-patch-antiques": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "broome-service-center-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "cabanas-salvadorean-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "carolina-bar-b-que": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "carolina-dragway-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "carolina-hvac-and-electrical": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "dinner-bell": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "dos-potrillos-mexican-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "downtown-dog": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "durban-laird-insurance": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "el-charrito-taqueria": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "empire-tree": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "farm-dog": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "feed-sack-aiken": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "flanigans-ice-cream": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "glassworks-by-fishburne-and-shultz-hill": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "hair-of-the-dog-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "hals-hair-center": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "help-me-rhonda-bookkeeping-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "herbal-solutions-and-spa": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "howell-printing-company": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "hughes-beattie-oneal-law-and-assoc-pc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "indigo-bleu": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "inn-at-houndslake": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "iron-gate-candles": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "its-all-good-market-and-catering": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "joyful-caf": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "kens-warehouse": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "la-parisienne-french-restaurant-and-bakery": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "lambert-insurance-agency-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "little-red-fox-shop": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "los-tres-compadres": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "macalusos-restaurant": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "marias-mexican-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "massage-mavin": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "mcghees-mile": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "mi-rancho": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "mitch-johnson-construction-company-inc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "mobile-office-management-llc-mom": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "mundys-automotive-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "oh-mie-stelle-bakery": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "okinawa-japanese-steakhouse-and-sushi-bowl": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "osbons-laundry-and-cleaners-downtown": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "pablos-mexican-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "pats-sub-shop": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "pitter-patter-carolines": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "playland-of-aiken": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "prescott-and-sons-construction-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "rebel-ranch-horse-tours-llc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "romas-italian-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "simply-social-events-and-more-llc": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "smoothie-groove": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "soul-and-seafood-house": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "southern-magnolia-dentistry": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "tailored-tours-of-aiken": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "taj-aiken": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "thai-jasmine-rice": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "the-fermata-club": {
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "the-ivy-cottage-flowers-and-gifts": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "the-jewelers-loupe": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "the-village-caf": {
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "the-vintage-bobbin": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "the-wildemont": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "thomas-p-murphy-pc-attorney-at-law": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "timeless-touch-events-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "toki-jr-llc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "track-kitchen": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "trail-riding-the-trail-riding-company": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "trophies-unlimited": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "unique-catering": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "veg-out": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "verdant-landscape": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "victoria-mexican-restaurant": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "webster-photography": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "white-rose-eclectics": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "williamsons-auto-center": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ },
+ "woodchuckers-axe-throwing": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "york-cottage-antiques": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "at": "2026-11-19"
+  }
+ },
+ "zier-law-firm": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "at": "2026-11-19"
+  }
+ }
+}

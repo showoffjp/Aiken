@@ -3807,7 +3807,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 36,
     "pageMB": 13.9,
     "a11ySerious": 55,
     "facebook": true,
@@ -3858,7 +3858,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 45,
+    "performance": 44,
     "pageMB": 34.6,
     "a11ySerious": 5,
     "facebook": true,
@@ -5656,9 +5656,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -10006,9 +10006,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -10258,7 +10258,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 36,
     "pageMB": 13.9,
     "a11ySerious": 55,
     "facebook": true,
@@ -10309,7 +10309,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 45,
+    "performance": 44,
     "pageMB": 34.6,
     "a11ySerious": 5,
     "facebook": true,
@@ -10881,9 +10881,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -15410,9 +15410,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -15584,9 +15584,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -16074,9 +16074,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -16879,9 +16879,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -18628,9 +18628,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -19511,9 +19511,9 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 49,
-    "pageMB": 6.2,
-    "a11ySerious": 8,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
     "domainYears": 8
@@ -22472,7 +22472,7 @@
     "description": false,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 36,
     "pageMB": 13.9,
     "a11ySerious": 55,
     "facebook": true,
@@ -22495,6 +22495,1407 @@
     "facebook": true,
     "instagram": false,
     "domainYears": 1
+   }
+  ]
+ },
+ "apex-home-repair-corporation": {
+  "slug": "apex-home-repair",
+  "name": "Apex Home Repair",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "repairwithapex.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://repairwithapex.com/",
+    "title": "Apex Home Repair | Aiken SC Roofing & Home Repair Pros",
+    "description": "Local home repair experts in Aiken, SC. Roofing, siding, and renovations done right with reliable, quality service.",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Apex Home Repair | Aiken SC Roofing & Home Repair Pros",
+     "description": "Local home repair experts in Aiken, SC. Roofing, siding, and renovations done right with reliable, quality service.",
+     "image": "https://assets.cdn.filesafe.space/hyv24Dape4EGf6U2Pvqj/media/680fed6d06962944856beff0.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Safe. Trusted. Accurate. Experts.",
+     "Our Services",
+     "Home Repairs"
+    ],
+    "h1Count": 20,
+    "h2": 14,
+    "h3": 6,
+    "words": 996,
+    "images": 51,
+    "imagesNoAlt": 30,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 8,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 2,
+    "dupDescs": 2,
+    "imagesNoAlt": 164,
+    "images": 237,
+    "sample": [
+     {
+      "url": "https://repairwithapex.com/",
+      "title": "Apex Home Repair | Aiken SC Roofing & Home Repair Pros",
+      "description": 115,
+      "h1": 20,
+      "words": 996
+     },
+     {
+      "url": "https://repairwithapex.com/about",
+      "title": "About Apex | Local Home Repair Team in Aiken, SC",
+      "description": 95,
+      "h1": 10,
+      "words": 630
+     },
+     {
+      "url": "https://repairwithapex.com/services",
+      "title": "Our Services | Roofing, Decks & Renovations in Aiken SC",
+      "description": 92,
+      "h1": 13,
+      "words": 612
+     },
+     {
+      "url": "https://repairwithapex.com/gallery",
+      "title": "Project Gallery | Apex Home Repair Work in Aiken",
+      "description": 74,
+      "h1": 6,
+      "words": 545
+     },
+     {
+      "url": "https://repairwithapex.com/contact",
+      "title": "Contact Apex | Home Repair Quotes in Aiken SC",
+      "description": 84,
+      "h1": 4,
+      "words": 90
+     },
+     {
+      "url": "https://repairwithapex.com/services",
+      "title": "Our Services | Roofing, Decks & Renovations in Aiken SC",
+      "description": 92,
+      "h1": 13,
+      "words": 612
+     },
+     {
+      "url": "https://repairwithapex.com/home855799",
+      "title": "Apex Home Repair | Aiken SC Roofing & Home Repair Pros",
+      "description": 115,
+      "h1": 20,
+      "words": 996
+     },
+     {
+      "url": "https://repairwithapex.com/privacy-policy",
+      "title": "Privacy Policy | Apex Home Repair in Aiken, SC",
+      "description": 109,
+      "h1": 4,
+      "words": 369
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 12,
+    "broken": [
+     {
+      "url": "https://repairwithapex.com/repairwithapex.com",
+      "status": 404,
+      "from": "https://repairwithapex.com/"
+     },
+     {
+      "url": "https://repairwithapex.com/Terms%20and%20Conditions",
+      "status": 404,
+      "from": "https://repairwithapex.com/"
+     },
+     {
+      "url": "https://repairwithapex.com/cdn-cgi/l/email-protection",
+      "status": 404,
+      "from": "https://repairwithapex.com/privacy-policy"
+     }
+    ],
+    "brokenCount": 3
+   },
+   "social": {
+    "X (Twitter)": "https://repairwithapex.com/about",
+    "Facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Roofing",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 4
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1112&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=2ec0c95001e8429d9dad52d23b629d3b",
+    "name": "Apex Home Repair Corporation",
+    "phone": "803646-3998",
+    "website": "http://www.repairwithapex.com",
+    "address": "Aiken , SC 29803",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "X (Twitter)": "https://repairwithapex.com/about",
+    "Facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/"
+   }
+  },
+  "domain": {
+   "name": "repairwithapex.com",
+   "created": "2024-08-10",
+   "expires": "2027-08-10",
+   "registrar": "Squarespace Domains II LLC",
+   "years": 2
+  },
+  "performance": {
+   "performance": 44,
+   "accessibility": 94,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 1530,
+   "lcp": 108245,
+   "tbt": 1777,
+   "si": 4801,
+   "cls": 0.051,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "aikens-dryer-vent-cleaning-llc",
+   "aikenite-electrical-services-llc",
+   "pave-way-of-augusta-and-aiken",
+   "simplify-co-llc",
+   "dirty-chimney-llc"
+  ],
+  "scores": {
+   "seo": 53,
+   "social": 60,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aikens-dryer-vent-cleaning-llc",
+    "name": "Aiken's Dryer Vent Cleaning LLC",
+    "website": "https://aikensdryervent.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "aikenite-electrical-services-llc",
+    "name": "Aikenite Electrical Services LLC",
+    "website": "https://www.aikenite-electrical.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "pave-way-of-augusta-and-aiken",
+    "name": "Pave-Way of Augusta & Aiken",
+    "website": "https://pavewayofaugusta.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.8,
+    "a11ySerious": 29,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 25
+   },
+   {
+    "slug": "simplify-co-llc",
+    "name": "Simplify Co. LLC",
+    "website": "https://www.simplifycollc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.8,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "dirty-chimney-llc",
+    "name": "Dirty Chimney, LLC",
+    "website": "http://dirtychimneysc.com/",
+    "state": "blocked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "the-village-caf": {
+  "slug": "village-cafe",
+  "name": "The Village Café",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "thevillagecafeaiken.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.thevillagecafeaiken.com/",
+    "title": "Home - The Village Café",
+    "description": "",
+    "canonical": "https://www.thevillagecafeaiken.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home - The Village Café",
+     "description": "",
+     "image": "https://www.thevillagecafeaiken.com/wp-content/uploads/2026/10/16.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 13,
+    "h3": 3,
+    "words": 364,
+    "images": 13,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://www.thevillagecafeaiken.com/sitemap.xml",
+    "pages": 29
+   },
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 7,
+    "missingH1": 5,
+    "multipleH1": 1,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 2,
+    "dupDescs": 0,
+    "imagesNoAlt": 3,
+    "images": 58,
+    "sample": [
+     {
+      "url": "https://www.thevillagecafeaiken.com/",
+      "title": "Home - The Village Café",
+      "description": 0,
+      "h1": 0,
+      "words": 364
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/about-us",
+      "title": "About Us - The Village Café",
+      "description": 0,
+      "h1": 3,
+      "words": 539
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/our-menu/sunday-brunch",
+      "title": "The Village Cafe | Located in The Village at Woodside | Weekly Specials",
+      "description": 121,
+      "h1": 1,
+      "words": 147
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/cafe-events",
+      "title": "Café Events - The Village Café",
+      "description": 0,
+      "h1": 1,
+      "words": 311
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/contact",
+      "title": "Contact - The Village Café",
+      "description": 0,
+      "h1": 0,
+      "words": 221
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/our-menu",
+      "title": "Our Menu - The Village Café",
+      "description": 0,
+      "h1": 0,
+      "words": 1043
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/contact",
+      "title": "Contact - The Village Café",
+      "description": 0,
+      "h1": 0,
+      "words": 221
+     },
+     {
+      "url": "https://www.thevillagecafeaiken.com/our-menu",
+      "title": "Our Menu - The Village Café",
+      "description": 0,
+      "h1": 0,
+      "words": 1043
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 13,
+    "broken": [
+     {
+      "url": "https://www.thevillagecafeaiken.com/_wp_link_placeholder",
+      "status": 404,
+      "from": "https://www.thevillagecafeaiken.com/contact"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/thevillagecafeaiken",
+    "Instagram": "https://www.instagram.com/thevillagecafeaiken",
+    "Google Business Profile": "https://www.google.com/maps/place/The+Village+Cafe/@33.4932638,-81.7481971,18.04z/data=!4m8!1m2!3m1!2sThe+Village+Cafe!3m4!1s0x88f9b310d24c12af:0xfa9147d8e86fc2b9!8m2!3d33.493314!4d-81.7480344"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Café",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=990&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=59b038036fae26fd6af81f475490ce6a",
+    "name": "The Village Café",
+    "phone": "(803) 640-0247",
+    "website": "http://www.thevillagecafeaiken.com/",
+    "address": "110 Coach Light Way, Aiken, SC 29803",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/the_village_cafe/",
+    "name": "The Village Cafe",
+    "phone": "(803) 640-0247",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "address": "110 Coach Light Way Aiken SC",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/thevillagecafeaiken",
+    "Instagram": "https://www.instagram.com/thevillagecafeaiken",
+    "Google Business Profile": "https://www.google.com/maps/place/The+Village+Cafe/@33.4932638,-81.7481971,18.04z/data=!4m8!1m2!3m1!2sThe+Village+Cafe!3m4!1s0x88f9b310d24c12af:0xfa9147d8e86fc2b9!8m2!3d33.493314!4d-81.7480344"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/thevillagecafeaiken",
+    "Instagram": "https://www.instagram.com/thevillagecafeaiken"
+   }
+  },
+  "domain": {
+   "name": "thevillagecafeaiken.com",
+   "created": "2017-12-14",
+   "expires": "2027-12-14",
+   "registrar": "DreamHost, LLC",
+   "years": 8
+  },
+  "performance": {
+   "performance": 58,
+   "accessibility": 84,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 1580,
+   "lcp": 9319,
+   "tbt": 271,
+   "si": 9145,
+   "cls": 0.098,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "whats-cookin-downtown",
+   "oh-mie-stelle-bakery",
+   "bottom-line-bakery",
+   "macks",
+   "polo-grounds-cafe"
+  ],
+  "scores": {
+   "seo": 58,
+   "social": 85,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "oh-mie-stelle-bakery",
+    "name": "Oh Mie Stelle! Bakery",
+    "website": "https://www.ohmiestelle.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 1.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "bottom-line-bakery",
+    "name": "Bottom Line Bakery",
+    "website": "https://www.bottomlinebakeryaiken.com/",
+    "state": "broken",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "macks",
+    "name": "MacK's",
+    "website": "https://macksinaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 71,
+    "pageMB": 1.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "polo-grounds-cafe",
+    "name": "Polo Grounds Cafe",
+    "website": "https://www.pologroundscafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "aiken-housing-center": {
+  "slug": "aiken-housing-center",
+  "name": "Aiken Housing Center",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikenhousingcenter.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://aikenhousingcenter.com/",
+    "title": "Aiken Housing Center",
+    "description": "",
+    "canonical": "https://aikenhousingcenter.com/",
+    "noindex": true,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home"
+    ],
+    "h1Count": 1,
+    "h2": 7,
+    "h3": 51,
+    "words": 2197,
+    "images": 58,
+    "imagesNoAlt": 6,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": true
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 9,
+    "multipleH1": 1,
+    "thin": 6,
+    "noindex": 15,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 42,
+    "images": 582,
+    "sample": [
+     {
+      "url": "https://aikenhousingcenter.com/",
+      "title": "Aiken Housing Center",
+      "description": 0,
+      "h1": 1,
+      "words": 2197
+     },
+     {
+      "url": "https://aikenhousingcenter.com/about/",
+      "title": "About - Aiken Housing Center",
+      "description": 0,
+      "h1": 1,
+      "words": 460
+     },
+     {
+      "url": "https://aikenhousingcenter.com/manufactured-homes/",
+      "title": "Manufactured Homes - Aiken Housing Center",
+      "description": 0,
+      "h1": 1,
+      "words": 2018
+     },
+     {
+      "url": "https://aikenhousingcenter.com/modular-homes/",
+      "title": "Modular Homes - Aiken Housing Center",
+      "description": 0,
+      "h1": 1,
+      "words": 829
+     },
+     {
+      "url": "https://aikenhousingcenter.com/contact/",
+      "title": "Contact - Aiken Housing Center",
+      "description": 0,
+      "h1": 1,
+      "words": 623
+     },
+     {
+      "url": "https://aikenhousingcenter.com/blog/",
+      "title": "Blog - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 206
+     },
+     {
+      "url": "https://aikenhousingcenter.com/financing/",
+      "title": "Financing - Aiken Housing Center",
+      "description": 0,
+      "h1": 2,
+      "words": 230
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/",
+      "title": "Inventory - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 644
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/montgomery/",
+      "title": "#6 Montgomery - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 159
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/the-delilah/",
+      "title": "#7 The Delilah - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 137
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/the-hangout/",
+      "title": "#8 The Hangout - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 152
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/ironclad-3276/",
+      "title": "#1 Ironclad 3276 - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 154
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/desoto/",
+      "title": "#2 Desoto - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 1206
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/2b-the-southern-farmhouse/",
+      "title": "#2B The Southern Farmhouse - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 758
+     },
+     {
+      "url": "https://aikenhousingcenter.com/inventory/3-boujee-lux/",
+      "title": "#3 BOUJEE LUX - Aiken Housing Center",
+      "description": 0,
+      "h1": 0,
+      "words": 1028
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/AikenHousingCenter",
+    "X (Twitter)": "https://twitter.com/AikenCenter",
+    "Instagram": "https://www.instagram.com/aikenhousingcentersc/",
+    "YouTube": "https://www.youtube.com/channel/UCMtZn83b4P1U8kZj4bm1Ijg"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Manufactured",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 6
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 22
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=68&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=78766e89c6368fcf8951c1b94778f0aa",
+    "name": "Aiken Housing Center",
+    "phone": "(803) 649-1603",
+    "website": "http://www.aikenhousingcenter.com",
+    "address": "190 Old Wagener Road, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/AikenHousingCenter",
+    "X (Twitter)": "https://twitter.com/AikenCenter",
+    "Instagram": "https://www.instagram.com/aikenhousingcentersc/",
+    "YouTube": "https://www.youtube.com/channel/UCMtZn83b4P1U8kZj4bm1Ijg"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/AikenHousingCenter",
+    "Instagram": "https://www.instagram.com/aikenhousingcentersc/#"
+   }
+  },
+  "domain": {
+   "name": "aikenhousingcenter.com",
+   "created": "2003-01-20",
+   "expires": "2026-12-28",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 23
+  },
+  "performance": {
+   "performance": 36,
+   "accessibility": 85,
+   "bestPractices": 57,
+   "seo": 46,
+   "fcp": 3190,
+   "lcp": 11023,
+   "tbt": 1153,
+   "si": 11864,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "build-on-your-land-llc",
+   "all-south-siding-window-and-roofing",
+   "all-safe-industrial-services-inc",
+   "apex-home-repair-corporation",
+   "b-and-k-grading-and-paving-llc"
+  ],
+  "scores": {
+   "seo": 55,
+   "social": 65,
+   "lighthouseSeo": 46
+  },
+  "competitors": [
+   {
+    "slug": "build-on-your-land-llc",
+    "name": "Build on Your Land, LLC",
+    "website": "https://buildonyourlandllc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.5,
+    "a11ySerious": 105,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "all-south-siding-window-and-roofing",
+    "name": "All South Siding, Window & Roofing",
+    "website": "https://augustabuilt.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.9,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "all-safe-industrial-services-inc",
+    "name": "All-Safe Industrial Services, Inc.",
+    "website": "https://allsafe1.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 67,
+    "pageMB": 6.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 23
+   },
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   },
+   {
+    "slug": "b-and-k-grading-and-paving-llc",
+    "name": "B&K Grading and Paving, LLC",
+    "website": "https://bkgradingandpaving.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 10.1,
+    "a11ySerious": 34,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "the-fermata-club": {
+  "slug": "fermata-club",
+  "name": "The Fermata Club",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "fermataclub.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://fermataclub.com/",
+    "title": "Fermata Club - Member-Owned Swim and Racquet Social Club Est. 1952",
+    "description": "",
+    "canonical": "https://fermataclub.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Front Page",
+     "description": "The Fermata Club, in the heart of Aiken, has a saltwater pool with 8 lap lanes, 6 courts for tennis and pickleball, and a historic gymnasium for event rentals. The fermata, a musical term meaning to pause and hold a note longer than usual, serves as an apt analogy for the club itself. The Fermata [&hellip;]",
+     "image": "https://fermataclub.com/wp-content/uploads/2024/01/cropped-Fermata-Club-site-icon.png",
+     "type": "article",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "We would like to thank our sponsors...",
+     "We would like to thank our sponsors...",
+     "Jumping Branch Farm"
+    ],
+    "h1Count": 6,
+    "h2": 14,
+    "h3": 13,
+    "words": 924,
+    "images": 29,
+    "imagesNoAlt": 20,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://fermataclub.com/sitemap.xml",
+    "pages": 583
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 0,
+    "multipleH1": 15,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 268,
+    "images": 395,
+    "sample": [
+     {
+      "url": "https://fermataclub.com/",
+      "title": "Fermata Club - Member-Owned Swim and Racquet Social Club Est. 1952",
+      "description": 0,
+      "h1": 6,
+      "words": 924
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/",
+      "title": "Member Dues - Fermata Club",
+      "description": 0,
+      "h1": 10,
+      "words": 746
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/",
+      "title": "Guest Fees - Fermata Club",
+      "description": 0,
+      "h1": 7,
+      "words": 568
+     },
+     {
+      "url": "https://fermataclub.com/sponsor-a-brick-31/",
+      "title": "Sponsor a Brick - Fermata Club",
+      "description": 0,
+      "h1": 7,
+      "words": 758
+     },
+     {
+      "url": "https://fermataclub.com/fermata-sweatshirts-31/",
+      "title": "Fermata Sweatshirts - Fermata Club",
+      "description": 0,
+      "h1": 7,
+      "words": 568
+     },
+     {
+      "url": "https://fermataclub.com/fermata-mugs-31/",
+      "title": "Fermata Mugs - Fermata Club",
+      "description": 0,
+      "h1": 7,
+      "words": 502
+     },
+     {
+      "url": "https://fermataclub.com/concessions/",
+      "title": "Concessions - Fermata Club",
+      "description": 0,
+      "h1": 7,
+      "words": 540
+     },
+     {
+      "url": "https://fermataclub.com/clubhouse-reservations/",
+      "title": "Facility Reservations - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 1115
+     },
+     {
+      "url": "https://fermataclub.com/sponsors/",
+      "title": "Sponsors - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 543
+     },
+     {
+      "url": "https://fermataclub.com/swim-lessons-16/",
+      "title": "Group Swim Lessons - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 1092
+     },
+     {
+      "url": "https://fermataclub.com/private-swim-lessons-16/",
+      "title": "Private Swim Lessons - Fermata Club",
+      "description": 0,
+      "h1": 8,
+      "words": 677
+     },
+     {
+      "url": "https://fermataclub.com/child-swim-clinic-16/",
+      "title": "Child Swim Clinic - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 671
+     },
+     {
+      "url": "https://fermataclub.com/adult-swim-clinic-2-16/",
+      "title": "Adult Swim Clinic - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 635
+     },
+     {
+      "url": "https://fermataclub.com/masters-swim-clinic-3-16/",
+      "title": "Masters Swim Clinic - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 678
+     },
+     {
+      "url": "https://fermataclub.com/pool-rules-16/",
+      "title": "Pool Rules - Fermata Club",
+      "description": 0,
+      "h1": 6,
+      "words": 1319
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.authorLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.uploadedToLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.originalImageURL%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.link%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.editLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.url%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/%7B%7B%20data.editLink%20%7D%7D&image-editor",
+      "status": 404,
+      "from": "https://fermataclub.com/"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.authorLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.uploadedToLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.originalImageURL%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.link%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.editLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.url%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/member-dues/%7B%7B%20data.editLink%20%7D%7D&image-editor",
+      "status": 404,
+      "from": "https://fermataclub.com/member-dues"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.authorLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.uploadedToLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.originalImageURL%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.link%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.editLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.url%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/guest-fees/%7B%7B%20data.editLink%20%7D%7D&image-editor",
+      "status": 404,
+      "from": "https://fermataclub.com/guest-fees"
+     },
+     {
+      "url": "https://fermataclub.com/sponsor-a-brick-31/%7B%7B%20data.authorLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/sponsor-a-brick-31"
+     },
+     {
+      "url": "https://fermataclub.com/sponsor-a-brick-31/%7B%7B%20data.uploadedToLink%20%7D%7D",
+      "status": 404,
+      "from": "https://fermataclub.com/sponsor-a-brick-31"
+     }
+    ],
+    "brokenCount": 23
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/fermataclub"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Swim",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 18
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 5
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=968&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=5e94eaea6dc2280a580b8a591f550afe",
+    "name": "The Fermata Club",
+    "phone": "(803) 648-5673",
+    "website": "http://www.fermataclub.com",
+    "address": "841 Whiskey Road, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/fermataclub"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/fermataclub"
+   }
+  },
+  "domain": {
+   "name": "fermataclub.com",
+   "created": "2004-12-03",
+   "expires": "2026-12-03",
+   "registrar": "Launchpad.com Inc.",
+   "years": 21
+  },
+  "performance": {
+   "performance": 58,
+   "accessibility": 71,
+   "bestPractices": 79,
+   "seo": 69,
+   "fcp": 6827,
+   "lcp": 19988,
+   "tbt": 123,
+   "si": 6827,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "palmetto-shooting-complex"
+  ],
+  "scores": {
+   "seo": 52,
+   "social": 50,
+   "lighthouseSeo": 69
+  },
+  "competitors": [
+   {
+    "slug": "palmetto-shooting-complex",
+    "name": "Palmetto Shooting Complex",
+    "website": "https://www.nwtf.org/get-involved/hunting-heritage-center/palmetto-shooting-complex",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.2,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 29
    }
   ]
  }

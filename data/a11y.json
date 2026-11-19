@@ -1693,7 +1693,17 @@
      "nodes": 2
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "aiken-junk-removal": {
@@ -2236,7 +2246,17 @@
      "nodes": 5
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "allstar-tents-and-events": {
@@ -9126,7 +9146,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "the-dental-center-of-north-augusta": {
@@ -9389,10 +9419,10 @@
  },
  "the-village-caf": {
   "site": {
-   "rules": 1,
-   "issues": 8,
+   "rules": 2,
+   "issues": 10,
    "critical": 0,
-   "serious": 8,
+   "serious": 10,
    "moderate": 0,
    "minor": 0,
    "top": [
@@ -9400,10 +9430,26 @@
      "id": "color-contrast",
      "impact": "serious",
      "help": "Elements must meet minimum color contrast ratio thresholds",
-     "nodes": 8
+     "nodes": 9
+    },
+    {
+     "id": "aria-hidden-focus",
+     "impact": "serious",
+     "help": "ARIA hidden element must not be focusable or contain focusable elements",
+     "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "thomas-agency-group": {

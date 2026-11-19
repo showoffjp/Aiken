@@ -1755,6 +1755,54 @@
   "rank": 37
  },
  {
+  "slug": "aiken-housing-center",
+  "name": "Aiken Housing Center",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Home Builder",
+  "phone": "(803) 649-1603",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "info@aikenhousingcenter.com",
+  "otherEmails": [],
+  "website": "http://www.aikenhousingcenter.com/",
+  "siteState": "Online",
+  "score": 9,
+  "platform": "WordPress",
+  "issues": [
+   "No meta description for search results",
+   "No social sharing (Open Graph) tags",
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2026,
+  "facebook": "https://www.facebook.com/AikenHousingCenter",
+  "instagram": "https://www.instagram.com/aikenhousingcentersc/#",
+  "address": "190 Old Wagener Road, Aiken, SC 29801",
+  "contact": "David Herlong",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "aiken-housing-center",
+  "pageMB": 13.9,
+  "a11yIssues": 55,
+  "a11ySerious": 55,
+  "lhPerformance": 36,
+  "lhAccessibility": 85,
+  "seoHealth": 55,
+  "socialPresence": 65,
+  "domain": "aikenhousingcenter.com",
+  "domainExpires": "2026-12-28",
+  "domainState": "Renews or expires 2026-12-28",
+  "pitch": 51,
+  "rank": 38
+ },
+ {
   "slug": "b-and-k-grading-and-paving-llc",
   "name": "B&K Grading and Paving, LLC",
   "priority": "C · Modern site",
@@ -1796,7 +1844,7 @@
   "domainExpires": "2026-12-17",
   "domainState": "Renews or expires 2026-12-17",
   "pitch": 51,
-  "rank": 38
+  "rank": 39
  },
  {
   "slug": "tequilas-mexican-grill-and-bar",
@@ -1846,7 +1894,7 @@
   "domainExpires": "2027-08-25",
   "domainState": "",
   "pitch": 50,
-  "rank": 39
+  "rank": 40
  },
  {
   "slug": "palmetto-bowls",
@@ -1890,7 +1938,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 40
+  "rank": 41
  },
  {
   "slug": "rhumba-rum-and-cigar-lounge",
@@ -1934,7 +1982,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 41
+  "rank": 42
  },
  {
   "slug": "scotch-hutch",
@@ -1978,7 +2026,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 42
+  "rank": 43
  },
  {
   "slug": "the-wildemont",
@@ -2022,7 +2070,53 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 43
+  "rank": 44
+ },
+ {
+  "slug": "apex-home-repair-corporation",
+  "name": "Apex Home Repair Corporation",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Construction Equipment + Contractors",
+  "phone": "(803) 645-3998",
+  "listedPhone": "(803) 646-3998",
+  "phoneNote": "Directory listing looks like a typo of the number on the website",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.repairwithapex.com/",
+  "siteState": "Online",
+  "score": 2,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2025,
+  "facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/",
+  "instagram": "",
+  "address": "Aiken , SC 29803",
+  "contact": "Aaron Lott",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "apex-home-repair",
+  "pageMB": 34.6,
+  "a11yIssues": 5,
+  "a11ySerious": 5,
+  "lhPerformance": 44,
+  "lhAccessibility": 94,
+  "seoHealth": 53,
+  "socialPresence": 60,
+  "domain": "repairwithapex.com",
+  "domainExpires": "2027-08-10",
+  "domainState": "",
+  "pitch": 50,
+  "rank": 45
  },
  {
   "slug": "glassworks-by-fishburne-and-shultz-hill",
@@ -2071,7 +2165,7 @@
   "domainExpires": "2027-12-05",
   "domainState": "",
   "pitch": 49,
-  "rank": 44
+  "rank": 46
  },
  {
   "slug": "tailored-tours-of-aiken",
@@ -2119,7 +2213,7 @@
   "domainExpires": "2027-04-12",
   "domainState": "",
   "pitch": 49,
-  "rank": 45
+  "rank": 47
  },
  {
   "slug": "thomas-p-murphy-pc-attorney-at-law",
@@ -2168,7 +2262,7 @@
   "domainExpires": "2027-09-09",
   "domainState": "",
   "pitch": 49,
-  "rank": 46
+  "rank": 48
  },
  {
   "slug": "toki-jr-llc",
@@ -2218,7 +2312,7 @@
   "domainExpires": "2026-12-02",
   "domainState": "Renews or expires 2026-12-02",
   "pitch": 49,
-  "rank": 47
+  "rank": 49
  },
  {
   "slug": "antonios-italian-eatery",
@@ -2264,7 +2358,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 48,
-  "rank": 48
+  "rank": 50
  },
  {
   "slug": "hic-warehouse-indoor-skateboard-park",
@@ -2314,7 +2408,7 @@
   "domainExpires": "2027-01-19",
   "domainState": "",
   "pitch": 48,
-  "rank": 49
+  "rank": 51
  },
  {
   "slug": "empire-tree",
@@ -2358,7 +2452,7 @@
   "domainExpires": "2027-03-05",
   "domainState": "",
   "pitch": 47,
-  "rank": 50
+  "rank": 52
  },
  {
   "slug": "aiken-antique-mall",
@@ -2404,7 +2498,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 51
+  "rank": 53
  },
  {
   "slug": "antiques-and-more-mall",
@@ -2449,7 +2543,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 52
+  "rank": 54
  },
  {
   "slug": "apizza-di-napoli",
@@ -2493,7 +2587,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 53
+  "rank": 55
  },
  {
   "slug": "big-house-outpost",
@@ -2537,7 +2631,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 54
+  "rank": 56
  },
  {
   "slug": "briar-patch-antiques",
@@ -2582,7 +2676,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 55
+  "rank": 57
  },
  {
   "slug": "carolina-bar-b-que",
@@ -2626,7 +2720,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 56
+  "rank": 58
  },
  {
   "slug": "dinner-bell",
@@ -2670,7 +2764,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 57
+  "rank": 59
  },
  {
   "slug": "dos-potrillos-mexican-restaurant",
@@ -2714,7 +2808,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 58
+  "rank": 60
  },
  {
   "slug": "el-charrito-taqueria",
@@ -2758,7 +2852,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 59
+  "rank": 61
  },
  {
   "slug": "farm-dog",
@@ -2802,7 +2896,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 60
+  "rank": 62
  },
  {
   "slug": "flanigans-ice-cream",
@@ -2848,7 +2942,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 61
+  "rank": 63
  },
  {
   "slug": "indigo-bleu",
@@ -2892,7 +2986,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 62
+  "rank": 64
  },
  {
   "slug": "its-all-good-market-and-catering",
@@ -2936,7 +3030,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 63
+  "rank": 65
  },
  {
   "slug": "la-parisienne-french-restaurant-and-bakery",
@@ -2980,7 +3074,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 64
+  "rank": 66
  },
  {
   "slug": "los-tres-compadres",
@@ -3024,7 +3118,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 65
+  "rank": 67
  },
  {
   "slug": "macalusos-restaurant",
@@ -3069,7 +3163,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 66
+  "rank": 68
  },
  {
   "slug": "okinawa-japanese-steakhouse-and-sushi-bowl",
@@ -3113,7 +3207,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 67
+  "rank": 69
  },
  {
   "slug": "pats-sub-shop",
@@ -3158,7 +3252,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 68
+  "rank": 70
  },
  {
   "slug": "pitter-patter-carolines",
@@ -3203,7 +3297,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 69
+  "rank": 71
  },
  {
   "slug": "romas-italian-restaurant",
@@ -3247,7 +3341,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 70
+  "rank": 72
  },
  {
   "slug": "smoothie-groove",
@@ -3291,7 +3385,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 71
+  "rank": 73
  },
  {
   "slug": "soul-and-seafood-house",
@@ -3335,7 +3429,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 72
+  "rank": 74
  },
  {
   "slug": "taj-aiken",
@@ -3379,7 +3473,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 73
+  "rank": 75
  },
  {
   "slug": "track-kitchen",
@@ -3423,7 +3517,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 74
+  "rank": 76
  },
  {
   "slug": "trail-riding-the-trail-riding-company",
@@ -3467,7 +3561,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 75
+  "rank": 77
  },
  {
   "slug": "unique-catering",
@@ -3511,7 +3605,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 76
+  "rank": 78
  },
  {
   "slug": "white-rose-eclectics",
@@ -3555,7 +3649,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 77
+  "rank": 79
  },
  {
   "slug": "york-cottage-antiques",
@@ -3599,7 +3693,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 78
+  "rank": 80
  },
  {
   "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
@@ -3648,7 +3742,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 45,
-  "rank": 79
+  "rank": 81
  },
  {
   "slug": "hals-hair-center",
@@ -3697,7 +3791,7 @@
   "domainExpires": "2027-07-21",
   "domainState": "",
   "pitch": 45,
-  "rank": 80
+  "rank": 82
  },
  {
   "slug": "inn-at-houndslake",
@@ -3749,7 +3843,7 @@
   "domainExpires": "2027-07-31",
   "domainState": "",
   "pitch": 45,
-  "rank": 81
+  "rank": 83
  },
  {
   "slug": "southern-magnolia-dentistry",
@@ -3799,7 +3893,54 @@
   "domainExpires": "2028-01-06",
   "domainState": "",
   "pitch": 45,
-  "rank": 82
+  "rank": 84
+ },
+ {
+  "slug": "the-fermata-club",
+  "name": "The Fermata Club",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Sports + Recreation",
+  "phone": "(240) 460-1094",
+  "listedPhone": "(803) 648-5673",
+  "phoneNote": "Directory listing differs from the website: verify",
+  "email": "thefermataclub@gmail.com",
+  "otherEmails": [],
+  "website": "http://www.fermataclub.com/",
+  "siteState": "Online",
+  "score": 11,
+  "platform": "WordPress",
+  "issues": [
+   "Deprecated HTML: <center> tags ×28",
+   "No meta description for search results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": null,
+  "facebook": "https://www.facebook.com/fermataclub",
+  "instagram": "",
+  "address": "841 Whiskey Road, Aiken, SC 29801",
+  "contact": "Claire Cunningham",
+  "familyNote": "",
+  "since": 1952,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "fermata-club",
+  "pageMB": 6.7,
+  "a11yIssues": 42,
+  "a11ySerious": 42,
+  "lhPerformance": 58,
+  "lhAccessibility": 71,
+  "seoHealth": 52,
+  "socialPresence": 50,
+  "domain": "fermataclub.com",
+  "domainExpires": "2026-12-03",
+  "domainState": "Renews or expires 2026-12-03",
+  "pitch": 45,
+  "rank": 85
  },
  {
   "slug": "arthur-w-buzz-rich-pc",
@@ -3843,7 +3984,7 @@
   "domainExpires": "2028-05-16",
   "domainState": "",
   "pitch": 44,
-  "rank": 83
+  "rank": 86
  },
  {
   "slug": "eastside-village",
@@ -3887,7 +4028,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 44,
-  "rank": 84
+  "rank": 87
  },
  {
   "slug": "electric-selfie-360",
@@ -3931,7 +4072,7 @@
   "domainExpires": "2028-09-03",
   "domainState": "",
   "pitch": 44,
-  "rank": 85
+  "rank": 88
  },
  {
   "slug": "overstreet-and-associates-cpas-llc",
@@ -3975,7 +4116,7 @@
   "domainExpires": "2028-08-30",
   "domainState": "",
   "pitch": 44,
-  "rank": 86
+  "rank": 89
  },
  {
   "slug": "pat-cunning-woodside-aiken-realty-commercial-div",
@@ -4019,7 +4160,7 @@
   "domainExpires": "2027-11-04",
   "domainState": "",
   "pitch": 44,
-  "rank": 87
+  "rank": 90
  },
  {
   "slug": "salsas-mex-mex-grill",
@@ -4064,7 +4205,7 @@
   "domainExpires": "2027-02-28",
   "domainState": "",
   "pitch": 44,
-  "rank": 88
+  "rank": 91
  },
  {
   "slug": "strength-after-storms-network-llc",
@@ -4108,7 +4249,7 @@
   "domainExpires": "2029-05-23",
   "domainState": "",
   "pitch": 44,
-  "rank": 89
+  "rank": 92
  },
  {
   "slug": "the-aiken-sign-co",
@@ -4152,7 +4293,7 @@
   "domainExpires": "2027-04-01",
   "domainState": "",
   "pitch": 44,
-  "rank": 90
+  "rank": 93
  },
  {
   "slug": "urban-canine-pest-and-wildlife-solutions",
@@ -4196,7 +4337,7 @@
   "domainExpires": "2027-12-30",
   "domainState": "",
   "pitch": 44,
-  "rank": 91
+  "rank": 94
  },
  {
   "slug": "hughes-beattie-oneal-law-and-assoc-pc",
@@ -4248,7 +4389,7 @@
   "domainExpires": "2028-11-19",
   "domainState": "",
   "pitch": 44,
-  "rank": 92
+  "rank": 95
  },
  {
   "slug": "rebel-ranch-horse-tours-llc",
@@ -4294,7 +4435,7 @@
   "domainExpires": "2027-10-27",
   "domainState": "",
   "pitch": 44,
-  "rank": 93
+  "rank": 96
  },
  {
   "slug": "simply-social-events-and-more-llc",
@@ -4345,7 +4486,7 @@
   "domainExpires": "2027-09-11",
   "domainState": "",
   "pitch": 44,
-  "rank": 94
+  "rank": 97
  },
  {
   "slug": "elevate-aiken",
@@ -4390,7 +4531,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 95
+  "rank": 98
  },
  {
   "slug": "la-scuderia-aiken",
@@ -4434,7 +4575,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 96
+  "rank": 99
  },
  {
   "slug": "lilianhaus",
@@ -4479,7 +4620,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 97
+  "rank": 100
  },
  {
   "slug": "local-junction",
@@ -4523,7 +4664,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 98
+  "rank": 101
  },
  {
   "slug": "mcghees-mile",
@@ -4567,7 +4708,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 99
+  "rank": 102
  },
  {
   "slug": "sweet-bs",
@@ -4613,7 +4754,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 42,
-  "rank": 100
+  "rank": 103
  },
  {
   "slug": "aiken-pet-sitters-llc",
@@ -4657,7 +4798,7 @@
   "domainExpires": "2027-06-11",
   "domainState": "",
   "pitch": 42,
-  "rank": 101
+  "rank": 104
  },
  {
   "slug": "carolina-dragway-inc",
@@ -4705,7 +4846,7 @@
   "domainExpires": "2027-02-03",
   "domainState": "",
   "pitch": 42,
-  "rank": 102
+  "rank": 105
  },
  {
   "slug": "carolina-hvac-and-electrical",
@@ -4751,55 +4892,57 @@
   "domainExpires": "2031-10-15",
   "domainState": "",
   "pitch": 40,
-  "rank": 103
+  "rank": 106
  },
  {
-  "slug": "aiken-housing-center",
-  "name": "Aiken Housing Center",
+  "slug": "the-village-caf",
+  "name": "The Village Café",
   "priority": "C · Modern site",
   "tier": "modern",
   "town": "Aiken",
-  "category": "Home Builder",
-  "phone": "(803) 649-1603",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "info@aikenhousingcenter.com",
-  "otherEmails": [],
-  "website": "http://www.aikenhousingcenter.com/",
+  "category": "Restaurant",
+  "phone": "(803) 599-2982",
+  "listedPhone": "(803) 640-0247",
+  "phoneNote": "Directory listing differs from the website: verify",
+  "email": "info@thevillagecafeaiken.com",
+  "otherEmails": [
+   "thevillagecafeaiken@gmail.com"
+  ],
+  "website": "http://www.thevillagecafeaiken.com/",
   "siteState": "Online",
-  "score": 9,
-  "platform": "WordPress",
+  "score": 8,
+  "platform": "Toast site",
   "issues": [
-   "No meta description for search results",
-   "No social sharing (Open Graph) tags",
-   "No structured data for Google business results"
+   "Deprecated HTML: <center> tags ×2",
+   "No meta description for search results"
   ],
   "https": true,
   "mobileReady": true,
-  "copyrightYear": 2026,
-  "facebook": "https://www.facebook.com/AikenHousingCenter",
-  "instagram": "https://www.instagram.com/aikenhousingcentersc/#",
-  "address": "190 Old Wagener Road, Aiken, SC 29801",
-  "contact": "David Herlong",
+  "copyrightYear": null,
+  "facebook": "https://www.facebook.com/thevillagecafeaiken",
+  "instagram": "https://www.instagram.com/thevillagecafeaiken",
+  "address": "110 Coach Light Way, Aiken, SC 29803",
+  "contact": "Tyler Richardson",
   "familyNote": "",
   "since": null,
-  "blurb": "",
+  "blurb": "A restaurant created with Aiken customers in mind, The Village Café strives to provide guests with delicious and high-quality food, beverages and gelato. Your support for this restaurant supports a host of local farmers- their ingredients are locally-sourced specifically to benefit the Aiken community.",
   "sources": [
-   "Aiken Chamber"
+   "Aiken Chamber",
+   "Visit Aiken"
   ],
-  "demo": "",
-  "pageMB": 13.9,
-  "a11yIssues": 55,
-  "a11ySerious": 55,
-  "lhPerformance": 39,
-  "lhAccessibility": 85,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "aikenhousingcenter.com",
-  "domainExpires": "2026-12-28",
-  "domainState": "Renews or expires 2026-12-28",
-  "pitch": 37,
-  "rank": 104
+  "demo": "village-cafe",
+  "pageMB": 6.1,
+  "a11yIssues": 10,
+  "a11ySerious": 10,
+  "lhPerformance": 58,
+  "lhAccessibility": 84,
+  "seoHealth": 58,
+  "socialPresence": 85,
+  "domain": "thevillagecafeaiken.com",
+  "domainExpires": "2027-12-14",
+  "domainState": "",
+  "pitch": 40,
+  "rank": 107
  },
  {
   "slug": "argus-visuals",
@@ -4846,7 +4989,7 @@
   "domainExpires": "2027-06-02",
   "domainState": "",
   "pitch": 37,
-  "rank": 105
+  "rank": 108
  },
  {
   "slug": "the-restaurant-at-the-willcox",
@@ -4895,7 +5038,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 37,
-  "rank": 106
+  "rank": 109
  },
  {
   "slug": "verdant-landscape",
@@ -4943,7 +5086,7 @@
   "domainExpires": "2028-07-06",
   "domainState": "",
   "pitch": 37,
-  "rank": 107
+  "rank": 110
  },
  {
   "slug": "woodside-development-lp",
@@ -4987,53 +5130,7 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 37,
-  "rank": 108
- },
- {
-  "slug": "apex-home-repair-corporation",
-  "name": "Apex Home Repair Corporation",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Construction Equipment + Contractors",
-  "phone": "(803) 645-3998",
-  "listedPhone": "(803) 646-3998",
-  "phoneNote": "Directory listing looks like a typo of the number on the website",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.repairwithapex.com/",
-  "siteState": "Online",
-  "score": 2,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2025,
-  "facebook": "https://www.facebook.com/p/Apex-Home-Repair-61557451994398/",
-  "instagram": "",
-  "address": "Aiken , SC 29803",
-  "contact": "Aaron Lott",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 34.6,
-  "a11yIssues": 5,
-  "a11ySerious": 5,
-  "lhPerformance": 45,
-  "lhAccessibility": 94,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "repairwithapex.com",
-  "domainExpires": "2027-08-10",
-  "domainState": "",
-  "pitch": 36,
-  "rank": 109
+  "rank": 111
  },
  {
   "slug": "beech-island-appliance-service-co-inc",
@@ -5080,7 +5177,7 @@
   "domainExpires": "2027-01-17",
   "domainState": "Renews or expires 2027-01-17",
   "pitch": 35,
-  "rank": 110
+  "rank": 112
  },
  {
   "slug": "208-abbeville-bed-and-breakfast",
@@ -5124,7 +5221,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 111
+  "rank": 113
  },
  {
   "slug": "aiken-ghost-tours",
@@ -5168,7 +5265,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 112
+  "rank": 114
  },
  {
   "slug": "cabanas-salvadorean-restaurant",
@@ -5212,7 +5309,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 113
+  "rank": 115
  },
  {
   "slug": "joyful-caf",
@@ -5256,7 +5353,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 114
+  "rank": 116
  },
  {
   "slug": "timeless-touch-events-llc",
@@ -5300,7 +5397,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 115
+  "rank": 117
  },
  {
   "slug": "hair-of-the-dog-llc",
@@ -5347,7 +5444,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 116
+  "rank": 118
  },
  {
   "slug": "kelley-appliance-home-store",
@@ -5393,7 +5490,7 @@
   "domainExpires": "2032-12-17",
   "domainState": "",
   "pitch": 34,
-  "rank": 117
+  "rank": 119
  },
  {
   "slug": "osbons-laundry-and-cleaners-downtown",
@@ -5437,7 +5534,7 @@
   "domainExpires": "2028-06-30",
   "domainState": "",
   "pitch": 34,
-  "rank": 118
+  "rank": 120
  },
  {
   "slug": "encore",
@@ -5485,7 +5582,7 @@
   "domainExpires": "2027-11-29",
   "domainState": "",
   "pitch": 33,
-  "rank": 119
+  "rank": 121
  },
  {
   "slug": "big-putts-mobile-miniature-golf",
@@ -5529,7 +5626,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 120
+  "rank": 122
  },
  {
   "slug": "black-forest-equestrian-center-inc",
@@ -5573,7 +5670,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 121
+  "rank": 123
  },
  {
   "slug": "bull-head-disposal-llc",
@@ -5617,7 +5714,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 122
+  "rank": 124
  },
  {
   "slug": "carpenters-tire-and-auto",
@@ -5661,7 +5758,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 123
+  "rank": 125
  },
  {
   "slug": "hixons-roofing-and-construction-llc",
@@ -5705,7 +5802,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 124
+  "rank": 126
  },
  {
   "slug": "horizon-physical-therapy-and-wellness",
@@ -5749,7 +5846,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 125
+  "rank": 127
  },
  {
   "slug": "jamrock-caribana",
@@ -5793,7 +5890,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 126
+  "rank": 128
  },
  {
   "slug": "mcneelys-place",
@@ -5837,7 +5934,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 127
+  "rank": 129
  },
  {
   "slug": "rock-creek-irrigation-and-landscapes",
@@ -5881,7 +5978,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 128
+  "rank": 130
  },
  {
   "slug": "ruthie-graham",
@@ -5925,7 +6022,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 129
+  "rank": 131
  },
  {
   "slug": "the-parlour-coffee-and-company",
@@ -5970,7 +6067,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 130
+  "rank": 132
  },
  {
   "slug": "the-pub-at-cedar-creek",
@@ -6015,7 +6112,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 131
+  "rank": 133
  },
  {
   "slug": "vvs-hospitality-aiken-midtown-hotel",
@@ -6059,7 +6156,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 132
+  "rank": 134
  },
  {
   "slug": "the-backyard",
@@ -6106,7 +6203,7 @@
   "domainExpires": "2026-12-23",
   "domainState": "Renews or expires 2026-12-23",
   "pitch": 32,
-  "rank": 133
+  "rank": 135
  },
  {
   "slug": "trophies-unlimited",
@@ -6150,54 +6247,7 @@
   "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 32,
-  "rank": 134
- },
- {
-  "slug": "the-fermata-club",
-  "name": "The Fermata Club",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Sports + Recreation",
-  "phone": "(240) 460-1094",
-  "listedPhone": "(803) 648-5673",
-  "phoneNote": "Directory listing differs from the website: verify",
-  "email": "thefermataclub@gmail.com",
-  "otherEmails": [],
-  "website": "http://www.fermataclub.com/",
-  "siteState": "Online",
-  "score": 11,
-  "platform": "WordPress",
-  "issues": [
-   "Deprecated HTML: <center> tags ×28",
-   "No meta description for search results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "https://www.facebook.com/fermataclub",
-  "instagram": "",
-  "address": "841 Whiskey Road, Aiken, SC 29801",
-  "contact": "Claire Cunningham",
-  "familyNote": "",
-  "since": 1952,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 6.7,
-  "a11yIssues": 42,
-  "a11ySerious": 42,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "fermataclub.com",
-  "domainExpires": "2026-12-03",
-  "domainState": "Renews or expires 2026-12-03",
-  "pitch": 31,
-  "rank": 135
+  "rank": 136
  },
  {
   "slug": "piece-of-potato",
@@ -6241,7 +6291,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 136
+  "rank": 137
  },
  {
   "slug": "tumbleweed",
@@ -6285,7 +6335,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 137
+  "rank": 138
  },
  {
   "slug": "lionel-smith-ltd",
@@ -6331,7 +6381,7 @@
   "domainExpires": "2028-06-24",
   "domainState": "",
   "pitch": 29,
-  "rank": 138
+  "rank": 139
  },
  {
   "slug": "shining-sons-enterprises-llc",
@@ -6373,56 +6423,6 @@
   "socialPresence": null,
   "domain": "shiningsonsenterprises.com",
   "domainExpires": "2027-03-15",
-  "domainState": "",
-  "pitch": 29,
-  "rank": 139
- },
- {
-  "slug": "the-village-caf",
-  "name": "The Village Café",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 599-2982",
-  "listedPhone": "(803) 640-0247",
-  "phoneNote": "Directory listing differs from the website: verify",
-  "email": "info@thevillagecafeaiken.com",
-  "otherEmails": [
-   "thevillagecafeaiken@gmail.com"
-  ],
-  "website": "http://www.thevillagecafeaiken.com/",
-  "siteState": "Online",
-  "score": 8,
-  "platform": "Toast site",
-  "issues": [
-   "Deprecated HTML: <center> tags ×2",
-   "No meta description for search results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "https://www.facebook.com/thevillagecafeaiken",
-  "instagram": "https://www.instagram.com/thevillagecafeaiken",
-  "address": "110 Coach Light Way, Aiken, SC 29803",
-  "contact": "Tyler Richardson",
-  "familyNote": "",
-  "since": null,
-  "blurb": "A restaurant created with Aiken customers in mind, The Village Café strives to provide guests with delicious and high-quality food, beverages and gelato. Your support for this restaurant supports a host of local farmers- their ingredients are locally-sourced specifically to benefit the Aiken community.",
-  "sources": [
-   "Aiken Chamber",
-   "Visit Aiken"
-  ],
-  "demo": "",
-  "pageMB": 6.2,
-  "a11yIssues": 8,
-  "a11ySerious": 8,
-  "lhPerformance": 49,
-  "lhAccessibility": 84,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "thevillagecafeaiken.com",
-  "domainExpires": "2027-12-14",
   "domainState": "",
   "pitch": 29,
   "rank": 140

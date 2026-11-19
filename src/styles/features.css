@@ -317,3 +317,6 @@ dialog.lightbox::backdrop { background: transparent; }
   .cine-copy { padding-block: 36px calc(clamp(40px, 7vh, 96px) + 48px); }
   #top.hx-board h1, #top.hx-collage h1, #top.hx-spotlight h1:not([data-long]) { font-size: min(clamp(2.6rem, 5.6vw, 5.2rem), 8.2vh); }
 }
+
+/* A small, wide hero photo keeps a landscape frame (see lowResWide), so it is never enlarged past its pixels. */
+.hero-visual.wide-frame .frame, [data-frame] .hero-visual.wide-frame .frame { aspect-ratio: 16 / 10; }
