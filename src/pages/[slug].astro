@@ -9,6 +9,8 @@ import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
 import Hero from '../components/demo/Hero.astro';
 import Decor from '../components/demo/Decor.astro';
+import StreetMap from '../components/demo/StreetMap.astro';
+import { streetMap } from '../lib/streets';
 import { demos, fonts, telHref, title, sectionId, srcset, cinematicHero, offerWords, vcardFile, tint, coverSizes, type Demo } from '../lib/demos';
 import { site } from '../lib/site';
 import { businessLd, openingHours } from '../lib/schema';
@@ -64,6 +66,9 @@ const ribbon = ribbonWords.length >= 2 && archetype !== 'poster' && st.facts !==
 const short = demo.short || demo.name;
 const sealBottom = [demo.town.replace(/,?\s*SC$/i, ', South Carolina'), demo.established ? `Est. ${demo.established}` : ''].filter(Boolean).join(' · ');
 const mapSrc = contact.mapQuery ? `https://www.google.com/maps?q=${encodeURIComponent(contact.mapQuery)}&output=embed` : '';
+// A drawn street map (OpenStreetMap data) shows first; Google's interactive
+// map loads only when someone asks for it.
+const streets = streetMap(demo.slug);
 const directions = contact.mapQuery ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(contact.mapQuery)}` : '';
 const sourceHost = new URL(demo.source.url).hostname.replace(/^www\./, '');
 const after = demo.source.after || [
@@ -291,7 +296,14 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
               </div>
             </div>
             <div>
-              {mapSrc && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
+              {mapSrc && streets && (
+                <div class="map map-drawn" data-map>
+                  <span class="map-ph" aria-hidden="true"><StreetMap data={streets} id={`map-${demo.slug}`} /><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span>
+                  <button class="map-live" type="button" data-map-src={mapSrc} data-map-title={`Map to ${demo.name}`}><Icon name="map" size={17} stroke={2.1} />Interactive map</button>
+                  <a class="map-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>
+                </div>
+              )}
+              {mapSrc && !streets && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
               {!demo.visit?.hideForm && (
                 <form class="form" data-form data-to={contact.email || ""} data-biz={short} novalidate>
                   <h3>{demo.visit?.formTitle || 'Send us a message'}</h3>
@@ -462,6 +474,15 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             document.querySelectorAll('[data-open-now]').forEach((el) => { el.textContent = text; el.dataset.state = state; el.hidden = false; });
           }
         }
+
+        // Google's interactive map loads only when asked for: the drawn map is
+        // already there, and nothing is fetched from Google before the tap.
+        document.querySelectorAll('[data-map-src]').forEach((b) => b.addEventListener('click', () => {
+          const box = b.closest('[data-map]');
+          const f = document.createElement('iframe');
+          f.src = b.dataset.mapSrc; f.title = b.dataset.mapTitle || 'Map'; f.referrerPolicy = 'no-referrer-when-downgrade';
+          box.append(f); box.classList.add('live'); b.remove(); f.focus();
+        }));
 
         // Directions open Apple Maps on iPhones and iPads.
         if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {

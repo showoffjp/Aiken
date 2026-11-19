@@ -1,0 +1,282 @@
+{
+  "name": "Return Engagement",
+  "short": "Return Engagement",
+  "category": "Consignment Boutique",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#faf6f2",
+    "surface": "#ffffff",
+    "ink": "#2a1d17",
+    "muted": "#6b5a50",
+    "primary": "#4a2c1d",
+    "onPrimary": "#ffffff",
+    "accent": "#c98b7a",
+    "line": "#ecdfd6"
+  },
+  "radius": 4,
+  "icon": "shopping-bag",
+  "contact": {
+    "phone": "(803) 642-3337",
+    "email": "rengagementaiken@att.net",
+    "address": [
+      "151 Laurens Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Return Engagement, 151 Laurens St SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:00 am – 5:30 pm"
+      ]
+    ],
+    "hoursNote": "Consignments on Mondays, 10:30 am – 4:30 pm; other days by appointment.",
+    "facebook": "https://www.facebook.com/returnengagementaiken/"
+  },
+  "hero": {
+    "eyebrow": "Upscale consignment on Laurens Street",
+    "title": "Designer style, *second time around*",
+    "lede": "New and gently used designer apparel, handbags, jewelry and accessories in downtown Aiken: Chanel, Prada, St. John and Louis Vuitton alongside Talbots, Chico’s and Eileen Fisher.",
+    "points": [
+      "Designer apparel",
+      "Handbags & jewelry",
+      "Consign with us"
+    ],
+    "cta": {
+      "label": "How consigning works",
+      "href": "#consign"
+    },
+    "cta2": {
+      "label": "Call (803) 642-3337",
+      "href": "tel:+18036423337"
+    },
+    "image": {
+      "src": "/demo-assets/return-engagement/window-look.webp",
+      "alt": "A mannequin in a navy embroidered tunic and red trousers outside the shop on Laurens Street",
+      "width": 1200,
+      "height": 1500
+    }
+  },
+  "facts": [
+    {
+      "value": "Mon–Sat",
+      "label": "Open 10 to 5:30"
+    },
+    {
+      "value": "$15",
+      "label": "Yearly consignor fee"
+    },
+    {
+      "value": "2019–22",
+      "label": "Aiken’s Choice, Best of Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "Shop",
+      "columns": 3,
+      "eyebrow": "What you’ll find",
+      "title": "Labels you love, *for less*",
+      "items": [
+        {
+          "icon": "shirt",
+          "title": "Designer apparel",
+          "text": "St. John, Chanel, Prada and Versace, chosen with care and priced to pass the savings on."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Contemporary wear",
+          "text": "Ann Taylor, Doncaster, Carlisle, Chico’s, Etcetera, Tribal, Trina Turk and Talbots."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Handbags",
+          "text": "Prada, Jimmy Choo, Mary Frances, Coach, Dooney & Bourke, Louis Vuitton, Fendi and Kate Spade."
+        },
+        {
+          "icon": "gem",
+          "title": "Jewelry",
+          "text": "St. John, Honora, Chanel and Joan Rivers, plus pieces by local artists."
+        },
+        {
+          "icon": "crown",
+          "title": "Formal wear",
+          "text": "Gowns and formals, taken all year round."
+        },
+        {
+          "icon": "gift",
+          "title": "Gift certificates & layaway",
+          "text": "Gift certificates for anyone on your list, and layaway on high-end items."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "In the shop",
+      "title": "Just *came in*",
+      "images": [
+        {
+          "src": "/demo-assets/return-engagement/judith-leiber.webp",
+          "alt": "A red beaded Judith Leiber evening bag beside a silver crystal clutch",
+          "width": 1200,
+          "height": 1210
+        },
+        {
+          "src": "/demo-assets/return-engagement/lv-sandals.webp",
+          "alt": "Louis Vuitton monogram sandals on their box",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/return-engagement/lv-bags.webp",
+          "alt": "A Louis Vuitton multicolor monogram handbag with two black Louis Vuitton leather pieces",
+          "width": 1600,
+          "height": 1407
+        },
+        {
+          "src": "/demo-assets/return-engagement/black-gown.webp",
+          "alt": "A black one-shoulder gown and pearls on a mannequin by the door",
+          "width": 1080,
+          "height": 1351
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "consign",
+      "nav": "Consign",
+      "eyebrow": "Consign with us",
+      "title": "How *consigning works*",
+      "intro": "Bring up to 15 items on a Monday between 10:30 am and 4:30 pm. For 15 to 30 items, book a Tuesday-to-Friday appointment so you don’t wait. The yearly consignment fee is $15.",
+      "columns": [
+        {
+          "title": "When we take what",
+          "items": [
+            "Spring & summer: February 1 – June 30",
+            "Fall & winter: September 1 – November 30",
+            "July, August, December and January: high-end items by appointment"
+          ]
+        },
+        {
+          "title": "We take",
+          "items": [
+            "Current and classic women’s styles",
+            "Designer and mid-range labels",
+            "Formal wear, accessories, jewelry and designer perfume",
+            "Watches with a working battery"
+          ]
+        },
+        {
+          "title": "We don’t take",
+          "items": [
+            "Bridal gowns, lingerie or swimsuits",
+            "Anything with an odor or in poor condition",
+            "Fast-fashion labels such as Old Navy or Target’s brands"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "ready",
+      "eyebrow": "Getting it ready",
+      "title": "Three steps *to sold*",
+      "items": [
+        {
+          "title": "Clean & pressed",
+          "text": "Freshly laundered, stain-free and wrinkle-free pieces sell faster, and for more."
+        },
+        {
+          "title": "On hangers",
+          "text": "Bring everything on hangers, with dry-cleaning tags left on. Hangers come back on request."
+        },
+        {
+          "title": "We price it",
+          "text": "We price each item ourselves, and welcome your input on couture, furs and one-of-a-kind pieces."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you make house calls?",
+          "a": "Yes, by appointment, for large consignments, estates and elderly consignors. There’s a $35 fee."
+        },
+        {
+          "q": "Are the designer pieces authentic?",
+          "a": "We take great care to check. If we know an item isn’t authentic, its tag says “faux”, and we ask you to point out anything you’re unsure of before you buy."
+        },
+        {
+          "q": "Can I check my consignor account online?",
+          "a": "Yes. Consignors can see their account online at any time."
+        },
+        {
+          "q": "Is there a waiting list for handbags?",
+          "a": "Yes, there’s a waiting list for high-end purses, so they tend to sell quickly. Consign yours now."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Clean out your closet",
+      "text": "Consignments on Mondays, 10:30 to 4:30. Call ahead for 15 items or more.",
+      "cta": {
+        "label": "Call (803) 642-3337",
+        "href": "tel:+18036423337"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "formTitle": "Ask about consigning",
+    "formTopics": [
+      "Consigning",
+      "A house call",
+      "Layaway",
+      "A gift certificate",
+      "Something I saw"
+    ]
+  },
+  "slug": "return-engagement",
+  "added": "2026-11-19",
+  "prospect": "return-engagement",
+  "source": {
+    "url": "https://returnengagementaiken.com/",
+    "before": [
+      "The News page still says “We are now taking Spring and Summer items” in November, when the shop is taking fall and winter",
+      "On a phone the main image takes about 16 seconds to appear on a 4.2 MB page (Google Lighthouse speed score: 57 out of 100)",
+      "The Facebook link opens a single old photo instead of the shop’s page",
+      "No description for Google results, no preview when the link is shared, and no icon for browser tabs"
+    ],
+    "after": [
+      "What to bring, and when, on one screen",
+      "The labels you carry, with photos",
+      "Hours and consignment days where people look",
+      "One tap to call or get directions"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "list",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

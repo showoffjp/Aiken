@@ -4,12 +4,15 @@
 // content: title, lede, calls to action, points, facts, contact, menu or services.
 import Icon from '../Icon.astro';
 import Decor from './Decor.astro';
+import StreetMap from './StreetMap.astro';
+import { streetMap } from '../../lib/streets';
 import { ratio } from '../../lib/contrast';
 import { title, telHref, offerWords, brandIcons, type Demo } from '../../lib/demos';
 interface Props { demo: Demo; kind: string }
 const { demo, kind } = Astro.props;
 const { hero, contact } = demo;
 const short = demo.short || demo.name;
+const streets = streetMap(demo.slug);
 const town = demo.town.replace(/,\s*SC$/i, '');
 
 // Words for marquees and lists, from what the business actually offers.
@@ -92,7 +95,7 @@ const mast = `--mh-one: min(10rem, 15vh, ${fit(short.length, cwL)}); --mh-wrap: 
         {hours.length > 0 && <div class="b-hours"><small>Hours</small>{hours.map(([d, t]) => <span><b>{d}</b><em class="b-t">{t.split(/\s+·\s+/).map((part) => <i>{part}</i>)}</em></span>)}</div>}
         {contact.address && (
           <div class="b-where">
-            <span class="b-map" aria-hidden="true"><i class="road h1"></i><i class="road h2"></i><i class="road v1"></i><i class="road v2"></i><i class="pin"><Icon name="map-pin" size={22} stroke={2.2} /></i></span>
+            <span class="b-map" aria-hidden="true">{streets ? <StreetMap data={streets} labels={false} /> : <><i class="road h1"></i><i class="road h2"></i><i class="road v1"></i><i class="road v2"></i></>}<i class="pin"><Icon name="map-pin" size={22} stroke={2.2} /></i></span>
             <small>Find us</small><span>{contact.address[0]}</span><span>{contact.address[1] || town}</span>
           </div>
         )}

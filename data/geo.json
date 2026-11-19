@@ -1,0 +1,880 @@
+{
+ "208-abbeville-bed-and-breakfast": {
+  "q": "208 Abbeville Avenue NW, Aiken, SC",
+  "lat": 33.567143,
+  "lon": -81.718222,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "419hayne-luxury-suites": {
+  "q": "419 Hayne Avenue SW, Aiken, SC 29801",
+  "lat": 33.560369,
+  "lon": -81.725158,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "aiken-antique-mall": {
+  "q": "112 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.561015,
+  "lon": -81.722418,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "aiken-flooring": {
+  "q": "2645 Whiskey Road, Suite 103, Aiken, SC 29803",
+  "lat": 33.503012,
+  "lon": -81.708097,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "aiken-granite": {
+  "q": "1272 Powderhouse Road SE, Aiken, SC 29803",
+  "lat": 33.528195,
+  "lon": -81.701618,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "aiken-housing-center": {
+  "q": "190 Old Wagener Road, Aiken, SC 29801",
+  "lat": 33.549025,
+  "lon": -81.676635,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "aiken-polo-club": {
+  "q": "420 Mead Avenue, Aiken, SC 29801",
+  "lat": 33.546042,
+  "lon": -81.714969,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "allstar-tents": {
+  "q": "176 Bettis Academy Road, Graniteville, SC 29829",
+  "lat": 33.577415,
+  "lon": -81.835054,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "antiques-and-more-mall": {
+  "q": "640 E Pine Log Road, Aiken, SC 29803",
+  "lat": 33.53006,
+  "lon": -81.703709,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "antonios-italian-eatery": {
+  "q": "336 Georgia Avenue, Suite 103, North Augusta, SC 29841",
+  "lat": 33.492006,
+  "lon": -81.971727,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "apex-home-repair": {
+  "q": "Aiken, SC 29803",
+  "lat": 33.561617,
+  "lon": -81.722458,
+  "kind": "city",
+  "exact": false,
+  "at": "2026-11-19"
+ },
+ "apizza-di-napoli": {
+  "q": "740 Silver Bluff Road, Aiken, SC",
+  "lat": 33.513419,
+  "lon": -81.73378,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "argus-visuals": {
+  "q": "336 Georgia Avenue, North Augusta, SC 29841",
+  "lat": 33.492006,
+  "lon": -81.971727,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "augusta-ready-mix": {
+  "q": "1099 Reynolds Pond Road, Aiken, SC 29801",
+  "lat": 33.614695,
+  "lon": -81.71983,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "beech-island-appliance": {
+  "q": "1576 Sand Bar Ferry Road, Beech Island, SC 29842",
+  "lat": 33.438408,
+  "lon": -81.904523,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "beech-island-timber": {
+  "q": "10 Kimberly Acres Dr., Jackson, SC 29831",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "big-house-outpost": {
+  "q": "300 Park Avenue SE, Aiken, SC 29801",
+  "lat": 33.557898,
+  "lon": -81.717042,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "bk-grading-and-paving": {
+  "q": "2087 Williston Road, Aiken, SC 29803",
+  "lat": 33.392834,
+  "lon": -81.721812,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "bloom-salon": {
+  "q": "955 Colony Parkway, Aiken, SC 29803",
+  "lat": 33.532224,
+  "lon": -81.722377,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "bottom-line-bakery": {
+  "q": "148 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560294,
+  "lon": -81.722836,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "bradley-plumbing-heating": {
+  "q": "150 Rutland Drive NW, Aiken, SC 29801",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "bravefriend": {
+  "q": "122 Laurens Street NW, Aiken, SC 29801",
+  "lat": 33.562276,
+  "lon": -81.722347,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "briar-patch-antiques": {
+  "q": "724 Richland Avenue W, Aiken, SC 29801",
+  "lat": 33.563161,
+  "lon": -81.727612,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "broome-service-center": {
+  "q": "463 Old Jackson Hwy, Jackson, SC 29831",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "cabanas-salvadorean-restaurant": {
+  "q": "1625 Richland Avenue East, Aiken, SC",
+  "lat": 33.554368,
+  "lon": -81.699852,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "carolina-bar-b-que": {
+  "q": "109 Main Street, New Ellenton, SC 29809",
+  "lat": 33.418595,
+  "lon": -81.685243,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "carolina-dragway": {
+  "q": "302 Dragstrip Road, Aiken, SC 29803",
+  "lat": 33.36468,
+  "lon": -81.796522,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "carolina-hvac": {
+  "q": "450 Centerwood Road, Windsor, SC 29856",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "dinner-bell": {
+  "q": "2411 Wagener Road, Aiken, SC 29801",
+  "lat": 33.546141,
+  "lon": -81.680889,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "dos-potrillos": {
+  "q": "119 Laurens Street NW, Aiken, SC",
+  "lat": 33.562417,
+  "lon": -81.722365,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "downtown-dog": {
+  "q": "150-A Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560093,
+  "lon": -81.72288,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "durban-laird-insurance": {
+  "q": "155 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560233,
+  "lon": -81.722862,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "el-charrito-taqueria": {
+  "q": "156 University Parkway, Aiken, SC 29801",
+  "lat": 33.575576,
+  "lon": -81.765444,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "elevate-aiken": {
+  "q": "311 Hayne Avenue SW, Aiken, SC 29801",
+  "lat": 33.560504,
+  "lon": -81.723241,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "empire-tree": {
+  "q": "175 Sweetwater Road, North Augusta, SC 29860",
+  "lat": 33.590359,
+  "lon": -81.948149,
+  "kind": "craft",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "fermata-club": {
+  "q": "841 Whiskey Road, Aiken, SC 29801",
+  "lat": 33.543977,
+  "lon": -81.722765,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "flanigans-ice-cream": {
+  "q": "221 Barnwell Avenue NW, Aiken, SC 29801",
+  "lat": 33.563353,
+  "lon": -81.720197,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "gaston-livery-stable": {
+  "q": "1315 Richland Avenue East, Aiken, SC 29801",
+  "lat": 33.554732,
+  "lon": -81.702298,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "glassworks": {
+  "q": "1004 Owens Street, Aiken, SC 29803",
+  "lat": 33.515016,
+  "lon": -81.716454,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "hair-of-the-dog": {
+  "q": "225 Richland Avenue East, Aiken, SC 29801",
+  "lat": 33.559811,
+  "lon": -81.717517,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "hals-hair-center": {
+  "q": "358 Edgefield Road, North Augusta, SC 29841",
+  "lat": 33.529444,
+  "lon": -81.947255,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "hbol-architects": {
+  "q": "1075 Brookhaven Drive, Aiken, SC 29803",
+  "lat": 33.498392,
+  "lon": -81.711802,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "help-me-rhonda": {
+  "q": "89 Crystal Lake Drive, Suite 200, North Augusta, SC 29841",
+  "lat": 33.489961,
+  "lon": -81.981276,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "herbal-solutions": {
+  "q": "722 Silver Bluff Road, Centre South Plaza, Aiken, SC 29803",
+  "lat": 33.502538,
+  "lon": -81.743595,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "q": "1120 Edgefield Highway, Aiken, SC",
+  "lat": 33.58288,
+  "lon": -81.719634,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "howell-printing": {
+  "q": "345 Barnwell Avenue NW, Aiken, SC 29801",
+  "lat": 33.564029,
+  "lon": -81.722119,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "indigo-bleu": {
+  "q": "120 Laurens Street NW, Aiken, SC",
+  "lat": 33.562179,
+  "lon": -81.721966,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "inn-at-houndslake": {
+  "q": "897 Houndslake Drive, Aiken, SC 29803",
+  "lat": 33.525509,
+  "lon": -81.740031,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "iron-gate-candles": {
+  "q": "121 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560964,
+  "lon": -81.72307,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "its-all-good-market-and-catering": {
+  "q": "337 Hayne Avenue SW, Aiken, SC",
+  "lat": 33.56051,
+  "lon": -81.723519,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "joyful-cafe": {
+  "q": "245 White Pond Road, Williston, SC 29853",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "kens-warehouse": {
+  "q": "944 Dougherty Road, Aiken, SC 29803",
+  "lat": 33.514164,
+  "lon": -81.722548,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "la-parisienne-french-restaurant-and-bakery": {
+  "q": "233 Chesterfield Street, Aiken, SC",
+  "lat": 33.558007,
+  "lon": -81.720781,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "la-scuderia-aiken": {
+  "q": "455 York Street, Aiken, SC",
+  "lat": 33.567628,
+  "lon": -81.71419,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "lambert-insurance": {
+  "q": "217 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.487056,
+  "lon": -81.752794,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "lilianhaus": {
+  "q": "101 Laurens Street SW, Aiken, SC",
+  "lat": 33.561473,
+  "lon": -81.722835,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "little-red-fox-shop": {
+  "q": "109 Laurens Street NW, Aiken, SC 29801",
+  "lat": 33.562093,
+  "lon": -81.722509,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "local-junction": {
+  "q": "1208 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.538208,
+  "lon": -81.723448,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "los-tres-compadres": {
+  "q": "3566 Richland Avenue West, Aiken, SC 29801",
+  "lat": 33.563752,
+  "lon": -81.76401,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "macalusos-restaurant": {
+  "q": "135 York Street SE, Aiken, SC 29801",
+  "lat": 33.559325,
+  "lon": -81.718026,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "marias-mexican-restaurant": {
+  "q": "716 East Pine Log Road, Aiken, SC 29803",
+  "lat": 33.530449,
+  "lon": -81.701399,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "mcghees-mile": {
+  "q": "620 Banks Mill Road, Aiken, SC",
+  "lat": 33.543456,
+  "lon": -81.698486,
+  "kind": "leisure",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "mi-rancho": {
+  "q": "124 Dominion Drive, Aiken, SC 29803",
+  "lat": 33.483813,
+  "lon": -81.698032,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "mitch-johnson-construction": {
+  "q": "26 Commerce Court, Aiken, SC 29803",
+  "lat": 33.530327,
+  "lon": -81.689097,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "mundys-automotive": {
+  "q": "2364 Williston Road, Aiken, SC 29803",
+  "lat": 33.395471,
+  "lon": -81.700365,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "oh-mie-stelle": {
+  "q": "969 Pine Log Road, Aiken, SC 29803",
+  "lat": 33.51527,
+  "lon": -81.734382,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "okinawa-japanese-steakhouse-and-sushi-bowl": {
+  "q": "1695 Richland Avenue East, Aiken, SC",
+  "lat": 33.552976,
+  "lon": -81.696775,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "osbons-cleaners": {
+  "q": "136 Pendleton Street SW, Aiken, SC 29801",
+  "lat": 33.56092,
+  "lon": -81.724117,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "pablos-mexican-restaurant": {
+  "q": "1069 Edgefield Road, Suite 101, North Augusta, SC 29860",
+  "lat": 33.573483,
+  "lon": -81.93694,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "palmetto-bowls": {
+  "q": "126 Dominion Drive, Aiken, SC 29803",
+  "lat": 33.483783,
+  "lon": -81.698112,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "pats-sub-shop": {
+  "q": "728 East Pine Log Road, Aiken, SC 29801",
+  "lat": 33.53064,
+  "lon": -81.700935,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "piece-of-potato": {
+  "q": "221 Greenville Street NW, Aiken, SC",
+  "lat": 33.565331,
+  "lon": -81.724165,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "pitter-patter": {
+  "q": "131 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560803,
+  "lon": -81.723138,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "playland-of-aiken": {
+  "q": "951 (B) Dougherty Road, Aiken, SC 29803",
+  "lat": 33.513635,
+  "lon": -81.721527,
+  "kind": "residential",
+  "exact": false,
+  "at": "2026-11-19"
+ },
+ "prescott-and-sons": {
+  "q": "121 E. Marion Ave, North Augusta, SC 29841",
+  "lat": 33.511986,
+  "lon": -81.959604,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "rebel-ranch-horse-tours": {
+  "q": "Warrenville, SC 29851",
+  "lat": 33.550156,
+  "lon": -81.806403,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "return-engagement": {
+  "q": "151 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560269,
+  "lon": -81.723382,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "rhumba-rum-and-cigar-lounge": {
+  "q": "321 Richland Avenue West, Aiken, SC",
+  "lat": 33.561678,
+  "lon": -81.723305,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "romas-italian-restaurant": {
+  "q": "116 Coach Light Way, Aiken, SC",
+  "lat": 33.493183,
+  "lon": -81.74817,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "scotch-hutch": {
+  "q": "208B The Alley, Aiken, SC 29801",
+  "lat": 33.560182,
+  "lon": -81.722074,
+  "kind": "pedestrian",
+  "exact": false,
+  "at": "2026-11-19"
+ },
+ "smoothie-groove": {
+  "q": "448 Fabian Drive, Aiken, SC",
+  "lat": 33.520827,
+  "lon": -81.723302,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "soul-and-seafood-house": {
+  "q": "3553 Richland Avenue West, Aiken, SC",
+  "lat": 33.562571,
+  "lon": -81.763687,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "south-on-whiskey": {
+  "q": "3197 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.520129,
+  "lon": -81.717741,
+  "kind": "secondary",
+  "exact": false,
+  "at": "2026-11-19"
+ },
+ "southern-magnolia-dentistry": {
+  "q": "598 Silver Bluff Road, Suite 1, Aiken, SC 29803",
+  "lat": 33.509439,
+  "lon": -81.739752,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "sweet-bs": {
+  "q": "137 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560484,
+  "lon": -81.723285,
+  "kind": "shop",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "tailored-tours": {
+  "q": "3400 Wagener Road, Aiken, SC 29801",
+  "lat": 33.571535,
+  "lon": -81.608974,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "taj-aiken": {
+  "q": "213 Richland Avenue West, Aiken, SC",
+  "lat": 33.561023,
+  "lon": -81.721356,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "thai-jasmine-rice": {
+  "q": "1552 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.531208,
+  "lon": -81.723533,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-feed-sack": {
+  "q": "1593 Whiskey Road, Aiken, SC",
+  "lat": 33.531247,
+  "lon": -81.724709,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-ivy-cottage": {
+  "q": "206 Park Avenue SE, Aiken, SC 29801",
+  "lat": 33.558299,
+  "lon": -81.718387,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-jewelers-loupe": {
+  "q": "1304 Richland Avenue West, Aiken, SC 29801",
+  "lat": 33.566277,
+  "lon": -81.736361,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-massage-maven": {
+  "q": "1204 Whiskey Road, Suite E, Aiken, SC 29801",
+  "lat": 33.538626,
+  "lon": -81.723448,
+  "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-vintage-bobbin": {
+  "q": "754 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.499139,
+  "lon": -81.747041,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "the-wildemount": {
+  "q": "200 Park Avenue SW, Aiken, SC 29801",
+  "lat": 33.559449,
+  "lon": -81.7217,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "thomas-p-murphy-law": {
+  "q": "512 Georgia Avenue, North Augusta, SC 29841",
+  "lat": 33.493974,
+  "lon": -81.970945,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "timeless-touch-events-llc": {
+  "q": "49 Branch Court, Beech Island, SC 29842",
+  "missing": true,
+  "at": "2026-11-19"
+ },
+ "toki-jr": {
+  "q": "434 Georgia Avenue, Suite 105, North Augusta, SC 29841",
+  "lat": 33.493461,
+  "lon": -81.971343,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "track-kitchen": {
+  "q": "420 Mead Avenue, Aiken, SC 29801",
+  "lat": 33.546042,
+  "lon": -81.714969,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "trophies-unlimited": {
+  "q": "4020 Trolley Line Road, Aiken, SC 29801",
+  "lat": 33.577532,
+  "lon": -81.758255,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "tucker-orthodontics": {
+  "q": "1050 Seven Oaks Drive, Aiken, SC 29803",
+  "lat": 33.511754,
+  "lon": -81.739024,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "tumbleweed": {
+  "q": "216 Park Avenue SE, Aiken, SC",
+  "lat": 33.558271,
+  "lon": -81.718303,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "unique-catering": {
+  "q": "1624 Hampton Avenue NW, Aiken, SC",
+  "lat": 33.575406,
+  "lon": -81.742306,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "veg-out": {
+  "q": "1619 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.531208,
+  "lon": -81.7243,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "verdant-landscape": {
+  "q": "175 Sweetwater Road, North Augusta, SC 29860",
+  "lat": 33.590359,
+  "lon": -81.948149,
+  "kind": "craft",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "victoria-mexican-restaurant": {
+  "q": "510 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.510572,
+  "lon": -81.738555,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "village-cafe": {
+  "q": "110 Coach Light Way, Aiken, SC 29803",
+  "lat": 33.493315,
+  "lon": -81.748003,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "wayne-heath-automotive": {
+  "q": "3900 Richland Avenue West, Aiken, SC 29801",
+  "lat": 33.561196,
+  "lon": -81.720683,
+  "kind": "primary",
+  "exact": false,
+  "at": "2026-11-19"
+ },
+ "white-rose-eclectics": {
+  "q": "142 Laurens Street SW, Aiken, SC",
+  "lat": 33.560346,
+  "lon": -81.722813,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "williamsons-auto-center": {
+  "q": "3773 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.476412,
+  "lon": -81.692935,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "woodchuckers-axe-throwing": {
+  "q": "208 The Alley, Aiken, SC 29801",
+  "lat": 33.560128,
+  "lon": -81.721627,
+  "kind": "leisure",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "york-cottage-antiques": {
+  "q": "409 Hayne Avenue SW, Aiken, SC",
+  "lat": 33.560404,
+  "lon": -81.72482,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "zier-law-firm": {
+  "q": "602 West Avenue, North Augusta, SC 29841",
+  "lat": 33.495659,
+  "lon": -81.971958,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ }
+}

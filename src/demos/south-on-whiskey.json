@@ -1,0 +1,327 @@
+{
+  "name": "South on Whiskey",
+  "short": "South on Whiskey",
+  "category": "Event Venue",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f3f7f6",
+    "surface": "#ffffff",
+    "ink": "#14302c",
+    "muted": "#4c605c",
+    "primary": "#1d6b62",
+    "onPrimary": "#ffffff",
+    "accent": "#d9a441",
+    "line": "#d9e6e3"
+  },
+  "radius": 16,
+  "icon": "party-popper",
+  "contact": {
+    "phone": "(803) 643-1715",
+    "email": "southonwhiskey@gmail.com",
+    "address": [
+      "3197 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "South on Whiskey, 3197 Whiskey Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Every day",
+        "7 am – midnight"
+      ]
+    ],
+    "hoursNote": "Tours by appointment.",
+    "facebook": "https://www.facebook.com/southonwhiskey/"
+  },
+  "hero": {
+    "eyebrow": "Event venue on Aiken’s Southside",
+    "title": "Your party, *your way*",
+    "lede": "A 1,300-square-foot room for up to 80 seated guests, with a caterer’s kitchenette, a custom beverage bar and an outdoor deck. Tables and chairs are included, and you can bring your own food and caterer.",
+    "points": [
+      "Up to 80 seated",
+      "Tables & chairs included",
+      "Bring your own caterer"
+    ],
+    "cta": {
+      "label": "Check a date",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 643-1715",
+      "href": "tel:+18036431715"
+    },
+    "image": {
+      "src": "/demo-assets/south-on-whiskey/hall-rounds.webp",
+      "alt": "The hall set with round tables in black cloths and blue chairs, daylight through the windows",
+      "width": 2000,
+      "height": 1270
+    }
+  },
+  "facts": [
+    {
+      "value": "80",
+      "label": "Seated guests inside"
+    },
+    {
+      "value": "1,300 sq ft",
+      "label": "Open floor plan"
+    },
+    {
+      "value": "74",
+      "label": "Google reviews, rated “Excellent”"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "included",
+      "nav": "What’s included",
+      "columns": 3,
+      "eyebrow": "One hourly rate",
+      "title": "Everything *you need*",
+      "items": [
+        {
+          "icon": "table",
+          "title": "Tables & chairs",
+          "text": "Included in the rental, with no extra equipment to rent."
+        },
+        {
+          "icon": "chef-hat",
+          "title": "Caterer’s kitchenette",
+          "text": "Counter space, a large refrigerator and freezer, and a three-section sink for staging food."
+        },
+        {
+          "icon": "wine",
+          "title": "Custom beverage bar",
+          "text": "A bar and a food serving area, ready for your drinks and buffet."
+        },
+        {
+          "icon": "speaker",
+          "title": "Sound & screens",
+          "text": "Built-in sound and HDMI connections for slideshows, music or presentations."
+        },
+        {
+          "icon": "sun",
+          "title": "Deck & lawn",
+          "text": "An outdoor patio deck and a new lawn area, with heaters on request."
+        },
+        {
+          "icon": "car",
+          "title": "Plenty of parking",
+          "text": "Ample parking right at the venue."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Set up your way",
+      "title": "Showers, birthdays *and boardrooms*",
+      "images": [
+        {
+          "src": "/demo-assets/south-on-whiskey/deck-night.webp",
+          "alt": "The outdoor deck at night, string lights over tables in navy cloths",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/lawn-ceremony.webp",
+          "alt": "Rows of white folding chairs set up on the lawn for a ceremony",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/gold-tables.webp",
+          "alt": "Round tables in gold sequin cloths with tall gold centerpieces",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/chiavari-table.webp",
+          "alt": "A long table with white chiavari chairs and a greenery runner",
+          "width": 1600,
+          "height": 1143
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/circus-party.webp",
+          "alt": "A circus-themed birthday with striped table runners and a balloon arch",
+          "width": 1600,
+          "height": 778
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/table-setting.webp",
+          "alt": "A place setting with a gold-rimmed glass charger and a sage napkin",
+          "width": 1325,
+          "height": 861
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/meeting.webp",
+          "alt": "Tables set in a U shape for a business meeting",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/south-on-whiskey/dessert-table.webp",
+          "alt": "A dessert table with red and white balloons and paper snowflakes",
+          "width": 1200,
+          "height": 1927
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Made for",
+      "title": "Every *kind of gathering*",
+      "columns": [
+        {
+          "title": "Celebrations",
+          "items": [
+            "Birthday parties and milestone bashes",
+            "Baby and bridal showers",
+            "Anniversaries and family reunions"
+          ]
+        },
+        {
+          "title": "Weddings",
+          "items": [
+            "Rehearsal dinners",
+            "Small weddings and receptions",
+            "Toasts on the outdoor deck"
+          ]
+        },
+        {
+          "title": "Business",
+          "items": [
+            "Meetings, workshops and trainings",
+            "Presentations with sound and HDMI",
+            "Holiday and team parties"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "On the Southside",
+      "title": "Twenty years of fun, *a new chapter*",
+      "image": {
+        "src": "/demo-assets/south-on-whiskey/building.webp",
+        "alt": "The South on Whiskey building under a big shade tree, with its red door",
+        "width": 1200,
+        "height": 900
+      },
+      "body": [
+        "For 20 years this was the area’s family entertainment center, with an 18-hole miniature golf course and the largest batting cages in the CSRA.",
+        "The property and the building have since been extensively improved into an event venue with a “sophisticated Southern” feel. The mission hasn’t changed: a positive place to make lasting memories, with stellar service."
+      ],
+      "list": [
+        "Open seven days a week, 7 am to midnight",
+        "Tours by appointment",
+        "Right on Whiskey Road"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From Google reviews",
+      "title": "What hosts *say*",
+      "items": [
+        {
+          "text": "Perfect space for my daughter’s gender reveal and baby shower! The owner was so nice and helpful through the entire process. It was like working with a family friend.",
+          "by": "Jennifer S."
+        },
+        {
+          "text": "We had 70-80 guests and activities around the room and still had room for dancing!",
+          "by": "Marilyn J., after a wedding celebration"
+        },
+        {
+          "text": "They include the tables and chairs in the rental amount. John is so easy to work with and will help with any questions.",
+          "by": "Connie S., after a bridal shower"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How many guests fit?",
+          "a": "Up to 80 seated inside. With the deck and the lawn as well, the venue suits gatherings of 20 to 125."
+        },
+        {
+          "q": "Can I bring my own food and drinks?",
+          "a": "Yes. Bring your own food and drinks, or hire any caterer and vendors you like."
+        },
+        {
+          "q": "Is there a kitchen?",
+          "a": "There’s a caterer’s kitchenette for staging and final prep, with a refrigerator, freezer and three-section sink. It isn’t a full cooking kitchen."
+        },
+        {
+          "q": "What if our plans change?",
+          "a": "Cancellation and rescheduling depend on how much notice you give. Call to talk through your options, including moving your deposit to a new date."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Come see the space",
+      "text": "Tours by appointment, seven days a week.",
+      "cta": {
+        "label": "Call (803) 643-1715",
+        "href": "tel:+18036431715"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "formTitle": "Check a date",
+    "formTopics": [
+      "A birthday",
+      "A shower",
+      "A wedding or rehearsal dinner",
+      "A business meeting",
+      "A tour"
+    ]
+  },
+  "slug": "south-on-whiskey",
+  "added": "2026-11-19",
+  "prospect": "south-on-whiskey",
+  "source": {
+    "url": "https://southonwhiskey.com/",
+    "before": [
+      "The site gives three different capacities: “up to 80 people,” “20-125 guests” and “up to 80 seated guests”",
+      "No rates anywhere on the site, though reviews praise the hourly rate",
+      "On a phone the main image takes about 7.6 seconds to appear (Google Lighthouse speed score: 58 out of 100)",
+      "No description for Google results, no preview when the link is shared, and no icon for browser tabs"
+    ],
+    "after": [
+      "What’s included, in plain words, on the first screens",
+      "One clear guest count",
+      "Real events, set up different ways",
+      "Google reviews where people decide"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "rows",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "flip",
+    "buttons": "pill"
+  }
+}
