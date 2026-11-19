@@ -1,0 +1,231 @@
+{
+  "name": "TPi - Tyler Press",
+  "short": "TPi Tyler Press",
+  "category": "Printing & Promotional Products",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "anybody",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f8fb",
+    "surface": "#ffffff",
+    "ink": "#10223a",
+    "muted": "#4a5a6d",
+    "primary": "#1d3f7a",
+    "onPrimary": "#ffffff",
+    "accent": "#e08a1e",
+    "line": "#d8e2ec"
+  },
+  "radius": 12,
+  "icon": "printer",
+  "contact": {
+    "phone": "(803) 226-7898",
+    "phone2": "(847) 669-8926",
+    "phone2Label": "Chicago office",
+    "email": "sales@tylerpress.com",
+    "address": [
+      "128 Windermere Way",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "TPi Tyler Press, 128 Windermere Way, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/TPiAiken"
+  },
+  "hero": {
+    "eyebrow": "Print & marketing in Aiken for 36 years",
+    "title": "Get your business *noticed*",
+    "lede": "Brochures, business cards, forms, signs, banners, promotional products and apparel, with design help and personal service from Gary Sullivan, the owner his clients call “Printerman.”",
+    "points": [
+      "Marketing print",
+      "Business essentials",
+      "Signs & promo products"
+    ],
+    "cta": {
+      "label": "What we print",
+      "href": "#services"
+    },
+    "cta2": {
+      "label": "Call (803) 226-7898",
+      "href": "tel:+18032267898"
+    },
+    "image": {
+      "src": "/demo-assets/tpi-tyler-press/press-room.webp",
+      "alt": "Two pressmen checking a print job at the press",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "36 years",
+      "label": "Of printing excellence"
+    },
+    {
+      "value": "40+ years",
+      "label": "Gary’s time in print and promotion"
+    },
+    {
+      "value": "2 offices",
+      "label": "Aiken and Chicago"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "The TPi trifecta",
+      "title": "What can *we print for you*?",
+      "items": [
+        {
+          "icon": "book-open",
+          "title": "Marketing print",
+          "text": "Brochures, fliers, door hangers, postcards, mailings, magazines and calendars."
+        },
+        {
+          "icon": "file-text",
+          "title": "Business essentials",
+          "text": "Business cards, stationery, carbonless forms, folders, labels and tags."
+        },
+        {
+          "icon": "flag",
+          "title": "Banners & signs",
+          "text": "Retractable banners, hanging and yard signs, window graphics, vehicle wraps and trade show booths."
+        },
+        {
+          "icon": "gift",
+          "title": "Promotional products",
+          "text": "Giveaways, corporate gifts, advertising specialties and branded event tents."
+        },
+        {
+          "icon": "palette",
+          "title": "Design",
+          "text": "Logos, concepts, layout and ad design."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Special finishes",
+          "text": "Soft touch, silk laminate, spot UV, foil, raised ink, embossing, metallics and letterpress."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "portfolio",
+      "nav": "Portfolio",
+      "eyebrow": "A few samples",
+      "title": "Printed *with care*",
+      "images": [
+        {
+          "src": "/demo-assets/tpi-tyler-press/samples-health.webp",
+          "alt": "Printed brochures, folders and rack cards for a health practice",
+          "width": 1600,
+          "height": 700
+        },
+        {
+          "src": "/demo-assets/tpi-tyler-press/samples-hospitality.webp",
+          "alt": "Printed menus, rack cards and a hotel brochure",
+          "width": 1600,
+          "height": 700
+        },
+        {
+          "src": "/demo-assets/tpi-tyler-press/samples-magazines.webp",
+          "alt": "Magazines and printed guides with photo covers",
+          "width": 1600,
+          "height": 700
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet Gary Sullivan",
+      "title": "Personal service *for decades*",
+      "body": [
+        "Gary Sullivan, CEO and owner of TPi, has served clients in printing and promotional marketing for more than 40 years. Clients call him “Printerman.”",
+        "TPi pairs an extensive line of products and services with marketing know-how and personal customer service, which is why its customers have stayed for decades."
+      ],
+      "quote": {
+        "text": "I enjoy doing business with Gary Sullivan… because he is personable and easy to work with. TPi has printed numerous publications for the City of Aiken Tourism Division over the last four years.",
+        "by": "Mary Ward Rosbach, City of Aiken Parks, Recreation and Tourism"
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can you design it too?",
+          "a": "Yes. We offer logos, concepts, layout and ad design, as well as website design and video production."
+        },
+        {
+          "q": "Do you print everyday business forms?",
+          "a": "Yes: carbonless forms, labels, tags, pocket folders and anything else that keeps your operation running smoothly."
+        },
+        {
+          "q": "Can I see more samples?",
+          "a": "Of course. Call to set up a meeting and we’ll bring more of our work."
+        },
+        {
+          "q": "Do you have more than one office?",
+          "a": "Yes: Aiken, (803) 226-7898, and Chicago, (847) 669-8926."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s get started",
+      "text": "Call for a quote on your next print or promotional order.",
+      "cta": {
+        "label": "Call (803) 226-7898",
+        "href": "tel:+18032267898"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Windermere Way*",
+    "formTitle": "Request a quote",
+    "formTopics": [
+      "Marketing print",
+      "Business forms",
+      "Banners & signs",
+      "Promotional products",
+      "Design"
+    ]
+  },
+  "slug": "tpi-tyler-press",
+  "added": "2026-11-19",
+  "prospect": "tpi-tyler-press-llc",
+  "source": {
+    "url": "https://tylerpress.com/",
+    "before": [
+      "The Contact page lives at tylerpress.com/auto-draft/, a leftover WordPress placeholder address",
+      "On a phone, the first screen shows no phone number or call button",
+      "16 accessibility problems, 14 of them text too faint to read",
+      "No description for Google results, no preview when the link is shared, no icon for browser tabs and no business details for Google"
+    ],
+    "after": [
+      "Everything TPi prints, grouped in plain words",
+      "Real samples on the first screens",
+      "Gary’s story and a client’s words up front",
+      "One tap to call for a quote"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "pills",
+    "facts": "strip",
+    "pattern": "dots",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "flip",
+    "buttons": "pill"
+  }
+}

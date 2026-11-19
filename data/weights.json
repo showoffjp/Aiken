@@ -883,11 +883,18 @@
  },
  "c-wallace-design": {
   "site": {
-   "bytes": 9154468,
+   "bytes": 8659846,
    "requests": 58,
-   "loadMs": 2925,
+   "loadMs": 1694,
    "url": "https://coleenwallacedesign.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 959468,
+   "requests": 15,
+   "loadMs": 173,
+   "url": "/c-wallace-design/",
+   "at": "2026-11-19"
   }
  },
  "bushs-flower-shop-on-pine-grove": {
@@ -1827,11 +1834,18 @@
  },
  "hixon-insurance-and-realty-co": {
   "site": {
-   "bytes": 1093902,
+   "bytes": 1092860,
    "requests": 80,
-   "loadMs": 6762,
+   "loadMs": 3677,
    "url": "https://hixonco.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 287759,
+   "requests": 7,
+   "loadMs": 156,
+   "url": "/hixon-insurance/",
+   "at": "2026-11-19"
   }
  },
  "highfields-event-center-is-home-of-aiken-music-f": {
@@ -3692,11 +3706,18 @@
  },
  "tpi-tyler-press-llc": {
   "site": {
-   "bytes": 1231646,
+   "bytes": 1231711,
    "requests": 35,
-   "loadMs": 1507,
+   "loadMs": 3653,
    "url": "https://tylerpress.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 560017,
+   "requests": 9,
+   "loadMs": 130,
+   "url": "/tpi-tyler-press/",
+   "at": "2026-11-19"
   }
  },
  "trey-vereen-dmd": {

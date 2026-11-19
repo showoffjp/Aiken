@@ -1,0 +1,260 @@
+{
+  "name": "Hixon Insurance & Realty Co.",
+  "short": "Hixon Insurance",
+  "category": "Insurance Agency",
+  "group": "Professional",
+  "town": "North Augusta, SC",
+  "established": "1952",
+  "look": "clean",
+  "fonts": {
+    "display": "archivo",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f5f7fa",
+    "surface": "#ffffff",
+    "ink": "#13213a",
+    "muted": "#4d5b70",
+    "primary": "#1b3a6b",
+    "onPrimary": "#ffffff",
+    "accent": "#c8423b",
+    "line": "#dce3ec"
+  },
+  "radius": 8,
+  "icon": "umbrella",
+  "contact": {
+    "phone": "(803) 279-8855",
+    "address": [
+      "108 W. Spring Grove Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Hixon Insurance Agency, 108 W Spring Grove Ave, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Tuesday",
+        "9:00 am – 5:30 pm"
+      ],
+      [
+        "Wednesday",
+        "9:00 am – 1:00 pm"
+      ],
+      [
+        "Thursday – Friday",
+        "9:00 am – 5:30 pm"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Family owned since 1952",
+    "title": "Insurance from *neighbors you know*",
+    "lede": "A locally owned, independent agency in North Augusta. We represent several carriers, so we can shop home, auto, business and life coverage to fit you, and help when it’s time to file a claim.",
+    "points": [
+      "Home & auto",
+      "Business",
+      "Life"
+    ],
+    "cta": {
+      "label": "Get a quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 279-8855",
+      "href": "tel:+18032798855"
+    }
+  },
+  "facts": [
+    {
+      "value": "1952",
+      "label": "Serving the CSRA since"
+    },
+    {
+      "value": "7+",
+      "label": "Insurance carriers to compare"
+    },
+    {
+      "value": "Local",
+      "label": "Independent and family owned"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "coverage",
+      "nav": "Coverage",
+      "columns": 4,
+      "eyebrow": "What we cover",
+      "title": "Coverage *that fits*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Home",
+          "text": "Your home is your largest investment, and it should be protected in the event of loss."
+        },
+        {
+          "icon": "car",
+          "title": "Auto",
+          "text": "Coverage tailored to the vehicles you count on every day."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Commercial",
+          "text": "A package of insurance built for your business, so you know you’re covered."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Life",
+          "text": "Single, married with kids, empty nesters, retired or self-employed: we help you choose."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "why",
+      "nav": "Why Hixon",
+      "eyebrow": "An independent agency",
+      "title": "Why *independent* matters",
+      "intro": "Because we represent several insurance carriers, we can compare policies for you instead of selling just one company’s.",
+      "columns": [
+        {
+          "title": "Carriers we represent",
+          "items": [
+            "Auto-Owners",
+            "GEICO",
+            "Liberty Mutual",
+            "Safeco",
+            "Selective",
+            "Travelers",
+            "American Integrity"
+          ]
+        },
+        {
+          "title": "What you get",
+          "items": [
+            "Policies customized and managed for you",
+            "One local agency for home, auto, business and life",
+            "Help with claims when you need it"
+          ]
+        },
+        {
+          "title": "Hixon Realty Company",
+          "items": [
+            "Real estate from the same family business",
+            "Ask about current property listings"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Our customers",
+      "title": "Peace of *mind*",
+      "items": [
+        {
+          "text": "When I filed a claim after the hurricane, they handled everything quickly and professionally. I have peace of mind knowing my home is protected by a team that truly cares.",
+          "by": "Kelly Wortley, Augusta, GA"
+        },
+        {
+          "text": "A great group of people who are interested in serving you, the customer. They are easy to contact by phone or electronically, very knowledgeable, and always helpful.",
+          "by": "Charles Reid, Columbia, SC"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "quote",
+      "nav": "Get a quote",
+      "eyebrow": "Simple as 1, 2, 3",
+      "title": "Getting *a quote*",
+      "items": [
+        {
+          "title": "Tell us what you need",
+          "text": "Call (803) 279-8855 or send the form below with what you’d like to insure."
+        },
+        {
+          "title": "We compare carriers",
+          "text": "We shop the companies we represent for coverage that fits and a fair price."
+        },
+        {
+          "title": "Choose with confidence",
+          "text": "We walk you through the options, then set up and manage your policy."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What does “independent agency” mean?",
+          "a": "We represent several insurance carriers rather than one, so we can compare coverage and price for you."
+        },
+        {
+          "q": "Can you help with a claim?",
+          "a": "Yes. Call us and we’ll help you through it with your carrier."
+        },
+        {
+          "q": "Are you open on Wednesday afternoons?",
+          "a": "The office closes at 1 pm on Wednesdays. Monday, Tuesday, Thursday and Friday we’re open 9 to 5:30."
+        },
+        {
+          "q": "Do you also sell real estate?",
+          "a": "Yes. Hixon Realty Company is part of the same family business; ask us about current listings."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s review your coverage",
+      "text": "Call, or stop by the office on West Spring Grove Avenue.",
+      "cta": {
+        "label": "Call (803) 279-8855",
+        "href": "tel:+18032798855"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *North Augusta*",
+    "formTitle": "Request a quote",
+    "formTopics": [
+      "Home insurance",
+      "Auto insurance",
+      "Business insurance",
+      "Life insurance",
+      "A claim",
+      "Real estate"
+    ]
+  },
+  "slug": "hixon-insurance",
+  "added": "2026-11-19",
+  "prospect": "hixon-insurance-and-realty-co",
+  "source": {
+    "url": "https://hixonco.com/",
+    "before": [
+      "Office hours, including the early close on Wednesdays, appear only on the Contact page",
+      "No email address anywhere on the site",
+      "On a phone the main content takes about 5 seconds to appear (Google Lighthouse speed score: 69 out of 100)",
+      "No description for Google results, no preview when the link is shared, and no icon for browser tabs"
+    ],
+    "after": [
+      "Family owned since 1952, said up front",
+      "Every kind of coverage and every carrier on one page",
+      "Office hours, including Wednesday’s early close, where people look",
+      "One tap to call for a quote"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

@@ -190,6 +190,14 @@
   "missing": true,
   "at": "2026-11-19"
  },
+ "c-wallace-design": {
+  "q": "241 Cheltenham Drive, Aiken, SC 29803",
+  "lat": 33.489899,
+  "lon": -81.685556,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "cabanas-salvadorean-restaurant": {
   "q": "1625 Richland Avenue East, Aiken, SC",
   "lat": 33.554368,
@@ -367,6 +375,14 @@
   "q": "1120 Edgefield Highway, Aiken, SC",
   "lat": 33.58288,
   "lon": -81.719634,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "hixon-insurance": {
+  "q": "108 W. Spring Grove Avenue, North Augusta, SC 29841",
+  "lat": 33.495022,
+  "lon": -81.970671,
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
@@ -778,6 +794,14 @@
   "lat": 33.493461,
   "lon": -81.971343,
   "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "tpi-tyler-press": {
+  "q": "128 Windermere Way, Aiken, SC 29803",
+  "lat": 33.439559,
+  "lon": -81.654145,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },

@@ -1,6 +1,7 @@
 ---
 // Portfolio index: every redesign concept in one place.
 import MotionToggle from '../components/demo/MotionToggle.astro';
+import RegionMap from '../components/RegionMap.astro';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../components/Icon.astro';
@@ -112,6 +113,7 @@ const features = [
         <a class="brand" href="/"><span class="glyph"><svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="glint" aria-hidden="true"></i></span><span class="word">{site.name}</span></a>
         <nav aria-label="Main">
           <a href="#concepts">Concepts</a>
+          <a href="#map">Map</a>
           <a href="#included">What's included</a>
           <a href="#how">How it works</a>
         </nav>
@@ -206,6 +208,8 @@ const features = [
           <p class="empty" data-empty hidden>No concepts match that search.</p>
         </div>
       </section>
+
+      <RegionMap />
 
       <section class="included" id="included">
         <div class="wrap">
@@ -619,4 +623,38 @@ const features = [
   .motion-link { padding: 2px 0; min-height: 24px; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
   .motion-btn:focus-visible, .motion-link:focus-visible { outline: 3px solid #12b886; outline-offset: 2px; }
   @media (prefers-reduced-motion: reduce) { .motion-btn, .foot-motion { display: none; } }
+  /* Map of every concept (RegionMap) */
+  .mapsec { padding-block: clamp(64px, 8vw, 110px); background: linear-gradient(180deg, var(--bg), #eef3ec); }
+  .mapsec-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 32px; margin-bottom: 26px; }
+  .mapsec-head h2 { font-size: clamp(1.9rem, 3.4vw, 2.9rem); font-weight: 750; }
+  .mapsec-head h2 em { font-style: normal; color: var(--em); }
+  .mapsec-head p { max-width: 36em; color: var(--muted); margin: 0; }
+  .rm-grid { display: grid; grid-template-columns: 1.55fr 1fr; gap: 22px; align-items: start; }
+  .rm { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 22px; overflow: hidden; box-shadow: 0 24px 50px -34px rgb(10 40 30 / .45); }
+  .rm figcaption { display: flex; justify-content: space-between; gap: 12px; padding: 14px 18px; font-weight: 700; border-bottom: 1px solid var(--line); }
+  .rm figcaption span { font-weight: 500; color: var(--muted); font-size: .9rem; }
+  .rm-box { position: relative; cursor: crosshair; touch-action: manipulation; }
+  .rm svg { display: block; width: 100%; height: auto; }
+  .rm-land { fill: #eef1e8; }
+  .rm-green { fill: #d9e8cf; }
+  .rm-water { fill: #b9dbe9; }
+  .rm-waterway { fill: none; stroke: #a7d0e2; stroke-width: 2.4; }
+  .rm-minor, .rm-mid, .rm-major { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .rm-minor { stroke: #fff; stroke-width: 2.2; }
+  .rm-mid { stroke: #fff; stroke-width: 3.4; }
+  .rm-major { stroke: #f2c879; stroke-width: 4.6; }
+  .rm-downtown .rm-minor { stroke-width: 5; } .rm-downtown .rm-mid { stroke-width: 8; } .rm-downtown .rm-major { stroke-width: 11; }
+  .rm-inset { fill: none; stroke: #14181a; stroke-width: 2; stroke-dasharray: 6 5; opacity: .55; }
+  .rm-place { pointer-events: none; font: 600 15px/1 var(--sans, system-ui); fill: #3f4a4f; paint-order: stroke; stroke: #eef1e8; stroke-width: 4px; stroke-linejoin: round; }
+  .rm-place.big { font-size: 20px; font-weight: 750; fill: #1d2629; }
+  .rm-pin { fill: var(--pc); stroke: #fff; stroke-width: 2.4; transition: r .15s ease; }
+  .rm-pin.on { r: 13; stroke-width: 3; }
+  .rm-downtown .rm-pin.on { r: 15; }
+  .rm-card { position: absolute; z-index: 3; width: max-content; max-width: min(280px, 80%); display: grid; gap: 3px; padding: 11px 14px 12px; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 14px 30px -14px rgb(0 0 0 / .45); font-size: .92rem; cursor: auto; }
+  .rm-card strong { font-size: 1rem; line-height: 1.25; }
+  .rm-card span { color: var(--muted); }
+  .rm-card a { display: inline-flex; align-items: center; min-height: 32px; margin-top: 2px; color: #0b6b4d; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .rm-credit { margin: 14px 0 0; font-size: .82rem; color: var(--muted); }
+  .rm-credit a { color: inherit; }
+  @media (max-width: 860px) { .rm-grid { grid-template-columns: 1fr; } .rm-place { font-size: 22px; } .rm-place.big { font-size: 28px; } }
 </style>
