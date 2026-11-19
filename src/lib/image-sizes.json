@@ -3782,5 +3782,377 @@
  "/demo-assets/highfields-event-center/ribbon-960.webp": [
   960,
   532
+ ],
+ "/demo-assets/prime-steakhouse/cowboy-ribeye.webp": [
+  1831,
+  1200
+ ],
+ "/demo-assets/prime-steakhouse/storefront.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/prime-steakhouse/steak-plate.webp": [
+  1400,
+  933
+ ],
+ "/demo-assets/prime-steakhouse/beet-salad.webp": [
+  1400,
+  776
+ ],
+ "/demo-assets/prime-steakhouse/bacon.webp": [
+  1200,
+  889
+ ],
+ "/demo-assets/prime-steakhouse/cocktail.webp": [
+  900,
+  1309
+ ],
+ "/demo-assets/prime-steakhouse/dining-room.webp": [
+  1200,
+  630
+ ],
+ "/demo-assets/prime-steakhouse/oysters.webp": [
+  1200,
+  907
+ ],
+ "/demo-assets/prime-steakhouse/lobster.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/prime-steakhouse/filet.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/prime-steakhouse/dessert.webp": [
+  1200,
+  750
+ ],
+ "/demo-assets/prime-steakhouse/wine.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/giraffe.webp": [
+  1920,
+  1080
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/aerial.webp": [
+  1920,
+  1080
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/lemurs.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wildebeest.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wagon.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/watusi.webp": [
+  1400,
+  848
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/zebra.webp": [
+  1080,
+  1350
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/tortoise.webp": [
+  1200,
+  628
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/zebra-window.webp": [
+  1024,
+  576
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/ostrich.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/entrance.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/sunbreak-window-tinting/corvette-bay.webp": [
+  1300,
+  1733
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-mustang.webp": [
+  1300,
+  1619
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-suv.webp": [
+  1300,
+  1733
+ ],
+ "/demo-assets/sunbreak-window-tinting/camaro.webp": [
+  1200,
+  1500
+ ],
+ "/demo-assets/sunbreak-window-tinting/installer.webp": [
+  1200,
+  1500
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-office.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-doors.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/sunbreak-window-tinting/house.webp": [
+  1200,
+  1500
+ ],
+ "/demo-assets/sunbreak-window-tinting/storefront-film.webp": [
+  1200,
+  1500
+ ],
+ "/demo-assets/sunbreak-window-tinting/sliding-doors.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/aerial-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/aerial-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/entrance-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/entrance-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/giraffe-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/giraffe-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/lemurs-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/lemurs-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/ostrich-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/ostrich-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/tortoise-640.webp": [
+  640,
+  335
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/tortoise-960.webp": [
+  960,
+  502
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wagon-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wagon-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/watusi-640.webp": [
+  640,
+  388
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/watusi-960.webp": [
+  960,
+  581
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wildebeest-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/wildebeest-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/zebra-window-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/eudora-wildlife-safari-park/zebra-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/prime-steakhouse/bacon-640.webp": [
+  640,
+  474
+ ],
+ "/demo-assets/prime-steakhouse/bacon-960.webp": [
+  960,
+  711
+ ],
+ "/demo-assets/prime-steakhouse/beet-salad-640.webp": [
+  640,
+  355
+ ],
+ "/demo-assets/prime-steakhouse/beet-salad-960.webp": [
+  960,
+  532
+ ],
+ "/demo-assets/prime-steakhouse/cocktail-640.webp": [
+  640,
+  931
+ ],
+ "/demo-assets/prime-steakhouse/cowboy-ribeye-640.webp": [
+  640,
+  419
+ ],
+ "/demo-assets/prime-steakhouse/cowboy-ribeye-960.webp": [
+  960,
+  629
+ ],
+ "/demo-assets/prime-steakhouse/dessert-640.webp": [
+  640,
+  400
+ ],
+ "/demo-assets/prime-steakhouse/dessert-960.webp": [
+  960,
+  600
+ ],
+ "/demo-assets/prime-steakhouse/dining-room-640.webp": [
+  640,
+  336
+ ],
+ "/demo-assets/prime-steakhouse/dining-room-960.webp": [
+  960,
+  504
+ ],
+ "/demo-assets/prime-steakhouse/filet-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/prime-steakhouse/lobster-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/prime-steakhouse/oysters-640.webp": [
+  640,
+  484
+ ],
+ "/demo-assets/prime-steakhouse/oysters-960.webp": [
+  960,
+  726
+ ],
+ "/demo-assets/prime-steakhouse/steak-plate-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/prime-steakhouse/steak-plate-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/prime-steakhouse/storefront-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/prime-steakhouse/storefront-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/prime-steakhouse/wine-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/sunbreak-window-tinting/camaro-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/sunbreak-window-tinting/camaro-960.webp": [
+  960,
+  1200
+ ],
+ "/demo-assets/sunbreak-window-tinting/corvette-bay-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/sunbreak-window-tinting/corvette-bay-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-doors-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-doors-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-office-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/sunbreak-window-tinting/frosted-office-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/sunbreak-window-tinting/house-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/sunbreak-window-tinting/house-960.webp": [
+  960,
+  1200
+ ],
+ "/demo-assets/sunbreak-window-tinting/installer-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/sunbreak-window-tinting/installer-960.webp": [
+  960,
+  1200
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-mustang-640.webp": [
+  640,
+  797
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-mustang-960.webp": [
+  960,
+  1196
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-suv-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/sunbreak-window-tinting/shop-suv-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/sunbreak-window-tinting/sliding-doors-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/sunbreak-window-tinting/sliding-doors-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/sunbreak-window-tinting/storefront-film-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/sunbreak-window-tinting/storefront-film-960.webp": [
+  960,
+  1200
  ]
 }

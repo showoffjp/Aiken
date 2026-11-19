@@ -1,6 +1,7 @@
 // Print every checkup page to a Letter-size PDF for in-person visits.
 // The printed page carries a QR code that opens the concept on a phone.
 //   node scripts/leave-behind.mjs [slug ...]   -> outreach/print/<slug>.pdf
+//                                                outreach/print/one-page/<slug>.pdf (the one-page summary to leave behind)
 //                                                outreach/print/seo/<slug>-seo-report.pdf
 // Requires `npm run build` first.
 import { createServer } from 'node:http';
@@ -15,6 +16,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
 const OUT = path.join(ROOT, 'outreach', 'print');
 await mkdir(path.join(OUT, 'seo'), { recursive: true });
+await mkdir(path.join(OUT, 'one-page'), { recursive: true });
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.webp': 'image/webp', '.jpg': 'image/jpeg', '.png': 'image/png', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 const server = createServer(async (req, res) => {
   try {
@@ -37,6 +39,10 @@ for (const slug of slugs) {
   await page.evaluate(async () => { await Promise.all([...document.images].map((i) => (i.loading = 'eager', i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; })))); });
   await page.waitForTimeout(300);
   await page.pdf({ path: path.join(OUT, `${slug}.pdf`), format: 'Letter', printBackground: true, scale: 0.6, margin: { top: '12mm', bottom: '12mm', left: '12mm', right: '12mm' } });
+  // The one-page summary (src/pages/[slug]/card.astro), sized by its own @page rule.
+  await page.goto(`${base}/${slug}/card/`, { waitUntil: 'load' });
+  await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; })))); });
+  await page.pdf({ path: path.join(OUT, 'one-page', `${slug}.pdf`), printBackground: true, preferCSSPageSize: true });
   // The full SEO & social report, every section open.
   const seo = await page.goto(`${base}/${slug}/seo/`, { waitUntil: 'load' });
   if (seo?.ok()) {
@@ -47,4 +53,4 @@ for (const slug of slugs) {
 }
 await browser.close();
 server.close();
-console.log(`leave-behind: ${slugs.length} PDFs in outreach/print`);
+console.log(`leave-behind: ${slugs.length} checkups and ${slugs.length} one-page summaries in outreach/print`);

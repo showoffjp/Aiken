@@ -4640,7 +4640,17 @@
      "nodes": 5
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "evello-med-spa": {
@@ -7921,7 +7931,17 @@
    "moderate": 0,
    "minor": 0,
    "top": [],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "prioritypet-urgent-care": {
@@ -9036,10 +9056,10 @@
  },
  "sunbreak-window-tinting": {
   "site": {
-   "rules": 4,
-   "issues": 6,
+   "rules": 3,
+   "issues": 5,
    "critical": 1,
-   "serious": 5,
+   "serious": 4,
    "moderate": 0,
    "minor": 0,
    "top": [
@@ -9056,19 +9076,23 @@
      "nodes": 1
     },
     {
-     "id": "link-name",
-     "impact": "serious",
-     "help": "Links must have discernible text",
-     "nodes": 1
-    },
-    {
      "id": "meta-viewport",
      "impact": "critical",
      "help": "Zooming and scaling must not be disabled",
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "tabs-professional-transportation": {

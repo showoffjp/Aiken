@@ -1,0 +1,439 @@
+{
+  "name": "Prime Steakhouse",
+  "short": "Prime Steakhouse",
+  "category": "Steakhouse",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f6f2ec",
+    "surface": "#fffdf9",
+    "ink": "#17110e",
+    "muted": "#5d544c",
+    "primary": "#5a1f1b",
+    "onPrimary": "#ffffff",
+    "accent": "#c59b5f",
+    "line": "#e6ddd1"
+  },
+  "radius": 6,
+  "icon": "beef",
+  "contact": {
+    "phone": "(803) 646-9851",
+    "email": "primesteakhouseaiken@gmail.com",
+    "address": [
+      "316 Richland Avenue West",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Prime Steakhouse, 316 Richland Ave W, Aiken, SC 29801",
+    "hours": [
+      [
+        "Tuesday – Saturday",
+        "5:00 pm – 9:00 pm"
+      ],
+      [
+        "Sunday",
+        "5:30 pm – 8:30 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/320150918370992"
+  },
+  "hero": {
+    "eyebrow": "An American steakhouse in downtown Aiken",
+    "title": "Dry-aged on site, *served downtown*",
+    "lede": "Black Angus and prime steaks dry-aged in house for at least 28 days, hand-selected seafood and whole lobsters, and a curated bar, in a brick-walled dining room on Richland Avenue.",
+    "points": [
+      "28-day dry-aged steaks",
+      "Seafood & whole lobster",
+      "Private parties to 55"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 646-9851",
+      "href": "tel:+18036469851"
+    },
+    "image": {
+      "src": "/demo-assets/prime-steakhouse/cowboy-ribeye.webp",
+      "alt": "A grilled split-bone cowboy ribeye in a cast-iron skillet beside Brussels sprouts",
+      "width": 1831,
+      "height": 1200
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/prime-steakhouse/cowboy-ribeye.webp"
+  },
+  "facts": [
+    {
+      "value": "28 days",
+      "label": "Minimum dry-aging, on site"
+    },
+    {
+      "value": "Up to 55",
+      "label": "Guests for a private party"
+    },
+    {
+      "value": "Tue–Sun",
+      "label": "Dinner from 5 pm"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "From the kitchen",
+      "title": "The *menu*",
+      "intro": "Ask about today’s butcher cuts: premium and specialty cuts that change daily. Sides are made to share between two or three.",
+      "groups": [
+        {
+          "title": "Appetizers",
+          "items": [
+            {
+              "name": "Raw oysters",
+              "desc": "A half dozen",
+              "price": "$21"
+            },
+            {
+              "name": "Oysters casino",
+              "price": "$27"
+            },
+            {
+              "name": "“Aiken’s” bacon",
+              "desc": "Nueske’s cherry-smoked candied bacon, seasonal coulis, house-made peanut butter",
+              "price": "$17"
+            },
+            {
+              "name": "Tuna crudo",
+              "desc": "Sesame-crusted yellowfin, ponzu, chili oil, wonton crisp",
+              "price": "$23"
+            },
+            {
+              "name": "Wagyu meatballs",
+              "desc": "Peach bourbon glaze",
+              "price": "$25"
+            },
+            {
+              "name": "Wagyu beef carpaccio",
+              "desc": "Capers, shallot, Parmesan, arugula, Dijon horseradish aioli",
+              "price": "$28"
+            },
+            {
+              "name": "Bacon-wrapped shrimp",
+              "desc": "Pepper Jack, shrimp mousse, roasted garlic citrus crème fraîche",
+              "price": "$24"
+            },
+            {
+              "name": "Charleston crab cake",
+              "desc": "Jumbo lump crab and shrimp, tomato medley, lime, dill"
+            }
+          ]
+        },
+        {
+          "title": "Butcher’s block",
+          "items": [
+            {
+              "name": "Filet mignon",
+              "desc": "8 oz",
+              "price": "$49"
+            },
+            {
+              "name": "New York strip",
+              "desc": "12 oz",
+              "price": "$51"
+            },
+            {
+              "name": "Classic ribeye",
+              "desc": "14 oz",
+              "price": "$57"
+            },
+            {
+              "name": "Split-bone cowboy ribeye",
+              "desc": "18 oz",
+              "price": "$69"
+            },
+            {
+              "name": "Wagyu tomahawk",
+              "desc": "For two or more; Australian, all-natural, olive-fed",
+              "price": "$159"
+            }
+          ]
+        },
+        {
+          "title": "Signature dishes",
+          "items": [
+            {
+              "name": "Coastal grandeur",
+              "desc": "Lobster tail, lump crab, shrimp, fish and mussels in coconut lemongrass broth",
+              "price": "$61"
+            },
+            {
+              "name": "Pork chop",
+              "desc": "Brandy-apple glaze, Yukon Gold mashed potatoes, broccolini",
+              "price": "$57"
+            },
+            {
+              "name": "Atlantic salmon",
+              "desc": "Sesame miso honey glaze, seasonal vegetables",
+              "price": "$41"
+            },
+            {
+              "name": "Chicken duo",
+              "desc": "Confit leg and pan-seared breast, seasonal risotto, asparagus",
+              "price": "$39"
+            },
+            {
+              "name": "Wagyu burger",
+              "desc": "Caramelized onions, garlic truffle aioli, frites",
+              "price": "$33"
+            }
+          ]
+        },
+        {
+          "title": "Salads",
+          "items": [
+            {
+              "name": "Iceberg wedge",
+              "desc": "Red onion, bacon lardons, tomato, blue cheese",
+              "price": "$18"
+            },
+            {
+              "name": "Classic Caesar",
+              "desc": "Chopped romaine, Parmigiano-Reggiano, house-made dressing",
+              "price": "$16"
+            },
+            {
+              "name": "Baby beet salad",
+              "desc": "Arugula, candied walnuts, goat cheese, charred shallot vinaigrette"
+            }
+          ]
+        },
+        {
+          "title": "To share",
+          "items": [
+            {
+              "name": "Parmesan risotto",
+              "price": "$14"
+            },
+            {
+              "name": "Fried Brussels sprouts",
+              "desc": "Bacon lardons, honey glaze",
+              "price": "$13"
+            },
+            {
+              "name": "Wild mushrooms",
+              "price": "$12"
+            },
+            {
+              "name": "Baked potato",
+              "desc": "Plain $9, loaded $15"
+            },
+            {
+              "name": "Frites",
+              "price": "$8"
+            },
+            {
+              "name": "Also",
+              "desc": "Asparagus, creamed or sautéed spinach, Yukon Gold mashed potatoes, steakhouse mac and cheese"
+            }
+          ]
+        }
+      ],
+      "footnote": "Menu and prices as posted on the restaurant’s current website. Items served raw or undercooked may increase the risk of foodborne illness."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Where taste meets perfection",
+      "title": "A steakhouse *with a butcher’s eye*",
+      "image": {
+        "src": "/demo-assets/prime-steakhouse/dining-room.webp",
+        "alt": "The dining room, with white tablecloths against exposed brick walls",
+        "width": 1200,
+        "height": 630
+      },
+      "body": [
+        "Prime is helmed by Chef Chad Jajczyk, whose decades of chef and butchery experience define the kitchen. Black Angus and prime steaks are dry-aged on site for at least twenty-eight days, seafood and whole lobsters are hand-selected, and many ingredients are raised and sourced directly.",
+        "Tucked into the heart of downtown Aiken, the dining room pairs modern artwork with old brick walls, lush table settings and a curated bar of premium selections."
+      ],
+      "list": [
+        "Steaks dry-aged on site for 28 days or more",
+        "Farm-to-table ingredients",
+        "A curated bar and wine list"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "From the table",
+      "title": "Plates *worth the occasion*",
+      "images": [
+        {
+          "src": "/demo-assets/prime-steakhouse/steak-plate.webp",
+          "alt": "A grilled steak with onion rings and mashed potatoes, with cocktails",
+          "width": 1400,
+          "height": 933
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/oysters.webp",
+          "alt": "Raw oysters on ice at a set table",
+          "width": 1200,
+          "height": 907
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/lobster.webp",
+          "alt": "A lobster tail with asparagus, mashed potatoes and drawn butter",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/cocktail.webp",
+          "alt": "A frothy cocktail garnished with rosemary on the bar",
+          "width": 900,
+          "height": 1309
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/filet.webp",
+          "alt": "A filet topped with blue cheese crumbles in a dark sauce",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/bacon.webp",
+          "alt": "Candied bacon hanging from a rack with dipping sauces",
+          "width": 1200,
+          "height": 889
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/dessert.webp",
+          "alt": "A slice of cheesecake topped with toasted meringue",
+          "width": 1200,
+          "height": 750
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/wine.webp",
+          "alt": "A wine fridge stocked with bottles",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/prime-steakhouse/storefront.webp",
+          "alt": "Prime Steakhouse’s brick storefront on Richland Avenue",
+          "width": 1600,
+          "height": 900
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "parties",
+      "nav": "Parties",
+      "eyebrow": "Toasts, laughter and lasting memories",
+      "title": "Parties *and catering*",
+      "columns": [
+        {
+          "title": "Private parties",
+          "items": [
+            "Birthdays, anniversaries and corporate gatherings",
+            "Groups of up to 55 guests",
+            "Holiday parties: book early"
+          ]
+        },
+        {
+          "title": "Catering",
+          "items": [
+            "Business gatherings and family celebrations",
+            "Salads, seafood and carefully roasted meats",
+            "Refined cuisine with a classic touch"
+          ]
+        },
+        {
+          "title": "From the bar",
+          "items": [
+            "Craft and imported beer",
+            "Cabernets from Silver Oak and Caymus",
+            "Seasonal cocktails, artfully mixed"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Should I make a reservation?",
+          "a": "We recommend it. Call (803) 646-9851 to reserve a table."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Tuesday to Saturday from 5 to 9 pm, and Sunday from 5:30 to 8:30 pm. We’re closed on Mondays."
+        },
+        {
+          "q": "Can you host a private party?",
+          "a": "Yes, for up to 55 guests. Call or email primesteakhouseaiken@gmail.com to plan it."
+        },
+        {
+          "q": "How long are the steaks aged?",
+          "a": "At least twenty-eight days, dry-aged on site."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "A table for life’s best moments",
+      "text": "Reserve for dinner, or plan a private party for up to 55.",
+      "cta": {
+        "label": "Call (803) 646-9851",
+        "href": "tel:+18036469851"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "formTitle": "Plan a party or catering",
+    "formTopics": [
+      "A table reservation",
+      "A private party",
+      "Catering",
+      "A gift or special occasion",
+      "Something else"
+    ]
+  },
+  "slug": "prime-steakhouse",
+  "added": "2026-11-19",
+  "prospect": "prime-steakhouse",
+  "source": {
+    "url": "https://primesteakhouseaiken.com/",
+    "before": [
+      "Typos on the menu: “hopped Romaine” for chopped, and “Pain or Loaded” for the baked potato",
+      "On a phone, the first screen shows no phone number or call button",
+      "A 6.1 MB home page with a background video takes about 13 seconds to show its main content on a phone (Google Lighthouse speed score: 42 out of 100)"
+    ],
+    "after": [
+      "The menu and prices on the first screens, quick to load on a phone",
+      "Hours where people look, with an “Open now” sign",
+      "The chef and the dry-aging story up front",
+      "One tap to call for a table"
+    ]
+  },
+  "style": {
+    "services": "list",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

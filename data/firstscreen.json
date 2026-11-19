@@ -704,6 +704,26 @@
    "at": "2026-11-19"
   }
  },
+ "eudora-wildlife-safari-park": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 49,
+   "targets": 24,
+   "smallTargets": 6,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 46,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
  "farm-dog": {
   "concept": {
    "call": true,
@@ -1462,6 +1482,26 @@
    "at": "2026-11-19"
   }
  },
+ "prime-steakhouse": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 67,
+   "smallTargets": 13,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 45,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
  "rebel-ranch-horse-tours-llc": {
   "concept": {
    "call": true,
@@ -1592,6 +1632,26 @@
    "tinyText": 0,
    "targets": 41,
    "smallTargets": 3,
+   "at": "2026-11-19"
+  }
+ },
+ "sunbreak-window-tinting": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 5,
+   "smallTargets": 2,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 42,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },

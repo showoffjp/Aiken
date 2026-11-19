@@ -4715,9 +4715,9 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 24,
+    "performance": 27,
     "pageMB": 2.3,
-    "a11ySerious": 6,
+    "a11ySerious": 5,
     "facebook": true,
     "instagram": true,
     "domainYears": 2
@@ -20905,7 +20905,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 40,
     "pageMB": 3,
     "a11ySerious": 5,
     "facebook": true,
@@ -31196,6 +31196,1146 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 7
+   }
+  ]
+ },
+ "prime-steakhouse": {
+  "slug": "prime-steakhouse",
+  "name": "Prime Steakhouse",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "primesteakhouseaiken.com",
+   "https": true,
+   "pagesCrawled": 13,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://primesteakhouseaiken.com/",
+    "title": "Prime Steakhouse - Aiken, SC",
+    "description": "Step into a setting where storied charm meets sophisticated American steakhouse culture. Tucked in the heart of Downtown Aiken, Prime Steakhouse features modern artwork set against brick walls, lush table settings, and a curated bar with premium selections.",
+    "canonical": "https://primesteakhouseaiken.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Prime Steakhouse - Aiken, SC",
+     "description": "Step into a setting where storied charm meets sophisticated American steakhouse culture. Tucked in the heart of Downtown Aiken, Prime Steakhouse features modern artwork set against brick wal...",
+     "image": "https://static.spotapps.co/website_images/ab_websites/660519_website_v1/social_share.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Prime Steakhouse - Aiken, SC"
+    ],
+    "h1Count": 1,
+    "h2": 17,
+    "h3": 10,
+    "words": 642,
+    "images": 44,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "Restaurant",
+     "PostalAddress",
+     "GeoCoordinates"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://primesteakhouseaiken.com/sitemap.xml",
+    "pages": 8
+   },
+   "crawl": {
+    "pages": 13,
+    "missingTitle": 0,
+    "missingDescription": 10,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 5,
+    "dupDescs": 1,
+    "imagesNoAlt": 20,
+    "images": 89,
+    "sample": [
+     {
+      "url": "https://primesteakhouseaiken.com/",
+      "title": "Prime Steakhouse - Aiken, SC",
+      "description": 257,
+      "h1": 1,
+      "words": 642
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/-party?source=pop_up&spot_id=660519&destination=private_parties&promotion=holiday_party",
+      "title": "Prime Steakhouse - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/-party?source=pop_up&spot_id=660519&destination=private_parties&promotion=private_parties",
+      "title": "Prime Steakhouse - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/about",
+      "title": "Prime Steakhouse - About",
+      "description": 257,
+      "h1": 1,
+      "words": 229
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/food-menu",
+      "title": "Prime Steakhouse - Food Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 518
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/drink-menu",
+      "title": "Prime Steakhouse - Drink Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 673
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/specials",
+      "title": "Prime Steakhouse - Specials",
+      "description": 0,
+      "h1": 1,
+      "words": 146
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/events",
+      "title": "Prime Steakhouse - Events",
+      "description": 0,
+      "h1": 1,
+      "words": 4065
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/party",
+      "title": "Prime Steakhouse - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/accessibility-page-01",
+      "title": "Accessibility Statement",
+      "description": 129,
+      "h1": 1,
+      "words": 229
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/food-menu?menu_id=1382022",
+      "title": "Prime Steakhouse - Food Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 518
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/drink-menu?menu_id=1382027",
+      "title": "Prime Steakhouse - Drink Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 673
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/drink-menu?menu_id=1382028",
+      "title": "Prime Steakhouse - Drink Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 673
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 18,
+    "broken": [
+     {
+      "url": "https://primesteakhouseaiken.com/$%7Be.url%7D",
+      "status": 404,
+      "from": "https://primesteakhouseaiken.com/"
+     },
+     {
+      "url": "https://primesteakhouseaiken.com/call-us",
+      "status": 404,
+      "from": "https://primesteakhouseaiken.com/"
+     }
+    ],
+    "brokenCount": 2
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/320150918370992",
+    "Instagram": "https://www.instagram.com/primesteakhouseaiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Steakhouse",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 7
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 7
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=781&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=7316d6f6f3e35766c187278221ea03f8",
+    "name": "Prime Steakhouse",
+    "phone": "(803) 642-4488",
+    "website": "http://www.primesteakhouseaiken.com",
+    "address": "316 Richland Avenue, NW, Aiken, SC 29801",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/prime_steak_house/",
+    "name": "Prime - A Classic Steakhouse",
+    "phone": "803-642-4488",
+    "website": "https://www.primesteakhouseaiken.com/",
+    "address": "316 Richland Ave NW, Aiken SC",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Prime Steakhouse",
+    "phone": "",
+    "website": "https://www.primesteakhouseaiken.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/320150918370992",
+    "Instagram": "https://www.instagram.com/primesteakhouseaiken"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/320150918370992",
+    "Instagram": "https://www.instagram.com/primesteakhouseaiken"
+   }
+  },
+  "domain": {
+   "name": "primesteakhouseaiken.com",
+   "created": "2009-04-29",
+   "expires": "2027-04-29",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 17
+  },
+  "performance": {
+   "performance": 42,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 3158,
+   "lcp": 13076,
+   "tbt": 807,
+   "si": 8491,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1055,
+   "lcp": 2405,
+   "tbt": 49,
+   "si": 1055,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "park-avenue-oyster-bar-and-grill",
+   "the-restaurant-at-the-willcox",
+   "feed-sack-aiken",
+   "anshu-asian-caf"
+  ],
+  "scores": {
+   "seo": 76,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "park-avenue-oyster-bar-and-grill",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "website": "https://parkaveoysterbar.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 4.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "the-restaurant-at-the-willcox",
+    "name": "The Restaurant at The Willcox",
+    "website": "https://thewillcox.com/dine/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 39,
+    "pageMB": 13.7,
+    "a11ySerious": 32,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 25
+   },
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   }
+  ]
+ },
+ "eudora-wildlife-safari-park": {
+  "slug": "eudora-wildlife-safari-park",
+  "name": "Eudora Wildlife Safari Park",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "eudorasafaripark.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.eudorasafaripark.com/",
+    "title": "Eudora Wildlife Safari Park | Drive-Through Zoo Near Columbia, SC",
+    "description": "Experience South Carolina's largest drive-through animal safari park near Columbia, SC. Enjoy animal feeding, wagon rides, and our family-friendly petting zoo.",
+    "canonical": "https://www.eudorasafaripark.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Eudora Wildlife Safari Park | Drive-Through Zoo Near Columbia, SC",
+     "description": "Experience South Carolina's largest drive-through animal safari park near Columbia, SC. Enjoy animal feeding, wagon rides, and our family-friendly petting zoo.",
+     "image": "https://static.wixstatic.com/media/486db6_3d9f529ad6b449bf9c6e7af8f53d1e97~mv2.png/v1/fill/w_1920,h_1080,al_c/486db6_3d9f529ad6b449bf9c6e7af8f53d1e97~mv2.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 9,
+    "h3": 4,
+    "words": 755,
+    "images": 23,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "Service",
+     "Organization",
+     "LocalBusiness",
+     "PostalAddress",
+     "WebSite",
+     "WildlifePark",
+     "GeoCoordinates",
+     "OpeningHoursSpecification"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.eudorasafaripark.com/sitemap.xml",
+    "pages": 37
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 2,
+    "missingH1": 5,
+    "multipleH1": 2,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 9,
+    "images": 96,
+    "sample": [
+     {
+      "url": "https://www.eudorasafaripark.com/",
+      "title": "Eudora Wildlife Safari Park | Drive-Through Zoo Near Columbia, SC",
+      "description": 159,
+      "h1": 0,
+      "words": 755
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/map",
+      "title": "Interactive Safari Trail Map | Eudora Wildlife Safari Park",
+      "description": 153,
+      "h1": 1,
+      "words": 322
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/about",
+      "title": "About Eudora Wildlife Safari Park | Drive-Through Zoo in SC",
+      "description": 151,
+      "h1": 2,
+      "words": 765
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/visit",
+      "title": "Rules & FAQ | Exoctic Animals | Eudora Wildlife Safari Park",
+      "description": 160,
+      "h1": 1,
+      "words": 765
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/animalfactsheet",
+      "title": "Exotic Animal Fact Sheet | Eudora Wildlife Safari Park",
+      "description": 149,
+      "h1": 0,
+      "words": 326
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/faq",
+      "title": "Drive-Through Safari FAQs | Eudora Wildlife Safari Park",
+      "description": 153,
+      "h1": 0,
+      "words": 250
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/blog",
+      "title": "Wildlife Safari Blog: Animal Facts & Family Fun | Eudora",
+      "description": 145,
+      "h1": 1,
+      "words": 506
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/book",
+      "title": "Book a School Field Trip | Eudora Safari Park Wagon Tours",
+      "description": 151,
+      "h1": 1,
+      "words": 615
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/hire",
+      "title": "Exotic Animal Rental for Parties & Events | Eudora",
+      "description": 144,
+      "h1": 0,
+      "words": 468
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/birthday",
+      "title": "Safari Birthday Parties & Wagon Rides | Eudora",
+      "description": 146,
+      "h1": 2,
+      "words": 437
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/shop",
+      "title": "Gift Cards & Annual Passes | Eudora Wildlife Safari Park",
+      "description": 152,
+      "h1": 0,
+      "words": 414
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/post/fall-family-adventures-in-south-carolina-go-wild-at-eudora-wildlife-safari-park",
+      "title": "Fall Family Adventures in South Carolina: Go Wild at Eudora Wildlife Safari Park",
+      "description": 0,
+      "h1": 1,
+      "words": 1085
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/post/one-last-wild-adventure-before-summer-ends",
+      "title": "End-of-Summer Family Day Trip Near Columbia, SC",
+      "description": 140,
+      "h1": 1,
+      "words": 994
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/post/world-giraffe-day-at-eudora-wildlife-safari-park-celebrating-the-world-s-tallest-mammal",
+      "title": "World Giraffe Day at Eudora Wildlife Safari Park: Celebrating the World's Tallest Mammal",
+      "description": 141,
+      "h1": 1,
+      "words": 948
+     },
+     {
+      "url": "https://www.eudorasafaripark.com/members-area/4f51bf9d-5774-4447-9d6f-24f00d9a1c5e21572/profile",
+      "title": "Member Page | Eudora",
+      "description": 0,
+      "h1": 1,
+      "words": 538
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 25,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://www.google.com/maps/place/Eudora+Farms/@33.65394,-81.2561657,17z/data=!3m1!4b1!4m5!3m4!1s0x88f8e5e2d29890ef:0xfb94c121bb0b8b3!8m2!3d33.65394!4d-81.253977"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Drive-Through Safari Park",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Salley",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=446&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=14ed2067da7d3aa4d32948cfb0770134",
+    "name": "Eudora Wildlife Safari Park",
+    "phone": "(803) 564-5358",
+    "website": "http://www.eudorasafaripark.com",
+    "address": "219 Salem Lane, Salley, SC 29137",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/eudora_farms/",
+    "name": "Eudora Wildlife Safari Park",
+    "phone": "",
+    "website": "https://www.eudorafarms.net",
+    "address": "219 Salem Ln, Aiken SC",
+    "phoneMatch": null,
+    "websiteMatch": false
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://www.google.com/maps/place/Eudora+Farms/@33.65394,-81.2561657,17z/data=!3m1!4b1!4m5!3m4!1s0x88f8e5e2d29890ef:0xfb94c121bb0b8b3!8m2!3d33.65394!4d-81.253977"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/EudoraFarms",
+    "Instagram": "https://www.instagram.com/eudorasafaripark/"
+   }
+  },
+  "domain": {
+   "name": "eudorasafaripark.com",
+   "created": "2025-01-06",
+   "expires": "2027-01-06",
+   "registrar": "Wix.com Ltd.",
+   "years": 1
+  },
+  "performance": {
+   "performance": 40,
+   "accessibility": 94,
+   "bestPractices": 71,
+   "seo": 92,
+   "fcp": 2536,
+   "lcp": 6239,
+   "tbt": 2852,
+   "si": 6193,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 952,
+   "lcp": 1957,
+   "tbt": 154,
+   "si": 952,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "britts-jump-and-slide-inflatables-llc",
+   "carolina-dragway-inc",
+   "legare-gardens",
+   "park-avenue-lanes-inc",
+   "radioactive-pinball-arcade"
+  ],
+  "scores": {
+   "seo": 75,
+   "social": 85,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "britts-jump-and-slide-inflatables-llc",
+    "name": "Britt's Jump & Slide Inflatables, LLC",
+    "website": "https://www.brittsinflatables.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 13,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "carolina-dragway-inc",
+    "name": "Carolina Dragway, Inc.",
+    "website": "https://carolinadragway.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": null,
+    "pageMB": 5.5,
+    "a11ySerious": 46,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 27
+   },
+   {
+    "slug": "legare-gardens",
+    "name": "Legare Gardens",
+    "website": "https://legaregardens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "park-avenue-lanes-inc",
+    "name": "Park Avenue Lanes, Inc.",
+    "website": "https://www.parkavelanes.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "radioactive-pinball-arcade",
+    "name": "Radioactive Pinball Arcade",
+    "website": "https://radioactivepinballarcade.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0,
+    "a11ySerious": 31,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   }
+  ]
+ },
+ "sunbreak-window-tinting": {
+  "slug": "sunbreak-window-tinting",
+  "name": "SunBreak Window Tinting",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "sunbreaktint.com",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://sunbreaktint.com/",
+    "title": "Window Tinting in Aiken & North Augusta, SC | SunBreak Tint",
+    "description": "Premier automotive, residential & commercial window tinting in Aiken, North Augusta, Augusta and surrounding areas. Quality ceramic tint, privacy & security film by Sunbreak.",
+    "canonical": "https://sunbreaktint.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Window Tinting in Aiken & North Augusta, SC | SunBreak Tint",
+     "description": "Premier automotive, residential & commercial window tinting in Aiken, North Augusta, Augusta and surrounding areas. Quality ceramic tint, privacy & security film by Sunbreak.",
+     "image": "https://sunbreaktint.com/wp-content/uploads/2024/05/shutterstock_1191845914-1024x683.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Sunbreak Window Tinting"
+    ],
+    "h1Count": 1,
+    "h2": 7,
+    "h3": 10,
+    "words": 953,
+    "images": 68,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "LocalBusiness",
+     "Organization",
+     "ImageObject",
+     "WebSite",
+     "SearchAction",
+     "WebPage",
+     "Person",
+     "Article"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": true,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://sunbreaktint.com/sitemap_index.xml",
+    "pages": 15
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 24,
+    "images": 205,
+    "sample": [
+     {
+      "url": "https://sunbreaktint.com/",
+      "title": "Window Tinting in Aiken & North Augusta, SC | SunBreak Tint",
+      "description": 174,
+      "h1": 1,
+      "words": 953
+     },
+     {
+      "url": "https://sunbreaktint.com/about-us/",
+      "title": "About Us - Sunbreak Window Tinting",
+      "description": 123,
+      "h1": 1,
+      "words": 506
+     },
+     {
+      "url": "https://sunbreaktint.com/services/commercial-window-tinting/",
+      "title": "Commercial Window Tinting for Businesses & Storefronts | Sun Break Window Tinting",
+      "description": 152,
+      "h1": 1,
+      "words": 749
+     },
+     {
+      "url": "https://sunbreaktint.com/services/residential-window-tinting/",
+      "title": "Residential Window Tinting in Aiken & Augusta | Sun Break Window Tinting",
+      "description": 224,
+      "h1": 1,
+      "words": 682
+     },
+     {
+      "url": "https://sunbreaktint.com/services/automotive/",
+      "title": "Auto Window Tinting in Aiken & North Augusta | SunBreak Window Tinting",
+      "description": 160,
+      "h1": 1,
+      "words": 471
+     },
+     {
+      "url": "https://sunbreaktint.com/services/ceramic-window-tint/",
+      "title": "Ceramic Window Tint in Aiken & North Augusta | Heat Reduction Film",
+      "description": 139,
+      "h1": 1,
+      "words": 760
+     },
+     {
+      "url": "https://sunbreaktint.com/services/security-window-film/",
+      "title": "Security Window Film in Aiken & North Augusta | Safety Glass Protection",
+      "description": 140,
+      "h1": 1,
+      "words": 838
+     },
+     {
+      "url": "https://sunbreaktint.com/services/privacy-window-film/",
+      "title": "Privacy Window Film in Aiken & North Augusta | Home & Office Tint",
+      "description": 140,
+      "h1": 2,
+      "words": 509
+     },
+     {
+      "url": "https://sunbreaktint.com/our-work/",
+      "title": "SunBreak Photo Gallery",
+      "description": 157,
+      "h1": 1,
+      "words": 346
+     },
+     {
+      "url": "https://sunbreaktint.com/aiken/",
+      "title": "Window Tinting Aiken SC | Car, Home & Commercial Tint",
+      "description": 159,
+      "h1": 1,
+      "words": 603
+     },
+     {
+      "url": "https://sunbreaktint.com/north-augusta/",
+      "title": "Window Tinting North Augusta SC | Car, Home & Business Tint",
+      "description": 139,
+      "h1": 1,
+      "words": 643
+     },
+     {
+      "url": "https://sunbreaktint.com/contact-us/",
+      "title": "Contact Us - Sunbreak Window Tinting",
+      "description": 144,
+      "h1": 1,
+      "words": 404
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 14,
+    "broken": [
+     {
+      "url": "https://sunbreaktint.com/services",
+      "status": 0,
+      "from": "https://sunbreaktint.com/"
+     },
+     {
+      "url": "https://sunbreaktint.com/privacy-policy",
+      "status": 0,
+      "from": "https://sunbreaktint.com/"
+     }
+    ],
+    "brokenCount": 2
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/sunbreaktint",
+    "Instagram": "https://www.instagram.com/sunbreaktint"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Window Tinting",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 10
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 9
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=932&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=12a5d84278b0e2e3e8386b17acdc200c",
+    "name": "SunBreak Window Tinting",
+    "phone": "(803) 226-0035",
+    "website": "http://www.sunbreaktint.com",
+    "address": "2153 Whiskey Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/sunbreak-window-tinting-llc-4305",
+    "name": "SunBreak Window Tinting, LLC",
+    "phone": "(803) 426-8067",
+    "website": "http://www.sunbreaktint.com",
+    "address": "125 Merovan Dr., North Augusta SC 29860",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/sunbreaktint",
+    "Instagram": "https://www.instagram.com/sunbreaktint"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/sunbreaktint",
+    "Instagram": "https://www.instagram.com/sunbreaktint"
+   }
+  },
+  "domain": {
+   "name": "sunbreaktint.com",
+   "created": "2024-04-03",
+   "expires": "2027-04-03",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 2
+  },
+  "performance": {
+   "performance": 27,
+   "accessibility": 88,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 2458,
+   "lcp": 5519,
+   "tbt": 2551,
+   "si": 8003,
+   "cls": 0.251,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2404,
+   "tbt": 121,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "broome-service-center-inc",
+   "automotive-workbench",
+   "big-chris-collision",
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "c-and-c-automotive"
+  ],
+  "scores": {
+   "seo": 88,
+   "social": 70,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "broome-service-center-inc",
+    "name": "Broome Service Center Inc.",
+    "website": "https://broomeservicecenter.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "big-chris-collision",
+    "name": "Big Chris Collision",
+    "website": "https://bigchriscollision.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 68,
+    "pageMB": 2.2,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 9
+   },
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
    }
   ]
  }

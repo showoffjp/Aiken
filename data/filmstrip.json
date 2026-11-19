@@ -4756,5 +4756,191 @@
    ],
    "at": "2026-11-19"
   }
+ },
+ "eudora-wildlife-safari-park": {
+  "site": {
+   "first": 1392,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1317,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "prime-steakhouse": {
+  "site": {
+   "first": 4195,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1134,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
+ },
+ "sunbreak-window-tinting": {
+  "site": {
+   "first": 2759,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "first": 1272,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-19"
+  }
  }
 }

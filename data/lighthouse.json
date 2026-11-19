@@ -2727,16 +2727,28 @@
  },
  "sunbreak-window-tinting": {
   "site": {
-   "performance": 24,
-   "accessibility": 84,
+   "performance": 27,
+   "accessibility": 88,
    "bestPractices": 79,
    "seo": 85,
-   "fcp": 2929,
-   "lcp": 6081,
-   "tbt": 2313,
-   "si": 8210,
+   "fcp": 2458,
+   "lcp": 5519,
+   "tbt": 2551,
+   "si": 8003,
    "cls": 0.251,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2404,
+   "tbt": 121,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "tailgate-tavern": {
@@ -4035,6 +4047,58 @@
    "lcp": 1953,
    "tbt": 174,
    "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "eudora-wildlife-safari-park": {
+  "site": {
+   "performance": 40,
+   "accessibility": 94,
+   "bestPractices": 71,
+   "seo": 92,
+   "fcp": 2536,
+   "lcp": 6239,
+   "tbt": 2852,
+   "si": 6193,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 952,
+   "lcp": 1957,
+   "tbt": 154,
+   "si": 952,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "prime-steakhouse": {
+  "site": {
+   "performance": 42,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 3158,
+   "lcp": 13076,
+   "tbt": 807,
+   "si": 8491,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1055,
+   "lcp": 2405,
+   "tbt": 49,
+   "si": 1055,
    "cls": 0,
    "at": "2026-11-19"
   }

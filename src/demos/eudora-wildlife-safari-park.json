@@ -1,0 +1,386 @@
+{
+  "name": "Eudora Wildlife Safari Park",
+  "short": "Eudora Safari Park",
+  "category": "Drive-Through Safari Park",
+  "group": "Stay & Play",
+  "town": "Salley, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "fredoka",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6f3e8",
+    "surface": "#fffdf6",
+    "ink": "#1c1f12",
+    "muted": "#54584a",
+    "primary": "#2f5d1e",
+    "onPrimary": "#ffffff",
+    "accent": "#e8742a",
+    "line": "#e3ddc9"
+  },
+  "radius": 16,
+  "icon": "binoculars",
+  "contact": {
+    "phone": "(803) 564-5358",
+    "email": "info@eudorasafaripark.com",
+    "address": [
+      "219 Salem Lane",
+      "Salley, SC 29137"
+    ],
+    "mapQuery": "Eudora Wildlife Safari Park, 219 Salem Ln, Salley, SC 29137",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:00 am – 6:00 pm"
+      ],
+      [
+        "Sunday",
+        "12:00 pm – 6:00 pm"
+      ]
+    ],
+    "hoursNote": "The last car enters the gates at 4 pm. Closed Thanksgiving and Christmas.",
+    "facebook": "https://www.facebook.com/EudoraFarms"
+  },
+  "hero": {
+    "eyebrow": "South Carolina’s first drive-thru safari",
+    "title": "Welcome to *the wild side*",
+    "lede": "Drive South Carolina’s largest animal safari loop and meet more than 300 exotic animals from your car window, then walk the trail, visit the petting zoo and stop by the Safari Village.",
+    "points": [
+      "300+ exotic animals",
+      "Wagon rides",
+      "Open 7 days"
+    ],
+    "cta": {
+      "label": "Tickets & prices",
+      "href": "#tickets"
+    },
+    "cta2": {
+      "label": "Call (803) 564-5358",
+      "href": "tel:+18035645358"
+    },
+    "image": {
+      "src": "/demo-assets/eudora-wildlife-safari-park/giraffe.webp",
+      "alt": "A giraffe leaning in to two visitors feeding it",
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/eudora-wildlife-safari-park/giraffe.webp"
+  },
+  "facts": [
+    {
+      "value": "300+",
+      "label": "Exotic animals"
+    },
+    {
+      "value": "2020",
+      "label": "Opened on Mother’s Day"
+    },
+    {
+      "value": "5 mph",
+      "label": "Safari speed limit"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "tickets",
+      "nav": "Tickets",
+      "eyebrow": "Admission",
+      "title": "Tickets *and prices*",
+      "intro": "Drive-thru admission is sold at the gate; wagon rides must be booked online in advance. Military and seniors save 10% on general admission and concessions in person.",
+      "groups": [
+        {
+          "title": "Drive-thru safari",
+          "note": "Per vehicle; children 2 and under free",
+          "items": [
+            {
+              "name": "One person",
+              "price": "$23"
+            },
+            {
+              "name": "Two people",
+              "price": "$46"
+            },
+            {
+              "name": "Three to six people",
+              "price": "$67"
+            },
+            {
+              "name": "Each additional person over six",
+              "price": "$8.50"
+            }
+          ]
+        },
+        {
+          "title": "Wagon rides",
+          "note": "One hour with a guide, a bucket of feed each, the walk-thru trail and the petting zoo",
+          "items": [
+            {
+              "name": "Public wagon ride",
+              "desc": "Per guest, ages 3 and up",
+              "price": "$27"
+            },
+            {
+              "name": "Private wagon ride",
+              "desc": "Up to 10 people; $20 for each person over 10",
+              "price": "$225"
+            }
+          ]
+        },
+        {
+          "title": "Extras",
+          "items": [
+            {
+              "name": "Birthday party package",
+              "desc": "A birthday T-shirt, Parakeet Adventure for your group and 20% off concessions",
+              "price": "+$40"
+            },
+            {
+              "name": "Annual pass",
+              "desc": "A year of visits for up to six people in your vehicle, with two buckets of feed each time"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices as posted on the park’s current website.",
+      "printLabel": "Print the prices"
+    },
+    {
+      "type": "services",
+      "id": "things-to-do",
+      "nav": "Things to do",
+      "columns": 3,
+      "eyebrow": "A day on safari",
+      "title": "More than *a drive*",
+      "items": [
+        {
+          "icon": "car",
+          "title": "Drive-thru safari",
+          "text": "The state’s largest animal safari loop, at your own pace from your own car."
+        },
+        {
+          "icon": "tractor",
+          "title": "Wagon rides",
+          "text": "An hour with an expert guide, with feed buckets for every rider."
+        },
+        {
+          "icon": "footprints",
+          "title": "Walk-thru trail",
+          "text": "Up close with ring-tailed lemurs, African servals, binturongs, a tortoise and kangaroos."
+        },
+        {
+          "icon": "heart",
+          "title": "Petting zoo",
+          "text": "A family-friendly South Carolina petting zoo for younger visitors."
+        },
+        {
+          "icon": "ice-cream-cone",
+          "title": "Safari Village",
+          "text": "Local food, Blue Bell ice cream, milkshakes and a gift shop."
+        },
+        {
+          "icon": "school",
+          "title": "Field trips & camps",
+          "text": "Guided wagon tours, the walk-thru trail and picnic areas for school lunches."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "animals",
+      "nav": "Animals",
+      "eyebrow": "Who you’ll meet",
+      "title": "Zebras, lemurs *and a lot of giraffe*",
+      "images": [
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/zebra.webp",
+          "alt": "A zebra reaching toward a visitor’s hand at a car window",
+          "width": 1080,
+          "height": 1350
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/lemurs.webp",
+          "alt": "Two ring-tailed lemurs sitting on a branch",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/wildebeest.webp",
+          "alt": "A wildebeest crossing the open pasture",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/wagon.webp",
+          "alt": "A safari wagon full of visitors behind a Land Rover",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/watusi.webp",
+          "alt": "A Watusi steer with long horns standing in tall grass",
+          "width": 1400,
+          "height": 848
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/ostrich.webp",
+          "alt": "An ostrich against a blue sky",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/tortoise.webp",
+          "alt": "A large tortoise walking past yellow flowers",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/zebra-window.webp",
+          "alt": "A zebra looking in through a car window",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "src": "/demo-assets/eudora-wildlife-safari-park/aerial.webp",
+          "alt": "An aerial view of the park’s pastures and pine woods",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Where family adventure and conservation run wild",
+      "title": "A dream *fifteen years in the making*",
+      "image": {
+        "src": "/demo-assets/eudora-wildlife-safari-park/entrance.webp",
+        "alt": "The safari park entrance, lined with palms",
+        "width": 1600,
+        "height": 900
+      },
+      "body": [
+        "Eudora Wildlife Safari Park was founded by Mark Nisbet and is the first drive-thru safari park in South Carolina. Mark has more than 30 years of experience caring for exotic animals, and spent 15 years building the park around education, preservation and conservation.",
+        "The park opened in a whirlwind for Mother’s Day 2020, rushing the giraffe exhibit to be ready. Today the walk-thru trail keeps growing, bringing families face to face with animals from around the world."
+      ],
+      "list": [
+        "Founded by Mark Nisbet",
+        "30+ years of exotic animal care",
+        "Education and conservation at the heart"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "rules",
+      "nav": "Park rules",
+      "eyebrow": "Safety first, for you and the animals",
+      "title": "On *the safari loop*",
+      "columns": [
+        {
+          "title": "In your vehicle",
+          "items": [
+            "Stay inside; doors closed, windows open",
+            "Drive 5 mph; honk if you need a ranger",
+            "No riding in truck beds; Jeeps keep doors and top on"
+          ]
+        },
+        {
+          "title": "Feeding",
+          "items": [
+            "Only the park’s feed, never your own food",
+            "Feed from the bucket, not from your hand",
+            "Never roll up a window while an animal is feeding"
+          ]
+        },
+        {
+          "title": "Good to bring",
+          "items": [
+            "A driver’s license: drivers must be 18 or older",
+            "Cash or a card: we take both",
+            "Pets stay in the car or on a leash in the lot"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need to buy tickets in advance?",
+          "a": "Not for the drive-thru: general admission is sold at the gate. Wagon rides must be booked online in advance."
+        },
+        {
+          "q": "What time should we arrive?",
+          "a": "The last car enters the gates at 4 pm. We’re open 10 to 6 Monday to Saturday, and noon to 6 on Sunday."
+        },
+        {
+          "q": "Can we bring snacks?",
+          "a": "Yes, for you. Only the park’s own feed may be given to the animals."
+        },
+        {
+          "q": "Can we celebrate a birthday?",
+          "a": "Yes. Book a private wagon ride and add the birthday package for $40. Bring your own cake, decorate the picnic tables, and please leave balloons at home for the animals’ safety."
+        },
+        {
+          "q": "Are you open on holidays?",
+          "a": "Every day except Thanksgiving and Christmas."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready for the wild side?",
+      "text": "Book a wagon ride online, or just drive up to the gate.",
+      "cta": {
+        "label": "Call (803) 564-5358",
+        "href": "tel:+18035645358"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *Salley*",
+    "formTitle": "Ask about a visit",
+    "formTopics": [
+      "A wagon ride",
+      "A birthday party",
+      "A field trip",
+      "An annual pass",
+      "Something else"
+    ]
+  },
+  "slug": "eudora-wildlife-safari-park",
+  "added": "2026-11-19",
+  "prospect": "eudora-wildlife-safari-park",
+  "source": {
+    "url": "https://www.eudorasafaripark.com/",
+    "before": [
+      "The Rules page’s title in Google reads “Rules & FAQ | Exoctic Animals”",
+      "On a phone, half the text is smaller than 12 pixels, and the first screen has no call button",
+      "On a phone the main content takes about 6 seconds to appear (Google Lighthouse speed score: 40 out of 100)",
+      "5 links that screen readers announce with no name"
+    ],
+    "after": [
+      "Tickets, prices and hours on the first screens",
+      "Every way to visit, from the drive-thru to field trips, side by side",
+      "The park rules in plain, scannable words",
+      "One tap to call or get directions"
+    ]
+  },
+  "style": {
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}
