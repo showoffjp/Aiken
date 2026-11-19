@@ -148,6 +148,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "board-in-aiken": {
+  "q": "6160 Woodside Executive Court, Aiken, SC 29803",
+  "lat": 33.506652,
+  "lon": -81.738518,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "bottom-line-bakery": {
   "q": "148 Laurens Street SW, Aiken, SC 29801",
   "lat": 33.560294,
@@ -283,6 +291,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "g-and-s-computing": {
+  "q": "37 Capital Drive, Aiken, SC 29803",
+  "lat": 33.53055,
+  "lon": -81.688966,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "gaston-livery-stable": {
   "q": "1315 Richland Avenue East, Aiken, SC 29801",
   "lat": 33.554732,
@@ -311,6 +327,14 @@
   "q": "358 Edgefield Road, North Augusta, SC 29841",
   "lat": 33.529444,
   "lon": -81.947255,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "harrison-k9": {
+  "q": "112 Farmingdale Court, Aiken, SC 29805",
+  "lat": 33.662466,
+  "lon": -81.615931,
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"

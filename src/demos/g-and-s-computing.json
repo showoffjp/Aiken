@@ -1,0 +1,281 @@
+{
+  "name": "G&S Computing",
+  "short": "G&S Computing",
+  "category": "IT Services & Computer Repair",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "established": "1987",
+  "look": "clean",
+  "fonts": {
+    "display": "unbounded",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f3f6fa",
+    "surface": "#ffffff",
+    "ink": "#0f1b2d",
+    "muted": "#4a5a70",
+    "primary": "#0b5cad",
+    "onPrimary": "#ffffff",
+    "accent": "#16c2a3",
+    "line": "#dbe3ee"
+  },
+  "radius": 12,
+  "icon": "cpu",
+  "contact": {
+    "phone": "(803) 641-9943",
+    "address": [
+      "37 Capital Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "G&S Computing, 37 Capital Dr, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "8:00 am – 5:00 pm"
+      ],
+      [
+        "Friday",
+        "8:00 am – 4:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/gscompinc"
+  },
+  "hero": {
+    "eyebrow": "IT for the CSRA since 1987",
+    "title": "Give *the Geeks* a call",
+    "lede": "Computer repair, custom-built PCs and servers, networks, Wi-Fi and Office 365 for homes and businesses around Aiken. No job is too big or too small, and remote support can fix things without a trip.",
+    "points": [
+      "Repair & custom builds",
+      "Networks & wireless",
+      "Remote support"
+    ],
+    "cta": {
+      "label": "Our services",
+      "href": "#services"
+    },
+    "cta2": {
+      "label": "Call (803) 641-9943",
+      "href": "tel:+18036419943"
+    }
+  },
+  "facts": [
+    {
+      "value": "1987",
+      "label": "In the CSRA since"
+    },
+    {
+      "value": "30+ years",
+      "label": "Of staff experience"
+    },
+    {
+      "value": "20+ acres",
+      "label": "Linked by our outdoor wireless"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "IT services *you can count on*",
+      "items": [
+        {
+          "icon": "wrench",
+          "title": "Hardware sales & service",
+          "text": "Full-service hardware support for your PC, which most of our competitors don’t offer."
+        },
+        {
+          "icon": "cpu",
+          "title": "Custom builds",
+          "text": "Desktops and servers built to your requirements, for home or business."
+        },
+        {
+          "icon": "monitor",
+          "title": "Remote support",
+          "text": "A technician connects to your computer to diagnose and fix problems, no visit needed."
+        },
+        {
+          "icon": "cable",
+          "title": "Structured wiring",
+          "text": "From one new wall port to wiring a new office building from the ground up."
+        },
+        {
+          "icon": "wifi",
+          "title": "Wireless solutions",
+          "text": "Mesh Wi-Fi indoors, and long-range outdoor links between buildings across 20+ acres."
+        },
+        {
+          "icon": "mail",
+          "title": "Office 365 & email",
+          "text": "Reliable email on your own domain, shared calendars and Teams, with the move handled for you."
+        },
+        {
+          "icon": "cloud-upload",
+          "title": "Cloud backup",
+          "text": "Your files backed up safely off site."
+        },
+        {
+          "icon": "network",
+          "title": "Managed IT & networks",
+          "text": "Ongoing management, and networks designed for the way you work."
+        },
+        {
+          "icon": "globe",
+          "title": "Website design",
+          "text": "Websites for local businesses."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "who",
+      "nav": "Who we help",
+      "eyebrow": "Businesses and homes",
+      "title": "Who *we help*",
+      "columns": [
+        {
+          "title": "Offices",
+          "items": [
+            "Medical and dental offices",
+            "Law firms",
+            "Construction companies"
+          ]
+        },
+        {
+          "title": "Clubs & facilities",
+          "items": [
+            "Fitness complexes",
+            "Equestrian facilities",
+            "Country clubs"
+          ]
+        },
+        {
+          "title": "And more",
+          "items": [
+            "Labor unions",
+            "Home users",
+            "Anyone with a computer problem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our customers",
+      "title": "Kind *words*",
+      "items": [
+        {
+          "text": "Excellent service! I needed help putting a PC together and they took care of it super quickly.",
+          "by": "M. Williams"
+        },
+        {
+          "text": "The G&S Team is great! Kevin always goes above and beyond to help his customers!",
+          "by": "SpaGo Day Spa"
+        },
+        {
+          "text": "We had a great experience with G&S. Great customer service.",
+          "by": "D. Price"
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "remote",
+      "nav": "Remote help",
+      "eyebrow": "Need help now?",
+      "title": "Remote support *in three steps*",
+      "items": [
+        {
+          "title": "Call us",
+          "text": "Call (803) 641-9943 and tell us what’s wrong."
+        },
+        {
+          "title": "Let us connect",
+          "text": "With your permission, a technician connects to your computer remotely."
+        },
+        {
+          "title": "Back to work",
+          "text": "We diagnose and fix the problem, with no trip to the shop."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you work on home computers?",
+          "a": "Yes. From a slow laptop to building a new PC, no job is too big or too small."
+        },
+        {
+          "q": "Can you connect separate buildings?",
+          "a": "Often, yes. Long-range outdoor wireless links have saved clients thousands by sharing one internet connection across buildings."
+        },
+        {
+          "q": "Can you move our email?",
+          "a": "Yes. We’ve moved many clients to more reliable email, including Office 365 on your own domain."
+        },
+        {
+          "q": "How do I pay an invoice?",
+          "a": "You can pay online, or call the shop."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Computer trouble?",
+      "text": "Give the Geeks a call: Monday to Thursday 8 to 5, Friday 8 to 4.",
+      "cta": {
+        "label": "Call (803) 641-9943",
+        "href": "tel:+18036419943"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Capital Drive*",
+    "formTitle": "Tell us what’s wrong",
+    "formTopics": [
+      "A computer repair",
+      "A new PC or server",
+      "Network or Wi-Fi",
+      "Email or Office 365",
+      "Remote support"
+    ]
+  },
+  "slug": "g-and-s-computing",
+  "added": "2026-11-19",
+  "prospect": "g-and-s-computing-inc",
+  "source": {
+    "url": "https://www.gscompinc.com/",
+    "before": [
+      "On a phone the main content takes about 28 seconds to appear on a 6.4 MB page (Google Lighthouse speed score: 46 out of 100)",
+      "The About page says “since 1987” in one line and “since the 1990s” in the heading above it",
+      "The Services page title reads “G&C Computing”",
+      "Pinch-to-zoom is turned off on phones, and nine links have no words a screen reader can announce"
+    ],
+    "after": [
+      "Every service in plain words on one page",
+      "Shop hours and remote help on the first screens",
+      "Customer reviews where people decide",
+      "One tap to call the Geeks"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "grid",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "shadow"
+  }
+}

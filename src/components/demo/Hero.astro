@@ -5,6 +5,7 @@
 import Icon from '../Icon.astro';
 import Decor from './Decor.astro';
 import StreetMap from './StreetMap.astro';
+import MotionToggle from './MotionToggle.astro';
 import { streetMap } from '../../lib/streets';
 import { ratio } from '../../lib/contrast';
 import { title, telHref, offerWords, brandIcons, type Demo } from '../../lib/demos';
@@ -60,7 +61,7 @@ const mast = `--mh-one: min(10rem, 15vh, ${fit(short.length, cwL)}); --mh-wrap: 
       </div>
     </div>
     {words.length > 0 && (
-      <div class="hx-marquee" aria-hidden="true"><div class="hx-track">{[...words, ...words, ...words, ...words].map((w) => <span>{w}<Icon name="sparkle" size={20} /></span>)}</div></div>
+      <div class="hx-marquee-wrap"><div class="hx-marquee" aria-hidden="true"><div class="hx-track">{[...words, ...words, ...words, ...words].map((w) => <span>{w}<Icon name="sparkle" size={20} /></span>)}</div></div><MotionToggle /></div>
     )}
   </section>
 )}

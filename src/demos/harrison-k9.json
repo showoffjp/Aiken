@@ -1,0 +1,304 @@
+{
+  "name": "Harrison K-9 Security Services",
+  "short": "Harrison K-9",
+  "category": "Protection Dog Trainer",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "established": "1975",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f4f1ea",
+    "surface": "#ffffff",
+    "ink": "#1a1712",
+    "muted": "#5c554a",
+    "primary": "#2b2620",
+    "onPrimary": "#ffffff",
+    "accent": "#c4892b",
+    "line": "#e2dccf"
+  },
+  "radius": 6,
+  "icon": "dog",
+  "contact": {
+    "phone": "(803) 649-5936",
+    "email": "info@harrisonk9.com",
+    "address": [
+      "112 Farmingdale Court",
+      "Aiken, SC 29805"
+    ],
+    "mapQuery": "Harrison K-9, 112 Farmingdale Ct, Aiken, SC 29805",
+    "facebook": "https://www.facebook.com/HarrisonK9"
+  },
+  "hero": {
+    "eyebrow": "Family protection dogs since 1975",
+    "title": "A companion first, *a protector always*",
+    "lede": "European German Shepherds hand selected for agility, intelligence and temperament, then trained at our 25-acre compound in Aiken for families, executives and law enforcement.",
+    "points": [
+      "European bloodlines",
+      "Advanced obedience",
+      "Family protection"
+    ],
+    "cta": {
+      "label": "Meet the dogs",
+      "href": "#dogs"
+    },
+    "cta2": {
+      "label": "Call (803) 649-5936",
+      "href": "tel:+18036495936"
+    },
+    "image": {
+      "src": "/demo-assets/harrison-k9/field.webp",
+      "alt": "A German Shepherd lying in sunlit grass, ears up, watching the camera",
+      "width": 2400,
+      "height": 1602
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/harrison-k9/field.webp"
+  },
+  "facts": [
+    {
+      "value": "1975",
+      "label": "Training dogs since"
+    },
+    {
+      "value": "25 acres",
+      "label": "Our training compound"
+    },
+    {
+      "value": "99.9%",
+      "label": "Family companion; the rest, protector"
+    }
+  ],
+  "sections": [
+    {
+      "type": "gallery",
+      "id": "dogs",
+      "nav": "The dogs",
+      "eyebrow": "Harrison K-9 German Shepherds",
+      "title": "Hand selected, *trained to exact standards*",
+      "images": [
+        {
+          "src": "/demo-assets/harrison-k9/portrait.webp",
+          "alt": "A German Shepherd’s face up close, ears high and tongue out",
+          "width": 1400,
+          "height": 2027
+        },
+        {
+          "src": "/demo-assets/harrison-k9/barrel.webp",
+          "alt": "A shepherd leaping over a blue barrel on the training field",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/harrison-k9/sign.webp",
+          "alt": "Two shepherds lying on the Harrison K-9 sign",
+          "width": 1400,
+          "height": 1368
+        },
+        {
+          "src": "/demo-assets/harrison-k9/bench.webp",
+          "alt": "A shepherd resting on a white wooden bench",
+          "width": 1600,
+          "height": 929
+        },
+        {
+          "src": "/demo-assets/harrison-k9/black-shepherd.webp",
+          "alt": "A solid black German Shepherd sitting in the shade",
+          "width": 1100,
+          "height": 1400
+        },
+        {
+          "src": "/demo-assets/harrison-k9/bite-work.webp",
+          "alt": "A trainer in a protective suit working a shepherd on the field",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/harrison-k9/down-stay.webp",
+          "alt": "A shepherd holding a down-stay on the lawn",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "src": "/demo-assets/harrison-k9/sable.webp",
+          "alt": "A sable German Shepherd sitting on green grass",
+          "width": 1400,
+          "height": 1865
+        },
+        {
+          "src": "/demo-assets/harrison-k9/resting.webp",
+          "alt": "A shepherd lying in the grass, alert",
+          "width": 1600,
+          "height": 898
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "training",
+      "nav": "Training",
+      "columns": 3,
+      "eyebrow": "Trained for your family",
+      "title": "What every Harrison K-9 *learns*",
+      "items": [
+        {
+          "icon": "languages",
+          "title": "Advanced obedience",
+          "text": "On and off leash, with commands in multiple languages and hand signals."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Family protection",
+          "text": "Individual or whole-family protection, finished to your family’s needs."
+        },
+        {
+          "icon": "search",
+          "title": "Tracking & in-home search",
+          "text": "Tracking, child search and in-home search for intruders, on request."
+        },
+        {
+          "icon": "users",
+          "title": "Obeys the whole family",
+          "text": "Taught to be obedient to every member of your household."
+        },
+        {
+          "icon": "sailboat",
+          "title": "Real-world settings",
+          "text": "Trained on city streets and in parks, in vehicles, small boats and yachts."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Serenity Service K-9",
+          "text": "Service companions, from a program developed with Vom Argatos Kennels in Germany."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "pricing",
+      "nav": "Pricing",
+      "eyebrow": "Investing in protection",
+      "title": "Harrison K-9 *pricing*",
+      "intro": "Every training package comes with one of the best guarantees in the business, and every purchase includes Harrison K-9 staff.",
+      "groups": [
+        {
+          "title": "K-9s",
+          "items": [
+            {
+              "name": "Obedience K‑9",
+              "price": "from $20,000",
+              "desc": "Most fall between $25,000 and $27,000"
+            },
+            {
+              "name": "Personal protection K‑9",
+              "price": "$50,000–65,000",
+              "desc": "The usual range for a fully trained protector"
+            },
+            {
+              "name": "Specially imported K‑9",
+              "price": "Ask",
+              "desc": "Occasionally above the usual range"
+            }
+          ]
+        }
+      ],
+      "footnote": "Extra training, such as tracking, child search or in-home search for intruders, is available on request."
+    },
+    {
+      "type": "story",
+      "id": "legacy",
+      "nav": "Our story",
+      "eyebrow": "Since 1975",
+      "title": "Pioneers of *the family protection dog*",
+      "body": [
+        "Harrison Prather started in 1975, training dogs for law enforcement and the U.S. government under the name LRRP K-9 Security Services. In 1995 he renamed the company: “I’m Harrison, so we should be Harrison K-9.” At the same time, the focus moved from police and military dogs to executive and family protection.",
+        "Every dog is a European German Shepherd, evaluated and trained to exact specifications in Aiken before it can be called a Harrison K-9. A well-chosen, well-trained protection dog is not a vicious attack animal: it is first an obedient, devoted companion."
+      ],
+      "list": [
+        "Founder and CEO Harrison Prather",
+        "A 25-acre compound in rural South Carolina",
+        "Not affiliated with Harrison K9 Training or Harrison Canine Training"
+      ],
+      "quote": {
+        "text": "Thank you for bringing Quinte to me and my family in Canada. She is everything we asked for and more.",
+        "by": "A Harrison K-9 family in Canada"
+      }
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Is a protection dog safe with children?",
+          "a": "Yes. A Harrison K-9 is a family companion 99.9% of the time, obedient to every member of the family, with the training to step in only when it’s needed."
+        },
+        {
+          "q": "Which breed do you train?",
+          "a": "Only European German Shepherds, from bloodlines bred for temperament, working ability, health and soundness."
+        },
+        {
+          "q": "Can the training be tailored?",
+          "a": "Yes. Training is completed to each family’s wishes, and dogs can also be trained for tracking, child search and in-home search for intruders. A list of past clients’ requests is available."
+        },
+        {
+          "q": "Where are the dogs trained?",
+          "a": "At our 25-acre compound in rural South Carolina, and out in everyday places: city streets, parks, vehicles and boats."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Meet your protector",
+      "text": "Ask about available puppies, young adults and fully trained dogs.",
+      "cta": {
+        "label": "Call (803) 649-5936",
+        "href": "tel:+18036495936"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *Aiken*",
+    "formTitle": "Ask about a dog",
+    "formTopics": [
+      "Fully trained adults",
+      "Young adults & puppies",
+      "Family protection",
+      "Serenity Service K-9",
+      "Pricing"
+    ]
+  },
+  "slug": "harrison-k9",
+  "added": "2026-11-19",
+  "prospect": "harrison-k-9-security-services-llc",
+  "source": {
+    "url": "https://harrisonk9.com/",
+    "before": [
+      "The home page still says “49 years” in business; since 1975, it’s 51",
+      "The footer copyright says 2020, and there’s no icon for browser tabs",
+      "On a phone the main image takes about 7 seconds to appear (Google Lighthouse speed score: 61 out of 100)",
+      "11 links have no words a screen reader can announce"
+    ],
+    "after": [
+      "The dogs, full screen, from the first moment",
+      "Training, pricing and the company’s story on one page",
+      "Clear words for every link and photo",
+      "One tap to call"
+    ]
+  },
+  "style": {
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "none",
+    "divider": "slant",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

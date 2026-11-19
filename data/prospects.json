@@ -4801,6 +4801,54 @@
   "rank": 104
  },
  {
+  "slug": "board-in-aiken",
+  "name": "Board in Aiken",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Caterer",
+  "phone": "(803) 646-8630",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "boardinaiken@gmail.com",
+  "otherEmails": [],
+  "website": "http://www.boardinaiken.com/",
+  "siteState": "Online",
+  "score": 13,
+  "platform": "Toast site",
+  "issues": [
+   "Very old jQuery 1.11",
+   "No social sharing (Open Graph) tags",
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": null,
+  "facebook": "https://www.facebook.com/boardinaiken/",
+  "instagram": "https://www.instagram.com/boardinaiken/",
+  "address": "6160 Woodside Executive Court, Aiken, SC 29803",
+  "contact": "Ashley Elvis",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "board-in-aiken",
+  "pageMB": 6.3,
+  "a11yIssues": 27,
+  "a11ySerious": 27,
+  "lhPerformance": 69,
+  "lhAccessibility": 79,
+  "seoHealth": 63,
+  "socialPresence": 80,
+  "domain": "boardinaiken.com",
+  "domainExpires": "2027-05-01",
+  "domainState": "",
+  "pitch": 42,
+  "rank": 105
+ },
+ {
   "slug": "carolina-dragway-inc",
   "name": "Carolina Dragway, Inc.",
   "priority": "C · Modern site",
@@ -4846,7 +4894,7 @@
   "domainExpires": "2027-02-03",
   "domainState": "",
   "pitch": 42,
-  "rank": 105
+  "rank": 106
  },
  {
   "slug": "aiken-polo-club",
@@ -4895,7 +4943,7 @@
   "domainExpires": "2027-07-07",
   "domainState": "",
   "pitch": 41,
-  "rank": 106
+  "rank": 107
  },
  {
   "slug": "carolina-hvac-and-electrical",
@@ -4941,7 +4989,7 @@
   "domainExpires": "2031-10-15",
   "domainState": "",
   "pitch": 40,
-  "rank": 107
+  "rank": 108
  },
  {
   "slug": "the-village-caf",
@@ -4991,7 +5039,7 @@
   "domainExpires": "2027-12-14",
   "domainState": "",
   "pitch": 40,
-  "rank": 108
+  "rank": 109
  },
  {
   "slug": "argus-visuals",
@@ -5038,7 +5086,7 @@
   "domainExpires": "2027-06-02",
   "domainState": "",
   "pitch": 37,
-  "rank": 109
+  "rank": 110
  },
  {
   "slug": "the-restaurant-at-the-willcox",
@@ -5087,7 +5135,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 37,
-  "rank": 110
+  "rank": 111
  },
  {
   "slug": "verdant-landscape",
@@ -5135,7 +5183,7 @@
   "domainExpires": "2028-07-06",
   "domainState": "",
   "pitch": 37,
-  "rank": 111
+  "rank": 112
  },
  {
   "slug": "woodside-development-lp",
@@ -5179,7 +5227,55 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 37,
-  "rank": 112
+  "rank": 113
+ },
+ {
+  "slug": "g-and-s-computing-inc",
+  "name": "G & S Computing, Inc.",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Computers, IT + Technology",
+  "phone": "(803) 641-9943",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.gscompinc.com/",
+  "siteState": "Online",
+  "score": 13,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "Very old jQuery 1.10",
+   "No social sharing (Open Graph) tags",
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2024,
+  "facebook": "https://www.facebook.com/gscompinc",
+  "instagram": "",
+  "address": "37 Capital Drive, Aiken, SC 29803",
+  "contact": "Amanda Sweeney",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "g-and-s-computing",
+  "pageMB": 6.1,
+  "a11yIssues": 15,
+  "a11ySerious": 15,
+  "lhPerformance": 46,
+  "lhAccessibility": 65,
+  "seoHealth": 37,
+  "socialPresence": 50,
+  "domain": "gscompinc.com",
+  "domainExpires": "2027-05-22",
+  "domainState": "",
+  "pitch": 36,
+  "rank": 114
  },
  {
   "slug": "beech-island-appliance-service-co-inc",
@@ -5226,7 +5322,7 @@
   "domainExpires": "2027-01-17",
   "domainState": "Renews or expires 2027-01-17",
   "pitch": 35,
-  "rank": 113
+  "rank": 115
  },
  {
   "slug": "208-abbeville-bed-and-breakfast",
@@ -5270,7 +5366,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 114
+  "rank": 116
  },
  {
   "slug": "aiken-ghost-tours",
@@ -5314,7 +5410,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 115
+  "rank": 117
  },
  {
   "slug": "cabanas-salvadorean-restaurant",
@@ -5358,7 +5454,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 116
+  "rank": 118
  },
  {
   "slug": "joyful-caf",
@@ -5402,7 +5498,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 117
+  "rank": 119
  },
  {
   "slug": "timeless-touch-events-llc",
@@ -5446,7 +5542,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 118
+  "rank": 120
  },
  {
   "slug": "hair-of-the-dog-llc",
@@ -5493,7 +5589,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 119
+  "rank": 121
  },
  {
   "slug": "kelley-appliance-home-store",
@@ -5539,7 +5635,7 @@
   "domainExpires": "2032-12-17",
   "domainState": "",
   "pitch": 34,
-  "rank": 120
+  "rank": 122
  },
  {
   "slug": "osbons-laundry-and-cleaners-downtown",
@@ -5583,7 +5679,7 @@
   "domainExpires": "2028-06-30",
   "domainState": "",
   "pitch": 34,
-  "rank": 121
+  "rank": 123
  },
  {
   "slug": "encore",
@@ -5631,7 +5727,7 @@
   "domainExpires": "2027-11-29",
   "domainState": "",
   "pitch": 33,
-  "rank": 122
+  "rank": 124
  },
  {
   "slug": "big-putts-mobile-miniature-golf",
@@ -5675,7 +5771,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 123
+  "rank": 125
  },
  {
   "slug": "black-forest-equestrian-center-inc",
@@ -5719,7 +5815,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 124
+  "rank": 126
  },
  {
   "slug": "bull-head-disposal-llc",
@@ -5763,7 +5859,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 125
+  "rank": 127
  },
  {
   "slug": "carpenters-tire-and-auto",
@@ -5807,7 +5903,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 126
+  "rank": 128
  },
  {
   "slug": "hixons-roofing-and-construction-llc",
@@ -5851,7 +5947,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 127
+  "rank": 129
  },
  {
   "slug": "horizon-physical-therapy-and-wellness",
@@ -5895,7 +5991,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 128
+  "rank": 130
  },
  {
   "slug": "jamrock-caribana",
@@ -5939,7 +6035,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 129
+  "rank": 131
  },
  {
   "slug": "mcneelys-place",
@@ -5983,7 +6079,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 130
+  "rank": 132
  },
  {
   "slug": "rock-creek-irrigation-and-landscapes",
@@ -6027,7 +6123,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 131
+  "rank": 133
  },
  {
   "slug": "ruthie-graham",
@@ -6071,7 +6167,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 132
+  "rank": 134
  },
  {
   "slug": "the-parlour-coffee-and-company",
@@ -6116,7 +6212,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 133
+  "rank": 135
  },
  {
   "slug": "the-pub-at-cedar-creek",
@@ -6161,7 +6257,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 134
+  "rank": 136
  },
  {
   "slug": "vvs-hospitality-aiken-midtown-hotel",
@@ -6205,7 +6301,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 135
+  "rank": 137
  },
  {
   "slug": "allstar-tents-and-events",
@@ -6254,7 +6350,7 @@
   "domainExpires": "2027-07-14",
   "domainState": "",
   "pitch": 32,
-  "rank": 136
+  "rank": 138
  },
  {
   "slug": "the-backyard",
@@ -6301,7 +6397,7 @@
   "domainExpires": "2026-12-23",
   "domainState": "Renews or expires 2026-12-23",
   "pitch": 32,
-  "rank": 137
+  "rank": 139
  },
  {
   "slug": "trophies-unlimited",
@@ -6345,7 +6441,7 @@
   "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 32,
-  "rank": 138
+  "rank": 140
  },
  {
   "slug": "gaston-livery-stable",
@@ -6393,7 +6489,7 @@
   "domainExpires": "2027-03-13",
   "domainState": "",
   "pitch": 31,
-  "rank": 139
+  "rank": 141
  },
  {
   "slug": "piece-of-potato",
@@ -6437,7 +6533,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 140
+  "rank": 142
  },
  {
   "slug": "tumbleweed",
@@ -6481,7 +6577,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 141
+  "rank": 143
  },
  {
   "slug": "lionel-smith-ltd",
@@ -6527,7 +6623,7 @@
   "domainExpires": "2028-06-24",
   "domainState": "",
   "pitch": 29,
-  "rank": 142
+  "rank": 144
  },
  {
   "slug": "shining-sons-enterprises-llc",
@@ -6571,7 +6667,7 @@
   "domainExpires": "2027-03-15",
   "domainState": "",
   "pitch": 29,
-  "rank": 143
+  "rank": 145
  },
  {
   "slug": "thomas-agency-group",
@@ -6617,7 +6713,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 29,
-  "rank": 144
+  "rank": 146
  },
  {
   "slug": "wise-warehousing-solutions",
@@ -6664,7 +6760,7 @@
   "domainExpires": "2027-09-17",
   "domainState": "",
   "pitch": 29,
-  "rank": 145
+  "rank": 147
  },
  {
   "slug": "the-craft",
@@ -6708,55 +6804,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 28,
-  "rank": 146
- },
- {
-  "slug": "board-in-aiken",
-  "name": "Board in Aiken",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Caterer",
-  "phone": "(803) 646-8630",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "boardinaiken@gmail.com",
-  "otherEmails": [],
-  "website": "http://www.boardinaiken.com/",
-  "siteState": "Online",
-  "score": 13,
-  "platform": "Toast site",
-  "issues": [
-   "Very old jQuery 1.11",
-   "No social sharing (Open Graph) tags",
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "https://www.facebook.com/boardinaiken/",
-  "instagram": "https://www.instagram.com/boardinaiken/",
-  "address": "6160 Woodside Executive Court, Aiken, SC 29803",
-  "contact": "Ashley Elvis",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 6.3,
-  "a11yIssues": 27,
-  "a11ySerious": 27,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "boardinaiken.com",
-  "domainExpires": "2027-05-01",
-  "domainState": "",
-  "pitch": 28,
-  "rank": 147
+  "rank": 148
  },
  {
   "slug": "downtown-dog",
@@ -6806,7 +6854,7 @@
   "domainExpires": "2027-07-14",
   "domainState": "",
   "pitch": 28,
-  "rank": 148
+  "rank": 149
  },
  {
   "slug": "hh-construction",
@@ -6850,7 +6898,7 @@
   "domainExpires": "2027-01-30",
   "domainState": "",
   "pitch": 28,
-  "rank": 149
+  "rank": 150
  },
  {
   "slug": "the-willcox",
@@ -6900,7 +6948,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 28,
-  "rank": 150
+  "rank": 151
  },
  {
   "slug": "tucker-orthodontics",
@@ -6948,7 +6996,7 @@
   "domainExpires": "2027-04-21",
   "domainState": "",
   "pitch": 28,
-  "rank": 151
+  "rank": 152
  },
  {
   "slug": "vikkis-a-unique-boutique",
@@ -6994,7 +7042,54 @@
   "domainExpires": "2027-07-18",
   "domainState": "",
   "pitch": 28,
-  "rank": 152
+  "rank": 153
+ },
+ {
+  "slug": "harrison-k-9-security-services-llc",
+  "name": "Harrison K-9 Security Services, LLC",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Security Services",
+  "phone": "(803) 649-5936",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "info@harrisonk9.com",
+  "otherEmails": [],
+  "website": "http://www.harrisonk9.com/",
+  "siteState": "Online",
+  "score": 12,
+  "platform": "WordPress",
+  "issues": [
+   "Footer copyright says 2020",
+   "No favicon declared"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2020,
+  "facebook": "http://www.facebook.com/HarrisonK9",
+  "instagram": "https://www.instagram.com/harrisonk9ae/",
+  "address": "112 Farmingdale Court, Aiken, SC 29805",
+  "contact": "November Holley",
+  "familyNote": "",
+  "since": 1975,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "harrison-k9",
+  "pageMB": 2.9,
+  "a11yIssues": 16,
+  "a11ySerious": 16,
+  "lhPerformance": 61,
+  "lhAccessibility": 90,
+  "seoHealth": 80,
+  "socialPresence": 80,
+  "domain": "harrisonk9.com",
+  "domainExpires": "2027-06-29",
+  "domainState": "",
+  "pitch": 27,
+  "rank": 154
  },
  {
   "slug": "rare-blue-moon-marketing",
@@ -7043,7 +7138,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 27,
-  "rank": 153
+  "rank": 155
  },
  {
   "slug": "return-engagement",
@@ -7093,7 +7188,7 @@
   "domainExpires": "2027-06-04",
   "domainState": "",
   "pitch": 27,
-  "rank": 154
+  "rank": 156
  },
  {
   "slug": "the-larder",
@@ -7137,7 +7232,7 @@
   "domainExpires": "2029-02-26",
   "domainState": "",
   "pitch": 27,
-  "rank": 155
+  "rank": 157
  },
  {
   "slug": "janson-construction",
@@ -7181,7 +7276,7 @@
   "domainExpires": "2027-09-06",
   "domainState": "",
   "pitch": 26,
-  "rank": 156
+  "rank": 158
  },
  {
   "slug": "kelly-paint-and-body-inc",
@@ -7225,7 +7320,7 @@
   "domainExpires": "2027-02-19",
   "domainState": "",
   "pitch": 26,
-  "rank": 157
+  "rank": 159
  },
  {
   "slug": "rhodes-murphy",
@@ -7269,7 +7364,7 @@
   "domainExpires": "2027-07-16",
   "domainState": "",
   "pitch": 26,
-  "rank": 158
+  "rank": 160
  },
  {
   "slug": "silver-ash-cigar-lounge",
@@ -7313,7 +7408,7 @@
   "domainExpires": "2027-10-27",
   "domainState": "",
   "pitch": 26,
-  "rank": 159
+  "rank": 161
  },
  {
   "slug": "tabs-professional-transportation",
@@ -7359,7 +7454,7 @@
   "domainExpires": "2028-05-02",
   "domainState": "",
   "pitch": 26,
-  "rank": 160
+  "rank": 162
  },
  {
   "slug": "wayne-heath-automotive-company",
@@ -7407,7 +7502,7 @@
   "domainExpires": "2027-04-24",
   "domainState": "",
   "pitch": 26,
-  "rank": 161
+  "rank": 163
  },
  {
   "slug": "knights-companies",
@@ -7451,7 +7546,7 @@
   "domainExpires": "2027-10-24",
   "domainState": "",
   "pitch": 25,
-  "rank": 162
+  "rank": 164
  },
  {
   "slug": "queen-city-homestore",
@@ -7497,7 +7592,7 @@
   "domainExpires": "2028-07-23",
   "domainState": "",
   "pitch": 25,
-  "rank": 163
+  "rank": 165
  },
  {
   "slug": "veg-out",
@@ -7542,7 +7637,7 @@
   "domainExpires": "2027-12-26",
   "domainState": "",
   "pitch": 25,
-  "rank": 164
+  "rank": 166
  },
  {
   "slug": "dash-consulting-accounting-bookkeeping",
@@ -7586,7 +7681,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 24,
-  "rank": 165
+  "rank": 167
  },
  {
   "slug": "langley-tavern",
@@ -7630,7 +7725,7 @@
   "domainExpires": "2027-05-29",
   "domainState": "",
   "pitch": 24,
-  "rank": 166
+  "rank": 168
  },
  {
   "slug": "rhodes-law-firm",
@@ -7675,7 +7770,7 @@
   "domainExpires": "2027-04-28",
   "domainState": "",
   "pitch": 24,
-  "rank": 167
+  "rank": 169
  },
  {
   "slug": "skc-north-augusta-llc",
@@ -7719,7 +7814,7 @@
   "domainExpires": "2027-02-12",
   "domainState": "",
   "pitch": 24,
-  "rank": 168
+  "rank": 170
  },
  {
   "slug": "aiken-city-lifestyle",
@@ -7765,7 +7860,7 @@
   "domainExpires": "2027-11-02",
   "domainState": "",
   "pitch": 23,
-  "rank": 169
+  "rank": 171
  },
  {
   "slug": "all-south-siding-window-and-roofing",
@@ -7812,7 +7907,7 @@
   "domainExpires": "2027-02-06",
   "domainState": "",
   "pitch": 23,
-  "rank": 170
+  "rank": 172
  },
  {
   "slug": "all-safe-industrial-services-inc",
@@ -7862,7 +7957,7 @@
   "domainExpires": "2028-02-05",
   "domainState": "",
   "pitch": 23,
-  "rank": 171
+  "rank": 173
  },
  {
   "slug": "athos",
@@ -7909,7 +8004,7 @@
   "domainExpires": "2027-01-16",
   "domainState": "Renews or expires 2027-01-16",
   "pitch": 23,
-  "rank": 172
+  "rank": 174
  },
  {
   "slug": "barreto-manufacturing-inc",
@@ -7959,7 +8054,7 @@
   "domainExpires": "2027-08-20",
   "domainState": "",
   "pitch": 23,
-  "rank": 173
+  "rank": 175
  },
  {
   "slug": "c-wallace-design",
@@ -8007,7 +8102,7 @@
   "domainExpires": "2027-09-16",
   "domainState": "",
   "pitch": 23,
-  "rank": 174
+  "rank": 176
  },
  {
   "slug": "cassie-bayer-photography",
@@ -8053,7 +8148,7 @@
   "domainExpires": "2027-06-30",
   "domainState": "",
   "pitch": 23,
-  "rank": 175
+  "rank": 177
  },
  {
   "slug": "graybeal-construction-and-design",
@@ -8097,7 +8192,7 @@
   "domainExpires": "2029-10-04",
   "domainState": "",
   "pitch": 23,
-  "rank": 176
+  "rank": 178
  },
  {
   "slug": "highfields-event-center-is-home-of-aiken-music-f",
@@ -8145,7 +8240,7 @@
   "domainExpires": "2027-04-11",
   "domainState": "",
   "pitch": 23,
-  "rank": 177
+  "rank": 179
  },
  {
   "slug": "hixon-services",
@@ -8189,7 +8284,7 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 23,
-  "rank": 178
+  "rank": 180
  },
  {
   "slug": "latelier-on-laurens",
@@ -8236,7 +8331,7 @@
   "domainExpires": "2029-04-25",
   "domainState": "",
   "pitch": 23,
-  "rank": 179
+  "rank": 181
  },
  {
   "slug": "lawyerlisa",
@@ -8280,7 +8375,7 @@
   "domainExpires": "2028-03-11",
   "domainState": "",
   "pitch": 23,
-  "rank": 180
+  "rank": 182
  },
  {
   "slug": "palmetto-propane-fuels",
@@ -8324,7 +8419,7 @@
   "domainExpires": "2027-06-27",
   "domainState": "",
   "pitch": 23,
-  "rank": 181
+  "rank": 183
  },
  {
   "slug": "peak-mobility-yoga",
@@ -8368,7 +8463,7 @@
   "domainExpires": "2027-07-22",
   "domainState": "",
   "pitch": 23,
-  "rank": 182
+  "rank": 184
  },
  {
   "slug": "pink-icing",
@@ -8413,7 +8508,7 @@
   "domainExpires": "2028-09-09",
   "domainState": "",
   "pitch": 23,
-  "rank": 183
+  "rank": 185
  },
  {
   "slug": "superior-office-systems",
@@ -8461,7 +8556,7 @@
   "domainExpires": "2027-08-31",
   "domainState": "",
   "pitch": 23,
-  "rank": 184
+  "rank": 186
  },
  {
   "slug": "the-aiken-horse",
@@ -8505,7 +8600,7 @@
   "domainExpires": "2027-08-24",
   "domainState": "",
   "pitch": 23,
-  "rank": 185
+  "rank": 187
  },
  {
   "slug": "wrkhorse-real-estate-co",
@@ -8552,7 +8647,7 @@
   "domainExpires": "2027-08-22",
   "domainState": "",
   "pitch": 23,
-  "rank": 186
+  "rank": 188
  },
  {
   "slug": "automotive-workbench",
@@ -8598,7 +8693,7 @@
   "domainExpires": "2027-12-05",
   "domainState": "",
   "pitch": 22,
-  "rank": 187
+  "rank": 189
  },
  {
   "slug": "bowl-boss",
@@ -8642,7 +8737,7 @@
   "domainExpires": "2027-08-14",
   "domainState": "",
   "pitch": 22,
-  "rank": 188
+  "rank": 190
  },
  {
   "slug": "heath-insurance-and-financial-group",
@@ -8687,7 +8782,7 @@
   "domainExpires": "2027-07-09",
   "domainState": "",
   "pitch": 22,
-  "rank": 189
+  "rank": 191
  },
  {
   "slug": "iron-gate-candles",
@@ -8734,7 +8829,7 @@
   "domainExpires": "2029-05-15",
   "domainState": "",
   "pitch": 22,
-  "rank": 190
+  "rank": 192
  },
  {
   "slug": "johnson-johnson-whittle-lancer-and-staggs-attorn",
@@ -8779,7 +8874,7 @@
   "domainExpires": "2034-01-10",
   "domainState": "",
   "pitch": 22,
-  "rank": 191
+  "rank": 193
  },
  {
   "slug": "oh-mie-stelle-bakery",
@@ -8826,7 +8921,7 @@
   "domainExpires": "2028-08-03",
   "domainState": "",
   "pitch": 22,
-  "rank": 192
+  "rank": 194
  },
  {
   "slug": "south-on-whiskey",
@@ -8874,7 +8969,7 @@
   "domainExpires": "2027-07-25",
   "domainState": "",
   "pitch": 22,
-  "rank": 193
+  "rank": 195
  },
  {
   "slug": "thai-jasmine-rice",
@@ -8922,7 +9017,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 22,
-  "rank": 194
+  "rank": 196
  },
  {
   "slug": "webster-photography",
@@ -8968,7 +9063,7 @@
   "domainExpires": "2027-11-03",
   "domainState": "",
   "pitch": 22,
-  "rank": 195
+  "rank": 197
  },
  {
   "slug": "aiken-medical-aesthetics",
@@ -9012,7 +9107,7 @@
   "domainExpires": "2027-04-03",
   "domainState": "",
   "pitch": 21,
-  "rank": 196
+  "rank": 198
  },
  {
   "slug": "atomic-heating-and-air",
@@ -9056,7 +9151,7 @@
   "domainExpires": "2027-07-23",
   "domainState": "",
   "pitch": 21,
-  "rank": 197
+  "rank": 199
  },
  {
   "slug": "bobbys-bar-b-q-buffet",
@@ -9100,7 +9195,7 @@
   "domainExpires": "2027-10-08",
   "domainState": "",
   "pitch": 21,
-  "rank": 198
+  "rank": 200
  },
  {
   "slug": "brinks-tavern",
@@ -9144,7 +9239,7 @@
   "domainExpires": "2035-01-23",
   "domainState": "",
   "pitch": 21,
-  "rank": 199
+  "rank": 201
  },
  {
   "slug": "cavaliers-coffeehouse",
@@ -9188,7 +9283,7 @@
   "domainExpires": "2031-02-02",
   "domainState": "",
   "pitch": 21,
-  "rank": 200
+  "rank": 202
  },
  {
   "slug": "consilium-solutions-llc",
@@ -9234,7 +9329,7 @@
   "domainExpires": "2030-04-21",
   "domainState": "",
   "pitch": 21,
-  "rank": 201
+  "rank": 203
  },
  {
   "slug": "deeper-dive-bookkeeping",
@@ -9278,7 +9373,7 @@
   "domainExpires": "2026-12-18",
   "domainState": "Renews or expires 2026-12-18",
   "pitch": 21,
-  "rank": 202
+  "rank": 204
  },
  {
   "slug": "eagle-corps-services",
@@ -9322,7 +9417,7 @@
   "domainExpires": "2027-10-08",
   "domainState": "",
   "pitch": 21,
-  "rank": 203
+  "rank": 205
  },
  {
   "slug": "legare-gardens",
@@ -9368,7 +9463,7 @@
   "domainExpires": "2027-05-25",
   "domainState": "",
   "pitch": 21,
-  "rank": 204
+  "rank": 206
  },
  {
   "slug": "local-threads-aiken",
@@ -9416,7 +9511,7 @@
   "domainExpires": "2026-12-16",
   "domainState": "Renews or expires 2026-12-16",
   "pitch": 21,
-  "rank": 205
+  "rank": 207
  },
  {
   "slug": "pave-way-of-augusta-and-aiken",
@@ -9460,7 +9555,7 @@
   "domainExpires": "2027-07-27",
   "domainState": "",
   "pitch": 21,
-  "rank": 206
+  "rank": 208
  },
  {
   "slug": "prime-steakhouse",
@@ -9506,7 +9601,7 @@
   "domainExpires": "2027-04-29",
   "domainState": "",
   "pitch": 21,
-  "rank": 207
+  "rank": 209
  },
  {
   "slug": "quality-printing-and-graphics-inc",
@@ -9553,7 +9648,7 @@
   "domainExpires": "2028-02-27",
   "domainState": "",
   "pitch": 21,
-  "rank": 208
+  "rank": 210
  },
  {
   "slug": "riverfront-dental-care-llc",
@@ -9597,7 +9692,7 @@
   "domainExpires": "2029-03-09",
   "domainState": "",
   "pitch": 21,
-  "rank": 209
+  "rank": 211
  },
  {
   "slug": "zook-homes",
@@ -9641,7 +9736,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 21,
-  "rank": 210
+  "rank": 212
  },
  {
   "slug": "a-b-beverage-company",
@@ -9685,7 +9780,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 211
+  "rank": 213
  },
  {
   "slug": "ab-beverage-co-inc",
@@ -9729,7 +9824,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 212
+  "rank": 214
  },
  {
   "slug": "aiken-systems-unlimited-inc",
@@ -9773,7 +9868,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 213
+  "rank": 215
  },
  {
   "slug": "aiken-tax-service",
@@ -9817,7 +9912,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 214
+  "rank": 216
  },
  {
   "slug": "c-e-dudley",
@@ -9861,7 +9956,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 215
+  "rank": 217
  },
  {
   "slug": "chill-pest-solutions",
@@ -9905,7 +10000,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 216
+  "rank": 218
  },
  {
   "slug": "comprehensive-therapy-and-rehab",
@@ -9949,7 +10044,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 217
+  "rank": 219
  },
  {
   "slug": "connies-framing",
@@ -9993,7 +10088,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 218
+  "rank": 220
  },
  {
   "slug": "cornerstone-wealth-group",
@@ -10037,7 +10132,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 219
+  "rank": 221
  },
  {
   "slug": "day-construction-llc",
@@ -10081,7 +10176,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 220
+  "rank": 222
  },
  {
   "slug": "dos-potrillos-taqueria-llc",
@@ -10125,7 +10220,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 221
+  "rank": 223
  },
  {
   "slug": "edith-corley-stone",
@@ -10169,7 +10264,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 222
+  "rank": 224
  },
  {
   "slug": "evergreen-gardens-landscape-co",
@@ -10213,7 +10308,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 223
+  "rank": 225
  },
  {
   "slug": "fox-shoe-repair",
@@ -10257,7 +10352,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 224
+  "rank": 226
  },
  {
   "slug": "franclif-llc",
@@ -10301,7 +10396,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 225
+  "rank": 227
  },
  {
   "slug": "halo-insurance-llc",
@@ -10345,7 +10440,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 226
+  "rank": 228
  },
  {
   "slug": "horizon-development-llc",
@@ -10389,7 +10484,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 227
+  "rank": 229
  },
  {
   "slug": "hugh-johnston-md",
@@ -10433,7 +10528,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 228
+  "rank": 230
  },
  {
   "slug": "incredible-force",
@@ -10477,7 +10572,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 229
+  "rank": 231
  },
  {
   "slug": "j-lo-concrete-and-sons-llc",
@@ -10521,7 +10616,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 230
+  "rank": 232
  },
  {
   "slug": "jade-of-china",
@@ -10565,7 +10660,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 231
+  "rank": 233
  },
  {
   "slug": "jen-auer",
@@ -10609,7 +10704,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 232
+  "rank": 234
  },
  {
   "slug": "john-m-bailey-and-associates-pc",
@@ -10653,7 +10748,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 233
+  "rank": 235
  },
  {
   "slug": "melissa-mcknight-realtor",
@@ -10697,7 +10792,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 234
+  "rank": 236
  },
  {
   "slug": "nail-pro",
@@ -10741,7 +10836,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 235
+  "rank": 237
  },
  {
   "slug": "on-the-spot-mobile-rv-service-llc",
@@ -10785,7 +10880,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 236
+  "rank": 238
  },
  {
   "slug": "paul-brewer",
@@ -10829,7 +10924,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 237
+  "rank": 239
  },
  {
   "slug": "pita-mediterranean-street-food",
@@ -10873,7 +10968,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 238
+  "rank": 240
  },
  {
   "slug": "red-white-and-bright",
@@ -10917,7 +11012,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 239
+  "rank": 241
  },
  {
   "slug": "saku-express",
@@ -10961,7 +11056,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 240
+  "rank": 242
  },
  {
   "slug": "sakura-japanese-steakhouse",
@@ -11006,7 +11101,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 241
+  "rank": 243
  },
  {
   "slug": "scissors-and-sofas",
@@ -11050,7 +11145,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 242
+  "rank": 244
  },
  {
   "slug": "smoke-crave-llc",
@@ -11094,7 +11189,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 243
+  "rank": 245
  },
  {
   "slug": "solo-vino-marchand-de-vin",
@@ -11138,7 +11233,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 244
+  "rank": 246
  },
  {
   "slug": "southern-dental-associates",
@@ -11182,7 +11277,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 245
+  "rank": 247
  },
  {
   "slug": "standard-pool-company",
@@ -11226,7 +11321,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 246
+  "rank": 248
  },
  {
   "slug": "the-icee-fusion-experience",
@@ -11270,7 +11365,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 247
+  "rank": 249
  },
  {
   "slug": "the-salty-hyena",
@@ -11314,7 +11409,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 248
+  "rank": 250
  },
  {
   "slug": "toby-marks-development-inc",
@@ -11358,7 +11453,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 249
+  "rank": 251
  },
  {
   "slug": "tony-islan",
@@ -11402,7 +11497,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 250
+  "rank": 252
  },
  {
   "slug": "vendor-street-store",
@@ -11446,7 +11541,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 251
+  "rank": 253
  },
  {
   "slug": "walker-realty-company-inc",
@@ -11490,7 +11585,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 252
+  "rank": 254
  },
  {
   "slug": "woody-malone",
@@ -11534,7 +11629,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 253
+  "rank": 255
  },
  {
   "slug": "zmow-lawn-care-services-llc",
@@ -11578,7 +11673,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 254
+  "rank": 256
  },
  {
   "slug": "anderson-insurance-associates-llc",
@@ -11622,7 +11717,7 @@
   "domainExpires": "2031-12-09",
   "domainState": "",
   "pitch": 19,
-  "rank": 255
+  "rank": 257
  },
  {
   "slug": "dynamic-audio-and-video",
@@ -11666,7 +11761,7 @@
   "domainExpires": "2027-11-07",
   "domainState": "",
   "pitch": 19,
-  "rank": 256
+  "rank": 258
  },
  {
   "slug": "g-and-p-construction-hauling-and-environmental-l",
@@ -11712,55 +11807,7 @@
   "domainExpires": "2027-08-13",
   "domainState": "",
   "pitch": 19,
-  "rank": 257
- },
- {
-  "slug": "g-and-s-computing-inc",
-  "name": "G & S Computing, Inc.",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Computers, IT + Technology",
-  "phone": "(803) 641-9943",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.gscompinc.com/",
-  "siteState": "Online",
-  "score": 13,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "Very old jQuery 1.10",
-   "No social sharing (Open Graph) tags",
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2024,
-  "facebook": "https://www.facebook.com/gscompinc",
-  "instagram": "",
-  "address": "37 Capital Drive, Aiken, SC 29803",
-  "contact": "Amanda Sweeney",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 6.1,
-  "a11yIssues": 15,
-  "a11ySerious": 15,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "gscompinc.com",
-  "domainExpires": "2027-05-22",
-  "domainState": "",
-  "pitch": 19,
-  "rank": 258
+  "rank": 259
  },
  {
   "slug": "kings-roll-off-dumpsters",
@@ -11804,7 +11851,7 @@
   "domainExpires": "2026-12-02",
   "domainState": "Renews or expires 2026-12-02",
   "pitch": 19,
-  "rank": 259
+  "rank": 260
  },
  {
   "slug": "owings-and-sam-dentistry",
@@ -11850,7 +11897,7 @@
   "domainExpires": "2027-08-13",
   "domainState": "",
   "pitch": 19,
-  "rank": 260
+  "rank": 261
  },
  {
   "slug": "pipedreamers-plumbing-heating-and-air",
@@ -11894,7 +11941,7 @@
   "domainExpires": "2027-10-20",
   "domainState": "",
   "pitch": 19,
-  "rank": 261
+  "rank": 262
  },
  {
   "slug": "sunbreak-window-tinting",
@@ -11939,7 +11986,7 @@
   "domainExpires": "2027-04-03",
   "domainState": "",
   "pitch": 19,
-  "rank": 262
+  "rank": 263
  },
  {
   "slug": "waynes-automotive-and-towing-center-aiken",
@@ -11983,7 +12030,7 @@
   "domainExpires": "2027-08-28",
   "domainState": "",
   "pitch": 19,
-  "rank": 263
+  "rank": 264
  },
  {
   "slug": "woody-outfitters",
@@ -12029,7 +12076,7 @@
   "domainExpires": "2027-07-24",
   "domainState": "",
   "pitch": 19,
-  "rank": 264
+  "rank": 265
  },
  {
   "slug": "arnold-advisors-llc",
@@ -12077,7 +12124,7 @@
   "domainExpires": "2026-12-15",
   "domainState": "Renews or expires 2026-12-15",
   "pitch": 18,
-  "rank": 265
+  "rank": 266
  },
  {
   "slug": "austin-and-pethick-law-firm",
@@ -12123,7 +12170,7 @@
   "domainExpires": "2027-03-12",
   "domainState": "",
   "pitch": 18,
-  "rank": 266
+  "rank": 267
  },
  {
   "slug": "bloom-salon-spa-boutique",
@@ -12168,7 +12215,7 @@
   "domainExpires": "2027-05-30",
   "domainState": "",
   "pitch": 18,
-  "rank": 267
+  "rank": 268
  },
  {
   "slug": "broadwater-toole-realty-llc",
@@ -12212,7 +12259,7 @@
   "domainExpires": "2027-04-07",
   "domainState": "",
   "pitch": 18,
-  "rank": 268
+  "rank": 269
  },
  {
   "slug": "burrell-and-flynns-farm",
@@ -12260,7 +12307,7 @@
   "domainExpires": "2027-08-06",
   "domainState": "",
   "pitch": 18,
-  "rank": 269
+  "rank": 270
  },
  {
   "slug": "carolina-covertech",
@@ -12306,7 +12353,7 @@
   "domainExpires": "2033-06-07",
   "domainState": "",
   "pitch": 18,
-  "rank": 270
+  "rank": 271
  },
  {
   "slug": "carolina-real-estate-company",
@@ -12354,7 +12401,7 @@
   "domainExpires": "2027-03-12",
   "domainState": "",
   "pitch": 18,
-  "rank": 271
+  "rank": 272
  },
  {
   "slug": "carolines-boutique-pitter-patter-childrens-bouti",
@@ -12402,7 +12449,7 @@
   "domainExpires": "2027-05-03",
   "domainState": "",
   "pitch": 18,
-  "rank": 272
+  "rank": 273
  },
  {
   "slug": "coward-and-mcneill-real-estate",
@@ -12452,7 +12499,7 @@
   "domainExpires": "2026-12-18",
   "domainState": "Renews or expires 2026-12-18",
   "pitch": 18,
-  "rank": 273
+  "rank": 274
  },
  {
   "slug": "creotibi",
@@ -12496,7 +12543,7 @@
   "domainExpires": "2027-01-10",
   "domainState": "Renews or expires 2027-01-10",
   "pitch": 18,
-  "rank": 274
+  "rank": 275
  },
  {
   "slug": "emily-revolutionary-marketing-company",
@@ -12540,7 +12587,7 @@
   "domainExpires": "2027-11-30",
   "domainState": "",
   "pitch": 18,
-  "rank": 275
+  "rank": 276
  },
  {
   "slug": "eudora-wildlife-safari-park",
@@ -12587,7 +12634,7 @@
   "domainExpires": "2027-01-06",
   "domainState": "Renews or expires 2027-01-06",
   "pitch": 18,
-  "rank": 276
+  "rank": 277
  },
  {
   "slug": "freitas-wealth-management-group",
@@ -12632,7 +12679,7 @@
   "domainExpires": "2027-07-26",
   "domainState": "",
   "pitch": 18,
-  "rank": 277
+  "rank": 278
  },
  {
   "slug": "g-l-williams-and-daughter-trucking-inc",
@@ -12679,7 +12726,7 @@
   "domainExpires": "2030-01-23",
   "domainState": "",
   "pitch": 18,
-  "rank": 278
+  "rank": 279
  },
  {
   "slug": "jackson-memorial-funeral-home-and-crematory-form",
@@ -12723,7 +12770,7 @@
   "domainExpires": "2027-03-08",
   "domainState": "",
   "pitch": 18,
-  "rank": 279
+  "rank": 280
  },
  {
   "slug": "kitfox-pediatric-dentistry",
@@ -12767,7 +12814,7 @@
   "domainExpires": "2033-10-27",
   "domainState": "",
   "pitch": 18,
-  "rank": 280
+  "rank": 281
  },
  {
   "slug": "lookaway-inn",
@@ -12811,7 +12858,7 @@
   "domainExpires": "2026-12-29",
   "domainState": "Renews or expires 2026-12-29",
   "pitch": 18,
-  "rank": 281
+  "rank": 282
  },
  {
   "slug": "manna-media",
@@ -12855,7 +12902,7 @@
   "domainExpires": "2027-08-22",
   "domainState": "",
   "pitch": 18,
-  "rank": 282
+  "rank": 283
  },
  {
   "slug": "orange-otter-toys",
@@ -12901,7 +12948,7 @@
   "domainExpires": "2027-11-16",
   "domainState": "",
   "pitch": 18,
-  "rank": 283
+  "rank": 284
  },
  {
   "slug": "passanantes-home-food-service",
@@ -12945,7 +12992,7 @@
   "domainExpires": "2029-03-10",
   "domainState": "",
   "pitch": 18,
-  "rank": 284
+  "rank": 285
  },
  {
   "slug": "performanceabove-llc",
@@ -12990,7 +13037,7 @@
   "domainExpires": "2027-05-16",
   "domainState": "",
   "pitch": 18,
-  "rank": 285
+  "rank": 286
  },
  {
   "slug": "radioactive-pinball-arcade",
@@ -13041,7 +13088,7 @@
   "domainExpires": "2029-04-24",
   "domainState": "",
   "pitch": 18,
-  "rank": 286
+  "rank": 287
  },
  {
   "slug": "sabine-and-waters",
@@ -13085,7 +13132,7 @@
   "domainExpires": "2028-07-18",
   "domainState": "",
   "pitch": 18,
-  "rank": 287
+  "rank": 288
  },
  {
   "slug": "sharer-dale-team",
@@ -13132,7 +13179,7 @@
   "domainExpires": "2027-06-11",
   "domainState": "",
   "pitch": 18,
-  "rank": 288
+  "rank": 289
  },
  {
   "slug": "shellhouse-funeral-home",
@@ -13176,7 +13223,7 @@
   "domainExpires": "2027-04-18",
   "domainState": "",
   "pitch": 18,
-  "rank": 289
+  "rank": 290
  },
  {
   "slug": "shellhouse-rivers-funeral-home-inc",
@@ -13220,7 +13267,7 @@
   "domainExpires": "2027-01-31",
   "domainState": "",
   "pitch": 18,
-  "rank": 290
+  "rank": 291
  },
  {
   "slug": "tee-it-up-ladies",
@@ -13266,7 +13313,7 @@
   "domainExpires": "2027-05-16",
   "domainState": "",
   "pitch": 18,
-  "rank": 291
+  "rank": 292
  },
  {
   "slug": "the-alley-downtown-taproom",
@@ -13312,7 +13359,7 @@
   "domainExpires": "2030-01-18",
   "domainState": "",
   "pitch": 18,
-  "rank": 292
+  "rank": 293
  },
  {
   "slug": "the-dental-center-of-north-augusta",
@@ -13362,7 +13409,7 @@
   "domainExpires": "2027-10-19",
   "domainState": "",
   "pitch": 18,
-  "rank": 293
+  "rank": 294
  },
  {
   "slug": "wife-saver-north-augusta",
@@ -13408,7 +13455,7 @@
   "domainExpires": "2027-02-08",
   "domainState": "",
   "pitch": 18,
-  "rank": 294
+  "rank": 295
  },
  {
   "slug": "aiken-fish-house-and-oyster-bar",
@@ -13453,7 +13500,7 @@
   "domainExpires": "2027-03-23",
   "domainState": "",
   "pitch": 17,
-  "rank": 295
+  "rank": 296
  },
  {
   "slug": "floyd-and-green-fine-jewelers",
@@ -13497,7 +13544,7 @@
   "domainExpires": "2027-03-21",
   "domainState": "",
   "pitch": 17,
-  "rank": 296
+  "rank": 297
  },
  {
   "slug": "hearing-associates-of-south-carolina",
@@ -13542,7 +13589,7 @@
   "domainExpires": "2027-02-26",
   "domainState": "",
   "pitch": 17,
-  "rank": 297
+  "rank": 298
  },
  {
   "slug": "hull-barrett-attorneys-pc",
@@ -13586,7 +13633,7 @@
   "domainExpires": "2027-08-13",
   "domainState": "",
   "pitch": 17,
-  "rank": 298
+  "rank": 299
  },
  {
   "slug": "massage-ology-wellness-studio",
@@ -13630,7 +13677,7 @@
   "domainExpires": "2027-10-22",
   "domainState": "",
   "pitch": 17,
-  "rank": 299
+  "rank": 300
  },
  {
   "slug": "new-moon-caf",
@@ -13675,7 +13722,7 @@
   "domainExpires": "2027-05-10",
   "domainState": "",
   "pitch": 17,
-  "rank": 300
+  "rank": 301
  },
  {
   "slug": "nouveau-hair-and-wigs",
@@ -13719,7 +13766,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 17,
-  "rank": 301
+  "rank": 302
  },
  {
   "slug": "southbound-aiken",
@@ -13767,7 +13814,7 @@
   "domainExpires": "2027-05-21",
   "domainState": "",
   "pitch": 17,
-  "rank": 302
+  "rank": 303
  },
  {
   "slug": "american-honey-boutique",
@@ -13811,7 +13858,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 303
+  "rank": 304
  },
  {
   "slug": "conde-fitness-and-recovery",
@@ -13855,7 +13902,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 304
+  "rank": 305
  },
  {
   "slug": "dsk-electrical-llc",
@@ -13899,7 +13946,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 305
+  "rank": 306
  },
  {
   "slug": "gallery-j-salon",
@@ -13943,7 +13990,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 306
+  "rank": 307
  },
  {
   "slug": "generational-solutions",
@@ -13987,7 +14034,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 307
+  "rank": 308
  },
  {
   "slug": "moonbeams-coffee-roasters",
@@ -14031,7 +14078,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 308
+  "rank": 309
  },
  {
   "slug": "new-haven-farm",
@@ -14075,7 +14122,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 16,
-  "rank": 309
+  "rank": 310
  },
  {
   "slug": "aiken-secure-storage",
@@ -14119,7 +14166,7 @@
   "domainExpires": "2027-05-20",
   "domainState": "",
   "pitch": 16,
-  "rank": 310
+  "rank": 311
  },
  {
   "slug": "aiken-wellness-spa-and-boutique",
@@ -14163,7 +14210,7 @@
   "domainExpires": "2027-06-06",
   "domainState": "",
   "pitch": 16,
-  "rank": 311
+  "rank": 312
  },
  {
   "slug": "aikenite-electrical-services-llc",
@@ -14207,7 +14254,7 @@
   "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 16,
-  "rank": 312
+  "rank": 313
  },
  {
   "slug": "beyond-bijoux",
@@ -14254,7 +14301,7 @@
   "domainExpires": "2026-12-19",
   "domainState": "Renews or expires 2026-12-19",
   "pitch": 16,
-  "rank": 313
+  "rank": 314
  },
  {
   "slug": "blue-collard",
@@ -14301,7 +14348,7 @@
   "domainExpires": "2028-07-30",
   "domainState": "",
   "pitch": 16,
-  "rank": 314
+  "rank": 315
  },
  {
   "slug": "dukes-bar-b-que",
@@ -14346,7 +14393,7 @@
   "domainExpires": "2027-05-15",
   "domainState": "",
   "pitch": 16,
-  "rank": 315
+  "rank": 316
  },
  {
   "slug": "ferrandos-italian-pizzeria",
@@ -14390,7 +14437,7 @@
   "domainExpires": "2027-09-16",
   "domainState": "",
   "pitch": 16,
-  "rank": 316
+  "rank": 317
  },
  {
   "slug": "good-morning-sunshine-plumbing",
@@ -14434,7 +14481,7 @@
   "domainExpires": "2030-12-10",
   "domainState": "",
   "pitch": 16,
-  "rank": 317
+  "rank": 318
  },
  {
   "slug": "gutter-specialty-services",
@@ -14479,7 +14526,7 @@
   "domainExpires": "2027-05-09",
   "domainState": "",
   "pitch": 16,
-  "rank": 318
+  "rank": 319
  },
  {
   "slug": "holley-and-company",
@@ -14526,7 +14573,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 16,
-  "rank": 319
+  "rank": 320
  },
  {
   "slug": "legis-equine-insurance",
@@ -14577,7 +14624,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 16,
-  "rank": 320
+  "rank": 321
  },
  {
   "slug": "neon-fig",
@@ -14622,7 +14669,7 @@
   "domainExpires": "2027-07-16",
   "domainState": "",
   "pitch": 16,
-  "rank": 321
+  "rank": 322
  },
  {
   "slug": "park-avenue-oyster-bar-and-grill",
@@ -14668,7 +14715,7 @@
   "domainExpires": "2035-01-31",
   "domainState": "",
   "pitch": 16,
-  "rank": 322
+  "rank": 323
  },
  {
   "slug": "total-vibe-salon",
@@ -14712,7 +14759,7 @@
   "domainExpires": "2027-08-16",
   "domainState": "",
   "pitch": 16,
-  "rank": 323
+  "rank": 324
  },
  {
   "slug": "a-p-gouge-photography",
@@ -14756,7 +14803,7 @@
   "domainExpires": "2027-06-29",
   "domainState": "",
   "pitch": 15,
-  "rank": 324
+  "rank": 325
  },
  {
   "slug": "dirty-chimney-llc",
@@ -14800,7 +14847,7 @@
   "domainExpires": "2027-07-08",
   "domainState": "",
   "pitch": 14,
-  "rank": 325
+  "rank": 326
  },
  {
   "slug": "laurens-street-holdings",
@@ -14844,7 +14891,7 @@
   "domainExpires": "2027-03-15",
   "domainState": "",
   "pitch": 14,
-  "rank": 326
+  "rank": 327
  },
  {
   "slug": "northside-lanes",
@@ -14888,7 +14935,7 @@
   "domainExpires": "2027-02-06",
   "domainState": "",
   "pitch": 14,
-  "rank": 327
+  "rank": 328
  },
  {
   "slug": "steed-paving",
@@ -14932,7 +14979,7 @@
   "domainExpires": "2027-08-17",
   "domainState": "",
   "pitch": 14,
-  "rank": 328
+  "rank": 329
  },
  {
   "slug": "wolf-construction",
@@ -14976,7 +15023,7 @@
   "domainExpires": "2029-08-27",
   "domainState": "",
   "pitch": 14,
-  "rank": 329
+  "rank": 330
  },
  {
   "slug": "adams-nursery-and-landscaping-llc",
@@ -15020,7 +15067,7 @@
   "domainExpires": "2027-06-23",
   "domainState": "",
   "pitch": 14,
-  "rank": 330
+  "rank": 331
  },
  {
   "slug": "advanced-hearing-health-of-aiken",
@@ -15065,7 +15112,7 @@
   "domainExpires": "2027-02-20",
   "domainState": "",
   "pitch": 14,
-  "rank": 331
+  "rank": 332
  },
  {
   "slug": "aiken-golf-club",
@@ -15111,7 +15158,7 @@
   "domainExpires": "2027-05-09",
   "domainState": "",
   "pitch": 14,
-  "rank": 332
+  "rank": 333
  },
  {
   "slug": "aiken-junk-removal",
@@ -15157,7 +15204,7 @@
   "domainExpires": "2027-01-31",
   "domainState": "",
   "pitch": 14,
-  "rank": 333
+  "rank": 334
  },
  {
   "slug": "bill-cunningham-fitness",
@@ -15201,7 +15248,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 14,
-  "rank": 334
+  "rank": 335
  },
  {
   "slug": "build-on-your-land-llc",
@@ -15245,7 +15292,7 @@
   "domainExpires": "2029-08-26",
   "domainState": "",
   "pitch": 14,
-  "rank": 335
+  "rank": 336
  },
  {
   "slug": "bushs-flower-shop-on-pine-grove",
@@ -15289,7 +15336,7 @@
   "domainExpires": "2026-12-30",
   "domainState": "Renews or expires 2026-12-30",
   "pitch": 14,
-  "rank": 336
+  "rank": 337
  },
  {
   "slug": "carolina-fresh-farms",
@@ -15335,7 +15382,7 @@
   "domainExpires": "2027-04-28",
   "domainState": "",
   "pitch": 14,
-  "rank": 337
+  "rank": 338
  },
  {
   "slug": "chandler-law-firm-pa",
@@ -15379,7 +15426,7 @@
   "domainExpires": "2026-12-22",
   "domainState": "Renews or expires 2026-12-22",
   "pitch": 14,
-  "rank": 338
+  "rank": 339
  },
  {
   "slug": "covenant-family-allergy",
@@ -15427,7 +15474,7 @@
   "domainExpires": "2027-04-14",
   "domainState": "",
   "pitch": 14,
-  "rank": 339
+  "rank": 340
  },
  {
   "slug": "csra-veterinary-services",
@@ -15471,7 +15518,7 @@
   "domainExpires": "2027-04-25",
   "domainState": "",
   "pitch": 14,
-  "rank": 340
+  "rank": 341
  },
  {
   "slug": "hale-dentistry-and-oral-wellness",
@@ -15519,7 +15566,7 @@
   "domainExpires": "2028-09-16",
   "domainState": "",
   "pitch": 14,
-  "rank": 341
+  "rank": 342
  },
  {
   "slug": "holley-heating-and-air-conditioning-inc",
@@ -15566,7 +15613,7 @@
   "domainExpires": "2029-03-14",
   "domainState": "",
   "pitch": 14,
-  "rank": 342
+  "rank": 343
  },
  {
   "slug": "lankys-on-laurens",
@@ -15610,7 +15657,7 @@
   "domainExpires": "2026-12-18",
   "domainState": "Renews or expires 2026-12-18",
   "pitch": 14,
-  "rank": 343
+  "rank": 344
  },
  {
   "slug": "laurelwood-equipment-company",
@@ -15656,7 +15703,7 @@
   "domainExpires": "2027-03-18",
   "domainState": "",
   "pitch": 14,
-  "rank": 344
+  "rank": 345
  },
  {
   "slug": "legends-grille",
@@ -15700,7 +15747,7 @@
   "domainExpires": "2028-05-07",
   "domainState": "",
   "pitch": 14,
-  "rank": 345
+  "rank": 346
  },
  {
   "slug": "mgx-equipment-services",
@@ -15746,7 +15793,7 @@
   "domainExpires": "2027-02-04",
   "domainState": "",
   "pitch": 14,
-  "rank": 346
+  "rank": 347
  },
  {
   "slug": "phillip-hawkins-motor-co",
@@ -15790,7 +15837,7 @@
   "domainExpires": "2027-02-25",
   "domainState": "",
   "pitch": 14,
-  "rank": 347
+  "rank": 348
  },
  {
   "slug": "plum-pudding",
@@ -15839,7 +15886,7 @@
   "domainExpires": "2027-05-26",
   "domainState": "",
   "pitch": 14,
-  "rank": 348
+  "rank": 349
  },
  {
   "slug": "spago-medical-day-spa",
@@ -15884,7 +15931,7 @@
   "domainExpires": "2027-03-21",
   "domainState": "",
   "pitch": 14,
-  "rank": 349
+  "rank": 350
  },
  {
   "slug": "stark-plumbing-llc",
@@ -15928,7 +15975,7 @@
   "domainExpires": "2027-03-17",
   "domainState": "",
   "pitch": 14,
-  "rank": 350
+  "rank": 351
  },
  {
   "slug": "teeters-group-llc",
@@ -15973,7 +16020,7 @@
   "domainExpires": "2034-04-22",
   "domainState": "",
   "pitch": 14,
-  "rank": 351
+  "rank": 352
  },
  {
   "slug": "trey-vereen-dmd",
@@ -16020,7 +16067,7 @@
   "domainExpires": "2035-08-11",
   "domainState": "",
   "pitch": 14,
-  "rank": 352
+  "rank": 353
  },
  {
   "slug": "versailles-rugs-and-art",
@@ -16067,7 +16114,7 @@
   "domainExpires": "2027-01-21",
   "domainState": "",
   "pitch": 14,
-  "rank": 353
+  "rank": 354
  },
  {
   "slug": "wessels-white-and-earley-pc",
@@ -16111,7 +16158,7 @@
   "domainExpires": "2027-01-06",
   "domainState": "Renews or expires 2027-01-06",
   "pitch": 14,
-  "rank": 354
+  "rank": 355
  },
  {
   "slug": "woodside-country-club",
@@ -16156,7 +16203,7 @@
   "domainExpires": "2027-07-22",
   "domainState": "",
   "pitch": 14,
-  "rank": 355
+  "rank": 356
  },
  {
   "slug": "advanced-oral-and-facial-specialists",
@@ -16205,7 +16252,7 @@
   "domainExpires": "2034-11-29",
   "domainState": "",
   "pitch": 13,
-  "rank": 356
+  "rank": 357
  },
  {
   "slug": "aiken-hound-and-home",
@@ -16251,7 +16298,7 @@
   "domainExpires": "2027-05-09",
   "domainState": "",
   "pitch": 13,
-  "rank": 357
+  "rank": 358
  },
  {
   "slug": "aiken-midtown-hotel",
@@ -16297,7 +16344,7 @@
   "domainExpires": "2027-04-23",
   "domainState": "",
   "pitch": 13,
-  "rank": 358
+  "rank": 359
  },
  {
   "slug": "aiken-paint-and-sip",
@@ -16341,7 +16388,7 @@
   "domainExpires": "2027-03-08",
   "domainState": "",
   "pitch": 13,
-  "rank": 359
+  "rank": 360
  },
  {
   "slug": "aiken-properties-inc",
@@ -16391,7 +16438,7 @@
   "domainExpires": "2027-02-19",
   "domainState": "",
   "pitch": 13,
-  "rank": 360
+  "rank": 361
  },
  {
   "slug": "aiken-saddlery",
@@ -16435,7 +16482,7 @@
   "domainExpires": "2028-05-10",
   "domainState": "",
   "pitch": 13,
-  "rank": 361
+  "rank": 362
  },
  {
   "slug": "aiken-transport-express-llc",
@@ -16483,7 +16530,7 @@
   "domainExpires": "2027-08-22",
   "domainState": "",
   "pitch": 13,
-  "rank": 362
+  "rank": 363
  },
  {
   "slug": "anderson-plumbing-co-inc",
@@ -16532,7 +16579,7 @@
   "domainExpires": "2027-01-22",
   "domainState": "",
   "pitch": 13,
-  "rank": 363
+  "rank": 364
  },
  {
   "slug": "andrew-c-marine-attorney",
@@ -16581,7 +16628,7 @@
   "domainExpires": "2027-10-17",
   "domainState": "",
   "pitch": 13,
-  "rank": 364
+  "rank": 365
  },
  {
   "slug": "applied-business-strategies-llc",
@@ -16628,7 +16675,7 @@
   "domainExpires": "2027-09-13",
   "domainState": "",
   "pitch": 13,
-  "rank": 365
+  "rank": 366
  },
  {
   "slug": "baker-family-dentistry",
@@ -16675,7 +16722,7 @@
   "domainExpires": "2028-01-25",
   "domainState": "",
   "pitch": 13,
-  "rank": 366
+  "rank": 367
  },
  {
   "slug": "belu-group-llc",
@@ -16723,7 +16770,7 @@
   "domainExpires": "2027-07-23",
   "domainState": "",
   "pitch": 13,
-  "rank": 367
+  "rank": 368
  },
  {
   "slug": "bit-services",
@@ -16772,7 +16819,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 13,
-  "rank": 368
+  "rank": 369
  },
  {
   "slug": "bolster-bookkeeping-llc",
@@ -16818,7 +16865,7 @@
   "domainExpires": "2028-02-21",
   "domainState": "",
   "pitch": 13,
-  "rank": 369
+  "rank": 370
  },
  {
   "slug": "brandquantum-inc",
@@ -16862,7 +16909,7 @@
   "domainExpires": "2027-01-15",
   "domainState": "Renews or expires 2027-01-15",
   "pitch": 13,
-  "rank": 370
+  "rank": 371
  },
  {
   "slug": "britts-jump-and-slide-inflatables-llc",
@@ -16908,7 +16955,7 @@
   "domainExpires": "2027-10-16",
   "domainState": "",
   "pitch": 13,
-  "rank": 371
+  "rank": 372
  },
  {
   "slug": "candy-shop-vintage-llc",
@@ -16957,7 +17004,7 @@
   "domainExpires": "2027-06-01",
   "domainState": "",
   "pitch": 13,
-  "rank": 372
+  "rank": 373
  },
  {
   "slug": "cole-funeral-home-and-cremation-service",
@@ -17005,7 +17052,7 @@
   "domainExpires": "2027-06-08",
   "domainState": "",
   "pitch": 13,
-  "rank": 373
+  "rank": 374
  },
  {
   "slug": "csra-document-solutions",
@@ -17053,7 +17100,7 @@
   "domainExpires": "2030-07-13",
   "domainState": "",
   "pitch": 13,
-  "rank": 374
+  "rank": 375
  },
  {
   "slug": "cultivating-wellness-llc",
@@ -17099,7 +17146,7 @@
   "domainExpires": "2027-08-07",
   "domainState": "",
   "pitch": 13,
-  "rank": 375
+  "rank": 376
  },
  {
   "slug": "deramo-creative",
@@ -17143,7 +17190,7 @@
   "domainExpires": "2027-03-05",
   "domainState": "",
   "pitch": 13,
-  "rank": 376
+  "rank": 377
  },
  {
   "slug": "dear-soul-candle-co",
@@ -17187,7 +17234,7 @@
   "domainExpires": "2027-02-26",
   "domainState": "",
   "pitch": 13,
-  "rank": 377
+  "rank": 378
  },
  {
   "slug": "deborah-a-ashcraft-dmd-pc",
@@ -17231,7 +17278,7 @@
   "domainExpires": "2029-12-08",
   "domainState": "",
   "pitch": 13,
-  "rank": 378
+  "rank": 379
  },
  {
   "slug": "design-persuasion",
@@ -17279,7 +17326,7 @@
   "domainExpires": "2027-04-06",
   "domainState": "",
   "pitch": 13,
-  "rank": 379
+  "rank": 380
  },
  {
   "slug": "equine-divine",
@@ -17329,7 +17376,7 @@
   "domainExpires": "2027-08-29",
   "domainState": "",
   "pitch": 13,
-  "rank": 380
+  "rank": 381
  },
  {
   "slug": "fliflet-cassels-and-durant-pa-cpa",
@@ -17376,7 +17423,7 @@
   "domainExpires": "2027-06-26",
   "domainState": "",
   "pitch": 13,
-  "rank": 381
+  "rank": 382
  },
  {
   "slug": "fox-and-hound-realty",
@@ -17422,7 +17469,7 @@
   "domainExpires": "2027-06-20",
   "domainState": "",
   "pitch": 13,
-  "rank": 382
+  "rank": 383
  },
  {
   "slug": "grumpys-sports-pub",
@@ -17465,53 +17512,6 @@
   "socialPresence": null,
   "domain": "grumpyssportspub.com",
   "domainExpires": "2027-09-28",
-  "domainState": "",
-  "pitch": 13,
-  "rank": 383
- },
- {
-  "slug": "harrison-k-9-security-services-llc",
-  "name": "Harrison K-9 Security Services, LLC",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Security Services",
-  "phone": "(803) 649-5936",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "info@harrisonk9.com",
-  "otherEmails": [],
-  "website": "http://www.harrisonk9.com/",
-  "siteState": "Online",
-  "score": 12,
-  "platform": "WordPress",
-  "issues": [
-   "Footer copyright says 2020",
-   "No favicon declared"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2020,
-  "facebook": "http://www.facebook.com/HarrisonK9",
-  "instagram": "https://www.instagram.com/harrisonk9ae/",
-  "address": "112 Farmingdale Court, Aiken, SC 29805",
-  "contact": "November Holley",
-  "familyNote": "",
-  "since": 1975,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 2.9,
-  "a11yIssues": 16,
-  "a11ySerious": 16,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "harrisonk9.com",
-  "domainExpires": "2027-06-29",
   "domainState": "",
   "pitch": 13,
   "rank": 384

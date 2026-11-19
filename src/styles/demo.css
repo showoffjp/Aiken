@@ -240,7 +240,7 @@ blockquote.pull cite { display: block; font: 500 .9rem/1.4 var(--font-body); col
 .menu-group li { padding: 14px 0; border-bottom: 1px dashed var(--line); }
 .menu-group .line { display: flex; align-items: baseline; gap: 10px; font-weight: 650; }
 .menu-group .line i { flex: 1; border-bottom: 2px dotted color-mix(in srgb, var(--ink) 24%, transparent); transform: translateY(-4px); min-width: 20px; }
-.menu-group .price { font-variant-numeric: tabular-nums; color: var(--primary-text, var(--primary)); }
+.menu-group .price { font-variant-numeric: tabular-nums; color: var(--primary-text, var(--primary)); white-space: nowrap; }
 .menu-group p { color: var(--muted-text, var(--muted)); font-size: .95rem; margin-top: 4px; line-height: 1.45; }
 .footnote { color: var(--muted-text, var(--muted)); font-size: .92rem; margin-top: 8px; }
 @media (max-width: 760px) { .menu-groups { columns: 1; } }

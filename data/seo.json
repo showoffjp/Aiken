@@ -25759,5 +25759,780 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "harrison-k-9-security-services-llc": {
+  "slug": "harrison-k9",
+  "name": "Harrison K-9 Security Services",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "harrisonk9.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://harrisonk9.com/",
+    "title": "Harrison K9 - Harrison K9",
+    "description": "Harrison K9",
+    "canonical": "https://harrisonk9.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "Harrison K9 - Harrison K9",
+     "description": "Harrison K9",
+     "image": "https://harrisonk9.com/wp-content/uploads/2021/10/Harrison-K9-10-9.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Harrison K9"
+    ],
+    "h1Count": 1,
+    "h2": 9,
+    "h3": 2,
+    "words": 371,
+    "images": 4,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "BreadcrumbList",
+     "ListItem",
+     "Organization",
+     "ImageObject",
+     "WebPage",
+     "WebSite"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 2
+   },
+   "sitemap": {
+    "url": "https://harrisonk9.com/sitemap.xml",
+    "pages": 0
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 65,
+    "images": 116,
+    "sample": [
+     {
+      "url": "https://harrisonk9.com/",
+      "title": "Harrison K9 - Harrison K9",
+      "description": 11,
+      "h1": 1,
+      "words": 371
+     },
+     {
+      "url": "https://harrisonk9.com/fully-trained-adults/",
+      "title": "Fully Trained Adults - Harrison K9",
+      "description": 339,
+      "h1": 1,
+      "words": 493
+     },
+     {
+      "url": "https://harrisonk9.com/young-adults-and-puppies/",
+      "title": "Young Adults and Puppies - Harrison K9",
+      "description": 264,
+      "h1": 1,
+      "words": 443
+     },
+     {
+      "url": "https://harrisonk9.com/serenity-k-9/",
+      "title": "Serenity K-9 - Harrison K9",
+      "description": 355,
+      "h1": 1,
+      "words": 449
+     },
+     {
+      "url": "https://harrisonk9.com/the-harrison-legacy/",
+      "title": "The Harrison Legacy - Harrison K9",
+      "description": 351,
+      "h1": 1,
+      "words": 252
+     },
+     {
+      "url": "https://harrisonk9.com/pricing/",
+      "title": "Pricing - Harrison K9",
+      "description": 357,
+      "h1": 1,
+      "words": 375
+     },
+     {
+      "url": "https://harrisonk9.com/press/",
+      "title": "Press - Harrison K9",
+      "description": 348,
+      "h1": 1,
+      "words": 254
+     },
+     {
+      "url": "https://harrisonk9.com/why-harrison-k-9s-are-better/",
+      "title": "Why Harrison K-9s are Better - Harrison K9",
+      "description": 353,
+      "h1": 1,
+      "words": 631
+     },
+     {
+      "url": "https://harrisonk9.com/bloodlines/",
+      "title": "Bloodlines - Harrison K9",
+      "description": 369,
+      "h1": 1,
+      "words": 365
+     },
+     {
+      "url": "https://harrisonk9.com/family-protection/",
+      "title": "Family Protection - Harrison K9",
+      "description": 387,
+      "h1": 1,
+      "words": 1278
+     },
+     {
+      "url": "https://harrisonk9.com/training-results/",
+      "title": "Training & Results - Harrison K9",
+      "description": 343,
+      "h1": 1,
+      "words": 448
+     },
+     {
+      "url": "https://harrisonk9.com/testimonials/",
+      "title": "Testimonials - Harrison K9",
+      "description": 344,
+      "h1": 1,
+      "words": 1445
+     },
+     {
+      "url": "https://harrisonk9.com/gabby/",
+      "title": "Gabby - Harrison K9",
+      "description": 38,
+      "h1": 1,
+      "words": 165
+     },
+     {
+      "url": "https://harrisonk9.com/hanno/",
+      "title": "Hanno - Harrison K9",
+      "description": 39,
+      "h1": 1,
+      "words": 165
+     },
+     {
+      "url": "https://harrisonk9.com/agent/",
+      "title": "Agent - Harrison K9",
+      "description": 39,
+      "h1": 1,
+      "words": 169
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 39,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "http://www.facebook.com/HarrisonK9",
+    "X (Twitter)": "https://twitter.com/HarrisonK9AE",
+    "Instagram": "https://www.instagram.com/harrisonk9ae/",
+    "Pinterest": "https://www.pinterest.com/harrisonk9sec",
+    "YouTube": "https://www.youtube.com/channel/UCIINW0BfTkg05U4knsiK-tw"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Protection Dog Trainer",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=523&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=baab0e890e93b40d1b11795d49137bbd",
+    "name": "Harrison K-9 Security Services, LLC",
+    "phone": "(803) 649-5936",
+    "website": "http://www.harrisonk9.com",
+    "address": "112 Farmingdale Court, Aiken, SC 29805",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "http://www.facebook.com/HarrisonK9",
+    "X (Twitter)": "https://twitter.com/HarrisonK9AE",
+    "Instagram": "https://www.instagram.com/harrisonk9ae/",
+    "Pinterest": "https://www.pinterest.com/harrisonk9sec",
+    "YouTube": "https://www.youtube.com/channel/UCIINW0BfTkg05U4knsiK-tw"
+   },
+   "listed": {
+    "Facebook": "http://www.facebook.com/HarrisonK9",
+    "Instagram": "https://www.instagram.com/harrisonk9ae/"
+   }
+  },
+  "domain": {
+   "name": "harrisonk9.com",
+   "created": "1998-06-30",
+   "expires": "2027-06-29",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 28
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "powell-asset-protection-agency"
+  ],
+  "scores": {
+   "seo": 80,
+   "social": 80,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "powell-asset-protection-agency",
+    "name": "Powell Asset Protection Agency",
+    "website": "https://powellasset.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "board-in-aiken": {
+  "slug": "board-in-aiken",
+  "name": "Board in Aiken",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "boardinaiken.com",
+   "https": true,
+   "pagesCrawled": 2,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.boardinaiken.com/",
+    "title": "Board In Aiken | Charcuterie Boards for Aiken and Augusta",
+    "description": "Handcrafted charcuterie boards made fresh in Aiken, SC. Perfect for events, lunch catering, gifts, and gatherings—customized just for you.",
+    "canonical": "",
+    "noindex": false,
+    "lang": "",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Charcuterie & Specialty Boards"
+    ],
+    "h1Count": 1,
+    "h2": 15,
+    "h3": 1,
+    "words": 993,
+    "images": 19,
+    "imagesNoAlt": 17,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 2,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 34,
+    "images": 38,
+    "sample": [
+     {
+      "url": "https://www.boardinaiken.com/",
+      "title": "Board In Aiken | Charcuterie Boards for Aiken and Augusta",
+      "description": 138,
+      "h1": 1,
+      "words": 993
+     },
+     {
+      "url": "https://www.boardinaiken.com/index.html",
+      "title": "Board In Aiken | Charcuterie Boards for Aiken and Augusta",
+      "description": 138,
+      "h1": 1,
+      "words": 993
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 2,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://maps.app.goo.gl/j22sXWCdS83dWHDn6",
+    "Facebook": "https://www.facebook.com/boardinaiken/",
+    "Instagram": "https://www.instagram.com/boardinaiken/",
+    "LinkedIn": "https://www.linkedin.com/company/board-in-aiken/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Charcuterie",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 9
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=261&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=a3a3fa2dd27a02b164c89d0c21a6b25c",
+    "name": "Board in Aiken",
+    "phone": "(803) 646-8630",
+    "website": "http://www.boardinaiken.com",
+    "address": "6160 Woodside Executive Court, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://maps.app.goo.gl/j22sXWCdS83dWHDn6",
+    "Facebook": "https://www.facebook.com/boardinaiken/",
+    "Instagram": "https://www.instagram.com/boardinaiken/",
+    "LinkedIn": "https://www.linkedin.com/company/board-in-aiken/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/boardinaiken/",
+    "Instagram": "https://www.instagram.com/boardinaiken/"
+   }
+  },
+  "domain": {
+   "name": "boardinaiken.com",
+   "created": "2020-05-01",
+   "expires": "2027-05-01",
+   "registrar": "Cloud DNS Ltd",
+   "years": 6
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "blue-collard",
+   "newberry-hall"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 80,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "newberry-hall",
+    "name": "Newberry Hall",
+    "website": "https://www.newberryhall.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   }
+  ]
+ },
+ "g-and-s-computing-inc": {
+  "slug": "g-and-s-computing",
+  "name": "G&S Computing",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "gscompinc.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.gscompinc.com/",
+    "title": "G&S Computing | Aiken | North Augusta | Augusta | Computers & Networking",
+    "description": "G&S Computing has been in business since 1987.  We provide computer repair, hardware, software and network support for businesses in Aiken, SC and the surrounding areas.",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 1,
+    "h3": 3,
+    "words": 314,
+    "images": 10,
+    "imagesNoAlt": 8,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 8,
+    "multipleH1": 0,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 2,
+    "dupDescs": 3,
+    "imagesNoAlt": 39,
+    "images": 55,
+    "sample": [
+     {
+      "url": "https://www.gscompinc.com/",
+      "title": "G&S Computing | Aiken | North Augusta | Augusta | Computers & Networking",
+      "description": 169,
+      "h1": 0,
+      "words": 314
+     },
+     {
+      "url": "https://www.gscompinc.com/index.html",
+      "title": "G&S Computing | Aiken | North Augusta | Augusta | Computers & Networking",
+      "description": 169,
+      "h1": 0,
+      "words": 314
+     },
+     {
+      "url": "https://www.gscompinc.com/about-us.html",
+      "title": "About G&S Computing",
+      "description": 169,
+      "h1": 0,
+      "words": 227
+     },
+     {
+      "url": "https://www.gscompinc.com/services.html",
+      "title": "G&C Computing - Residential Services",
+      "description": 199,
+      "h1": 0,
+      "words": 537
+     },
+     {
+      "url": "https://www.gscompinc.com/contact.html",
+      "title": "Contact G&S Computing",
+      "description": 90,
+      "h1": 0,
+      "words": 100
+     },
+     {
+      "url": "https://www.gscompinc.com/remotesupport.html",
+      "title": "G&S Computing | Aiken | North Augusta | Augusta | Computers & Networking",
+      "description": 169,
+      "h1": 0,
+      "words": 128
+     },
+     {
+      "url": "https://www.eprocessingnetwork.com/cgi-bin/epn/secure/pfg/payment.fpl?a=052237&f=F1DC1465-AE18-1014-B8B9-C02FAC23DE7B",
+      "title": "eProcessingNetwork.com Secure Payments",
+      "description": 0,
+      "h1": 0,
+      "words": 33
+     },
+     {
+      "url": "https://www.gscompinc.com/privacy-policy.html",
+      "title": "G&S Computing Online Privacy Policy",
+      "description": 35,
+      "h1": 0,
+      "words": 701
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 10,
+    "broken": [
+     {
+      "url": "https://www.gscompinc.com/TeamViewerQS.exe",
+      "status": 200,
+      "from": "https://www.gscompinc.com/remotesupport.html"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Google Business Profile": "https://search.google.com/local/writereview",
+    "Facebook": "https://www.facebook.com/gscompinc"
+   }
+  },
+  "keywords": [
+   {
+    "term": "IT Services",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=479&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=a55c9d6dae9b23feb2160a1901c7d5cf",
+    "name": "G & S Computing, Inc.",
+    "phone": "(803) 641-9943",
+    "website": "http://www.gscompinc.com",
+    "address": "37 Capital Drive, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://search.google.com/local/writereview",
+    "Facebook": "https://www.facebook.com/gscompinc"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/gscompinc"
+   }
+  },
+  "domain": {
+   "name": "gscompinc.com",
+   "created": "2010-05-22",
+   "expires": "2027-05-22",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 16
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "belu-group-llc",
+   "bit-services",
+   "brandquantum-inc",
+   "jowers-technology-solutions-llc",
+   "stable-concepts-llc"
+  ],
+  "scores": {
+   "seo": 37,
+   "social": 50,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "belu-group-llc",
+    "name": "BELU GROUP LLC",
+    "website": "https://belu-group.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.3,
+    "a11ySerious": 13,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "bit-services",
+    "name": "BIT Services",
+    "website": "https://www.bitservices.us/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.8,
+    "a11ySerious": 12,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": null
+   },
+   {
+    "slug": "brandquantum-inc",
+    "name": "BrandQuantum Inc.",
+    "website": "https://brandquantum.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.2,
+    "a11ySerious": 17,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 12
+   },
+   {
+    "slug": "jowers-technology-solutions-llc",
+    "name": "Jowers Technology Solutions, LLC",
+    "website": "https://jowerstechsolutions.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.3,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "stable-concepts-llc",
+    "name": "Stable Concepts, LLC",
+    "website": "https://www.stableconceptsllc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   }
+  ]
  }
 }
