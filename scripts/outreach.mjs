@@ -19,6 +19,7 @@ const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'
 const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
 const filmstrip = JSON.parse(await readFile(path.join(ROOT, 'data', 'filmstrip.json'), 'utf8').catch(() => '{}'));
 const rankings = JSON.parse(await readFile(path.join(ROOT, 'data', 'rankings.json'), 'utf8').catch(() => '{}'));
+const typos = JSON.parse(await readFile(path.join(ROOT, 'data', 'typos.json'), 'utf8').catch(() => '{}'));
 const firstScreen = JSON.parse(await readFile(path.join(ROOT, 'data', 'firstscreen.json'), 'utf8').catch(() => '{}'));
 // A phone visitor who sees no phone number at all before scrolling (no call link, no number).
 const readNote = (key) => {
@@ -64,6 +65,18 @@ const PLAIN = {
   'html-has-lang': 'no page language set',
   'meta-viewport': 'zooming switched off on phones',
 };
+// The first typo on the current site (scripts/typos.mjs) that the concept's
+// own findings don't already mention.
+function typoNote(key, before) {
+  const said = before.join(' ').toLowerCase();
+  const t = (typos[key]?.found || []).find((x) => (x.kind === 'sample' ? !/lorem|sample text|placeholder|filler|template/.test(said) : !said.includes(x.word.toLowerCase())));
+  if (!t) return '';
+  const where = /^home$/i.test(t.label) ? 'the home page' : `the “${t.label}” page`;
+  if (t.kind === 'sample') return `${where.charAt(0).toUpperCase() + where.slice(1)} still shows the website template’s sample text (“${t.context.split(/[.,]/)[0].slice(0, 40)}…”)`;
+  if (t.kind === 'double') return `A doubled word on ${where}: “${t.word}”`;
+  return `A typo on ${where}: “${t.word}” for “${t.fix}”`;
+}
+
 function a11yNote(key) {
   const r = a11y[key]?.site;
   if (!r || r.error) return '';
@@ -110,8 +123,10 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   // specific: a placeholder phone number, another company's name), then a
   // second measured point if there is no own finding to use.
   const findings = lead.length ? [lead[0], extra, lead[1]].filter(Boolean).slice(0, 2) : d.source.before.slice(0, broken ? 1 : 2);
+  // A typo is concrete and quick to check, so it takes the third spot when there is one.
+  const typo = broken || d.source.none ? '' : typoNote(d.prospect || d.slug, d.source.before);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
-  if (access) findings.push(access);
+  if (typo || access) findings.push(typo || access);
   const none = !!d.source.none;
   const subject = none ? `A website for ${short}` : broken ? `${short}: your website is not loading for visitors` : `A new website idea for ${short}`;
 

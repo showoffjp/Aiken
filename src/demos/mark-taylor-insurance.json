@@ -1,0 +1,277 @@
+{
+  "name": "Mark Taylor Insurance",
+  "short": "Mark Taylor Insurance",
+  "category": "Health, Medicare & Group Benefits",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fraunces",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f5f7fb",
+    "surface": "#ffffff",
+    "ink": "#111a33",
+    "muted": "#4f5872",
+    "primary": "#1c2a6b",
+    "onPrimary": "#ffffff",
+    "accent": "#f2c94c",
+    "line": "#dde3ee"
+  },
+  "radius": 14,
+  "icon": "heart-pulse",
+  "contact": {
+    "phone": "(803) 642-4551",
+    "phone2": "(803) 649-5573",
+    "phone2Label": "Medicare & group benefits",
+    "email": "kim@marktaylorinsurance.com",
+    "address": [
+      "965 Dougherty Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Mark Taylor Insurance, 965 Dougherty Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:30 am – 5:00 pm"
+      ],
+      [
+        "After hours & Saturday",
+        "By appointment"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/marktaylorinsurance965"
+  },
+  "hero": {
+    "eyebrow": "Independent health insurance agents in Aiken for 40+ years",
+    "title": "Health insurance, *Taylor-made*",
+    "lede": "Medicare, individual and family health, group benefits for employers with 2 to 250 employees, and life, dental and vision. We compare the top-rated carriers for you, and using a local agent costs you nothing extra.",
+    "points": [
+      "Medicare & Part D",
+      "Group benefits, 2–250",
+      "Free, no-obligation quotes"
+    ],
+    "cta": {
+      "label": "Get a free quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 642-4551",
+      "href": "tel:+18036424551"
+    },
+    "image": {
+      "src": "/demo-assets/mark-taylor-insurance/couple-review.webp",
+      "alt": "An older couple on a sofa reading through paperwork together",
+      "width": 2000,
+      "height": 1125
+    }
+  },
+  "facts": [
+    {
+      "value": "40+ years",
+      "label": "Serving Aiken and the CSRA"
+    },
+    {
+      "value": "2–250",
+      "label": "Employees on our group plans"
+    },
+    {
+      "value": "$0",
+      "label": "Extra to buy through us"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "plans",
+      "nav": "Plans",
+      "columns": 3,
+      "eyebrow": "What we help with",
+      "title": "Coverage *for every stage of life*",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "title": "Medicare",
+          "text": "Medicare Advantage, Medicare supplements and Part D drug plans, explained before you choose, for the same price as buying from the carrier."
+        },
+        {
+          "icon": "house-heart",
+          "title": "Individual & family health",
+          "text": "Marketplace major medical plans, short-term coverage between plans, and travel medical insurance for trips abroad."
+        },
+        {
+          "icon": "users",
+          "title": "Group benefits",
+          "text": "Health, dental, vision, disability and life for employers with 2 to 250 employees, fully insured or self-funded."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Life insurance",
+          "text": "Term, whole and universal life, matched to what your family would need."
+        },
+        {
+          "icon": "smile",
+          "title": "Dental & vision",
+          "text": "Plans for cleanings and treatment, eye exams, glasses and contacts, and discounts on LASIK."
+        },
+        {
+          "icon": "calendar-check",
+          "title": "Special enrollment",
+          "text": "Lost coverage, married, had a baby or moved? You have 60 days to enroll outside open enrollment, and we’ll help."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "medicare",
+      "nav": "Medicare",
+      "eyebrow": "Medicare, made clear",
+      "title": "How we help *with Medicare*",
+      "items": [
+        {
+          "title": "Call for a free quote",
+          "text": "Free and with no obligation: call (803) 649-5573."
+        },
+        {
+          "title": "We explain your options",
+          "text": "Medicare Advantage, supplements and Part D from Blue Cross Blue Shield of South Carolina, Humana, Aetna, Cigna, UnitedHealthcare and more."
+        },
+        {
+          "title": "Choose and enroll",
+          "text": "You pay the same as buying directly from the carrier, with our 40 years of experience at no charge."
+        },
+        {
+          "title": "We stay with you",
+          "text": "We service your plan when you need us, and shop again as premiums rise."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Your agent",
+      "title": "Meet *Kim Brinson*",
+      "image": {
+        "src": "/demo-assets/mark-taylor-insurance/kim.webp",
+        "alt": "Kim Brinson, smiling, in a navy top outdoors",
+        "width": 900,
+        "height": 1260
+      },
+      "body": [
+        "Kim is a licensed health and life insurance agent and consultant in South Carolina, with 27 years in the health insurance field. She helps with group health, individual health, life insurance and disability, and puts your needs first so you can make a wise decision. Away from work she loves the lake, the beach, and time with her family and grandchildren.",
+        "Mark Taylor Insurance was started with one idea: serve our customers first. Rules, regulations and technology have changed over 40 years, but our mission hasn’t: the best insurance and the best service possible, from people who live here."
+      ],
+      "list": [
+        "Local: a South Carolina agency with local employees",
+        "Independent: we compare top-rated carriers",
+        "Up to date: members of the National Association of Health Underwriters"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "why",
+      "nav": "Why us",
+      "eyebrow": "A local, independent agency",
+      "title": "Why use *a local agent*",
+      "columns": [
+        {
+          "title": "No spam, ever",
+          "items": [
+            "We never sell your information to call centers",
+            "Your details never go to marketing lists"
+          ]
+        },
+        {
+          "title": "No extra cost",
+          "items": [
+            "Marketplace plan prices are set and can’t be changed",
+            "We’re paid by the insurance company you choose"
+          ]
+        },
+        {
+          "title": "Every option",
+          "items": [
+            "Not tied to one company",
+            "We compare all the options in South Carolina"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Will you sell my information to call centers?",
+          "a": "Never. We won’t send you spam or give your information to marketing organizations. We’re a South Carolina agency with local employees."
+        },
+        {
+          "q": "Does my insurance cost more through you?",
+          "a": "No. Major medical plan prices are set by the marketplace. We’re paid a commission by the insurance company you enroll with."
+        },
+        {
+          "q": "What is a major medical plan?",
+          "a": "Also called a Qualified Health Plan, it’s certified by the Healthcare.gov Marketplace to cover essential health benefits, limits cost-sharing, and covers pre-existing conditions. Beware of plans that don’t meet these requirements."
+        },
+        {
+          "q": "Can I enroll outside open enrollment?",
+          "a": "After a qualifying life event, like losing coverage, marriage, a birth or adoption, or a move, you have 60 days to enroll in a new plan."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Questions about your coverage?",
+      "text": "Call, or stop by the office on Dougherty Road.",
+      "cta": {
+        "label": "Call (803) 642-4551",
+        "href": "tel:+18036424551"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Dougherty Road*",
+    "formTitle": "Ask for a free quote",
+    "formTopics": [
+      "Medicare",
+      "Individual or family health",
+      "Group benefits for my business",
+      "Life insurance",
+      "Dental or vision",
+      "Something else"
+    ]
+  },
+  "slug": "mark-taylor-insurance",
+  "added": "2026-11-19",
+  "prospect": "mark-taylor-insurance",
+  "source": {
+    "url": "https://marktaylorinsurance.com/",
+    "before": [
+      "The FAQ page still carries a law firm template’s sample questions: headings like “Firearm Offences” and “Domestic Violence” over “Lorem ipsum” filler text",
+      "Screen readers describe the home page photos with stock-photo captions, such as “Car salesman shaking hands with family sitting in his office at showroom”",
+      "On a phone, the first screen shows no phone number or call button"
+    ],
+    "after": [
+      "Every kind of plan on one page, in plain words",
+      "A clear path for Medicare",
+      "One tap to call, and one form for a free quote",
+      "Kim and the team up front"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "flip": true,
+    "services": "grid",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

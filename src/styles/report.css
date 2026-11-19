@@ -330,3 +330,15 @@
 .rp-cols > *, .rp-shots > * { min-width: 0; }
 .sr-serp, .rp-list li, .sr-checks li { overflow-wrap: anywhere; }
 @media (max-width: 760px) { .rp-shots, .rp-cols { grid-template-columns: minmax(0, 1fr); } }
+
+/* Typos on the current site */
+.rp-typos ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.rp-typos li { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; }
+.rp-typo-word { margin: 0; font-size: 1.15rem; font-weight: 650; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; }
+.rp-typo-word s { color: var(--warn); text-decoration-thickness: 2px; }
+.rp-typo-word ins { color: var(--green); text-decoration: none; }
+.rp-typo-arrow { color: var(--muted); font-weight: 400; }
+.rp-typo-where { margin: 4px 0 0; font-size: .92rem; color: var(--muted); }
+.rp-typos blockquote { margin: 8px 0 0; padding-left: 12px; border-left: 3px solid var(--line); font-size: .95rem; overflow-wrap: anywhere; }
+.rp-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.rp-typos blockquote mark { background: #fde7c8; color: inherit; padding: 0 2px; border-radius: 3px; text-decoration: underline wavy var(--warn) 1px; text-underline-offset: 3px; }

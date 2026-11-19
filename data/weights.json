@@ -2290,11 +2290,18 @@
  },
  "legis-equine-insurance": {
   "site": {
-   "bytes": 3183686,
-   "requests": 95,
-   "loadMs": 5356,
+   "bytes": 3376283,
+   "requests": 96,
+   "loadMs": 4469,
    "url": "https://legisequine.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 391928,
+   "requests": 7,
+   "loadMs": 169,
+   "url": "/legis-equine-insurance/",
+   "at": "2026-11-19"
   }
  },
  "local-threads-aiken": {
@@ -2369,11 +2376,18 @@
  },
  "mark-taylor-insurance": {
   "site": {
-   "bytes": 1345299,
+   "bytes": 1346740,
    "requests": 62,
-   "loadMs": 3342,
+   "loadMs": 2260,
    "url": "https://marktaylorinsurance.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 328744,
+   "requests": 7,
+   "loadMs": 139,
+   "url": "/mark-taylor-insurance/",
+   "at": "2026-11-19"
   }
  },
  "marzeka-consulting": {
@@ -3686,11 +3700,18 @@
  },
  "the-restaurant-at-the-willcox": {
   "site": {
-   "bytes": 14326260,
-   "requests": 97,
-   "loadMs": 10017,
+   "bytes": 14317841,
+   "requests": 96,
+   "loadMs": 5382,
    "url": "https://thewillcox.com/dine/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 563884,
+   "requests": 7,
+   "loadMs": 169,
+   "url": "/restaurant-at-the-willcox/",
+   "at": "2026-11-19"
   }
  },
  "the-vintage-bobbin": {

@@ -1,0 +1,290 @@
+{
+  "name": "LEGIS Equine Insurance",
+  "short": "LEGIS Equine",
+  "category": "Equine Insurance Agency",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "lora",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f7f3ef",
+    "surface": "#fffcf9",
+    "ink": "#1d1418",
+    "muted": "#5e5257",
+    "primary": "#6e1f45",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a66b",
+    "line": "#e7ddd8"
+  },
+  "radius": 10,
+  "icon": "shield-check",
+  "contact": {
+    "phone": "(866) 780-3713",
+    "email": "info@legisequine.com",
+    "address": [
+      "245 Morris Road",
+      "Aiken, SC 29805"
+    ],
+    "mapQuery": "LEGIS Equine Insurance, 245 Morris Rd, Aiken, SC 29805",
+    "hours": [
+      [
+        "Office hours",
+        "9:00 am – 5:00 pm Eastern"
+      ]
+    ],
+    "hoursNote": "After hours, choose the emergency option on the answering service and leave your number: a team member will call you back.",
+    "facebook": "https://www.facebook.com/LEGISEquine"
+  },
+  "hero": {
+    "eyebrow": "Equine insurance from Aiken, SC",
+    "title": "Horsemen *insuring horsemen*",
+    "lede": "We’re riders, owners, officials and event organizers who insure horses, farms and horse businesses, and we explain it in plain English. We work with highly rated carriers to fit coverage to how you ride, board, teach or compete.",
+    "points": [
+      "Mortality, medical & surgical",
+      "Farm & liability",
+      "24-hour claims service"
+    ],
+    "cta": {
+      "label": "See coverage",
+      "href": "#coverage"
+    },
+    "cta2": {
+      "label": "Call (866) 780-3713",
+      "href": "tel:+18667803713"
+    },
+    "image": {
+      "src": "/demo-assets/legis-equine-insurance/barn-team.webp",
+      "alt": "Three LEGIS team members talking at a white barn door while a gray horse looks out",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "24-hour",
+      "label": "Claims service"
+    },
+    {
+      "value": "$15,000",
+      "label": "Medical or surgical, per horse per term"
+    },
+    {
+      "value": "24 hrs–20 yrs",
+      "label": "Ages for mortality coverage"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "coverage",
+      "nav": "Coverage",
+      "columns": 3,
+      "eyebrow": "What we cover",
+      "title": "Coverage *for every kind of horse life*",
+      "items": [
+        {
+          "icon": "heart-pulse",
+          "title": "Mortality & theft",
+          "text": "Reimburses you if a covered horse dies or is stolen, for horses from 24 hours to 20 years old. Installment plans available."
+        },
+        {
+          "icon": "stethoscope",
+          "title": "Medical & surgical",
+          "text": "Add major medical or surgical coverage to a mortality policy: up to $15,000 per horse per policy term."
+        },
+        {
+          "icon": "badge-plus",
+          "title": "Loss of use & more",
+          "text": "Permanent disability (loss of use), worldwide coverage, prospective foal, stallion infertility, and tack and equipment."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Horse owner liability",
+          "text": "Up to $1,000,000 per occurrence, with legal defense outside the limits, on or off your property across the U.S. and Canada."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Commercial equine liability",
+          "text": "For training, showing, teaching, boarding or leasing: $300,000 to $1,000,000 per occurrence, with no liability deductible."
+        },
+        {
+          "icon": "hand-heart",
+          "title": "Care, custody or control",
+          "text": "Covers other people’s horses in your care, which most liability policies leave out."
+        },
+        {
+          "icon": "tractor",
+          "title": "Farm & ranch property",
+          "text": "Barns, fencing, equipment and the farm exposures a homeowner’s policy may not cover."
+        },
+        {
+          "icon": "trophy",
+          "title": "Shows, clubs & associations",
+          "text": "Packages for riding clubs, associations, and horse shows and events."
+        },
+        {
+          "icon": "umbrella",
+          "title": "Workers’ comp & umbrella",
+          "text": "Workers’ compensation, commercial vehicles and trailers, and excess limits up to $5,000,000."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "claims",
+      "nav": "Claims",
+      "eyebrow": "If something happens",
+      "title": "What to do *in an emergency*",
+      "items": [
+        {
+          "title": "Care for your horse first",
+          "text": "See to your horse’s immediate needs, which often means calling your veterinarian."
+        },
+        {
+          "title": "Call us or your carrier right away",
+          "text": "Your policy requires prompt notice of any injury or illness. Call (866) 780-3713; after hours, choose the emergency option."
+        },
+        {
+          "title": "Have the details ready",
+          "text": "Policy number, the horse’s name, what happened and when, your vet’s name and number, and how to reach you."
+        },
+        {
+          "title": "If your horse dies",
+          "text": "A necropsy (an autopsy) must be done to find the cause of death. Ask us how to arrange it."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our team",
+      "title": "Insurance people *who ride*",
+      "image": {
+        "src": "/demo-assets/legis-equine-insurance/team.webp",
+        "alt": "The LEGIS team standing together in a green pasture with a horse",
+        "width": 1024,
+        "height": 652
+      },
+      "body": [
+        "Our team represents different breeds and disciplines, from the hunter/jumper ring and eventing to reining and ranch riding, and we bring that horse sense to insurance. We know horses aren’t one-size-fits-all, and neither are the people who own them.",
+        "We work with a range of highly rated carriers, and we stay with you from your very first policy through every change in horse ownership or business. We’re a phone call or an email away."
+      ],
+      "list": [
+        "Marnye Langer, President & CEO: a USEF “R” judge for hunters, jumpers and equitation",
+        "Sarah Rajoy, Managing Director: a lifelong eventer",
+        "Brenley Langston, Equine Insurance Specialist",
+        "Craig Rajoy, Liability Specialist"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "learn",
+      "nav": "Coverage Corner",
+      "eyebrow": "Coverage Corner",
+      "title": "Plain answers *to common questions*",
+      "intro": "Short, practical articles from the team on how equine coverage works.",
+      "columns": [
+        {
+          "title": "For horse owners",
+          "items": [
+            "What to expect when filing an equine insurance claim",
+            "Understanding horse insurance non-renewals"
+          ]
+        },
+        {
+          "title": "For farms",
+          "items": [
+            "What does horse farm insurance cover?",
+            "How much does horse farm insurance cost?",
+            "Is hobby farm insurance different from homeowners insurance?"
+          ]
+        },
+        {
+          "title": "For horse businesses",
+          "items": [
+            "When does my horse farm need business insurance?",
+            "What insurance does a boarding business need?",
+            "What is care, custody or control insurance?"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Doesn’t my homeowner’s policy cover my horse?",
+          "a": "Often not. If your horse gets loose, runs onto a road and causes an accident, or kicks someone, you could be liable for damages a homeowner’s policy won’t pay. Horse owner liability is written for exactly that."
+        },
+        {
+          "q": "I only teach a few lessons a month. Do I need commercial coverage?",
+          "a": "Yes. Teaching, training, showing or boarding horses for others, or leasing your horse, counts as commercial, whether it’s a few lessons a month or a large show barn."
+        },
+        {
+          "q": "How do I insure a horse?",
+          "a": "Call or email us. In most cases a mortality application and a statement of condition are all it takes; with prior medical history we may need a few more documents, and we’ll guide you."
+        },
+        {
+          "q": "Which carriers do you work with?",
+          "a": "Highly rated carriers that specialize in the horse industry, including Great American, Berkley Equine, American Equine Insurance Group and The Hartford."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Talk to a horseman about your coverage",
+      "text": "Call for a free quote, or send us a note below.",
+      "cta": {
+        "label": "Call (866) 780-3713",
+        "href": "tel:+18667803713"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Reach *the LEGIS team*",
+    "formTitle": "Ask for a quote",
+    "formTopics": [
+      "A horse (mortality, medical, surgical)",
+      "Horse owner liability",
+      "A horse business",
+      "A farm or ranch",
+      "A claim",
+      "Something else"
+    ]
+  },
+  "slug": "legis-equine-insurance",
+  "added": "2026-11-19",
+  "prospect": "legis-equine-insurance",
+  "source": {
+    "url": "https://legisequine.com/",
+    "before": [
+      "The footer still reads “Copyright © 2020”, and the “In the News” list stops in April 2021",
+      "Typos on the coverage pages: “Equine Permanent Diasability” on the home page, and mortality coverage “from 24 hours though 20 years old”",
+      "About 13 seconds to show its main content on a phone (Google Lighthouse speed score: 50 out of 100), and no call button on the first screen"
+    ],
+    "after": [
+      "Every coverage explained on one page, in plain English",
+      "What to do in an emergency, step by step",
+      "One tap to call, day or night",
+      "The team’s riding backgrounds up front"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "shadow"
+  }
+}

@@ -2461,16 +2461,28 @@
  },
  "legis-equine-insurance": {
   "site": {
-   "performance": 47,
+   "performance": 50,
    "accessibility": 92,
    "bestPractices": 75,
    "seo": 92,
-   "fcp": 8432,
-   "lcp": 9281,
-   "tbt": 423,
-   "si": 8432,
+   "fcp": 8636,
+   "lcp": 13184,
+   "tbt": 327,
+   "si": 8636,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2405,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "macks": {
@@ -2781,16 +2793,28 @@
  },
  "the-restaurant-at-the-willcox": {
   "site": {
-   "performance": 39,
+   "performance": 46,
    "accessibility": 76,
    "bestPractices": 79,
-   "seo": 85,
-   "fcp": 4238,
-   "lcp": 22106,
-   "tbt": 746,
-   "si": 14759,
+   "seo": 92,
+   "fcp": 3960,
+   "lcp": 19401,
+   "tbt": 494,
+   "si": 10463,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2254,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "the-village-caf": {
@@ -4099,6 +4123,32 @@
    "lcp": 2405,
    "tbt": 49,
    "si": 1055,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "mark-taylor-insurance": {
+  "site": {
+   "performance": 83,
+   "accessibility": 98,
+   "bestPractices": 82,
+   "seo": 100,
+   "fcp": 2006,
+   "lcp": 4331,
+   "tbt": 59,
+   "si": 2332,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1037,
+   "lcp": 1955,
+   "tbt": 112,
+   "si": 1037,
    "cls": 0,
    "at": "2026-11-19"
   }

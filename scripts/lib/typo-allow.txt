@@ -1,0 +1,2 @@
+# Words on the misspellings list that are fine on a local business site.
+thru  # "drive-thru", "Mon thru Fri": informal but standard in signage

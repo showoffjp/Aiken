@@ -5965,8 +5965,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 47,
-    "pageMB": 3,
+    "performance": 50,
+    "pageMB": 3.2,
     "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
@@ -8367,8 +8367,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 47,
-    "pageMB": 3,
+    "performance": 50,
+    "pageMB": 3.2,
     "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
@@ -12641,7 +12641,7 @@
     "description": true,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 46,
     "pageMB": 13.7,
     "a11ySerious": 32,
     "facebook": true,
@@ -15478,7 +15478,7 @@
     "description": true,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 46,
     "pageMB": 13.7,
     "a11ySerious": 32,
     "facebook": true,
@@ -31542,7 +31542,7 @@
     "description": true,
     "schema": false,
     "og": false,
-    "performance": 39,
+    "performance": 46,
     "pageMB": 13.7,
     "a11ySerious": 32,
     "facebook": true,
@@ -32336,6 +32336,1135 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 26
+   }
+  ]
+ },
+ "the-restaurant-at-the-willcox": {
+  "slug": "restaurant-at-the-willcox",
+  "name": "The Restaurant at The Willcox",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "thewillcox.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://thewillcox.com/dine/",
+    "title": "Dine - The Willcox",
+    "description": "Our kitchen enjoys an exceptional reputation built on the creative talents of our chefs. The menu is American, although our executive chef draws inspiration from his international travels. Whether you’re enjoying Southern breezes poolside, the cozy club setting of our lobby or relaxing in our dining",
+    "canonical": "https://thewillcox.com/dine/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 33,
+    "h3": 0,
+    "words": 2641,
+    "images": 40,
+    "imagesNoAlt": 35,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://thewillcox.com/sitemap.xml",
+    "pages": 584
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 8,
+    "missingH1": 10,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 1,
+    "imagesNoAlt": 592,
+    "images": 668,
+    "sample": [
+     {
+      "url": "https://thewillcox.com/dine/",
+      "title": "Dine - The Willcox",
+      "description": 300,
+      "h1": 0,
+      "words": 2641
+     },
+     {
+      "url": "https://thewillcox.com/",
+      "title": "The Willcox - Historic Hotel, Restaurant, Spa",
+      "description": 0,
+      "h1": 0,
+      "words": 2363
+     },
+     {
+      "url": "https://thewillcox.com/experience/",
+      "title": "Experience - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2449
+     },
+     {
+      "url": "https://thewillcox.com/hotel-packages/",
+      "title": "Hotel Packages - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2425
+     },
+     {
+      "url": "https://thewillcox.com/experience-enhancements/",
+      "title": "EXPERIENCE ENHANCEMENTS - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 6440
+     },
+     {
+      "url": "https://thewillcox.com/gallery/",
+      "title": "Gallery - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2135
+     },
+     {
+      "url": "https://thewillcox.com/stay/",
+      "title": "Stay - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2374
+     },
+     {
+      "url": "https://thewillcox.com/room/",
+      "title": "Luxury Accommodations - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2166
+     },
+     {
+      "url": "https://thewillcox.com/restaurant/",
+      "title": "RESTAURANT - The Willcox",
+      "description": 300,
+      "h1": 0,
+      "words": 5018
+     },
+     {
+      "url": "https://thewillcox.com/gather/",
+      "title": "Gather - The Willcox",
+      "description": 281,
+      "h1": 1,
+      "words": 2442
+     },
+     {
+      "url": "https://thewillcox.com/weddings/",
+      "title": "Weddings - The Willcox",
+      "description": 300,
+      "h1": 1,
+      "words": 2467
+     },
+     {
+      "url": "https://thewillcox.com/meetings-retreats/",
+      "title": "Meetings & Retreats - The Willcox",
+      "description": 300,
+      "h1": 1,
+      "words": 2371
+     },
+     {
+      "url": "https://thewillcox.com/special-occasions/",
+      "title": "Special Occasions & Private Dining - The Willcox",
+      "description": 299,
+      "h1": 1,
+      "words": 2347
+     },
+     {
+      "url": "https://thewillcox.com/off-property-catering/",
+      "title": "Off-Property Catering - The Willcox",
+      "description": 233,
+      "h1": 1,
+      "words": 2963
+     },
+     {
+      "url": "https://thewillcox.com/film-photography/",
+      "title": "Film & Photography - The Willcox",
+      "description": 0,
+      "h1": 0,
+      "words": 2185
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 58,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "X (Twitter)": "https://thewillcox.com/experience/",
+    "Instagram": "https://www.instagram.com/thewillcox/",
+    "Facebook": "https://www.facebook.com/thewillcoxhotel/",
+    "Pinterest": "https://www.pinterest.com/thewillcox/",
+    "YouTube": "https://www.youtube.com/user/willcoxhotel"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Restaurant",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 11
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/the_restaurant_at_the_willcox/",
+    "name": "The Restaurant at The Willcox",
+    "phone": "(803) 648-1898",
+    "website": "https://thewillcox.com/dine/",
+    "address": "The Willcox 100 Colleton Ave SW Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "X (Twitter)": "https://thewillcox.com/experience/",
+    "Instagram": "https://www.instagram.com/thewillcox/",
+    "Facebook": "https://www.facebook.com/thewillcoxhotel/",
+    "Pinterest": "https://www.pinterest.com/thewillcox/",
+    "YouTube": "https://www.youtube.com/user/willcoxhotel"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/thewillcoxhotel/",
+    "Instagram": "https://www.instagram.com/thewillcox/"
+   }
+  },
+  "domain": {
+   "name": "thewillcox.com",
+   "created": "2001-06-22",
+   "expires": "2027-06-22",
+   "registrar": "Bluehost Inc.",
+   "years": 25
+  },
+  "performance": {
+   "performance": 46,
+   "accessibility": 76,
+   "bestPractices": 79,
+   "seo": 92,
+   "fcp": 3960,
+   "lcp": 19401,
+   "tbt": 494,
+   "si": 10463,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2254,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "park-avenue-oyster-bar-and-grill",
+   "whiskey-alley-spirits-and-tapas",
+   "feed-sack-aiken",
+   "aiken-fish-house-and-oyster-bar",
+   "blue-collard"
+  ],
+  "scores": {
+   "seo": 53,
+   "social": 65,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "park-avenue-oyster-bar-and-grill",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "website": "https://parkaveoysterbar.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 4.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "whiskey-alley-spirits-and-tapas",
+    "name": "Whiskey Alley Spirits & Tapas",
+    "website": "https://whiskeyalley.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.1,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 9
+   },
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   }
+  ]
+ },
+ "legis-equine-insurance": {
+  "slug": "legis-equine-insurance",
+  "name": "LEGIS Equine Insurance",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "legisequine.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://legisequine.com/",
+    "title": "Home - LEGIS Equine",
+    "description": "Horsemen know horses are not a one-size-fits-all experience. Each horse requires an individual approach. At LEGISequine, we look at insurance the same way.",
+    "canonical": "https://legisequine.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home - LEGIS Equine",
+     "description": "Horsemen know horses are not a one-size-fits-all experience. Each horse requires an individual approach. At LEGISequine, we look at insurance the same way.",
+     "image": "https://i0.wp.com/legisequine.com/wp-content/uploads/2026/06/LEGISEquine_logo-1.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Horsemen Insuring Horsemen"
+    ],
+    "h1Count": 1,
+    "h2": 1,
+    "h3": 4,
+    "words": 359,
+    "images": 6,
+    "imagesNoAlt": 4,
+    "schemaTypes": [
+     "Place",
+     "GeoCoordinates",
+     "PostalAddress",
+     "Organization",
+     "ImageObject",
+     "ContactPoint",
+     "WebSite",
+     "SearchAction",
+     "WebPage",
+     "Person",
+     "Article"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://legisequine.com/sitemap.xml",
+    "pages": 42
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 10,
+    "multipleH1": 0,
+    "thin": 5,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 31,
+    "images": 67,
+    "sample": [
+     {
+      "url": "https://legisequine.com/",
+      "title": "Home - LEGIS Equine",
+      "description": 155,
+      "h1": 1,
+      "words": 359
+     },
+     {
+      "url": "https://legisequine.com/coverages/",
+      "title": "Coverage - LEGIS Equine",
+      "description": 155,
+      "h1": 0,
+      "words": 216
+     },
+     {
+      "url": "https://legisequine.com/claims-3/",
+      "title": "Claims - LEGIS Equine",
+      "description": 156,
+      "h1": 0,
+      "words": 957
+     },
+     {
+      "url": "https://legisequine.com/about/",
+      "title": "About - LEGIS Equine",
+      "description": 150,
+      "h1": 0,
+      "words": 1619
+     },
+     {
+      "url": "https://legisequine.com/awards-programs/",
+      "title": "AWARDS PROGRAMS - LEGIS Equine",
+      "description": 149,
+      "h1": 0,
+      "words": 184
+     },
+     {
+      "url": "https://legisequine.com/sponsored-riders/",
+      "title": "TEAM LEGISEQUINE - LEGIS Equine",
+      "description": 31,
+      "h1": 0,
+      "words": 89
+     },
+     {
+      "url": "https://legisequine.com/coverage-corner/",
+      "title": "Coverage Corner - LEGIS Equine",
+      "description": 153,
+      "h1": 0,
+      "words": 423
+     },
+     {
+      "url": "https://legisequine.com/contact-us/",
+      "title": "Contact Us - LEGIS Equine",
+      "description": 14,
+      "h1": 0,
+      "words": 111
+     },
+     {
+      "url": "https://legisequine.com/equine-mortality-and-theft/",
+      "title": "Equine Mortality and Theft - LEGIS Equine",
+      "description": 153,
+      "h1": 1,
+      "words": 248
+     },
+     {
+      "url": "https://legisequine.com/equine-medical-and-surgical/",
+      "title": "Equine Medical and Surgical - LEGIS Equine",
+      "description": 154,
+      "h1": 1,
+      "words": 334
+     },
+     {
+      "url": "https://legisequine.com/private-horse-owner-liability/",
+      "title": "Private Horse Owner Liability - LEGIS Equine",
+      "description": 153,
+      "h1": 0,
+      "words": 411
+     },
+     {
+      "url": "https://legisequine.com/commercial-equine-liability/",
+      "title": "Commercial Equine Liability - LEGIS Equine",
+      "description": 142,
+      "h1": 0,
+      "words": 403
+     },
+     {
+      "url": "https://legisequine.com/farm-and-ranch-property-coverage/",
+      "title": "Horse Farm and Ranch Insurance | LEGIS Equine",
+      "description": 153,
+      "h1": 1,
+      "words": 395
+     },
+     {
+      "url": "https://legisequine.com/care-custody-or-control-liability/",
+      "title": "Care, Custody and Control Insurance | LEGIS Equine",
+      "description": 157,
+      "h1": 1,
+      "words": 332
+     },
+     {
+      "url": "https://legisequine.com/instructor-and-trainer-liability/",
+      "title": "Instructor and Trainer Liability - LEGIS Equine",
+      "description": 156,
+      "h1": 0,
+      "words": 257
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 49,
+    "broken": [
+     {
+      "url": "https://legisequine.com/contact-us/marnye@legisequine.com",
+      "status": 404,
+      "from": "https://legisequine.com/contact-us"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/LEGISEquine",
+    "Instagram": "https://www.instagram.com/legisequineinsurance/",
+    "TikTok": "https://www.tiktok.com/@legis.equine"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Equine Insurance Agency",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=627&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=22e4f97791649281e0176c3ee4f8bb75",
+    "name": "LEGIS Equine Insurance",
+    "phone": "(866) 780-3713",
+    "website": "https://legisequine.com/",
+    "address": "245 Morris Road, Aiken, SC 29805",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/LEGISEquine",
+    "Instagram": "https://www.instagram.com/legisequineinsurance/",
+    "TikTok": "https://www.tiktok.com/@legis.equine"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/LEGISEquine",
+    "Instagram": "https://www.instagram.com/legisequineinsurance/"
+   }
+  },
+  "domain": {
+   "name": "legisequine.com",
+   "created": "2010-02-16",
+   "expires": "2027-02-16",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 16
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 92,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 8636,
+   "lcp": 13184,
+   "tbt": 327,
+   "si": 8636,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2405,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "anderson-insurance-associates-llc",
+   "durban-laird-insurance",
+   "heath-insurance-and-financial-group",
+   "hutson-etherredge-companies",
+   "lambert-insurance-agency-inc"
+  ],
+  "scores": {
+   "seo": 76,
+   "social": 80,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "anderson-insurance-associates-llc",
+    "name": "Anderson Insurance Associates, LLC",
+    "website": "https://www.aiasc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "durban-laird-insurance",
+    "name": "Durban-Laird Insurance",
+    "website": "http://www.aikeninsurance.com/",
+    "state": "ok",
+    "https": false,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "heath-insurance-and-financial-group",
+    "name": "Heath Insurance & Financial Group",
+    "website": "https://heathinsuranceandfinancial.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 5,
+    "a11ySerious": 18,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "hutson-etherredge-companies",
+    "name": "Hutson-Etherredge Companies",
+    "website": "https://www.hecos.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 84,
+    "pageMB": 3,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "lambert-insurance-agency-inc",
+    "name": "Lambert Insurance Agency, Inc",
+    "website": "https://www.lambertinsuranceaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 53,
+    "pageMB": 2.2,
+    "a11ySerious": 25,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   }
+  ]
+ },
+ "mark-taylor-insurance": {
+  "slug": "mark-taylor-insurance",
+  "name": "Mark Taylor Insurance",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "marktaylorinsurance.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://marktaylorinsurance.com/",
+    "title": "Health Insurance Agency in Aiken, SC",
+    "description": "Discover premier health insurance solutions in Aiken, SC. Protect yourself and your loved ones with comprehensive health coverage.",
+    "canonical": "https://marktaylorinsurance.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "Health Insurance Agency in Aiken, SC",
+     "description": "Discover premier health insurance solutions in Aiken, SC. Protect yourself and your loved ones with comprehensive health coverage.",
+     "image": "https://marktaylorinsurance.com/wp-content/uploads/2024/01/Mark-Taylor-Insurance-SEO.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Mark Taylor Insurance"
+    ],
+    "h1Count": 1,
+    "h2": 8,
+    "h3": 1,
+    "words": 1083,
+    "images": 21,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "Organization",
+     "Person",
+     "PostalAddress",
+     "ImageObject",
+     "WebSite",
+     "SearchAction",
+     "WebPage",
+     "Article"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://marktaylorinsurance.com/sitemap_index.xml",
+    "pages": 16
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 1,
+    "imagesNoAlt": 28,
+    "images": 121,
+    "sample": [
+     {
+      "url": "https://marktaylorinsurance.com/",
+      "title": "Health Insurance Agency in Aiken, SC",
+      "description": 130,
+      "h1": 1,
+      "words": 1083
+     },
+     {
+      "url": "https://marktaylorinsurance.com/our-team/",
+      "title": "Our Team - Mark Taylor Insurance",
+      "description": 40,
+      "h1": 1,
+      "words": 231
+     },
+     {
+      "url": "https://marktaylorinsurance.com/medicare/",
+      "title": "Medicare (plan D, medicare advantage, medicare supplements)",
+      "description": 156,
+      "h1": 1,
+      "words": 486
+     },
+     {
+      "url": "https://marktaylorinsurance.com/individual-health-insurance/",
+      "title": "Individual Health Insurance Plans for South Carolina",
+      "description": 149,
+      "h1": 1,
+      "words": 633
+     },
+     {
+      "url": "https://marktaylorinsurance.com/group-insurance/",
+      "title": "Group Health Insurance plans for South Carolina",
+      "description": 149,
+      "h1": 1,
+      "words": 566
+     },
+     {
+      "url": "https://marktaylorinsurance.com/life-insurance/",
+      "title": "Life Insurance Agency in Aiken, SC",
+      "description": 124,
+      "h1": 1,
+      "words": 395
+     },
+     {
+      "url": "https://marktaylorinsurance.com/dental-vision-insurance/",
+      "title": "Dental Insurance Broker in Aiken, SC",
+      "description": 129,
+      "h1": 1,
+      "words": 542
+     },
+     {
+      "url": "https://marktaylorinsurance.com/contact/",
+      "title": "Contact - Mark Taylor Insurance",
+      "description": 149,
+      "h1": 1,
+      "words": 192
+     },
+     {
+      "url": "https://marktaylorinsurance.com/faq/",
+      "title": "FAQ - Mark Taylor Insurance",
+      "description": 96,
+      "h1": 1,
+      "words": 1635
+     },
+     {
+      "url": "https://marktaylorinsurance.com/blog/",
+      "title": "Blog - Mark Taylor Insurance",
+      "description": 71,
+      "h1": 1,
+      "words": 354
+     },
+     {
+      "url": "https://marktaylorinsurance.com/vision-insurance-what-you-need-to-know/",
+      "title": "Vision Insurance: What You Need to Know - Mark Taylor Insurance",
+      "description": 124,
+      "h1": 1,
+      "words": 686
+     },
+     {
+      "url": "https://marktaylorinsurance.com/understanding-special-enrollment-period-sep-short-term-medical-stm/",
+      "title": "Understanding Special Enrollment Period (SEP) & Short-Term Medical (STM) - Mark Taylor Insurance",
+      "description": 124,
+      "h1": 1,
+      "words": 753
+     },
+     {
+      "url": "https://marktaylorinsurance.com/understanding-the-importance-of-life-insurance/",
+      "title": "Understanding the Importance of Life Insurance - Mark Taylor Insurance",
+      "description": 222,
+      "h1": 1,
+      "words": 708
+     },
+     {
+      "url": "https://marktaylorinsurance.com/the-vital-importance-of-insurance-safeguarding-your-future/",
+      "title": "The Vital Importance of Insurance: Safeguarding Your Future - Mark Taylor Insurance",
+      "description": 231,
+      "h1": 1,
+      "words": 661
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 14,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/marktaylorinsurance965",
+    "X (Twitter)": "https://twitter.com/marktaylorins"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Health",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 19
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=662&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=00a46ffa0b5084356c021b37cc9bec9f",
+    "name": "Mark Taylor Insurance",
+    "phone": "(803) 649-5573",
+    "website": "http://www.marktaylorinsurance.com",
+    "address": "965 Dougherty Road, Aiken, SC 29803",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Mark Taylor Insurance",
+    "phone": "",
+    "website": "http://marktaylorinsurance.com",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/marktaylorinsurance965",
+    "X (Twitter)": "https://twitter.com/marktaylorins"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/marktaylorinsurance965"
+   }
+  },
+  "domain": {
+   "name": "marktaylorinsurance.com",
+   "created": "2009-10-09",
+   "expires": "2027-10-09",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 17
+  },
+  "performance": {
+   "performance": 83,
+   "accessibility": 98,
+   "bestPractices": 82,
+   "seo": 100,
+   "fcp": 2006,
+   "lcp": 4331,
+   "tbt": 59,
+   "si": 2332,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1037,
+   "lcp": 1955,
+   "tbt": 112,
+   "si": 1037,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "anderson-insurance-associates-llc",
+   "durban-laird-insurance",
+   "heath-insurance-and-financial-group",
+   "hutson-etherredge-companies",
+   "lambert-insurance-agency-inc"
+  ],
+  "scores": {
+   "seo": 92,
+   "social": 60,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "anderson-insurance-associates-llc",
+    "name": "Anderson Insurance Associates, LLC",
+    "website": "https://www.aiasc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "durban-laird-insurance",
+    "name": "Durban-Laird Insurance",
+    "website": "http://www.aikeninsurance.com/",
+    "state": "ok",
+    "https": false,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "heath-insurance-and-financial-group",
+    "name": "Heath Insurance & Financial Group",
+    "website": "https://heathinsuranceandfinancial.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 5,
+    "a11ySerious": 18,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "hutson-etherredge-companies",
+    "name": "Hutson-Etherredge Companies",
+    "website": "https://www.hecos.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 84,
+    "pageMB": 3,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "lambert-insurance-agency-inc",
+    "name": "Lambert Insurance Agency, Inc",
+    "website": "https://www.lambertinsuranceaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 53,
+    "pageMB": 2.2,
+    "a11ySerious": 25,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
    }
   ]
  }

@@ -1,0 +1,584 @@
+{
+ "aiken-flooring": {
+  "at": "2026-11-19T23:02:21.005Z",
+  "pages": 11,
+  "found": []
+ },
+ "aiken-pet-sitters-llc": {
+  "at": "2026-11-19T23:02:21.012Z",
+  "pages": 11,
+  "found": []
+ },
+ "allstar-tents-and-events": {
+  "at": "2026-11-19T23:02:21.014Z",
+  "pages": 12,
+  "found": []
+ },
+ "aiken-housing-center": {
+  "at": "2026-11-19T23:02:21.014Z",
+  "pages": 12,
+  "found": []
+ },
+ "apex-home-repair-corporation": {
+  "at": "2026-11-19T23:02:21.078Z",
+  "pages": 6,
+  "found": []
+ },
+ "antonios-italian-eatery": {
+  "at": "2026-11-19T23:02:21.080Z",
+  "pages": 7,
+  "found": []
+ },
+ "argus-visuals": {
+  "at": "2026-11-19T23:02:21.106Z",
+  "pages": 8,
+  "found": []
+ },
+ "augusta-ready-mix-inc": {
+  "at": "2026-11-19T23:02:21.115Z",
+  "pages": 10,
+  "found": []
+ },
+ "automotive-workbench": {
+  "at": "2026-11-19T23:02:21.159Z",
+  "pages": 11,
+  "found": []
+ },
+ "beech-island-timber-and-construction-inc": {
+  "at": "2026-11-19T23:02:21.171Z",
+  "pages": 10,
+  "found": []
+ },
+ "beech-island-appliance-service-co-inc": {
+  "at": "2026-11-19T23:02:21.175Z",
+  "pages": 12,
+  "found": []
+ },
+ "board-in-aiken": {
+  "at": "2026-11-19T23:02:21.185Z",
+  "pages": 1,
+  "found": []
+ },
+ "bobbys-bar-b-q-buffet": {
+  "at": "2026-11-19T23:02:21.234Z",
+  "pages": 6,
+  "found": []
+ },
+ "b-and-k-grading-and-paving-llc": {
+  "at": "2026-11-19T23:02:21.239Z",
+  "pages": 11,
+  "found": []
+ },
+ "bradley-plumbing-and-heating-inc-mechanical-cont": {
+  "at": "2026-11-19T23:02:21.249Z",
+  "pages": 1,
+  "found": []
+ },
+ "bloom-salon-spa-boutique": {
+  "at": "2026-11-19T23:02:21.274Z",
+  "pages": 12,
+  "found": []
+ },
+ "bravefriend-apparel-and-design": {
+  "at": "2026-11-19T23:02:21.290Z",
+  "pages": 10,
+  "found": []
+ },
+ "c-wallace-design": {
+  "at": "2026-11-19T23:02:21.292Z",
+  "pages": 5,
+  "found": []
+ },
+ "carolina-hvac-and-electrical": {
+  "at": "2026-11-19T23:02:21.340Z",
+  "pages": 12,
+  "found": []
+ },
+ "cavaliers-coffeehouse": {
+  "at": "2026-11-19T23:02:21.366Z",
+  "pages": 4,
+  "found": []
+ },
+ "downtown-dog": {
+  "at": "2026-11-19T23:02:21.377Z",
+  "pages": 6,
+  "found": []
+ },
+ "durban-laird-insurance": {
+  "at": "2026-11-19T23:02:21.380Z",
+  "pages": 1,
+  "found": []
+ },
+ "bottom-line-bakery": {
+  "at": "2026-11-19T23:02:23.971Z",
+  "pages": 1,
+  "found": []
+ },
+ "eudora-wildlife-safari-park": {
+  "at": "2026-11-19T23:02:24.079Z",
+  "pages": 11,
+  "found": []
+ },
+ "empire-tree": {
+  "at": "2026-11-19T23:02:27.060Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "double",
+    "word": "the the",
+    "fix": "the",
+    "count": 1,
+    "page": "https://empiretree.com/",
+    "label": "Home",
+    "context": "…anywhere within 50 miles of our office, which includes the the following cities:",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "affordable-quality-marble-and-granite": {
+  "at": "2026-11-19T23:02:27.540Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "double",
+    "word": "be be",
+    "fix": "be",
+    "count": 1,
+    "page": "https://southcarolinagranite.com/faq/",
+    "label": "Countertops: Frequently Asked Questions",
+    "context": "…of quartz , feldspars and micas. The quartz will be be the lighter color minerals with the remaining consisting…",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "gaston-livery-stable": {
+  "at": "2026-11-19T23:02:27.554Z",
+  "pages": 6,
+  "found": []
+ },
+ "glassworks-by-fishburne-and-shultz-hill": {
+  "at": "2026-11-19T23:02:27.583Z",
+  "pages": 11,
+  "found": []
+ },
+ "aiken-polo-club": {
+  "at": "2026-11-19T23:02:28.385Z",
+  "pages": 7,
+  "found": []
+ },
+ "hals-hair-center": {
+  "at": "2026-11-19T23:02:28.397Z",
+  "pages": 10,
+  "found": []
+ },
+ "harrison-k-9-security-services-llc": {
+  "at": "2026-11-19T23:02:28.432Z",
+  "pages": 12,
+  "found": []
+ },
+ "the-fermata-club": {
+  "at": "2026-11-19T23:02:29.114Z",
+  "pages": 6,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "neccessary",
+    "fix": "necessary",
+    "count": 6,
+    "page": "https://fermataclub.com/",
+    "label": "Home",
+    "context": "We only use strictly neccessary cookies (we don't track you).",
+    "shown": "on screen",
+    "pages": 6
+   }
+  ]
+ },
+ "help-me-rhonda-bookkeeping-llc": {
+  "at": "2026-11-19T23:02:29.118Z",
+  "pages": 1,
+  "found": []
+ },
+ "herbal-solutions-and-spa": {
+  "at": "2026-11-19T23:02:29.144Z",
+  "pages": 12,
+  "found": []
+ },
+ "baker-family-dentistry": {
+  "at": "2026-11-19T23:02:30.270Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "sample",
+    "word": "Lorem ipsum",
+    "fix": "",
+    "count": 16,
+    "page": "https://bakerfamilydentistryaiken.com/testimonial-view/testimonial-2/",
+    "label": "Testimonial #2",
+    "context": "Lorem ipsum dolor sit amet adipiscing elit",
+    "shown": "on screen",
+    "pages": 2
+   }
+  ]
+ },
+ "g-and-s-computing-inc": {
+  "at": "2026-11-19T23:02:30.992Z",
+  "pages": 7,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "commerical",
+    "fix": "commercial",
+    "count": 1,
+    "page": "https://www.gscompinc.com/about-us.html",
+    "label": "About G&S Computing",
+    "context": "Support for residential and commerical industries such as:",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "hixon-insurance-and-realty-co": {
+  "at": "2026-11-19T23:02:31.016Z",
+  "pages": 12,
+  "found": []
+ },
+ "howell-printing-company": {
+  "at": "2026-11-19T23:02:31.023Z",
+  "pages": 4,
+  "found": []
+ },
+ "inn-at-houndslake": {
+  "at": "2026-11-19T23:02:31.026Z",
+  "pages": 4,
+  "found": []
+ },
+ "iron-gate-candles": {
+  "at": "2026-11-19T23:02:31.094Z",
+  "pages": 11,
+  "found": []
+ },
+ "janson-construction": {
+  "at": "2026-11-19T23:02:31.104Z",
+  "pages": 5,
+  "found": []
+ },
+ "kelly-paint-and-body-inc": {
+  "at": "2026-11-19T23:02:31.123Z",
+  "pages": 12,
+  "found": []
+ },
+ "hair-of-the-dog-llc": {
+  "at": "2026-11-19T23:02:32.943Z",
+  "pages": 1,
+  "found": []
+ },
+ "lambert-insurance-agency-inc": {
+  "at": "2026-11-19T23:02:32.954Z",
+  "pages": 6,
+  "found": []
+ },
+ "langley-tavern": {
+  "at": "2026-11-19T23:02:32.960Z",
+  "pages": 4,
+  "found": []
+ },
+ "kens-warehouse": {
+  "at": "2026-11-19T23:02:34.180Z",
+  "pages": 1,
+  "found": []
+ },
+ "hughes-beattie-oneal-law-and-assoc-pc": {
+  "at": "2026-11-19T23:02:36.227Z",
+  "pages": 10,
+  "found": [
+   {
+    "kind": "sample",
+    "word": "Lorem ipsum",
+    "fix": "",
+    "count": 1,
+    "page": "https://www.hbolarchitecture.com/our-projects-2/governmental/",
+    "label": "Governmental",
+    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "highfields-event-center-is-home-of-aiken-music-f": {
+  "at": "2026-11-19T23:02:37.091Z",
+  "pages": 10,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "availablity",
+    "fix": "availability",
+    "count": 1,
+    "page": "https://psjshows.com/highfield-event-center/",
+    "label": "Highfield event center",
+    "context": "Contact PSJ for availablity and rates! 803-649-3505 or",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "mi-rancho": {
+  "at": "2026-11-19T23:02:37.095Z",
+  "pages": 3,
+  "found": []
+ },
+ "mitch-johnson-construction-company-inc": {
+  "at": "2026-11-19T23:02:37.102Z",
+  "pages": 4,
+  "found": []
+ },
+ "marias-mexican-restaurant": {
+  "at": "2026-11-19T23:02:38.362Z",
+  "pages": 1,
+  "found": []
+ },
+ "mundys-automotive-llc": {
+  "at": "2026-11-19T23:02:38.373Z",
+  "pages": 1,
+  "found": []
+ },
+ "oh-mie-stelle-bakery": {
+  "at": "2026-11-19T23:02:38.391Z",
+  "pages": 4,
+  "found": []
+ },
+ "osbons-laundry-and-cleaners-downtown": {
+  "at": "2026-11-19T23:02:38.399Z",
+  "pages": 4,
+  "found": []
+ },
+ "pave-way-of-augusta-and-aiken": {
+  "at": "2026-11-19T23:02:38.406Z",
+  "pages": 5,
+  "found": []
+ },
+ "playland-of-aiken": {
+  "at": "2026-11-19T23:02:38.419Z",
+  "pages": 7,
+  "found": []
+ },
+ "prescott-and-sons-construction-llc": {
+  "at": "2026-11-19T23:02:38.428Z",
+  "pages": 8,
+  "found": []
+ },
+ "prime-steakhouse": {
+  "at": "2026-11-19T23:02:38.459Z",
+  "pages": 6,
+  "found": []
+ },
+ "rebel-ranch-horse-tours-llc": {
+  "at": "2026-11-19T23:02:38.466Z",
+  "pages": 3,
+  "found": []
+ },
+ "legis-equine-insurance": {
+  "at": "2026-11-19T23:02:38.539Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Commerical",
+    "fix": "Commercial",
+    "count": 1,
+    "page": "https://legisequine.com/commercial-equine-liability/",
+    "label": "Commercial Equine Liability",
+    "context": "Additional coverages can be added to the Commerical Equine Liability policy based on your needs. Some…",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "return-engagement": {
+  "at": "2026-11-19T23:02:38.547Z",
+  "pages": 4,
+  "found": []
+ },
+ "simply-social-events-and-more-llc": {
+  "at": "2026-11-19T23:02:38.551Z",
+  "pages": 1,
+  "found": []
+ },
+ "mobile-office-management-llc-mom": {
+  "at": "2026-11-19T23:02:39.570Z",
+  "pages": 6,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Managment",
+    "fix": "Management",
+    "count": 1,
+    "page": "https://www.biz-mom.com/services.php",
+    "label": "Services",
+    "context": "Contact Managment",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "southern-magnolia-dentistry": {
+  "at": "2026-11-19T23:02:39.592Z",
+  "pages": 12,
+  "found": []
+ },
+ "sunbreak-window-tinting": {
+  "at": "2026-11-19T23:02:39.636Z",
+  "pages": 12,
+  "found": []
+ },
+ "superior-office-systems": {
+  "at": "2026-11-19T23:02:39.649Z",
+  "pages": 11,
+  "found": []
+ },
+ "tabs-professional-transportation": {
+  "at": "2026-11-19T23:02:39.667Z",
+  "pages": 3,
+  "found": []
+ },
+ "tailored-tours-of-aiken": {
+  "at": "2026-11-19T23:02:39.671Z",
+  "pages": 1,
+  "found": []
+ },
+ "thai-jasmine-rice": {
+  "at": "2026-11-19T23:02:39.689Z",
+  "pages": 5,
+  "found": []
+ },
+ "the-ivy-cottage-flowers-and-gifts": {
+  "at": "2026-11-19T23:02:39.691Z",
+  "pages": 1,
+  "found": []
+ },
+ "the-jewelers-loupe": {
+  "at": "2026-11-19T23:02:39.696Z",
+  "pages": 1,
+  "found": []
+ },
+ "massage-mavin": {
+  "at": "2026-11-19T23:02:39.709Z",
+  "pages": 8,
+  "found": []
+ },
+ "the-vintage-bobbin": {
+  "at": "2026-11-19T23:02:39.725Z",
+  "pages": 8,
+  "found": []
+ },
+ "thomas-p-murphy-pc-attorney-at-law": {
+  "at": "2026-11-19T23:02:39.728Z",
+  "pages": 4,
+  "found": []
+ },
+ "toki-jr-llc": {
+  "at": "2026-11-19T23:02:39.730Z",
+  "pages": 1,
+  "found": []
+ },
+ "tpi-tyler-press-llc": {
+  "at": "2026-11-19T23:02:39.736Z",
+  "pages": 5,
+  "found": []
+ },
+ "trophies-unlimited": {
+  "at": "2026-11-19T23:02:39.748Z",
+  "pages": 6,
+  "found": []
+ },
+ "tucker-orthodontics": {
+  "at": "2026-11-19T23:02:39.775Z",
+  "pages": 11,
+  "found": []
+ },
+ "veg-out": {
+  "at": "2026-11-19T23:02:39.790Z",
+  "pages": 4,
+  "found": []
+ },
+ "verdant-landscape": {
+  "at": "2026-11-19T23:02:39.822Z",
+  "pages": 12,
+  "found": []
+ },
+ "veterinary-healthcare-associates-inc": {
+  "at": "2026-11-19T23:02:41.837Z",
+  "pages": 12,
+  "found": []
+ },
+ "the-village-caf": {
+  "at": "2026-11-19T23:02:41.852Z",
+  "pages": 6,
+  "found": []
+ },
+ "wayne-heath-automotive-company": {
+  "at": "2026-11-19T23:02:41.866Z",
+  "pages": 11,
+  "found": []
+ },
+ "mark-taylor-insurance": {
+  "at": "2026-11-19T23:02:42.726Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "sample",
+    "word": "Lorem ipsum",
+    "fix": "",
+    "count": 32,
+    "page": "https://marktaylorinsurance.com/faq/",
+    "label": "FAQ",
+    "context": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali",
+    "shown": "after a click",
+    "pages": 6
+   }
+  ]
+ },
+ "south-on-whiskey": {
+  "at": "2026-11-19T23:02:44.291Z",
+  "pages": 7,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Rehersal",
+    "fix": "Rehearsal",
+    "count": 1,
+    "page": "https://southonwhiskey.com/",
+    "label": "Home",
+    "context": "Rehersal Dinners",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "woodchuckers-axe-throwing": {
+  "at": "2026-11-19T23:02:45.607Z",
+  "pages": 1,
+  "found": []
+ },
+ "webster-photography": {
+  "at": "2026-11-19T23:02:46.344Z",
+  "pages": 3,
+  "found": []
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "at": "2026-11-19T23:02:48.837Z",
+  "pages": 2,
+  "found": []
+ },
+ "the-restaurant-at-the-willcox": {
+  "at": "2026-11-19T23:03:15.448Z",
+  "pages": 12,
+  "found": []
+ },
+ "carolina-dragway-inc": {
+  "at": "2026-11-19T23:03:16.694Z",
+  "pages": 7,
+  "found": []
+ }
+}
