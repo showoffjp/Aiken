@@ -1,0 +1,299 @@
+{
+  "name": "Trophies Unlimited",
+  "short": "Trophies Unlimited",
+  "category": "Trophies, Awards & Engraving",
+  "group": "Shops & Boutiques",
+  "town": "Aiken, SC",
+  "established": "1977",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f8f4ec",
+    "surface": "#fffdf8",
+    "ink": "#1d1a16",
+    "muted": "#5c554b",
+    "primary": "#1e4d3b",
+    "onPrimary": "#ffffff",
+    "accent": "#c68a2c",
+    "line": "#e6dccb"
+  },
+  "radius": 6,
+  "icon": "trophy",
+  "logo": {
+    "src": "/demo-assets/trophies-unlimited/logo.png",
+    "alt": "Trophies Unlimited",
+    "width": 282,
+    "height": 121
+  },
+  "contact": {
+    "phone": "(803) 648-8444",
+    "email": "trophiesunlimited@hotmail.com",
+    "address": [
+      "4020 Trolley Line Road",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Trophies Unlimited, 4020 Trolley Line Rd, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:30 am – 5:30 pm"
+      ],
+      [
+        "Saturday & Sunday",
+        "Closed"
+      ]
+    ]
+  },
+  "hero": {
+    "variant": "split",
+    "eyebrow": "Family-owned in Aiken since 1977",
+    "title": "Crafting legacies, *one engraving at a time*",
+    "lede": "Trophies, plaques, medals, name tags, signs and custom engraving from the family shop on Trolley Line Road. Most firearm engraving is done the same day, often while you wait.",
+    "points": [
+      "Trophies & plaques",
+      "Laser & deep-etch engraving",
+      "Same-day firearm engraving"
+    ],
+    "cta": {
+      "label": "Call (803) 648-8444",
+      "href": "tel:+18036488444"
+    },
+    "cta2": {
+      "label": "What we make",
+      "href": "#awards"
+    },
+    "image": {
+      "src": "/demo-assets/trophies-unlimited/shop.webp",
+      "alt": "The Trophies Unlimited shop, a brick building with green doors, an American flag and a dog out front",
+      "width": 940,
+      "height": 788
+    }
+  },
+  "facts": [
+    {
+      "value": "1977",
+      "label": "Started in a backyard shed"
+    },
+    {
+      "value": "Same day",
+      "label": "Most firearm engraving"
+    },
+    {
+      "value": "Free",
+      "label": "Engraving on items bought here"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "awards",
+      "nav": "What we make",
+      "columns": 3,
+      "eyebrow": "For teams, schools and businesses",
+      "title": "Celebrate *every achievement*",
+      "intro": "Proud to have worked with Aiken County Public Schools, Aiken Technical College, USC Aiken, the City of Aiken, United Way of Aiken County and the Aiken Training Track.",
+      "items": [
+        {
+          "icon": "trophy",
+          "title": "Trophies & awards",
+          "text": "Trophies, medals and award cups for sports, schools and corporate recognition."
+        },
+        {
+          "icon": "award",
+          "title": "Plaques, signs & banners",
+          "text": "Including cast bronze and aluminum signage built to last."
+        },
+        {
+          "icon": "gem",
+          "title": "Glass & crystal",
+          "text": "Etched glass and crystal awards for the big occasions."
+        },
+        {
+          "icon": "pin",
+          "title": "Custom pins & lapel pins",
+          "text": "Bring us your artwork or idea and we’ll make it a pin."
+        },
+        {
+          "icon": "id-card",
+          "title": "Business name tags",
+          "text": "Your logo, name and title, laser-engraved and made to last."
+        },
+        {
+          "icon": "gift",
+          "title": "Gifts & keepsakes",
+          "text": "Silver trays, coins, tumblers and one-of-a-kind engraved gifts."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "engraving",
+      "nav": "Engraving",
+      "eyebrow": "Done in-house",
+      "title": "Engraving that *lasts a lifetime*",
+      "image": {
+        "src": "/demo-assets/trophies-unlimited/laser.webp",
+        "alt": "A laser engraver at work over a sheet of plywood",
+        "width": 1000,
+        "height": 1000
+      },
+      "body": [
+        "Deep etch for bold, permanent marks; laser for sleek, detailed precision. We engrave metal, glass, acrylic and wood, from plaques and trophies to signs and personal gifts.",
+        "Our firearm engraving meets NFA Trust and ATF requirements, on AR-style lowers, rifles, shotguns and handguns, with names, initials, logos or artwork. Most jobs are done the same day, often while you wait; for bigger custom work we’ll give you a clear timeline first."
+      ],
+      "list": [
+        "Free engraving on products bought through us",
+        "NFA Trust & ATF-compliant marking",
+        "Metal, glass, acrylic and wood"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Recent pieces",
+      "title": "Made *on Trolley Line Road*",
+      "images": [
+        {
+          "src": "/demo-assets/trophies-unlimited/plaques.webp",
+          "alt": "Hole-in-one plaques, one in green with a golf ball mounted beside the scorecard",
+          "width": 1080,
+          "height": 812
+        },
+        {
+          "src": "/demo-assets/trophies-unlimited/name-tags.webp",
+          "alt": "A spread of engraved business name tags with company logos",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/trophies-unlimited/glass-awards.webp",
+          "alt": "Glass and crystal awards on lit shelves in the showroom",
+          "width": 846,
+          "height": 461
+        },
+        {
+          "src": "/demo-assets/trophies-unlimited/lapel-pin.webp",
+          "alt": "A custom lapel pin on a navy suit jacket",
+          "width": 1000,
+          "height": 670
+        },
+        {
+          "src": "/demo-assets/trophies-unlimited/tumbler.webp",
+          "alt": "A steel tumbler laser-engraved with the words Silent Service",
+          "width": 1080,
+          "height": 812
+        },
+        {
+          "src": "/demo-assets/trophies-unlimited/crystal-award.webp",
+          "alt": "A national championship game ticket set in a clear acrylic keepsake, etched with a tiger paw",
+          "width": 1080,
+          "height": 812
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Since 1977",
+      "title": "From a backyard shed *to Trolley Line Road*",
+      "image": {
+        "src": "/demo-assets/trophies-unlimited/barry-1970s.webp",
+        "alt": "Founder Barry Johnson beside the gas pumps of an early shop, in a faded vintage photo",
+        "width": 1000,
+        "height": 778
+      },
+      "body": [
+        "Barry H. Johnson started Trophies Unlimited in 1977 in his father’s shed in the backyard. He bought his first real shop, a converted gas station, and in 1980 bought T-Bo’s convenience store, which is still our home today.",
+        "Barry’s son Mike grew up in Aiken and graduated from Aiken High in 1992. After Barry passed away in 2003, Mike came home, and in 2010 he took over as CEO, or as he puts it, “The Fixer.” He runs the shop alongside his mother, carrying on the family tradition."
+      ],
+      "list": [
+        "Family-owned for over 45 years",
+        "Same building since 1980",
+        "Run by Mike Johnson and his mother"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Common *questions*",
+      "items": [
+        {
+          "q": "What types of engraving do you offer?",
+          "a": "Firearm engraving, including NFA Trust and ATF-compliant engraving on AR-style lowers, rifles, shotguns and handguns, plus custom designs, deep etch and laser engraving for plaques, trophies, signs and gifts."
+        },
+        {
+          "q": "Do you offer same-day firearm engraving?",
+          "a": "Yes. In most cases it’s done the same day, often while you wait. For larger or highly custom projects we’ll give you a clear timeline before we start."
+        },
+        {
+          "q": "What can I bring in for engraving?",
+          "a": "Metal, glass, acrylic and wood: trophies, plaques, gifts and firearms."
+        },
+        {
+          "q": "Can I order trophies or plaques in bulk?",
+          "a": "Yes. We handle bulk and custom orders for schools, businesses and organizations, consistent and on time."
+        },
+        {
+          "q": "Do you ship, or is it pickup only?",
+          "a": "Local pickup at our Aiken showroom, and shipping may be available for some products. Call us to talk through your order."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Awards for the whole team?",
+      "text": "Call or stop by Monday to Friday, 9:30 to 5:30.",
+      "cta": {
+        "label": "Call (803) 648-8444",
+        "href": "tel:+18036488444"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Trolley Line Road*",
+    "formTitle": "Start your project",
+    "formTopics": [
+      "Trophies or plaques",
+      "Engraving",
+      "Name tags or pins",
+      "Bulk order",
+      "Something else"
+    ]
+  },
+  "slug": "trophies-unlimited",
+  "added": "2026-11-19",
+  "prospect": "trophies-unlimited",
+  "source": {
+    "url": "https://aikentrophy.com/",
+    "before": [
+      "The title Google shows for the home page is just \"Home - Trophies Unlimited\", with no mention of Aiken, awards or engraving",
+      "24 of the 27 images on the home page have no description (alt text), so screen readers and Google skip them",
+      "No local-business details for Google (hours, address and phone in structured data)",
+      "The products page asks visitors to \"click on the three lines below to expand the catalog\""
+    ],
+    "after": [
+      "Everything you make on one page, with the story of the shop since 1977",
+      "Same-day firearm engraving and free engraving front and centre",
+      "Hours, address and one-tap call on every phone",
+      "Every photo described for screen readers and search",
+      "A page title and Google listing that say Aiken, trophies and engraving"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "rows",
+    "facts": "big",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

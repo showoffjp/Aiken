@@ -113,6 +113,54 @@ export const sectionId = (s: Section, i: number) => ('id' in s && s.id) || `${s.
 export const isScenic = (img?: Img) => !!img?.width && !!img?.height && img.width >= 1000 && img.width / img.height >= 1.2;
 
 /** The cinematic hero photo: an explicit choice, else the hero image if it is wide, else the widest large gallery photo. */
+/** Empty cells a CSS grid (auto-flow dense) would leave placing these tiles in `cols` columns. */
+function gridHoles(shapes: string[], cols: number) {
+  const taken: boolean[][] = [];
+  let rows = 0, used = 0;
+  for (const sh of shapes) {
+    const w = sh === 'wide' ? Math.min(2, cols) : 1, h = sh === 'tall' ? 2 : 1;
+    const fits = (r: number, c: number) => { for (let dr = 0; dr < h; dr++) for (let dc = 0; dc < w; dc++) if (taken[r + dr]?.[c + dc]) return false; return true; };
+    let r = 0, c = 0;
+    for (;; r++) { c = Array.from({ length: cols - w + 1 }, (_, k) => k).find((k) => fits(r, k)) ?? -1; if (c >= 0) break; }
+    for (let dr = 0; dr < h; dr++) for (let dc = 0; dc < w; dc++) (taken[r + dr] ||= [])[c + dc] = true;
+    rows = Math.max(rows, r + h); used += w * h;
+  }
+  return rows * cols - used;
+}
+
+/**
+ * Gallery tile shapes ('wide' 2x1, 'tall' 1x2, '' 1x1) for the four-column grid
+ * (two on phones). Each photo's proportions suggest its shape; when that would
+ * leave gaps at either width, the arrangement with no gaps and the least
+ * cropping wins (cost: how far each photo's proportions are from its tile's,
+ * plus a little for every change). Galleries of three or fewer sit in one row
+ * instead (`.gallery.few`), so their tiles are all plain. When no gap-free
+ * arrangement avoids a hard crop, every tile stays plain and the last row is
+ * centred (`.gallery.center`).
+ */
+export function galleryShapes(images: Img[]): { shapes: string[]; center: boolean } {
+  const ratio = (i: Img) => (i.width && i.height ? i.width / i.height : 1);
+  const plain = images.map(() => '');
+  if (images.length <= 3) return { shapes: plain, center: false };
+  const base = images.map((img, n) => (ratio(img) > 1.55 && n % 3 === 0 ? 'wide' : ratio(img) < 0.72 ? 'tall' : ''));
+  const gaps = (sh: string[]) => gridHoles(sh, 4) + gridHoles(sh, 2);
+  if (!gaps(base)) return { shapes: base, center: false };
+  const target: Record<string, number> = { '': 1, wide: 2, tall: 0.49 };
+  const crop = (img: Img, sh: string) => Math.abs(Math.log(ratio(img) / target[sh]));
+  const options = images.map((img, i) => ['', ratio(img) >= 1 ? 'wide' : 'tall'].map((sh) => ({ sh, cost: crop(img, sh) + (sh !== base[i] ? 0.3 : 0) + (sh ? 0.1 : 0) })));
+  let best = { gaps: gaps(base), cost: Infinity, pick: base };
+  const walk = (i: number, pick: string[], cost: number) => {
+    if (cost >= best.cost && best.gaps === 0) return;
+    if (i === images.length) { const g = gaps(pick); if (g < best.gaps || (g === best.gaps && cost < best.cost)) best = { gaps: g, cost, pick: [...pick] }; return; }
+    for (const o of options[i]) { pick.push(o.sh); walk(i + 1, pick, cost + o.cost); pick.pop(); }
+  };
+  walk(0, [], 0);
+  // A square portrait stretched to a 2:1 tile loses faces: rather than crop that hard
+  // (or leave a gap), keep every tile plain and centre the last row.
+  if (best.gaps || best.pick.some((sh, i) => sh && crop(images[i], sh) > 0.6)) return { shapes: plain, center: true };
+  return { shapes: best.pick, center: false };
+}
+
 export function cinematicHero(demo: Demo): Img | undefined {
   const all: Img[] = [demo.hero.image, ...demo.sections.flatMap((s: any) => [...(s.images || []), s.image])].filter(Boolean) as Img[];
   const pick = typeof demo.cinematic === 'object' && demo.cinematic.heroImage ? all.find((i) => i.src === (demo.cinematic as { heroImage?: string }).heroImage) : undefined;

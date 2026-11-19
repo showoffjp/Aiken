@@ -1,0 +1,347 @@
+{
+  "name": "Hair of the Dog",
+  "short": "Hair of the Dog",
+  "category": "Dog Grooming",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "dm-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fff8f2",
+    "surface": "#ffffff",
+    "ink": "#3a2414",
+    "muted": "#6b5444",
+    "primary": "#1f6f6d",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a65a",
+    "line": "#f0e1d4"
+  },
+  "radius": 22,
+  "icon": "paw-print",
+  "logo": {
+    "src": "/demo-assets/hair-of-the-dog/logo.webp",
+    "alt": "Hair of the Dog",
+    "width": 330,
+    "height": 345
+  },
+  "contact": {
+    "phone": "(803) 998-7285",
+    "phoneLabel": "Call or text",
+    "instagram": "https://www.instagram.com/hairofthedog.aiken/",
+    "address": [
+      "225 Richland Avenue East",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Hair of the Dog, 225 Richland Ave E, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 5:00 pm"
+      ],
+      [
+        "Saturday",
+        "8:00 am – 12:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "By appointment. Saturday spots are limited."
+  },
+  "hero": {
+    "eyebrow": "Dog grooming in downtown Aiken",
+    "title": "Your pup’s *favorite groomer*",
+    "lede": "Haircuts, baths, tidies, hand-stripping and nail trims on Richland Avenue, with patience for nervous, anxious and senior dogs. Call or text to book.",
+    "points": [
+      "Haircuts & tidies",
+      "Hand-stripping",
+      "Nervous & senior dogs"
+    ],
+    "cta": {
+      "label": "Call or text (803) 998-7285",
+      "href": "tel:+18039987285"
+    },
+    "cta2": {
+      "label": "See prices",
+      "href": "#prices"
+    }
+  },
+  "facts": [
+    {
+      "value": "20+ years",
+      "label": "Grooming experience on the team"
+    },
+    {
+      "value": "From $5",
+      "label": "Nail trims"
+    },
+    {
+      "value": "Sat 8–12",
+      "label": "Plus weekdays 8–5"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "prices",
+      "nav": "Prices",
+      "eyebrow": "Service menu",
+      "title": "Clean, comfy *and adorable*",
+      "intro": "Starting prices by size. Prices may vary with coat condition, size and behavior.",
+      "groups": [
+        {
+          "title": "Haircut",
+          "note": "Custom cut, two shampoos, conditioner, blow-dry, nail trim & brushing",
+          "items": [
+            {
+              "name": "Small, 5–20 lb",
+              "price": "$65+",
+              "desc": "About 1 hr 30 min"
+            },
+            {
+              "name": "Medium, 20–50 lb",
+              "price": "$80+",
+              "desc": "About 2 hr 10 min"
+            },
+            {
+              "name": "Large, 50–70 lb",
+              "price": "$100+",
+              "desc": "About 3 hr"
+            },
+            {
+              "name": "Extra large, 70–100+ lb",
+              "price": "$200+",
+              "desc": "About 4 hr"
+            }
+          ]
+        },
+        {
+          "title": "Bath & tidy",
+          "note": "Two shampoos, conditioner, blow-dry, nail trim, light trim & brush-out",
+          "items": [
+            {
+              "name": "Small, 5–20 lb",
+              "price": "$50+",
+              "desc": "About 1 hr"
+            },
+            {
+              "name": "Medium, 20–50 lb",
+              "price": "$70+",
+              "desc": "About 1 hr 30 min"
+            },
+            {
+              "name": "Large, 50–70 lb",
+              "price": "$85+",
+              "desc": "About 2 hr"
+            },
+            {
+              "name": "Extra large, 70–100+ lb",
+              "price": "$180+",
+              "desc": "About 3 hr 30 min"
+            }
+          ]
+        },
+        {
+          "title": "Bath",
+          "note": "Two shampoos, conditioner, blow-dry, nail trim & brush-out",
+          "items": [
+            {
+              "name": "Small, 5–20 lb",
+              "price": "$30+",
+              "desc": "About 30 min"
+            },
+            {
+              "name": "Medium, 20–50 lb",
+              "price": "$50+",
+              "desc": "About 1 hr"
+            },
+            {
+              "name": "Large, 50–70 lb",
+              "price": "$60+",
+              "desc": "About 1 hr"
+            },
+            {
+              "name": "Extra large, 70–100+ lb",
+              "price": "$83+",
+              "desc": "About 1 hr 30 min"
+            }
+          ]
+        },
+        {
+          "title": "Nail trim",
+          "note": "About 10 minutes",
+          "items": [
+            {
+              "name": "Small, 5–20 lb",
+              "price": "$5"
+            },
+            {
+              "name": "Medium, 20–50 lb",
+              "price": "$15"
+            },
+            {
+              "name": "Large, 50–70 lb",
+              "price": "$20"
+            },
+            {
+              "name": "Extra large, 70–100+ lb",
+              "price": "$25"
+            }
+          ]
+        },
+        {
+          "title": "Hand-stripping",
+          "note": "For wire-coated breeds",
+          "items": [
+            {
+              "name": "Jack Russell size",
+              "price": "$65",
+              "desc": "About 1 hr"
+            },
+            {
+              "name": "Cairn Terrier size",
+              "price": "$80",
+              "desc": "About 1 hr 30 min"
+            },
+            {
+              "name": "Springer Spaniel size",
+              "price": "$120",
+              "desc": "About 2 hr 30 min"
+            },
+            {
+              "name": "Gordon Setter size",
+              "price": "$300",
+              "desc": "About 3 hr 30 min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "nervous-dogs",
+      "nav": "Our approach",
+      "eyebrow": "Patience first",
+      "title": "Calm grooms for *nervous pups*",
+      "body": [
+        "Not every dog is comfortable being groomed. Cindy Strickland specializes in difficult, nervous, anxious and senior dogs, and takes the time to build trust so every visit is as calm and positive as it can be.",
+        "Hand-stripping is a special technique for wire-coated breeds: instead of clipping, we gently remove the dead, loose outer hairs by hand or with a stripping tool, which keeps the coat’s natural texture, color and health."
+      ],
+      "list": [
+        "Difficult, anxious and senior dogs welcome",
+        "Two shampoos and conditioner with every bath",
+        "Hand-stripping for terriers and setters"
+      ]
+    },
+    {
+      "type": "services",
+      "id": "team",
+      "nav": "Groomers",
+      "columns": 2,
+      "eyebrow": "Meet the team",
+      "title": "Four people *who love dogs*",
+      "items": [
+        {
+          "icon": "scissors",
+          "title": "Cindy Strickland",
+          "text": "20 years of professional grooming, with a gift for nervous and senior dogs."
+        },
+        {
+          "icon": "heart",
+          "title": "Isabel Igoe",
+          "text": "Loves one-on-one time, learning each dog’s personality and helping them feel at home."
+        },
+        {
+          "icon": "dog",
+          "title": "Carla Igoe",
+          "text": "A lifelong Aiken resident grooming dogs for over 20 years, and an avid foxhunter."
+        },
+        {
+          "icon": "bath",
+          "title": "Rachel Cleveland",
+          "text": "In training, with plenty of dog-industry experience; a great pick for bath pups."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *the groom*",
+      "items": [
+        {
+          "q": "How do I book?",
+          "a": "Call or text (803) 998-7285, or book online through our Square appointments page. Appointments run Monday to Friday, with some Saturday mornings."
+        },
+        {
+          "q": "Why might my price be higher than listed?",
+          "a": "Prices are starting points. Coat condition, size and behavior can all change how long a groom takes."
+        },
+        {
+          "q": "My dog gets anxious. Can you help?",
+          "a": "Yes. Cindy specializes in difficult, nervous, anxious and senior dogs and takes the time to build trust."
+        },
+        {
+          "q": "What is hand-stripping?",
+          "a": "A technique for wire-coated breeds that removes dead, loose outer hairs by hand or with a stripping tool, instead of clipping, to keep the coat’s natural texture and color."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Follow the transformations",
+      "text": "Before-and-afters on Instagram at @hairofthedog.aiken.",
+      "cta": {
+        "label": "Call or text to book",
+        "href": "tel:+18039987285"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue*",
+    "formTitle": "Request a grooming appointment",
+    "formTopics": [
+      "Haircut",
+      "Bath or tidy",
+      "Hand-stripping",
+      "Nail trim",
+      "Something else"
+    ]
+  },
+  "slug": "hair-of-the-dog",
+  "added": "2026-11-19",
+  "prospect": "hair-of-the-dog-llc",
+  "source": {
+    "url": "https://hair-of-the-dog-101741.square.site/",
+    "before": [
+      "On a phone, the main content takes about 22 seconds to appear (Google Lighthouse speed score: 7 out of 100), and the page jumps around as it loads",
+      "Pinch-to-zoom is turned off, and the page has 66 accessibility problems, most of them unlabeled icons and buttons nested inside links",
+      "The web address is hair-of-the-dog-101741.square.site rather than the business’s own name",
+      "The service menu heading reads \"Dog Gooming\", and there’s no description for Google results"
+    ],
+    "after": [
+      "Prices by size for every service, readable at a glance on a phone",
+      "Call-or-text booking and hours on the first screen",
+      "A page that loads in a couple of seconds and lets people zoom",
+      "The team and their specialties, including nervous and senior dogs",
+      "Keeps online booking: the Book buttons can go straight to the existing Square appointments",
+      "Ready to move to the business’s own web address"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

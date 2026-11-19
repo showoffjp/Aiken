@@ -1187,7 +1187,7 @@
   "lhPerformance": null,
   "lhAccessibility": null,
   "seoHealth": null,
-  "socialPresence": null,
+  "socialPresence": 0,
   "domain": "woodchuckersaxethrowing.com",
   "domainExpires": "2027-06-16",
   "domainState": "",
@@ -2264,8 +2264,8 @@
   "a11ySerious": 10,
   "lhPerformance": null,
   "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
+  "seoHealth": 44,
+  "socialPresence": 80,
   "domain": "homeforskateboarding.org",
   "domainExpires": "2027-01-19",
   "domainState": "",
@@ -4616,6 +4616,54 @@
   "rank": 100
  },
  {
+  "slug": "carolina-dragway-inc",
+  "name": "Carolina Dragway, Inc.",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Entertainment + Activities",
+  "phone": "(803) 471-2285",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "info@carolinadragway.com",
+  "otherEmails": [],
+  "website": "http://www.carolinadragway.com/",
+  "siteState": "Online",
+  "score": 7,
+  "platform": "WordPress",
+  "issues": [
+   "No meta description for search results",
+   "No social sharing (Open Graph) tags"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2024,
+  "facebook": "https://www.facebook.com/thehouseofhook/",
+  "instagram": "https://instagram.com/carolinadragway/",
+  "address": "302 Dragstrip Road, Aiken, SC 29803",
+  "contact": "Christopher Kneece",
+  "familyNote": "",
+  "since": null,
+  "blurb": "Race Track - Facility Originally Built in 1957 by LB (Junior) Steed - 1/8th mile Concrete/Asphalt Racing Surface - IHRA (International Hot Rod Association) Sanctioned - Track Nickname: \"The House of Hook\" (Sticky Glue / Great Traction)",
+  "sources": [
+   "Aiken Chamber",
+   "Visit Aiken"
+  ],
+  "demo": "carolina-dragway",
+  "pageMB": 5.5,
+  "a11yIssues": 46,
+  "a11ySerious": 46,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": 62,
+  "socialPresence": 80,
+  "domain": "carolinadragway.com",
+  "domainExpires": "2027-02-03",
+  "domainState": "",
+  "pitch": 42,
+  "rank": 101
+ },
+ {
   "slug": "carolina-hvac-and-electrical",
   "name": "Carolina HVAC and Electrical",
   "priority": "C · Modern site",
@@ -4659,7 +4707,7 @@
   "domainExpires": "2031-10-15",
   "domainState": "",
   "pitch": 40,
-  "rank": 101
+  "rank": 102
  },
  {
   "slug": "aiken-housing-center",
@@ -4707,7 +4755,7 @@
   "domainExpires": "2026-12-28",
   "domainState": "Renews or expires 2026-12-28",
   "pitch": 37,
-  "rank": 102
+  "rank": 103
  },
  {
   "slug": "b-and-k-grading-and-paving-llc",
@@ -4751,7 +4799,7 @@
   "domainExpires": "2026-12-17",
   "domainState": "Renews or expires 2026-12-17",
   "pitch": 37,
-  "rank": 103
+  "rank": 104
  },
  {
   "slug": "the-restaurant-at-the-willcox",
@@ -4800,7 +4848,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 37,
-  "rank": 104
+  "rank": 105
  },
  {
   "slug": "verdant-landscape",
@@ -4848,7 +4896,7 @@
   "domainExpires": "2028-07-06",
   "domainState": "",
   "pitch": 37,
-  "rank": 105
+  "rank": 106
  },
  {
   "slug": "woodside-development-lp",
@@ -4892,7 +4940,7 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 37,
-  "rank": 106
+  "rank": 107
  },
  {
   "slug": "apex-home-repair-corporation",
@@ -4938,7 +4986,7 @@
   "domainExpires": "2027-08-10",
   "domainState": "",
   "pitch": 36,
-  "rank": 107
+  "rank": 108
  },
  {
   "slug": "208-abbeville-bed-and-breakfast",
@@ -4982,7 +5030,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 108
+  "rank": 109
  },
  {
   "slug": "aiken-ghost-tours",
@@ -5026,7 +5074,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 109
+  "rank": 110
  },
  {
   "slug": "cabanas-salvadorean-restaurant",
@@ -5070,7 +5118,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 110
+  "rank": 111
  },
  {
   "slug": "joyful-caf",
@@ -5114,7 +5162,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 111
+  "rank": 112
  },
  {
   "slug": "timeless-touch-events-llc",
@@ -5158,7 +5206,54 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 112
+  "rank": 113
+ },
+ {
+  "slug": "hair-of-the-dog-llc",
+  "name": "Hair of the Dog LLC",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Pet Grooming",
+  "phone": "(803) 998-7285",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://hair-of-the-dog-101741.square.site/",
+  "siteState": "Online",
+  "score": 6,
+  "platform": "Square Online",
+  "issues": [
+   "No meta description for search results",
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "225 Richland Avenue East, Aiken, SC 29801",
+  "contact": "Isabel Igoe",
+  "familyNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "hair-of-the-dog",
+  "pageMB": 3.6,
+  "a11yIssues": 5,
+  "a11ySerious": 5,
+  "lhPerformance": 9,
+  "lhAccessibility": 85,
+  "seoHealth": 67,
+  "socialPresence": 35,
+  "domain": "",
+  "domainExpires": "",
+  "domainState": "",
+  "pitch": 34,
+  "rank": 114
  },
  {
   "slug": "kelley-appliance-home-store",
@@ -5204,7 +5299,7 @@
   "domainExpires": "2032-12-17",
   "domainState": "",
   "pitch": 34,
-  "rank": 113
+  "rank": 115
  },
  {
   "slug": "osbons-laundry-and-cleaners-downtown",
@@ -5248,7 +5343,7 @@
   "domainExpires": "2028-06-30",
   "domainState": "",
   "pitch": 34,
-  "rank": 114
+  "rank": 116
  },
  {
   "slug": "encore",
@@ -5296,7 +5391,7 @@
   "domainExpires": "2027-11-29",
   "domainState": "",
   "pitch": 33,
-  "rank": 115
+  "rank": 117
  },
  {
   "slug": "big-putts-mobile-miniature-golf",
@@ -5340,7 +5435,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 116
+  "rank": 118
  },
  {
   "slug": "black-forest-equestrian-center-inc",
@@ -5384,7 +5479,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 117
+  "rank": 119
  },
  {
   "slug": "bull-head-disposal-llc",
@@ -5428,7 +5523,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 118
+  "rank": 120
  },
  {
   "slug": "carpenters-tire-and-auto",
@@ -5472,7 +5567,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 119
+  "rank": 121
  },
  {
   "slug": "hixons-roofing-and-construction-llc",
@@ -5516,7 +5611,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 120
+  "rank": 122
  },
  {
   "slug": "horizon-physical-therapy-and-wellness",
@@ -5560,7 +5655,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 121
+  "rank": 123
  },
  {
   "slug": "jamrock-caribana",
@@ -5604,7 +5699,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 122
+  "rank": 124
  },
  {
   "slug": "mcneelys-place",
@@ -5648,7 +5743,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 123
+  "rank": 125
  },
  {
   "slug": "rock-creek-irrigation-and-landscapes",
@@ -5692,7 +5787,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 124
+  "rank": 126
  },
  {
   "slug": "ruthie-graham",
@@ -5736,7 +5831,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 125
+  "rank": 127
  },
  {
   "slug": "the-parlour-coffee-and-company",
@@ -5781,7 +5876,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 126
+  "rank": 128
  },
  {
   "slug": "the-pub-at-cedar-creek",
@@ -5826,7 +5921,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 127
+  "rank": 129
  },
  {
   "slug": "vvs-hospitality-aiken-midtown-hotel",
@@ -5870,7 +5965,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 128
+  "rank": 130
  },
  {
   "slug": "the-backyard",
@@ -5917,7 +6012,51 @@
   "domainExpires": "2026-12-23",
   "domainState": "Renews or expires 2026-12-23",
   "pitch": 32,
-  "rank": 129
+  "rank": 131
+ },
+ {
+  "slug": "trophies-unlimited",
+  "name": "Trophies Unlimited",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Trophies/Plaques",
+  "phone": "(803) 648-8444",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "trophiesunlimited@hotmail.com",
+  "otherEmails": [],
+  "website": "http://www.aikentrophy.com/",
+  "siteState": "Online",
+  "score": 0,
+  "platform": "WordPress",
+  "issues": [],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2026,
+  "facebook": "",
+  "instagram": "",
+  "address": "4020 Trolley Line Road, Aiken, SC 29801",
+  "contact": "Mike Johnson",
+  "familyNote": "",
+  "since": 1977,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "trophies-unlimited",
+  "pageMB": 4.7,
+  "a11yIssues": 8,
+  "a11ySerious": 8,
+  "lhPerformance": 92,
+  "lhAccessibility": 97,
+  "seoHealth": 79,
+  "socialPresence": 0,
+  "domain": "aikentrophy.com",
+  "domainExpires": "2028-02-20",
+  "domainState": "",
+  "pitch": 32,
+  "rank": 132
  },
  {
   "slug": "the-fermata-club",
@@ -5964,7 +6103,7 @@
   "domainExpires": "2026-12-03",
   "domainState": "Renews or expires 2026-12-03",
   "pitch": 31,
-  "rank": 130
+  "rank": 133
  },
  {
   "slug": "piece-of-potato",
@@ -6008,7 +6147,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 131
+  "rank": 134
  },
  {
   "slug": "tumbleweed",
@@ -6052,7 +6191,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 132
+  "rank": 135
  },
  {
   "slug": "lionel-smith-ltd",
@@ -6098,7 +6237,7 @@
   "domainExpires": "2028-06-24",
   "domainState": "",
   "pitch": 29,
-  "rank": 133
+  "rank": 136
  },
  {
   "slug": "shining-sons-enterprises-llc",
@@ -6142,7 +6281,7 @@
   "domainExpires": "2027-03-15",
   "domainState": "",
   "pitch": 29,
-  "rank": 134
+  "rank": 137
  },
  {
   "slug": "the-village-caf",
@@ -6192,7 +6331,7 @@
   "domainExpires": "2027-12-14",
   "domainState": "",
   "pitch": 29,
-  "rank": 135
+  "rank": 138
  },
  {
   "slug": "thomas-agency-group",
@@ -6238,7 +6377,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 29,
-  "rank": 136
+  "rank": 139
  },
  {
   "slug": "wise-warehousing-solutions",
@@ -6285,7 +6424,7 @@
   "domainExpires": "2027-09-17",
   "domainState": "",
   "pitch": 29,
-  "rank": 137
+  "rank": 140
  },
  {
   "slug": "the-craft",
@@ -6329,7 +6468,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 28,
-  "rank": 138
+  "rank": 141
  },
  {
   "slug": "board-in-aiken",
@@ -6377,55 +6516,7 @@
   "domainExpires": "2027-05-01",
   "domainState": "",
   "pitch": 28,
-  "rank": 139
- },
- {
-  "slug": "carolina-dragway-inc",
-  "name": "Carolina Dragway, Inc.",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Entertainment + Activities",
-  "phone": "(803) 471-2285",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "info@carolinadragway.com",
-  "otherEmails": [],
-  "website": "http://www.carolinadragway.com/",
-  "siteState": "Online",
-  "score": 7,
-  "platform": "WordPress",
-  "issues": [
-   "No meta description for search results",
-   "No social sharing (Open Graph) tags"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2024,
-  "facebook": "https://www.facebook.com/thehouseofhook/",
-  "instagram": "https://instagram.com/carolinadragway/",
-  "address": "302 Dragstrip Road, Aiken, SC 29803",
-  "contact": "Christopher Kneece",
-  "familyNote": "",
-  "since": null,
-  "blurb": "Race Track - Facility Originally Built in 1957 by LB (Junior) Steed - 1/8th mile Concrete/Asphalt Racing Surface - IHRA (International Hot Rod Association) Sanctioned - Track Nickname: \"The House of Hook\" (Sticky Glue / Great Traction)",
-  "sources": [
-   "Aiken Chamber",
-   "Visit Aiken"
-  ],
-  "demo": "",
-  "pageMB": 5.4,
-  "a11yIssues": 46,
-  "a11ySerious": 46,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "carolinadragway.com",
-  "domainExpires": "2027-02-03",
-  "domainState": "",
-  "pitch": 28,
-  "rank": 140
+  "rank": 142
  },
  {
   "slug": "downtown-dog",
@@ -6469,13 +6560,13 @@
   "a11ySerious": 21,
   "lhPerformance": 79,
   "lhAccessibility": 92,
-  "seoHealth": null,
-  "socialPresence": null,
+  "seoHealth": 50,
+  "socialPresence": 35,
   "domain": "aikendowntowndog.com",
   "domainExpires": "2027-07-14",
   "domainState": "",
   "pitch": 28,
-  "rank": 141
+  "rank": 143
  },
  {
   "slug": "hh-construction",
@@ -6519,7 +6610,7 @@
   "domainExpires": "2027-01-30",
   "domainState": "",
   "pitch": 28,
-  "rank": 142
+  "rank": 144
  },
  {
   "slug": "the-willcox",
@@ -6569,7 +6660,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 28,
-  "rank": 143
+  "rank": 145
  },
  {
   "slug": "vikkis-a-unique-boutique",
@@ -6615,7 +6706,7 @@
   "domainExpires": "2027-07-18",
   "domainState": "",
   "pitch": 28,
-  "rank": 144
+  "rank": 146
  },
  {
   "slug": "rare-blue-moon-marketing",
@@ -6664,7 +6755,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 27,
-  "rank": 145
+  "rank": 147
  },
  {
   "slug": "the-larder",
@@ -6708,7 +6799,7 @@
   "domainExpires": "2029-02-26",
   "domainState": "",
   "pitch": 27,
-  "rank": 146
+  "rank": 148
  },
  {
   "slug": "janson-construction",
@@ -6752,7 +6843,7 @@
   "domainExpires": "2027-09-06",
   "domainState": "",
   "pitch": 26,
-  "rank": 147
+  "rank": 149
  },
  {
   "slug": "kelly-paint-and-body-inc",
@@ -6796,7 +6887,7 @@
   "domainExpires": "2027-02-19",
   "domainState": "",
   "pitch": 26,
-  "rank": 148
+  "rank": 150
  },
  {
   "slug": "rhodes-murphy",
@@ -6840,7 +6931,7 @@
   "domainExpires": "2027-07-16",
   "domainState": "",
   "pitch": 26,
-  "rank": 149
+  "rank": 151
  },
  {
   "slug": "silver-ash-cigar-lounge",
@@ -6884,7 +6975,7 @@
   "domainExpires": "2027-10-27",
   "domainState": "",
   "pitch": 26,
-  "rank": 150
+  "rank": 152
  },
  {
   "slug": "tabs-professional-transportation",
@@ -6930,54 +7021,7 @@
   "domainExpires": "2028-05-02",
   "domainState": "",
   "pitch": 26,
-  "rank": 151
- },
- {
-  "slug": "hair-of-the-dog-llc",
-  "name": "Hair of the Dog LLC",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Pet Grooming",
-  "phone": "(803) 998-7285",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://hair-of-the-dog-101741.square.site/",
-  "siteState": "Online",
-  "score": 6,
-  "platform": "Square Online",
-  "issues": [
-   "No meta description for search results",
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "225 Richland Avenue East, Aiken, SC 29801",
-  "contact": "Isabel Igoe",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 3.6,
-  "a11yIssues": 66,
-  "a11ySerious": 66,
-  "lhPerformance": 7,
-  "lhAccessibility": 85,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "",
-  "domainExpires": "",
-  "domainState": "",
-  "pitch": 25,
-  "rank": 152
+  "rank": 153
  },
  {
   "slug": "knights-companies",
@@ -7021,7 +7065,7 @@
   "domainExpires": "2027-10-24",
   "domainState": "",
   "pitch": 25,
-  "rank": 153
+  "rank": 154
  },
  {
   "slug": "queen-city-homestore",
@@ -7067,7 +7111,7 @@
   "domainExpires": "2028-07-23",
   "domainState": "",
   "pitch": 25,
-  "rank": 154
+  "rank": 155
  },
  {
   "slug": "veg-out",
@@ -7112,7 +7156,7 @@
   "domainExpires": "2027-12-26",
   "domainState": "",
   "pitch": 25,
-  "rank": 155
+  "rank": 156
  },
  {
   "slug": "dash-consulting-accounting-bookkeeping",
@@ -7156,7 +7200,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 24,
-  "rank": 156
+  "rank": 157
  },
  {
   "slug": "langley-tavern",
@@ -7200,7 +7244,7 @@
   "domainExpires": "2027-05-29",
   "domainState": "",
   "pitch": 24,
-  "rank": 157
+  "rank": 158
  },
  {
   "slug": "rhodes-law-firm",
@@ -7245,7 +7289,7 @@
   "domainExpires": "2027-04-28",
   "domainState": "",
   "pitch": 24,
-  "rank": 158
+  "rank": 159
  },
  {
   "slug": "skc-north-augusta-llc",
@@ -7289,7 +7333,7 @@
   "domainExpires": "2027-02-12",
   "domainState": "",
   "pitch": 24,
-  "rank": 159
+  "rank": 160
  },
  {
   "slug": "aiken-city-lifestyle",
@@ -7335,7 +7379,7 @@
   "domainExpires": "2027-11-02",
   "domainState": "",
   "pitch": 23,
-  "rank": 160
+  "rank": 161
  },
  {
   "slug": "all-south-siding-window-and-roofing",
@@ -7382,7 +7426,7 @@
   "domainExpires": "2027-02-06",
   "domainState": "",
   "pitch": 23,
-  "rank": 161
+  "rank": 162
  },
  {
   "slug": "all-safe-industrial-services-inc",
@@ -7432,7 +7476,7 @@
   "domainExpires": "2028-02-05",
   "domainState": "",
   "pitch": 23,
-  "rank": 162
+  "rank": 163
  },
  {
   "slug": "argus-visuals",
@@ -7479,7 +7523,7 @@
   "domainExpires": "2027-06-02",
   "domainState": "",
   "pitch": 23,
-  "rank": 163
+  "rank": 164
  },
  {
   "slug": "athos",
@@ -7526,7 +7570,7 @@
   "domainExpires": "2027-01-16",
   "domainState": "Renews or expires 2027-01-16",
   "pitch": 23,
-  "rank": 164
+  "rank": 165
  },
  {
   "slug": "barreto-manufacturing-inc",
@@ -7576,7 +7620,7 @@
   "domainExpires": "2027-08-20",
   "domainState": "",
   "pitch": 23,
-  "rank": 165
+  "rank": 166
  },
  {
   "slug": "c-wallace-design",
@@ -7624,7 +7668,7 @@
   "domainExpires": "2027-09-16",
   "domainState": "",
   "pitch": 23,
-  "rank": 166
+  "rank": 167
  },
  {
   "slug": "cassie-bayer-photography",
@@ -7670,7 +7714,7 @@
   "domainExpires": "2027-06-30",
   "domainState": "",
   "pitch": 23,
-  "rank": 167
+  "rank": 168
  },
  {
   "slug": "graybeal-construction-and-design",
@@ -7714,7 +7758,7 @@
   "domainExpires": "2029-10-04",
   "domainState": "",
   "pitch": 23,
-  "rank": 168
+  "rank": 169
  },
  {
   "slug": "highfields-event-center-is-home-of-aiken-music-f",
@@ -7762,7 +7806,7 @@
   "domainExpires": "2027-04-11",
   "domainState": "",
   "pitch": 23,
-  "rank": 169
+  "rank": 170
  },
  {
   "slug": "hixon-services",
@@ -7806,7 +7850,7 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 23,
-  "rank": 170
+  "rank": 171
  },
  {
   "slug": "latelier-on-laurens",
@@ -7853,7 +7897,7 @@
   "domainExpires": "2029-04-25",
   "domainState": "",
   "pitch": 23,
-  "rank": 171
+  "rank": 172
  },
  {
   "slug": "lawyerlisa",
@@ -7897,7 +7941,7 @@
   "domainExpires": "2028-03-11",
   "domainState": "",
   "pitch": 23,
-  "rank": 172
+  "rank": 173
  },
  {
   "slug": "palmetto-propane-fuels",
@@ -7941,7 +7985,7 @@
   "domainExpires": "2027-06-27",
   "domainState": "",
   "pitch": 23,
-  "rank": 173
+  "rank": 174
  },
  {
   "slug": "peak-mobility-yoga",
@@ -7985,7 +8029,7 @@
   "domainExpires": "2027-07-22",
   "domainState": "",
   "pitch": 23,
-  "rank": 174
+  "rank": 175
  },
  {
   "slug": "pink-icing",
@@ -8030,7 +8074,7 @@
   "domainExpires": "2028-09-09",
   "domainState": "",
   "pitch": 23,
-  "rank": 175
+  "rank": 176
  },
  {
   "slug": "superior-office-systems",
@@ -8078,7 +8122,7 @@
   "domainExpires": "2027-08-31",
   "domainState": "",
   "pitch": 23,
-  "rank": 176
+  "rank": 177
  },
  {
   "slug": "the-aiken-horse",
@@ -8120,50 +8164,6 @@
   "socialPresence": null,
   "domain": "theaikenhorse.com",
   "domainExpires": "2027-08-24",
-  "domainState": "",
-  "pitch": 23,
-  "rank": 177
- },
- {
-  "slug": "trophies-unlimited",
-  "name": "Trophies Unlimited",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Trophies/Plaques",
-  "phone": "(803) 648-8444",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "trophiesunlimited@hotmail.com",
-  "otherEmails": [],
-  "website": "http://www.aikentrophy.com/",
-  "siteState": "Online",
-  "score": 0,
-  "platform": "WordPress",
-  "issues": [],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2026,
-  "facebook": "",
-  "instagram": "",
-  "address": "4020 Trolley Line Road, Aiken, SC 29801",
-  "contact": "Mike Johnson",
-  "familyNote": "",
-  "since": 1977,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 6.6,
-  "a11yIssues": 18,
-  "a11ySerious": 18,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "aikentrophy.com",
-  "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 23,
   "rank": 178

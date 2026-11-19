@@ -3505,7 +3505,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "carriage-house-inn": {
@@ -5089,24 +5099,18 @@
  },
  "hair-of-the-dog-llc": {
   "site": {
-   "rules": 5,
-   "issues": 66,
+   "rules": 3,
+   "issues": 5,
    "critical": 1,
-   "serious": 65,
+   "serious": 4,
    "moderate": 0,
    "minor": 0,
    "top": [
     {
-     "id": "svg-img-alt",
-     "impact": "serious",
-     "help": "<svg> elements with an img role must have an alternative text",
-     "nodes": 40
-    },
-    {
      "id": "nested-interactive",
      "impact": "serious",
      "help": "Interactive controls must not be nested",
-     "nodes": 22
+     "nodes": 2
     },
     {
      "id": "role-img-alt",
@@ -5115,19 +5119,23 @@
      "nodes": 2
     },
     {
-     "id": "color-contrast",
-     "impact": "serious",
-     "help": "Elements must meet minimum color contrast ratio thresholds",
-     "nodes": 1
-    },
-    {
      "id": "meta-viewport",
      "impact": "critical",
      "help": "Zooming and scaling must not be disabled",
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "hawthorne-aiken-pharmacy": {
@@ -9556,19 +9564,13 @@
  },
  "trophies-unlimited": {
   "site": {
-   "rules": 2,
-   "issues": 18,
+   "rules": 1,
+   "issues": 8,
    "critical": 0,
-   "serious": 18,
+   "serious": 8,
    "moderate": 0,
    "minor": 0,
    "top": [
-    {
-     "id": "color-contrast",
-     "impact": "serious",
-     "help": "Elements must meet minimum color contrast ratio thresholds",
-     "nodes": 10
-    },
     {
      "id": "link-name",
      "impact": "serious",
@@ -9576,7 +9578,17 @@
      "nodes": 8
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-19"
   }
  },
  "true-aiken": {

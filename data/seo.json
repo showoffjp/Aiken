@@ -1254,9 +1254,9 @@
     "description": false,
     "schema": false,
     "og": true,
-    "performance": 7,
+    "performance": 9,
     "pageMB": 3.6,
-    "a11ySerious": 66,
+    "a11ySerious": 5,
     "facebook": false,
     "instagram": false,
     "domainYears": null
@@ -20394,9 +20394,9 @@
     "description": false,
     "schema": false,
     "og": true,
-    "performance": 7,
+    "performance": 9,
     "pageMB": 3.6,
-    "a11ySerious": 66,
+    "a11ySerious": 5,
     "facebook": false,
     "instagram": false,
     "domainYears": null
@@ -20608,5 +20608,892 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "carolina-dragway-inc": {
+  "slug": "carolina-dragway",
+  "name": "Carolina Dragway",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "carolinadragway.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://carolinadragway.com/",
+    "title": "Carolina Dragway \"The House of Hook\" in Aiken, SC",
+    "description": "",
+    "canonical": "https://carolinadragway.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "RAINED OUT? TEXT \"HOUSEOFHOOK\" TO 84483"
+    ],
+    "h1Count": 1,
+    "h2": 8,
+    "h3": 9,
+    "words": 922,
+    "images": 31,
+    "imagesNoAlt": 11,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://carolinadragway.com/wp-sitemap.xml",
+    "pages": 83
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 0,
+    "multipleH1": 14,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 121,
+    "images": 265,
+    "sample": [
+     {
+      "url": "https://carolinadragway.com/",
+      "title": "Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 1,
+      "words": 922
+     },
+     {
+      "url": "https://carolinadragway.com/faq/",
+      "title": "Frequently Asked Questions - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 891
+     },
+     {
+      "url": "https://carolinadragway.com/info/",
+      "title": "Track Info - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 1153
+     },
+     {
+      "url": "https://carolinadragway.com/racers/",
+      "title": "Racer Info - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 826
+     },
+     {
+      "url": "https://carolinadragway.com/results/",
+      "title": "Race Results - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 1000
+     },
+     {
+      "url": "https://carolinadragway.com/sbs-points/",
+      "title": "Summit Bracket Series Points Standings - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 478
+     },
+     {
+      "url": "https://carolinadragway.com/chassis-certs/",
+      "title": "Chassis Certifications & Inspections - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 446
+     },
+     {
+      "url": "https://carolinadragway.com/partners/",
+      "title": "Partners - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 448
+     },
+     {
+      "url": "https://carolinadragway.com/photos/",
+      "title": "Photos - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 395
+     },
+     {
+      "url": "https://carolinadragway.com/contact/",
+      "title": "Contact Carolina Dragway - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 404
+     },
+     {
+      "url": "https://carolinadragway.com/vendors/",
+      "title": "Vendor Information - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 470
+     },
+     {
+      "url": "https://carolinadragway.com/media/",
+      "title": "Media Information - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 474
+     },
+     {
+      "url": "https://carolinadragway.com/employment/",
+      "title": "Employment Opportunities - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 2,
+      "words": 467
+     },
+     {
+      "url": "https://carolinadragway.com/schedule/",
+      "title": "Events for November 2026 - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 3,
+      "words": 1159
+     },
+     {
+      "url": "https://carolinadragway.com/2023/06/12/meet-dent-johnson-carolina-dragways-announcer-for-60-years/",
+      "title": "Meet Dent Johnson, Carolina Dragway's Announcer for 60+ Years - Carolina Dragway \"The House of Hook\" in Aiken, SC",
+      "description": 0,
+      "h1": 3,
+      "words": 1652
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://www.google.com/maps/place/Carolina+Dragway/@33.3632628,-81.7996969,17z/data=!3m1!4b1!4m5!3m4!1s0x88f9b74114c75f21:0xf9861259664ed356!8m2!3d33.3632583!4d-81.7975082",
+    "Facebook": "https://www.facebook.com/thehouseofhook/",
+    "Instagram": "https://instagram.com/carolinadragway/",
+    "X (Twitter)": "https://twitter.com/CarolinaDragway"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Drag Strip",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 10
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=295&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=9675683863e0e1f0b99933801e0c4cb8",
+    "name": "Carolina Dragway, Inc.",
+    "phone": "(803) 471-2285",
+    "website": "http://www.carolinadragway.com",
+    "address": "302 Dragstrip Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/carolina_dragway/",
+    "name": "Carolina Dragway",
+    "phone": "",
+    "website": "http://houseofhook.com/",
+    "address": "302 Dragstrip Road Aiken SC",
+    "phoneMatch": null,
+    "websiteMatch": false
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://www.google.com/maps/place/Carolina+Dragway/@33.3632628,-81.7996969,17z/data=!3m1!4b1!4m5!3m4!1s0x88f9b74114c75f21:0xf9861259664ed356!8m2!3d33.3632583!4d-81.7975082",
+    "Facebook": "https://www.facebook.com/thehouseofhook/",
+    "Instagram": "https://instagram.com/carolinadragway/",
+    "X (Twitter)": "https://twitter.com/CarolinaDragway"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/thehouseofhook/",
+    "Instagram": "https://instagram.com/carolinadragway/"
+   }
+  },
+  "domain": {
+   "name": "carolinadragway.com",
+   "created": "1999-02-03",
+   "expires": "2027-02-03",
+   "registrar": "Squarespace Domains II LLC",
+   "years": 27
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "britts-jump-and-slide-inflatables-llc",
+   "eudora-wildlife-safari-park",
+   "legare-gardens",
+   "park-avenue-lanes-inc",
+   "radioactive-pinball-arcade"
+  ],
+  "scores": {
+   "seo": 62,
+   "social": 80,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "britts-jump-and-slide-inflatables-llc",
+    "name": "Britt's Jump & Slide Inflatables, LLC",
+    "website": "https://www.brittsinflatables.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 13,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "eudora-wildlife-safari-park",
+    "name": "Eudora Wildlife Safari Park",
+    "website": "https://www.eudorasafaripark.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "legare-gardens",
+    "name": "Legare Gardens",
+    "website": "https://legaregardens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "park-avenue-lanes-inc",
+    "name": "Park Avenue Lanes, Inc.",
+    "website": "https://www.parkavelanes.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "radioactive-pinball-arcade",
+    "name": "Radioactive Pinball Arcade",
+    "website": "https://radioactivepinballarcade.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0,
+    "a11ySerious": 31,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   }
+  ]
+ },
+ "hair-of-the-dog-llc": {
+  "slug": "hair-of-the-dog",
+  "name": "Hair of the Dog",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "hair-of-the-dog-101741.square.site",
+   "https": true,
+   "pagesCrawled": 1,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://hair-of-the-dog-101741.square.site/",
+    "title": "Appointments | Hair Of The Dog 🐾✨",
+    "description": "",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Appointments | Hair Of The Dog 🐾✨",
+     "description": "",
+     "image": "https://hair-of-the-dog-101741.square.site/uploads/b/2eefd910-00a4-11f1-9b41-d7a44de34ac7/191E0E47-7CD3-489E-B1F0-FF26D2DFA85F_ODY5NT.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 0,
+    "h3": 0,
+    "words": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://hair-of-the-dog-101741.square.site/sitemap.xml",
+    "pages": 4
+   },
+   "crawl": {
+    "pages": 1,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 0,
+    "sample": [
+     {
+      "url": "https://hair-of-the-dog-101741.square.site/",
+      "title": "Appointments | Hair Of The Dog 🐾✨",
+      "description": 0,
+      "h1": 0,
+      "words": 0
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 1,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Dog Grooming",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1102&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=bb0cc44496b935c0662b46dd46b1d759",
+    "name": "Hair of the Dog LLC",
+    "phone": "(803) 998-7285",
+    "website": "https://hair-of-the-dog-101741.square.site",
+    "address": "225 Richland Avenue East, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Instagram": "https://www.instagram.com/hairofthedog.aiken/"
+   }
+  },
+  "domain": null,
+  "performance": {
+   "performance": 9,
+   "accessibility": 85,
+   "bestPractices": 57,
+   "seo": 85,
+   "fcp": 2367,
+   "lcp": 21079,
+   "tbt": 4056,
+   "si": 10267,
+   "cls": 0.912,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "downtown-dog",
+   "aiken-medical-aesthetics",
+   "aiken-pet-sitters-llc",
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique"
+  ],
+  "scores": {
+   "seo": 67,
+   "social": 35,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "downtown-dog",
+    "name": "Downtown Dog",
+    "website": "https://aikendowntowndog.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 79,
+    "pageMB": 1.6,
+    "a11ySerious": 21,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 12
+   },
+   {
+    "slug": "aiken-medical-aesthetics",
+    "name": "Aiken Medical Aesthetics",
+    "website": "https://aikenmedicalaesthetics.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 33,
+    "pageMB": 9.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "aiken-pet-sitters-llc",
+    "name": "Aiken Pet Sitters, LLC",
+    "website": "https://aikenpetsitters.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.6,
+    "a11ySerious": 38,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 21
+   },
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "trophies-unlimited": {
+  "slug": "trophies-unlimited",
+  "name": "Trophies Unlimited",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikentrophy.com",
+   "https": true,
+   "pagesCrawled": 6,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://aikentrophy.com/",
+    "title": "Home - Trophies Unlimited",
+    "description": "Trophies Unlimited has been providing corporate recognition and sporting awards since 1977. From custom firearms and cherished keepsakes to corporate awards",
+    "canonical": "https://aikentrophy.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home - Trophies Unlimited",
+     "description": "Trophies Unlimited has been providing corporate recognition and sporting awards since 1977. From custom firearms and cherished keepsakes to corporate awards",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Trophies Unlimited:",
+     "Crafting Legacies, One Engraving at a Time"
+    ],
+    "h1Count": 2,
+    "h2": 16,
+    "h3": 0,
+    "words": 587,
+    "images": 27,
+    "imagesNoAlt": 24,
+    "schemaTypes": [
+     "Person",
+     "Organization",
+     "ImageObject",
+     "WebSite",
+     "SearchAction",
+     "WebPage",
+     "Article"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://aikentrophy.com/sitemap_index.xml",
+    "pages": 6
+   },
+   "crawl": {
+    "pages": 6,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 6,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 55,
+    "images": 64,
+    "sample": [
+     {
+      "url": "https://aikentrophy.com/",
+      "title": "Home - Trophies Unlimited",
+      "description": 156,
+      "h1": 2,
+      "words": 587
+     },
+     {
+      "url": "https://aikentrophy.com/products/",
+      "title": "Products - Trophies Unlimited",
+      "description": 27,
+      "h1": 2,
+      "words": 699
+     },
+     {
+      "url": "https://aikentrophy.com/engraving/",
+      "title": "Engraving - Trophies Unlimited",
+      "description": 35,
+      "h1": 2,
+      "words": 618
+     },
+     {
+      "url": "https://aikentrophy.com/about-us/",
+      "title": "About Us - Trophies Unlimited",
+      "description": 157,
+      "h1": 2,
+      "words": 979
+     },
+     {
+      "url": "https://aikentrophy.com/contact-us/",
+      "title": "Contact Us - Trophies Unlimited",
+      "description": 156,
+      "h1": 2,
+      "words": 458
+     },
+     {
+      "url": "https://aikentrophy.com/capability-statement/",
+      "title": "Capability Statement - Trophies Unlimited",
+      "description": 52,
+      "h1": 2,
+      "words": 197
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 7,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Trophies",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 15
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1024&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=3e16eb972bca6016cd7fa6f19be0822e",
+    "name": "Trophies Unlimited",
+    "phone": "(803) 648-8444",
+    "website": "http://www.aikentrophy.com",
+    "address": "4020 Trolley Line Road, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "aikentrophy.com",
+   "created": "2010-02-20",
+   "expires": "2028-02-20",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 16
+  },
+  "performance": {
+   "performance": 92,
+   "accessibility": 97,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1578,
+   "lcp": 2206,
+   "tbt": 135,
+   "si": 5746,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "ahh-sunshine-llc",
+   "aiken-embroidery-and-design",
+   "bravefriend-apparel-and-design",
+   "c-wallace-design",
+   "design-persuasion"
+  ],
+  "scores": {
+   "seo": 79,
+   "social": 0,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "ahh-sunshine-llc",
+    "name": "AHH Sunshine, LLC",
+    "website": "https://ahhsunshine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 31,
+    "pageMB": 4.1,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 13
+   },
+   {
+    "slug": "aiken-embroidery-and-design",
+    "name": "Aiken Embroidery & Design",
+    "website": "https://aikenead.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 60,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "bravefriend-apparel-and-design",
+    "name": "Bravefriend Apparel and Design",
+    "website": "https://bravefriend.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 64,
+    "pageMB": 1.1,
+    "a11ySerious": 19,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 19
+   },
+   {
+    "slug": "c-wallace-design",
+    "name": "C. Wallace Design",
+    "website": "https://coleenwallacedesign.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 57,
+    "pageMB": 8.7,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 17
+   },
+   {
+    "slug": "design-persuasion",
+    "name": "Design Persuasion",
+    "website": "https://www.designpersuasion.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 74,
+    "pageMB": 4.5,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
  }
 }

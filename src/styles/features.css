@@ -16,6 +16,7 @@
 .open-now::before { content: ""; flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--dot, #1f9d55); box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot, #1f9d55) 22%, transparent); }
 .open-now[data-state="soon"] { --dot: #d98a00; }
 .open-now[data-state="closed"] { --dot: #c8372d; }
+.open-now[data-state="holiday"] { --dot: #7a5cc4; }
 .awake .open-now[data-state="open"]::before { animation: live-ping 2.2s ease-out infinite; }
 @keyframes live-ping { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--dot, #1f9d55) 55%, transparent); } 80%, 100% { box-shadow: 0 0 0 9px transparent; } }
 .hero-open { margin-top: 18px; }
@@ -38,6 +39,8 @@
 .info .row.keep { border-bottom: 0; }
 /* Split shifts ("11 am – 2 pm · 5 – 8 pm") get a line each instead of wrapping mid-time. */
 .hours td span { display: block; white-space: nowrap; }
+/* Words rather than times ("Event days only", "Gates 6:30 pm, racing till 11") may wrap. */
+.hours td span.long { white-space: normal; }
 .hours td:first-child { padding-right: 14px; }
 .info a.big { display: inline-block; padding-block: 4px; }
 .info a.mail { display: inline-block; padding-block: 8px; font-weight: 600; }

@@ -58,7 +58,7 @@ body .hero.hx-poster { background: var(--primary); color: var(--on-primary); }
 .b-emblem { left: 50%; top: 50%; translate: -50% -50%; width: 98px; height: 98px; border-radius: 50%; display: grid; place-items: center; overflow: hidden; background: color-mix(in srgb, var(--on-primary) 16%, transparent); border: 1.5px solid color-mix(in srgb, var(--on-primary) 38%, transparent); box-shadow: 0 0 0 10px color-mix(in srgb, var(--on-primary) 7%, transparent), 0 22px 40px -16px rgb(0 0 0 / .6), inset 0 1px 0 color-mix(in srgb, var(--on-primary) 40%, transparent); }
 .b-spark { width: 10px; height: 10px; background: var(--accent-on-primary, var(--accent)); clip-path: polygon(50% 0, 62% 38%, 100% 50%, 62% 62%, 50% 100%, 38% 62%, 0 50%, 38% 38%); opacity: .85; }
 .b-spark.s0 { left: 16%; top: 20%; } .b-spark.s1 { right: 14%; top: 30%; width: 7px; height: 7px; } .b-spark.s2 { left: 26%; bottom: 22%; width: 13px; height: 13px; }
-.b-caption { left: 14px; bottom: 14px; max-width: calc(100% - 28px); padding: 6px 11px; border-radius: 999px; font: 700 .68rem/1.2 var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: #fff; background: rgb(0 0 0 / .38); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.b-caption { z-index: 2; left: 14px; bottom: 14px; max-width: calc(100% - 28px); padding: 6px 11px; border-radius: 999px; font: 700 .68rem/1.2 var(--font-body); letter-spacing: .12em; text-transform: uppercase; color: #fff; background: rgb(0 0 0 / .38); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .awake .b-mesh { animation: b-spin 28s linear infinite; }
 .awake .b-orbit { animation: b-spin 30s linear infinite; }
 .awake .b-orbit i .icon { animation: b-spin 30s linear infinite reverse; }
@@ -94,11 +94,11 @@ body .hero.hx-poster { background: var(--primary); color: var(--on-primary); }
 
 /* Find us: a little street map with a dropping pin behind the address. */
 .b-where { isolation: isolate; min-height: 150px; }
-.b-map { position: absolute; inset: 0; z-index: -1; background: linear-gradient(135deg, var(--surface), color-mix(in srgb, var(--primary) 6%, var(--surface))); }
+.b-where .b-map { position: absolute; inset: 0; z-index: -1; overflow: hidden; border-radius: inherit; background: linear-gradient(135deg, var(--surface), color-mix(in srgb, var(--primary) 6%, var(--surface))); }
 .b-map .road { position: absolute; border-radius: 6px; background: color-mix(in srgb, var(--primary) 10%, transparent); }
 .b-map .h1 { left: -10%; right: -10%; top: 46px; height: 10px; transform: rotate(-7deg); } .b-map .h2 { left: -10%; right: -10%; top: 76%; height: 6px; transform: rotate(5deg); }
 .b-map .v1 { top: -10%; bottom: -10%; left: 70%; width: 8px; transform: rotate(9deg); } .b-map .v2 { top: -10%; bottom: -10%; left: 88%; width: 5px; transform: rotate(-4deg); }
-.b-map .pin { position: absolute; left: calc(70% - 9px); top: 18px; color: var(--primary-text, var(--primary)); filter: drop-shadow(0 6px 4px rgb(0 0 0 / .18)); }
+.b-map .pin { position: absolute; right: 16px; top: 14px; /* beside the short "Find us" label, clear of the address at any width */ color: var(--primary-text, var(--primary)); filter: drop-shadow(0 6px 4px rgb(0 0 0 / .18)); }
 .awake .b-map .pin { animation: b-drop 3.4s ease-in-out infinite; }
 @keyframes b-drop { 0%, 100% { transform: translateY(0); } 12% { transform: translateY(-10px); } 22% { transform: translateY(0); } 28% { transform: translateY(-3px); } 34% { transform: translateY(0); } }
 .b-where span { display: block; font-size: .95rem; position: relative; }
