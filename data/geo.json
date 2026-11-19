@@ -533,6 +533,14 @@
   "exact": false,
   "at": "2026-11-19"
  },
+ "legis-equine-insurance": {
+  "q": "245 Morris Road, Aiken, SC 29805",
+  "lat": 33.696657,
+  "lon": -81.674797,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "lilianhaus": {
   "q": "101 Laurens Street SW, Aiken, SC",
   "lat": 33.561473,
@@ -578,6 +586,14 @@
   "lat": 33.530449,
   "lon": -81.701399,
   "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "mark-taylor-insurance": {
+  "q": "965 Dougherty Road, Aiken, SC 29803",
+  "lat": 33.515264,
+  "lon": -81.726065,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },
@@ -714,6 +730,14 @@
   "lat": 33.550156,
   "lon": -81.806403,
   "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "restaurant-at-the-willcox": {
+  "q": "100 Colleton Avenue SW, Aiken, SC 29801",
+  "lat": 33.557137,
+  "lon": -81.72181,
+  "kind": "tourism",
   "exact": true,
   "at": "2026-11-19"
  },

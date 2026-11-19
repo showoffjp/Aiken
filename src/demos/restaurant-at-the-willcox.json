@@ -1,0 +1,519 @@
+{
+  "name": "The Restaurant at The Willcox",
+  "short": "The Willcox",
+  "category": "Restaurant, Bar & Afternoon Tea",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "cormorant",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f5f1ea",
+    "surface": "#fffdf8",
+    "ink": "#16181d",
+    "muted": "#575a60",
+    "primary": "#1f3a34",
+    "onPrimary": "#ffffff",
+    "accent": "#b08a4a",
+    "line": "#e4ddd0"
+  },
+  "radius": 4,
+  "icon": "wine",
+  "contact": {
+    "phone": "(803) 679-5050",
+    "phone2": "(803) 648-1898",
+    "phone2Label": "Hotel, takeaway & afternoon tea",
+    "email": "info@thewillcox.com",
+    "address": [
+      "100 Colleton Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "The Willcox, 100 Colleton Ave SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Every day",
+        "7:00 am – 10:00 pm"
+      ]
+    ],
+    "hoursNote": "Breakfast 7–11 am on weekdays and 7–9 am on weekends · Brunch 9 am–3 pm · Lunch 11:30 am–3 pm · Afternoon tea 3–5 pm, by reservation · Dinner 5–10 pm · Bites 11:30 am–10 pm.",
+    "facebook": "https://www.facebook.com/thewillcoxhotel/"
+  },
+  "hero": {
+    "eyebrow": "At The Willcox, downtown Aiken",
+    "title": "Dinner at *The Willcox*",
+    "lede": "An award-winning American kitchen and a curated wine program, served in the hotel’s dining room, the club-like lobby or out by the pool. Breakfast, lunch, afternoon tea, dinner and late bites, every day.",
+    "points": [
+      "Open 7 am – 10 pm daily",
+      "Afternoon tea, 3–5 pm",
+      "Private dining & catering"
+    ],
+    "cta": {
+      "label": "See the menus",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Reserve: (803) 679-5050",
+      "href": "tel:+18036795050"
+    },
+    "image": {
+      "src": "/demo-assets/restaurant-at-the-willcox/corner.webp",
+      "alt": "The Chesterfield and Colleton street signs at dusk, with string lights glowing behind",
+      "width": 2000,
+      "height": 1335
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/restaurant-at-the-willcox/corner.webp"
+  },
+  "facts": [
+    {
+      "value": "7 am–10 pm",
+      "label": "Open every day"
+    },
+    {
+      "value": "3–5 pm",
+      "label": "Afternoon tea"
+    },
+    {
+      "value": "Anywhere",
+      "label": "Catering from the mobile kitchen"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menus",
+      "eyebrow": "From the kitchen",
+      "title": "The *menus*",
+      "intro": "American cooking with a well-traveled chef’s accent, from a cooked-to-order breakfast to oysters and a filet at dinner. GF marks dishes made gluten-free.",
+      "groups": [
+        {
+          "title": "Breakfast",
+          "note": "7–11 am weekdays, 7–9 am weekends",
+          "items": [
+            {
+              "name": "Willcox breakfast",
+              "desc": "Two eggs any way, bacon, sausage, smashed potato, toast",
+              "price": "$22"
+            },
+            {
+              "name": "Eggs Benedict",
+              "desc": "Canadian bacon, poached egg, hollandaise",
+              "price": "$20"
+            },
+            {
+              "name": "Avocado & salmon toast",
+              "desc": "Multigrain bread, salmon lox, poached eggs",
+              "price": "$20"
+            },
+            {
+              "name": "Avocado B.L.T.E.",
+              "desc": "Fried egg, Nueske bacon, heirloom tomato, bibb lettuce, candied jalapeño remoulade",
+              "price": "$20"
+            },
+            {
+              "name": "Pancakes",
+              "desc": "Fresh fruit, whipped cream, maple syrup",
+              "price": "$16"
+            },
+            {
+              "name": "Greek yogurt parfait",
+              "desc": "Blueberry compote, strawberry coulis, vanilla almond granola, honey, berries",
+              "price": "$14"
+            }
+          ]
+        },
+        {
+          "title": "Lunch",
+          "note": "11:30 am – 3 pm",
+          "items": [
+            {
+              "name": "Tuna poke",
+              "desc": "Avocado, cilantro, wakame, sesame, yuzu ponzu",
+              "price": "$22"
+            },
+            {
+              "name": "Jumbo shrimp cocktail",
+              "desc": "Served chilled with cocktail sauce · GF",
+              "price": "$26"
+            },
+            {
+              "name": "Ham & burrata",
+              "desc": "Parma ham, heirloom tomatoes, honey basil vinaigrette, charred sourdough",
+              "price": "$20"
+            },
+            {
+              "name": "Roasted Sixty South salmon salad",
+              "desc": "Spring mix, pickled fennel, fig and honey chèvre, Castelvetrano olives",
+              "price": "$24"
+            },
+            {
+              "name": "The Willcox club sandwich",
+              "desc": "Rotisserie-style chicken, applewood smoked ham, thick-cut bacon, fries",
+              "price": "$20"
+            },
+            {
+              "name": "Shrimp and grits",
+              "desc": "Stone-ground grits, tomatoes, chorizo butter · GF",
+              "price": "$21"
+            },
+            {
+              "name": "Fish and chips",
+              "desc": "Battered cod, frites, malt vinegar aioli",
+              "price": "$18"
+            },
+            {
+              "name": "The Willcox burger",
+              "desc": "Bibb lettuce, tomato, Willcox sauce, cheese, frites",
+              "price": "$22"
+            }
+          ]
+        },
+        {
+          "title": "Afternoon tea",
+          "note": "3–5 pm, by reservation",
+          "items": [
+            {
+              "name": "Afternoon tea",
+              "desc": "Tea sandwiches, freshly baked scones and sweets, with a Tea Forte loose-leaf tea. Call (803) 648-1898 to reserve.",
+              "price": "$47.50 pp"
+            },
+            {
+              "name": "Savories",
+              "desc": "Cucumber and dill, smoked salmon, pimento cheese, egg salad"
+            },
+            {
+              "name": "Scones",
+              "desc": "Plain and raisin, served warm with clotted cream and strawberry preserves"
+            },
+            {
+              "name": "Sweets",
+              "desc": "Lemon finger, apple lattice, pecan tart, French macarons"
+            }
+          ]
+        },
+        {
+          "title": "Dinner",
+          "note": "5–10 pm",
+          "items": [
+            {
+              "name": "Today’s oysters",
+              "desc": "Cocktail sauce, mignonette, lemon · GF",
+              "price": "MP"
+            },
+            {
+              "name": "Broiled jumbo lump crab cake",
+              "desc": "Peach salsa, arugula, citrus vinaigrette",
+              "price": "$25"
+            },
+            {
+              "name": "Berkshire pork chop",
+              "desc": "Parmesan grit cake, apricot brandy butter, crispy kale · GF",
+              "price": "$36"
+            },
+            {
+              "name": "CAB 6 oz filet",
+              "desc": "Black truffle gratin, broccolini, bordelaise, crispy shallots · GF",
+              "price": "$55"
+            },
+            {
+              "name": "CAB 16 oz ribeye",
+              "desc": "Crispy frites, roasted garlic herb butter",
+              "price": "$65"
+            },
+            {
+              "name": "Chilean sea bass",
+              "desc": "Salsa verde, charred cherry tomatoes · GF",
+              "price": "$47"
+            },
+            {
+              "name": "Sixty South salmon",
+              "desc": "Grilled corn relish, miso butter, grilled asparagus",
+              "price": "$32"
+            },
+            {
+              "name": "King trumpet mushrooms",
+              "desc": "Asparagus, poached egg, romesco, béarnaise, grilled lemon",
+              "price": "$29"
+            }
+          ]
+        },
+        {
+          "title": "Bites",
+          "note": "11:30 am – 10 pm",
+          "items": [
+            {
+              "name": "Lamb lollipops",
+              "desc": "Romesco sauce · GF",
+              "price": "$26"
+            },
+            {
+              "name": "CAB sliders",
+              "desc": "Bacon jam, pimento cheese",
+              "price": "$16"
+            },
+            {
+              "name": "Grilled baby back ribs",
+              "desc": "Korean barbecue, chicharrones · GF",
+              "price": "$16"
+            },
+            {
+              "name": "Shrimp tempura",
+              "desc": "Gulf shrimp, spicy aioli",
+              "price": "$16"
+            },
+            {
+              "name": "Cheese board",
+              "desc": "Three cheeses, nuts, preserves, fruit, crackers",
+              "price": "$30"
+            },
+            {
+              "name": "Parmesan truffle fries",
+              "price": "$8"
+            }
+          ]
+        },
+        {
+          "title": "Dessert",
+          "items": [
+            {
+              "name": "Warm chocolate bundt cake",
+              "desc": "Vanilla gelato, peanuts, chocolate sauce",
+              "price": "$14"
+            },
+            {
+              "name": "Lemon lavender crème brûlée",
+              "price": "$12"
+            },
+            {
+              "name": "Butterscotch budino",
+              "desc": "Hazelnuts, caramel sauce, whipped cream",
+              "price": "$12"
+            },
+            {
+              "name": "Salted caramel tart",
+              "desc": "Dark chocolate, espresso gelato",
+              "price": "$12"
+            }
+          ]
+        }
+      ],
+      "footnote": "A selection from The Willcox’s current menus, with posted prices. Menus change with the seasons; ask about brunch, the wine list and cocktails."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "The room",
+      "eyebrow": "Southern breezes, club comforts",
+      "title": "An American kitchen *with a well-traveled chef*",
+      "image": {
+        "src": "/demo-assets/restaurant-at-the-willcox/plaid-room.webp",
+        "alt": "Friends dining under equestrian paintings in the plaid-curtained dining room",
+        "width": 900,
+        "height": 644
+      },
+      "body": [
+        "The kitchen’s reputation is built on the creative talents of its chefs. The menu is American, though the executive chef draws inspiration from international travels, and the wine program is recognized for its selection from renowned regions around the world.",
+        "Enjoy Southern breezes poolside, the cozy club setting of the lobby, or the dining room. Wherever you sit, the cooking is seasonal and, whenever possible, sourced from sustainable and local farms."
+      ],
+      "list": [
+        "A curated wine program",
+        "Seasonal and locally sourced when possible",
+        "Dining room, lobby or poolside"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "From the table",
+      "title": "Breakfast *to nightcap*",
+      "images": [
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/steak-dinner.webp",
+          "alt": "A steak being sliced beside a green salad and a glass of red wine",
+          "width": 1418,
+          "height": 1038
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/breakfast.webp",
+          "alt": "Two sunny-side-up eggs with bacon and toast on a white plate",
+          "width": 1418,
+          "height": 1038
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/mussels.webp",
+          "alt": "A chef in gloves plating mussels into orange cocottes",
+          "width": 900,
+          "height": 600
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/porch-breakfast.webp",
+          "alt": "Two guests in white robes toasting with sparkling wine on the porch",
+          "width": 900,
+          "height": 644
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/avocado-toast.webp",
+          "alt": "Avocado toast topped with a poached egg",
+          "width": 1417,
+          "height": 1038
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/salmon-salad.webp",
+          "alt": "A salmon fillet over a chopped salad with pomegranate seeds",
+          "width": 900,
+          "height": 660
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/lamb.webp",
+          "alt": "A lamb chop with a glossy sauce on a white plate",
+          "width": 900,
+          "height": 660
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/afternoon-tea.webp",
+          "alt": "A tiered stand of tea sandwiches and sweets in the lobby",
+          "width": 900,
+          "height": 660
+        },
+        {
+          "src": "/demo-assets/restaurant-at-the-willcox/creme-brulee.webp",
+          "alt": "A crème brûlée with coffee on a white tablecloth",
+          "width": 900,
+          "height": 660
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "gather",
+      "nav": "Private dining",
+      "eyebrow": "Gatherings",
+      "title": "Private dining, *Provisions and catering*",
+      "intro": "From a wine-paired dinner in a private room to a polo-field picnic, the restaurant’s team plans every detail.",
+      "columns": [
+        {
+          "title": "Private dining",
+          "items": [
+            "Celebrations and special occasions in rooms rich in character",
+            "Buffet-style or plated menus from the chef",
+            "Wine-paired dinners and a jazz trio on request"
+          ]
+        },
+        {
+          "title": "Willcox Provisions",
+          "items": [
+            "Chef-prepared food to pick up and take with you",
+            "Plates, cutlery and napkins included",
+            "Made for picnics, polo, concerts and parties at home"
+          ]
+        },
+        {
+          "title": "Catering anywhere",
+          "items": [
+            "The Willcox Mobile Kitchen cooks on site, even where there’s no kitchen",
+            "Estates, farms, polo fields and historic venues",
+            "China, silver and glassware arranged, and yes, they’ll do the dishes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "provisions",
+      "nav": "Provisions",
+      "eyebrow": "Willcox Provisions",
+      "title": "Take The Willcox *to the polo*",
+      "image": {
+        "src": "/demo-assets/restaurant-at-the-willcox/polo-picnic.webp",
+        "alt": "Two guests in folding chairs watching polo from a rug-and-table picnic set on the field",
+        "width": 1400,
+        "height": 933
+      },
+      "body": [
+        "Willcox Provisions make entertaining easy: place your order, pick it up and enjoy. Each chef-prepared offering comes with everything you need, from plates to napkins, so a picnic at the polo field or a concert on the lawn feels like a table at the restaurant.",
+        "Takeaway works the same way for every day. The breakfast, lunch, dinner and bites menus are all available for pick-up: call (803) 648-1898 to order."
+      ],
+      "list": [
+        "Order ahead, pick up, enjoy",
+        "Everything packed, down to the napkins",
+        "Breakfast, lunch, dinner and bites to go"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How do I reserve a table?",
+          "a": "Book through OpenTable or call the restaurant at (803) 679-5050."
+        },
+        {
+          "q": "When is afternoon tea?",
+          "a": "From 3 to 5 pm, at $47.50 per person. Call (803) 648-1898 to reserve."
+        },
+        {
+          "q": "Can I order takeaway?",
+          "a": "Yes. The breakfast, lunch, dinner and bites menus are all available for pick-up. Call (803) 648-1898 to order."
+        },
+        {
+          "q": "Is the restaurant wheelchair accessible?",
+          "a": "Yes. A handicap parking space and a ramp entrance are at the east gate, and the restaurant, bar and public restrooms are on the entry level."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "A table at The Willcox",
+      "text": "Breakfast to late bites, every day on Colleton Avenue.",
+      "cta": {
+        "label": "Call (803) 679-5050",
+        "href": "tel:+18036795050"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Colleton Avenue*",
+    "formTitle": "Plan a private dinner or catering",
+    "formTopics": [
+      "A table reservation",
+      "Afternoon tea",
+      "A private dinner or celebration",
+      "Catering or Willcox Provisions",
+      "Something else"
+    ]
+  },
+  "slug": "restaurant-at-the-willcox",
+  "added": "2026-11-19",
+  "prospect": "the-restaurant-at-the-willcox",
+  "source": {
+    "url": "https://thewillcox.com/dine/",
+    "before": [
+      "The menus misspell the restaurant’s own name (“Wilcox CAB Burger” on brunch), and the bar list has “Liqor 43” and “Tequilla”",
+      "A 14.3 MB page that takes about 19 seconds to show its main content on a phone (Google Lighthouse speed score: 46 out of 100)",
+      "On a phone, the first screen shows no phone number or call button"
+    ],
+    "after": [
+      "Every menu on one page with prices, quick to search and to print",
+      "Each meal’s hours in one place, with an “Open now” sign",
+      "One tap to call for a table",
+      "Private dining, Provisions and catering side by side"
+    ]
+  },
+  "style": {
+    "services": "rows",
+    "facts": "ticker",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "underline"
+  }
+}

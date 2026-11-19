@@ -1192,6 +1192,26 @@
    "at": "2026-11-19"
   }
  },
+ "legis-equine-insurance": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 14,
+   "targets": 24,
+   "smallTargets": 2,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 33,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
  "little-red-fox-shop": {
   "concept": {
    "call": true,
@@ -1232,6 +1252,26 @@
    "overflow": false,
    "tinyText": 0,
    "targets": 16,
+   "smallTargets": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "mark-taylor-insurance": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 29,
+   "smallTargets": 14,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 34,
    "smallTargets": 0,
    "at": "2026-11-19"
   }
@@ -1794,6 +1834,26 @@
    "tinyText": 0,
    "targets": 28,
    "smallTargets": 13,
+   "at": "2026-11-19"
+  }
+ },
+ "the-restaurant-at-the-willcox": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 38,
+   "smallTargets": 7,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 49,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },

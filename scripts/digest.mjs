@@ -11,6 +11,7 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import sharp from 'sharp';
 import { fetchUrl, pool, decode, CACHE_DIR } from './lib/http.mjs';
+import { blocks } from './lib/text.mjs';
 
 const require = createRequire(import.meta.url);
 const ROOT = path.resolve(CACHE_DIR, '..');
@@ -21,20 +22,6 @@ const noShot = process.argv.includes('--no-shot');
 const MAX_PAGES = 12;
 const PRIORITY = /about|service|menu|contact|hour|product|galler|photo|histor|staff|team|faq|pric|rate|special|room|suite|portfolio|project|testimon|review|location|catering|party|league|bowl|policy/i;
 const SKIP_LINK = /\.(pdf|jpe?g|png|gif|zip|docx?|xlsx?|mp4|mov|webp|svg)(\?|$)|mailto:|tel:|javascript:|#|\/(wp-admin|wp-login|cart|checkout|my-account|feed|tag|category|author)\b|\?(replytocom|share|add-to-cart)/i;
-
-function blocks(html) {
-  // Old hand-edited pages often have content outside <body>, so drop the
-  // <head> instead of trusting the body tags.
-  const body = html.replace(/<head\b[\s\S]*?<\/head>/i, ' ')
-    .replace(/<(script|style|noscript|svg|iframe|select|template)\b[\s\S]*?<\/\1>/gi, ' ')
-    .replace(/<!--[\s\S]*?-->/g, ' ');
-  const marked = body
-    .replace(/<h([1-4])\b[^>]*>/gi, '\n\n#$1 ')
-    .replace(/<li\b[^>]*>/gi, '\n- ')
-    .replace(/<(br|\/p|\/div|\/tr|\/h[1-6]|\/li|\/td|\/th|\/section|\/article|\/table|\/ul|\/ol|\/dd|\/dt|\/blockquote|\/address|\/figcaption)\b[^>]*>/gi, '\n')
-    .replace(/<[^>]+>/g, ' ');
-  return decode(marked).split('\n').map((l) => l.replace(/[ \t ]+/g, ' ').trim()).filter((l) => l.length > 1);
-}
 
 function imagesIn(html, base) {
   const out = [];
