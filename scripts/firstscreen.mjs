@@ -98,7 +98,10 @@ async function readable() {
   const W = innerWidth;
   // A page with no mobile viewport is laid out ~980px wide and shrunk to fit
   // the phone, so its text and buttons look smaller than their CSS sizes.
-  const scale = Math.min(1, screen.width / W);
+  // A page that declares width=device-width is drawn at phone width (any
+  // overflow shows up in the sideways check instead).
+  const vp = document.querySelector('meta[name="viewport"]')?.content || '';
+  const scale = /width\s*=\s*device-width/i.test(vp) ? 1 : Math.min(1, screen.width / W);
   const doc = document.documentElement;
   // Wider than the screen, and a visitor can actually drag it sideways (a page
   // whose overflow is clipped doesn't count).
@@ -158,7 +161,15 @@ const work = async () => {
     try {
       await page.goto(t.url, { waitUntil: 'load', timeout: 45000 });
       await page.waitForTimeout(2500);
-      const r = { ...(await page.evaluate(firstScreen, t.phone)), ...(await page.evaluate(readable)) };
+      let r = { ...(await page.evaluate(firstScreen, t.phone)), ...(await page.evaluate(readable)) };
+      // A page with no links or buttons at all is a bot check or a half-loaded
+      // page, not the site: look once more, and skip it if it's still empty.
+      if (mode === 'site' && !r.targets) {
+        await page.goto(t.url, { waitUntil: 'load', timeout: 45000 });
+        await page.waitForTimeout(4000);
+        r = { ...(await page.evaluate(firstScreen, t.phone)), ...(await page.evaluate(readable)) };
+        if (!r.targets) { console.log(`  ${++done}/${targets.length} ${t.key}: skipped, the page had no links or buttons (a bot check?)`); continue; }
+      }
       (results[t.key] ||= {})[mode] = { ...r, at };
       console.log(`  ${++done}/${targets.length} ${t.key}: call ${r.call ? 'yes' : 'NO'}, number ${r.number ? 'yes' : 'no'}, sideways ${r.overflow ? 'YES' : 'no'}, tiny text ${r.tinyText}%, small targets ${r.smallTargets}/${r.targets}`);
     } catch (e) {

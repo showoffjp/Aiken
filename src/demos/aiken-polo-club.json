@@ -1,0 +1,325 @@
+{
+  "name": "Aiken Polo Club",
+  "short": "Aiken Polo",
+  "category": "Polo Club",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "established": "1882",
+  "look": "editorial",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f5f3ec",
+    "surface": "#fffdf7",
+    "ink": "#16231b",
+    "muted": "#55625a",
+    "primary": "#1f4d36",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a227",
+    "line": "#e2dccb"
+  },
+  "radius": 10,
+  "icon": "trophy",
+  "contact": {
+    "phone": "(803) 643-3611",
+    "phoneLabel": "Polo hotline",
+    "phone2": "(803) 646-3301",
+    "phone2Label": "Polo manager",
+    "email": "aikenpoloclub@gmail.com",
+    "address": [
+      "420 Mead Avenue",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Whitney Polo Field, 420 Mead Ave, Aiken, SC 29801",
+    "hours": [
+      [
+        "Sundays, spring & fall",
+        "Matches at 2:00 & 3:30 pm"
+      ]
+    ],
+    "hoursNote": "The pavilion opens at 1 pm. Call the hotline before you head out, especially if it’s wet.",
+    "facebook": "https://www.facebook.com/220971135172"
+  },
+  "hero": {
+    "eyebrow": "Polo in Aiken since 1882",
+    "title": "Sunday polo on *historic Whitney Field*",
+    "lede": "Matches open to the public every Sunday in spring and fall, at 2 and 3:30 pm, in the heart of Aiken’s historic horse district. General admission is $10, and parking in the sand lot is free.",
+    "points": [
+      "Sundays at 2 & 3:30",
+      "$10 admission",
+      "Pavilion with open bar"
+    ],
+    "cta": {
+      "label": "Plan your Sunday",
+      "href": "#sundays"
+    },
+    "cta2": {
+      "label": "Call the polo hotline",
+      "href": "tel:+18036433611"
+    },
+    "image": {
+      "src": "/demo-assets/aiken-polo-club/chukker.webp",
+      "alt": "Polo players in white galloping shoulder to shoulder after the ball",
+      "width": 2000,
+      "height": 1128
+    }
+  },
+  "cinematic": {
+    "heroImage": "/demo-assets/aiken-polo-club/chukker.webp"
+  },
+  "facts": [
+    {
+      "value": "1882",
+      "label": "Polo comes to Aiken"
+    },
+    {
+      "value": "$10",
+      "label": "General admission"
+    },
+    {
+      "value": "2 & 3:30",
+      "label": "Sunday match times"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "sundays",
+      "nav": "Sundays",
+      "eyebrow": "Spring and fall",
+      "title": "Your Sunday *at the polo*",
+      "intro": "Games usually last an hour and a half to two hours. Check the hotline, (803) 643-3611, before heading to the field, especially when it’s wet or the weather looks threatening.",
+      "groups": [
+        {
+          "title": "Admission",
+          "note": "Per person",
+          "items": [
+            {
+              "name": "General admission",
+              "price": "$10",
+              "desc": "Free parking in the sand lot next to the field"
+            },
+            {
+              "name": "Alan Lyle Corey Pavilion",
+              "price": "$75",
+              "desc": "Open bar and catered food"
+            }
+          ]
+        },
+        {
+          "title": "Parking",
+          "note": "Per car",
+          "items": [
+            {
+              "name": "Field-side parking",
+              "price": "$50",
+              "desc": "Limited spaces along the field"
+            },
+            {
+              "name": "Sand lot on Mead Avenue",
+              "price": "Free"
+            }
+          ]
+        }
+      ],
+      "footnote": "In 2025 the pavilion was catered by Park Avenue Oyster Bar and The Willcox. The horses can jump the boards during play, so stay 15 feet back from them."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "On the field",
+      "title": "Fast ponies, *close calls*",
+      "images": [
+        {
+          "src": "/demo-assets/aiken-polo-club/ride-off.webp",
+          "alt": "Two players riding side by side, one raising his mallet for a swing",
+          "width": 1500,
+          "height": 1928
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/gallop.webp",
+          "alt": "A player in green galloping a chestnut pony past the tents",
+          "width": 1500,
+          "height": 1000
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/pack.webp",
+          "alt": "Players in pink and white racing in a pack toward the ball",
+          "width": 1500,
+          "height": 1000
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/duel.webp",
+          "alt": "Two riders in green and pink chasing the ball across the field",
+          "width": 1500,
+          "height": 985
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/charge.webp",
+          "alt": "Two players at full gallop, their ponies stretched out over the grass",
+          "width": 1500,
+          "height": 985
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/pavilion.webp",
+          "alt": "A play in front of the green-roofed pavilion",
+          "width": 1500,
+          "height": 985
+        },
+        {
+          "src": "/demo-assets/aiken-polo-club/near-boards.webp",
+          "alt": "Players turning near the boards, horse trailers parked beyond",
+          "width": 1500,
+          "height": 985
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "History",
+      "eyebrow": "Since 1882",
+      "title": "Where American polo *wintered*",
+      "body": [
+        "Polo arrived in Aiken in 1882, just six years after the game reached this side of the Atlantic. It became part of Winter Colony life, drawing many of the best players in the country and the world, and by World War II Aiken was the center of American polo in the winter months.",
+        "Today Aiken has an international reputation as a place to play, and to breed and train polo ponies. Players come for the spring season on their way north from Florida and for the fall on their way south, and more of them now stay all year."
+      ],
+      "list": [
+        "Sunday matches on Whitney Field, 420 Mead Avenue",
+        "Weekday matches on the Powderhouse polo fields",
+        "Aiken Youth Polo, coached by Tiger Kneece"
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "membership",
+      "nav": "Membership",
+      "eyebrow": "Make it a season",
+      "title": "Annual *memberships*",
+      "groups": [
+        {
+          "title": "Memberships",
+          "note": "Per year",
+          "items": [
+            {
+              "name": "Pavilion social",
+              "price": "$1,000",
+              "desc": "The Alan Corey Pavilion every Sunday, with open bar and catered food"
+            },
+            {
+              "name": "Field-side parking",
+              "price": "$1,600",
+              "desc": "Your own tailgate spot on Sundays, plus two pavilion wristbands"
+            },
+            {
+              "name": "Player",
+              "price": "$2,000",
+              "desc": "Practices Wednesday and Friday afternoons and Sunday mornings, two pavilion wristbands, and $500 off one tournament entry per team"
+            }
+          ]
+        }
+      ],
+      "footnote": "Pop-up tents, tables and chairs are welcome at field-side spots."
+    },
+    {
+      "type": "services",
+      "id": "people",
+      "nav": "Who to call",
+      "columns": 3,
+      "eyebrow": "Get in touch",
+      "title": "The people *behind the club*",
+      "items": [
+        {
+          "icon": "trophy",
+          "title": "Tiger Kneece, polo manager",
+          "text": "A former 7-goal professional who runs practices and tournaments and coaches Aiken Youth Polo. (803) 646-3301."
+        },
+        {
+          "icon": "megaphone",
+          "title": "Susie Kneece, marketing",
+          "text": "Sponsorships, advertising in the Aiken Polo Magazine, annual parking and club questions. (803) 295-8971."
+        },
+        {
+          "icon": "users",
+          "title": "Charlie Bostwick, president",
+          "text": "Grew up playing on Aiken’s fields; his father, Hall of Fame player Pete Bostwick, started playing at the club in the 1930s."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before *you come*",
+      "items": [
+        {
+          "q": "What if it rains?",
+          "a": "Call the polo hotline, (803) 643-3611, before you head to the field. Matches can change when it’s wet or the weather looks threatening."
+        },
+        {
+          "q": "How long does a match last?",
+          "a": "Usually an hour and a half to two hours. There are two matches each Sunday, at 2 and 3:30 pm."
+        },
+        {
+          "q": "Where do I park?",
+          "a": "The sand lot next to the field on Mead Avenue is free. Field-side spots are $50 per car, and there are only a few."
+        },
+        {
+          "q": "Are there weekday matches?",
+          "a": "Yes, on the Powderhouse polo fields, usually with no announcer and tailgating only. Check the tournament schedule or the hotline."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "See you Sunday",
+      "text": "Matches at 2 and 3:30 pm on Whitney Field, every spring and fall.",
+      "cta": {
+        "label": "Call the polo hotline",
+        "href": "tel:+18036433611"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Mead Avenue*",
+    "formTitle": "Ask about tickets or memberships",
+    "formTopics": [
+      "Sunday tickets",
+      "The pavilion",
+      "Membership",
+      "Sponsorship",
+      "Youth polo"
+    ]
+  },
+  "slug": "aiken-polo-club",
+  "added": "2026-11-19",
+  "prospect": "aiken-polo-club",
+  "source": {
+    "url": "https://aikenpolo.org/",
+    "before": [
+      "On a phone the main image takes about 17 seconds to appear (Google Lighthouse speed score: 23 out of 100)",
+      "The About page still says Aiken polo has a “134-year history”; since 1882, it’s 144 years",
+      "The page title is just “Aiken Polo Club |”, and there’s no description for Google results",
+      "Pinch-to-zoom is turned off on phones, and five links have no words a screen reader can announce"
+    ],
+    "after": [
+      "Match times, admission and parking on the first screens",
+      "Memberships side by side, with what each includes",
+      "The club’s story since 1882, kept current",
+      "One tap to the polo hotline"
+    ]
+  },
+  "style": {
+    "services": "tiles",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "outline"
+  }
+}

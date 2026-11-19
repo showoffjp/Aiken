@@ -265,7 +265,17 @@ const results = await pool(targets, 8, async (b) => {
 
   const finalHost = (() => { try { return new URL(res.finalUrl).hostname.replace(/^www\./, ''); } catch { return ''; } })();
   const httpOnlyFinal = res.finalUrl.startsWith('http://');
-  const a = analyse(res, httpsWorks, httpOnlyFinal);
+  let a = analyse(res, httpsWorks, httpOnlyFinal);
+  // A short "one moment, please" page is often a host's brief rate limit (for
+  // example right after the content crawl); look again before calling it blocked.
+  if (a.state === 'blocked') {
+    await new Promise((r) => setTimeout(r, 8000));
+    const again = await fetchUrl(res.finalUrl, { bucket: 'sites', timeout: 25, refresh: true });
+    if (again.ok && again.status < 400) {
+      const b2 = analyse(again, httpsWorks, httpOnlyFinal);
+      if (b2.state !== 'blocked') { res = again; a = b2; }
+    }
+  }
   if (scriptRedirect && a.score !== null) { a.score = Math.min(100, a.score + 6); a.findings.push('Home page is a script/meta-refresh redirect'); }
   if (finalHost && finalHost !== b.host && /facebook\.com|instagram\.com|godaddy\.com|wix\.com$|squarespace\.com$|hugedomains|dan\.com|afternic|sedo\.com/i.test(finalHost)) a.state = /facebook|instagram/.test(finalHost) ? 'redirects-to-social' : 'parked';
 

@@ -47,7 +47,8 @@ async function locate(d) {
   if (!addr?.length || !/\d/.test(addr[0])) return null; // no street address to pin
   const key = addr.join(', ');
   if (!refresh && geo[d.slug]?.q === key) return geo[d.slug];
-  const exactOf = (h) => h && !['road', 'city', 'town', 'village', 'postcode', 'county', 'state', 'hamlet', 'suburb', 'municipality'].includes(h.addresstype);
+  // A street, or a whole town, is not the address: the pin could be miles off.
+  const exactOf = (h) => h && h.category !== 'highway' && !['road', 'city', 'town', 'village', 'postcode', 'county', 'state', 'hamlet', 'suburb', 'municipality', 'neighbourhood'].includes(h.addresstype);
   let hit = await nominatim(key);
   // "Suite 4", a plaza name and the like confuse the geocoder; try the plain
   // street line, then the business's own name and address.

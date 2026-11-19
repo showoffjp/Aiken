@@ -25033,5 +25033,731 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "aiken-polo-club": {
+  "slug": "aiken-polo-club",
+  "name": "Aiken Polo Club",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikenpolo.org",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://aikenpolo.org/",
+    "title": "Aiken Polo Club |",
+    "description": "",
+    "canonical": "https://aikenpolo.org/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Aiken Polo"
+    ],
+    "h1Count": 1,
+    "h2": 10,
+    "h3": 1,
+    "words": 477,
+    "images": 14,
+    "imagesNoAlt": 11,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://aikenpolo.org/sitemap.xml",
+    "pages": 9
+   },
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 8,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 45,
+    "images": 48,
+    "sample": [
+     {
+      "url": "https://aikenpolo.org/",
+      "title": "Aiken Polo Club |",
+      "description": 0,
+      "h1": 1,
+      "words": 477
+     },
+     {
+      "url": "https://aikenpolo.org/about/",
+      "title": "About | Aiken Polo Club",
+      "description": 0,
+      "h1": 3,
+      "words": 742
+     },
+     {
+      "url": "https://aikenpolo.org/get-involved/",
+      "title": "Get Involved | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 550
+     },
+     {
+      "url": "https://aikenpolo.org/aiken-youth-polo/",
+      "title": "Aiken Youth Polo | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 247
+     },
+     {
+      "url": "https://aikenpolo.org/sunday-polo/",
+      "title": "Sunday Polo | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 270
+     },
+     {
+      "url": "https://aikenpolo.org/fall-2026/",
+      "title": "Fall 2026 | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 183
+     },
+     {
+      "url": "https://aikenpolo.org/player-forms/",
+      "title": "Player Forms | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 193
+     },
+     {
+      "url": "https://aikenpolo.org/events/",
+      "title": "Events | Aiken Polo Club",
+      "description": 0,
+      "h1": 1,
+      "words": 106
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 23,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://facebook.com/220971135172",
+    "Instagram": "https://www.instagram.com/aikenpoloclub"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Polo Club",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 5
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 20
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=133&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=9a36795d3a4b8020090c00874ebbaa30",
+    "name": "Aiken Polo Club",
+    "phone": "(803) 270-6195",
+    "website": "http://www.aikenpolo.org",
+    "address": "PO Box 3021, Aiken, SC 29802",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/whitney_field/",
+    "name": "Whitney Field",
+    "phone": "803-643-3611",
+    "website": "http://aikenpolo.org/",
+    "address": "420 Mead Avenue Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://facebook.com/220971135172",
+    "Instagram": "https://www.instagram.com/aikenpoloclub"
+   },
+   "listed": {
+    "Facebook": "https://facebook.com/220971135172",
+    "Instagram": "https://www.instagram.com/aikenpoloclub"
+   }
+  },
+  "domain": {
+   "name": "aikenpolo.org",
+   "created": "2016-07-07",
+   "expires": "2027-07-07",
+   "registrar": "Tucows Domains Inc.",
+   "years": 10
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 59,
+   "social": 55,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "return-engagement": {
+  "slug": "return-engagement",
+  "name": "Return Engagement",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "returnengagementaiken.com",
+   "https": true,
+   "pagesCrawled": 6,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://returnengagementaiken.com/",
+    "title": "Return Engagement",
+    "description": "",
+    "canonical": "https://returnengagementaiken.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home"
+    ],
+    "h1Count": 1,
+    "h2": 1,
+    "h3": 1,
+    "words": 141,
+    "images": 13,
+    "imagesNoAlt": 8,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://returnengagementaiken.com/wp-sitemap.xml",
+    "pages": 8
+   },
+   "crawl": {
+    "pages": 6,
+    "missingTitle": 0,
+    "missingDescription": 6,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 0,
+    "imagesNoAlt": 19,
+    "images": 34,
+    "sample": [
+     {
+      "url": "https://returnengagementaiken.com/",
+      "title": "Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 141
+     },
+     {
+      "url": "https://returnengagementaiken.com/news/",
+      "title": "News - Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 116
+     },
+     {
+      "url": "https://returnengagementaiken.com/designer-apparel/",
+      "title": "Designer Apparel - Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 294
+     },
+     {
+      "url": "https://returnengagementaiken.com/policies/vendor-packet/",
+      "title": "Policy - Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 1263
+     },
+     {
+      "url": "https://returnengagementaiken.com/contact/",
+      "title": "Contact - Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 32
+     },
+     {
+      "url": "https://returnengagementaiken.com/",
+      "title": "Return Engagement",
+      "description": 0,
+      "h1": 1,
+      "words": 141
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 7,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Consignment Boutique",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=813&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=7760732a02a96e6e9b0a2829c16ffcf1",
+    "name": "Return Engagement",
+    "phone": "(803) 642-3337",
+    "website": "http://www.returnengagementaiken.com",
+    "address": "151 Laurens Street, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/return_engagement/",
+    "name": "Return Engagement",
+    "phone": "(803) 642-3337",
+    "website": "https://www.facebook.com/returnengagementaiken/photos/a.161732210508481.42854.117167891631580/1022979157717111/?type=1&theater",
+    "address": "151 Laurens St. SW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": false
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Return Engagement",
+    "phone": "",
+    "website": "https://returnengagementaiken.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/returnengagementaiken/photos/a.161732210508481.42854.117167891631580/1022979157717111/?type=1&theater"
+   }
+  },
+  "domain": {
+   "name": "returnengagementaiken.com",
+   "created": "2011-06-04",
+   "expires": "2027-06-04",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 15
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2931,
+   "tbt": 0,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "competitorSlugs": [
+   "candy-shop-vintage-llc",
+   "curated-clothiers-llc",
+   "dear-soul-candle-co",
+   "fox-and-the-bee-farm",
+   "high-cotton-uptown"
+  ],
+  "scores": {
+   "seo": 49,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "candy-shop-vintage-llc",
+    "name": "Candy Shop Vintage LLC",
+    "website": "https://www.candyshopvintage.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 66,
+    "pageMB": 2.7,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 17
+   },
+   {
+    "slug": "curated-clothiers-llc",
+    "name": "Curated Clothiers LLC",
+    "website": "https://www.curatedclothiers.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 81,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "fox-and-the-bee-farm",
+    "name": "Fox & The Bee Farm",
+    "website": "https://foxandthebeefarm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 69,
+    "pageMB": 1.2,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "high-cotton-uptown",
+    "name": "High Cotton Uptown",
+    "website": "https://highcottondowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 22,
+    "pageMB": 2.7,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 2
+   }
+  ]
+ },
+ "south-on-whiskey": {
+  "slug": "south-on-whiskey",
+  "name": "South on Whiskey",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "southonwhiskey.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://southonwhiskey.com/",
+    "title": "South On Whiskey - Event Venue in Aiken SC",
+    "description": "",
+    "canonical": "https://southonwhiskey.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 1,
+    "h3": 5,
+    "words": 626,
+    "images": 24,
+    "imagesNoAlt": 8,
+    "schemaTypes": [
+     "EventVenue",
+     "PostalAddress",
+     "FAQPage",
+     "Question",
+     "Answer"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": true,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://southonwhiskey.com/wp-sitemap.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 8,
+    "missingH1": 5,
+    "multipleH1": 0,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 61,
+    "images": 161,
+    "sample": [
+     {
+      "url": "https://southonwhiskey.com/",
+      "title": "South On Whiskey - Event Venue in Aiken SC",
+      "description": 0,
+      "h1": 0,
+      "words": 626
+     },
+     {
+      "url": "https://southonwhiskey.com/venue/",
+      "title": "Venue - South On Whiskey",
+      "description": 0,
+      "h1": 1,
+      "words": 837
+     },
+     {
+      "url": "https://southonwhiskey.com/reviews/",
+      "title": "Reviews - South On Whiskey",
+      "description": 0,
+      "h1": 1,
+      "words": 789
+     },
+     {
+      "url": "https://southonwhiskey.com/gallery/",
+      "title": "Gallery - South On Whiskey",
+      "description": 0,
+      "h1": 0,
+      "words": 102
+     },
+     {
+      "url": "https://southonwhiskey.com/faqs/",
+      "title": "FAQs - South On Whiskey",
+      "description": 0,
+      "h1": 0,
+      "words": 358
+     },
+     {
+      "url": "https://southonwhiskey.com/news-blog/",
+      "title": "News-Blog - South On Whiskey",
+      "description": 0,
+      "h1": 0,
+      "words": 172
+     },
+     {
+      "url": "https://southonwhiskey.com/contact-us/",
+      "title": "Contact Us - South On Whiskey",
+      "description": 0,
+      "h1": 0,
+      "words": 175
+     },
+     {
+      "url": "https://southonwhiskey.com/ditch-the-boardroom-why-off-site-venues-boost-team-creativity/",
+      "title": "Ditch the Boardroom: Why Off-Site Venues Boost Team Creativity - South On Whiskey",
+      "description": 0,
+      "h1": 1,
+      "words": 639
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 32,
+    "broken": [
+     {
+      "url": "https://southonwhiskey.com/cdn-cgi/l/email-protection",
+      "status": 404,
+      "from": "https://southonwhiskey.com/venue"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/southonwhiskey/",
+    "LinkedIn": "https://www.linkedin.com/company/south-on-whiskey/",
+    "Yelp": "https://www.yelp.com/biz/south-on-whiskey-aiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Event Venue",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/south_on_whiskey/",
+    "name": "South on Whiskey",
+    "phone": "(803) 643-1715",
+    "website": "https://www.southonwhiskey.com/",
+    "address": "3197 Whiskey Road Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/southonwhiskey/",
+    "LinkedIn": "https://www.linkedin.com/company/south-on-whiskey/",
+    "Yelp": "https://www.yelp.com/biz/south-on-whiskey-aiken"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/southonwhiskey/"
+   }
+  },
+  "domain": {
+   "name": "southonwhiskey.com",
+   "created": "2019-07-25",
+   "expires": "2027-07-25",
+   "registrar": "IONOS SE",
+   "years": 7
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 57,
+   "social": 50,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }

@@ -252,11 +252,18 @@
  },
  "aiken-polo-club": {
   "site": {
-   "bytes": 4001044,
+   "bytes": 4002322,
    "requests": 106,
-   "loadMs": 4598,
+   "loadMs": 4530,
    "url": "https://aikenpolo.org/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 687167,
+   "requests": 9,
+   "loadMs": 184,
+   "url": "/aiken-polo-club/",
+   "at": "2026-11-19"
   }
  },
  "aiken-saddlery": {
@@ -2939,11 +2946,18 @@
  },
  "return-engagement": {
   "site": {
-   "bytes": 4169685,
+   "bytes": 4168778,
    "requests": 75,
-   "loadMs": 2826,
+   "loadMs": 1799,
    "url": "https://returnengagementaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 733170,
+   "requests": 13,
+   "loadMs": 118,
+   "url": "/return-engagement/",
+   "at": "2026-11-19"
   }
  },
  "rhumba-latin-restaurant-and-bar": {
@@ -3198,11 +3212,18 @@
  },
  "south-on-whiskey": {
   "site": {
-   "bytes": 2883314,
+   "bytes": 2884860,
    "requests": 89,
-   "loadMs": 6045,
+   "loadMs": 3808,
    "url": "https://southonwhiskey.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "bytes": 1071955,
+   "requests": 16,
+   "loadMs": 163,
+   "url": "/south-on-whiskey/",
+   "at": "2026-11-19"
   }
  },
  "southern-equine-service": {

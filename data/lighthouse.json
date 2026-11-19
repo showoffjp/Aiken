@@ -3590,5 +3590,83 @@
    "cls": 0,
    "at": "2026-11-19"
   }
+ },
+ "aiken-polo-club": {
+  "site": {
+   "performance": 23,
+   "accessibility": 79,
+   "bestPractices": 96,
+   "seo": 77,
+   "fcp": 5904,
+   "lcp": 16944,
+   "tbt": 373,
+   "si": 9706,
+   "cls": 0.899,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1055,
+   "lcp": 2480,
+   "tbt": 113,
+   "si": 1055,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "south-on-whiskey": {
+  "site": {
+   "performance": 58,
+   "accessibility": 89,
+   "bestPractices": 82,
+   "seo": 92,
+   "fcp": 2351,
+   "lcp": 7594,
+   "tbt": 347,
+   "si": 7504,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2256,
+   "tbt": 35,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "return-engagement": {
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2931,
+   "tbt": 0,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "site": {
+   "performance": 57,
+   "accessibility": 93,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 6799,
+   "lcp": 16456,
+   "tbt": 82,
+   "si": 7517,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
  }
 }

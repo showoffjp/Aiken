@@ -47,6 +47,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "aiken-polo-club": {
+  "q": "420 Mead Avenue, Aiken, SC 29801",
+  "lat": 33.546042,
+  "lon": -81.714969,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "allstar-tents": {
   "q": "176 Bettis Academy Road, Graniteville, SC 29829",
   "lat": 33.577415,
@@ -221,9 +229,9 @@
  },
  "downtown-dog": {
   "q": "150-A Laurens Street SW, Aiken, SC 29801",
-  "lat": 33.554484,
-  "lon": -81.726532,
-  "kind": "residential",
+  "lat": 33.560093,
+  "lon": -81.72288,
+  "kind": "shop",
   "exact": true,
   "at": "2026-11-19"
  },
@@ -245,9 +253,9 @@
  },
  "elevate-aiken": {
   "q": "311 Hayne Avenue SW, Aiken, SC 29801",
-  "lat": 33.561027,
-  "lon": -81.727231,
-  "kind": "unclassified",
+  "lat": 33.560504,
+  "lon": -81.723241,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },
@@ -442,9 +450,9 @@
  },
  "los-tres-compadres": {
   "q": "3566 Richland Avenue West, Aiken, SC 29801",
-  "lat": 33.561196,
-  "lon": -81.720683,
-  "kind": "primary",
+  "lat": 33.563752,
+  "lon": -81.76401,
+  "kind": "place",
   "exact": true,
   "at": "2026-11-19"
  },
@@ -562,10 +570,10 @@
  },
  "playland-of-aiken": {
   "q": "951 (B) Dougherty Road, Aiken, SC 29803",
-  "lat": 33.516224,
-  "lon": -81.728598,
+  "lat": 33.513635,
+  "lon": -81.721527,
   "kind": "residential",
-  "exact": true,
+  "exact": false,
   "at": "2026-11-19"
  },
  "prescott-and-sons": {
@@ -581,6 +589,14 @@
   "lat": 33.550156,
   "lon": -81.806403,
   "kind": "building",
+  "exact": true,
+  "at": "2026-11-19"
+ },
+ "return-engagement": {
+  "q": "151 Laurens Street SW, Aiken, SC 29801",
+  "lat": 33.560269,
+  "lon": -81.723382,
+  "kind": "shop",
   "exact": true,
   "at": "2026-11-19"
  },
@@ -605,7 +621,7 @@
   "lat": 33.560182,
   "lon": -81.722074,
   "kind": "pedestrian",
-  "exact": true,
+  "exact": false,
   "at": "2026-11-19"
  },
  "smoothie-groove": {
@@ -622,6 +638,14 @@
   "lon": -81.763687,
   "kind": "shop",
   "exact": true,
+  "at": "2026-11-19"
+ },
+ "south-on-whiskey": {
+  "q": "3197 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.520129,
+  "lon": -81.717741,
+  "kind": "secondary",
+  "exact": false,
   "at": "2026-11-19"
  },
  "southern-magnolia-dentistry": {
@@ -810,7 +834,7 @@
   "lat": 33.561196,
   "lon": -81.720683,
   "kind": "primary",
-  "exact": true,
+  "exact": false,
   "at": "2026-11-19"
  },
  "white-rose-eclectics": {
