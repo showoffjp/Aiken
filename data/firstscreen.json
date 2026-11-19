@@ -22,6 +22,10 @@
   "site": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 8,
+   "targets": 53,
+   "smallTargets": 10,
    "at": "2026-11-19"
   }
  },
@@ -41,6 +45,10 @@
   "site": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 7,
+   "targets": 76,
+   "smallTargets": 12,
    "at": "2026-11-19"
   }
  },
@@ -55,6 +63,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 131,
+   "smallTargets": 11,
    "at": "2026-11-19"
   },
   "concept": {
@@ -72,17 +84,21 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 42,
+   "smallTargets": 17,
    "at": "2026-11-19"
   }
  },
  "allstar-tents-and-events": {
   "site": {
    "call": false,
-   "number": true,
-   "overflow": true,
+   "number": false,
+   "overflow": false,
    "tinyText": 0,
-   "targets": 13,
-   "smallTargets": 3,
+   "targets": 0,
+   "smallTargets": 0,
    "at": "2026-11-19"
   },
   "concept": {
@@ -111,6 +127,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 1,
+   "smallTargets": 1,
    "at": "2026-11-19"
   }
  },
@@ -118,6 +138,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 21,
+   "smallTargets": 9,
    "at": "2026-11-19"
   },
   "concept": {
@@ -154,6 +178,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 15,
+   "smallTargets": 15,
    "at": "2026-11-19"
   }
  },
@@ -166,6 +194,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 29,
+   "smallTargets": 14,
    "at": "2026-11-19"
   }
  },
@@ -178,6 +210,10 @@
   "site": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 19,
+   "smallTargets": 3,
    "at": "2026-11-19"
   }
  },
@@ -190,6 +226,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 12,
+   "targets": 18,
+   "smallTargets": 1,
    "at": "2026-11-19"
   }
  },
@@ -209,6 +249,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 10,
+   "targets": 17,
+   "smallTargets": 3,
    "at": "2026-11-19"
   }
  },
@@ -228,6 +272,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 12,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -240,6 +288,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 4,
+   "targets": 36,
+   "smallTargets": 10,
    "at": "2026-11-19"
   }
  },
@@ -280,6 +332,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": true,
+   "tinyText": 1,
+   "targets": 43,
+   "smallTargets": 4,
    "at": "2026-11-19"
   }
  },
@@ -292,6 +348,10 @@
   "site": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 49,
+   "smallTargets": 13,
    "at": "2026-11-19"
   }
  },
@@ -318,6 +378,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 19,
+   "targets": 14,
+   "smallTargets": 6,
    "at": "2026-11-19"
   }
  },
@@ -330,6 +394,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 6,
+   "targets": 2,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -349,6 +417,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 47,
+   "smallTargets": 18,
    "at": "2026-11-19"
   }
  },
@@ -402,6 +474,10 @@
   "site": {
    "call": true,
    "number": false,
+   "overflow": false,
+   "tinyText": 10,
+   "targets": 17,
+   "smallTargets": 3,
    "at": "2026-11-19"
   }
  },
@@ -414,6 +490,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 8,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -426,6 +506,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 21,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -438,6 +522,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 11,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -450,6 +538,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": true,
+   "tinyText": 0,
+   "targets": 106,
+   "smallTargets": 42,
    "at": "2026-11-19"
   }
  },
@@ -462,6 +554,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 0,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -474,6 +570,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 10,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -486,6 +586,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 9,
+   "targets": 23,
+   "smallTargets": 12,
    "at": "2026-11-19"
   }
  },
@@ -505,6 +609,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 5,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -517,6 +625,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 23,
+   "smallTargets": 7,
    "at": "2026-11-19"
   }
  },
@@ -557,6 +669,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 13,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -593,6 +709,15 @@
    "call": true,
    "number": false,
    "at": "2026-11-19"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 8,
+   "smallTargets": 2,
+   "at": "2026-11-19"
   }
  },
  "mcghees-mile": {
@@ -618,6 +743,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 6,
+   "smallTargets": 6,
    "at": "2026-11-19"
   }
  },
@@ -630,6 +759,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 20,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -642,6 +775,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 10,
+   "targets": 22,
+   "smallTargets": 1,
    "at": "2026-11-19"
   }
  },
@@ -654,6 +791,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 7,
+   "smallTargets": 4,
    "at": "2026-11-19"
   }
  },
@@ -673,6 +814,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 2,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -706,6 +851,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 26,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -718,6 +867,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 26,
+   "smallTargets": 10,
    "at": "2026-11-19"
   }
  },
@@ -730,6 +883,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 4,
+   "smallTargets": 3,
    "at": "2026-11-19"
   }
  },
@@ -749,6 +906,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 7,
+   "smallTargets": 1,
    "at": "2026-11-19"
   }
  },
@@ -775,6 +936,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 41,
+   "smallTargets": 3,
    "at": "2026-11-19"
   }
  },
@@ -785,8 +950,12 @@
    "at": "2026-11-19"
   },
   "site": {
-   "call": false,
-   "number": false,
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 8,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -806,6 +975,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 7,
+   "smallTargets": 2,
    "at": "2026-11-19"
   }
  },
@@ -813,6 +986,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 48,
+   "smallTargets": 26,
    "at": "2026-11-19"
   },
   "concept": {
@@ -837,6 +1014,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 28,
+   "smallTargets": 13,
    "at": "2026-11-19"
   }
  },
@@ -844,6 +1025,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": true,
+   "tinyText": 14,
+   "targets": 27,
+   "smallTargets": 10,
    "at": "2026-11-19"
   },
   "concept": {
@@ -861,6 +1046,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 36,
+   "smallTargets": 4,
    "at": "2026-11-19"
   }
  },
@@ -880,6 +1069,10 @@
   "site": {
    "call": false,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 9,
+   "smallTargets": 5,
    "at": "2026-11-19"
   }
  },
@@ -899,6 +1092,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 28,
+   "targets": 12,
+   "smallTargets": 6,
    "at": "2026-11-19"
   }
  },
@@ -925,6 +1122,10 @@
   "site": {
    "call": true,
    "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 39,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -964,6 +1165,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 6,
+   "smallTargets": 0,
    "at": "2026-11-19"
   }
  },
@@ -976,6 +1181,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 37,
+   "smallTargets": 4,
    "at": "2026-11-19"
   }
  },
@@ -993,7 +1202,7 @@
    "overflow": false,
    "tinyText": 10,
    "targets": 32,
-   "smallTargets": 16,
+   "smallTargets": 7,
    "at": "2026-11-19"
   },
   "concept": {
@@ -1015,6 +1224,10 @@
   "site": {
    "call": false,
    "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 9,
+   "smallTargets": 1,
    "at": "2026-11-19"
   }
  },

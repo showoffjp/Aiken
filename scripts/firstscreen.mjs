@@ -94,8 +94,19 @@ function firstScreen(phone) {
 // links inside a sentence don't count).
 function readable() {
   const W = innerWidth;
+  // A page with no mobile viewport is laid out ~980px wide and shrunk to fit
+  // the phone, so its text and buttons look smaller than their CSS sizes.
+  const scale = Math.min(1, screen.width / W);
   const doc = document.documentElement;
-  const overflow = Math.max(doc.scrollWidth, document.body?.scrollWidth || 0) > W + 4;
+  // Wider than the screen, and a visitor can actually drag it sideways (a page
+  // whose overflow is clipped doesn't count).
+  let overflow = false;
+  if (Math.max(doc.scrollWidth, document.body?.scrollWidth || 0) > W + 4) {
+    const y = scrollY;
+    scrollTo(60, y);
+    overflow = scrollX > 4;
+    scrollTo(0, y);
+  }
   const visible = (el) => {
     for (let e = el; e && e !== document.body; e = e.parentElement) {
       const cs = getComputedStyle(e);
@@ -111,7 +122,7 @@ function readable() {
     if (!text || !n.parentElement || /^(SCRIPT|STYLE|NOSCRIPT|OPTION)$/.test(n.parentElement.tagName)) continue;
     if (!visible(n.parentElement)) continue;
     chars += text.length;
-    if (parseFloat(getComputedStyle(n.parentElement).fontSize) < 12) tiny += text.length;
+    if (parseFloat(getComputedStyle(n.parentElement).fontSize) * scale < 12) tiny += text.length;
   }
   let targets = 0, small = 0;
   for (const el of document.querySelectorAll('a[href], button, input:not([type="hidden"]), select, [role="button"]')) {
@@ -119,7 +130,7 @@ function readable() {
     const r = el.getBoundingClientRect();
     if (r.bottom < 0 || r.right < 0 || r.left > W) continue;
     targets++;
-    if (r.width >= 24 && r.height >= 24) continue;
+    if (r.width * scale >= 24 && r.height * scale >= 24) continue;
     // A link inside running text is exempt (WCAG's inline exception).
     const block = el.closest('p, li, td, dd, blockquote') || (getComputedStyle(el).display === 'inline' ? el.parentElement : null);
     if (el.tagName === 'A' && block && block.textContent.trim().length > el.textContent.trim().length + 20) continue;
