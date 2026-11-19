@@ -5251,7 +5251,7 @@
     "schema": false,
     "og": false,
     "performance": 57,
-    "pageMB": 8.7,
+    "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
@@ -10810,7 +10810,7 @@
     "schema": false,
     "og": false,
     "performance": 57,
-    "pageMB": 8.7,
+    "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
@@ -21471,7 +21471,7 @@
     "schema": false,
     "og": false,
     "performance": 57,
-    "pageMB": 8.7,
+    "pageMB": 8.3,
     "a11ySerious": 10,
     "facebook": true,
     "instagram": true,
@@ -26532,6 +26532,812 @@
     "facebook": true,
     "instagram": false,
     "domainYears": 8
+   }
+  ]
+ },
+ "c-wallace-design": {
+  "slug": "c-wallace-design",
+  "name": "C. Wallace Design",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "coleenwallacedesign.com",
+   "https": true,
+   "pagesCrawled": 6,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://coleenwallacedesign.com/",
+    "title": "Coleen Wallace Design | Creating Better Places, Designing Beautiful Spaces",
+    "description": "",
+    "canonical": "https://coleenwallacedesign.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 7,
+    "h3": 0,
+    "words": 255,
+    "images": 8,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://coleenwallacedesign.com/sitemap.xml",
+    "pages": 7
+   },
+   "crawl": {
+    "pages": 6,
+    "missingTitle": 0,
+    "missingDescription": 6,
+    "missingH1": 2,
+    "multipleH1": 0,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 17,
+    "images": 77,
+    "sample": [
+     {
+      "url": "https://coleenwallacedesign.com/",
+      "title": "Coleen Wallace Design | Creating Better Places, Designing Beautiful Spaces",
+      "description": 0,
+      "h1": 0,
+      "words": 255
+     },
+     {
+      "url": "https://coleenwallacedesign.com/contact-us/",
+      "title": "Contact Us | Coleen Wallace Design",
+      "description": 0,
+      "h1": 1,
+      "words": 606
+     },
+     {
+      "url": "https://coleenwallacedesign.com/about-us/",
+      "title": "About Us | Coleen Wallace Design",
+      "description": 0,
+      "h1": 1,
+      "words": 328
+     },
+     {
+      "url": "https://coleenwallacedesign.com/professional-services/",
+      "title": "Professional Services | Coleen Wallace Design",
+      "description": 0,
+      "h1": 1,
+      "words": 244
+     },
+     {
+      "url": "https://coleenwallacedesign.com/our-projects/",
+      "title": "Our Projects | Coleen Wallace Design",
+      "description": 0,
+      "h1": 1,
+      "words": 553
+     },
+     {
+      "url": "https://coleenwallacedesign.com/sitemap/",
+      "title": "Sitemap | Coleen Wallace Design",
+      "description": 0,
+      "h1": 0,
+      "words": 78
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 51,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/CWallaceDesign/",
+    "Instagram": "https://www.instagram.com/cwallacedesign",
+    "LinkedIn": "https://www.linkedin.com/in/coleen-wallace-rla-70463412",
+    "Google Business Profile": "https://goo.gl/maps/jd7ucmaEM6ngJF69A"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Landscape Architect",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 7
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=287&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=766b0a92354042d542555f5f06b40b10",
+    "name": "C. Wallace Design",
+    "phone": "(803) 641-1504",
+    "website": "http://www.ColeenWallaceDesign.com",
+    "address": "241 Cheltenham Drive, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/CWallaceDesign/",
+    "Instagram": "https://www.instagram.com/cwallacedesign",
+    "LinkedIn": "https://www.linkedin.com/in/coleen-wallace-rla-70463412",
+    "Google Business Profile": "https://goo.gl/maps/jd7ucmaEM6ngJF69A"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/CWallaceDesign/",
+    "Instagram": "https://www.instagram.com/cwallacedesign"
+   }
+  },
+  "domain": {
+   "name": "coleenwallacedesign.com",
+   "created": "2009-09-16",
+   "expires": "2027-09-16",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 17
+  },
+  "performance": {
+   "performance": 57,
+   "accessibility": 65,
+   "bestPractices": 93,
+   "seo": 85,
+   "fcp": 2815,
+   "lcp": 21632,
+   "tbt": 313,
+   "si": 7189,
+   "cls": 0,
+   "at": "2026-11-17"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "ahh-sunshine-llc",
+   "aiken-embroidery-and-design",
+   "bravefriend-apparel-and-design",
+   "design-persuasion",
+   "garlin-design-and-remodeling-llc"
+  ],
+  "scores": {
+   "seo": 59,
+   "social": 80,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "ahh-sunshine-llc",
+    "name": "AHH Sunshine, LLC",
+    "website": "https://ahhsunshine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 31,
+    "pageMB": 4.1,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 13
+   },
+   {
+    "slug": "aiken-embroidery-and-design",
+    "name": "Aiken Embroidery & Design",
+    "website": "https://aikenead.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 60,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "bravefriend-apparel-and-design",
+    "name": "Bravefriend Apparel and Design",
+    "website": "https://bravefriend.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 64,
+    "pageMB": 1.1,
+    "a11ySerious": 19,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 19
+   },
+   {
+    "slug": "design-persuasion",
+    "name": "Design Persuasion",
+    "website": "https://www.designpersuasion.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 74,
+    "pageMB": 4.5,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "garlin-design-and-remodeling-llc",
+    "name": "GARLIN Design & Remodeling LLC",
+    "website": "https://www.garlindesignremodeling.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 1.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   }
+  ]
+ },
+ "hixon-insurance-and-realty-co": {
+  "slug": "hixon-insurance",
+  "name": "Hixon Insurance & Realty Co.",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "hixonco.com",
+   "https": true,
+   "pagesCrawled": 1,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://hixonco.com/",
+    "title": "One moment, please...",
+    "description": "",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 0,
+    "h3": 0,
+    "words": 8,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://hixonco.com/wp-sitemap.xml",
+    "pages": 22
+   },
+   "crawl": {
+    "pages": 1,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 0,
+    "sample": [
+     {
+      "url": "https://hixonco.com/",
+      "title": "One moment, please...",
+      "description": 0,
+      "h1": 0,
+      "words": 8
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 1,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Insurance Agency",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/hixon-insurance-realty-co-1390",
+    "name": "Hixon Insurance & Realty Co.",
+    "phone": "(803) 279-8855",
+    "website": "http://www.hixonco.com",
+    "address": "108 W. Spring Grove Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "hixonco.com",
+   "created": "2000-07-11",
+   "expires": "2027-07-11",
+   "registrar": "Network Solutions, LLC",
+   "years": 26
+  },
+  "performance": null,
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "heath-insurance-and-financial-group",
+   "anderson-insurance-associates-llc",
+   "durban-laird-insurance",
+   "hutson-etherredge-companies",
+   "lambert-insurance-agency-inc"
+  ],
+  "scores": {
+   "seo": 62,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "heath-insurance-and-financial-group",
+    "name": "Heath Insurance & Financial Group",
+    "website": "https://heathinsuranceandfinancial.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 5,
+    "a11ySerious": 18,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anderson-insurance-associates-llc",
+    "name": "Anderson Insurance Associates, LLC",
+    "website": "https://www.aiasc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 22
+   },
+   {
+    "slug": "durban-laird-insurance",
+    "name": "Durban-Laird Insurance",
+    "website": "http://www.aikeninsurance.com/",
+    "state": "ok",
+    "https": false,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "hutson-etherredge-companies",
+    "name": "Hutson-Etherredge Companies",
+    "website": "https://www.hecos.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 84,
+    "pageMB": 3,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "lambert-insurance-agency-inc",
+    "name": "Lambert Insurance Agency, Inc",
+    "website": "https://www.lambertinsuranceaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 53,
+    "pageMB": 2.2,
+    "a11ySerious": 25,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   }
+  ]
+ },
+ "tpi-tyler-press-llc": {
+  "slug": "tpi-tyler-press",
+  "name": "TPi - Tyler Press",
+  "checked": "2026-11-19",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "tylerpress.com",
+   "https": true,
+   "pagesCrawled": 5,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://tylerpress.com/",
+    "title": "TPi Professional Print & Marketing Solutions - Helping you to get noticed and run your business more efficiently!",
+    "description": "",
+    "canonical": "https://tylerpress.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 0,
+    "h3": 5,
+    "words": 423,
+    "images": 19,
+    "imagesNoAlt": 17,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://tylerpress.com/sitemap.xml",
+    "pages": 8
+   },
+   "crawl": {
+    "pages": 5,
+    "missingTitle": 0,
+    "missingDescription": 5,
+    "missingH1": 4,
+    "multipleH1": 0,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 33,
+    "images": 43,
+    "sample": [
+     {
+      "url": "https://tylerpress.com/",
+      "title": "TPi Professional Print & Marketing Solutions - Helping you to get noticed and run your business more efficiently!",
+      "description": 0,
+      "h1": 0,
+      "words": 423
+     },
+     {
+      "url": "https://tylerpress.com/about-us/",
+      "title": "About Us - TPi Professional Print & Marketing Solutions",
+      "description": 0,
+      "h1": 0,
+      "words": 249
+     },
+     {
+      "url": "https://tylerpress.com/our-services/",
+      "title": "Services - TPi Professional Print & Marketing Solutions",
+      "description": 0,
+      "h1": 0,
+      "words": 217
+     },
+     {
+      "url": "https://tylerpress.com/sample-portfolio/",
+      "title": "Our Portfolio - TPi Professional Print & Marketing Solutions",
+      "description": 0,
+      "h1": 1,
+      "words": 147
+     },
+     {
+      "url": "https://tylerpress.com/auto-draft/",
+      "title": "Contact Us - TPi Professional Print & Marketing Solutions",
+      "description": 0,
+      "h1": 0,
+      "words": 98
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 5,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Instagram": "https://www.instagram.com/TPiAiken/",
+    "Facebook": "https://www.facebook.com/TPiAiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Printing",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1016&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=4e6c5959f6747f64a65162a6b739b8e1",
+    "name": "TPi - Tyler Press, LLC",
+    "phone": "(803) 226-7898",
+    "website": "http://www.printinginaiken.com",
+    "address": "128 Windermere Way, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": false
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Instagram": "https://www.instagram.com/TPiAiken/",
+    "Facebook": "https://www.facebook.com/TPiAiken"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/TPiAiken",
+    "Instagram": "https://www.instagram.com/TPiAiken/"
+   }
+  },
+  "domain": {
+   "name": "printinginaiken.com",
+   "created": "2017-02-10",
+   "expires": "2027-02-10",
+   "registrar": "DreamHost, LLC",
+   "years": 9
+  },
+  "performance": {
+   "performance": 78,
+   "accessibility": 92,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 1293,
+   "lcp": 5141,
+   "tbt": 2,
+   "si": 4747,
+   "cls": 0,
+   "at": "2026-11-17"
+  },
+  "conceptPerformance": null,
+  "competitorSlugs": [
+   "howell-printing-company",
+   "quality-printing-and-graphics-inc",
+   "ahh-sunshine-llc",
+   "aiken-embroidery-and-design",
+   "bravefriend-apparel-and-design"
+  ],
+  "scores": {
+   "seo": 46,
+   "social": 55,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "howell-printing-company",
+    "name": "Howell Printing Company",
+    "website": "http://www.howellprinting.net/",
+    "state": "ok",
+    "https": false,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.3,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 21
+   },
+   {
+    "slug": "quality-printing-and-graphics-inc",
+    "name": "Quality Printing & Graphics, Inc.",
+    "website": "https://qpgraphics.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 39,
+    "pageMB": 3.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "ahh-sunshine-llc",
+    "name": "AHH Sunshine, LLC",
+    "website": "https://ahhsunshine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 31,
+    "pageMB": 4.1,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 13
+   },
+   {
+    "slug": "aiken-embroidery-and-design",
+    "name": "Aiken Embroidery & Design",
+    "website": "https://aikenead.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 60,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "bravefriend-apparel-and-design",
+    "name": "Bravefriend Apparel and Design",
+    "website": "https://bravefriend.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 64,
+    "pageMB": 1.1,
+    "a11ySerious": 19,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 19
    }
   ]
  }

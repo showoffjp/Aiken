@@ -3242,5 +3242,117 @@
  "/demo-assets/harrison-k9/sign-960.webp": [
   960,
   938
+ ],
+ "/demo-assets/c-wallace-design/brick-path.webp": [
+  1600,
+  800
+ ],
+ "/demo-assets/c-wallace-design/cedar-meadows.webp": [
+  1100,
+  825
+ ],
+ "/demo-assets/c-wallace-design/garden-walk.webp": [
+  597,
+  400
+ ],
+ "/demo-assets/c-wallace-design/garden-lawn.webp": [
+  595,
+  400
+ ],
+ "/demo-assets/c-wallace-design/fountain.webp": [
+  311,
+  455
+ ],
+ "/demo-assets/c-wallace-design/iris.webp": [
+  303,
+  447
+ ],
+ "/demo-assets/c-wallace-design/reserve-sign.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/c-wallace-design/site-plan.webp": [
+  605,
+  412
+ ],
+ "/demo-assets/c-wallace-design/modern-entry.webp": [
+  303,
+  447
+ ],
+ "/demo-assets/c-wallace-design/coleen.webp": [
+  940,
+  788
+ ],
+ "/demo-assets/tpi-tyler-press/press-room.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/tpi-tyler-press/samples-health.webp": [
+  1600,
+  700
+ ],
+ "/demo-assets/tpi-tyler-press/samples-hospitality.webp": [
+  1600,
+  700
+ ],
+ "/demo-assets/tpi-tyler-press/samples-magazines.webp": [
+  1600,
+  700
+ ],
+ "/demo-assets/c-wallace-design/brick-path-640.webp": [
+  640,
+  320
+ ],
+ "/demo-assets/c-wallace-design/brick-path-960.webp": [
+  960,
+  480
+ ],
+ "/demo-assets/c-wallace-design/cedar-meadows-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/c-wallace-design/cedar-meadows-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/c-wallace-design/coleen-640.webp": [
+  640,
+  537
+ ],
+ "/demo-assets/c-wallace-design/reserve-sign-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/tpi-tyler-press/press-room-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/tpi-tyler-press/press-room-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/tpi-tyler-press/samples-health-640.webp": [
+  640,
+  280
+ ],
+ "/demo-assets/tpi-tyler-press/samples-health-960.webp": [
+  960,
+  420
+ ],
+ "/demo-assets/tpi-tyler-press/samples-hospitality-640.webp": [
+  640,
+  280
+ ],
+ "/demo-assets/tpi-tyler-press/samples-hospitality-960.webp": [
+  960,
+  420
+ ],
+ "/demo-assets/tpi-tyler-press/samples-magazines-640.webp": [
+  640,
+  280
+ ],
+ "/demo-assets/tpi-tyler-press/samples-magazines-960.webp": [
+  960,
+  420
  ]
 }

@@ -1,0 +1,292 @@
+{
+  "name": "C. Wallace Design",
+  "short": "C. Wallace Design",
+  "category": "Landscape Architect",
+  "group": "Home & Garden",
+  "town": "Aiken, SC",
+  "established": "1995",
+  "look": "editorial",
+  "fonts": {
+    "display": "bitter",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6f5ef",
+    "surface": "#ffffff",
+    "ink": "#1d2a1f",
+    "muted": "#56635a",
+    "primary": "#2f5d3a",
+    "onPrimary": "#ffffff",
+    "accent": "#b5562f",
+    "line": "#e1e4d8"
+  },
+  "radius": 10,
+  "icon": "trees",
+  "contact": {
+    "phone": "(803) 641-1504",
+    "email": "cwallace@coleenwallacedesign.com",
+    "address": [
+      "241 Cheltenham Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "C. Wallace Design, 241 Cheltenham Dr, Aiken, SC 29803",
+    "facebook": "https://www.facebook.com/CWallaceDesign/"
+  },
+  "hero": {
+    "eyebrow": "Landscape architecture in Aiken since 1995",
+    "title": "Creating better places, *designing beautiful spaces*",
+    "lede": "Coleen Wallace is a licensed landscape architect in South Carolina and Georgia with more than 30 years of residential, commercial and municipal work, from Hopelands Gardens to the Richland Avenue streetscape.",
+    "points": [
+      "Site & concept design",
+      "Master planning",
+      "Construction drawings"
+    ],
+    "cta": {
+      "label": "See the projects",
+      "href": "#projects"
+    },
+    "cta2": {
+      "label": "Call (803) 641-1504",
+      "href": "tel:+18036411504"
+    },
+    "image": {
+      "src": "/demo-assets/c-wallace-design/brick-path.webp",
+      "alt": "A brick path through a formal garden, between clipped hedges and brick piers",
+      "width": 1600,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "1995",
+      "label": "Designing in Aiken since"
+    },
+    {
+      "value": "30+ years",
+      "label": "Of landscape architecture"
+    },
+    {
+      "value": "SC & GA",
+      "label": "Licensed in both states"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 2,
+      "eyebrow": "Professional services",
+      "title": "From first sketch *to construction*",
+      "items": [
+        {
+          "icon": "search",
+          "title": "Site analysis & concept design",
+          "text": "Reading the land first, then site and concept designs that fit it."
+        },
+        {
+          "icon": "land-plot",
+          "title": "Land planning",
+          "text": "Master planning for single- and multi-family communities, with sustainable design."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Landscape design",
+          "text": "Streetscapes, parks, color gardens and renovations, plans that meet tree ordinances, and renderings for marketing."
+        },
+        {
+          "icon": "drafting-compass",
+          "title": "Construction drawings",
+          "text": "Layout and grading, fountains and water gardens, and details for paving, steps, seat walls, decks and pergolas, all drawn in AutoCAD."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "projects",
+      "nav": "Projects",
+      "eyebrow": "Project experience",
+      "title": "Gardens, streetscapes *and communities*",
+      "images": [
+        {
+          "src": "/demo-assets/c-wallace-design/cedar-meadows.webp",
+          "alt": "The Cedar Meadows Equestrian sign set in plantings by a black board fence",
+          "width": 1100,
+          "height": 825
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/reserve-sign.webp",
+          "alt": "Brick entrance walls and lanterns at The Reserve at Woodside Plantation, with annual beds",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/garden-walk.webp",
+          "alt": "A brick walk leading through a garden of clipped hedges",
+          "width": 597,
+          "height": 400
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/site-plan.webp",
+          "alt": "A colored site plan drawing for a courtyard building",
+          "width": 605,
+          "height": 412
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/garden-lawn.webp",
+          "alt": "A wide lawn edged with shrubs and trees, a gazebo in the distance",
+          "width": 595,
+          "height": 400
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/fountain.webp",
+          "alt": "A fountain in a pond ringed with purple and yellow flowers",
+          "width": 311,
+          "height": 455
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/iris.webp",
+          "alt": "Purple and white irises beside a stone water feature",
+          "width": 303,
+          "height": 447
+        },
+        {
+          "src": "/demo-assets/c-wallace-design/modern-entry.webp",
+          "alt": "Plantings at the glass entrance of a modern commercial building",
+          "width": 303,
+          "height": 447
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "experience",
+      "nav": "Experience",
+      "eyebrow": "Selected work",
+      "title": "Around Aiken *and beyond*",
+      "columns": [
+        {
+          "title": "For the City of Aiken",
+          "items": [
+            "The color garden, brick labyrinth and butterfly garden at Hopelands Gardens",
+            "Streetscapes for Richland Avenue, New Alley and Sea Lane",
+            "The East Gate Drive roundabout fountain",
+            "The Odell Weeks tennis complex"
+          ]
+        },
+        {
+          "title": "Master planning",
+          "items": [
+            "Portions of The Reserve at Woodside Plantation",
+            "Grand Oaks of Aiken",
+            "Cedar Meadows Equestrian Development",
+            "The Bungalow Villas at Houndslake"
+          ]
+        },
+        {
+          "title": "Commercial & institutional",
+          "items": [
+            "The wedding garden at the Pickens-Salley House, USC Aiken",
+            "Fermata Club expansion and new pool",
+            "Banks, churches, hotels and medical centers across SC and GA"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet Coleen",
+      "title": "Integrity, quality *and thirty years of craft*",
+      "image": {
+        "src": "/demo-assets/c-wallace-design/coleen.webp",
+        "alt": "Coleen Wallace, smiling, framed by pink phlox",
+        "width": 940,
+        "height": 788
+      },
+      "body": [
+        "C. Wallace Design was established in Aiken in 1995 and is built on a reputation for integrity and quality.",
+        "Coleen Wallace is a professional landscape architect licensed in South Carolina and Georgia, with more than 30 years of experience in residential and commercial landscape design, master planning, site design and streetscape design. She earned her bachelor of science in landscape architecture at Pennsylvania State University in 1987."
+      ],
+      "list": [
+        "Greater Aiken Chamber of Commerce",
+        "American Society of Landscape Architects",
+        "Residential, commercial and municipal clients"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you design for homeowners?",
+          "a": "Yes. Along with commercial and municipal work, we design residential landscapes, gardens and renovations."
+        },
+        {
+          "q": "Can you draw plans that meet a tree ordinance?",
+          "a": "Yes. Landscape plans that meet local tree ordinances are part of our landscape design work."
+        },
+        {
+          "q": "Do you provide construction drawings?",
+          "a": "Yes: layout and grading plans and construction details, all prepared in AutoCAD."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Throughout South Carolina and Georgia, where Coleen is licensed, with many projects in and around Aiken."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s talk about your project",
+      "text": "Call or email to start with a site visit and a conversation.",
+      "cta": {
+        "label": "Call (803) 641-1504",
+        "href": "tel:+18036411504"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Cheltenham Drive*",
+    "formTitle": "Tell us about your project",
+    "formTopics": [
+      "A home landscape",
+      "A commercial site",
+      "Master planning",
+      "Construction drawings",
+      "Something else"
+    ]
+  },
+  "slug": "c-wallace-design",
+  "added": "2026-11-19",
+  "prospect": "c-wallace-design",
+  "source": {
+    "url": "https://coleenwallacedesign.com/",
+    "before": [
+      "On a phone the main image takes about 22 seconds to appear on an 8.7 MB page (Google Lighthouse speed score: 63 out of 100)",
+      "On a phone, the first screen shows no phone number or call button",
+      "10 accessibility problems, including hidden links that keyboards still reach and a form field with no label",
+      "No description for Google results, no preview when the link is shared, and no business details for Google"
+    ],
+    "after": [
+      "Real projects, with photos, on the first screens",
+      "Services in plain words, from site analysis to construction drawings",
+      "Coleen’s story and credentials up front",
+      "One tap to call or email"
+    ]
+  },
+  "style": {
+    "frame": "blob",
+    "services": "list",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

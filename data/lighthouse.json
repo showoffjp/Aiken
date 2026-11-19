@@ -1771,16 +1771,28 @@
  },
  "c-wallace-design": {
   "site": {
-   "performance": 57,
+   "performance": 63,
    "accessibility": 65,
    "bestPractices": 93,
    "seo": 85,
-   "fcp": 2815,
-   "lcp": 21632,
-   "tbt": 313,
-   "si": 7189,
+   "fcp": 2541,
+   "lcp": 21638,
+   "tbt": 126,
+   "si": 7866,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2704,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "c-and-c-automotive": {
@@ -2751,16 +2763,28 @@
  },
  "tpi-tyler-press-llc": {
   "site": {
-   "performance": 78,
+   "performance": 77,
    "accessibility": 92,
    "bestPractices": 100,
    "seo": 92,
-   "fcp": 1293,
-   "lcp": 5141,
-   "tbt": 2,
-   "si": 4747,
+   "fcp": 1277,
+   "lcp": 5027,
+   "tbt": 0,
+   "si": 5198,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2179,
+   "tbt": 157,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
   }
  },
  "wessels-white-and-earley-pc": {
@@ -3743,6 +3767,32 @@
    "lcp": 2406,
    "tbt": 147,
    "si": 945,
+   "cls": 0,
+   "at": "2026-11-19"
+  }
+ },
+ "hixon-insurance-and-realty-co": {
+  "site": {
+   "performance": 69,
+   "accessibility": 92,
+   "bestPractices": 93,
+   "seo": 92,
+   "fcp": 4508,
+   "lcp": 4873,
+   "tbt": 55,
+   "si": 5790,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1033,
+   "lcp": 1802,
+   "tbt": 12,
+   "si": 1033,
    "cls": 0,
    "at": "2026-11-19"
   }
