@@ -111,6 +111,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "automotive-workbench": {
+  "q": "958 East Pine Log Road, Aiken, SC 29803",
+  "lat": 33.534751,
+  "lon": -81.692924,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-19"
+ },
  "baker-family-dentistry": {
   "q": "2065 Whiskey Road, Aiken, SC 29803",
   "lat": 33.518095,
@@ -233,6 +241,14 @@
  "carolina-hvac": {
   "q": "450 Centerwood Road, Windsor, SC 29856",
   "missing": true,
+  "at": "2026-11-19"
+ },
+ "cavaliers-coffeehouse": {
+  "q": "336 Georgia Avenue, Suite 107, North Augusta, SC 29841",
+  "lat": 33.492006,
+  "lon": -81.971727,
+  "kind": "place",
+  "exact": true,
   "at": "2026-11-19"
  },
  "dinner-bell": {

@@ -1,0 +1,274 @@
+{
+  "name": "Cavalier’s Coffeehouse",
+  "short": "Cavalier’s",
+  "category": "Coffeehouse & Wine Bar",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f6f1e9",
+    "surface": "#fffcf7",
+    "ink": "#1c241f",
+    "muted": "#56605a",
+    "primary": "#1d4a37",
+    "onPrimary": "#ffffff",
+    "accent": "#c48a3a",
+    "line": "#e5dccd"
+  },
+  "radius": 14,
+  "icon": "coffee",
+  "contact": {
+    "phone": "(803) 613-6240",
+    "email": "manager@cavscoffee.com",
+    "address": [
+      "336 Georgia Avenue, Suite 107",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Cavaliers Coffeehouse, 336 Georgia Ave, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Tuesday",
+        "6:30 am – 6:00 pm"
+      ],
+      [
+        "Wednesday",
+        "6:30 am – 8:30 pm"
+      ],
+      [
+        "Thursday – Saturday",
+        "6:30 am – 8:00 pm"
+      ],
+      [
+        "Sunday",
+        "7:30 am – 2:00 pm"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/cavscoffeenorthaugusta/",
+    "instagram": "https://www.instagram.com/cavscoffee/"
+  },
+  "hero": {
+    "eyebrow": "Coffee · Wine · Beer · Cocktails",
+    "title": "An old-world café *in North Augusta*",
+    "lede": "Counter Culture coffee with syrups made in-house, uncommon wines, regional beers and craft cocktails in Jackson Square, with a courtyard for events and a 1999 Land Rover that brings the espresso bar to you.",
+    "points": [
+      "Open from 6:30 am",
+      "Wine & craft beer",
+      "Events & mobile bar"
+    ],
+    "cta": {
+      "label": "What we pour",
+      "href": "#drinks"
+    },
+    "cta2": {
+      "label": "Call (803) 613-6240",
+      "href": "tel:+18036136240"
+    }
+  },
+  "facts": [
+    {
+      "value": "6:30 am",
+      "label": "Doors open, Monday to Saturday"
+    },
+    {
+      "value": "In-house",
+      "label": "Every syrup, made by our baristas"
+    },
+    {
+      "value": "1999",
+      "label": "Our Defender mobile espresso bar"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "drinks",
+      "nav": "What we pour",
+      "columns": 3,
+      "eyebrow": "From morning to evening",
+      "title": "Coffee first, *then a glass of wine*",
+      "items": [
+        {
+          "icon": "coffee",
+          "title": "Counter Culture coffee",
+          "text": "From Durham, North Carolina, a leader in sustainable sourcing, in our café or to go."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Signature lattes",
+          "text": "Flavored coffees inspired by North Augusta, with syrups our baristas make in-house."
+        },
+        {
+          "icon": "wine",
+          "title": "Uncommon wines",
+          "text": "Sourced from around the world, for the most unusual affordable selection in the CSRA."
+        },
+        {
+          "icon": "beer",
+          "title": "Regional craft beer",
+          "text": "A rotating, regionally focused list, and we love to show off the artistic cans."
+        },
+        {
+          "icon": "martini",
+          "title": "Craft cocktails",
+          "text": "Cocktails at the bar in the evening; ask your bartender what’s new."
+        },
+        {
+          "icon": "croissant",
+          "title": "Light lunch & pastries",
+          "text": "Lunch on weekdays from 11 to 2; wraps, muffins, avocado toast and pastries every day."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Cav’s",
+      "title": "Come for the coffee, *stay to chat*",
+      "image": {
+        "src": "/demo-assets/cavaliers-coffeehouse/latte-pour.webp",
+        "alt": "A barista pouring steamed milk into a to-go cup at the espresso machine",
+        "width": 1008,
+        "height": 1173
+      },
+      "body": [
+        "Cavalier’s Coffeehouse, or “Cav’s,” brings the atmosphere of an old-world café to North Augusta. Quality is always the priority, and we love to talk about what’s in the cup.",
+        "Stop in for an early espresso, a light lunch, or a glass of wine with friends after work. Not sure what to try? Ask your barista or bartender."
+      ],
+      "list": [
+        "Counter Culture Coffee, sustainably sourced",
+        "Syrups made in-house",
+        "Wine, beer and cocktails"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "defender",
+      "nav": "The Defender",
+      "eyebrow": "Mobile espresso bar",
+      "title": "One legendary truck, *your gathering*",
+      "items": [
+        {
+          "title": "Tell us your plans",
+          "text": "Our 1999 Defender 110 serves gatherings of 30 or more: staff appreciation, weddings and community events."
+        },
+        {
+          "title": "We review the details",
+          "text": "We look at your date, place and guest count, and plan the drinks around them."
+        },
+        {
+          "title": "Confirm your expedition",
+          "text": "We arrive and pour freshly made coffee, one cup at a time."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Events",
+      "eyebrow": "Rent our space",
+      "title": "An old-world café *for your event*",
+      "intro": "An indoor beer and wine bar, and an outdoor courtyard with an activities lawn and a stage. We hold beer, wine and liquor permits, offer light catering on site, and work with catering partners.",
+      "columns": [
+        {
+          "title": "Spaces",
+          "items": [
+            "The full building and courtyard",
+            "The courtyard and pergola",
+            "The bar and study",
+            "A pergola table or a few tables"
+          ]
+        },
+        {
+          "title": "For your guests",
+          "items": [
+            "Coffee and lattes",
+            "Beer, wine and cocktails",
+            "Charcuterie and grazing tables",
+            "Larger catering and entertainment"
+          ]
+        },
+        {
+          "title": "Also for",
+          "items": [
+            "Church and club rentals",
+            "Major event planning",
+            "A reply usually the same business day"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you serve food?",
+          "a": "A light lunch on weekdays from 11 to 2, and wraps, muffins, avocado toast and pastries every day. Call to ask what’s available today."
+        },
+        {
+          "q": "Where are you?",
+          "a": "In Jackson Square, 336 Georgia Avenue, Suite 107, in North Augusta."
+        },
+        {
+          "q": "Can the Defender come to my event?",
+          "a": "Yes, for gatherings of 30 or more. Call or email to check your date."
+        },
+        {
+          "q": "Are you hiring?",
+          "a": "Email manager@cavscoffee.com to join the Cav’s team."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a gathering?",
+      "text": "Book the café, the courtyard or the Defender.",
+      "cta": {
+        "label": "Call (803) 613-6240",
+        "href": "tel:+18036136240"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *Jackson Square*",
+    "formTitle": "Plan an event",
+    "formTopics": [
+      "An event at the café",
+      "The Defender at my event",
+      "A table reservation",
+      "A job",
+      "Something else"
+    ]
+  },
+  "slug": "cavaliers-coffeehouse",
+  "added": "2026-11-19",
+  "prospect": "cavaliers-coffeehouse",
+  "source": {
+    "url": "https://www.cavscoffee.com/",
+    "before": [],
+    "after": [
+      "What you pour, from coffee to cocktails, in plain words",
+      "Clear hours with an “Open now” sign",
+      "Events and the Defender explained in three steps",
+      "One tap to call"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "list",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

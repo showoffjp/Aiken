@@ -1,0 +1,118 @@
+---
+// "The difference, measured": for every business with a current website, its
+// home page and its concept go through the same tests, and each card shows the
+// middle value (median) of each side across all of them, with one real example
+// that links to its checkup. Data: data/filmstrip.json, lighthouse.json,
+// weights.json, a11y.json and firstscreen.json (see the scripts of the same names).
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { demos } from '../lib/demos';
+
+const load = (f: string) => { try { return JSON.parse(readFileSync(path.join(process.cwd(), 'data', f), 'utf8')); } catch { return {}; } };
+const film = load('filmstrip.json'), lh = load('lighthouse.json'), weights = load('weights.json'), a11y = load('a11y.json'), first = load('firstscreen.json');
+const pairs = demos.filter((d) => !d.source.none).map((d) => ({ d, k: d.prospect || d.slug }));
+const median = (xs: number[]) => { const s = [...xs].sort((a, b) => a - b), n = s.length; return n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2; };
+const ok = (x: any) => x && !x.error;
+const LAST = 12000; // the filmstrip's last frame: "nothing yet" there counts as 12 seconds
+const secs = (ms: number) => (ms >= LAST ? '12+ s' : `${(ms / 1000).toFixed(1)} s`);
+const size = (b: number) => (b >= 1048576 ? `${(b / 1048576).toFixed(1)} MB` : `${Math.round(b / 1024)} KB`);
+
+type Card = { label: string; sub: string; n: number; site: number; concept: number; show: (v: number) => string; max: number; example?: { name: string; slug: string; text: string } };
+const cards: Card[] = [];
+function add(label: string, sub: string, rows: { d: any; s: number; c: number }[], show: (v: number) => string, opts: { max?: number; worst: 'high' | 'low'; say?: (v: number) => string }) {
+  if (rows.length < 10) return;
+  const site = median(rows.map((r) => r.s)), concept = median(rows.map((r) => r.c));
+  const pick = [...rows].sort((a, b) => (opts.worst === 'high' ? b.s - a.s : a.s - b.s) || a.d.name.localeCompare(b.d.name))[0];
+  cards.push({ label, sub, n: rows.length, site, concept, show, max: opts.max ?? Math.max(site, concept), example: { name: pick.d.short || pick.d.name, slug: pick.d.slug, text: (opts.say || show)(pick.s) } });
+}
+add('On screen on a slow phone', 'Seconds until anything at all appears',
+  pairs.filter(({ k }) => ok(film[k]?.site) && film[k]?.site.frames && ok(film[k]?.concept) && film[k].concept.first != null).map(({ d, k }) => ({ d, s: film[k].site.first ?? LAST, c: film[k].concept.first })),
+  secs, { worst: 'high', say: (v) => (v >= LAST ? 'still blank after 12 seconds' : `blank for ${(v / 1000).toFixed(1)} seconds`) });
+add('Google Lighthouse speed', 'Performance score on a phone, out of 100',
+  pairs.filter(({ k }) => ok(lh[k]?.site) && ok(lh[k]?.concept) && typeof lh[k].site.performance === 'number' && typeof lh[k].concept.performance === 'number').map(({ d, k }) => ({ d, s: lh[k].site.performance, c: lh[k].concept.performance })),
+  (v) => String(Math.round(v)), { max: 100, worst: 'low', say: (v) => `${v} out of 100` });
+add('Page weight', 'Data a phone downloads for the home page',
+  pairs.filter(({ k }) => weights[k]?.site?.bytes && weights[k]?.concept?.bytes).map(({ d, k }) => ({ d, s: weights[k].site.bytes, c: weights[k].concept.bytes })),
+  size, { worst: 'high' });
+add('Files to download', 'Separate files a phone fetches for the home page',
+  pairs.filter(({ k }) => weights[k]?.site?.requests && weights[k]?.concept?.requests).map(({ d, k }) => ({ d, s: weights[k].site.requests, c: weights[k].concept.requests })),
+  (v) => String(Math.round(v)), { worst: 'high', say: (v) => `${v} files` });
+add('Accessibility problems', 'Found by the axe checker on the home page',
+  pairs.filter(({ k }) => typeof a11y[k]?.site?.issues === 'number' && typeof a11y[k]?.concept?.issues === 'number').map(({ d, k }) => ({ d, s: a11y[k].site.issues, c: a11y[k].concept.issues })),
+  (v) => String(Math.round(v)), { worst: 'high', say: (v) => `${v} problems` });
+// Tap-to-call is yes or no for each page, so this card shows the share with one.
+const calls = pairs.filter(({ k }) => first[k]?.site && first[k]?.concept && typeof first[k].site.call === 'boolean');
+const callShare = (side: 'site' | 'concept') => Math.round((100 * calls.filter(({ k }) => first[k][side].call).length) / (calls.length || 1));
+if (calls.length >= 10) cards.push({ label: 'Tap-to-call on the first screen', sub: 'Share of home pages with a call button before any scrolling', n: calls.length, site: callShare('site'), concept: callShare('concept'), show: (v) => `${v}%`, max: 100 });
+const lower = (c: Card) => c.max !== 100; // for these, a shorter bar is better
+const counts = cards.map((c) => c.n), fewest = Math.min(...counts), most = Math.max(...counts);
+---
+{cards.length > 0 && (
+  <section class="diff" id="results" data-diff>
+    <div class="wrap">
+      <div class="diff-head">
+        <h2>The difference, <em>measured</em></h2>
+        <p>Every concept goes through the same tests as the business’s current home page: Google’s Lighthouse, the axe accessibility checker, and a screen recording on a simulated slow phone. These are the middle values across {fewest === most ? most : `${fewest} to ${most}`} businesses{fewest === most ? '' : ', depending on the test'}.</p>
+      </div>
+      <ul class="diff-grid">
+        {cards.map((c) => (
+          <li class="diff-card">
+            <h3>{c.label}</h3>
+            <p class="diff-sub">{c.sub}</p>
+            <div class="diff-row old">
+              <span class="who">Today</span>
+              <span class="bar" aria-hidden="true"><i style={`--w:${Math.max(3, Math.round((c.site / c.max) * 100))}%`}></i></span>
+              <b>{c.show(c.site)}</b>
+            </div>
+            <div class="diff-row new">
+              <span class="who">Concept</span>
+              <span class="bar" aria-hidden="true"><i style={`--w:${Math.max(3, Math.round((c.concept / c.max) * 100))}%`}></i></span>
+              <b>{c.show(c.concept)}</b>
+            </div>
+            <p class="diff-foot">
+              {lower(c) ? 'Lower is better' : 'Higher is better'} · {c.n} businesses
+              {c.example && <><br />For example, <a href={`/${c.example.slug}/report/`}>{c.example.name}</a>: {c.example.text}</>}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<script is:inline>
+  // The bars grow when the cards scroll into view (only with the page's motion on).
+  document.addEventListener('DOMContentLoaded', () => {
+    const sec = document.querySelector('[data-diff]');
+    if (!sec || !document.documentElement.classList.contains('motion')) return;
+    sec.classList.add('grow');
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { sec.classList.add('in'); io.disconnect(); } }), { rootMargin: '0px 0px -12% 0px' });
+    io.observe(sec);
+  });
+</script>
+
+<style>
+  .diff { padding-block: clamp(64px, 8vw, 110px); background: var(--bg); border-top: 1px solid var(--line); }
+  .diff-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 32px; margin-bottom: 28px; }
+  .diff-head h2 { font-size: clamp(1.9rem, 3.4vw, 2.9rem); font-weight: 750; margin: 0; }
+  .diff-head h2 em { font-style: normal; color: #0b7556; }
+  .diff-head p { max-width: 40em; color: var(--muted); margin: 0; }
+  .diff-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+  .diff-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px 22px 18px; display: flex; flex-direction: column; box-shadow: 0 14px 30px -26px rgb(0 0 0 / .4); }
+  .diff-card h3 { font-size: 1.12rem; font-weight: 700; margin: 0; }
+  .diff-sub { color: var(--muted); font-size: .9rem; margin: 4px 0 16px; }
+  .diff-row { display: grid; grid-template-columns: 4.6em 1fr auto; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .diff-row .who { font-size: .8rem; font-weight: 650; color: var(--muted); }
+  .diff-row .bar { display: block; margin: 0; height: 12px; border-radius: 999px; background: color-mix(in srgb, var(--line) 70%, transparent); overflow: hidden; }
+  .diff-row .bar i { display: block; height: 100%; width: var(--w); border-radius: inherit; transform-origin: 0 50%; }
+  .diff-row.old .bar i { background: linear-gradient(90deg, #d9783a, #b4541a); }
+  .diff-row.new .bar i { background: linear-gradient(90deg, #22a07a, #1f6a50); }
+  .diff-row b { font-size: 1.15rem; font-weight: 750; font-variant-numeric: tabular-nums; min-width: 4.2em; text-align: right; }
+  .diff-row.new b { color: #12573f; }
+  .diff-foot { margin: auto 0 0; padding-top: 10px; font-size: .84rem; color: var(--muted); line-height: 1.5; }
+  .diff-foot a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
+  .grow .diff-row .bar i { transform: scaleX(0); transition: transform 1.1s cubic-bezier(.2, .7, .2, 1); }
+  .grow .diff-row.new .bar i { transition-delay: .25s; }
+  .grow.in .diff-row .bar i { transform: none; }
+  @media print { .grow .diff-row .bar i { transform: none; } }
+</style>

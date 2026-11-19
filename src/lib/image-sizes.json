@@ -3590,5 +3590,25 @@
  "/demo-assets/langley-tavern/storefront-960.webp": [
   960,
   640
+ ],
+ "/demo-assets/automotive-workbench/shop.webp": [
+  1132,
+  762
+ ],
+ "/demo-assets/cavaliers-coffeehouse/latte-pour.webp": [
+  1008,
+  1173
+ ],
+ "/demo-assets/automotive-workbench/shop-640.webp": [
+  640,
+  431
+ ],
+ "/demo-assets/automotive-workbench/shop-960.webp": [
+  960,
+  646
+ ],
+ "/demo-assets/cavaliers-coffeehouse/latte-pour-640.webp": [
+  640,
+  745
  ]
 }

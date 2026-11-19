@@ -2,6 +2,7 @@
 // Portfolio index: every redesign concept in one place.
 import MotionToggle from '../components/demo/MotionToggle.astro';
 import RegionMap from '../components/RegionMap.astro';
+import Difference from '../components/Difference.astro';
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../components/Icon.astro';
@@ -120,6 +121,7 @@ const features = [
         <a class="brand" href="/"><span class="glyph"><svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="glint" aria-hidden="true"></i></span><span class="word">{site.name}</span></a>
         <nav aria-label="Main">
           <a href="#concepts">Concepts</a>
+          <a href="#results">Results</a>
           <a href="#map">Map</a>
           <a href="#included">What's included</a>
           <a href="#how">How it works</a>
@@ -217,6 +219,7 @@ const features = [
         </div>
       </section>
 
+      <Difference />
       <RegionMap />
 
       <section class="included" id="included">
