@@ -1,0 +1,343 @@
+{
+  "name": "Jury Pest Services",
+  "short": "Jury Pest",
+  "category": "Pest Control & Termite Protection",
+  "group": "Home & Garden",
+  "town": "North Augusta, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f6f9",
+    "surface": "#ffffff",
+    "ink": "#101828",
+    "muted": "#4a5568",
+    "primary": "#1d3a6b",
+    "onPrimary": "#ffffff",
+    "accent": "#d62f2f",
+    "line": "#dde3ec"
+  },
+  "radius": 12,
+  "icon": "bug",
+  "contact": {
+    "phone": "(803) 441-0007",
+    "address": [
+      "217 Edgefield Road",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Jury Pest Services, 217 Edgefield Rd, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:30 am – 5:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Office hours. Service visits run Monday to Friday, 8 am to 5 pm.",
+    "facebook": "https://www.facebook.com/jurypestservices"
+  },
+  "hero": {
+    "eyebrow": "Family owned since 1947",
+    "title": "Eliminate. Prevent. *Protect.*",
+    "lede": "Three generations of the Jury family have protected homes and businesses across the CSRA. Pest control built around your home, termite protection, mosquito control and whole-home water filtration, from our office in North Augusta.",
+    "points": [
+      "Free re-treatments between visits",
+      "Termite warranties",
+      "Georgia & South Carolina"
+    ],
+    "cta": {
+      "label": "Request an inspection",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 441-0007",
+      "href": "tel:+18034410007"
+    },
+    "image": {
+      "src": "/demo-assets/jury-pest-services/exterior-treatment.webp",
+      "alt": "A Jury technician in a blue uniform treating the shrubs along a home’s brick wall",
+      "width": 760,
+      "height": 480
+    }
+  },
+  "facts": [
+    {
+      "value": "1947",
+      "label": "Family owned since"
+    },
+    {
+      "value": "3 generations",
+      "label": "Of the Jury family"
+    },
+    {
+      "value": "4.91 ★",
+      "label": "Average customer review"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we treat",
+      "title": "Protection *inside and out*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Home pest control",
+          "text": "Ants, roaches, spiders, silverfish and more: an inspection inside and out, quarterly visits, and free re-treatments if pests come back between them."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial pest control",
+          "text": "Plans built to your industry’s standards, with audit-ready reports and discreet off-hours treatments."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Termite protection",
+          "text": "Inspections and clearance letters, liquid treatments and bait systems, pre-construction treatments and damage warranties."
+        },
+        {
+          "icon": "trees",
+          "title": "Mosquito reduction",
+          "text": "Monthly barrier sprays, standing-water fixes, and treatments before outdoor weddings and parties."
+        },
+        {
+          "icon": "bed",
+          "title": "Bed bugs, fleas & rodents",
+          "text": "Fast, thorough treatment for bed bugs and fleas, and rodent solutions with a satisfaction guarantee."
+        },
+        {
+          "icon": "droplets",
+          "title": "Crawl spaces & water",
+          "text": "Vapor barriers and dehumidifiers, and Pure Way whole-home water filtration, installed and serviced by our team."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "Integrated pest management",
+      "title": "Hard on pests, *easy on your family*",
+      "items": [
+        {
+          "title": "Inspection",
+          "text": "A technician checks inside and around your home or building to find what’s getting in, and where."
+        },
+        {
+          "title": "A plan for your place",
+          "text": "Treatments chosen for your pests and your property, designed to keep family, pets and employees safe."
+        },
+        {
+          "title": "Regular visits",
+          "text": "Quarterly service and exterior barriers keep pests from coming back."
+        },
+        {
+          "title": "Free re-treatments",
+          "text": "If pests return between scheduled visits, we come back at no charge."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
+      "eyebrow": "Since 1947",
+      "title": "Three generations *of the Jury family*",
+      "image": {
+        "src": "/demo-assets/jury-pest-services/handshake.webp",
+        "alt": "A Jury technician shaking hands with a homeowner at her front door",
+        "width": 760,
+        "height": 480
+      },
+      "body": [
+        "Jury Pest Services began with Charles Jury and his sons, Johnny and Paul, and grew out of Midway Pest Control into the team it is today. Third-generation leaders Justin and Cameron run the business now, keeping the same values: professional work, fair prices and long relationships with customers.",
+        "Our technicians are certified and keep training, and every plan is built around the pests that press on homes and businesses here in the CSRA."
+      ],
+      "list": [
+        "Certified, continually trained technicians",
+        "Fair prices",
+        "Customers for decades"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "On the job",
+      "title": "Our team *at work*",
+      "images": [
+        {
+          "src": "/demo-assets/jury-pest-services/inspection.webp",
+          "alt": "A technician inspecting an outdoor air conditioning unit beside a brick house",
+          "width": 760,
+          "height": 480
+        },
+        {
+          "src": "/demo-assets/jury-pest-services/interior-check.webp",
+          "alt": "A technician checking a staircase inside a home",
+          "width": 592,
+          "height": 374
+        },
+        {
+          "src": "/demo-assets/jury-pest-services/kitchen-consult.webp",
+          "alt": "A technician going over a report on a tablet with a homeowner in her kitchen",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/demo-assets/jury-pest-services/van.webp",
+          "alt": "A Jury technician standing beside a service van outside a house",
+          "width": 360,
+          "height": 360
+        },
+        {
+          "src": "/demo-assets/jury-pest-services/crawlspace.webp",
+          "alt": "A crawl space sealed with a white vapor barrier",
+          "width": 592,
+          "height": 374
+        },
+        {
+          "src": "/demo-assets/jury-pest-services/termites.webp",
+          "alt": "Close-up of termites",
+          "width": 592,
+          "height": 374
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "4.91 average from our customers",
+      "title": "Neighbors *say it best*",
+      "items": [
+        {
+          "text": "Cameron always has a great smile, an upbeat attitude, and great service. We’ve had several other pest control services in the past, but Jury is the best!",
+          "by": "Marian C. & Charles, Aiken"
+        },
+        {
+          "text": "Jury pest control has been servicing my home over thirty years and I have not had any complaints about them.",
+          "by": "Phyllis, North Augusta"
+        },
+        {
+          "text": "Cameron was very thorough with inspecting the crawlspace and explained everything he saw and did.",
+          "by": "Patricia, North Augusta"
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "areas",
+      "nav": "Service area",
+      "eyebrow": "Where we serve",
+      "title": "Across *the CSRA*",
+      "columns": [
+        {
+          "title": "Aiken County, SC",
+          "items": [
+            "Aiken, North Augusta, Graniteville and Beech Island",
+            "New Ellenton, Jackson, Wagener and Warrenville"
+          ]
+        },
+        {
+          "title": "More of South Carolina",
+          "items": [
+            "Edgefield, Johnston and Trenton",
+            "Barnwell and Williston",
+            "McCormick and Lexington counties"
+          ]
+        },
+        {
+          "title": "Georgia",
+          "items": [
+            "Augusta, Evans, Martinez and Grovetown",
+            "Hephzibah, Waynesboro and Thomson"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What if pests come back between visits?",
+          "a": "We come back and re-treat at no charge."
+        },
+        {
+          "q": "Are your treatments safe for kids and pets?",
+          "a": "Our integrated approach is designed to keep family, pets and employees safe, and our mosquito treatments include eco-conscious options that are safe for children and pets once dry."
+        },
+        {
+          "q": "Can you provide a termite letter for a home sale?",
+          "a": "Yes. We do thorough structural termite inspections and clearance letters (WIR)."
+        },
+        {
+          "q": "Do you serve Georgia?",
+          "a": "Yes: Augusta, Evans, Martinez, Grovetown, Hephzibah, Waynesboro, Thomson and nearby."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready for a pest-free home?",
+      "text": "Request an inspection, or call our North Augusta office.",
+      "cta": {
+        "label": "Call (803) 441-0007",
+        "href": "tel:+18034410007"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Request *an inspection*",
+    "formTitle": "Tell us what you’re seeing",
+    "formTopics": [
+      "Ants, roaches or spiders",
+      "Termites",
+      "Mosquitoes",
+      "Bed bugs or fleas",
+      "Rodents",
+      "A business",
+      "Water filtration",
+      "Something else"
+    ]
+  },
+  "slug": "jury-pest-services",
+  "added": "2026-11-20",
+  "prospect": "jury-pest-services",
+  "source": {
+    "url": "https://www.jurypest.com/",
+    "before": [
+      "The service-area list reads “Augusta, GA, Evan,GA, …” and “Counties of Richmond, County, … Burke, County, and Mcduffie, County”",
+      "The reviews page’s word filter turns “attitude” into “att**ude” in a five-star review",
+      "Zooming is blocked on phones, and the home page takes about 16 seconds to show its main content (Google Lighthouse speed score: 44 out of 100)"
+    ],
+    "after": [
+      "Every service on one page, in plain words",
+      "One tap to call, one form to request an inspection",
+      "Three generations of the family story up front",
+      "Real reviews from neighbors"
+    ]
+  },
+  "style": {
+    "frame": "blob",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

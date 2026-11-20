@@ -2767,7 +2767,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -5513,7 +5513,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -11795,7 +11795,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -13672,7 +13672,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -15287,7 +15287,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -15876,7 +15876,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -16108,7 +16108,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -16729,7 +16729,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -17142,7 +17142,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -17717,7 +17717,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -17867,7 +17867,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -18157,7 +18157,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -18280,7 +18280,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -18437,7 +18437,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -18577,7 +18577,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -28910,7 +28910,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -31576,7 +31576,7 @@
     "description": false,
     "schema": true,
     "og": false,
-    "performance": 58,
+    "performance": 59,
     "pageMB": 2.3,
     "a11ySerious": 1,
     "facebook": false,
@@ -33465,6 +33465,923 @@
     "facebook": false,
     "instagram": false,
     "domainYears": 15
+   }
+  ]
+ },
+ "anshu-asian-caf": {
+  "slug": "anshu-asian-cafe",
+  "name": "AnShu Asian Cafe",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "anshuasiancafe.com",
+   "https": true,
+   "pagesCrawled": 4,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://anshuasiancafe.com/",
+    "title": "AnShu Asian Cafe",
+    "description": "",
+    "canonical": "https://anshuasiancafe.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home",
+     "Welcome to Anshu Aiken Cafe"
+    ],
+    "h1Count": 2,
+    "h2": 0,
+    "h3": 0,
+    "words": 116,
+    "images": 1,
+    "imagesNoAlt": 1,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://anshuasiancafe.com/wp-sitemap.xml",
+    "pages": 15
+   },
+   "crawl": {
+    "pages": 4,
+    "missingTitle": 0,
+    "missingDescription": 4,
+    "missingH1": 0,
+    "multipleH1": 3,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 8,
+    "images": 8,
+    "sample": [
+     {
+      "url": "https://anshuasiancafe.com/",
+      "title": "AnShu Asian Cafe",
+      "description": 0,
+      "h1": 2,
+      "words": 116
+     },
+     {
+      "url": "https://anshuasiancafe.com/menu/",
+      "title": "Menu - AnShu Asian Cafe",
+      "description": 0,
+      "h1": 2,
+      "words": 47
+     },
+     {
+      "url": "https://anshuasiancafe.com/to-go-menu-3/",
+      "title": "Takeout Menu - AnShu Asian Cafe",
+      "description": 0,
+      "h1": 2,
+      "words": 50
+     },
+     {
+      "url": "https://anshuasiancafe.com/directions/",
+      "title": "Directions - AnShu Asian Cafe",
+      "description": 0,
+      "h1": 1,
+      "words": 64
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 4,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://www.google.com/maps/place/anshu+aiken+sc/data=!4m2!3m1!1s0x88f9b310d38fb211:0x9df89cf012640bf4"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Asian Café",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/anshu_asian_cafe/",
+    "name": "AnShu Asian Café",
+    "phone": "(803) 226-0556",
+    "website": "http://anshuasiancafe.com/",
+    "address": "122 Coach Light Way Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://www.google.com/maps/place/anshu+aiken+sc/data=!4m2!3m1!1s0x88f9b310d38fb211:0x9df89cf012640bf4"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/AnShuAiken"
+   }
+  },
+  "domain": {
+   "name": "anshuasiancafe.com",
+   "created": "2015-10-21",
+   "expires": "2027-10-21",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 11
+  },
+  "performance": {
+   "performance": 59,
+   "accessibility": 92,
+   "bestPractices": 100,
+   "seo": 85,
+   "fcp": 6692,
+   "lcp": 11061,
+   "tbt": 55,
+   "si": 6692,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 95,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 1805,
+   "tbt": 174,
+   "si": 949,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "thai-jasmine-rice",
+   "aiken-fish-house-and-oyster-bar",
+   "ferrandos-italian-pizzeria",
+   "jcs-seafood",
+   "neon-fig"
+  ],
+  "scores": {
+   "seo": 53,
+   "social": 50,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "thai-jasmine-rice",
+    "name": "Thai Jasmine Rice",
+    "website": "https://jasminericesc.wixsite.com/kaogang",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "ferrandos-italian-pizzeria",
+    "name": "Ferrandos Italian Pizzeria",
+    "website": "https://ferrandospizza.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "jcs-seafood",
+    "name": "JC's Seafood",
+    "website": "https://jcseafood.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 13
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "mckinney-tire-service": {
+  "slug": "mckinney-tire-service",
+  "name": "McKinney Tire Service",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "mckinneytireservice.com",
+   "https": true,
+   "pagesCrawled": 7,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://mckinneytireservice.com/",
+    "title": "McKinney Tire Service - Tire and Automotive Repair",
+    "description": "",
+    "canonical": "https://mckinneytireservice.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home",
+     "McKinney Tire Service"
+    ],
+    "h1Count": 2,
+    "h2": 3,
+    "h3": 4,
+    "words": 234,
+    "images": 1,
+    "imagesNoAlt": 1,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://mckinneytireservice.com/wp-sitemap.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 7,
+    "missingTitle": 0,
+    "missingDescription": 7,
+    "missingH1": 0,
+    "multipleH1": 3,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 18,
+    "images": 19,
+    "sample": [
+     {
+      "url": "https://mckinneytireservice.com/",
+      "title": "McKinney Tire Service - Tire and Automotive Repair",
+      "description": 0,
+      "h1": 2,
+      "words": 234
+     },
+     {
+      "url": "https://mckinneytireservice.com/tires/",
+      "title": "Tires - McKinney Tire Service",
+      "description": 0,
+      "h1": 3,
+      "words": 374
+     },
+     {
+      "url": "https://mckinneytireservice.com/services/",
+      "title": "Services - McKinney Tire Service",
+      "description": 0,
+      "h1": 3,
+      "words": 186
+     },
+     {
+      "url": "https://mckinneytireservice.com/penske-truck-rentals/",
+      "title": "Penske Truck Rentals - McKinney Tire Service",
+      "description": 0,
+      "h1": 1,
+      "words": 212
+     },
+     {
+      "url": "https://mckinneytireservice.com/hours-location/",
+      "title": "Hours & Location - McKinney Tire Service",
+      "description": 0,
+      "h1": 1,
+      "words": 103
+     },
+     {
+      "url": "https://mckinneytireservice.com/financing/",
+      "title": "Financing - McKinney Tire Service",
+      "description": 0,
+      "h1": 1,
+      "words": 81
+     },
+     {
+      "url": "https://mckinneytireservice.com/contact-us/",
+      "title": "Contact Us - McKinney Tire Service",
+      "description": 0,
+      "h1": 1,
+      "words": 82
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 13,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/McKinney-Tire-Service-325357881207306/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Tires",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 9
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=674&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=1eb7dbfb040eb9abaf5118cbd488d971",
+    "name": "McKinney Tire Service",
+    "phone": "(803) 648-4040",
+    "website": "http://www.Mckinneytireservice.com",
+    "address": "856 York Street, NE, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/McKinney-Tire-Service-325357881207306/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/McKinney-Tire-Service-325357881207306/"
+   }
+  },
+  "domain": {
+   "name": "mckinneytireservice.com",
+   "created": "2017-11-09",
+   "expires": "2027-11-09",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 9
+  },
+  "performance": {
+   "performance": 56,
+   "accessibility": 91,
+   "bestPractices": 82,
+   "seo": 85,
+   "fcp": 3840,
+   "lcp": 9799,
+   "tbt": 341,
+   "si": 5100,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 95,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 962,
+   "lcp": 2107,
+   "tbt": 202,
+   "si": 962,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "automotive-workbench",
+   "big-chris-collision",
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "c-and-c-automotive",
+   "kelly-paint-and-body-inc"
+  ],
+  "scores": {
+   "seo": 58,
+   "social": 35,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "big-chris-collision",
+    "name": "Big Chris Collision",
+    "website": "https://bigchriscollision.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 68,
+    "pageMB": 2.2,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 9
+   },
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "c-and-c-automotive",
+    "name": "C&C Automotive",
+    "website": "https://www.ccautomotive.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 80,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "kelly-paint-and-body-inc",
+    "name": "Kelly Paint & Body Inc.",
+    "website": "https://kellypaintandbody.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 36,
+    "pageMB": 5.3,
+    "a11ySerious": 19,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 15
+   }
+  ]
+ },
+ "jury-pest-services": {
+  "slug": "jury-pest-services",
+  "name": "Jury Pest Services",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "jurypest.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.jurypest.com/",
+    "title": "Professional Pest Control In SC & GA | Jury Pest Services",
+    "description": "Jury Pest Services provides pest control solutions for homes & businesses in Georgia & South Carolina. We service Aiken, SC Edgefield, SC Barnwell, SC Saluda, SC Lexington, SC Augusta, GA Evans, GA, Grovetown, GA, Martinez, GA, Hephzibah, GA Thomson, GA Lincolnton, GA  Waynesboro, GA.",
+    "canonical": "https://www.jurypest.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Trusted by Homeowners and Businesses Since 1947"
+    ],
+    "h1Count": 1,
+    "h2": 11,
+    "h3": 6,
+    "words": 592,
+    "images": 35,
+    "imagesNoAlt": 15,
+    "schemaTypes": [
+     "Organization",
+     "WebSite",
+     "SearchAction",
+     "WebPage"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.jurypest.com/sitemap.xml",
+    "pages": 147
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 169,
+    "images": 316,
+    "sample": [
+     {
+      "url": "https://www.jurypest.com/",
+      "title": "Professional Pest Control In SC & GA | Jury Pest Services",
+      "description": 285,
+      "h1": 1,
+      "words": 592
+     },
+     {
+      "url": "https://www.jurypest.com/login",
+      "title": "Login To My Account",
+      "description": 27,
+      "h1": 1,
+      "words": 220
+     },
+     {
+      "url": "https://www.jurypest.com/reviews",
+      "title": "Reviews",
+      "description": 82,
+      "h1": 1,
+      "words": 196
+     },
+     {
+      "url": "https://www.jurypest.com/contact-us",
+      "title": "Contact Us | Jury Pest Services",
+      "description": 113,
+      "h1": 1,
+      "words": 302
+     },
+     {
+      "url": "https://www.jurypest.com/home-pest-control",
+      "title": "Pest Control In Aiken, SC & Augusta, GA",
+      "description": 153,
+      "h1": 1,
+      "words": 979
+     },
+     {
+      "url": "https://www.jurypest.com/commercial-pest-control",
+      "title": "Commercial Pest Control In Aiken County, SC & Richmond County, GA | Jury Pest Services",
+      "description": 155,
+      "h1": 1,
+      "words": 992
+     },
+     {
+      "url": "https://www.jurypest.com/services",
+      "title": "Pest Control Services",
+      "description": 144,
+      "h1": 1,
+      "words": 925
+     },
+     {
+      "url": "https://www.jurypest.com/water-filtration",
+      "title": "Whole Home Water Filtration",
+      "description": 150,
+      "h1": 1,
+      "words": 657
+     },
+     {
+      "url": "https://www.jurypest.com/where-we-service",
+      "title": "Pest Control For Georgia & South Carolina | Jury Pest Services",
+      "description": 148,
+      "h1": 1,
+      "words": 460
+     },
+     {
+      "url": "https://www.jurypest.com/termite-control",
+      "title": "Termite Control In Georgia And South Carolina | Jury Pest Services",
+      "description": 152,
+      "h1": 1,
+      "words": 750
+     },
+     {
+      "url": "https://www.jurypest.com/north-augusta-sc-pest-control",
+      "title": "Where We Service - North Augusta, SC",
+      "description": 0,
+      "h1": 1,
+      "words": 651
+     },
+     {
+      "url": "https://www.jurypest.com/about-us",
+      "title": "Pest Control North Augusta, SC",
+      "description": 30,
+      "h1": 1,
+      "words": 654
+     },
+     {
+      "url": "https://www.jurypest.com/augusta-ga-pest-control",
+      "title": "Augusta, GA Pest Control | Jury Pest Services",
+      "description": 150,
+      "h1": 1,
+      "words": 1104
+     },
+     {
+      "url": "https://www.jurypest.com/richmond-county-ga-pest-control",
+      "title": "Richmond County, GA Pest Control | Jury Pest Services",
+      "description": 152,
+      "h1": 1,
+      "words": 985
+     },
+     {
+      "url": "https://www.jurypest.com/aiken-sc-pest-control",
+      "title": "Aiken, SC Pest Control | Jury Pest Services",
+      "description": 153,
+      "h1": 1,
+      "words": 998
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/jurypestservices",
+    "Yelp": "https://www.yelp.com/biz/jury-pest-services-north-augusta",
+    "LinkedIn": "https://www.linkedin.com/in/paul-jury-28503a70/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Pest Control",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 5
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=595&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=75c6c3509055b8b8225549fae12ae4fd",
+    "name": "JURY PEST SERVICES",
+    "phone": "(803) 441-0007",
+    "website": "http://WWW.JURYPEST.COM",
+    "address": "217 Edgefield Road, North Augusta, SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/jury-pest-services-4286",
+    "name": "Jury Pest Services",
+    "phone": "(803) 441-0007",
+    "website": "http://WWW.JURYPEST.COM",
+    "address": "217 Edgefield Road, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/jurypestservices",
+    "Yelp": "https://www.yelp.com/biz/jury-pest-services-north-augusta",
+    "LinkedIn": "https://www.linkedin.com/in/paul-jury-28503a70/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/jurypestservices"
+   }
+  },
+  "domain": {
+   "name": "jurypest.com",
+   "created": "2006-02-08",
+   "expires": "2028-02-08",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 20
+  },
+  "performance": {
+   "performance": 44,
+   "accessibility": 88,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 1942,
+   "lcp": 16149,
+   "tbt": 1974,
+   "si": 3961,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 95,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 956,
+   "lcp": 2406,
+   "tbt": 157,
+   "si": 956,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "aiken-pest-control-inc",
+   "urban-canine-pest-and-wildlife-solutions"
+  ],
+  "scores": {
+   "seo": 74,
+   "social": 50,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-pest-control-inc",
+    "name": "Aiken Pest Control, Inc.",
+    "website": "https://www.aikenpest.com/",
+    "state": "blocked",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 26
+   },
+   {
+    "slug": "urban-canine-pest-and-wildlife-solutions",
+    "name": "Urban Canine Pest and Wildlife Solutions",
+    "website": "https://www.ucpaws.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 2
    }
   ]
  }

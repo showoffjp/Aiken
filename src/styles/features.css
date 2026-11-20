@@ -369,3 +369,22 @@ html.motion-paused *, html.motion-paused *::before, html.motion-paused *::after 
 .motion-btn:focus-visible, .motion-link:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) { .motion-btn, .motion-link { display: none; } }
 @media print { .motion-btn, .motion-link { display: none !important; } }
+
+/* Guided tour (concept pages): a ring around each stop, a dimmed page, and a card. */
+.tour { position: fixed; inset: 0; z-index: 1000; pointer-events: none; }
+.tour[hidden] { display: none; }
+.tour-ring { position: fixed; border-radius: 14px; outline: 3px solid #fff; box-shadow: 0 0 0 6px rgb(20 24 26 / .9), 0 0 0 100vmax rgb(12 14 16 / .55); transition: top .3s ease, left .3s ease, width .3s ease, height .3s ease; }
+.tour-pop { position: fixed; top: 0; left: 0; pointer-events: auto; background: #fff; color: #14181a; border-radius: 16px; padding: 16px 18px 12px; box-shadow: 0 24px 60px -18px rgb(0 0 0 / .55); font: 400 .98rem/1.5 var(--font-body, system-ui), system-ui, sans-serif; transition: transform .3s ease; }
+.tour-count { margin: 0; font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #565f63; }
+.tour-title { margin: 4px 0 4px; font-family: var(--font-display), system-ui, sans-serif; font-size: 1.15rem; font-weight: 750; line-height: 1.3; outline: none; }
+.tour-text { margin: 0; color: #2b3134; }
+.tour-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+.tour-nav { display: flex; gap: 8px; margin-left: auto; }
+.tour-pop button { font: 650 .92rem/1 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; min-height: 44px; padding: 0 16px; border-radius: 999px; cursor: pointer; border: 1px solid #c9ced1; background: #fff; color: #14181a; }
+.tour-pop .tour-close { border-color: transparent; padding-inline: 6px; text-decoration: underline; text-underline-offset: 3px; color: #3d4549; }
+.tour-pop .tour-next { background: #14181a; border-color: #14181a; color: #fff; }
+.tour-pop button:focus-visible { outline: 3px solid #1f6feb; outline-offset: 2px; }
+.tour-pop button[hidden] { display: none; }
+@media (prefers-reduced-motion: reduce) { .tour-ring, .tour-pop { transition: none; } }
+.motion-paused .tour-ring, .motion-paused .tour-pop { transition: none; }
+@media print { .tour { display: none !important; } }

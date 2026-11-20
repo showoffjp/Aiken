@@ -134,6 +134,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       <div class="wrap">
         <span class="dot"></span>
         <span class="grow"><b>Concept<span class="long"> preview</span>.</b> <span class="long">{demo.source.none ? `A first-website idea for ${demo.name}, which has no site of its own yet.` : `A redesign idea for ${demo.name}, not their live website (${sourceHost}).`}</span><span class="short">Not the live site.</span></span>
+        <button type="button" data-tour-start><span class="long">Take the tour</span><span class="short">Tour</span></button>
         <button type="button" data-open-notes>What changed?</button>
         <a class="studio" href="/">{site.name}</a>
       </div>
@@ -365,14 +366,29 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     </footer>
 
     {contact.phone && (
-      <div class="callbar">
+      <nav class="callbar" aria-label="Quick contact">
         <a href={telHref(contact.phone)}><Icon name="phone" size={18} stroke={2.4} />Call now</a>
         {directions && <a class="alt" href={directions} target="_blank" rel="noopener" data-directions={contact.mapQuery}><Icon name="navigation" size={18} stroke={2.2} />Directions</a>}
-      </div>
+      </nav>
     )}
 
     <a class="to-top" href="#top" aria-label="Back to top" data-to-top tabindex="-1"><Icon name="arrow-up" size={22} stroke={2.2} /></a>
     <div class="toast" role="status" aria-live="polite" data-toast><span data-toast-text></span></div>
+    <aside class="tour" aria-label="Guided tour of this concept" data-tour hidden data-food={demo.group === 'Food & Drink' ? '' : undefined} data-studio={site.contactName ? `${site.contactName} at ${site.name}` : site.name} data-studio-phone={site.contactPhone || undefined}>
+      <div class="tour-ring" data-tour-ring aria-hidden="true"></div>
+      <div class="tour-pop" role="dialog" aria-labelledby="tour-title" aria-describedby="tour-text" data-tour-pop>
+        <p class="tour-count" data-tour-count></p>
+        <p class="tour-title" id="tour-title" tabindex="-1" data-tour-title></p>
+        <p class="tour-text" id="tour-text" data-tour-text></p>
+        <div class="tour-actions">
+          <button type="button" class="tour-close" data-tour-close>Close tour</button>
+          <span class="tour-nav">
+            <button type="button" class="tour-back" data-tour-back>Back</button>
+            <button type="button" class="tour-next" data-tour-next>Next</button>
+          </span>
+        </div>
+      </div>
+    </aside>
     {hasPhotos && (
       <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
         <figure><figcaption><span data-lb-cap></span><span class="lb-count" data-lb-count></span></figcaption></figure>
@@ -831,6 +847,102 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           const tick = () => sh?.classList.toggle('scrolled', scrollY > 24);
           addEventListener('scroll', tick, { passive: true }); tick();
         }
+      })();
+    </script>
+    <script is:inline>
+      // Guided tour: a few stops that point out what the concept does for
+      // customers. Started from the preview bar, or with ?tour in the address.
+      (() => {
+        const root = document.querySelector('[data-tour]');
+        const start = document.querySelector('[data-tour-start]');
+        if (!root || !start) return;
+        const ring = root.querySelector('[data-tour-ring]'), pop = root.querySelector('[data-tour-pop]');
+        const $ = (sel) => root.querySelector(sel);
+        const shown = (el) => !!el && el.getClientRects().length > 0 && getComputedStyle(el).visibility !== 'hidden';
+        const first = (...sels) => { for (const sel of sels) for (const el of document.querySelectorAll(sel)) if (shown(el)) return el; return null; };
+        const food = root.hasAttribute('data-food');
+        const studio = root.dataset.studio, studioPhone = root.dataset.studioPhone;
+        const still = () => matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.classList.contains('motion-paused');
+
+        const stops = () => [
+          { el: first('.callbar a'), title: 'One tap to call', text: 'On a phone this button stays on screen while people scroll, so calling you is always one tap away. Directions sit right beside it.' },
+          { el: first('.head-cta'), title: 'Your number, always in view', text: 'On a computer the number stays in the header. Clicking it offers to call from the computer, or copies the number to dial on a phone.' },
+          { el: first('.menu-sec .menu-jump', '.menu-sec'), title: food ? 'The whole menu, with prices' : 'Your prices, easy to find', text: `Customers jump straight to the part they want${document.querySelector('[data-print-menu]') ? ', and can print it' : ''}, with no PDF to download.` },
+          { el: first('.gallery', '.cine-mosaic', '.cine-gallery'), title: 'Photos that open full screen', text: 'Tap any photo to see it large, then swipe through the rest.' },
+          (() => {
+            const row = first('.hours')?.closest('.row') || null, sign = row && shown(row.querySelector('[data-open-now]'));
+            return sign
+              ? { el: row, title: 'Hours, with an “Open now” sign', text: 'The sign checks your hours against the time in Aiken and updates itself through the day, so nobody drives over to a locked door.' }
+              : { el: row, title: 'Hours where people look', text: 'Your hours sit right beside your number and address, so nobody has to hunt for them.' };
+          })(),
+          { el: first('[data-map]', '.map'), title: 'A map drawn in your colors', text: 'Directions are one tap away. The full Google map loads only when someone asks for it, which keeps the page fast.' },
+          { el: first('.row.keep'), title: 'Saved to their phone', text: 'One tap adds you to a customer’s contacts, with your number and address, or shares your page with a friend.' },
+          { el: first('[data-form]'), title: 'Questions and quote requests', text: 'A short form that sends messages straight to you, with a phone number or email to reply to. (In this preview it doesn’t send anything.)' },
+          { el: first('[data-open-notes]'), top: true, title: 'That’s the tour', text: `It’s built to load fast on phones and to pass automated accessibility checks. “What changed?” compares it with the current site.${studioPhone ? ` Questions? Call ${studio}: ${studioPhone}.` : ''}` },
+        ].filter((s) => s.el);
+
+        let list = [], at = 0, frame = 0, opener = null;
+        const place = () => {
+          cancelAnimationFrame(frame);
+          frame = requestAnimationFrame(() => {
+            const el = list[at]?.el; if (!el) return;
+            const r = el.getBoundingClientRect(), vw = innerWidth, vh = innerHeight, pad = 8;
+            const top = Math.max(4, r.top - pad), bottom = Math.min(vh - 4, r.bottom + pad);
+            Object.assign(ring.style, { top: `${top}px`, left: `${Math.max(4, r.left - pad)}px`, width: `${Math.min(vw - 8, r.width + pad * 2)}px`, height: `${Math.max(0, bottom - top)}px` });
+            const pw = Math.min(380, vw - 24); pop.style.width = `${pw}px`;
+            const ph = pop.offsetHeight, gap = 14;
+            const bar = first('.callbar'); const low = bar ? vh - bar.getBoundingClientRect().top + 12 : 12;
+            let y;
+            if (vw <= 700) y = r.top + r.height / 2 > vh / 2 ? 12 : vh - low - ph;
+            else if (r.bottom + gap + ph <= vh - 12) y = r.bottom + gap;
+            else if (r.top - gap - ph >= 12) y = r.top - gap - ph;
+            else y = vh - ph - 16;
+            const x = vw <= 700 ? (vw - pw) / 2 : Math.min(Math.max(12, r.left), vw - pw - 12);
+            pop.style.transform = `translate(${Math.round(x)}px, ${Math.round(Math.max(12, y))}px)`;
+          });
+        };
+        const show = (i) => {
+          at = Math.max(0, Math.min(list.length - 1, i));
+          const s = list[at];
+          $('[data-tour-count]').textContent = `Step ${at + 1} of ${list.length}`;
+          $('[data-tour-title]').textContent = s.title;
+          $('[data-tour-text]').textContent = s.text;
+          $('[data-tour-back]').hidden = at === 0;
+          $('[data-tour-next]').textContent = at === list.length - 1 ? 'Finish' : 'Next';
+          const r = s.el.getBoundingClientRect(), tall = r.height > innerHeight * 0.6;
+          const fixed = getComputedStyle(s.el).position === 'fixed' || !!s.el.closest('.callbar');
+          // Short hops glide; long jumps move at once, so the card never points at a moving target.
+          const far = Math.abs(r.top + r.height / 2 - innerHeight / 2) > innerHeight * 1.5;
+          if (s.top) scrollTo({ top: 0, behavior: still() || far ? 'instant' : 'smooth' });
+          else if (!fixed) s.el.scrollIntoView({ block: tall ? 'start' : 'center', behavior: still() || far ? 'instant' : 'smooth' });
+          place();
+          setTimeout(place, 350); setTimeout(place, 800);
+          $('[data-tour-title]').focus({ preventScroll: true });
+        };
+        const close = () => {
+          root.hidden = true; document.documentElement.classList.remove('touring');
+          removeEventListener('scroll', place); removeEventListener('scrollend', place); removeEventListener('resize', place); removeEventListener('keydown', key);
+          if (new URLSearchParams(location.search).has('tour')) history.replaceState(null, '', location.pathname + location.hash);
+          (opener || start).focus({ preventScroll: true });
+        };
+        const key = (e) => {
+          if (e.key === 'Escape') { e.preventDefault(); close(); }
+          else if (e.key === 'ArrowRight' && pop.contains(document.activeElement)) { e.preventDefault(); at < list.length - 1 ? show(at + 1) : close(); }
+          else if (e.key === 'ArrowLeft' && pop.contains(document.activeElement)) { e.preventDefault(); show(at - 1); }
+        };
+        const open = (from) => {
+          list = stops(); if (!list.length) return;
+          opener = from || null;
+          document.querySelector('dialog[open]')?.close();
+          root.hidden = false; document.documentElement.classList.add('touring');
+          addEventListener('scroll', place, { passive: true }); addEventListener('scrollend', place); addEventListener('resize', place); addEventListener('keydown', key);
+          show(0);
+        };
+        start.addEventListener('click', () => open(start));
+        $('[data-tour-next]').addEventListener('click', () => (at < list.length - 1 ? show(at + 1) : close()));
+        $('[data-tour-back]').addEventListener('click', () => show(at - 1));
+        $('[data-tour-close]').addEventListener('click', close);
+        if (new URLSearchParams(location.search).has('tour')) addEventListener('load', () => setTimeout(() => open(null), 400));
       })();
     </script>
   </body>

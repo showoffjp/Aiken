@@ -401,11 +401,18 @@
  },
  "anshu-asian-caf": {
   "site": {
-   "bytes": 2459771,
+   "bytes": 2459906,
    "requests": 73,
-   "loadMs": 2650,
+   "loadMs": 2759,
    "url": "https://anshuasiancafe.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 308743,
+   "requests": 7,
+   "loadMs": 238,
+   "url": "/anshu-asian-cafe/",
+   "at": "2026-11-20"
   }
  },
  "antonios-italian-eatery": {
@@ -2089,11 +2096,18 @@
  },
  "jury-pest-services": {
   "site": {
-   "bytes": 2699725,
-   "requests": 83,
-   "loadMs": 3869,
+   "bytes": 2997251,
+   "requests": 84,
+   "loadMs": 3154,
    "url": "https://www.jurypest.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 401888,
+   "requests": 6,
+   "loadMs": 184,
+   "url": "/jury-pest-services/",
+   "at": "2026-11-20"
   }
  },
  "just-julies-sandwich-shop": {
@@ -2437,11 +2451,18 @@
  },
  "mckinney-tire-service": {
   "site": {
-   "bytes": 2092420,
+   "bytes": 2093765,
    "requests": 38,
-   "loadMs": 1782,
+   "loadMs": 2018,
    "url": "https://mckinneytireservice.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 356867,
+   "requests": 6,
+   "loadMs": 197,
+   "url": "/mckinney-tire-service/",
+   "at": "2026-11-20"
   }
  },
  "meadow-aiken": {
@@ -4695,6 +4716,15 @@
    "loadMs": 364,
    "url": "/bottom-line-bakery/",
    "at": "2026-11-18"
+  }
+ },
+ "goin-postal-of-aiken": {
+  "concept": {
+   "bytes": 375589,
+   "requests": 7,
+   "loadMs": 125,
+   "url": "/goin-postal-aiken/",
+   "at": "2026-11-20"
   }
  }
 }

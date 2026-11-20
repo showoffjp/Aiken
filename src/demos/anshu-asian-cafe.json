@@ -1,0 +1,449 @@
+{
+  "name": "AnShu Asian Cafe",
+  "short": "AnShu Asian Cafe",
+  "category": "Asian Café, Dine-in & Takeout",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "outfit",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6f4ec",
+    "surface": "#fffdf7",
+    "ink": "#1b1f16",
+    "muted": "#555b4c",
+    "primary": "#2f6b2a",
+    "onPrimary": "#ffffff",
+    "accent": "#b8322a",
+    "line": "#e5e1d3"
+  },
+  "radius": 12,
+  "icon": "soup",
+  "contact": {
+    "phone": "(803) 226-0556",
+    "email": "anshuaiken@gmail.com",
+    "address": [
+      "122 Coach Light Way SW",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "AnShu Asian Cafe, 122 Coach Light Way, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "11:30 am – 2:30 pm · 4:00 pm – 9:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/AnShuAiken"
+  },
+  "hero": {
+    "eyebrow": "In the Village at Woodside",
+    "title": "Fresh from *the wok*",
+    "lede": "Fresh, flavorful Asian cooking for dine-in and takeout: Pad Thai and Singapore curry noodles, honey walnut shrimp, ginger salmon and grilled kabobs. Spice made to your taste, and gluten-free on request.",
+    "points": [
+      "Dine-in & takeout",
+      "Lunch & dinner, Mon–Sat",
+      "Parties & catering"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call to order",
+      "href": "tel:+18032260556"
+    },
+    "image": {
+      "src": "/demo-assets/anshu-asian-cafe/dumplings.webp",
+      "alt": "Pan-fried dumplings on a bed of shredded cabbage",
+      "width": 1600,
+      "height": 533
+    }
+  },
+  "facts": [
+    {
+      "value": "Mon–Sat",
+      "label": "Lunch and dinner"
+    },
+    {
+      "value": "Your way",
+      "label": "Spice turned up or down"
+    },
+    {
+      "value": "10+",
+      "label": "Guests for catering delivery"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Dine-in & takeout",
+      "title": "The *menu*",
+      "intro": "Prices are lunch / dinner. Tell us how spicy you like it, if you need a dish gluten-free, vegetarian or vegan, and about any allergies.",
+      "groups": [
+        {
+          "title": "Favorite featured entrées",
+          "note": "Lunch / dinner",
+          "items": [
+            {
+              "name": "Salt and pepper flounder",
+              "desc": "Tempura-fried flounder sautéed with onions, chili pepper oil and a touch of salt, with garlic green beans. Also with chicken or shrimp, $17 / $22",
+              "price": "$21 / $29"
+            },
+            {
+              "name": "Ginger salmon",
+              "desc": "Steamed with fresh ginger over mixed vegetables, finished with scallions, soy and a splash of sizzling oil",
+              "price": "$20 / $30"
+            },
+            {
+              "name": "Honey walnut shrimp",
+              "desc": "Tempura-fried jumbo shrimp over steamed vegetables, honey-glazed walnuts, honey walnut sauce on the side. Also with chicken",
+              "price": "$18 / $23"
+            },
+            {
+              "name": "Korean",
+              "desc": "Chicken, pork, beef or shrimp stir-fried with zucchini, broccoli, mushrooms, carrots, onion and egg in a sweet and spicy soy sauce",
+              "price": "$17 / $22"
+            },
+            {
+              "name": "Triple taste birdnest",
+              "desc": "Chicken, shrimp and beef with vegetables in garlic sauce, in a crispy pancake nest. Dinner only",
+              "price": "$24"
+            },
+            {
+              "name": "Shrimp hot pot",
+              "desc": "Shrimp and vegetables simmered with egg in a light, slightly spicy sauce. Dinner only",
+              "price": "$24"
+            }
+          ]
+        },
+        {
+          "title": "Appetizers",
+          "items": [
+            {
+              "name": "Edamame",
+              "price": "$7.50"
+            },
+            {
+              "name": "Garlic string beans",
+              "price": "$9"
+            },
+            {
+              "name": "Seaweed salad",
+              "price": "$7"
+            },
+            {
+              "name": "Shrimp spring rolls",
+              "price": "$9.50"
+            },
+            {
+              "name": "Chicken curry potstickers",
+              "price": "$10"
+            },
+            {
+              "name": "Vegetable spring rolls",
+              "price": "$5"
+            },
+            {
+              "name": "Pork dumplings",
+              "desc": "Steamed, or pan-fried for $13.50",
+              "price": "$13"
+            },
+            {
+              "name": "Crab wontons",
+              "price": "$10"
+            },
+            {
+              "name": "Appetizer taster",
+              "desc": "Two each of the potstickers, spring rolls, dumplings and crab wontons",
+              "price": "$16"
+            }
+          ]
+        },
+        {
+          "title": "Soups",
+          "note": "Medium / large",
+          "items": [
+            {
+              "name": "Miso",
+              "price": "$5.50 / $11"
+            },
+            {
+              "name": "Pork wonton",
+              "price": "$6.50 / $14.50"
+            },
+            {
+              "name": "Egg drop",
+              "price": "$5.50 / $11"
+            },
+            {
+              "name": "Hot & sour",
+              "price": "$5.50 / $11"
+            }
+          ]
+        },
+        {
+          "title": "Classic wok entrées",
+          "note": "Chicken or pork $12 / $17 · shrimp $13 / $18 · beef $13 / $19 · tofu $13 / $18",
+          "items": [
+            {
+              "name": "Sesame or General Tso’s chicken broccoli"
+            },
+            {
+              "name": "Sweet & sour chicken",
+              "desc": "Lightly batter-fried, with pineapple, onion and carrot"
+            },
+            {
+              "name": "Yellow or red coconut curry",
+              "desc": "Onion, zucchini, carrot and snow peas in curry sauce with coconut milk ($1 extra)"
+            },
+            {
+              "name": "Garlic string beans",
+              "desc": "Fresh snapped string beans sautéed with minced garlic"
+            },
+            {
+              "name": "Steamed mixed veggies",
+              "desc": "Broccoli, carrot, zucchini and snow peas in brown, garlic, Szechuan, white ginger or red curry sauce"
+            },
+            {
+              "name": "Broccoli in brown sauce",
+              "desc": "Lots and lots of broccoli in a savory brown sauce"
+            }
+          ]
+        },
+        {
+          "title": "Grilled entrées",
+          "note": "Served over garlic string beans",
+          "items": [
+            {
+              "name": "Chicken kabobs",
+              "price": "$17 / $23"
+            },
+            {
+              "name": "Shrimp kabobs",
+              "desc": "Brushed with our grill sauce",
+              "price": "$17 / $23"
+            },
+            {
+              "name": "Tofu kabobs",
+              "price": "$17 / $23"
+            },
+            {
+              "name": "Grilled salmon filet",
+              "price": "$19 / $27"
+            },
+            {
+              "name": "Chicken and shrimp kabobs",
+              "desc": "Two of each. Dinner only",
+              "price": "$23"
+            }
+          ]
+        },
+        {
+          "title": "Noodles & fried rice",
+          "note": "Chicken or pork $12 / $17 · tofu or shrimp $13 / $17 · beef $13 / $18",
+          "items": [
+            {
+              "name": "Pad Thai",
+              "desc": "Flat rice noodles with cabbage, onions, carrots and egg, topped with crushed peanuts. Even better spicy"
+            },
+            {
+              "name": "Singapore curry noodles",
+              "desc": "Thin rice noodles in yellow curry; ask for red curry ($1 extra)"
+            },
+            {
+              "name": "Classic lo mein",
+              "desc": "Lo mein noodles with cabbage, carrots, onion and egg"
+            },
+            {
+              "name": "Mei fun",
+              "desc": "Thin rice noodles with cabbage, onions, carrots, egg and a little soy"
+            },
+            {
+              "name": "New York noodles or rice",
+              "desc": "Our marinated grilled chicken with vegetables, egg, soy, vinegar and garlic",
+              "price": "$15 / $19"
+            },
+            {
+              "name": "Stir-fried rice",
+              "desc": "Broccoli, carrots, cabbage, eggs and soy sauce"
+            }
+          ]
+        },
+        {
+          "title": "Noodle soups",
+          "note": "Full bowls",
+          "items": [
+            {
+              "name": "Lo mein or mei fun noodle soup",
+              "desc": "Napa cabbage, mushrooms, carrots and egg in chicken broth",
+              "price": "$18"
+            },
+            {
+              "name": "Korean noodle soup",
+              "desc": "Chicken, napa cabbage, egg, mushrooms and carrots in spicy chicken broth",
+              "price": "$19"
+            },
+            {
+              "name": "Udon noodle soup",
+              "desc": "Udon noodles with napa cabbage, mushrooms, carrots and egg in chicken broth",
+              "price": "$19"
+            }
+          ]
+        },
+        {
+          "title": "Kids’ meals",
+          "note": "12 and younger, with a scoop of rice",
+          "items": [
+            {
+              "name": "Sesame chicken with broccoli",
+              "price": "$8.50"
+            },
+            {
+              "name": "Sweet & sour chicken",
+              "price": "$8.50"
+            },
+            {
+              "name": "Steamed pork dumplings with broccoli",
+              "price": "$8.50"
+            },
+            {
+              "name": "Chicken lo mein or chicken fried rice",
+              "price": "$8.50"
+            }
+          ]
+        }
+      ],
+      "footnote": "From AnShu’s current dine-in and takeout menus. Entrées come with steamed white rice; vegetable fried rice $1 more, brown rice $1.50 more."
+    },
+    {
+      "type": "columns",
+      "id": "your-way",
+      "nav": "Your way",
+      "eyebrow": "Made to order",
+      "title": "Cooked *your way*",
+      "columns": [
+        {
+          "title": "Spice",
+          "items": [
+            "Spicy dishes can be made milder or hotter",
+            "Pad Thai is even better spicy: just ask"
+          ]
+        },
+        {
+          "title": "Diets",
+          "items": [
+            "Many dishes can be made gluten-free on request",
+            "Vegetarian or vegan? Tell us when you order"
+          ]
+        },
+        {
+          "title": "Allergies",
+          "items": [
+            "Please tell us about any allergies when you order"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "catering",
+      "nav": "Catering",
+      "eyebrow": "Parties & catering",
+      "title": "Feed *the whole crew*",
+      "image": {
+        "src": "/demo-assets/anshu-asian-cafe/dumplings.webp",
+        "alt": "Pan-fried dumplings on a bed of shredded cabbage",
+        "width": 1600,
+        "height": 533
+      },
+      "body": [
+        "AnShu caters private parties and gatherings, and delivers catering orders for ten or more guests. Call for catering details and availability.",
+        "For takeout, call (803) 226-0556 to place your order."
+      ],
+      "list": [
+        "Private parties",
+        "Catering delivered for 10+ guests",
+        "Takeout by phone"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How do I order takeout?",
+          "a": "Call (803) 226-0556 to place your order."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Saturday, 11:30 am to 2:30 pm and 4 to 9 pm. We’re closed on Sundays."
+        },
+        {
+          "q": "Can you make a dish gluten-free?",
+          "a": "Many dishes can be made gluten-free on request. Tell us when you order, along with any allergies."
+        },
+        {
+          "q": "Do you cater?",
+          "a": "Yes: private parties and catering, with delivery for ten or more guests."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry? Call ahead.",
+      "text": "Takeout and catering from the Village at Woodside.",
+      "cta": {
+        "label": "Call (803) 226-0556",
+        "href": "tel:+18032260556"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us *at Woodside*",
+    "formTitle": "Ask about catering",
+    "formTopics": [
+      "A catering order",
+      "A private party",
+      "A question about the menu",
+      "Something else"
+    ]
+  },
+  "slug": "anshu-asian-cafe",
+  "added": "2026-11-20",
+  "prospect": "anshu-asian-caf",
+  "source": {
+    "url": "https://anshuasiancafe.com/",
+    "before": [
+      "The takeout menu’s “Download Menu” button is broken: its link points to “anshuasiancafe.com-content”, an address that doesn’t exist",
+      "The home page slideshow shows sushi and sashimi, but neither menu lists any",
+      "On a phone the home page shows a blank screen for about 9 seconds while it loads (Google Lighthouse speed score: 59 out of 100)"
+    ],
+    "after": [
+      "The whole menu on the page, with lunch and dinner prices",
+      "Hours with an “Open now” sign, and one tap to call in an order",
+      "Spice, gluten-free and allergy notes where people decide",
+      "Catering and parties explained in one place"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "pills",
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "square"
+  }
+}

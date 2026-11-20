@@ -63,6 +63,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "anshu-asian-cafe": {
+  "q": "122 Coach Light Way SW, Aiken, SC 29803",
+  "lat": 33.493115,
+  "lon": -81.748388,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-20"
+ },
  "antiques-and-more-mall": {
   "q": "640 E Pine Log Road, Aiken, SC 29803",
   "lat": 33.53006,
@@ -363,6 +371,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "goin-postal-aiken": {
+  "q": "141 Jefferson Davis Hwy, Aiken, SC 29801",
+  "lat": 33.559564,
+  "lon": -81.788357,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-20"
+ },
  "hair-of-the-dog": {
   "q": "225 Richland Avenue East, Aiken, SC 29801",
   "lat": 33.559811,
@@ -485,6 +501,14 @@
   "missing": true,
   "at": "2026-11-19"
  },
+ "jury-pest-services": {
+  "q": "217 Edgefield Road, North Augusta, SC 29841",
+  "lat": 33.524762,
+  "lon": -81.951266,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-20"
+ },
  "kelly-paint-and-body": {
   "q": "866 York Street NE, Aiken, SC 29801",
   "lat": 33.572829,
@@ -604,6 +628,14 @@
   "kind": "leisure",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "mckinney-tire-service": {
+  "q": "856 York Street NE, Aiken, SC 29801",
+  "lat": 33.572681,
+  "lon": -81.705756,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-20"
  },
  "mi-rancho": {
   "q": "124 Dominion Drive, Aiken, SC 29803",

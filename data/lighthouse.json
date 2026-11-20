@@ -1523,16 +1523,28 @@
  },
  "anshu-asian-caf": {
   "site": {
-   "performance": 58,
+   "performance": 59,
    "accessibility": 92,
    "bestPractices": 100,
    "seo": 85,
-   "fcp": 6800,
-   "lcp": 9648,
-   "tbt": 98,
-   "si": 6800,
+   "fcp": 6692,
+   "lcp": 11061,
+   "tbt": 55,
+   "si": 6692,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 957,
+   "lcp": 1804,
+   "tbt": 96,
+   "si": 957,
+   "cls": 0,
+   "at": "2026-11-20"
   }
  },
  "apex-home-repair-corporation": {
@@ -4151,6 +4163,72 @@
    "si": 1037,
    "cls": 0,
    "at": "2026-11-19"
+  }
+ },
+ "jury-pest-services": {
+  "site": {
+   "performance": 44,
+   "accessibility": 88,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 1942,
+   "lcp": 16149,
+   "tbt": 1974,
+   "si": 3961,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 944,
+   "lcp": 2404,
+   "tbt": 134,
+   "si": 944,
+   "cls": 0,
+   "at": "2026-11-20"
+  }
+ },
+ "mckinney-tire-service": {
+  "site": {
+   "performance": 56,
+   "accessibility": 91,
+   "bestPractices": 82,
+   "seo": 85,
+   "fcp": 3840,
+   "lcp": 9799,
+   "tbt": 341,
+   "si": 5100,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 957,
+   "lcp": 2108,
+   "tbt": 143,
+   "si": 957,
+   "cls": 0,
+   "at": "2026-11-20"
+  }
+ },
+ "goin-postal-of-aiken": {
+  "concept": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 957,
+   "lcp": 1963,
+   "tbt": 285,
+   "si": 1024,
+   "cls": 0,
+   "at": "2026-11-20"
   }
  }
 }

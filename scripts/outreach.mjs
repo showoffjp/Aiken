@@ -140,6 +140,8 @@ So I went ahead and built a working concept of what a ${none ? 'first' : 'new'} 
 
   ${link}
 
+For a one-minute guided tour of what it does for your customers, open ${link}?tour
+
 It is free to look at and there is no obligation. If you like it, I can have it live on your own web address within a few days. If not, no hard feelings.
 
 A one-page ${none ? 'summary' : 'checkup of the current site'} is here: ${report}
@@ -198,6 +200,7 @@ Not interested? Reply "no thanks" and I will not contact you again.`;
 | Concept | ${link} |
 | Checkup | ${report} |
 | One-page summary | ${base}/${d.slug}/card/ (PDF to print and leave behind: print/one-page/${d.slug}.pdf) |
+| Guided tour | ${base}/${d.slug}/?tour (a one-minute walk through what the concept does for customers) |
 | SEO & social report | ${base}/${d.slug}/seo/ (PDF: print/seo/${d.slug}-seo-report.pdf) |
 
 ## Email
