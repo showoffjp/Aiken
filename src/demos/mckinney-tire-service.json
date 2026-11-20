@@ -1,0 +1,291 @@
+{
+  "name": "McKinney Tire Service",
+  "short": "McKinney Tire",
+  "category": "Tires, Auto Repair & Truck Rentals",
+  "group": "Auto & Equipment",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f3f5ef",
+    "surface": "#ffffff",
+    "ink": "#121410",
+    "muted": "#4e5548",
+    "primary": "#3a7312",
+    "onPrimary": "#ffffff",
+    "accent": "#9bd81e",
+    "line": "#dfe4d6"
+  },
+  "radius": 8,
+  "icon": "car",
+  "contact": {
+    "phone": "(803) 648-4040",
+    "address": [
+      "856 York Street NE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "McKinney Tire Service, 856 York St NE, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 5:30 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 1:30 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "facebook": "https://www.facebook.com/McKinney-Tire-Service-325357881207306/"
+  },
+  "hero": {
+    "eyebrow": "Tires & auto repair on York Street",
+    "title": "Tires and repairs *you can count on*",
+    "lede": "New and used tires, wheels, brakes and oil changes in Aiken for more than 20 years, plus Penske truck rentals. Tire repairs with no appointment, and 90-day financing with no credit check.",
+    "points": [
+      "Used tires, 12″ to 20″",
+      "Walk-in tire repair",
+      "90-day financing"
+    ],
+    "cta": {
+      "label": "Call (803) 648-4040",
+      "href": "tel:+18036484040"
+    },
+    "cta2": {
+      "label": "Hours & directions",
+      "href": "#visit"
+    },
+    "image": {
+      "src": "/demo-assets/mckinney-tire-service/wheel.webp",
+      "alt": "A close-up of a car’s alloy wheel and tire on a sunny street",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "facts": [
+    {
+      "value": "20+ years",
+      "label": "Serving Aiken"
+    },
+    {
+      "value": "12″–20″",
+      "label": "Used tire sizes in stock"
+    },
+    {
+      "value": "Up to 32″",
+      "label": "Wheels we mount and balance"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Tires, wheels & service",
+      "title": "One stop *for your tires*",
+      "items": [
+        {
+          "icon": "circle-dot",
+          "title": "New tires",
+          "text": "Top-performing tires from major brands, priced through several wholesalers so you get the right set at the best price."
+        },
+        {
+          "icon": "recycle",
+          "title": "Used tires",
+          "text": "A huge selection from 12″ to 20″, and larger sizes when we have them. Call to check your size."
+        },
+        {
+          "icon": "tractor",
+          "title": "Large & agricultural",
+          "text": "Low-profile and mud tires on wheels up to 32″, plus tractor-trailer, agricultural and lawn and garden tires."
+        },
+        {
+          "icon": "wrench",
+          "title": "Brakes & oil changes",
+          "text": "Brake repair, rotor and caliper replacement and oil changes at fair prices."
+        },
+        {
+          "icon": "arrow-up-from-line",
+          "title": "Wheels & lift kits",
+          "text": "Aftermarket wheels from Wheel Pros and ATD, and lift and leveling kits."
+        },
+        {
+          "icon": "spray-can",
+          "title": "Detailing supplies",
+          "text": "Carolina Shine detailing products in our lobby: cleaners, degreasers, soaps and odor eliminators."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "repair",
+      "nav": "Tire repair",
+      "eyebrow": "No appointment needed",
+      "title": "A flat, *fixed properly*",
+      "items": [
+        {
+          "title": "Find the puncture",
+          "text": "We locate exactly where the air is getting out."
+        },
+        {
+          "title": "Prep the tire",
+          "text": "The damaged spot is cleaned and prepared for the repair."
+        },
+        {
+          "title": "Plug and patch",
+          "text": "A plug or patch goes into the puncture."
+        },
+        {
+          "title": "Seal it",
+          "text": "The patch is sealed with a tar-like adhesive, so you drive away safely."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "penske",
+      "nav": "Truck rentals",
+      "eyebrow": "Penske Truck Rental",
+      "title": "Moving? *Rent the truck here*",
+      "image": {
+        "src": "/demo-assets/mckinney-tire-service/penske.webp",
+        "alt": "A yellow Penske rental truck on a city street",
+        "width": 1800,
+        "height": 695
+      },
+      "body": [
+        "We’re a Penske Truck Rental location. Rates are low and the trucks are new and well maintained, with the service you expect from Penske. Reserve moving equipment with your truck, even a way to tow your car, and it will be ready when you pick up.",
+        "Penske also offers damage waivers and insurance for your truck and your belongings."
+      ],
+      "list": [
+        "Free unlimited miles on one-way moves",
+        "24/7 roadside assistance",
+        "More than 2,400 locations to drop off"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "In the shop",
+      "title": "Rubber, *rims and brakes*",
+      "images": [
+        {
+          "src": "/demo-assets/mckinney-tire-service/tires.webp",
+          "alt": "Close-up of a tire’s tread",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/mckinney-tire-service/engine.webp",
+          "alt": "A red sports car’s engine bay",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/mckinney-tire-service/brakes.webp",
+          "alt": "A brake rotor and clutch assembly",
+          "width": 1024,
+          "height": 454
+        },
+        {
+          "src": "/demo-assets/mckinney-tire-service/alloy.webp",
+          "alt": "A chrome alloy wheel",
+          "width": 600,
+          "height": 1129
+        },
+        {
+          "src": "/demo-assets/mckinney-tire-service/wash.webp",
+          "alt": "A car covered in red wash foam",
+          "width": 640,
+          "height": 425
+        },
+        {
+          "src": "/demo-assets/mckinney-tire-service/sunset-car.webp",
+          "alt": "A dark car’s wheel at sunset",
+          "width": 1800,
+          "height": 1029
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need an appointment for a tire repair?",
+          "a": "No. Come by during business hours and we’ll take care of it."
+        },
+        {
+          "q": "Do you have used tires in my size?",
+          "a": "We stock a huge selection from 12″ to 20″, and larger sizes when available. Call (803) 648-4040 to check."
+        },
+        {
+          "q": "Do you offer financing?",
+          "a": "Yes: a 90-day payment option with no credit check."
+        },
+        {
+          "q": "Can you handle big or farm tires?",
+          "a": "Yes. We mount and balance low-profile and mud tires on wheels up to 32″, and tractor-trailer, agricultural and lawn and garden tires."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Flat tire? Come on by.",
+      "text": "Walk-in tire repairs on York Street, Monday to Saturday.",
+      "cta": {
+        "label": "Call (803) 648-4040",
+        "href": "tel:+18036484040"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *York Street*",
+    "formTitle": "Ask about tires or service",
+    "formTopics": [
+      "Tire prices",
+      "A used tire in my size",
+      "Brakes or an oil change",
+      "A Penske truck rental",
+      "Financing",
+      "Something else"
+    ]
+  },
+  "slug": "mckinney-tire-service",
+  "added": "2026-11-20",
+  "prospect": "mckinney-tire-service",
+  "source": {
+    "url": "https://mckinneytireservice.com/",
+    "before": [
+      "A typo on the Penske truck rentals page: “Limited Damage Waver” for Waiver",
+      "About 10 seconds to show its main content on a phone (Google Lighthouse speed score: 56 out of 100)"
+    ],
+    "after": [
+      "Tires, service and truck rentals explained on one page",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Walk-in tire repair and financing up front",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "checker",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

@@ -700,3 +700,5 @@ body.demo::before {
 
 @media print { body.demo::after, .hero-visual::before, .hero-visual .frame::after { display: none; } }
 @media (prefers-reduced-motion: reduce) { body.demo::after { display: none; } .hero-visual .frame { transform: none; } }
+/* Room for the tour button: on small phones the preview bar says just "Concept." (the notes panel and footer still say it isn't the live site). */
+@media (max-width: 460px) { .concept .grow .short { display: none; } .concept .wrap { gap: 10px; } }

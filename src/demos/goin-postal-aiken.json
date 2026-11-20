@@ -1,0 +1,249 @@
+{
+  "name": "Goin’ Postal Aiken",
+  "short": "Goin’ Postal Aiken",
+  "category": "Shipping, Mailboxes & Notary",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "anybody",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f5f6f8",
+    "surface": "#ffffff",
+    "ink": "#111827",
+    "muted": "#4b5563",
+    "primary": "#b91c1c",
+    "onPrimary": "#ffffff",
+    "accent": "#1e3a8a",
+    "line": "#e2e5ea"
+  },
+  "radius": 10,
+  "icon": "package",
+  "contact": {
+    "phone": "(803) 845-5001",
+    "email": "aiken@goinpostal.com",
+    "address": [
+      "141 Jefferson Davis Hwy",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Goin’ Postal Aiken, 141 Jefferson Davis Hwy, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "In the Ellenton Place II shopping center (US 1 & US 78), across the highway from Sam’s Club and Parker’s Kitchen. Fax: (803) 845-5002.",
+    "facebook": "https://www.facebook.com/profile.php?id=61592597791200"
+  },
+  "hero": {
+    "eyebrow": "Pack, ship & mail in Aiken",
+    "title": "Ship anything, *anywhere*",
+    "lede": "UPS, FedEx, USPS and DHL under one roof, with packing, custom boxes, private mailboxes and a notary. We’re the only authorized DHL shipping location in Aiken County, across from Sam’s Club on Jefferson Davis Highway.",
+    "points": [
+      "UPS · FedEx · USPS · DHL",
+      "Notary & mailboxes",
+      "Custom boxes"
+    ],
+    "cta": {
+      "label": "Call (803) 845-5001",
+      "href": "tel:+18038455001"
+    },
+    "cta2": {
+      "label": "Hours & directions",
+      "href": "#visit"
+    },
+    "image": {
+      "src": "/demo-assets/goin-postal-aiken/storefront.webp",
+      "alt": "The Goin’ Postal Aiken storefront in the Ellenton Place II shopping center",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "4 carriers",
+      "label": "UPS, FedEx, USPS and DHL"
+    },
+    {
+      "value": "Only",
+      "label": "Authorized DHL location in Aiken County"
+    },
+    {
+      "value": "4.1 ★",
+      "label": "From 137 Google reviews"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Under one roof",
+      "title": "Pack, ship *and mail*",
+      "items": [
+        {
+          "icon": "truck",
+          "title": "Shipping, every carrier",
+          "text": "UPS, FedEx, USPS and DHL, across the country or around the world. Pick the speed and price that suit you."
+        },
+        {
+          "icon": "package",
+          "title": "Packing & custom boxes",
+          "text": "Bring it as it is: we pack it, make a custom box when nothing fits, and sell boxes and packing supplies."
+        },
+        {
+          "icon": "mailbox",
+          "title": "Private mailboxes",
+          "text": "A mailbox with a real street address. We’re a commercial mail receiving agency for the USPS in Aiken 29801."
+        },
+        {
+          "icon": "stamp",
+          "title": "Notary",
+          "text": "Documents notarized while you’re here."
+        },
+        {
+          "icon": "printer",
+          "title": "Copies, fax & scanning",
+          "text": "Black-and-white copies, faxing, scan to email and laminating."
+        },
+        {
+          "icon": "shredder",
+          "title": "Shredding & more",
+          "text": "Secure document shredding, stamps, office supplies, greeting cards, and drop-off for prepaid packages."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "Shipping made easy",
+      "title": "From counter *to doorstep*",
+      "items": [
+        {
+          "title": "Bring it in",
+          "text": "Boxed, half-packed or not packed at all."
+        },
+        {
+          "title": "We pack it",
+          "text": "Proper packing, or a box made to fit."
+        },
+        {
+          "title": "Choose a carrier",
+          "text": "UPS, FedEx, USPS or DHL, for the price and speed you need, in the US or abroad."
+        },
+        {
+          "title": "Track it",
+          "text": "Follow your package to the door with the carrier’s tracking."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Locally owned",
+      "title": "Your neighborhood *ship center*",
+      "image": {
+        "src": "/demo-assets/goin-postal-aiken/counter.webp",
+        "alt": "Inside Goin’ Postal Aiken: the service counter with shipping supplies on display",
+        "width": 1200,
+        "height": 800
+      },
+      "body": [
+        "Goin’ Postal Aiken is owned and run by Paul Ambroselli. The core of the business is “Pack, Ship and Mail”: a ship center for UPS, FedEx, USPS and DHL, and a commercial mail receiving agency for the USPS.",
+        "The Ambroselli family has lived and worked in Aiken County since 2019, and the store was the first business to open in the Ellenton Place II shopping center. Like every Goin’ Postal, it is independently owned and operated."
+      ],
+      "list": [
+        "Locally owned and operated",
+        "The only authorized DHL location in Aiken County",
+        "Cash, debit and all major cards"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Which carriers can I ship with?",
+          "a": "UPS, FedEx, USPS and DHL, including international shipping. We’re the only authorized DHL shipping location in Aiken County."
+        },
+        {
+          "q": "Can you pack it for me?",
+          "a": "Yes. We pack items for shipping, make custom boxes, and sell packaging supplies."
+        },
+        {
+          "q": "Do you have a notary?",
+          "a": "Yes, notary service is available during business hours."
+        },
+        {
+          "q": "Can I drop off a prepaid package?",
+          "a": "Yes, we accept package drop-offs."
+        },
+        {
+          "q": "How can I pay?",
+          "a": "Cash, debit, Visa, Mastercard, American Express and Discover."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Got something to ship?",
+      "text": "Open weekdays 9 to 6, across from Sam’s Club.",
+      "cta": {
+        "label": "Call (803) 845-5001",
+        "href": "tel:+18038455001"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Jefferson Davis Hwy*",
+    "formTitle": "Ask about a shipment",
+    "formTopics": [
+      "Shipping a package",
+      "International shipping",
+      "Packing or a custom box",
+      "A private mailbox",
+      "Notary",
+      "Copies, fax or shredding",
+      "Something else"
+    ]
+  },
+  "slug": "goin-postal-aiken",
+  "added": "2026-11-20",
+  "prospect": "goin-postal-of-aiken",
+  "source": {
+    "url": "https://goinpostal.com/store/GP460.1",
+    "before": [
+      "The store has no website of its own: its only page is a listing inside the franchise’s site, with “Franchise Info” and “E2 Visas” in the menu",
+      "The About text runs together with no line breaks, and spells FedEx “FeDex”"
+    ],
+    "after": [
+      "A site of its own, with every service on one page",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Directions that mention the landmarks: across from Sam’s Club",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "rows",
+    "facts": "ticker",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "flip",
+    "buttons": "shadow"
+  }
+}

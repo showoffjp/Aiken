@@ -163,6 +163,26 @@
    "at": "2026-11-19"
   }
  },
+ "anshu-asian-caf": {
+  "site": {
+   "call": false,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 15,
+   "smallTargets": 7,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 36,
+   "smallTargets": 0,
+   "at": "2026-11-20"
+  }
+ },
  "antiques-and-more-mall": {
   "concept": {
    "call": true,
@@ -817,6 +837,17 @@
    "at": "2026-11-19"
   }
  },
+ "goin-postal-of-aiken": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 33,
+   "smallTargets": 0,
+   "at": "2026-11-20"
+  }
+ },
  "hair-of-the-dog-llc": {
   "concept": {
    "call": true,
@@ -1110,6 +1141,26 @@
    "at": "2026-11-19"
   }
  },
+ "jury-pest-services": {
+  "site": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 40,
+   "smallTargets": 3,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 40,
+   "smallTargets": 0,
+   "at": "2026-11-20"
+  }
+ },
  "kelly-paint-and-body-inc": {
   "site": {
    "call": true,
@@ -1305,6 +1356,26 @@
    "targets": 19,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "mckinney-tire-service": {
+  "site": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 4,
+   "targets": 10,
+   "smallTargets": 4,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 37,
+   "smallTargets": 0,
+   "at": "2026-11-20"
   }
  },
  "mi-rancho": {
