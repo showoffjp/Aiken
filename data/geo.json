@@ -63,6 +63,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "andrew-c-marine-attorney": {
+  "q": "106 Trafalgar Street SW, Aiken, SC 29801",
+  "lat": 33.564731,
+  "lon": -81.732483,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-20"
+ },
  "anshu-asian-cafe": {
   "q": "122 Coach Light Way SW, Aiken, SC 29803",
   "lat": 33.493115,
@@ -266,6 +274,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "covenant-family-allergy": {
+  "q": "130 Allen Court, North Augusta, SC 29860",
+  "lat": 33.546422,
+  "lon": -82.000427,
+  "kind": "road",
+  "exact": false,
+  "at": "2026-11-20"
  },
  "dinner-bell": {
   "q": "2411 Wagener Road, Aiken, SC 29801",
@@ -604,6 +620,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "macks-deli": {
+  "q": "159 Laurens Street NW, Aiken, SC 29801",
+  "lat": 33.562779,
+  "lon": -81.722111,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-20"
  },
  "marias-mexican-restaurant": {
   "q": "716 East Pine Log Road, Aiken, SC 29803",

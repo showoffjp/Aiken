@@ -1,0 +1,322 @@
+{
+  "name": "Covenant Family Allergy",
+  "short": "Covenant Family Allergy",
+  "category": "Allergy, Asthma & Immunology",
+  "group": "Health & Beauty",
+  "town": "North Augusta, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "lora",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6f7f4",
+    "surface": "#ffffff",
+    "ink": "#17201b",
+    "muted": "#4c5a52",
+    "primary": "#2f6f5e",
+    "onPrimary": "#ffffff",
+    "accent": "#d9534f",
+    "line": "#dfe5e0"
+  },
+  "radius": 14,
+  "icon": "flower-2",
+  "contact": {
+    "phone": "(803) 279-7666",
+    "address": [
+      "130 Allen Court",
+      "North Augusta, SC 29860"
+    ],
+    "mapQuery": "Covenant Family Allergy, 130 Allen Ct, North Augusta, SC 29860",
+    "hoursNote": "Call (803) 279-7666 for appointments. Fax: (803) 279-0708. Office closures are posted on Facebook.",
+    "facebook": "https://www.facebook.com/covenantfamilyallergy"
+  },
+  "hero": {
+    "eyebrow": "Allergy, asthma & immunology in North Augusta",
+    "title": "Enjoy the outdoors *without the headaches*",
+    "lede": "Excellent, compassionate allergy, asthma and immunology care for the whole family, since 2008. Skin testing designed not to hurt, lung-function testing, and allergy shots, with the goal of treating you like family as we help you get better.",
+    "points": [
+      "Kids & adults",
+      "Painless skin testing",
+      "Allergy shots"
+    ],
+    "cta": {
+      "label": "Call for an appointment",
+      "href": "tel:+18032797666"
+    },
+    "cta2": {
+      "label": "Allergy shot hours",
+      "href": "#shots"
+    },
+    "image": {
+      "src": "/demo-assets/covenant-family-allergy/family-walk.webp",
+      "alt": "A family walking hand in hand along a boardwalk through tall grass",
+      "width": 1600,
+      "height": 1066
+    }
+  },
+  "facts": [
+    {
+      "value": "2008",
+      "label": "Caring for the CSRA since"
+    },
+    {
+      "value": "Board certified",
+      "label": "Pediatrics and Allergy & Immunology"
+    },
+    {
+      "value": "Painless",
+      "label": "Skin testing designed not to hurt"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "conditions",
+      "nav": "What we treat",
+      "columns": 3,
+      "eyebrow": "Conditions we treat",
+      "title": "Help for *every kind of allergy*",
+      "items": [
+        {
+          "icon": "wind",
+          "title": "Asthma & lungs",
+          "text": "Asthma and pulmonary (lung) conditions, with lung-function testing to guide treatment."
+        },
+        {
+          "icon": "flower-2",
+          "title": "Seasonal & pet allergies",
+          "text": "Pollen, mold, dust mites and pets: find out exactly what sets you off."
+        },
+        {
+          "icon": "apple",
+          "title": "Food & gut allergies",
+          "text": "Food allergies, gut allergies and anaphylaxis, diagnosed carefully."
+        },
+        {
+          "icon": "hand",
+          "title": "Skin conditions",
+          "text": "Eczema, hives and other allergic skin conditions."
+        },
+        {
+          "icon": "ear",
+          "title": "Sinus, ear, nose & throat",
+          "text": "Sinus trouble and ear, nose and throat symptoms, plus eye allergies."
+        },
+        {
+          "icon": "shield-plus",
+          "title": "Immune dysfunction",
+          "text": "Evaluation of immune problems. Something else? Call and ask: we treat all kinds of allergies."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "tests",
+      "nav": "Tests",
+      "eyebrow": "Tests we perform",
+      "title": "Getting *to the cause*",
+      "items": [
+        {
+          "title": "History and exam",
+          "text": "In-depth questions and a thorough exam at every new-patient visit, looking for every clue and trigger."
+        },
+        {
+          "title": "Allergy skin testing",
+          "text": "Pollens, molds, animals, mites, cockroaches and foods, plus fire ants, honeybees, yellow jackets, wasps and hornets. Designed not to hurt, break the skin or bleed."
+        },
+        {
+          "title": "Lung-function testing",
+          "text": "Computer-based spirometry measures how your lungs work, to diagnose and manage asthma."
+        },
+        {
+          "title": "Allergy shots",
+          "text": "Regular shots during our shot hours, listed below."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "shots",
+      "nav": "Shot hours",
+      "eyebrow": "Allergy shots",
+      "title": "Shot *hours*",
+      "intro": "Shot hours are not the same as office hours. Check our Facebook page for closures.",
+      "printLabel": "Print shot hours",
+      "groups": [
+        {
+          "title": "Allergy shot hours",
+          "items": [
+            {
+              "name": "Tuesday",
+              "price": "9:30–11:15 am · 1:30–5:15 pm"
+            },
+            {
+              "name": "Wednesday",
+              "price": "8:30–11:15 am · 1:30–4:15 pm"
+            },
+            {
+              "name": "Thursday",
+              "price": "8:30–11:15 am · 1:30–4:15 pm"
+            },
+            {
+              "name": "Friday",
+              "price": "8:30–11:15 am · 1:30–4:15 pm"
+            },
+            {
+              "name": "Saturday",
+              "price": "8:30–11:15 am"
+            },
+            {
+              "name": "Sunday & Monday",
+              "price": "Closed"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the practice’s current shot-hours page."
+    },
+    {
+      "type": "story",
+      "id": "providers",
+      "nav": "Providers",
+      "eyebrow": "Our providers",
+      "title": "Meet *the team*",
+      "image": {
+        "src": "/demo-assets/covenant-family-allergy/team.webp",
+        "alt": "The Covenant Family Allergy team standing together outside the office",
+        "width": 960,
+        "height": 640
+      },
+      "body": [
+        "Dr. Matthew Clark founded Covenant Family Allergy in 2008. A former US Navy doctor and flight surgeon, he completed a pediatrics residency and an allergy, asthma and immunology fellowship at MCG, and is board certified in Pediatrics and in Allergy, Asthma and Immunology.",
+        "Curtis Wright, PA, earned his physician assistant degree at MUSC and is NCCPA board certified. After nine years in family practice in Batesburg-Leesville and Edgefield, he joined Dr. Clark in 2015."
+      ],
+      "list": [
+        "Dr. Matthew Clark: board certified in Allergy, Asthma & Immunology",
+        "Curtis Wright, PA: NCCPA board certified",
+        "Allergy care for children and adults"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "office",
+      "nav": "Our office",
+      "eyebrow": "Our office",
+      "title": "A calm place *to get better*",
+      "images": [
+        {
+          "src": "/demo-assets/covenant-family-allergy/reception.webp",
+          "alt": "The bright reception desk and waiting area",
+          "width": 1600,
+          "height": 1066
+        },
+        {
+          "src": "/demo-assets/covenant-family-allergy/waiting-room.webp",
+          "alt": "The waiting room with chairs along large windows",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/covenant-family-allergy/exam-room.webp",
+          "alt": "An exam room with an exam table and framed art",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/covenant-family-allergy/hallway.webp",
+          "alt": "A hallway leading to exam rooms",
+          "width": 1600,
+          "height": 1066
+        },
+        {
+          "src": "/demo-assets/covenant-family-allergy/building.webp",
+          "alt": "The Covenant Family Allergy building on Allen Court",
+          "width": 960,
+          "height": 375
+        },
+        {
+          "src": "/demo-assets/covenant-family-allergy/pollen.webp",
+          "alt": "A bee on a white blossom",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Does allergy skin testing hurt?",
+          "a": "Our skin testing method is designed not to be painful, not to break the skin, and not to cause bleeding."
+        },
+        {
+          "q": "Are shot hours the same as office hours?",
+          "a": "No. Shot hours are listed above, and closures are posted on our Facebook page. Call (803) 279-7666 for appointments."
+        },
+        {
+          "q": "Do you see children?",
+          "a": "Yes. Dr. Clark is board certified in Pediatrics as well as Allergy, Asthma and Immunology."
+        },
+        {
+          "q": "What if my condition isn’t listed?",
+          "a": "Call and ask whether we treat it too: we deal with all kinds of allergies."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Breathe easier this season",
+      "text": "Call to make an appointment.",
+      "cta": {
+        "label": "Call (803) 279-7666",
+        "href": "tel:+18032797666"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Allen Court*",
+    "formTitle": "Ask about an appointment",
+    "formTopics": [
+      "A new-patient appointment",
+      "Allergy testing",
+      "Allergy shots",
+      "Asthma",
+      "Something else"
+    ]
+  },
+  "slug": "covenant-family-allergy",
+  "added": "2026-11-20",
+  "prospect": "covenant-family-allergy",
+  "source": {
+    "url": "https://covenantfamilyallergy.com/",
+    "before": [
+      "The site never lists office hours: only allergy-shot hours, with closures posted on Facebook",
+      "The browser tab title reads just “covenantfamilyallergy.com |”",
+      "Zooming is turned off on phones, so patients can’t enlarge small print",
+      "A 3.1 MB home page; in Google’s slow-phone test the main picture takes 9.3 seconds",
+      "Nine spots of low-contrast text that’s hard to read"
+    ],
+    "after": [
+      "Conditions, tests and providers each explained on one page",
+      "Shot hours in a clear, printable table",
+      "One tap to call for an appointment",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "flip": true,
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

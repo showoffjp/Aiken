@@ -1,0 +1,279 @@
+{
+  "name": "Andrew C. Marine, Attorney at Law",
+  "short": "Andrew C. Marine",
+  "category": "Bankruptcy & Real Estate Law",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f4f6f8",
+    "surface": "#ffffff",
+    "ink": "#14202b",
+    "muted": "#4b5866",
+    "primary": "#1f4e6e",
+    "onPrimary": "#ffffff",
+    "accent": "#5e9c3a",
+    "line": "#dde3ea"
+  },
+  "radius": 6,
+  "icon": "scale",
+  "contact": {
+    "phone": "(803) 649-0875",
+    "email": "info@andrewmarine.com",
+    "address": [
+      "106 Trafalgar Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "106 Trafalgar Street, Aiken, SC 29801",
+    "hoursNote": "Mail: P.O. Box 1488, Aiken, SC 29802. Call to schedule a consultation.",
+    "facebook": "https://www.facebook.com/andrewcmarine/"
+  },
+  "hero": {
+    "eyebrow": "Bankruptcy attorney in Aiken for more than 30 years",
+    "title": "A fresh start *from crippling debt*",
+    "lede": "For over 30 years, attorney Andrew C. Marine has helped thousands of people and businesses get their debt in order, through Chapter 7 and Chapter 13 bankruptcy and beyond. Here you’re treated like a person, not an invoice.",
+    "points": [
+      "Chapter 7 & Chapter 13",
+      "Individuals & businesses",
+      "Real estate, wills & trusts"
+    ],
+    "cta": {
+      "label": "Call (803) 649-0875",
+      "href": "tel:+18036490875"
+    },
+    "cta2": {
+      "label": "How bankruptcy works",
+      "href": "#chapters"
+    },
+    "image": {
+      "src": "/demo-assets/andrew-c-marine-attorney/consultation.webp",
+      "alt": "A couple meeting with an advisor across a desk",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "facts": [
+    {
+      "value": "30+ years",
+      "label": "Practicing in Aiken"
+    },
+    {
+      "value": "Thousands",
+      "label": "Of clients helped with debt"
+    },
+    {
+      "value": "8 counties",
+      "label": "Served across the region"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "practice",
+      "nav": "Practice areas",
+      "columns": 3,
+      "eyebrow": "How we can help",
+      "title": "Practice *areas*",
+      "items": [
+        {
+          "icon": "scale",
+          "title": "Bankruptcy",
+          "text": "Chapter 7 and Chapter 13 for individuals, and Chapters 7 and 11 for businesses, from the first petition to working with the trustee."
+        },
+        {
+          "icon": "hand-coins",
+          "title": "Debt relief",
+          "text": "End the harassing calls from creditors and find the path that fits your situation, including the alternatives to bankruptcy."
+        },
+        {
+          "icon": "house",
+          "title": "Real estate law",
+          "text": "Legal help with real estate matters, from an attorney who knows Aiken."
+        },
+        {
+          "icon": "scroll-text",
+          "title": "Wills",
+          "text": "Help preparing your will."
+        },
+        {
+          "icon": "landmark",
+          "title": "Trusts",
+          "text": "Help setting up trusts."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Estate planning",
+          "text": "Planning for what happens to your property."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "chapters",
+      "nav": "Chapter 7 & 13",
+      "eyebrow": "Know your options",
+      "title": "Chapter 7 *or Chapter 13?*",
+      "intro": "The two most common forms of personal bankruptcy work very differently. Attorney Marine will help you decide which fits.",
+      "columns": [
+        {
+          "title": "Chapter 7: a clean slate",
+          "items": [
+            "Non-exempt assets are sold by a trustee, and most debts are discharged",
+            "For people who can’t afford a repayment plan",
+            "Stops collector harassment and foreclosure proceedings"
+          ]
+        },
+        {
+          "title": "Chapter 13: a repayment plan",
+          "items": [
+            "A three- to five-year plan to repay what you can",
+            "For people with wages or income coming in",
+            "Payments made through voluntary wage deductions"
+          ]
+        },
+        {
+          "title": "For businesses",
+          "items": [
+            "Chapter 7 liquidation or Chapter 11 reorganization",
+            "Chapter 12 for family farmers",
+            "Guidance from the first petition through the trustee"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Care & convenience",
+      "title": "You’re a person, *not an invoice*",
+      "image": {
+        "src": "/demo-assets/andrew-c-marine-attorney/review.webp",
+        "alt": "Two men reviewing documents together at a table",
+        "width": 1600,
+        "height": 1063
+      },
+      "body": [
+        "At Andrew C. Marine, Attorney at Law, every client is worked with individually. Bankruptcy is stressful, overwhelming and at times frustrating, which is why it matters to have someone at your side every step of the way.",
+        "Attorney Marine will help determine which form of bankruptcy is best for your situation and build a custom solution for your debt, from the initial petition to negotiating with the trustee."
+      ],
+      "list": [
+        "Over 30 years of bankruptcy experience",
+        "A personal relationship with every client",
+        "Consultations by appointment"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Facts and questions",
+      "title": "Bankruptcy, *answered*",
+      "items": [
+        {
+          "q": "Am I eligible to file for bankruptcy?",
+          "a": "For Chapter 7, your household income generally needs to be below the median for a household of the same size, or you must pass the “means test.” The formulas get complicated, so it’s worth talking it through."
+        },
+        {
+          "q": "What are the alternatives to bankruptcy?",
+          "a": "You can try to negotiate with creditors to extend due dates, lower interest or forgive part of the debt. Many people find creditors unwilling to agree to reasonable terms."
+        },
+        {
+          "q": "Can bankruptcy help with student loans or taxes?",
+          "a": "In some cases they can be included in a Chapter 13 repayment plan and paid off over time, which can save money. In rare cases they may be dischargeable."
+        },
+        {
+          "q": "Will I lose everything in Chapter 7?",
+          "a": "Usually not. Most people considering Chapter 7 own property that state law protects, so most of their debt can be discharged without losing it."
+        },
+        {
+          "q": "Is this legal advice?",
+          "a": "No, this is general information. Every situation is different: call (803) 649-0875 to talk through yours."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "area",
+      "nav": "Service area",
+      "eyebrow": "Where we help",
+      "title": "Serving Aiken *and beyond*",
+      "columns": [
+        {
+          "title": "Aiken County",
+          "items": [
+            "Aiken, North Augusta, Graniteville and Beech Island",
+            "New Ellenton, Jackson, Wagener, Warrenville and Windsor"
+          ]
+        },
+        {
+          "title": "Nearby counties",
+          "items": [
+            "Barnwell, Bamberg, Allendale and Orangeburg",
+            "Edgefield, Saluda and Lexington"
+          ]
+        },
+        {
+          "title": "Towns",
+          "items": [
+            "Batesburg-Leesville, Blackville, Denmark and Johnston",
+            "Salley, Ridge Spring, Monetta, Trenton and Williston"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Take back your life from debt",
+      "text": "Call to schedule a consultation with an experienced bankruptcy attorney.",
+      "cta": {
+        "label": "Call (803) 649-0875",
+        "href": "tel:+18036490875"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Trafalgar Street*",
+    "formTitle": "Ask for a consultation",
+    "formTopics": [
+      "Personal bankruptcy",
+      "Business bankruptcy",
+      "Foreclosure",
+      "Real estate",
+      "Wills, trusts or estate planning",
+      "Something else"
+    ]
+  },
+  "slug": "andrew-c-marine-attorney",
+  "added": "2026-11-20",
+  "prospect": "andrew-c-marine-attorney",
+  "source": {
+    "url": "https://www.andrewmarine.com/",
+    "before": [
+      "Broken text on the home page: “the Aik en , SC area and beyond .”",
+      "Built with 53 outdated <font> tags; Google’s mobile score is 58 out of 100",
+      "The page stays busy for three-quarters of a second after it appears, so early taps can lag",
+      "Six links that a screen reader can’t name"
+    ],
+    "after": [
+      "Chapter 7 and Chapter 13 explained side by side, in plain words",
+      "One tap to call for a consultation",
+      "The FAQ on the page, not buried",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "square"
+  }
+}

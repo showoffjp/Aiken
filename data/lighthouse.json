@@ -2503,12 +2503,24 @@
    "accessibility": 92,
    "bestPractices": 96,
    "seo": 85,
-   "fcp": 2443,
-   "lcp": 8045,
-   "tbt": 79,
-   "si": 3614,
+   "fcp": 2567,
+   "lcp": 7826,
+   "tbt": 65,
+   "si": 3471,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1208,
+   "lcp": 2258,
+   "tbt": 50,
+   "si": 1208,
+   "cls": 0,
+   "at": "2026-11-20"
   }
  },
  "malias-restaurant": {
@@ -4239,6 +4251,58 @@
    "lcp": 3111,
    "tbt": 284,
    "si": 2802,
+   "cls": 0,
+   "at": "2026-11-20"
+  }
+ },
+ "andrew-c-marine-attorney": {
+  "site": {
+   "performance": 58,
+   "accessibility": 83,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1418,
+   "lcp": 6197,
+   "tbt": 748,
+   "si": 3133,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2031,
+   "tbt": 89,
+   "si": 1206,
+   "cls": 0.001,
+   "at": "2026-11-20"
+  }
+ },
+ "covenant-family-allergy": {
+  "site": {
+   "performance": 72,
+   "accessibility": 72,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 2157,
+   "lcp": 9327,
+   "tbt": 91,
+   "si": 2881,
+   "cls": 0.002,
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "performance": 94,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 955,
+   "lcp": 2105,
+   "tbt": 249,
+   "si": 955,
    "cls": 0,
    "at": "2026-11-20"
   }
