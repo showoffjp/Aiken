@@ -19,6 +19,8 @@ import { builtIn } from '../lib/features';
 import { measures } from '../lib/measures';
 import { appName } from '../lib/appicon';
 import QRCode from 'qrcode';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
 import { accessible, ratio } from '../lib/contrast';
 
 export function getStaticPaths() {
@@ -75,6 +77,10 @@ const mapSrc = contact.mapQuery ? `https://www.google.com/maps?q=${encodeURIComp
 const streets = streetMap(demo.slug);
 const directions = contact.mapQuery ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(contact.mapQuery)}` : '';
 const sourceHost = new URL(demo.source.url).hostname.replace(/^www\./, '');
+// Before-and-after shots for the slider in "What changed?" (made by scripts/shots.mjs).
+const shotPath = (name: string) => (existsSync(path.join(process.cwd(), 'public', 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const beforeShot = demo.source.none ? '' : shotPath(`${demo.prospect || demo.slug}-before`);
+const afterShot = shotPath(`${demo.slug}-after`);
 const after = demo.source.after || [
   'Designed phone-first: reads and taps comfortably on any screen',
   'One-tap call, directions and email from every page',
@@ -403,6 +409,19 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         <h2 id="notes-title">What this concept changes</h2>
         <button class="close" type="button" data-close-notes aria-label="Close">×</button>
       </header>
+      {beforeShot && afterShot && (
+        <figure class="nc">
+          <figcaption>Slide to compare today’s site with this concept</figcaption>
+          <div class="nc-box" style="--pos:50%">
+            <img src={afterShot} alt={`This concept for ${demo.name}`} width="1120" height="753" loading="lazy" decoding="async" />
+            <img class="nc-before" src={beforeShot} alt={`${demo.name}'s current website`} width="1120" height="753" loading="lazy" decoding="async" />
+            <span class="nc-line" aria-hidden="true"></span>
+            <span class="nc-tag nc-l" aria-hidden="true">Today</span>
+            <span class="nc-tag nc-r" aria-hidden="true">Concept</span>
+            <input type="range" min="0" max="100" value="50" aria-label="Show more of today's site or of this concept" data-nc />
+          </div>
+        </figure>
+      )}
       {nums.length > 0 && (
         <table class="nums">
           <caption>By the numbers: the current home page and this concept, measured the same way</caption>
@@ -662,6 +681,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         const dlg = document.querySelector('[data-notes]');
         document.querySelector('[data-open-notes]')?.addEventListener('click', () => dlg.showModal());
         document.querySelector('[data-close-notes]')?.addEventListener('click', () => dlg.close());
+        document.querySelectorAll('[data-nc]').forEach((r) => r.addEventListener('input', () => r.parentElement.style.setProperty('--pos', `${r.value}%`)));
         dlg?.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
 
         // Preview form: checks it has enough to reply to, then says where a real message would go.

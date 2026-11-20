@@ -702,3 +702,18 @@ body.demo::before {
 @media (prefers-reduced-motion: reduce) { body.demo::after { display: none; } .hero-visual .frame { transform: none; } }
 /* Room for the tour button: on small phones the preview bar says just "Concept." (the notes panel and footer still say it isn't the live site). */
 @media (max-width: 460px) { .concept .grow .short { display: none; } .concept .wrap { gap: 10px; } }
+
+/* Before-and-after slider at the top of "What changed?" */
+.notes .nc { margin: 18px 28px 0; }
+.notes .nc figcaption { font: 700 .72rem/1.3 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #5f6470; padding-bottom: 8px; }
+.notes .nc-box { position: relative; border-radius: 10px; overflow: hidden; border: 1px solid #e1e4ea; background: #f4f5f7; aspect-ratio: 1120 / 753; }
+.notes .nc-box img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.notes .nc-before { position: absolute; inset: 0; clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.notes .nc-line { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 3px; margin-left: -1.5px; background: #fff; box-shadow: 0 0 0 1px rgb(0 0 0 / .25); pointer-events: none; }
+.notes .nc-line::after { content: "⟷"; position: absolute; top: 50%; left: 50%; translate: -50% -50%; width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: #fff; color: #0b6b4c; font-weight: 700; box-shadow: 0 4px 14px rgb(0 0 0 / .3); }
+.notes .nc-tag { position: absolute; bottom: 10px; font: 700 .7rem/1 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; padding: 5px 9px; border-radius: 999px; color: #fff; pointer-events: none; }
+.notes .nc-l { left: 10px; background: #9a3f12; }
+.notes .nc-r { right: 10px; background: #0b6b4c; }
+.notes .nc-box input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.notes .nc-box:has(input:focus-visible) { outline: 3px solid #0b6b4c; outline-offset: 3px; }
+@media (max-width: 520px) { .notes .nc { margin-inline: 20px; } }
