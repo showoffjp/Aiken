@@ -233,6 +233,31 @@ if (cine) deepIdx = -1;
       </div>
     </section>
   );
+  // Package tracking: paste a number, the page guesses the carrier and links
+  // straight to that carrier's own tracking page (script in [slug].astro).
+  if (s.type === 'track') {
+    const all: Record<string, string> = { ups: 'UPS', fedex: 'FedEx', usps: 'USPS', dhl: 'DHL' };
+    const carriers = (s.carriers || Object.keys(all)).filter((c) => all[c]);
+    return (
+      <section class={`section ${alt}`} id={id}>
+        <div class="wrap">
+          <div class="section-head" data-label={s.nav || ''}>
+            {s.eyebrow && <div class="eyebrow">{s.eyebrow}</div>}
+            <h2 set:html={title(s.title)} />
+            {s.intro && <p>{s.intro}</p>}
+          </div>
+          <div class="track" data-track>
+            <label class="track-label" for={`${id}-number`}>Tracking number</label>
+            <input class="track-input" id={`${id}-number`} type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="e.g. 1Z999AA10123456784" aria-describedby={`${id}-guess`} data-track-input />
+            <p class="track-guess" id={`${id}-guess`} aria-live="polite" data-track-guess>Paste a number and we’ll point you to the right carrier.</p>
+            <ul class="track-carriers">
+              {carriers.map((c) => <li><a class="chip" href="#" target="_blank" rel="noopener" data-carrier={c}>Track with {all[c]}<Icon name="arrow-up-right" size={16} stroke={2.2} /></a></li>)}
+            </ul>
+          </div>
+        </div>
+      </section>
+    );
+  }
   if (s.type === 'faq') return (
     <section class={`section ${alt}`} id={id}>
       <div class="wrap">

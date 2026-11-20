@@ -388,3 +388,14 @@ html.motion-paused *, html.motion-paused *::before, html.motion-paused *::after 
 @media (prefers-reduced-motion: reduce) { .tour-ring, .tour-pop { transition: none; } }
 .motion-paused .tour-ring, .motion-paused .tour-pop { transition: none; }
 @media print { .tour { display: none !important; } }
+
+/* Package tracking box */
+.track { max-width: 640px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); padding: 20px; }
+.track-label { display: block; font-weight: 650; margin-bottom: 8px; }
+.track-input { width: 100%; font: 600 1.1rem/1.3 var(--font-body), system-ui, sans-serif; letter-spacing: .04em; padding: 12px 14px; min-height: 48px; border: 1.5px solid var(--line); border-radius: var(--r); background: var(--bg); color: var(--ink); }
+.track-input:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; border-color: transparent; }
+.track-guess { margin: 10px 0 14px; color: var(--muted); font-size: .95rem; }
+.track-carriers { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.track-carriers .chip { min-height: 44px; }
+.track-carriers .chip.likely, .track-carriers .chip.likely:hover { background: var(--primary); color: var(--on-primary); border-color: var(--primary); }
+.track-carriers .chip.likely .icon { color: var(--on-primary); }

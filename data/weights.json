@@ -4725,6 +4725,13 @@
    "loadMs": 125,
    "url": "/goin-postal-aiken/",
    "at": "2026-11-20"
+  },
+  "site": {
+   "bytes": 785390,
+   "requests": 90,
+   "loadMs": 2925,
+   "url": "https://goinpostal.com/store/GP460.1",
+   "at": "2026-11-20"
   }
  }
 }

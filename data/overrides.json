@@ -4,7 +4,8 @@
     "Hutson-Etherredge Companies",
     "Legare Gardens",
     "The Aiken Horse",
-    "Gaston Livery Stable"
+    "Gaston Livery Stable",
+    "Goin' Postal of Aiken"
   ],
   "exclude": [
     "www.VisitAikenSC.com",
@@ -16,6 +17,7 @@
     "Salt + Marrow Kitchen at Crowne Plaza"
   ],
   "website": {
-    "Tailored Tours of Aiken": "https://tailoredtoursofaiken.com/"
+    "Tailored Tours of Aiken": "https://tailoredtoursofaiken.com/",
+    "Goin' Postal of Aiken": "https://goinpostal.com/store/GP460.1"
   }
 }
