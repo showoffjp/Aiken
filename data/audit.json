@@ -14217,5 +14217,40 @@
   ],
   "facebook": "http://www.facebook.com/2008/fbml",
   "instagram": "https://www.instagram.com/zookcustomhomes/"
+ },
+ "goin-postal-of-aiken": {
+  "slug": "goin-postal-of-aiken",
+  "name": "Goin' Postal of Aiken",
+  "url": "https://goinpostal.com/store/GP460.1",
+  "finalUrl": "https://goinpostal.com/store/GP460.1",
+  "status": 200,
+  "state": "ok",
+  "score": 0,
+  "findings": [],
+  "platform": "Custom / hand-coded",
+  "builder": "",
+  "generator": "",
+  "server": "cloudflare",
+  "viewport": true,
+  "https": true,
+  "copyrightYear": null,
+  "lastModYear": null,
+  "title": "Goin' Postal Aiken 141 Jefferson Davis Hwy Aiken, SC 29801",
+  "description": "Goin",
+  "textLength": 2595,
+  "htmlBytes": 309500,
+  "familySignal": "Line 800-504-6040 Goin' postal locations are independently owned and operated by franchisees of GP Brands",
+  "since": 2019,
+  "emails": [
+   "aiken@goinpostal.com",
+   "info@goinpostal.com"
+  ],
+  "phones": [
+   "(803) 845-5001",
+   "(803) 845-5002",
+   "(813) 782-1500"
+  ],
+  "facebook": "https://www.facebook.com/gpcorp",
+  "instagram": ""
  }
 }

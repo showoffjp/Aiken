@@ -16,6 +16,7 @@ export type Section =
   | { type: 'quotes'; id?: string; nav?: string; eyebrow?: string; title: string; items: { text: string; by?: string }[] }
   | { type: 'faq'; id?: string; nav?: string; eyebrow?: string; title: string; items: { q: string; a: string }[] }
   | { type: 'columns'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; columns: { title: string; items: string[] }[] }
+  | { type: 'track'; id?: string; nav?: string; eyebrow?: string; title: string; intro?: string; carriers?: string[] }
   | { type: 'band'; id?: string; title: string; text?: string; cta?: Cta };
 
 export type Demo = {

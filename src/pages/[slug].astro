@@ -677,6 +677,29 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           f.classList.add('done');
         });
 
+        // Package tracking: guess the carrier from the number's shape and point
+        // each carrier link at its own tracking page.
+        document.querySelectorAll('[data-track]').forEach((box) => {
+          const input = box.querySelector('[data-track-input]'), guess = box.querySelector('[data-track-guess]');
+          const names = { ups: 'UPS', fedex: 'FedEx', usps: 'USPS', dhl: 'DHL' };
+          const url = {
+            ups: (n) => (n ? `https://www.ups.com/track?tracknum=${n}` : 'https://www.ups.com/track'),
+            fedex: (n) => (n ? `https://www.fedex.com/fedextrack/?trknbr=${n}` : 'https://www.fedex.com/en-us/tracking.html'),
+            usps: (n) => (n ? `https://tools.usps.com/go/TrackConfirmAction?tLabels=${n}` : 'https://tools.usps.com/go/TrackConfirmAction_input'),
+            dhl: (n) => (n ? `https://www.dhl.com/us-en/home/tracking/tracking-express.html?submit=1&tracking-id=${n}` : 'https://www.dhl.com/us-en/home/tracking.html'),
+          };
+          const carrierOf = (n) => /^1Z[0-9A-Z]{16}$/.test(n) ? 'ups'
+            : /^(9[1-5]\d{18,24}|[A-Z]{2}\d{9}US)$/.test(n) ? 'usps'
+            : /^(\d{12}|\d{15}|\d{20}|\d{22})$/.test(n) ? 'fedex'
+            : /^(\d{10}|JJD\d{10,}|JVGL\d+)$/.test(n) ? 'dhl' : '';
+          const update = () => {
+            const n = input.value.toUpperCase().replace(/[^0-9A-Z]/g, ''), c = n ? carrierOf(n) : '';
+            box.querySelectorAll('[data-carrier]').forEach((a) => { a.href = url[a.dataset.carrier](encodeURIComponent(n)); a.classList.toggle('likely', a.dataset.carrier === c); });
+            guess.textContent = !n ? 'Paste a number and we’ll point you to the right carrier.' : c ? `That looks like a ${names[c]} number.` : 'We can’t tell the carrier from that number: try each one below.';
+          };
+          input.addEventListener('input', update); update();
+        });
+
         // Highlight today's row in the hours table.
         const names = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
         const today = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short' }).format(new Date()));
@@ -869,6 +892,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           { el: first('.head-cta'), title: 'Your number, always in view', text: 'On a computer the number stays in the header. Clicking it offers to call from the computer, or copies the number to dial on a phone.' },
           { el: first('.menu-sec .menu-jump', '.menu-sec'), title: food ? 'The whole menu, with prices' : 'Your prices, easy to find', text: `Customers jump straight to the part they want${document.querySelector('[data-print-menu]') ? ', and can print it' : ''}, with no PDF to download.` },
           { el: first('.gallery', '.cine-mosaic', '.cine-gallery'), title: 'Photos that open full screen', text: 'Tap any photo to see it large, then swipe through the rest.' },
+          { el: first('[data-track]'), title: 'Track a package', text: 'Paste any tracking number: the page works out whether it’s UPS, FedEx, USPS or DHL, and opens that carrier’s tracking.' },
           (() => {
             const row = first('.hours')?.closest('.row') || null, sign = row && shown(row.querySelector('[data-open-now]'));
             return sign

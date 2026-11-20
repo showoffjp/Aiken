@@ -34384,5 +34384,285 @@
     "domainYears": 2
    }
   ]
+ },
+ "goin-postal-of-aiken": {
+  "slug": "goin-postal-aiken",
+  "name": "Goin’ Postal Aiken",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "",
+  "site": {
+   "host": "goinpostal.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://goinpostal.com/store/GP460.1",
+    "title": "Goin' Postal Aiken 141 Jefferson Davis Hwy Aiken, SC 29801",
+    "description": "Goin' Postal Aiken is your Friendly Neighborhood Shipping Center. Let us send your FedEx, UPS, DHL, USPS shipments & more. Franchises available!",
+    "canonical": "https://goinpostal.com/store/GP460.1",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Goin' Postal Aiken",
+     "description": "Goin' Postal Aiken is your Friendly Neighborhood Shipping Center. Trust us to send your FedEx, UPS, DHL, USPS shipments and more. Franchises available!",
+     "image": "https://goinpostal-assets.s3.amazonaws.com/storephotos/GP460.1/exterior.webp",
+     "type": "business.business",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Goin' Postal Aiken"
+    ],
+    "h1Count": 1,
+    "h2": 5,
+    "h3": 0,
+    "words": 421,
+    "images": 38,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "Corporation",
+     "ContactPoint",
+     "Store",
+     "PostalAddress",
+     "GeoCoordinates",
+     "AggregateRating",
+     "OpeningHoursSpecification",
+     "PropertyValue",
+     "FAQPage",
+     "Question",
+     "Answer",
+     "BreadcrumbList",
+     "ListItem"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": true
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://api.goinpostal.com/xml/sitemap.xml",
+    "pages": 186
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 1,
+    "images": 487,
+    "sample": [
+     {
+      "url": "https://goinpostal.com/store/GP460.1",
+      "title": "Goin' Postal Aiken 141 Jefferson Davis Hwy Aiken, SC 29801",
+      "description": 144,
+      "h1": 1,
+      "words": 421
+     },
+     {
+      "url": "https://goinpostal.com/",
+      "title": "Goin' Postal - Your Friendly Neighborhood Shipping Center",
+      "description": 147,
+      "h1": 1,
+      "words": 77
+     },
+     {
+      "url": "https://goinpostal.com/locations",
+      "title": "Goin' Postal - Find a Location",
+      "description": 134,
+      "h1": 1,
+      "words": 135
+     },
+     {
+      "url": "https://goinpostal.com/services",
+      "title": "Goin' Postal - Services Available",
+      "description": 153,
+      "h1": 1,
+      "words": 124
+     },
+     {
+      "url": "https://goinpostal.com/about-us",
+      "title": "About Goin' Postal | Shipping Stores Since 2002",
+      "description": 144,
+      "h1": 1,
+      "words": 350
+     },
+     {
+      "url": "https://goinpostal.com/franchise-info",
+      "title": "Postal & Shipping Store Franchise | Goin' Postal",
+      "description": 149,
+      "h1": 1,
+      "words": 7196
+     },
+     {
+      "url": "https://goinpostal.com/franchise-info/military",
+      "title": "Military - Veteran Franchise Opportunities | Goin' Postal",
+      "description": 142,
+      "h1": 1,
+      "words": 580
+     },
+     {
+      "url": "https://goinpostal.com/franchise-info/financing",
+      "title": "Financing - Flexible Financing Options for Goin' Postal Franchise",
+      "description": 134,
+      "h1": 1,
+      "words": 839
+     },
+     {
+      "url": "https://goinpostal.com/franchise-info/e2-visas",
+      "title": "An E2 Friendly Opportunity",
+      "description": 59,
+      "h1": 1,
+      "words": 659
+     },
+     {
+      "url": "https://goinpostal.com/stores/SC",
+      "title": "Goin' Postal in South Carolina. Retail Shipping Franchise.",
+      "description": 149,
+      "h1": 1,
+      "words": 116
+     },
+     {
+      "url": "https://goinpostal.com/services/service/ups",
+      "title": "UPS Shipping Services at Goin' Postal - Fast, Reliable, and Convenient",
+      "description": 138,
+      "h1": 1,
+      "words": 1421
+     },
+     {
+      "url": "https://goinpostal.com/services/service/fedEx",
+      "title": "FedEx Shipping Services at Goin' Postal - Fast, Reliable, and Convenient",
+      "description": 126,
+      "h1": 1,
+      "words": 1390
+     },
+     {
+      "url": "https://goinpostal.com/services/service/post-office-services",
+      "title": "USPS Shipping & Postal Services Near You | Goin' Postal",
+      "description": 149,
+      "h1": 1,
+      "words": 1413
+     },
+     {
+      "url": "https://goinpostal.com/services/service/DHL",
+      "title": "DHL Shipping Services at Goin' Postal - Fast, Reliable, and Global",
+      "description": 130,
+      "h1": 1,
+      "words": 1108
+     },
+     {
+      "url": "https://goinpostal.com/services/service/notary",
+      "title": "Notary Services at Goin' Postal - Reliable, Convenient, and Professional",
+      "description": 152,
+      "h1": 1,
+      "words": 1182
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61592597791200",
+    "Google Business Profile": "https://search.google.com/local/writereview"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Shipping",
+    "title": false,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 3
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 10
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=175&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=c6f879e3415e961bdc02490e864fee4b",
+    "name": "Goin' Postal of Aiken",
+    "phone": "(803) 845-5001",
+    "website": "http://www.goinpostal.com",
+    "address": "141 Jefferson Davis Highway, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61592597791200",
+    "Google Business Profile": "https://search.google.com/local/writereview"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/gpcorp"
+   }
+  },
+  "domain": null,
+  "performance": {
+   "performance": 86,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 1897,
+   "lcp": 3111,
+   "tbt": 284,
+   "si": 2802,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 957,
+   "lcp": 1963,
+   "tbt": 285,
+   "si": 1024,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 95,
+   "social": 65,
+   "lighthouseSeo": 100
+  },
+  "competitors": []
  }
 }

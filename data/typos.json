@@ -595,5 +595,22 @@
   "at": "2026-11-20T20:45:06.749Z",
   "pages": 3,
   "found": []
+ },
+ "goin-postal-of-aiken": {
+  "at": "2026-11-20T21:21:37.925Z",
+  "pages": 12,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "seperated",
+    "fix": "separated",
+    "count": 1,
+    "page": "https://goinpostal.com/store/GP460.1",
+    "label": "Home",
+    "context": "…their home since they or their respective spouse seperated from the armed forces of the United States. Paul is…",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
  }
 }

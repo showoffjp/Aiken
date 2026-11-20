@@ -4229,6 +4229,18 @@
    "si": 1024,
    "cls": 0,
    "at": "2026-11-20"
+  },
+  "site": {
+   "performance": 86,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 1897,
+   "lcp": 3111,
+   "tbt": 284,
+   "si": 2802,
+   "cls": 0,
+   "at": "2026-11-20"
   }
  }
 }

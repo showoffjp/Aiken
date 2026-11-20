@@ -846,6 +846,15 @@
    "targets": 33,
    "smallTargets": 0,
    "at": "2026-11-20"
+  },
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 12,
+   "targets": 18,
+   "smallTargets": 4,
+   "at": "2026-11-20"
   }
  },
  "hair-of-the-dog-llc": {

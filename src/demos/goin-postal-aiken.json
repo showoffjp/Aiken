@@ -122,6 +122,14 @@
       ]
     },
     {
+      "type": "track",
+      "id": "track",
+      "nav": "Track a package",
+      "eyebrow": "Where’s my package?",
+      "title": "Track *any shipment*",
+      "intro": "Paste a tracking number from UPS, FedEx, USPS or DHL and go straight to that carrier’s tracking page."
+    },
+    {
       "type": "steps",
       "id": "how",
       "nav": "How it works",
@@ -227,12 +235,14 @@
     "url": "https://goinpostal.com/store/GP460.1",
     "before": [
       "The store has no website of its own: its only page is a listing inside the franchise’s site, with “Franchise Info” and “E2 Visas” in the menu",
-      "The About text runs together with no line breaks, and spells FedEx “FeDex”"
+      "The About text runs together with no line breaks, and has typos: “FeDex” for FedEx, and “seperated”",
+      "On a phone, the first screen shows no phone number or call button"
     ],
     "after": [
       "A site of its own, with every service on one page",
       "Hours with an “Open now” sign, and one tap to call",
       "Directions that mention the landmarks: across from Sam’s Club",
+      "Package tracking for all four carriers, from one box",
       "Fast on a phone"
     ]
   },
