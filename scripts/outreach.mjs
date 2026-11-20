@@ -104,7 +104,8 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   // Only greet by name when the listed contact plausibly reads this inbox.
   const contactFirst = (row.contact || '').split(/\s+/)[0];
   const local = email.split('@')[0].toLowerCase();
-  const shared = /^(info|contact|office|sales|admin|hello|mail|service|support|fun|insurance)\d*$/.test(local);
+  // A shared inbox, or a store inbox named after its town (aiken@…), is read by the owner.
+  const shared = /^(info|contact|office|sales|admin|hello|mail|service|support|fun|insurance|aiken|northaugusta|augusta|graniteville)\d*$/.test(local);
   const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
   const broken = row.tier === 'broken';
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
