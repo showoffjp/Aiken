@@ -392,11 +392,18 @@
  },
  "andrew-c-marine-attorney": {
   "site": {
-   "bytes": 1242537,
+   "bytes": 1244160,
    "requests": 71,
-   "loadMs": 2127,
+   "loadMs": 2328,
    "url": "https://www.andrewmarine.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 417851,
+   "requests": 7,
+   "loadMs": 198,
+   "url": "/andrew-c-marine-attorney/",
+   "at": "2026-11-20"
   }
  },
  "anshu-asian-caf": {
@@ -1164,11 +1171,18 @@
  },
  "covenant-family-allergy": {
   "site": {
-   "bytes": 3106326,
+   "bytes": 3106323,
    "requests": 17,
-   "loadMs": 1384,
+   "loadMs": 1556,
    "url": "https://covenantfamilyallergy.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 388583,
+   "requests": 6,
+   "loadMs": 113,
+   "url": "/covenant-family-allergy/",
+   "at": "2026-11-20"
   }
  },
  "creotibi": {
@@ -2329,11 +2343,18 @@
  },
  "macks": {
   "site": {
-   "bytes": 1579778,
+   "bytes": 1580462,
    "requests": 78,
-   "loadMs": 2124,
+   "loadMs": 2083,
    "url": "https://macksinaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-20"
+  },
+  "concept": {
+   "bytes": 442271,
+   "requests": 7,
+   "loadMs": 181,
+   "url": "/macks-deli/",
+   "at": "2026-11-20"
   }
  },
  "manna-media": {

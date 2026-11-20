@@ -348,7 +348,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         <div class="top">
           <div>
             <div class="word"><span class="foot-mark"><Icon name={demo.icon} size={20} /><span class="glint"></span></span>{demo.name}</div>
-            <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<!\b(?:Dr|Drs|Mr|Mrs|Ms|St|Jr|Sr|Mt|No|vs)\.)(?<=[.!?])\s/)[0]}</p>
+            <p style="margin-top:12px;max-width:28em">{hero.lede.split(/(?<!\b(?:Dr|Drs|Mr|Mrs|Ms|St|Jr|Sr|Mt|No|vs|Inc|Co|[A-Z])\.)(?<=[.!?])\s/)[0]}</p>
           </div>
           <div>
             <h4>Explore</h4>
@@ -910,7 +910,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         const stops = () => [
           { el: first('.callbar a'), title: 'One tap to call', text: 'On a phone this button stays on screen while people scroll, so calling you is always one tap away. Directions sit right beside it.' },
           { el: first('.head-cta'), title: 'Your number, always in view', text: 'On a computer the number stays in the header. Clicking it offers to call from the computer, or copies the number to dial on a phone.' },
-          { el: first('.menu-sec .menu-jump', '.menu-sec'), title: food ? 'The whole menu, with prices' : 'Your prices, easy to find', text: `Customers jump straight to the part they want${document.querySelector('[data-print-menu]') ? ', and can print it' : ''}, with no PDF to download.` },
+          { el: first('.menu-sec .menu-jump', '.menu-sec'), title: food ? 'The whole menu, with prices' : `${(document.querySelector(`.nav a[href="#${document.querySelector('.menu-sec')?.id}"]`)?.textContent || 'Your prices').trim()}, easy to find`, text: `Customers jump straight to the part they want${document.querySelector('[data-print-menu]') ? ', and can print it' : ''}, with no PDF to download.` },
           { el: first('.gallery', '.cine-mosaic', '.cine-gallery'), title: 'Photos that open full screen', text: 'Tap any photo to see it large, then swipe through the rest.' },
           { el: first('[data-track]'), title: 'Track a package', text: 'Paste any tracking number: the page works out whether it’s UPS, FedEx, USPS or DHL, and opens that carrier’s tracking.' },
           (() => {

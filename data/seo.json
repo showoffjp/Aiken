@@ -34664,5 +34664,906 @@
    "lighthouseSeo": 100
   },
   "competitors": []
+ },
+ "macks": {
+  "slug": "macks-deli",
+  "name": "MacK’s Deli",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "macksinaiken.com",
+   "https": true,
+   "pagesCrawled": 5,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://macksinaiken.com/",
+    "title": "Mack's in Aiken - MacK's Deli",
+    "description": "",
+    "canonical": "https://macksinaiken.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Home"
+    ],
+    "h1Count": 1,
+    "h2": 2,
+    "h3": 1,
+    "words": 242,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://macksinaiken.com/wp-sitemap.xml",
+    "pages": 6
+   },
+   "crawl": {
+    "pages": 5,
+    "missingTitle": 0,
+    "missingDescription": 5,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 5,
+    "sample": [
+     {
+      "url": "https://macksinaiken.com/",
+      "title": "Mack's in Aiken - MacK's Deli",
+      "description": 0,
+      "h1": 1,
+      "words": 242
+     },
+     {
+      "url": "https://macksinaiken.com/menu/",
+      "title": "Menu - Mack's in Aiken",
+      "description": 0,
+      "h1": 1,
+      "words": 689
+     },
+     {
+      "url": "https://macksinaiken.com/hours-and-location/",
+      "title": "Hours and Location - Mack's in Aiken",
+      "description": 0,
+      "h1": 1,
+      "words": 81
+     },
+     {
+      "url": "https://macksinaiken.com/contact/",
+      "title": "Contact - Mack's in Aiken",
+      "description": 0,
+      "h1": 1,
+      "words": 64
+     },
+     {
+      "url": "https://macksinaiken.com/menu/",
+      "title": "Menu - Mack's in Aiken",
+      "description": 0,
+      "h1": 1,
+      "words": 689
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 9,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/MacKs-102862728302462"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Subs",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/macks_deli/",
+    "name": "MacK's",
+    "phone": "803-226-0841",
+    "website": "https://macksinaiken.com/",
+    "address": "159 Laurens Street, NW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "MacK’s",
+    "phone": "",
+    "website": "https://macksinaiken.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/MacKs-102862728302462"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/MacKs-102862728302462"
+   }
+  },
+  "domain": {
+   "name": "macksinaiken.com",
+   "created": "2020-11-10",
+   "expires": "2027-11-10",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 6
+  },
+  "performance": {
+   "performance": 71,
+   "accessibility": 92,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2567,
+   "lcp": 7826,
+   "tbt": 65,
+   "si": 3471,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1208,
+   "lcp": 2258,
+   "tbt": 50,
+   "si": 1208,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "whats-cookin-downtown",
+   "blue-collard",
+   "neon-fig",
+   "oh-mie-stelle-bakery",
+   "the-village-caf"
+  ],
+  "scores": {
+   "seo": 70,
+   "social": 35,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "neon-fig",
+    "name": "Neon Fig",
+    "website": "https://neon-fig.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "oh-mie-stelle-bakery",
+    "name": "Oh Mie Stelle! Bakery",
+    "website": "https://www.ohmiestelle.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 1.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 4
+   },
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   }
+  ]
+ },
+ "andrew-c-marine-attorney": {
+  "slug": "andrew-c-marine-attorney",
+  "name": "Andrew C. Marine, Attorney at Law",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "andrewmarine.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.andrewmarine.com/",
+    "title": "Bankruptcy Lawyer | Aiken, SC | Andrew C. Marine Attorney at Law",
+    "description": "Call Andrew C. Marine Attorney at Law in Aiken, SC for all your bankruptcy legal representation needs, (803) 649-0875",
+    "canonical": "https://www.andrewmarine.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Bankruptcy Lawyer | Aiken, SC | Andrew C. Marine Attorney at Law",
+     "description": "Call Andrew C. Marine Attorney at Law in Aiken, SC for all your bankruptcy legal representation needs, (803) 649-0875",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Professional & Experienced Bankruptcy Attorney"
+    ],
+    "h1Count": 1,
+    "h2": 3,
+    "h3": 0,
+    "words": 580,
+    "images": 2,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.andrewmarine.com/sitemap.xml",
+    "pages": 16
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 26,
+    "sample": [
+     {
+      "url": "https://www.andrewmarine.com/",
+      "title": "Bankruptcy Lawyer | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 117,
+      "h1": 1,
+      "words": 580
+     },
+     {
+      "url": "https://www.andrewmarine.com/bankruptcy",
+      "title": "Bankruptcy | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 127,
+      "h1": 1,
+      "words": 882
+     },
+     {
+      "url": "https://www.andrewmarine.com/chapter-7-and-13",
+      "title": "Chapter 7 & 13 Bankruptcy | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 126,
+      "h1": 1,
+      "words": 644
+     },
+     {
+      "url": "https://www.andrewmarine.com/commercial-and-consumer-bankruptcy",
+      "title": "Personal & Business Bankruptcy | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 77,
+      "h1": 1,
+      "words": 777
+     },
+     {
+      "url": "https://www.andrewmarine.com/real-estate-law",
+      "title": "Real Estate Attorney | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 111,
+      "h1": 1,
+      "words": 461
+     },
+     {
+      "url": "https://www.andrewmarine.com/credit-card-debt",
+      "title": "Credit Card Debt | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 112,
+      "h1": 1,
+      "words": 447
+     },
+     {
+      "url": "https://www.andrewmarine.com/tax-debt",
+      "title": "Tax Debt | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 121,
+      "h1": 1,
+      "words": 582
+     },
+     {
+      "url": "https://www.andrewmarine.com/medical-debt",
+      "title": "Medical Expenses Debt | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 119,
+      "h1": 1,
+      "words": 459
+     },
+     {
+      "url": "https://www.andrewmarine.com/student-loan-debt",
+      "title": "Student Loan Debt | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 131,
+      "h1": 1,
+      "words": 544
+     },
+     {
+      "url": "https://www.andrewmarine.com/repossession-and-foreclosure",
+      "title": "Foreclosure & Repossession | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 122,
+      "h1": 1,
+      "words": 545
+     },
+     {
+      "url": "https://www.andrewmarine.com/bankruptcy-and-family-law",
+      "title": "Family Law Bankruptcy | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 156,
+      "h1": 1,
+      "words": 472
+     },
+     {
+      "url": "https://www.andrewmarine.com/newpage",
+      "title": "Estate Planning | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 143,
+      "h1": 1,
+      "words": 457
+     },
+     {
+      "url": "https://www.andrewmarine.com/bankruptcy-faq",
+      "title": "Bankruptcy Facts | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 127,
+      "h1": 1,
+      "words": 1062
+     },
+     {
+      "url": "https://www.andrewmarine.com/bankruptcy-resources",
+      "title": "Bankruptcy Resources | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 99,
+      "h1": 1,
+      "words": 546
+     },
+     {
+      "url": "https://www.andrewmarine.com/attorney-andrew-c-marine",
+      "title": "Bankruptcy Attorney | Aiken, SC | Andrew C. Marine Attorney at Law",
+      "description": 170,
+      "h1": 1,
+      "words": 366
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 16,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/andrewcmarine/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Bankruptcy",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 12
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 8
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=190&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=b1ea6093135fe5363a6a0651785ba04a",
+    "name": "Andrew C. Marine, Attorney",
+    "phone": "(803) 649-0875",
+    "website": "http://www.andrewmarine.com",
+    "address": "106 Trafalgar Street, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/andrewcmarine/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/andrewcmarine/"
+   }
+  },
+  "domain": {
+   "name": "andrewmarine.com",
+   "created": "2002-10-17",
+   "expires": "2027-10-17",
+   "registrar": "Tucows Domains Inc.",
+   "years": 24
+  },
+  "performance": {
+   "performance": 58,
+   "accessibility": 83,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1418,
+   "lcp": 6197,
+   "tbt": 748,
+   "si": 3133,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1206,
+   "lcp": 2031,
+   "tbt": 89,
+   "si": 1206,
+   "cls": 0.001,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "austin-and-pethick-law-firm",
+   "chandler-law-firm-pa",
+   "hull-barrett-attorneys-pc",
+   "john-harte-law",
+   "johnson-johnson-whittle-lancer-and-staggs-attorn"
+  ],
+  "scores": {
+   "seo": 88,
+   "social": 35,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "austin-and-pethick-law-firm",
+    "name": "Austin & Pethick Law Firm",
+    "website": "https://www.austinpethick.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.3,
+    "a11ySerious": 26,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "chandler-law-firm-pa",
+    "name": "Chandler Law Firm, PA",
+    "website": "https://thechandlerlawfirm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "hull-barrett-attorneys-pc",
+    "name": "Hull Barrett Attorneys, PC",
+    "website": "https://www.hullbarrett.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "john-harte-law",
+    "name": "John Harte Law",
+    "website": "https://www.jwhartelaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 5,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 7
+   },
+   {
+    "slug": "johnson-johnson-whittle-lancer-and-staggs-attorn",
+    "name": "Johnson, Johnson, Whittle, Lancer, & Staggs Attorneys, PA",
+    "website": "https://aikenattorneys.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.3,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 21
+   }
+  ]
+ },
+ "covenant-family-allergy": {
+  "slug": "covenant-family-allergy",
+  "name": "Covenant Family Allergy",
+  "checked": "2026-11-20",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "covenantfamilyallergy.com",
+   "https": true,
+   "pagesCrawled": 5,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://covenantfamilyallergy.com/",
+    "title": "covenantfamilyallergy.com |",
+    "description": "",
+    "canonical": "https://covenantfamilyallergy.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Enjoy the Outdoors",
+     "Without the Headaches",
+     "Covenant Family Allergy"
+    ],
+    "h1Count": 6,
+    "h2": 0,
+    "h3": 3,
+    "words": 157,
+    "images": 4,
+    "imagesNoAlt": 3,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://covenantfamilyallergy.com/wp-sitemap.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 5,
+    "missingTitle": 0,
+    "missingDescription": 5,
+    "missingH1": 0,
+    "multipleH1": 5,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 28,
+    "images": 33,
+    "sample": [
+     {
+      "url": "https://covenantfamilyallergy.com/",
+      "title": "covenantfamilyallergy.com |",
+      "description": 0,
+      "h1": 6,
+      "words": 157
+     },
+     {
+      "url": "https://covenantfamilyallergy.com/health-conditions/",
+      "title": "Health Conditions | covenantfamilyallergy.com",
+      "description": 0,
+      "h1": 17,
+      "words": 103
+     },
+     {
+      "url": "https://covenantfamilyallergy.com/providers/",
+      "title": "Providers | covenantfamilyallergy.com",
+      "description": 0,
+      "h1": 4,
+      "words": 501
+     },
+     {
+      "url": "https://covenantfamilyallergy.com/shot-hours/",
+      "title": "Shot Hours | covenantfamilyallergy.com",
+      "description": 0,
+      "h1": 3,
+      "words": 133
+     },
+     {
+      "url": "https://covenantfamilyallergy.com/tests-we-perform/",
+      "title": "Tests We Perform | covenantfamilyallergy.com",
+      "description": 0,
+      "h1": 5,
+      "words": 232
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 6,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/covenantfamilyallergy"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Allergy",
+    "title": true,
+    "h1": true,
+    "description": false,
+    "firstWords": true,
+    "count": 3
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/covenant-family-allergy-2730",
+    "name": "Covenant Family Allergy",
+    "phone": "(803) 279-7666",
+    "website": "http://covenantfamilyallergy.com",
+    "address": "130 Allen Court, North Augusta SC 29860",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/covenantfamilyallergy"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/covenantfamilyallergy"
+   }
+  },
+  "domain": {
+   "name": "covenantfamilyallergy.com",
+   "created": "2008-04-14",
+   "expires": "2027-04-14",
+   "registrar": "IONOS SE",
+   "years": 18
+  },
+  "performance": {
+   "performance": 72,
+   "accessibility": 72,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 2157,
+   "lcp": 9327,
+   "tbt": 91,
+   "si": 2881,
+   "cls": 0.002,
+   "at": "2026-11-20"
+  },
+  "conceptPerformance": {
+   "performance": 94,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 955,
+   "lcp": 2105,
+   "tbt": 249,
+   "si": 955,
+   "cls": 0,
+   "at": "2026-11-20"
+  },
+  "competitorSlugs": [
+   "hearing-associates-of-south-carolina",
+   "prosynergy-dermatology"
+  ],
+  "scores": {
+   "seo": 61,
+   "social": 35,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "hearing-associates-of-south-carolina",
+    "name": "Hearing Associates of South Carolina",
+    "website": "https://www.hearingassociatesofsc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "prosynergy-dermatology",
+    "name": "Prosynergy Dermatology",
+    "website": "https://www.prosynergyderm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.3,
+    "a11ySerious": 4,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 3
+   }
+  ]
  }
 }

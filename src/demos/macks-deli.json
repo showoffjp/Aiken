@@ -1,0 +1,332 @@
+{
+  "name": "MacK’s Deli",
+  "short": "MacK’s",
+  "category": "Subs, Sandwiches & Salads",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f7f4ec",
+    "surface": "#fffdf8",
+    "ink": "#1d2116",
+    "muted": "#575c4d",
+    "primary": "#3f5f2a",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a24a",
+    "line": "#e5e0d2"
+  },
+  "radius": 10,
+  "icon": "sandwich",
+  "contact": {
+    "phone": "(803) 226-0841",
+    "address": [
+      "159 Laurens Street NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "MacK’s Deli, 159 Laurens St NW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Tuesday – Friday",
+        "10:30 am – 4:30 pm"
+      ],
+      [
+        "Saturday",
+        "10:30 am – 3:30 pm"
+      ],
+      [
+        "Sunday – Monday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Call ahead for curbside pickup.",
+    "facebook": "https://www.facebook.com/MacKs-102862728302462"
+  },
+  "hero": {
+    "eyebrow": "A sandwich shop on Laurens Street",
+    "title": "Mouth-watering subs, *made the South Jersey way*",
+    "lede": "Hot subs on Amoroso rolls, Boar’s Head meats and cheeses, house-marinated roast beef and sirloin, salads and vegetarian options, with daily soup and sandwich specials. Call it in and pick it up at the curb.",
+    "points": [
+      "Boar’s Head meats & cheeses",
+      "Phone orders & curbside",
+      "Daily specials"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 226-0841",
+      "href": "tel:+18032260841"
+    },
+    "image": {
+      "src": "/demo-assets/macks-deli/rye-sandwich.webp",
+      "alt": "A grilled sandwich on marbled rye in a basket on top of a MacK’s menu",
+      "width": 960,
+      "height": 720
+    }
+  },
+  "facts": [
+    {
+      "value": "Amoroso",
+      "label": "Rolls, the South Jersey way"
+    },
+    {
+      "value": "Boar’s Head",
+      "label": "Meats and cheeses"
+    },
+    {
+      "value": "$3.50",
+      "label": "Make it a combo"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Sandwiches, salads & sides",
+      "title": "The *menu*",
+      "intro": "Make any sandwich a combo with a side and a fountain drink, tea or bottled water for $3.50.",
+      "groups": [
+        {
+          "title": "Hot subs",
+          "items": [
+            {
+              "name": "The Boardwalk Special",
+              "desc": "House-marinated sirloin with grilled peppers, mushrooms and caramelized onions, American and Boar’s Head provolone on an Amoroso roll, the South Jersey way. Also with chicken. Double the meat as “The Maxwell” for $3 more",
+              "price": "$13.95"
+            },
+            {
+              "name": "The Joe Meatball",
+              "desc": "Beef and sausage meatballs, grated Parmesan, tangy marinara and Boar’s Head provolone on an Amoroso roll",
+              "price": "$10.95"
+            },
+            {
+              "name": "The Dirty Bird",
+              "desc": "Grilled chicken breast, peppers, caramelized onions, Boar’s Head provolone and a teriyaki glaze on an Amoroso roll",
+              "price": "$11.95"
+            },
+            {
+              "name": "The Yardbird",
+              "desc": "House-breaded fried chicken tenders with Boar’s Head ham and melted pepper jack on an Amoroso roll",
+              "price": "$11.95"
+            },
+            {
+              "name": "The Pulled Hammy",
+              "desc": "Boar’s Head ham piled high with Swiss, pickle chips and whole-grain mustard on an Amoroso roll, panini style",
+              "price": "$10.95"
+            }
+          ]
+        },
+        {
+          "title": "On grilled bread",
+          "items": [
+            {
+              "name": "The Dubliner",
+              "desc": "Boar’s Head pastrami and turkey with Swiss, MacK’s coleslaw and bacon jam on grilled marbled sourdough and rye",
+              "price": "$13.95"
+            },
+            {
+              "name": "The Palmetto",
+              "desc": "House-marinated roast beef, Boar’s Head bacon, Swiss and red-wine-glazed mushrooms on grilled sourdough, with au jus",
+              "price": "$14.95"
+            },
+            {
+              "name": "The Hitchcock",
+              "desc": "A MacK’s original: house roast beef, Boar’s Head turkey, Vermont cheddar, coleslaw, lettuce, tomato and bacon jam on toasted berry wheat",
+              "price": "$13.95"
+            },
+            {
+              "name": "The Ludlow",
+              "desc": "Boar’s Head pastrami and melted Swiss on grilled marbled sourdough and rye",
+              "price": "$13.95"
+            },
+            {
+              "name": "The Pacer",
+              "desc": "Boar’s Head pastrami-seasoned turkey, sauerkraut and Swiss on grilled marbled sourdough and rye",
+              "price": "$12.95"
+            },
+            {
+              "name": "The Funky Chicken",
+              "desc": "Blackened chicken, caramelized onions, Boar’s Head bacon and pepper jack on grilled marbled sourdough and rye",
+              "price": "$11.95"
+            },
+            {
+              "name": "The Southern Diva",
+              "desc": "Shaved house-marinated roast beef, MacK’s coleslaw and Boar’s Head Swiss on sourdough",
+              "price": "$13.95"
+            },
+            {
+              "name": "The MacK Attack",
+              "desc": "Grilled cheese on Parmesan-crusted sourdough with all the cheeses and Boar’s Head bacon",
+              "price": "$9.95"
+            }
+          ]
+        },
+        {
+          "title": "Lighter & classic",
+          "items": [
+            {
+              "name": "The Triple Bogey (BLT)",
+              "desc": "Five slices of Boar’s Head bacon, tomato and lettuce on toasted berry wheat",
+              "price": "$9.95"
+            },
+            {
+              "name": "The Whaley",
+              "desc": "House-made tuna on marbled sourdough and rye, with lettuce and tomato",
+              "price": "$9.95"
+            },
+            {
+              "name": "The Plantetarian",
+              "desc": "A black bean patty with all the veggies in a flour tortilla wrap, with your choice of dressing",
+              "price": "$9.95"
+            },
+            {
+              "name": "The Chicken Toes",
+              "desc": "House-breaded chicken tenders with MacK’s sauce or buttermilk ranch",
+              "price": "$9.95"
+            },
+            {
+              "name": "Salads",
+              "desc": "Lettuce and tomato with grilled mushrooms, onions, peppers and Monterey/cheddar, with any meat and dressing. Extra meat $3",
+              "price": "$11.95"
+            }
+          ]
+        },
+        {
+          "title": "Sides & wings",
+          "items": [
+            {
+              "name": "Signature sides",
+              "desc": "MacK’s coleslaw, waffle fries, pasta salad, cucumber medley or onion rings. An extra side is $2.50"
+            },
+            {
+              "name": "Wings",
+              "desc": "6 for $8.95, or 10 for $12.95"
+            }
+          ]
+        },
+        {
+          "title": "Kiddos fare",
+          "note": "With a side and a juice",
+          "items": [
+            {
+              "name": "The Peanut",
+              "desc": "Grilled peanut butter on berry wheat with a hint of apple butter",
+              "price": "$6.95"
+            },
+            {
+              "name": "The Mini-MacK",
+              "desc": "Grilled cheese with two cheeses of your choice and bacon jam on buttered sourdough",
+              "price": "$6.95"
+            },
+            {
+              "name": "Kid’s Toes",
+              "desc": "Breaded chicken tenders",
+              "price": "$6.95"
+            }
+          ]
+        }
+      ],
+      "footnote": "From MacK’s current menu. Ask about the daily soup and sandwich specials."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
+      "eyebrow": "A dream, served daily",
+      "title": "From Angelo’s Subs *to Laurens Street*",
+      "image": {
+        "src": "/demo-assets/macks-deli/steak-sub.webp",
+        "alt": "A sub loaded with grilled steak, mushrooms and melted cheese",
+        "width": 960,
+        "height": 720
+      },
+      "body": [
+        "David Kangas was 15 and working at Angelo’s Subs in Northfield, New Jersey, when he decided he wanted his own sandwich shop. Kitchen jobs through college, at Garrett’s in Five Points, the Capital City Club and Windemere, kept the dream growing; a corporate career put it on the back burner.",
+        "Years later, the dream finally came to life on Laurens Street."
+      ],
+      "list": [
+        "South Jersey–style subs on Amoroso rolls",
+        "Boar’s Head meats and cheeses",
+        "House-marinated roast beef and sirloin"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can I order ahead?",
+          "a": "Yes. Call (803) 226-0841 to order, and pick it up at the curb."
+        },
+        {
+          "q": "Do you have vegetarian options?",
+          "a": "Yes: The Plantetarian black bean wrap, salads, and grilled cheese."
+        },
+        {
+          "q": "What’s in a combo?",
+          "a": "Any side plus a fountain drink, tea or bottled water, for $3.50 more."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Tuesday to Friday, 10:30 am to 4:30 pm, and Saturday, 10:30 am to 3:30 pm. Closed Sunday and Monday."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry? Call it in.",
+      "text": "Phone orders and curbside pickup on Laurens Street.",
+      "cta": {
+        "label": "Call (803) 226-0841",
+        "href": "tel:+18032260841"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "formTitle": "Ask about catering or a big order",
+    "formTopics": [
+      "A large order",
+      "Catering",
+      "A question about the menu",
+      "Something else"
+    ]
+  },
+  "slug": "macks-deli",
+  "added": "2026-11-20",
+  "prospect": "macks",
+  "source": {
+    "url": "https://macksinaiken.com/",
+    "before": [
+      "The menu page has garbled text, such as “tangy arinara anIT gooey Boar’s Head provolone served on an ;moroso ro •”",
+      "On a phone, the first screen shows the number but no call button",
+      "In Google’s slow-phone test, the main picture takes 7.8 seconds to appear",
+      "No description for Google search results, and no preview when the link is shared"
+    ],
+    "after": [
+      "The whole menu on the page, clean and easy to read on a phone",
+      "Hours with an “Open now” sign, and one tap to call in an order",
+      "The South Jersey story up front",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}
