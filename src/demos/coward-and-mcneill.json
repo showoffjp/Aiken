@@ -1,0 +1,343 @@
+{
+  "name": "Coward & McNeill Real Estate",
+  "short": "Coward & McNeill",
+  "category": "Commercial Real Estate & Land",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f6f5f2",
+    "surface": "#ffffff",
+    "ink": "#1b2430",
+    "muted": "#566070",
+    "primary": "#1d3d6e",
+    "onPrimary": "#ffffff",
+    "accent": "#b3282d",
+    "line": "#e2e0da"
+  },
+  "radius": 4,
+  "icon": "trees",
+  "contact": {
+    "phone": "(803) 648-8298",
+    "address": [
+      "830 Colony Parkway",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "830 Colony Parkway, Aiken, SC 29803",
+    "hoursNote": "Fax (803) 641-7500. Each listing names the agent to call."
+  },
+  "hero": {
+    "eyebrow": "Commercial real estate and land, born from the Palmetto State",
+    "title": "From commercial property *to timber land*",
+    "lede": "Commercial and industrial, investment, development, recreational and timber land: a team of brokers, leasing specialists and a registered forester, based in Aiken.",
+    "points": [
+      "Commercial & industrial",
+      "Development land",
+      "Recreational & timber"
+    ],
+    "cta": {
+      "label": "See featured listings",
+      "href": "#listings"
+    },
+    "cta2": {
+      "label": "Call (803) 648-8298",
+      "href": "tel:+18036488298"
+    },
+    "image": {
+      "src": "/demo-assets/coward-and-mcneill/farmland.webp",
+      "alt": "Open farmland stretching to a line of trees under a blue sky",
+      "width": 900,
+      "height": 604
+    }
+  },
+  "facts": [
+    {
+      "value": "8",
+      "label": "Brokers and specialists"
+    },
+    {
+      "value": "30+",
+      "label": "Properties listed, leased and sold"
+    },
+    {
+      "value": "1",
+      "label": "S.C. Registered Forester on the team"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "We can help",
+      "title": "What *we handle*",
+      "items": [
+        {
+          "icon": "building-2",
+          "title": "Commercial",
+          "text": "Offices, medical buildings, retail sites and redevelopment opportunities."
+        },
+        {
+          "icon": "factory",
+          "title": "Industrial",
+          "text": "Light industrial and industrial buildings and land."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Investment",
+          "text": "Income-producing property, including net-leased buildings."
+        },
+        {
+          "icon": "map",
+          "title": "Development land",
+          "text": "Development tracts and commercial corners with strong traffic counts."
+        },
+        {
+          "icon": "trees",
+          "title": "Recreational & timber",
+          "text": "Hunting land, timber tracts and acreage, with a registered forester on the team."
+        },
+        {
+          "icon": "key-round",
+          "title": "Commercial leasing",
+          "text": "Office suites and commercial sites for lease."
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "listings",
+      "nav": "Listings",
+      "eyebrow": "Featured",
+      "title": "Current *listings*",
+      "printLabel": "Print the listings",
+      "groups": [
+        {
+          "title": "Land & development",
+          "items": [
+            {
+              "name": "Whiskey Road & South Meadows Blvd.",
+              "desc": "A soft corner with a curb cut on Whiskey Road, zoned UD, with water and sewer and about 25,200 cars a day.",
+              "price": "$975,000"
+            },
+            {
+              "name": "4546 Jefferson Davis Hwy",
+              "desc": "3.82 acres, the last undeveloped tract between Belvedere Clearwater Road and Cherokee Drive, with 22,300 cars a day.",
+              "price": "$449,900"
+            },
+            {
+              "name": "11.63 acres, Gray Mare Hollow Road",
+              "desc": "Between Aiken and New Ellenton, in the equestrian corridor.",
+              "price": "$235,000"
+            },
+            {
+              "name": "100 Northland Blvd.",
+              "desc": "A development site on Aiken’s Northside, zoned industrial, with water and sewer.",
+              "price": "$140,000"
+            },
+            {
+              "name": "Buttercup Drive, Ward",
+              "desc": "Two former peach tracts of 6.1 and 5.2 acres, with paved frontage and a creek along the back.",
+              "price": "$59,900 each"
+            }
+          ]
+        },
+        {
+          "title": "Buildings",
+          "items": [
+            {
+              "name": "1397 Silver Bluff Rd.",
+              "desc": "A commercial medical building with an NNN lease.",
+              "price": "$1,150,000"
+            },
+            {
+              "name": "1387 York Street NE",
+              "desc": "7.5 elevated acres on Columbia Highway North near Exit 22, with four buildings.",
+              "price": "$685,000"
+            }
+          ]
+        },
+        {
+          "title": "For lease",
+          "items": [
+            {
+              "name": "770 E Pine Log Road",
+              "desc": "A cleared 2.45-acre corner zoned General Business, all utilities on site, 28,400 cars a day. Terms negotiable.",
+              "price": "$4,200/mo"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the firm’s listings page in November 2026. Availability and prices change; call for current details."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Properties",
+      "eyebrow": "Recent properties",
+      "title": "Land, offices *and warehouses*",
+      "images": [
+        {
+          "src": "/demo-assets/coward-and-mcneill/meadow.webp",
+          "alt": "A green meadow framed by trees",
+          "width": 900,
+          "height": 604
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/office-building.webp",
+          "alt": "A single-story office building with a paved lot",
+          "width": 900,
+          "height": 604
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/metal-warehouse.webp",
+          "alt": "A metal warehouse building with a roll-up door",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/office-siding.webp",
+          "alt": "A small professional office building",
+          "width": 900,
+          "height": 604
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/foyer.webp",
+          "alt": "A bright foyer with columns and arched windows",
+          "width": 900,
+          "height": 604
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/covered-patio.webp",
+          "alt": "A covered patio looking out over open fields",
+          "width": 900,
+          "height": 604
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/shop-building.webp",
+          "alt": "A metal shop building with a large bay door",
+          "width": 800,
+          "height": 600
+        },
+        {
+          "src": "/demo-assets/coward-and-mcneill/commercial-land.webp",
+          "alt": "A commercial lot along a road",
+          "width": 900,
+          "height": 604
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "team",
+      "nav": "Team",
+      "eyebrow": "Your realty connection",
+      "title": "Meet *the team*",
+      "columns": [
+        {
+          "title": "Owners",
+          "items": [
+            "Bud Coward, Broker-in-Charge: commercial, development, recreational and timber land",
+            "Michael S. McNeill, RAA, GAA: commercial, investment and income-producing real estate"
+          ]
+        },
+        {
+          "title": "Brokers",
+          "items": [
+            "Brett McNeill: light industrial and industrial",
+            "Zipper Robbins: development land",
+            "Jason Stewart: commercial real estate and land",
+            "Don Sprawls"
+          ]
+        },
+        {
+          "title": "Specialists",
+          "items": [
+            "G. Kirk Bell, S.C. Registered Forester: recreational and timber land",
+            "Erin Truitt: commercial leasing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What kinds of property do you handle?",
+          "a": "Commercial and industrial, investment, development, recreational and timber land."
+        },
+        {
+          "q": "Do you lease as well as sell?",
+          "a": "Yes. We list property for lease and for sale, and Erin Truitt specializes in commercial leasing."
+        },
+        {
+          "q": "Do you work outside Aiken?",
+          "a": "Yes. Our listings have reached from Aiken County to Salley, Ward and Florence."
+        },
+        {
+          "q": "Who do I call about a listing?",
+          "a": "Each listing names its agent, or call the office at (803) 648-8298."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Buying, selling or leasing?",
+      "text": "Talk to the team that knows Aiken land.",
+      "cta": {
+        "label": "Call (803) 648-8298",
+        "href": "tel:+18036488298"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Colony Parkway*",
+    "formTitle": "Tell us what you’re looking for",
+    "formTopics": [
+      "Commercial property",
+      "Industrial property",
+      "Investment property",
+      "Development land",
+      "Recreational or timber land",
+      "Leasing"
+    ]
+  },
+  "slug": "coward-and-mcneill",
+  "added": "2026-11-21",
+  "prospect": "coward-and-mcneill-real-estate",
+  "source": {
+    "url": "https://cowardandmcneill.com/",
+    "before": [
+      "The home page is a video of floating words around the logo, plus a contact line: no text tells visitors or Google what the firm does",
+      "On a phone, the page stops people from zooming in to read",
+      "A 5.3 MB home page: in Google’s slow-phone test the main picture takes 11.4 seconds, and the mobile score is 57 out of 100",
+      "Page addresses are numbers like “?page_id=19”, which tell Google nothing about the page",
+      "No description for Google to show in search results, and no call button on a phone’s first screen"
+    ],
+    "after": [
+      "What the firm does, on the first screen",
+      "Featured listings with prices, and the whole team by specialty",
+      "A form to tell the team what you’re looking for",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

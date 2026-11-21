@@ -177,10 +177,17 @@ async function siteReport(b, a) {
   const crawled = new Map(pages.map((p) => [norm(p.url), p.status || 0]));
   const toCheck = [...linkTargets.keys()].filter((u) => !crawled.has(u)).slice(0, 45);
   const checked = await pool(toCheck, 6, async (u) => { const r = await get(u, { maxBytes: 200_000, timeout: 20 }); return { url: u, status: r.status, error: r.status ? '' : r.error }; });
-  const broken = [
-    ...pages.filter((p) => p.error).map((p) => ({ url: p.url, status: p.status, from: linkTargets.get(p.url) || '' })),
-    ...checked.filter((c) => c.status >= 400 || (!c.status && !/Maximum file size/i.test(c.error))).map((c) => ({ url: c.url, status: c.status || 0, from: linkTargets.get(c.url) || '' })),
-  ].filter((x) => x.status !== 403 && x.status !== 429);
+  // No answer at all (a dropped connection, a timeout) says nothing about the link itself, and a
+  // flaky server can answer 502 one moment and 200 the next: try those once more, and count a link
+  // as broken only when the server answers it with an error.
+  const suspects = [
+    ...pages.filter((p) => p.error).map((p) => ({ url: p.url, status: p.status || 0 })),
+    ...checked.filter((c) => c.status >= 400 || (!c.status && !/Maximum file size/i.test(c.error))).map((c) => ({ url: c.url, status: c.status || 0 })),
+  ];
+  for (const s of suspects) if (!s.status || s.status >= 500) s.status = (await get(s.url, { maxBytes: 200_000, timeout: 20 })).status || s.status;
+  const broken = suspects
+    .filter((s) => s.status >= 400 && s.status !== 403 && s.status !== 429)
+    .map((s) => ({ ...s, from: linkTargets.get(s.url) || '' }));
 
   const ok = pages.filter((p) => !p.error);
   const titles = ok.map((p) => p.title.toLowerCase()).filter(Boolean);

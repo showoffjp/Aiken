@@ -4684,5 +4684,57 @@
    "cls": 0,
    "at": "2026-11-21"
   }
+ },
+ "coward-and-mcneill-real-estate": {
+  "site": {
+   "performance": 57,
+   "accessibility": 78,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 4380,
+   "lcp": 11437,
+   "tbt": 288,
+   "si": 4978,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1212,
+   "lcp": 2412,
+   "tbt": 79,
+   "si": 1212,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "radioactive-pinball-arcade": {
+  "site": {
+   "performance": 43,
+   "accessibility": 82,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1122,
+   "lcp": 4786,
+   "tbt": 4162,
+   "si": 10959,
+   "cls": 0.064,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 953,
+   "lcp": 2553,
+   "tbt": 46,
+   "si": 953,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
  }
 }

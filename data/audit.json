@@ -3883,7 +3883,7 @@
   ],
   "platform": "WordPress",
   "builder": "WPBakery",
-  "generator": "WordPress 7.1.4",
+  "generator": "WordPress 7.1.5",
   "server": "Apache",
   "viewport": true,
   "https": true,
@@ -10237,7 +10237,7 @@
   "platform": "GoDaddy Websites + Marketing",
   "builder": "",
   "generator": "Starfield Technologies; Go Daddy Website Builder 8.0.0000",
-  "server": "DPS/2.0.0+sha-8a831a9",
+  "server": "DPS/2.0.0+sha-d094b0a",
   "viewport": true,
   "https": true,
   "copyrightYear": 2026,
@@ -10250,15 +10250,13 @@
   "since": null,
   "emails": [
    "aikenatomicpl@gmail.com",
-   "contact@radioactivepinball.com",
-   "radioactivepinballarcade@gmail.com"
+   "contact@radioactivepinball.com"
   ],
   "phones": [
    "(803) 373-1717"
   ],
   "facebook": "https://www.facebook.com/events/1091497860515830/",
-  "instagram": "",
-  "contactPage": "https://radioactivepinballarcade.com/contact-us"
+  "instagram": ""
  },
  "raines-physical-therapy-and-performance": {
   "slug": "raines-physical-therapy-and-performance",

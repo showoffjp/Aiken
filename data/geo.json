@@ -323,6 +323,14 @@
   "exact": false,
   "at": "2026-11-20"
  },
+ "coward-and-mcneill": {
+  "q": "830 Colony Parkway, Aiken, SC 29803",
+  "lat": 33.53405,
+  "lon": -81.721733,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "dinner-bell": {
   "q": "2411 Wagener Road, Aiken, SC 29801",
   "lat": 33.546141,
@@ -865,6 +873,14 @@
   "q": "502 Edgefield Road, North Augusta, SC 29841",
   "lat": 33.536981,
   "lon": -81.942932,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
+ "radioactive-pinball": {
+  "q": "113 Laurens Street SW, Suite 103, Aiken, SC 29801",
+  "lat": 33.561025,
+  "lon": -81.722489,
   "kind": "place",
   "exact": true,
   "at": "2026-11-21"

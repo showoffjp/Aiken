@@ -1238,11 +1238,18 @@
  },
  "coward-and-mcneill-real-estate": {
   "site": {
-   "bytes": 5306950,
+   "bytes": 5307848,
    "requests": 49,
-   "loadMs": 4794,
+   "loadMs": 2397,
    "url": "https://cowardandmcneill.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 499310,
+   "requests": 7,
+   "loadMs": 173,
+   "url": "/coward-and-mcneill/",
+   "at": "2026-11-21"
   }
  },
  "csra-document-solutions": {
@@ -3194,11 +3201,18 @@
  },
  "radioactive-pinball-arcade": {
   "site": {
-   "bytes": 164,
-   "requests": 1,
-   "loadMs": 8253,
+   "bytes": 26715216,
+   "requests": 166,
+   "loadMs": 11284,
    "url": "https://radioactivepinballarcade.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 831830,
+   "requests": 7,
+   "loadMs": 74,
+   "url": "/radioactive-pinball/",
+   "at": "2026-11-21"
   }
  },
  "rebel-ranch-horse-tours-llc": {
