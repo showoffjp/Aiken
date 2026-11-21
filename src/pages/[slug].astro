@@ -1,6 +1,7 @@
 ---
 // One redesign concept per business: /<slug>/
 import '../styles/demo.css';
+import { assetUrl } from '../lib/asset-url';
 import '../styles/personality.css';
 import '../styles/vivid.css';
 import '../styles/features.css';
@@ -78,7 +79,7 @@ const streets = streetMap(demo.slug);
 const directions = contact.mapQuery ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(contact.mapQuery)}` : '';
 const sourceHost = new URL(demo.source.url).hostname.replace(/^www\./, '');
 // Before-and-after shots for the slider in "What changed?" (made by scripts/shots.mjs).
-const shotPath = (name: string) => (existsSync(path.join(process.cwd(), 'public', 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const shotPath = (name: string) => assetUrl(`shots/${name}.jpg`);
 const beforeShot = demo.source.none ? '' : shotPath(`${demo.prospect || demo.slug}-before`);
 const afterShot = shotPath(`${demo.slug}-after`);
 const after = demo.source.after || [

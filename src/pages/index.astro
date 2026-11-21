@@ -10,9 +10,10 @@ import { demos, fonts } from '../lib/demos';
 import { site } from '../lib/site';
 import { telHref } from '../lib/demos';
 import { ensure } from '../lib/contrast';
+import { assetUrl } from '../lib/asset-url';
 
 const pub = path.join(process.cwd(), 'public');
-const shot = (name: string) => (existsSync(path.join(pub, 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const shot = (name: string) => assetUrl(`shots/${name}.jpg`);
 // What kind of pitch each concept is, from the research data.
 let tiers: Record<string, string> = {};
 try {
@@ -45,7 +46,7 @@ const groupColor = Object.fromEntries(groups.map((g, k) => {
 
 // The showcase wall in the banner: a spread of styles, in three drifting columns.
 const WALL = ['apizza-di-napoli', 'flanigans-ice-cream', 'antonios-italian-eatery', 'bloom-salon', 'augusta-ready-mix', 'big-house-outpost', 'farm-dog', 'glassworks', 'macalusos-restaurant', 'durban-laird-insurance', 'empire-tree', 'carolina-hvac', 'toki-jr', 'los-tres-compadres', 'aiken-pet-sitters'];
-const thumb = (slug: string) => (existsSync(path.join(pub, 'shots', 'thumbs', `${slug}.webp`)) ? `/shots/thumbs/${slug}.webp` : '');
+const thumb = (slug: string) => assetUrl(`shots/thumbs/${slug}.webp`);
 const wall = WALL.map((slug) => cards.find((c) => c.slug === slug)).filter((c) => c && thumb(c.slug));
 const cols = [0, 1, 2].map((k) => wall.filter((_, i) => i % 3 === k));
 // The ribbon: what kinds of businesses and where.
