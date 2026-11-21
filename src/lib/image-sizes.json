@@ -6174,5 +6174,185 @@
  "/demo-assets/the-larder/salmon-960.webp": [
   960,
   720
+ ],
+ "/demo-assets/dynamic-audio-video/framed-tv.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/dynamic-audio-video/mantel-tv.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/dynamic-audio-video/living-room.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/dynamic-audio-video/outdoor-tv.webp": [
+  525,
+  700
+ ],
+ "/demo-assets/dynamic-audio-video/bar-tvs.webp": [
+  700,
+  525
+ ],
+ "/demo-assets/dynamic-audio-video/projector-room.webp": [
+  700,
+  531
+ ],
+ "/demo-assets/dynamic-audio-video/media-room.webp": [
+  525,
+  700
+ ],
+ "/demo-assets/dynamic-audio-video/fireplace-built-in.webp": [
+  525,
+  700
+ ],
+ "/demo-assets/dynamic-audio-video/tv-wall.webp": [
+  700,
+  525
+ ],
+ "/demo-assets/dynamic-audio-video/stone-fireplace.webp": [
+  700,
+  525
+ ],
+ "/demo-assets/dynamic-audio-video/built-ins.webp": [
+  525,
+  700
+ ],
+ "/demo-assets/wise-warehousing/fleet.webp": [
+  1800,
+  1200
+ ],
+ "/demo-assets/wise-warehousing/trucks.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/wise-warehousing/aerial.webp": [
+  1500,
+  990
+ ],
+ "/demo-assets/wise-warehousing/warehouses-aerial.webp": [
+  1240,
+  826
+ ],
+ "/demo-assets/wise-warehousing/campus-aerial.webp": [
+  1240,
+  826
+ ],
+ "/demo-assets/wise-warehousing/warehouse-lot.webp": [
+  1240,
+  826
+ ],
+ "/demo-assets/wise-warehousing/warehouse-dock.webp": [
+  1240,
+  826
+ ],
+ "/demo-assets/wise-warehousing/warehouse-exterior.webp": [
+  1240,
+  827
+ ],
+ "/demo-assets/wise-warehousing/paper-rolls.webp": [
+  1024,
+  768
+ ],
+ "/demo-assets/wise-warehousing/forklift-rolls.webp": [
+  1024,
+  768
+ ],
+ "/demo-assets/wise-warehousing/racking.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/dynamic-audio-video/framed-tv-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/dynamic-audio-video/living-room-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/dynamic-audio-video/mantel-tv-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/wise-warehousing/aerial-640.webp": [
+  640,
+  422
+ ],
+ "/demo-assets/wise-warehousing/aerial-960.webp": [
+  960,
+  634
+ ],
+ "/demo-assets/wise-warehousing/campus-aerial-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/wise-warehousing/campus-aerial-960.webp": [
+  960,
+  639
+ ],
+ "/demo-assets/wise-warehousing/fleet-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/wise-warehousing/fleet-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/wise-warehousing/forklift-rolls-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/wise-warehousing/paper-rolls-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/wise-warehousing/racking-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/wise-warehousing/racking-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/wise-warehousing/trucks-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/wise-warehousing/trucks-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/wise-warehousing/warehouse-dock-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/wise-warehousing/warehouse-dock-960.webp": [
+  960,
+  639
+ ],
+ "/demo-assets/wise-warehousing/warehouse-exterior-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/wise-warehousing/warehouse-exterior-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/wise-warehousing/warehouse-lot-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/wise-warehousing/warehouse-lot-960.webp": [
+  960,
+  639
+ ],
+ "/demo-assets/wise-warehousing/warehouses-aerial-640.webp": [
+  640,
+  426
+ ],
+ "/demo-assets/wise-warehousing/warehouses-aerial-960.webp": [
+  960,
+  639
  ]
 }

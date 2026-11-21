@@ -1,0 +1,270 @@
+{
+  "name": "Arnold Advisors, LLC",
+  "short": "Arnold Advisors",
+  "category": "Accountants & Tax Advisors",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "lora",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f5f7f8",
+    "surface": "#ffffff",
+    "ink": "#14212b",
+    "muted": "#4d5c66",
+    "primary": "#1f4e79",
+    "onPrimary": "#ffffff",
+    "accent": "#2a9d8f",
+    "line": "#dde4e8"
+  },
+  "radius": 8,
+  "icon": "calculator",
+  "contact": {
+    "phone": "(803) 649-9147",
+    "email": "info@aiken-cpa.com",
+    "address": [
+      "914 Dougherty Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Arnold Advisors, 914 Dougherty Rd, Aiken, SC 29803",
+    "hoursNote": "Fax (803) 393-4647. Your first consultation is free.",
+    "facebook": "https://www.facebook.com/ArnoldAdvisorsLLC"
+  },
+  "hero": {
+    "eyebrow": "Accounting and tax help in Aiken",
+    "title": "Smart answers to *tough challenges*",
+    "lede": "A full-service accounting firm licensed in South Carolina: tax preparation and planning, help with the IRS, bookkeeping, payroll and QuickBooks, for business owners, executives, independent professionals and families. Affordable, experienced and friendly.",
+    "points": [
+      "Free first consultation",
+      "Licensed in SC",
+      "Secure file sharing"
+    ],
+    "cta": {
+      "label": "Schedule a free consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 649-9147",
+      "href": "tel:+18036499147"
+    }
+  },
+  "facts": [
+    {
+      "value": "Free",
+      "label": "First consultation"
+    },
+    {
+      "value": "Monthly",
+      "label": "Tax tips newsletter"
+    },
+    {
+      "value": "Secure",
+      "label": "Portal for sending your files"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "help",
+      "nav": "How we help",
+      "columns": 3,
+      "eyebrow": "What challenges do you face?",
+      "title": "Sound *familiar?*",
+      "items": [
+        {
+          "icon": "book-open",
+          "title": "“My company’s books are a nightmare.”",
+          "text": "We take care of your books for you, so you can get back to running your business and generating profits."
+        },
+        {
+          "icon": "users",
+          "title": "“I’m spending all my time managing payroll.”",
+          "text": "Payroll solutions that fit your business, so you can spend your time running your company."
+        },
+        {
+          "icon": "monitor",
+          "title": "“I’m not sure I’m getting the most out of QuickBooks.”",
+          "text": "Setup, training, quick answers and tune-ups, so you get the most out of QuickBooks."
+        },
+        {
+          "icon": "shield-alert",
+          "title": "“The IRS has turned my life upside-down.”",
+          "text": "We help resolve tax problems and put an end to the misery the IRS can put you through."
+        },
+        {
+          "icon": "piggy-bank",
+          "title": "“I need help planning my family’s financial future.”",
+          "text": "One-on-one guidance and a comprehensive financial plan to manage risk and grow your wealth."
+        },
+        {
+          "icon": "handshake",
+          "title": "“I need a partner who understands my business.”",
+          "text": "Close personal and professional attention, from a firm that’s part of the Aiken community."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "services",
+      "nav": "Services",
+      "eyebrow": "Full service",
+      "title": "Our *services*",
+      "columns": [
+        {
+          "title": "Tax",
+          "items": [
+            "Tax preparation and planning",
+            "IRS audit representation",
+            "Non-filed returns and back taxes",
+            "Liens, levies, wage garnishment and seizures",
+            "Payment plans and offers in compromise",
+            "Payroll tax problems and innocent spouse relief"
+          ]
+        },
+        {
+          "title": "Business",
+          "items": [
+            "Small business accounting",
+            "QuickBooks setup, training and tune-ups",
+            "Payroll: checks, free direct deposit, tax filings, W-2s and 1099s",
+            "Succession planning"
+          ]
+        },
+        {
+          "title": "Individuals",
+          "items": [
+            "Personal financial planning",
+            "Estate planning",
+            "Tax strategies for retirement, education and charitable giving"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our firm",
+      "title": "Professional, responsive, *thorough*",
+      "body": [
+        "Our team has been helping clients in the Aiken area for years, and client referrals have fueled our growth. Every client gets close personal and professional attention, backed by the expertise of the whole firm.",
+        "Our goal as a trusted advisor is to give you insightful advice, so you can make informed financial decisions. We will answer all of your questions as they affect both your taxes and your finances, and we keep learning so our technical knowledge stays current."
+      ],
+      "list": [
+        "Professionalism",
+        "Responsiveness",
+        "Quality"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "tools",
+      "nav": "Client tools",
+      "eyebrow": "Online, anytime",
+      "title": "Client *tools*",
+      "columns": [
+        {
+          "title": "Send & pay",
+          "items": [
+            "Send us files through our secure portal",
+            "Pay your invoice online",
+            "Fill in the online tax organizer"
+          ]
+        },
+        {
+          "title": "Tax season",
+          "items": [
+            "Track your federal refund",
+            "Tax due dates and reminders",
+            "IRS and state tax forms"
+          ]
+        },
+        {
+          "title": "Stay informed",
+          "items": [
+            "A monthly newsletter with tax tips",
+            "Financial calculators",
+            "A record retention guide"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Is the first consultation free?",
+          "a": "Yes. Call (803) 649-9147 and we’ll be happy to offer you a free initial consultation."
+        },
+        {
+          "q": "Can you help if I owe the IRS?",
+          "a": "Yes: back taxes, liens, levies, wage garnishment, payment plans, offers in compromise and audit representation."
+        },
+        {
+          "q": "Do you work with small businesses?",
+          "a": "Yes: bookkeeping, payroll, QuickBooks and succession planning, for business owners, executives and independent professionals."
+        },
+        {
+          "q": "How do I send you my documents?",
+          "a": "Use the secure file-sharing page on our site to send them safely."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s talk numbers",
+      "text": "Your first consultation is free.",
+      "cta": {
+        "label": "Call (803) 649-9147",
+        "href": "tel:+18036499147"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Dougherty Road*",
+    "formTitle": "Schedule a free consultation",
+    "formTopics": [
+      "Tax preparation",
+      "A problem with the IRS",
+      "Bookkeeping or payroll",
+      "QuickBooks help",
+      "Financial or estate planning",
+      "Something else"
+    ]
+  },
+  "slug": "arnold-advisors",
+  "added": "2026-11-21",
+  "prospect": "arnold-advisors-llc",
+  "source": {
+    "url": "https://www.aiken-cpa.com/",
+    "before": [
+      "The big “Schedule a Free Consultation” button on the home page opens a box that says “The requested content cannot be loaded. Please try again later.”",
+      "The main menu holds more than 60 links, from “IRS Seizures” to “QuickTuneup”",
+      "The Firm Profile page doesn’t name a single person at the firm",
+      "On a slow phone connection, the home page takes 9.9 seconds to show anything",
+      "Google’s accessibility score is 72 out of 100: ten images without descriptions, and the page doesn’t say what language it’s in"
+    ],
+    "after": [
+      "Every service on one page, grouped so it’s easy to find",
+      "The questions clients actually ask, answered",
+      "A free-consultation form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "list",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

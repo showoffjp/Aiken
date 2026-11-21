@@ -305,6 +305,26 @@
    "at": "2026-11-19"
   }
  },
+ "arnold-advisors-llc": {
+  "site": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 30,
+   "smallTargets": 4,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 33,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "atomic-heating-and-air": {
   "site": {
    "call": false,
@@ -831,6 +851,26 @@
    "targets": 2,
    "smallTargets": 2,
    "at": "2026-11-19"
+  }
+ },
+ "dynamic-audio-and-video": {
+  "site": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 20,
+   "smallTargets": 9,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 38,
+   "smallTargets": 0,
+   "at": "2026-11-21"
   }
  },
  "el-charrito-taqueria": {
@@ -2683,6 +2723,26 @@
    "targets": 17,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "wise-warehousing-solutions": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 42,
+   "smallTargets": 3,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 39,
+   "smallTargets": 0,
+   "at": "2026-11-21"
   }
  },
  "woodchuckers-axe-throwing": {

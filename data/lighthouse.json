@@ -1575,16 +1575,28 @@
  },
  "arnold-advisors-llc": {
   "site": {
-   "performance": 58,
+   "performance": 62,
    "accessibility": 72,
-   "bestPractices": 79,
+   "bestPractices": 96,
    "seo": 83,
-   "fcp": 5292,
-   "lcp": 6079,
-   "tbt": 106,
-   "si": 6459,
-   "cls": 0.123,
-   "at": "2026-11-17"
+   "fcp": 4901,
+   "lcp": 6058,
+   "tbt": 117,
+   "si": 6204,
+   "cls": 0.001,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 1956,
+   "tbt": 99,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "atomic-heating-and-air": {
@@ -4617,6 +4629,58 @@
    "lcp": 2554,
    "tbt": 18,
    "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "dynamic-audio-and-video": {
+  "site": {
+   "performance": 84,
+   "accessibility": 86,
+   "bestPractices": 57,
+   "seo": 92,
+   "fcp": 1770,
+   "lcp": 1770,
+   "tbt": 446,
+   "si": 5059,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1000,
+   "lcp": 2253,
+   "tbt": 109,
+   "si": 1000,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "wise-warehousing-solutions": {
+  "site": {
+   "performance": 63,
+   "accessibility": 86,
+   "bestPractices": 89,
+   "seo": 92,
+   "fcp": 2174,
+   "lcp": 37965,
+   "tbt": 0,
+   "si": 16449,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2253,
+   "tbt": 55,
+   "si": 945,
    "cls": 0,
    "at": "2026-11-21"
   }
