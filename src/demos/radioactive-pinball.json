@@ -1,0 +1,377 @@
+{
+  "name": "Radioactive Pinball Arcade",
+  "short": "Radioactive Pinball",
+  "category": "Pinball & Arcade",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "space-grotesk"
+  },
+  "colors": {
+    "bg": "#0d1117",
+    "surface": "#161c26",
+    "ink": "#f2f5f9",
+    "muted": "#a7b0bf",
+    "primary": "#39ff88",
+    "onPrimary": "#06130b",
+    "accent": "#ff5a1f",
+    "line": "#273142"
+  },
+  "radius": 10,
+  "icon": "atom",
+  "cinematic": true,
+  "contact": {
+    "phone": "(803) 373-1717",
+    "phoneLabel": "Call or text",
+    "email": "contact@radioactivepinball.com",
+    "address": [
+      "113 Laurens Street SW, Suite 103",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Radioactive Pinball Arcade, 113 Laurens St SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Tuesday",
+        "Closed"
+      ],
+      [
+        "Wednesday – Thursday",
+        "3:00 – 9:00 pm"
+      ],
+      [
+        "Friday",
+        "3:00 – 10:00 pm"
+      ],
+      [
+        "Saturday",
+        "12:00 – 10:00 pm"
+      ],
+      [
+        "Sunday",
+        "12:00 – 6:00 pm"
+      ]
+    ],
+    "hoursNote": "Holiday hours change in November and December. Private parties can be booked outside opening hours.",
+    "facebook": "https://www.facebook.com/RadioactivePinballArcade",
+    "instagram": "https://www.instagram.com/radioactive_pinball_arcade"
+  },
+  "hero": {
+    "eyebrow": "South Carolina’s largest pinball arcade, downtown Aiken",
+    "title": "No quarters *needed*",
+    "lede": "Over 125 pinball machines and arcade games, from classic Pac-Man to today’s newest pinball releases, all on unlimited free play. Pay once at the door and play all day.",
+    "points": [
+      "125+ games",
+      "Unlimited free play",
+      "Beer & wine (ID required)"
+    ],
+    "cta": {
+      "label": "Prices & parties",
+      "href": "#prices"
+    },
+    "cta2": {
+      "label": "Call (803) 373-1717",
+      "href": "tel:+18033731717"
+    },
+    "image": {
+      "src": "/demo-assets/radioactive-pinball/blue-row.webp",
+      "alt": "A row of pinball machines glowing under blue and pink lights",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "facts": [
+    {
+      "value": "$20",
+      "label": "All day, unlimited play"
+    },
+    {
+      "value": "125+",
+      "label": "Pinball & arcade games"
+    },
+    {
+      "value": "$299",
+      "label": "Birthday party for 10"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "prices",
+      "nav": "Prices",
+      "eyebrow": "Pay at the door, play free",
+      "title": "Prices *& parties*",
+      "printLabel": "Print the prices",
+      "groups": [
+        {
+          "title": "Admission",
+          "note": "Every game is set to free play",
+          "items": [
+            {
+              "name": "One-hour pass",
+              "desc": "Unlimited play for an hour from purchase.",
+              "price": "$15"
+            },
+            {
+              "name": "All-day pass",
+              "desc": "Unlimited play until closing, with a wristband so you can leave and come back.",
+              "price": "$20"
+            }
+          ]
+        },
+        {
+          "title": "Parties & events",
+          "items": [
+            {
+              "name": "The Ultimate Birthday Party",
+              "desc": "Ten all-day passes, a private party room for three hours, fresh popcorn and a drink for every guest. Bring your own cake.",
+              "price": "$299"
+            },
+            {
+              "name": "Groups of 20 or more",
+              "desc": "Special rates for bigger parties.",
+              "price": "Call"
+            },
+            {
+              "name": "Private events",
+              "desc": "Team building, homeschool play days, youth groups, field trips and bachelor parties, with the arcade to yourselves.",
+              "price": "Call"
+            }
+          ]
+        },
+        {
+          "title": "Extras",
+          "items": [
+            {
+              "name": "Gift cards",
+              "desc": "In person at the arcade or online."
+            },
+            {
+              "name": "Pokémon cards",
+              "desc": "From our Pokémon machine. No admission needed just to buy."
+            },
+            {
+              "name": "Hoodies & T-shirts",
+              "desc": "Pick up Radioactive merch when you visit."
+            }
+          ]
+        }
+      ],
+      "footnote": "Cash and cards accepted; a 3.5% fee applies to card payments."
+    },
+    {
+      "type": "services",
+      "id": "games",
+      "nav": "Games",
+      "columns": 3,
+      "eyebrow": "Every era of gaming",
+      "title": "What *you’ll play*",
+      "items": [
+        {
+          "icon": "zap",
+          "title": "Over 70 pinball machines",
+          "text": "Classics more than 40 years old to the newest releases, all set to free play."
+        },
+        {
+          "icon": "gamepad-2",
+          "title": "Over 55 video games",
+          "text": "Skee ball, air hockey, shooting and driving games, and a multicade of 350,000 games back to Atari."
+        },
+        {
+          "icon": "cup-soda",
+          "title": "Snacks & drinks",
+          "text": "Pepsi drinks, popcorn and snacks, plus canned beer, including local craft, and wine for adults with ID."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Inside the arcade",
+      "title": "Lights, flippers, *action*",
+      "images": [
+        {
+          "src": "/demo-assets/radioactive-pinball/machine-rows.webp",
+          "alt": "Long rows of pinball machines down the arcade",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/pacman-row.webp",
+          "alt": "Pinball machines leading to a Pac-Man cabinet",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/plunger.webp",
+          "alt": "A close-up of a red pinball plunger",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/video-games.webp",
+          "alt": "Classic arcade video game cabinets",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/playfield.webp",
+          "alt": "A glowing pinball playfield seen from above",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/pinball-row.webp",
+          "alt": "A line of lit pinball machines",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/arcade-cabinets.webp",
+          "alt": "Painted arcade cabinets along a wall",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/radioactive-pinball/star-trek-row.webp",
+          "alt": "Pinball machines with bright backglasses",
+          "width": 1600,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "compete",
+      "nav": "Leagues",
+      "eyebrow": "Flip with friends",
+      "title": "Leagues *& tournaments*",
+      "columns": [
+        {
+          "title": "Monthly Dose",
+          "items": [
+            "A pinball tournament on the fourth Sunday of every month",
+            "Starts at 1 pm; doors open at noon for practice"
+          ]
+        },
+        {
+          "title": "Aiken Atomic Pinball League",
+          "items": [
+            "Friendly competition, season by season",
+            "Fall league nights every other Wednesday, finals in December"
+          ]
+        },
+        {
+          "title": "The Little Flippers",
+          "items": [
+            "Youth pinball tournaments for ages 4 to 17",
+            "Head-to-head matchplay, with practice before"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Why “Radioactive”?",
+      "title": "A collection that *outgrew the house*",
+      "image": {
+        "src": "/demo-assets/radioactive-pinball/panorama.webp",
+        "alt": "A wide view of the arcade floor and its rows of machines",
+        "width": 1600,
+        "height": 373
+      },
+      "body": [
+        "Owners Eric and Erin are long-time Aiken residents who started collecting pinball machines and video games a few years ago. The collection outgrew their home, so they opened it up to the community. Eric keeps the machines running; Erin runs the business.",
+        "The name is a nod to the Savannah River Site, which produced material for nuclear weapons until the end of the Cold War and is such a big part of Aiken’s story. And it’s catchy."
+      ],
+      "list": [
+        "Family run",
+        "In the Holley Building, downtown",
+        "Visitors come from across SC and Georgia"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Is there an age limit?",
+          "a": "No, but anyone under 18 must be with an adult at all times. Some games have flashing lights or adult themes, so parental caution is advised."
+        },
+        {
+          "q": "Can I leave and come back?",
+          "a": "Yes. All-day passes come with a wristband. A one-hour pass expires an hour after purchase, and if we’re at capacity when you return you may need to wait."
+        },
+        {
+          "q": "Is the arcade accessible?",
+          "a": "We’re on the ground floor of the Holley Building, with ramps at both ends of the block and a concrete floor. We have 26″ and 30″ stools and 4″ steps, and we’re testing lower pinball legs for wheelchair users."
+        },
+        {
+          "q": "Where do I park?",
+          "a": "Parking is free in downtown Aiken, with more beside the SRP Bank on Hayne Avenue."
+        },
+        {
+          "q": "Can I bring my dog?",
+          "a": "Sorry, no pets: we have severe pet allergies, and some machines are loud enough to upset animals."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready player one?",
+      "text": "Open Wednesday to Sunday, downtown on Laurens Street.",
+      "cta": {
+        "label": "Call (803) 373-1717",
+        "href": "tel:+18033731717"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "formTitle": "Book a party or ask a question",
+    "formTopics": [
+      "A birthday party",
+      "A team or group event",
+      "Leagues and tournaments",
+      "Gift cards",
+      "Something else"
+    ]
+  },
+  "slug": "radioactive-pinball",
+  "added": "2026-11-21",
+  "prospect": "radioactive-pinball-arcade",
+  "source": {
+    "url": "https://radioactivepinballarcade.com/",
+    "before": [
+      "Visitors only ever see today’s hours (“Open today 12:00 pm – 10:00 pm”); the week’s schedule appears nowhere on the page",
+      "The holiday hours for November and December are pictures of calendars, which Google and screen readers can’t read",
+      "The home page says to bring your own food to a birthday party; the FAQ says no outside food or drink",
+      "A 26.7 MB home page, and Google’s mobile score is 43 out of 100",
+      "On a phone, the first screen shows no phone number or call button",
+      "14 of 18 images have no description for people who use screen readers"
+    ],
+    "after": [
+      "The whole week’s hours, with an “Open now” sign",
+      "Prices, parties and leagues in one place",
+      "Every question from the FAQ, answered in a few lines",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "grid",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "flip",
+    "buttons": "shadow"
+  }
+}

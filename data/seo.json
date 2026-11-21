@@ -12091,7 +12091,7 @@
  "tailored-tours-of-aiken": {
   "slug": "tailored-tours",
   "name": "Tailored Tours of Aiken",
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "hasSite": true,
   "siteState": "Online",
   "site": {
@@ -12163,7 +12163,7 @@
     "missingDescription": 3,
     "missingH1": 0,
     "multipleH1": 0,
-    "thin": 0,
+    "thin": 1,
     "noindex": 0,
     "dupTitles": 0,
     "dupDescs": 0,
@@ -12185,24 +12185,18 @@
       "words": 340
      },
      {
-      "url": "https://tailoredtoursofaiken.com/tour-prices",
-      "title": "Tour Prices",
+      "url": "https://tailoredtoursofaiken.com/contact",
+      "title": "Contact | Tailored Tours of Aiken",
       "description": 0,
       "h1": 1,
-      "words": 320
+      "words": 177
      }
     ]
    },
    "links": {
     "internalChecked": 4,
-    "broken": [
-     {
-      "url": "https://tailoredtoursofaiken.com/contact",
-      "status": 0,
-      "from": "https://tailoredtoursofaiken.com/"
-     }
-    ],
-    "brokenCount": 1
+    "broken": [],
+    "brokenCount": 0
    },
    "social": {
     "Facebook": "https://www.facebook.com/tailoredtoursofaiken",
@@ -12284,7 +12278,7 @@
    "rebel-ranch-horse-tours-llc"
   ],
   "scores": {
-   "seo": 69,
+   "seo": 74,
    "social": 60,
    "lighthouseSeo": 83
   },
@@ -20423,13 +20417,13 @@
  "hic-warehouse-indoor-skateboard-park": {
   "slug": "hic-warehouse-indoor-skateboard-park",
   "name": "HIC Warehouse",
-  "checked": "2026-11-18",
+  "checked": "2026-11-21",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "homeforskateboarding.org",
    "https": true,
-   "pagesCrawled": 3,
+   "pagesCrawled": 2,
    "placeholderSocial": [],
    "home": {
     "url": "https://homeforskateboarding.org/",
@@ -20481,22 +20475,19 @@
     "blocksAll": false,
     "sitemaps": 0
    },
-   "sitemap": {
-    "url": "https://homeforskateboarding.org/sitemap.xml",
-    "pages": 4
-   },
+   "sitemap": null,
    "crawl": {
-    "pages": 3,
+    "pages": 2,
     "missingTitle": 0,
-    "missingDescription": 3,
+    "missingDescription": 2,
     "missingH1": 0,
     "multipleH1": 1,
     "thin": 1,
     "noindex": 0,
     "dupTitles": 1,
     "dupDescs": 0,
-    "imagesNoAlt": 10,
-    "images": 10,
+    "imagesNoAlt": 6,
+    "images": 6,
     "sample": [
      {
       "url": "https://homeforskateboarding.org/",
@@ -20511,26 +20502,13 @@
       "description": 0,
       "h1": 1,
       "words": 187
-     },
-     {
-      "url": "https://homeforskateboarding.org/about-us",
-      "title": "About Us",
-      "description": 0,
-      "h1": 1,
-      "words": 423
      }
     ]
    },
    "links": {
     "internalChecked": 4,
-    "broken": [
-     {
-      "url": "https://homeforskateboarding.org/making-a-difference",
-      "status": 0,
-      "from": "https://homeforskateboarding.org/"
-     }
-    ],
-    "brokenCount": 1
+    "broken": [],
+    "brokenCount": 0
    },
    "social": {
     "Facebook": "https://www.facebook.com/hicwarehouse",
@@ -20956,8 +20934,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
-    "pageMB": 0,
+    "performance": 43,
+    "pageMB": 25.5,
     "a11ySerious": 31,
     "facebook": true,
     "instagram": false,
@@ -21801,7 +21779,7 @@
  "b-and-k-grading-and-paving-llc": {
   "slug": "bk-grading-and-paving",
   "name": "B&K Grading and Paving",
-  "checked": "2026-11-19",
+  "checked": "2026-11-21",
   "hasSite": true,
   "siteState": "Online",
   "site": {
@@ -22000,14 +21978,8 @@
    },
    "links": {
     "internalChecked": 60,
-    "broken": [
-     {
-      "url": "https://bkgradingandpaving.com/services",
-      "status": 0,
-      "from": "https://bkgradingandpaving.com/"
-     }
-    ],
-    "brokenCount": 1
+    "broken": [],
+    "brokenCount": 0
    },
    "social": {
     "Facebook": "https://www.facebook.com/bkgradingandpaving",
@@ -22073,14 +22045,25 @@
    "cls": 0,
    "at": "2026-11-19"
   },
-  "conceptPerformance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 944,
+   "lcp": 2627,
+   "tbt": 46,
+   "si": 944,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
   "competitorSlugs": [
    "g-l-williams-and-daughter-trucking-inc",
    "kings-roll-off-dumpsters",
    "upstream-recycling-llc"
   ],
   "scores": {
-   "seo": 77,
+   "seo": 83,
    "social": 70,
    "lighthouseSeo": 92
   },
@@ -28065,13 +28048,13 @@
  "superior-office-systems": {
   "slug": "superior-office-systems",
   "name": "Superior Office Systems",
-  "checked": "2026-11-19",
+  "checked": "2026-11-21",
   "hasSite": true,
   "siteState": "Online",
   "site": {
    "host": "superiorofficeonline.com",
    "https": true,
-   "pagesCrawled": 12,
+   "pagesCrawled": 14,
    "placeholderSocial": [],
    "home": {
     "url": "https://superiorofficeonline.com/",
@@ -28126,17 +28109,17 @@
     "pages": 98
    },
    "crawl": {
-    "pages": 12,
+    "pages": 14,
     "missingTitle": 0,
-    "missingDescription": 12,
+    "missingDescription": 14,
     "missingH1": 0,
-    "multipleH1": 11,
-    "thin": 11,
+    "multipleH1": 12,
+    "thin": 12,
     "noindex": 0,
     "dupTitles": 0,
     "dupDescs": 0,
-    "imagesNoAlt": 128,
-    "images": 140,
+    "imagesNoAlt": 203,
+    "images": 217,
     "sample": [
      {
       "url": "https://superiorofficeonline.com/",
@@ -28165,6 +28148,20 @@
       "description": 0,
       "h1": 2,
       "words": 97
+     },
+     {
+      "url": "https://superiorofficeonline.com/about/",
+      "title": "About - Superior Office Systems",
+      "description": 0,
+      "h1": 2,
+      "words": 196
+     },
+     {
+      "url": "https://superiorofficeonline.com/office-copiers-mfps/",
+      "title": "Multifunction Copiers & Printers - Superior Office Systems",
+      "description": 0,
+      "h1": 1,
+      "words": 325
      },
      {
       "url": "https://superiorofficeonline.com/business-phone-services/",
@@ -28225,25 +28222,15 @@
     ]
    },
    "links": {
-    "internalChecked": 21,
+    "internalChecked": 60,
     "broken": [
-     {
-      "url": "https://superiorofficeonline.com/about",
-      "status": 0,
-      "from": "https://superiorofficeonline.com/"
-     },
-     {
-      "url": "https://superiorofficeonline.com/office-copiers-mfps",
-      "status": 0,
-      "from": "https://superiorofficeonline.com/"
-     },
      {
       "url": "https://superiorofficeonline.com/solutions",
       "status": 404,
       "from": "https://superiorofficeonline.com/"
      }
     ],
-    "brokenCount": 3
+    "brokenCount": 1
    },
    "social": {
     "Facebook": "https://www.facebook.com/Superior-Office-Systems-246768012177934"
@@ -28306,7 +28293,18 @@
    "cls": 0,
    "at": "2026-11-19"
   },
-  "conceptPerformance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1086,
+   "lcp": 1882,
+   "tbt": 13,
+   "si": 1086,
+   "cls": 0,
+   "at": "2026-11-19"
+  },
   "competitorSlugs": [],
   "scores": {
    "seo": 53,
@@ -31956,8 +31954,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
-    "pageMB": 0,
+    "performance": 43,
+    "pageMB": 25.5,
     "a11ySerious": 31,
     "facebook": true,
     "instagram": false,
@@ -31968,7 +31966,7 @@
  "sunbreak-window-tinting": {
   "slug": "sunbreak-window-tinting",
   "name": "SunBreak Window Tinting",
-  "checked": "2026-11-19",
+  "checked": "2026-11-21",
   "hasSite": true,
   "siteState": "Online",
   "site": {
@@ -32139,19 +32137,8 @@
    },
    "links": {
     "internalChecked": 14,
-    "broken": [
-     {
-      "url": "https://sunbreaktint.com/services",
-      "status": 0,
-      "from": "https://sunbreaktint.com/"
-     },
-     {
-      "url": "https://sunbreaktint.com/privacy-policy",
-      "status": 0,
-      "from": "https://sunbreaktint.com/"
-     }
-    ],
-    "brokenCount": 2
+    "broken": [],
+    "brokenCount": 0
    },
    "social": {
     "Facebook": "https://www.facebook.com/sunbreaktint",
@@ -32247,7 +32234,7 @@
    "c-and-c-automotive"
   ],
   "scores": {
-   "seo": 88,
+   "seo": 93,
    "social": 70,
    "lighthouseSeo": 85
   },
@@ -40603,14 +40590,8 @@
    },
    "links": {
     "internalChecked": 40,
-    "broken": [
-     {
-      "url": "https://gutterspecialtyservices.com/privacy-policy",
-      "status": 0,
-      "from": "https://gutterspecialtyservices.com/"
-     }
-    ],
-    "brokenCount": 1
+    "broken": [],
+    "brokenCount": 0
    },
    "social": {
     "Google Business Profile": "https://maps.app.goo.gl/Fc5ZPyvqdYV1kcb76",
@@ -40704,7 +40685,7 @@
    "marketplace-paints"
   ],
   "scores": {
-   "seo": 68,
+   "seo": 73,
    "social": 65,
    "lighthouseSeo": 85
   },
@@ -42795,5 +42776,667 @@
    "lighthouseSeo": 92
   },
   "competitors": []
+ },
+ "radioactive-pinball-arcade": {
+  "slug": "radioactive-pinball",
+  "name": "Radioactive Pinball Arcade",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "radioactivepinballarcade.com",
+   "https": true,
+   "pagesCrawled": 4,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://radioactivepinballarcade.com/",
+    "title": "Radioactive Pinball Arcade: Ultimate Pinball Fun in Aiken SC",
+    "description": "Experience the excitement of pinball at Radioactive Pinball Arcade in Aiken, SC! Book parties and enjoy unlimited play!",
+    "canonical": "https://radioactivepinballarcade.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Radioactive Pinball Arcade",
+     "description": "Experience the excitement of pinball at Radioactive Pinball Arcade in Aiken, SC! Book parties and enjoy unlimited play!",
+     "image": "https://i.vimeocdn.com/video/1829897278-875a175d5caac6a2174a4ae81a57aab81920ebe13941cb0adcb9e39f659d5426-d_1920x1080?r=pad",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Subscribe"
+    ],
+    "h1Count": 1,
+    "h2": 18,
+    "h3": 2,
+    "words": 1263,
+    "images": 18,
+    "imagesNoAlt": 14,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "GeoCoordinates",
+     "OpeningHoursSpecification"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": true
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 4,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 14,
+    "images": 19,
+    "sample": [
+     {
+      "url": "https://radioactivepinballarcade.com/",
+      "title": "Radioactive Pinball Arcade: Ultimate Pinball Fun in Aiken SC",
+      "description": 119,
+      "h1": 1,
+      "words": 1263
+     },
+     {
+      "url": "https://radioactivepinballarcade.com/special-day-or-event",
+      "title": "Special Day or Event",
+      "description": 114,
+      "h1": 1,
+      "words": 329
+     },
+     {
+      "url": "https://radioactivepinballarcade.com/report-a-game-problem-1",
+      "title": "Report a Game Problem at Radioactive Pinball Arcade",
+      "description": 141,
+      "h1": 1,
+      "words": 349
+     },
+     {
+      "url": "https://radioactivepinballarcade.com/homeschool-play-day",
+      "title": "Homeschool Play Day",
+      "description": 145,
+      "h1": 1,
+      "words": 280
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 20,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/events/1091497860515830/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Pinball",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 41
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 8
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=791&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=e161956015dbdff27a10678b1c84c691",
+    "name": "Radioactive Pinball Arcade",
+    "phone": "(803) 373-1717",
+    "website": "https://radioactivepinballarcade.com/",
+    "address": "113 Laurens Street, SW, Suite 103, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/radioactive-pinball-arcade/",
+    "name": "Radioactive Pinball Arcade",
+    "phone": "(803) 373-1717",
+    "website": "https://radioactivepinballarcade.com/",
+    "address": "113 Laurens Street Southwest, Suite 103, Aiken, South Carolina 29801, United States",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Radioactive Pinball Arcade",
+    "phone": "",
+    "website": "https://radioactivepinballarcade.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/events/1091497860515830/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/events/1091497860515830/",
+    "Instagram": "https://www.instagram.com/radioactive_pinball_arcade"
+   }
+  },
+  "domain": {
+   "name": "radioactivepinballarcade.com",
+   "created": "2023-04-24",
+   "expires": "2029-04-24",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 3
+  },
+  "performance": {
+   "performance": 43,
+   "accessibility": 82,
+   "bestPractices": 75,
+   "seo": 85,
+   "fcp": 1122,
+   "lcp": 4786,
+   "tbt": 4162,
+   "si": 10959,
+   "cls": 0.064,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 953,
+   "lcp": 2553,
+   "tbt": 46,
+   "si": 953,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "britts-jump-and-slide-inflatables-llc",
+   "carolina-dragway-inc",
+   "eudora-wildlife-safari-park",
+   "legare-gardens",
+   "park-avenue-lanes-inc"
+  ],
+  "scores": {
+   "seo": 85,
+   "social": 70,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "britts-jump-and-slide-inflatables-llc",
+    "name": "Britt's Jump & Slide Inflatables, LLC",
+    "website": "https://www.brittsinflatables.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 13,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "carolina-dragway-inc",
+    "name": "Carolina Dragway, Inc.",
+    "website": "https://carolinadragway.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": null,
+    "pageMB": 5.5,
+    "a11ySerious": 46,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 27
+   },
+   {
+    "slug": "eudora-wildlife-safari-park",
+    "name": "Eudora Wildlife Safari Park",
+    "website": "https://www.eudorasafaripark.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 40,
+    "pageMB": 3,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "legare-gardens",
+    "name": "Legare Gardens",
+    "website": "https://legaregardens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "park-avenue-lanes-inc",
+    "name": "Park Avenue Lanes, Inc.",
+    "website": "https://www.parkavelanes.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   }
+  ]
+ },
+ "coward-and-mcneill-real-estate": {
+  "slug": "coward-and-mcneill",
+  "name": "Coward & McNeill Real Estate",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "cowardandmcneill.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://cowardandmcneill.com/",
+    "title": "Coward & McNeill - Realty",
+    "description": "",
+    "canonical": "https://cowardandmcneill.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 0,
+    "h3": 0,
+    "words": 30,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": false,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 14,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 32,
+    "images": 119,
+    "sample": [
+     {
+      "url": "https://cowardandmcneill.com/",
+      "title": "Coward & McNeill - Realty",
+      "description": 0,
+      "h1": 0,
+      "words": 30
+     },
+     {
+      "url": "https://cowardandmcneill.com/?page_id=19",
+      "title": "About - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 212
+     },
+     {
+      "url": "https://cowardandmcneill.com/?page_id=25",
+      "title": "Contact - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 82
+     },
+     {
+      "url": "https://cowardandmcneill.com/?page_id=21",
+      "title": "Listings - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 421
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=under-contract-1835-trade-street-florence-sc",
+      "title": "UNDER CONTRACT - 1835 Trade Street - Florence, SC - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 82
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=400-436-nickletop-road",
+      "title": "SOLD - 400 & 436 Nickletop Road - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 74
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=100-northland-blvd",
+      "title": "100 Northland Blvd. - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 42
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=4546-jefferson-davis-hwy",
+      "title": "4546 Jefferson Davis Hwy - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 79
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=1387-york-street-ne",
+      "title": "1387 York Street, NE - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 129
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=tbd-festival-trail-road-26-acres",
+      "title": "TBD Festival Trail Road - 26.93 Acres +/- - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 76
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=4939-festival-trail-road",
+      "title": "4939 Festival Trail Road - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 193
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=400-laurens-street-nw",
+      "title": "400 Laurens Street NW - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 124
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=210-high-gate-loop-2",
+      "title": "SOLD - 210 High Gate Loop - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 94
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=212-newberry-street-nw",
+      "title": "212 Newberry Street, NW - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 122
+     },
+     {
+      "url": "https://cowardandmcneill.com/?portfolio=11-63-acres-gray-mare-hollow-road",
+      "title": "11.63 Acres Gray Mare Hollow Road - Coward & McNeill",
+      "description": 0,
+      "h1": 1,
+      "words": 51
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 37,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://www.google.com/maps/place/830+Colony+Pkwy,+Aiken,+SC+29803/@33.53463,-81.7240275,17z/data=!3m1!4b1!4m5!3m4!1s0x88f84d3b0dc06c29:0xa1937b5beda645a2!8m2!3d33.53463!4d-81.7218388"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Commercial Real Estate",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Coward & McNeill Real Estate",
+    "phone": "",
+    "website": "https://cowardandmcneill.com/",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://www.google.com/maps/place/830+Colony+Pkwy,+Aiken,+SC+29803/@33.53463,-81.7240275,17z/data=!3m1!4b1!4m5!3m4!1s0x88f84d3b0dc06c29:0xa1937b5beda645a2!8m2!3d33.53463!4d-81.7218388"
+   },
+   "listed": {}
+  },
+  "domain": {
+   "name": "cowardandmcneill.com",
+   "created": "2015-12-18",
+   "expires": "2026-12-18",
+   "registrar": "Bluehost Inc.",
+   "years": 10
+  },
+  "performance": {
+   "performance": 57,
+   "accessibility": 78,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 4380,
+   "lcp": 11437,
+   "tbt": 288,
+   "si": 4978,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1212,
+   "lcp": 2412,
+   "tbt": 79,
+   "si": 1212,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-properties-inc",
+   "broadwater-toole-realty-llc",
+   "carolina-real-estate-company",
+   "fox-and-hound-realty",
+   "houndslake-corporation"
+  ],
+  "scores": {
+   "seo": 57,
+   "social": 25,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-properties-inc",
+    "name": "Aiken Properties, Inc.",
+    "website": "https://aikenproperties.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "broadwater-toole-realty-llc",
+    "name": "Broadwater-Toole Realty, LLC.",
+    "website": "https://www.broadwatertoolerealty.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.6,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "carolina-real-estate-company",
+    "name": "Carolina Real Estate Company",
+    "website": "https://carolinacompany.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.6,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "fox-and-hound-realty",
+    "name": "Fox and Hound Realty",
+    "website": "https://www.foxandhoundrealty.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.2,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "houndslake-corporation",
+    "name": "Houndslake Corporation",
+    "website": "https://www.houndslakerealty.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 22
+   }
+  ]
  }
 }

@@ -791,6 +791,26 @@
    "at": "2026-11-20"
   }
  },
+ "coward-and-mcneill-real-estate": {
+  "site": {
+   "call": false,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 4,
+   "smallTargets": 3,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 42,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "dinner-bell": {
   "concept": {
    "call": true,
@@ -1978,6 +1998,26 @@
    "overflow": false,
    "tinyText": 0,
    "targets": 43,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "radioactive-pinball-arcade": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 48,
+   "smallTargets": 6,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 46,
    "smallTargets": 0,
    "at": "2026-11-21"
   }

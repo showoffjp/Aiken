@@ -21,6 +21,7 @@ const SPECIFIC: [RegExp, string][] = [
   [/plumb/i, 'Plumber'], [/heating|cooling|hvac/i, 'HVACBusiness'], [/roof/i, 'RoofingContractor'], [/landscape|tree/i, 'HomeAndConstructionBusiness'],
   [/remodel|custom homes|construction/i, 'GeneralContractor'], [/drag strip|race ?track|speedway/i, 'SportsActivityLocation'], [/printing/i, 'ProfessionalService'], [/photograph/i, 'ProfessionalService'],
   [/pet sitting|dog walking/i, 'LocalBusiness'], [/clean/i, 'DryCleaningOrLaundry'], [/training track/i, 'SportsActivityLocation'], [/playground/i, 'EntertainmentBusiness'], [/tours?\b|trail rides?/i, 'TouristAttraction'],
+  [/arcade|pinball/i, 'EntertainmentBusiness'], [/real estate|realty/i, 'RealEstateAgent'],
 ];
 export const businessType = (demo: Demo) => SPECIFIC.find(([re]) => re.test(demo.category))?.[1] || TYPE[demo.group] || 'LocalBusiness';
 
