@@ -2807,12 +2807,24 @@
    "accessibility": 84,
    "bestPractices": 57,
    "seo": 92,
-   "fcp": 2127,
-   "lcp": 19217,
-   "tbt": 4113,
-   "si": 11557,
-   "cls": 1.261,
-   "at": "2026-11-17"
+   "fcp": 1985,
+   "lcp": 18658,
+   "tbt": 3342,
+   "si": 11855,
+   "cls": 1.561,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1215,
+   "lcp": 2940,
+   "tbt": 42,
+   "si": 1215,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "the-restaurant-at-the-willcox": {
@@ -4305,6 +4317,84 @@
    "si": 955,
    "cls": 0,
    "at": "2026-11-20"
+  }
+ },
+ "hibbitts-drug-co": {
+  "site": {
+   "performance": 52,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 100,
+   "fcp": 1841,
+   "lcp": 5270,
+   "tbt": 1421,
+   "si": 3672,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 94,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 952,
+   "lcp": 2112,
+   "tbt": 257,
+   "si": 967,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "kings-roll-off-dumpsters": {
+  "site": {
+   "performance": 46,
+   "accessibility": 92,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 1180,
+   "lcp": 24901,
+   "tbt": 2618,
+   "si": 2400,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 946,
+   "lcp": 2254,
+   "tbt": 177,
+   "si": 946,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "snocap-drive-in": {
+  "site": {
+   "performance": 65,
+   "accessibility": 91,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2771,
+   "lcp": 12014,
+   "tbt": 265,
+   "si": 2771,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 1879,
+   "tbt": 252,
+   "si": 949,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  }
 }

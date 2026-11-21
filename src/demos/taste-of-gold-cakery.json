@@ -1,0 +1,293 @@
+{
+  "name": "Taste of Gold Cakery",
+  "short": "Taste of Gold",
+  "category": "Gourmet Cupcakes & Custom Cakes",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fdf6f4",
+    "surface": "#ffffff",
+    "ink": "#2a1f1d",
+    "muted": "#6b5a57",
+    "primary": "#9c3f63",
+    "onPrimary": "#ffffff",
+    "accent": "#b8893a",
+    "line": "#f0dfdc"
+  },
+  "radius": 18,
+  "icon": "cake-slice",
+  "contact": {
+    "phone": "(910) 992-9192",
+    "email": "tasteofgold2019@icloud.com",
+    "address": [
+      "1306 Whiskey Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Taste of Gold Cakery, 1306 Whiskey Rd, Aiken, SC 29803",
+    "hoursNote": "We’re a pop-up cakery: Treat Days and Suga Momma restocks are announced on social media. Custom orders need at least 48 hours’ notice."
+  },
+  "hero": {
+    "eyebrow": "Aiken’s pop-up cakery",
+    "title": "A little sweetness. *A Taste of Gold.*",
+    "lede": "Gourmet cupcakes and sweet treats baked right here in Aiken, from classic red velvet to Biscoff Nana Puddin’. Find us at 1306 Whiskey Road, home of Suga Momma, our gourmet cupcake vending machine.",
+    "points": [
+      "Gourmet cupcakes",
+      "Custom cakes",
+      "Suga Momma"
+    ],
+    "cta": {
+      "label": "Plan a custom order",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (910) 992-9192",
+      "href": "tel:+19109929192"
+    },
+    "image": {
+      "src": "/demo-assets/taste-of-gold-cakery/cupcake-tray.webp",
+      "alt": "Gourmet cupcakes with cookie toppings and frosting swirls, set out with brownies",
+      "width": 900,
+      "height": 1600
+    }
+  },
+  "facts": [
+    {
+      "value": "Suga Momma",
+      "label": "Our cupcake vending machine"
+    },
+    {
+      "value": "New flavors",
+      "label": "Every Treat Day"
+    },
+    {
+      "value": "48 hours",
+      "label": "Notice for custom orders"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "treats",
+      "nav": "Treats",
+      "columns": 3,
+      "eyebrow": "Baked in Aiken",
+      "title": "Something *sweet*",
+      "items": [
+        {
+          "icon": "cake-slice",
+          "title": "Gourmet cupcakes",
+          "text": "Classic red velvet, Biscoff Nana Puddin’ and a menu that changes every Treat Day."
+        },
+        {
+          "icon": "cake",
+          "title": "Custom cakes",
+          "text": "Birthdays, anniversaries, showers and weddings, made to your theme, colors and flavors."
+        },
+        {
+          "icon": "cookie",
+          "title": "Sweet treats",
+          "text": "Brownies, dessert cups and more for parties and dessert tables."
+        },
+        {
+          "icon": "store",
+          "title": "Suga Momma",
+          "text": "Our gourmet cupcake vending machine at 1306 Whiskey Road."
+        },
+        {
+          "icon": "calendar-heart",
+          "title": "Treat Days",
+          "text": "Pop-up days with a fresh cupcake menu. Watch social media for the next one."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Parties & events",
+          "text": "Cupcakes, cakes and treats for the whole table."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "gallery",
+      "nav": "Gallery",
+      "eyebrow": "From our kitchen",
+      "title": "Cakes for *every celebration*",
+      "images": [
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/seventy-cake.webp",
+          "alt": "A two-tier cream cake with piped rosettes, flowers and a gold “70” topper",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/golf-cake.webp",
+          "alt": "A golf-course cake with a golf-cart topper beside a cake shaped like a golf ball",
+          "width": 1200,
+          "height": 1343
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/biscoff-cupcakes.webp",
+          "alt": "Cupcakes topped with Biscoff cookies and chocolate drizzle",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/dino-cake.webp",
+          "alt": "A dinosaur birthday cake with a volcano backdrop and a “2” topper",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/pancake-cupcakes.webp",
+          "alt": "Cupcakes topped with mini pancakes, blueberries and syrup",
+          "width": 842,
+          "height": 1122
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/fifty-cake.webp",
+          "alt": "A red and gold cake with a “50” topper",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/cookie-cupcakes.webp",
+          "alt": "Cupcakes topped with frosting and a cookie, in a clear box",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/taste-of-gold-cakery/parfaits.webp",
+          "alt": "Layered dessert cups with blueberries on a dessert table",
+          "width": 900,
+          "height": 1600
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "order",
+      "nav": "Custom orders",
+      "eyebrow": "Planning something sweet?",
+      "title": "Ordering a *custom cake*",
+      "intro": "Custom orders need at least 48 hours’ notice. Because of the nature of our products, all sales are final.",
+      "items": [
+        {
+          "title": "Tell us about it",
+          "text": "Your event date, theme, colors, flavors and any inspiration you have."
+        },
+        {
+          "title": "We confirm the details",
+          "text": "Someone from Taste of Gold gets back to you to confirm the details and pricing."
+        },
+        {
+          "title": "We bake it",
+          "text": "Made fresh here in Aiken."
+        },
+        {
+          "title": "Pick it up",
+          "text": "Ready on the day, at 1306 Whiskey Road."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Home of Suga Momma",
+      "title": "Aiken’s *pop-up cakery*",
+      "image": {
+        "src": "/demo-assets/taste-of-gold-cakery/storefront.webp",
+        "alt": "The pink front door at 1306 Whiskey Road, with Sweets and Welcome signs",
+        "width": 900,
+        "height": 1600
+      },
+      "body": [
+        "Taste of Gold Cakery is Aiken’s local pop-up cakery and the home of Suga Momma, our gourmet cupcake vending machine.",
+        "Our cupcake menu changes with each Treat Day, so there’s always a new flavor to look out for. Follow us for the next Treat Day, the latest menu and Suga Momma restock updates. We’ll see you at 1306 Whiskey Road."
+      ],
+      "list": [
+        "Baked right here in Aiken",
+        "A new menu every Treat Day",
+        "#BeKindEatSweets"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How much notice do custom orders need?",
+          "a": "At least 48 hours."
+        },
+        {
+          "q": "Where is Suga Momma?",
+          "a": "At 1306 Whiskey Road in Aiken."
+        },
+        {
+          "q": "What flavors do you have?",
+          "a": "The cupcake menu changes every Treat Day, from classic red velvet to Biscoff Nana Puddin’."
+        },
+        {
+          "q": "Can I return or exchange an order?",
+          "a": "Because of the nature of our products, all sales are final: no refunds, exchanges or returns."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning something sweet?",
+      "text": "Tell us your date, theme and flavors, at least 48 hours ahead.",
+      "cta": {
+        "label": "Plan a custom order",
+        "href": "#visit"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Whiskey Road*",
+    "intro": "For a custom order, include your event date, theme, colors, flavors and any inspiration.",
+    "formTitle": "Plan a custom order",
+    "formTopics": [
+      "A custom cake",
+      "Cupcakes for an event",
+      "Sweet treats",
+      "Suga Momma",
+      "Something else"
+    ]
+  },
+  "slug": "taste-of-gold-cakery",
+  "added": "2026-11-21",
+  "prospect": "taste-of-gold-cakery",
+  "source": {
+    "url": "https://www.tasteofgoldcreations.com/",
+    "before": [
+      "The browser tab reads “Home | Shop Co.”, the name of the website template, not Taste of Gold",
+      "Google’s mobile score is 9 out of 100: in its slow-phone test the main picture takes 18.7 seconds",
+      "Zooming is turned off on phones, so small print can’t be enlarged",
+      "No description for Google search results"
+    ],
+    "after": [
+      "A name that shows up right: in the tab, on Google and when the link is shared",
+      "Cupcakes, cakes and Suga Momma explained on one page",
+      "Custom orders step by step, with a form that asks for what you need",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

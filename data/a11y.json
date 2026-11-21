@@ -5517,7 +5517,17 @@
    "moderate": 0,
    "minor": 0,
    "top": [],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "hh-construction": {
@@ -6278,19 +6288,13 @@
  },
  "kings-roll-off-dumpsters": {
   "site": {
-   "rules": 3,
-   "issues": 5,
+   "rules": 2,
+   "issues": 2,
    "critical": 0,
-   "serious": 5,
+   "serious": 2,
    "moderate": 0,
    "minor": 0,
    "top": [
-    {
-     "id": "aria-prohibited-attr",
-     "impact": "serious",
-     "help": "Elements must only use permitted ARIA attributes",
-     "nodes": 3
-    },
     {
      "id": "color-contrast",
      "impact": "serious",
@@ -6304,7 +6308,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "kitfox-pediatric-dentistry": {
@@ -8816,7 +8830,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "soulshine-yoga-and-wellness": {
@@ -9267,7 +9291,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "tailgate-tavern": {
