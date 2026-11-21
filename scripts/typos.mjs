@@ -24,7 +24,9 @@ const asked = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 
 // wrong -> right. A few entries offer more than one fix ("achive->achieve, archive").
 const LIST = new Map();
-for (const line of (await readFile(path.join(ROOT, 'scripts', 'lib', 'misspellings.txt'), 'utf8')).split('\n')) {
+// misspellings-local.txt adds slips found on local sites that the main list lacks.
+const lists = await Promise.all(['misspellings.txt', 'misspellings-local.txt'].map((f) => readFile(path.join(ROOT, 'scripts', 'lib', f), 'utf8').catch(() => '')));
+for (const line of lists.join('\n').split('\n')) {
   if (!line || line.startsWith('#')) continue;
   const [wrong, right] = line.split('->');
   if (wrong && right) LIST.set(wrong.trim().toLowerCase(), right.split(',').map((s) => s.trim()).filter(Boolean));
@@ -33,7 +35,7 @@ for (const line of (await readFile(path.join(ROOT, 'scripts', 'lib', 'misspellin
 const ALLOW = new Set((await readFile(path.join(ROOT, 'scripts', 'lib', 'typo-allow.txt'), 'utf8').catch(() => ''))
   .split('\n').map((l) => l.replace(/#.*/, '').trim().toLowerCase()).filter(Boolean));
 
-const SAMPLE = /lorem ipsum|dolor sit amet|consectetur adipisicing|Definitely promote it here|What's something exciting your business offers|This is your About section|Add a description (here|of your)|Click (here )?to edit (this )?text|Write a short (description|intro) here/i;
+const SAMPLE = /lorem ipsum|dolor sit amet|consectetur adipisicing|Definitely promote it here|What's something exciting your business offers|This is your About section|Add a description (here|of your)|Click (here )?to edit (this )?text|Write a short (description|intro) here|It all begins with an idea\. Maybe you want to launch a business/i;
 const DOUBLE = /\b(the|a|an|and|to|of|in|for|is|on|with|our|your|we|you|at|be|are|or|it|this|that)\s+\1\b/i;
 // Customers' own words (reviews, testimonials) are theirs, not the business's
 // to correct: skip first-person and quoted lines, and review pages.

@@ -1,0 +1,444 @@
+{
+  "name": "Tailgate Tavern",
+  "short": "Tailgate Tavern",
+  "category": "Sports Bar & Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f4f3ee",
+    "surface": "#ffffff",
+    "ink": "#16201a",
+    "muted": "#4c574f",
+    "primary": "#2f6b3e",
+    "onPrimary": "#ffffff",
+    "accent": "#d9a13b",
+    "line": "#e0ddd3"
+  },
+  "radius": 6,
+  "icon": "tv",
+  "contact": {
+    "phone": "(803) 226-0909",
+    "email": "contactus@tailgatetavern2.com",
+    "address": [
+      "231 The Alley",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Tailgate Tavern, 231 The Alley, Aiken, SC 29801",
+    "hours": [
+      [
+        "Sunday – Wednesday",
+        "11:00 am – 9:00 pm"
+      ],
+      [
+        "Thursday – Saturday",
+        "11:00 am – 9:30 pm"
+      ]
+    ],
+    "hoursNote": "Kitchen hours. The bar stays open until 12:30 am Sunday to Wednesday, and until 1:30 am Thursday to Saturday.",
+    "facebook": "https://www.facebook.com/tailgatetavernaiken"
+  },
+  "hero": {
+    "eyebrow": "Aiken’s sports bar on The Alley",
+    "title": "Food, fun *and friends*",
+    "lede": "Walls of TVs for every game, a full bar that stays open late, happy hour on weekdays, and a kitchen turning out wings, burgers, sandwiches and Southern comfort-food dinners. Call in your order for pickup.",
+    "points": [
+      "Walls of TVs",
+      "Happy hour 4 to 7",
+      "Bar open late"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 226-0909",
+      "href": "tel:+18032260909"
+    }
+  },
+  "facts": [
+    {
+      "value": "4–7 pm",
+      "label": "Happy hour, Monday to Friday"
+    },
+    {
+      "value": "1:30 am",
+      "label": "Bar open Thursday to Saturday"
+    },
+    {
+      "value": "10% off",
+      "label": "Food for military, veterans and first responders"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Wings, burgers & comfort food",
+      "title": "The *menu*",
+      "intro": "Save money and call in your order for pickup at (803) 226-0909, or order through DoorDash.",
+      "groups": [
+        {
+          "title": "Appetizers",
+          "items": [
+            {
+              "name": "Smoked Gouda Mac & Cheese Bites",
+              "desc": "Nine deep-fried nuggets of smoked gouda, with jalapeño ranch and sriracha",
+              "price": "$10.99"
+            },
+            {
+              "name": "Smoked or Fried Chicken Wings",
+              "desc": "Six for $11.99, 12 for $18.99 or 18 for $24.99. Mild, hot, habanero hot, dry rub, teriyaki, lemon pepper, Carolina BBQ, honey BBQ or Asian BBQ; extra sauce 50¢",
+              "price": "from $11.99"
+            },
+            {
+              "name": "Sampler",
+              "desc": "Five smoked gouda mac and cheese bites, five smoked or fried wings and four smoked riblets",
+              "price": "$19.99"
+            },
+            {
+              "name": "Pile High Nachos",
+              "desc": "Fresh tortilla chips with black beans, cheddar jack, jalapeños and homemade guacamole, salsa and sour cream. Add beef or chicken for $15.99, or shrimp for $18.99",
+              "price": "$11.99"
+            },
+            {
+              "name": "Steak Bites",
+              "desc": "Beef tenderloin tips in a garlic red wine teriyaki reduction with parmesan and garlic bread",
+              "price": "$16.99"
+            },
+            {
+              "name": "Mussels con Chorizo",
+              "desc": "Black mussels with tomatoes, chorizo and saffron in a white wine broth, with garlic bread",
+              "price": "$13.99"
+            },
+            {
+              "name": "Firecracker Shrimp",
+              "desc": "Crispy fried Gulf shrimp in sweet and spicy chili sauce with a swirl of sriracha",
+              "price": "$12.99"
+            },
+            {
+              "name": "Chips & Queso",
+              "desc": "Tortilla chips with homemade queso",
+              "price": "$6.99"
+            }
+          ]
+        },
+        {
+          "title": "Salads",
+          "note": "Extra dressing 50¢",
+          "items": [
+            {
+              "name": "Caesar Salad",
+              "desc": "Chopped romaine, parmesan and homemade croutons. Add chicken for $14.99 or shrimp for $16.99",
+              "price": "$8.99"
+            },
+            {
+              "name": "Taco Salad",
+              "desc": "Black beans, cheddar jack, jalapeño, guacamole, salsa and sour cream in a fried tortilla bowl, with beef or chicken. Shrimp $16.99",
+              "price": "$14.99"
+            },
+            {
+              "name": "Greek Salad",
+              "desc": "Iceberg, red onion, cucumber, kalamata olives, pepperoncini and feta"
+            },
+            {
+              "name": "House Salad",
+              "desc": "Iceberg, cucumber, red onion, tomato, shredded cheese and homemade croutons"
+            }
+          ]
+        },
+        {
+          "title": "Burgers & sandwiches",
+          "note": "With fries or onion rings",
+          "items": [
+            {
+              "name": "Cowboy Burger",
+              "desc": "Bacon, BBQ sauce, crispy onion straws and smoked gouda on a brioche bun",
+              "price": "$16.99"
+            },
+            {
+              "name": "Black & Bleu Burger",
+              "desc": "Blackened, with buttermilk bleu cheese, lettuce, tomato and onion",
+              "price": "$16.99"
+            },
+            {
+              "name": "Mushroom Swiss Burger",
+              "desc": "Grilled portobello, melted Swiss and garlic aioli",
+              "price": "$16.99"
+            },
+            {
+              "name": "All American Burger",
+              "desc": "American cheese, lettuce, tomato and onion on a brioche bun",
+              "price": "$14.99"
+            },
+            {
+              "name": "Philly Cheese Steak",
+              "desc": "Chopped seared steak with grilled red onions, green peppers and provolone",
+              "price": "$17.99"
+            },
+            {
+              "name": "French Dip",
+              "desc": "Roast beef with melted provolone and caramelized onions on a hoagie, with au jus",
+              "price": "$16.99"
+            },
+            {
+              "name": "Grilled Chicken Avocado",
+              "desc": "Cheddar jack, avocado and strawberry aioli on a brioche bun",
+              "price": "$15.99"
+            },
+            {
+              "name": "The Tailgate",
+              "desc": "Ham, roast beef and turkey with Swiss, cheddar jack and red pepper aioli on a hoagie, with au jus",
+              "price": "$14.99"
+            },
+            {
+              "name": "Lamb or Chicken Gyro",
+              "desc": "In a warm pita with lettuce, tomato, onion, feta and homemade tzatziki",
+              "price": "$14.99"
+            },
+            {
+              "name": "Shrimp Po Boy",
+              "desc": "Fried jumbo shrimp with Cajun remoulade on a hoagie roll",
+              "price": "$14.99"
+            },
+            {
+              "name": "Firecracker Shrimp Tacos",
+              "desc": "Three soft tacos with lettuce and tomato",
+              "price": "$14.99"
+            },
+            {
+              "name": "Chicken Wing Meal",
+              "desc": "Six fried or smoked wings with a side and ranch or blue cheese",
+              "price": "$14.99"
+            },
+            {
+              "name": "Chicken Finger Meal",
+              "desc": "Five hand-breaded chicken fingers with a side and dipping sauce",
+              "price": "$13.99"
+            },
+            {
+              "name": "Pizza Grilled Cheese",
+              "desc": "Pepperoni, marinara and melted mozzarella on Texas toast",
+              "price": "$11.99"
+            }
+          ]
+        },
+        {
+          "title": "Dinner entrées",
+          "note": "After 4 pm, with two sides",
+          "items": [
+            {
+              "name": "Seared Salmon",
+              "desc": "8 oz salmon topped with homemade garlic aioli",
+              "price": "$20.99"
+            },
+            {
+              "name": "Deep Fried or Seared Pork Chop",
+              "desc": "A 10 oz bone-in center-cut chop, seared, or breaded and fried with homemade gravy",
+              "price": "$19.99"
+            },
+            {
+              "name": "Country Fried Chicken",
+              "desc": "Hand-breaded chicken breast with homemade gravy and cornbread",
+              "price": "$15.99"
+            },
+            {
+              "name": "Mama’s Meatloaf",
+              "desc": "Homemade, with a brown sugar glaze",
+              "price": "$15.99"
+            }
+          ]
+        },
+        {
+          "title": "Homemade desserts",
+          "items": [
+            {
+              "name": "Banana Pudding",
+              "price": "$5.99"
+            },
+            {
+              "name": "Bread Pudding",
+              "price": "$5.99"
+            },
+            {
+              "name": "Coconut Pie",
+              "price": "$5.99"
+            },
+            {
+              "name": "Cookie Pie",
+              "price": "$5.99"
+            }
+          ]
+        },
+        {
+          "title": "Kids & drinks",
+          "items": [
+            {
+              "name": "Kids: chicken fingers or grilled cheese",
+              "desc": "Grilled cheese on Texas toast, with fries or onion rings"
+            },
+            {
+              "name": "Soft drinks",
+              "desc": "Coke, Diet Coke, Coke Zero, Sprite, Fanta Orange, Hi-C Fruit Punch, Mr. Pibb, sweet and unsweet tea, and coffee",
+              "price": "$2.99"
+            }
+          ]
+        }
+      ],
+      "footnote": "From Tailgate Tavern’s current menu. A house or Caesar salad as a side is $1 more, and mac and cheese as a side after 4 pm is $1.50 more."
+    },
+    {
+      "type": "services",
+      "id": "events",
+      "nav": "Events",
+      "columns": 4,
+      "eyebrow": "Every week on The Alley",
+      "title": "Something *every night*",
+      "items": [
+        {
+          "icon": "mic-vocal",
+          "title": "Monday: open mic",
+          "text": "Live local talent from 7 to 10 pm."
+        },
+        {
+          "icon": "brain",
+          "title": "Wednesday: trivia bingo",
+          "text": "From 7 to 8 pm."
+        },
+        {
+          "icon": "music",
+          "title": "Friday: karaoke",
+          "text": "Karaoke until midnight."
+        },
+        {
+          "icon": "trophy",
+          "title": "Sunday: music bingo",
+          "text": "From 7 to 8 pm. Free to play and family friendly; the top three win gift cards."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "specials",
+      "nav": "Happy hour",
+      "eyebrow": "Deals",
+      "title": "Happy *hour*",
+      "columns": [
+        {
+          "title": "Monday – Friday, 4 to 7 pm",
+          "items": [
+            "$1 off draft pints",
+            "$1 off domestic bottles",
+            "$1 off house wine by the glass",
+            "$3.75 house liquor, single liquor drinks"
+          ]
+        },
+        {
+          "title": "All the time",
+          "items": [
+            "CSRA food and beverage industry workers get happy hour prices",
+            "Active military, veterans and first responders get 10% off food (dine-in, with proof of service)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *guests say*",
+      "items": [
+        {
+          "text": "Tailgate Tavern offers delicious food, excellent service, plenty of seating, and walls of TVs. It makes for a great spot to watch any sporting event. I highly recommend the smoked Gouda mac and cheese bites!",
+          "by": "Megan F."
+        },
+        {
+          "text": "The french dip was fantastic. The sandwich was so big I could only eat half. The onions were perfectly caramelized.",
+          "by": "Crystal F."
+        },
+        {
+          "text": "Excellent food and drinks as well as prompt and friendly service. I LOVE this place!!",
+          "by": "Whitney S."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can I order for pickup?",
+          "a": "Yes. Call (803) 226-0909 to save money and pick it up, or order through DoorDash."
+        },
+        {
+          "q": "How late are you open?",
+          "a": "The kitchen closes at 9 pm Sunday to Wednesday and 9:30 pm Thursday to Saturday. The bar stays open until 12:30 am and 1:30 am."
+        },
+        {
+          "q": "Will the game be on?",
+          "a": "Yes: there are walls of TVs, so you can catch any sporting event."
+        },
+        {
+          "q": "Do you have discounts?",
+          "a": "Active military, veterans and first responders get 10% off food when dining in, and local food and beverage workers get happy hour prices all the time. Bring proof of service or employment."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Game day?",
+      "text": "Grab a table on The Alley, or call in your order for pickup.",
+      "cta": {
+        "label": "Call (803) 226-0909",
+        "href": "tel:+18032260909"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *The Alley*",
+    "formTitle": "Ask about a big group",
+    "formTopics": [
+      "A large group",
+      "An event night",
+      "Something else"
+    ]
+  },
+  "slug": "tailgate-tavern",
+  "added": "2026-11-21",
+  "prospect": "tailgate-tavern",
+  "source": {
+    "url": "https://tailgatetavern2.com/",
+    "before": [
+      "A typo in the home page headline: “Food, Fun and Frends”",
+      "The browser tab reads “Home - Tailgate Tavern 2”",
+      "The events calendar lists Friday karaoke at 8 pm, while its description says 9 pm",
+      "On a phone, the first screen shows no phone number or call button",
+      "In Google’s slow-phone test the main picture takes 25.4 seconds to appear, after 166 separate downloads",
+      "Six links a screen reader can’t name, and no description for Google search results"
+    ],
+    "after": [
+      "The full menu on one page, with jump links and a print button",
+      "Every weekly event and the happy hour deals in one place",
+      "Kitchen and bar hours side by side, with an “Open now” sign",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

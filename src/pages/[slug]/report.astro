@@ -156,6 +156,15 @@ const glance = [
   online && row?.copyrightYear && { label: 'Year in the footer', value: String(row.copyrightYear), good: row.copyrightYear >= new Date().getFullYear() - 1 },
 ].filter(Boolean) as { label: string; value: string; good: boolean | null }[];
 
+// Why each problem costs the business, with a published source. Only shown
+// when the measurement above actually found the problem on this site.
+const slowMs = Math.max(lh.site && !lh.site.error ? lh.site.lcp || 0 : 0, film.site && !film.site.error ? (film.site.first ?? 12000) : 0);
+const serious = a11y.site ? (a11y.site.critical || 0) + (a11y.site.serious || 0) : 0;
+const why = online ? [
+  slowMs > 3000 && { stat: '53%', text: 'of visits to mobile sites are abandoned when a page takes longer than 3 seconds to load.', yours: `Yours took ${(slowMs / 1000).toFixed(1)} seconds to show its main content in our phone test.`, source: 'Google, “The Need for Mobile Speed”, 2016' },
+  first.site && !first.site.call && { stat: '76%', text: 'of people who search on a phone for something nearby visit a related business within a day.', yours: 'Your first phone screen has no button to call you.', source: 'Google, “How mobile search connects consumers to stores”, 2016' },
+  serious > 0 && { stat: '1 in 4', text: 'adults in the US live with a disability, many of them older customers.', yours: `The automated check found ${serious} serious problem${serious === 1 ? '' : 's'} that can stop them using your page.`, source: 'CDC, Disability and Health Data System' },
+].filter(Boolean) as { stat: string; text: string; yours: string; source: string }[] : [];
 const features = builtIn(demo);
 const changes = demo.source.after || [
   'Designed phone-first: reads and taps comfortably on any screen',
@@ -356,6 +365,21 @@ const heroThumb = existsSync(path.join(process.cwd(), 'public', 'shots', 'thumbs
             ))}
           </ul>
           <p class="rp-note">We read {typos!.pages} pages of {host} and checked every word against a list of about 4,300 common English misspellings, words typed twice, and the sample text website templates ship with. Each one was confirmed in a browser to be visible to visitors. Names and specialist terms aren’t judged, and customer reviews are left alone, so a careful read by a person can still find more. Small slips like these are easy to fix, but they are the first thing a careful customer notices.</p>
+        </section>
+      )}
+
+      {why.length > 0 && (
+        <section class="rp-why">
+          <h2>Why it matters</h2>
+          <ul>
+            {why.map((w) => (
+              <li>
+                <p class="rp-why-stat"><strong>{w.stat}</strong> {w.text}</p>
+                <p class="rp-why-yours">{w.yours}</p>
+                <p class="rp-why-src">Source: {w.source}</p>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

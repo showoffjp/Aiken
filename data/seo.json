@@ -3160,7 +3160,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 39,
+    "performance": 40,
     "pageMB": 3.5,
     "a11ySerious": 3,
     "facebook": true,
@@ -12017,7 +12017,7 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 40,
+    "performance": 47,
     "pageMB": 2.7,
     "a11ySerious": 7,
     "facebook": true,
@@ -13285,7 +13285,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 39,
+    "performance": 40,
     "pageMB": 3.5,
     "a11ySerious": 3,
     "facebook": true,
@@ -19720,7 +19720,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 39,
+    "performance": 40,
     "pageMB": 3.5,
     "a11ySerious": 3,
     "facebook": true,
@@ -22489,7 +22489,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 33,
     "pageMB": 4.8,
     "a11ySerious": 3,
     "facebook": true,
@@ -22757,7 +22757,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 33,
     "pageMB": 4.8,
     "a11ySerious": 3,
     "facebook": true,
@@ -29965,7 +29965,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 39,
+    "performance": 40,
     "pageMB": 3.5,
     "a11ySerious": 3,
     "facebook": true,
@@ -35826,7 +35826,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 39,
+    "performance": 40,
     "pageMB": 3.5,
     "a11ySerious": 3,
     "facebook": true,
@@ -36712,6 +36712,1171 @@
     "performance": null,
     "pageMB": 2.9,
     "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
+   }
+  ]
+ },
+ "brinkleys-chop-house": {
+  "slug": "brinkleys-chop-house",
+  "name": "Brinkley’s Chop House",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "brinkleyschophouse.com",
+   "https": true,
+   "pagesCrawled": 6,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.brinkleyschophouse.com/",
+    "title": "Brinkley's Chop House | American Restaurant in North Augusta, SC",
+    "description": "Refined chop house located in the SRP Ballpark featuring premium steaks, chops, seafood and our signature 16 oz Duck Fat Delmonico Ribeye",
+    "canonical": "https://www.brinkleyschophouse.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Brinkley's Chop House | American Restaurant in North Augusta, SC",
+     "description": "Refined chop house located in the SRP Ballpark featuring premium steaks, chops, seafood and our signature 16 oz Duck Fat Delmonico Ribeye",
+     "image": "https://images.getbento.com/accounts/c7e85916e2f98b7ebab3c38866b96bd7/media/images/124brinkleys-gold.png?w=1200&fit=fill&auto=compress,format&cs=origin&h=600&bg=EDEDF1&pad=100",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Home"
+    ],
+    "h1Count": 1,
+    "h2": 6,
+    "h3": 0,
+    "words": 475,
+    "images": 67,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "WebSite",
+     "WebPage"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.brinkleyschophouse.com/sitemap.xml",
+    "pages": 6
+   },
+   "crawl": {
+    "pages": 6,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 3,
+    "imagesNoAlt": 2,
+    "images": 90,
+    "sample": [
+     {
+      "url": "https://www.brinkleyschophouse.com/",
+      "title": "Brinkley's Chop House | American Restaurant in North Augusta, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 475
+     },
+     {
+      "url": "https://www.brinkleyschophouse.com/location/brinkleys-chophouse/",
+      "title": "Hours & Location | Brinkley's Chop House in North Augusta, SC",
+      "description": 168,
+      "h1": 1,
+      "words": 312
+     },
+     {
+      "url": "https://www.brinkleyschophouse.com/menus/",
+      "title": "Menus | Brinkley's Chop House in North Augusta, SC",
+      "description": 93,
+      "h1": 1,
+      "words": 1300
+     },
+     {
+      "url": "https://www.brinkleyschophouse.com/private-events/",
+      "title": "Private Events | Brinkley's Chop House in North Augusta, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 687
+     },
+     {
+      "url": "https://www.brinkleyschophouse.com/jobs/",
+      "title": "Jobs | Brinkley's Chop House in North Augusta, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 379
+     },
+     {
+      "url": "https://www.brinkleyschophouse.com/contact/",
+      "title": "Contact | Brinkley's Chop House in North Augusta, SC",
+      "description": 137,
+      "h1": 1,
+      "words": 382
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 6,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/BrinkleysChopHouse/",
+    "Instagram": "https://www.instagram.com/brinkleyschophouse/",
+    "Yelp": "https://www.yelp.com/biz/brinkleys-chop-house-north-augusta"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Steaks",
+    "title": false,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 1
+   },
+   {
+    "term": "North Augusta",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/brinkley-s-chop-house-4090",
+    "name": "Brinkley's Chop House",
+    "phone": "(803) 599-5097",
+    "website": "https://www.brinkleyschophouse.com/",
+    "address": "1033 Center Street, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/BrinkleysChopHouse/",
+    "Instagram": "https://www.instagram.com/brinkleyschophouse/",
+    "Yelp": "https://www.yelp.com/biz/brinkleys-chop-house-north-augusta"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/BrinkleysChopHouse/",
+    "Instagram": "https://www.instagram.com/brinkleyschophouse/"
+   }
+  },
+  "domain": {
+   "name": "brinkleyschophouse.com",
+   "created": "2021-08-10",
+   "expires": "2027-08-10",
+   "registrar": "Squarespace Domains II LLC",
+   "years": 5
+  },
+  "performance": {
+   "performance": 40,
+   "accessibility": 91,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 2313,
+   "lcp": 16270,
+   "tbt": 1416,
+   "si": 5850,
+   "cls": 0.092,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1203,
+   "lcp": 2703,
+   "tbt": 45,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "brinks-tavern",
+   "southbound-aiken",
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "bowl-boss"
+  ],
+  "scores": {
+   "seo": 88,
+   "social": 75,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "southbound-aiken",
+    "name": "Southbound Aiken",
+    "website": "https://southboundsmokehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 42,
+    "pageMB": 5.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
+   },
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "bowl-boss",
+    "name": "Bowl Boss",
+    "website": "https://www.bowlbossacai.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 5.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   }
+  ]
+ },
+ "tailgate-tavern": {
+  "slug": "tailgate-tavern",
+  "name": "Tailgate Tavern",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "tailgatetavern2.com",
+   "https": true,
+   "pagesCrawled": 13,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://tailgatetavern2.com/",
+    "title": "Home - Tailgate Tavern 2",
+    "description": "",
+    "canonical": "https://tailgatetavern2.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home - Tailgate Tavern 2",
+     "description": "Aiken's Premier Sports Bar AND RESTAURANT Browse our Menu Food, Fun and Frends Fun on the Alley Located on the Alley, Tailgate Tavern is a local hot spot serving up [&hellip;]",
+     "image": "https://tailgatetavern2.com/wp-content/uploads/2024/05/front-bar.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Food, Fun and Frends",
+     "See you there"
+    ],
+    "h1Count": 2,
+    "h2": 4,
+    "h3": 7,
+    "words": 558,
+    "images": 19,
+    "imagesNoAlt": 3,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://tailgatetavern2.com/sitemap_index.xml",
+    "pages": 140
+   },
+   "crawl": {
+    "pages": 13,
+    "missingTitle": 0,
+    "missingDescription": 13,
+    "missingH1": 2,
+    "multipleH1": 1,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 3,
+    "dupDescs": 0,
+    "imagesNoAlt": 3,
+    "images": 169,
+    "sample": [
+     {
+      "url": "https://tailgatetavern2.com/",
+      "title": "Home - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 2,
+      "words": 558
+     },
+     {
+      "url": "https://tailgatetavern2.com/our-menu/",
+      "title": "Our Menu - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 0,
+      "words": 930
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/",
+      "title": "Events for November 2026 - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 1347
+     },
+     {
+      "url": "https://tailgatetavern2.com/contact-us-2/",
+      "title": "Contact Us - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://tailgatetavern2.com/privacy-policy/",
+      "title": "Privacy Policy - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 0,
+      "words": 4200
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/list/",
+      "title": "Events from November 22 - December 11 - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 548
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/month/",
+      "title": "Events for November 2026 - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 1347
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/month/2026-10/",
+      "title": "Events for October 2026 - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 1147
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/month/2026-12/",
+      "title": "Events for December 2026 - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 1151
+     },
+     {
+      "url": "https://tailgatetavern2.com/series/open-mic-night-with-kenny-george/",
+      "title": "Open Mic Night with Kenny George - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 308
+     },
+     {
+      "url": "https://tailgatetavern2.com/event/open-mic-night-with-kenny-george-2/2026-10-26/",
+      "title": "Open Mic Night with Kenny George - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 161
+     },
+     {
+      "url": "https://tailgatetavern2.com/series/trivia-bingo/",
+      "title": "Trivia Bingo - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 268
+     },
+     {
+      "url": "https://tailgatetavern2.com/event/trivia-bingo/2026-10-28/",
+      "title": "Trivia Bingo - Tailgate Tavern 2",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://tailgatetavern2.com/events/2026-10-26",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-10-28",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-10-30",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-01",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-02",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-04",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-06",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-08",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-09",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-11",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-13",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-15",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-16",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-18",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-20",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-22",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-23",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-25",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-27",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-29",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-11-30",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-12-02",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-12-04",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     },
+     {
+      "url": "https://tailgatetavern2.com/events/2026-12-06",
+      "status": 404,
+      "from": "https://tailgatetavern2.com/events"
+     }
+    ],
+    "brokenCount": 24
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/tailgatetavernaiken",
+    "Instagram": "https://www.instagram.com/tailgatetavernaiken/",
+    "TikTok": "https://www.tiktok.com/@tailgatetavernaikensc"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Sports Bar",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/tailgate_tavern/",
+    "name": "Tailgate Tavern",
+    "phone": "(803) 226-0909",
+    "website": "https://www.facebook.com/pg/tailgatetavernaiken/about/?ref=page_internal",
+    "address": "231 The Alley Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": false
+   },
+   {
+    "source": "Aiken Downtown Development",
+    "url": "https://aikendda.us/meet-our-members/",
+    "name": "Tailgate Tavern",
+    "phone": "",
+    "website": "https://www.tailgatetavern2.com",
+    "address": "",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/tailgatetavernaiken",
+    "Instagram": "https://www.instagram.com/tailgatetavernaiken/",
+    "TikTok": "https://www.tiktok.com/@tailgatetavernaikensc"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/tailgatetavernaiken",
+    "Instagram": "https://www.instagram.com/tailgatetavernaiken/"
+   }
+  },
+  "domain": {
+   "name": "tailgatetavern2.com",
+   "created": "2024-05-13",
+   "expires": "2027-05-13",
+   "registrar": "Bluehost Inc.",
+   "years": 2
+  },
+  "performance": {
+   "performance": 47,
+   "accessibility": 91,
+   "bestPractices": 79,
+   "seo": 92,
+   "fcp": 8161,
+   "lcp": 25364,
+   "tbt": 359,
+   "si": 13622,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 944,
+   "lcp": 1802,
+   "tbt": 94,
+   "si": 944,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "legends-grille",
+   "park-avenue-oyster-bar-and-grill",
+   "feed-sack-aiken",
+   "blue-collard",
+   "grumpys-sports-pub"
+  ],
+  "scores": {
+   "seo": 60,
+   "social": 80,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "legends-grille",
+    "name": "Legends Grille",
+    "website": "https://thelegendsgrille.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 75,
+    "pageMB": 5.5,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "park-avenue-oyster-bar-and-grill",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "website": "https://parkaveoysterbar.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 4.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "grumpys-sports-pub",
+    "name": "Grumpy's Sports Pub",
+    "website": "https://www.grumpyssportspub.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.4,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   }
+  ]
+ },
+ "aikenite-electrical-services-llc": {
+  "slug": "aikenite-electrical",
+  "name": "Aikenite Electrical Services",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikenite-electrical.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.aikenite-electrical.com/",
+    "title": "Aikenite Electrical Services | Residential & Commercial",
+    "description": "Aikenite Electrical: Experienced residential and commercial electricians serving the Aiken area with expert repairs, installations, generator services and much more. Committed to safety, reliability, and quality. Contact us today for a free estimate.",
+    "canonical": "https://www.aikenite-electrical.com",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Aikenite Electrical Services | Residential & Commercial",
+     "description": "Aikenite Electrical: Experienced residential and commercial electricians serving the Aiken area with expert repairs, installations, generator services and much more. Committed to safety, reliability, and quality. Contact us today for a free estimate.",
+     "image": "http://static1.squarespace.com/static/67f476b27b732561a9751eaa/t/686d5ce6649eed57ee5364e9/1751997670231/Aikenite+Logo_Square_100.PNG?format=1500w",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Local Residential and Commercial Electrical Services",
+     "WHO WE ARE >",
+     "WHO WE ARE > WHO WE ARE >"
+    ],
+    "h1Count": 7,
+    "h2": 3,
+    "h3": 6,
+    "words": 407,
+    "images": 28,
+    "imagesNoAlt": 9,
+    "schemaTypes": [
+     "WebSite",
+     "Organization",
+     "LocalBusiness"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.aikenite-electrical.com/sitemap.xml",
+    "pages": 29
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 2,
+    "missingH1": 4,
+    "multipleH1": 8,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 67,
+    "images": 270,
+    "sample": [
+     {
+      "url": "https://www.aikenite-electrical.com/",
+      "title": "Aikenite Electrical Services | Residential & Commercial",
+      "description": 250,
+      "h1": 7,
+      "words": 407
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/contact",
+      "title": "Expert Electrical Services | Aiken Area | Contact Us Today - Aikenite Electrical",
+      "description": 151,
+      "h1": 2,
+      "words": 204
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/our-process",
+      "title": "Aikenite Electrical | Our Process | Enhance Your Electrical Projects - Aikenite Electrical",
+      "description": 140,
+      "h1": 2,
+      "words": 1186
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/commercial-electrical-services",
+      "title": "Commercial Electricians | Licensed Experts - Aikenite Electrical",
+      "description": 158,
+      "h1": 4,
+      "words": 353
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/residential",
+      "title": "Residential - Aikenite Electrical",
+      "description": 0,
+      "h1": 19,
+      "words": 418
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/new-construction",
+      "title": "Turn-Key New Construction Electrical Services | Licensed Pro - Aikenite Electrical",
+      "description": 162,
+      "h1": 2,
+      "words": 530
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/generators",
+      "title": "Aikenite Electrical | Generators | Ensure Uninterrupted Power Today - Aikenite Electrical",
+      "description": 147,
+      "h1": 1,
+      "words": 369
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/equestrian-electrical",
+      "title": "Safer Equestrian Systems | Expert Electrical Solutions - Aikenite Electrical",
+      "description": 149,
+      "h1": 1,
+      "words": 389
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/emergency",
+      "title": "Aikenite Electrical | Emergency Electrical Service | Get Urgent Electrical Help - Aikenite Electrical",
+      "description": 161,
+      "h1": 3,
+      "words": 1081
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/career",
+      "title": "Join Aikenite: Premier Electrical Services & Grow With Us - Aikenite Electrical",
+      "description": 152,
+      "h1": 1,
+      "words": 349
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/store",
+      "title": "Store 2 - Aikenite Electrical",
+      "description": 0,
+      "h1": 0,
+      "words": 177
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/commercial-electrical-services",
+      "title": "Commercial Electricians | Licensed Experts - Aikenite Electrical",
+      "description": 158,
+      "h1": 4,
+      "words": 353
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/fullfillrefund",
+      "title": "Fullfillment and Refund Policy | Ensure Satisfaction Today - Learn More - Aikenite Electrical",
+      "description": 151,
+      "h1": 0,
+      "words": 362
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/accessibility",
+      "title": "Accessibility Statement | Enhance Accessibility Today - Get Support - Aikenite Electrical",
+      "description": 169,
+      "h1": 0,
+      "words": 423
+     },
+     {
+      "url": "https://www.aikenite-electrical.com/privacy-statement",
+      "title": "Privacy Statement | Protect Your Privacy Today - Learn More - Aikenite Electrical",
+      "description": 136,
+      "h1": 0,
+      "words": 2715
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 17,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Residential",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 4
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 8
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1097&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=eb51c62ea79ec2db7c613d2749e8f452",
+    "name": "Aikenite Electrical Services LLC",
+    "phone": "(317) 443-3620",
+    "website": "http://www.aikenite-electrical.com",
+    "address": "Williston, SC 29853",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "aikenite-electrical.com",
+   "created": "2025-02-20",
+   "expires": "2028-02-20",
+   "registrar": "Squarespace Domains LLC",
+   "years": 1
+  },
+  "performance": {
+   "performance": 33,
+   "accessibility": 86,
+   "bestPractices": 96,
+   "seo": 92,
+   "fcp": 3701,
+   "lcp": 7087,
+   "tbt": 2443,
+   "si": 7482,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 950,
+   "lcp": 2040,
+   "tbt": 119,
+   "si": 950,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aikens-dryer-vent-cleaning-llc",
+   "apex-home-repair-corporation",
+   "garlin-design-and-remodeling-llc",
+   "gutter-specialty-services",
+   "marketplace-paints"
+  ],
+  "scores": {
+   "seo": 70,
+   "social": 15,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aikens-dryer-vent-cleaning-llc",
+    "name": "Aiken's Dryer Vent Cleaning LLC",
+    "website": "https://aikensdryervent.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   },
+   {
+    "slug": "garlin-design-and-remodeling-llc",
+    "name": "GARLIN Design & Remodeling LLC",
+    "website": "https://www.garlindesignremodeling.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 1.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "gutter-specialty-services",
+    "name": "Gutter Specialty Services",
+    "website": "https://gutterspecialtyservices.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.9,
+    "a11ySerious": 17,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "marketplace-paints",
+    "name": "Marketplace Paints",
+    "website": "https://marketplacepaints.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
     "domainYears": 11

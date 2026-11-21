@@ -74,7 +74,11 @@ export function accessible(c: { bg: string; surface: string; ink: string; primar
   const accentBtn = ratio(onAccent, c.accent) >= 4.5 ? c.accent : ensure(c.accent, onAccent, lum(hex(onAccent)) > 0.5 ? '#000000' : '#ffffff');
   // Two dark grounds in the theme colour (chalkboard, ticker, blueprint) that
   // keep white text at 7:1 or better, and an accent that reads on each.
-  const deepOf = (base: string, t: number) => { let d = mix(base, c.primary, t); while (ratio('#ffffff', d) < 7) d = mix(d, '#000000', 0.1); return d; };
+  // Darkened yellow and gold turn olive, so a light yellow-to-gold primary is
+  // first warmed toward brown; every other colour darkens as it is.
+  const [ph, , pl] = hsl(c.primary);
+  const warm = ph >= 38 && ph <= 75 && lum(hex(c.primary)) > 0.35 && pl > 0.3 ? mix(c.primary, '#7a2e0a', 0.55) : c.primary;
+  const deepOf = (base: string, t: number) => { let d = mix(base, warm, t); while (ratio('#ffffff', d) < 7) d = mix(d, '#000000', 0.1); return d; };
   const deep = deepOf('#101418', 0.28), deep2 = deepOf('#0a1428', 0.42);
   return {
     '--deep': deep,

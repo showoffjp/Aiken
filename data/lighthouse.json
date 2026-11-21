@@ -1791,16 +1791,28 @@
  },
  "brinkleys-chop-house": {
   "site": {
-   "performance": 39,
+   "performance": 40,
    "accessibility": 91,
-   "bestPractices": 79,
+   "bestPractices": 100,
    "seo": 92,
-   "fcp": 2524,
-   "lcp": 14995,
-   "tbt": 1228,
-   "si": 6872,
-   "cls": 0.091,
-   "at": "2026-11-17"
+   "fcp": 2313,
+   "lcp": 16270,
+   "tbt": 1416,
+   "si": 5850,
+   "cls": 0.092,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1203,
+   "lcp": 2703,
+   "tbt": 45,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "burrell-and-flynns-farm": {
@@ -2789,16 +2801,28 @@
  },
  "tailgate-tavern": {
   "site": {
-   "performance": 40,
+   "performance": 47,
    "accessibility": 91,
    "bestPractices": 79,
    "seo": 92,
-   "fcp": 7511,
-   "lcp": 24815,
-   "tbt": 613,
-   "si": 13445,
+   "fcp": 8161,
+   "lcp": 25364,
+   "tbt": 359,
+   "si": 13622,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 944,
+   "lcp": 1802,
+   "tbt": 94,
+   "si": 944,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "taste-of-gold-cakery": {
@@ -4393,6 +4417,32 @@
    "lcp": 1879,
    "tbt": 252,
    "si": 949,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "aikenite-electrical-services-llc": {
+  "site": {
+   "performance": 33,
+   "accessibility": 86,
+   "bestPractices": 96,
+   "seo": 92,
+   "fcp": 3701,
+   "lcp": 7087,
+   "tbt": 2443,
+   "si": 7482,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 950,
+   "lcp": 2040,
+   "tbt": 119,
+   "si": 950,
    "cls": 0,
    "at": "2026-11-21"
   }

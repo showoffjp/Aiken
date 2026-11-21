@@ -1,0 +1,6 @@
+# Misspellings found on local business sites that the Wikipedia list doesn't
+# include, one "wrong->right" pair per line (same format as misspellings.txt).
+frends->friends
+serivce->service
+exsisting->existing
+fullfillment->fulfillment

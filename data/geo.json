@@ -55,6 +55,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "aikenite-electrical": {
+  "q": "237 Park Avenue SW, attn: 211, Aiken, SC 29801",
+  "lat": 33.559765,
+  "lon": -81.72437,
+  "kind": "unclassified",
+  "exact": false,
+  "at": "2026-11-21"
+ },
  "allstar-tents": {
   "q": "176 Bettis Academy Road, Graniteville, SC 29829",
   "lat": 33.577415,
@@ -224,6 +232,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "brinkleys-chop-house": {
+  "q": "1033 Center Street, North Augusta, SC 29841",
+  "lat": 33.486594,
+  "lon": -81.974454,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "broome-service-center": {
   "q": "463 Old Jackson Hwy, Jackson, SC 29831",
@@ -900,6 +916,14 @@
   "kind": "shop",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "tailgate-tavern": {
+  "q": "231 The Alley, Aiken, SC 29801",
+  "lat": 33.560197,
+  "lon": -81.722433,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "tailored-tours": {
   "q": "3400 Wagener Road, Aiken, SC 29801",

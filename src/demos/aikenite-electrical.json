@@ -1,0 +1,354 @@
+{
+  "name": "Aikenite Electrical Services",
+  "short": "Aikenite Electrical",
+  "category": "Residential & Commercial Electricians",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f5f6f7",
+    "surface": "#ffffff",
+    "ink": "#121619",
+    "muted": "#4b545c",
+    "primary": "#b8261c",
+    "onPrimary": "#ffffff",
+    "accent": "#f2c230",
+    "line": "#e2e5e8"
+  },
+  "radius": 10,
+  "icon": "lightbulb",
+  "contact": {
+    "phone": "(803) 617-8318",
+    "email": "office@aikenite-electrical.com",
+    "address": [
+      "237 Park Avenue SW, attn: 211",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "237 Park Avenue SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:00 am – 4:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "After hours by appointment only. The Park Avenue office is by appointment."
+  },
+  "hero": {
+    "eyebrow": "Licensed electricians in the Aiken area",
+    "title": "Done right. *Every time.*",
+    "lede": "Residential, commercial and new-construction electrical work, standby generators and equestrian properties, from locally owned, licensed electricians with full-coverage insurance and 24/7 emergency service.",
+    "points": [
+      "Licensed & insured",
+      "24/7 emergencies",
+      "Locally owned"
+    ],
+    "cta": {
+      "label": "Request service",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 617-8318",
+      "href": "tel:+18036178318"
+    },
+    "image": {
+      "src": "/demo-assets/aikenite-electrical/kitchen-lights.webp",
+      "alt": "Lantern pendant lights over a kitchen island in a finished home",
+      "width": 1100,
+      "height": 1467
+    }
+  },
+  "facts": [
+    {
+      "value": "20+ years",
+      "label": "Of experience in the Aiken area"
+    },
+    {
+      "value": "24/7",
+      "label": "Emergency electrical service"
+    },
+    {
+      "value": "Insured",
+      "label": "Licensed, with full-coverage insurance"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Electrical work, *start to finish*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Residential",
+          "text": "Repairs, panel upgrades, rewiring, fans, lighting, surge protection and pool wiring."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial",
+          "text": "Code-compliant wiring, lighting and service changes for businesses, property managers and contractors."
+        },
+        {
+          "icon": "hammer",
+          "title": "New construction",
+          "text": "Turn-key electrical for design-builds, alongside your architect, designer and builder."
+        },
+        {
+          "icon": "battery-charging",
+          "title": "Generators",
+          "text": "Whole-home and commercial standby generators, including Generac and Kohler, plus portable hookups."
+        },
+        {
+          "icon": "fence",
+          "title": "Equestrian properties",
+          "text": "Arena lighting, fly systems, electric fencing, wash stall heaters and barn maintenance plans."
+        },
+        {
+          "icon": "siren",
+          "title": "Emergency service",
+          "text": "Around-the-clock help when something goes wrong."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "work",
+      "nav": "In detail",
+      "eyebrow": "Homes, businesses & new builds",
+      "title": "What’s *included*",
+      "columns": [
+        {
+          "title": "Residential",
+          "items": [
+            "Fan installs and wiring",
+            "Switches and receptacles",
+            "Remodels",
+            "Indoor and outdoor lighting",
+            "Home surge protectors",
+            "Pool wiring",
+            "Panel upgrades and rewiring"
+          ]
+        },
+        {
+          "title": "Commercial",
+          "items": [
+            "New construction wiring",
+            "Lighting, exit lights and LED retrofits",
+            "Panel upgrades and service changes",
+            "Maintenance and troubleshooting",
+            "Tenant build-outs and remodels",
+            "Backup generators",
+            "EV charging stations"
+          ]
+        },
+        {
+          "title": "New construction",
+          "items": [
+            "Electrical layout planning",
+            "Architectural lighting",
+            "Sconces, chandeliers and under-cabinet lights",
+            "Smart home integration",
+            "Concealed wiring and in-wall TV power",
+            "EV chargers and backup power",
+            "Designer finish work"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "equestrian",
+      "nav": "Equestrian",
+      "eyebrow": "Barns, arenas & wash stalls",
+      "title": "We know *equestrian properties*",
+      "image": {
+        "src": "/demo-assets/aikenite-electrical/wash-stall-heaters.webp",
+        "alt": "A horse standing under overhead heat lamps in a wash stall",
+        "width": 1100,
+        "height": 1100
+      },
+      "body": [
+        "In about 70 percent of reported barn fires, the confirmed or suspected cause was a malfunctioning heating device or another electrical problem. We design, specify and install barn systems built to take the wear, so your property doesn’t become part of that statistic.",
+        "Our maintenance plans include infrared heat scans, cleaning electrical boxes and inspecting conduit and wiring, so pests and wear don’t turn into a fire."
+      ],
+      "list": [
+        "Arena lighting for training all year",
+        "Automated fly spray systems",
+        "Electric fencing and hot wire",
+        "Overhead wash stall heaters"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "Our process",
+      "eyebrow": "No one-size-fits-all estimates",
+      "title": "How *we work*",
+      "items": [
+        {
+          "title": "Reach out",
+          "text": "Call or email with your project. If it fits our services, we schedule a walkthrough."
+        },
+        {
+          "title": "Walkthrough",
+          "text": "Usually 20 to 30 minutes on site. For new construction, we review the plans in detail."
+        },
+        {
+          "title": "An accurate estimate",
+          "text": "We gather every detail first, then send a real estimate in a reasonable time."
+        },
+        {
+          "title": "Done right",
+          "text": "Work that meets city regulations and NEC codes, today and at inspection."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Recent work",
+      "title": "On *the job*",
+      "images": [
+        {
+          "src": "/demo-assets/aikenite-electrical/new-panel.webp",
+          "alt": "A new electrical panel installed in a framed wall during construction",
+          "width": 900,
+          "height": 1281
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/panel-work.webp",
+          "alt": "An electrician working on a crowded older panel",
+          "width": 1100,
+          "height": 1467
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/barn-aisle.webp",
+          "alt": "A barn aisle with stall doors and lantern lights",
+          "width": 1100,
+          "height": 1470
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/arena-lights.webp",
+          "alt": "A riding arena lit up at dusk",
+          "width": 640,
+          "height": 478
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/ceiling-wiring.webp",
+          "alt": "An electrician on stilts running wire through ceiling joists",
+          "width": 828,
+          "height": 1364
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/barn-at-night.webp",
+          "alt": "A stable lit up at night",
+          "width": 1400,
+          "height": 923
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/supply-room.webp",
+          "alt": "Shelves of wire spools in the supply room",
+          "width": 750,
+          "height": 500
+        },
+        {
+          "src": "/demo-assets/aikenite-electrical/site-work.webp",
+          "alt": "An electrician working on a new building site",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How do estimates work?",
+          "a": "We don’t do one-size-fits-all estimates. After a short walkthrough, usually 20 to 30 minutes, we send an accurate estimate in a reasonable time."
+        },
+        {
+          "q": "Do you handle emergencies?",
+          "a": "Yes, we offer 24/7 emergency electrical service."
+        },
+        {
+          "q": "Where do you work?",
+          "a": "Aiken, Allendale, Edgefield and the surrounding areas, with commercial projects across Aiken and Barnwell County."
+        },
+        {
+          "q": "Do you offer financing?",
+          "a": "Yes, financing options are available. Ask when you call."
+        },
+        {
+          "q": "I’m already a customer. Where do I pay?",
+          "a": "Our online customer portal lets you pay, track estimates and see past invoices."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Need an electrician?",
+      "text": "Licensed, insured and locally owned, with 24/7 emergency service.",
+      "cta": {
+        "label": "Call (803) 617-8318",
+        "href": "tel:+18036178318"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Request *service*",
+    "formTitle": "Request service",
+    "formTopics": [
+      "Residential",
+      "Commercial",
+      "New construction",
+      "Generator",
+      "Equestrian property",
+      "Emergency"
+    ]
+  },
+  "slug": "aikenite-electrical",
+  "added": "2026-11-21",
+  "prospect": "aikenite-electrical-services-llc",
+  "source": {
+    "url": "https://www.aikenite-electrical.com/",
+    "before": [
+      "The refund policy talks about “lawn care, mowing, yard care” and landscaping, copied from another kind of business",
+      "The “Our Process” page still has the website template’s sample text: “Maybe you want to launch a business. Maybe you want to turn a hobby into something more.”",
+      "The home page says 20+ years of experience; the process page says over 10",
+      "Typos in the menu and buttons: “Emergency Electrical Serivce”, “EXSISTING CUSTOMER?”",
+      "The Facebook link goes to facebook.com/2008/fbml, a leftover code address, not a Facebook page",
+      "Google’s mobile score is 33 out of 100: a 5.1 MB home page whose main picture takes 7.1 seconds to appear"
+    ],
+    "after": [
+      "Every service on one page, with equestrian work given its own section",
+      "The estimate process explained step by step",
+      "A request-service form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "circle",
+    "services": "list",
+    "facts": "badges",
+    "pattern": "grid",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "clip",
+    "buttons": "outline"
+  }
+}
