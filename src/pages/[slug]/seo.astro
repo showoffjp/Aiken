@@ -36,7 +36,7 @@ const band = (n: number) => (n >= 90 ? 'good' : n >= 50 ? 'ok' : 'poor');
 const gauges = [
   seo?.scores?.seo != null && { label: 'SEO health', value: seo.scores.seo, note: 'Our checklist for local search, below' },
   lh && { label: 'Google Lighthouse SEO', value: lh.seo, note: "Google's own SEO check" },
-  lh && { label: 'Speed on a phone', value: lh.performance, note: 'Lighthouse performance' },
+  typeof lh?.performance === 'number' && { label: 'Speed on a phone', value: lh.performance, note: 'Lighthouse performance' },
   seo && { label: 'Social presence', value: seo.scores.social, note: 'Profiles, links and share previews' },
 ].filter(Boolean) as { label: string; value: number; note: string }[];
 
@@ -60,7 +60,7 @@ const checks: Check[] = s ? [
   { ok: s.crawl.dupTitles === 0, label: 'Unique page titles', detail: s.crawl.dupTitles ? `${s.crawl.dupTitles} duplicate title${s.crawl.dupTitles === 1 ? '' : 's'}.` : 'Every page crawled has its own title.', why: 'Duplicate titles make pages compete with each other.', fix: 'Give every page a distinct title.', weight: 3 },
   { ok: h.favicon, label: 'Site icon (favicon)', detail: h.favicon ? 'Present.' : 'Missing.', why: 'Shown in browser tabs and next to your result in Google on phones.', fix: 'Add a favicon.', weight: 2 },
   { ok: !!h.lang, label: 'Language declared', detail: h.lang ? `lang="${h.lang}"` : 'No language set.', why: 'Helps search engines and screen readers.', fix: 'Set lang="en" on the page.', weight: 1 },
-  ...(lh ? [{ ok: lh.lcp <= 2500, label: 'Main content appears quickly', detail: `About ${(lh.lcp / 1000).toFixed(1)} seconds on a mid-range phone on a slow connection.`, why: "Largest Contentful Paint is one of Google's Core Web Vitals; under 2.5 seconds is good.", fix: 'Serve images sized for phones and cut heavy scripts.', weight: 7 }] : []),
+  ...(typeof lh?.lcp === 'number' ? [{ ok: lh.lcp <= 2500, label: 'Main content appears quickly', detail: `About ${(lh.lcp / 1000).toFixed(1)} seconds on a mid-range phone on a slow connection.`, why: "Largest Contentful Paint is one of Google's Core Web Vitals; under 2.5 seconds is good.", fix: 'Serve images sized for phones and cut heavy scripts.', weight: 7 }] : []),
 ] : [];
 const passed = checks.filter((c) => c.ok).length;
 
