@@ -1,0 +1,329 @@
+{
+  "name": "Massage-ology Wellness Studio",
+  "short": "Massage-ology",
+  "category": "Massage & Facials",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f6f4ef",
+    "surface": "#ffffff",
+    "ink": "#1f2420",
+    "muted": "#5a6058",
+    "primary": "#4f6b54",
+    "onPrimary": "#ffffff",
+    "accent": "#c2915e",
+    "line": "#e4e0d6"
+  },
+  "radius": 16,
+  "icon": "flower-2",
+  "contact": {
+    "phone": "(803) 844-0810",
+    "address": [
+      "207 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "207 Silver Bluff Rd, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday",
+        "10:00 am – 4:00 pm"
+      ],
+      [
+        "Tuesday – Friday",
+        "10:00 am – 8:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "8:00 am – 8:00 pm"
+      ]
+    ],
+    "hoursNote": "Buy now, pay later is available in person for bookings from $50 to $4,000."
+  },
+  "hero": {
+    "eyebrow": "Massage and skin care in Aiken",
+    "title": "Relax, recover *and glow*",
+    "lede": "Therapeutic and prenatal massage from licensed therapists, facials from a quick Go and Glow to a Hawaiian-inspired Signature Facial, and a couples massage class, on Silver Bluff Road, seven days a week.",
+    "points": [
+      "Licensed therapists",
+      "Open 7 days",
+      "Pay later available"
+    ],
+    "cta": {
+      "label": "See services & prices",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 844-0810",
+      "href": "tel:+18038440810"
+    },
+    "image": {
+      "src": "/demo-assets/massage-ology/massage.webp",
+      "alt": "A therapist massaging a client’s shoulders",
+      "width": 740,
+      "height": 493
+    }
+  },
+  "facts": [
+    {
+      "value": "7 days",
+      "label": "Open every day of the week"
+    },
+    {
+      "value": "From $50",
+      "label": "Express therapeutic massage"
+    },
+    {
+      "value": "Pay later",
+      "label": "For $50 to $4,000 bookings"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Services",
+      "eyebrow": "Book what you need",
+      "title": "Services *& prices*",
+      "printLabel": "Print the price list",
+      "groups": [
+        {
+          "title": "Therapeutic massage",
+          "note": "A licensed therapist targets pain, injuries and muscle dysfunction",
+          "items": [
+            {
+              "name": "Express, 30 minutes",
+              "price": "$50"
+            },
+            {
+              "name": "60 minutes",
+              "price": "$120"
+            },
+            {
+              "name": "90 minutes",
+              "price": "$150"
+            },
+            {
+              "name": "2 hours",
+              "price": "$195"
+            },
+            {
+              "name": "Sensory scalp, shoulder & face massage",
+              "desc": "A slow, layered ritual of hair brushing, gentle shoulder work and facial massage, 65 minutes",
+              "price": "$80"
+            }
+          ]
+        },
+        {
+          "title": "Prenatal massage",
+          "note": "Designed for expectant mothers",
+          "items": [
+            {
+              "name": "30 minutes",
+              "price": "$50"
+            },
+            {
+              "name": "60 minutes",
+              "price": "$120"
+            },
+            {
+              "name": "90 minutes",
+              "price": "$150"
+            }
+          ]
+        },
+        {
+          "title": "Facials",
+          "items": [
+            {
+              "name": "The Go and Glow",
+              "desc": "A 35-minute mini facial with a consultation for new clients: double cleanse, a mask and finishing products",
+              "price": "$50"
+            },
+            {
+              "name": "Back Facial",
+              "desc": "Cleanse, exfoliate and hydrate, 60 minutes",
+              "price": "$70"
+            },
+            {
+              "name": "60 Minute Basic Facial",
+              "desc": "Deep cleanse, exfoliation, facial massage and a mask",
+              "price": "$75"
+            },
+            {
+              "name": "Custom 90 Minute Facial",
+              "desc": "Targets your specific skin concerns",
+              "price": "$90"
+            },
+            {
+              "name": "Signature Facial",
+              "desc": "Organic handmade products from Hawaii Nei, hot stone massage and tropical ingredients, 90 minutes",
+              "price": "$120"
+            },
+            {
+              "name": "Microdermabrasion Facial",
+              "desc": "A diamond-tip wand exfoliates for smoother, brighter skin, 75 minutes. Stay out of the sun for a few days after",
+              "price": "$115"
+            },
+            {
+              "name": "Dermaplane Facial",
+              "desc": "Gentle exfoliation that removes dead skin and peach fuzz, 90 minutes",
+              "price": "$125"
+            },
+            {
+              "name": "Carboxy Facial",
+              "desc": "An oxygenating facial for acne-prone or dull skin and signs of aging, 90 minutes",
+              "price": "$150"
+            }
+          ]
+        },
+        {
+          "title": "Combos, classes & more",
+          "items": [
+            {
+              "name": "60-minute massage & 60-minute facial",
+              "desc": "An hour of massage and an hour of facial, with Maria and Kay",
+              "price": "$175"
+            },
+            {
+              "name": "Reconnect Through Touch",
+              "desc": "A couples massage class: learn simple techniques to relax each other, 150 minutes. $100 deposit required",
+              "price": "$240"
+            },
+            {
+              "name": "Lip waxing",
+              "price": "$10"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the studio’s current booking page. Prices may change."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Massage-ology",
+      "title": "Recovery *and renewal*",
+      "image": {
+        "src": "/demo-assets/massage-ology/massage-hands.webp",
+        "alt": "Hands working on a client’s leg during a massage, in black and white",
+        "width": 740,
+        "height": 494
+      },
+      "body": [
+        "Massage-ology is a wellness studio on Silver Bluff Road in Aiken, offering therapeutic and medical massage that supports recovery and improves mobility, alongside facials tailored to your skin.",
+        "Massage and facial services are with Maria and Kay. Book online any day of the week, or call the studio."
+      ],
+      "list": [
+        "Therapeutic and medical massage",
+        "Prenatal massage",
+        "Facials for every skin concern"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "At the studio",
+      "title": "Time *for you*",
+      "images": [
+        {
+          "src": "/demo-assets/massage-ology/back-massage.webp",
+          "alt": "A therapist working on a client’s back",
+          "width": 666,
+          "height": 1000
+        },
+        {
+          "src": "/demo-assets/massage-ology/facial.webp",
+          "alt": "A relaxing facial massage",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "src": "/demo-assets/massage-ology/facial-mask.webp",
+          "alt": "A client relaxing during a facial with a cream mask",
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Are your therapists licensed?",
+          "a": "Yes, therapeutic massage is provided by a licensed therapist."
+        },
+        {
+          "q": "Do you offer prenatal massage?",
+          "a": "Yes, in 30, 60 and 90-minute sessions designed for expectant mothers."
+        },
+        {
+          "q": "Can I pay later?",
+          "a": "Yes. Buy now, pay later is available in person for bookings from $50 to $4,000; get approved before your appointment."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday 10 am to 4 pm, Tuesday to Friday 10 am to 8 pm, and Saturday and Sunday 8 am to 8 pm."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Take an hour for yourself",
+      "text": "Open every day on Silver Bluff Road.",
+      "cta": {
+        "label": "Call (803) 844-0810",
+        "href": "tel:+18038440810"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Silver Bluff Road*",
+    "formTitle": "Ask about an appointment",
+    "formTopics": [
+      "Therapeutic massage",
+      "Prenatal massage",
+      "A facial",
+      "The couples class",
+      "Something else"
+    ]
+  },
+  "slug": "massage-ology",
+  "added": "2026-11-21",
+  "prospect": "massage-ology-wellness-studio",
+  "source": {
+    "url": "https://massageologyaiken.glossgenius.com/",
+    "before": [
+      "The studio’s only site is a booking-app page, with “AIken” misspelled in the title and the address",
+      "The header cuts the studio’s name off at “MASSAGE-…”",
+      "The same 60-minute therapeutic massage is listed twice, at $120 and at $100",
+      "On a phone, the first screen shows no phone number or call button",
+      "A 7.0 MB home page: in Google’s slow-phone test the main picture takes 22.3 seconds, and the mobile score is 36 out of 100"
+    ],
+    "after": [
+      "A site of its own, with every service and price in one list",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Massage, facials and the couples class explained",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "blob",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "pill"
+  }
+}

@@ -6244,5 +6244,253 @@
    ],
    "at": "2026-11-21"
   }
+ },
+ "gutter-specialty-services": {
+  "site": {
+   "first": 5092,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1307,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "hale-dentistry-and-oral-wellness": {
+  "site": {
+   "first": null,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": true
+    },
+    {
+     "t": 12000,
+     "blank": true
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1354,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "massage-ology-wellness-studio": {
+  "site": {
+   "first": 5910,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1206,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "quality-printing-and-graphics-inc": {
+  "site": {
+   "first": 2894,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1413,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
  }
 }

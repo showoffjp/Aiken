@@ -1714,11 +1714,18 @@
  },
  "gutter-specialty-services": {
   "site": {
-   "bytes": 2997644,
+   "bytes": 3002542,
    "requests": 108,
-   "loadMs": 3474,
+   "loadMs": 4017,
    "url": "https://gutterspecialtyservices.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 453759,
+   "requests": 8,
+   "loadMs": 238,
+   "url": "/gutter-specialty/",
+   "at": "2026-11-21"
   }
  },
  "hals-hair-center": {
@@ -1755,11 +1762,18 @@
  },
  "hale-dentistry-and-oral-wellness": {
   "site": {
-   "bytes": 3815017,
+   "bytes": 3814910,
    "requests": 42,
-   "loadMs": 3121,
+   "loadMs": 3492,
    "url": "https://www.dralicehale.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 317945,
+   "requests": 6,
+   "loadMs": 265,
+   "url": "/hale-dentistry/",
+   "at": "2026-11-21"
   }
  },
  "harrison-k-9-security-services-llc": {
@@ -2487,11 +2501,18 @@
  },
  "massage-ology-wellness-studio": {
   "site": {
-   "bytes": 7150428,
-   "requests": 55,
-   "loadMs": 3084,
+   "bytes": 6993862,
+   "requests": 56,
+   "loadMs": 3847,
    "url": "https://massageologyaiken.glossgenius.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 375008,
+   "requests": 8,
+   "loadMs": 259,
+   "url": "/massage-ology/",
+   "at": "2026-11-21"
   }
  },
  "maxwell-law-group-llc": {
@@ -3102,11 +3123,18 @@
  },
  "quality-printing-and-graphics-inc": {
   "site": {
-   "bytes": 3675498,
-   "requests": 56,
-   "loadMs": 1821,
+   "bytes": 3738148,
+   "requests": 57,
+   "loadMs": 1822,
    "url": "https://qpgraphics.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 335581,
+   "requests": 6,
+   "loadMs": 240,
+   "url": "/quality-printing/",
+   "at": "2026-11-21"
   }
  },
  "rack-and-grill-3": {

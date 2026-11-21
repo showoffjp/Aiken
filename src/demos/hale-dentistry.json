@@ -1,0 +1,253 @@
+{
+  "name": "Hale Dentistry & Oral Wellness",
+  "short": "Hale Dentistry",
+  "category": "Dentistry & Oral Wellness",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fraunces",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f8f9",
+    "surface": "#ffffff",
+    "ink": "#13252b",
+    "muted": "#4a5d63",
+    "primary": "#1a7a8c",
+    "onPrimary": "#ffffff",
+    "accent": "#7fbfcc",
+    "line": "#dce8eb"
+  },
+  "radius": 14,
+  "icon": "smile",
+  "contact": {
+    "phone": "(803) 649-0516",
+    "address": [
+      "10 Tea Olive Court",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Hale Dentistry, 10 Tea Olive Ct, Aiken, SC 29803",
+    "hours": [
+      [
+        "Monday – Thursday",
+        "8:30 am – 4:30 pm"
+      ],
+      [
+        "Friday – Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Closed for lunch from 12:30 to 1:30 pm.",
+    "facebook": "https://www.facebook.com/Alice-D-Hale-DMD-464333723672819/"
+  },
+  "hero": {
+    "eyebrow": "Dentistry in Aiken, welcoming new patients",
+    "title": "Bridging dentistry *and medicine*",
+    "lede": "Your mouth is connected to your whole health, and your dental care should be too. Advanced technology, preventive care and a personal approach help find risks early, treat concerns comfortably and protect your health for the future.",
+    "points": [
+      "New patients welcome",
+      "Laser dentistry",
+      "Same-day crowns"
+    ],
+    "cta": {
+      "label": "Request an appointment",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 649-0516",
+      "href": "tel:+18036490516"
+    }
+  },
+  "facts": [
+    {
+      "value": "Same day",
+      "label": "Ceramic crowns"
+    },
+    {
+      "value": "1987",
+      "label": "Dr. Hale’s first year in dentistry"
+    },
+    {
+      "value": "4 days",
+      "label": "Open Monday to Thursday"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Advanced care, personalized",
+      "title": "What *we offer*",
+      "items": [
+        {
+          "icon": "zap",
+          "title": "Solea® laser dentistry",
+          "text": "Laser treatment for many procedures, often with less discomfort."
+        },
+        {
+          "icon": "test-tube",
+          "title": "Saliva testing",
+          "text": "Testing that guides personalized prevention for you."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Advanced cleanings & gum care",
+          "text": "Thorough cleanings and care for healthy gums."
+        },
+        {
+          "icon": "activity",
+          "title": "Laser gum therapy",
+          "text": "Gentle laser treatment for gum disease."
+        },
+        {
+          "icon": "crown",
+          "title": "Same-day ceramic crowns",
+          "text": "A finished crown in a single visit."
+        },
+        {
+          "icon": "moon",
+          "title": "Snoring & sleep care",
+          "text": "Dental care for snoring and sleep-related concerns."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "doctor",
+      "nav": "Dr. Hale",
+      "eyebrow": "Meet the doctor",
+      "title": "Dr. Alice Hale, *DMD*",
+      "body": [
+        "Dr. Hale began working in dentistry in 1987 in an oral surgeon’s office, earned her degree in dental hygiene from the Medical College of Georgia in 1996, and worked as a registered dental hygienist for seven years.",
+        "She graduated from the Medical College of Georgia’s School of Dentistry in 2007, practiced as an associate dentist in North Augusta for six years, and bought her own practice in 2013. She is inspired by a purpose to prevent disease and heal people, understanding how the health of your mouth is tied to your overall health."
+      ],
+      "list": [
+        "Dental hygienist turned dentist",
+        "Practicing in Aiken since 2013",
+        "Focused on the mouth–body connection"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "visit-steps",
+      "nav": "Your visit",
+      "eyebrow": "You are more than a set of teeth",
+      "title": "Care for *the whole person*",
+      "items": [
+        {
+          "title": "Request an appointment",
+          "text": "Call or send the form, and we’ll find a time that works."
+        },
+        {
+          "title": "Find risks early",
+          "text": "Advanced technology and testing show what’s going on."
+        },
+        {
+          "title": "Treat comfortably",
+          "text": "Gentle, attentive care, including laser options."
+        },
+        {
+          "title": "Protect your future",
+          "text": "Prevention tailored to you, so you stay healthier."
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *patients say*",
+      "items": [
+        {
+          "text": "This was a pleasurable experience. The hygienist that cleaned my teeth did a very thorough job and was quite pleasant. They provided me with good service and explained to me my overall dental health.",
+          "by": "Luanna D."
+        },
+        {
+          "text": "Terrific that I could get in so quickly and get help with a broken tooth. Wonderful assistance, love how friendly and courteous everyone is.",
+          "by": "Samuel E."
+        },
+        {
+          "text": "I was pleasantly surprised when Dr. Hale called me a couple of days later to make sure I was doing alright.",
+          "by": "David W."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Are you taking new patients?",
+          "a": "Yes, we are welcoming new patients and would be honored to care for you and your family."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Thursday, 8:30 am to 4:30 pm, closed for lunch from 12:30 to 1:30. We are closed on Fridays."
+        },
+        {
+          "q": "What does “oral wellness” mean?",
+          "a": "Your mouth is connected to your whole health. We look for risks early and tailor prevention to you, not just your teeth."
+        },
+        {
+          "q": "Can I get a crown in one visit?",
+          "a": "Yes, we offer same-day ceramic crowns."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready for a healthier smile?",
+      "text": "Call or request an appointment online.",
+      "cta": {
+        "label": "Call (803) 649-0516",
+        "href": "tel:+18036490516"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Tea Olive Court*",
+    "formTitle": "Request an appointment",
+    "formTopics": [
+      "A new-patient visit",
+      "A cleaning or check-up",
+      "A broken or painful tooth",
+      "Snoring or sleep care",
+      "Something else"
+    ]
+  },
+  "slug": "hale-dentistry",
+  "added": "2026-11-21",
+  "prospect": "hale-dentistry-and-oral-wellness",
+  "source": {
+    "url": "https://www.dralicehale.com/",
+    "before": [
+      "Typos on the home page: “Hale Dentistry & Oral Wellnes” and “Its time to discover a new you”",
+      "The description the page gives Google for search results reads “Welcome to our Welcome page.”",
+      "The browser tab reads “Welcome | Aiken, SC | Alice D. Hale DMD, PC” instead of the practice name patients search for",
+      "On a slow phone connection, the home page is still blank after 12 seconds",
+      "Built on jQuery 1.9, a code library from 2013, and six spots of low-contrast text that’s hard to read"
+    ],
+    "after": [
+      "The practice name, everywhere it matters",
+      "Every service in plain words, with Dr. Hale’s story",
+      "Hours with an “Open now” sign, including the lunch break",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

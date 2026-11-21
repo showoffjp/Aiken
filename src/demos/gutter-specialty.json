@@ -1,0 +1,301 @@
+{
+  "name": "Gutter Specialty Services",
+  "short": "Gutter Specialty",
+  "category": "Seamless Gutters & Gutter Guards",
+  "group": "Home & Garden",
+  "town": "Trenton, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "outfit",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f6f8",
+    "surface": "#ffffff",
+    "ink": "#122230",
+    "muted": "#4a5b68",
+    "primary": "#1e5f8e",
+    "onPrimary": "#ffffff",
+    "accent": "#6aa9d6",
+    "line": "#dbe4ea"
+  },
+  "radius": 10,
+  "icon": "house",
+  "contact": {
+    "phone": "(706) 309-0320",
+    "email": "office@gutterspecialtyservices.com",
+    "hoursNote": "Serving Augusta and Evans, Georgia, Aiken and North Augusta, South Carolina, and Charleston (843-628-0722).",
+    "facebook": "https://www.facebook.com/profile.php?id=100090009531741"
+  },
+  "hero": {
+    "eyebrow": "Gutters for the CSRA and Charleston",
+    "title": "Protect your home *from water damage*",
+    "lede": "Custom seamless gutters, gutter guards, repairs, replacement and cleaning for homes and commercial buildings, from a locally owned, family-operated, fully licensed and insured team with 20 years of experience.",
+    "points": [
+      "20 years experience",
+      "Free estimates",
+      "Licensed & insured"
+    ],
+    "cta": {
+      "label": "Get a free estimate",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (706) 309-0320",
+      "href": "tel:+17063090320"
+    },
+    "image": {
+      "src": "/demo-assets/gutter-specialty/truck-and-home.webp",
+      "alt": "A Gutter Specialty Services truck parked in front of a large white house",
+      "width": 1200,
+      "height": 1800
+    }
+  },
+  "facts": [
+    {
+      "value": "20 years",
+      "label": "Installing and repairing gutters"
+    },
+    {
+      "value": "Free",
+      "label": "Estimates and consultations"
+    },
+    {
+      "value": "40 years",
+      "label": "Warranty on our top gutter guard"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Quality service, fair prices",
+      "title": "Our *gutter services*",
+      "items": [
+        {
+          "icon": "ruler",
+          "title": "Seamless gutter installation",
+          "text": "A custom seamless system, designed for your property, that sends rainwater away from the foundation."
+        },
+        {
+          "icon": "refresh-cw",
+          "title": "Gutter replacement",
+          "text": "New life for your home’s drainage, and protection against water problems."
+        },
+        {
+          "icon": "wrench",
+          "title": "Gutter repair",
+          "text": "Leaks and damage fixed promptly, so water flows where it should."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Gutter guards",
+          "text": "Guards that keep debris out and water flowing, with less maintenance."
+        },
+        {
+          "icon": "brush",
+          "title": "Gutter cleaning",
+          "text": "Debris and clogs removed to prevent overflow and water damage."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial gutters",
+          "text": "Large-scale work for apartments, townhomes, offices and commercial buildings."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "guards",
+      "nav": "Gutter guards",
+      "eyebrow": "Hassle-free gutters",
+      "title": "Gutter *guards*",
+      "columns": [
+        {
+          "title": "Premium guard",
+          "items": [
+            "Strong aluminum frame",
+            "Installs on any type of gutter and roof",
+            "Z-bend technology for superior water flow",
+            "40-year warranty"
+          ]
+        },
+        {
+          "title": "Bulldog Gutter Guard™",
+          "items": [
+            "98% recycled aluminum",
+            "Fits new or existing gutters",
+            "Invisible from the ground",
+            "White or dark bronze, for 5″, 6″ or 7″ gutters",
+            "25-year warranty"
+          ]
+        },
+        {
+          "title": "Seamless gutter colors",
+          "items": [
+            "A wide range of colors to match your trim",
+            "Downspouts to match",
+            "Ask for the color chart at your estimate"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Our work",
+      "title": "Clean lines, *dry foundations*",
+      "images": [
+        {
+          "src": "/demo-assets/gutter-specialty/new-gutters.webp",
+          "alt": "New white seamless gutters on a brick and siding home",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/gutter-corner.webp",
+          "alt": "A new gutter corner and downspout",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/downspout.webp",
+          "alt": "A white downspout on a two-story home",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/seamless-gutter.webp",
+          "alt": "A long run of new seamless gutter",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/ladder.webp",
+          "alt": "A technician on a ladder working on a gutter",
+          "width": 1200,
+          "height": 1800
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/downspout-colors.webp",
+          "alt": "Downspouts in a range of colors",
+          "width": 1024,
+          "height": 683
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/gutter-guard.webp",
+          "alt": "A perforated aluminum gutter guard",
+          "width": 700,
+          "height": 430
+        },
+        {
+          "src": "/demo-assets/gutter-specialty/overflowing.webp",
+          "alt": "A clogged gutter overflowing in the rain",
+          "width": 1600,
+          "height": 893
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "Simple from the start",
+      "title": "Your free *estimate*",
+      "items": [
+        {
+          "title": "Request an estimate",
+          "text": "Send the form or call, and tell us which services you need."
+        },
+        {
+          "title": "We assess your property",
+          "text": "A technician contacts you to schedule a free consultation."
+        },
+        {
+          "title": "A system designed for you",
+          "text": "We recommend products and design a custom seamless gutter system."
+        },
+        {
+          "title": "Installed right",
+          "text": "Our trained pros do the work, with 100% customer satisfaction as the goal."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Where do you work?",
+          "a": "Augusta and Evans, Georgia, Aiken and North Augusta, South Carolina, and the Charleston area."
+        },
+        {
+          "q": "Are estimates free?",
+          "a": "Yes. Request an estimate and a technician will contact you to schedule a free consultation."
+        },
+        {
+          "q": "Do you work on commercial buildings?",
+          "a": "Yes: apartments, townhomes, offices and other commercial buildings, of any size."
+        },
+        {
+          "q": "Are you licensed and insured?",
+          "a": "Yes, fully licensed and insured."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Rain on the way?",
+      "text": "Get a free estimate for gutters, guards or repairs.",
+      "cta": {
+        "label": "Call (706) 309-0320",
+        "href": "tel:+17063090320"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Get a *free estimate*",
+    "formTitle": "Request an estimate",
+    "formTopics": [
+      "Gutter installation",
+      "Gutter replacement",
+      "Gutter repair",
+      "Gutter cleaning",
+      "Gutter guards",
+      "A commercial project"
+    ]
+  },
+  "slug": "gutter-specialty",
+  "added": "2026-11-21",
+  "prospect": "gutter-specialty-services",
+  "source": {
+    "url": "https://gutterspecialtyservices.com/",
+    "before": [
+      "Four different phone numbers across the site and its listing: 706-309-0320, 706-584-2606, 706-608-8634 and 803-257-7950",
+      "Google’s mobile score is 47 out of 100: the home page makes 108 separate downloads",
+      "Sixteen spots of low-contrast text that’s hard to read, and a link a screen reader can’t name"
+    ],
+    "after": [
+      "One phone number, everywhere",
+      "Every service and both gutter guards compared on one page",
+      "A free-estimate form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "stripes",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "slide",
+    "buttons": "shadow"
+  }
+}

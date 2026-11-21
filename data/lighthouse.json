@@ -2317,14 +2317,26 @@
   "site": {
    "performance": null,
    "accessibility": 93,
-   "bestPractices": 61,
+   "bestPractices": 82,
    "seo": 83,
-   "fcp": 6952,
+   "fcp": 6627,
    "lcp": null,
    "tbt": null,
-   "si": 10385,
+   "si": 10595,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 89,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1956,
+   "tbt": 421,
+   "si": 961,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "heath-insurance-and-financial-group": {
@@ -2575,16 +2587,28 @@
  },
  "massage-ology-wellness-studio": {
   "site": {
-   "performance": 35,
+   "performance": 36,
    "accessibility": 96,
    "bestPractices": 79,
    "seo": 100,
-   "fcp": 1841,
-   "lcp": 22751,
-   "tbt": 2530,
-   "si": 10682,
+   "fcp": 1896,
+   "lcp": 22310,
+   "tbt": 1964,
+   "si": 10896,
    "cls": 0.055,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2104,
+   "tbt": 28,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "maxwell-law-group-llc": {
@@ -2769,16 +2793,28 @@
  },
  "quality-printing-and-graphics-inc": {
   "site": {
-   "performance": 39,
+   "performance": 58,
    "accessibility": 93,
    "bestPractices": 96,
    "seo": 85,
-   "fcp": 2997,
-   "lcp": 6458,
-   "tbt": 1503,
-   "si": 7318,
+   "fcp": 2689,
+   "lcp": 6710,
+   "tbt": 477,
+   "si": 4195,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 947,
+   "lcp": 1955,
+   "tbt": 83,
+   "si": 947,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "rhodes-law-firm": {
@@ -4491,6 +4527,32 @@
    "lcp": 2040,
    "tbt": 119,
    "si": 950,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "gutter-specialty-services": {
+  "site": {
+   "performance": 47,
+   "accessibility": 92,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 2324,
+   "lcp": 7120,
+   "tbt": 1243,
+   "si": 4391,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 974,
+   "lcp": 2336,
+   "tbt": 180,
+   "si": 974,
    "cls": 0,
    "at": "2026-11-21"
   }
