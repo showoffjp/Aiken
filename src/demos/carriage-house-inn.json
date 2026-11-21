@@ -1,0 +1,311 @@
+{
+  "name": "Carriage House Inn",
+  "short": "Carriage House Inn",
+  "category": "Boutique Inn",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f7f5f0",
+    "surface": "#ffffff",
+    "ink": "#1f2321",
+    "muted": "#59605b",
+    "primary": "#2f4f3e",
+    "onPrimary": "#ffffff",
+    "accent": "#b98a52",
+    "line": "#e5e1d6"
+  },
+  "radius": 6,
+  "icon": "bed-double",
+  "contact": {
+    "phone": "(803) 644-5888",
+    "email": "info@aikencarriagehouse.com",
+    "address": [
+      "139 Laurens Street NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Carriage House Inn, 139 Laurens St NW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Front desk, every day",
+        "9:00 am – 8:00 pm"
+      ]
+    ],
+    "hoursNote": "Check-in from 3 pm, check-out by 11 am. Guests must be 21 or older to check in."
+  },
+  "hero": {
+    "eyebrow": "A Southern boutique hotel in downtown Aiken",
+    "title": "Discover the *charm of Aiken*",
+    "lede": "Thirty-seven uniquely decorated rooms and suites in three restored historic buildings, steps from Aiken’s finest restaurants and shops. Self-serve continental breakfast, afternoon chocolate chip cookies, and a friendly, helpful staff.",
+    "points": [
+      "37 rooms & suites",
+      "Circa 1872",
+      "Walk everywhere"
+    ],
+    "cta": {
+      "label": "Book your room",
+      "href": "tel:+18036445888"
+    },
+    "cta2": {
+      "label": "See the rooms",
+      "href": "#rooms"
+    },
+    "image": {
+      "src": "/demo-assets/carriage-house-inn/fountain.webp",
+      "alt": "The fountain in the courtyard of the Carriage House Inn",
+      "width": 1500,
+      "height": 1001
+    }
+  },
+  "facts": [
+    {
+      "value": "37",
+      "label": "Rooms and suites"
+    },
+    {
+      "value": "c. 1872",
+      "label": "When the Main Inn was built"
+    },
+    {
+      "value": "3",
+      "label": "Restored historic buildings"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rooms",
+      "nav": "Rooms",
+      "columns": 3,
+      "eyebrow": "Accommodations",
+      "title": "Find *your room*",
+      "items": [
+        {
+          "icon": "bed-single",
+          "title": "Premium Queen",
+          "text": "One queen bed and custom furnishings, in the Main Inn and Laurens Guest House (275 sq ft) or the Pendleton Guest House (325 sq ft)."
+        },
+        {
+          "icon": "bed-double",
+          "title": "Premium King",
+          "text": "One king bed and custom furnishings, in the Laurens or Pendleton Guest House (325 sq ft)."
+        },
+        {
+          "icon": "bed",
+          "title": "Premium Double",
+          "text": "Two full or queen beds in a spacious room in the Pendleton Guest House (325 sq ft)."
+        },
+        {
+          "icon": "bath",
+          "title": "Premium Jacuzzi King",
+          "text": "A king bed and a whirlpool tub, some with a shared outdoor veranda (400 sq ft)."
+        },
+        {
+          "icon": "sofa",
+          "title": "Queen & King Suites",
+          "text": "Spacious suites, some with kitchens, for longer stays."
+        },
+        {
+          "icon": "house",
+          "title": "Southbourne Guest Cottages",
+          "text": "Three furnished cottages to live like a local, with a seven-night minimum."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Come stay",
+      "title": "Inside *the inn*",
+      "images": [
+        {
+          "src": "/demo-assets/carriage-house-inn/king-room.webp",
+          "alt": "A king room with an upholstered headboard and pale blue pillows",
+          "width": 1400,
+          "height": 1286
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/queen-room.webp",
+          "alt": "A queen room with a four-poster bed",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/suite.webp",
+          "alt": "A suite sitting room with a sofa and armchairs",
+          "width": 1400,
+          "height": 1136
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/sitting-room.webp",
+          "alt": "A sitting room with a fireplace and a round glass table",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/breakfast-room.webp",
+          "alt": "The breakfast room with hydrangeas on the tables",
+          "width": 1400,
+          "height": 1015
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/patio.webp",
+          "alt": "A covered patio with a stone fireplace and bistro tables",
+          "width": 1100,
+          "height": 1312
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/courtyard.webp",
+          "alt": "The courtyard between the white-columned guest houses",
+          "width": 1500,
+          "height": 1001
+        },
+        {
+          "src": "/demo-assets/carriage-house-inn/guest-room.webp",
+          "alt": "A guest room with a cowhide headboard and a gold lamp",
+          "width": 1400,
+          "height": 1072
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "History",
+      "eyebrow": "Circa 1872",
+      "title": "A piece of *Aiken history*",
+      "image": {
+        "src": "/demo-assets/carriage-house-inn/front-porch.webp",
+        "alt": "The front porch of the Main Inn with the Carriage House Inn sign",
+        "width": 1500,
+        "height": 1001
+      },
+      "body": [
+        "The Main Inn was built around 1872 as a family home, beside a garage that changed oil in ten minutes and ran limousine and taxi service. Fred Astaire is said to have danced at birthday parties there, and much later Disney used the property as production headquarters for That Darn Cat.",
+        "Restored and opened as a six-room inn in 1999, the Carriage House Inn has grown to 37 rooms and suites in three historic buildings. It is locally owned and operated: Southern hospitality at its best."
+      ],
+      "list": [
+        "Locally owned and operated",
+        "Self-serve continental breakfast",
+        "Afternoon chocolate chip cookies"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "extras",
+      "nav": "Add-ons",
+      "eyebrow": "Make it special",
+      "title": "Delivered *to your room*",
+      "intro": "Local favorites, arranged by the inn. Most need to be ordered 24 hours before you arrive.",
+      "columns": [
+        {
+          "title": "Food & drink",
+          "items": [
+            "A charcuterie board from Board in Aiken",
+            "Wine and beer from Cork & Cap Bottle Shop",
+            "Latin American dinner from Rhumba",
+            "Hand-crafted chocolates from Agape"
+          ]
+        },
+        {
+          "title": "Relax",
+          "items": [
+            "In-room facials and body wraps from Flowerwood Esthetics",
+            "Free rooftop yoga with Aiken Yoga",
+            "Catering for groups from Blue Collared Kitchen"
+          ]
+        },
+        {
+          "title": "Guest services",
+          "items": [
+            "Restaurant reservations",
+            "Tours and shopping information",
+            "Luggage stored until your room is ready"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "Policies",
+      "eyebrow": "Good to know",
+      "title": "Before *you arrive*",
+      "items": [
+        {
+          "q": "When are check-in and check-out?",
+          "a": "Check-in is guaranteed at 3 pm and check-out is at 11 am. Early check-in and late check-out depend on availability, and we’ll store your luggage free until your room is ready."
+        },
+        {
+          "q": "Is there an age requirement?",
+          "a": "Yes, guests must be at least 21 to check in."
+        },
+        {
+          "q": "Do you have accessible rooms?",
+          "a": "Yes. ADA-compliant rooms are available and should be reserved in advance."
+        },
+        {
+          "q": "What’s in the rooms?",
+          "a": "A hair dryer, coffee maker, cable TV, free Wi-Fi and a private bathroom. Suites with kitchens are available, and the Main Inn and Laurens Guest House share a mini-fridge and microwave."
+        },
+        {
+          "q": "Can I book for Masters Week?",
+          "a": "Yes. Call guest services at (803) 644-5888. Payment is required when you book, and Masters Week reservations are non-refundable."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Stay in the heart of Aiken",
+      "text": "Hitchcock Woods, polo, Hopelands Gardens and the Thoroughbred Hall of Fame are all close by.",
+      "cta": {
+        "label": "Call (803) 644-5888",
+        "href": "tel:+18036445888"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Laurens Street*",
+    "formTitle": "Ask about a stay",
+    "formTopics": [
+      "A reservation",
+      "Masters Week",
+      "A guest cottage",
+      "An in-room add-on",
+      "Something else"
+    ]
+  },
+  "slug": "carriage-house-inn",
+  "added": "2026-11-21",
+  "prospect": "carriage-house-inn",
+  "source": {
+    "url": "https://www.aikencarriagehouse.com/",
+    "before": [
+      "The Facebook link goes to facebook.com/2008/fbml, a leftover code address, not the inn’s page",
+      "Fifteen pages in the main menu, so room types, policies and booking are spread across the site",
+      "A 4.9 MB home page: in Google’s slow-phone test the main picture takes 16.5 seconds, and the mobile score is 44 out of 100",
+      "Three spots of low-contrast text that’s hard to read"
+    ],
+    "after": [
+      "Every room type on one page, with a quick photo tour",
+      "Policies answered before guests have to call",
+      "One tap to call the front desk, with its hours",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "name": "Park Avenue Oyster Bar & Grill",
+  "short": "Park Ave Oyster Bar",
+  "category": "Oysters, Seafood & Steaks",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#f3f5f4",
+    "surface": "#ffffff",
+    "ink": "#14201f",
+    "muted": "#4c5a58",
+    "primary": "#1f4f57",
+    "onPrimary": "#ffffff",
+    "accent": "#c58b3a",
+    "line": "#dde4e2"
+  },
+  "radius": 8,
+  "icon": "fish",
+  "contact": {
+    "phone": "(803) 962-7848",
+    "email": "hello@parkaveoysterbar.com",
+    "address": [
+      "224 Park Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Park Avenue Oyster Bar and Grill, 224 Park Ave SW, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Wednesday",
+        "11:30 am – 9:00 pm"
+      ],
+      [
+        "Thursday – Friday",
+        "11:30 am – 10:00 pm"
+      ],
+      [
+        "Saturday",
+        "11:00 am – 10:00 pm"
+      ],
+      [
+        "Sunday",
+        "11:00 am – 9:00 pm"
+      ]
+    ],
+    "hoursNote": "Reservations recommended. Lunch is served Monday to Friday, 11:30 am to 5 pm.",
+    "facebook": "https://www.facebook.com/p/Park-Ave-Oyster-Bar-100090673742244/"
+  },
+  "hero": {
+    "eyebrow": "A seafood restaurant in historic downtown Aiken",
+    "title": "Oysters, seafood *and steaks*",
+    "lede": "Local and boutique oysters, peel-and-eat shrimp and tuna tartare from the raw bar, off-the-grill steaks and seasonal dishes from the kitchen, craft cocktails, and private rooms upstairs at 224 for your next celebration.",
+    "points": [
+      "Raw bar",
+      "Private rooms upstairs",
+      "Catering"
+    ],
+    "cta": {
+      "label": "Reserve a table",
+      "href": "tel:+18039627848"
+    },
+    "cta2": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "image": {
+      "src": "/demo-assets/park-avenue-oyster-bar/oysters-and-cocktail.webp",
+      "alt": "A platter of oysters on ice with lemon and a pink cocktail",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "facts": [
+    {
+      "value": "½ dozen",
+      "label": "House oysters for $17"
+    },
+    {
+      "value": "3 rooms",
+      "label": "Upstairs at 224 for private events"
+    },
+    {
+      "value": "7 days",
+      "label": "Open every day of the week"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Lunch, Monday to Friday",
+      "title": "The *lunch menu*",
+      "intro": "Served Monday to Friday from 11:30 am to 5 pm. Handhelds come with hand-cut fries.",
+      "groups": [
+        {
+          "title": "Oysters & raw bar",
+          "items": [
+            {
+              "name": "House Oysters",
+              "desc": "A half dozen or a dozen, with mignonette and cocktail sauce. Boutique varieties cost extra",
+              "price": "$17 · $32"
+            },
+            {
+              "name": "Roasted Oysters",
+              "desc": "Half dozen, with bacon, spinach, parmesan cream and bread crumbs",
+              "price": "$20"
+            },
+            {
+              "name": "Tuna Tartare",
+              "desc": "Avocado smash, cucumber, shallot, honey-lime vinaigrette",
+              "price": "$18"
+            }
+          ]
+        },
+        {
+          "title": "Small plates",
+          "items": [
+            {
+              "name": "PEI Mussels",
+              "desc": "A pound of mussels in herbed tomato broth and white wine, with toasted baguette",
+              "price": "$19"
+            },
+            {
+              "name": "Crab Fritters",
+              "desc": "Lump crabmeat, arugula salad, citrus aioli",
+              "price": "$16"
+            },
+            {
+              "name": "Crispy Calamari",
+              "desc": "Citrus sweet chili glaze, green onion, crispy fried chilies",
+              "price": "$16"
+            },
+            {
+              "name": "Crispy Brussels",
+              "desc": "Cranberry, mint, palm sugar vinaigrette",
+              "price": "$15"
+            },
+            {
+              "name": "Gouda Fritters",
+              "desc": "Hot honey, chives",
+              "price": "$14"
+            },
+            {
+              "name": "She Crab Soup",
+              "desc": "The classic recipe with lump crabmeat and sweet cream, finished with dry sherry",
+              "price": "$10"
+            },
+            {
+              "name": "Hushpuppies",
+              "desc": "Green onion hushpuppies with cinnamon honey butter",
+              "price": "$8"
+            },
+            {
+              "name": "Zucchini Fries",
+              "desc": "Bistro sauce",
+              "price": "$7"
+            }
+          ]
+        },
+        {
+          "title": "Handhelds",
+          "note": "With hand-cut fries",
+          "items": [
+            {
+              "name": "Blackened Grouper Sandwich",
+              "desc": "Citrus aioli, butter lettuce, tomato and pickles on brioche",
+              "price": "$20"
+            },
+            {
+              "name": "Park Mac Burger",
+              "desc": "Two brisket-blend smash patties, onion, lettuce and special sauce on a sesame bun",
+              "price": "$19"
+            },
+            {
+              "name": "Mushroom Swiss Burger",
+              "desc": "Two smash patties, sautéed mushrooms, Swiss, arugula and garlic aioli",
+              "price": "$19"
+            },
+            {
+              "name": "Shrimp Burger",
+              "desc": "Fried shrimp patty, lettuce, tomato, pickle and tartar sauce on brioche",
+              "price": "$19"
+            },
+            {
+              "name": "Po-Boy, Shrimp or Oysters",
+              "desc": "Tomato, butter lettuce and citrus aioli on a hoagie roll",
+              "price": "$18"
+            },
+            {
+              "name": "Caesar Wrap",
+              "desc": "Chicken or shrimp, romaine, parmesan, Caesar dressing and breadcrumbs",
+              "price": "$18"
+            },
+            {
+              "name": "Park Ave BLT",
+              "desc": "Bacon, lettuce, fried green tomato, bacon jam and garlic aioli on sourdough",
+              "price": "$16"
+            }
+          ]
+        },
+        {
+          "title": "Bowls & greens",
+          "items": [
+            {
+              "name": "Lowcountry Shrimp & Grits Bowl",
+              "desc": "Tomatoes, andouille, peppers, onions, Cajun cream",
+              "price": "$22"
+            },
+            {
+              "name": "Park Ave Bowl",
+              "desc": "Avocado, cucumber, citrus ponzu, Thai chili slaw and jasmine rice, with tuna tartare, teriyaki chicken, teriyaki salmon or crispy sweet and sour shrimp",
+              "price": "$18"
+            },
+            {
+              "name": "Soup & Salad",
+              "desc": "She crab soup and a side salad",
+              "price": "$16"
+            },
+            {
+              "name": "Seasonal Salad",
+              "desc": "Arugula, burrata, grilled local peaches, pickled red onions and peach vinaigrette",
+              "price": "$15"
+            },
+            {
+              "name": "Caesar Salad",
+              "desc": "Romaine, croutons, parmesan",
+              "price": "$14"
+            },
+            {
+              "name": "Wedge Salad",
+              "desc": "Iceberg, heirloom tomatoes, bacon, house-made blue cheese and balsamic reduction",
+              "price": "$12"
+            },
+            {
+              "name": "Add to any salad",
+              "desc": "Chicken $10, shrimp $12, salmon $12 or fried oysters $15"
+            }
+          ]
+        },
+        {
+          "title": "Fried seafood platters",
+          "note": "With fries, blue cheese slaw and sauces",
+          "items": [
+            {
+              "name": "Shrimp, oyster or flounder",
+              "price": "$19"
+            },
+            {
+              "name": "Chicken tender",
+              "price": "$19"
+            },
+            {
+              "name": "Choose 3",
+              "price": "$26"
+            }
+          ]
+        }
+      ],
+      "footnote": "From Park Avenue’s current lunch menu. Brunch, dinner, happy hour and dessert menus are served too."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "From the kitchen",
+      "title": "Land *and sea*",
+      "images": [
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/oyster-platter.webp",
+          "alt": "Raw oysters on ice with cocktail sauce, mignonette and lemon",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/ribeye.webp",
+          "alt": "A grilled ribeye with roasted vegetables",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/shrimp-and-grits.webp",
+          "alt": "Shrimp and grits with andouille in Cajun cream",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/mussels.webp",
+          "alt": "A bowl of mussels in tomato broth with toasted baguette",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/she-crab-soup.webp",
+          "alt": "A bowl of she crab soup",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/crab-fritters.webp",
+          "alt": "Crab fritters with arugula and citrus aioli",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/fish.webp",
+          "alt": "A fish fillet with a crispy topping over sweet potato",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/park-avenue-oyster-bar/chicken-sandwich.webp",
+          "alt": "A fried chicken sandwich with slaw and pickles",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "upstairs",
+      "nav": "Private events",
+      "eyebrow": "Upstairs at 224",
+      "title": "Your celebration, *our rooms*",
+      "image": {
+        "src": "/demo-assets/park-avenue-oyster-bar/upstairs-lounge.webp",
+        "alt": "A private lounge upstairs with sofas, bookshelves and a dining table",
+        "width": 1400,
+        "height": 933
+      },
+      "body": [
+        "Host your birthday, anniversary, rehearsal dinner or company gathering in one of our three spaces at 224 Upstairs: the Polo Lounge, the Jockey Club and the Veranda.",
+        "Enjoy a custom menu with boutique oysters, creative seafood dishes and chef-inspired land and sea options. We take care of every detail, so you can enjoy your occasion. We also cater weddings, receptions, corporate events and private celebrations, on site or off."
+      ],
+      "list": [
+        "The Polo Lounge",
+        "The Jockey Club",
+        "The Veranda"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *guests say*",
+      "items": [
+        {
+          "text": "Great addition to downtown Aiken! The restaurant is cozy with comfortable booths and ample bar seating. We enjoyed the friendly service and outstanding food during our dinner there. The catfish and roasted oysters were fantastic.",
+          "by": "Ryan H., on Google"
+        },
+        {
+          "text": "They always have amazing and friendly service. The food is wonderful, with plenty of options. If you haven’t tried their shrimp avocado toast, it is a must have!",
+          "by": "Marshall R., on Google"
+        },
+        {
+          "text": "Excellent food, great service from friendly eating staff. I had a terrific seared tuna that I haven’t seen offered anywhere for a long time.",
+          "by": "Eliot C., on Google"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need a reservation?",
+          "a": "We recommend reserving ahead to get a great table. Call (803) 962-7848 to book."
+        },
+        {
+          "q": "Can you host a private party?",
+          "a": "Yes, in one of our three rooms upstairs at 224: the Polo Lounge, the Jockey Club or the Veranda."
+        },
+        {
+          "q": "Do you cater?",
+          "a": "Yes: weddings and receptions, corporate events and private celebrations, on site or off."
+        },
+        {
+          "q": "Do you sell gift cards?",
+          "a": "Yes, gift cards can be bought online, and you can check a balance too."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Your table awaits",
+      "text": "Open every day on Park Avenue, with lunch on weekdays.",
+      "cta": {
+        "label": "Call (803) 962-7848",
+        "href": "tel:+18039627848"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Park Avenue*",
+    "formTitle": "Reserve or plan an event",
+    "formTopics": [
+      "A reservation",
+      "A private event upstairs",
+      "Catering",
+      "Gift cards",
+      "Something else"
+    ]
+  },
+  "slug": "park-avenue-oyster-bar",
+  "added": "2026-11-21",
+  "prospect": "park-avenue-oyster-bar-and-grill",
+  "source": {
+    "url": "https://parkaveoysterbar.com/",
+    "before": [
+      "A holiday-party pop-up covers the home page as soon as it opens",
+      "The home page calls the private rooms “244 Upstairs”; everywhere else they are at 224",
+      "Typos on the menu: “Crispy Brussles” and “buratta”",
+      "On a phone, the first screen shows no phone number or call button",
+      "A 4.5 MB home page: in Google’s slow-phone test the main picture takes 10.6 seconds, and the mobile score is 45 out of 100"
+    ],
+    "after": [
+      "The lunch menu on one page, with jump links and a print button",
+      "The private rooms upstairs explained, with one tap to book",
+      "Hours with an “Open now” sign",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "flip": true,
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "square"
+  }
+}

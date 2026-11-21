@@ -1,0 +1,458 @@
+{
+  "name": "Southbound Smokehouse",
+  "short": "Southbound",
+  "category": "Barbecue, Wings & Live Music",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#f7f2ea",
+    "surface": "#fffdf9",
+    "ink": "#1e1713",
+    "muted": "#5c5048",
+    "primary": "#9b2c1f",
+    "onPrimary": "#ffffff",
+    "accent": "#e0a33a",
+    "line": "#e8ddcd"
+  },
+  "radius": 6,
+  "icon": "flame",
+  "contact": {
+    "phone": "(844) 536-7793",
+    "address": [
+      "222 The Alley SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "222 The Alley, Aiken, SC 29801",
+    "hours": [
+      [
+        "Wednesday – Thursday",
+        "4:20 pm – 10:00 pm"
+      ],
+      [
+        "Friday – Saturday",
+        "11:30 am – 11:00 pm"
+      ],
+      [
+        "Sunday",
+        "11:30 am – 10:00 pm"
+      ],
+      [
+        "Monday – Tuesday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "The Aiken location closes Sunday evenings. North Augusta also opens on Tuesdays when the GreenJackets play at home.",
+    "facebook": "https://www.facebook.com/636428413460795"
+  },
+  "hero": {
+    "eyebrow": "Slow-smoked barbecue since 2015",
+    "title": "Authentic, slow-smoked *BBQ*",
+    "lede": "All our meat is smoked in house, with house-made sauces, almost-famous wings, burgers, tacos and bowls. Find us on The Alley in downtown Aiken, or on the river in North Augusta, with live music and the only waterfront dining in the area.",
+    "points": [
+      "Smoked in house",
+      "Two locations",
+      "Live music"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (844) 536-7793",
+      "href": "tel:+18445367793"
+    },
+    "image": {
+      "src": "/demo-assets/southbound-smokehouse/pulled-pork.webp",
+      "alt": "A pile of slow-smoked pulled pork",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "facts": [
+    {
+      "value": "2015",
+      "label": "Smoking barbecue since"
+    },
+    {
+      "value": "13 sauces",
+      "label": "For the almost-famous wings"
+    },
+    {
+      "value": "2",
+      "label": "Locations: Aiken and North Augusta"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Smoked in house",
+      "title": "The *menu*",
+      "intro": "Trays, sandwiches and burgers come with a side; hash and rice is $2 more. An 18% gratuity is added for parties of 8 or more.",
+      "groups": [
+        {
+          "title": "Munchies",
+          "items": [
+            {
+              "name": "Southbound Nachos",
+              "desc": "Black bean and corn salsa, pico de gallo, jalapeños, cheddar jack and queso, with pulled pork or smoked chicken",
+              "price": "$14.95"
+            },
+            {
+              "name": "Smokehouse Pimento Cheese",
+              "desc": "With jalapeños for an extra kick, served with pita chips",
+              "price": "$10.95"
+            },
+            {
+              "name": "Dilly Dilly Pickle Chips",
+              "desc": "Hand-breaded kosher dill chips with house-made sriracha aioli",
+              "price": "$10.95"
+            },
+            {
+              "name": "Soul Rolls",
+              "desc": "Smoked chicken, cheese and black bean and corn salsa in a crispy spring roll, with southwest ranch",
+              "price": "$10.95"
+            },
+            {
+              "name": "Uncle John’s Chicken Salad",
+              "desc": "Our signature house-made chicken salad with pita chips",
+              "price": "$10.95"
+            },
+            {
+              "name": "Onion Tanglers",
+              "desc": "Thin, breaded, flash-fried onions with bloom sauce",
+              "price": "$10.95"
+            },
+            {
+              "name": "Chips and Salsa",
+              "desc": "Add queso, guacamole or collard queso for $3",
+              "price": "$6.95"
+            }
+          ]
+        },
+        {
+          "title": "Wings",
+          "note": "Extra sauce 50¢",
+          "items": [
+            {
+              "name": "Almost Famous Wings",
+              "desc": "Ten slow-smoked wings with our house rub, then flash-fried, tossed in Carolina Reaper, Devil, Nashville Hot, Frank’s Red Hot, Hot Honey, Gochujang, Thai Chili, Famous, Garlic Buffalo, Sweet Caroline, Garlic Parmesan, Honey Mustard or Teriyaki",
+              "price": "$16.50"
+            },
+            {
+              "name": "Boneless Wings",
+              "desc": "Ten boneless wings in any signature sauce",
+              "price": "$15.50"
+            }
+          ]
+        },
+        {
+          "title": "Trays & tacos",
+          "items": [
+            {
+              "name": "Pulled Pork Tray",
+              "desc": "Slow-smoked with our signature house rub",
+              "price": "$14.95"
+            },
+            {
+              "name": "Smoked Chicken Tray",
+              "price": "$12.50"
+            },
+            {
+              "name": "Love Me Tenders",
+              "desc": "Southern fried chicken tenders with honey mustard",
+              "price": "$14.95"
+            },
+            {
+              "name": "Fried Shrimp Tray",
+              "desc": "With cocktail sauce",
+              "price": "$14.95"
+            },
+            {
+              "name": "Tacos",
+              "desc": "Two tacos with Cajun slaw, cheese and pico de gallo: pulled pork or smoked chicken $11.95, grilled shrimp $12.95",
+              "price": "from $11.95"
+            }
+          ]
+        },
+        {
+          "title": "Sandwiches & burgers",
+          "note": "With one side",
+          "items": [
+            {
+              "name": "The Big Boss Man",
+              "desc": "Pulled pork topped with Cajun slaw on a toasted brioche bun",
+              "price": "$14.95"
+            },
+            {
+              "name": "The Pimento Cheese Incident",
+              "desc": "Smokehouse pimento cheese and bacon on toasted challah",
+              "price": "$14.95"
+            },
+            {
+              "name": "The Firebird",
+              "desc": "Fried tenders in our famous sauce with house-made ranch on brioche",
+              "price": "$14.95"
+            },
+            {
+              "name": "Uncle John’s Chicken Salad Sandwich",
+              "desc": "With lettuce and tomato on toasted challah",
+              "price": "$14.95"
+            },
+            {
+              "name": "Southbound Burger",
+              "desc": "Pulled pork, cheddar, onion tangles and Sweet Jane BBQ sauce",
+              "price": "$15.95"
+            },
+            {
+              "name": "Smokehouse Burger",
+              "desc": "House-made pimento cheese, bacon and Sweet Jane BBQ sauce",
+              "price": "$15.95"
+            },
+            {
+              "name": "The Classic",
+              "desc": "Cheddar, lettuce, tomato, onions and pickles",
+              "price": "$14.95"
+            },
+            {
+              "name": "Shroom Burger",
+              "desc": "Swiss cheese and sautéed mushrooms",
+              "price": "$14.95"
+            }
+          ]
+        },
+        {
+          "title": "Bowls & salads",
+          "items": [
+            {
+              "name": "Bubba Gump",
+              "desc": "Stoned grits with sautéed shrimp, onions and red and green peppers",
+              "price": "$13.95"
+            },
+            {
+              "name": "The Crummy",
+              "desc": "Pulled pork and hash over rice",
+              "price": "$12.95"
+            },
+            {
+              "name": "Burrito Bowl",
+              "desc": "Your choice of protein on rice with black bean and corn salsa, cheese, Cajun slaw, pico and queso",
+              "price": "$12.95"
+            },
+            {
+              "name": "Callie Bowl",
+              "desc": "Smoked chicken and green beans on white rice",
+              "price": "$12.95"
+            },
+            {
+              "name": "Stoned Grit",
+              "desc": "Stoned grits with smokehouse pimento cheese and applewood bacon",
+              "price": "$11.95"
+            },
+            {
+              "name": "Southbound Salad",
+              "desc": "Romaine, black bean and corn salsa, Monterey Jack, pico and tortilla strips, with southwest ranch",
+              "price": "$11.95"
+            }
+          ]
+        },
+        {
+          "title": "Sides & kids",
+          "items": [
+            {
+              "name": "Sides",
+              "desc": "Collard greens, green beans, grits, Fleetwood Mac and Cheese, Cajun slaw, fries, potato salad or a side salad",
+              "price": "$4.45"
+            },
+            {
+              "name": "Hash and Rice",
+              "price": "$6.45"
+            },
+            {
+              "name": "Kids",
+              "desc": "A cheese, chicken or pork quesadilla, chicken tenders, or three boneless wings, with a side and a treat",
+              "price": "from $8.95"
+            }
+          ]
+        }
+      ],
+      "footnote": "From Southbound’s current menu. An event surcharge applies during SRP Park events."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Off the smoker",
+      "title": "Come *hungry*",
+      "images": [
+        {
+          "src": "/demo-assets/southbound-smokehouse/bbq-platter.webp",
+          "alt": "A tray of ribs, pulled pork, chicken, mac and cheese and potato salad",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/southbound-smokehouse/smoked-wings.webp",
+          "alt": "Smoked chicken wings glistening with sauce",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/southbound-smokehouse/ribs.webp",
+          "alt": "Smoked ribs on a patio table",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/southbound-smokehouse/tacos.webp",
+          "alt": "Two tacos with a frozen drink",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/southbound-smokehouse/burger-and-sauces.webp",
+          "alt": "A pulled pork sandwich and mac and cheese with bottles of Southbound sauce",
+          "width": 1600,
+          "height": 1100
+        },
+        {
+          "src": "/demo-assets/southbound-smokehouse/pork-bowl.webp",
+          "alt": "A bowl of pulled pork with chips",
+          "width": 800,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "locations",
+      "nav": "Locations",
+      "eyebrow": "Two places to find us",
+      "title": "Aiken *and the river*",
+      "columns": [
+        {
+          "title": "Aiken",
+          "items": [
+            "222 The Alley SW, downtown Aiken",
+            "Closed Sunday evenings"
+          ]
+        },
+        {
+          "title": "North Augusta",
+          "items": [
+            "1009 Center Street, by the river",
+            "Waterfront dining and live music",
+            "Open Tuesdays when the GreenJackets play at home"
+          ]
+        },
+        {
+          "title": "Both locations",
+          "items": [
+            "Order online for pickup",
+            "Catering and private parties",
+            "Gift cards"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *guests say*",
+      "items": [
+        {
+          "text": "The restaurant was great bar-b-que! Staff is amazing, friendly and go the extra mile! The restaurant was very clean and has a great atmosphere.",
+          "by": "Lorie H., on Yelp"
+        },
+        {
+          "text": "Ribs were great, very rich, but great. This place will definitely fill you up! Sauces were amazing too!",
+          "by": "Sawyer W., on Yelp"
+        },
+        {
+          "text": "A fabulous selection of meats with accompanying choice of barbecue sauces. The view was fantastic. The hospitality from the staff excellent.",
+          "by": "Tarianne T., on Yelp"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you cater?",
+          "a": "Yes. Every catering order is built around your event: birthdays, holiday parties, corporate events, weddings and more."
+        },
+        {
+          "q": "Can I host a party with you?",
+          "a": "Yes, we can host your birthday, office function or other special occasion and take care of the details."
+        },
+        {
+          "q": "Can I order ahead?",
+          "a": "Yes, order online for pickup."
+        },
+        {
+          "q": "Is the meat smoked in house?",
+          "a": "All of it, with house-made barbecue sauces."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Smoke’s rolling",
+      "text": "On The Alley in Aiken and on the river in North Augusta.",
+      "cta": {
+        "label": "Call (844) 536-7793",
+        "href": "tel:+18445367793"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *The Alley*",
+    "formTitle": "Ask about catering or a party",
+    "formTopics": [
+      "Catering",
+      "A private party",
+      "Gift cards",
+      "Something else"
+    ]
+  },
+  "slug": "southbound-smokehouse",
+  "added": "2026-11-21",
+  "prospect": "southbound-aiken",
+  "source": {
+    "url": "https://southboundsmokehouse.com/",
+    "before": [
+      "A holiday-party pop-up covers the home page as soon as it opens",
+      "The browser tab reads “Must-Try BBQ in North Augusta”, even for people looking for the Aiken location",
+      "One set of hours covers both locations, with the Aiken exceptions in a footnote",
+      "The menu is labelled “Riverside Aiken”, mixing up the two locations",
+      "On a phone, the first screen shows no phone number or call button",
+      "A 5.5 MB home page: in Google’s slow-phone test the main picture takes 10.9 seconds"
+    ],
+    "after": [
+      "Both locations side by side, each with its own details",
+      "The full menu on one page, with jump links and a print button",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

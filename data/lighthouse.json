@@ -1589,16 +1589,28 @@
  },
  "atomic-heating-and-air": {
   "site": {
-   "performance": 45,
+   "performance": 31,
    "accessibility": 87,
-   "bestPractices": 75,
+   "bestPractices": 79,
    "seo": 77,
-   "fcp": 2527,
-   "lcp": 2563,
-   "tbt": 612,
-   "si": 29799,
-   "cls": 0.671,
-   "at": "2026-11-17"
+   "fcp": 3091,
+   "lcp": 5428,
+   "tbt": 496,
+   "si": 7989,
+   "cls": 0.657,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 951,
+   "lcp": 1953,
+   "tbt": 295,
+   "si": 951,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "automotive-workbench": {
@@ -1899,16 +1911,28 @@
  },
  "carriage-house-inn": {
   "site": {
-   "performance": 38,
+   "performance": 44,
    "accessibility": 92,
    "bestPractices": 75,
    "seo": 92,
-   "fcp": 2850,
-   "lcp": 15916,
-   "tbt": 1941,
-   "si": 5453,
+   "fcp": 2684,
+   "lcp": 16496,
+   "tbt": 1144,
+   "si": 4871,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1208,
+   "lcp": 2708,
+   "tbt": 76,
+   "si": 1208,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "cassie-bayer-photography": {
@@ -2677,16 +2701,28 @@
  },
  "park-avenue-oyster-bar-and-grill": {
   "site": {
-   "performance": 37,
+   "performance": 45,
    "accessibility": 100,
    "bestPractices": 79,
    "seo": 100,
-   "fcp": 3312,
-   "lcp": 11483,
-   "tbt": 1080,
-   "si": 9543,
+   "fcp": 3376,
+   "lcp": 10630,
+   "tbt": 604,
+   "si": 8893,
    "cls": 0.002,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1207,
+   "lcp": 2182,
+   "tbt": 60,
+   "si": 1207,
+   "cls": 0.004,
+   "at": "2026-11-21"
   }
  },
  "pipedreamers-plumbing-heating-and-air": {
@@ -2761,16 +2797,28 @@
  },
  "southbound-aiken": {
   "site": {
-   "performance": 42,
+   "performance": 50,
    "accessibility": 100,
    "bestPractices": 100,
    "seo": 100,
-   "fcp": 3286,
-   "lcp": 19838,
-   "tbt": 789,
-   "si": 8119,
+   "fcp": 3315,
+   "lcp": 10878,
+   "tbt": 412,
+   "si": 10271,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2104,
+   "tbt": 158,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-21"
   }
  },
  "sunbreak-window-tinting": {

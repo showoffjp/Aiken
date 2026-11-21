@@ -1,0 +1,272 @@
+{
+  "name": "Atomic Heating & Air",
+  "short": "Atomic HVAC",
+  "category": "Heating, Air & Plumbing",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f6f9",
+    "surface": "#ffffff",
+    "ink": "#0f1b2a",
+    "muted": "#475569",
+    "primary": "#1d4ed8",
+    "onPrimary": "#ffffff",
+    "accent": "#f97316",
+    "line": "#dbe3ec"
+  },
+  "radius": 12,
+  "icon": "atom",
+  "contact": {
+    "phone": "(803) 270-2049",
+    "email": "service@atomichvac.com",
+    "hoursNote": "Serving Aiken, North Augusta, Augusta (Georgia side), Edgefield County and Batesburg-Leesville.",
+    "facebook": "https://www.facebook.com/atomichvac"
+  },
+  "hero": {
+    "eyebrow": "Locally owned since 2010",
+    "title": "Engineered precision. *Molecular comfort.*",
+    "lede": "AC and heating repair, new systems, seasonal maintenance, indoor air quality, ductwork and Generac standby generators for homes across Aiken, North Augusta and Augusta, from a team rated 5.0 in 117 reviews.",
+    "points": [
+      "Rated 5.0",
+      "Financing available",
+      "Generac generators"
+    ],
+    "cta": {
+      "label": "Schedule service",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 270-2049",
+      "href": "tel:+18032702049"
+    }
+  },
+  "facts": [
+    {
+      "value": "5.0 ★",
+      "label": "From 117 reviews"
+    },
+    {
+      "value": "25+ years",
+      "label": "Of HVAC experience"
+    },
+    {
+      "value": "10% off",
+      "label": "Parts for maintenance members"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Heating, cooling & more",
+      "title": "What *we do*",
+      "items": [
+        {
+          "icon": "snowflake",
+          "title": "AC repair",
+          "text": "Not cooling, short cycling, leaking or blowing warm air: we find the cause and fix it."
+        },
+        {
+          "icon": "flame",
+          "title": "Heating repair",
+          "text": "Furnaces and heat pumps, with safety-focused diagnostics and fixes that last."
+        },
+        {
+          "icon": "air-vent",
+          "title": "New systems",
+          "text": "Help comparing repair against replacement, and the right-fit system installed, including Mitsubishi ductless mini splits."
+        },
+        {
+          "icon": "calendar-check",
+          "title": "Maintenance & tune-ups",
+          "text": "Seasonal tune-ups that prevent breakdowns and keep your system efficient. Ask about service agreements."
+        },
+        {
+          "icon": "wind",
+          "title": "Indoor air quality",
+          "text": "Filtration, UV lights and whole-home purifiers such as the REME HALO, for air that feels fresh."
+        },
+        {
+          "icon": "zap",
+          "title": "Generators",
+          "text": "Generac home standby generators, so the lights stay on when the power goes out."
+        },
+        {
+          "icon": "thermometer",
+          "title": "Thermostats & ductwork",
+          "text": "Smart thermostats and duct work that move air where it’s needed."
+        },
+        {
+          "icon": "droplets",
+          "title": "Plumbing",
+          "text": "Plumbing repair, drain cleaning, water heaters (including tankless) and leak detection."
+        },
+        {
+          "icon": "credit-card",
+          "title": "Financing",
+          "text": "Special financing with approved credit through Wells Fargo’s Special Rate Financing program."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "Simple and transparent",
+      "title": "You’ll know *what comes next*",
+      "intro": "We focus on accurate diagnosis, clear options and comfort you can rely on.",
+      "items": [
+        {
+          "title": "Tell us what’s wrong",
+          "text": "No cooling, no heat, weak airflow or strange noises: share the issue and schedule service."
+        },
+        {
+          "title": "Accurate diagnosis",
+          "text": "We find the real cause instead of guessing."
+        },
+        {
+          "title": "Clear options",
+          "text": "You’ll know what’s happening, what it costs and what comes next."
+        },
+        {
+          "title": "Lasting comfort",
+          "text": "Work that holds up through summer heat and winter mornings."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet the team",
+      "title": "Your neighbors *in comfort*",
+      "image": {
+        "src": "/demo-assets/atomic-heating-and-air/install-crew.webp",
+        "alt": "The Atomic crew setting a new commercial unit in place",
+        "width": 1600,
+        "height": 1067
+      },
+      "body": [
+        "Atomic Heating & Air is a locally owned HVAC company founded in 2010 by Chris Davidson, who brings more than 25 years in heating and air conditioning.",
+        "Our team isn’t just technicians: we’re your neighbors, committed to keeping your home comfortable and safe all year, with integrity, hard work and service you can count on."
+      ],
+      "list": [
+        "Locally owned and operated",
+        "Residential and commercial",
+        "Rated 5.0 from 117 reviews"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "area",
+      "nav": "Service area",
+      "eyebrow": "Where we work",
+      "title": "Across *the CSRA*",
+      "columns": [
+        {
+          "title": "South Carolina",
+          "items": [
+            "Aiken and North Augusta",
+            "Edgefield, Trenton, Johnston and Meeting Street",
+            "Batesburg-Leesville"
+          ]
+        },
+        {
+          "title": "Georgia",
+          "items": [
+            "The Augusta area"
+          ]
+        },
+        {
+          "title": "Maintenance members",
+          "items": [
+            "Seasonal tune-ups for AC, furnaces and heat pumps",
+            "10% off common electrical components, air purification equipment and refrigerant recharges"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Should I repair or replace my system?",
+          "a": "If repairs are stacking up or your system can’t keep up with summer humidity, we’ll help you compare both options honestly."
+        },
+        {
+          "q": "Do you offer financing?",
+          "a": "Yes, special financing with approved credit through Wells Fargo’s Special Rate Financing program."
+        },
+        {
+          "q": "Do you install generators?",
+          "a": "Yes, we install and service Generac home standby generators."
+        },
+        {
+          "q": "Do you do plumbing too?",
+          "a": "Yes: repairs, drain cleaning, water heaters including tankless, leak detection, and faucets, toilets and sinks."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Too hot? Too cold?",
+      "text": "Call Atomic Heating & Air for repair, maintenance or a new system.",
+      "cta": {
+        "label": "Call (803) 270-2049",
+        "href": "tel:+18032702049"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Schedule *service*",
+    "formTitle": "Request service or a quote",
+    "formTopics": [
+      "AC repair",
+      "Heating repair",
+      "A new system",
+      "Maintenance",
+      "Indoor air quality",
+      "Generator",
+      "Plumbing"
+    ]
+  },
+  "slug": "atomic-heating-and-air",
+  "added": "2026-11-21",
+  "prospect": "atomic-heating-and-air",
+  "source": {
+    "url": "https://atomichvac.com/",
+    "before": [
+      "On the products page, the heading “UltraMAX EZUV” sits over a description of a different product, the Solaris PCO air purifier",
+      "On a phone, the first screen shows no phone number or call button",
+      "Google’s mobile score is 31 out of 100: the home page makes 224 separate downloads",
+      "Three links a screen reader can’t name, and four links that only stand out by colour"
+    ],
+    "after": [
+      "Every service, from AC repair to plumbing, on one page",
+      "A clear four-step promise for how service works",
+      "One tap to call, and a form that asks what’s wrong",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}

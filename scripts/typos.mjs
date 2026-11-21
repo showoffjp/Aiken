@@ -81,9 +81,15 @@ async function rendered(url) {
 
 function check(lines, page, found) {
   const reviewPage = REVIEWS.test(`${page.label} ${page.url}`);
+  // Review widgets set each review under a label ("Review by Google",
+  // "Five Star Review By") and a name with an initial ("Maria R:"); the next
+  // couple of lines are a customer's words, so they are left alone too.
+  let quoting = 0;
   for (const raw of lines) {
     const line = strip(raw.replace(/^#\d |^- /, ''));
-    const theirs = reviewPage || VOICE.test(line) || QUOTED.test(line.trim());
+    const marker = /\breview(ed)? by\b|^five star review/i.test(line) || /^[A-Z][\w'’-]+ [A-Z]\.?\s*:\s*$/.test(line.trim());
+    const theirs = reviewPage || quoting > 0 || VOICE.test(line) || QUOTED.test(line.trim());
+    quoting = marker ? 2 : Math.max(0, quoting - 1);
     if (SAMPLE.test(line)) {
       const k = 'sample';
       add(found, k, { kind: 'sample', word: (line.match(SAMPLE) || [''])[0], fix: '' }, page, line.slice(0, 120));

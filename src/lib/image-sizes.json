@@ -5190,5 +5190,385 @@
  "/demo-assets/brinkleys-chop-house/wagyu-640.webp": [
   640,
   853
+ ],
+ "/demo-assets/park-avenue-oyster-bar/oysters-and-cocktail.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/park-avenue-oyster-bar/upstairs-lounge.webp": [
+  1400,
+  933
+ ],
+ "/demo-assets/park-avenue-oyster-bar/private-room.webp": [
+  1400,
+  933
+ ],
+ "/demo-assets/park-avenue-oyster-bar/oyster-platter.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/ribeye.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/shrimp-and-grits.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/mussels.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/she-crab-soup.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/crab-fritters.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/fish.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/chicken-sandwich.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/park-avenue-oyster-bar/hushpuppies.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/carriage-house-inn/fountain.webp": [
+  1500,
+  1001
+ ],
+ "/demo-assets/carriage-house-inn/main-inn.webp": [
+  1000,
+  1500
+ ],
+ "/demo-assets/carriage-house-inn/front-porch.webp": [
+  1500,
+  1001
+ ],
+ "/demo-assets/carriage-house-inn/king-room.webp": [
+  1400,
+  1286
+ ],
+ "/demo-assets/carriage-house-inn/queen-room.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/carriage-house-inn/suite.webp": [
+  1400,
+  1136
+ ],
+ "/demo-assets/carriage-house-inn/sitting-room.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/carriage-house-inn/patio.webp": [
+  1100,
+  1312
+ ],
+ "/demo-assets/carriage-house-inn/breakfast-room.webp": [
+  1400,
+  1015
+ ],
+ "/demo-assets/carriage-house-inn/parfaits.webp": [
+  1400,
+  925
+ ],
+ "/demo-assets/carriage-house-inn/courtyard.webp": [
+  1500,
+  1001
+ ],
+ "/demo-assets/carriage-house-inn/guest-room.webp": [
+  1400,
+  1072
+ ],
+ "/demo-assets/atomic-heating-and-air/install-crew.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/atomic-heating-and-air/crane-lift.webp": [
+  1600,
+  910
+ ],
+ "/demo-assets/atomic-heating-and-air/team.webp": [
+  1080,
+  1620
+ ],
+ "/demo-assets/southbound-smokehouse/pulled-pork.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/southbound-smokehouse/bbq-platter.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/southbound-smokehouse/riverfront.webp": [
+  1600,
+  1133
+ ],
+ "/demo-assets/southbound-smokehouse/smoked-wings.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/southbound-smokehouse/tacos.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/southbound-smokehouse/ribs.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/southbound-smokehouse/burger-and-sauces.webp": [
+  1600,
+  1100
+ ],
+ "/demo-assets/southbound-smokehouse/live-music.webp": [
+  1600,
+  1067
+ ],
+ "/demo-assets/southbound-smokehouse/pork-bowl.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/southbound-smokehouse/river-deck.webp": [
+  800,
+  800
+ ],
+ "/demo-assets/atomic-heating-and-air/crane-lift-640.webp": [
+  640,
+  364
+ ],
+ "/demo-assets/atomic-heating-and-air/crane-lift-960.webp": [
+  960,
+  546
+ ],
+ "/demo-assets/atomic-heating-and-air/install-crew-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/atomic-heating-and-air/install-crew-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/atomic-heating-and-air/team-640.webp": [
+  640,
+  960
+ ],
+ "/demo-assets/carriage-house-inn/breakfast-room-640.webp": [
+  640,
+  464
+ ],
+ "/demo-assets/carriage-house-inn/breakfast-room-960.webp": [
+  960,
+  696
+ ],
+ "/demo-assets/carriage-house-inn/courtyard-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/carriage-house-inn/courtyard-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/carriage-house-inn/fountain-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/carriage-house-inn/fountain-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/carriage-house-inn/front-porch-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/carriage-house-inn/front-porch-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/carriage-house-inn/guest-room-640.webp": [
+  640,
+  490
+ ],
+ "/demo-assets/carriage-house-inn/guest-room-960.webp": [
+  960,
+  735
+ ],
+ "/demo-assets/carriage-house-inn/king-room-640.webp": [
+  640,
+  588
+ ],
+ "/demo-assets/carriage-house-inn/king-room-960.webp": [
+  960,
+  882
+ ],
+ "/demo-assets/carriage-house-inn/main-inn-640.webp": [
+  640,
+  960
+ ],
+ "/demo-assets/carriage-house-inn/parfaits-640.webp": [
+  640,
+  423
+ ],
+ "/demo-assets/carriage-house-inn/parfaits-960.webp": [
+  960,
+  634
+ ],
+ "/demo-assets/carriage-house-inn/patio-640.webp": [
+  640,
+  763
+ ],
+ "/demo-assets/carriage-house-inn/patio-960.webp": [
+  960,
+  1145
+ ],
+ "/demo-assets/carriage-house-inn/queen-room-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/carriage-house-inn/sitting-room-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/carriage-house-inn/sitting-room-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/carriage-house-inn/suite-640.webp": [
+  640,
+  519
+ ],
+ "/demo-assets/carriage-house-inn/suite-960.webp": [
+  960,
+  779
+ ],
+ "/demo-assets/park-avenue-oyster-bar/chicken-sandwich-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/crab-fritters-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/fish-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/hushpuppies-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/mussels-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/oyster-platter-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/oysters-and-cocktail-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/park-avenue-oyster-bar/oysters-and-cocktail-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/private-room-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/park-avenue-oyster-bar/private-room-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/ribeye-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/she-crab-soup-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/shrimp-and-grits-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/park-avenue-oyster-bar/upstairs-lounge-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/park-avenue-oyster-bar/upstairs-lounge-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/bbq-platter-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/burger-and-sauces-640.webp": [
+  640,
+  440
+ ],
+ "/demo-assets/southbound-smokehouse/burger-and-sauces-960.webp": [
+  960,
+  660
+ ],
+ "/demo-assets/southbound-smokehouse/live-music-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/southbound-smokehouse/live-music-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/pork-bowl-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/pulled-pork-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/southbound-smokehouse/pulled-pork-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/ribs-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/southbound-smokehouse/ribs-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/river-deck-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/riverfront-640.webp": [
+  640,
+  453
+ ],
+ "/demo-assets/southbound-smokehouse/riverfront-960.webp": [
+  960,
+  680
+ ],
+ "/demo-assets/southbound-smokehouse/smoked-wings-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/southbound-smokehouse/smoked-wings-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/southbound-smokehouse/tacos-640.webp": [
+  640,
+  640
  ]
 }
