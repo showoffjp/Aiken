@@ -39,7 +39,7 @@ function rankNote(key) {
 // "Google's own test" is the most recognizable proof point, when the gap is real.
 function lhNote(key) {
   const s = lighthouse[key]?.site, c = lighthouse[key]?.concept;
-  if (!s || s.error || !c || c.error || s.performance >= 50 || c.performance < 90) return '';
+  if (!s || s.error || !c || c.error || typeof s.performance !== 'number' || typeof c.performance !== 'number' || s.performance >= 50 || c.performance < 90) return '';
   return `Google's own Lighthouse test scores the home page ${s.performance} out of 100 for performance on a phone (the concept scores ${c.performance})`;
 }
 // What a phone shows while the page loads (scripts/filmstrip.mjs): worth a line

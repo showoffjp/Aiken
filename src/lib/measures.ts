@@ -22,7 +22,8 @@ export function measures(demo: Demo): Measure[] {
   if (ok(film?.site) && film.site.frames && ok(film?.concept) && film.concept.first != null && (film.site.first == null || film.site.first > film.concept.first + 800)) {
     out.push({ label: 'On screen on a slow phone', today: film.site.first == null ? 'Still blank at 12 s' : `${(film.site.first / 1000).toFixed(1)} s`, concept: `${(film.concept.first / 1000).toFixed(1)} s` });
   }
-  if (ok(lh?.site) && ok(lh?.concept) && lh.concept.performance > lh.site.performance) {
+  // A page Lighthouse could not time (no largest paint) has no performance score at all: never a comparison.
+  if (ok(lh?.site) && ok(lh?.concept) && typeof lh.site.performance === 'number' && typeof lh.concept.performance === 'number' && lh.concept.performance > lh.site.performance) {
     out.push({ label: 'Google Lighthouse speed', today: `${lh.site.performance} / 100`, concept: `${lh.concept.performance} / 100` });
   }
   if (w?.site?.bytes && w?.concept?.bytes && w.site.bytes > w.concept.bytes * 1.3) {

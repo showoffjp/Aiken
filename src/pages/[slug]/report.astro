@@ -54,7 +54,7 @@ const say = (t: number) => (t < 1 ? 'under a second' : t < 90 ? `about ${Math.ro
 type LH = { performance: number; accessibility: number; lcp: number; error?: string };
 let lh: { site?: LH; concept?: LH } = {};
 try { lh = JSON.parse(readFileSync(path.join(root, 'data', 'lighthouse.json'), 'utf8'))[demo.prospect || demo.slug] || {}; } catch {}
-const showLh = !!(lh.site && !lh.site.error && lh.concept && !lh.concept.error && lh.concept.performance > lh.site.performance);
+const showLh = !!(lh.site && !lh.site.error && lh.concept && !lh.concept.error && typeof lh.site.performance === 'number' && typeof lh.concept.performance === 'number' && typeof lh.site.lcp === 'number' && typeof lh.concept.lcp === 'number' && lh.concept.performance > lh.site.performance);
 const band = (n: number) => (n >= 90 ? 'good' : n >= 50 ? 'ok' : 'poor');
 const lhRows = showLh ? [
   { label: 'Performance', site: lh.site!.performance, concept: lh.concept!.performance },
