@@ -1829,16 +1829,28 @@
  },
  "burrell-and-flynns-farm": {
   "site": {
-   "performance": 83,
+   "performance": 89,
    "accessibility": 77,
    "bestPractices": 100,
    "seo": 100,
-   "fcp": 1848,
-   "lcp": 2950,
-   "tbt": 263,
-   "si": 5889,
+   "fcp": 1620,
+   "lcp": 2723,
+   "tbt": 195,
+   "si": 5050,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1056,
+   "lcp": 2256,
+   "tbt": 179,
+   "si": 1056,
+   "cls": 0.002,
+   "at": "2026-11-21"
   }
  },
  "c-wallace-design": {
@@ -4553,6 +4565,58 @@
    "lcp": 2336,
    "tbt": 180,
    "si": 974,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "lookaway-inn": {
+  "site": {
+   "performance": 66,
+   "accessibility": 76,
+   "bestPractices": 93,
+   "seo": 77,
+   "fcp": 2834,
+   "lcp": 4754,
+   "tbt": 469,
+   "si": 3252,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2854,
+   "tbt": 77,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
+  }
+ },
+ "the-larder": {
+  "site": {
+   "performance": 54,
+   "accessibility": 95,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 3128,
+   "lcp": 10159,
+   "tbt": 511,
+   "si": 4257,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2554,
+   "tbt": 18,
+   "si": 1204,
    "cls": 0,
    "at": "2026-11-21"
   }

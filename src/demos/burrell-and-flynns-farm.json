@@ -1,0 +1,328 @@
+{
+  "name": "Burrell and Flynn’s Farm",
+  "short": "Burrell & Flynn’s",
+  "category": "Bed & Breakfast",
+  "group": "Stay & Play",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f9f7f3",
+    "surface": "#ffffff",
+    "ink": "#1b1d1c",
+    "muted": "#585d5a",
+    "primary": "#2d3b33",
+    "onPrimary": "#ffffff",
+    "accent": "#b4935b",
+    "line": "#e6e1d7"
+  },
+  "radius": 4,
+  "icon": "house",
+  "contact": {
+    "phone": "(843) 323-0768",
+    "address": [
+      "3057 Charleston Highway",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Burrell and Flynn's Farm, 3057 Charleston Hwy, Aiken, SC 29801",
+    "facebook": "https://www.facebook.com/profile.php?id=61563897152004",
+    "instagram": "https://www.instagram.com/burrellandflynnsfarm/"
+  },
+  "hero": {
+    "eyebrow": "A bed and breakfast in Aiken, South Carolina",
+    "title": "Aiken’s *best-kept secret*",
+    "lede": "Two rooms and a private suite in a historic Southern home, with a gourmet breakfast, an evening wine and charcuterie hour, and a saltwater pool. A short trip to downtown Aiken, and a home base for the Masters.",
+    "points": [
+      "Gourmet breakfast",
+      "Saltwater pool",
+      "Wine & charcuterie hour"
+    ],
+    "cta": {
+      "label": "Check availability",
+      "href": "https://app.thebookingbutton.com/properties/burrellandflynnsfarm"
+    },
+    "cta2": {
+      "label": "Call (843) 323-0768",
+      "href": "tel:+18433230768"
+    },
+    "image": {
+      "src": "/demo-assets/burrell-and-flynns-farm/front-portico.webp",
+      "alt": "The farm’s white Southern home with a columned portico, palm trees and a gravel drive",
+      "width": 1800,
+      "height": 1120
+    }
+  },
+  "facts": [
+    {
+      "value": "From $225",
+      "label": "A night, Deluxe King Room"
+    },
+    {
+      "value": "Saltwater",
+      "label": "Pool with sun loungers"
+    },
+    {
+      "value": "Evenings",
+      "label": "Complimentary wine & charcuterie"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rooms",
+      "nav": "Rooms",
+      "columns": 3,
+      "eyebrow": "Stay with us",
+      "title": "Our *rooms*",
+      "items": [
+        {
+          "icon": "bed-double",
+          "title": "Deluxe King Room",
+          "text": "From $225. A king panel bed, a sitting area in the light of grand windows, double closets, a 50″ smart TV and a Nespresso machine. Its own bathroom next door, with a standalone tub and walk-in shower, opens with a private code."
+        },
+        {
+          "icon": "bed",
+          "title": "Deluxe Queen Room",
+          "text": "A queen panel bed, an en-suite bath with tub and shower, a walk-in closet, a dedicated workspace, a 43″ smart TV and a mini fridge stocked with water and soda."
+        },
+        {
+          "icon": "crown",
+          "title": "Deluxe Private Double Suite",
+          "text": "From $595. Three rooms: a four-poster king, an adjoining queen room and a private sitting area with a large trundle bed. Walk-in shower, double vanity and a 55″ gallery TV."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "included",
+      "nav": "Included",
+      "eyebrow": "In every stay",
+      "title": "Thought of *everything*",
+      "columns": [
+        {
+          "title": "Mornings",
+          "items": [
+            "A full gourmet breakfast, or takeaway snacks if you’re heading out early",
+            "Nespresso machine and pods",
+            "Plush robes and premium toiletries"
+          ]
+        },
+        {
+          "title": "Evenings",
+          "items": [
+            "Complimentary wine and charcuterie hour",
+            "A shared patio with dining area, fire table and Green Egg grill",
+            "Turndown service"
+          ]
+        },
+        {
+          "title": "Always",
+          "items": [
+            "Saltwater pool with sun loungers",
+            "Bottled water, WiFi and free parking",
+            "All guest rooms are upstairs, on the second floor"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "The farm",
+      "title": "Come *and see*",
+      "images": [
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/pool.webp",
+          "alt": "The saltwater pool, with blue loungers and a red barn beyond",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/king-room.webp",
+          "alt": "The Deluxe King Room, with a dark wood panel bed and a sitting area",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/suite.webp",
+          "alt": "The suite’s four-poster king bed",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/queen-room.webp",
+          "alt": "The Deluxe Queen Room",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/deck.webp",
+          "alt": "The deck, with lounge chairs looking out over the pool",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/living-room.webp",
+          "alt": "A bright living room with white sofas",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/dining.webp",
+          "alt": "A dining table set before shelves of books and art",
+          "width": 1400,
+          "height": 935
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/staircase.webp",
+          "alt": "The front hall and staircase",
+          "width": 1400,
+          "height": 935
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/foyer.webp",
+          "alt": "A round table in the entry hall under a lantern",
+          "width": 1400,
+          "height": 935
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/bath.webp",
+          "alt": "A bathroom with a black vanity and patterned tile",
+          "width": 1200,
+          "height": 801
+        },
+        {
+          "src": "/demo-assets/burrell-and-flynns-farm/upper-deck.webp",
+          "alt": "An egg chair and sofa on the upper deck",
+          "width": 1600,
+          "height": 1069
+        }
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *guests say*",
+      "items": [
+        {
+          "text": "WOW! What a hidden gem! … It turned out to be one of the best travel experiences we’ve had! No stone was left unturned.",
+          "by": "Solange B."
+        },
+        {
+          "text": "When I say they thought of everything to make your stay enjoyable, I mean everything.",
+          "by": "Christy Y."
+        },
+        {
+          "text": "The patio and pool was the perfect way to end the night with a drink and a great charcuterie board. Then to wake up with a home cooked breakfast and a coffee was even more Amazing.",
+          "by": "Roni C."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "aiken",
+      "nav": "In Aiken",
+      "eyebrow": "On your doorstep",
+      "title": "Aiken, *all year*",
+      "columns": [
+        {
+          "title": "Horses",
+          "items": [
+            "The Aiken Steeplechase in March",
+            "The Aiken Horse Show at Bruce’s Field",
+            "The Aiken Charity Horse Show at the Aiken Horse Park",
+            "Pacers & Polo"
+          ]
+        },
+        {
+          "title": "Golf",
+          "items": [
+            "The Masters at Augusta National, every April"
+          ]
+        },
+        {
+          "title": "Town",
+          "items": [
+            "Tree-lined streets",
+            "Shopping and dining in downtown Aiken"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Is breakfast included?",
+          "a": "Yes: your choice of a full gourmet breakfast or convenient takeaway snacks."
+        },
+        {
+          "q": "Are the rooms on the ground floor?",
+          "a": "All of our guest rooms are on the second floor of the home."
+        },
+        {
+          "q": "Is the suite good for a group?",
+          "a": "Yes. The Private Double Suite has a king, a queen and a large trundle bed across three rooms, ideal for couples or small groups."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Your Aiken getaway starts here",
+      "text": "See which rooms are free for your dates.",
+      "cta": {
+        "label": "Check availability",
+        "href": "https://app.thebookingbutton.com/properties/burrellandflynnsfarm"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Charleston Highway*",
+    "formTitle": "Ask about a stay",
+    "formTopics": [
+      "A room for my dates",
+      "The private suite",
+      "A stay for the Masters",
+      "Something else"
+    ]
+  },
+  "slug": "burrell-and-flynns-farm",
+  "added": "2026-11-21",
+  "prospect": "burrell-and-flynns-farm",
+  "source": {
+    "url": "https://www.burrellandflynnsfarm.com/",
+    "before": [
+      "A typo on the home page: “View Our Accomodations”",
+      "The welcome, “Aiken’s best kept secret..”, is thin white lettering over a bright photo, and hard to read",
+      "On the booking page, the footer sits on top of the list of rooms, and the footer menu has a link called “404”",
+      "Out-of-date pages: the events list still shows October and November 2025, and Farm Dogs says both “NOW OPEN” and “Opening September”",
+      "On a phone, the first screen shows no phone number or call button",
+      "71 of the site’s 92 images have no description for people who use screen readers"
+    ],
+    "after": [
+      "Every room, with prices and what’s included, on one page",
+      "Availability one tap away, on every screen",
+      "Guests’ own words up front",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "underline"
+  }
+}

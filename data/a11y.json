@@ -3271,7 +3271,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "build-on-your-land-llc": {
@@ -6790,7 +6800,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "macks": {
@@ -9688,7 +9708,17 @@
      "nodes": 24
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "the-reserve-club-at-woodside": {

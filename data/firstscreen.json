@@ -609,6 +609,26 @@
    "at": "2026-11-19"
   }
  },
+ "burrell-and-flynns-farm": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 15,
+   "smallTargets": 6,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 44,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "c-wallace-design": {
   "site": {
    "call": false,
@@ -1483,6 +1503,26 @@
    "at": "2026-11-19"
   }
  },
+ "lookaway-inn": {
+  "site": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 33,
+   "smallTargets": 5,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 45,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "los-tres-compadres": {
   "concept": {
    "call": true,
@@ -2275,6 +2315,26 @@
    "targets": 28,
    "smallTargets": 13,
    "at": "2026-11-19"
+  }
+ },
+ "the-larder": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 12,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 46,
+   "smallTargets": 0,
+   "at": "2026-11-21"
   }
  },
  "the-restaurant-at-the-willcox": {
