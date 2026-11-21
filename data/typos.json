@@ -750,5 +750,44 @@
   "at": "2026-11-21T11:18:48.827Z",
   "pages": 8,
   "found": []
+ },
+ "lookaway-inn": {
+  "at": "2026-11-21T14:23:51.066Z",
+  "pages": 7,
+  "found": []
+ },
+ "the-larder": {
+  "at": "2026-11-21T14:24:42.145Z",
+  "pages": 10,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Chipolte",
+    "fix": "Chipotle",
+    "count": 2,
+    "page": "https://www.hflarder.com/specials-1",
+    "label": "Weekly Specials",
+    "context": "6 Stuffed Jumbo tater tots served with Chipolte Ranch",
+    "shown": "on screen",
+    "pages": 2
+   }
+  ]
+ },
+ "burrell-and-flynns-farm": {
+  "at": "2026-11-21T14:23:55.212Z",
+  "pages": 11,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Accomodations",
+    "fix": "Accommodations",
+    "count": 1,
+    "page": "https://www.burrellandflynnsfarm.com/",
+    "label": "Home",
+    "context": "View Our Accomodations",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
  }
 }

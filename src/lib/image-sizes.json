@@ -5786,5 +5786,393 @@
  "/demo-assets/quality-printing/wall-graphic-960.webp": [
   960,
   663
+ ],
+ "/demo-assets/the-larder/exterior-night.webp": [
+  905,
+  1035
+ ],
+ "/demo-assets/the-larder/patio.webp": [
+  1086,
+  1448
+ ],
+ "/demo-assets/the-larder/burger.webp": [
+  1200,
+  1798
+ ],
+ "/demo-assets/the-larder/fried-shrimp.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/the-larder/cocktail.webp": [
+  1000,
+  1333
+ ],
+ "/demo-assets/the-larder/salmon.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/the-larder/bavette.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/the-larder/dip.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/the-larder/patio-lunch.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/the-larder/half-chicken.webp": [
+  1200,
+  1500
+ ],
+ "/demo-assets/lookaway-inn/mansion.webp": [
+  1800,
+  1143
+ ],
+ "/demo-assets/lookaway-inn/four-poster.webp": [
+  1100,
+  1467
+ ],
+ "/demo-assets/lookaway-inn/veranda-door.webp": [
+  1400,
+  999
+ ],
+ "/demo-assets/lookaway-inn/king-room.webp": [
+  1100,
+  1467
+ ],
+ "/demo-assets/lookaway-inn/double-queen.webp": [
+  1100,
+  1467
+ ],
+ "/demo-assets/lookaway-inn/sitting-room.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/lookaway-inn/bay-window.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/lookaway-inn/detail.webp": [
+  1400,
+  767
+ ],
+ "/demo-assets/lookaway-inn/green-room.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/lookaway-inn/twin-room.webp": [
+  1400,
+  767
+ ],
+ "/demo-assets/lookaway-inn/corner-room.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/burrell-and-flynns-farm/front-portico.webp": [
+  1800,
+  1120
+ ],
+ "/demo-assets/burrell-and-flynns-farm/pool.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/deck.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/upper-deck.webp": [
+  1600,
+  1069
+ ],
+ "/demo-assets/burrell-and-flynns-farm/king-room.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/queen-room.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/suite.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/living-room.webp": [
+  1600,
+  1068
+ ],
+ "/demo-assets/burrell-and-flynns-farm/foyer.webp": [
+  1400,
+  935
+ ],
+ "/demo-assets/burrell-and-flynns-farm/staircase.webp": [
+  1400,
+  935
+ ],
+ "/demo-assets/burrell-and-flynns-farm/dining.webp": [
+  1400,
+  935
+ ],
+ "/demo-assets/burrell-and-flynns-farm/bath.webp": [
+  1200,
+  801
+ ],
+ "/demo-assets/burrell-and-flynns-farm/bath-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/bath-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/deck-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/deck-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/dining-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/dining-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/foyer-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/foyer-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/front-portico-640.webp": [
+  640,
+  398
+ ],
+ "/demo-assets/burrell-and-flynns-farm/front-portico-960.webp": [
+  960,
+  597
+ ],
+ "/demo-assets/burrell-and-flynns-farm/king-room-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/king-room-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/living-room-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/living-room-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/pool-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/pool-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/queen-room-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/queen-room-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/staircase-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/staircase-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/suite-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/burrell-and-flynns-farm/suite-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/burrell-and-flynns-farm/upper-deck-640.webp": [
+  640,
+  428
+ ],
+ "/demo-assets/burrell-and-flynns-farm/upper-deck-960.webp": [
+  960,
+  641
+ ],
+ "/demo-assets/lookaway-inn/bay-window-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/lookaway-inn/bay-window-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/lookaway-inn/corner-room-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/lookaway-inn/corner-room-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/lookaway-inn/detail-640.webp": [
+  640,
+  351
+ ],
+ "/demo-assets/lookaway-inn/detail-960.webp": [
+  960,
+  526
+ ],
+ "/demo-assets/lookaway-inn/double-queen-640.webp": [
+  640,
+  854
+ ],
+ "/demo-assets/lookaway-inn/double-queen-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/lookaway-inn/four-poster-640.webp": [
+  640,
+  854
+ ],
+ "/demo-assets/lookaway-inn/four-poster-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/lookaway-inn/green-room-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/lookaway-inn/green-room-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/lookaway-inn/king-room-640.webp": [
+  640,
+  854
+ ],
+ "/demo-assets/lookaway-inn/king-room-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/lookaway-inn/mansion-640.webp": [
+  640,
+  406
+ ],
+ "/demo-assets/lookaway-inn/mansion-960.webp": [
+  960,
+  610
+ ],
+ "/demo-assets/lookaway-inn/sitting-room-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/lookaway-inn/sitting-room-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/lookaway-inn/twin-room-640.webp": [
+  640,
+  351
+ ],
+ "/demo-assets/lookaway-inn/twin-room-960.webp": [
+  960,
+  526
+ ],
+ "/demo-assets/lookaway-inn/veranda-door-640.webp": [
+  640,
+  457
+ ],
+ "/demo-assets/lookaway-inn/veranda-door-960.webp": [
+  960,
+  685
+ ],
+ "/demo-assets/the-larder/bavette-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/the-larder/bavette-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/the-larder/burger-640.webp": [
+  640,
+  959
+ ],
+ "/demo-assets/the-larder/burger-960.webp": [
+  960,
+  1438
+ ],
+ "/demo-assets/the-larder/cocktail-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/the-larder/dip-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/the-larder/dip-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/the-larder/exterior-night-640.webp": [
+  640,
+  732
+ ],
+ "/demo-assets/the-larder/fried-shrimp-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/the-larder/fried-shrimp-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/the-larder/half-chicken-640.webp": [
+  640,
+  800
+ ],
+ "/demo-assets/the-larder/half-chicken-960.webp": [
+  960,
+  1200
+ ],
+ "/demo-assets/the-larder/patio-lunch-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/the-larder/patio-lunch-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/the-larder/patio-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/the-larder/patio-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/the-larder/salmon-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/the-larder/salmon-960.webp": [
+  960,
+  720
  ]
 }

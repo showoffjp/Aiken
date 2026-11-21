@@ -246,6 +246,14 @@
   "missing": true,
   "at": "2026-11-19"
  },
+ "burrell-and-flynns-farm": {
+  "q": "3057 Charleston Highway, Aiken, SC 29801",
+  "lat": 33.527297,
+  "lon": -81.633186,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "c-wallace-design": {
   "q": "241 Cheltenham Drive, Aiken, SC 29803",
   "lat": 33.489899,
@@ -645,6 +653,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "lookaway-inn": {
+  "q": "103 West Forest Avenue, North Augusta, SC 29841",
+  "lat": 33.498199,
+  "lon": -81.969075,
+  "kind": "tourism",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "los-tres-compadres": {
   "q": "3566 Richland Avenue West, Aiken, SC 29801",
   "lat": 33.563752,
@@ -1028,6 +1044,14 @@
   "kind": "building",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "the-larder": {
+  "q": "89 Crystal Lake Drive, North Augusta, SC 29841",
+  "lat": 33.489961,
+  "lon": -81.981276,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "the-massage-maven": {
   "q": "1204 Whiskey Road, Suite E, Aiken, SC 29801",

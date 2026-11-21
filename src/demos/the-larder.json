@@ -1,0 +1,478 @@
+{
+  "name": "The Larder at Hammond’s Ferry",
+  "short": "The Larder",
+  "category": "Restaurant & Bar",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bitter",
+    "body": "work-sans"
+  },
+  "colors": {
+    "bg": "#fbf4e6",
+    "surface": "#fffaf0",
+    "ink": "#2b1d14",
+    "muted": "#68523f",
+    "primary": "#b9471f",
+    "onPrimary": "#ffffff",
+    "accent": "#e0873f",
+    "line": "#ecdcc2"
+  },
+  "radius": 10,
+  "icon": "utensils",
+  "contact": {
+    "phone": "(803) 599-5149",
+    "address": [
+      "89 Crystal Lake Drive",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "89 Crystal Lake Dr, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Tuesday",
+        "Closed"
+      ],
+      [
+        "Wednesday – Friday",
+        "4:00 – 10:00 pm"
+      ],
+      [
+        "Saturday",
+        "10:00 am – 10:00 pm"
+      ],
+      [
+        "Sunday",
+        "10:00 am – 9:00 pm"
+      ]
+    ],
+    "hoursNote": "Brunch Saturday and Sunday, 10 am to 2 pm. Happy hour at the bar, Wednesday to Friday, 5 to 6 pm.",
+    "facebook": "https://www.facebook.com/hflarder",
+    "instagram": "https://www.instagram.com/hf_larder/"
+  },
+  "hero": {
+    "eyebrow": "Chef-owned, at the entrance to Hammond’s Ferry",
+    "title": "Small plates, *craft cocktails*",
+    "lede": "A full bar, daily specials and locally sourced dishes from chef-owner Manuel Verney-Carron, cooked so the ingredients speak for themselves. Brunch on weekends, trivia twice a week.",
+    "points": [
+      "Brunch Sat & Sun",
+      "Weekly specials",
+      "Order online"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Order online",
+      "href": "https://order.tbdine.com/pickup/7032/menu"
+    },
+    "image": {
+      "src": "/demo-assets/the-larder/exterior-night.webp",
+      "alt": "The Larder’s two-story building at night, with string lights over the patio",
+      "width": 905,
+      "height": 1035
+    }
+  },
+  "facts": [
+    {
+      "value": "Weekly",
+      "label": "Specials from the kitchen"
+    },
+    {
+      "value": "Sat & Sun",
+      "label": "Brunch, 10 am to 2 pm"
+    },
+    {
+      "value": "5 – 6 pm",
+      "label": "Happy hour, Wednesday to Friday"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Dinner",
+      "title": "The *menu*",
+      "printLabel": "Print the menu",
+      "groups": [
+        {
+          "title": "Tapas",
+          "items": [
+            {
+              "name": "Fried Pickles",
+              "desc": "Sliced dill pickle chips, battered and fried. Served with house-made ranch.",
+              "price": "$10"
+            },
+            {
+              "name": "Spicy Feta Dip",
+              "desc": "House made, topped with green onion. Served with pita bread.",
+              "price": "$13"
+            },
+            {
+              "name": "Pimento Cheese Dip",
+              "desc": "Home-made pimento cheese. Served with house chips.",
+              "price": "$13"
+            },
+            {
+              "name": "Fried Avocados",
+              "desc": "Sliced avocados, seasoned and battered. Served with chipotle ranch.",
+              "price": "$12"
+            },
+            {
+              "name": "Papas Bravas",
+              "desc": "Roasted & fried marble potatoes, spicy red brava sauce, garlic aioli.",
+              "price": "$12"
+            },
+            {
+              "name": "Larder Totchos Plate",
+              "desc": "Golden fried tater tots with house chili, cheddar cheese, green onions and parsley.",
+              "price": "$15"
+            },
+            {
+              "name": "Asian Tuna Nachos",
+              "desc": "Marinated ahi tuna, house guacamole, wasabi aioli & sriracha aioli over fried wontons with green onions.",
+              "price": "$22"
+            }
+          ]
+        },
+        {
+          "title": "Salads",
+          "note": "Add chicken tenders +$8, burger patty +$12, sautéed shrimp +$12, smoked salmon +$12",
+          "items": [
+            {
+              "name": "Burrata Salad",
+              "desc": "Roma tomatoes, mixed greens, prepared seasonal fruit, basil vinaigrette.",
+              "price": "$19.5"
+            },
+            {
+              "name": "House Salad",
+              "desc": "Cucumbers, red onion, tomatoes, spring mix, house red wine vinaigrette.",
+              "price": "$12"
+            },
+            {
+              "name": "Big Greek Salad",
+              "desc": "Roma tomatoes, red onions, pepperoncini, roasted red peppers, kalamata olives, feta, Greek vinaigrette.",
+              "price": "$22"
+            }
+          ]
+        },
+        {
+          "title": "Jumbo wings",
+          "items": [
+            {
+              "name": "Eight jumbo wings",
+              "desc": "Buffalo, Cajun, Caribbean Jerk, Chipotle Ranch, Furiously French, Lemon Pepper, Teriyaki or Barbecue.",
+              "price": "$23"
+            }
+          ]
+        },
+        {
+          "title": "Flatbreads",
+          "note": "On toasted naan",
+          "items": [
+            {
+              "name": "Bacon and Goat Cheese",
+              "desc": "Crumbled bacon, goat cheese, caramelized onions.",
+              "price": "$16"
+            },
+            {
+              "name": "Caprese",
+              "desc": "Tomato, provolone, fresh mozzarella, basil, balsamic glaze.",
+              "price": "$14"
+            },
+            {
+              "name": "Smoked Salmon",
+              "desc": "Boursin cheese, sliced smoked salmon, diced red onions, fresh dill.",
+              "price": "$18"
+            },
+            {
+              "name": "Chicken Bacon Ranch",
+              "desc": "Fried chicken, crispy bacon, provolone, green onion and ranch drizzle.",
+              "price": "$17"
+            }
+          ]
+        },
+        {
+          "title": "Sandwiches",
+          "note": "Served with a side",
+          "items": [
+            {
+              "name": "Crispy Bacon Swiss Burger",
+              "desc": "8 oz angus beef patty, bacon, sautéed onions, jalapeños, swiss cheese and sriracha aioli on a brioche bun.",
+              "price": "$22"
+            },
+            {
+              "name": "Larder Burger",
+              "desc": "8 oz angus beef patty, spring mix, tomato, red onion, provolone, garlic aioli on a brioche bun.",
+              "price": "$20"
+            },
+            {
+              "name": "Cubano",
+              "desc": "Sliced Cuban-seasoned pork, Black Forest ham, slow-roasted pulled pork, swiss cheese, pickles and yellow mustard.",
+              "price": "$20"
+            },
+            {
+              "name": "The Ribeye Melt",
+              "desc": "Shaved ribeye, sautéed onions and jalapeños, provolone, cheddar and horseradish aioli on a hoagie roll.",
+              "price": "$20"
+            },
+            {
+              "name": "Larder Chili Dog",
+              "desc": "All-beef hot dog, homemade chili, house coleslaw and diced onions.",
+              "price": "$13"
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "desc": "Slow-roasted pulled pork, Dijon Carolina BBQ sauce, pickled onions, house coleslaw on a brioche bun.",
+              "price": "$18"
+            },
+            {
+              "name": "Hot Honey Chicken & Goat Cheese Sliders",
+              "desc": "Three sliders with fried chicken breast, house hot honey, goat cheese and green onions.",
+              "price": "$16.5"
+            }
+          ]
+        },
+        {
+          "title": "Entrées",
+          "items": [
+            {
+              "name": "Argentinian Steak",
+              "desc": "New York strip, house chimichurri, roasted potatoes and seasonal vegetable.",
+              "price": "$35"
+            },
+            {
+              "name": "Butter Herb-Roasted Half Chicken",
+              "desc": "Slow-roasted, with crispy potato wedges, seasonal vegetable and butter shallot wine gravy.",
+              "price": "$28"
+            },
+            {
+              "name": "Fish & Chips",
+              "desc": "Tempura beer-battered cod topped with Cajun seasoning, served with house potato wedges.",
+              "price": "$25"
+            },
+            {
+              "name": "Creamy Marinara Shrimp Pasta",
+              "desc": "Sautéed shrimp in butter and garlic with pappardelle in creamy marinara, served with toast points.",
+              "price": "$28.5"
+            },
+            {
+              "name": "3 Taco Plate",
+              "desc": "Shaved steak, fried chicken or shrimp, each with house jalapeño pico de gallo, guacamole and cheddar.",
+              "price": "$19"
+            }
+          ]
+        },
+        {
+          "title": "Sides",
+          "items": [
+            {
+              "name": "House Potato Chips",
+              "price": "$6"
+            },
+            {
+              "name": "Tater Tots",
+              "price": "$8"
+            },
+            {
+              "name": "Sweet Potato Waffle Fries",
+              "price": "$8"
+            },
+            {
+              "name": "Cajun Pork Rinds",
+              "price": "$6"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the restaurant’s current menu; prices may change. New specials every week."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "lär·der, noun",
+      "title": "A room for *storing food*",
+      "image": {
+        "src": "/demo-assets/the-larder/patio.webp",
+        "alt": "The Larder’s patio, with umbrellas and an American flag on the corner of the building",
+        "width": 1086,
+        "height": 1448
+      },
+      "body": [
+        "The Larder takes its name from the old English word for “pantry”, a nod to Manuel Verney-Carron’s European heritage and to being the place for provisions in the neighborhood.",
+        "Locally sourced dishes and specialty food items harken back to the way food used to be prepared: cooking for friends and neighbors, with techniques that let the ingredients speak for themselves. Art by local artists hangs throughout the restaurant."
+      ],
+      "list": [
+        "Chef-owned",
+        "Locally sourced",
+        "Local art on the walls"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "week",
+      "nav": "This week",
+      "eyebrow": "Something every night",
+      "title": "Your week *at The Larder*",
+      "columns": [
+        {
+          "title": "Trivia",
+          "items": [
+            "Thursday and Saturday at 6:30 pm"
+          ]
+        },
+        {
+          "title": "Karaoke",
+          "items": [
+            "The first Friday of every month, 6 to 9 pm"
+          ]
+        },
+        {
+          "title": "Brunch",
+          "items": [
+            "Saturday and Sunday, 10 am to 2 pm"
+          ]
+        },
+        {
+          "title": "Happy hour",
+          "items": [
+            "At the bar, Wednesday to Friday, 5 to 6 pm"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "From the kitchen",
+      "title": "Fresh *off the line*",
+      "images": [
+        {
+          "src": "/demo-assets/the-larder/bavette.webp",
+          "alt": "Sliced flank steak with a red wine shallot sauce and a loaded baked potato",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/the-larder/half-chicken.webp",
+          "alt": "Butter herb-roasted half chicken with potato wedges",
+          "width": 1200,
+          "height": 1500
+        },
+        {
+          "src": "/demo-assets/the-larder/burger.webp",
+          "alt": "A burger in a checkered paper-lined basket, with a beer behind it",
+          "width": 1200,
+          "height": 1798
+        },
+        {
+          "src": "/demo-assets/the-larder/fried-shrimp.webp",
+          "alt": "A basket of fried shrimp with a dipping sauce",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/the-larder/cocktail.webp",
+          "alt": "A bright pink cocktail with a sugared rim",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/the-larder/salmon.webp",
+          "alt": "A seared salmon fillet with a fresh tomato sauce on the side",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/the-larder/dip.webp",
+          "alt": "A bowl of dip with toasted pita triangles",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/the-larder/patio-lunch.webp",
+          "alt": "A wrap and house chips on the patio, next to the dinner specials board",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can I order for pickup?",
+          "a": "Yes. Order online for pickup, or call (803) 599-5149."
+        },
+        {
+          "q": "Can I book a private party?",
+          "a": "Yes. We are closed to the public on Mondays and Tuesdays, but would love to host your birthday dinner, special occasion or corporate party, indoors or outdoors. Rates depend on the date, how long you need the space, group size and menu. Call (803) 599-5149 with your name, the type of event, the date and the number of guests."
+        },
+        {
+          "q": "Do you have specials?",
+          "a": "Every week: new dishes and a cocktail special, posted on the Specials page."
+        },
+        {
+          "q": "Do you sell gift cards?",
+          "a": "Yes, online."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry yet?",
+      "text": "Order online for pickup, or call for a table.",
+      "cta": {
+        "label": "Order online",
+        "href": "https://order.tbdine.com/pickup/7032/menu"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us at *Hammond’s Ferry*",
+    "formTitle": "Ask about a table or a party",
+    "formTopics": [
+      "A table for dinner",
+      "Weekend brunch",
+      "A private party",
+      "Something else"
+    ]
+  },
+  "slug": "the-larder",
+  "added": "2026-11-21",
+  "prospect": "the-larder",
+  "source": {
+    "url": "https://www.hflarder.com/",
+    "before": [
+      "On the home page, the Dinner, Brunch and Drink menu links all end on “page not found”, and so does the link to the local artists’ work",
+      "A typo in the weekly specials: “Chipolte Ranch”",
+      "On a phone, the first screen shows no phone number or call button",
+      "A 5.3 MB home page: in Google’s slow-phone test the main picture takes 10.2 seconds, and the mobile score is 54 out of 100",
+      "24 spots of low-contrast text that’s hard to read"
+    ],
+    "after": [
+      "The whole menu on one page, with prices and a print button",
+      "Hours with an “Open now” sign, brunch and happy hour included",
+      "Online ordering and private parties one tap away",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "services": "list",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "plain",
+    "motion": "flip",
+    "buttons": "shadow"
+  }
+}

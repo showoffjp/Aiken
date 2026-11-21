@@ -1,0 +1,349 @@
+{
+  "name": "Lookaway Inn",
+  "short": "Lookaway Inn",
+  "category": "Historic Inn & Bed and Breakfast",
+  "group": "Stay & Play",
+  "town": "North Augusta, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f7f4ee",
+    "surface": "#ffffff",
+    "ink": "#1d2723",
+    "muted": "#55625c",
+    "primary": "#2f5a4c",
+    "onPrimary": "#ffffff",
+    "accent": "#b58a4a",
+    "line": "#e3ddd1"
+  },
+  "radius": 6,
+  "icon": "landmark",
+  "cinematic": true,
+  "contact": {
+    "phone": "(803) 426-1030",
+    "email": "info@lookawayinn.com",
+    "phone2": "(803) 221-2044",
+    "phone2Label": "Events & weddings",
+    "address": [
+      "103 West Forest Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Lookaway Inn, 103 W Forest Ave, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/LookawayinnNA",
+    "instagram": "https://www.instagram.com/lookawayinn/"
+  },
+  "hero": {
+    "eyebrow": "A historic bed and breakfast in North Augusta",
+    "title": "A Southern mansion, *turn-of-the-century charm*",
+    "lede": "Fifteen rooms with antique furnishings and private baths, five of them in the historic mansion itself. Breakfast is included, parking and WiFi are free, and SRP Park is about a mile away.",
+    "points": [
+      "Breakfast included",
+      "Private bath in every room",
+      "Free parking"
+    ],
+    "cta": {
+      "label": "Check availability",
+      "href": "https://app.littlehotelier.com/properties/lookawayinndirect"
+    },
+    "cta2": {
+      "label": "Call (803) 426-1030",
+      "href": "tel:+18034261030"
+    },
+    "image": {
+      "src": "/demo-assets/lookaway-inn/mansion.webp",
+      "alt": "Lookaway Inn: a white-columned Southern mansion under a live oak, beside a glass conservatory",
+      "width": 1800,
+      "height": 1143
+    }
+  },
+  "facts": [
+    {
+      "value": "15",
+      "label": "Rooms, each with a private bath"
+    },
+    {
+      "value": "Included",
+      "label": "Breakfast with every stay"
+    },
+    {
+      "value": "1 mile",
+      "label": "To SRP Park"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "rooms",
+      "nav": "Rooms",
+      "columns": 3,
+      "eyebrow": "Antiques, private baths, all fifteen",
+      "title": "Choose *your room*",
+      "items": [
+        {
+          "icon": "crown",
+          "title": "215 Magnolia",
+          "text": "The mansion’s master bedroom and our premier room: king bed, spacious quarters, separate sitting area and a large tub."
+        },
+        {
+          "icon": "flower-2",
+          "title": "210 Mulberry",
+          "text": "Queen, in the historic mansion, with bay windows and a view of the camellia garden and courtyard."
+        },
+        {
+          "icon": "trees",
+          "title": "211 Camellia",
+          "text": "A spacious queen in the mansion, with a view of Calhoun Park and Georgia Avenue."
+        },
+        {
+          "icon": "sparkles",
+          "title": "214 Capital",
+          "text": "A corner queen in the mansion with a large private bathroom; a favorite for brides getting ready."
+        },
+        {
+          "icon": "sun",
+          "title": "212 Ginger",
+          "text": "The mansion’s petite queen, with the best views of North Augusta and Calhoun Park."
+        },
+        {
+          "icon": "bath",
+          "title": "110 Hawthorne King",
+          "text": "Antique furnishings, a jetted tub and first-floor access. Our guests’ favorite: book early."
+        },
+        {
+          "icon": "accessibility",
+          "title": "114 Laurel King & 115 Cypress Queen",
+          "text": "First-floor ADA rooms: Laurel has a roll-in shower; Cypress has a ramp and handicap parking close by."
+        },
+        {
+          "icon": "users",
+          "title": "219 Gardenia & 220 Rosemary",
+          "text": "Connecting upstairs rooms, two queens and a queen, ideal for families and friends traveling together."
+        },
+        {
+          "icon": "bed-double",
+          "title": "Double queens & more",
+          "text": "Primrose, Garden (with a jetted bath), Veranda and Jasmine (a king or two twins), plus the cozy Wisteria queen."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Inside the inn",
+      "title": "Antiques, four-posters, *morning light*",
+      "images": [
+        {
+          "src": "/demo-assets/lookaway-inn/four-poster.webp",
+          "alt": "A four-poster bed with a red and white coverlet",
+          "width": 1100,
+          "height": 1467
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/bay-window.webp",
+          "alt": "A blue guest room with a queen bed in front of a bay window",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/sitting-room.webp",
+          "alt": "A spacious guest room with a sofa and a four-poster bed",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/king-room.webp",
+          "alt": "A king bed beneath a large painting, with an upholstered bench",
+          "width": 1100,
+          "height": 1467
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/veranda-door.webp",
+          "alt": "A turquoise guest room with a door out to the veranda",
+          "width": 1400,
+          "height": 999
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/double-queen.webp",
+          "alt": "Two queen beds with blue coverlets and antique headboards",
+          "width": 1100,
+          "height": 1467
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/green-room.webp",
+          "alt": "A green guest room with two carved queen beds",
+          "width": 1400,
+          "height": 1050
+        },
+        {
+          "src": "/demo-assets/lookaway-inn/corner-room.webp",
+          "alt": "A guest room with tall windows on two sides",
+          "width": 1400,
+          "height": 1050
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The inn",
+      "title": "Southern hospitality, *since 2017*",
+      "image": {
+        "src": "/demo-assets/lookaway-inn/twin-room.webp",
+        "alt": "A twin room with two beds dressed in navy and plaid",
+        "width": 1400,
+        "height": 767
+      },
+      "body": [
+        "Innkeepers John and Mary Felak have run Lookaway Inn since 2017. Every room is air conditioned, with a private bathroom and a flat-screen TV, and breakfast is included with every stay.",
+        "You are in the heart of North Augusta, with easy interstate access and close to Augusta, Georgia. Free private parking is on site, and WiFi reaches the whole property."
+      ],
+      "list": [
+        "Breakfast with every stay",
+        "Free WiFi and parking",
+        "First-floor and ADA rooms"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "events",
+      "nav": "Weddings",
+      "eyebrow": "Camellia at Lookaway Inn",
+      "title": "Weddings *& celebrations*",
+      "columns": [
+        {
+          "title": "The venue",
+          "items": [
+            "A conservatory feel, flooded with natural light",
+            "Ceremony sites and outdoor locations",
+            "Catering facilities"
+          ]
+        },
+        {
+          "title": "For your guests",
+          "items": [
+            "Overnight stays at the inn",
+            "A corner room in the mansion for getting ready",
+            "Your special celebration, whatever the occasion"
+          ]
+        },
+        {
+          "title": "Plan yours",
+          "items": [
+            "Call (803) 221-2044 for pricing and availability"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "nearby",
+      "nav": "Nearby",
+      "eyebrow": "Close to it all",
+      "title": "Things *to do*",
+      "columns": [
+        {
+          "title": "SRP Park",
+          "items": [
+            "Home of the Augusta GreenJackets, about a mile away",
+            "Ballpark Digest’s 2018 Ballpark of the Year"
+          ]
+        },
+        {
+          "title": "Arts & history",
+          "items": [
+            "Arts & Heritage Center",
+            "Imperial Theater",
+            "Augusta Museum of History"
+          ]
+        },
+        {
+          "title": "Getting here",
+          "items": [
+            "Easy interstate access",
+            "Close to Augusta, Georgia",
+            "Daniel Field"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Is breakfast included?",
+          "a": "Yes, breakfast is included with every stay."
+        },
+        {
+          "q": "Do you have accessible rooms?",
+          "a": "Yes. 114 Laurel King has an ADA bathroom with a roll-in shower, and 115 Cypress Queen is on the first floor with a concrete ramp and handicap parking."
+        },
+        {
+          "q": "Can a group book rooms together?",
+          "a": "Yes. 219 Gardenia and 220 Rosemary connect, and several rooms have two queen beds. Rollaway beds are available."
+        },
+        {
+          "q": "Can we hold our wedding here?",
+          "a": "Yes, at Camellia at Lookaway Inn. Call (803) 221-2044 for pricing and availability."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Stay in a piece of North Augusta history",
+      "text": "See which rooms are free for your dates.",
+      "cta": {
+        "label": "Check availability",
+        "href": "https://app.littlehotelier.com/properties/lookawayinndirect"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *West Forest Avenue*",
+    "formTitle": "Ask about a stay",
+    "formTopics": [
+      "A room for my dates",
+      "An accessible room",
+      "A group booking",
+      "A wedding or event",
+      "Something else"
+    ]
+  },
+  "slug": "lookaway-inn",
+  "added": "2026-11-21",
+  "prospect": "lookaway-inn",
+  "source": {
+    "url": "https://www.lookawayinn.com/",
+    "before": [
+      "The “View on map” link on the attractions page goes to “$DIRECTIONS_URL$”, a placeholder that was never filled in",
+      "The browser tab is a list of search keywords: “LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, SRP Park…”",
+      "The home page says Augusta is 0.9 miles away and Aiken 20; the About page says 1.9 and 14.9",
+      "The welcome is one long sentence in capital letters, which is hard to read",
+      "Google’s accessibility score is 76 out of 100: five links a screen reader can’t name, and 16 spots of low-contrast text"
+    ],
+    "after": [
+      "All fifteen rooms on one page, so guests can choose",
+      "Availability one tap away, on every screen",
+      "Weddings at Camellia with their own section and phone number",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "outline"
+  }
+}

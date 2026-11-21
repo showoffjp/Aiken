@@ -912,11 +912,18 @@
  },
  "burrell-and-flynns-farm": {
   "site": {
-   "bytes": 6151983,
-   "requests": 63,
-   "loadMs": 2638,
+   "bytes": 4873908,
+   "requests": 57,
+   "loadMs": 1409,
    "url": "https://www.burrellandflynnsfarm.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 579226,
+   "requests": 9,
+   "loadMs": 206,
+   "url": "/burrell-and-flynns-farm/",
+   "at": "2026-11-21"
   }
  },
  "britts-jump-and-slide-inflatables-llc": {
@@ -2365,11 +2372,18 @@
  },
  "lookaway-inn": {
   "site": {
-   "bytes": 2057104,
+   "bytes": 2060450,
    "requests": 53,
-   "loadMs": 2062,
+   "loadMs": 2307,
    "url": "https://www.lookawayinn.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 839927,
+   "requests": 8,
+   "loadMs": 186,
+   "url": "/lookaway-inn/",
+   "at": "2026-11-21"
   }
  },
  "legis-equine-insurance": {
@@ -3804,11 +3818,18 @@
  },
  "the-larder": {
   "site": {
-   "bytes": 5279460,
+   "bytes": 5280117,
    "requests": 79,
-   "loadMs": 1807,
+   "loadMs": 2372,
    "url": "https://www.hflarder.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 543424,
+   "requests": 7,
+   "loadMs": 208,
+   "url": "/the-larder/",
+   "at": "2026-11-21"
   }
  },
  "the-reserve-club-at-woodside": {

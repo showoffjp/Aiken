@@ -7628,8 +7628,8 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 83,
-    "pageMB": 5.9,
+    "performance": 89,
+    "pageMB": 4.6,
     "a11ySerious": 3,
     "facebook": true,
     "instagram": true,
@@ -15166,8 +15166,8 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 83,
-    "pageMB": 5.9,
+    "performance": 89,
+    "pageMB": 4.6,
     "a11ySerious": 3,
     "facebook": true,
     "instagram": true,
@@ -18829,8 +18829,8 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 83,
-    "pageMB": 5.9,
+    "performance": 89,
+    "pageMB": 4.6,
     "a11ySerious": 3,
     "facebook": true,
     "instagram": true,
@@ -38620,8 +38620,8 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 83,
-    "pageMB": 5.9,
+    "performance": 89,
+    "pageMB": 4.6,
     "a11ySerious": 3,
     "facebook": true,
     "instagram": true,
@@ -40776,6 +40776,1106 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 11
+   }
+  ]
+ },
+ "the-larder": {
+  "slug": "the-larder",
+  "name": "The Larder at Hammond’s Ferry",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "hflarder.com",
+   "https": true,
+   "pagesCrawled": 11,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.hflarder.com/",
+    "title": "The Larder at Hammond's Ferry - Bar | Restaurant | Brunch",
+    "description": "Hammond's Ferry Larder is a full service restaurant serving up fusion cuisine and traditional American favorites in North  Augusta, South Carolina. We offer craft cocktails, weekly dinner specials and weekend brunch options to excite your taste buds. Join us for Trivia on Thursdays, family friendly dining atmosphere, and outdoor seating. Visit us across the bridge from Downtown Augusta.",
+    "canonical": "https://www.hflarder.com",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "The Larder at Hammond's Ferry  - Bar | Restaurant | Brunch",
+     "description": "Hammond's Ferry Larder is a full service restaurant serving up fusion cuisine and traditional American favorites in North  Augusta, South Carolina. We offer craft cocktails, weekly dinner specials and weekend brunch options to excite your taste buds. Join us for Trivia on Thursdays, family friendly",
+     "image": "http://static1.squarespace.com/static/5b560e143e2d09a8740821e1/t/6558f82f5c5d3505cd9aeaaa/1700329519914/larder+favicon.png?format=1500w",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Larder ˈlärdər/ noun",
+     "Small Plates",
+     "~"
+    ],
+    "h1Count": 10,
+    "h2": 0,
+    "h3": 0,
+    "words": 353,
+    "images": 10,
+    "imagesNoAlt": 7,
+    "schemaTypes": [
+     "WebSite",
+     "Organization",
+     "LocalBusiness"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.hflarder.com/sitemap.xml",
+    "pages": 1187
+   },
+   "crawl": {
+    "pages": 11,
+    "missingTitle": 0,
+    "missingDescription": 7,
+    "missingH1": 0,
+    "multipleH1": 4,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 48,
+    "images": 71,
+    "sample": [
+     {
+      "url": "https://www.hflarder.com/",
+      "title": "The Larder at Hammond's Ferry - Bar | Restaurant | Brunch",
+      "description": 389,
+      "h1": 10,
+      "words": 353
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1",
+      "title": "Weekly Specials - Hammond's Ferry Larder",
+      "description": 135,
+      "h1": 4,
+      "words": 467
+     },
+     {
+      "url": "https://www.hflarder.com/menus",
+      "title": "Menus - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 1699
+     },
+     {
+      "url": "https://www.hflarder.com/private-parties",
+      "title": "Private Parties - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 204
+     },
+     {
+      "url": "https://www.hflarder.com/wall-artwork",
+      "title": "Wall Artwork - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 13,
+      "words": 290
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1/weekly-specials-1111",
+      "title": "Weekly Specials 11/11 - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 201
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1/weekly-specials-114",
+      "title": "Weekly Specials 11/4 - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 201
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1/weekly-specials-107",
+      "title": "Weekly Specials 10/7 - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 202
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1/weekly-specials-930",
+      "title": "Weekly specials 9/30 - Hammond's Ferry Larder",
+      "description": 0,
+      "h1": 1,
+      "words": 190
+     },
+     {
+      "url": "https://www.hflarder.com/specials-1?offset=1790803466435",
+      "title": "Weekly Specials - Hammond's Ferry Larder",
+      "description": 135,
+      "h1": 4,
+      "words": 602
+     },
+     {
+      "url": "https://www.hflarder.com/wall-artwork/xfprkxfcon6p2a0jl42h2kzbx2bm7h",
+      "title": "Laura Kilburn Pink Pumpkin Watercolor - Hammond's Ferry Larder",
+      "description": 428,
+      "h1": 1,
+      "words": 115
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 36,
+    "broken": [
+     {
+      "url": "https://www.hflarder.com/artwork",
+      "status": 404,
+      "from": "https://www.hflarder.com/"
+     },
+     {
+      "url": "https://www.hflarder.com/eat",
+      "status": 404,
+      "from": "https://www.hflarder.com/"
+     },
+     {
+      "url": "https://www.hflarder.com/brunch-at-hammons-ferry-larder",
+      "status": 404,
+      "from": "https://www.hflarder.com/"
+     },
+     {
+      "url": "https://www.hflarder.com/drink-at-hammonds-ferr-larder",
+      "status": 404,
+      "from": "https://www.hflarder.com/"
+     }
+    ],
+    "brokenCount": 4
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/hflarder",
+    "Instagram": "https://www.instagram.com/hf_larder/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Restaurant",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/the-larder-3932",
+    "name": "The Larder",
+    "phone": "(803) 341-9273",
+    "website": "https://www.hflarder.com/",
+    "address": "89 Crystal Lake Dr, North Augusta SC 29841",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/hflarder",
+    "Instagram": "https://www.instagram.com/hf_larder/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/hflarder",
+    "Instagram": "https://www.instagram.com/hf_larder/"
+   }
+  },
+  "domain": {
+   "name": "hflarder.com",
+   "created": "2016-02-26",
+   "expires": "2029-02-26",
+   "registrar": "Register.com - Network Solutions, LLC",
+   "years": 10
+  },
+  "performance": {
+   "performance": 54,
+   "accessibility": 95,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 3128,
+   "lcp": 10159,
+   "tbt": 511,
+   "si": 4257,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2554,
+   "tbt": 18,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "bowl-boss",
+   "brinks-tavern",
+   "brinkleys-chop-house"
+  ],
+  "scores": {
+   "seo": 60,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "bowl-boss",
+    "name": "Bowl Boss",
+    "website": "https://www.bowlbossacai.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 5.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "brinkleys-chop-house",
+    "name": "Brinkley's Chop House",
+    "website": "https://www.brinkleyschophouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 40,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "lookaway-inn": {
+  "slug": "lookaway-inn",
+  "name": "Lookaway Inn",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "lookawayinn.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.lookawayinn.com/",
+    "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History | Lookaway Inn",
+    "description": "Our bed and breakfast in North Augusta is one of the great vacation rentals near SRP Park, Arts & Heritage Center, Imperial Theater, and the Augusta Museum of History.",
+    "canonical": "https://www.lookawayinn.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History",
+     "description": "Our bed and breakfast in North Augusta is one of the great vacation rentals near SRP Park, Arts & Heritage Center, Imperial Theater, and the Augusta Museum of History.",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "",
+    "h1": [
+     "Welcome to our historic southern mansion in North Augusta with turn of the century charm and elegance."
+    ],
+    "h1Count": 1,
+    "h2": 2,
+    "h3": 7,
+    "words": 1216,
+    "images": 19,
+    "imagesNoAlt": 17,
+    "schemaTypes": [
+     "Hotel",
+     "PostalAddress",
+     "GeoCoordinates"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.lookawayinn.com/sitemap.xml",
+    "pages": 24
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 10,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 270,
+    "images": 300,
+    "sample": [
+     {
+      "url": "https://www.lookawayinn.com/",
+      "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History | Lookaway Inn",
+      "description": 167,
+      "h1": 1,
+      "words": 1216
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms.html",
+      "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, rooms, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History | Lookaway Inn",
+      "description": 186,
+      "h1": 1,
+      "words": 897
+     },
+     {
+      "url": "https://www.lookawayinn.com/gallery.html",
+      "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, near me, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History, B&B | Lookaway Inn",
+      "description": 167,
+      "h1": 1,
+      "words": 73
+     },
+     {
+      "url": "https://www.lookawayinn.com/contact-us.html",
+      "title": "LOOKAWAY INN | Bed and Breakfast in North Augusta, Vacation Rentals, B&B near me, SRP Park, Arts & Heritage Center, Imperial Theater, Augusta Museum of History | Lookaway Inn",
+      "description": 171,
+      "h1": 1,
+      "words": 98
+     },
+     {
+      "url": "https://www.lookawayinn.com/attractions.html",
+      "title": "Attractions | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 218
+     },
+     {
+      "url": "https://www.lookawayinn.com/about-us.html",
+      "title": "About Us | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://www.lookawayinn.com/events.html",
+      "title": "| Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 93
+     },
+     {
+      "url": "https://www.lookawayinn.com/weddings.html",
+      "title": "| Lookaway Inn",
+      "description": 108,
+      "h1": 1,
+      "words": 128
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/115-cypress-classic-queen.html",
+      "title": "115 Cypress Classic Queen | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 308
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/216-garden-double-queen.html",
+      "title": "216 Garden Double Queen | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 307
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/114-laurel-king-ada.html",
+      "title": "114 Laurel King ADA | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 299
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/112-wisteria-room.html",
+      "title": "112 Wisteria Room | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 300
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/217-veranda-double-queen-room.html",
+      "title": "217 Veranda Double Queen Room | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 313
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/110-hawthorne-king.html",
+      "title": "110 Hawthorne King | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 302
+     },
+     {
+      "url": "https://www.lookawayinn.com/rooms/111-primrose-double-queen.html",
+      "title": "111 Primrose Double Queen | Lookaway Inn",
+      "description": 0,
+      "h1": 1,
+      "words": 286
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 24,
+    "broken": [
+     {
+      "url": "https://www.lookawayinn.com/$DIRECTIONS_URL$",
+      "status": 404,
+      "from": "https://www.lookawayinn.com/attractions.html"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/LookawayinnNA",
+    "Instagram": "https://www.instagram.com/lookawayinn/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Historic Inn",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "North Augusta",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 7
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/lookaway-inn-2842",
+    "name": "Lookaway Inn",
+    "phone": "(803) 426-1030",
+    "website": "http://www.lookawayinn.com",
+    "address": "103 W. Forest Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/LookawayinnNA",
+    "Instagram": "https://www.instagram.com/lookawayinn/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/LookawayinnNA",
+    "Instagram": "https://www.instagram.com/lookawayinn/"
+   }
+  },
+  "domain": {
+   "name": "lookawayinn.com",
+   "created": "2011-05-02",
+   "expires": "2026-12-29",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 15
+  },
+  "performance": {
+   "performance": 66,
+   "accessibility": 76,
+   "bestPractices": 93,
+   "seo": 77,
+   "fcp": 2834,
+   "lcp": 4754,
+   "tbt": 469,
+   "si": 3252,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2854,
+   "tbt": 77,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "blue-collard"
+  ],
+  "scores": {
+   "seo": 57,
+   "social": 55,
+   "lighthouseSeo": 77
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   }
+  ]
+ },
+ "burrell-and-flynns-farm": {
+  "slug": "burrell-and-flynns-farm",
+  "name": "Burrell and Flynn’s Farm",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "burrellandflynnsfarm.com",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.burrellandflynnsfarm.com/",
+    "title": "Burrell and Flynn's Farm",
+    "description": "Escape to the historic charm of Aiken, South Carolina at Burrell and Flynn's Farm, where southern elegance and hospitality create the perfect retreat.",
+    "canonical": "https://www.burrellandflynnsfarm.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Burrell and Flynn's Farm",
+     "description": "Escape to the historic charm of Aiken, South Carolina at Burrell and Flynn's Farm, where southern elegance and hospitality create the perfect retreat.",
+     "image": "https://framerusercontent.com/assets/wWFFzhOLiSj9OzZrbMvbwIFJsHo.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Aiken's best kept secret.."
+    ],
+    "h1Count": 1,
+    "h2": 4,
+    "h3": 9,
+    "words": 1294,
+    "images": 92,
+    "imagesNoAlt": 71,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.burrellandflynnsfarm.com/sitemap.xml",
+    "pages": 13
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 4,
+    "multipleH1": 0,
+    "thin": 5,
+    "noindex": 0,
+    "dupTitles": 10,
+    "dupDescs": 11,
+    "imagesNoAlt": 189,
+    "images": 406,
+    "sample": [
+     {
+      "url": "https://www.burrellandflynnsfarm.com/",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 1294
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/rooms",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 228
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/experiences",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 137
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/shop",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 141
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/farmdogs",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 316
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/farmhouse",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 342
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/events",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 572
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/contact",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 1,
+      "words": 160
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/booking",
+      "title": "Burrell and Flynn's Farm",
+      "description": 150,
+      "h1": 0,
+      "words": 96
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/rooms/king-one",
+      "title": "BFF",
+      "description": 150,
+      "h1": 0,
+      "words": 491
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/rooms/queen-one",
+      "title": "BFF",
+      "description": 150,
+      "h1": 0,
+      "words": 521
+     },
+     {
+      "url": "https://www.burrellandflynnsfarm.com/rooms/king-two",
+      "title": "BFF",
+      "description": 150,
+      "h1": 0,
+      "words": 537
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 13,
+    "broken": [
+     {
+      "url": "https://www.burrellandflynnsfarm.com/404",
+      "status": 404,
+      "from": "https://www.burrellandflynnsfarm.com/booking"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Instagram": "https://www.instagram.com/burrellandflynnsfarm/",
+    "Facebook": "https://www.facebook.com/profile.php?id=61563897152004",
+    "TikTok": "https://www.tiktok.com/@farmdogsaiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Bed",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 4
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 10
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=280&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=1c5ebc4fc43f39c22fb5924c56bb2b93",
+    "name": "Burrell and Flynn's Farm",
+    "phone": "(843) 323-0768",
+    "website": "http://www.burrellandflynnsfarm.com",
+    "address": "3057 Charleston Highway, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/stays/burrell-and-flynns-farm/",
+    "name": "Burrell and Flynn's Farm",
+    "phone": "(843) 323-0768",
+    "website": "https://www.burrellandflynnsfarm.com/",
+    "address": "3057 Charleston Hwy. Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Instagram": "https://www.instagram.com/burrellandflynnsfarm/",
+    "Facebook": "https://www.facebook.com/profile.php?id=61563897152004",
+    "TikTok": "https://www.tiktok.com/@farmdogsaiken"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61563897152004",
+    "Instagram": "https://www.instagram.com/burrellandflynnsfarm/"
+   }
+  },
+  "domain": {
+   "name": "burrellandflynnsfarm.com",
+   "created": "2024-08-06",
+   "expires": "2027-08-06",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 2
+  },
+  "performance": {
+   "performance": 89,
+   "accessibility": 77,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 1620,
+   "lcp": 2723,
+   "tbt": 195,
+   "si": 5050,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1056,
+   "lcp": 2256,
+   "tbt": 179,
+   "si": 1056,
+   "cls": 0.002,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-luxury-rentals",
+   "aiken-midtown-hotel",
+   "carriage-house-inn",
+   "inn-at-houndslake",
+   "legare-gardens"
+  ],
+  "scores": {
+   "seo": 73,
+   "social": 80,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aiken-luxury-rentals",
+    "name": "Aiken Luxury Rentals",
+    "website": "https://aikenluxuryrentals.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 0,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "aiken-midtown-hotel",
+    "name": "Aiken Midtown Hotel",
+    "website": "https://www.aikenmidtownhotel.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 83,
+    "pageMB": 0.8,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "carriage-house-inn",
+    "name": "Carriage House Inn",
+    "website": "https://www.aikencarriagehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 4.7,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 26
+   },
+   {
+    "slug": "inn-at-houndslake",
+    "name": "Inn at Houndslake",
+    "website": "https://www.theinnathoundslake.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 61,
+    "pageMB": 3.2,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 12
+   },
+   {
+    "slug": "legare-gardens",
+    "name": "Legare Gardens",
+    "website": "https://legaregardens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
    }
   ]
  }
