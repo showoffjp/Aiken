@@ -127,6 +127,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "arnold-advisors": {
+  "q": "914 Dougherty Road, Aiken, SC 29803",
+  "lat": 33.513766,
+  "lon": -81.71757,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "augusta-ready-mix": {
   "q": "1099 Reynolds Pond Road, Aiken, SC 29801",
   "lat": 33.614695,
@@ -1209,6 +1217,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "wise-warehousing": {
+  "q": "285 Main Drive, Aiken, SC 29801",
+  "lat": 33.554501,
+  "lon": -81.656404,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "woodchuckers-axe-throwing": {
   "q": "208 The Alley, Aiken, SC 29801",

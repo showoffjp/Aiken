@@ -497,11 +497,18 @@
  },
  "arnold-advisors-llc": {
   "site": {
-   "bytes": 3744627,
+   "bytes": 3655051,
    "requests": 79,
-   "loadMs": 7133,
+   "loadMs": 5652,
    "url": "https://www.aiken-cpa.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 349251,
+   "requests": 6,
+   "loadMs": 198,
+   "url": "/arnold-advisors/",
+   "at": "2026-11-21"
   }
  },
  "austin-and-pethick-law-firm": {
@@ -1425,11 +1432,18 @@
  },
  "dynamic-audio-and-video": {
   "site": {
-   "bytes": 5825111,
+   "bytes": 5824674,
    "requests": 87,
-   "loadMs": 6497,
+   "loadMs": 3196,
    "url": "https://www.dynamicaudioandvideo.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 584865,
+   "requests": 8,
+   "loadMs": 172,
+   "url": "/dynamic-audio-video/",
+   "at": "2026-11-21"
   }
  },
  "equine-divine": {
@@ -4275,11 +4289,18 @@
  },
  "wise-warehousing-solutions": {
   "site": {
-   "bytes": 61692014,
-   "requests": 87,
-   "loadMs": 4956,
+   "bytes": 61618764,
+   "requests": 81,
+   "loadMs": 4589,
    "url": "https://www.wisewarehousingsolutions.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 527505,
+   "requests": 6,
+   "loadMs": 187,
+   "url": "/wise-warehousing/",
+   "at": "2026-11-21"
   }
  },
  "woodside-country-club": {

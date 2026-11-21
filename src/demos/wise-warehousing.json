@@ -1,0 +1,304 @@
+{
+  "name": "Wise Warehousing Solutions",
+  "short": "Wise Warehousing",
+  "category": "Warehousing & Logistics",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f5f9",
+    "surface": "#ffffff",
+    "ink": "#101828",
+    "muted": "#475467",
+    "primary": "#1c3fb7",
+    "onPrimary": "#ffffff",
+    "accent": "#f2a83a",
+    "line": "#dde3ee"
+  },
+  "radius": 6,
+  "icon": "warehouse",
+  "cinematic": true,
+  "contact": {
+    "phone": "(803) 648-8521",
+    "email": "info@wisewarehousingsolutions.com",
+    "address": [
+      "285 Main Drive",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "285 Main Dr, Aiken, SC 29801",
+    "hoursNote": "Mailing address: PO Box 319, Aiken, SC 29802."
+  },
+  "hero": {
+    "eyebrow": "Public and contract warehousing in Aiken County",
+    "title": "Storage and shipping, *handled*",
+    "lede": "Public and contract warehousing, container breakdown, inventory management, packaging and transportation from four locations in Aiken County, with a network of local, regional and national trucking partners.",
+    "points": [
+      "Short or long term",
+      "Container breakdown",
+      "Ship across North America"
+    ],
+    "cta": {
+      "label": "Talk to us about storage",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 648-8521",
+      "href": "tel:+18036488521"
+    },
+    "image": {
+      "src": "/demo-assets/wise-warehousing/fleet.webp",
+      "alt": "A line of box trucks and tractors parked on the grass",
+      "width": 1800,
+      "height": 1200
+    }
+  },
+  "facts": [
+    {
+      "value": "4",
+      "label": "Locations in Aiken County"
+    },
+    {
+      "value": "60 years",
+      "label": "Of packaging operations"
+    },
+    {
+      "value": "North America",
+      "label": "Where our trucking network can ship"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "One partner for the whole chain",
+      "title": "What *we do*",
+      "items": [
+        {
+          "icon": "warehouse",
+          "title": "Public warehousing",
+          "text": "Flexible storage that scales with your seasons and overflow, with no capital investment."
+        },
+        {
+          "icon": "landmark",
+          "title": "Contract warehousing",
+          "text": "Dedicated space under an agreement from months to years, which can include handling, packaging and shipping."
+        },
+        {
+          "icon": "container",
+          "title": "Container breakdown",
+          "text": "We pick up customs-cleared containers, unload, sort, repalletize, shrink-wrap and send them on."
+        },
+        {
+          "icon": "scan-barcode",
+          "title": "Inventory management",
+          "text": "Storage, shipping and tracking planned together, so inventory moves efficiently."
+        },
+        {
+          "icon": "package",
+          "title": "Packaging & kitting",
+          "text": "Kitting, pick & pack, display assemblies, shrink wrapping, bagging and seasonal rework."
+        },
+        {
+          "icon": "truck",
+          "title": "Transportation",
+          "text": "LTL freight, dock drop and pick-up, freight redirection and sort services."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "containers",
+      "nav": "Containers",
+      "eyebrow": "Container breakdown",
+      "title": "From the port *to your customer*",
+      "items": [
+        {
+          "title": "We pick it up",
+          "text": "Once your container clears customs, we arrange insured transport to our Aiken warehouse."
+        },
+        {
+          "title": "We unload and inspect",
+          "text": "Goods are verified, and any damage from shipping is caught early."
+        },
+        {
+          "title": "We repalletize",
+          "text": "Cartons or drums go onto new pallets and are shrink-wrapped, packed to your specifications."
+        },
+        {
+          "title": "We deliver",
+          "text": "Transport to your customer or your own site, with proof of delivery by fax or email."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "facilities",
+      "nav": "Facilities",
+      "eyebrow": "Our facilities",
+      "title": "Room *to grow*",
+      "images": [
+        {
+          "src": "/demo-assets/wise-warehousing/aerial.webp",
+          "alt": "An aerial view of a large warehouse with trailers at the docks",
+          "width": 1500,
+          "height": 990
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/warehouses-aerial.webp",
+          "alt": "Aerial view of long warehouse buildings among the trees",
+          "width": 1240,
+          "height": 826
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/campus-aerial.webp",
+          "alt": "A campus of warehouse buildings from above",
+          "width": 1240,
+          "height": 826
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/warehouse-dock.webp",
+          "alt": "A warehouse with loading docks and a wide paved lot",
+          "width": 1240,
+          "height": 826
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/forklift-rolls.webp",
+          "alt": "A forklift moving big rolls of paper inside a warehouse",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/trucks.webp",
+          "alt": "Trucks lined up in a row",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/warehouse-lot.webp",
+          "alt": "A warehouse building and its parking lot",
+          "width": 1240,
+          "height": 826
+        },
+        {
+          "src": "/demo-assets/wise-warehousing/paper-rolls.webp",
+          "alt": "Giant paper rolls stacked inside a warehouse",
+          "width": 1024,
+          "height": 768
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "locations",
+      "nav": "Locations",
+      "eyebrow": "Aiken County",
+      "title": "Our *locations*",
+      "columns": [
+        {
+          "title": "Main office",
+          "items": [
+            "285 Main Drive, Aiken",
+            "Apply for jobs here, in person"
+          ]
+        },
+        {
+          "title": "Warehouses",
+          "items": [
+            "1595 Columbia Highway North",
+            "2969 Wagener Road",
+            "155 Ascauga Lake Road, Graniteville"
+          ]
+        },
+        {
+          "title": "Packaging lines",
+          "items": [
+            "Kitting and carton assembly",
+            "Shrink wrapping, bagging and sealing",
+            "Stretch wrappers and conveyors"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Public or contract warehousing: what’s the difference?",
+          "a": "A public warehouse stores inventory for many businesses, so you pay only for the space you use and can scale with demand. Contract warehousing gives you dedicated space and services under an agreement that can run from months to years."
+        },
+        {
+          "q": "Can you handle overseas containers?",
+          "a": "Yes. Once a container clears customs we can pick it up, break it down and ship the goods on. We can also package, crate and brace items going overseas."
+        },
+        {
+          "q": "How far can you ship?",
+          "a": "Through our network of local, regional and national trucking partners, anywhere in North America."
+        },
+        {
+          "q": "Are you hiring?",
+          "a": "Visit our main office at 285 Main Drive in Aiken to apply in person."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Running out of room?",
+      "text": "Talk to us about short or long-term storage.",
+      "cta": {
+        "label": "Call (803) 648-8521",
+        "href": "tel:+18036488521"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Main Drive*",
+    "formTitle": "Tell us what you need to store",
+    "formTopics": [
+      "Public warehousing",
+      "Contract warehousing",
+      "Container breakdown",
+      "Packaging or kitting",
+      "Transportation",
+      "Something else"
+    ]
+  },
+  "slug": "wise-warehousing",
+  "added": "2026-11-21",
+  "prospect": "wise-warehousing-solutions",
+  "source": {
+    "url": "https://www.wisewarehousingsolutions.com/",
+    "before": [
+      "A 61.6 MB home page: in Google’s slow-phone test the main picture takes 38 seconds to appear",
+      "On a phone, the first screen shows no phone number or call button",
+      "Two different corporate offices: the home page says 1595 Columbia Highway North, the Locations page says 155 Ascauga Lake Road in Graniteville",
+      "The footer copyright still reads 2022–2024",
+      "Six links a screen reader can’t name, and six spots of low-contrast text"
+    ],
+    "after": [
+      "Every service, and the container process step by step",
+      "All four locations in one place",
+      "A quote form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "square"
+  }
+}

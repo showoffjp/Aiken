@@ -1,0 +1,337 @@
+{
+  "name": "Dynamic Audio & Video",
+  "short": "Dynamic A/V",
+  "category": "Home Theater & Audio/Video Installation",
+  "group": "Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "space-grotesk",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f2f4f8",
+    "surface": "#ffffff",
+    "ink": "#0e1422",
+    "muted": "#4a5468",
+    "primary": "#1d4ed8",
+    "onPrimary": "#ffffff",
+    "accent": "#f59e0b",
+    "line": "#dde2ec"
+  },
+  "radius": 12,
+  "icon": "tv",
+  "contact": {
+    "phone": "(803) 392-1599",
+    "hoursNote": "In-home consultations across the Aiken area.",
+    "facebook": "https://www.facebook.com/dynamicaudioandvideo"
+  },
+  "hero": {
+    "eyebrow": "Audio and video for every budget, in Aiken",
+    "title": "Your home, *your theater*",
+    "lede": "From a TV on the wall to whole-house audio, lighting control and a full home theater, Dynamic Audio & Video designs it, installs it and looks after it, with no pressure to buy anything from us.",
+    "points": [
+      "Family owned",
+      "In-home consultations",
+      "Sonos, Lutron & more"
+    ],
+    "cta": {
+      "label": "Book an in-home consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 392-1599",
+      "href": "tel:+18033921599"
+    },
+    "image": {
+      "src": "/demo-assets/dynamic-audio-video/framed-tv.webp",
+      "alt": "A TV framed like a painting above a white stone fireplace",
+      "width": 1000,
+      "height": 1333
+    }
+  },
+  "facts": [
+    {
+      "value": "Since 2000",
+      "label": "Leading custom installations"
+    },
+    {
+      "value": "Since 2021",
+      "label": "Installing across Aiken"
+    },
+    {
+      "value": "No pressure",
+      "label": "Buy your gear from us, or not"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Design, install, calibrate, service",
+      "title": "What *we install*",
+      "items": [
+        {
+          "icon": "tv",
+          "title": "TV installation",
+          "text": "Flat-panel TV installation, plus help choosing the right components and A/V furniture."
+        },
+        {
+          "icon": "clapperboard",
+          "title": "Home theaters",
+          "text": "Custom theater design, sales, installation and calibration, including front projection."
+        },
+        {
+          "icon": "speaker",
+          "title": "Whole-house audio",
+          "text": "Music in every room and out on the deck, each zone playing what it likes."
+        },
+        {
+          "icon": "lightbulb",
+          "title": "Lighting & shades",
+          "text": "Lighting control and automated window shades, tied in with your audio and video."
+        },
+        {
+          "icon": "smartphone",
+          "title": "One remote",
+          "text": "Custom remote control integration, so one remote runs it all."
+        },
+        {
+          "icon": "wifi",
+          "title": "Networks & WiFi",
+          "text": "eero mesh WiFi and networking that keeps every room connected."
+        },
+        {
+          "icon": "cable",
+          "title": "New-home wiring",
+          "text": "Pre-construction consultation, structured wiring, and satellite, cable, phone and data wiring."
+        },
+        {
+          "icon": "building-2",
+          "title": "Commercial audio",
+          "text": "Sound systems for businesses and organizations."
+        },
+        {
+          "icon": "wrench",
+          "title": "Service, too",
+          "text": "Installation and service of equipment you already own, and acoustic treatment for better sound."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Recent installs",
+      "title": "Big pictures, *clean installs*",
+      "images": [
+        {
+          "src": "/demo-assets/dynamic-audio-video/mantel-tv.webp",
+          "alt": "A TV and soundbar mounted over a white mantel",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/outdoor-tv.webp",
+          "alt": "An outdoor TV set into a stone fireplace on a patio",
+          "width": 525,
+          "height": 700
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/projector-room.webp",
+          "alt": "A basement theater with a projector and a big screen",
+          "width": 700,
+          "height": 531
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/media-room.webp",
+          "alt": "A TV built into a wall of bookshelves",
+          "width": 525,
+          "height": 700
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/bar-tvs.webp",
+          "alt": "A row of TVs above a bar",
+          "width": 700,
+          "height": 525
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/fireplace-built-in.webp",
+          "alt": "A TV between built-in speakers above a fireplace",
+          "width": 525,
+          "height": 700
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/tv-wall.webp",
+          "alt": "A wall of TVs and tower speakers in a living room",
+          "width": 700,
+          "height": 525
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/stone-fireplace.webp",
+          "alt": "A TV above a stone fireplace with wood built-ins",
+          "width": 700,
+          "height": 525
+        },
+        {
+          "src": "/demo-assets/dynamic-audio-video/built-ins.webp",
+          "alt": "A TV mounted in white built-in cabinets",
+          "width": 525,
+          "height": 700
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "brands",
+      "nav": "Brands",
+      "eyebrow": "Quality products",
+      "title": "Brands *we trust*",
+      "columns": [
+        {
+          "title": "Sound",
+          "items": [
+            "Sonos: Arc soundbar, Five speakers and Sub",
+            "Leon: handmade speakers, built to match your TV",
+            "Klipsch, Yamaha, Marantz and Sonance"
+          ]
+        },
+        {
+          "title": "Picture",
+          "items": [
+            "Sony, Samsung and LG",
+            "Epson and JVC projectors",
+            "Media Décor frames that hide the TV behind art"
+          ]
+        },
+        {
+          "title": "Control",
+          "items": [
+            "Lutron Caséta wireless lighting",
+            "Pro Control remotes",
+            "eero mesh WiFi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Family owned and operated",
+      "title": "Installer-led, *since day one*",
+      "image": {
+        "src": "/demo-assets/dynamic-audio-video/living-room.webp",
+        "alt": "A living room with built-in shelves around the fireplace",
+        "width": 1000,
+        "height": 1333
+      },
+      "body": [
+        "Dynamic Audio & Video is a family-owned business. Dave worked as an electronic technician for 13 years, wiring churches for sound, and found his passion installing his first home theaters.",
+        "In 2000 he became a lead installer for a custom audio-video retailer, then a project manager running installations across New Jersey, New York City and Connecticut. He built Dynamic Audio & Video around what people wanted most, the highest-quality installations and real customer service, and in 2021 he brought it to Aiken."
+      ],
+      "list": [
+        "Family owned and operated",
+        "Decades of custom installations",
+        "In Aiken since 2021"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *clients say*",
+      "items": [
+        {
+          "text": "The movie experience feels as good as any theater one might visit and the sound system is simply wonderful.",
+          "by": "Chris"
+        },
+        {
+          "text": "Your installation was done on time, on budget and looked great. I really appreciated how accessible you are when we have questions, you always call back very promptly.",
+          "by": "The M. family"
+        },
+        {
+          "text": "It took the hassle and frustration of trying to figure out how to use 4 different remotes and made it simple with just one remote.",
+          "by": "A homeowner"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I have to buy my equipment from you?",
+          "a": "No. Whether you buy your equipment on your own or from us, we will work with you every step of the way. You won’t be pressured to buy anything."
+        },
+        {
+          "q": "Can you work with equipment I already own?",
+          "a": "Yes. We install and service pre-owned equipment."
+        },
+        {
+          "q": "Do you wire new homes?",
+          "a": "Yes: pre-construction consultation, structured wiring, and satellite, cable, phone and data wiring."
+        },
+        {
+          "q": "What happens after the install?",
+          "a": "Our service doesn’t stop when the installation is complete. Our trained technicians are available to take care of your needs."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s plan your system",
+      "text": "We’ll come to you for an in-home consultation.",
+      "cta": {
+        "label": "Call (803) 392-1599",
+        "href": "tel:+18033921599"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book an *in-home consultation*",
+    "formTitle": "Tell us about your project",
+    "formTopics": [
+      "A TV installation",
+      "A home theater",
+      "Whole-house audio",
+      "Lighting, shades or one remote",
+      "WiFi or new-home wiring",
+      "Something else"
+    ]
+  },
+  "slug": "dynamic-audio-video",
+  "added": "2026-11-21",
+  "prospect": "dynamic-audio-and-video",
+  "source": {
+    "url": "https://www.dynamicaudioandvideo.com/",
+    "before": [
+      "The testimonials page’s browser tab still reads “Home Theater Sales Service Installation in NJ | TV Installation Service NJ”, five years after the move to Aiken",
+      "Typos on the Sonos page: “high-fideliy”, “room-filling ound” and “diference”",
+      "The Leon page is the speaker maker’s own text, so it says “each speaker that leaves our shop is built by hand”",
+      "The services list still offers iPod integration",
+      "Nine images without descriptions and seven links a screen reader can’t name"
+    ],
+    "after": [
+      "Everything you install, in plain words, with your own photos",
+      "Dave’s story, and why there’s no pressure to buy",
+      "A consultation form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "circle",
+    "services": "grid",
+    "facts": "ticker",
+    "pattern": "dots",
+    "divider": "zigzag",
+    "heads": "outline",
+    "motion": "clip",
+    "buttons": "pill"
+  }
+}

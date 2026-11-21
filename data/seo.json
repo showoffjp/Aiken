@@ -7856,8 +7856,8 @@
     "description": true,
     "schema": false,
     "og": false,
-    "performance": 58,
-    "pageMB": 3.6,
+    "performance": 62,
+    "pageMB": 3.5,
     "a11ySerious": 12,
     "facebook": true,
     "instagram": false,
@@ -41878,5 +41878,922 @@
     "domainYears": 0
    }
   ]
+ },
+ "dynamic-audio-and-video": {
+  "slug": "dynamic-audio-video",
+  "name": "Dynamic Audio & Video",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "dynamicaudioandvideo.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.dynamicaudioandvideo.com/",
+    "title": "Home Theater Installer | Home Entertainment Installation | Sound Systems | Dynamic Audio Video",
+    "description": "Dynamic Audio & Video will oversee your home entertainment design and installation process including flat-screen TVs to full state-of-the-art home theater systems.",
+    "canonical": "https://www.dynamicaudioandvideo.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Home Theater Installer | Home Entertainment Installation",
+     "description": "Dynamic Audio & Video will oversee your home entertainment design and installation process including flat-screen TVs to full state-of-the-art home theater systems.",
+     "image": "https://www.dynamicaudioandvideo.com/wp-content/uploads/2015/12/fb.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "SC Home Theater & Sound Systems"
+    ],
+    "h1Count": 1,
+    "h2": 0,
+    "h3": 5,
+    "words": 485,
+    "images": 21,
+    "imagesNoAlt": 19,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.dynamicaudioandvideo.com/sitemap_index.xml",
+    "pages": 19
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 3,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 6,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 4,
+    "imagesNoAlt": 80,
+    "images": 82,
+    "sample": [
+     {
+      "url": "https://www.dynamicaudioandvideo.com/",
+      "title": "Home Theater Installer | Home Entertainment Installation | Sound Systems | Dynamic Audio Video",
+      "description": 163,
+      "h1": 1,
+      "words": 485
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/",
+      "title": "Flat Panel TV installation | Audio/Video component selection and sales | Custom Home Theater system design, sales, installation, calibration and service | Commercial audio systems",
+      "description": 640,
+      "h1": 1,
+      "words": 264
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/sonos/",
+      "title": "Sonos",
+      "description": 0,
+      "h1": 1,
+      "words": 203
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/leon/",
+      "title": "Leon Speakers - Custom Audio | Dynamic Audio Video",
+      "description": 108,
+      "h1": 1,
+      "words": 151
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/media-decor/",
+      "title": "Media Decor - Design for Technology | Dynamic Audio Video",
+      "description": 124,
+      "h1": 1,
+      "words": 133
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/pro-control/",
+      "title": "Pro Control",
+      "description": 99,
+      "h1": 1,
+      "words": 112
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/eero-mesh-wifi-routers/",
+      "title": "eero Mesh Wifi Routers - Dynamic Audio and Video",
+      "description": 0,
+      "h1": 1,
+      "words": 401
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/lutron-caseta-wireless/",
+      "title": "Lutron Caseta Wireless Control",
+      "description": 147,
+      "h1": 1,
+      "words": 125
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/gallery/",
+      "title": "Large Screen TV Installation NJ | NJ Home Theater Installer | Home Audio Video Service",
+      "description": 640,
+      "h1": 1,
+      "words": 73
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/testimonials/",
+      "title": "Home Theater Sales Service Installation in NJ | TV Installation Service NJ | Commercial Audio Video Service NJ",
+      "description": 640,
+      "h1": 1,
+      "words": 1104
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/articles/",
+      "title": "Home Theater Service | Full Home Audio Video Service",
+      "description": 640,
+      "h1": 0,
+      "words": 473
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/company-info/",
+      "title": "SC Custom Home Theater Design and Sales | SC TV Sound System Installer",
+      "description": 640,
+      "h1": 1,
+      "words": 268
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/sonos-arc-premium-smart-soundbar/",
+      "title": "Sonos Arc Premium Smart Soundbar - Dynamic Audio and Video",
+      "description": 0,
+      "h1": 1,
+      "words": 327
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/simplify-your-holiday-music/",
+      "title": "Simplify Your Holday Music",
+      "description": 141,
+      "h1": 1,
+      "words": 503
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://www.dynamicaudioandvideo.com/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/sonos/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/sonos"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/leon/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/leon"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/media-decor/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/media-decor"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/pro-control/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/pro-control"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/eero-mesh-wifi-routers/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/eero-mesh-wifi-routers"
+     },
+     {
+      "url": "https://www.dynamicaudioandvideo.com/products-services/lutron-caseta-wireless/www.patwalsh.com",
+      "status": 404,
+      "from": "https://www.dynamicaudioandvideo.com/products-services/lutron-caseta-wireless"
+     }
+    ],
+    "brokenCount": 8
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/dynamicaudioandvideo/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Home Theater",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=418&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=5d6996993d04f541c2f8c0cd8cacba0f",
+    "name": "Dynamic Audio & Video",
+    "phone": "(803) 392-1599",
+    "website": "http://www.dynamicaudioandvideo.com",
+    "address": "Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/dynamicaudioandvideo/"
+   },
+   "listed": {
+    "Facebook": "http://www.facebook.com/dynamicaudioandvideo"
+   }
+  },
+  "domain": {
+   "name": "dynamicaudioandvideo.com",
+   "created": "2007-11-07",
+   "expires": "2027-11-07",
+   "registrar": "Tucows Domains Inc.",
+   "years": 19
+  },
+  "performance": {
+   "performance": 84,
+   "accessibility": 86,
+   "bestPractices": 57,
+   "seo": 92,
+   "fcp": 1770,
+   "lcp": 1770,
+   "tbt": 446,
+   "si": 5059,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1000,
+   "lcp": 2253,
+   "tbt": 109,
+   "si": 1000,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 72,
+   "social": 50,
+   "lighthouseSeo": 92
+  },
+  "competitors": []
+ },
+ "arnold-advisors-llc": {
+  "slug": "arnold-advisors",
+  "name": "Arnold Advisors, LLC",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aiken-cpa.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.aiken-cpa.com/",
+    "title": "Arnold Advisors, LLC | Aiken, SC",
+    "description": "Arnold Advisors, LLC is a full Accounting firm located in Aiken, SC.",
+    "canonical": "https://www.aiken-cpa.com",
+    "noindex": false,
+    "lang": "",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Aiken, SC Accounting, Arnold Advisors, LLC"
+    ],
+    "h1Count": 1,
+    "h2": 6,
+    "h3": 1,
+    "words": 583,
+    "images": 12,
+    "imagesNoAlt": 6,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 1,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 12,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 12,
+    "dupDescs": 12,
+    "imagesNoAlt": 75,
+    "images": 174,
+    "sample": [
+     {
+      "url": "https://www.aiken-cpa.com/",
+      "title": "Arnold Advisors, LLC | Aiken, SC",
+      "description": 68,
+      "h1": 1,
+      "words": 583
+     },
+     {
+      "url": "https://www.aiken-cpa.com/rssfeed.php",
+      "title": "",
+      "description": 0,
+      "h1": 0,
+      "words": 229
+     },
+     {
+      "url": "https://www.aiken-cpa.com/",
+      "title": "Arnold Advisors, LLC | Aiken, SC",
+      "description": 68,
+      "h1": 1,
+      "words": 583
+     },
+     {
+      "url": "https://www.aiken-cpa.com/firmprofile.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 603
+     },
+     {
+      "url": "https://www.aiken-cpa.com/services.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 367
+     },
+     {
+      "url": "https://www.aiken-cpa.com/taxprep.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 600
+     },
+     {
+      "url": "https://www.aiken-cpa.com/taxplanning.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 640
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-problemshome.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 632
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-representation.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 577
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-nonfiledreturns.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 528
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-backtaxes.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 435
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-payrolltax.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 512
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-taxliens.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 505
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-taxlevies.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 598
+     },
+     {
+      "url": "https://www.aiken-cpa.com/irs-garnishment.php",
+      "title": "Aiken, SC CPA / Arnold Advisors, LLC",
+      "description": 104,
+      "h1": 2,
+      "words": 492
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [
+     {
+      "url": "https://www.aiken-cpa.com/lb-consultation.php",
+      "status": 404,
+      "from": "https://www.aiken-cpa.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "LinkedIn": "https://www.linkedin.com/company/arnold-advisors-llc/about/",
+    "Facebook": "https://www.facebook.com/ArnoldAdvisorsLLC",
+    "X (Twitter)": "http://twitter.com/TrentLArnoldCPA"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Accountants",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 6
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=202&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=2196fe698a3134cf9b7732b8ad0af751",
+    "name": "Arnold Advisors, LLC",
+    "phone": "(803) 649-9147",
+    "website": "http://www.aiken-cpa.com",
+    "address": "914 Dougherty Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "LinkedIn": "https://www.linkedin.com/company/arnold-advisors-llc/about/",
+    "Facebook": "https://www.facebook.com/ArnoldAdvisorsLLC",
+    "X (Twitter)": "http://twitter.com/TrentLArnoldCPA"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/ArnoldAdvisorsLLC"
+   }
+  },
+  "domain": {
+   "name": "aiken-cpa.com",
+   "created": "2006-08-10",
+   "expires": "2026-12-15",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 20
+  },
+  "performance": {
+   "performance": 62,
+   "accessibility": 72,
+   "bestPractices": 96,
+   "seo": 83,
+   "fcp": 4901,
+   "lcp": 6058,
+   "tbt": 117,
+   "si": 6204,
+   "cls": 0.001,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 1956,
+   "tbt": 99,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "bolster-bookkeeping-llc",
+   "deeper-dive-bookkeeping",
+   "fliflet-cassels-and-durant-pa-cpa",
+   "help-me-rhonda-bookkeeping-llc",
+   "holley-and-company"
+  ],
+  "scores": {
+   "seo": 45,
+   "social": 45,
+   "lighthouseSeo": 83
+  },
+  "competitors": [
+   {
+    "slug": "bolster-bookkeeping-llc",
+    "name": "Bolster Bookkeeping LLC",
+    "website": "https://bolsterbookkeeping.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "deeper-dive-bookkeeping",
+    "name": "Deeper Dive Bookkeeping",
+    "website": "https://www.deeperdivebook.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 36,
+    "pageMB": 7.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "fliflet-cassels-and-durant-pa-cpa",
+    "name": "Fliflet, Cassels & DuRant, PA CPA",
+    "website": "https://www.flifletcpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 79,
+    "pageMB": 0.5,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 25
+   },
+   {
+    "slug": "help-me-rhonda-bookkeeping-llc",
+    "name": "Help Me Rhonda Bookkeeping, LLC",
+    "website": "https://hmrhonda.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 61,
+    "pageMB": 3.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "holley-and-company",
+    "name": "Holley & Company",
+    "website": "https://www.cpaaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 47,
+    "pageMB": 2.6,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "wise-warehousing-solutions": {
+  "slug": "wise-warehousing",
+  "name": "Wise Warehousing Solutions",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "wisewarehousingsolutions.com",
+   "https": true,
+   "pagesCrawled": 11,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.wisewarehousingsolutions.com/",
+    "title": "Wise Warehousing Solutions",
+    "description": "Wise Warehousing Solutions\na Division of Help Inc",
+    "canonical": "",
+    "noindex": false,
+    "lang": "",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 2,
+    "h3": 5,
+    "words": 229,
+    "images": 20,
+    "imagesNoAlt": 20,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 11,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 9,
+    "multipleH1": 1,
+    "thin": 5,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 8,
+    "imagesNoAlt": 203,
+    "images": 243,
+    "sample": [
+     {
+      "url": "https://www.wisewarehousingsolutions.com/",
+      "title": "Wise Warehousing Solutions",
+      "description": 49,
+      "h1": 0,
+      "words": 229
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/index.html",
+      "title": "Wise Warehousing Solutions",
+      "description": 49,
+      "h1": 0,
+      "words": 229
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/warehousing.html",
+      "title": "Warehousing",
+      "description": 26,
+      "h1": 2,
+      "words": 1121
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/container.html",
+      "title": "Container Breakdown",
+      "description": 26,
+      "h1": 0,
+      "words": 451
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/inventorymg.html",
+      "title": "Inventory Management",
+      "description": 26,
+      "h1": 0,
+      "words": 647
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/operationalmg.html",
+      "title": "Operational Support",
+      "description": 26,
+      "h1": 0,
+      "words": 214
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/packaging.html",
+      "title": "Packaging",
+      "description": 26,
+      "h1": 0,
+      "words": 230
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/transportation.html",
+      "title": "Transportation",
+      "description": 26,
+      "h1": 0,
+      "words": 457
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/locations.html",
+      "title": "Locations",
+      "description": 26,
+      "h1": 0,
+      "words": 217
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/careers.html",
+      "title": "Careers",
+      "description": 53,
+      "h1": 1,
+      "words": 283
+     },
+     {
+      "url": "https://www.wisewarehousingsolutions.com/page1.html",
+      "title": "Terms",
+      "description": 26,
+      "h1": 0,
+      "words": 1801
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 11,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://goo.gl/maps/RSVztaNdfjC7VYhe7"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Warehousing",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 14
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 7
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1072&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=7f73bc73061410c34812b6fd50d7a9e3",
+    "name": "Wise Warehousing Solutions",
+    "phone": "(803) 648-8521",
+    "website": "http://www.wisewarehousingsolutions.com",
+    "address": "285 Main Drive, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://goo.gl/maps/RSVztaNdfjC7VYhe7"
+   },
+   "listed": {}
+  },
+  "domain": {
+   "name": "wisewarehousingsolutions.com",
+   "created": "2020-09-17",
+   "expires": "2027-09-17",
+   "registrar": "Tucows Domains Inc.",
+   "years": 6
+  },
+  "performance": {
+   "performance": 63,
+   "accessibility": 86,
+   "bestPractices": 89,
+   "seo": 92,
+   "fcp": 2174,
+   "lcp": 37965,
+   "tbt": 0,
+   "si": 16449,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2253,
+   "tbt": 55,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": 50,
+   "social": 25,
+   "lighthouseSeo": 92
+  },
+  "competitors": []
  }
 }
