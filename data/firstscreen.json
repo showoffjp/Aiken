@@ -305,6 +305,26 @@
    "at": "2026-11-19"
   }
  },
+ "atomic-heating-and-air": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 32,
+   "smallTargets": 2,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 30,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "augusta-ready-mix-inc": {
   "concept": {
    "call": true,
@@ -669,6 +689,26 @@
    "targets": 49,
    "smallTargets": 13,
    "at": "2026-11-19"
+  }
+ },
+ "carriage-house-inn": {
+  "site": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 3,
+   "targets": 14,
+   "smallTargets": 3,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 41,
+   "smallTargets": 0,
+   "at": "2026-11-21"
   }
  },
  "cavaliers-coffeehouse": {
@@ -1660,6 +1700,26 @@
    "at": "2026-11-19"
   }
  },
+ "park-avenue-oyster-bar-and-grill": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 80,
+   "smallTargets": 14,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 46,
+   "smallTargets": 0,
+   "at": "2026-11-21"
+  }
+ },
  "pats-sub-shop": {
   "concept": {
    "call": true,
@@ -1893,6 +1953,26 @@
    "targets": 38,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "southbound-aiken": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 60,
+   "smallTargets": 15,
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 40,
+   "smallTargets": 0,
+   "at": "2026-11-21"
   }
  },
  "southern-magnolia-dentistry": {

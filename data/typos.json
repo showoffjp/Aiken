@@ -686,5 +686,49 @@
     "pages": 1
    }
   ]
+ },
+ "atomic-heating-and-air": {
+  "at": "2026-11-21T10:27:22.595Z",
+  "pages": 7,
+  "found": []
+ },
+ "carriage-house-inn": {
+  "at": "2026-11-21T10:27:23.661Z",
+  "pages": 12,
+  "found": []
+ },
+ "southbound-aiken": {
+  "at": "2026-11-21T10:28:16.771Z",
+  "pages": 5,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Ceasar",
+    "fix": "Caesar",
+    "count": 1,
+    "page": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-food-menu",
+    "label": "North augusta riverside village southbou",
+    "context": "Ceasar Salad",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
+ },
+ "park-avenue-oyster-bar-and-grill": {
+  "at": "2026-11-21T10:28:48.092Z",
+  "pages": 6,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "vegatarian",
+    "fix": "vegetarian",
+    "count": 1,
+    "page": "https://parkaveoysterbar.com/",
+    "label": "Home",
+    "context": "Sweet potatoes, apples, butternut squash- vegan/vegatarian",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
  }
 }

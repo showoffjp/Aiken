@@ -5996,5 +5996,253 @@
    ],
    "at": "2026-11-21"
   }
+ },
+ "atomic-heating-and-air": {
+  "site": {
+   "first": 6417,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": true
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1313,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "carriage-house-inn": {
+  "site": {
+   "first": 2420,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1441,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "park-avenue-oyster-bar-and-grill": {
+  "site": {
+   "first": 4286,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1219,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
+ },
+ "southbound-aiken": {
+  "site": {
+   "first": 4323,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": true
+    },
+    {
+     "t": 3000,
+     "blank": true
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "first": 1282,
+   "frames": [
+    {
+     "t": 1000,
+     "blank": true
+    },
+    {
+     "t": 2000,
+     "blank": false
+    },
+    {
+     "t": 3000,
+     "blank": false
+    },
+    {
+     "t": 5000,
+     "blank": false
+    },
+    {
+     "t": 8000,
+     "blank": false
+    },
+    {
+     "t": 12000,
+     "blank": false
+    }
+   ],
+   "at": "2026-11-21"
+  }
  }
 }

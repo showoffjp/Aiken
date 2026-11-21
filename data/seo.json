@@ -96,7 +96,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 42,
+    "performance": 50,
     "pageMB": 5.2,
     "a11ySerious": 0,
     "facebook": true,
@@ -2375,7 +2375,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 31,
     "pageMB": 3.6,
     "a11ySerious": 8,
     "facebook": true,
@@ -4066,7 +4066,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 45,
+    "performance": 31,
     "pageMB": 3.6,
     "a11ySerious": 8,
     "facebook": true,
@@ -7645,8 +7645,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 38,
-    "pageMB": 4.3,
+    "performance": 44,
+    "pageMB": 4.7,
     "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
@@ -11949,7 +11949,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 37,
+    "performance": 45,
     "pageMB": 4.3,
     "a11ySerious": 0,
     "facebook": true,
@@ -11966,7 +11966,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 42,
+    "performance": 50,
     "pageMB": 5.2,
     "a11ySerious": 0,
     "facebook": true,
@@ -15183,8 +15183,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 38,
-    "pageMB": 4.3,
+    "performance": 44,
+    "pageMB": 4.7,
     "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
@@ -17002,7 +17002,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 37,
+    "performance": 45,
     "pageMB": 4.3,
     "a11ySerious": 0,
     "facebook": true,
@@ -18846,8 +18846,8 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 38,
-    "pageMB": 4.3,
+    "performance": 44,
+    "pageMB": 4.7,
     "a11ySerious": 4,
     "facebook": true,
     "instagram": true,
@@ -30542,7 +30542,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 42,
+    "performance": 50,
     "pageMB": 5.2,
     "a11ySerious": 0,
     "facebook": true,
@@ -31525,7 +31525,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 37,
+    "performance": 45,
     "pageMB": 4.3,
     "a11ySerious": 0,
     "facebook": true,
@@ -32630,7 +32630,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 37,
+    "performance": 45,
     "pageMB": 4.3,
     "a11ySerious": 0,
     "facebook": true,
@@ -36965,7 +36965,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": 42,
+    "performance": 50,
     "pageMB": 5.2,
     "a11ySerious": 0,
     "facebook": true,
@@ -37461,7 +37461,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 37,
+    "performance": 45,
     "pageMB": 4.3,
     "a11ySerious": 0,
     "facebook": true,
@@ -37880,6 +37880,1491 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 11
+   }
+  ]
+ },
+ "park-avenue-oyster-bar-and-grill": {
+  "slug": "park-avenue-oyster-bar",
+  "name": "Park Avenue Oyster Bar & Grill",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "parkaveoysterbar.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://parkaveoysterbar.com/",
+    "title": "Must-Visit Seafood in Aiken | Park Ave Oyster Bar & Grill",
+    "description": "Park Ave Oyster Bar & Grill is a neighborhood seafood restaurant located in Aiken’s Historic Downtown, dedicated to serving the highest quality seafood, off-the-grill steaks, and seasonal dishes in a casual bistro setting.",
+    "canonical": "https://parkaveoysterbar.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Park Avenue Oyster Bar and Grill - Aiken, SC",
+     "description": "Park Ave Oyster Bar & Grill is a neighborhood seafood restaurant located in Aiken’s Historic Downtown, dedicated to serving the highest quality seafood, off-the-grill steaks, and seaso...",
+     "image": "https://static.spotapps.co/website_images/ab_websites/536613_website_v1/shared_image.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Welcome to Park Avenue Oyster Bar & Grill",
+     "Exclusive private parties",
+     "exceptional catering, anywhere"
+    ],
+    "h1Count": 17,
+    "h2": 12,
+    "h3": 7,
+    "words": 953,
+    "images": 49,
+    "imagesNoAlt": 3,
+    "schemaTypes": [
+     "Restaurant",
+     "PostalAddress",
+     "GeoCoordinates",
+     "OpeningHoursSpecification"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://parkaveoysterbar.com/sitemap.xml",
+    "pages": 12
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 12,
+    "missingH1": 0,
+    "multipleH1": 3,
+    "thin": 8,
+    "noindex": 0,
+    "dupTitles": 3,
+    "dupDescs": 1,
+    "imagesNoAlt": 20,
+    "images": 145,
+    "sample": [
+     {
+      "url": "https://parkaveoysterbar.com/",
+      "title": "Must-Visit Seafood in Aiken | Park Ave Oyster Bar & Grill",
+      "description": 222,
+      "h1": 17,
+      "words": 953
+     },
+     {
+      "url": "https://parkaveoysterbar.com/-party?source=pop_up&spot_id=536613&destination=private_parties&promotion=holiday_party",
+      "title": "Park Avenue Oyster Bar and Grill - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 83
+     },
+     {
+      "url": "https://parkaveoysterbar.com/-reservations?source=pop_up&spot_id=536613&destination=reservations&promotion=reservations",
+      "title": "Park Avenue Oyster Bar and Grill - Reservations",
+      "description": 0,
+      "h1": 1,
+      "words": 79
+     },
+     {
+      "url": "https://parkaveoysterbar.com/-party?source=pop_up&spot_id=536613&destination=private_parties&promotion=private_parties",
+      "title": "Park Avenue Oyster Bar and Grill - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 83
+     },
+     {
+      "url": "https://parkaveoysterbar.com/food-menu",
+      "title": "Park Avenue Oyster Bar and Grill - Food Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 1535
+     },
+     {
+      "url": "https://parkaveoysterbar.com/specials",
+      "title": "Park Avenue Oyster Bar and Grill - Specials",
+      "description": 0,
+      "h1": 1,
+      "words": 139
+     },
+     {
+      "url": "https://parkaveoysterbar.com/drink-menu",
+      "title": "Park Avenue Oyster Bar and Grill - Drink Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 480
+     },
+     {
+      "url": "https://parkaveoysterbar.com/events",
+      "title": "Park Avenue Oyster Bar and Grill - Events",
+      "description": 0,
+      "h1": 1,
+      "words": 276
+     },
+     {
+      "url": "https://parkaveoysterbar.com/belle-cuvee",
+      "title": "Park Avenue Oyster Bar and Grill - Belle Cuvee",
+      "description": 0,
+      "h1": 1,
+      "words": 171
+     },
+     {
+      "url": "https://parkaveoysterbar.com/upstairs-at-224",
+      "title": "Park Avenue Oyster Bar and Grill - Upstairs at 224",
+      "description": 0,
+      "h1": 9,
+      "words": 468
+     },
+     {
+      "url": "https://parkaveoysterbar.com/catering",
+      "title": "Park Avenue Oyster Bar and Grill - Catering",
+      "description": 0,
+      "h1": 1,
+      "words": 79
+     },
+     {
+      "url": "https://parkaveoysterbar.com/-party",
+      "title": "Park Avenue Oyster Bar and Grill - Groups and Parties",
+      "description": 0,
+      "h1": 1,
+      "words": 83
+     },
+     {
+      "url": "https://parkaveoysterbar.com/about",
+      "title": "Park Avenue Oyster Bar and Grill - About",
+      "description": 222,
+      "h1": 3,
+      "words": 327
+     },
+     {
+      "url": "https://parkaveoysterbar.com/reservations",
+      "title": "Park Avenue Oyster Bar and Grill - Reservations",
+      "description": 0,
+      "h1": 1,
+      "words": 79
+     },
+     {
+      "url": "https://parkaveoysterbar.com/accessibility-page-01",
+      "title": "Accessibility Statement",
+      "description": 145,
+      "h1": 1,
+      "words": 285
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 26,
+    "broken": [
+     {
+      "url": "https://parkaveoysterbar.com/$%7Be.url%7D",
+      "status": 404,
+      "from": "https://parkaveoysterbar.com/"
+     },
+     {
+      "url": "https://parkaveoysterbar.com/call-us",
+      "status": 404,
+      "from": "https://parkaveoysterbar.com/"
+     }
+    ],
+    "brokenCount": 2
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/p/Park-Ave-Oyster-Bar-100090673742244/",
+    "Instagram": "https://www.instagram.com/parkaveoysterbar/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Oysters",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": false,
+    "count": 10
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 6
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=748&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=3fc597e526b86fde2a4d32aa0b8a2310",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "phone": "(803) 962-7848",
+    "website": "http://www.parkaveoysterbar.com",
+    "address": "224 Park Avenue, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/park-avenue-oyster-bar-grill/",
+    "name": "Park Avenue Oyster Bar & Grill",
+    "phone": "(803) 962-7848",
+    "website": "https://www.parkaveoysterbar.com/",
+    "address": "224 Park Avenue SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/p/Park-Ave-Oyster-Bar-100090673742244/",
+    "Instagram": "https://www.instagram.com/parkaveoysterbar/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/p/Park-Ave-Oyster-Bar-100090673742244/",
+    "Instagram": "https://www.instagram.com/parkaveoysterbar/"
+   }
+  },
+  "domain": {
+   "name": "parkaveoysterbar.com",
+   "created": "2023-01-31",
+   "expires": "2035-01-31",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 3
+  },
+  "performance": {
+   "performance": 45,
+   "accessibility": 100,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 3376,
+   "lcp": 10630,
+   "tbt": 604,
+   "si": 8893,
+   "cls": 0.002,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1207,
+   "lcp": 2182,
+   "tbt": 60,
+   "si": 1207,
+   "cls": 0.004,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "feed-sack-aiken",
+   "legends-grille",
+   "tailgate-tavern",
+   "the-restaurant-at-the-willcox",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": 75,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "legends-grille",
+    "name": "Legends Grille",
+    "website": "https://thelegendsgrille.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 75,
+    "pageMB": 5.5,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "tailgate-tavern",
+    "name": "Tailgate Tavern",
+    "website": "https://tailgatetavern2.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 47,
+    "pageMB": 2.7,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "the-restaurant-at-the-willcox",
+    "name": "The Restaurant at The Willcox",
+    "website": "https://thewillcox.com/dine/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 46,
+    "pageMB": 13.7,
+    "a11ySerious": 32,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 25
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "carriage-house-inn": {
+  "slug": "carriage-house-inn",
+  "name": "Carriage House Inn",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "aikencarriagehouse.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.aikencarriagehouse.com/",
+    "title": "Aiken Carriage House Inn",
+    "description": "The Carriage House Inn is located in beautiful & historic downtown Aiken. Make sure to book your room when visiting Aiken.",
+    "canonical": "https://www.aikencarriagehouse.com",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Aiken Carriage House Inn",
+     "description": "The Carriage House Inn is located in beautiful & historic downtown Aiken. Make sure to book your room when visiting Aiken.",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Carriage House Inn",
+     "Carriage House Inn",
+     "Aiken Carriage House Inn"
+    ],
+    "h1Count": 5,
+    "h2": 3,
+    "h3": 1,
+    "words": 406,
+    "images": 35,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "WebSite",
+     "Organization",
+     "LocalBusiness"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.aikencarriagehouse.com/sitemap.xml",
+    "pages": 25
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 9,
+    "missingH1": 0,
+    "multipleH1": 15,
+    "thin": 4,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 14,
+    "images": 266,
+    "sample": [
+     {
+      "url": "https://www.aikencarriagehouse.com/",
+      "title": "Aiken Carriage House Inn",
+      "description": 122,
+      "h1": 5,
+      "words": 406
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/history",
+      "title": "History - Carriage House Inn",
+      "description": 0,
+      "h1": 4,
+      "words": 1594
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/masters-week-accommodations",
+      "title": "Masters Week Accommodations - Carriage House Inn",
+      "description": 277,
+      "h1": 5,
+      "words": 221
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/conceirge",
+      "title": "Concierge - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 198
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/rentalproperties-1",
+      "title": "Rental Properties - Carriage House Inn",
+      "description": 80,
+      "h1": 4,
+      "words": 612
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/hotelpolicies",
+      "title": "Hotel Policies - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 1662
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/guest-services",
+      "title": "Amenities & Add On - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 643
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/accommodations",
+      "title": "Accommodations - Carriage House Inn",
+      "description": 38,
+      "h1": 5,
+      "words": 568
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/aiken",
+      "title": "Aiken - Carriage House Inn",
+      "description": 24,
+      "h1": 5,
+      "words": 366
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/reservations",
+      "title": "Reservations - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 149
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/retail-shop-just-for-now",
+      "title": "Retail Shop - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 287
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/new-page-1",
+      "title": "Reviews - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 1346
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/partnerships",
+      "title": "Partnerships - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 821
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/contact",
+      "title": "Contact - Carriage House Inn",
+      "description": 0,
+      "h1": 5,
+      "words": 171
+     },
+     {
+      "url": "https://www.aikencarriagehouse.com/accommodations",
+      "title": "Accommodations - Carriage House Inn",
+      "description": 38,
+      "h1": 5,
+      "words": 568
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 18,
+    "broken": [
+     {
+      "url": "https://www.aikencarriagehouse.com/faqs",
+      "status": 404,
+      "from": "https://www.aikencarriagehouse.com/accommodations"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Carriage-House-Inn-137306446344184/",
+    "Instagram": "https://www.instagram.com/carriagehouseaiken/",
+    "TripAdvisor": "http://www.tripadvisor.com/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Boutique Inn",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 12
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=303&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=6cdacea519fffb992d59049fba3694ca",
+    "name": "Carriage House Inn",
+    "phone": "(803) 644-5888",
+    "website": "http://www.aikencarriagehouse.com",
+    "address": "139 Laurens Street, NW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/stays/carriage_house_inn/",
+    "name": "Carriage House Inn",
+    "phone": "803-644-5888",
+    "website": "https://www.aikencarriagehouse.com/",
+    "address": "139 Laurens St., NW Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Carriage-House-Inn-137306446344184/",
+    "Instagram": "https://www.instagram.com/carriagehouseaiken/",
+    "TripAdvisor": "http://www.tripadvisor.com/"
+   },
+   "listed": {
+    "Instagram": "https://www.instagram.com/carriagehouseaiken/"
+   }
+  },
+  "domain": {
+   "name": "aikencarriagehouse.com",
+   "created": "2000-06-01",
+   "expires": "2030-06-01",
+   "registrar": "Network Solutions, LLC",
+   "years": 26
+  },
+  "performance": {
+   "performance": 44,
+   "accessibility": 92,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 2684,
+   "lcp": 16496,
+   "tbt": 1144,
+   "si": 4871,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1208,
+   "lcp": 2708,
+   "tbt": 76,
+   "si": 1208,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-luxury-rentals",
+   "aiken-midtown-hotel",
+   "burrell-and-flynns-farm",
+   "inn-at-houndslake",
+   "legare-gardens"
+  ],
+  "scores": {
+   "seo": 72,
+   "social": 60,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-luxury-rentals",
+    "name": "Aiken Luxury Rentals",
+    "website": "https://aikenluxuryrentals.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 0,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "aiken-midtown-hotel",
+    "name": "Aiken Midtown Hotel",
+    "website": "https://www.aikenmidtownhotel.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 83,
+    "pageMB": 0.8,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "burrell-and-flynns-farm",
+    "name": "Burrell and Flynn's Farm",
+    "website": "https://www.burrellandflynnsfarm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 83,
+    "pageMB": 5.9,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "inn-at-houndslake",
+    "name": "Inn at Houndslake",
+    "website": "https://www.theinnathoundslake.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 61,
+    "pageMB": 3.2,
+    "a11ySerious": 2,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 12
+   },
+   {
+    "slug": "legare-gardens",
+    "name": "Legare Gardens",
+    "website": "https://legaregardens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.2,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   }
+  ]
+ },
+ "atomic-heating-and-air": {
+  "slug": "atomic-heating-and-air",
+  "name": "Atomic Heating & Air",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "atomichvac.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://atomichvac.com/",
+    "title": "HVAC Contractor Aiken, SC & Augusta, GA | AC Repair, Heating & More – Atomic Heating & Air",
+    "description": "Atomic Heating & Air is a trusted HVAC contractor serving Aiken, SC, Augusta, GA & the CSRA. We offer AC repair, heating repair, HVAC installation, maintenance, indoor air quality, and Generac generator service. Call today.",
+    "canonical": "https://atomichvac.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "HVAC Contractor Aiken, SC & Augusta, GA | AC Repair, Heating & More – Atomic Heating & Air",
+     "description": "Atomic Heating & Air is a trusted HVAC contractor serving Aiken, SC, Augusta, GA & the CSRA. We offer AC repair, heating repair, HVAC installation, maintenance, indoor air quality, and Generac generator service. Call today.",
+     "image": "https://atomichvac.com/wp-content/uploads/2023/12/atomic-logo-12-9-23-1024x444.webp",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "HVAC Repair, Installation & Maintenance in Aiken SC & Augusta GA"
+    ],
+    "h1Count": 1,
+    "h2": 12,
+    "h3": 21,
+    "words": 2161,
+    "images": 16,
+    "imagesNoAlt": 1,
+    "schemaTypes": [
+     "Place",
+     "GeoCoordinates",
+     "PostalAddress",
+     "HVACBusiness",
+     "Organization",
+     "ImageObject",
+     "WebSite",
+     "SearchAction",
+     "WebPage",
+     "FAQPage",
+     "Question",
+     "Answer"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": true,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://atomichvac.com/sitemap_index.xml",
+    "pages": 53
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 15,
+    "images": 66,
+    "sample": [
+     {
+      "url": "https://atomichvac.com/",
+      "title": "HVAC Contractor Aiken, SC & Augusta, GA | AC Repair, Heating & More – Atomic Heating & Air",
+      "description": 223,
+      "h1": 1,
+      "words": 2161
+     },
+     {
+      "url": "https://atomichvac.com/residential-services/",
+      "title": "Residential HVAC Services Aiken SC & Augusta GA | Atomic Heating & Air",
+      "description": 242,
+      "h1": 1,
+      "words": 1103
+     },
+     {
+      "url": "https://atomichvac.com/ac-repair/",
+      "title": "AC Repair in Aiken, SC & Augusta, GA | Same-Day Service – Atomic Heating & Air",
+      "description": 165,
+      "h1": 1,
+      "words": 1374
+     },
+     {
+      "url": "https://atomichvac.com/ac-installation-replacement/",
+      "title": "AC Installation & Replacement in Aiken, SC & Augusta, GA | Atomic Heating & Air",
+      "description": 178,
+      "h1": 1,
+      "words": 1067
+     },
+     {
+      "url": "https://atomichvac.com/heating-repair/",
+      "title": "Heating Repair in Aiken, SC & Augusta, GA | Furnace & Heat Pump – Atomic Heating & Air",
+      "description": 171,
+      "h1": 1,
+      "words": 1392
+     },
+     {
+      "url": "https://atomichvac.com/hvac-maintenance/",
+      "title": "HVAC Maintenance & Tune-Ups in Aiken, Augusta & North Augusta | Atomic Heating & Air",
+      "description": 193,
+      "h1": 1,
+      "words": 1520
+     },
+     {
+      "url": "https://atomichvac.com/indoor-air-quality/",
+      "title": "Indoor Air Quality Aiken SC & Augusta GA | Air Purification & Filtration – Atomic Heating & Air",
+      "description": 211,
+      "h1": 1,
+      "words": 1639
+     },
+     {
+      "url": "https://atomichvac.com/generators/",
+      "title": "Generac Standby Generator Installation Aiken, SC & Augusta, GA | Atomic Heating & Air",
+      "description": 167,
+      "h1": 1,
+      "words": 695
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/",
+      "title": "Plumbing Services in Aiken, SC | Atomic HVAC",
+      "description": 171,
+      "h1": 1,
+      "words": 879
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/plumbing-repair/",
+      "title": "Plumbing Repair in Aiken, SC | Atomic HVAC",
+      "description": 159,
+      "h1": 1,
+      "words": 1060
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/drain-cleaning/",
+      "title": "Drain Cleaning Aiken SC | Atomic HVAC",
+      "description": 153,
+      "h1": 1,
+      "words": 1186
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/water-heater-repair/",
+      "title": "Water Heater Repair Aiken SC | Atomic HVAC",
+      "description": 156,
+      "h1": 1,
+      "words": 1200
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/water-heater-installation/",
+      "title": "Water Heater Installation Aiken SC | Atomic HVAC",
+      "description": 156,
+      "h1": 1,
+      "words": 941
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/tankless-water-heaters/",
+      "title": "Tankless Water Heater Installation Aiken SC | Atomic HVAC",
+      "description": 158,
+      "h1": 1,
+      "words": 780
+     },
+     {
+      "url": "https://atomichvac.com/plumbing/leak-detection/",
+      "title": "Leak Detection Aiken SC & Augusta GA | Atomic HVAC",
+      "description": 166,
+      "h1": 1,
+      "words": 1136
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 38,
+    "broken": [
+     {
+      "url": "https://atomichvac.com/services",
+      "status": 404,
+      "from": "https://atomichvac.com/"
+     },
+     {
+      "url": "https://atomichvac.com/ac-repair-aiken-sc",
+      "status": 404,
+      "from": "https://atomichvac.com/"
+     },
+     {
+      "url": "https://atomichvac.com/cdn-cgi/l/email-protection",
+      "status": 404,
+      "from": "https://atomichvac.com/"
+     }
+    ],
+    "brokenCount": 3
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/atomichvac/",
+    "Google Business Profile": "https://www.google.com/maps/place/Atomic+Heating+and+Air,+LLC/@33.5869266,-82.4298236,9z/data=!3m1!4b1!4m6!3m5!1s0x88f851bb9d4b787b:0xc5b2d6d54d035625!8m2!3d33.587531!4d-81.770368!16s%2Fg%2F11j8_rkcmh"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Heating",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 26
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": false,
+    "count": 12
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=210&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=5f9f94a52be068003141a03c09ca8854",
+    "name": "Atomic Heating & Air",
+    "phone": "(803) 270-2049",
+    "website": "http://www.atomichvac.com",
+    "address": "877 Dougherty Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/atomichvac/",
+    "Google Business Profile": "https://www.google.com/maps/place/Atomic+Heating+and+Air,+LLC/@33.5869266,-82.4298236,9z/data=!3m1!4b1!4m6!3m5!1s0x88f851bb9d4b787b:0xc5b2d6d54d035625!8m2!3d33.587531!4d-81.770368!16s%2Fg%2F11j8_rkcmh"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/atomichvac"
+   }
+  },
+  "domain": {
+   "name": "atomichvac.com",
+   "created": "2020-07-23",
+   "expires": "2027-07-23",
+   "registrar": "NameCheap, Inc.",
+   "years": 6
+  },
+  "performance": {
+   "performance": 31,
+   "accessibility": 87,
+   "bestPractices": 79,
+   "seo": 77,
+   "fcp": 3091,
+   "lcp": 5428,
+   "tbt": 496,
+   "si": 7989,
+   "cls": 0.657,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 951,
+   "lcp": 1953,
+   "tbt": 295,
+   "si": 951,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "bradley-plumbing-and-heating-inc-mechanical-cont",
+   "carolina-hvac-and-electrical",
+   "holley-heating-and-air-conditioning-inc",
+   "mr-central-heating-cooling-plumbing-and-electric"
+  ],
+  "scores": {
+   "seo": 74,
+   "social": 65,
+   "lighthouseSeo": 77
+  },
+  "competitors": [
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "carolina-hvac-and-electrical",
+    "name": "Carolina HVAC and Electrical",
+    "website": "https://www.carolina-hvac.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 40,
+    "pageMB": 4.8,
+    "a11ySerious": 50,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 18
+   },
+   {
+    "slug": "holley-heating-and-air-conditioning-inc",
+    "name": "Holley Heating and Air Conditioning, Inc.",
+    "website": "https://www.holleyheatingandair.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 89,
+    "pageMB": 6.6,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 25
+   },
+   {
+    "slug": "mr-central-heating-cooling-plumbing-and-electric",
+    "name": "Mr. Central Heating, Cooling, Plumbing & Electrical, LLC",
+    "website": "https://mrcentral.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 79,
+    "pageMB": 1.1,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 27
+   }
+  ]
+ },
+ "southbound-aiken": {
+  "slug": "southbound-smokehouse",
+  "name": "Southbound Smokehouse",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "southboundsmokehouse.com",
+   "https": true,
+   "pagesCrawled": 5,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://southboundsmokehouse.com/",
+    "title": "Must-Try BBQ in North Augusta | Southbound Smokehouse",
+    "description": "The idea for Southbound Smokehouse has been a long time in the making. The restaurant itself? Well, that came together in record time.",
+    "canonical": "https://southboundsmokehouse.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Southbound Smokehouse - Riverside Village, North Augusta, SC",
+     "description": "The idea for Southbound Smokehouse has been a long time in the making. The restaurant itself? Well, that came together in record time....",
+     "image": "https://static.spotapps.co/website_images/ab_websites/119478_website/social_share_image.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "map marker pin 1009 Center Street, North Augusta, SC 29841",
+     "map marker pin 222 The Alley Southwest, Aiken, SC, United States",
+     "Order online"
+    ],
+    "h1Count": 18,
+    "h2": 12,
+    "h3": 7,
+    "words": 621,
+    "images": 32,
+    "imagesNoAlt": 1,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://southboundsmokehouse.com/sitemap.xml",
+    "pages": 5
+   },
+   "crawl": {
+    "pages": 5,
+    "missingTitle": 0,
+    "missingDescription": 2,
+    "missingH1": 0,
+    "multipleH1": 2,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 1,
+    "imagesNoAlt": 1,
+    "images": 62,
+    "sample": [
+     {
+      "url": "https://southboundsmokehouse.com/",
+      "title": "Must-Try BBQ in North Augusta | Southbound Smokehouse",
+      "description": 134,
+      "h1": 18,
+      "words": 621
+     },
+     {
+      "url": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-food-menu",
+      "title": "Southbound Smokehouse - Food Menu",
+      "description": 0,
+      "h1": 1,
+      "words": 1704
+     },
+     {
+      "url": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-events",
+      "title": "Southbound Smokehouse - Events",
+      "description": 0,
+      "h1": 1,
+      "words": 386
+     },
+     {
+      "url": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-about",
+      "title": "Southbound Smokehouse - About",
+      "description": 134,
+      "h1": 3,
+      "words": 1309
+     },
+     {
+      "url": "https://southboundsmokehouse.com/accessibility-page-01",
+      "title": "Accessibility Statement",
+      "description": 134,
+      "h1": 1,
+      "words": 209
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 9,
+    "broken": [
+     {
+      "url": "https://southboundsmokehouse.com/$%7Be.url%7D",
+      "status": 404,
+      "from": "https://southboundsmokehouse.com/"
+     },
+     {
+      "url": "https://southboundsmokehouse.com/call-us",
+      "status": 404,
+      "from": "https://southboundsmokehouse.com/"
+     },
+     {
+      "url": "https://southboundsmokehouse.com/130244",
+      "status": 404,
+      "from": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-food-menu"
+     },
+     {
+      "url": "https://southboundsmokehouse.com/219923",
+      "status": 404,
+      "from": "https://southboundsmokehouse.com/north-augusta-riverside-village-southbound-smokehouse-food-menu"
+     }
+    ],
+    "brokenCount": 4
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/636428413460795",
+    "Instagram": "https://www.instagram.com/southboundsmokehouse",
+    "Yelp": "https://www.yelp.com/biz/southbound-smokehouse-ll-at-srp-park-north-augusta"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Barbecue",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": true,
+    "description": false,
+    "firstWords": false,
+    "count": 3
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/southbound-smokehouse/",
+    "name": "Southbound Aiken",
+    "phone": "(803) 226-0549",
+    "website": "https://www.facebook.com/southboundsmokehouse/",
+    "address": "222 The Alley, Aiken, SC, United States, South Carolina",
+    "phoneMatch": false,
+    "websiteMatch": false
+   },
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/southbound-smokehouse-4287",
+    "name": "Southbound Smokehouse",
+    "phone": "(803) 349-9306",
+    "website": "https://southboundsmokehouse.com",
+    "address": "1009 Center Street, North Augusta SC 29841",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/636428413460795",
+    "Instagram": "https://www.instagram.com/southboundsmokehouse",
+    "Yelp": "https://www.yelp.com/biz/southbound-smokehouse-ll-at-srp-park-north-augusta"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/636428413460795",
+    "Instagram": "https://www.instagram.com/southboundsmokehouse"
+   }
+  },
+  "domain": {
+   "name": "southboundsmokehouse.com",
+   "created": "2015-05-21",
+   "expires": "2027-05-21",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 11
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 100,
+   "bestPractices": 100,
+   "seo": 100,
+   "fcp": 3315,
+   "lcp": 10878,
+   "tbt": 412,
+   "si": 10271,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2104,
+   "tbt": 158,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "feed-sack-aiken",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "dukes-bar-b-que",
+   "lankys-on-laurens"
+  ],
+  "scores": {
+   "seo": 68,
+   "social": 75,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "feed-sack-aiken",
+    "name": "Feed Sack · Aiken",
+    "website": "https://www.thefeedsackrestaurants.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "dukes-bar-b-que",
+    "name": "Dukes Bar-B-Que",
+    "website": "https://www.dukesbbqaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.9,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 6
+   },
+   {
+    "slug": "lankys-on-laurens",
+    "name": "Lanky's On Laurens",
+    "website": "https://lankysonlaurens.com/?brid=YWdncwGdsO9c6LNnV1OMk56x5rG9",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 7.1,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
    }
   ]
  }

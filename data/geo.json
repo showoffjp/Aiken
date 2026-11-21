@@ -283,6 +283,14 @@
   "missing": true,
   "at": "2026-11-19"
  },
+ "carriage-house-inn": {
+  "q": "139 Laurens Street NW, Aiken, SC 29801",
+  "lat": 33.562529,
+  "lon": -81.722228,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "cavaliers-coffeehouse": {
   "q": "336 Georgia Avenue, Suite 107, North Augusta, SC 29841",
   "lat": 33.492006,
@@ -749,6 +757,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "park-avenue-oyster-bar": {
+  "q": "224 Park Avenue SW, Aiken, SC 29801",
+  "lat": 33.559729,
+  "lon": -81.722478,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "pats-sub-shop": {
   "q": "728 East Pine Log Road, Aiken, SC 29801",
   "lat": 33.53064,
@@ -884,6 +900,14 @@
   "kind": "secondary",
   "exact": false,
   "at": "2026-11-19"
+ },
+ "southbound-smokehouse": {
+  "q": "222 The Alley SW, Aiken, SC 29801",
+  "lat": 33.560327,
+  "lon": -81.722175,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "southern-magnolia-dentistry": {
   "q": "598 Silver Bluff Road, Suite 1, Aiken, SC 29803",
