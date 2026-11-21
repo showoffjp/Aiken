@@ -1574,9 +1574,9 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 35,
-    "pageMB": 6.8,
-    "a11ySerious": 2,
+    "performance": 36,
+    "pageMB": 6.7,
+    "a11ySerious": null,
     "facebook": false,
     "instagram": true,
     "domainYears": 11
@@ -7243,8 +7243,8 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 39,
-    "pageMB": 3.5,
+    "performance": 58,
+    "pageMB": 3.6,
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
@@ -27281,8 +27281,8 @@
     "description": false,
     "schema": true,
     "og": true,
-    "performance": 39,
-    "pageMB": 3.5,
+    "performance": 58,
+    "pageMB": 3.6,
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
@@ -37857,7 +37857,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 47,
     "pageMB": 2.9,
     "a11ySerious": 17,
     "facebook": true,
@@ -39365,6 +39365,1417 @@
     "facebook": false,
     "instagram": false,
     "domainYears": 0
+   }
+  ]
+ },
+ "hale-dentistry-and-oral-wellness": {
+  "slug": "hale-dentistry",
+  "name": "Hale Dentistry & Oral Wellness",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "dralicehale.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.dralicehale.com/",
+    "title": "Welcome | Aiken, SC | Alice D. Hale DMD, PC",
+    "description": "Welcome to our Welcome page. Contact Alice D. Hale DMD, PC today at (803) 649-0516 or visit our office servicing Aiken, SC",
+    "canonical": "https://www.dralicehale.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 3,
+    "h3": 1,
+    "words": 888,
+    "images": 3,
+    "imagesNoAlt": 2,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.dralicehale.com/sitemap.xml",
+    "pages": 65
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 15,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 2,
+    "dupDescs": 2,
+    "imagesNoAlt": 19,
+    "images": 34,
+    "sample": [
+     {
+      "url": "https://www.dralicehale.com/",
+      "title": "Welcome | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 122,
+      "h1": 0,
+      "words": 888
+     },
+     {
+      "url": "https://www.dralicehale.com/?_rnd=134397334825542584",
+      "title": "Welcome | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 122,
+      "h1": 0,
+      "words": 888
+     },
+     {
+      "url": "https://www.dralicehale.com/contact",
+      "title": "Contact | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 122,
+      "h1": 0,
+      "words": 640
+     },
+     {
+      "url": "https://www.dralicehale.com/appointment-request",
+      "title": "Appointment Request | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 134,
+      "h1": 0,
+      "words": 688
+     },
+     {
+      "url": "https://www.dralicehale.com/procedures",
+      "title": "Procedures | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 125,
+      "h1": 0,
+      "words": 746
+     },
+     {
+      "url": "https://www.dralicehale.com:443/procedures",
+      "title": "Procedures | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 125,
+      "h1": 0,
+      "words": 746
+     },
+     {
+      "url": "https://www.dralicehale.com/meet-the-doctor",
+      "title": "Meet The Doctor | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 130,
+      "h1": 0,
+      "words": 739
+     },
+     {
+      "url": "https://www.dralicehale.com/sitemap.aspx",
+      "title": "Site Map",
+      "description": 123,
+      "h1": 0,
+      "words": 679
+     },
+     {
+      "url": "https://www.dralicehale.com/meet-the-team",
+      "title": "Meet The Team | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 128,
+      "h1": 0,
+      "words": 1039
+     },
+     {
+      "url": "https://www.dralicehale.com/our-practice",
+      "title": "Our Practice | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 127,
+      "h1": 0,
+      "words": 1212
+     },
+     {
+      "url": "https://www.dralicehale.com/our-practice/testimonials",
+      "title": "Testimonials | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 127,
+      "h1": 0,
+      "words": 538
+     },
+     {
+      "url": "https://www.dralicehale.com/procedures/cleanings-prevention",
+      "title": "Cleanings & Prevention | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 137,
+      "h1": 0,
+      "words": 671
+     },
+     {
+      "url": "https://www.dralicehale.com/procedures/cleanings-prevention/dental-exams-cleanings",
+      "title": "Dental Exams & Cleanings | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 139,
+      "h1": 0,
+      "words": 787
+     },
+     {
+      "url": "https://www.dralicehale.com/procedures/cleanings-prevention/digital-x-rays",
+      "title": "Digital X-Rays | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 129,
+      "h1": 0,
+      "words": 941
+     },
+     {
+      "url": "https://www.dralicehale.com/procedures/cleanings-prevention/oralid-scan",
+      "title": "OralID Scan | Aiken, SC | Alice D. Hale DMD, PC",
+      "description": 126,
+      "h1": 0,
+      "words": 674
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/Alice-D-Hale-DMD-464333723672819/",
+    "X (Twitter)": "https://twitter.com/AliceDHaleDMD",
+    "Yelp": "https://www.yelp.com/biz/alice-d-hale-dmd-pc-aiken",
+    "Instagram": "https://www.instagram.com/dralicehale/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Dentistry",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 7
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=517&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=29175750cb94f0c9d222fae91af41dba",
+    "name": "Hale Dentistry & Oral Wellness",
+    "phone": "(803) 649-0516",
+    "website": "http://www.dralicehale.com",
+    "address": "10 Tea Olive Court, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/Alice-D-Hale-DMD-464333723672819/",
+    "X (Twitter)": "https://twitter.com/AliceDHaleDMD",
+    "Yelp": "https://www.yelp.com/biz/alice-d-hale-dmd-pc-aiken",
+    "Instagram": "https://www.instagram.com/dralicehale/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/Alice-D-Hale-DMD-464333723672819/",
+    "Instagram": "https://www.instagram.com/dralicehale/"
+   }
+  },
+  "domain": {
+   "name": "dralicehale.com",
+   "created": "2011-09-16",
+   "expires": "2028-09-16",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 15
+  },
+  "performance": {
+   "performance": null,
+   "accessibility": 93,
+   "bestPractices": 61,
+   "seo": 83,
+   "fcp": 6923,
+   "lcp": null,
+   "tbt": null,
+   "si": 10826,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 89,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1956,
+   "tbt": 421,
+   "si": 961,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-dental",
+   "baker-family-dentistry",
+   "dental-care-at-woodside",
+   "southern-magnolia-dentistry",
+   "twin-willows-medical-and-dental-center"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 70,
+   "lighthouseSeo": 83
+  },
+  "competitors": [
+   {
+    "slug": "aiken-dental",
+    "name": "Aiken Dental",
+    "website": "https://www.aikendental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 70,
+    "pageMB": 0.7,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "baker-family-dentistry",
+    "name": "Baker Family Dentistry",
+    "website": "https://bakerfamilydentistryaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 10
+   },
+   {
+    "slug": "dental-care-at-woodside",
+    "name": "Dental Care at Woodside",
+    "website": "https://dentalcareatwoodside.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 2.2,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "southern-magnolia-dentistry",
+    "name": "Southern Magnolia Dentistry",
+    "website": "https://www.southernmagnoliadental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 71,
+    "pageMB": 2.8,
+    "a11ySerious": 8,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 3
+   },
+   {
+    "slug": "twin-willows-medical-and-dental-center",
+    "name": "Twin Willows Medical and Dental Center",
+    "website": "https://www.twmeddent.com/",
+    "state": "no-dns",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": null
+   }
+  ]
+ },
+ "massage-ology-wellness-studio": {
+  "slug": "massage-ology",
+  "name": "Massage-ology Wellness Studio",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "massageologyaiken.glossgenius.com",
+   "https": true,
+   "pagesCrawled": 8,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://massageologyaiken.glossgenius.com/",
+    "title": "Massage-ology, LLC | Health & Beauty in AIken, SC",
+    "description": "Massage-ology, LLC offers Express Therapeutic Massage, 60-minute Therapeutic Massage, and 90-minute Therapeutic Massage in AIken, SC.",
+    "canonical": "https://massageologyaiken.glossgenius.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Massage-ology, LLC | Health & Beauty in AIken, SC",
+     "description": "Massage-ology, LLC offers Express Therapeutic Massage, 60-minute Therapeutic Massage, and 90-minute Therapeutic Massage in AIken, SC.",
+     "image": "https://static.glossgenius.com/public/salon/0325b3c1f733b415c5b1261480823b9cf3c4f111/website_cover_image/56ae721cbe9274cf53dd6ee97dc5b625.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "MASSAGE-OLOGY, LLC",
+     "MASSAGE-OLOGY, LLC"
+    ],
+    "h1Count": 2,
+    "h2": 6,
+    "h3": 2,
+    "words": 501,
+    "images": 4,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "HealthAndBeautyBusiness",
+     "PostalAddress",
+     "City",
+     "OpeningHoursSpecification",
+     "AggregateRating"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": false,
+     "rating": true
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://massageologyaiken.glossgenius.com/sitemap.xml",
+    "pages": 6
+   },
+   "crawl": {
+    "pages": 8,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 5,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 4,
+    "imagesNoAlt": 0,
+    "images": 62,
+    "sample": [
+     {
+      "url": "https://massageologyaiken.glossgenius.com/",
+      "title": "Massage-ology, LLC | Health & Beauty in AIken, SC",
+      "description": 133,
+      "h1": 2,
+      "words": 501
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/services",
+      "title": "Health & Beauty Services in AIken, SC | Massage-ology, LLC",
+      "description": 156,
+      "h1": 2,
+      "words": 1403
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/about",
+      "title": "About Massage-ology, LLC | Health & Beauty in AIken, SC",
+      "description": 82,
+      "h1": 2,
+      "words": 646
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/team",
+      "title": "Meet the Team at Massage-ology, LLC | AIken, SC",
+      "description": 101,
+      "h1": 1,
+      "words": 611
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/portfolio",
+      "title": "Portfolio",
+      "description": 133,
+      "h1": 1,
+      "words": 373
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/contact",
+      "title": "Contact",
+      "description": 133,
+      "h1": 1,
+      "words": 157
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/services",
+      "title": "Health & Beauty Services in AIken, SC | Massage-ology, LLC",
+      "description": 156,
+      "h1": 2,
+      "words": 1403
+     },
+     {
+      "url": "https://massageologyaiken.glossgenius.com/booking-flow",
+      "title": "Booking Flow",
+      "description": 133,
+      "h1": 2,
+      "words": 132
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 9,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/share/12J1w8v2Gct/",
+    "Instagram": "https://www.instagram.com/marias_massageaiken"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Massage",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 39
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/do/massage-ology-wellness-studio/",
+    "name": "Massage-ology Wellness Studio",
+    "phone": "803.844.0810",
+    "website": "https://massageologyaiken.glossgenius.com/",
+    "address": "207 Silver Bluff Rd., Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/share/12J1w8v2Gct/",
+    "Instagram": "https://www.instagram.com/marias_massageaiken"
+   },
+   "listed": {
+    "Instagram": "https://www.instagram.com/marias_massageaiken"
+   }
+  },
+  "domain": {
+   "name": "glossgenius.com",
+   "created": "2015-10-22",
+   "expires": "2027-10-22",
+   "registrar": "Amazon Registrar, Inc.",
+   "years": 11
+  },
+  "performance": {
+   "performance": 36,
+   "accessibility": 96,
+   "bestPractices": 79,
+   "seo": 100,
+   "fcp": 1896,
+   "lcp": 22310,
+   "tbt": 1964,
+   "si": 10896,
+   "cls": 0.055,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1204,
+   "lcp": 2104,
+   "tbt": 28,
+   "si": 1204,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-wellness-spa-and-boutique",
+   "herbal-solutions-and-spa",
+   "aiken-medical-aesthetics",
+   "bloom-salon-spa-boutique",
+   "changes-day-spa"
+  ],
+  "scores": {
+   "seo": 91,
+   "social": 70,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "herbal-solutions-and-spa",
+    "name": "Herbal Solutions & Spa",
+    "website": "https://www.twoherbalsolutions.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 8.7,
+    "a11ySerious": 292,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "aiken-medical-aesthetics",
+    "name": "Aiken Medical Aesthetics",
+    "website": "https://aikenmedicalaesthetics.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 33,
+    "pageMB": 9.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "changes-day-spa",
+    "name": "Changes Day Spa",
+    "website": "https://www.dewisloto1000.com/game/slot/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 19
+   }
+  ]
+ },
+ "quality-printing-and-graphics-inc": {
+  "slug": "quality-printing",
+  "name": "Quality Printing & Graphics",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "qpgraphics.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://qpgraphics.com/",
+    "title": "Quality Printing and Graphics - On the Mark",
+    "description": "",
+    "canonical": "https://qpgraphics.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Quality Printing and Graphics - On the Mark",
+     "description": "",
+     "image": "https://qpgraphics.com/wp-content/uploads/2019/07/qfolio.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "",
+    "h1": [
+     "YOUR ONE STOP SHOP FOR ALL YOUR PRINT NEEDS",
+     "YOUR ONE STOP SHOP FOR ALL YOUR PRINT NEEDS",
+     "WE DELIVER"
+    ],
+    "h1Count": 3,
+    "h2": 4,
+    "h3": 1,
+    "words": 394,
+    "images": 38,
+    "imagesNoAlt": 38,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://qpgraphics.com/sitemap.xml",
+    "pages": 43
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 15,
+    "missingH1": 12,
+    "multipleH1": 1,
+    "thin": 10,
+    "noindex": 0,
+    "dupTitles": 6,
+    "dupDescs": 0,
+    "imagesNoAlt": 136,
+    "images": 136,
+    "sample": [
+     {
+      "url": "https://qpgraphics.com/",
+      "title": "Quality Printing and Graphics - On the Mark",
+      "description": 0,
+      "h1": 3,
+      "words": 394
+     },
+     {
+      "url": "https://qpgraphics.com/about/",
+      "title": "About - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 1,
+      "words": 301
+     },
+     {
+      "url": "https://qpgraphics.com/featured-work/",
+      "title": "Featured Work - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 49
+     },
+     {
+      "url": "https://qpgraphics.com/print/",
+      "title": "Print - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 337
+     },
+     {
+      "url": "https://qpgraphics.com/mail/",
+      "title": "Mail - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 191
+     },
+     {
+      "url": "https://qpgraphics.com/wide-format/",
+      "title": "Wide Format - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 168
+     },
+     {
+      "url": "https://qpgraphics.com/contact/",
+      "title": "Contact - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 88
+     },
+     {
+      "url": "https://qpgraphics.com/print/",
+      "title": "Print - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 337
+     },
+     {
+      "url": "https://qpgraphics.com/featured-work/",
+      "title": "Featured Work - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 49
+     },
+     {
+      "url": "https://qpgraphics.com/mail/",
+      "title": "Mail - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 191
+     },
+     {
+      "url": "https://qpgraphics.com/wide-format/",
+      "title": "Wide Format - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 168
+     },
+     {
+      "url": "https://qpgraphics.com/about/",
+      "title": "About - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 1,
+      "words": 301
+     },
+     {
+      "url": "https://qpgraphics.com/contact/",
+      "title": "Contact - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 88
+     },
+     {
+      "url": "https://qpgraphics.com/time-is-of-the-essence/",
+      "title": "Time is of the Essence - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 88
+     },
+     {
+      "url": "https://qpgraphics.com/direct-mail-service/",
+      "title": "Direct Mail Service - Quality Printing and Graphics",
+      "description": 0,
+      "h1": 0,
+      "words": 81
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 41,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/QPGraphics/",
+    "Instagram": "https://www.instagram.com/qp_on_the_mark/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Printing",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 5
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=789&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=89406b37aeb3aa24852bee5c0fa25de0",
+    "name": "Quality Printing & Graphics, Inc.",
+    "phone": "(803) 278-4830",
+    "website": "http://www.qpgraphics.com",
+    "address": "502 Edgefield Road, North Augusta, SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   },
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/quality-printing-and-graphics-inc-1614",
+    "name": "Quality Printing and Graphics, Inc.",
+    "phone": "(803) 278-4830",
+    "website": "http://www.qpgraphics.com",
+    "address": "502 Edgefield Road, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/QPGraphics/",
+    "Instagram": "https://www.instagram.com/qp_on_the_mark/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/QPGraphics/",
+    "Instagram": "https://www.instagram.com/qp_on_the_mark/"
+   }
+  },
+  "domain": {
+   "name": "qpgraphics.com",
+   "created": "2003-02-27",
+   "expires": "2028-02-27",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 23
+  },
+  "performance": {
+   "performance": 58,
+   "accessibility": 93,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2689,
+   "lcp": 6710,
+   "tbt": 477,
+   "si": 4195,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 947,
+   "lcp": 1955,
+   "tbt": 83,
+   "si": 947,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "howell-printing-company",
+   "smith-mcgee-designs-llc",
+   "tpi-tyler-press-llc",
+   "the-aiken-sign-co"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 70,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "howell-printing-company",
+    "name": "Howell Printing Company",
+    "website": "http://www.howellprinting.net/",
+    "state": "ok",
+    "https": false,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.3,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 21
+   },
+   {
+    "slug": "smith-mcgee-designs-llc",
+    "name": "Smith-McGee Designs LLC",
+    "website": "https://s-mdesigns.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 1,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "tpi-tyler-press-llc",
+    "name": "TPi - Tyler Press, LLC",
+    "website": "https://tylerpress.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 77,
+    "pageMB": 1.2,
+    "a11ySerious": 16,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 9
+   },
+   {
+    "slug": "the-aiken-sign-co",
+    "name": "The Aiken Sign Co",
+    "website": "https://www.aikensignco.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 1
+   }
+  ]
+ },
+ "gutter-specialty-services": {
+  "slug": "gutter-specialty",
+  "name": "Gutter Specialty Services",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "gutterspecialtyservices.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://gutterspecialtyservices.com/",
+    "title": "Gutter Specialty Services | Augusta, GA | Aiken, SC | Charleston, SC",
+    "description": "Locally owned and operated gutter installation business helping to protect your home or business from future water damage in Augusta, GA, Aiken & Charleston, SC.",
+    "canonical": "https://gutterspecialtyservices.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Gutter Specialty Services | Augusta, GA | Aiken, SC | Charleston, SC",
+     "description": "Locally owned and operated gutter installation business helping to protect your home or business from future water damage in Augusta, GA, Aiken & Charleston, SC.",
+     "image": "https://gutterspecialtyservices.com/wp-content/uploads/2024/11/FullLogoTrans-1-1024x326_whitetext-fc26d469-338w.png.webp",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "GUTTER INSTALLATION & REPAIR SERVICES"
+    ],
+    "h1Count": 1,
+    "h2": 7,
+    "h3": 15,
+    "words": 647,
+    "images": 12,
+    "imagesNoAlt": 8,
+    "schemaTypes": [
+     "BreadcrumbList",
+     "ListItem",
+     "HomeAndConstructionBusiness",
+     "City",
+     "Organization",
+     "ImageObject",
+     "WebPage",
+     "WebSite"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": true,
+     "Meta Pixel": true
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 2
+   },
+   "sitemap": {
+    "url": "https://gutterspecialtyservices.com/sitemap.xml",
+    "pages": 0
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 1,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 34,
+    "images": 103,
+    "sample": [
+     {
+      "url": "https://gutterspecialtyservices.com/",
+      "title": "Gutter Specialty Services | Augusta, GA | Aiken, SC | Charleston, SC",
+      "description": 161,
+      "h1": 1,
+      "words": 647
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/about/",
+      "title": "About Gutter Specialty Services | 20 Years Serving Augusta, GA & the CSRA",
+      "description": 220,
+      "h1": 1,
+      "words": 375
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/residential/",
+      "title": "Residential Gutter Services Augusta, GA — Installation, Repair & Guards | Gutter Specialty Services",
+      "description": 205,
+      "h1": 1,
+      "words": 552
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/commercial/",
+      "title": "Commercial Gutter Installation in Augusta, GA | Gutter Specialty Services",
+      "description": 193,
+      "h1": 1,
+      "words": 734
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/residential/augusta-ga-gutter-installation/",
+      "title": "Gutter Installation Augusta, GA | Seamless Gutters | Gutter Specialty Services",
+      "description": 209,
+      "h1": 1,
+      "words": 721
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/residential/gutter-repair/",
+      "title": "Gutter Repair in Augusta, GA | 20+ Years Experience | Gutter Specialty Services",
+      "description": 211,
+      "h1": 1,
+      "words": 868
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/gutter-replacement/",
+      "title": "Gutter Replacement Augusta, GA | Fast & Affordable | Gutter Specialty Services",
+      "description": 226,
+      "h1": 1,
+      "words": 782
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/gutter-cleaning-services/",
+      "title": "Gutter Cleaning Services in Augusta, GA | Gutter Specialty Services",
+      "description": 191,
+      "h1": 1,
+      "words": 683
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/residential/gutter-guards/",
+      "title": "Gutter Guards Augusta, GA | LeafBlaster Pro & Bulldog Guard | Gutter Specialty Services",
+      "description": 209,
+      "h1": 1,
+      "words": 736
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/contact/",
+      "title": "Contact Gutter Specialty Services | Free Estimates Augusta, GA & CSRA",
+      "description": 189,
+      "h1": 1,
+      "words": 271
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/blog/",
+      "title": "Blog - Gutter Specialty Services",
+      "description": 30,
+      "h1": 0,
+      "words": 955
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/sms-terms-conditions/",
+      "title": "SMS Terms & Conditions - Gutter Specialty Services",
+      "description": 401,
+      "h1": 2,
+      "words": 628
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/pine-trees-and-gutters-what-augusta-homeowners-need-to-know/",
+      "title": "Pine Trees & Gutters | Gutter Specialty Services",
+      "description": 148,
+      "h1": 1,
+      "words": 2189
+     },
+     {
+      "url": "https://gutterspecialtyservices.com/category/gutter-maintenance/",
+      "title": "Gutter Maintenance - Gutter Specialty Services",
+      "description": 0,
+      "h1": 1,
+      "words": 436
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 40,
+    "broken": [
+     {
+      "url": "https://gutterspecialtyservices.com/privacy-policy",
+      "status": 0,
+      "from": "https://gutterspecialtyservices.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Google Business Profile": "https://maps.app.goo.gl/Fc5ZPyvqdYV1kcb76",
+    "Facebook": "https://www.facebook.com/profile.php?id=100090009531741"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Seamless Gutters",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "Trenton",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1131&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=6ab8563ce964f20f73bce3de97386504",
+    "name": "Gutter Specialty Services",
+    "phone": "(803) 257-7950",
+    "website": "https://gutterspecialtyservices.com/",
+    "address": "266 Ballard Drive, Trenton, South Carolina 29847",
+    "phoneMatch": false,
+    "websiteMatch": true
+   },
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/gutter-specialty-services-4299",
+    "name": "Gutter Specialty Services",
+    "phone": "(803) 257-7950",
+    "website": "http://www.gutterspecialtyservices.com",
+    "address": "266 Ballard Dr, Trenton SC 29847",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://maps.app.goo.gl/Fc5ZPyvqdYV1kcb76",
+    "Facebook": "https://www.facebook.com/profile.php?id=100090009531741"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=100090009531741"
+   }
+  },
+  "domain": {
+   "name": "gutterspecialtyservices.com",
+   "created": "2023-05-09",
+   "expires": "2027-05-09",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 3
+  },
+  "performance": {
+   "performance": 47,
+   "accessibility": 92,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 2324,
+   "lcp": 7120,
+   "tbt": 1243,
+   "si": 4391,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 974,
+   "lcp": 2336,
+   "tbt": 180,
+   "si": 974,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aikenite-electrical-services-llc",
+   "garlin-design-and-remodeling-llc",
+   "graybeal-construction-and-design",
+   "marketplace-paints"
+  ],
+  "scores": {
+   "seo": 68,
+   "social": 65,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "aikenite-electrical-services-llc",
+    "name": "Aikenite Electrical Services LLC",
+    "website": "https://www.aikenite-electrical.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 33,
+    "pageMB": 4.8,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "garlin-design-and-remodeling-llc",
+    "name": "GARLIN Design & Remodeling LLC",
+    "website": "https://www.garlindesignremodeling.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 1.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "graybeal-construction-and-design",
+    "name": "Graybeal Construction & Design",
+    "website": "https://www.graybealconstruction.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 6,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "marketplace-paints",
+    "name": "Marketplace Paints",
+    "website": "https://marketplacepaints.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
    }
   ]
  }

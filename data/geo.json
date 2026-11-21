@@ -427,6 +427,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "hale-dentistry": {
+  "q": "10 Tea Olive Court, Aiken, SC 29803",
+  "lat": 33.512275,
+  "lon": -81.738611,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "hals-hair-center": {
   "q": "358 Edgefield Road, North Augusta, SC 29841",
   "lat": 33.529444,
@@ -677,6 +685,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "massage-ology": {
+  "q": "207 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.487241,
+  "lon": -81.752976,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "mcghees-mile": {
   "q": "620 Banks Mill Road, Aiken, SC",
   "lat": 33.543456,
@@ -820,6 +836,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "quality-printing": {
+  "q": "502 Edgefield Road, North Augusta, SC 29841",
+  "lat": 33.536981,
+  "lon": -81.942932,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "rebel-ranch-horse-tours": {
   "q": "Warrenville, SC 29851",

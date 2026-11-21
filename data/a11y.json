@@ -5293,7 +5293,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "harrison-k-9-security-services-llc": {
@@ -5676,7 +5686,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "high-country-olive-oil": {
@@ -6985,21 +7005,18 @@
  },
  "massage-ology-wellness-studio": {
   "site": {
-   "rules": 1,
-   "issues": 2,
+   "error": "Error: page.addScriptTag: Executing inline script violates the following Content Security Policy directive 'script-src '",
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
    "critical": 0,
-   "serious": 2,
+   "serious": 0,
    "moderate": 0,
    "minor": 0,
-   "top": [
-    {
-     "id": "link-name",
-     "impact": "serious",
-     "help": "Links must have discernible text",
-     "nodes": 2
-    }
-   ],
-   "at": "2026-11-17"
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "maxwell-law-group-llc": {
@@ -8148,7 +8165,17 @@
      "nodes": 6
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-21"
   }
  },
  "rack-and-grill-3": {

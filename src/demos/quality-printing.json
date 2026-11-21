@@ -1,0 +1,316 @@
+{
+  "name": "Quality Printing & Graphics",
+  "short": "Quality Printing",
+  "category": "Printing, Mailing & Signs",
+  "group": "Services",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f5f7",
+    "surface": "#ffffff",
+    "ink": "#14161a",
+    "muted": "#4b5058",
+    "primary": "#c3262f",
+    "onPrimary": "#ffffff",
+    "accent": "#1f4e8c",
+    "line": "#e0e3e8"
+  },
+  "radius": 8,
+  "icon": "printer",
+  "contact": {
+    "phone": "(803) 278-4830",
+    "email": "info@qpgraphics.com",
+    "address": [
+      "502 Edgefield Road",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Quality Printing and Graphics, 502 Edgefield Rd, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/QPGraphics/"
+  },
+  "hero": {
+    "eyebrow": "Printing in the CSRA since 1962",
+    "title": "Print, design, *mail and signs*",
+    "lede": "Your one-stop shop for printing: offset and digital printing, design, binding and finishing, direct mail that can cut your postage in half, and signs and vehicle wraps, from a family-owned shop on Edgefield Road.",
+    "points": [
+      "Since 1962",
+      "Offset & digital",
+      "Direct mail"
+    ],
+    "cta": {
+      "label": "Request a quote",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 278-4830",
+      "href": "tel:+18032784830"
+    },
+    "image": {
+      "src": "/demo-assets/quality-printing/sign.webp",
+      "alt": "The Quality Printing, Signs and Graphics sign on the shop wall",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "facts": [
+    {
+      "value": "1962",
+      "label": "The year the family started printing"
+    },
+    {
+      "value": "Half",
+      "label": "Postage you could save on 200+ pieces"
+    },
+    {
+      "value": "25+ years",
+      "label": "How long some customers have stayed"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 4,
+      "eyebrow": "One stop shop",
+      "title": "What *we do*",
+      "items": [
+        {
+          "icon": "printer",
+          "title": "Printing",
+          "text": "Offset for big runs, digital for short runs and on-demand jobs, with custom inks and papers."
+        },
+        {
+          "icon": "pen-tool",
+          "title": "Design",
+          "text": "Design for print, from business cards to brochures and catalogs."
+        },
+        {
+          "icon": "mail",
+          "title": "Mail",
+          "text": "Mailing lists, addressing and drop shipping. Don’t have a list? We’ll build one."
+        },
+        {
+          "icon": "signpost",
+          "title": "Signs & wraps",
+          "text": "Signs, wall graphics and vehicle wraps that turn your truck into a billboard."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "finishing",
+      "nav": "Finishing",
+      "eyebrow": "In house",
+      "title": "Finishing, binding *and mail*",
+      "columns": [
+        {
+          "title": "Finishing",
+          "items": [
+            "Die-cutting, scoring and perforating",
+            "Folding and collating",
+            "Laminating and offline UV coating",
+            "Embossing and debossing",
+            "Inline varnishes and tab cutting"
+          ]
+        },
+        {
+          "title": "Binding",
+          "items": [
+            "Spiral and Wire-O",
+            "Saddle and wire stitching",
+            "Perfect binding",
+            "Hardback casing",
+            "Padding"
+          ]
+        },
+        {
+          "title": "Mail services",
+          "items": [
+            "Inkjet addressing and labeling",
+            "Inserting, tabbing and glue tabs",
+            "Postcards, letters, appeals and fundraisers",
+            "Variable data and data acquisition",
+            "Fulfillment"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Our work",
+      "eyebrow": "Featured work",
+      "title": "Made *on Edgefield Road*",
+      "images": [
+        {
+          "src": "/demo-assets/quality-printing/bus-wrap.webp",
+          "alt": "A full wrap on a shuttle bus",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "src": "/demo-assets/quality-printing/trailer-wrap.webp",
+          "alt": "Lettering on a work trailer",
+          "width": 1200,
+          "height": 816
+        },
+        {
+          "src": "/demo-assets/quality-printing/wall-graphic.webp",
+          "alt": "A large Endurance Fitness wall graphic",
+          "width": 1200,
+          "height": 829
+        },
+        {
+          "src": "/demo-assets/quality-printing/cart-wrap.webp",
+          "alt": "A wrapped ice cream cart",
+          "width": 1000,
+          "height": 1053
+        },
+        {
+          "src": "/demo-assets/quality-printing/brochures.webp",
+          "alt": "Printed brochures and rack cards",
+          "width": 1200,
+          "height": 896
+        },
+        {
+          "src": "/demo-assets/quality-printing/guides.webp",
+          "alt": "Printed guides and booklets",
+          "width": 1200,
+          "height": 846
+        },
+        {
+          "src": "/demo-assets/quality-printing/press.webp",
+          "alt": "A press operator at work in the shop",
+          "width": 1000,
+          "height": 750
+        },
+        {
+          "src": "/demo-assets/quality-printing/labels.webp",
+          "alt": "Rolls of printed product labels",
+          "width": 750,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "history",
+      "nav": "History",
+      "eyebrow": "Our history",
+      "title": "Family-owned *since 1962*",
+      "image": {
+        "src": "/demo-assets/quality-printing/counter.webp",
+        "alt": "Helping a customer at the Quality Printing counter",
+        "width": 1024,
+        "height": 732
+      },
+      "body": [
+        "Quality Printing and Graphics began in 1962 in a Graniteville home, printing mostly for area churches. The family opened Graniteville Graphics in 1981 and a North Augusta shop, Quality Printing, in 1989.",
+        "In 1999 the two merged at the Edgefield Road location as Quality Printing and Graphics, which has since added a sign shop and bindery. Three generations later, it is still family-owned."
+      ],
+      "list": [
+        "Three generations of printers",
+        "A sign shop and bindery in house",
+        "Customers for 25 years and more"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "title": "What *customers say*",
+      "items": [
+        {
+          "text": "Quotes and turnaround times on jobs are fast, affordable, and look great.",
+          "by": "J. Berry"
+        },
+        {
+          "text": "Very courteous, friendly and always someone there to assist you with your needs. I have used Quality Printing for over 25 years with no complaints.",
+          "by": "D. Preachers"
+        },
+        {
+          "text": "The work is excellent, the staff is awesome, and the order was ready fast. Thanks for excellent service!",
+          "by": "C. Stokes"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Offset or digital: which do I need?",
+          "a": "Offset is best for large quantities, where the price per piece drops as you print more. Digital suits short runs, on-demand jobs and printing a different name or address on each piece."
+        },
+        {
+          "q": "How can direct mail save me money?",
+          "a": "Mailing more than 200 pieces through our direct mail service can cut your postage by up to half, and we handle everything from design to the mailbox."
+        },
+        {
+          "q": "How long does a job take?",
+          "a": "Talk to us before you start: we’ll tell you how long the job will take once we have all the information."
+        },
+        {
+          "q": "Can I order online?",
+          "a": "Yes, you can register for an account, place an order or request a quote online."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Got a job to print?",
+      "text": "Print, mail and signs from one shop on Edgefield Road.",
+      "cta": {
+        "label": "Call (803) 278-4830",
+        "href": "tel:+18032784830"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Edgefield Road*",
+    "formTitle": "Request a quote",
+    "formTopics": [
+      "Printing",
+      "Design",
+      "Direct mail",
+      "Signs or a vehicle wrap",
+      "Something else"
+    ]
+  },
+  "slug": "quality-printing",
+  "added": "2026-11-21",
+  "prospect": "quality-printing-and-graphics-inc",
+  "source": {
+    "url": "https://qpgraphics.com/",
+    "before": [
+      "The logo spot at the top of the home page shows the website theme’s stand-in picture, not the company’s logo",
+      "The Signs page says only “TO COME”",
+      "A “Secret Link” sits in the site menu",
+      "The newest posts on the home page are from June 2019, and there’s no description for Google to show in search results",
+      "On a phone, the first screen has no call button"
+    ],
+    "after": [
+      "Print, design, mail and signs each explained, with the full finishing and binding list",
+      "Featured work up front",
+      "A quote form and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "zoom",
+    "buttons": "square"
+  }
+}
