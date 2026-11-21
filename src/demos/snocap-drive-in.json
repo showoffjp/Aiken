@@ -1,0 +1,440 @@
+{
+  "name": "Sno-Cap Drive-In",
+  "short": "Sno-Cap",
+  "category": "Burgers, Dogs & Root Beer Floats",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "fredoka",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fff8e8",
+    "surface": "#ffffff",
+    "ink": "#1f2a33",
+    "muted": "#51606b",
+    "primary": "#c8202f",
+    "onPrimary": "#ffffff",
+    "accent": "#2a9d9a",
+    "line": "#f1e4c4"
+  },
+  "radius": 14,
+  "icon": "ice-cream-cone",
+  "established": "1964",
+  "contact": {
+    "phone": "(803) 279-4004",
+    "email": "orders@snocapdrivein.com",
+    "address": [
+      "618 West Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Sno-Cap Drive-In, 618 West Ave, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Saturday",
+        "10:30 am – 9:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Order online for pickup, or call it in.",
+    "facebook": "https://www.facebook.com/snocapdriveinNA"
+  },
+  "hero": {
+    "eyebrow": "North Augusta’s drive-in since 1964",
+    "title": "Burgers, dogs *and root beer floats*",
+    "lede": "Locally owned and operated since 1964. Hand-pattied burgers from Lanier’s Meat Market, all-beef dogs on Masada Bakery buns, Kyle’s chili, soft serve and the famous Sno-Cap root beer float.",
+    "points": [
+      "Since 1964",
+      "Order online",
+      "Drop-off catering"
+    ],
+    "cta": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "cta2": {
+      "label": "Call (803) 279-4004",
+      "href": "tel:+18032794004"
+    },
+    "image": {
+      "src": "/demo-assets/snocap-drive-in/float-and-cake.webp",
+      "alt": "A root beer float in a frosty mug and a double hot fudge cake on the Sno-Cap counter",
+      "width": 1600,
+      "height": 1066
+    }
+  },
+  "facts": [
+    {
+      "value": "1964",
+      "label": "Serving North Augusta since"
+    },
+    {
+      "value": "$3.75",
+      "label": "Makes anything a combo"
+    },
+    {
+      "value": "$4.00",
+      "label": "The Sno-Cap root beer float"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Burgers, dogs & treats",
+      "title": "The *menu*",
+      "intro": "Burgers are a hand-pattied 6 oz beef blend from Lanier’s Meat Market or a grilled 6 oz all-natural chicken breast, on a buttery brioche bun baked locally by Masada Bakery. Make anything a combo with fries and a drink for $3.75 extra.",
+      "groups": [
+        {
+          "title": "Burgers",
+          "note": "Beef or grilled chicken",
+          "items": [
+            {
+              "name": "Plain",
+              "desc": "Just what it says",
+              "price": "$7.00"
+            },
+            {
+              "name": "Cheesy",
+              "desc": "Melted cheddar",
+              "price": "$8.00"
+            },
+            {
+              "name": "Bacon Cheesy",
+              "desc": "Cheddar and bacon",
+              "price": "$9.50"
+            },
+            {
+              "name": "Smokehouse",
+              "desc": "Cheddar, bacon, Sno-slaw and Fat Man’s BBQ sauce",
+              "price": "$10.50"
+            },
+            {
+              "name": "Steakhouse",
+              "desc": "Swiss, mushrooms, sautéed onion and A1",
+              "price": "$9.25"
+            },
+            {
+              "name": "Sno-Cap",
+              "desc": "Cheddar, Sno-slaw and Kyle’s chili",
+              "price": "$10.25"
+            },
+            {
+              "name": "Make it a double",
+              "desc": "A second beef patty",
+              "price": "+$3.00"
+            },
+            {
+              "name": "Veggie patty",
+              "desc": "Black bean, kosher and vegetarian, in place of the beef",
+              "price": "+50¢"
+            }
+          ]
+        },
+        {
+          "title": "Dogs",
+          "note": "Short · long · sausage",
+          "items": [
+            {
+              "name": "Plain",
+              "desc": "Naked, but the free toppings are yours",
+              "price": "$3.50 · $6.00 · $4.75"
+            },
+            {
+              "name": "Slaw",
+              "desc": "Sno-slaw and mustard",
+              "price": "$4.50 · $7.00 · $5.75"
+            },
+            {
+              "name": "Chili Dog",
+              "desc": "Kyle’s chili and mustard",
+              "price": "$4.75 · $7.25 · $6.00"
+            },
+            {
+              "name": "Chili Cheesy",
+              "desc": "Kyle’s chili, cheddar and mustard",
+              "price": "$5.50 · $8.00 · $6.75"
+            },
+            {
+              "name": "Sno-Cap",
+              "desc": "Kyle’s chili, cheddar, Sno-slaw and mustard",
+              "price": "$6.50 · $8.50 · $7.25"
+            }
+          ]
+        },
+        {
+          "title": "Classics",
+          "items": [
+            {
+              "name": "BBQ sandwich",
+              "price": "$7.00"
+            },
+            {
+              "name": "Chicken tenders",
+              "desc": "Five fried pulled white-meat tenders with honey mustard",
+              "price": "$6.50"
+            },
+            {
+              "name": "BLT",
+              "desc": "Lots of bacon, lettuce, tomato and mayo",
+              "price": "$6.00"
+            },
+            {
+              "name": "Grilled cheese",
+              "desc": "Two pieces of buttery goodness and lots of melted cheddar. Add bacon for $1.50",
+              "price": "$4.75"
+            },
+            {
+              "name": "Corn dog",
+              "price": "$2.75"
+            },
+            {
+              "name": "Chef salad",
+              "desc": "Local hydroponic mixed greens, tomato, pickles, cheddar and onion, with ranch, honey mustard or balsamic. Plain, or with grilled chicken. Add bacon for $1.25",
+              "price": "$6.00 · $10.00"
+            }
+          ]
+        },
+        {
+          "title": "Sides & chili",
+          "items": [
+            {
+              "name": "Seasoned fries",
+              "desc": "Small or large",
+              "price": "$2.50 · $5.00"
+            },
+            {
+              "name": "Onion rings",
+              "desc": "Small or large",
+              "price": "$2.50 · $5.00"
+            },
+            {
+              "name": "Sno-slaw",
+              "desc": "Small or large, or a mini cup for $1.75",
+              "price": "$2.50 · $5.00"
+            },
+            {
+              "name": "Chili cheese fries",
+              "price": "$7.00"
+            },
+            {
+              "name": "Kyle’s chili",
+              "desc": "Cup or bowl. Add cheddar for $1.00",
+              "price": "$4.25 · $6.25"
+            }
+          ]
+        },
+        {
+          "title": "Treats",
+          "items": [
+            {
+              "name": "Sno-Cap root beer float",
+              "desc": "Local Red Hare root beer and vanilla soft serve in a frosty mug",
+              "price": "$4.00"
+            },
+            {
+              "name": "Shakes",
+              "desc": "Small or large: vanilla, chocolate, strawberry or Oreo",
+              "price": "$3.25 · $4.25"
+            },
+            {
+              "name": "Cones",
+              "desc": "Vanilla, chocolate or twist",
+              "price": "$3.25"
+            },
+            {
+              "name": "Dip cone",
+              "price": "$3.75"
+            },
+            {
+              "name": "Mini-cup",
+              "price": "$2.75"
+            },
+            {
+              "name": "Double hot fudge cake",
+              "desc": "Vanilla soft serve between two chocolate cake layers, topped with hot fudge, whipped cream and a cherry",
+              "price": "$5.50"
+            },
+            {
+              "name": "Ice cream sundae",
+              "desc": "Vanilla, hot fudge, whipped cream and a cherry. Add candied walnuts for $1",
+              "price": "$3.75"
+            }
+          ]
+        },
+        {
+          "title": "Kids & drinks",
+          "items": [
+            {
+              "name": "Kids meal",
+              "desc": "A short hot dog, 4 oz hamburger, grilled cheese, chicken tenders or a corn dog, with smiley fries and a kid’s fountain drink. Mustard and ketchup only, no substitutions",
+              "price": "$6.50"
+            },
+            {
+              "name": "Fountain drinks",
+              "desc": "Small, medium or large: Coca-Cola, Diet Coke, Sprite, Hi-C, Fanta Orange, lemonade, sweet and unsweetened tea, and Dr Pepper",
+              "price": "$1.75 · $2.25 · $3.25"
+            }
+          ]
+        },
+        {
+          "title": "Toppings",
+          "items": [
+            {
+              "name": "Free toppings",
+              "desc": "Lettuce, tomato, onion, pickles, jalapeños, relish, mayo, mustard, ketchup, honey mustard, ranch and Fat Man’s BBQ sauce"
+            },
+            {
+              "name": "Bacon",
+              "price": "$1.50"
+            },
+            {
+              "name": "Kyle’s chili",
+              "price": "$1.25"
+            },
+            {
+              "name": "Cheese (Swiss or cheddar)",
+              "price": "$1.00"
+            },
+            {
+              "name": "Slaw",
+              "price": "$1.00"
+            },
+            {
+              "name": "Grilled onion or sautéed mushrooms",
+              "price": "50¢"
+            },
+            {
+              "name": "A1 steak sauce",
+              "price": "25¢"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the menu on Sno-Cap’s website. Prices subject to change."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "Our story",
+      "eyebrow": "Welcome to the Cap",
+      "title": "A trip down *memory lane*",
+      "body": [
+        "Sno-Cap has been locally owned and operated on West Avenue since 1964. We’re proud of our town and our history, and we want to share that with everyone who stops by.",
+        "Whether you stop in to split one of our famous root beer floats or share a family meal, we’re happy to serve you."
+      ],
+      "list": [
+        "Beef from Lanier’s Meat Market",
+        "Buns baked locally by Masada Bakery",
+        "Kyle’s chili and Sno-slaw"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "catering",
+      "nav": "Catering",
+      "eyebrow": "Feeding a crowd?",
+      "title": "Drop-off *catering*",
+      "intro": "Burger-in-a-Box or the Burger Bar, dropped off in disposable aluminum or plastic containers.",
+      "items": [
+        {
+          "title": "Ask for a quote",
+          "text": "Send the date, time, address, head count and the menu you’d like."
+        },
+        {
+          "title": "Hear back fast",
+          "text": "Quotes go out within 12 to 24 hours, often sooner."
+        },
+        {
+          "title": "Give a little notice",
+          "text": "Please allow 24 to 48 hours for weekend orders."
+        },
+        {
+          "title": "We drop it off",
+          "text": "Catering runs 10:30 am to 2:30 pm on weekdays. After hours and on weekends, the minimum is 20 people."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "What’s in a combo?",
+          "a": "Fries and a drink, for $3.75 on top of anything on the menu."
+        },
+        {
+          "q": "Can I order ahead?",
+          "a": "Yes. Order online for pickup, or call (803) 279-4004."
+        },
+        {
+          "q": "What’s in the root beer float?",
+          "a": "Local Red Hare root beer and vanilla soft serve in a frosty mug, for $4.00."
+        },
+        {
+          "q": "Do you have a kids menu?",
+          "a": "Yes: a short hot dog, 4 oz hamburger, grilled cheese, chicken tenders or a corn dog, with smiley fries and a drink, for $6.50."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Saturday, 10:30 am to 9:00 pm."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Float o’clock?",
+      "text": "Open Monday to Saturday until 9 on West Avenue.",
+      "cta": {
+        "label": "Call (803) 279-4004",
+        "href": "tel:+18032794004"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *West Avenue*",
+    "formTitle": "Ask about catering",
+    "formTopics": [
+      "A catering quote",
+      "Burger-in-a-Box",
+      "The Burger Bar",
+      "Gift cards",
+      "Something else"
+    ]
+  },
+  "slug": "snocap-drive-in",
+  "added": "2026-11-21",
+  "prospect": "snocap-drive-in",
+  "source": {
+    "url": "https://snocapdrivein.com/",
+    "before": [
+      "The whole menu is a single picture: Google can’t read it, a screen reader can’t read it, and on a phone it has to be pinched and dragged around",
+      "On a phone, the first screen shows no phone number or call button",
+      "In Google’s slow-phone test, the main picture takes 12 seconds to appear",
+      "11 spots of low-contrast text, and no description for Google search results"
+    ],
+    "after": [
+      "The whole menu as real text, with prices, easy to read on a phone",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Catering explained step by step",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "wave",
+    "heads": "outline",
+    "motion": "flip",
+    "buttons": "shadow"
+  }
+}

@@ -443,6 +443,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "hibbitts-drug-co": {
+  "q": "735 North Main Street, New Ellenton, SC 29809",
+  "lat": 33.431833,
+  "lon": -81.68658,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "hic-warehouse-indoor-skateboard-park": {
   "q": "1120 Edgefield Highway, Aiken, SC",
   "lat": 33.58288,
@@ -837,6 +845,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "snocap-drive-in": {
+  "q": "618 West Avenue, North Augusta, SC 29841",
+  "lat": 33.496794,
+  "lon": -81.971726,
+  "kind": "amenity",
+  "exact": true,
+  "at": "2026-11-21"
+ },
  "soul-and-seafood-house": {
   "q": "3553 Richland Avenue West, Aiken, SC",
   "lat": 33.562571,
@@ -900,6 +916,14 @@
   "kind": "amenity",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "taste-of-gold-cakery": {
+  "q": "1306 Whiskey Road, Aiken, SC 29803",
+  "lat": 33.537214,
+  "lon": -81.723854,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-21"
  },
  "thai-jasmine-rice": {
   "q": "1552 Whiskey Road, Aiken, SC 29803",

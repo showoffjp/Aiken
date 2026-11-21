@@ -1,0 +1,354 @@
+{
+  "name": "King’s Roll-Off Dumpsters",
+  "short": "King’s Roll-Off",
+  "category": "Dumpster Rentals & Junk Removal",
+  "group": "Trades & Industry",
+  "town": "Warrenville, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "archivo"
+  },
+  "colors": {
+    "bg": "#f5f4ef",
+    "surface": "#ffffff",
+    "ink": "#141414",
+    "muted": "#4a4a45",
+    "primary": "#f2c200",
+    "onPrimary": "#111111",
+    "accent": "#2b2b2b",
+    "line": "#e3e0d4"
+  },
+  "radius": 4,
+  "icon": "truck",
+  "contact": {
+    "phone": "(803) 552-6095",
+    "hoursNote": "Delivery and pickup 7 days a week across Aiken, North Augusta, Augusta and the CSRA.",
+    "facebook": "https://facebook.com/profile.php?id=61567722686157"
+  },
+  "hero": {
+    "eyebrow": "Dumpster rentals in the CSRA",
+    "title": "We deliver it. You fill it. *We haul it.*",
+    "lede": "Affordable 15-, 20- and 30-yard roll-off dumpsters for homeowners and contractors across Aiken, North Augusta and Augusta, with free delivery, flexible rentals and no hidden fees. Junk removal, demolition and debris cleanup too.",
+    "points": [
+      "Free delivery",
+      "3, 7 & 14-day rentals",
+      "Contractor rates"
+    ],
+    "cta": {
+      "label": "See sizes & prices",
+      "href": "#prices"
+    },
+    "cta2": {
+      "label": "Call (803) 552-6095",
+      "href": "tel:+18035526095"
+    },
+    "image": {
+      "src": "/demo-assets/kings-roll-off-dumpsters/dumpsters.webp",
+      "alt": "Yellow King’s roll-off dumpsters lined up in a gravel yard",
+      "width": 1600,
+      "height": 1461
+    }
+  },
+  "facts": [
+    {
+      "value": "$300",
+      "label": "A 15-yard dumpster for 3 days"
+    },
+    {
+      "value": "7 days",
+      "label": "Delivery and pickup every day"
+    },
+    {
+      "value": "3 sizes",
+      "label": "15, 20 and 30 yards"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "prices",
+      "nav": "Sizes & prices",
+      "eyebrow": "Straightforward pricing",
+      "title": "Sizes *& prices*",
+      "intro": "Priced by size and rental length, with no hidden fees. Need it emptied and brought back? Extra hauls are discounted on 3-, 7- and 14-day rentals.",
+      "printLabel": "Print the price list",
+      "groups": [
+        {
+          "title": "15-yard",
+          "note": "7′ W × 16′ L × 5′ H",
+          "items": [
+            {
+              "name": "3-day rental",
+              "price": "$300"
+            },
+            {
+              "name": "7-day rental",
+              "price": "$325"
+            },
+            {
+              "name": "14-day rental",
+              "price": "$400"
+            },
+            {
+              "name": "Weight included",
+              "desc": "Each extra ton is $40",
+              "price": "2.5 tons"
+            }
+          ]
+        },
+        {
+          "title": "20-yard",
+          "note": "7′ W × 22′ L × 4′ H",
+          "items": [
+            {
+              "name": "3-day rental",
+              "price": "$400"
+            },
+            {
+              "name": "7-day rental",
+              "price": "$425"
+            },
+            {
+              "name": "14-day rental",
+              "price": "$500"
+            },
+            {
+              "name": "30-day rental",
+              "desc": "Plus $300 per haul; each extra ton is $50",
+              "price": "$100 a month"
+            },
+            {
+              "name": "Weight included",
+              "desc": "Each extra ton is $40",
+              "price": "3 tons"
+            }
+          ]
+        },
+        {
+          "title": "30-yard",
+          "note": "7′ W × 22′ L × 6′ H",
+          "items": [
+            {
+              "name": "3-day rental",
+              "price": "$425"
+            },
+            {
+              "name": "7-day rental",
+              "price": "$450"
+            },
+            {
+              "name": "14-day rental",
+              "price": "$500"
+            },
+            {
+              "name": "30-day rental",
+              "desc": "Plus $500 per haul; each extra ton is $50",
+              "price": "$100 a month"
+            },
+            {
+              "name": "Weight included",
+              "desc": "Each extra ton is $40",
+              "price": "4 tons"
+            }
+          ]
+        }
+      ],
+      "footnote": "Prices from King’s current website. Long-term and contractor rates on request."
+    },
+    {
+      "type": "columns",
+      "id": "sizes",
+      "nav": "Which size?",
+      "eyebrow": "What size do I need?",
+      "title": "Pick *the right size*",
+      "columns": [
+        {
+          "title": "15-yard",
+          "items": [
+            "Garage cleanouts and small kitchen remodels",
+            "Deck tear-offs and light demolition",
+            "Fits easily in a driveway or on a street"
+          ]
+        },
+        {
+          "title": "20-yard",
+          "items": [
+            "Whole-house cleanouts",
+            "Re-roofs and renovations",
+            "Furniture, flooring, drywall and roofing debris"
+          ]
+        },
+        {
+          "title": "30-yard",
+          "items": [
+            "Major construction and big renovations",
+            "Demolition projects",
+            "Concrete, wood, metal and roofing materials"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "Simple as that",
+      "title": "From driveway *to done*",
+      "items": [
+        {
+          "title": "Book it",
+          "text": "Call (803) 552-6095 or send the form with your size, dates and address."
+        },
+        {
+          "title": "We deliver it",
+          "text": "Placed exactly where you need it: a driveway, a job site or the backyard."
+        },
+        {
+          "title": "You fill it",
+          "text": "Load it at your own pace. Need it emptied mid-project? Extra hauls are discounted."
+        },
+        {
+          "title": "We haul it",
+          "text": "When you’re done, we haul it away for good."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "More services",
+      "columns": 3,
+      "eyebrow": "More than dumpsters",
+      "title": "We take *it all*",
+      "items": [
+        {
+          "icon": "sofa",
+          "title": "Junk removal",
+          "text": "Furniture, mattresses, appliances, electronics and household junk, from a single item to a whole property. Free estimates."
+        },
+        {
+          "icon": "hammer",
+          "title": "Structure demolition",
+          "text": "An old shed, trailer or other structure you want gone."
+        },
+        {
+          "icon": "tree-pine",
+          "title": "Debris cleanup",
+          "text": "Fallen trees and debris cleared from your property."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "On the job",
+      "title": "Around *the CSRA*",
+      "images": [
+        {
+          "src": "/demo-assets/kings-roll-off-dumpsters/truck.webp",
+          "alt": "A King’s roll-off truck carrying a yellow dumpster",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/kings-roll-off-dumpsters/drop-off.webp",
+          "alt": "A King’s truck setting a yellow dumpster down in a driveway",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/kings-roll-off-dumpsters/debris-cleanup.webp",
+          "alt": "A mini excavator loading tree debris into a dumpster in a yard",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "src": "/demo-assets/kings-roll-off-dumpsters/cleanup-site.webp",
+          "alt": "A debris cleanup site with a dumpster, trailer and mini excavator",
+          "width": 1080,
+          "height": 1080
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How much weight is included?",
+          "a": "2.5 tons in a 15-yard, 3 tons in a 20-yard and 4 tons in a 30-yard. Each extra ton is $40."
+        },
+        {
+          "q": "Can you empty it and bring it back?",
+          "a": "Yes. Extra hauls are available at a discount on 3-, 7- and 14-day rentals."
+        },
+        {
+          "q": "Do you deliver on weekends?",
+          "a": "Yes, delivery and pickup run 7 days a week."
+        },
+        {
+          "q": "Where do you deliver?",
+          "a": "Aiken, North Augusta, Augusta and the surrounding CSRA."
+        },
+        {
+          "q": "Do you have contractor or long-term rates?",
+          "a": "Yes: ask about special contractor rates and long-term rentals."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Got a project?",
+      "text": "Dumpsters, junk removal, demolition and debris cleanup across the CSRA.",
+      "cta": {
+        "label": "Call (803) 552-6095",
+        "href": "tel:+18035526095"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Book a *dumpster*",
+    "formTitle": "Book a dumpster",
+    "formTopics": [
+      "15-yard dumpster",
+      "20-yard dumpster",
+      "30-yard dumpster",
+      "Long-term or contractor rental",
+      "Junk removal",
+      "Demolition or debris cleanup"
+    ]
+  },
+  "slug": "kings-roll-off-dumpsters",
+  "added": "2026-11-21",
+  "prospect": "kings-roll-off-dumpsters",
+  "source": {
+    "url": "https://www.kingsrolloffdumpsters.com/",
+    "before": [
+      "Prices are spread over three separate pages, and the home page leaves out the 30-yard 14-day and 30-day rentals",
+      "The 30-yard page describes its monthly rental as a “30 day 20-yard dumpster rental”",
+      "On a phone, the home page scrolls sideways",
+      "A 5.5 MB home page: in Google’s slow-phone test the main picture takes 24.9 seconds, and the mobile score is 46 out of 100"
+    ],
+    "after": [
+      "Every size and price in one table you can print",
+      "A plain guide to which size fits which job",
+      "One tap to call, from any screen",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "square"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "name": "Hibbitts Drug Co.",
+  "short": "Hibbitts Drug",
+  "category": "Independent Pharmacy",
+  "group": "Health & Beauty",
+  "town": "New Ellenton, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "manrope",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f6f7f9",
+    "surface": "#ffffff",
+    "ink": "#16202a",
+    "muted": "#4b5866",
+    "primary": "#b3202a",
+    "onPrimary": "#ffffff",
+    "accent": "#1f6f8b",
+    "line": "#e1e5ea"
+  },
+  "radius": 12,
+  "icon": "pill",
+  "contact": {
+    "phone": "(803) 443-0077",
+    "address": [
+      "735 North Main Street",
+      "New Ellenton, SC 29809"
+    ],
+    "mapQuery": "Hibbitts Drug Co., 735 N Main St, New Ellenton, SC 29809",
+    "hours": [
+      [
+        "Monday – Friday",
+        "9:00 am – 6:30 pm"
+      ],
+      [
+        "Saturday",
+        "9:00 am – 1:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Fax: (803) 443-0078. For refills, call or use the RxLocal app.",
+    "facebook": "https://www.facebook.com/HibbittsDrugCo/"
+  },
+  "hero": {
+    "eyebrow": "Your hometown pharmacy in New Ellenton",
+    "title": "The community *pharmacy difference*",
+    "lede": "Locally owned, and your alternative to the big chains. Expert pharmacists and certified technicians who are never too busy for your questions, with same-day delivery, immunizations and refills from your phone.",
+    "points": [
+      "Same-day delivery",
+      "Flu, shingles & more",
+      "Refills by app"
+    ],
+    "cta": {
+      "label": "Refill a prescription",
+      "href": "#refill"
+    },
+    "cta2": {
+      "label": "Call (803) 443-0077",
+      "href": "tel:+18034430077"
+    },
+    "image": {
+      "src": "/demo-assets/hibbitts-drug-co/team.webp",
+      "alt": "The Hibbitts Drug Co. pharmacy team together outdoors",
+      "width": 1400,
+      "height": 1286
+    }
+  },
+  "facts": [
+    {
+      "value": "Same day",
+      "label": "Prescription delivery"
+    },
+    {
+      "value": "1 pickup",
+      "label": "A month with med sync"
+    },
+    {
+      "value": "4 vaccines",
+      "label": "Flu, pneumonia, shingles and Tdap"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "More than refills",
+      "title": "Our *services*",
+      "items": [
+        {
+          "icon": "syringe",
+          "title": "Immunizations",
+          "text": "Seasonal flu, pneumonia, shingles and Tdap. Ask our pharmacists which are right for you."
+        },
+        {
+          "icon": "calendar-check",
+          "title": "Medication synchronization",
+          "text": "All your prescriptions lined up for one easy pickup each month, instead of several trips."
+        },
+        {
+          "icon": "truck",
+          "title": "Same-day delivery",
+          "text": "Fast, friendly delivery that keeps you on track with your prescriptions."
+        },
+        {
+          "icon": "package",
+          "title": "Medication packaging",
+          "text": "Medicines packaged by time of day: easy to open, easy to read and easy to manage."
+        },
+        {
+          "icon": "clipboard-list",
+          "title": "Medication therapy management",
+          "text": "Our pharmacists make sure you understand how, when and why to take each medicine."
+        },
+        {
+          "icon": "heart-pulse",
+          "title": "Blood pressure screenings",
+          "text": "A quick check, because high blood pressure needs to be managed properly."
+        },
+        {
+          "icon": "armchair",
+          "title": "Home medical equipment",
+          "text": "Golden Technologies lift chairs, wheelchairs, walkers, canes and more."
+        },
+        {
+          "icon": "footprints",
+          "title": "Diabetic shoes",
+          "text": "Dr. Comfort shoes that support and protect feet that need extra care."
+        },
+        {
+          "icon": "smartphone",
+          "title": "Refills by app",
+          "text": "Refill, set reminders and keep your information in the free RxLocal app."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "refill",
+      "nav": "Refills",
+      "eyebrow": "Refill from your phone",
+      "title": "Refills in *the RxLocal app*",
+      "intro": "Or call (803) 443-0077. Please don’t use the contact form for refills.",
+      "items": [
+        {
+          "title": "Get the app",
+          "text": "Download RxLocal, free from the App Store or Google Play."
+        },
+        {
+          "title": "Find us",
+          "text": "Register, then choose South Carolina, New Ellenton and Hibbitts Drug Company."
+        },
+        {
+          "title": "Add a prescription",
+          "text": "Enter your details and the number of one prescription that has a refill."
+        },
+        {
+          "title": "Tap to refill",
+          "text": "Your prescriptions are listed: pick the ones to refill."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our pharmacy family",
+      "title": "Neighbors *taking care of neighbors*",
+      "image": {
+        "src": "/demo-assets/hibbitts-drug-co/aisles.webp",
+        "alt": "Inside Hibbitts Drug Co.: aisles of health products and diabetic shoes",
+        "width": 1400,
+        "height": 934
+      },
+      "body": [
+        "Our mission is to give our community and neighbors friendly, professional and personal healthcare service. We are your locally owned alternative to the big chains.",
+        "Owner and pharmacist in charge Amy Young, PharmD, RPh, is local to the New Ellenton area and graduated from the University of South Carolina College of Pharmacy in 2002. She works alongside state and nationally certified pharmacy technicians Stacey Lowe, Glennis Douse and Karen Owens."
+      ],
+      "list": [
+        "Pharmacists who know your name",
+        "State and nationally certified technicians",
+        "Never too busy for your questions"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "Come on in",
+      "title": "Inside *the store*",
+      "images": [
+        {
+          "src": "/demo-assets/hibbitts-drug-co/gift-shop.webp",
+          "alt": "Gifts, home goods and seasonal decor in the Hibbitts Drug Co. gift shop",
+          "width": 1400,
+          "height": 934
+        },
+        {
+          "src": "/demo-assets/hibbitts-drug-co/diabetic-shoes.webp",
+          "alt": "Dr. Comfort diabetic shoes on a bed of river stones",
+          "width": 900,
+          "height": 1347
+        },
+        {
+          "src": "/demo-assets/hibbitts-drug-co/delivery.webp",
+          "alt": "A Hibbitts Drug Co. bag handed over at the door",
+          "width": 1200,
+          "height": 675
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How do I refill a prescription?",
+          "a": "Call (803) 443-0077, or use the free RxLocal app. Please don’t use the website form for refills."
+        },
+        {
+          "q": "Can I transfer my prescription to Hibbitts?",
+          "a": "Yes. Call (803) 443-0077 to transfer a prescription."
+        },
+        {
+          "q": "Do you deliver?",
+          "a": "Yes, with same-day delivery to help you stay on track."
+        },
+        {
+          "q": "Which vaccines do you give?",
+          "a": "Seasonal flu, pneumonia, shingles and Tdap. Talk to our pharmacists about what’s right for you."
+        },
+        {
+          "q": "What is medication synchronization?",
+          "a": "We line up all your prescriptions so you can pick them up in one trip each month, on a date that suits you."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Questions about a medicine?",
+      "text": "Our pharmacists are never too busy to talk it through.",
+      "cta": {
+        "label": "Call (803) 443-0077",
+        "href": "tel:+18034430077"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *North Main Street*",
+    "intro": "For refills, please call or use the RxLocal app.",
+    "formTitle": "Ask us a question",
+    "formTopics": [
+      "A question for the pharmacist",
+      "Transferring a prescription",
+      "Delivery",
+      "Immunizations",
+      "Medical equipment or diabetic shoes",
+      "Something else"
+    ]
+  },
+  "slug": "hibbitts-drug-co",
+  "added": "2026-11-21",
+  "prospect": "hibbitts-drug-co",
+  "source": {
+    "url": "https://www.hibbittsdrug.com/",
+    "before": [
+      "On a phone, the first screen shows no phone number or call button",
+      "Built on Wix: the home page makes 126 requests, and Google’s mobile score is 52 out of 100",
+      "In Google’s slow-phone test, the main picture takes 5.3 seconds to appear"
+    ],
+    "after": [
+      "Every service on one page, in plain words",
+      "Refill steps for the app, right where people look for them",
+      "Hours with an “Open now” sign, and one tap to call",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "blob",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

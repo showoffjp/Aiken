@@ -5691,7 +5691,7 @@
     "schema": false,
     "og": true,
     "performance": 9,
-    "pageMB": 1.8,
+    "pageMB": 1.9,
     "a11ySerious": 1,
     "facebook": false,
     "instagram": false,
@@ -22112,9 +22112,9 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 46,
     "pageMB": 5.3,
-    "a11ySerious": 5,
+    "a11ySerious": 2,
     "facebook": true,
     "instagram": false,
     "domainYears": 1
@@ -35563,6 +35563,1158 @@
     "facebook": false,
     "instagram": false,
     "domainYears": 3
+   }
+  ]
+ },
+ "snocap-drive-in": {
+  "slug": "snocap-drive-in",
+  "name": "Sno-Cap Drive-In",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "snocapdrivein.com",
+   "https": true,
+   "pagesCrawled": 1,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://snocapdrivein.com/",
+    "title": "SNO-CAP Drive-In - North Augusta, SC since 1964",
+    "description": "",
+    "canonical": "https://snocapdrivein.com",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "SNO-CAP Drive-In - North Augusta, SC since 1964",
+     "description": "",
+     "image": "https://snocapdrivein.com/wp-content/uploads/2024/01/SNOCAP-MENU_1-10-24.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "",
+    "h1": [
+     "WELCOME TO THE CAP"
+    ],
+    "h1Count": 1,
+    "h2": 3,
+    "h3": 4,
+    "words": 313,
+    "images": 4,
+    "imagesNoAlt": 4,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://snocapdrivein.com/wp-sitemap.xml",
+    "pages": 5
+   },
+   "crawl": {
+    "pages": 1,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 4,
+    "images": 4,
+    "sample": [
+     {
+      "url": "https://snocapdrivein.com/",
+      "title": "SNO-CAP Drive-In - North Augusta, SC since 1964",
+      "description": 0,
+      "h1": 1,
+      "words": 313
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 1,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Instagram": "https://www.instagram.com/snocap_na/",
+    "Google Business Profile": "https://www.google.com/maps/place/618+West+Ave,+North+Augusta,+SC+29841/data=!4m2!3m1!1s0x88f9cc8b88ae753f:0x6c42dd24badde954",
+    "Facebook": "https://www.facebook.com/snocapdriveinNA"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Burgers",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   },
+   {
+    "term": "North Augusta",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/snocap-drive-in-3914",
+    "name": "Snocap Drive In",
+    "phone": "(803) 279-4004",
+    "website": "https://snocapdrivein.com/",
+    "address": "618 West Ave, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Instagram": "https://www.instagram.com/snocap_na/",
+    "Google Business Profile": "https://www.google.com/maps/place/618+West+Ave,+North+Augusta,+SC+29841/data=!4m2!3m1!1s0x88f9cc8b88ae753f:0x6c42dd24badde954",
+    "Facebook": "https://www.facebook.com/snocapdriveinNA"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/snocapdriveinNA",
+    "Instagram": "https://www.instagram.com/snocap_na/"
+   }
+  },
+  "domain": {
+   "name": "snocapdrivein.com",
+   "created": "2011-07-30",
+   "expires": "2028-07-30",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 15
+  },
+  "performance": {
+   "performance": 65,
+   "accessibility": 91,
+   "bestPractices": 96,
+   "seo": 85,
+   "fcp": 2771,
+   "lcp": 12014,
+   "tbt": 265,
+   "si": 2771,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 1879,
+   "tbt": 252,
+   "si": 949,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "antonios-italian-eatery",
+   "beanie-bens",
+   "bowl-boss",
+   "brinks-tavern",
+   "brinkleys-chop-house"
+  ],
+  "scores": {
+   "seo": 71,
+   "social": 85,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "bowl-boss",
+    "name": "Bowl Boss",
+    "website": "https://www.bowlbossacai.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 37,
+    "pageMB": 5.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "brinkleys-chop-house",
+    "name": "Brinkley's Chop House",
+    "website": "https://www.brinkleyschophouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 39,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   }
+  ]
+ },
+ "hibbitts-drug-co": {
+  "slug": "hibbitts-drug-co",
+  "name": "Hibbitts Drug Co.",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "hibbittsdrug.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.hibbittsdrug.com/",
+    "title": "Hibbitts Drug Co. | New Ellenton, SC | Independent Pharmacy",
+    "description": "As a locally owned and operated independent pharmacy, Hibbitts Drug Co. will go above and beyond for our patients. From prescriptions and immunizations to blood pressure screenings and consultations, our family is ready to serve yours!",
+    "canonical": "https://www.hibbittsdrug.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Hibbitts Drug Co. | New Ellenton, SC | Independent Pharmacy",
+     "description": "As a locally owned and operated independent pharmacy, Hibbitts Drug Co. will go above and beyond for our patients. From prescriptions and immunizations to blood pressure screenings and consultations, our family is ready to serve yours!",
+     "image": "https://static.wixstatic.com/media/e10b95_d87bc1573f0046c6b7737b6d8fd72816%7Emv2.png/v1/fit/w_2500,h_1330,al_c/e10b95_d87bc1573f0046c6b7737b6d8fd72816%7Emv2.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Hibbitts Drug Co."
+    ],
+    "h1Count": 1,
+    "h2": 4,
+    "h3": 0,
+    "words": 323,
+    "images": 4,
+    "imagesNoAlt": 0,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "WebSite"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.hibbittsdrug.com/sitemap.xml",
+    "pages": 80
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 0,
+    "multipleH1": 1,
+    "thin": 3,
+    "noindex": 3,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 107,
+    "sample": [
+     {
+      "url": "https://www.hibbittsdrug.com/",
+      "title": "Hibbitts Drug Co. | New Ellenton, SC | Independent Pharmacy",
+      "description": 235,
+      "h1": 1,
+      "words": 323
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/about-us",
+      "title": "About | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 149,
+      "h1": 1,
+      "words": 391
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/services",
+      "title": "Services | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 235,
+      "h1": 1,
+      "words": 795
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/mobile-app",
+      "title": "Mobile App | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 161,
+      "h1": 1,
+      "words": 284
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/contact",
+      "title": "Contact Us | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 170,
+      "h1": 2,
+      "words": 249
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/blog",
+      "title": "Health Blog | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 147,
+      "h1": 1,
+      "words": 1262
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/transfer-rx",
+      "title": "Transfer Prescriptions | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 142,
+      "h1": 1,
+      "words": 190
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/refill-rx",
+      "title": "Refill Prescriptions | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 140,
+      "h1": 1,
+      "words": 244
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/privacy-policy",
+      "title": "Privacy Policy | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 50,
+      "h1": 1,
+      "words": 2215
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/notice-of-privacy-practices",
+      "title": "Notice of Privacy Practices | Hibbitts Drug Co. | New Ellenton, SC",
+      "description": 69,
+      "h1": 1,
+      "words": 2353
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/accessibility-statement",
+      "title": "Accessibility Statement | Hibbitts Drug Co",
+      "description": 198,
+      "h1": 1,
+      "words": 1351
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/post/diabetes-and-the-holidays-tips-for-healthy-holiday-celebrations",
+      "title": "Diabetes and the Holidays: Tips for Healthy Holiday Celebrations",
+      "description": 185,
+      "h1": 1,
+      "words": 1131
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/post/spooky-good-tips-to-stay-safe-this-halloween",
+      "title": "Spooky Good Tips to Stay Safe this Halloween",
+      "description": 162,
+      "h1": 1,
+      "words": 954
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/post/boost-immunity-this-cold-flu-season",
+      "title": "Boost Immunity This Cold & Flu Season",
+      "description": 143,
+      "h1": 1,
+      "words": 1037
+     },
+     {
+      "url": "https://www.hibbittsdrug.com/post/back-to-school-health-why-keeping-your-child-s-immunizations-up-to-date-matters",
+      "title": "Back-to-School Health: Why Keeping Your Child’s Immunizations Up to Date Matters",
+      "description": 212,
+      "h1": 1,
+      "words": 912
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 32,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/HibbittsDrugCo/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Independent Pharmacy",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "New Ellenton",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=532&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=c1d9c3182b53db9a8cab0679938d4cee",
+    "name": "Hibbitts Drug Co.",
+    "phone": "(803) 443-0077",
+    "website": "http://www.hibbittsdrug.com",
+    "address": "735 North Main Street, New Ellenton, SC 29809",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/HibbittsDrugCo/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/HibbittsDrugCo/"
+   }
+  },
+  "domain": {
+   "name": "hibbittsdrug.com",
+   "created": "2015-02-17",
+   "expires": "2027-02-17",
+   "registrar": "Bluehost Inc.",
+   "years": 11
+  },
+  "performance": {
+   "performance": 52,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 100,
+   "fcp": 1841,
+   "lcp": 5270,
+   "tbt": 1421,
+   "si": 3672,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 94,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 952,
+   "lcp": 2112,
+   "tbt": 257,
+   "si": 967,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "family-pharmacy",
+   "hawthorne-aiken-pharmacy"
+  ],
+  "scores": {
+   "seo": 88,
+   "social": 50,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "family-pharmacy",
+    "name": "Family Pharmacy",
+    "website": "https://www.aikenpharmacy.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.2,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 20
+   },
+   {
+    "slug": "hawthorne-aiken-pharmacy",
+    "name": "Hawthorne Aiken Pharmacy",
+    "website": "https://www.hawthornesc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 27
+   }
+  ]
+ },
+ "taste-of-gold-cakery": {
+  "slug": "taste-of-gold-cakery",
+  "name": "Taste of Gold Cakery",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "tasteofgoldcreations.com",
+   "https": true,
+   "pagesCrawled": 1,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.tasteofgoldcreations.com/",
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 0,
+    "h3": 0,
+    "words": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.tasteofgoldcreations.com/sitemap.xml",
+    "pages": 27
+   },
+   "crawl": {
+    "pages": 1,
+    "missingTitle": 1,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 0,
+    "images": 0,
+    "sample": [
+     {
+      "url": "https://www.tasteofgoldcreations.com/",
+      "title": "",
+      "description": 0,
+      "h1": 0,
+      "words": 0
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 1,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "Gourmet Cupcakes",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   }
+  ],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/taste-of-gold-cakery/",
+    "name": "Taste Of Gold Cakery",
+    "phone": "",
+    "website": "https://www.tasteofgoldcreations.com/",
+    "address": "1306 Whiskey Rd Aiken, SC, United States, South Carolina 29803",
+    "phoneMatch": null,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "tasteofgoldcreations.com",
+   "created": "2026-03-06",
+   "expires": "2027-03-06",
+   "registrar": "Register.com - Network Solutions, LLC",
+   "years": 0
+  },
+  "performance": {
+   "performance": 9,
+   "accessibility": 84,
+   "bestPractices": 57,
+   "seo": 92,
+   "fcp": 1985,
+   "lcp": 18658,
+   "tbt": 3342,
+   "si": 11855,
+   "cls": 1.561,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1215,
+   "lcp": 2940,
+   "tbt": 42,
+   "si": 1215,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "the-village-caf",
+   "whats-cookin-downtown",
+   "bottom-line-bakery",
+   "anshu-asian-caf"
+  ],
+  "scores": {
+   "seo": 54,
+   "social": 0,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "the-village-caf",
+    "name": "The Village Café",
+    "website": "https://www.thevillagecafeaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 6.1,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 8
+   },
+   {
+    "slug": "whats-cookin-downtown",
+    "name": "What’s Cookin' Downtown",
+    "website": "https://www.whatscookindowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 42,
+    "pageMB": 2.8,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "bottom-line-bakery",
+    "name": "Bottom Line Bakery",
+    "website": "https://www.bottomlinebakeryaiken.com/",
+    "state": "broken",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   }
+  ]
+ },
+ "kings-roll-off-dumpsters": {
+  "slug": "kings-roll-off-dumpsters",
+  "name": "King’s Roll-Off Dumpsters",
+  "checked": "2026-11-21",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "kingsrolloffdumpsters.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.kingsrolloffdumpsters.com/",
+    "title": "Affordable Dumpster Rentals | King's Roll-Off Dumpsters",
+    "description": "King's Roll-Off Dumpsters offers affordable 15-yard, 20-yard + 30-yard dumpster rentals with fast service in Augusta, North Augusta, Aiken + nearby areas.",
+    "canonical": "https://www.kingsrolloffdumpsters.com/",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Affordable Dumpster Rentals | King's Roll-Off Dumpsters",
+     "description": "King's Roll-Off Dumpsters offers affordable 15-yard, 20-yard + 30-yard dumpster rentals with fast service in Augusta, North Augusta, Aiken + nearby areas.",
+     "image": "https://irp.cdn-website.com/7cf46682/dms3rep/multi/opt/Untitled+design+-+2026-01-28T105631.987-1920w.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "RESIDENTIAL & COMMERCIAL Affordable Dumpster Rentals in the CSRA!",
+     "RESIDENTIAL & COMMERCIAL Affordable Dumpster Rentals in the CSRA!"
+    ],
+    "h1Count": 2,
+    "h2": 7,
+    "h3": 23,
+    "words": 1356,
+    "images": 11,
+    "imagesNoAlt": 9,
+    "schemaTypes": [
+     "WebSite",
+     "FAQPage",
+     "Question",
+     "Answer"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": true
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.kingsrolloffdumpsters.com/sitemap.xml",
+    "pages": 14
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 1,
+    "missingDescription": 1,
+    "missingH1": 1,
+    "multipleH1": 3,
+    "thin": 1,
+    "noindex": 1,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 67,
+    "images": 96,
+    "sample": [
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/",
+      "title": "Affordable Dumpster Rentals | King's Roll-Off Dumpsters",
+      "description": 154,
+      "h1": 2,
+      "words": 1356
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/dumpster-rentals-aiken-sc-and-augusta-ga",
+      "title": "Residential & Commercial Dumpster Rentals | Aiken, SC",
+      "description": 155,
+      "h1": 1,
+      "words": 1086
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/15-yard-dumpster-rentals-aiken-sc-and-augusta-ga",
+      "title": "15-Yard Dumpster Rentals | Aiken, SC",
+      "description": 153,
+      "h1": 1,
+      "words": 1129
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/20-yard-dumpster-rentals-aiken-sc-and-augusta-ga",
+      "title": "20-Yard Dumpster Rentals | Aiken, SC",
+      "description": 134,
+      "h1": 1,
+      "words": 1179
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/30-yard-dumpster-rentals-aiken-sc-and-augusta-ga",
+      "title": "30-Yard Dumpster Rentals | Aiken, SC",
+      "description": 144,
+      "h1": 1,
+      "words": 1180
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/junk-removal-aiken-sc-and-augusta-ga",
+      "title": "Junk Removal | Aiken, SC and Augusta, GA",
+      "description": 156,
+      "h1": 1,
+      "words": 783
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/demolition-land-clearing-aiken-sc-and-augusta-ga",
+      "title": "Structure Demolition | Aiken, SC and Augusta, GA",
+      "description": 155,
+      "h1": 1,
+      "words": 825
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/debris-cleanup-north-augusta-and-aiken-sc",
+      "title": "Yard Debris Cleanup | North Augusta, SC",
+      "description": 151,
+      "h1": 1,
+      "words": 537
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/contact-kings-roll-off-dumpsters-in-aiken-sc-and-augusta-ga",
+      "title": "King's Roll-Off Dumpsters | Aiken, SC",
+      "description": 146,
+      "h1": 1,
+      "words": 378
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/",
+      "title": "Affordable Dumpster Rentals | King's Roll-Off Dumpsters",
+      "description": 154,
+      "h1": 2,
+      "words": 1356
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/best-affordable-dumpster-rental-aiken-sc",
+      "title": "Best Dumpster Rental Company | Aiken, SC",
+      "description": 160,
+      "h1": 1,
+      "words": 877
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/best-affordable-dumpster-rentals-augusta-ga",
+      "title": "Best Dumpster Rental Company | Augusta, GA",
+      "description": 152,
+      "h1": 1,
+      "words": 885
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/best-affordable-dumpster-rental-north-augusta-sc",
+      "title": "Best Dumpster Rental Company | North Augusta, SC",
+      "description": 154,
+      "h1": 1,
+      "words": 852
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/contractor-portal",
+      "title": "",
+      "description": 0,
+      "h1": 2,
+      "words": 28
+     },
+     {
+      "url": "https://www.kingsrolloffdumpsters.com/privacy-policy",
+      "title": "Privacy Policy | King's Roll-Off Dumpsters",
+      "description": 45,
+      "h1": 0,
+      "words": 1684
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 17,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://facebook.com/profile.php?id=61567722686157",
+    "Google Business Profile": "https://g.page/r/CSphmXdt_auaEAE/review"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Dumpster Rentals",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 23
+   },
+   {
+    "term": "Warrenville",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=610&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=c378eded287166f4de05152788621246",
+    "name": "Kings Roll-Off Dumpsters",
+    "phone": "(803) 552-6095",
+    "website": "http://www.kingsrolloffdumpsters.com",
+    "address": "4 Janson St, Warrenville, SC 29851",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://facebook.com/profile.php?id=61567722686157",
+    "Google Business Profile": "https://g.page/r/CSphmXdt_auaEAE/review"
+   },
+   "listed": {
+    "Facebook": "https://facebook.com/profile.php?id=61567722686157"
+   }
+  },
+  "domain": {
+   "name": "kingsrolloffdumpsters.com",
+   "created": "2024-12-02",
+   "expires": "2026-12-02",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 1
+  },
+  "performance": {
+   "performance": 46,
+   "accessibility": 92,
+   "bestPractices": 79,
+   "seo": 85,
+   "fcp": 1180,
+   "lcp": 24901,
+   "tbt": 2618,
+   "si": 2400,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 946,
+   "lcp": 2254,
+   "tbt": 177,
+   "si": 946,
+   "cls": 0,
+   "at": "2026-11-21"
+  },
+  "competitorSlugs": [
+   "b-and-k-grading-and-paving-llc",
+   "upstream-recycling-llc"
+  ],
+  "scores": {
+   "seo": 70,
+   "social": 65,
+   "lighthouseSeo": 85
+  },
+  "competitors": [
+   {
+    "slug": "b-and-k-grading-and-paving-llc",
+    "name": "B&K Grading and Paving, LLC",
+    "website": "https://bkgradingandpaving.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 10.1,
+    "a11ySerious": 34,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "upstream-recycling-llc",
+    "name": "Upstream Recycling LLC",
+    "website": "https://upstreamwastesolutions.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.9,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
    }
   ]
  }

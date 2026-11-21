@@ -1820,11 +1820,18 @@
  },
  "hibbitts-drug-co": {
   "site": {
-   "bytes": 1715445,
+   "bytes": 1692193,
    "requests": 126,
-   "loadMs": 1935,
+   "loadMs": 2054,
    "url": "https://www.hibbittsdrug.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 396366,
+   "requests": 8,
+   "loadMs": 227,
+   "url": "/hibbitts-drug-co/",
+   "at": "2026-11-21"
   }
  },
  "hic-warehouse-indoor-skateboard-park": {
@@ -2169,11 +2176,18 @@
  },
  "kings-roll-off-dumpsters": {
   "site": {
-   "bytes": 5509259,
+   "bytes": 5511957,
    "requests": 63,
-   "loadMs": 1567,
+   "loadMs": 1954,
    "url": "https://www.kingsrolloffdumpsters.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 420473,
+   "requests": 6,
+   "loadMs": 224,
+   "url": "/kings-roll-off-dumpsters/",
+   "at": "2026-11-21"
   }
  },
  "kitfox-pediatric-dentistry": {
@@ -3344,11 +3358,18 @@
  },
  "snocap-drive-in": {
   "site": {
-   "bytes": 2740275,
-   "requests": 42,
-   "loadMs": 1517,
+   "bytes": 2750765,
+   "requests": 43,
+   "loadMs": 2097,
    "url": "https://snocapdrivein.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 337162,
+   "requests": 7,
+   "loadMs": 159,
+   "url": "/snocap-drive-in/",
+   "at": "2026-11-21"
   }
  },
  "soulshine-yoga-and-wellness": {
@@ -3568,11 +3589,18 @@
  },
  "taste-of-gold-cakery": {
   "site": {
-   "bytes": 1927171,
-   "requests": 101,
-   "loadMs": 1814,
+   "bytes": 1969753,
+   "requests": 105,
+   "loadMs": 2312,
    "url": "https://www.tasteofgoldcreations.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 960786,
+   "requests": 15,
+   "loadMs": 254,
+   "url": "/taste-of-gold-cakery/",
+   "at": "2026-11-21"
   }
  },
  "tailgate-tavern": {
