@@ -3,6 +3,7 @@
 // concept: what its current site looks like, what we noticed, and what the
 // concept changes. Made to be sent as a link or printed.
 import { builtIn } from '../../lib/features';
+import { assetUrl } from '../../lib/asset-url';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../../components/Icon.astro';
@@ -20,7 +21,7 @@ interface Props { demo: Demo }
 const { demo } = Astro.props;
 
 const root = process.cwd();
-const shot = (name: string) => (existsSync(path.join(root, 'public', 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const shot = (name: string) => assetUrl(`shots/${name}.jpg`);
 const before = shot(`${demo.prospect || demo.slug}-before`);
 const after = shot(`${demo.slug}-after`);
 const host = new URL(demo.source.url).hostname.replace(/^www\./, '');

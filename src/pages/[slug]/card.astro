@@ -5,6 +5,7 @@
 // (scripts/leave-behind.mjs prints it to outreach/print/one-page/<slug>.pdf);
 // on screen it shows the same sheet.
 import { existsSync } from 'node:fs';
+import { assetUrl } from '../../lib/asset-url';
 import path from 'node:path';
 import QRCode from 'qrcode';
 import { demos, fonts, type Demo } from '../../lib/demos';
@@ -20,7 +21,7 @@ interface Props { demo: Demo }
 const { demo } = Astro.props;
 
 const pub = path.join(process.cwd(), 'public');
-const shot = (name: string) => (existsSync(path.join(pub, 'shots', `${name}.jpg`)) ? `/shots/${name}.jpg` : '');
+const shot = (name: string) => assetUrl(`shots/${name}.jpg`);
 const after = shot(`${demo.slug}-after`);
 const phone = shot(`${demo.slug}-after-phone`);
 const host = new URL(demo.source.url).hostname.replace(/^www\./, '');

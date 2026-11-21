@@ -36,7 +36,9 @@ self.addEventListener('install', (event) => {
       const first = m[1].split(',')[0].trim().split(/\\s+/)[0];
       if (ASSET.test(first)) urls.add(first);
     }
-    await Promise.all([...urls].slice(0, 60).map((u) => cache.add(u).catch(() => {})));
+    // Ask the server, not the browser's own cache, so a photo replaced under the
+    // same name is saved as the new picture rather than the old one.
+    await Promise.all([...urls].slice(0, 60).map((u) => cache.add(new Request(u, { cache: 'no-cache' })).catch(() => {})));
     self.skipWaiting();
   })());
 });
@@ -72,9 +74,11 @@ self.addEventListener('fetch', (event) => {
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
     const hit = await cache.match(req);
-    const net = fetch(req).then((res) => { if (res.ok) cache.put(req, res.clone()); return res; });
-    if (hit) { event.waitUntil(net.catch(() => {})); return hit; }
-    return net;
+    // The background refresh checks with the server (no-cache), so a replaced
+    // photo reaches the saved copy instead of the browser's older one.
+    const net = (init) => fetch(req, init).then((res) => { if (res.ok) cache.put(req, res.clone()); return res; });
+    if (hit) { event.waitUntil(net({ cache: 'no-cache' }).catch(() => {})); return hit; }
+    return net();
   })());
 });
 `;
