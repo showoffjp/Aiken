@@ -340,11 +340,18 @@
  },
  "aikenite-electrical-services-llc": {
   "site": {
-   "bytes": 5067506,
+   "bytes": 5083159,
    "requests": 132,
-   "loadMs": 3879,
+   "loadMs": 4253,
    "url": "https://www.aikenite-electrical.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 368748,
+   "requests": 7,
+   "loadMs": 203,
+   "url": "/aikenite-electrical/",
+   "at": "2026-11-21"
   }
  },
  "anderson-insurance-associates-llc": {
@@ -864,11 +871,18 @@
  },
  "brinkleys-chop-house": {
   "site": {
-   "bytes": 3620629,
+   "bytes": 3622820,
    "requests": 73,
-   "loadMs": 1665,
+   "loadMs": 2120,
    "url": "https://www.brinkleyschophouse.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 607710,
+   "requests": 7,
+   "loadMs": 178,
+   "url": "/brinkleys-chop-house/",
+   "at": "2026-11-21"
   }
  },
  "build-on-your-land-llc": {
@@ -3605,11 +3619,18 @@
  },
  "tailgate-tavern": {
   "site": {
-   "bytes": 2856168,
+   "bytes": 2858785,
    "requests": 166,
-   "loadMs": 7602,
+   "loadMs": 7754,
    "url": "https://tailgatetavern2.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-21"
+  },
+  "concept": {
+   "bytes": 317658,
+   "requests": 6,
+   "loadMs": 152,
+   "url": "/tailgate-tavern/",
+   "at": "2026-11-21"
   }
  },
  "teeters-group-llc": {

@@ -57,8 +57,8 @@
       "href": "#menu"
     },
     "cta2": {
-      "label": "Call (803) 279-4004",
-      "href": "tel:+18032794004"
+      "label": "Order online",
+      "href": "https://www.toasttab.com/sno-cap-drive-in/v3/?mode=fulfillment"
     },
     "image": {
       "src": "/demo-assets/snocap-drive-in/float-and-cake.webp",
@@ -373,7 +373,11 @@
         },
         {
           "q": "Can I order ahead?",
-          "a": "Yes. Order online for pickup, or call (803) 279-4004."
+          "a": "Yes. Order online for pickup through Toast (the “Order online” button at the top of this page), or call (803) 279-4004."
+        },
+        {
+          "q": "Do you sell gift cards?",
+          "a": "Yes, online through Sno-Cap’s Toast page."
         },
         {
           "q": "What’s in the root beer float?",

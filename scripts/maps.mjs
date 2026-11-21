@@ -115,10 +115,10 @@ const d = (pts, close) => 'M' + pts.map(([x, y]) => `${Math.round(x)} ${Math.rou
 
 const ROAD = { motorway: 'major', trunk: 'major', primary: 'major', secondary: 'major', tertiary: 'mid', minor: 'minor', service: 'minor', track: 'path', path: 'path', rail: 'rail' };
 
-async function build(d0, at) {
+async function build(d0, at, mpp = MPP) {
   const [cx, cy] = toTile(at.lat, at.lon);
   const metersPerTile = (40075016.686 * Math.cos((at.lat * Math.PI) / 180)) / 2 ** Z;
-  const k = metersPerTile / MPP; // frame units per tile
+  const k = metersPerTile / mpp; // frame units per tile
   const fx = (tx) => (tx - cx) * k + W / 2, fy = (ty) => (ty - cy) * k + H / 2;
   const x0 = Math.floor(cx - (W / 2 + M) / k), x1 = Math.floor(cx + (W / 2 + M) / k);
   const y0 = Math.floor(cy - (H / 2 + M) / k), y1 = Math.floor(cy + (H / 2 + M) / k);
@@ -220,7 +220,15 @@ for (const d0 of demos.sort((a, b) => a.slug.localeCompare(b.slug))) {
       await rm(path.join(OUT, `${d0.slug}.json`), { force: true });
       continue;
     }
-    const data = await build(d0, at);
+    let data = await build(d0, at);
+    // A small town can leave the usual frame almost empty and without a single
+    // street name; then step back to show more of the town around the pin.
+    const roads = (m) => m.major.length + m.mid.length + m.minor.length;
+    for (const wider of [2.5, 4]) {
+      if (data.labels.length >= 2 || roads(data) >= 6000) break;
+      const alt = await build(d0, at, wider);
+      if (alt.labels.length > data.labels.length || (alt.labels.length === data.labels.length && roads(alt) > roads(data) * 1.8)) data = alt;
+    }
     await writeFile(path.join(OUT, `${d0.slug}.json`), JSON.stringify(data) + '\n');
     made++;
     console.log(`  ${d0.slug}: ${at.exact ? 'address' : 'street-level'} (${at.kind}), ${(JSON.stringify(data).length / 1024).toFixed(1)} KB, labels: ${data.labels.map((l) => l.name).join(', ')}`);

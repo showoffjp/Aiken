@@ -1,0 +1,584 @@
+{
+  "name": "Brinkley’s Chop House",
+  "short": "Brinkley’s",
+  "category": "Steaks, Seafood & Chops",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f6f2ec",
+    "surface": "#ffffff",
+    "ink": "#1c1714",
+    "muted": "#5c524a",
+    "primary": "#7a2430",
+    "onPrimary": "#ffffff",
+    "accent": "#b08a4a",
+    "line": "#e6ddd2"
+  },
+  "radius": 4,
+  "icon": "beef",
+  "contact": {
+    "phone": "(803) 599-5097",
+    "email": "info@brinkleyschophouse.com",
+    "address": [
+      "1033 Center Street",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Brinkley’s Chop House, 1033 Center St, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Friday",
+        "4:00 pm – 10:00 pm"
+      ],
+      [
+        "Saturday",
+        "12:00 pm – 10:00 pm"
+      ],
+      [
+        "Sunday",
+        "12:00 pm – 9:00 pm"
+      ]
+    ],
+    "hoursNote": "Valet parking is validated.",
+    "facebook": "https://www.facebook.com/BrinkleysChopHouse/"
+  },
+  "hero": {
+    "eyebrow": "A steakhouse on Center Street",
+    "title": "Steaks, seafood *and chops*",
+    "lede": "Prime steaks, Australian and Japanese A5 Wagyu, butcher boards for the whole table, fresh seafood and a full bar in North Augusta. Reserve a table, or book the room for your next event.",
+    "points": [
+      "Best of North Augusta 2026",
+      "Private events",
+      "Valet validated"
+    ],
+    "cta": {
+      "label": "Call to reserve",
+      "href": "tel:+18035995097"
+    },
+    "cta2": {
+      "label": "See the menu",
+      "href": "#menu"
+    },
+    "image": {
+      "src": "/demo-assets/brinkleys-chop-house/butcher-board.webp",
+      "alt": "A butcher board of sliced steaks, grilled shrimp, half a chicken and sides on a wooden table",
+      "width": 1200,
+      "height": 800
+    }
+  },
+  "facts": [
+    {
+      "value": "Best of 2026",
+      "label": "North Augusta’s Choice, Post and Courier"
+    },
+    {
+      "value": "8 boards",
+      "label": "Butcher boards to share"
+    },
+    {
+      "value": "A5 Wagyu",
+      "label": "Japanese Wagyu on the menu"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "Dinner",
+      "title": "The *menu*",
+      "intro": "Steaks come with a parmesan potato croquette, roasted asparagus and black garlic rosemary demi.",
+      "groups": [
+        {
+          "title": "Starters",
+          "items": [
+            {
+              "name": "Filet Flight",
+              "desc": "Oscar style, pimento cheese and bacon jam, blue cheese and onion straws, wild mushroom au poivre",
+              "price": "$100"
+            },
+            {
+              "name": "Australian Wagyu Tasting",
+              "desc": "4 oz Wagyu NY strip served raw with a 700° lava stone and coarse sea salt",
+              "price": "$50"
+            },
+            {
+              "name": "New England Lobster Rolls",
+              "desc": "Brioche, baby lettuce, charred scallion aioli",
+              "price": "$45"
+            },
+            {
+              "name": "Harissa Crusted Lamb Lollipops",
+              "desc": "Charred broccolini, mint-feta emulsion, crisp chickpeas",
+              "price": "$38"
+            },
+            {
+              "name": "Surf & Turf Tartare",
+              "desc": "Prime filet, ahi tuna, avocado, dried miso, crisp leeks, baby spinach, parmesan crisps and yuzu-truffle vinaigrette",
+              "price": "$29"
+            },
+            {
+              "name": "Gambas al Ajillo",
+              "desc": "Bay scallops, shrimp, VORS sherry, Aleppo pepper, crisp garlic, gigantes and croutons",
+              "price": "$24"
+            },
+            {
+              "name": "Pork Belly Burnt Ends",
+              "desc": "Peach bourbon glaze, green tomato relish, scallions and toasted benne seeds",
+              "price": "$21"
+            },
+            {
+              "name": "Jumbo Lump Crab",
+              "desc": "Fried green tomatoes, remoulade, roasted corn relish and broken prosciutto",
+              "price": "$20"
+            },
+            {
+              "name": "Million Dollar Bacon",
+              "desc": "Caviar deviled eggs",
+              "price": "$18"
+            },
+            {
+              "name": "Frito Misto",
+              "desc": "Point Judith calamari, bay scallops, petite shrimp and artichoke hearts, with Calabrian chile aioli and Cajun lemon",
+              "price": "$16"
+            },
+            {
+              "name": "Beef & Pork Ricotta Meatballs",
+              "desc": "Parmesan polenta, pork ragu, basil",
+              "price": "$15"
+            },
+            {
+              "name": "Crab, Shrimp & Pork Spring Rolls",
+              "desc": "Peach sweet chili sauce",
+              "price": "$13"
+            },
+            {
+              "name": "House Fried Okra",
+              "desc": "Whipped goat cheese, Aji Amarillo sauce, pickled peppers",
+              "price": "$12"
+            }
+          ]
+        },
+        {
+          "title": "Salads & soup",
+          "items": [
+            {
+              "name": "Summer Salad",
+              "desc": "Chopped, with hard egg, crispy country ham, avocado, cherry tomatoes, blue cheese and shallot-Dijon vinaigrette",
+              "price": "$17"
+            },
+            {
+              "name": "Caesar Salad",
+              "desc": "Artisan romaine, crisp prosciutto, soft egg, white anchovy, shaved parmesan and garlic-asiago croutons"
+            },
+            {
+              "name": "Wedge Salad",
+              "desc": "Baby iceberg, house-made blue cheese dressing, Applewood bacon, cherry tomatoes, cucumber and crispy onions"
+            },
+            {
+              "name": "Soup of the Day",
+              "price": "$9"
+            },
+            {
+              "name": "Add to any salad",
+              "desc": "Grilled Ora King salmon $35, grilled jumbo shrimp $20, petite filet $42, or a grilled organic chicken breast $8"
+            }
+          ]
+        },
+        {
+          "title": "Butcher boards",
+          "note": "Sliced, with two large sides and two sauces",
+          "items": [
+            {
+              "name": "Date Night",
+              "desc": "8 oz filet mignon, 16 oz Delmonico, 6 grilled jumbo shrimp and a lobster tail",
+              "price": "$235"
+            },
+            {
+              "name": "Land & Sea",
+              "desc": "14 oz ribeye, New Zealand lamb rack, 12 oz Prime NY strip and 6 grilled jumbo shrimp",
+              "price": "$315"
+            },
+            {
+              "name": "Land, Sea & Air",
+              "desc": "14 oz ribeye, 12 oz Prime NY strip, 2 lobster tails, 12 grilled jumbo shrimp and 2 confit duck legs",
+              "price": "$350"
+            },
+            {
+              "name": "Neptune’s Board",
+              "desc": "2 Ora King salmon fillets, 2 Chilean sea bass fillets, 2 lobster tails, 6 grilled jumbo shrimp and a cluster of jumbo king crab legs",
+              "price": "$390"
+            },
+            {
+              "name": "Australian Wagyu Board",
+              "desc": "6 oz filet mignon, two 12 oz NY strips and a 14 oz ribeye",
+              "price": "$470"
+            },
+            {
+              "name": "Ribeye Flight",
+              "desc": "14 oz ribeye, 14 oz Wagyu, 14 oz dry-aged and 16 oz Delmonico",
+              "price": "$505"
+            },
+            {
+              "name": "The Chairmen’s Board",
+              "desc": "40 oz tomahawk ribeye, 38 oz porterhouse, 2 lobster tails, 12 grilled shrimp and 2 confit duck legs",
+              "price": "$525"
+            },
+            {
+              "name": "A5 Japanese Wagyu Board",
+              "desc": "6 oz filet mignon, 8 oz NY strip filet and 12 oz ribeye",
+              "price": "Market price"
+            }
+          ]
+        },
+        {
+          "title": "Steaks & Wagyu",
+          "items": [
+            {
+              "name": "12 oz Prime NY Strip",
+              "price": "$72"
+            },
+            {
+              "name": "14 oz Ribeye",
+              "price": "$77"
+            },
+            {
+              "name": "8 oz Filet Mignon",
+              "price": "$78"
+            },
+            {
+              "name": "Brinkley’s Signature 16 oz Duck Fat Delmonico Ribeye",
+              "price": "$78"
+            },
+            {
+              "name": "40 oz Tomahawk Ribeye",
+              "price": "$150"
+            },
+            {
+              "name": "38 oz Porterhouse",
+              "price": "$170"
+            },
+            {
+              "name": "Australian Wagyu",
+              "desc": "6 oz filet mignon $82, 12 oz NY strip $115 or 14 oz ribeye $155"
+            },
+            {
+              "name": "A5 Japanese Wagyu",
+              "desc": "6 oz filet mignon, 8 oz NY strip filet or 12 oz ribeye",
+              "price": "Market price"
+            }
+          ]
+        },
+        {
+          "title": "Entrées",
+          "items": [
+            {
+              "name": "Springer Mountain Chicken Breast",
+              "desc": "Oyster mushrooms, sugar snaps, asparagus, English peas, duck fat fingerlings, bacon lardons and sauce Dijonnaise",
+              "price": "$30"
+            },
+            {
+              "name": "Ora King Salmon",
+              "desc": "Chilled soba noodle salad, miso roasted tomatoes, bok choy, cucumber, sugar snap peas, herbs, peanuts and crispy wontons",
+              "price": "$45"
+            },
+            {
+              "name": "Miso Glazed Chilean Sea Bass",
+              "desc": "Crispy rice cake, braised bok choy, shiitake mushrooms, sweet soy",
+              "price": "$48"
+            },
+            {
+              "name": "Yellowfin Tuna",
+              "desc": "Sicilian style, with caponata, fingerling potatoes, summer squash and olive-caper salsa verde",
+              "price": "$48"
+            },
+            {
+              "name": "Kurobuta Pork Chop",
+              "desc": "Korean kalbi style, forbidden kimchi fried rice, scallion-wakame salad and a fried egg",
+              "price": "$52"
+            },
+            {
+              "name": "Lobster Risotto",
+              "desc": "Carnaroli rice, English peas, saffron mascarpone, pea tendrils and hazelnuts",
+              "price": "$65"
+            },
+            {
+              "name": "New Zealand Lamb Rack",
+              "desc": "Caponata, whipped feta, crispy chickpeas",
+              "price": "$88"
+            }
+          ]
+        },
+        {
+          "title": "Sides",
+          "note": "Small · large",
+          "items": [
+            {
+              "name": "Loaded Mashed Potatoes",
+              "desc": "Bacon, chive, sour cream, Monterey Jack",
+              "price": "$8 · $14"
+            },
+            {
+              "name": "Four Cheese Mac & Cheese",
+              "price": "$9 · $14"
+            },
+            {
+              "name": "Creamed Corn",
+              "desc": "Applewood bacon and poblano",
+              "price": "$8 · $14"
+            },
+            {
+              "name": "Creamed Spinach",
+              "price": "$7 · $13"
+            },
+            {
+              "name": "Sautéed Wild Mushrooms",
+              "desc": "Caramelized onions, chives, Worcestershire butter",
+              "price": "$8 · $14"
+            },
+            {
+              "name": "Crispy Szechuan Brussels Sprouts",
+              "desc": "Pork belly, peanuts, scallion, cilantro",
+              "price": "$7 · $14"
+            },
+            {
+              "name": "Grilled Jumbo Asparagus",
+              "desc": "Prosciutto pan grattato, parmesan",
+              "price": "$10 · $19"
+            },
+            {
+              "name": "Cacio e Pepe Risotto",
+              "desc": "Basil, parmesan",
+              "price": "$9 · $17"
+            },
+            {
+              "name": "Roasted Broccolini",
+              "desc": "Roasted red pepper, lemon, pine nuts and garlic chips",
+              "price": "$10 · $19"
+            },
+            {
+              "name": "Grilled Bok Choy",
+              "desc": "Chili crisp, cilantro, scallions",
+              "price": "$10 · $19"
+            },
+            {
+              "name": "Parmesan Truffle Steak Fries",
+              "price": "$7 · $10"
+            },
+            {
+              "name": "Jumbo Onion Rings",
+              "desc": "BBQ vinaigrette",
+              "price": "$8 · $12"
+            }
+          ]
+        },
+        {
+          "title": "Sauces",
+          "items": [
+            {
+              "name": "Béarnaise",
+              "price": "$5"
+            },
+            {
+              "name": "Bourbon & Green Peppercorn au Poivre",
+              "price": "$5"
+            },
+            {
+              "name": "Black Garlic Rosemary Demi",
+              "price": "$4"
+            },
+            {
+              "name": "Roasted Garlic Maître d’ Butter",
+              "price": "$3"
+            },
+            {
+              "name": "Horseradish & Rosemary Cream",
+              "price": "$3"
+            }
+          ]
+        }
+      ],
+      "footnote": "From Brinkley’s current dinner menu. Prices subject to change."
+    },
+    {
+      "type": "gallery",
+      "id": "photos",
+      "nav": "Photos",
+      "eyebrow": "From the kitchen",
+      "title": "Made to *share*",
+      "images": [
+        {
+          "src": "/demo-assets/brinkleys-chop-house/strip-steak.webp",
+          "alt": "A sliced strip steak with grilled asparagus and a potato croquette",
+          "width": 1100,
+          "height": 1376
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/seafood-board.webp",
+          "alt": "A seafood board with king crab legs, lobster, shrimp and sides",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/scallops.webp",
+          "alt": "Seared scallops with broccolini in a butter sauce",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/filet-flight.webp",
+          "alt": "The filet flight: four small filets, each with a different topping",
+          "width": 1200,
+          "height": 775
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/scallop-ravioli.webp",
+          "alt": "Scallops and ravioli on a bright green pea purée",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/oysters.webp",
+          "alt": "A row of baked oysters with a golden crust",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/pork-chop.webp",
+          "alt": "A thick-cut pork chop with roasted potatoes and greens",
+          "width": 1200,
+          "height": 795
+        },
+        {
+          "src": "/demo-assets/brinkleys-chop-house/smoked-cocktail.webp",
+          "alt": "A cocktail served under a cloud of smoke at the bar",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Welcome to Brinkley’s",
+      "title": "An evening *on Center Street*",
+      "image": {
+        "src": "/demo-assets/brinkleys-chop-house/dining-room.webp",
+        "alt": "The Brinkley’s dining room, with blue upholstered chairs and a wine wall",
+        "width": 1200,
+        "height": 1026
+      },
+      "body": [
+        "Brinkley’s Chop House serves an exceptional selection of steaks, seafood and chops on Center Street in North Augusta, using the best ingredients.",
+        "In 2026, Brinkley’s was named one of the Best of North Augusta, the North Augusta’s Choice awards of the Post and Courier’s North Augusta Star."
+      ],
+      "list": [
+        "Valet parking, validated",
+        "Private events",
+        "E-gift cards online"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "events",
+      "nav": "Private events",
+      "eyebrow": "Celebrate with us",
+      "title": "Book *a private event*",
+      "intro": "We’d love to host your next event.",
+      "items": [
+        {
+          "title": "Pick a date",
+          "text": "Tell us the day, and the start and end time."
+        },
+        {
+          "title": "Share the details",
+          "text": "The type of event, how many guests, and anything else we should know."
+        },
+        {
+          "title": "We’ll be in touch",
+          "text": "Send the request, and we’ll be in touch soon."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do you take reservations?",
+          "a": "Yes. Call (803) 599-5097, or send a request with the form below."
+        },
+        {
+          "q": "Where do I park?",
+          "a": "Valet parking is available, and Brinkley’s validates it."
+        },
+        {
+          "q": "Do you sell gift cards?",
+          "a": "Yes, e-gift cards are sold online."
+        },
+        {
+          "q": "Can you host a private event?",
+          "a": "Yes. Send the date, times, type of event and number of guests, and we’ll be in touch."
+        },
+        {
+          "q": "When are you open?",
+          "a": "Monday to Friday from 4 pm to 10 pm, Saturday from noon to 10 pm, and Sunday from noon to 9 pm."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Reserve your table",
+      "text": "Dinner from 4 pm on weekdays, and from noon on weekends.",
+      "cta": {
+        "label": "Call (803) 599-5097",
+        "href": "tel:+18035995097"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Center Street*",
+    "formTitle": "Reserve or ask about an event",
+    "formTopics": [
+      "A reservation",
+      "A private event",
+      "Gift cards",
+      "Something else"
+    ]
+  },
+  "cinematic": true,
+  "slug": "brinkleys-chop-house",
+  "added": "2026-11-21",
+  "prospect": "brinkleys-chop-house",
+  "source": {
+    "url": "https://www.brinkleyschophouse.com/",
+    "before": [
+      "The home page opens with a 32-slide photo carousel, so a phone downloads dozens of large photos before anyone sees the menu",
+      "In Google’s slow-phone test the main picture takes 16.3 seconds to appear; the mobile score is 40 out of 100",
+      "A 3.6 MB home page, with a photo that has no description and two links a screen reader can’t name"
+    ],
+    "after": [
+      "The whole dinner menu on one page, with jump links and a print button",
+      "Reservations and private events one tap away",
+      "Hours with an “Open now” sign, and valet parking mentioned up front",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "polaroid",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

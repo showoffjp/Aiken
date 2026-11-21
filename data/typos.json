@@ -647,5 +647,44 @@
   "at": "2026-11-21T04:21:16.558Z",
   "pages": 2,
   "found": []
+ },
+ "brinkleys-chop-house": {
+  "at": "2026-11-21T05:53:44.737Z",
+  "pages": 6,
+  "found": []
+ },
+ "aikenite-electrical-services-llc": {
+  "at": "2026-11-21T05:54:51.008Z",
+  "pages": 11,
+  "found": [
+   {
+    "kind": "sample",
+    "word": "It all begins with an idea. Maybe you want to launch a business",
+    "fix": "",
+    "count": 1,
+    "page": "https://www.aikenite-electrical.com/our-process",
+    "label": "Our process",
+    "context": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something more. Or ",
+    "shown": "after a click",
+    "pages": 1
+   }
+  ]
+ },
+ "tailgate-tavern": {
+  "at": "2026-11-21T05:54:27.535Z",
+  "pages": 10,
+  "found": [
+   {
+    "kind": "spelling",
+    "word": "Frends",
+    "fix": "Friends",
+    "count": 1,
+    "page": "https://tailgatetavern2.com/",
+    "label": "Home",
+    "context": "Food, Fun and Frends",
+    "shown": "on screen",
+    "pages": 1
+   }
+  ]
  }
 }

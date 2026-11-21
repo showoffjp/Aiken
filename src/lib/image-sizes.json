@@ -4970,5 +4970,225 @@
  "/demo-assets/taste-of-gold-cakery/cookie-cupcakes-640.webp": [
   640,
   1138
+ ],
+ "/demo-assets/brinkleys-chop-house/butcher-board.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/brinkleys-chop-house/strip-steak.webp": [
+  1100,
+  1376
+ ],
+ "/demo-assets/brinkleys-chop-house/dining-room.webp": [
+  1200,
+  1026
+ ],
+ "/demo-assets/brinkleys-chop-house/seafood-board.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/brinkleys-chop-house/scallops.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/brinkleys-chop-house/smoked-cocktail.webp": [
+  900,
+  1200
+ ],
+ "/demo-assets/brinkleys-chop-house/wagyu.webp": [
+  900,
+  1200
+ ],
+ "/demo-assets/brinkleys-chop-house/scallop-ravioli.webp": [
+  1200,
+  800
+ ],
+ "/demo-assets/brinkleys-chop-house/oysters.webp": [
+  1200,
+  900
+ ],
+ "/demo-assets/brinkleys-chop-house/filet-flight.webp": [
+  1200,
+  775
+ ],
+ "/demo-assets/brinkleys-chop-house/pork-chop.webp": [
+  1200,
+  795
+ ],
+ "/demo-assets/aikenite-electrical/kitchen-lights.webp": [
+  1100,
+  1467
+ ],
+ "/demo-assets/aikenite-electrical/panel-work.webp": [
+  1100,
+  1467
+ ],
+ "/demo-assets/aikenite-electrical/new-panel.webp": [
+  900,
+  1281
+ ],
+ "/demo-assets/aikenite-electrical/wash-stall-heaters.webp": [
+  1100,
+  1100
+ ],
+ "/demo-assets/aikenite-electrical/barn-aisle.webp": [
+  1100,
+  1470
+ ],
+ "/demo-assets/aikenite-electrical/arena-lights.webp": [
+  640,
+  478
+ ],
+ "/demo-assets/aikenite-electrical/ceiling-wiring.webp": [
+  828,
+  1364
+ ],
+ "/demo-assets/aikenite-electrical/barn-at-night.webp": [
+  1400,
+  923
+ ],
+ "/demo-assets/aikenite-electrical/supply-room.webp": [
+  750,
+  500
+ ],
+ "/demo-assets/aikenite-electrical/site-work.webp": [
+  1400,
+  1050
+ ],
+ "/demo-assets/aikenite-electrical/barn-aisle-640.webp": [
+  640,
+  855
+ ],
+ "/demo-assets/aikenite-electrical/barn-aisle-960.webp": [
+  960,
+  1283
+ ],
+ "/demo-assets/aikenite-electrical/barn-at-night-640.webp": [
+  640,
+  422
+ ],
+ "/demo-assets/aikenite-electrical/barn-at-night-960.webp": [
+  960,
+  633
+ ],
+ "/demo-assets/aikenite-electrical/ceiling-wiring-640.webp": [
+  640,
+  1054
+ ],
+ "/demo-assets/aikenite-electrical/kitchen-lights-640.webp": [
+  640,
+  854
+ ],
+ "/demo-assets/aikenite-electrical/kitchen-lights-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/aikenite-electrical/new-panel-640.webp": [
+  640,
+  911
+ ],
+ "/demo-assets/aikenite-electrical/panel-work-640.webp": [
+  640,
+  854
+ ],
+ "/demo-assets/aikenite-electrical/panel-work-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/aikenite-electrical/site-work-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/aikenite-electrical/site-work-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/aikenite-electrical/wash-stall-heaters-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/aikenite-electrical/wash-stall-heaters-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/brinkleys-chop-house/butcher-board-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/brinkleys-chop-house/butcher-board-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/brinkleys-chop-house/dining-room-640.webp": [
+  640,
+  547
+ ],
+ "/demo-assets/brinkleys-chop-house/dining-room-960.webp": [
+  960,
+  821
+ ],
+ "/demo-assets/brinkleys-chop-house/filet-flight-640.webp": [
+  640,
+  413
+ ],
+ "/demo-assets/brinkleys-chop-house/filet-flight-960.webp": [
+  960,
+  620
+ ],
+ "/demo-assets/brinkleys-chop-house/oysters-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/brinkleys-chop-house/oysters-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/brinkleys-chop-house/pork-chop-640.webp": [
+  640,
+  424
+ ],
+ "/demo-assets/brinkleys-chop-house/pork-chop-960.webp": [
+  960,
+  636
+ ],
+ "/demo-assets/brinkleys-chop-house/scallop-ravioli-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/brinkleys-chop-house/scallop-ravioli-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/brinkleys-chop-house/scallops-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/brinkleys-chop-house/scallops-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/brinkleys-chop-house/seafood-board-640.webp": [
+  640,
+  427
+ ],
+ "/demo-assets/brinkleys-chop-house/seafood-board-960.webp": [
+  960,
+  640
+ ],
+ "/demo-assets/brinkleys-chop-house/smoked-cocktail-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/brinkleys-chop-house/strip-steak-640.webp": [
+  640,
+  801
+ ],
+ "/demo-assets/brinkleys-chop-house/strip-steak-960.webp": [
+  960,
+  1201
+ ],
+ "/demo-assets/brinkleys-chop-house/wagyu-640.webp": [
+  640,
+  853
  ]
 }
