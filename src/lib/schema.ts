@@ -96,6 +96,7 @@ const plain = (t = '') => t.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
 /** A listed price as schema.org reads it: "$12.99", "$45–65", "from $60", "$65+", "$30 / hr", "6.95 / 14.95". */
 export function priceLd(p?: string): Record<string, unknown> | undefined {
   if (!p || /market|varies|ask|call|free|\bfor\b/i.test(p)) return undefined;
+  if (/^\(?\d{3}\)?[\s.-]*\d{3}[\s.-]*\d{4}$/.test(p.trim())) return undefined; // a phone number, not a price
   const nums = [...p.replace(/,/g, '').matchAll(/\d+(?:\.\d+)?/g)].map((m) => +m[0]);
   if (!nums.length || nums.length > 2) return undefined;
   const hourly = /\/\s*(hr|hour)\b/i.test(p);

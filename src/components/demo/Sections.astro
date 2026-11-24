@@ -30,6 +30,8 @@ let deepIdx = demo.sections.length < 3 ? -1 : [pick(['quotes', 'steps']), pick([
 if (deepIdx < 0 && kinds.length >= 2 && (demo.style?.facts || !demo.facts?.length) && ['services', 'columns', 'story', 'menu', 'steps', 'quotes'].includes(kinds[0])) deepIdx = 0;
 // Cinematic pages are dark-led already.
 if (cine) deepIdx = -1;
+// A list row whose 'price' is a phone number (an office list) gets a tap-to-call link.
+const PHONE = /^\(?\d{3}\)?[\s.-]*\d{3}[\s.-]*\d{4}$/;
 ---
 {demo.sections.map((s, i) => {
   const id = sectionId(s, i);
@@ -120,7 +122,7 @@ if (cine) deepIdx = -1;
               <ul>
                 {g.items.map((it) => (
                   <li>
-                    <div class="line"><span>{it.name}</span>{it.price && <><i></i><span class="price">{it.price}</span></>}</div>
+                    <div class="line"><span>{it.name}</span>{it.price && <><i></i>{PHONE.test(it.price) ? <a class="price" href={`tel:+1${it.price.replace(/\D/g, '').slice(-10)}`} aria-label={`Call ${it.name}: ${it.price}`}>{it.price}</a> : <span class="price">{it.price}</span>}</>}</div>
                     {it.desc && <p>{it.desc}</p>}
                   </li>
                 ))}

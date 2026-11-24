@@ -1495,16 +1495,28 @@
  },
  "all-safe-industrial-services-inc": {
   "site": {
-   "performance": 67,
+   "performance": 63,
    "accessibility": 89,
    "bestPractices": 75,
    "seo": 92,
-   "fcp": 2417,
-   "lcp": 30509,
-   "tbt": 0,
-   "si": 5941,
+   "fcp": 2295,
+   "lcp": 30174,
+   "tbt": 13,
+   "si": 14337,
    "cls": 0,
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 2108,
+   "tbt": 22,
+   "si": 949,
+   "cls": 0,
+   "at": "2026-11-24"
   }
  },
  "anderson-insurance-associates-llc": {
@@ -4735,6 +4747,32 @@
    "si": 953,
    "cls": 0,
    "at": "2026-11-21"
+  }
+ },
+ "rhodes-murphy": {
+  "site": {
+   "performance": 40,
+   "accessibility": 55,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 3166,
+   "lcp": 8161,
+   "tbt": 936,
+   "si": 9878,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1052,
+   "lcp": 1802,
+   "tbt": 34,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-24"
   }
  }
 }

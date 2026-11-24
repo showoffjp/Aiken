@@ -6602,5 +6602,169 @@
  "/demo-assets/radioactive-pinball/video-games-960.webp": [
   960,
   720
+ ],
+ "/demo-assets/all-safe-industrial/tank-coating.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-tower.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-stack.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/all-safe-industrial/insulated-duct.webp": [
+  1600,
+  1200
+ ],
+ "/demo-assets/all-safe-industrial/floor-coating.webp": [
+  1600,
+  900
+ ],
+ "/demo-assets/all-safe-industrial/spray-coating.webp": [
+  1600,
+  943
+ ],
+ "/demo-assets/all-safe-industrial/insulated-piping.webp": [
+  1600,
+  943
+ ],
+ "/demo-assets/all-safe-industrial/insulated-equipment.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/all-safe-industrial/column-scaffold.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/all-safe-industrial/red-floor.webp": [
+  1200,
+  1200
+ ],
+ "/demo-assets/all-safe-industrial/pipe-insulation.webp": [
+  1200,
+  1600
+ ],
+ "/demo-assets/all-safe-industrial/storefront-scaffold.webp": [
+  1024,
+  768
+ ],
+ "/demo-assets/all-safe-industrial/insulated-tank.webp": [
+  813,
+  631
+ ],
+ "/demo-assets/all-safe-industrial/valve-insulation.webp": [
+  453,
+  342
+ ],
+ "/demo-assets/rhodes-murphy/office.webp": [
+  1600,
+  658
+ ],
+ "/demo-assets/all-safe-industrial/column-scaffold-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/all-safe-industrial/column-scaffold-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/all-safe-industrial/floor-coating-640.webp": [
+  640,
+  360
+ ],
+ "/demo-assets/all-safe-industrial/floor-coating-960.webp": [
+  960,
+  540
+ ],
+ "/demo-assets/all-safe-industrial/insulated-duct-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/all-safe-industrial/insulated-duct-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/all-safe-industrial/insulated-equipment-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/all-safe-industrial/insulated-equipment-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/all-safe-industrial/insulated-piping-640.webp": [
+  640,
+  377
+ ],
+ "/demo-assets/all-safe-industrial/insulated-piping-960.webp": [
+  960,
+  566
+ ],
+ "/demo-assets/all-safe-industrial/insulated-tank-640.webp": [
+  640,
+  497
+ ],
+ "/demo-assets/all-safe-industrial/pipe-insulation-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/all-safe-industrial/pipe-insulation-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/all-safe-industrial/red-floor-640.webp": [
+  640,
+  640
+ ],
+ "/demo-assets/all-safe-industrial/red-floor-960.webp": [
+  960,
+  960
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-stack-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-stack-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-tower-640.webp": [
+  640,
+  853
+ ],
+ "/demo-assets/all-safe-industrial/scaffold-tower-960.webp": [
+  960,
+  1280
+ ],
+ "/demo-assets/all-safe-industrial/spray-coating-640.webp": [
+  640,
+  377
+ ],
+ "/demo-assets/all-safe-industrial/spray-coating-960.webp": [
+  960,
+  566
+ ],
+ "/demo-assets/all-safe-industrial/storefront-scaffold-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/all-safe-industrial/tank-coating-640.webp": [
+  640,
+  480
+ ],
+ "/demo-assets/all-safe-industrial/tank-coating-960.webp": [
+  960,
+  720
+ ],
+ "/demo-assets/rhodes-murphy/office-640.webp": [
+  640,
+  263
+ ],
+ "/demo-assets/rhodes-murphy/office-960.webp": [
+  960,
+  395
  ]
 }

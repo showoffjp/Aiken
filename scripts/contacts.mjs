@@ -69,7 +69,7 @@ const rows = demos.map((d) => {
     business: d.name, category: d.category, town: d.town.replace(/,?\s*SC$/i, ''),
     phone: phones[0] || '', otherPhones: phones.slice(1).join('; '),
     email: emails[0] || '', otherEmails: emails.slice(1).join('; '), emailSource: !emails.length ? '' : known.includes(emails[0]) ? 'directory or website' : 'found on a cached page',
-    contact: r.contact || '', address: (d.contact.address || []).join(', ') || r.address || '',
+    contact: [r.contact, r.contactRole].filter(Boolean).join(', '), contactSource: r.contactSource || '', address: (d.contact.address || []).join(', ') || r.address || '',
     currentSite: d.source.none ? '(none)' : (r.website || d.source.url), siteStatus: d.source.none ? 'No website' : (r.siteState || ''),
     facebook: d.contact.facebook || r.facebook || '', instagram: d.contact.instagram || r.instagram || '',
     concept: `${base}/${d.slug}/`, checkup: `${base}/${d.slug}/report/`, seoReport: `${base}/${d.slug}/seo/`,
@@ -77,7 +77,7 @@ const rows = demos.map((d) => {
   };
 });
 
-const cols = [['Business', 'business'], ['Category', 'category'], ['Town', 'town'], ['Phone', 'phone'], ['Other phones', 'otherPhones'], ['Email', 'email'], ['Other emails', 'otherEmails'], ['Email found in', 'emailSource'], ['Contact person', 'contact'], ['Address', 'address'], ['Current website', 'currentSite'], ['Website status', 'siteStatus'], ['Facebook', 'facebook'], ['Instagram', 'instagram'], ['Concept', 'concept'], ['Checkup', 'checkup'], ['SEO report', 'seoReport'], ['Phone note', 'phoneNote'], ['Priority', 'priority']];
+const cols = [['Business', 'business'], ['Category', 'category'], ['Town', 'town'], ['Phone', 'phone'], ['Other phones', 'otherPhones'], ['Email', 'email'], ['Other emails', 'otherEmails'], ['Email found in', 'emailSource'], ['Contact person', 'contact'], ['Contact found in', 'contactSource'],['Address', 'address'], ['Current website', 'currentSite'], ['Website status', 'siteStatus'], ['Facebook', 'facebook'], ['Instagram', 'instagram'], ['Concept', 'concept'], ['Checkup', 'checkup'], ['SEO report', 'seoReport'], ['Phone note', 'phoneNote'], ['Priority', 'priority']];
 const csvCell = (v) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
 const out = path.join(ROOT, 'outreach');
 mkdirSync(out, { recursive: true });

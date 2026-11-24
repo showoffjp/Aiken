@@ -63,6 +63,14 @@
   "exact": false,
   "at": "2026-11-21"
  },
+ "all-safe-industrial": {
+  "q": "11628 Atomic Road, Beech Island, SC 29842",
+  "lat": 33.396851,
+  "lon": -81.846619,
+  "kind": "primary",
+  "exact": false,
+  "at": "2026-11-24"
+ },
  "allstar-tents": {
   "q": "176 Bettis Academy Road, Graniteville, SC 29829",
   "lat": 33.577415,
@@ -908,6 +916,14 @@
   "kind": "shop",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "rhodes-murphy": {
+  "q": "202 E Martintown Road, North Augusta, SC 29841",
+  "lat": 33.500587,
+  "lon": -81.963753,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-24"
  },
  "rhumba-rum-and-cigar-lounge": {
   "q": "321 Richland Avenue West, Aiken, SC",
