@@ -2437,12 +2437,24 @@
    "accessibility": 88,
    "bestPractices": 100,
    "seo": 92,
-   "fcp": 4556,
-   "lcp": 14445,
-   "tbt": 51,
-   "si": 11267,
+   "fcp": 4430,
+   "lcp": 14456,
+   "tbt": 0,
+   "si": 10481,
    "cls": 0.207,
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2255,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-24"
   }
  },
  "holley-heating-and-air-conditioning-inc": {
@@ -4771,6 +4783,32 @@
    "lcp": 1802,
    "tbt": 34,
    "si": 1052,
+   "cls": 0,
+   "at": "2026-11-24"
+  }
+ },
+ "nouveau-hair-and-wigs": {
+  "site": {
+   "performance": 33,
+   "accessibility": 92,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 3278,
+   "lcp": 8273,
+   "tbt": 1691,
+   "si": 16215,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1202,
+   "lcp": 2177,
+   "tbt": 0,
+   "si": 1202,
    "cls": 0,
    "at": "2026-11-24"
   }

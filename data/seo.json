@@ -44152,5 +44152,712 @@
     "domainYears": 4
    }
   ]
+ },
+ "nouveau-hair-and-wigs": {
+  "slug": "nouveau-hair",
+  "name": "Nouveau Hair & Wigs",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "nouveau.hair",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.nouveau.hair/",
+    "title": "Nouveau Hair & Wigs | Medical Human Hair Wigs & Hair Loss Help",
+    "description": "Located in North Augusta, SC, Nouveau Hair & Wigs is the premier destination for high-quality human hair wigs, hair toppers, alternative hair solutions, and expert hair color services.",
+    "canonical": "https://www.nouveau.hair",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Nouveau Hair & Wigs | Medical Human Hair Wigs & Hair Loss Help",
+     "description": "Nouveau Hair & Wigs offers Alternative Hair Solutions such as Medical wigs for cancer patients, Human Hair, Extensions, Hair Toppers, Wigs for alopecia, Women’s hair loss in North Augusta, SC, USA",
+     "image": "https://static.wixstatic.com/media/fce840_db3a57ab09d543aaae46f52919be581c~mv2.jpg/v1/fill/w_2500,h_2786,al_c/fce840_db3a57ab09d543aaae46f52919be581c~mv2.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Nouveau Hair & Wigs"
+    ],
+    "h1Count": 1,
+    "h2": 2,
+    "h3": 0,
+    "words": 324,
+    "images": 31,
+    "imagesNoAlt": 19,
+    "schemaTypes": [
+     "LocalBusiness",
+     "PostalAddress",
+     "Country",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.nouveau.hair/sitemap.xml",
+    "pages": 15
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 2,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 115,
+    "images": 262,
+    "sample": [
+     {
+      "url": "https://www.nouveau.hair/",
+      "title": "Nouveau Hair & Wigs | Medical Human Hair Wigs & Hair Loss Help",
+      "description": 184,
+      "h1": 1,
+      "words": 324
+     },
+     {
+      "url": "https://www.nouveau.hair/about",
+      "title": "ABOUT | Nouveau Hair | Compassionate Wig Experts in North Augusta SC",
+      "description": 136,
+      "h1": 1,
+      "words": 332
+     },
+     {
+      "url": "https://www.nouveau.hair/consultations",
+      "title": "Private Wig Consultations | Nouveau Hair",
+      "description": 127,
+      "h1": 1,
+      "words": 414
+     },
+     {
+      "url": "https://www.nouveau.hair/ourcollections",
+      "title": "OUR COLLECTIONS | Nouveau Hair | Human Hair Wigs, Toppers & Extensions",
+      "description": 257,
+      "h1": 1,
+      "words": 604
+     },
+     {
+      "url": "https://www.nouveau.hair/medicalwigs",
+      "title": "MEDICAL WIGS | Nouveau Hair | Medical Wigs for Cancer & Alopecia",
+      "description": 282,
+      "h1": 1,
+      "words": 788
+     },
+     {
+      "url": "https://www.nouveau.hair/services",
+      "title": "SERVICES | Nouveau Hair | Private Wig Consultations & Fittings North Augusta",
+      "description": 196,
+      "h1": 1,
+      "words": 504
+     },
+     {
+      "url": "https://www.nouveau.hair/contact",
+      "title": "Contact Us | Nouveau Hair | Schedule a Wig Consultation Today",
+      "description": 168,
+      "h1": 1,
+      "words": 174
+     },
+     {
+      "url": "https://www.nouveau.hair/faq",
+      "title": "FAQ | Nouveau Hair | Human Hair Wigs, Medical Wigs & Services FAQ",
+      "description": 130,
+      "h1": 1,
+      "words": 1063
+     },
+     {
+      "url": "https://www.nouveau.hair/payment-options",
+      "title": "PAYMENT OPTIONS | Nouveau Hair | Wig Financing & Payment Plans",
+      "description": 275,
+      "h1": 0,
+      "words": 92
+     },
+     {
+      "url": "https://www.nouveau.hair/privacy-policy",
+      "title": "Privacy policy | Nouveau Hair",
+      "description": 0,
+      "h1": 1,
+      "words": 1948
+     },
+     {
+      "url": "https://www.nouveau.hair/terms-conditions",
+      "title": "Terms & conditions | Nouveau Hair",
+      "description": 0,
+      "h1": 1,
+      "words": 1799
+     },
+     {
+      "url": "https://www.nouveau.hair/",
+      "title": "Nouveau Hair & Wigs | Medical Human Hair Wigs & Hair Loss Help",
+      "description": 184,
+      "h1": 1,
+      "words": 324
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 14,
+    "broken": [
+     {
+      "url": "http://www.nouveau.hair/privacy-policy.",
+      "status": 404,
+      "from": "https://www.nouveau.hair/terms-conditions"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "YouTube": "https://www.youtube.com/@NouveauHairandWigs",
+    "TikTok": "https://www.tiktok.com/@nouveauhairandwigs",
+    "Facebook": "https://www.facebook.com/profile.php?id=61555830057421",
+    "Instagram": "https://www.instagram.com/nouveauhairandwigsnorthaugusta"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Wigs",
+    "title": true,
+    "h1": true,
+    "description": true,
+    "firstWords": true,
+    "count": 14
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/nouveau-hair-and-wigs-4341",
+    "name": "Nouveau Hair and Wigs",
+    "phone": "(803) 426-8082",
+    "website": "http://www.nouveau.hair",
+    "address": "107 East Marion Ave, North Augusta SC 29841",
+    "phoneMatch": false,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "YouTube": "https://www.youtube.com/@NouveauHairandWigs",
+    "TikTok": "https://www.tiktok.com/@nouveauhairandwigs",
+    "Facebook": "https://www.facebook.com/profile.php?id=61555830057421",
+    "Instagram": "https://www.instagram.com/nouveauhairandwigsnorthaugusta"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/people/Nouveau-Hair-Wigs/61555830057421/",
+    "Instagram": "https://www.instagram.com/nouveauhairandwigs/"
+   }
+  },
+  "domain": null,
+  "performance": {
+   "performance": 33,
+   "accessibility": 92,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 3278,
+   "lcp": 8273,
+   "tbt": 1691,
+   "si": 16215,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1202,
+   "lcp": 2177,
+   "tbt": 0,
+   "si": 1202,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "aiken-medical-aesthetics",
+   "aiken-wellness-spa-and-boutique",
+   "bloom-salon-spa-boutique",
+   "changes-day-spa",
+   "delores-martin-independent-beauty-consultant"
+  ],
+  "scores": {
+   "seo": 60,
+   "social": 80,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-medical-aesthetics",
+    "name": "Aiken Medical Aesthetics",
+    "website": "https://aikenmedicalaesthetics.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 33,
+    "pageMB": 9.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "bloom-salon-spa-boutique",
+    "name": "Bloom Salon Spa Boutique",
+    "website": "https://www.beautyatbloom.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 53,
+    "pageMB": 2.3,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "changes-day-spa",
+    "name": "Changes Day Spa",
+    "website": "https://www.dewisloto1000.com/game/slot/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 62,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 19
+   },
+   {
+    "slug": "delores-martin-independent-beauty-consultant",
+    "name": "Delores Martin - Independent Beauty Consultant",
+    "website": "https://www.marykay.com/dmartin54",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 33
+   }
+  ]
+ },
+ "holley-and-company": {
+  "slug": "holley-and-company",
+  "name": "Holley & Company",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "cpaaiken.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.cpaaiken.com/",
+    "title": "Aiken, SC Accounting Firm | Home Page | Holley & Company",
+    "description": "Take a look at our Home page. Holley & Company is a full service tax, accounting and business consulting firm located in Aiken, SC.",
+    "canonical": "https://www.cpaaiken.com",
+    "noindex": false,
+    "lang": "en",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "",
+     "description": "",
+     "image": "",
+     "type": ""
+    },
+    "twitterCard": "",
+    "h1": [
+     "Accounting is what we do best."
+    ],
+    "h1Count": 1,
+    "h2": 0,
+    "h3": 0,
+    "words": 773,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": true,
+    "sitemaps": 1
+   },
+   "sitemap": null,
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 5,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 16,
+    "images": 74,
+    "sample": [
+     {
+      "url": "https://www.cpaaiken.com/",
+      "title": "Aiken, SC Accounting Firm | Home Page | Holley & Company",
+      "description": 131,
+      "h1": 1,
+      "words": 773
+     },
+     {
+      "url": "https://www.cpaaiken.com:443/",
+      "title": "Aiken, SC Accounting Firm | Home Page | Holley & Company",
+      "description": 131,
+      "h1": 1,
+      "words": 773
+     },
+     {
+      "url": "https://www.cpaaiken.com/about.php",
+      "title": "Aiken, SC Accounting Firm | About Page | Holley & Company",
+      "description": 132,
+      "h1": 1,
+      "words": 711
+     },
+     {
+      "url": "https://www.cpaaiken.com/client-reviews.php",
+      "title": "Aiken, SC Accounting Firm | Client Reviews Page | Holley & Company",
+      "description": 141,
+      "h1": 0,
+      "words": 481
+     },
+     {
+      "url": "https://www.cpaaiken.com/services.php",
+      "title": "Aiken, SC Accounting Firm | Services Page | Holley & Company",
+      "description": 135,
+      "h1": 0,
+      "words": 580
+     },
+     {
+      "url": "https://www.cpaaiken.com/taxservices.php",
+      "title": "Aiken, SC Accounting Firm | Tax Services Page | Holley & Company",
+      "description": 139,
+      "h1": 0,
+      "words": 711
+     },
+     {
+      "url": "https://www.cpaaiken.com/taxprep.php",
+      "title": "Aiken, SC Accounting Firm | Individual Tax Preparation Page | Holley & Company",
+      "description": 153,
+      "h1": 1,
+      "words": 589
+     },
+     {
+      "url": "https://www.cpaaiken.com/taxprep-business.php",
+      "title": "Aiken, SC Accounting Firm | Tax Preparation for Businesses Page | Holley & Company",
+      "description": 157,
+      "h1": 0,
+      "words": 695
+     },
+     {
+      "url": "https://www.cpaaiken.com/taxplanning.php",
+      "title": "Aiken, SC Accounting Firm | Tax Planning Page | Holley & Company",
+      "description": 139,
+      "h1": 1,
+      "words": 655
+     },
+     {
+      "url": "https://www.cpaaiken.com/estates-trusts-tax.php",
+      "title": "Aiken, SC Accounting Firm | Estate & Trust Tax Services Page | Holley & Company",
+      "description": 154,
+      "h1": 0,
+      "words": 677
+     },
+     {
+      "url": "https://www.cpaaiken.com/irs-problemshome.php",
+      "title": "Aiken, SC Accounting Firm | Tax Relief Page | Holley & Company",
+      "description": 137,
+      "h1": 1,
+      "words": 1036
+     },
+     {
+      "url": "https://www.cpaaiken.com/irs-representation.php",
+      "title": "Aiken, SC Accounting Firm | IRS Audit Representation Page | Holley & Company",
+      "description": 151,
+      "h1": 1,
+      "words": 691
+     },
+     {
+      "url": "https://www.cpaaiken.com/irs-nonfiledreturns.php",
+      "title": "Aiken, SC Accounting Firm | Non-Filed Tax Returns Page | Holley & Company",
+      "description": 148,
+      "h1": 1,
+      "words": 737
+     },
+     {
+      "url": "https://www.cpaaiken.com/irs-backtaxes.php",
+      "title": "Aiken, SC Accounting Firm | Back Taxes Owed Page | Holley & Company",
+      "description": 142,
+      "h1": 1,
+      "words": 528
+     },
+     {
+      "url": "https://www.cpaaiken.com/irs-payrolltax.php",
+      "title": "Aiken, SC Accounting Firm | Payroll Tax Problems Page | Holley & Company",
+      "description": 147,
+      "h1": 1,
+      "words": 607
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 60,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {}
+  },
+  "keywords": [
+   {
+    "term": "CPA Firm",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=543&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=132a4a48275f1c0cea2de47a5d6324bf",
+    "name": "Holley & Company",
+    "phone": "(803) 844-0705",
+    "website": "http://www.CPAaiken.com",
+    "address": "705 Silver Bluff Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "cpaaiken.com",
+   "created": "2022-08-30",
+   "expires": "2027-08-30",
+   "registrar": "DreamHost, LLC",
+   "years": 4
+  },
+  "performance": {
+   "performance": 47,
+   "accessibility": 88,
+   "bestPractices": 100,
+   "seo": 92,
+   "fcp": 4430,
+   "lcp": 14456,
+   "tbt": 0,
+   "si": 10481,
+   "cls": 0.207,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1205,
+   "lcp": 2255,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "arnold-advisors-llc",
+   "bolster-bookkeeping-llc",
+   "deeper-dive-bookkeeping",
+   "fliflet-cassels-and-durant-pa-cpa",
+   "help-me-rhonda-bookkeeping-llc"
+  ],
+  "scores": {
+   "seo": 69,
+   "social": 0,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "arnold-advisors-llc",
+    "name": "Arnold Advisors, LLC",
+    "website": "https://www.aiken-cpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 62,
+    "pageMB": 3.5,
+    "a11ySerious": 12,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "bolster-bookkeeping-llc",
+    "name": "Bolster Bookkeeping LLC",
+    "website": "https://bolsterbookkeeping.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "deeper-dive-bookkeeping",
+    "name": "Deeper Dive Bookkeeping",
+    "website": "https://www.deeperdivebook.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 36,
+    "pageMB": 7.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "fliflet-cassels-and-durant-pa-cpa",
+    "name": "Fliflet, Cassels & DuRant, PA CPA",
+    "website": "https://www.flifletcpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 79,
+    "pageMB": 0.5,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 25
+   },
+   {
+    "slug": "help-me-rhonda-bookkeeping-llc",
+    "name": "Help Me Rhonda Bookkeeping, LLC",
+    "website": "https://hmrhonda.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 61,
+    "pageMB": 3.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 16
+   }
+  ]
  }
 }

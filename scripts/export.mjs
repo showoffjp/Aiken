@@ -41,6 +41,7 @@ const STATUS = {
   empty: 'Empty page',
   'redirects-to-social': 'Redirects to a social page',
   'redirects-away': 'Forwards to another website',
+  hijacked: 'Hacked or taken over: shows spam (online gambling or pharmacy)',
 };
 
 // Toll-free numbers on a site are usually an ordering platform or head office,
@@ -95,6 +96,8 @@ function pitchScore(r) {
   if (r.demo) s += 14;
   // A lapsed or held domain is the most time-sensitive call on the list.
   if (/^Lapsed|^On hold/.test(r.domainState)) s += 12;
+  // So is a site that now shows spam: it hurts the business with customers and with Google every day.
+  if (/^Hacked/.test(r.siteState)) s += 12;
   else if (/^Renews or expires/.test(r.domainState) && ['broken', 'rebuild'].includes(r.tier)) s += 4;
   return Math.min(100, s);
 }
@@ -104,7 +107,7 @@ const rows = businesses.filter((b) => b.include).map((b) => {
   let tier;
   if (!b.website) tier = b.social ? 'none' : 'nosite';
   else if (!a) tier = 'blocked';
-  else if (['down', 'no-dns', 'cert-error', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away'].includes(a.state)) tier = 'broken';
+  else if (['down', 'no-dns', 'cert-error', 'broken', 'parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away', 'hijacked'].includes(a.state)) tier = 'broken';
   else if (a.state === 'blocked') tier = 'blocked';
   else if (a.score >= 30) tier = 'rebuild';
   else if (a.score >= 15) tier = 'dated';

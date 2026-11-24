@@ -1,0 +1,357 @@
+{
+  "name": "Nouveau Hair & Wigs",
+  "short": "Nouveau",
+  "category": "Wigs, Toppers & Extensions",
+  "group": "Health & Beauty",
+  "town": "North Augusta, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#fbf7f6",
+    "surface": "#ffffff",
+    "ink": "#1f1a1d",
+    "muted": "#665c62",
+    "primary": "#17736e",
+    "onPrimary": "#ffffff",
+    "accent": "#b04f6d",
+    "line": "#ece3e3"
+  },
+  "radius": 14,
+  "icon": "sparkles",
+  "contact": {
+    "phone": "(803) 426-8092",
+    "address": [
+      "107 E. Marion Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Nouveau Hair & Wigs, 107 E Marion Ave, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday",
+        "Private consultations"
+      ],
+      [
+        "Tuesday – Friday",
+        "10:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday",
+        "10:00 am – 5:00 pm"
+      ],
+      [
+        "Sunday",
+        "Closed"
+      ]
+    ],
+    "hoursNote": "Walk-ins are welcome, but we’re a working salon, so a private consultation is the best way to visit.",
+    "facebook": "https://www.facebook.com/people/Nouveau-Hair-Wigs/61555830057421/"
+  },
+  "hero": {
+    "eyebrow": "Wigs, toppers and extensions in North Augusta",
+    "title": "Where beauty meets *confidence*",
+    "lede": "Premium human hair and medical wigs, custom toppers and extensions, with private one-on-one consultations for women facing hair loss, thinning hair, or simply ready for a new look.",
+    "points": [
+      "Private consultations",
+      "Medical wigs",
+      "In person or by video"
+    ],
+    "cta": {
+      "label": "Book a consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 426-8092",
+      "href": "tel:+18034268092"
+    },
+    "image": {
+      "src": "/demo-assets/nouveau-hair/wig-wall.webp",
+      "alt": "A wall of wigs in every shade, displayed on stands in the boutique",
+      "width": 1600,
+      "height": 958
+    }
+  },
+  "facts": [
+    {
+      "value": "1:1",
+      "label": "Private consultations"
+    },
+    {
+      "value": "1 hr",
+      "label": "Typical consultation"
+    },
+    {
+      "value": "100%",
+      "label": "Human hair in our Nouveau line"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Custom salon services",
+      "title": "Made *around you*",
+      "items": [
+        {
+          "icon": "message-circle-heart",
+          "title": "Private consultations",
+          "text": "An hour, one on one, in a private space reserved just for you. In person or by video."
+        },
+        {
+          "icon": "scissors",
+          "title": "Wig fittings & styling",
+          "text": "Every piece tailored, cut and styled so it fits beautifully and feels like your own."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Hair toppers",
+          "text": "Fuller coverage at the crown or part, fitted to blend naturally with your hair."
+        },
+        {
+          "icon": "wand-sparkles",
+          "title": "Extensions",
+          "text": "Premium human hair, installed with gentle, damage-free methods."
+        },
+        {
+          "icon": "circle-dot",
+          "title": "Halos",
+          "text": "Instant length and volume with no clips, tape or bonds. We fit it and show you how to style it."
+        },
+        {
+          "icon": "droplets",
+          "title": "Wig care",
+          "text": "Washing, conditioning and restyling, with monthly or quarterly maintenance plans."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "medical",
+      "nav": "Medical wigs",
+      "eyebrow": "Cranial prostheses",
+      "title": "Medical wigs, *fitted with care*",
+      "image": {
+        "src": "/demo-assets/nouveau-hair/blonde-wig.webp",
+        "alt": "A soft blonde wig on a display stand",
+        "width": 1000,
+        "height": 1607
+      },
+      "body": [
+        "For women losing hair to chemotherapy, alopecia or other conditions, our medical wigs are silicone-lined for a secure, irritation-free fit on sensitive scalps. Choose a custom cranial prosthesis made to your measurements, or a pre-cut medical wig that we cut and style for you.",
+        "Some insurance plans cover part or all of the cost of a cranial prosthesis. We don’t file claims, but we’ll walk you through the process and give you the paperwork you need. Coverage isn’t guaranteed and is up to your insurer."
+      ],
+      "list": [
+        "Custom cranial prostheses",
+        "Pre-cut medical wigs",
+        "Insurance paperwork provided"
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "collection",
+      "nav": "Collection",
+      "eyebrow": "Our collection",
+      "title": "Hair that feels *like your own*",
+      "images": [
+        {
+          "src": "/demo-assets/nouveau-hair/long-blonde.webp",
+          "alt": "A long, layered blonde wig on a mannequin",
+          "width": 1000,
+          "height": 982
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/lob-wig.webp",
+          "alt": "A shoulder-length wig with honey highlights",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/bob-wig.webp",
+          "alt": "A layered bob wig in blonde tones",
+          "width": 1000,
+          "height": 974
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/waves-back.webp",
+          "alt": "Long blonde waves, seen from behind",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/halo-extensions.webp",
+          "alt": "Dark halo hair extensions",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/clip-extensions.webp",
+          "alt": "Clip-in extensions in two shades",
+          "width": 1000,
+          "height": 988
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/sleek-bob.webp",
+          "alt": "A sleek blonde bob, seen from behind",
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "src": "/demo-assets/nouveau-hair/boutique-rack.webp",
+          "alt": "Wigs in branded garment bags in the boutique",
+          "width": 1200,
+          "height": 675
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "consultation",
+      "nav": "Your visit",
+      "eyebrow": "What to expect",
+      "title": "Your private *consultation*",
+      "items": [
+        {
+          "title": "A space just for you",
+          "text": "The boutique is reserved for your visit, so you can explore at your own pace."
+        },
+        {
+          "title": "Your story first",
+          "text": "We talk about your hair history, lifestyle, goals and any medical hair loss."
+        },
+        {
+          "title": "Try on and ask",
+          "text": "Try human hair and synthetic styles, and ask anything in a judgment-free space."
+        },
+        {
+          "title": "Leave confident",
+          "text": "Go home with the right piece and a clear plan for fitting, styling and care."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our story",
+      "title": "Founded from *a personal place*",
+      "image": {
+        "src": "/demo-assets/nouveau-hair/sleek-hair.webp",
+        "alt": "Long, glossy auburn hair seen from behind",
+        "width": 1600,
+        "height": 1200
+      },
+      "body": [
+        "Nouveau Hair & Wigs began with a simple wish: to help women facing the emotional challenges of hair loss. Inspired by our founder’s experience with loved ones going through chemotherapy, we created a private, welcoming space where women can rediscover themselves.",
+        "Our exclusive Nouveau line of premium human hair wigs, extensions and toppers is hand-selected for texture, longevity and realism. We don’t just sell hair: we help restore confidence, beauty and joy."
+      ],
+      "list": [
+        "Serving women across the CSRA",
+        "Aiken, Augusta, Evans, Martinez and Grovetown",
+        "eGift cards available"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "Kind words",
+      "title": "What *clients say*",
+      "items": [
+        {
+          "text": "A 30-minute consultation turned into 2 hours before I knew it as she sat and talked with me about what I wanted and showed me options.",
+          "by": "M. O."
+        },
+        {
+          "text": "She helped me to feel beautiful again after hair loss from cancer treatment.",
+          "by": "H. M."
+        },
+        {
+          "text": "Very knowledgeable and caring! She really takes the time to get to know her clients.",
+          "by": "L. B."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need an appointment?",
+          "a": "Walk-ins are welcome, but we recommend a private consultation: you’ll have the whole boutique to yourself and our full attention."
+        },
+        {
+          "q": "Is there a consultation fee?",
+          "a": "Yes, a small fee reserves your private session. In many cases it can go toward your wig, especially a high-end human hair wig."
+        },
+        {
+          "q": "What’s the difference between synthetic and human hair toppers?",
+          "a": "Synthetic toppers are pre-styled and hold their shape after washing. Human hair toppers can be heat styled, colored and blended more seamlessly. We’ll help you choose."
+        },
+        {
+          "q": "Do you take insurance?",
+          "a": "We don’t file claims, but some plans cover a cranial prosthesis, and we’ll provide the paperwork and walk you through it."
+        },
+        {
+          "q": "Can I consult by video?",
+          "a": "Yes. Consultations are available in person or virtually."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "You deserve to love what you see in the mirror",
+      "text": "Book a private consultation in North Augusta.",
+      "cta": {
+        "label": "Call (803) 426-8092",
+        "href": "tel:+18034268092"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Marion Avenue*",
+    "formTitle": "Request a private consultation",
+    "formTopics": [
+      "A private consultation",
+      "Medical wigs",
+      "Hair toppers",
+      "Extensions or halos",
+      "Wig care",
+      "eGift cards"
+    ]
+  },
+  "slug": "nouveau-hair",
+  "added": "2026-11-24",
+  "prospect": "nouveau-hair-and-wigs",
+  "source": {
+    "url": "https://www.nouveau.hair/",
+    "before": [
+      "On a phone there’s no call button or number on the first screen, and 17 of its 24 links and buttons are too small to tap easily",
+      "Google’s phone speed test scores the home page 33 out of 100, and the main picture takes 8.3 seconds to appear",
+      "The site gives the phone number as 803.426.8092, but the North Augusta Chamber lists (803) 426-8082",
+      "The Contact page gives no street address, only “North Augusta, SC 29841”"
+    ],
+    "after": [
+      "Consultations, medical wigs and services, explained on one page",
+      "Hours and the street address, with directions",
+      "A private consultation request form",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "pill"
+  }
+}
