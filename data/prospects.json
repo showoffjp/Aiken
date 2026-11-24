@@ -32,6 +32,7 @@
   "contactSource": "Directory listing",
   "greet": "Tanya",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -81,6 +82,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Demolition Construction, Hauling and Environmental company.",
   "sources": [
@@ -128,6 +130,7 @@
   "contactSource": "Directory listing",
   "greet": "Caroline",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Enjoy the four luxury suites at 419Hayne.",
   "sources": [
@@ -176,6 +179,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We are traditional Mexican American, our goal is to provide daily fresh, good tasting food. Our meats and produce are cut every morning to provide the fresh ingredients/food to our customers.",
   "sources": [
@@ -223,6 +227,7 @@
   "contactSource": "Directory listing",
   "greet": "Melissa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -278,6 +283,7 @@
   "contactSource": "Their website",
   "greet": "Josh",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us A Long Wood & BioFuel Logging Company. We buy timber & harvest the timber.",
   "sources": [
@@ -323,14 +329,15 @@
   "https": true,
   "mobileReady": false,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://www.facebook.com/bravefriendapparel",
   "instagram": "",
   "address": "122 Laurens St. NW Aiken SC",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Patrick Donovan",
+  "contactRole": "owner",
+  "contactSource": "City Lifestyle",
+  "greet": "Patrick",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Bravefriend Apparel and Design is a lifestyle brand inspired by the love of life with dogs. They are also your neighborhood one stop shop for custom branded apparel & merchandise. Top quality shirts, tanks, and hats. A popular trend is the Bravefriend Festival Blanket in Turquoise/Coral/Orange. Bravefriend Apparel and Design works with the FOTAS \"Friends of the [&hellip;]",
   "sources": [
@@ -385,6 +392,7 @@
   "contactSource": "Directory listing",
   "greet": "Tad",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -434,6 +442,7 @@
   "contactSource": "Directory listing",
   "greet": "Jeri",
   "familyNote": "",
+  "holdNote": "",
   "since": 1998,
   "blurb": "",
   "sources": [
@@ -481,6 +490,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "We are a compilation of 15+ artists ranging from paintings to handmade glassware, handmade soaps and bathbombs, all kinds of home decor, and jewelry and clothing, all made at our artist’s hands! We seek to inspire you as we create our works! We have temporarily downsized and have renamed the shop the “Little Red Fox [&hellip;]",
   "sources": [
@@ -535,6 +545,7 @@
   "contactSource": "Directory listing",
   "greet": "Amy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Ivy Cottage Inc. proudly serves the Aiken area. We are family owned and operated. We are committed to offering only the finest floral arrangements and gifts, backed by service that is friendly and prompt. Because all of our customers are important, our professional staff is dedicated to making your experience a pleasant one. That [&hellip;]",
   "sources": [
@@ -587,6 +598,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "Land visit, please call 803-226-0096 PlayLand of Aiken is a Family Owned Indoor Playground",
+  "holdNote": "",
   "since": null,
   "blurb": "PlayLand of Aiken is a place where kids and adults “Play, learn, grow together” and most importantly – HAVE FUN! PlayLand of Aiken is a Family Owned Indoor Playground. It offers about 3000 square feet of play area, filled with traditional playground equipment such as slides, climbing tunnels, trampoline, climbing wall, obstacle course and designated [&hellip;]",
   "sources": [
@@ -640,6 +652,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Authentic Mexican fare",
   "sources": [
@@ -692,6 +705,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Tasty Mexican meals and drinks to satisfy your needs!",
   "sources": [
@@ -745,6 +759,7 @@
   "contactSource": "Directory listing",
   "greet": "Pegi",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -797,6 +812,7 @@
   "contactSource": "Directory listing",
   "greet": "Elizabeth",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -839,11 +855,12 @@
   "facebook": "https://www.facebook.com/profile.php?id=61555722472922",
   "instagram": "",
   "address": "148 Laurens Street SW, Aiken, SC 29801",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Kelsey Lucius",
+  "contactRole": "owner and head baker",
+  "contactSource": "City Lifestyle",
+  "greet": "Kelsey",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Simply cooked fresh, delicious, food in a peaceful and inspiring environment.",
   "sources": [
@@ -892,6 +909,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Casual Dining restaurant and bar offering live piano and free wine tastings.",
   "sources": [
@@ -946,6 +964,7 @@
   "contactSource": "Directory listing",
   "greet": "Andy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -993,6 +1012,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The gently rolling sand hills and pine forests of Aiken, South Carolina have provided the perfect canvas for renowned golf course architect, Arthur Hills. The Golf Club at Cedar Creek has a “distinctively wooded feel” as it wanders through the topography of the region. The course length varies from a challenging 7,045 yards for the [&hellip;]",
   "sources": [
@@ -1045,6 +1065,7 @@
   "contactSource": "Directory listing",
   "greet": "Robyn",
   "familyNote": "",
+  "holdNote": "",
   "since": 1867,
   "blurb": "",
   "sources": [
@@ -1099,6 +1120,7 @@
   "contactSource": "Directory listing",
   "greet": "Ali",
   "familyNote": "eivable & Payable Financial Reporting Cash Flow Forecasting Locally owned and operated by Rhonda Fry since 2008, hmr is committed to",
+  "holdNote": "",
   "since": 2008,
   "blurb": "",
   "sources": [
@@ -1152,6 +1174,7 @@
   "contactSource": "Directory listing",
   "greet": "Mitch",
   "familyNote": "",
+  "holdNote": "",
   "since": 1989,
   "blurb": "",
   "sources": [
@@ -1199,6 +1222,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Broome Service Center in Beech Island SC is proud to offer complete auto, truck and trailer repair to the Aiken SC and Augusta GA areas. Broome was founded in 1952 by Spires B. Broome in a rented buil",
   "sources": [
@@ -1246,6 +1270,7 @@
   "contactSource": "Directory listing",
   "greet": "Kennedy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1293,6 +1318,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "This restaurant offers a wide array of fresh food – camarones al chipotle, carnitas dinner, chicken finger with fries, super costillas, burritos wet, victoria's enchiladas, combo fajitas, and lunch flautas.",
   "sources": [
@@ -1345,6 +1371,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "This is a 10 lane axe throwing facility located in The Alley in beautiful Downtown Aiken, SC.",
   "sources": [
@@ -1388,11 +1415,12 @@
   "facebook": "",
   "instagram": "",
   "address": "602 West Avenue, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Patrick Zier",
+  "contactRole": "attorney",
+  "contactSource": "Martindale",
   "greet": "",
   "familyNote": "",
+  "holdNote": "Kelly Zier, the longtime North Augusta city attorney, died in October 2026. Wait a while before reaching out, and be gentle when you do.",
   "since": null,
   "blurb": "About Us The Zier Law Firm handles Real Estate, Family Law, Civil Litigation, Business Law, Estate, Wills and Trusts matters mostly in Aiken and Edgefield Counties, but also throughout the entire state of SC.",
   "sources": [
@@ -1439,11 +1467,12 @@
   "facebook": "https://www.facebook.com/PrescottandSonsConstruction/",
   "instagram": "",
   "address": "121 E Marion Ave, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Josh Prescott",
+  "contactRole": "owner",
+  "contactSource": "Their website",
+  "greet": "Josh",
   "familyNote": "scott & Sons Construction Prescott & Sons Construction is a locally owned and operated construction company in North Augusta, SC",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1497,6 +1526,7 @@
   "contactSource": "Directory listing",
   "greet": "Barbara",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1550,6 +1580,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Massage Therapy by Nancy Upson, RN, LMT: The Massage Maven. Now taking appointments in Aiken, SC",
   "sources": [
@@ -1597,6 +1628,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1644,6 +1676,7 @@
   "contactSource": "Directory listing",
   "greet": "Dawn",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1696,6 +1729,7 @@
   "contactSource": "Directory listing",
   "greet": "Kristen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1743,6 +1777,7 @@
   "contactSource": "Directory listing",
   "greet": "Christy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1796,6 +1831,7 @@
   "contactSource": "Directory listing",
   "greet": "Diana",
   "familyNote": "Lambert, a third generation independent insurance agent",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1845,6 +1881,7 @@
   "contactSource": "Directory listing",
   "greet": "Kim",
   "familyNote": "Affordable Quality Marble & Granite is a locally-owned & operated, full-service company equipped with the most exp",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1892,6 +1929,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1942,6 +1980,7 @@
   "contactSource": "Directory listing",
   "greet": "Donna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -1993,6 +2032,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -2040,6 +2080,7 @@
   "contactSource": "Directory listing",
   "greet": "Valerie",
   "familyNote": "",
+  "holdNote": "",
   "since": 2009,
   "blurb": "",
   "sources": [
@@ -2091,6 +2132,7 @@
   "contactSource": "Directory listing",
   "greet": "Erin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Radioactive Pinball Arcade is a retro gaming experience for people of all ages (Supervision of minors is required). The entry fee-based business model means no endless shoving money into machines or reloading game cards.",
   "sources": [
@@ -2145,6 +2187,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Dine in The Willcox Hotel’s award-winning Restaurant, where your meal is memorable, and the experience is unpretentious and remarkably delicious. Open daily from breakfast, lunch, dinner, Saturday and Sunday brunch",
   "sources": [
@@ -2198,6 +2241,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "A fan favorite for authentic Mexican cuisine in Aiken, SC.",
   "sources": [
@@ -2245,6 +2289,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Acai Bowls located in Aiken, SC! 🍌🍓🍍 Food truck hours/location change each week! Follow us so you can see our weekly schedule!Our schedule has our store hours and address!✨Message us for booking ✨",
   "sources": [
@@ -2292,6 +2337,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Humidor/Lounge Hours 11:00 am-9:00 pm Kitchen Hours 1:00 pm-8:00 pm Entertainment: DJ from 5:30 pm-8:30 pm",
   "sources": [
@@ -2339,6 +2385,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Scotch + Hutch is Aiken’s destination for eclectic vintage furniture, decor, and style. Curated by Harpman Interiors.Make Yourself at Home.",
   "sources": [
@@ -2386,6 +2433,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Wildemount offers a wide variety of foods from many cuisines, some traditional, some with our own take and style. Our standard is excellence in the food we serve, the service we provide, and the atmosphere you'll find yourself in. Dining at The Wildemount is fine dining, but casual. Come as you are and enjoy an amazing dinner!",
   "sources": [
@@ -2435,6 +2483,7 @@
   "contactSource": "Directory listing",
   "greet": "Aaron",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -2487,6 +2536,7 @@
   "contactSource": "Directory listing",
   "greet": "Dan",
   "familyNote": "",
+  "holdNote": "",
   "since": 1991,
   "blurb": "",
   "sources": [
@@ -2533,11 +2583,12 @@
   "facebook": "https://www.facebook.com/tailoredtoursofaiken",
   "instagram": "",
   "address": "Aiken SC",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Marty",
+  "contactRole": "tour guide named in reviews",
+  "contactSource": "Their website",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 2013,
   "blurb": "Tailored Tours of Aiken offers several private tour experiences, each one guaranteed to amaze you as you explore old Aiken and view the natural beauty of the land and learn of its fascinating history and rich, diverse cultural heritage.",
   "sources": [
@@ -2585,11 +2636,12 @@
   "facebook": "",
   "instagram": "",
   "address": "512 Georgia Avenue, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Thomas P. Murphy",
+  "contactRole": "attorney",
+  "contactSource": "Their website",
+  "greet": "Mr. Murphy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We offer a wide variety of legal services including family law, probate law and real estate law. We provide free Healthcare Power of Attorney. Contact us today with any questions you may have.",
   "sources": [
@@ -2643,6 +2695,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Toki Jr Japanese Restaurant is proud to serve good quality and affordable Japanese/asian cuisine. Our menu offers a variety of Japanese foods including hibachi, udon, and poke bowls.",
   "sources": [
@@ -2687,11 +2740,12 @@
   "facebook": "https://www.facebook.com/WordPresscom",
   "instagram": "",
   "address": "336 Georgia Avenue, Suite 103, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Frank Gentile",
+  "contactRole": "possibly the owner (unconfirmed)",
+  "contactSource": "Augusta Chronicle",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -2745,6 +2799,7 @@
   "contactSource": "Their website",
   "greet": "Bo",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "HIC Warehouse is a indoor and outdoor skatepark. A waiver must be signed by a parent for those under 18. Hic Warehouse sells drinks and snacks as well. Hic Warehouse often hosts bands on weekend nights and will keep the park open till 12 AM on some occasions. Lessons: Thursdays 4:30 pm-5:30 pm or 5:30 pm-6:30 pm *Please call to schedule [&hellip;]",
   "sources": [
@@ -2792,6 +2847,7 @@
   "contactSource": "Their website",
   "greet": "Joe",
   "familyNote": "y Frischknecht founded Empire Tree and Turf in 1985 and the family-owned tree removal company has been providing outstanding tree se",
+  "holdNote": "",
   "since": 1985,
   "blurb": "About Us We are an arboricultural tree care company performing all aspects of the tree care, serving the CSRA.",
   "sources": [
@@ -2839,6 +2895,7 @@
   "contactSource": "Directory listing",
   "greet": "Debbie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Enjoy a variety of antiques in this multiple owner antique mall. Items change daily so visit often!",
   "sources": [
@@ -2888,6 +2945,7 @@
   "contactSource": "Directory listing",
   "greet": "June",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Discover a treasure trove of antique, vintage, retro, and classic furniture at Antiques & More Mall. Our diverse selection of unique home décor pieces will inspire your creativity and transform your living spaces—all at competitive prices. Don't miss our Garden Patio Collection, beautifully showcased behind the Outdoor Garden Fence, where you'll find an array of [&hellip;]",
   "sources": [
@@ -2936,6 +2994,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Apizza di Napoli is a family owned and operated Authentic Wood-Fired Neapolitan Pizzeria. The creation of Apizza di Napoli came from Cliff Garzzillo’s profound love of Italy and passion for Pizza. “To be able to share my passion for pizza was always a dream waiting to be born”",
   "sources": [
@@ -2983,6 +3042,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "At Big House Outpost, you'll set into a refined world of Southern elegance and adventure. Our exclusive collection blends the outdoor arts with premium apparel, ensuring unparalleled comfort and style. You can find the perfect gear for cherished family moments in our space. We feature high-end brands, and our premier collection is tailored to those [&hellip;]",
   "sources": [
@@ -3030,6 +3090,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Each room is filled with timeless furniture, elegant glassware, rustic decor and one-of-a-kind collectibles. Feel the charm of the past echoing through every corner.",
   "sources": [
@@ -3078,6 +3139,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "One of the top 100 Barbeque Houses in South Carolina",
   "sources": [
@@ -3125,6 +3187,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Down home southern cooking!",
   "sources": [
@@ -3172,6 +3235,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "A local favorite just leveled up! Dos Potrillos Mexican Restaurant has officially opened its doors in downtown Aiken, bringing the bold, authentic flavors you loved from their popular food truck to a brand-new brick-and-mortar spot. From tacos and burritos to birria, street corn, and refreshing aguas frescas (flavored Mexican waters), every dish is crafted to [&hellip;]",
   "sources": [
@@ -3219,6 +3283,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Family and casual Mexican eatery, you will find lots of choices on tacos and tortas, home made entrées, kids meals, desserts and a variety of Aguas frescas plus Coca-cola products, bottled jarritos and sweets as churros, cakes, sopapillas, flan and more!",
   "sources": [
@@ -3266,6 +3331,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Tues-Sat 11:00 am to 3:30 pm Presented by Burrell and Flynn’s Farm, Farm Dogs reimagines an American classic with a gourmet twist—featuring premium all-beef franks, artisan buns, and bold, chef-inspired toppings you won’t find anywhere else. With creative flavor combinations and locally sourced ingredients, every bite is thoughtfully crafted to impress.",
   "sources": [
@@ -3313,6 +3379,7 @@
   "contactSource": "Directory listing",
   "greet": "Renee",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Flanigan's proudly serves the CSRA premium quality, hand-dipped ice cream in a friendly environment. Flanigan's offers a selection of sundae's, shakes, malts, cones and cups to satisfy any sweet tooth.",
   "sources": [
@@ -3362,6 +3429,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Creative handmade pieces include custom made farm tables, wood furniture, fireplace mantles, doors, gates, and fire pits. The market is also home to local art, home decor and gift items. Tuesday- Saturday 10 am-5 pm",
   "sources": [
@@ -3409,6 +3477,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "We serve wonderful lunches of soups salads and sandwiches. Casseroles to go.",
   "sources": [
@@ -3456,6 +3525,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Authentic french bakery and restaurant.",
   "sources": [
@@ -3503,6 +3573,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Fresh and authentic Mexican cuisine served in generous portions with delicious flavors at affordable prices. The Carolina Margarita is a must-try!",
   "sources": [
@@ -3550,6 +3621,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Macaluso’s Restaurant. The only restaurant that prepares homemade Italian food from Staten Island, New York.",
   "sources": [
@@ -3598,6 +3670,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Casual Japanese-style restaurant offering dine-in and take out services.",
   "sources": [
@@ -3645,6 +3718,7 @@
   "contactSource": "Directory listing",
   "greet": "Alex",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Pat's Sub Shop",
   "sources": [
@@ -3693,6 +3767,7 @@
   "contactSource": "Directory listing",
   "greet": "Leslie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Pitter Patter Children's Boutique has been Aiken's Choice for fine children's fashions since 1991! We have clothing, toys, gifts! We monogram! Come by and see us today!",
   "sources": [
@@ -3741,6 +3816,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Pizza and Italian Restaurant",
   "sources": [
@@ -3788,6 +3864,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken's newest smoothie and juice bar is now open to fans of the popular drink. Located on the southside, Smoothie Groove, offers healthy options with a unique spin on all natural smoothies and juices.",
   "sources": [
@@ -3835,6 +3912,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Cajun Seafood and Wings. Lobsters, snow crabs, mussels and crawfish.",
   "sources": [
@@ -3882,6 +3960,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken's Indian cuisine.",
   "sources": [
@@ -3924,11 +4003,12 @@
   "facebook": "https://www.facebook.com/profile.php?id=100068303355125",
   "instagram": "",
   "address": "420 Mead Ave Aiken SC",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Carol Carter",
+  "contactRole": "owner and cook (per older press; confirm)",
+  "contactSource": "Aiken Standard and Saveur",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Track Kitchen",
   "sources": [
@@ -3976,6 +4056,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Trail Riding in Aiken: Horseback Riding Tours, Camping Adventures, Lake Rides, and Parties Aiken, South Carolina, is a haven for equestrian enthusiasts and nature lovers alike. With its rich history, scenic landscapes, and vibrant equestrian community, Aiken offers a variety of trail riding experiences that cater to all interests and skill levels.",
   "sources": [
@@ -4023,6 +4104,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Unique Catering does soul food right. Wednesday is the best day to go, for smothered pork chops.",
   "sources": [
@@ -4070,6 +4152,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "A unique shop that offers ladies boutique apparel and accessories.",
   "sources": [
@@ -4117,6 +4200,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "A unique shop full of French and English furniture and smalls, sterling silver, fine old plate, and vintage sporting collectibles, York Cottage caters to eclectic customers looking for a special treasure. View my photos for a taste of our inventory!",
   "sources": [
@@ -4169,6 +4253,7 @@
   "contactSource": "Directory listing",
   "greet": "Angela",
   "familyNote": "",
+  "holdNote": "",
   "since": 1952,
   "blurb": "",
   "sources": [
@@ -4221,6 +4306,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 1965,
   "blurb": "",
   "sources": [
@@ -4274,6 +4360,7 @@
   "contactSource": "Directory listing",
   "greet": "Peggy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Located in a picturesque residential golf community, the Inn at Houndslake is an elegant thirty-four room lodge complete with all of the amenities of a five-star facility.",
   "sources": [
@@ -4329,6 +4416,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4379,6 +4467,7 @@
   "contactSource": "Directory listing",
   "greet": "Claire",
   "familyNote": "",
+  "holdNote": "",
   "since": 1952,
   "blurb": "",
   "sources": [
@@ -4426,6 +4515,7 @@
   "contactSource": "Directory listing",
   "greet": "Arthur",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4473,6 +4563,7 @@
   "contactSource": "Directory listing",
   "greet": "Gary",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4520,6 +4611,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4567,6 +4659,7 @@
   "contactSource": "Directory listing",
   "greet": "Jennifer",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4614,6 +4707,7 @@
   "contactSource": "Directory listing",
   "greet": "Pat",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4661,6 +4755,7 @@
   "contactSource": "Directory listing",
   "greet": "Miguel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Mexican Bar and Grill.",
   "sources": [
@@ -4709,6 +4804,7 @@
   "contactSource": "Directory listing",
   "greet": "Kayla",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4756,6 +4852,7 @@
   "contactSource": "Directory listing",
   "greet": "Chris",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4803,6 +4900,7 @@
   "contactSource": "Directory listing",
   "greet": "Kim",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4858,6 +4956,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4907,6 +5006,7 @@
   "contactSource": "Directory listing",
   "greet": "Annette",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -4960,6 +5060,7 @@
   "contactSource": "Directory listing",
   "greet": "Patti",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Vintage China Rental - Over 100 vintage china designs available to mix-and-match. Event Planning - We specialize in creating elegant, intimate events for adults in groups up to fifty people.",
   "sources": [
@@ -5003,11 +5104,12 @@
   "facebook": "https://www.facebook.com/jansoncompany",
   "instagram": "https://www.instagram.com/jansonconstructionllc/",
   "address": "10976 Atomic Rd., North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Jay Armstrong",
+  "contactRole": "general contractor and CEO",
+  "contactSource": "Their website",
+  "greet": "Jay",
   "familyNote": "Learn More Locally Owned & Operated CSRA Born and built right here",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Janson Roofing & Construction provides trusted roofing and construction services in the CSRA, backed by over 30 years of experience and insurance-claim expertise.",
   "sources": [
@@ -5055,6 +5157,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5105,6 +5208,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5152,6 +5256,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The newest place in town and your go to spot for healthy meal replacement shakes, energy drinks and protein coffee!",
   "sources": [
@@ -5200,6 +5305,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Experience authentic Old World Italian cuisine at La Scuderia, located at 455 York Street in Aiken. Featuring wood-fired pizzas, handcrafted pastas, fresh antipasti, panini, salads, and classic Italian specialties, La Scuderia brings the flavors and traditions of Italy to a warm and inviting dining atmosphere. Hours:Monday–Thursday: 11 a.m.–2 p.m. & 5 p.m.–8 p.m.Friday–Sunday: 11 a.m.–2 [&hellip;]",
   "sources": [
@@ -5247,6 +5353,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Rooted in downtown Aiken. Antiques, gifts, flips & finds. Always something new to love.",
   "sources": [
@@ -5295,6 +5402,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The local hangout for good food, good drinks and a great time.",
   "sources": [
@@ -5342,6 +5450,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "We're a family owned and operated track and have more than 70 years of standardbred racing and training experience between us. We've dedicated our lives to making McGhees' Mile the most professional track in the business. Our 77-acre facility has everything you need to optimize your Standardbred training experience. McGhees' Mile is home to three racetracks: - [&hellip;]",
   "sources": [
@@ -5389,6 +5498,7 @@
   "contactSource": "Directory listing",
   "greet": "Roschele",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Ice Cream Shop. Sundaes, shakes, and sweet memories! Hours: Monday – Closed Tuesday–Thursday & Sunday: 2PM–8PM Friday & Saturday: 12PM–8PM",
   "sources": [
@@ -5438,6 +5548,7 @@
   "contactSource": "Directory listing",
   "greet": "June",
   "familyNote": "",
+  "holdNote": "",
   "since": 2009,
   "blurb": "",
   "sources": [
@@ -5489,6 +5600,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5539,6 +5651,7 @@
   "contactSource": "Directory listing",
   "greet": "Christopher",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Race Track - Facility Originally Built in 1957 by LB (Junior) Steed - 1/8th mile Concrete/Asphalt Racing Surface - IHRA (International Hot Rod Association) Sanctioned - Track Nickname: \"The House of Hook\" (Sticky Glue / Great Traction)",
   "sources": [
@@ -5591,6 +5704,7 @@
   "contactSource": "Directory listing",
   "greet": "Charles",
   "familyNote": "1882, polo has been a beloved tradition in Aiken, bringing generations of players, families, and spectators together for the excit",
+  "holdNote": "",
   "since": 1882,
   "blurb": "Aiken Polo Club: Where history and tradition come alive every Sunday afternoon. Go play polo or watch them play! Aiken Polo Club offers the city’s best Sunday afternoon entertainment at Historic Whitney Field. For players, there is no better place to be. Spring or fall, they have regular practices and tournaments from the 4 to [&hellip;]",
   "sources": [
@@ -5631,7 +5745,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/hflarder",
   "instagram": "https://www.instagram.com/hf_larder/",
   "address": "89 Crystal Lake Dr, North Augusta SC 29841",
   "contact": "Manuel Verney-Carron",
@@ -5639,6 +5753,7 @@
   "contactSource": "Their website",
   "greet": "Manuel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Our restaurant features tapas, coffees, sandwiches, salads and other great eats. We offer a full bar, delightful groceries and gifts located in beautiful Hammond's Ferry in North Augusta, SC.",
   "sources": [
@@ -5688,6 +5803,7 @@
   "contactSource": "Directory listing",
   "greet": "Emily",
   "familyNote": "at installation UV light systems See All Indoor Air Quality Family-Owned",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5735,6 +5851,7 @@
   "contactSource": "Directory listing",
   "greet": "Alyssa",
   "familyNote": "Family owned and operated Owner has 35 years management experience in the Collision I",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5782,6 +5899,7 @@
   "contactSource": "Directory listing",
   "greet": "Jan",
   "familyNote": "is a locally owned family run business",
+  "holdNote": "",
   "since": 1978,
   "blurb": "",
   "sources": [
@@ -5831,6 +5949,7 @@
   "contactSource": "Directory listing",
   "greet": "Tabitha",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -5883,6 +6002,7 @@
   "contactSource": "Directory listing",
   "greet": "Tyler",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "A restaurant created with Aiken customers in mind, The Village Café strives to provide guests with delicious and high-quality food, beverages and gelato. Your support for this restaurant supports a host of local farmers- their ingredients are locally-sourced specifically to benefit the Aiken community.",
   "sources": [
@@ -5926,11 +6046,12 @@
   "facebook": "https://www.facebook.com/langleytavern",
   "instagram": "https://www.instagram.com/langley_tavern/",
   "address": "2549 Jefferson Davis hwy, Warrenville, SC, United States, South Carolina",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Michael Iezzi",
+  "contactRole": "partner",
+  "contactSource": "WRDW news (2025)",
+  "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Bar · Restaurant · Sports & recreation",
   "sources": [
@@ -5978,6 +6099,7 @@
   "contactSource": "Directory listing",
   "greet": "Randy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Prime Steakhouse is Aiken's premier restaurant located in historic Downtown Aiken. The atmosphere of the restaurant includes modern artwork on brick walls, beautiful table settings, and an exciting bar serving only premium drinks.",
   "sources": [
@@ -6033,6 +6155,7 @@
   "contactSource": "Their website",
   "greet": "Tim",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6083,6 +6206,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We are Argus Visuals – a collaborative of Business & Marketing Professionals Assisting Small Business in the CSRA Marketplace, as well as being, Photographers and Videographers for Everyone Else!",
   "sources": [
@@ -6134,6 +6258,7 @@
   "contactSource": "Directory listing",
   "greet": "Coleen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6184,6 +6309,7 @@
   "contactSource": "Directory listing",
   "greet": "Cathy",
   "familyNote": "ENTER ONLINE WITH RING RADAR progressiveshowjumping PSJ is family owned & operated hosting grass roots through premier level horse",
+  "holdNote": "",
   "since": null,
   "blurb": "The facility is available to lease for equestrian and non-equestrian events, clinics, stick and ball, schooling and more. Layovers are welcome! Come stay with us a night or a month. Amenities include: 3 All-Weather Rings Grass Jumper Field Derby Field Announcer's Tower & Pavilion 4 Permanent Stabling Barns Polo Field Show Office & PSJ Corporate [&hellip;]",
   "sources": [
@@ -6236,6 +6362,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6286,6 +6413,7 @@
   "contactSource": "Directory listing",
   "greet": "Kaelen",
   "familyNote": "",
+  "holdNote": "",
   "since": 2009,
   "blurb": "About Us Transforming outdoor spaces with expert design, and premium solutions across the CSRA.",
   "sources": [
@@ -6334,6 +6462,7 @@
   "contactSource": "Directory listing",
   "greet": "Bridget",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6385,6 +6514,7 @@
   "contactSource": "Directory listing",
   "greet": "Amanda",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6432,6 +6562,7 @@
   "contactSource": "Directory listing",
   "greet": "Chris",
   "familyNote": "I really try to primarily use family owned and/or locally owned small business and Chris & Hunter have not disappointed me",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6477,11 +6608,12 @@
   "facebook": "https://www.facebook.com/csraservice/",
   "instagram": "",
   "address": "1576 Sand Bar Ferry Road, Beech Island SC 29842",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Johnny Albion",
+  "contactRole": "company contact",
+  "contactSource": "Company press page",
+  "greet": "Johnny",
   "familyNote": "",
+  "holdNote": "",
   "since": 1959,
   "blurb": "",
   "sources": [
@@ -6531,6 +6663,7 @@
   "contactSource": "Directory listing",
   "greet": "Mark",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "As guests drive their own vehicles through the drive-thru safari, they enjoy close encounters with zebras, camels, antelope, water buffalo, emu, llamas and Willie, the extraordinarily large African Watusi.",
   "sources": [
@@ -6550,6 +6683,54 @@
   "domainState": "Renews or expires 2027-01-06",
   "pitch": 35,
   "rank": 133
+ },
+ {
+  "slug": "zook-homes",
+  "name": "Zook Homes",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Builders + Construction (Residential)",
+  "phone": "(803) 443-9157",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "noah@zookhomes.com",
+  "otherEmails": [],
+  "website": "http://www.zookhomes.com/",
+  "siteState": "Online",
+  "score": 0,
+  "platform": "Squarespace",
+  "issues": [],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2024,
+  "facebook": "https://www.facebook.com/zookcustomhomes",
+  "instagram": "https://www.instagram.com/zookcustomhomes/",
+  "address": "PO Box 5549, Aiken, SC 29804",
+  "contact": "Noah Zook",
+  "contactRole": "founder",
+  "contactSource": "Their website",
+  "greet": "Noah",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "zook-homes",
+  "pageMB": 3.6,
+  "a11yIssues": 18,
+  "a11ySerious": 18,
+  "lhPerformance": 41,
+  "lhAccessibility": 92,
+  "seoHealth": 65,
+  "socialPresence": 80,
+  "domain": "zookhomes.com",
+  "domainExpires": "2027-02-16",
+  "domainState": "",
+  "pitch": 35,
+  "rank": 134
  },
  {
   "slug": "208-abbeville-bed-and-breakfast",
@@ -6579,6 +6760,7 @@
   "contactSource": "Their public listing",
   "greet": "Bruce",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "This cozy and tranquil home is conveniently located within walking distance of Downtown Aiken's restaurants and shops.",
   "sources": [
@@ -6596,7 +6778,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 134
+  "rank": 135
  },
  {
   "slug": "aiken-ghost-tours",
@@ -6626,6 +6808,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken Ghost Tours invites you to take a journey through Aiken’s past. Lead tour guide Kent Cubbage regales his guests with stories of Aiken’s rich history. Hear about its legends, myths, lore, and much more. The tour is a walking tour and lasts approximately 75 minutes, with several stops throughout the downtown area, including the [&hellip;]",
   "sources": [
@@ -6643,7 +6826,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 135
+  "rank": 136
  },
  {
   "slug": "cabanas-salvadorean-restaurant",
@@ -6673,6 +6856,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Cabanas Salvadorean is an authentic El Salvadorian restaurant.",
   "sources": [
@@ -6690,7 +6874,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 136
+  "rank": 137
  },
  {
   "slug": "joyful-caf",
@@ -6720,6 +6904,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Joyful Cafe in Williston serves up homemade favorites in a warm and welcoming atmosphere. Stop in for breakfast or lunch and enjoy freshly prepared sandwiches, salads, comforting entrées, homemade desserts, and more. On Thursday and Friday evenings, the café also offers dinner featuring hearty Southern favorites and rotating specials. As a small-batch restaurant, Joyful Cafe [&hellip;]",
   "sources": [
@@ -6737,7 +6922,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 137
+  "rank": 138
  },
  {
   "slug": "timeless-touch-events-llc",
@@ -6767,6 +6952,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Event Rentals Chair Covers, Sashes, Tablecloths and Table Runners",
   "sources": [
@@ -6784,7 +6970,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 138
+  "rank": 139
  },
  {
   "slug": "hair-of-the-dog-llc",
@@ -6817,6 +7003,7 @@
   "contactSource": "Directory listing",
   "greet": "Isabel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6834,7 +7021,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 34,
-  "rank": 139
+  "rank": 140
  },
  {
   "slug": "kelley-appliance-home-store",
@@ -6866,6 +7053,7 @@
   "contactSource": "Directory listing",
   "greet": "Race",
   "familyNote": "proudly served the CSRA for decades as a third-generation, family-owned business",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6883,7 +7071,7 @@
   "domainExpires": "2032-12-17",
   "domainState": "",
   "pitch": 34,
-  "rank": 140
+  "rank": 141
  },
  {
   "slug": "osbons-laundry-and-cleaners-downtown",
@@ -6913,6 +7101,7 @@
   "contactSource": "Directory listing",
   "greet": "Tony",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6930,7 +7119,7 @@
   "domainExpires": "2028-06-30",
   "domainState": "",
   "pitch": 34,
-  "rank": 141
+  "rank": 142
  },
  {
   "slug": "aikenite-electrical-services-llc",
@@ -6952,7 +7141,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/profile.php?id=61575319552425",
   "instagram": "",
   "address": "Williston, SC 29853",
   "contact": "Hailee Raker",
@@ -6960,6 +7149,7 @@
   "contactSource": "Directory listing",
   "greet": "Hailee",
   "familyNote": "Expert Licensed Electricians Locally Owned Full Coverage Insurance 24/7 Emergency Service Continuously",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -6977,7 +7167,7 @@
   "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 33,
-  "rank": 142
+  "rank": 143
  },
  {
   "slug": "automotive-workbench",
@@ -7009,6 +7199,7 @@
   "contactSource": "Directory listing",
   "greet": "Brian",
   "familyNote": "",
+  "holdNote": "",
   "since": 1973,
   "blurb": "",
   "sources": [
@@ -7026,7 +7217,7 @@
   "domainExpires": "2027-12-05",
   "domainState": "",
   "pitch": 33,
-  "rank": 143
+  "rank": 144
  },
  {
   "slug": "dynamic-audio-and-video",
@@ -7056,6 +7247,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7073,7 +7265,7 @@
   "domainExpires": "2027-11-07",
   "domainState": "",
   "pitch": 33,
-  "rank": 144
+  "rank": 145
  },
  {
   "slug": "encore",
@@ -7107,6 +7299,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Encore provides audiovisual services and event production for meetings, conferences, trade shows and special events. Services include sound, microphones, video, projection, lighting, staging and LED displays, with technical support for in-person, hybrid and virtual events. Encore can help plan the setup, coordinate remote presenters and manage production on site. The company has an on-sit",
   "sources": [
@@ -7124,7 +7317,7 @@
   "domainExpires": "2027-11-29",
   "domainState": "",
   "pitch": 33,
-  "rank": 145
+  "rank": 146
  },
  {
   "slug": "gutter-specialty-services",
@@ -7154,6 +7347,7 @@
   "contactSource": "Directory listing",
   "greet": "Jessica",
   "familyNote": "r Guards Contact Blog GUTTER INSTALLATION & REPAIR SERVICES Locally Owned And Operated Gutter Installation Business Helping To Protec",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We service the entire CSRA and beyond by doing ALL things gutter related. We specialize in installing 6' and 7' Seamless Commercial and Residential Gutters.",
   "sources": [
@@ -7172,7 +7366,7 @@
   "domainExpires": "2027-05-09",
   "domainState": "",
   "pitch": 33,
-  "rank": 146
+  "rank": 147
  },
  {
   "slug": "sunbreak-window-tinting",
@@ -7202,6 +7396,7 @@
   "contactSource": "Directory listing",
   "greet": "Gene",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Sunbreak provides automotive, residential, and commercial tint solutions that enhance comfort, privacy, protection, and style through expert service and customer education.",
   "sources": [
@@ -7220,7 +7415,7 @@
   "domainExpires": "2027-04-03",
   "domainState": "",
   "pitch": 33,
-  "rank": 147
+  "rank": 148
  },
  {
   "slug": "big-putts-mobile-miniature-golf",
@@ -7250,6 +7445,7 @@
   "contactSource": "Directory listing",
   "greet": "Ryan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7267,7 +7463,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 148
+  "rank": 149
  },
  {
   "slug": "black-forest-equestrian-center-inc",
@@ -7297,6 +7493,7 @@
   "contactSource": "Directory listing",
   "greet": "Katherine",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7314,7 +7511,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 149
+  "rank": 150
  },
  {
   "slug": "bull-head-disposal-llc",
@@ -7344,6 +7541,7 @@
   "contactSource": "Directory listing",
   "greet": "Patrick",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7361,7 +7559,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 150
+  "rank": 151
  },
  {
   "slug": "carpenters-tire-and-auto",
@@ -7391,6 +7589,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7408,7 +7607,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 151
+  "rank": 152
  },
  {
   "slug": "hixons-roofing-and-construction-llc",
@@ -7438,6 +7637,7 @@
   "contactSource": "Directory listing",
   "greet": "Allen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7455,7 +7655,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 152
+  "rank": 153
  },
  {
   "slug": "horizon-physical-therapy-and-wellness",
@@ -7485,6 +7685,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us A private physical therapy practice that positively impacts the lives of our patients by delivering the best care.",
   "sources": [
@@ -7502,7 +7703,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 153
+  "rank": 154
  },
  {
   "slug": "jamrock-caribana",
@@ -7532,6 +7733,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7549,7 +7751,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 154
+  "rank": 155
  },
  {
   "slug": "mcneelys-place",
@@ -7579,6 +7781,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7596,7 +7799,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 155
+  "rank": 156
  },
  {
   "slug": "rock-creek-irrigation-and-landscapes",
@@ -7626,6 +7829,7 @@
   "contactSource": "Directory listing",
   "greet": "Jordan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7643,7 +7847,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 156
+  "rank": 157
  },
  {
   "slug": "ruthie-graham",
@@ -7673,6 +7877,7 @@
   "contactSource": "Directory listing",
   "greet": "Ruthie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7690,7 +7895,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 157
+  "rank": 158
  },
  {
   "slug": "the-parlour-coffee-and-company",
@@ -7720,6 +7925,7 @@
   "contactSource": "Directory listing",
   "greet": "Heather",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Coffee shop · Cafe · Restaurant",
   "sources": [
@@ -7738,7 +7944,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 158
+  "rank": 159
  },
  {
   "slug": "the-pub-at-cedar-creek",
@@ -7768,6 +7974,7 @@
   "contactSource": "Directory listing",
   "greet": "Chase",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Neighborhood Pub.",
   "sources": [
@@ -7786,7 +7993,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 159
+  "rank": 160
  },
  {
   "slug": "vvs-hospitality-aiken-midtown-hotel",
@@ -7816,6 +8023,7 @@
   "contactSource": "Directory listing",
   "greet": "Shiv",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7833,7 +8041,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 32,
-  "rank": 160
+  "rank": 161
  },
  {
   "slug": "allstar-tents-and-events",
@@ -7868,6 +8076,7 @@
   "contactSource": "Directory listing",
   "greet": "Bobby",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7885,7 +8094,7 @@
   "domainExpires": "2027-07-14",
   "domainState": "",
   "pitch": 32,
-  "rank": 161
+  "rank": 162
  },
  {
   "slug": "arnold-advisors-llc",
@@ -7919,6 +8128,7 @@
   "contactSource": "Directory listing",
   "greet": "Trent",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -7936,7 +8146,57 @@
   "domainExpires": "2026-12-15",
   "domainState": "Renews or expires 2026-12-15",
   "pitch": 32,
-  "rank": 162
+  "rank": 163
+ },
+ {
+  "slug": "austin-and-pethick-law-firm",
+  "name": "Austin & Pethick Law Firm",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Attorney",
+  "phone": "(803) 226-0453",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "contact@austinpethick.com",
+  "otherEmails": [],
+  "website": "http://www.austinpethick.com/",
+  "siteState": "Online",
+  "score": 2,
+  "platform": "WordPress",
+  "issues": [
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2025,
+  "facebook": "https://www.facebook.com/AustinPethickLaw",
+  "instagram": "",
+  "address": "115 Hearthstone Drive, Aiken, SC 29803",
+  "contact": "Christopher Austin",
+  "contactRole": "",
+  "contactSource": "Directory listing",
+  "greet": "Christopher",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "austin-and-pethick",
+  "pageMB": 1.3,
+  "a11yIssues": 26,
+  "a11ySerious": 26,
+  "lhPerformance": 73,
+  "lhAccessibility": 89,
+  "seoHealth": 63,
+  "socialPresence": 60,
+  "domain": "austinpethick.com",
+  "domainExpires": "2027-03-12",
+  "domainState": "",
+  "pitch": 32,
+  "rank": 164
  },
  {
   "slug": "bobbys-bar-b-q-buffet",
@@ -7961,11 +8221,12 @@
   "facebook": "https://www.facebook.com/164934756874217",
   "instagram": "https://www.instagram.com/bobbysbbqsc",
   "address": "1897 Jefferson Davis Highway Aiken SC",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Bobby Griffin Jr. and Candy Griffin",
+  "contactRole": "owners",
+  "contactSource": "Destination BBQ",
+  "greet": "Bobby",
   "familyNote": "This family-owned barbecue restaurant in Warrenville has built its name on hi",
+  "holdNote": "",
   "since": null,
   "blurb": "From the rich heritage of the South, you will find the best Bar-B-Q known to man!!",
   "sources": [
@@ -7983,7 +8244,7 @@
   "domainExpires": "2027-10-08",
   "domainState": "",
   "pitch": 32,
-  "rank": 163
+  "rank": 165
  },
  {
   "slug": "cavaliers-coffeehouse",
@@ -8008,11 +8269,12 @@
   "facebook": "https://www.facebook.com/cavscoffeenorthaugusta/",
   "instagram": "https://www.instagram.com/cavscoffee/",
   "address": "336 Georgia Avenue, Suite 107, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Pond (first name not published); founder David Brannon",
+  "contactRole": "new owner",
+  "contactSource": "Augusta Business Daily",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8030,7 +8292,7 @@
   "domainExpires": "2031-02-02",
   "domainState": "",
   "pitch": 32,
-  "rank": 164
+  "rank": 166
  },
  {
   "slug": "coward-and-mcneill-real-estate",
@@ -8066,6 +8328,7 @@
   "contactSource": "Their website",
   "greet": "Bud",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8083,7 +8346,7 @@
   "domainExpires": "2026-12-18",
   "domainState": "Renews or expires 2026-12-18",
   "pitch": 32,
-  "rank": 165
+  "rank": 167
  },
  {
   "slug": "lookaway-inn",
@@ -8113,6 +8376,7 @@
   "contactSource": "Their website",
   "greet": "John and Mary",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us One of North Augusta's most historic homes. Lookaway Inn offers 10 rooms for overnight stays and facilities for groups up to 80 people. Events, showers, parties are all welcome. Catering available.",
   "sources": [
@@ -8130,7 +8394,7 @@
   "domainExpires": "2026-12-29",
   "domainState": "Renews or expires 2026-12-29",
   "pitch": 32,
-  "rank": 166
+  "rank": 168
  },
  {
   "slug": "quality-printing-and-graphics-inc",
@@ -8162,6 +8426,7 @@
   "contactSource": "Directory listing",
   "greet": "Eric",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8180,7 +8445,7 @@
   "domainExpires": "2028-02-27",
   "domainState": "",
   "pitch": 32,
-  "rank": 167
+  "rank": 169
  },
  {
   "slug": "the-backyard",
@@ -8212,6 +8477,7 @@
   "contactSource": "Directory listing",
   "greet": "Katie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Urban meets Rural in this Restaurant in the Eastside Village, featuring: Outdoor dining under majestic oaks, a wood-fire grill, interior lounge, and an Airstream Outdoor Lounge.",
   "sources": [
@@ -8230,7 +8496,7 @@
   "domainExpires": "2026-12-23",
   "domainState": "Renews or expires 2026-12-23",
   "pitch": 32,
-  "rank": 168
+  "rank": 170
  },
  {
   "slug": "trophies-unlimited",
@@ -8260,6 +8526,7 @@
   "contactSource": "Directory listing",
   "greet": "Mike",
   "familyNote": "",
+  "holdNote": "",
   "since": 1977,
   "blurb": "",
   "sources": [
@@ -8277,7 +8544,7 @@
   "domainExpires": "2028-02-20",
   "domainState": "",
   "pitch": 32,
-  "rank": 169
+  "rank": 171
  },
  {
   "slug": "gaston-livery-stable",
@@ -8311,6 +8578,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Built in 1893, the Gaston Livery Stable is a former full-service livery stable located in Aiken, SC. It is significant for its role in the city’s turn-of-the-century transportation industry and as a notable example of brick, U-shaped barn design and construction. It is, also, important to equine and agricultural history.",
   "sources": [
@@ -8328,7 +8596,7 @@
   "domainExpires": "2027-03-13",
   "domainState": "",
   "pitch": 31,
-  "rank": 170
+  "rank": 172
  },
  {
   "slug": "kings-roll-off-dumpsters",
@@ -8358,6 +8626,7 @@
   "contactSource": "Directory listing",
   "greet": "Karson",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8375,7 +8644,7 @@
   "domainExpires": "2026-12-02",
   "domainState": "Renews or expires 2026-12-02",
   "pitch": 31,
-  "rank": 171
+  "rank": 173
  },
  {
   "slug": "massage-ology-wellness-studio",
@@ -8405,6 +8674,7 @@
   "contactSource": "Their booking page",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Seeking relief from chronic pain or simply yearning for a moment of pure relaxation? Take the first step towards a healthier, more balanced life and experience the transformative power of massage therapy",
   "sources": [
@@ -8422,7 +8692,7 @@
   "domainExpires": "2027-10-22",
   "domainState": "",
   "pitch": 31,
-  "rank": 172
+  "rank": 174
  },
  {
   "slug": "piece-of-potato",
@@ -8452,6 +8722,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Regular Potatoes into Edible Masterpieces. Piece of Potato is a carry-out, delivery and catering eatery serving Aiken, SC and surrounding areas.",
   "sources": [
@@ -8469,7 +8740,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 173
+  "rank": 175
  },
  {
   "slug": "tumbleweed",
@@ -8499,6 +8770,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "RanchWear/Accessories for both Men & Woman, Handmade Jewelry, CBD, Farm Life Supplies, Handwoven Blankets, Candles, Hats & Cute Gifts. TumbleWeed is where western meets boho chic with a dab of vintage taste. We are a boss lady owned company empowering everyday women to be comfortable in their own skin, take the path best for you, not [&hellip;]",
   "sources": [
@@ -8516,7 +8788,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 30,
-  "rank": 174
+  "rank": 176
  },
  {
   "slug": "holley-and-company",
@@ -8549,6 +8821,7 @@
   "contactSource": "Their website",
   "greet": "Richard",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8566,7 +8839,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 30,
-  "rank": 175
+  "rank": 177
  },
  {
   "slug": "park-avenue-oyster-bar-and-grill",
@@ -8596,6 +8869,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Park Ave Oyster Bar & Grill is a neighborhood seafood restaurant in Aiken's Historic Downtown. They focus on serving the highest quality seafood with a casual bistro vibe. Their raw bar features local and boutique oysters as well as peel & eat shrimp, shellfish salad, tuna tartar & more. The kitchen showcases top-quality land and sea dishes with creative and fresh seasonal preparations.",
   "sources": [
@@ -8615,7 +8889,7 @@
   "domainExpires": "2035-01-31",
   "domainState": "",
   "pitch": 30,
-  "rank": 176
+  "rank": 178
  },
  {
   "slug": "lionel-smith-ltd",
@@ -8645,6 +8919,7 @@
   "contactSource": "Directory listing",
   "greet": "Van",
   "familyNote": "",
+  "holdNote": "",
   "since": 1976,
   "blurb": "Since opening our doors in 1976, we have prided ourselves in finding unique clothing and accessories in the men's market place. We shop markets all along the east coast for vendors that provide quality products that deserve the price on the tag. We find the finest in men's fashion from all over the world and [&hellip;]",
   "sources": [
@@ -8664,7 +8939,7 @@
   "domainExpires": "2028-06-24",
   "domainState": "",
   "pitch": 29,
-  "rank": 177
+  "rank": 179
  },
  {
   "slug": "nouveau-hair-and-wigs",
@@ -8694,6 +8969,7 @@
   "contactSource": "Their website",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us I offer personalized wig services, including custom human hair wigs, cranial prostheses, and hair toppers for medical hair loss or style changes.",
   "sources": [
@@ -8711,7 +8987,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 29,
-  "rank": 178
+  "rank": 180
  },
  {
   "slug": "shining-sons-enterprises-llc",
@@ -8741,6 +9017,7 @@
   "contactSource": "Directory listing",
   "greet": "Christa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8758,7 +9035,7 @@
   "domainExpires": "2027-03-15",
   "domainState": "",
   "pitch": 29,
-  "rank": 179
+  "rank": 181
  },
  {
   "slug": "thomas-agency-group",
@@ -8790,6 +9067,7 @@
   "contactSource": "Directory listing",
   "greet": "Mike",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8807,7 +9085,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 29,
-  "rank": 180
+  "rank": 182
  },
  {
   "slug": "the-craft",
@@ -8837,6 +9115,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8854,7 +9133,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 28,
-  "rank": 181
+  "rank": 183
  },
  {
   "slug": "chandler-law-firm-pa",
@@ -8884,6 +9163,7 @@
   "contactSource": "Directory listing",
   "greet": "Everett",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -8901,7 +9181,7 @@
   "domainExpires": "2026-12-22",
   "domainState": "Renews or expires 2026-12-22",
   "pitch": 28,
-  "rank": 182
+  "rank": 184
  },
  {
   "slug": "covenant-family-allergy",
@@ -8935,6 +9215,7 @@
   "contactSource": "Their website",
   "greet": "Dr. Clark",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Committed team of pros in North Augusta, SC, who promise to care for you like our very own family. We'll strive each day to live up to the words of the Lord Jesus, ''Love your neighbor as yourself.''",
   "sources": [
@@ -8952,7 +9233,7 @@
   "domainExpires": "2027-04-14",
   "domainState": "",
   "pitch": 28,
-  "rank": 183
+  "rank": 185
  },
  {
   "slug": "downtown-dog",
@@ -8986,6 +9267,7 @@
   "contactSource": "Directory listing",
   "greet": "Sheri",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Downtown Dog has something for every canine. There are homemade treats, natural dog foods and an assortment of toys along with leashes and collars. Novelty items for every dog lover are also available. Be sure to bring Fido in for a treat!",
   "sources": [
@@ -9005,7 +9287,7 @@
   "domainExpires": "2027-07-14",
   "domainState": "",
   "pitch": 28,
-  "rank": 184
+  "rank": 186
  },
  {
   "slug": "hale-dentistry-and-oral-wellness",
@@ -9039,6 +9321,7 @@
   "contactSource": "Directory listing",
   "greet": "Alice",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9056,7 +9339,7 @@
   "domainExpires": "2028-09-16",
   "domainState": "",
   "pitch": 28,
-  "rank": 185
+  "rank": 187
  },
  {
   "slug": "hh-construction",
@@ -9086,6 +9369,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "As a locally owned and operated general contractor based in North Augusta, we proudly serve",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us HH Construction is a licensed General contractor in SC and GA, specializing in roofing, fire and flood restoration, and insurance claims. From mitigation to rebuild, we handle it all.",
   "sources": [
@@ -9103,7 +9387,7 @@
   "domainExpires": "2027-01-30",
   "domainState": "",
   "pitch": 28,
-  "rank": 186
+  "rank": 188
  },
  {
   "slug": "southbound-aiken",
@@ -9135,6 +9419,7 @@
   "contactSource": "A news story on their website",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Southbound Smokehouse is a casual dining BBQ restaurant with a Southwestern twist.",
   "sources": [
@@ -9154,7 +9439,7 @@
   "domainExpires": "2027-05-21",
   "domainState": "",
   "pitch": 28,
-  "rank": 187
+  "rank": 189
  },
  {
   "slug": "the-willcox",
@@ -9188,6 +9473,7 @@
   "contactSource": "Directory listing",
   "greet": "Katherine",
   "familyNote": "",
+  "holdNote": "",
   "since": 1898,
   "blurb": "Enjoy the privacy of your own home with the concierge services of a luxury hotel when you stay in a Willcox Vacation Rental. We are pleased to offer a variety of homes in downtown Aiken from one-bedroom historic cottages to six-bedroom grand Aiken homes. Each home is unique and all bedrooms are dressed in Willcox linens and bathrooms with Willcox towels and robes. Visit the Website: https://thewillcox.com/vacation-rentals/ Phone: (803) 648-1898",
   "sources": [
@@ -9207,7 +9493,7 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 28,
-  "rank": 188
+  "rank": 190
  },
  {
   "slug": "tucker-orthodontics",
@@ -9241,6 +9527,7 @@
   "contactSource": "Directory listing",
   "greet": "John",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9258,7 +9545,7 @@
   "domainExpires": "2027-04-21",
   "domainState": "",
   "pitch": 28,
-  "rank": 189
+  "rank": 191
  },
  {
   "slug": "vikkis-a-unique-boutique",
@@ -9290,6 +9577,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "1032 Pinelog Rd, Aiken, SC 29803 Monday - Friday 10am - 2pm Locally Owned Female Founded New Arrivals Daily Locally Owned Female Foun",
+  "holdNote": "",
   "since": null,
   "blurb": "This shop is the go-to destination for an exciting and unforgettable shopping experience.",
   "sources": [
@@ -9307,7 +9595,7 @@
   "domainExpires": "2027-07-18",
   "domainState": "",
   "pitch": 28,
-  "rank": 190
+  "rank": 192
  },
  {
   "slug": "andrew-c-marine-attorney",
@@ -9342,6 +9630,7 @@
   "contactSource": "Directory listing",
   "greet": "Andrew",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9359,7 +9648,7 @@
   "domainExpires": "2027-10-17",
   "domainState": "",
   "pitch": 27,
-  "rank": 191
+  "rank": 193
  },
  {
   "slug": "baker-family-dentistry",
@@ -9392,6 +9681,7 @@
   "contactSource": "Directory listing",
   "greet": "Brittany",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9409,58 +9699,7 @@
   "domainExpires": "2028-01-25",
   "domainState": "",
   "pitch": 27,
-  "rank": 192
- },
- {
-  "slug": "burrell-and-flynns-farm",
-  "name": "Burrell and Flynn's Farm",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Accommodations",
-  "phone": "(843) 323-0768",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "janesmith@bielab.com",
-  "otherEmails": [],
-  "website": "http://www.burrellandflynnsfarm.com/",
-  "siteState": "Online",
-  "score": 5,
-  "platform": "Framer",
-  "issues": [
-   "71 of 92 images have no alt text",
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": null,
-  "facebook": "https://www.facebook.com/profile.php?id=61563897152004",
-  "instagram": "https://www.instagram.com/burrellandflynnsfarm/",
-  "address": "3057 Charleston Highway, Aiken, SC 29801",
-  "contact": "Beth Burrell",
-  "contactRole": "",
-  "contactSource": "Directory listing",
-  "greet": "Beth",
-  "familyNote": "",
-  "since": null,
-  "blurb": "Enchanting allure, refined sophistication, and gracious hospitality. Escape to the historic charm of Burrell and Flynn's Farm located in Aiken, South Carolina, where southern hospitality and pure elegance create the perfect retreat. Wander through Aiken's tree-lined streets, shop and dine in our vibrant downtown or simply relax in The Farms serene sanctuary, while enjoying world-class [&hellip;]",
-  "sources": [
-   "Aiken Chamber",
-   "Visit Aiken"
-  ],
-  "demo": "burrell-and-flynns-farm",
-  "pageMB": 4.6,
-  "a11yIssues": 3,
-  "a11ySerious": 3,
-  "lhPerformance": 89,
-  "lhAccessibility": 77,
-  "seoHealth": 73,
-  "socialPresence": 80,
-  "domain": "burrellandflynnsfarm.com",
-  "domainExpires": "2027-08-06",
-  "domainState": "",
-  "pitch": 27,
-  "rank": 193
+  "rank": 194
  },
  {
   "slug": "harrison-k-9-security-services-llc",
@@ -9493,6 +9732,7 @@
   "contactSource": "Directory listing",
   "greet": "November",
   "familyNote": "",
+  "holdNote": "",
   "since": 1975,
   "blurb": "",
   "sources": [
@@ -9510,7 +9750,7 @@
   "domainExpires": "2027-06-29",
   "domainState": "",
   "pitch": 27,
-  "rank": 194
+  "rank": 195
  },
  {
   "slug": "legis-equine-insurance",
@@ -9547,6 +9787,7 @@
   "contactSource": "Directory listing",
   "greet": "Marnye",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9564,7 +9805,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 27,
-  "rank": 195
+  "rank": 196
  },
  {
   "slug": "rare-blue-moon-marketing",
@@ -9599,6 +9840,7 @@
   "contactSource": "Directory listing",
   "greet": "Philip",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9616,7 +9858,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 27,
-  "rank": 196
+  "rank": 197
  },
  {
   "slug": "return-engagement",
@@ -9650,6 +9892,7 @@
   "contactSource": "Directory listing",
   "greet": "Pam",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Return Engagement is an upscale consignment boutique specializing in new and gently used Ladies, Childrens, and Equestrian apparel, designer jewelry, and accessories.",
   "sources": [
@@ -9669,7 +9912,7 @@
   "domainExpires": "2027-06-04",
   "domainState": "",
   "pitch": 27,
-  "rank": 197
+  "rank": 198
  },
  {
   "slug": "snocap-drive-in",
@@ -9698,11 +9941,12 @@
   "facebook": "https://www.facebook.com/snocapdriveinNA",
   "instagram": "https://www.instagram.com/snocap_na/",
   "address": "618 West Ave, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
+  "contact": "Havird Usry",
+  "contactRole": "owner",
+  "contactSource": "WRDW news (2023)",
+  "greet": "Havird",
   "familyNote": "E CATERING GIFT CARDS WELCOME TO THE CAP WELCOME TO THE CAP Locally owned and operated since 1964, take a trip down memory lane with",
+  "holdNote": "",
   "since": 1964,
   "blurb": "",
   "sources": [
@@ -9720,7 +9964,7 @@
   "domainExpires": "2028-07-30",
   "domainState": "",
   "pitch": 27,
-  "rank": 198
+  "rank": 199
  },
  {
   "slug": "tpi-tyler-press-llc",
@@ -9755,6 +9999,7 @@
   "contactSource": "Directory listing",
   "greet": "Gary",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9772,7 +10017,7 @@
   "domainExpires": "2027-02-10",
   "domainState": "",
   "pitch": 27,
-  "rank": 199
+  "rank": 200
  },
  {
   "slug": "veterinary-healthcare-associates-inc",
@@ -9805,6 +10050,7 @@
   "contactSource": "Their website",
   "greet": "Dr. Strock",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9822,7 +10068,7 @@
   "domainExpires": "2028-08-20",
   "domainState": "",
   "pitch": 27,
-  "rank": 200
+  "rank": 201
  },
  {
   "slug": "bill-cunningham-fitness",
@@ -9852,6 +10098,7 @@
   "contactSource": "Directory listing",
   "greet": "Bill",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9869,7 +10116,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 26,
-  "rank": 201
+  "rank": 202
  },
  {
   "slug": "brinkleys-chop-house",
@@ -9894,11 +10141,12 @@
   "facebook": "https://www.facebook.com/BrinkleysChopHouse/",
   "instagram": "https://www.instagram.com/brinkleyschophouse/",
   "address": "1033 Center Street, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "Terry and Cimberlie Brinkley",
+  "contactRole": "co-owners",
+  "contactSource": "Augusta Magazine (2025)",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -9916,7 +10164,7 @@
   "domainExpires": "2027-08-10",
   "domainState": "",
   "pitch": 26,
-  "rank": 202
+  "rank": 203
  },
  {
   "slug": "carriage-house-inn",
@@ -9938,7 +10186,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/Carriage-House-Inn-137306446344184/",
   "instagram": "https://www.instagram.com/carriagehouseaiken/",
   "address": "139 Laurens Street, NW, Aiken, SC 29801",
   "contact": "Anne Thomasson",
@@ -9946,6 +10194,7 @@
   "contactSource": "Directory listing",
   "greet": "Anne",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "You can experience comfort at the Carriage House Inn, which offers elegant accommodations amid Aiken's abundance of fine dining, cultural, and shopping opportunities.",
   "sources": [
@@ -9965,7 +10214,7 @@
   "domainExpires": "2030-06-01",
   "domainState": "",
   "pitch": 26,
-  "rank": 203
+  "rank": 204
  },
  {
   "slug": "jury-pest-services",
@@ -9998,6 +10247,7 @@
   "contactSource": "Directory listing",
   "greet": "JD",
   "familyNote": "For over 75 years, our family-owned company has provided premier residential and commercial ext",
+  "holdNote": "",
   "since": 1947,
   "blurb": "About Us Family-owned and operated pest control service business that serves residential and commercial customers in Georgia and South Carolina",
   "sources": [
@@ -10016,7 +10266,7 @@
   "domainExpires": "2028-02-08",
   "domainState": "",
   "pitch": 26,
-  "rank": 204
+  "rank": 205
  },
  {
   "slug": "silver-ash-cigar-lounge",
@@ -10046,6 +10296,7 @@
   "contactSource": "Directory listing",
   "greet": "Shameka",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10063,7 +10314,7 @@
   "domainExpires": "2027-10-27",
   "domainState": "",
   "pitch": 26,
-  "rank": 205
+  "rank": 206
  },
  {
   "slug": "tailgate-tavern",
@@ -10095,6 +10346,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Lively sports bar and full menu restaurant located in The Alley Downtown Aiken!",
   "sources": [
@@ -10113,7 +10365,7 @@
   "domainExpires": "2027-05-13",
   "domainState": "",
   "pitch": 26,
-  "rank": 206
+  "rank": 207
  },
  {
   "slug": "wayne-heath-automotive-company",
@@ -10147,6 +10399,7 @@
   "contactSource": "Directory listing",
   "greet": "Wayne",
   "familyNote": "As a family owned and operated small business, we take pride in serving our local communit",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10164,7 +10417,7 @@
   "domainExpires": "2027-04-24",
   "domainState": "",
   "pitch": 26,
-  "rank": 207
+  "rank": 208
  },
  {
   "slug": "knights-companies",
@@ -10194,6 +10447,7 @@
   "contactSource": "Directory listing",
   "greet": "Colby",
   "familyNote": "teel Locations Careers About FAQs News Portfolio Contact us Family owned and operated since 1969 Septic, Redi-Mix, Precast, Trucking",
+  "holdNote": "",
   "since": 1969,
   "blurb": "",
   "sources": [
@@ -10211,7 +10465,7 @@
   "domainExpires": "2027-10-24",
   "domainState": "",
   "pitch": 25,
-  "rank": 208
+  "rank": 209
  },
  {
   "slug": "mark-taylor-insurance",
@@ -10246,6 +10500,7 @@
   "contactSource": "Directory listing",
   "greet": "Tracy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10264,7 +10519,7 @@
   "domainExpires": "2027-10-09",
   "domainState": "",
   "pitch": 25,
-  "rank": 209
+  "rank": 210
  },
  {
   "slug": "queen-city-homestore",
@@ -10296,6 +10551,7 @@
   "contactSource": "Directory listing",
   "greet": "Felica",
   "familyNote": "& TVs Price Match Guarantee Shop with Confidence 70+ Years Family-Owned & Operated Flexible Financing Options to Fit Your Budget Fa",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10313,7 +10569,7 @@
   "domainExpires": "2028-07-23",
   "domainState": "",
   "pitch": 25,
-  "rank": 210
+  "rank": 211
  },
  {
   "slug": "veg-out",
@@ -10335,7 +10591,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://facebook.com/squarespace",
   "instagram": "http://instagram.com/squarespace",
   "address": "1619 Whiskey Road, Aiken, SC 29803",
   "contact": "Andrew",
@@ -10343,6 +10599,7 @@
   "contactSource": "Directory listing",
   "greet": "Andrew",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Creative Vegetarian FoodSmoothies, Organic JuicesHerbal products, and moreFun & Healthy Atmosphere",
   "sources": [
@@ -10361,7 +10618,7 @@
   "domainExpires": "2027-12-26",
   "domainState": "",
   "pitch": 25,
-  "rank": 211
+  "rank": 212
  },
  {
   "slug": "dash-consulting-accounting-bookkeeping",
@@ -10391,6 +10648,7 @@
   "contactSource": "Directory listing",
   "greet": "Deborah",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10408,7 +10666,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 24,
-  "rank": 212
+  "rank": 213
  },
  {
   "slug": "rhodes-law-firm",
@@ -10438,6 +10696,7 @@
   "contactSource": "Directory listing",
   "greet": "Michelle",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10456,7 +10715,7 @@
   "domainExpires": "2027-04-28",
   "domainState": "",
   "pitch": 24,
-  "rank": 213
+  "rank": 214
  },
  {
   "slug": "skc-north-augusta-llc",
@@ -10486,6 +10745,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 1982,
   "blurb": "About Us Kids Karate / Martial Arts School",
   "sources": [
@@ -10503,7 +10763,7 @@
   "domainExpires": "2027-02-12",
   "domainState": "",
   "pitch": 24,
-  "rank": 214
+  "rank": 215
  },
  {
   "slug": "aiken-city-lifestyle",
@@ -10535,6 +10795,7 @@
   "contactSource": "Directory listing",
   "greet": "Gayle",
   "familyNote": "ration of the community that has supported the business for generations, and a chance for that gratitude to travel right back into",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10552,7 +10813,7 @@
   "domainExpires": "2027-11-02",
   "domainState": "",
   "pitch": 23,
-  "rank": 215
+  "rank": 216
  },
  {
   "slug": "all-south-siding-window-and-roofing",
@@ -10585,6 +10846,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10602,7 +10864,7 @@
   "domainExpires": "2027-02-06",
   "domainState": "",
   "pitch": 23,
-  "rank": 216
+  "rank": 217
  },
  {
   "slug": "athos",
@@ -10635,6 +10897,7 @@
   "contactSource": "Directory listing",
   "greet": "Alexei",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10652,7 +10915,7 @@
   "domainExpires": "2027-01-16",
   "domainState": "Renews or expires 2027-01-16",
   "pitch": 23,
-  "rank": 217
+  "rank": 218
  },
  {
   "slug": "barreto-manufacturing-inc",
@@ -10688,6 +10951,7 @@
   "contactSource": "Directory listing",
   "greet": "Jessie",
   "familyNote": "",
+  "holdNote": "",
   "since": 1984,
   "blurb": "",
   "sources": [
@@ -10705,7 +10969,59 @@
   "domainExpires": "2027-08-20",
   "domainState": "",
   "pitch": 23,
-  "rank": 218
+  "rank": 219
+ },
+ {
+  "slug": "burrell-and-flynns-farm",
+  "name": "Burrell and Flynn's Farm",
+  "priority": "C · Modern site",
+  "tier": "modern",
+  "town": "Aiken",
+  "category": "Accommodations",
+  "phone": "(843) 323-0768",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.burrellandflynnsfarm.com/",
+  "siteState": "Online",
+  "score": 5,
+  "platform": "Framer",
+  "issues": [
+   "71 of 92 images have no alt text",
+   "No structured data for Google business results"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": null,
+  "facebook": "https://www.facebook.com/profile.php?id=61563897152004",
+  "instagram": "https://www.instagram.com/burrellandflynnsfarm/",
+  "address": "3057 Charleston Highway, Aiken, SC 29801",
+  "contact": "Beth Burrell",
+  "contactRole": "",
+  "contactSource": "Directory listing",
+  "greet": "Beth",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "Enchanting allure, refined sophistication, and gracious hospitality. Escape to the historic charm of Burrell and Flynn's Farm located in Aiken, South Carolina, where southern hospitality and pure elegance create the perfect retreat. Wander through Aiken's tree-lined streets, shop and dine in our vibrant downtown or simply relax in The Farms serene sanctuary, while enjoying world-class [&hellip;]",
+  "sources": [
+   "Aiken Chamber",
+   "Visit Aiken"
+  ],
+  "demo": "burrell-and-flynns-farm",
+  "pageMB": 4.6,
+  "a11yIssues": 3,
+  "a11ySerious": 3,
+  "lhPerformance": 89,
+  "lhAccessibility": 77,
+  "seoHealth": 73,
+  "socialPresence": 80,
+  "domain": "burrellandflynnsfarm.com",
+  "domainExpires": "2027-08-06",
+  "domainState": "",
+  "pitch": 23,
+  "rank": 220
  },
  {
   "slug": "cassie-bayer-photography",
@@ -10729,7 +11045,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/Cassiebayerphotography/",
   "instagram": "https://www.instagram.com/cassie_bayer_photography/",
   "address": "27 Lake Marion Drive, North Augusta, SC 29841",
   "contact": "Cassie Bayer",
@@ -10737,6 +11053,7 @@
   "contactSource": "Directory listing",
   "greet": "Cassie",
   "familyNote": "photograph or creating a portrait meant to be displayed for generations, my goal is always the same: to create meaningful artwork t",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10754,7 +11071,7 @@
   "domainExpires": "2027-06-30",
   "domainState": "",
   "pitch": 23,
-  "rank": 219
+  "rank": 221
  },
  {
   "slug": "graybeal-construction-and-design",
@@ -10784,6 +11101,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "ntact X 706-829-3400 Custom Homes & Renovations in the CSRA Family-owned, serving the Central Savannah River Area and upstate South",
+  "holdNote": "",
   "since": 1987,
   "blurb": "About Us New Homes and renovations.",
   "sources": [
@@ -10801,7 +11119,7 @@
   "domainExpires": "2029-10-04",
   "domainState": "",
   "pitch": 23,
-  "rank": 220
+  "rank": 222
  },
  {
   "slug": "hixon-services",
@@ -10831,6 +11149,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "ship warranty coverage (up to 25 years, where applicable) R Locally owned service with a reputation built over decades R Storm/claim",
+  "holdNote": "",
   "since": 1984,
   "blurb": "About Us Hixon’s Roofing started in 1984 and has been a family owned business since. David Hixon is a homegrown owner that has created a business with a family feel for his employees and customers.",
   "sources": [
@@ -10848,7 +11167,7 @@
   "domainExpires": "2027-04-05",
   "domainState": "",
   "pitch": 23,
-  "rank": 221
+  "rank": 223
  },
  {
   "slug": "latelier-on-laurens",
@@ -10881,6 +11200,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10898,7 +11218,7 @@
   "domainExpires": "2029-04-25",
   "domainState": "",
   "pitch": 23,
-  "rank": 222
+  "rank": 224
  },
  {
   "slug": "lawyerlisa",
@@ -10920,7 +11240,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://www.facebook.com/lawyerlisallc",
   "instagram": "https://www.instagram.com/lawyerlisasc/",
   "address": "830 Colony Parkway, Aiken, SC 29803",
   "contact": "Olivia McDonald",
@@ -10928,6 +11248,7 @@
   "contactSource": "Directory listing",
   "greet": "Olivia",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -10945,7 +11266,7 @@
   "domainExpires": "2028-03-11",
   "domainState": "",
   "pitch": 23,
-  "rank": 223
+  "rank": 225
  },
  {
   "slug": "macks",
@@ -10978,6 +11299,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Jersey style cheesesteaks, handcrafted sandwiches, sides and daily specials.",
   "sources": [
@@ -10996,7 +11318,7 @@
   "domainExpires": "2027-11-10",
   "domainState": "",
   "pitch": 23,
-  "rank": 224
+  "rank": 226
  },
  {
   "slug": "palmetto-propane-fuels",
@@ -11026,6 +11348,7 @@
   "contactSource": "Directory listing",
   "greet": "Christine",
   "familyNote": "",
+  "holdNote": "",
   "since": 1959,
   "blurb": "",
   "sources": [
@@ -11043,7 +11366,7 @@
   "domainExpires": "2027-06-27",
   "domainState": "",
   "pitch": 23,
-  "rank": 225
+  "rank": 227
  },
  {
   "slug": "peak-mobility-yoga",
@@ -11073,6 +11396,7 @@
   "contactSource": "Directory listing",
   "greet": "Kelsey",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11090,7 +11414,7 @@
   "domainExpires": "2027-07-22",
   "domainState": "",
   "pitch": 23,
-  "rank": 226
+  "rank": 228
  },
  {
   "slug": "pink-icing",
@@ -11120,6 +11444,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Boutique Store 🛍️Friday (10-6pm) Saturday (10-5pm)✨New Arrivals Every Friday✨📍113 Laurens Street Aiken, SC 29801 (Suite 107) SHOP ONLINE",
   "sources": [
@@ -11138,7 +11463,7 @@
   "domainExpires": "2028-09-09",
   "domainState": "",
   "pitch": 23,
-  "rank": 227
+  "rank": 229
  },
  {
   "slug": "the-aiken-horse",
@@ -11168,6 +11493,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11185,7 +11511,7 @@
   "domainExpires": "2027-08-24",
   "domainState": "",
   "pitch": 23,
-  "rank": 228
+  "rank": 230
  },
  {
   "slug": "wrkhorse-real-estate-co",
@@ -11218,6 +11544,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Real Estate Company",
   "sources": [
@@ -11235,7 +11562,7 @@
   "domainExpires": "2027-08-22",
   "domainState": "",
   "pitch": 23,
-  "rank": 229
+  "rank": 231
  },
  {
   "slug": "bowl-boss",
@@ -11265,6 +11592,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We are a whole food focused restaurant that focuses on smoothie bowls (acai, pitaya, coconut and banana), along with smoothies, toasts, waffle, espressos and lattes.",
   "sources": [
@@ -11282,7 +11610,7 @@
   "domainExpires": "2027-08-14",
   "domainState": "",
   "pitch": 22,
-  "rank": 230
+  "rank": 232
  },
  {
   "slug": "goin-postal-of-aiken",
@@ -11314,6 +11642,7 @@
   "contactSource": "Directory listing",
   "greet": "Paul",
   "familyNote": "Line 800-504-6040 Goin' postal locations are independently owned and operated by franchisees of GP Brands",
+  "holdNote": "",
   "since": 2019,
   "blurb": "",
   "sources": [
@@ -11331,7 +11660,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 22,
-  "rank": 231
+  "rank": 233
  },
  {
   "slug": "heath-insurance-and-financial-group",
@@ -11361,6 +11690,7 @@
   "contactSource": "Directory listing",
   "greet": "Ally",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us We are a full service insurance agency and are proud to serve the CSRA in SC and GA.",
   "sources": [
@@ -11379,7 +11709,7 @@
   "domainExpires": "2027-07-09",
   "domainState": "",
   "pitch": 22,
-  "rank": 232
+  "rank": 234
  },
  {
   "slug": "iron-gate-candles",
@@ -11406,11 +11736,12 @@
   "facebook": "https://www.facebook.com/irongatecandles",
   "instagram": "https://www.instagram.com/irongatecandles",
   "address": "121 Laurens Street SW, Aiken, SC 29801",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
+  "contact": "James and Jamie",
+  "contactRole": "owners",
+  "contactSource": "The Willcox blog",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Iron Gate Candles is a family owned and operated company, specializing in 100% Soy candles. Our candles are all natural and handcrafted here in Aiken, South Carolina. Our goal is to offer a premium high quality and environmentally friendly product. Every product we make is HandCrafted in small batches with our customers in mind. From individual [&hellip;]",
   "sources": [
@@ -11429,7 +11760,7 @@
   "domainExpires": "2029-05-15",
   "domainState": "",
   "pitch": 22,
-  "rank": 233
+  "rank": 235
  },
  {
   "slug": "johnson-johnson-whittle-lancer-and-staggs-attorn",
@@ -11459,6 +11790,7 @@
   "contactSource": "Directory listing",
   "greet": "Paige",
   "familyNote": "",
+  "holdNote": "",
   "since": 1980,
   "blurb": "",
   "sources": [
@@ -11477,7 +11809,7 @@
   "domainExpires": "2034-01-10",
   "domainState": "",
   "pitch": 22,
-  "rank": 234
+  "rank": 236
  },
  {
   "slug": "oh-mie-stelle-bakery",
@@ -11509,6 +11841,7 @@
   "contactSource": "Directory listing",
   "greet": "Clarissa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Hand-Crafted Artisan Bagels Open Saturdays - only temporarily 8:00 am - 2:00 pm For larger orders needed on days other than Saturday, please call.",
   "sources": [
@@ -11527,7 +11860,7 @@
   "domainExpires": "2028-08-03",
   "domainState": "",
   "pitch": 22,
-  "rank": 235
+  "rank": 237
  },
  {
   "slug": "south-on-whiskey",
@@ -11561,6 +11894,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "South on Whiskey is a unique event space, located on Aiken’s Southside, that provides a comfortable and sophisticated environment for banquets, receptions, business and civic meetings, weddings and social and cultural events. With over 1,300-sq-ft of open floor space, this venue is designed to address the meeting needs for up to 85 people. They also [&hellip;]",
   "sources": [
@@ -11578,7 +11912,7 @@
   "domainExpires": "2027-07-25",
   "domainState": "",
   "pitch": 22,
-  "rank": 236
+  "rank": 238
  },
  {
   "slug": "thai-jasmine-rice",
@@ -11612,6 +11946,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Jasmine Rice offers delicious dining and takeout.",
   "sources": [
@@ -11629,7 +11964,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 22,
-  "rank": 237
+  "rank": 239
  },
  {
   "slug": "webster-photography",
@@ -11661,6 +11996,7 @@
   "contactSource": "Directory listing",
   "greet": "Scott",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11678,7 +12014,7 @@
   "domainExpires": "2027-11-03",
   "domainState": "",
   "pitch": 22,
-  "rank": 238
+  "rank": 240
  },
  {
   "slug": "aiken-medical-aesthetics",
@@ -11708,6 +12044,7 @@
   "contactSource": "Directory listing",
   "greet": "Kristin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11725,7 +12062,7 @@
   "domainExpires": "2027-04-03",
   "domainState": "",
   "pitch": 21,
-  "rank": 239
+  "rank": 241
  },
  {
   "slug": "brinks-tavern",
@@ -11755,6 +12092,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Brink's Tavern, established in August 2025, is the latest concept from Brinkley’s Restaurant Group. Nestled in Beacon Bluff, right across from City Hall, Brink's Tavern brings a fresh take on Southern-inspired seafood focused cuisine, highlighting the rich culinary tapestry of the Southern coast. Join us seven days a week for lunch, dinner, to imbibe in our handcrafted cocktails at our fu",
   "sources": [
@@ -11772,7 +12110,7 @@
   "domainExpires": "2035-01-23",
   "domainState": "",
   "pitch": 21,
-  "rank": 240
+  "rank": 242
  },
  {
   "slug": "consilium-solutions-llc",
@@ -11804,6 +12142,7 @@
   "contactSource": "Directory listing",
   "greet": "Jason",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11821,7 +12160,7 @@
   "domainExpires": "2030-04-21",
   "domainState": "",
   "pitch": 21,
-  "rank": 241
+  "rank": 243
  },
  {
   "slug": "deeper-dive-bookkeeping",
@@ -11843,7 +12182,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2025,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/deeperdivebook",
   "instagram": "",
   "address": "325 Laurens Street Southwest, D5, Aiken, SC 29801",
   "contact": "Cherie Moritz",
@@ -11851,6 +12190,7 @@
   "contactSource": "Directory listing",
   "greet": "Cherie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -11868,7 +12208,7 @@
   "domainExpires": "2026-12-18",
   "domainState": "Renews or expires 2026-12-18",
   "pitch": 21,
-  "rank": 242
+  "rank": 244
  },
  {
   "slug": "eagle-corps-services",
@@ -11898,6 +12238,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 2006,
   "blurb": "",
   "sources": [
@@ -11915,7 +12256,7 @@
   "domainExpires": "2027-10-08",
   "domainState": "",
   "pitch": 21,
-  "rank": 243
+  "rank": 245
  },
  {
   "slug": "legare-gardens",
@@ -11945,6 +12286,7 @@
   "contactSource": "Directory listing",
   "greet": "Richard",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Nestled in the heart of downtown Aiken, The Legare Estate offers a unique setting for weddings, curated experiences, and peaceful cottage stays. Whether you’re planning a celebration, attending a community experience, or seeking a quiet retreat, you’ll find a space designed for meaningful connection and memorable moments. Contact Legare Gardens | Plan Your Event or [&hellip;]",
   "sources": [
@@ -11964,7 +12306,7 @@
   "domainExpires": "2027-05-25",
   "domainState": "",
   "pitch": 21,
-  "rank": 244
+  "rank": 246
  },
  {
   "slug": "local-threads-aiken",
@@ -11996,6 +12338,7 @@
   "contactSource": "Directory listing",
   "greet": "Teresa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Locally owned women's boutique offering trendy, affordable fashion for every occasion. Discover colorful wardrobe essentials, stylish accessories, and fun, confidence-boosting looks designed to help you express your unique personality. Where style, quality, and a little bit of joy come together. Monday: CLOSED Tuesday - Saturday: 10:00 AM - 5:30 PM Sunday: CLOSED",
   "sources": [
@@ -12015,7 +12358,7 @@
   "domainExpires": "2026-12-16",
   "domainState": "Renews or expires 2026-12-16",
   "pitch": 21,
-  "rank": 245
+  "rank": 247
  },
  {
   "slug": "riverfront-dental-care-llc",
@@ -12045,6 +12388,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 2017,
   "blurb": "About Us We are a locally owned, family and cosmetic dental office, conveniently located north of the I-20 at Exit 5. We are committed to providing quality and compassionate dental care to the whole family.",
   "sources": [
@@ -12062,54 +12406,7 @@
   "domainExpires": "2029-03-09",
   "domainState": "",
   "pitch": 21,
-  "rank": 246
- },
- {
-  "slug": "zook-homes",
-  "name": "Zook Homes",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Builders + Construction (Residential)",
-  "phone": "(803) 443-9157",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "noah@zookhomes.com",
-  "otherEmails": [],
-  "website": "http://www.zookhomes.com/",
-  "siteState": "Online",
-  "score": 0,
-  "platform": "Squarespace",
-  "issues": [],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2024,
-  "facebook": "http://www.facebook.com/2008/fbml",
-  "instagram": "https://www.instagram.com/zookcustomhomes/",
-  "address": "PO Box 5549, Aiken, SC 29804",
-  "contact": "Noah Zook",
-  "contactRole": "",
-  "contactSource": "Directory listing",
-  "greet": "Noah",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 3.6,
-  "a11yIssues": 18,
-  "a11ySerious": 18,
-  "lhPerformance": 34,
-  "lhAccessibility": 92,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "zookhomes.com",
-  "domainExpires": "2027-02-16",
-  "domainState": "",
-  "pitch": 21,
-  "rank": 247
+  "rank": 248
  },
  {
   "slug": "a-b-beverage-company",
@@ -12139,6 +12436,7 @@
   "contactSource": "Directory listing",
   "greet": "Kevin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12156,7 +12454,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 248
+  "rank": 249
  },
  {
   "slug": "ab-beverage-co-inc",
@@ -12186,6 +12484,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12203,7 +12502,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 249
+  "rank": 250
  },
  {
   "slug": "aiken-systems-unlimited-inc",
@@ -12233,6 +12532,7 @@
   "contactSource": "Directory listing",
   "greet": "William",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12250,7 +12550,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 250
+  "rank": 251
  },
  {
   "slug": "aiken-tax-service",
@@ -12280,6 +12580,7 @@
   "contactSource": "Directory listing",
   "greet": "Sandy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12297,7 +12598,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 251
+  "rank": 252
  },
  {
   "slug": "c-e-dudley",
@@ -12327,6 +12628,7 @@
   "contactSource": "Directory listing",
   "greet": "Ed",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12344,7 +12646,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 252
+  "rank": 253
  },
  {
   "slug": "chill-pest-solutions",
@@ -12374,6 +12676,7 @@
   "contactSource": "Directory listing",
   "greet": "Craig",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12391,7 +12694,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 253
+  "rank": 254
  },
  {
   "slug": "comprehensive-therapy-and-rehab",
@@ -12421,6 +12724,7 @@
   "contactSource": "Directory listing",
   "greet": "Joshua",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12438,7 +12742,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 254
+  "rank": 255
  },
  {
   "slug": "connies-framing",
@@ -12468,6 +12772,7 @@
   "contactSource": "Directory listing",
   "greet": "Connie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12485,7 +12790,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 255
+  "rank": 256
  },
  {
   "slug": "cornerstone-wealth-group",
@@ -12515,6 +12820,7 @@
   "contactSource": "Directory listing",
   "greet": "Jeff",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12532,7 +12838,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 256
+  "rank": 257
  },
  {
   "slug": "day-construction-llc",
@@ -12562,6 +12868,7 @@
   "contactSource": "Directory listing",
   "greet": "Johnny",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12579,7 +12886,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 257
+  "rank": 258
  },
  {
   "slug": "dos-potrillos-taqueria-llc",
@@ -12609,6 +12916,7 @@
   "contactSource": "Directory listing",
   "greet": "Salvador",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12626,7 +12934,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 258
+  "rank": 259
  },
  {
   "slug": "edith-corley-stone",
@@ -12656,6 +12964,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12673,7 +12982,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 259
+  "rank": 260
  },
  {
   "slug": "evergreen-gardens-landscape-co",
@@ -12703,6 +13012,7 @@
   "contactSource": "Directory listing",
   "greet": "Cordelia",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12720,7 +13030,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 260
+  "rank": 261
  },
  {
   "slug": "fox-shoe-repair",
@@ -12750,6 +13060,7 @@
   "contactSource": "Directory listing",
   "greet": "Brenda",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12767,7 +13078,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 261
+  "rank": 262
  },
  {
   "slug": "franclif-llc",
@@ -12797,6 +13108,7 @@
   "contactSource": "Directory listing",
   "greet": "Monte",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12814,7 +13126,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 262
+  "rank": 263
  },
  {
   "slug": "halo-insurance-llc",
@@ -12844,6 +13156,7 @@
   "contactSource": "Directory listing",
   "greet": "Hannah",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12861,7 +13174,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 263
+  "rank": 264
  },
  {
   "slug": "horizon-development-llc",
@@ -12891,6 +13204,7 @@
   "contactSource": "Directory listing",
   "greet": "Julia",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12908,7 +13222,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 264
+  "rank": 265
  },
  {
   "slug": "hugh-johnston-md",
@@ -12938,6 +13252,7 @@
   "contactSource": "Directory listing",
   "greet": "Hugh",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -12955,7 +13270,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 265
+  "rank": 266
  },
  {
   "slug": "incredible-force",
@@ -12985,6 +13300,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13002,7 +13318,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 266
+  "rank": 267
  },
  {
   "slug": "j-lo-concrete-and-sons-llc",
@@ -13032,6 +13348,7 @@
   "contactSource": "Directory listing",
   "greet": "Camerino",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13049,7 +13366,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 267
+  "rank": 268
  },
  {
   "slug": "jade-of-china",
@@ -13079,6 +13396,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13096,7 +13414,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 268
+  "rank": 269
  },
  {
   "slug": "jen-auer",
@@ -13126,6 +13444,7 @@
   "contactSource": "Directory listing",
   "greet": "Jen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13143,7 +13462,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 269
+  "rank": 270
  },
  {
   "slug": "john-m-bailey-and-associates-pc",
@@ -13173,6 +13492,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13190,7 +13510,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 270
+  "rank": 271
  },
  {
   "slug": "melissa-mcknight-realtor",
@@ -13220,6 +13540,7 @@
   "contactSource": "Directory listing",
   "greet": "Melissa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13237,7 +13558,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 271
+  "rank": 272
  },
  {
   "slug": "nail-pro",
@@ -13267,6 +13588,7 @@
   "contactSource": "Directory listing",
   "greet": "Lena",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13284,7 +13606,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 272
+  "rank": 273
  },
  {
   "slug": "on-the-spot-mobile-rv-service-llc",
@@ -13314,6 +13636,7 @@
   "contactSource": "Directory listing",
   "greet": "Jarrod",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13331,7 +13654,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 273
+  "rank": 274
  },
  {
   "slug": "paul-brewer",
@@ -13361,6 +13684,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13378,7 +13702,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 274
+  "rank": 275
  },
  {
   "slug": "pita-mediterranean-street-food",
@@ -13408,6 +13732,7 @@
   "contactSource": "Directory listing",
   "greet": "Ali",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13425,7 +13750,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 275
+  "rank": 276
  },
  {
   "slug": "red-white-and-bright",
@@ -13455,6 +13780,7 @@
   "contactSource": "Directory listing",
   "greet": "Andy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13472,7 +13798,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 276
+  "rank": 277
  },
  {
   "slug": "saku-express",
@@ -13502,6 +13828,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13519,7 +13846,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 277
+  "rank": 278
  },
  {
   "slug": "sakura-japanese-steakhouse",
@@ -13549,6 +13876,7 @@
   "contactSource": "Directory listing",
   "greet": "Mario",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13567,7 +13895,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 278
+  "rank": 279
  },
  {
   "slug": "scissors-and-sofas",
@@ -13597,6 +13925,7 @@
   "contactSource": "Directory listing",
   "greet": "Susan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13614,7 +13943,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 279
+  "rank": 280
  },
  {
   "slug": "smoke-crave-llc",
@@ -13644,6 +13973,7 @@
   "contactSource": "Directory listing",
   "greet": "Shannon",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13661,7 +13991,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 280
+  "rank": 281
  },
  {
   "slug": "solo-vino-marchand-de-vin",
@@ -13691,6 +14021,7 @@
   "contactSource": "Directory listing",
   "greet": "Greg",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13708,7 +14039,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 281
+  "rank": 282
  },
  {
   "slug": "southern-dental-associates",
@@ -13738,6 +14069,7 @@
   "contactSource": "Directory listing",
   "greet": "Kevin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13755,7 +14087,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 282
+  "rank": 283
  },
  {
   "slug": "standard-pool-company",
@@ -13785,6 +14117,7 @@
   "contactSource": "Directory listing",
   "greet": "Joseph",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13802,7 +14135,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 283
+  "rank": 284
  },
  {
   "slug": "the-icee-fusion-experience",
@@ -13832,6 +14165,7 @@
   "contactSource": "Directory listing",
   "greet": "Nakieta",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13849,7 +14183,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 284
+  "rank": 285
  },
  {
   "slug": "the-salty-hyena",
@@ -13879,6 +14213,7 @@
   "contactSource": "Directory listing",
   "greet": "Michele",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13896,7 +14231,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 285
+  "rank": 286
  },
  {
   "slug": "toby-marks-development-inc",
@@ -13926,6 +14261,7 @@
   "contactSource": "Directory listing",
   "greet": "Rebecca",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13943,7 +14279,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 286
+  "rank": 287
  },
  {
   "slug": "tony-islan",
@@ -13973,6 +14309,7 @@
   "contactSource": "Directory listing",
   "greet": "Tony",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -13990,7 +14327,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 287
+  "rank": 288
  },
  {
   "slug": "vendor-street-store",
@@ -14020,6 +14357,7 @@
   "contactSource": "Directory listing",
   "greet": "Catherine",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14037,7 +14375,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 288
+  "rank": 289
  },
  {
   "slug": "walker-realty-company-inc",
@@ -14067,6 +14405,7 @@
   "contactSource": "Directory listing",
   "greet": "Jonathan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14084,7 +14423,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 289
+  "rank": 290
  },
  {
   "slug": "woody-malone",
@@ -14114,6 +14453,7 @@
   "contactSource": "Directory listing",
   "greet": "Woody",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14131,7 +14471,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 290
+  "rank": 291
  },
  {
   "slug": "zmow-lawn-care-services-llc",
@@ -14161,6 +14501,7 @@
   "contactSource": "Directory listing",
   "greet": "Zachary",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14178,7 +14519,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 20,
-  "rank": 291
+  "rank": 292
  },
  {
   "slug": "taste-of-gold-cakery",
@@ -14211,6 +14552,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Your local pop-up Cakery in beautiful Aiken, SC! Serving up delicious, Gourmet Cupcakes you’ll love. 🍰",
   "sources": [
@@ -14228,7 +14570,7 @@
   "domainExpires": "2027-03-06",
   "domainState": "",
   "pitch": 20,
-  "rank": 292
+  "rank": 293
  },
  {
   "slug": "anderson-insurance-associates-llc",
@@ -14258,6 +14600,7 @@
   "contactSource": "Directory listing",
   "greet": "John",
   "familyNote": "",
+  "holdNote": "",
   "since": 1981,
   "blurb": "",
   "sources": [
@@ -14275,7 +14618,7 @@
   "domainExpires": "2031-12-09",
   "domainState": "",
   "pitch": 19,
-  "rank": 293
+  "rank": 294
  },
  {
   "slug": "owings-and-sam-dentistry",
@@ -14307,6 +14650,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 1976,
   "blurb": "",
   "sources": [
@@ -14324,7 +14668,7 @@
   "domainExpires": "2027-08-13",
   "domainState": "",
   "pitch": 19,
-  "rank": 294
+  "rank": 295
  },
  {
   "slug": "pipedreamers-plumbing-heating-and-air",
@@ -14354,6 +14698,7 @@
   "contactSource": "Directory listing",
   "greet": "Colten",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14371,7 +14716,7 @@
   "domainExpires": "2027-10-20",
   "domainState": "",
   "pitch": 19,
-  "rank": 295
+  "rank": 296
  },
  {
   "slug": "waynes-automotive-and-towing-center-aiken",
@@ -14401,6 +14746,7 @@
   "contactSource": "Directory listing",
   "greet": "Sherry",
   "familyNote": "We are family owned and operated, and dedicated to providing quality automobile repairs and",
+  "holdNote": "",
   "since": 1980,
   "blurb": "",
   "sources": [
@@ -14418,7 +14764,7 @@
   "domainExpires": "2027-08-28",
   "domainState": "",
   "pitch": 19,
-  "rank": 296
+  "rank": 297
  },
  {
   "slug": "woody-outfitters",
@@ -14450,6 +14796,7 @@
   "contactSource": "Directory listing",
   "greet": "Chloe",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14467,7 +14814,7 @@
   "domainExpires": "2027-07-24",
   "domainState": "",
   "pitch": 19,
-  "rank": 297
+  "rank": 298
  },
  {
   "slug": "anshu-asian-caf",
@@ -14500,6 +14847,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "AnShu is based on more than wonderful food. At AnShu, we believe whole health results from a balance of nourishing foods, clean environment, and a joyous outlook. AnShu prides itself on attention to detail, top quality ingredients, fresh cooking styles, thorough cleanliness, diverse menus, and an uplifting atmosphere.",
   "sources": [
@@ -14515,55 +14863,6 @@
   "socialPresence": 50,
   "domain": "anshuasiancafe.com",
   "domainExpires": "2027-10-21",
-  "domainState": "",
-  "pitch": 18,
-  "rank": 298
- },
- {
-  "slug": "austin-and-pethick-law-firm",
-  "name": "Austin & Pethick Law Firm",
-  "priority": "C · Modern site",
-  "tier": "modern",
-  "town": "Aiken",
-  "category": "Attorney",
-  "phone": "(803) 226-0453",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "contact@austinpethick.com",
-  "otherEmails": [],
-  "website": "http://www.austinpethick.com/",
-  "siteState": "Online",
-  "score": 2,
-  "platform": "WordPress",
-  "issues": [
-   "No structured data for Google business results"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2025,
-  "facebook": "https://www.facebook.com/AustinPethickLaw",
-  "instagram": "",
-  "address": "115 Hearthstone Drive, Aiken, SC 29803",
-  "contact": "Christopher Austin",
-  "contactRole": "",
-  "contactSource": "Directory listing",
-  "greet": "Christopher",
-  "familyNote": "",
-  "since": null,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "",
-  "pageMB": 1.3,
-  "a11yIssues": 26,
-  "a11ySerious": 26,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "austinpethick.com",
-  "domainExpires": "2027-03-12",
   "domainState": "",
   "pitch": 18,
   "rank": 299
@@ -14596,6 +14895,7 @@
   "contactSource": "Directory listing",
   "greet": "Brenda",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Welcome to Bloom Salon Spa Boutique. If you are looking for a salon that guarantees exceptional service and a great experience, look no more! From great cuts to incredible hair color, we specialize in gray coverage, lived-in color and blonding/balayage.",
   "sources": [
@@ -14644,6 +14944,7 @@
   "contactSource": "Directory listing",
   "greet": "Anthony",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14693,6 +14994,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14744,6 +15046,7 @@
   "contactSource": "Directory listing",
   "greet": "Bettina",
   "familyNote": "untry Real Estate Experts Carolina Real Estate Company is a locally owned brokerage in the heart of Aiken, South Carolina - a town sh",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14795,6 +15098,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14842,6 +15146,7 @@
   "contactSource": "Directory listing",
   "greet": "Kimberly",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14889,6 +15194,7 @@
   "contactSource": "Directory listing",
   "greet": "Jessica",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -14936,6 +15242,7 @@
   "contactSource": "Directory listing",
   "greet": "Missy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Freitas Wealth Management Group is an independent financial services firm.",
   "sources": [
@@ -14986,6 +15293,7 @@
   "contactSource": "Directory listing",
   "greet": "Delany",
   "familyNote": "y, contractor hauling, and roll-off dumpster service from a family-operated team serving Aiken, Augusta, and nearby CSRA communities",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Full service trucking company. We haul and provide sand, gravel and roll off containers for construction sites and homeowners.",
   "sources": [
@@ -15034,6 +15342,7 @@
   "contactSource": "Directory listing",
   "greet": "Amy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15085,6 +15394,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "rcial Insurance Life Insurance Carriers Real Estate Contact Family Owned Since 1952 Hixon Insurance Agency, Inc",
+  "holdNote": "",
   "since": 1952,
   "blurb": "",
   "sources": [
@@ -15132,6 +15442,7 @@
   "contactSource": "Directory listing",
   "greet": "Clinton",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15179,6 +15490,7 @@
   "contactSource": "Directory listing",
   "greet": "Anna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15218,7 +15530,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/themannamedia",
   "instagram": "https://www.instagram.com/mannamediaaiken/",
   "address": "PO Box 71, Aiken, SC 29802",
   "contact": "Chelsea Wade",
@@ -15226,6 +15538,7 @@
   "contactSource": "Directory listing",
   "greet": "Chelsea",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15277,6 +15590,7 @@
   "contactSource": "Directory listing",
   "greet": "Justin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15326,6 +15640,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us From pup to adult, they never stop playing. Orange Otter Toy Store embraces this attitude in all we do. We carefully curate toys to wow the child in your life.",
   "sources": [
@@ -15373,6 +15688,7 @@
   "contactSource": "Directory listing",
   "greet": "Steve",
   "familyNote": "",
+  "holdNote": "",
   "since": 1916,
   "blurb": "",
   "sources": [
@@ -15412,7 +15728,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2026,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/performanceabove",
   "instagram": "https://www.instagram.com/performanceabove/",
   "address": "116 B Pendleton Street, SW, Aiken, SC 29801",
   "contact": "Hetal Acharekar",
@@ -15420,6 +15736,7 @@
   "contactSource": "Directory listing",
   "greet": "Hetal",
   "familyNote": "rvices Media Golf Fit Gift Card Terms Privacy Accessibility Woman Owned Small Business ©2026 PerformanceAbove, LLC Website by Recur",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15460,7 +15777,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2025,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/SabineAndWaters/",
   "instagram": "https://www.instagram.com/sabine_and_waters/",
   "address": "311 North Magnolia Street, Summerville, SC 29483",
   "contact": "Hunter Lee",
@@ -15468,6 +15785,7 @@
   "contactSource": "Directory listing",
   "greet": "Hunter",
   "familyNote": "",
+  "holdNote": "",
   "since": 1978,
   "blurb": "",
   "sources": [
@@ -15518,6 +15836,7 @@
   "contactSource": "Directory listing",
   "greet": "Sharer",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15565,6 +15884,7 @@
   "contactSource": "Directory listing",
   "greet": "Heather",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15612,6 +15932,7 @@
   "contactSource": "Directory listing",
   "greet": "Danny",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15653,7 +15974,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2025,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/performanceabove",
   "instagram": "https://www.instagram.com/performanceabove/",
   "address": "Aiken, SC",
   "contact": "",
@@ -15661,6 +15982,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Become part of a supportive community where you can grow your skills, share your passion, and enjoy every moment on the green. It's time to tee up, ladies! Your golfing journey starts here.",
   "sources": [
@@ -15708,6 +16030,7 @@
   "contactSource": "Directory listing",
   "greet": "Alley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Alley Downtown Taproom is the place for craft beer and Kombucha!",
   "sources": [
@@ -15763,6 +16086,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us General Dentistry: serving children, adolescents, and adults",
   "sources": [
@@ -15812,6 +16136,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 1965,
   "blurb": "",
   "sources": [
@@ -15859,6 +16184,7 @@
   "contactSource": "Directory listing",
   "greet": "Damian",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Local family owned seafood restaurant and Oyster Bar specializing in fresh domestic seafood! #eatlocal",
   "sources": [
@@ -15907,6 +16233,7 @@
   "contactSource": "Directory listing",
   "greet": "Brittany",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -15954,6 +16281,7 @@
   "contactSource": "Directory listing",
   "greet": "Molly",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Approximately 30 million Americans suffer from hearing loss. Hearing Associates of South Carolina is here to make a difference in anyone with hearing loss' quality of life.",
   "sources": [
@@ -16002,6 +16330,7 @@
   "contactSource": "Directory listing",
   "greet": "Jacquelyn",
   "familyNote": "",
+  "holdNote": "",
   "since": 1916,
   "blurb": "",
   "sources": [
@@ -16049,6 +16378,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Over the past ten years, the New Moon has built a loyal following by providing patrons with great food at reasonable prices in a laid back and unpretentious setting. When you enter New Moon, it's pretty obvious that you've found a different kind of a coffee shop, and it's definitely not \"corporate coffee\" that New Moon serves.",
   "sources": [
@@ -16097,6 +16427,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16144,6 +16475,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16191,6 +16523,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16238,6 +16571,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16285,6 +16619,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Medicare Specialist, Social Security Analyst, Retirement Planning, Estate Planning",
   "sources": [
@@ -16332,6 +16667,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16379,6 +16715,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Private and public polo and vet office by appointment. Public Polo matches Spring and Fall. www.aikenpoloclub.org 803-644-7706; www.newbridgepolo.com 803-643-3611 Take Hwy 302, go east 8 miles from the intersection of Hwy 78 and 302. Turn right onto Langdon Rd. New Haven will be the first driveway on your left.",
   "sources": [
@@ -16426,6 +16763,7 @@
   "contactSource": "Directory listing",
   "greet": "Jason",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16465,7 +16803,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://facebook.com/aikenwellnessboutique",
   "instagram": "http://instagram.com/aikenwellnessboutique",
   "address": "823 Hayne Ave SW., Aiken, SC 29801",
   "contact": "",
@@ -16473,6 +16811,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Their warehouse location is open for pick-up orders, where you can find all our supplements, clean & organic grocery items, and, of course, the full Roots and Leaves product line that you’ve grown to love. Place your order online through the Shop page or stop in! The hours for July are Monday, Wednesday, and Fridays [&hellip;]",
   "sources": [
@@ -16522,6 +16861,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Beyond bijoux is a fashion jewelry and accessories boutique. Bijoux means jewelry, and they are literally Beyond Bijoux! You will always find something new. Beyond Bijoux is your go to boutique for affordable boutique pieces. They specialize in what's new and even next in fashion jewelry and accessories! Women love to feel pretty, and at [&hellip;]",
   "sources": [
@@ -16572,6 +16912,7 @@
   "contactSource": "Directory listing",
   "greet": "Christian",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Blue Collard offers catering services and sells pre-prepared Southern-style food. It's a la carte as well so you can build your own dinner.",
   "sources": [
@@ -16620,6 +16961,7 @@
   "contactSource": "Directory listing",
   "greet": "Christian",
   "familyNote": "• All-You-Can-Eat Buffet • Salad Bar • Sides From Scratch • Family Owned • Aiken Since 1996 • Hickory Smoked • All-You-Can-Eat Buffe",
+  "holdNote": "",
   "since": 1996,
   "blurb": "One of 14 Duke's Bar-B-Que restaurants in South Carolina.",
   "sources": [
@@ -16668,6 +17010,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Ferrando's Italian Pizzeria serves the best Italian cooking which includes pizza, stromboli, calzone, pasta, and salads. It's so authentic, it's A Little Taste of Italy in Every Bite!",
   "sources": [
@@ -16715,6 +17058,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "As a locally owned and operated company, we're committed to delivering dependable plumbing",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16762,6 +17106,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "Chef Driven Menu LOCALLY OWNED TRIED AND TRUE + NEW FAVORITES Food Dot slide navigation nu",
+  "holdNote": "",
   "since": null,
   "blurb": "Located in the heart of downtown Aiken, Neon Fig creates fun, imaginative and handcrafted brunch and lunch dishes. Their seasonally changing menu features house-made soups, sauces, and dressings.",
   "sources": [
@@ -16810,6 +17155,7 @@
   "contactSource": "Directory listing",
   "greet": "Kristin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16857,6 +17203,7 @@
   "contactSource": "Directory listing",
   "greet": "Tony",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16904,6 +17251,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16951,6 +17299,7 @@
   "contactSource": "Directory listing",
   "greet": "Joanna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -16998,6 +17347,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17045,6 +17395,7 @@
   "contactSource": "Directory listing",
   "greet": "Martin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17092,6 +17443,7 @@
   "contactSource": "Directory listing",
   "greet": "Sean",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17131,7 +17483,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/adamsnurserywilliston",
   "instagram": "https://www.instagram.com/adamsnurseryandlandscaping/",
   "address": "10066 Ellenton Street, Barnwell, SC 29812",
   "contact": "Adam Altman",
@@ -17139,6 +17491,7 @@
   "contactSource": "Directory listing",
   "greet": "Adam",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17178,7 +17531,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/AdvancedHearingHealthofAiken",
   "instagram": "https://www.instagram.com/advancedhearingaiken",
   "address": "237 Barnwell Avenue Northwest, Aiken, SC 29801",
   "contact": "Burk Johnston",
@@ -17186,6 +17539,7 @@
   "contactSource": "Directory listing",
   "greet": "Burk",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17236,6 +17590,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Aiken Golf Club is located in the center of Aiken, South Carolina. A thriving mid-sized town, Aiken has been a mecca for people fleeing cold northern climes since its inception. Moderate winter temperatures allow year-round play in what has become the hub of golf in the Southeastern United States. Only 16 miles from the [&hellip;]",
   "sources": [
@@ -17285,6 +17640,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "A veteran-owned cleanup company you can trust for superior customer service",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17332,6 +17688,7 @@
   "contactSource": "Directory listing",
   "greet": "Tim",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17379,6 +17736,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "With a deep-rooted history in the area, our family-owned business has been blossoming for years, crafting exquisite",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17428,6 +17786,7 @@
   "contactSource": "Directory listing",
   "greet": "Jason",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17475,6 +17834,7 @@
   "contactSource": "Directory listing",
   "greet": "Reid",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17524,6 +17884,7 @@
   "contactSource": "Directory listing",
   "greet": "Lee",
   "familyNote": "HVAC Services in Aiken, SC Holley Heating and Air is a family-owned and operated heating and air conditioning company based in",
+  "holdNote": "",
   "since": 1909,
   "blurb": "About Us Holley Heating and Air is Aiken County's leading provider of heating and air conditioning service, sales, and installations. Since 1909, a name you know, a name you trust.",
   "sources": [
@@ -17572,6 +17933,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "VIEW OUR MENU OUR STORY Family-owned and designed for good times, great food, and even better dr",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken's new casual, upscale restaurant downtown on Laurens!",
   "sources": [
@@ -17621,6 +17983,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17668,6 +18031,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The legends grille will be located at the historic Aiken Golf club at Highland Park. Originally established in the mid 1800’s as a luxury hotel. The property is now an 18 hole challenging golf course built in 1912 We offer excellent lunch and dinner cuisine.",
   "sources": [
@@ -17717,6 +18081,7 @@
   "contactSource": "Directory listing",
   "greet": "Paul",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17764,6 +18129,7 @@
   "contactSource": "Directory listing",
   "greet": "Louis",
   "familyNote": "",
+  "holdNote": "",
   "since": 1976,
   "blurb": "",
   "sources": [
@@ -17814,6 +18180,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Welcome to Plum Pudding Gourmet Kitchen Store! Shop our huge selection of JULISKA and VIETRI Irresistibly Italian dinnerware and home decor products. C.E. Corey dinnerware, including her beautiful Aiken China is available here online. Shop our cookware, bakeware, kitchen tool and cutlery departments. Brands include Wusthof, All-Clad, WMF, Capresso, Cuisinart, Lodge and many more. Hard [&hellip;]",
   "sources": [
@@ -17855,7 +18222,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/spagoaiken/",
   "instagram": "https://www.instagram.com/spagodayspa/",
   "address": "1600 Two Notch Road, SE, Aiken, SC 29803",
   "contact": "Stacy Nunn-Donaldson",
@@ -17863,6 +18230,7 @@
   "contactSource": "Directory listing",
   "greet": "Stacy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Whether you’re looking to relax and unwind or plan a special ladies’ night out, give yourself the royal treatment at Spago… where “it’s about you.”",
   "sources": [
@@ -17911,6 +18279,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "Stark Plumbing | Locally Owned Plumbing Company Serving Augusta, GA and the CSRA Deliverin",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -17958,6 +18327,7 @@
   "contactSource": "Directory listing",
   "greet": "Jenny",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Career, Business & Life Coach, Business Consultant, Speaker & Author. Helping individuals grow, businesses thrive, and employers build recovery-friendly workplaces in the CSRA community.",
   "sources": [
@@ -18009,6 +18379,7 @@
   "contactSource": "Directory listing",
   "greet": "Terri",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18059,6 +18430,7 @@
   "contactSource": "Directory listing",
   "greet": "Abbas",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18106,6 +18478,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us LOCATIONS: 511 W Martintown Road North Augusta, SC 29841 (803) 202-0212 924 Stevens Creek Road Augusta, GA 30907 (706) 860-6810 Don White has over 35 years of experience practicing law in Georgia and South Carolina. Along with his team, he has closed thousands of real estate transactions on both sides of the Savannah River. When choosing Donald H. White PC, you’re choosing an attorney who",
   "sources": [
@@ -18153,6 +18526,7 @@
   "contactSource": "Directory listing",
   "greet": "Alyson",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "If you’re searching for some great Aiken golf courses, look no further than Woodside Country Club. With 36 holes of championship golf and a nine-hole par-three course, golf pros and novices alike will enjoy this Club's challenge and natural beauty. Both Rees Jones and Bob Cupp have applied unique imagination in building two signature courses indelibly [&hellip;]",
   "sources": [
@@ -18206,6 +18580,7 @@
   "contactSource": "Directory listing",
   "greet": "Denise",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18255,6 +18630,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18304,6 +18680,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken Midtown Hotel offers comfortable and convenient accommodations for visitors traveling to Aiken for business, sporting events, equestrian activities, shopping, and leisure. Ideally located near Aiken Towne Park, USC Aiken, Citizens Park, local restaurants, shopping, and other popular attractions, the hotel provides an excellent home base for exploring the area. Aiken Midtown Hotel is also [&hellip;]",
   "sources": [
@@ -18351,6 +18728,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "ccepted Debit & Credit cards accepted Wheelchair accessible Family-owned Debit & Credit Cards accepted Free consultation By appointm",
+  "holdNote": "",
   "since": null,
   "blurb": "Make your event memorable!This is the perfect go-to spot to relax, unwind, and let loose. From date nights to birthdays and bachelorette parties, paint parties offer a unique way to celebrate life’s special moments—or simply enjoy a creative experience just because.",
   "sources": [
@@ -18404,6 +18782,7 @@
   "contactSource": "Directory listing",
   "greet": "Dalisay",
   "familyNote": "r You ADVANCED SEARCH Find your Dream Home CONTACT AN AGENT Locally Owned and Operated CONTACT US Aiken Properties Locally owned and",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18451,6 +18830,7 @@
   "contactSource": "Directory listing",
   "greet": "Amy",
   "familyNote": "Locally owned and operated since 1979, Aiken Saddlery has served horsemen and their eq",
+  "holdNote": "",
   "since": 1979,
   "blurb": "",
   "sources": [
@@ -18501,6 +18881,7 @@
   "contactSource": "Directory listing",
   "greet": "Jan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Our Services We have multiple chauffeured options that can accommodate any event. Airport Transfer We offer airport transfer packages from Aiken to Atlanta, Columbia, Charlotte, and Augusta. We can also pickup at those airports and bring you back to the Aiken/Augusta area. Scheduled Pickups If you are in Aiken or within 175 miles of Aiken, [&hellip;]",
   "sources": [
@@ -18554,6 +18935,7 @@
   "contactSource": "Directory listing",
   "greet": "Clint",
   "familyNote": "",
+  "holdNote": "",
   "since": 1970,
   "blurb": "",
   "sources": [
@@ -18604,6 +18986,7 @@
   "contactSource": "Directory listing",
   "greet": "Jason",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18655,6 +19038,7 @@
   "contactSource": "Directory listing",
   "greet": "Marc",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18707,6 +19091,7 @@
   "contactSource": "Directory listing",
   "greet": "Cliff",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18756,6 +19141,7 @@
   "contactSource": "Directory listing",
   "greet": "Sheri",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18803,6 +19189,7 @@
   "contactSource": "Directory listing",
   "greet": "Dr.",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18852,6 +19239,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -18903,6 +19291,7 @@
   "contactSource": "Directory listing",
   "greet": "Deirdre",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Vintage inspired jewelry and accessories for the modern collector.",
   "sources": [
@@ -18955,6 +19344,7 @@
   "contactSource": "Directory listing",
   "greet": "G.",
   "familyNote": "Payment LendingUSA For Immediate Assistance: (803) 648-7175 Family Owned & Operated Since 2007 Combined 57 Years of Service Write yo",
+  "holdNote": "",
   "since": 2007,
   "blurb": "",
   "sources": [
@@ -18986,8 +19376,7 @@
   "phoneNote": "",
   "email": "info@csradocumentsolutions.com",
   "otherEmails": [
-   "angela@csradocumentsolutions.com",
-   "johndoe@info.com"
+   "angela@csradocumentsolutions.com"
   ],
   "website": "http://www.csradocumentsolutions.com/",
   "siteState": "Online",
@@ -19005,6 +19394,7 @@
   "contactSource": "Directory listing",
   "greet": "Angela",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19055,6 +19445,7 @@
   "contactSource": "Directory listing",
   "greet": "Lisa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19102,6 +19493,7 @@
   "contactSource": "Directory listing",
   "greet": "Rachael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19149,6 +19541,7 @@
   "contactSource": "Directory listing",
   "greet": "Danna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19196,6 +19589,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19247,6 +19641,7 @@
   "contactSource": "Directory listing",
   "greet": "Samantha",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19299,6 +19694,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "This one-of-a-kind store specializes in sporting art, unique equestrian jewelry, riding and fashion apparel, home decor and gifts (lots of gifts). When you walk into Equine Divine or shop with us online you will be swept away by the variety of our art collection, the selection of women’s clothing, the abundance of gifts for your [&hellip;]",
   "sources": [
@@ -19342,7 +19738,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "",
   "instagram": "",
   "address": "817 Hayne Avenue, Aiken, SC 29801",
   "contact": "Charles Fliflet",
@@ -19350,6 +19746,7 @@
   "contactSource": "Directory listing",
   "greet": "Charles",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19399,6 +19796,7 @@
   "contactSource": "Directory listing",
   "greet": "Billy",
   "familyNote": "",
+  "holdNote": "",
   "since": 2009,
   "blurb": "",
   "sources": [
@@ -19446,6 +19844,7 @@
   "contactSource": "Directory listing",
   "greet": "Randy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "American Sports Pub",
   "sources": [
@@ -19496,6 +19895,7 @@
   "contactSource": "Directory listing",
   "greet": "Paige",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19543,6 +19943,7 @@
   "contactSource": "Directory listing",
   "greet": "Kathryn",
   "familyNote": "Through generations of leadership, we've remained dedicated to one simple missi",
+  "holdNote": "",
   "since": 1876,
   "blurb": "",
   "sources": [
@@ -19593,6 +19994,7 @@
   "contactSource": "Directory listing",
   "greet": "Caitlyn",
   "familyNote": "The quality is there & we’re still locally owned and operated",
+  "holdNote": "",
   "since": 1981,
   "blurb": "Sandwiches, soups, subs, salads and more!",
   "sources": [
@@ -19641,6 +20043,7 @@
   "contactSource": "Directory listing",
   "greet": "Frank",
   "familyNote": "",
+  "holdNote": "",
   "since": 1951,
   "blurb": "",
   "sources": [
@@ -19690,6 +20093,7 @@
   "contactSource": "Directory listing",
   "greet": "Jerry",
   "familyNote": "Chapel WELCOME TO A Tradition of Service Since 1968 &bull; Family Owned & Operated by Jerry C",
+  "holdNote": "",
   "since": 1968,
   "blurb": "",
   "sources": [
@@ -19741,6 +20145,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19794,6 +20199,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19841,6 +20247,7 @@
   "contactSource": "Directory listing",
   "greet": "Peter",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -19888,6 +20295,7 @@
   "contactSource": "Directory listing",
   "greet": "Charlie",
   "familyNote": "",
+  "holdNote": "",
   "since": 2005,
   "blurb": "",
   "sources": [
@@ -19939,6 +20347,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Palmetto Golf Club is the oldest operating 18 hole course in it’s original location in the Southeast. This private course was founded in 1892 by Thomas Hitchcock, a prominent NY sportsman and designed by Dr. Alister Mackenzie who also designed Augusta National Golf Club.",
   "sources": [
@@ -19978,7 +20387,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/profile.php?id=61551097015716",
   "instagram": "",
   "address": "210 High Gate Loop, Aiken, SC 29803",
   "contact": "Ashley Harmon",
@@ -19986,6 +20395,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20035,6 +20445,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20084,6 +20495,7 @@
   "contactSource": "Directory listing",
   "greet": "Michelle",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20134,6 +20546,7 @@
   "contactSource": "Directory listing",
   "greet": "Anna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20181,6 +20594,7 @@
   "contactSource": "Directory listing",
   "greet": "Jeff",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20220,7 +20634,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://www.facebook.com/aikenhorsevet",
   "instagram": "https://www.instagram.com/southernequineservice/",
   "address": "1258 Banks Mill Road, Aiken, SC 29803",
   "contact": "James Carter",
@@ -20228,6 +20642,7 @@
   "contactSource": "Directory listing",
   "greet": "James",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20282,6 +20697,7 @@
   "contactSource": "Directory listing",
   "greet": "Barry",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20333,6 +20749,7 @@
   "contactSource": "Directory listing",
   "greet": "Michele",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20385,6 +20802,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Private Investigation firm focusing on finding the answers to the questions that are keeping you up at night, specializing in background investigations.",
   "sources": [
@@ -20435,6 +20853,7 @@
   "contactSource": "Directory listing",
   "greet": "Joan",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20484,6 +20903,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Board Certified Pediatric Dentist",
   "sources": [
@@ -20531,6 +20951,7 @@
   "contactSource": "Directory listing",
   "greet": "Amy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20578,6 +20999,7 @@
   "contactSource": "Directory listing",
   "greet": "Chad",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken's only Whiskey Bar and Tapas Restaurant. Located in the heart of downtown Aiken serving specialty cocktails, wine and beer.",
   "sources": [
@@ -20621,7 +21043,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/WilsonStudioNorthAugusta/",
   "instagram": "",
   "address": "505 Georgia Avenue, North Augusta SC 29841",
   "contact": "",
@@ -20629,6 +21051,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Full-service photography studio specializing in commercial, advertising, corporate events, weddings, portraits, sports, seniors, pageants and fine-art photography.",
   "sources": [
@@ -20678,6 +21101,7 @@
   "contactSource": "Directory listing",
   "greet": "Melissa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20726,6 +21150,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us The Chalk Mine is a walking-only, nine-hole par-three course, range, and practice facility built in partnership between USC Aiken and First Tee – Aiken. Now open to the public, the facility maintains dedicated times for the USC Aiken golf team and First Tee youth, ensuring its core purpose remains the same—growing the game of golf, one child [&hellip;]",
   "sources": [
@@ -20773,6 +21198,7 @@
   "contactSource": "Directory listing",
   "greet": "Jim",
   "familyNote": "As a family-run business with in-house printing, we offer fast, friendly se",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20820,6 +21246,7 @@
   "contactSource": "Directory listing",
   "greet": "Justin",
   "familyNote": "ocations Specials Warranty Book Appointment Independent and Locally Owned Since 1977 Honest Car Care From a Team You Know Book Appoin",
+  "holdNote": "",
   "since": 1977,
   "blurb": "",
   "sources": [
@@ -20867,6 +21294,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -20914,6 +21342,7 @@
   "contactSource": "Directory listing",
   "greet": "Christina",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Our collection of fine home furnishings, gifts, accessories, and art will help you express your individual style in the home you love. Our professionally trained interior design team is available to assist you in every step of creating a stylish home that fits your lifestyle. Hours: Monday-Saturday 10-6",
   "sources": [
@@ -20966,6 +21395,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 2000,
   "blurb": "861 acre private gated community for residents and members. 5 polo fields and new 30,000 sp ft arena. Miles of riding trails. www.newbridgepolo.com 803-643-3611 Take Hwy 302, go east 5 miles from the intersection of 78 and 302 to New Holland Rd. Go left. Go approx. 1.5 miles to New Bridge Rd. Turn left and [&hellip;]",
   "sources": [
@@ -21013,6 +21443,7 @@
   "contactSource": "Directory listing",
   "greet": "Guest",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21052,7 +21483,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2026,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/profile.php?id=61595784180935",
   "instagram": "https://www.instagram.com/garlindesignremodeling/",
   "address": "10 Silver Maple Court , Aiken , SC 29803",
   "contact": "Linda Chowansky",
@@ -21060,6 +21491,7 @@
   "contactSource": "Directory listing",
   "greet": "Linda",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21109,6 +21541,7 @@
   "contactSource": "Directory listing",
   "greet": "Emily",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21148,7 +21581,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "http://facebook.com/squarespace",
   "instagram": "http://instagram.com/squarespace",
   "address": "2417 Upper Mill Road, Plum Branch SC 29845",
   "contact": "",
@@ -21156,6 +21589,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Locally owned/operated by Brandon Noble with over 15 yrs experience. We are here to manage your property & assist with decisions that come with tree removal/property improvements! Licensed & Insured!",
   "sources": [
@@ -21203,6 +21637,7 @@
   "contactSource": "Directory listing",
   "greet": "Dillon",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21250,6 +21685,7 @@
   "contactSource": "Directory listing",
   "greet": "Peter",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21297,6 +21733,7 @@
   "contactSource": "Directory listing",
   "greet": "Lisa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21346,6 +21783,7 @@
   "contactSource": "Directory listing",
   "greet": "Kayla",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21396,6 +21834,7 @@
   "contactSource": "Directory listing",
   "greet": "Leah",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21446,6 +21885,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Welcome to Aiken Embroidery and Design, LLC!Offering custom monogramming for bags and a variety of in-stock designs, this local shop also specializes in digitizing personal and company logos for high-quality embroidery. Hours Tuesday – Friday: 9 AM – 5 PM Saturday: 10 AM – 2 PM Closed Sunday and Monday",
   "sources": [
@@ -21493,6 +21933,7 @@
   "contactSource": "Directory listing",
   "greet": "Kimberly",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21543,6 +21984,7 @@
   "contactSource": "Directory listing",
   "greet": "James",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Self Storage Business",
   "sources": [
@@ -21591,6 +22033,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "It is truly our honor and privilege to have you as our guest. Please know that it is our extreme desire to provide the highest quality service in the most pleasant environment. Our spa is a place of wellness, refuge, and true relaxation. Enjoy the soft music, aromatherapy scents, dim lights and refreshments. We strive [&hellip;]",
   "sources": [
@@ -21638,6 +22081,7 @@
   "contactSource": "Directory listing",
   "greet": "Bill",
   "familyNote": "enance Schedule Your Design Consultation ABOUT COLD CREEK A Family-Owned Aiken Nursery & Landscape Company for Nearly 50 Years Cold",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21685,6 +22129,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Earthmuffin Spa combines refined comfort with a holistic approach to help you feel your best. Our peaceful space in downtown Aiken offers curated treatments designed to promote well-being and leave you feeling refreshed and renewed.",
   "sources": [
@@ -21732,6 +22177,7 @@
   "contactSource": "Directory listing",
   "greet": "Julie",
   "familyNote": "Family-Owned Farm with Airbnb, Bakery & Horse Boarding Home About Shop S",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21780,6 +22226,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "Brightharp & Sons Mortuary is family owned and operated, providing individualized funeral services designed to meet",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us G. L. Brightharp & Sons Mortuary is a family owned and operated business with over 30 years experience serving your community.",
   "sources": [
@@ -21832,6 +22279,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Houndslake Country Club Golf Club features a 27-hole Championship golf course designed in 1974 by Joe Lee, who planned the likes of Doral, La Costa and Disney World. The two nines provide pleasure to the average golfer and a memorable challenge to the champion. Each nine measures a little over 3,300 yards and they [&hellip;]",
   "sources": [
@@ -21879,6 +22327,7 @@
   "contactSource": "Directory listing",
   "greet": "Bethany",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21926,6 +22375,7 @@
   "contactSource": "Directory listing",
   "greet": "Joshua",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -21973,6 +22423,7 @@
   "contactSource": "Directory listing",
   "greet": "Franklin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22020,6 +22471,7 @@
   "contactSource": "Directory listing",
   "greet": "Bethany",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22070,6 +22522,7 @@
   "contactSource": "Directory listing",
   "greet": "Melissa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22120,6 +22573,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "We are a full service salon! Offering all services from hair & nails to aesthetics. Let us transform",
   "sources": [
@@ -22170,6 +22624,7 @@
   "contactSource": "Directory listing",
   "greet": "Wanda",
   "familyNote": "Locally Owned Facilities Because we’re locals who work, live, and play in",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22219,6 +22674,7 @@
   "contactSource": "Directory listing",
   "greet": "Caroline",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22268,6 +22724,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "True Aiken is located in the heart of downtown Aiken. It is your go-to destination for all things related to this charming city. Whether you are a first-time visitor or a local, you will find something to express your love for Aiken!",
   "sources": [
@@ -22316,6 +22773,7 @@
   "contactSource": "Directory listing",
   "greet": "Kathy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "3 Monkeys Fine Gifts is a boutique retailer located in historic downtown Aiken, South Carolina.",
   "sources": [
@@ -22365,6 +22823,7 @@
   "contactSource": "Directory listing",
   "greet": "Jennifer",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22412,6 +22871,7 @@
   "contactSource": "Directory listing",
   "greet": "Gale",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22459,6 +22919,7 @@
   "contactSource": "Directory listing",
   "greet": "Marsha",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22506,6 +22967,7 @@
   "contactSource": "Directory listing",
   "greet": "Craig",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22553,6 +23015,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "At Aiken Yoga they are passionate about sharing the benefits that a regular yoga practice has on one's wellbeing, energy levels, and state of mind. Offering classes based on a flowing style of practice, the instructors challenge each student based on their individual abilities and experience. Regardless if you are a longtime yoga junkie or [&hellip;]",
   "sources": [
@@ -22600,6 +23063,7 @@
   "contactSource": "Directory listing",
   "greet": "Jenn",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22647,6 +23111,7 @@
   "contactSource": "Directory listing",
   "greet": "Irene",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22694,6 +23159,7 @@
   "contactSource": "Directory listing",
   "greet": "David",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22742,6 +23208,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Our team provides trusted IT support, cybersecurity protection, and strategic guidance for businesses and local governments across Georgia and South Carolina",
   "sources": [
@@ -22789,6 +23256,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Board Certified Orthodontist serving North Augusta, Augusta, Aiken, Edgefield, Belvedere, and Clearwater.",
   "sources": [
@@ -22836,6 +23304,7 @@
   "contactSource": "Directory listing",
   "greet": "Andrew",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Craft brewery and full-service restaurant. Bring your furry friends!",
   "sources": [
@@ -22884,6 +23353,7 @@
   "contactSource": "Directory listing",
   "greet": "Kelly",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -22931,6 +23401,7 @@
   "contactSource": "Directory listing",
   "greet": "Janna",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Personal injury, wrongful death and workers' comp attorneys handling car, tractor-trailer and motorcycle accidents, medical errors, burn injuries and premises liability throughout GA and SC.",
   "sources": [
@@ -22979,6 +23450,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us The Posey Family has served North Augusta since 1956. As a fourth generation family-owned local business, Posey continues to provide professional, sincere service to those in need.",
   "sources": [
@@ -23026,6 +23498,7 @@
   "contactSource": "Directory listing",
   "greet": "Daniel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23073,6 +23546,7 @@
   "contactSource": "Directory listing",
   "greet": "Lindsay",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23121,6 +23595,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23168,6 +23643,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "That Flippin’ Egg serves an all American menu that features made to order meals that includes your favorite breakfast offerings, lunch and dinner. Our director of culinary innovation specializes in all American cuisine that focuses on healthy offerings, made to order.",
   "sources": [
@@ -23215,6 +23691,7 @@
   "contactSource": "Directory listing",
   "greet": "Kevin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Back 9 Golf Simulator offers a realistic, high-tech indoor golf experience with advanced swing analysis, immersive virtual courses, and comfortable lounge-style seating—perfect for practice, friendly competition, or year-round play regardless of weather.",
   "sources": [
@@ -23263,6 +23740,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Specialty store featuring Premium Olive Oils, Balsamic Vinegars, Gourmet Grocery, Candy & sweets, Wine Tastings, Charcuterie & Catering.",
   "sources": [
@@ -23310,6 +23788,7 @@
   "contactSource": "Directory listing",
   "greet": "Angel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us At 803 Mobile Detailing we bring the detailing experience to you! Fully equipped with all the necessary tools and utilities, we can detail your vehicle right at your home or workplace!",
   "sources": [
@@ -23360,6 +23839,7 @@
   "contactSource": "Directory listing",
   "greet": "Vickie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23399,7 +23879,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "",
   "instagram": "",
   "address": "335 Anmore Court, Aiken, SC 29801",
   "contact": "Allen Landry",
@@ -23407,6 +23887,7 @@
   "contactSource": "Directory listing",
   "greet": "Allen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23454,6 +23935,7 @@
   "contactSource": "Directory listing",
   "greet": "Erin",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23504,6 +23986,7 @@
   "contactSource": "Directory listing",
   "greet": "Alyssa",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23553,6 +24036,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashlynn",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23603,6 +24087,7 @@
   "contactSource": "Directory listing",
   "greet": "Lauren",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23650,6 +24135,7 @@
   "contactSource": "Directory listing",
   "greet": "Joshua",
   "familyNote": "Chief Living Solutions, INC Aiken, SC Disabled Veteran Owned and Operated 8035650527 joshb@chieflivingsolutions",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23697,6 +24183,7 @@
   "contactSource": "Directory listing",
   "greet": "Catherine",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23745,6 +24232,7 @@
   "contactSource": "Directory listing",
   "greet": "Terri",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Curated Clothiers is an upscale women's apparel shop on Lauren's Street in Aiken. In addition to offering a wide range of exquisite clothing items that have been carefully handpicked from the best shopping destinations in Atlanta, Dallas, and New York, the store also provides comfortable seating arrangements for men who are waiting for their companions. [&hellip;]",
   "sources": [
@@ -23796,6 +24284,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": 1963,
   "blurb": "",
   "sources": [
@@ -23845,6 +24334,7 @@
   "contactSource": "Directory listing",
   "greet": "Natasha",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Restorative wellness clinic offering IV hydration, vitamin injections, and sauna services.",
   "sources": [
@@ -23894,6 +24384,7 @@
   "contactSource": "Directory listing",
   "greet": "Ronnie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23941,6 +24432,7 @@
   "contactSource": "Directory listing",
   "greet": "Susannah",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -23990,6 +24482,7 @@
   "contactSource": "Directory listing",
   "greet": "Krissy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24037,6 +24530,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Enjoy delicious Seafood in a relaxed, coastal atmosphere with your favorite beverage. Steamed Oysters and beer are in AIKEN!!!! Order Low Country Boil to include shrimp/shellfish. Also menu includes coastal shrimp, snow crab legs, sea scallops, Blue crab, clams, and etc. Catering is also available.",
   "sources": [
@@ -24088,6 +24582,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us CPA Firm",
   "sources": [
@@ -24137,6 +24632,7 @@
   "contactSource": "Directory listing",
   "greet": "Dillon",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us IT and Cybersecurity Management",
   "sources": [
@@ -24185,6 +24681,7 @@
   "contactSource": "Directory listing",
   "greet": "Angela",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24232,6 +24729,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Real. Amazing. Cuisine.",
   "sources": [
@@ -24281,6 +24779,7 @@
   "contactSource": "Directory listing",
   "greet": "Carl",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24330,6 +24829,7 @@
   "contactSource": "Directory listing",
   "greet": "Malia",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "This local family-owned and operated boutique specializes in carefully curated luxurious gifts and home decor. The store is located in a beautifully restored cottage on Whiskey Road in Aiken. Open Hours: Tuesday - Saturday 10 am - 5:30 pm",
   "sources": [
@@ -24374,7 +24874,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2022,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/nadentalcare/",
   "instagram": "http://instagram.com/nadentalcare",
   "address": "504 West Avenue, North Augusta SC 29841",
   "contact": "",
@@ -24382,6 +24882,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us At the office of Dr. Brooke Usry, we provide comprehensive cosmetic and general dental care for the whole family! For over 25 years, we have been enhancing smiles and improving the dental health.",
   "sources": [
@@ -24431,6 +24932,7 @@
   "contactSource": "Directory listing",
   "greet": "Danny",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Roll into the fun at Aiken’s only bowling center!With 16 lanes, an arcade, and a snack bar, this local favorite delivers nonstop entertainment for all ages. Outside food and beverages are not permitted. The bowling center is currently closed on Sundays. Lane reservations are not being accepted at this time. Lanes are available on a [&hellip;]",
   "sources": [
@@ -24481,6 +24983,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Laid back place to enjoy some great food, cold beer and a game of pool with friends.",
   "sources": [
@@ -24531,6 +25034,7 @@
   "contactSource": "Directory listing",
   "greet": "Elier",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24585,6 +25089,7 @@
   "contactSource": "Directory listing",
   "greet": "Alex",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24636,6 +25141,7 @@
   "contactSource": "Directory listing",
   "greet": "Sandra",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24683,6 +25189,7 @@
   "contactSource": "Directory listing",
   "greet": "Bobbiann",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24734,6 +25241,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Smith-McGee Designs LLC offers strategic graphic design and marketing services for small businesses and nonprofits, helping them communicate clearly, build trust, and grow their impact.",
   "sources": [
@@ -24784,6 +25292,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Play club",
   "sources": [
@@ -24833,6 +25342,7 @@
   "contactSource": "Directory listing",
   "greet": "Eileen",
   "familyNote": "",
+  "holdNote": "",
   "since": 2010,
   "blurb": "About Us We specialize in everything tech-related to keep your business safe from disaster and prepare it for growth!",
   "sources": [
@@ -24881,6 +25391,7 @@
   "contactSource": "Directory listing",
   "greet": "Stephen",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24928,6 +25439,7 @@
   "contactSource": "Directory listing",
   "greet": "Jennifer",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -24977,6 +25489,7 @@
   "contactSource": "Directory listing",
   "greet": "Jennifer",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25024,6 +25537,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Aiken Luxury Rentals has over 35 years of experience in real estate rentals and property management.",
   "sources": [
@@ -25063,7 +25577,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/squarespace/",
   "instagram": "https://www.instagram.com/squarespace/",
   "address": "210 Georgia Ave, North Augusta SC 29841",
   "contact": "",
@@ -25071,6 +25585,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Fresh, handmade breakfast tacos bringing bold Texas flavor to North Augusta. Quick, craveable, and made with care every morning.",
   "sources": [
@@ -25118,6 +25633,7 @@
   "contactSource": "Directory listing",
   "greet": "Crystal",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25168,6 +25684,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "ams Facilities All 1 Ball Field 3 CAAHAC 1 Farmers Market 1 Generations Park 17 Odell Weeks 1 Other 11 Price Center 16 Shelters 14",
+  "holdNote": "",
   "since": null,
   "blurb": "Click Here to Book Your Tour On the tour, you’ll see and hear about… • Historic Homes and Churches • Equestrian Sites • The Civil War’s Battle of Aiken • The Live Oak Canopy on South Boundary • A guided walk through Hopelands Gardens and the Thoroughbred Racing Hall of Fame & Museum (weather permitting). [&hellip;]",
   "sources": [
@@ -25220,6 +25737,7 @@
   "contactSource": "Directory listing",
   "greet": "Peggy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25267,6 +25785,7 @@
   "contactSource": "Directory listing",
   "greet": "Diane",
   "familyNote": "",
+  "holdNote": "",
   "since": 1996,
   "blurb": "The Pizza Joint uses the freshest ingredients, we hand slice our vegetables and our dough is made fresh from scratch every day. We mix our pizza sauce and marinara daily.",
   "sources": [
@@ -25308,7 +25827,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": null,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/Whatscookindowntown/",
   "instagram": "https://www.instagram.com/wcdt/",
   "address": "123 Laurens St NW Aiken SC",
   "contact": "",
@@ -25316,6 +25835,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Come in and find out What's Cookin downtown today!",
   "sources": [
@@ -25365,6 +25885,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Caroliniana Rare Books stocks a wide selection of material in the shop ranging from first editions to large archives of historical significance, to every day reading books.",
   "sources": [
@@ -25414,6 +25935,7 @@
   "contactSource": "Directory listing",
   "greet": "Charles",
   "familyNote": "",
+  "holdNote": "",
   "since": 1979,
   "blurb": "",
   "sources": [
@@ -25461,6 +25983,7 @@
   "contactSource": "Directory listing",
   "greet": "Brenda",
   "familyNote": "We consider the range of generations, professional experience, learning preferences, technology",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25510,6 +26033,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "Three generations",
+  "holdNote": "",
   "since": 1959,
   "blurb": "",
   "sources": [
@@ -25557,6 +26081,7 @@
   "contactSource": "Directory listing",
   "greet": "Laura",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25606,6 +26131,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Serving North Augusta and the CSRA for 30+ years. Our Atlas Orthogonal Board Certified Doctors specialize in full spine and upper cervical care helping you heal and live your best life.",
   "sources": [
@@ -25658,6 +26184,7 @@
   "contactSource": "Directory listing",
   "greet": "Laurie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25707,6 +26234,7 @@
   "contactSource": "Directory listing",
   "greet": "Michael",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Since 1957 - good food, good friends, good times. Owner Terra Allen Jones and the great staff of City B’s, welcomes you to pull up a chair, share a laugh, and be part of the City Billiards story.",
   "sources": [
@@ -25755,6 +26283,7 @@
   "contactSource": "Directory listing",
   "greet": "Cat",
   "familyNote": "",
+  "holdNote": "",
   "since": 1990,
   "blurb": "",
   "sources": [
@@ -25806,6 +26335,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Evello is Aiken’s only physician supervised Medical Spa.Aesthetic procedures are offered in a tranquil environment designed for relaxation.",
   "sources": [
@@ -25853,6 +26383,7 @@
   "contactSource": "Directory listing",
   "greet": "Brandi",
   "familyNote": "Pharmacy Care You Deserve Family Pharmacy is a family-owned pharmacy serving the Aiken, SC community with personalized",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25902,6 +26433,7 @@
   "contactSource": "Directory listing",
   "greet": "Mitch",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -25951,6 +26483,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Clothing Store and Retail. It's a women’s apparel shop featuring clothing, jewelry, shoes and other items. Words to describe the clothes - “classy, classic and timeless.” Ginger Bee Boutique is open from 11 a.m. to 5:30 p.m. Monday through Saturday.",
   "sources": [
@@ -25999,6 +26532,7 @@
   "contactSource": "Directory listing",
   "greet": "Katelynn",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26048,6 +26582,7 @@
   "contactSource": "Directory listing",
   "greet": "Andrea",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26097,6 +26632,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26144,6 +26680,7 @@
   "contactSource": "Directory listing",
   "greet": "Katie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26183,7 +26720,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2026,
-  "facebook": "http://www.facebook.com/2008/fbml",
+  "facebook": "https://www.facebook.com/manuels.breadcafe",
   "instagram": "https://www.instagram.com/manuelsbreadcafe_/",
   "address": "505 Railroad 100, North Augusta, SC 29841",
   "contact": "Manuel Verney-Carron",
@@ -26191,6 +26728,7 @@
   "contactSource": "Directory listing",
   "greet": "Manuel",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26239,6 +26777,7 @@
   "contactSource": "Directory listing",
   "greet": "Anne",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Marketplace Paints is your local, neighborhood store for paint, wallpaper, blinds & decorating. We feature many national brands such as Benjamin Moore, Hunter Douglas, Graber, Romabio and Richard's.",
   "sources": [
@@ -26289,6 +26828,7 @@
   "contactSource": "Directory listing",
   "greet": "Christy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26339,6 +26879,7 @@
   "contactSource": "Directory listing",
   "greet": "Andy",
   "familyNote": "",
+  "holdNote": "",
   "since": 1920,
   "blurb": "",
   "sources": [
@@ -26386,6 +26927,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "MoonBeans Fine Roasted Coffees has been roasting specialty coffees in the historic district of downtown Aiken, South Carolina since 1999. Originally started to roast coffee for the New Moon Café, MoonBeans has since expanded to provide gourmet and specialty coffees. We offer only the finest Arabica coffees produced in the world, from Central and South [&hellip;]",
   "sources": [
@@ -26435,6 +26977,7 @@
   "contactSource": "Directory listing",
   "greet": "Natalie",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Ballroom: Seating: 275 Theater-Style/150 Classroom Style/250 Banquet Style/350 Hors D'Oeuvre Reception Anderson Room: Seating: 100 Theater-Style seating/50 Classroom Style/80 Banquet Style/125 Hors D'Oeuvre Style Henderson Room: Seating: Theater-Style: 225/100 Classroom Style/150 Banquet Style/225 Hors D'Oeuvre Reception Courtyard: 40×35 square feet Newberry Hall is designed to accommodate the needs of small and large groups. Its 4350-square-foot [&hellip;]",
   "sources": [
@@ -26483,6 +27026,7 @@
   "contactSource": "Directory listing",
   "greet": "Mei",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26532,6 +27076,7 @@
   "contactSource": "Directory listing",
   "greet": "Rhett",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Palmetto Shooting Complex is a premier shooting destination in the Southeast. Already, the facility houses two dedicated sporting clays courses, five trap and skeet fields and the 9,300-square-foot Pavilion. Upon completion, the Palmetto Shooting Complex also will be the home of the 9,500-square-foot Roundhouse, 3D archery course, rifle and pistol range and much more.",
   "sources": [
@@ -26585,6 +27130,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26635,6 +27181,7 @@
   "contactSource": "Directory listing",
   "greet": "Ron",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26686,6 +27233,7 @@
   "contactSource": "Directory listing",
   "greet": "Pete",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26737,6 +27285,7 @@
   "contactSource": "Directory listing",
   "greet": "Clifford",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26784,6 +27333,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26833,6 +27383,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Come enjoy our white sandy beaches, water-slides, diving-boards, beach volleyball and concessions! Kids 12 and under are $5 and adults are $8, military are $5. Hours: Memorial Day-Labor Day Mon-Sat 10:30 am-6:00 pm Sun 11:00 am-6:00 pm",
   "sources": [
@@ -26880,6 +27431,7 @@
   "contactSource": "Directory listing",
   "greet": "Richard",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26927,6 +27479,7 @@
   "contactSource": "Directory listing",
   "greet": "Sandra",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -26978,6 +27531,7 @@
   "contactSource": "Directory listing",
   "greet": "Dawn",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -27027,6 +27581,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Whether you're looking to pamper yourself at home or create a luxurious spa experience, Flawless Glow Studio & Spa has everything you need to elevate your self-care routine.",
   "sources": [
@@ -27078,6 +27633,7 @@
   "contactSource": "Directory listing",
   "greet": "Barry",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Stable View is a top-notch equestrian facility in Aiken, SC, and has diversified its equestrian program to meet the needs of both the discerning amateur and the elite professional across a variety of equestrian disciplines.",
   "sources": [
@@ -27129,6 +27685,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "The Big Mo revives America’s unique and fading form of entertainment. The Big Mo is one of the few Drive-In’s operating in South Carolina! Expect 2014 season to be the most exciting time as The Big Mo premiers the new digital projection system they won from the Honda Drive-In Project! A $100,000 value that helped save [&hellip;]",
   "sources": [
@@ -27178,6 +27735,7 @@
   "contactSource": "Directory listing",
   "greet": "Molly",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -27225,6 +27783,7 @@
   "contactSource": "Directory listing",
   "greet": "Missy",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -27272,6 +27831,7 @@
   "contactSource": "Directory listing",
   "greet": "Ashley",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "About Us Upstream Waste Solutions provides reliable recycling, hauling, and LEED-ready reporting for construction and industrial operations across Georgia and South Carolina.",
   "sources": [
@@ -27324,6 +27884,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "",
   "sources": [
@@ -27373,6 +27934,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "High Country Olive Oil is a premier olive oil and balsamic vinegar tasting bar and store in Aiken, S.C.",
   "sources": [
@@ -27421,6 +27983,7 @@
   "contactSource": "",
   "greet": "",
   "familyNote": "",
+  "holdNote": "",
   "since": null,
   "blurb": "Stop by Aiken's Polo Grounds Cafe soon and enjoy one of the crepes paired perfectly with an espresso!",
   "sources": [

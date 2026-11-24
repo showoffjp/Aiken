@@ -119,7 +119,9 @@ const rows = businesses.filter((b) => b.include).map((b) => {
 
   // Put a person's or the office's address ahead of webmaster-style ones.
   const technical = (e) => /^(webmaster|techsupport|support|noreply|no-reply|admin|postmaster|hostmaster)@/i.test(e);
-  const emails = [...new Set([b.email, ...(a?.emails || [])].filter(Boolean))].sort((x, y) => Number(technical(x)) - Number(technical(y)));
+  // Template placeholders (janesmith@…, john.doe@…) are not the business's.
+  const placeholder = (e) => /^(jane|john)[._-]?(smith|doe)@/i.test(e);
+  const emails = [...new Set([b.email, ...(a?.emails || [])].filter((e) => e && !placeholder(e)))].sort((x, y) => Number(technical(x)) - Number(technical(y)));
   // A directory may name an office contact, but when the first email address is the owner's own
   // mailbox (richard@...), the email goes to the owner, so name and greet the owner.
   const own = owners[b.slug];
@@ -155,6 +157,8 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     // The name a first email opens with: a listed contact's first name, or an owner's chosen greeting (empty when unsure).
     greet: useOwner ? own.greet : b.contact ? tidyName(b.contact).split(/\s+/)[0] : own?.greet || '',
     familyNote: a?.familySignal || '',
+    // Something to know before reaching out (a recent death, a sale), from owners.json.
+    holdNote: own?.hold || '',
     since: a?.since || null,
     blurb: b.blurb,
     sources: b.sources,
@@ -187,7 +191,7 @@ const cols = [
   ['Built with', (r) => r.platform], ['Mobile-ready', (r) => (r.mobileReady === null ? '' : r.mobileReady ? 'yes' : 'NO')],
   ['HTTPS', (r) => (r.https === null ? '' : r.https ? 'yes' : 'NO')], ['Footer year', (r) => r.copyrightYear || ''],
   ['Top issues', (r) => r.issues.join(' | ')], ['Facebook', (r) => r.facebook], ['Instagram', (r) => r.instagram],
-  ['Address', (r) => r.address], ['Contact person', (r) => [r.contact, r.contactRole].filter(Boolean).join(', ')], ['Contact found in', (r) => r.contactSource],['Family / local note (from their site)', (r) => r.familyNote],
+  ['Address', (r) => r.address], ['Contact person', (r) => [r.contact, r.contactRole].filter(Boolean).join(', ')], ['Contact found in', (r) => r.contactSource],['Before reaching out', (r) => r.holdNote],['Family / local note (from their site)', (r) => r.familyNote],
   ['In business since', (r) => r.since || ''], ['Listed in', (r) => r.sources.join('; ')], ['Home page size (MB)', (r) => r.pageMB ?? ''], ['Accessibility issues', (r) => r.a11yIssues ?? ''], ['Serious accessibility issues', (r) => r.a11ySerious ?? ''], ['Lighthouse performance (mobile)', (r) => r.lhPerformance ?? ''], ['Lighthouse accessibility', (r) => r.lhAccessibility ?? ''], ['Domain', (r) => r.domain], ['Domain expires', (r) => r.domainExpires], ['Domain note', (r) => r.domainState], ['Concept link', (r) => (r.demo ? `${liveUrl}/${r.demo}/` : '')], ['Checkup link', (r) => (r.demo ? `${liveUrl}/${r.demo}/report/` : '')], ['SEO health', (r) => r.seoHealth ?? ''], ['Main search', (r) => svcRank(r.slug)?.keyword || ''], ['Google position', (r) => (svcRank(r.slug) ? svcRank(r.slug).google ?? 'not in top 20' : '')], ['Google Maps position', (r) => (svcRank(r.slug) ? svcRank(r.slug).maps ?? 'not in top 20' : '')], ['Bing position', (r) => (svcRank(r.slug) ? svcRank(r.slug).bing ?? 'not in top 20' : '')], ['Google business panel', (r) => (nameRank(r.slug) ? (nameRank(r.slug).panel ? 'yes' : 'no') : '')], ['Social presence', (r) => r.socialPresence ?? ''], ['SEO & social report', (r) => (r.demo ? `${liveUrl}/${r.demo}/seo/` : '')],
 
   // Left blank for you to fill in as you work the list.

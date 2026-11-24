@@ -32,10 +32,10 @@ walk(CACHE);
 const hostOf = (u = '') => { try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase(); } catch { return ''; } };
 
 // ---- email extraction
-const JUNK = /(example|domain|yourname|youremail|email|name)@|@(example|domain|sentry|wixpress|sentry-next|godaddy|squarespace|wix|yourdomain|email)\.|@[a-z0-9-]*(your[a-z]*site|wpsite|themes?|demo)[a-z0-9-]*\.|\.(png|jpe?g|gif|webp|svg|css|js)$|^[0-9a-f]{12,}@|@[0-9]+x\./i;
+const JUNK = /^(jane|john)[._-]?(smith|doe)@|^[0-9-]{10,}@|(example|domain|yourname|youremail|email|name)@|@(example|domain|sentry|wixpress|sentry-next|godaddy|squarespace|wix|yourdomain|email)\.|@[a-z0-9-]*(your[a-z]*site|wpsite|themes?|demo)[a-z0-9-]*\.|\.(png|jpe?g|gif|webp|svg|css|js)$|^[0-9a-f]{12,}@|@[0-9]+x\./i;
 const COMMON = /@(gmail|yahoo|aol|hotmail|outlook|icloud|me|live|msn|bellsouth|comcast|att|sc\.rr|charter|earthlink|verizon)\./i;
 function emailsIn(text) {
-  const t = text.replace(/&#0*64;|&#x0*40;|%40/gi, '@').replace(/&#0*46;|&#x0*2e;/gi, '.').replace(/\s*\[\s*at\s*\]\s*/gi, '@').replace(/\s*\[\s*dot\s*\]\s*/gi, '.');
+  const t = text.replace(/%20/g, ' ').replace(/&#0*64;|&#x0*40;|%40/gi, '@').replace(/&#0*46;|&#x0*2e;/gi, '.').replace(/\s*\[\s*at\s*\]\s*/gi, '@').replace(/\s*\[\s*dot\s*\]\s*/gi, '.');
   return [...new Set((t.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g) || []).map((e) => e.replace(/^mailto:/i, '').replace(/[.,;:]+$/, '').toLowerCase()))].filter((e) => !JUNK.test(e) && e.length < 60);
 }
 const digits = (s = '') => s.replace(/\D/g, '').replace(/^1(?=\d{10}$)/, '');
@@ -62,9 +62,27 @@ const rows = demos.map((d) => {
   const nameTokens = `${d.name} ${d.slug}`.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length >= 4 && !/^(aiken|south|carolina|the|and|restaurant|company|center|shop|services?|llc|inc)$/.test(w));
   const plausible = found.filter((e) => {
     const dom = e.split('@')[1] || '';
-    return (siteHost && (dom === siteHost || dom.endsWith(siteHost.split('.').slice(-2).join('.')))) || nameTokens.some((w) => dom.replace(/[^a-z0-9]/g, '').includes(w)) || COMMON.test(e);
+    const own = (siteHost && (dom === siteHost || dom.endsWith(siteHost.split('.').slice(-2).join('.')))) || nameTokens.some((w) => dom.replace(/[^a-z0-9]/g, '').includes(w));
+    // A free mailbox (gmail, icloud…) found on a page counts only when it is named after the business:
+    // pages also carry a font designer's, a band's or a vendor's personal address.
+    const local = e.split('@')[0].replace(/[^a-z0-9]/g, '');
+    return own || (COMMON.test(e) && nameTokens.some((w) => local.includes(w)));
   });
-  const emails = [...new Set([...known, ...plausible])];
+  // The business's own-domain addresses first.
+  const ownDomain = (e) => Boolean(siteHost) && (e.split('@')[1] || '').endsWith(siteHost.split('.').slice(-2).join('.'));
+  plausible.sort((a, b) => Number(ownDomain(b)) - Number(ownDomain(a)));
+  const all = [...new Set([...known, ...plausible])];
+  // Extra addresses: drop free mailboxes that are not named after the business or its contact (a designer's,
+  // a partner's), and on a franchise site that lists every location keep only this area's and the general ones.
+  const people = `${r.contact || ''}`.toLowerCase().split(/[^a-z]+/).filter((w) => w.length >= 4);
+  const named = (e) => { const l = e.split('@')[0].replace(/[^a-z0-9]/g, ''); return nameTokens.some((w) => l.includes(w)) || people.some((w) => l.includes(w)); };
+  const LOCAL = /aiken|augusta|graniteville|beechisland|^(info|contact|office|sales|hello|service)\d*$/;
+  const sameDomain = (e) => all.filter((x) => x.split('@')[1] === e.split('@')[1]).length;
+  const franchise = all.some((e) => sameDomain(e) > 10);
+  // "20kim@…" is "%20kim@…" (an encoded space) read wrongly: the same address as kim@….
+  const echo = (e) => /^(%20|20)/.test(e) && all.includes(e.replace(/^(%20|20)/, ''));
+  const extras = all.slice(1).filter((e) => !echo(e) && (!COMMON.test(e) || named(e)) && (!franchise || LOCAL.test(e.split('@')[0])));
+  const emails = all.length ? [all[0], ...extras.slice(0, 6)] : [];
   return {
     business: d.name, category: d.category, town: d.town.replace(/,?\s*SC$/i, ''),
     phone: phones[0] || '', otherPhones: phones.slice(1).join('; '),

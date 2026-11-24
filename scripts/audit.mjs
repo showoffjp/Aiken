@@ -17,7 +17,7 @@ console.log(`auditing ${targets.length} sites`);
 
 // ------------------------------------------------------------ helpers ----
 const EMAIL_RE = /[a-z0-9][a-z0-9._%+-]*@[a-z0-9-]+(?:\.[a-z0-9-]+)*\.[a-z]{2,}/gi;
-const BAD_EMAIL = /\.(png|jpe?g|gif|webp|svg|css|js)$|@(sentry|wixpress|example|domain|email|yourdomain|mysite|company|website|sentry-next|2x|3x)\b|^(user|name|email|you|your|example|test|username|someone|firstname)@|@[\d.]+$|godaddy|wix\.com|squarespace|placeholder|u003e/i;
+const BAD_EMAIL = /^(jane|john)[._-]?(smith|doe)@|\.(png|jpe?g|gif|webp|svg|css|js)$|@(sentry|wixpress|example|domain|email|yourdomain|mysite|company|website|sentry-next|2x|3x)\b|^(user|name|email|you|your|example|test|username|someone|firstname)@|@[\d.]+$|godaddy|wix\.com|squarespace|placeholder|u003e/i;
 
 function cfDecode(hex = '') {
   const key = parseInt(hex.slice(0, 2), 16);
@@ -213,7 +213,7 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
     emails: emailsIn(html),
     phones: phonesIn(html),
     // Keep the id on profile.php links, and skip a bare profile.php (a dead icon) for the real one.
-    facebook: decode([...html.matchAll(/https?:\/\/(?:www\.|m\.)?facebook\.com\/(?!sharer|tr\b|plugins|dialog|share)(?:profile\.php\?id=\d+|[^"'\s<>?]+)/gi)].map((m) => m[0]).find((u) => !/facebook\.com\/profile\.php$/i.test(u)) || ''),
+    facebook: decode([...html.matchAll(/https?:\/\/(?:www\.|m\.)?facebook\.com\/(?!sharer|tr\b|plugins|dialog|share|2008\/fbml)(?:profile\.php\?id=\d+|[^"'\s<>?]+)/gi)].map((m) => m[0]).find((u) => !/facebook\.com\/profile\.php$/i.test(u)) || ''),
     instagram: decode((html.match(/https?:\/\/(?:www\.)?instagram\.com\/(?!p\/|explore)[^"'\s<>?]+/i) || [''])[0]),
   };
 }

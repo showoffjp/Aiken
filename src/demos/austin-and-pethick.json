@@ -1,0 +1,232 @@
+{
+  "name": "Austin & Pethick Law Firm",
+  "short": "Austin & Pethick",
+  "category": "Estate Planning & Business Law",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fraunces",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f8f6f6",
+    "surface": "#ffffff",
+    "ink": "#1d1a1c",
+    "muted": "#5c565a",
+    "primary": "#7a1f35",
+    "onPrimary": "#ffffff",
+    "accent": "#2f5d6b",
+    "line": "#e7e1e2"
+  },
+  "radius": 8,
+  "icon": "landmark",
+  "contact": {
+    "phone": "(803) 226-0453",
+    "email": "contact@austinpethick.com",
+    "address": [
+      "115 Hearthstone Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "115 Hearthstone Drive, Aiken, SC 29803",
+    "hoursNote": "Call for an appointment, or send a note and we’ll be in touch.",
+    "facebook": "https://www.facebook.com/AustinPethickLaw"
+  },
+  "hero": {
+    "eyebrow": "Aiken attorneys that are right there with you",
+    "title": "Legacy law, *empowered future*",
+    "lede": "Estate planning, probate and tax, business and real estate law, and government contracts, for individuals, families and businesses across Aiken and the surrounding area.",
+    "points": [
+      "Wills & trusts",
+      "Probate",
+      "Government contracts"
+    ],
+    "cta": {
+      "label": "Practice areas",
+      "href": "#practice"
+    },
+    "cta2": {
+      "label": "Call (803) 226-0453",
+      "href": "tel:+18032260453"
+    }
+  },
+  "facts": [
+    {
+      "value": "32%",
+      "label": "Of Americans have a will"
+    },
+    {
+      "value": "3–7%",
+      "label": "Of an estate probate can consume"
+    },
+    {
+      "value": "SC · GA · TN",
+      "label": "Where Chris is licensed"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "practice",
+      "nav": "Practice areas",
+      "columns": 3,
+      "eyebrow": "How we help",
+      "title": "Practice *areas*",
+      "items": [
+        {
+          "icon": "scroll-text",
+          "title": "Wills & trusts",
+          "text": "A Last Will & Testament, powers of attorney and living wills, updated as your life changes."
+        },
+        {
+          "icon": "landmark",
+          "title": "Probate & estates",
+          "text": "Estate and trust administration, and planning that keeps probate costs down."
+        },
+        {
+          "icon": "calculator",
+          "title": "Tax",
+          "text": "Estate tax planning and business succession, before the United States Tax Court if needed."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Business law",
+          "text": "Formation, contracts, mergers and acquisitions, and regulatory compliance."
+        },
+        {
+          "icon": "home",
+          "title": "Real estate",
+          "text": "Buying, selling or investing, residential and commercial, from contract to closing."
+        },
+        {
+          "icon": "flag",
+          "title": "Government contracts",
+          "text": "Bids, teaming agreements, joint ventures, mentor-protégé agreements and SBA rules."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "team",
+      "nav": "Attorneys",
+      "eyebrow": "Our attorneys",
+      "title": "Meet *the firm*",
+      "columns": [
+        {
+          "title": "Christopher A. Austin, J.D., LL.M., AEP®",
+          "items": [
+            "CEO and principal shareholder",
+            "Leads estate planning, probate and tax",
+            "LL.M. in taxation; Accredited Estate Planner® Distinguished",
+            "Licensed in SC, GA and TN; fluent in Spanish"
+          ]
+        },
+        {
+          "title": "Kevin E. Pethick, J.D.",
+          "items": [
+            "Government contracts",
+            "Commercial real estate",
+            "Teaming agreements, joint ventures and SBA rules",
+            "Small business matters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Aiken County, born and raised",
+      "title": "Your success *is our priority*",
+      "body": [
+        "Austin & Pethick offers comprehensive legal services for individuals, families and businesses in Aiken and the surrounding area, built on trust, transparency and a client-first approach.",
+        "Chris Austin is a lifelong Aiken County resident and Silver Bluff High School graduate, a University of South Carolina alumnus, and holds a master of laws in taxation from the University of Alabama."
+      ],
+      "list": [
+        "Estate planning to government contracts",
+        "Spanish spoken",
+        "Right here in Aiken"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Do I need estate planning?",
+          "a": "Estate planning helps everyone, whatever their age or wealth: it makes sure your wishes are followed and names guardians for minor children."
+        },
+        {
+          "q": "What documents are included?",
+          "a": "Usually a Last Will & Testament, a power of attorney and an advance directive (living will). We’ll advise on what fits your situation."
+        },
+        {
+          "q": "Can I update my will?",
+          "a": "Yes, as often as your circumstances change. We can help keep it current."
+        },
+        {
+          "q": "Do I need a lawyer to start a business?",
+          "a": "It isn’t always required, but legal guidance protects your interests and sets up the right structure for growth."
+        },
+        {
+          "q": "What do you handle for government contracts?",
+          "a": "Bid proposals, contract negotiations and staying compliant with government regulations."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Protect what matters most",
+      "text": "Talk with an Aiken attorney about your plans.",
+      "cta": {
+        "label": "Call (803) 226-0453",
+        "href": "tel:+18032260453"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Hearthstone Drive*",
+    "formTitle": "Tell us how we can help",
+    "formTopics": [
+      "Wills & trusts",
+      "Probate",
+      "Tax",
+      "Business law",
+      "Real estate",
+      "Government contracts"
+    ]
+  },
+  "slug": "austin-and-pethick",
+  "added": "2026-11-24",
+  "prospect": "austin-and-pethick-law-firm",
+  "source": {
+    "url": "https://www.austinpethick.com/",
+    "before": [
+      "An attorney bio says the federal estate tax exemption is “currently 2.92 million”: that was the 2023 figure",
+      "On a phone there’s no call button or phone number on the first screen",
+      "An automated accessibility check flags 25 places where text is too faint to read easily",
+      "The footer still says © Copyright 2024"
+    ],
+    "after": [
+      "Six practice areas explained in a glance",
+      "Both attorneys and what each handles",
+      "Plain answers to common estate questions",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "frame": "circle",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "plain",
+    "motion": "rise",
+    "buttons": "pill",
+    "backdrop": "ripple"
+  }
+}

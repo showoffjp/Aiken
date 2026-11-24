@@ -151,6 +151,11 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "austin-and-pethick": {
+  "q": "115 Hearthstone Drive, Aiken, SC 29803",
+  "missing": true,
+  "at": "2026-11-24"
+ },
  "automotive-workbench": {
   "q": "958 East Pine Log Road, Aiken, SC 29803",
   "lat": 33.534751,
@@ -1313,5 +1318,10 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "zook-homes": {
+  "q": "PO Box 5549, Aiken, SC 29804",
+  "missing": true,
+  "at": "2026-11-24"
  }
 }

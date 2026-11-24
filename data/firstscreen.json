@@ -385,6 +385,26 @@
    "at": "2026-11-19"
   }
  },
+ "austin-and-pethick-law-firm": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 32,
+   "smallTargets": 5,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 30,
+   "smallTargets": 0,
+   "at": "2026-11-24"
+  }
+ },
  "automotive-workbench": {
   "site": {
    "call": true,
@@ -2936,6 +2956,26 @@
    "targets": 22,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "zook-homes": {
+  "site": {
+   "call": false,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 22,
+   "smallTargets": 6,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 41,
+   "smallTargets": 0,
+   "at": "2026-11-24"
   }
  }
 }

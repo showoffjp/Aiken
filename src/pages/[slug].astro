@@ -5,6 +5,7 @@ import { assetUrl } from '../lib/asset-url';
 import '../styles/personality.css';
 import '../styles/vivid.css';
 import '../styles/features.css';
+import '../styles/backdrops.css';
 import Icon from '../components/Icon.astro';
 import Seal from '../components/demo/Seal.astro';
 import Sections from '../components/demo/Sections.astro';
@@ -61,6 +62,10 @@ const lowResWide = !!hero.image && !!hero.image.width && !!hero.image.height && 
 // Personality: a hero archetype and section treatments chosen per concept.
 const st = demo.style || {};
 const archetype = !cine ? st.hero : undefined;
+// A moving background behind the hero and the call-to-action band (backdrops.css): chosen by
+// the concept's style, or spread evenly across concepts by a hash of the slug.
+const BACKDROPS = ['bokeh', 'contour', 'beams', 'ripple'];
+const backdrop = st.backdrop || BACKDROPS[[...demo.slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7) % BACKDROPS.length];
 // The blueprint and magazine heroes already set out the key facts.
 const factsInHero = archetype === 'blueprint' || archetype === 'magazine';
 const cineImg = cine ? cinematicHero(demo) : undefined;
@@ -134,7 +139,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
-  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} data-hours={hoursSpec ? JSON.stringify(hoursSpec) : undefined} style={vars}>
+  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} data-backdrop={backdrop} data-hours={hoursSpec ? JSON.stringify(hoursSpec) : undefined} style={vars}>
     <a class="skip" href="#main">Skip to content</a>
 
     <aside class="concept" aria-label="About this preview">
@@ -823,6 +828,30 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           if (moving && fine) { card.style.setProperty('--ry', `${(x / r.width - 0.5) * 9}deg`); card.style.setProperty('--rx', `${(0.5 - y / r.height) * 9}deg`); }
         }));
         document.querySelectorAll('.card').forEach((card) => card.addEventListener('pointerleave', () => { card.style.setProperty('--rx', '0deg'); card.style.setProperty('--ry', '0deg'); }));
+
+        // Backdrop: decorative layers behind the hero (not over a hero photo) and the call-to-action band.
+        const bdKind = document.body.dataset.backdrop;
+        const bdCount = { bokeh: 9, beams: 4, ripple: 3, contour: 1 }[bdKind] || 0;
+        if (bdCount) document.querySelectorAll('.hero:not([data-variant="photo"]), .band').forEach((host) => {
+          const bd = document.createElement('div');
+          bd.className = `bd bd-${bdKind}`;
+          bd.setAttribute('aria-hidden', 'true');
+          for (let i = 0; i < bdCount; i++) bd.append(document.createElement('i'));
+          host.prepend(bd);
+        });
+        // A soft spotlight follows the pointer across menu groups, steps and quotes (cards have their own glare).
+        if (fine && moving) document.querySelectorAll('.menu-group, .steps > li, .quotes figure').forEach((el) => {
+          const glow = document.createElement('span');
+          glow.className = 'spot';
+          glow.setAttribute('aria-hidden', 'true');
+          el.classList.add('has-spot');
+          el.prepend(glow);
+          el.addEventListener('pointermove', (e) => {
+            const r = el.getBoundingClientRect();
+            el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+            el.style.setProperty('--my', `${e.clientY - r.top}px`);
+          });
+        });
 
         if (moving) {
           // Headline: each word settles in from a soft blur, one after another.

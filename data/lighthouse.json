@@ -775,12 +775,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 796,
-   "lcp": 1427,
-   "tbt": 32,
-   "si": 796,
+   "fcp": 945,
+   "lcp": 1729,
+   "tbt": 17,
+   "si": 945,
    "cls": 0,
-   "at": "2026-11-18"
+   "at": "2026-11-24"
   },
   "site": {
    "performance": 82,
@@ -1061,16 +1061,16 @@
  },
  "the-jewelers-loupe": {
   "concept": {
-   "performance": 100,
+   "performance": 99,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1053,
-   "lcp": 1503,
-   "tbt": 0,
-   "si": 1053,
-   "cls": 0.003,
-   "at": "2026-11-18"
+   "fcp": 1101,
+   "lcp": 1802,
+   "tbt": 23,
+   "si": 1101,
+   "cls": 0,
+   "at": "2026-11-24"
   },
   "site": {
    "performance": 64,
@@ -3105,16 +3105,28 @@
  },
  "zook-homes": {
   "site": {
-   "performance": 34,
+   "performance": 41,
    "accessibility": 92,
-   "bestPractices": 79,
+   "bestPractices": 96,
    "seo": 100,
-   "fcp": 3414,
-   "lcp": 10541,
-   "tbt": 822,
-   "si": 4463,
+   "fcp": 3262,
+   "lcp": 11345,
+   "tbt": 452,
+   "si": 5480,
    "cls": 0.246,
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1057,
+   "lcp": 2857,
+   "tbt": 15,
+   "si": 1057,
+   "cls": 0,
+   "at": "2026-11-24"
   }
  },
  "208-abbeville-bed-and-breakfast": {
@@ -3361,12 +3373,12 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 796,
-   "lcp": 1579,
-   "tbt": 75,
-   "si": 796,
+   "fcp": 1023,
+   "lcp": 1952,
+   "tbt": 66,
+   "si": 1023,
    "cls": 0,
-   "at": "2026-11-18"
+   "at": "2026-11-24"
   }
  },
  "unique-catering": {
@@ -4827,14 +4839,14 @@
    "at": "2026-11-24"
   },
   "concept": {
-   "performance": 99,
+   "performance": 97,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 66,
-   "fcp": 945,
-   "lcp": 2028,
-   "tbt": 11,
-   "si": 945,
+   "fcp": 946,
+   "lcp": 2029,
+   "tbt": 184,
+   "si": 946,
    "cls": 0,
    "at": "2026-11-24"
   }
@@ -4857,10 +4869,36 @@
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1205,
-   "lcp": 1955,
+   "fcp": 1202,
+   "lcp": 1952,
    "tbt": 0,
-   "si": 1205,
+   "si": 1202,
+   "cls": 0,
+   "at": "2026-11-24"
+  }
+ },
+ "austin-and-pethick-law-firm": {
+  "site": {
+   "performance": 73,
+   "accessibility": 89,
+   "bestPractices": 96,
+   "seo": 92,
+   "fcp": 1680,
+   "lcp": 7905,
+   "tbt": 78,
+   "si": 4092,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 91,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 948,
+   "lcp": 1736,
+   "tbt": 379,
+   "si": 948,
    "cls": 0,
    "at": "2026-11-24"
   }

@@ -9060,7 +9060,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 34,
+    "performance": 41,
     "pageMB": 3.6,
     "a11ySerious": 18,
     "facebook": true,
@@ -35237,7 +35237,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": null,
+    "performance": 73,
     "pageMB": 1.3,
     "a11ySerious": 26,
     "facebook": true,
@@ -45179,7 +45179,7 @@
     "description": true,
     "schema": false,
     "og": true,
-    "performance": null,
+    "performance": 73,
     "pageMB": 1.3,
     "a11ySerious": 26,
     "facebook": true,
@@ -45623,6 +45623,701 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 5
+   }
+  ]
+ },
+ "zook-homes": {
+  "slug": "zook-homes",
+  "name": "Zook Homes",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "zookhomes.com",
+   "https": true,
+   "pagesCrawled": 12,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.zookhomes.com/",
+    "title": "Zook Homes: Luxury Custom Homes & Renovations",
+    "description": "Welcome to Zook Homes, your premier custom home builder and renovation specialist. We bring your dream home to life with unmatched craftsmanship, quality materials, and personalized service. From initial design to final construction, our expert team ensures every detail meets your vision and exceeds your expectations. Explore our custom homes and renovation services today.",
+    "canonical": "https://www.zookhomes.com",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Zook Homes: Luxury Custom Homes & Renovations",
+     "description": "Welcome to Zook Homes, your premier custom home builder and renovation specialist. We bring your dream home to life with unmatched craftsmanship, quality materials, and personalized service. From initial design to final construction, our expert team ensures every detail meets your vision and exceeds",
+     "image": "http://static1.squarespace.com/static/66a8f004d5b68d08afec6482/t/66df3defbffbb900e6595330/1725906415845/_DSC0664r.jpg?format=1500w",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Handcrafted Custom Homes",
+     "Integrity. Passion. Quality."
+    ],
+    "h1Count": 2,
+    "h2": 10,
+    "h3": 4,
+    "words": 874,
+    "images": 30,
+    "imagesNoAlt": 5,
+    "schemaTypes": [
+     "WebSite",
+     "LocalBusiness"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": false,
+     "hours": true,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.zookhomes.com/sitemap.xml",
+    "pages": 11
+   },
+   "crawl": {
+    "pages": 12,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 4,
+    "thin": 1,
+    "noindex": 0,
+    "dupTitles": 1,
+    "dupDescs": 1,
+    "imagesNoAlt": 40,
+    "images": 230,
+    "sample": [
+     {
+      "url": "https://www.zookhomes.com/",
+      "title": "Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 375,
+      "h1": 2,
+      "words": 874
+     },
+     {
+      "url": "https://www.zookhomes.com/custom-homes",
+      "title": "Custom Homes - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 354,
+      "h1": 2,
+      "words": 1047
+     },
+     {
+      "url": "https://www.zookhomes.com/renovations",
+      "title": "Home Renovations - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 200,
+      "h1": 2,
+      "words": 874
+     },
+     {
+      "url": "https://www.zookhomes.com/about",
+      "title": "Meet The Team - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 307,
+      "h1": 1,
+      "words": 753
+     },
+     {
+      "url": "https://www.zookhomes.com/portfolio",
+      "title": "Portfolio - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 357,
+      "h1": 1,
+      "words": 451
+     },
+     {
+      "url": "https://www.zookhomes.com/request-consultation",
+      "title": "Contact Us - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 286,
+      "h1": 1,
+      "words": 178
+     },
+     {
+      "url": "https://www.zookhomes.com/custom-homes",
+      "title": "Custom Homes - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 354,
+      "h1": 2,
+      "words": 1047
+     },
+     {
+      "url": "https://www.zookhomes.com/privacy-policy",
+      "title": "Our Privacy Policy - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 0,
+      "h1": 1,
+      "words": 1215
+     },
+     {
+      "url": "https://www.zookhomes.com/gordon-drive",
+      "title": "Gordon Drive Custom Home - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 301,
+      "h1": 1,
+      "words": 430
+     },
+     {
+      "url": "https://www.zookhomes.com/anglers-point",
+      "title": "Anglers Point Custom Home - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 304,
+      "h1": 1,
+      "words": 625
+     },
+     {
+      "url": "https://www.zookhomes.com/roland-place",
+      "title": "Rolland Place Custom Home - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 234,
+      "h1": 1,
+      "words": 560
+     },
+     {
+      "url": "https://www.zookhomes.com/webbs-pond-road",
+      "title": "Webbs Pond Road Custom Home - Zook Homes: Luxury Custom Homes & Renovations",
+      "description": 265,
+      "h1": 1,
+      "words": 737
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 15,
+    "broken": [
+     {
+      "url": "https://www.zookhomes.com/meet-the-builder",
+      "status": 404,
+      "from": "https://www.zookhomes.com/"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/zookcustomhomes",
+    "Instagram": "https://www.instagram.com/zookcustomhomes/",
+    "YouTube": "https://www.youtube.com/@ZookCustomHomes",
+    "LinkedIn": "https://www.linkedin.com/company/zook-custom-homes/"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Custom Home Builder",
+    "title": false,
+    "h1": false,
+    "description": true,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Aiken",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1094&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=0f697c11e61b27201ecd5aea7c56f02b",
+    "name": "Zook Homes",
+    "phone": "(803) 443-9157",
+    "website": "http://www.zookhomes.com",
+    "address": "PO Box 5549, Aiken, SC 29804",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/zookcustomhomes",
+    "Instagram": "https://www.instagram.com/zookcustomhomes/",
+    "YouTube": "https://www.youtube.com/@ZookCustomHomes",
+    "LinkedIn": "https://www.linkedin.com/company/zook-custom-homes/"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/zookcustomhomes",
+    "Instagram": "https://www.instagram.com/zookcustomhomes/"
+   }
+  },
+  "domain": {
+   "name": "zookhomes.com",
+   "created": "2018-02-16",
+   "expires": "2027-02-16",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 8
+  },
+  "performance": {
+   "performance": 41,
+   "accessibility": 92,
+   "bestPractices": 96,
+   "seo": 100,
+   "fcp": 3262,
+   "lcp": 11345,
+   "tbt": 452,
+   "si": 5480,
+   "cls": 0.246,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1057,
+   "lcp": 2857,
+   "tbt": 15,
+   "si": 1057,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "designer-builders-inc",
+   "mitch-johnson-construction-company-inc",
+   "tindall-construction-inc",
+   "wolf-construction"
+  ],
+  "scores": {
+   "seo": 65,
+   "social": 80,
+   "lighthouseSeo": 100
+  },
+  "competitors": [
+   {
+    "slug": "designer-builders-inc",
+    "name": "Designer Builders, Inc.",
+    "website": "https://designerbuilders.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 66,
+    "pageMB": 2.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "mitch-johnson-construction-company-inc",
+    "name": "Mitch Johnson Construction Company, Inc.",
+    "website": "https://www.mitchjohnsonconstruction.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 84,
+    "pageMB": 0.5,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "tindall-construction-inc",
+    "name": "Tindall Construction, Inc.",
+    "website": "https://tindallconstructioninc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 2.3,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 15
+   },
+   {
+    "slug": "wolf-construction",
+    "name": "Wolf Construction",
+    "website": "http://www.wolfconstruction.com/",
+    "state": "blocked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 23
+   }
+  ]
+ },
+ "austin-and-pethick-law-firm": {
+  "slug": "austin-and-pethick",
+  "name": "Austin & Pethick Law Firm",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "austinpethick.com",
+   "https": true,
+   "pagesCrawled": 14,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.austinpethick.com/",
+    "title": "Trusted Aiken Attorney, Legal Services in Aiken, SC for Estate Planning, Probate, Government Contracts, Business, Commercial and Residential Real Estate",
+    "description": "Looking for a trusted attorney in Aiken, SC? Our knowledgeable legal team provides personalized services in Estate Planning, Probate, Government Contracts, Tax, Business, Commercial and Residential Real Estate. Let us guide you through complex legal landscape with ease.",
+    "canonical": "https://www.austinpethick.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Trusted Aiken Attorney, Legal Services in Aiken, SC for Estate Planning, Probate, Government Contracts, Business, Commercial and Residential Real Estate",
+     "description": "Looking for a trusted attorney in Aiken, SC? Our knowledgeable legal team provides personalized services in Estate Planning, Probate, Government Contracts, Tax, Business, Commercial and Residential Real Estate. Let us guide you through complex legal landscape with ease.",
+     "image": "https://www.austinpethick.com/wp-content/uploads/2024/06/Austin-and-Pethick-Logo-2.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 9,
+    "h3": 7,
+    "words": 1158,
+    "images": 6,
+    "imagesNoAlt": 1,
+    "schemaTypes": [],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": false,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://www.austinpethick.com/wp-sitemap.xml",
+    "pages": 30
+   },
+   "crawl": {
+    "pages": 14,
+    "missingTitle": 0,
+    "missingDescription": 3,
+    "missingH1": 1,
+    "multipleH1": 0,
+    "thin": 2,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 20,
+    "images": 70,
+    "sample": [
+     {
+      "url": "https://www.austinpethick.com/",
+      "title": "Trusted Aiken Attorney, Legal Services in Aiken, SC for Estate Planning, Probate, Government Contracts, Business, Commercial and Residential Real Estate",
+      "description": 270,
+      "h1": 0,
+      "words": 1158
+     },
+     {
+      "url": "https://www.austinpethick.com/contact-us/",
+      "title": "Contact Us - Austin and Pethick Law Firm Aiken, SC",
+      "description": 37,
+      "h1": 1,
+      "words": 195
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/",
+      "title": "Practice Areas - Austin and Pethick Law Firm Aiken, SC",
+      "description": 304,
+      "h1": 1,
+      "words": 1120
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/business-law/",
+      "title": "Business Law - Austin and Pethick Law Firm Aiken, SC",
+      "description": 323,
+      "h1": 1,
+      "words": 479
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/estate-planning/",
+      "title": "Estate Planning - Austin and Pethick Law Firm Aiken, SC",
+      "description": 321,
+      "h1": 1,
+      "words": 623
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/government-contracts/",
+      "title": "Government Contracts - Austin and Pethick Law Firm Aiken, SC",
+      "description": 406,
+      "h1": 1,
+      "words": 521
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/probate/",
+      "title": "Probate - Austin and Pethick Law Firm Aiken, SC",
+      "description": 334,
+      "h1": 1,
+      "words": 597
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/commercial-real-estate/",
+      "title": "Commercial Real Estate - Austin and Pethick Law Firm Aiken, SC",
+      "description": 330,
+      "h1": 1,
+      "words": 659
+     },
+     {
+      "url": "https://www.austinpethick.com/practice-areas/tax-law/",
+      "title": "Tax Law - Austin and Pethick Law Firm Aiken, SC",
+      "description": 473,
+      "h1": 1,
+      "words": 576
+     },
+     {
+      "url": "https://www.austinpethick.com/press-releases/",
+      "title": "Press Releases - Austin and Pethick Law Firm Aiken, SC",
+      "description": 0,
+      "h1": 1,
+      "words": 4122
+     },
+     {
+      "url": "https://www.austinpethick.com/blog/",
+      "title": "Blog - Austin and Pethick Law Firm Aiken, SC",
+      "description": 0,
+      "h1": 1,
+      "words": 263
+     },
+     {
+      "url": "https://www.austinpethick.com/faqs/",
+      "title": "FAQs - Austin and Pethick Law Firm Aiken, SC",
+      "description": 342,
+      "h1": 1,
+      "words": 587
+     },
+     {
+      "url": "https://www.austinpethick.com/get-started/",
+      "title": "Get Started - Austin and Pethick Law Firm Aiken, SC",
+      "description": 246,
+      "h1": 1,
+      "words": 277
+     },
+     {
+      "url": "https://www.austinpethick.com/author/austin-pethick/",
+      "title": "Austin-Pethick - Austin and Pethick Law Firm Aiken, SC",
+      "description": 0,
+      "h1": 1,
+      "words": 205
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 25,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/AustinPethickLaw",
+    "LinkedIn": "https://www.linkedin.com/company/austin-and-pethick-law-firm"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Estate Planning",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 9
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 4
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=217&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=583ccf7191fef8a69515565b0881440e",
+    "name": "Austin & Pethick Law Firm",
+    "phone": "(803) 226-0453",
+    "website": "http://www.austinpethick.com",
+    "address": "115 Hearthstone Drive, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/AustinPethickLaw",
+    "LinkedIn": "https://www.linkedin.com/company/austin-and-pethick-law-firm"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/AustinPethickLaw"
+   }
+  },
+  "domain": {
+   "name": "austinpethick.com",
+   "created": "2018-03-12",
+   "expires": "2027-03-12",
+   "registrar": "Tucows Domains Inc.",
+   "years": 8
+  },
+  "performance": {
+   "performance": 73,
+   "accessibility": 89,
+   "bestPractices": 96,
+   "seo": 92,
+   "fcp": 1680,
+   "lcp": 7905,
+   "tbt": 78,
+   "si": 4092,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 953,
+   "lcp": 1729,
+   "tbt": 296,
+   "si": 953,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "andrew-c-marine-attorney",
+   "chandler-law-firm-pa",
+   "hull-barrett-attorneys-pc",
+   "john-harte-law",
+   "johnson-johnson-whittle-lancer-and-staggs-attorn"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 60,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "andrew-c-marine-attorney",
+    "name": "Andrew C. Marine, Attorney",
+    "website": "https://www.andrewmarine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "chandler-law-firm-pa",
+    "name": "Chandler Law Firm, PA",
+    "website": "https://thechandlerlawfirm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 3.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "hull-barrett-attorneys-pc",
+    "name": "Hull Barrett Attorneys, PC",
+    "website": "https://www.hullbarrett.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "john-harte-law",
+    "name": "John Harte Law",
+    "website": "https://www.jwhartelaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 5,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 7
+   },
+   {
+    "slug": "johnson-johnson-whittle-lancer-and-staggs-attorn",
+    "name": "Johnson, Johnson, Whittle, Lancer, & Staggs Attorneys, PA",
+    "website": "https://aikenattorneys.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.3,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 21
    }
   ]
  }
