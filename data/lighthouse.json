@@ -4812,5 +4812,57 @@
    "cls": 0,
    "at": "2026-11-24"
   }
+ },
+ "bill-cunningham-fitness": {
+  "site": {
+   "performance": 48,
+   "accessibility": 86,
+   "bestPractices": 79,
+   "seo": 92,
+   "fcp": 2952,
+   "lcp": 20287,
+   "tbt": 574,
+   "si": 7681,
+   "cls": 0.004,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2028,
+   "tbt": 11,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-24"
+  }
+ },
+ "chandler-law-firm-pa": {
+  "site": {
+   "performance": 50,
+   "accessibility": 72,
+   "bestPractices": 57,
+   "seo": 77,
+   "fcp": 4058,
+   "lcp": 5098,
+   "tbt": 656,
+   "si": 7110,
+   "cls": 0.004,
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1205,
+   "lcp": 1955,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-24"
+  }
  }
 }

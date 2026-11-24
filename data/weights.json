@@ -713,11 +713,18 @@
  },
  "bill-cunningham-fitness": {
   "site": {
-   "bytes": 5496902,
-   "requests": 163,
-   "loadMs": 3015,
+   "bytes": 4819202,
+   "requests": 143,
+   "loadMs": 2856,
    "url": "https://billcunninghamfitness.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 437158,
+   "requests": 7,
+   "loadMs": 121,
+   "url": "/bill-cunningham-fitness/",
+   "at": "2026-11-24"
   }
  },
  "bloom-salon-spa-boutique": {
@@ -1130,11 +1137,18 @@
  },
  "chandler-law-firm-pa": {
   "site": {
-   "bytes": 3368554,
-   "requests": 116,
-   "loadMs": 5163,
+   "bytes": 3384853,
+   "requests": 123,
+   "loadMs": 3613,
    "url": "https://thechandlerlawfirm.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 344360,
+   "requests": 6,
+   "loadMs": 113,
+   "url": "/chandler-law-firm/",
+   "at": "2026-11-24"
   }
  },
  "changes-day-spa": {
