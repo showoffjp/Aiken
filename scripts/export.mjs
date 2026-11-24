@@ -116,6 +116,10 @@ const rows = businesses.filter((b) => b.include).map((b) => {
   // Put a person's or the office's address ahead of webmaster-style ones.
   const technical = (e) => /^(webmaster|techsupport|support|noreply|no-reply|admin|postmaster|hostmaster)@/i.test(e);
   const emails = [...new Set([b.email, ...(a?.emails || [])].filter(Boolean))].sort((x, y) => Number(technical(x)) - Number(technical(y)));
+  // A directory may name an office contact, but when the first email address is the owner's own
+  // mailbox (richard@...), the email goes to the owner, so name and greet the owner.
+  const own = owners[b.slug];
+  const useOwner = Boolean(own?.greet && emails[0] && emails[0].split('@')[0].toLowerCase().startsWith(own.greet.toLowerCase()));
   return {
     slug: b.slug,
     name: b.name,
@@ -141,11 +145,11 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     facebook: a?.facebook || b.social || '',
     instagram: a?.instagram || '',
     address: b.address,
-    contact: b.contact || owners[b.slug]?.name || '',
-    contactRole: b.contact ? '' : owners[b.slug]?.role || '',
-    contactSource: b.contact ? 'Directory listing' : owners[b.slug]?.source || '',
+    contact: useOwner ? own.name : b.contact || own?.name || '',
+    contactRole: useOwner ? own.role : b.contact ? '' : own?.role || '',
+    contactSource: useOwner ? own.source : b.contact ? 'Directory listing' : own?.source || '',
     // The name a first email opens with: a listed contact's first name, or an owner's chosen greeting (empty when unsure).
-    greet: b.contact ? b.contact.split(/\s+/)[0] : owners[b.slug]?.greet || '',
+    greet: useOwner ? own.greet : b.contact ? b.contact.split(/\s+/)[0] : own?.greet || '',
     familyNote: a?.familySignal || '',
     since: a?.since || null,
     blurb: b.blurb,
