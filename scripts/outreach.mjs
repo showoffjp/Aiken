@@ -193,7 +193,7 @@ Not interested? Reply "no thanks" and I will not contact you again.`;
 
   const file = `${d.slug}.md`;
   await writeFile(path.join(out, file), `# ${d.name}
-
+${row.holdNote ? `\n> **Hold before sending:** ${row.holdNote}\n` : ''}
 | | |
 | --- | --- |
 | Town | ${d.town} |

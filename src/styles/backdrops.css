@@ -1,0 +1,106 @@
+/* ==========================================================================
+   Backdrops: one moving background per concept, behind the hero and the
+   call-to-action band (data-backdrop on <body>, set in [slug].astro):
+     bokeh    soft discs of the palette drifting upward
+     contour  topographic lines that slowly pan
+     beams    diagonal shafts of light sweeping across
+     ripple   rings spreading out from one corner
+   Purely decorative (aria-hidden, no pointer events), kept faint so text
+   contrast never depends on them. Like the other decorative loops they start
+   on the visitor's first interaction (.awake), stop for reduced motion and
+   with the page's pause button, and are left out of print.
+   Plus: a pointer spotlight on menu groups, steps and quotes, and photos that
+   "develop" (colour comes up) as they scroll into view.
+   ========================================================================== */
+.bd { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; container-type: size; }
+.band > .bd { z-index: -1; }
+.bd i { position: absolute; display: block; animation-play-state: paused; }
+.awake .bd i { animation-play-state: running; }
+
+/* --- bokeh */
+.bd-bokeh i {
+  left: var(--x); bottom: -30%; width: var(--s); aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle at 38% 36%, color-mix(in srgb, var(--c) 46%, transparent), color-mix(in srgb, var(--c) 14%, transparent) 55%, transparent 72%);
+  animation: bd-rise var(--d) linear var(--w) infinite paused;
+}
+.band .bd-bokeh i { --c: var(--on-primary) !important; opacity: .55; }
+.bd-bokeh i:nth-child(1) { --x: 6%;  --s: 120px; --d: 26s; --w: -4s;  --c: var(--primary); }
+.bd-bokeh i:nth-child(2) { --x: 18%; --s: 60px;  --d: 19s; --w: -12s; --c: var(--accent); }
+.bd-bokeh i:nth-child(3) { --x: 34%; --s: 150px; --d: 31s; --w: -20s; --c: var(--hue3, var(--accent)); }
+.bd-bokeh i:nth-child(4) { --x: 49%; --s: 44px;  --d: 17s; --w: -3s;  --c: var(--primary); }
+.bd-bokeh i:nth-child(5) { --x: 61%; --s: 96px;  --d: 24s; --w: -16s; --c: var(--accent); }
+.bd-bokeh i:nth-child(6) { --x: 72%; --s: 170px; --d: 34s; --w: -9s;  --c: var(--primary); }
+.bd-bokeh i:nth-child(7) { --x: 84%; --s: 70px;  --d: 21s; --w: -14s; --c: var(--hue3, var(--accent)); }
+.bd-bokeh i:nth-child(8) { --x: 92%; --s: 110px; --d: 28s; --w: -22s; --c: var(--accent); }
+.bd-bokeh i:nth-child(9) { --x: 40%; --s: 52px;  --d: 23s; --w: -7s;  --c: var(--accent); }
+@keyframes bd-rise {
+  0%   { transform: translate3d(0, 0, 0) scale(.85); opacity: 0; }
+  12%  { opacity: 1; }
+  50%  { transform: translate3d(18px, -70cqh, 0) scale(1); }
+  88%  { opacity: .9; }
+  100% { transform: translate3d(-12px, -150cqh, 0) scale(1.08); opacity: 0; }
+}
+
+/* --- contour */
+.bd-contour { --contour: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='640'%3E%3Cpath d='M194 190C191 193 189 194 188 197C187 200 189 205 187 207C186 210 182 211 179 212C176 213 173 213 170 214C167 215 162 219 158 218C155 217 153 212 151 209C150 205 152 201 151 198C149 195 144 193 143 190C141 187 142 182 144 179C146 177 152 177 155 175C158 174 159 171 161 169C164 168 167 165 170 165C173 165 175 168 179 169C182 170 186 169 190 170C194 171 200 174 200 177C201 181 196 187 194 190ZM228 190C229 197 224 204 221 211C218 218 215 226 210 230C205 235 197 239 190 238C183 238 176 228 170 226C164 225 161 227 154 228C148 229 135 233 130 230C124 227 122 217 121 210C119 204 121 197 121 190C121 183 117 175 119 169C122 163 130 159 135 155C141 151 146 150 152 147C158 143 164 134 170 134C176 134 185 139 189 145C193 150 192 159 196 164C200 169 209 167 214 172C219 176 227 183 228 190ZM257 190C259 199 249 212 242 220C236 228 225 231 218 238C211 245 208 259 200 263C192 268 180 268 170 267C160 266 152 261 142 258C132 255 116 257 110 250C103 244 101 228 102 218C103 208 116 199 117 190C117 181 107 174 105 163C104 153 102 135 107 127C113 119 128 118 139 114C149 111 160 107 170 108C180 109 193 111 200 118C207 125 206 141 211 149C216 157 222 158 230 165C238 172 255 181 257 190ZM291 190C292 203 273 218 263 229C253 239 241 243 232 252C224 262 221 281 211 288C200 295 183 295 170 293C157 292 145 285 132 281C119 277 100 277 92 268C84 259 84 238 85 225C85 212 97 203 96 190C94 177 76 165 74 150C72 136 74 113 83 103C92 93 115 95 130 93C144 90 157 88 170 89C183 90 198 93 207 101C216 108 217 126 226 134C234 143 248 144 259 153C270 162 291 177 291 190ZM311 190C320 207 328 237 320 252C311 267 278 273 260 280C243 288 229 292 214 296C199 301 184 311 170 309C156 306 146 286 133 279C120 272 110 273 93 267C76 262 42 260 32 247C21 234 27 207 31 190C35 173 49 159 56 143C62 126 59 101 70 90C80 78 104 72 121 72C138 72 154 88 170 89C186 91 201 79 215 82C229 84 246 94 255 105C264 116 260 135 270 149C279 163 303 173 311 190ZM321 190C312 210 302 225 293 241C284 257 279 276 267 287C254 298 235 299 219 308C203 317 190 332 170 341C150 349 119 364 101 357C82 351 69 320 59 301C50 281 52 260 45 242C37 224 15 209 12 190C9 171 16 147 26 131C36 114 57 105 72 92C86 79 97 60 113 53C129 46 152 46 170 49C188 52 200 66 220 70C240 74 268 63 289 71C309 79 338 98 343 118C349 138 329 170 321 190ZM498 440C498 444 500 449 498 452C496 455 491 457 488 458C485 459 481 457 478 458C475 460 473 465 470 467C467 470 461 472 457 471C454 470 451 464 449 461C447 457 445 454 444 451C443 447 442 443 442 440C443 437 448 434 449 431C451 428 450 425 452 422C453 418 455 412 458 410C461 409 466 411 470 413C474 414 476 417 479 418C482 419 488 418 491 419C494 421 496 425 498 429C499 432 498 436 498 440ZM530 440C533 447 533 458 529 465C526 472 518 477 512 482C505 486 499 491 492 494C485 496 477 497 470 496C463 494 457 489 451 485C445 482 439 480 435 475C430 471 424 466 422 460C420 454 421 447 420 440C420 433 417 426 417 418C418 410 418 399 422 392C427 386 438 383 446 382C454 380 463 383 470 386C477 388 484 390 489 394C494 398 497 404 501 409C505 414 508 417 513 422C518 427 527 433 530 440ZM557 440C554 450 539 456 535 467C532 478 540 495 536 506C532 518 521 535 510 536C499 538 481 522 470 516C459 511 452 507 444 503C436 498 425 497 419 491C414 484 416 473 410 465C403 457 388 452 380 440C372 428 358 406 362 395C366 384 391 378 405 375C419 372 434 380 444 378C455 376 461 364 470 363C479 362 490 367 498 371C507 376 512 383 522 388C531 394 551 396 556 404C562 413 561 430 557 440ZM587 440C590 455 594 475 589 489C584 504 571 521 558 528C545 535 523 530 508 532C494 535 484 539 470 542C456 544 437 554 424 550C412 546 401 529 394 516C387 504 388 489 383 476C379 463 370 453 367 440C365 427 366 412 368 398C371 383 375 368 384 354C392 339 402 317 417 312C431 306 456 312 470 321C484 330 491 354 502 364C512 374 519 374 530 380C542 385 559 389 569 399C578 409 584 425 587 440ZM591 440C592 459 607 476 608 497C608 518 611 555 596 566C581 577 541 565 520 561C499 557 486 541 470 540C454 539 437 558 422 557C406 556 390 544 376 534C362 524 350 511 336 496C322 480 293 459 293 440C292 421 317 396 335 384C352 372 384 379 398 368C412 357 408 332 420 319C432 305 453 288 470 289C487 289 503 313 519 322C535 331 553 333 567 343C580 354 598 369 602 385C606 402 590 421 591 440ZM615 440C615 461 625 483 620 502C615 521 599 542 583 553C567 565 543 563 525 572C506 581 492 600 470 608C448 616 417 626 395 620C374 613 355 588 341 569C326 550 314 528 309 507C304 485 302 459 310 440C317 421 342 408 353 391C363 375 365 363 373 343C381 323 385 288 401 273C417 258 447 253 470 254C493 255 516 268 537 278C559 287 584 296 598 312C611 329 617 357 620 378C623 399 615 419 615 440ZM555 110C555 113 554 117 553 119C551 122 547 123 545 125C542 127 541 130 539 131C536 133 533 135 530 135C527 135 524 133 521 131C518 130 515 130 512 128C510 126 507 123 507 120C506 117 509 113 510 110C511 107 511 105 512 102C512 99 511 95 512 92C514 90 518 88 521 87C524 86 527 86 530 86C533 86 537 85 540 86C542 88 544 91 546 94C547 97 547 100 549 102C550 105 554 107 555 110ZM571 110C571 116 572 121 571 127C570 133 569 141 565 145C561 149 554 151 548 154C542 156 536 160 530 161C524 161 515 161 510 157C506 154 504 144 502 138C499 133 498 130 494 125C491 120 483 116 481 110C480 104 482 97 484 91C487 85 492 81 496 76C500 71 505 65 510 63C516 61 524 63 530 64C536 66 540 70 546 72C552 74 560 72 565 75C570 79 574 85 575 91C577 97 572 104 571 110ZM595 110C596 120 603 131 601 139C598 147 587 154 579 159C571 164 562 164 554 169C546 173 538 184 530 184C522 184 512 175 505 169C499 163 500 153 492 148C484 144 466 147 457 140C449 134 439 120 440 110C441 100 456 90 463 82C470 74 475 67 482 62C489 56 497 51 505 51C513 50 522 60 530 59C538 59 545 50 556 48C566 46 585 42 592 48C599 53 598 71 598 82C598 92 595 100 595 110ZM128 530C128 533 129 535 129 538C128 541 128 544 127 547C125 549 122 550 119 551C116 553 113 553 110 553C107 553 104 552 102 550C99 549 99 545 98 542C96 540 96 539 94 537C92 535 89 533 88 530C87 527 87 524 89 521C90 519 92 516 94 514C97 512 99 510 101 509C104 508 107 508 110 509C113 509 115 511 117 512C120 513 123 513 125 515C127 516 129 519 130 522C130 524 128 527 128 530ZM152 530C152 536 153 542 152 547C150 553 148 561 144 564C139 567 131 566 125 567C120 567 115 566 110 566C105 566 99 568 95 567C90 565 87 561 82 558C78 554 74 551 70 547C66 542 58 536 58 530C57 524 62 516 66 512C70 507 78 506 83 503C87 500 90 495 95 493C99 491 105 491 110 491C115 491 119 494 124 496C129 497 137 496 141 499C146 501 152 507 154 512C155 517 152 524 152 530ZM164 530C162 538 165 545 164 552C163 560 161 570 156 576C151 582 142 586 135 589C127 593 118 598 110 598C102 598 92 594 86 589C79 584 76 575 70 570C64 564 55 562 50 555C44 548 35 538 35 530C35 522 44 512 50 505C56 498 64 495 70 490C77 486 81 480 88 477C95 474 102 473 110 472C118 470 126 467 136 468C145 469 159 469 165 475C171 481 173 495 173 504C173 513 165 522 164 530ZM213 530C217 542 217 562 209 571C200 580 174 578 162 582C150 586 146 590 137 596C129 602 120 617 110 618C100 619 89 608 80 603C70 598 62 594 52 588C42 582 24 577 21 567C17 557 26 541 29 530C32 519 37 512 38 500C39 488 31 466 37 457C43 448 62 443 74 444C86 444 99 459 110 462C121 465 130 458 139 459C149 461 160 466 167 473C174 480 175 491 182 500C190 510 208 518 213 530Z' fill='none' stroke='black' stroke-width='1.4'/%3E%3C/svg%3E"); }
+.bd-contour i {
+  inset: -10%;
+  background: linear-gradient(120deg, var(--primary), var(--accent));
+  opacity: .14;
+  -webkit-mask: var(--contour) 0 0 / 560px 560px repeat;
+          mask: var(--contour) 0 0 / 560px 560px repeat;
+  animation: bd-pan 90s linear infinite paused;
+}
+.band .bd-contour i { background: var(--on-primary); opacity: .12; }
+@keyframes bd-pan { to { -webkit-mask-position: 560px 280px; mask-position: 560px 280px; } }
+
+/* --- beams */
+.bd-beams i {
+  top: -40%; height: 180%; width: var(--w, 90px); left: 0; rotate: 22deg;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--c, var(--accent)) 22%, transparent), transparent);
+  filter: blur(6px);
+  animation: bd-sweep var(--d) ease-in-out var(--dl) infinite paused;
+}
+.band .bd-beams i { --c: var(--on-primary) !important; }
+.bd-beams i:nth-child(1) { --w: 120px; --d: 16s; --dl: -2s;  --c: var(--accent); }
+.bd-beams i:nth-child(2) { --w: 60px;  --d: 21s; --dl: -9s;  --c: var(--primary); }
+.bd-beams i:nth-child(3) { --w: 160px; --d: 26s; --dl: -15s; --c: var(--hue3, var(--accent)); }
+.bd-beams i:nth-child(4) { --w: 40px;  --d: 18s; --dl: -6s;  --c: var(--accent); }
+@keyframes bd-sweep { 0% { translate: -30cqw 0; opacity: 0; } 15%, 85% { opacity: 1; } 100% { translate: 130cqw 0; opacity: 0; } }
+
+/* --- ripple */
+.bd-ripple i {
+  right: -18cqmax; bottom: -18cqmax; width: 70cqmax; aspect-ratio: 1; border-radius: 50%;
+  border: 2px solid color-mix(in srgb, var(--primary) 26%, transparent);
+  box-shadow: inset 0 0 60px color-mix(in srgb, var(--accent) 12%, transparent);
+  animation: bd-ripple 12s cubic-bezier(.2, .6, .3, 1) infinite paused;
+}
+.band .bd-ripple i { border-color: color-mix(in srgb, var(--on-primary) 22%, transparent); box-shadow: none; }
+.bd-ripple i:nth-child(2) { animation-delay: -4s; }
+.bd-ripple i:nth-child(3) { animation-delay: -8s; }
+@keyframes bd-ripple { 0% { scale: .15; opacity: 0; } 20% { opacity: 1; } 100% { scale: 1.6; opacity: 0; } }
+
+/* --- pointer spotlight (fine pointers; the script adds the .spot layer) */
+.has-spot { position: relative; isolation: isolate; }
+.spot { position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .35s ease;
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--primary) 12%, transparent), color-mix(in srgb, var(--accent) 6%, transparent) 45%, transparent 70%); }
+.steps li > .spot { inset: -10px -14px; border-radius: var(--r, 12px); }
+.has-spot:hover > .spot { opacity: 1; }
+
+/* --- photos develop as they scroll into view (scroll-driven; static elsewhere) */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    html:not(.motion-paused) .gallery img, html:not(.motion-paused) .story-media img, html:not(.motion-paused) .cine-gallery img {
+      animation: bd-develop linear both; animation-timeline: view(); animation-range: entry 0% cover 35%;
+    }
+  }
+}
+@keyframes bd-develop { from { filter: saturate(.25) brightness(1.06) contrast(.92); } to { filter: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .bd i { animation: none !important; }
+  .bd-bokeh i { transform: translate3d(0, -60cqh, 0); opacity: .7; }
+  .bd-beams i { translate: 40cqw 0; opacity: .6; }
+  .bd-ripple i { scale: .9; opacity: .5; }
+}
+@media print { .bd, .spot { display: none !important; } }

@@ -125,5 +125,114 @@
   "role": "attorney",
   "source": "Their website",
   "greet": "Mr. Chandler"
+ },
+ "snocap-drive-in": {
+  "name": "Havird Usry",
+  "role": "owner",
+  "source": "WRDW news (2023)",
+  "greet": "Havird"
+ },
+ "track-kitchen": {
+  "name": "Carol Carter",
+  "role": "owner and cook (per older press; confirm)",
+  "source": "Aiken Standard and Saveur",
+  "greet": ""
+ },
+ "bottom-line-bakery": {
+  "name": "Kelsey Lucius",
+  "role": "owner and head baker",
+  "source": "City Lifestyle",
+  "greet": "Kelsey"
+ },
+ "brinkleys-chop-house": {
+  "name": "Terry and Cimberlie Brinkley",
+  "role": "co-owners",
+  "source": "Augusta Magazine (2025)",
+  "greet": ""
+ },
+ "cavaliers-coffeehouse": {
+  "name": "Pond (first name not published); founder David Brannon",
+  "role": "new owner",
+  "source": "Augusta Business Daily",
+  "greet": ""
+ },
+ "antonios-italian-eatery": {
+  "name": "Frank Gentile",
+  "role": "possibly the owner (unconfirmed)",
+  "source": "Augusta Chronicle",
+  "greet": ""
+ },
+ "zier-law-firm": {
+  "name": "Patrick Zier",
+  "role": "attorney",
+  "source": "Martindale",
+  "greet": "",
+  "hold": "Kelly Zier, the longtime North Augusta city attorney, died in October 2026. Wait a while before reaching out, and be gentle when you do."
+ },
+ "langley-tavern": {
+  "name": "Michael Iezzi",
+  "role": "partner",
+  "source": "WRDW news (2025)",
+  "greet": "Michael"
+ },
+ "prescott-and-sons-construction-llc": {
+  "name": "Josh Prescott",
+  "role": "owner",
+  "source": "Their website",
+  "greet": "Josh"
+ },
+ "thomas-p-murphy-pc-attorney-at-law": {
+  "name": "Thomas P. Murphy",
+  "role": "attorney",
+  "source": "Their website",
+  "greet": "Mr. Murphy"
+ },
+ "tailored-tours-of-aiken": {
+  "name": "Marty",
+  "role": "tour guide named in reviews",
+  "source": "Their website",
+  "greet": ""
+ },
+ "bobbys-bar-b-q-buffet": {
+  "name": "Bobby Griffin Jr. and Candy Griffin",
+  "role": "owners",
+  "source": "Destination BBQ",
+  "greet": "Bobby"
+ },
+ "iron-gate-candles": {
+  "name": "James and Jamie",
+  "role": "owners",
+  "source": "The Willcox blog",
+  "greet": ""
+ },
+ "beech-island-appliance-service-co-inc": {
+  "name": "Johnny Albion",
+  "role": "company contact",
+  "source": "Company press page",
+  "greet": "Johnny"
+ },
+ "bravefriend-apparel-and-design": {
+  "name": "Patrick Donovan",
+  "role": "owner",
+  "source": "City Lifestyle",
+  "greet": "Patrick"
+ },
+ "janson-construction": {
+  "name": "Jay Armstrong",
+  "role": "general contractor and CEO",
+  "source": "Their website",
+  "greet": "Jay"
+ },
+ "zook-homes": {
+  "name": "Noah Zook",
+  "role": "founder",
+  "source": "Their website",
+  "greet": "Noah"
+ },
+ "austin-and-pethick-law-firm": {
+  "name": "Christopher A. Austin",
+  "role": "CEO and principal shareholder",
+  "source": "Their website",
+  "greet": "Chris"
  }
 }

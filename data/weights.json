@@ -520,11 +520,18 @@
  },
  "austin-and-pethick-law-firm": {
   "site": {
-   "bytes": 1363854,
+   "bytes": 1364130,
    "requests": 15,
-   "loadMs": 2368,
+   "loadMs": 2288,
    "url": "https://www.austinpethick.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 299439,
+   "requests": 6,
+   "loadMs": 97,
+   "url": "/austin-and-pethick/",
+   "at": "2026-11-24"
   }
  },
  "augusta-ready-mix-inc": {
@@ -4397,11 +4404,18 @@
  },
  "zook-homes": {
   "site": {
-   "bytes": 3750796,
-   "requests": 107,
-   "loadMs": 1797,
+   "bytes": 3765069,
+   "requests": 102,
+   "loadMs": 2510,
    "url": "https://www.zookhomes.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 1186734,
+   "requests": 11,
+   "loadMs": 116,
+   "url": "/zook-homes/",
+   "at": "2026-11-24"
   }
  },
  "young-and-thurmond-llc": {

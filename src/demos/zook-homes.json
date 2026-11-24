@@ -1,0 +1,306 @@
+{
+  "name": "Zook Homes",
+  "short": "Zook Homes",
+  "category": "Custom Home Builder",
+  "group": "Trades & Industry",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "manrope"
+  },
+  "colors": {
+    "bg": "#f7f5f1",
+    "surface": "#ffffff",
+    "ink": "#1c2126",
+    "muted": "#5a6169",
+    "primary": "#2e3a44",
+    "onPrimary": "#ffffff",
+    "accent": "#9a6532",
+    "line": "#e5e0d8"
+  },
+  "radius": 4,
+  "icon": "house",
+  "cinematic": true,
+  "contact": {
+    "phone": "(803) 443-9157",
+    "email": "noah@zookhomes.com",
+    "address": [
+      "PO Box 5549",
+      "Aiken, SC 29804"
+    ],
+    "hoursNote": "Building across the CSRA, from Aiken to the shores of Clarks Hill Lake. Call or email to request a consultation.",
+    "facebook": "https://www.facebook.com/zookcustomhomes",
+    "instagram": "https://www.instagram.com/zookcustomhomes/"
+  },
+  "hero": {
+    "eyebrow": "Luxury custom homes and renovations · Aiken and the CSRA",
+    "title": "Handcrafted *custom homes*",
+    "lede": "From the first conversation to the final walk-through, Zook Homes designs and builds custom homes and renovations around the way you live, including lake homes on Clarks Hill.",
+    "points": [
+      "Custom homes",
+      "Renovations",
+      "In-house design"
+    ],
+    "cta": {
+      "label": "See recent homes",
+      "href": "#portfolio"
+    },
+    "cta2": {
+      "label": "Call (803) 443-9157",
+      "href": "tel:+18034439157"
+    },
+    "image": {
+      "src": "/demo-assets/zook-homes/lake-estate.webp",
+      "alt": "A long lake house with three garages and white gables under a deep blue sky",
+      "width": 1600,
+      "height": 1067
+    }
+  },
+  "facts": [
+    {
+      "value": "4",
+      "label": "Steps from consultation to build"
+    },
+    {
+      "value": "2",
+      "label": "Services: custom homes and renovations"
+    },
+    {
+      "value": "CSRA",
+      "label": "Aiken to Clarks Hill Lake"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 2,
+      "eyebrow": "Integrity. Passion. Quality.",
+      "title": "What *we build*",
+      "items": [
+        {
+          "icon": "house-plus",
+          "title": "Custom homes",
+          "text": "Built from the ground up around your vision and lifestyle, with the highest-quality materials and careful attention from foundation to finishing touches."
+        },
+        {
+          "icon": "hammer",
+          "title": "Renovations",
+          "text": "One kitchen or bath, or the whole house: new spaces blended seamlessly with the old, more comfortable and more useful."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "portfolio",
+      "nav": "Portfolio",
+      "eyebrow": "Recent projects",
+      "title": "Homes *we’ve built*",
+      "images": [
+        {
+          "src": "/demo-assets/zook-homes/grand-entry.webp",
+          "alt": "A grand gabled entry with a wood ceiling, reflected in a still pool",
+          "width": 1200,
+          "height": 1800
+        },
+        {
+          "src": "/demo-assets/zook-homes/vaulted-living.webp",
+          "alt": "A vaulted great room with a stone fireplace and walls of windows",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/zook-homes/lake-house.webp",
+          "alt": "A two-level stone and siding home with large windows facing the lawn",
+          "width": 1600,
+          "height": 1315
+        },
+        {
+          "src": "/demo-assets/zook-homes/white-kitchen.webp",
+          "alt": "A bright white kitchen with a long island and lake views",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "src": "/demo-assets/zook-homes/screened-porch.webp",
+          "alt": "A screened porch with wicker seating among the pines",
+          "width": 1100,
+          "height": 1373
+        },
+        {
+          "src": "/demo-assets/zook-homes/great-room-loft.webp",
+          "alt": "A timber-beamed great room with a loft balcony",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/zook-homes/dock-walk.webp",
+          "alt": "Stone steps and a walkway down to a covered boat dock",
+          "width": 1200,
+          "height": 1482
+        },
+        {
+          "src": "/demo-assets/zook-homes/arched-kitchen.webp",
+          "alt": "A kitchen with a brick arch over the range and warm wood cabinets",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "src": "/demo-assets/zook-homes/stone-terrace.webp",
+          "alt": "A stacked-stone terrace and steps beside a covered patio",
+          "width": 1600,
+          "height": 1217
+        },
+        {
+          "src": "/demo-assets/zook-homes/craftsman-home.webp",
+          "alt": "A craftsman home with stone accents and landscaped walk",
+          "width": 1600,
+          "height": 1066
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "projects",
+      "nav": "Projects",
+      "eyebrow": "Around the region",
+      "title": "Featured *projects*",
+      "columns": [
+        {
+          "title": "Gordon Drive · Modoc",
+          "items": [
+            "Two levels with a grand columned entry",
+            "Stonework throughout",
+            "Views of Clarks Hill Lake, outdoor kitchen"
+          ]
+        },
+        {
+          "title": "Anglers Point · McCormick",
+          "items": [
+            "Single level, modern with Delta-inspired details",
+            "Infinity water feature",
+            "Screened porch, fire pit and grilling area"
+          ]
+        },
+        {
+          "title": "Webbs Pond Road · Williston",
+          "items": [
+            "Sky-blue siding with stone accents",
+            "Cedar wood living room and sunroom",
+            "A large pond outside"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "Process",
+      "eyebrow": "How we work",
+      "title": "Our *process*",
+      "items": [
+        {
+          "title": "Consultation",
+          "text": "We talk through your vision, goals and priorities, and get to know how you live."
+        },
+        {
+          "title": "Budget review",
+          "text": "Realistic expectations, where to save and where to invest, in a transparent plan."
+        },
+        {
+          "title": "Home design",
+          "text": "Our designer draws a plan around your style, revising with you until it’s right."
+        },
+        {
+          "title": "Pre-construction",
+          "text": "Everything put in place before the build begins."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet the founder",
+      "title": "Built *on trust*",
+      "image": {
+        "src": "/demo-assets/zook-homes/noah.webp",
+        "alt": "Noah Zook holding a roll of plans outside a lake home",
+        "width": 1000,
+        "height": 1267
+      },
+      "body": [
+        "Noah Zook brings decades of experience and a dedication to quality instilled from a young age by his grandfather. He handles every project with care, uses the highest-quality materials, and loves watching clients’ faces light up as they walk through their finished home.",
+        "Designer Maria Huynh Rhinehart blends interior and architectural design, working closely with each client so the home reflects their style and needs."
+      ],
+      "list": [
+        "Founder Noah Zook",
+        "Designer Maria Huynh Rhinehart",
+        "Custom homes and renovations"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our clients",
+      "title": "Worth *every detail*",
+      "items": [
+        {
+          "text": "We chose Noah for his experience with lakefront properties and his reputation for quality building. His meticulous attention to detail from the foundation to the finishing touches was impressive.",
+          "by": "A lake-home family"
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Ready to build your dream home?",
+      "text": "Start with a consultation.",
+      "cta": {
+        "label": "Call (803) 443-9157",
+        "href": "tel:+18034439157"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Start *your home*",
+    "formTitle": "Request a consultation",
+    "formTopics": [
+      "A custom home",
+      "A renovation",
+      "A lake home",
+      "Something else"
+    ]
+  },
+  "slug": "zook-homes",
+  "added": "2026-11-24",
+  "prospect": "zook-homes",
+  "source": {
+    "url": "https://www.zookhomes.com/",
+    "before": [
+      "The first screen shows only the words “Handcrafted Custom Homes” on black: not one of their homes",
+      "The home page links to a “Meet the Builder” page that no longer exists (page not found)",
+      "Google’s phone speed test scores the home page 41 out of 100; the main picture takes 11 seconds",
+      "On a phone there’s no call button or phone number on the first screen"
+    ],
+    "after": [
+      "Their finest homes on the first screen",
+      "Featured projects with where they are and what makes them special",
+      "The process, start to finish",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "arch",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "blur",
+    "buttons": "outline",
+    "backdrop": "contour"
+  }
+}
