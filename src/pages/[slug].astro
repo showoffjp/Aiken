@@ -139,7 +139,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
-  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} data-backdrop={backdrop} data-hours={hoursSpec ? JSON.stringify(hoursSpec) : undefined} style={vars}>
+  <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} data-backdrop={backdrop} data-band-ink={ratio(safe['--on-primary'], '#000000') >= ratio(safe['--on-primary'], '#ffffff') ? 'light' : 'dark'} data-hours={hoursSpec ? JSON.stringify(hoursSpec) : undefined} style={vars}>
     <a class="skip" href="#main">Skip to content</a>
 
     <aside class="concept" aria-label="About this preview">
