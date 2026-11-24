@@ -3470,9 +3470,16 @@
   "slug": "cedar-creek-golf-club",
   "name": "Cedar Creek Golf Club",
   "url": "https://www.cedarcreekgolfclub.net/",
-  "finalUrl": "https://ne10vodka.com/pages/about",
+  "finalUrl": "https://energytorrington.com/wellness-center/",
   "status": 200,
-  "state": "ok",
+  "state": "hijacked",
+  "spam": [
+   "slot gacor",
+   "slot online",
+   "situs slot",
+   "maxwin",
+   "togel"
+  ],
   "score": 0,
   "findings": [],
   "platform": "Custom / hand-coded",
@@ -3486,7 +3493,7 @@
   "title": "SLOT88JOKER: Link Resmi Slot88 Gacor Online Hari Ini Mudah Cuan Besar!",
   "description": "SLOT88JOKER menyediakan link resmi slot88 gacor online khusus hari ini, dengan berbagai pilihan game slot terlengkap, jackpot berlimpah & mudah cuan besar.",
   "textLength": 8840,
-  "htmlBytes": 348680,
+  "htmlBytes": 349838,
   "familySignal": "",
   "since": null,
   "emails": [],
@@ -5122,7 +5129,14 @@
   "url": "http://www.g-p-constructionllc.com/",
   "finalUrl": "https://g-p-constructionllc.com/",
   "status": 200,
-  "state": "ok",
+  "state": "hijacked",
+  "spam": [
+   "rtp slot",
+   "slot gacor",
+   "slot online",
+   "situs gacor",
+   "link alternatif"
+  ],
   "score": 3,
   "findings": [
    "32 of 53 images have no alt text"
@@ -8974,7 +8988,7 @@
   "title": "Nouveau Hair & Wigs | Medical Human Hair Wigs & Hair Loss Help",
   "description": "Located in North Augusta, SC, Nouveau Hair & Wigs is the premier destination for high-quality human hair wigs, hair toppers, alternative hair solutions, and expert hair color services.",
   "textLength": 2011,
-  "htmlBytes": 1492510,
+  "htmlBytes": 1492984,
   "familySignal": "",
   "since": null,
   "emails": [],

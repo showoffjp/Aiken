@@ -1,0 +1,298 @@
+{
+  "name": "Holley & Company",
+  "short": "Holley & Co.",
+  "category": "CPA Firm",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "fraunces",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f7f6f2",
+    "surface": "#ffffff",
+    "ink": "#18222d",
+    "muted": "#56606b",
+    "primary": "#24456b",
+    "onPrimary": "#ffffff",
+    "accent": "#3f6b4a",
+    "line": "#e3e1da"
+  },
+  "radius": 6,
+  "icon": "calculator",
+  "contact": {
+    "phone": "(803) 844-0705",
+    "email": "richard@cpaaiken.com",
+    "address": [
+      "705 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Holley & Company CPA, 705 Silver Bluff Road, Aiken, SC 29803",
+    "hoursNote": "Fax (803) 220-1532. Call to schedule a consultation."
+  },
+  "hero": {
+    "eyebrow": "CPA firm in Aiken, South Carolina",
+    "title": "Accounting is *what we do best*",
+    "lede": "Tax preparation and planning, bookkeeping, payroll and QuickBooks help for individuals and small businesses, from a CPA born and raised in Aiken.",
+    "points": [
+      "Tax preparation & planning",
+      "Bookkeeping & payroll",
+      "IRS problem resolution"
+    ],
+    "cta": {
+      "label": "Schedule a consultation",
+      "href": "#visit"
+    },
+    "cta2": {
+      "label": "Call (803) 844-0705",
+      "href": "tel:+18038440705"
+    }
+  },
+  "facts": [
+    {
+      "value": "2011",
+      "label": "CPA license"
+    },
+    {
+      "value": "CVA",
+      "label": "Certified Valuation Analyst"
+    },
+    {
+      "value": "Aiken",
+      "label": "Born, raised and based here"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "For individuals and small businesses",
+      "title": "How *we help*",
+      "items": [
+        {
+          "icon": "file-text",
+          "title": "Individual tax preparation",
+          "text": "Returns that catch every deduction and credit you’re entitled to."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Business tax preparation",
+          "text": "A firm that understands how your business works, so you avoid penalties and fees."
+        },
+        {
+          "icon": "compass",
+          "title": "Tax planning",
+          "text": "Proactive strategies to legally reduce what you owe and keep more after tax."
+        },
+        {
+          "icon": "landmark",
+          "title": "Estate & trust tax",
+          "text": "Returns and planning for trusts and estates, to protect what you leave behind."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Tax problem resolution",
+          "text": "On the wrong side of the IRS? Efficient, affordable and discreet help."
+        },
+        {
+          "icon": "book-open",
+          "title": "Bookkeeping & payroll",
+          "text": "We keep your books and run payroll, with one-on-one service."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "business",
+      "nav": "Business",
+      "eyebrow": "Business services",
+      "title": "For *your business*",
+      "columns": [
+        {
+          "title": "Getting started",
+          "items": [
+            "New business formation",
+            "Choosing the right structure",
+            "Setting up your books"
+          ]
+        },
+        {
+          "title": "Keeping it running",
+          "items": [
+            "Bookkeeping",
+            "Payroll and payroll tax problems",
+            "Tax preparation and planning"
+          ]
+        },
+        {
+          "title": "QuickBooks",
+          "items": [
+            "Setup and installation",
+            "Training and tune-ups",
+            "Answers when you’re stuck"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "industries",
+      "nav": "Industries",
+      "eyebrow": "Specialized knowledge",
+      "title": "Industries *we serve*",
+      "columns": [
+        {
+          "title": "Health",
+          "items": [
+            "Dentists",
+            "Healthcare practices"
+          ]
+        },
+        {
+          "title": "Property & building",
+          "items": [
+            "Construction",
+            "Real estate"
+          ]
+        },
+        {
+          "title": "Service",
+          "items": [
+            "Law firms",
+            "Hospitality"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet Richard",
+      "title": "Richard O. Holley, *CPA*",
+      "image": {
+        "src": "/demo-assets/holley-and-company/oak-avenue.webp",
+        "alt": "A road under a canopy of live oaks",
+        "width": 1600,
+        "height": 900
+      },
+      "body": [
+        "Richard was born and raised in Aiken. He graduated cum laude from Clemson University with a B.S. in Financial Management and a minor in Accounting, then began his career in 2006 with a regional accounting firm in Augusta, providing business valuation services and earning his Certified Valuation Analyst designation.",
+        "After further accounting study at Augusta State University, he earned his CPA license in 2011, and later moved to the firm’s Aiken office to serve his hometown. He serves on the board of the Rotary Club of Aiken and was named a Rising Star by the Aiken Young Professionals."
+      ],
+      "list": [
+        "Clemson University, cum laude",
+        "Certified Valuation Analyst",
+        "Rotary Club of Aiken board member"
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "values",
+      "nav": "Values",
+      "eyebrow": "What we stand for",
+      "title": "Three *principles*",
+      "columns": [
+        {
+          "title": "Responsiveness",
+          "items": [
+            "Prompt, accurate replies",
+            "Because that’s what clients deserve"
+          ]
+        },
+        {
+          "title": "Reliability",
+          "items": [
+            "Knowledge and experience you can count on",
+            "Tax strategies that benefit you"
+          ]
+        },
+        {
+          "title": "Authenticity",
+          "items": [
+            "Real relationships with our clients",
+            "Deeper connections over time"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "My books are a mess. Where do I start?",
+          "a": "Call us. We’ll take over your bookkeeping and get your records in order, so you can get back to running your business."
+        },
+        {
+          "q": "Can you help if I owe the IRS?",
+          "a": "Yes. We help resolve tax problems efficiently, affordably and discreetly."
+        },
+        {
+          "q": "Do you work with individuals or only businesses?",
+          "a": "Both. We prepare individual returns and serve small businesses, from the self-employed to companies with employees."
+        },
+        {
+          "q": "Can you help with QuickBooks?",
+          "a": "Yes: setup, training, tune-ups and answers to your questions."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Let’s talk about your taxes",
+      "text": "Schedule a consultation with a CPA in Aiken.",
+      "cta": {
+        "label": "Call (803) 844-0705",
+        "href": "tel:+18038440705"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Silver Bluff Road*",
+    "formTitle": "Schedule a consultation",
+    "formTopics": [
+      "Individual taxes",
+      "Business taxes",
+      "Tax planning",
+      "An IRS problem",
+      "Bookkeeping or payroll",
+      "QuickBooks",
+      "Starting a business"
+    ]
+  },
+  "slug": "holley-and-company",
+  "added": "2026-11-24",
+  "prospect": "holley-and-company",
+  "source": {
+    "url": "https://www.cpaaiken.com/",
+    "before": [
+      "Google’s phone speed test waited 14.5 seconds for the main picture, a stock photo of oak trees, to appear",
+      "The tax page cites a study “released last year” by the “General Accounting Office”, an agency renamed in 2004",
+      "The Client Reviews page has no reviews on it, only a form to write one"
+    ],
+    "after": [
+      "Every service on one page, for individuals and businesses",
+      "Richard’s background, front and center",
+      "A consultation request form",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "frame": "offset",
+    "services": "list",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "underline"
+  }
+}

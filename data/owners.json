@@ -101,5 +101,17 @@
   "role": "owner",
   "source": "Their website",
   "greet": "Tim"
+ },
+ "holley-and-company": {
+  "name": "Richard O. Holley, CPA",
+  "role": "owner",
+  "source": "Their website",
+  "greet": "Richard"
+ },
+ "nouveau-hair-and-wigs": {
+  "name": "Nikki",
+  "role": "wig specialist named in client reviews",
+  "source": "Their website",
+  "greet": ""
  }
 }

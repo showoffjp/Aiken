@@ -536,6 +536,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "holley-and-company": {
+  "q": "705 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.499172,
+  "lon": -81.747012,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-24"
+ },
  "howell-printing": {
   "q": "345 Barnwell Avenue NW, Aiken, SC 29801",
   "lat": 33.564029,
@@ -772,6 +780,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "nouveau-hair": {
+  "q": "107 E. Marion Avenue, North Augusta, SC 29841",
+  "lat": 33.512113,
+  "lon": -81.959933,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-24"
  },
  "oh-mie-stelle": {
   "q": "969 Pine Log Road, Aiken, SC 29803",

@@ -181,6 +181,11 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
   else if (/online ordering setup in progress|finish setting up your|page cannot be displayed|this site can.t be reached|website is (currently )?(unavailable|offline)|no longer available/i.test(text)) state = 'placeholder';
   else if (text.length < 400 && /one moment, please|request is being verified|checking your browser|just a moment|verify you are human|enable javascript and cookies|attention required|access denied|captcha/i.test(text)) state = 'blocked';
   else if (text.length < 200 && !/<script/i.test(html)) state = 'empty';
+  // A site that now serves gambling or pharmacy spam has been hacked, or its address taken over.
+  // Two different spam phrases are needed, so one stray word on a real page is not enough.
+  const SPAM = /slot gacor|situs (?:slot|judi|toto|gacor)|rtp slot|\btogel\b|judi online|sbobet|maxwin|link alternatif|slot online|casino online|\bviagra\b|\bcialis\b|replica watches/gi;
+  const spam = [...new Set((`${(html.match(/<title[^>]*>([^<]*)/i) || [])[1] || ''} ${text}`.match(SPAM) || []).map((x) => x.toLowerCase()))];
+  if (spam.length >= 2 && ['ok', 'empty', 'placeholder'].includes(state)) state = 'hijacked';
 
   const family = (text.match(/[^.!?]{0,60}\b(family[- ]owned|family[- ]operated|family[- ]run|locally[- ]owned|owned and operated|veteran[- ]owned|woman[- ]owned|women[- ]owned|second generation|third generation|generations)\b[^.!?]{0,60}/i) || [''])[0].replace(/\s+/g, ' ').trim();
   const since = (text.match(/\b(?:since|established|est\.?|founded in|serving [^.]{0,40} since|in business since)\s+((?:18|19|20)\d{2})\b/i) || [])[1];
@@ -188,6 +193,7 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
   if (state === 'blocked') { score = 0; findings.length = 0; }
   return {
     state,
+    ...(state === 'hijacked' && { spam: spam.slice(0, 5) }),
     score: state === 'blocked' ? null : Math.min(100, score),
     findings: findings.sort((a, b) => b.pts - a.pts).map((f) => f.msg),
     platform: platform || (generator ? generator.split(/[;,]/)[0].slice(0, 40) : 'Custom / hand-coded'),
@@ -307,6 +313,6 @@ await writeFile(new URL('../data/audit.json', import.meta.url), JSON.stringify(a
 const r = Object.values(audit);
 const n = (f) => r.filter(f).length;
 console.log(`audit saved: ${r.length} sites`);
-console.log(`  down ${n((x) => ['down', 'no-dns', 'cert-error'].includes(x.state))}, broken ${n((x) => x.state === 'broken')}, bot-blocked ${n((x) => x.state === 'blocked')}, parked/placeholder/empty/forwarding ${n((x) => ['parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away'].includes(x.state))}, ok ${n((x) => x.state === 'ok')}`);
+console.log(`  down ${n((x) => ['down', 'no-dns', 'cert-error'].includes(x.state))}, broken ${n((x) => x.state === 'broken')}, bot-blocked ${n((x) => x.state === 'blocked')}, parked/placeholder/empty/forwarding ${n((x) => ['parked', 'placeholder', 'empty', 'redirects-to-social', 'redirects-away'].includes(x.state))}, hacked or taken over ${n((x) => x.state === 'hijacked')}, ok ${n((x) => x.state === 'ok')}`);
 console.log(`  score >=45: ${n((x) => x.score >= 45)}, 30-44: ${n((x) => x.score >= 30 && x.score < 45)}, 15-29: ${n((x) => x.score >= 15 && x.score < 30)}, <15: ${n((x) => x.score !== null && x.score < 15)}`);
 console.log(`  no viewport: ${n((x) => x.state === 'ok' && !x.viewport)}, no https: ${n((x) => x.state === 'ok' && !x.https)}, with email: ${n((x) => x.emails?.length)}`);

@@ -2040,11 +2040,18 @@
  },
  "holley-and-company": {
   "site": {
-   "bytes": 2710643,
+   "bytes": 2709699,
    "requests": 30,
-   "loadMs": 4847,
+   "loadMs": 4772,
    "url": "https://www.cpaaiken.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 605543,
+   "requests": 7,
+   "loadMs": 128,
+   "url": "/holley-and-company/",
+   "at": "2026-11-24"
   }
  },
  "houndslake-country-club": {
@@ -2835,11 +2842,18 @@
  },
  "nouveau-hair-and-wigs": {
   "site": {
-   "bytes": 3634603,
-   "requests": 196,
-   "loadMs": 4820,
+   "bytes": 3079344,
+   "requests": 185,
+   "loadMs": 3308,
    "url": "https://www.nouveau.hair/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 549777,
+   "requests": 8,
+   "loadMs": 148,
+   "url": "/nouveau-hair/",
+   "at": "2026-11-24"
   }
  },
  "oh-yea-pizza": {
