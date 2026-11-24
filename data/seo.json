@@ -3841,7 +3841,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 67,
+    "performance": 63,
     "pageMB": 6.5,
     "a11ySerious": 6,
     "facebook": true,
@@ -4788,7 +4788,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    }
   ]
  },
@@ -7014,7 +7014,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "kelly-paint-and-body-inc",
@@ -9322,7 +9322,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "kelly-paint-and-body-inc",
@@ -10292,7 +10292,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 67,
+    "performance": 63,
     "pageMB": 6.5,
     "a11ySerious": 6,
     "facebook": true,
@@ -19185,7 +19185,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "waynes-automotive-and-towing-center-aiken",
@@ -23442,7 +23442,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 67,
+    "performance": 63,
     "pageMB": 6.5,
     "a11ySerious": 6,
     "facebook": true,
@@ -24513,7 +24513,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    }
   ]
  },
@@ -28650,7 +28650,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "kendrick-paint-and-body-shop",
@@ -29296,7 +29296,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 67,
+    "performance": 63,
     "pageMB": 6.5,
     "a11ySerious": 6,
     "facebook": true,
@@ -29624,7 +29624,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "waynes-automotive-and-towing-center-aiken",
@@ -31171,7 +31171,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": 67,
+    "performance": 63,
     "pageMB": 6.5,
     "a11ySerious": 6,
     "facebook": true,
@@ -32322,7 +32322,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    }
   ]
  },
@@ -34025,7 +34025,7 @@
     "a11ySerious": 6,
     "facebook": true,
     "instagram": true,
-    "domainYears": 26
+    "domainYears": 27
    },
    {
     "slug": "kelly-paint-and-body-inc",
@@ -43436,6 +43436,720 @@
     "facebook": true,
     "instagram": false,
     "domainYears": 22
+   }
+  ]
+ },
+ "all-safe-industrial-services-inc": {
+  "slug": "all-safe-industrial",
+  "name": "All-Safe Industrial Services",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "allsafe1.com",
+   "https": true,
+   "pagesCrawled": 10,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://allsafe1.com/",
+    "title": "All-Safe Industrial Services | Industrial Contractor - Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+    "description": "All-Safe Industrial Services is a maintenance service provider serving clients across the southeastern US. Scaffolding, cleanings & coatings, and insulation. (803) 489-0093.",
+    "canonical": "https://allsafe1.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": false,
+    "og": {
+     "title": "All-Safe Industrial Services | Industrial Contractor - Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+     "description": "All-Safe Industrial Services is a maintenance service provider serving clients across the southeastern US. Scaffolding, cleanings & coatings, and insulation. (803) 489-0093.",
+     "image": "https://allsafe1.com/wp-content/uploads/2020/01/ScaffoldingHome.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "Home",
+     "ALL SAFE. ALL THE TIME."
+    ],
+    "h1Count": 2,
+    "h2": 2,
+    "h3": 0,
+    "words": 214,
+    "images": 17,
+    "imagesNoAlt": 6,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": false,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://allsafe1.com/sitemap_index.xml",
+    "pages": 15
+   },
+   "crawl": {
+    "pages": 10,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 10,
+    "thin": 7,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 6,
+    "images": 133,
+    "sample": [
+     {
+      "url": "https://allsafe1.com/",
+      "title": "All-Safe Industrial Services | Industrial Contractor - Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 173,
+      "h1": 2,
+      "words": 214
+     },
+     {
+      "url": "https://allsafe1.com/about-us/",
+      "title": "About Us | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 144,
+      "h1": 2,
+      "words": 313
+     },
+     {
+      "url": "https://allsafe1.com/meet-the-team/",
+      "title": "Meet the Team | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 147,
+      "h1": 2,
+      "words": 147
+     },
+     {
+      "url": "https://allsafe1.com/scaffolding/",
+      "title": "Scaffolding | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 154,
+      "h1": 2,
+      "words": 270
+     },
+     {
+      "url": "https://allsafe1.com/cleaning-coatings/",
+      "title": "Cleaning & Coatings | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 165,
+      "h1": 2,
+      "words": 292
+     },
+     {
+      "url": "https://allsafe1.com/insulation/",
+      "title": "Insulation | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 146,
+      "h1": 2,
+      "words": 234
+     },
+     {
+      "url": "https://allsafe1.com/heat-trace/",
+      "title": "Heat Trace - All-Safe Industrial Services",
+      "description": 0,
+      "h1": 2,
+      "words": 231
+     },
+     {
+      "url": "https://allsafe1.com/careers/",
+      "title": "Careers | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 137,
+      "h1": 2,
+      "words": 126
+     },
+     {
+      "url": "https://allsafe1.com/apply-online/",
+      "title": "Apply Online | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 135,
+      "h1": 2,
+      "words": 113
+     },
+     {
+      "url": "https://allsafe1.com/contact-us/",
+      "title": "Contact Us | All-Safe Industrial Services | Scaffolding, Cleanings & Coatings, Insulation | SC, GA, NC, Southeastern US",
+      "description": 137,
+      "h1": 2,
+      "words": 140
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 25,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/AllsafeIndustrial/",
+    "LinkedIn": "http://linkedin.com/in/timothy-nixon-6b356971"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Industrial Maintenance Contractor",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 0
+   },
+   {
+    "term": "Beech Island",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/all-safe-industrial-services-inc-1867",
+    "name": "All-Safe Industrial Services, Inc.",
+    "phone": "(803) 489-0093",
+    "website": "http://www.allsafe1.com",
+    "address": "1105 Atomic Road, Beech Island SC 29842-9513",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/AllsafeIndustrial/",
+    "LinkedIn": "http://linkedin.com/in/timothy-nixon-6b356971"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/AllsafeIndustrial/"
+   }
+  },
+  "domain": {
+   "name": "allsafe1.com",
+   "created": "2003-02-05",
+   "expires": "2028-02-05",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 23
+  },
+  "performance": {
+   "performance": 63,
+   "accessibility": 89,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 2295,
+   "lcp": 30174,
+   "tbt": 13,
+   "si": 14337,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 949,
+   "lcp": 2108,
+   "tbt": 22,
+   "si": 949,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "aiken-housing-center",
+   "all-south-siding-window-and-roofing",
+   "apex-home-repair-corporation",
+   "b-and-k-grading-and-paving-llc",
+   "beech-island-appliance-service-co-inc"
+  ],
+  "scores": {
+   "seo": 63,
+   "social": 60,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "aiken-housing-center",
+    "name": "Aiken Housing Center",
+    "website": "https://aikenhousingcenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 36,
+    "pageMB": 13.9,
+    "a11ySerious": 55,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "all-south-siding-window-and-roofing",
+    "name": "All South Siding, Window & Roofing",
+    "website": "https://augustabuilt.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.9,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   },
+   {
+    "slug": "b-and-k-grading-and-paving-llc",
+    "name": "B&K Grading and Paving, LLC",
+    "website": "https://bkgradingandpaving.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 10.1,
+    "a11ySerious": 34,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "beech-island-appliance-service-co-inc",
+    "name": "Beech Island Appliance Service Co., Inc",
+    "website": "https://beechislandheatingandair.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 4.1,
+    "a11ySerious": 16,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 7
+   }
+  ]
+ },
+ "rhodes-murphy": {
+  "slug": "rhodes-murphy",
+  "name": "Rhodes-Murphy Income Tax Services",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "rhodesmurphy.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://www.rhodesmurphy.com/",
+    "title": "Rhodes Murphy Income Tax Services | Home | Schedule an Appointment",
+    "description": "Rhodes-Murphy provides income tax services in the Augusta & surrounding areas. Schedule an income tax appointment with Rhodes-Murphy.",
+    "canonical": "https://www.rhodesmurphy.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Rhodes Murphy Income Tax Services | Home | Schedule an Appointment",
+     "description": "Rhodes-Murphy provides income tax services in the Augusta & surrounding areas. Schedule an income tax appointment with Rhodes-Murphy.",
+     "image": "https://www.rhodesmurphy.com/wp-content/uploads/2020/01/appointment-150x150.png",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [
+     "GET YOUR REFUND IN A FLASH",
+     "Our LOCATIONS"
+    ],
+    "h1Count": 2,
+    "h2": 1,
+    "h3": 5,
+    "words": 180,
+    "images": 19,
+    "imagesNoAlt": 14,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "ImageObject",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification"
+    ],
+    "schemaLocal": false,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": false,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": true
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "http://www.rhodesmurphy.com/sitemap_index.xml",
+    "pages": 16
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 1,
+    "missingH1": 0,
+    "multipleH1": 2,
+    "thin": 8,
+    "noindex": 0,
+    "dupTitles": 4,
+    "dupDescs": 4,
+    "imagesNoAlt": 42,
+    "images": 131,
+    "sample": [
+     {
+      "url": "https://www.rhodesmurphy.com/",
+      "title": "Rhodes Murphy Income Tax Services | Home | Schedule an Appointment",
+      "description": 133,
+      "h1": 2,
+      "words": 180
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/schedule-an-appointment/",
+      "title": "Schedule An Appointment with Rhodes-Murphy | Professional Tax Services",
+      "description": 138,
+      "h1": 1,
+      "words": 40
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/about-rhodes-murphy/",
+      "title": "About Rhodes-Murphy | Over 50 Years Experience | Rhodes-Murphy",
+      "description": 135,
+      "h1": 1,
+      "words": 227
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/referral-program/",
+      "title": "Rhodes Murphy Referral Program | Referral Appreciation to Our Clients",
+      "description": 139,
+      "h1": 1,
+      "words": 226
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/rhodes-murphy-faqs/",
+      "title": "Rhodes-Murphy FAQs | Answers To Your Income Tax Service FAQs",
+      "description": 136,
+      "h1": 1,
+      "words": 583
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/income-tax-products-services/",
+      "title": "Rhodes-Murphy | Income Tax Products & Services | Professional Services",
+      "description": 142,
+      "h1": 1,
+      "words": 392
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/tax-preparation/",
+      "title": "Tax Preparation | Rhodes-Murphy | Expert Tax Preparation Over 50 Years",
+      "description": 140,
+      "h1": 1,
+      "words": 553
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/bank-products/",
+      "title": "Bank Products & Services | Rhodes-Murphy | Convenient Bank Services",
+      "description": 135,
+      "h1": 1,
+      "words": 376
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/rhodes-murphy-locations/",
+      "title": "Rhodes-Murphy Locations | Augusta | CSRA | Surrounding Areas GA & SC",
+      "description": 135,
+      "h1": 1,
+      "words": 176
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/contact-rhodes-murphy/",
+      "title": "Contact Rhodes-Murphy | Contact Your Nearest Rhodes-Murphy Location",
+      "description": 137,
+      "h1": 2,
+      "words": 197
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/rhodes-murphy-faqs/",
+      "title": "Rhodes-Murphy FAQs | Answers To Your Income Tax Service FAQs",
+      "description": 136,
+      "h1": 1,
+      "words": 583
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/income-tax-products-services/",
+      "title": "Rhodes-Murphy | Income Tax Products & Services | Professional Services",
+      "description": 142,
+      "h1": 1,
+      "words": 392
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/referral-program/",
+      "title": "Rhodes Murphy Referral Program | Referral Appreciation to Our Clients",
+      "description": 139,
+      "h1": 1,
+      "words": 226
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/rhodes-murphy-locations/",
+      "title": "Rhodes-Murphy Locations | Augusta | CSRA | Surrounding Areas GA & SC",
+      "description": 135,
+      "h1": 1,
+      "words": 176
+     },
+     {
+      "url": "https://www.rhodesmurphy.com/privacy-policy/",
+      "title": "Privacy Policy - Rhodes Murphy",
+      "description": 0,
+      "h1": 1,
+      "words": 969
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 23,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Facebook": "https://www.google.com/url"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Tax Preparation",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 4
+   },
+   {
+    "term": "North Augusta",
+    "title": false,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 1
+   }
+  ],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/rhodes-murphy-1633",
+    "name": "Rhodes-Murphy",
+    "phone": "(803) 279-3873",
+    "website": "http://www.rhodesmurphy.com",
+    "address": "202 E Martintown Road, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.google.com/url"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/RhodesMurphyTax/&source=gmail-imap&ust=1603730074000000&usg=AOvVaw2sE0F_i025DednilfF8vih"
+   }
+  },
+  "domain": {
+   "name": "rhodesmurphy.com",
+   "created": "2001-07-16",
+   "expires": "2027-07-16",
+   "registrar": "Launchpad.com Inc.",
+   "years": 25
+  },
+  "performance": {
+   "performance": 40,
+   "accessibility": 55,
+   "bestPractices": 75,
+   "seo": 92,
+   "fcp": 3166,
+   "lcp": 8161,
+   "tbt": 936,
+   "si": 9878,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 100,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 1052,
+   "lcp": 1802,
+   "tbt": 34,
+   "si": 1052,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "josue-garcia-cpa-llc",
+   "sme-cpas-aiken",
+   "arnold-advisors-llc",
+   "bolster-bookkeeping-llc",
+   "deeper-dive-bookkeeping"
+  ],
+  "scores": {
+   "seo": 62,
+   "social": 50,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "josue-garcia-cpa-llc",
+    "name": "Josue Garcia CPA LLC",
+    "website": "https://www.jgcpallc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.9,
+    "a11ySerious": 1,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "sme-cpas-aiken",
+    "name": "SME CPAs - Aiken",
+    "website": "https://www.smecpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.8,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 28
+   },
+   {
+    "slug": "arnold-advisors-llc",
+    "name": "Arnold Advisors, LLC",
+    "website": "https://www.aiken-cpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 62,
+    "pageMB": 3.5,
+    "a11ySerious": 12,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "bolster-bookkeeping-llc",
+    "name": "Bolster Bookkeeping LLC",
+    "website": "https://bolsterbookkeeping.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "deeper-dive-bookkeeping",
+    "name": "Deeper Dive Bookkeeping",
+    "website": "https://www.deeperdivebook.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 36,
+    "pageMB": 7.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
    }
   ]
  }

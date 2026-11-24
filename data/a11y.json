@@ -2167,7 +2167,17 @@
      "nodes": 3
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-24"
   }
  },
  "anderson-insurance-associates-llc": {
@@ -8462,7 +8472,17 @@
      "nodes": 1
     }
    ],
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "rules": 0,
+   "issues": 0,
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0,
+   "top": [],
+   "at": "2026-11-24"
   }
  },
  "rhumba-latin-restaurant-and-bar": {

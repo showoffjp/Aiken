@@ -1,0 +1,336 @@
+{
+  "name": "All-Safe Industrial Services",
+  "short": "All-Safe",
+  "category": "Industrial Maintenance Contractor",
+  "group": "Trades & Industry",
+  "town": "Beech Island, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "big-shoulders-display",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#111418",
+    "surface": "#1a1f25",
+    "ink": "#f3f4f2",
+    "muted": "#a9b1ba",
+    "primary": "#f5c518",
+    "onPrimary": "#15130a",
+    "accent": "#ff8a3d",
+    "line": "#2b323b"
+  },
+  "radius": 2,
+  "icon": "hard-hat",
+  "cinematic": true,
+  "contact": {
+    "phone": "(803) 489-0093",
+    "email": "office@allsafe1.com",
+    "address": [
+      "11628 Atomic Road",
+      "Beech Island, SC 29842"
+    ],
+    "mapQuery": "11628 Atomic Road, Beech Island, SC 29842",
+    "hoursNote": "Call to schedule a walk-down of your project or a maintenance survey of your facility.",
+    "facebook": "https://www.facebook.com/AllsafeIndustrial/"
+  },
+  "hero": {
+    "eyebrow": "Industrial maintenance contractor, Beech Island SC",
+    "title": "All safe. *All the time.*",
+    "lede": "Scaffolding, cleaning and coatings, insulation and heat trace for industrial facilities across South Carolina, Georgia and North Carolina, since 1997.",
+    "points": [
+      "Exceeds OSHA requirements",
+      "Plant outages & turnarounds",
+      "SSPC-compliant coatings"
+    ],
+    "cta": {
+      "label": "Plan a project",
+      "href": "#services"
+    },
+    "cta2": {
+      "label": "Call (803) 489-0093",
+      "href": "tel:+18034890093"
+    },
+    "image": {
+      "src": "/demo-assets/all-safe-industrial/tank-coating.webp",
+      "alt": "A large storage tank half blasted and half recoated, with two boom lifts at its base",
+      "width": 1600,
+      "height": 1200
+    }
+  },
+  "facts": [
+    {
+      "value": "1997",
+      "label": "Serving industry since"
+    },
+    {
+      "value": "3",
+      "label": "States: SC, GA and NC"
+    },
+    {
+      "value": "2006",
+      "label": "Insulating facilities since"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "One contractor, the whole job",
+      "title": "What *we do*",
+      "items": [
+        {
+          "icon": "construction",
+          "title": "Scaffolding",
+          "text": "We supply all the material, then design, build and dismantle scaffolding of any scale for construction, maintenance and repair."
+        },
+        {
+          "icon": "spray-can",
+          "title": "Cleaning & coatings",
+          "text": "Where All-Safe began: soda, dry ice and abrasive blasting, then coatings for floors, walls, tanks and valves."
+        },
+        {
+          "icon": "layers",
+          "title": "Insulation",
+          "text": "Design, material supply, custom fabrication and turnkey installation, from mineral wool and foam glass to cal-sil."
+        },
+        {
+          "icon": "thermometer-snowflake",
+          "title": "Heat trace",
+          "text": "Freeze-protection and maintain systems with any supplier’s material: design, troubleshooting, installation and audits."
+        },
+        {
+          "icon": "warehouse",
+          "title": "Scaffold rental",
+          "text": "Rent scaffold material for commercial projects. Ask for a free quote."
+        },
+        {
+          "icon": "clipboard-check",
+          "title": "Maintenance surveys",
+          "text": "We look over your facility and recommend work to fit your priorities, budget and schedule."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "detail",
+      "nav": "Detail",
+      "eyebrow": "The specifics",
+      "title": "Materials *& methods*",
+      "columns": [
+        {
+          "title": "Blasting & coatings",
+          "items": [
+            "Abrasive, soda and dry ice blasting",
+            "Removes rust, dirt, oil and old residue",
+            "Etches smooth surfaces so new paint holds",
+            "SSPC-compliant coatings for steel and concrete"
+          ]
+        },
+        {
+          "title": "Insulation",
+          "items": [
+            "Ceramic coating",
+            "Poly-iso and mineral wool",
+            "Fiberglass and foam glass",
+            "Cal-sil"
+          ]
+        },
+        {
+          "title": "Heat trace",
+          "items": [
+            "Self-regulating and mineral insulated cable",
+            "Tube bundles",
+            "System audits and troubleshooting",
+            "Certified fire sprinkler systems"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "id": "work",
+      "nav": "Work",
+      "eyebrow": "In the field",
+      "title": "Recent *projects*",
+      "images": [
+        {
+          "src": "/demo-assets/all-safe-industrial/column-scaffold.webp",
+          "alt": "Scaffolding around tall process columns, with a crane truck alongside",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/insulated-piping.webp",
+          "alt": "Looping runs of metal-jacketed insulated pipe beside yellow handrails",
+          "width": 1600,
+          "height": 943
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/red-floor.webp",
+          "alt": "A freshly coated red floor around blue pump units",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/scaffold-tower.webp",
+          "alt": "A scaffold tower wrapped around a tall industrial vessel",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/insulated-duct.webp",
+          "alt": "A large metal-clad insulated duct",
+          "width": 1600,
+          "height": 1200
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/pipe-insulation.webp",
+          "alt": "Pipe fittings wrapped in removable insulation blankets",
+          "width": 1200,
+          "height": 1600
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/storefront-scaffold.webp",
+          "alt": "Frame scaffolding across the front of a two-story commercial building",
+          "width": 1024,
+          "height": 768
+        },
+        {
+          "src": "/demo-assets/all-safe-industrial/insulated-equipment.webp",
+          "alt": "Insulated equipment with metal jacketing and orange valve actuators",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "process",
+      "nav": "Process",
+      "eyebrow": "How a job runs",
+      "title": "From survey *to sign-off*",
+      "items": [
+        {
+          "title": "Walk-down or survey",
+          "text": "We look at the project or the whole facility and talk through your priorities, budget and schedule."
+        },
+        {
+          "title": "A plan and a quote",
+          "text": "Recommendations and a price, often at a direct cost saving over hiring several contractors."
+        },
+        {
+          "title": "Safe execution",
+          "text": "Safety comes first on every job, and our work exceeds OSHA requirements."
+        },
+        {
+          "title": "On schedule",
+          "text": "Short-term or long-term, including plant outages and turnarounds."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Since 1997",
+      "title": "Built on *cleaning and coatings*",
+      "image": {
+        "src": "/demo-assets/all-safe-industrial/spray-coating.webp",
+        "alt": "A technician in a protective suit spray-coating steel parts",
+        "width": 1600,
+        "height": 943
+      },
+      "body": [
+        "All-Safe began serving customers in 1997 as an industrial cleaning and coatings company. Over the years we’ve listened to our clients and added scaffolding, insulation, heat trace and other maintenance services, so one experienced team can handle more of your facility.",
+        "Our mission is to protect the investment of your facility with the highest standards of quality, safety and integrity: meeting your schedule, using the most cost-effective methods and minimizing the impact on the environment."
+      ],
+      "list": [
+        "Tim Nixon, Owner",
+        "Natalie Nixon, CEO",
+        "Adam Rubendall, VP Operations",
+        "Project managers for coatings, insulation and heat trace, and scaffolding"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Where do you work?",
+          "a": "Industrial facilities and businesses across the Southeast, including South Carolina, Georgia and North Carolina."
+        },
+        {
+          "q": "Can you work during a plant outage or turnaround?",
+          "a": "Yes. We’re experienced in outages and turnarounds and support both short-term and long-term projects."
+        },
+        {
+          "q": "Do you rent scaffolding?",
+          "a": "Yes, we rent scaffold material for commercial projects. Call for a free quote."
+        },
+        {
+          "q": "What kinds of blasting do you offer?",
+          "a": "Abrasive, soda and dry ice blasting, to clean surfaces or etch them so new coatings adhere."
+        },
+        {
+          "q": "Are you hiring?",
+          "a": "Openings are posted as they come up, and you can apply online in English or Spanish."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning an outage or a turnaround?",
+      "text": "Call to schedule a walk-down of your project.",
+      "cta": {
+        "label": "Call (803) 489-0093",
+        "href": "tel:+18034890093"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Atomic Road*",
+    "formTitle": "Tell us about your project",
+    "formTopics": [
+      "Scaffolding",
+      "Scaffold rental",
+      "Cleaning & coatings",
+      "Insulation",
+      "Heat trace",
+      "A maintenance survey",
+      "Jobs"
+    ]
+  },
+  "slug": "all-safe-industrial",
+  "added": "2026-11-24",
+  "prospect": "all-safe-industrial-services-inc",
+  "source": {
+    "url": "https://allsafe1.com/",
+    "before": [
+      "The first screen is a photo of scaffolding with no headline; what the company does only starts below it",
+      "The home page weighs 6.8 MB, and Google’s phone speed test waited 30 seconds for the main picture to appear",
+      "The footer gives the address as 11628 Atomic Road, but the North Augusta Chamber directory lists 1105 Atomic Road",
+      "Heat trace, one of the four services, isn’t mentioned on the home page"
+    ],
+    "after": [
+      "All six services on the first screen",
+      "Materials and methods spelled out for buyers and engineers",
+      "A project form that goes straight to the office",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "slant",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

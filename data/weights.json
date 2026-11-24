@@ -374,11 +374,18 @@
  },
  "all-safe-industrial-services-inc": {
   "site": {
-   "bytes": 6793355,
+   "bytes": 6793177,
    "requests": 50,
-   "loadMs": 10596,
+   "loadMs": 2008,
    "url": "https://allsafe1.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 536732,
+   "requests": 7,
+   "loadMs": 115,
+   "url": "/all-safe-industrial/",
+   "at": "2026-11-24"
   }
  },
  "allstar-tents-and-events": {
@@ -3267,11 +3274,18 @@
  },
  "rhodes-murphy": {
   "site": {
-   "bytes": 5476935,
-   "requests": 112,
-   "loadMs": 5343,
+   "bytes": 5478744,
+   "requests": 111,
+   "loadMs": 10914,
    "url": "https://www.rhodesmurphy.com/",
-   "at": "2026-11-17"
+   "at": "2026-11-24"
+  },
+  "concept": {
+   "bytes": 354943,
+   "requests": 7,
+   "loadMs": 98,
+   "url": "/rhodes-murphy/",
+   "at": "2026-11-24"
   }
  },
  "rare-blue-moon-marketing": {

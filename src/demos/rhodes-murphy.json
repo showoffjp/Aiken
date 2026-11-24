@@ -1,0 +1,342 @@
+{
+  "name": "Rhodes-Murphy Income Tax Services",
+  "short": "Rhodes-Murphy",
+  "category": "Tax Preparation",
+  "group": "Professional",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#ffffff",
+    "surface": "#f6f3f1",
+    "ink": "#1c1c1e",
+    "muted": "#595d64",
+    "primary": "#c8102e",
+    "onPrimary": "#ffffff",
+    "accent": "#1f3b5c",
+    "line": "#e6e1dd"
+  },
+  "radius": 6,
+  "icon": "receipt",
+  "contact": {
+    "phone": "(803) 279-3873",
+    "phoneLabel": "North Augusta office",
+    "phone2": "(803) 649-2397",
+    "phone2Label": "South Aiken office",
+    "email": "info@rhodesmurphy.com",
+    "address": [
+      "202 E Martintown Road",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Rhodes-Murphy, 202 E Martintown Rd, North Augusta, SC 29841",
+    "hoursNote": "Hours vary by office and through the year. Call your nearest office or book an appointment.",
+    "facebook": "https://www.facebook.com/RhodesMurphyTax/"
+  },
+  "hero": {
+    "variant": "banner",
+    "eyebrow": "Income tax services in the CSRA for over 50 years",
+    "title": "Your taxes, *done right*",
+    "lede": "Expert tax preparation and free e-file at 13 offices in Georgia and South Carolina, including North Augusta, South Aiken and New Ellenton. Enrolled agents on staff.",
+    "points": [
+      "Free e-file",
+      "Refund Advance up to $6,000",
+      "13 offices"
+    ],
+    "cta": {
+      "label": "Find your office",
+      "href": "#offices"
+    },
+    "cta2": {
+      "label": "Call (803) 279-3873",
+      "href": "tel:+18032793873"
+    },
+    "image": {
+      "src": "/demo-assets/rhodes-murphy/office.webp",
+      "alt": "A Rhodes-Murphy office with its red sign: Tax, Investments, Insurance, Mortgages",
+      "width": 1600,
+      "height": 658
+    }
+  },
+  "facts": [
+    {
+      "value": "50+",
+      "label": "Years serving the CSRA"
+    },
+    {
+      "value": "13",
+      "label": "Offices in GA and SC"
+    },
+    {
+      "value": "$6,000",
+      "label": "Refund Advance, up to"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "Guaranteed accuracy, less frustration",
+      "title": "How *we help*",
+      "items": [
+        {
+          "icon": "calculator",
+          "title": "Tax preparation",
+          "text": "Federal and state returns prepared by tax professionals, with enrolled agents on staff."
+        },
+        {
+          "icon": "send",
+          "title": "Free e-file",
+          "text": "We’re an authorized IRS e-file provider, with e-file for Georgia, South Carolina and most other states."
+        },
+        {
+          "icon": "hand-coins",
+          "title": "Refund Advance",
+          "text": "Up to $6,000 within hours for qualified applicants, with fees taken from your refund."
+        },
+        {
+          "icon": "banknote",
+          "title": "Fees from your refund",
+          "text": "With an Electronic Return Check or Deposit, prep fees come out of your refund instead of your pocket."
+        },
+        {
+          "icon": "archive",
+          "title": "Copies & safe-keeping",
+          "text": "Bound copies of your returns, and storage of your tax documents."
+        },
+        {
+          "icon": "gift",
+          "title": "Referral program",
+          "text": "Refer friends and family and earn gift cards for successful referrals."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "bring",
+      "nav": "What to bring",
+      "eyebrow": "Before your appointment",
+      "title": "What *to bring*",
+      "columns": [
+        {
+          "title": "About you",
+          "items": [
+            "Social Security card",
+            "Driver’s license",
+            "Proof of health insurance",
+            "Last year’s return, if you have it"
+          ]
+        },
+        {
+          "title": "Income",
+          "items": [
+            "W-2 wage statements",
+            "Our Income & Deduction Checklist, filled in"
+          ]
+        },
+        {
+          "title": "Dependents",
+          "items": [
+            "Social Security numbers and dates of birth",
+            "Proof of residence, such as school records"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "id": "offices",
+      "nav": "Offices",
+      "eyebrow": "13 offices",
+      "title": "Find *your office*",
+      "printLabel": "Print the office list",
+      "groups": [
+        {
+          "title": "South Carolina",
+          "items": [
+            {
+              "name": "North Augusta / Belvedere",
+              "desc": "202 E Martintown Road, North Augusta",
+              "price": "(803) 279-3873"
+            },
+            {
+              "name": "South Aiken",
+              "desc": "550 Silver Bluff Road, Suite 400, Aiken",
+              "price": "(803) 649-2397"
+            },
+            {
+              "name": "New Ellenton",
+              "desc": "237 Main Street, New Ellenton",
+              "price": "(803) 652-3342"
+            }
+          ]
+        },
+        {
+          "title": "Augusta area",
+          "items": [
+            {
+              "name": "Evans",
+              "desc": "4324 Washington Road, Suite 103, Evans",
+              "price": "(706) 868-1298"
+            },
+            {
+              "name": "Grovetown",
+              "desc": "308 West Robinson Avenue, Grovetown",
+              "price": "(706) 863-2115"
+            },
+            {
+              "name": "Martinez",
+              "desc": "4468 Columbia Road, Augusta (formerly on Wrightsboro Road)",
+              "price": "(706) 733-8627"
+            },
+            {
+              "name": "Peach Orchard",
+              "desc": "3206 Peach Orchard Road, Augusta",
+              "price": "(706) 793-6252"
+            },
+            {
+              "name": "Southgate",
+              "desc": "1557 Gordon Highway, Suite A",
+              "price": "(706) 738-9090"
+            }
+          ]
+        },
+        {
+          "title": "Georgia",
+          "items": [
+            {
+              "name": "Louisville",
+              "desc": "136 West Broad Street, Louisville",
+              "price": "(478) 625-9800"
+            },
+            {
+              "name": "Thomson",
+              "desc": "654 Main Street, Thomson",
+              "price": "(706) 595-6053"
+            },
+            {
+              "name": "Wadley",
+              "desc": "7 North Main Street, Wadley",
+              "price": "(478) 252-5243"
+            },
+            {
+              "name": "Waynesboro",
+              "desc": "501 West 6th Street, Waynesboro",
+              "price": "(706) 554-9010"
+            },
+            {
+              "name": "Wrens",
+              "desc": "208 Estelle Street, Wrens",
+              "price": "(706) 547-3464"
+            }
+          ]
+        }
+      ],
+      "footnote": "From the Locations page in November 2026. Call ahead for each office’s hours."
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Since the early ’60s",
+      "title": "A CSRA name *for generations*",
+      "image": {
+        "src": "/demo-assets/rhodes-murphy/office.webp",
+        "alt": "A Rhodes-Murphy office front with its red sign",
+        "width": 1600,
+        "height": 658
+      },
+      "body": [
+        "Aubrey Rhodes Sr. founded the firm in Augusta in the early 1960s, and we’ve served the community for over 50 years. Our work on tax technology sparked the creation of TaxSlayer Pro, now used by tax professionals around the world.",
+        "At any Rhodes-Murphy office you can count on a friendly face and professional service. However complex your return, our licensed and certified enrolled agents will file it accurately and help you understand your financial health."
+      ],
+      "list": [
+        "Enrolled agents on staff",
+        "Authorized IRS e-file provider",
+        "Offices in Georgia and South Carolina"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How much does it cost?",
+          "a": "Fees depend on your return. Call your nearest office for a free estimate."
+        },
+        {
+          "q": "How does e-file work?",
+          "a": "We prepare your return, you sign it with your e-file PIN or Form 8453, and we send it to the IRS. Direct deposit gets your refund to you fastest."
+        },
+        {
+          "q": "Do you file state returns?",
+          "a": "Yes. We take part in the Federal/State e-file program for Georgia, South Carolina and most other states."
+        },
+        {
+          "q": "Can my fees come out of my refund?",
+          "a": "Yes. With an Electronic Return Check or Electronic Return Deposit, all fees are deducted from your refund. Deposits are usually available in 7 to 13 days."
+        },
+        {
+          "q": "Is there a credit check for a Refund Advance?",
+          "a": "Generally not, but we check with the IRS for liens on your refund, such as back taxes, past-due student loans or child support, which can reduce or rule out an advance."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Book your tax appointment",
+      "text": "Thirteen offices across the CSRA, with enrolled agents on staff.",
+      "cta": {
+        "label": "Call (803) 279-3873",
+        "href": "tel:+18032793873"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Martintown Road*",
+    "formTitle": "Book an appointment",
+    "formTopics": [
+      "Tax preparation",
+      "Refund Advance",
+      "Refund status",
+      "Referral program",
+      "Something else"
+    ]
+  },
+  "slug": "rhodes-murphy",
+  "added": "2026-11-24",
+  "prospect": "rhodes-murphy",
+  "source": {
+    "url": "https://www.rhodesmurphy.com/",
+    "before": [
+      "The home page says “16 locations” in one place and “13 locations” in another",
+      "On a phone, pinch-to-zoom is switched off, and there’s no phone number or call button on the first screen",
+      "The services page still offers Forms 1040A and 1040EZ, which the IRS retired after the 2017 tax year",
+      "The Facebook icon opens an old Gmail redirect link from 2020 instead of the Facebook page"
+    ],
+    "after": [
+      "All 13 offices with tap-to-call numbers, on one page",
+      "What to bring, as a checklist",
+      "Clear answers on fees and refund options",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "frame": "circle",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "checker",
+    "divider": "wave",
+    "heads": "rule",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

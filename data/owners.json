@@ -1,0 +1,105 @@
+{
+ "_about": "Owners or contacts found on a business's own pages, used where no directory lists a contact. greet is the name a first email may open with; empty where the name is uncertain or not the owner.",
+ "208-abbeville-bed-and-breakfast": {
+  "name": "Bruce Shipman",
+  "role": "proprietor",
+  "source": "Their public listing",
+  "greet": "Bruce"
+ },
+ "beech-island-timber-and-construction-inc": {
+  "name": "Josh T. Key",
+  "role": "owner and president",
+  "source": "Their website",
+  "greet": "Josh"
+ },
+ "covenant-family-allergy": {
+  "name": "Dr. Matthew Clark",
+  "role": "founder",
+  "source": "Their website",
+  "greet": "Dr. Clark"
+ },
+ "coward-and-mcneill-real-estate": {
+  "name": "Bud Coward and Michael S. McNeill",
+  "role": "co-owners",
+  "source": "Their website",
+  "greet": "Bud"
+ },
+ "empire-tree": {
+  "name": "Joe McMahon",
+  "role": "owner",
+  "source": "Their website",
+  "greet": "Joe"
+ },
+ "hic-warehouse-indoor-skateboard-park": {
+  "name": "Bo Mitchell",
+  "role": "founder",
+  "source": "Their website",
+  "greet": "Bo"
+ },
+ "the-larder": {
+  "name": "Manuel Verney-Carron",
+  "role": "chef-owner",
+  "source": "Their website",
+  "greet": "Manuel"
+ },
+ "lookaway-inn": {
+  "name": "John and Mary Felak",
+  "role": "innkeepers",
+  "source": "Their website",
+  "greet": "John and Mary"
+ },
+ "southbound-aiken": {
+  "name": "Brian Brittingham and George Claussen",
+  "role": "co-owners",
+  "source": "A news story on their website",
+  "greet": ""
+ },
+ "veterinary-healthcare-associates-inc": {
+  "name": "Dr. Barry and Kim Strock",
+  "role": "owners",
+  "source": "Their website",
+  "greet": "Dr. Strock"
+ },
+ "dynamic-audio-and-video": {
+  "name": "Dave",
+  "role": "owner",
+  "source": "Their website (first name only)",
+  "greet": "Dave"
+ },
+ "radioactive-pinball-arcade": {
+  "name": "Eric and Erin",
+  "role": "owners",
+  "source": "Their website (first names only)",
+  "greet": "Eric and Erin"
+ },
+ "wise-warehousing-solutions": {
+  "name": "David Wise",
+  "role": "signs the website",
+  "source": "Their website",
+  "greet": ""
+ },
+ "arnold-advisors-llc": {
+  "name": "Trent L. Arnold, CPA",
+  "role": "likely principal",
+  "source": "Their Twitter link (unconfirmed)",
+  "greet": ""
+ },
+ "massage-ology-wellness-studio": {
+  "name": "Maria and Kay",
+  "role": "therapists",
+  "source": "Their booking page",
+  "greet": ""
+ },
+ "burrell-and-flynns-farm": {
+  "name": "Beth",
+  "role": "host",
+  "source": "Guest reviews on their website",
+  "greet": ""
+ },
+ "all-safe-industrial-services-inc": {
+  "name": "Tim Nixon",
+  "role": "owner",
+  "source": "Their website",
+  "greet": "Tim"
+ }
+}
