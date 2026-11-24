@@ -113,5 +113,17 @@
   "role": "wig specialist named in client reviews",
   "source": "Their website",
   "greet": ""
+ },
+ "bill-cunningham-fitness": {
+  "name": "Bill Cunningham",
+  "role": "owner and head trainer",
+  "source": "Their website",
+  "greet": "Bill"
+ },
+ "chandler-law-firm-pa": {
+  "name": "Everett K. Chandler, Esq.",
+  "role": "attorney",
+  "source": "Their website",
+  "greet": "Mr. Chandler"
  }
 }

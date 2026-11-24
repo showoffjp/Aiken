@@ -1,0 +1,281 @@
+{
+  "name": "Bill Cunningham Fitness",
+  "short": "BC Fitness",
+  "category": "Personal Training & Nutrition",
+  "group": "Health & Beauty",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "dm-sans"
+  },
+  "colors": {
+    "bg": "#fbfaf6",
+    "surface": "#ffffff",
+    "ink": "#16161a",
+    "muted": "#55565e",
+    "primary": "#16161a",
+    "onPrimary": "#ffd21f",
+    "accent": "#b8860b",
+    "line": "#e9e6dc"
+  },
+  "radius": 8,
+  "icon": "dumbbell",
+  "contact": {
+    "phone": "(803) 622-5254",
+    "address": [
+      "816 East Pine Log Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Bill Cunningham Fitness, 816 E Pine Log Rd, Aiken, SC 29803",
+    "hoursNote": "Training is by appointment, one to five days a week. Call to book your first talk with a coach.",
+    "facebook": "https://www.facebook.com/billcunninghamenterprises"
+  },
+  "hero": {
+    "eyebrow": "Small group personal training in Aiken",
+    "title": "Feel better. *Do more.*",
+    "lede": "Expert coaching in a fun, small-group atmosphere, with nutrition counseling included. For parents, professionals and everyone between.",
+    "points": [
+      "Custom training plans",
+      "Nutrition counseling included",
+      "1–5 days a week"
+    ],
+    "cta": {
+      "label": "Get started",
+      "href": "#start"
+    },
+    "cta2": {
+      "label": "Call (803) 622-5254",
+      "href": "tel:+18036225254"
+    },
+    "image": {
+      "src": "/demo-assets/bill-cunningham-fitness/bill-vanessa.webp",
+      "alt": "Bill Cunningham and nutrition coach Vanessa Stone in the gym, holding kettlebells",
+      "width": 1200,
+      "height": 1721
+    }
+  },
+  "facts": [
+    {
+      "value": "16+",
+      "label": "Years in health and fitness"
+    },
+    {
+      "value": "1–5",
+      "label": "Training days a week"
+    },
+    {
+      "value": "2",
+      "label": "Nutrition check-ins a month"
+    }
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "start",
+      "nav": "Get started",
+      "eyebrow": "Three steps",
+      "title": "How *it starts*",
+      "items": [
+        {
+          "title": "Talk with a coach",
+          "text": "We meet one on one to learn about your goals, your life and your challenges."
+        },
+        {
+          "title": "Movement assessment",
+          "text": "A trainer takes you through simple movements: think of it as a getting-to-know-you workout."
+        },
+        {
+          "title": "Start training",
+          "text": "Your custom plan, built around your goals and schedule, begins."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 2,
+      "eyebrow": "Feel better. Achieve more. Belong here.",
+      "title": "Our *services*",
+      "items": [
+        {
+          "icon": "users",
+          "title": "Small group personal training",
+          "text": "Like one-on-one coaching, but more fun: personalized exercises, flexible scheduling and friends who sweat with you."
+        },
+        {
+          "icon": "apple",
+          "title": "Nutrition counseling",
+          "text": "Two appointments a month, unlimited text and email support, and a plan that adjusts as you progress. Included with training, or on its own."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "for-you",
+      "nav": "Who it’s for",
+      "eyebrow": "We got you",
+      "title": "Is this *for you?*",
+      "columns": [
+        {
+          "title": "Busy lives",
+          "items": [
+            "Demanding job and family, only a few hours a week",
+            "You’d rather we handle the plan"
+          ]
+        },
+        {
+          "title": "Staying active",
+          "items": [
+            "Keeping up with kids and grandkids",
+            "Still on the course, the court or in the woods"
+          ]
+        },
+        {
+          "title": "Getting real guidance",
+          "items": [
+            "You’ve tried doing it alone",
+            "You want to feel good in your clothes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Owner & head trainer",
+      "title": "Meet *Bill*",
+      "image": {
+        "src": "/demo-assets/bill-cunningham-fitness/bill.webp",
+        "alt": "Bill Cunningham, arms crossed, in a Bill Cunningham Fitness shirt",
+        "width": 1000,
+        "height": 1500
+      },
+      "body": [
+        "With over 16 years in the health and fitness industry, Bill combines deep technical expertise with an approachable, motivating style. His philosophy is simple: help people feel better so they can do more in life.",
+        "Bill is certified by the National Federation of Personal Trainers and as a Functional Movement Specialist through Gray Cook’s Functional Movement Systems. Nutrition coach Vanessa Stone holds multiple certifications from Precision Nutrition and the National Academy of Sports Medicine."
+      ],
+      "list": [
+        "Board member, Aiken Chamber of Commerce",
+        "Board member, Joye in Aiken",
+        "Leadership Aiken, class of 2020"
+      ]
+    },
+    {
+      "type": "quotes",
+      "id": "reviews",
+      "nav": "Reviews",
+      "eyebrow": "From our members",
+      "title": "Stronger *at every age*",
+      "items": [
+        {
+          "text": "I started working out with Bill Cunningham Fitness when I was 52. After a very short time, I can honestly say that I am in better shape than I have been since high school.",
+          "by": "S. C., 53"
+        },
+        {
+          "text": "I have been working out with Bill Cunningham Fitness for three years. I’m stronger than I’ve ever been in my life!",
+          "by": "C. M., 64"
+        },
+        {
+          "text": "They are always encouraging you to get better, but never push you to injury or to adopt unsustainable habits.",
+          "by": "R. P., 35"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "gym",
+      "nav": "The gym",
+      "eyebrow": "On Pine Log Road",
+      "title": "Not the *“other” gym*",
+      "image": {
+        "src": "/demo-assets/bill-cunningham-fitness/gym-floor.webp",
+        "alt": "The training floor, with members working out under bright yellow walls",
+        "width": 1086,
+        "height": 724
+      },
+      "body": [
+        "Expert attention in a fun community atmosphere. Strength, mobility, power and cardio training, with coaches who watch every movement so you do it right and get the most out of it."
+      ],
+      "list": [
+        "Small groups, personal coaching",
+        "Plans that progress as you do",
+        "Nutrition support between sessions"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "How often do I train?",
+          "a": "One to five days a week, scheduled around your life."
+        },
+        {
+          "q": "Is nutrition counseling extra?",
+          "a": "It’s included in every small group personal training package, and can also be bought on its own."
+        },
+        {
+          "q": "I’m out of shape. Is that OK?",
+          "a": "Absolutely. Every plan starts with a conversation and a movement assessment, and builds from where you are."
+        },
+        {
+          "q": "How do I start?",
+          "a": "Call (803) 622-5254 to book your first talk with a coach."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Don’t you want to feel better and do more in life?",
+      "text": "Book your first talk with a coach.",
+      "cta": {
+        "label": "Call (803) 622-5254",
+        "href": "tel:+18036225254"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pine Log Road*",
+    "formTitle": "Talk with a coach",
+    "formTopics": [
+      "Small group personal training",
+      "Nutrition counseling",
+      "A movement assessment",
+      "Something else"
+    ]
+  },
+  "slug": "bill-cunningham-fitness",
+  "added": "2026-11-24",
+  "prospect": "bill-cunningham-fitness",
+  "source": {
+    "url": "https://billcunninghamfitness.com/",
+    "before": [
+      "On a phone there’s no call button or number on the first screen, and 17 of its 28 links and buttons are too small to tap easily",
+      "Google’s phone speed test waited 20 seconds for the main picture to appear",
+      "Pinch-to-zoom is switched off on phones",
+      "The home page quote repeats itself: “excited to be able to be able to keep pace”"
+    ],
+    "after": [
+      "How to start, in three steps, on the first screen",
+      "Bill and Vanessa’s credentials, up front",
+      "A form to book your first talk with a coach",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "frame": "offset",
+    "services": "pills",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "slide",
+    "buttons": "shadow"
+  }
+}

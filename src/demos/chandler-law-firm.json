@@ -1,0 +1,277 @@
+{
+  "name": "The Chandler Law Firm",
+  "short": "Chandler Law",
+  "category": "Criminal Defense & Personal Injury Attorney",
+  "group": "Professional",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f8f5f0",
+    "surface": "#ffffff",
+    "ink": "#1e1a17",
+    "muted": "#5f5750",
+    "primary": "#6e1f2b",
+    "onPrimary": "#ffffff",
+    "accent": "#9a6b1f",
+    "line": "#e6dfd5"
+  },
+  "radius": 4,
+  "icon": "scale",
+  "contact": {
+    "phone": "(803) 644-5335",
+    "address": [
+      "103 Waterloo Street SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "The Chandler Law Firm, 103 Waterloo St SW, Aiken, SC 29801",
+    "hoursNote": "Fax (803) 644-5334. Call to schedule a consultation; if you visit us directly, we offer free counseling.",
+    "facebook": "https://www.facebook.com/CountOnChandler/"
+  },
+  "hero": {
+    "eyebrow": "Everett K. Chandler, Esq. · Attorney & Counselor at Law",
+    "title": "Count on Chandler *for your legal needs*",
+    "lede": "Criminal defense, DUI and drug charges, personal injury, workers’ compensation and nursing home neglect, from an Aiken attorney who spent six years as a prosecutor in the Second Judicial Circuit.",
+    "points": [
+      "Criminal defense",
+      "Personal injury",
+      "Workers’ compensation"
+    ],
+    "cta": {
+      "label": "Call (803) 644-5335",
+      "href": "tel:+18036445335"
+    },
+    "cta2": {
+      "label": "Practice areas",
+      "href": "#practice"
+    }
+  },
+  "facts": [
+    {
+      "value": "6 yrs",
+      "label": "In the Second Circuit Solicitor’s Office"
+    },
+    {
+      "value": "8",
+      "label": "Practice areas"
+    },
+    {
+      "value": "Free",
+      "label": "Counseling when you visit"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "practice",
+      "nav": "Practice areas",
+      "columns": 3,
+      "eyebrow": "Let experience work for you",
+      "title": "Practice *areas*",
+      "items": [
+        {
+          "icon": "gavel",
+          "title": "Criminal defense",
+          "text": "Misdemeanors and felonies, juvenile offenses in family court, bond hearings and probation revocation hearings."
+        },
+        {
+          "icon": "pill",
+          "title": "Drug possession & trafficking",
+          "text": "Possession, distribution and trafficking charges, including help for college students facing school discipline."
+        },
+        {
+          "icon": "car",
+          "title": "DUI / DUAC",
+          "text": "Both the criminal case and your license: request your administrative hearing in time."
+        },
+        {
+          "icon": "car-front",
+          "title": "Automobile accidents",
+          "text": "We start preserving evidence the day you hire us: photos, witnesses and reports."
+        },
+        {
+          "icon": "heart-pulse",
+          "title": "Personal injury",
+          "text": "Car, truck and construction accidents, dog bites, falls, defective products and more."
+        },
+        {
+          "icon": "hard-hat",
+          "title": "Workers’ compensation",
+          "text": "Back, neck and head injuries, burns, carpal tunnel and silicosis, through any appeals."
+        },
+        {
+          "icon": "house-heart",
+          "title": "Nursing home neglect & abuse",
+          "text": "A thorough investigation and compassionate guidance for families."
+        },
+        {
+          "icon": "truck",
+          "title": "Tractor-trailer accidents",
+          "text": "Serious injuries involving semi trucks and tractor trailers."
+        },
+        {
+          "icon": "scale",
+          "title": "Wrongful death",
+          "text": "Help for families after a loved one’s death caused by another’s negligence."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Experience on both sides",
+      "title": "He knows the system *inside and out*",
+      "body": [
+        "Before opening The Chandler Law Firm, Everett K. Chandler worked for six years in the Second Judicial Circuit Solicitor’s Office in Aiken County. Over the years he has worked on a large number of criminal cases and learned what to expect, and what it takes.",
+        "Whether you face a DUI, a drug charge, a felony or a misdemeanor, have been hurt on the job, or need to recover losses from an accident, you can expect complete dedication to your case and thorough preparation for every hearing and trial."
+      ],
+      "list": [
+        "Former prosecutor, Second Judicial Circuit",
+        "Criminal defense and serious litigation",
+        "Downtown Aiken office on Waterloo Street"
+      ]
+    },
+    {
+      "type": "steps",
+      "id": "charged",
+      "nav": "If you’re charged",
+      "eyebrow": "Don’t wait to get help",
+      "title": "If you’ve been *charged or hurt*",
+      "items": [
+        {
+          "title": "Call before you talk",
+          "text": "Even at the “talking” stage with police or investigators, it matters to have a lawyer."
+        },
+        {
+          "title": "Act on deadlines",
+          "text": "After a DUI arrest you have a limited time to request a hearing, and injury claims have time limits too."
+        },
+        {
+          "title": "Preserve evidence",
+          "text": "Photos, witnesses and reports are gathered from the moment you hire us."
+        },
+        {
+          "title": "Plan your defense",
+          "text": "We review legal and factual defenses and prepare thoroughly for court."
+        }
+      ]
+    },
+    {
+      "type": "columns",
+      "id": "covered",
+      "nav": "Cases",
+      "eyebrow": "A closer look",
+      "title": "Cases *we handle*",
+      "columns": [
+        {
+          "title": "Criminal",
+          "items": [
+            "Assault and battery",
+            "Burglary and robbery",
+            "Shoplifting",
+            "Drug charges",
+            "Juvenile offenses"
+          ]
+        },
+        {
+          "title": "Injury",
+          "items": [
+            "Car and truck accidents",
+            "Construction accidents",
+            "Dog bites",
+            "Slip, trip and falls",
+            "Defective products"
+          ]
+        },
+        {
+          "title": "Work injuries",
+          "items": [
+            "Back and neck injuries",
+            "Head and brain injuries",
+            "Severe burns",
+            "Carpal tunnel",
+            "Silicosis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good *to know*",
+      "items": [
+        {
+          "q": "Can I lose my license before a DUI conviction?",
+          "a": "Yes. In South Carolina, a DUI/DUAC arrest can suspend your license automatically depending on your blood alcohol level, and you have a limited time to request an administrative hearing."
+        },
+        {
+          "q": "Do I have to prove my employer was negligent for workers’ comp?",
+          "a": "No. For a workers’ compensation claim you only need to show the injury was work-related."
+        },
+        {
+          "q": "Do you handle juvenile cases?",
+          "a": "Yes, juvenile offenses in family court, along with bond hearings and probation revocation hearings."
+        },
+        {
+          "q": "How do I get started?",
+          "a": "Call (803) 644-5335 to schedule a consultation, or visit our office on Waterloo Street."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "The longer you wait, the harder your case can be",
+      "text": "Talk to an experienced Aiken attorney today.",
+      "cta": {
+        "label": "Call (803) 644-5335",
+        "href": "tel:+18036445335"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Visit us on *Waterloo Street*",
+    "formTitle": "Tell us how we can help",
+    "formTopics": [
+      "Criminal charge",
+      "DUI / DUAC",
+      "Drug charge",
+      "Car or truck accident",
+      "Personal injury",
+      "Workers’ compensation",
+      "Nursing home neglect"
+    ]
+  },
+  "slug": "chandler-law-firm",
+  "added": "2026-11-24",
+  "prospect": "chandler-law-firm-pa",
+  "source": {
+    "url": "https://thechandlerlawfirm.com/",
+    "before": [
+      "The Services page is still filled with Latin placeholder text (“Donec placerat ante urna…”) under every practice area",
+      "Practice areas there carry leftover template labels like “Defects”, “Malpraxis” and “Death”",
+      "The DUI / DWI link on that page leads to a “page not found” error"
+    ],
+    "after": [
+      "Every practice area explained in plain English",
+      "The former-prosecutor background, up front",
+      "What to do right away if you’re charged or hurt",
+      "Fast on a phone"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

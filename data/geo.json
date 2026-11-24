@@ -188,6 +188,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "bill-cunningham-fitness": {
+  "q": "816 East Pine Log Road, Aiken, SC 29803",
+  "lat": 33.532741,
+  "lon": -81.697607,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-24"
+ },
  "bk-grading-and-paving": {
   "q": "2087 Williston Road, Aiken, SC 29803",
   "lat": 33.392834,
@@ -322,6 +330,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "chandler-law-firm": {
+  "q": "103 Waterloo Street SW, Aiken, SC 29801",
+  "lat": 33.564411,
+  "lon": -81.731374,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-24"
  },
  "covenant-family-allergy": {
   "q": "130 Allen Court, North Augusta, SC 29860",

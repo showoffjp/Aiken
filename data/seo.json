@@ -35254,7 +35254,7 @@
     "description": true,
     "schema": true,
     "og": true,
-    "performance": null,
+    "performance": 50,
     "pageMB": 3.2,
     "a11ySerious": 10,
     "facebook": true,
@@ -44857,6 +44857,772 @@
     "facebook": true,
     "instagram": false,
     "domainYears": 16
+   }
+  ]
+ },
+ "chandler-law-firm-pa": {
+  "slug": "chandler-law-firm",
+  "name": "The Chandler Law Firm",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "thechandlerlawfirm.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://thechandlerlawfirm.com/",
+    "title": "Lawyer | Criminal Defense Attorney | Aiken, SC: The Chandler Law Firm",
+    "description": "The Chandler Law Firm Law office offers legal services to our clients involved in criminal matters and serious litigation.",
+    "canonical": "https://thechandlerlawfirm.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Lawyer | Criminal Defense Attorney | Aiken, SC: The Chandler Law Firm",
+     "description": "The Chandler Law Firm Law office offers legal services to our clients involved in criminal matters and serious litigation.",
+     "image": "https://thechandlerlawfirm.com/wp-content/uploads/2018/01/Chandler_Aiken_Spread_Banner2.jpg",
+     "type": "website",
+     "imageStatus": 200
+    },
+    "twitterCard": "summary_large_image",
+    "h1": [],
+    "h1Count": 0,
+    "h2": 2,
+    "h3": 2,
+    "words": 769,
+    "images": 9,
+    "imagesNoAlt": 8,
+    "schemaTypes": [
+     "WebPage",
+     "ReadAction",
+     "BreadcrumbList",
+     "ListItem",
+     "WebSite",
+     "SearchAction",
+     "EntryPoint",
+     "PropertyValueSpecification",
+     "Organization",
+     "ImageObject"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": false,
+     "telephone": false,
+     "hours": false,
+     "geo": false,
+     "rating": false
+    },
+    "microdata": true,
+    "tel": true,
+    "mapEmbed": true,
+    "tags": {
+     "Google Analytics": true,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 0
+   },
+   "sitemap": {
+    "url": "https://thechandlerlawfirm.com/sitemap.xml",
+    "pages": 14
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 2,
+    "missingH1": 4,
+    "multipleH1": 0,
+    "thin": 3,
+    "noindex": 0,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 22,
+    "images": 51,
+    "sample": [
+     {
+      "url": "https://thechandlerlawfirm.com/",
+      "title": "Lawyer | Criminal Defense Attorney | Aiken, SC: The Chandler Law Firm",
+      "description": 122,
+      "h1": 0,
+      "words": 769
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/about-us/",
+      "title": "Black | African American Lawyer, Attorney Aiken SC -- The Chandler Law Firm -- Aiken, South Carolina (803) 644-5335",
+      "description": 77,
+      "h1": 0,
+      "words": 48
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/",
+      "title": "Services of Lawyer, Attorney Aiken SC, Law Office --The Chandler Law Firm-- Aiken, South Carolina (803) 644-5335",
+      "description": 208,
+      "h1": 1,
+      "words": 330
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/automobile-accidents/",
+      "title": "Car Accidents Lawyer | Law Office | Aiken, SC: The Chandler Law Firm",
+      "description": 123,
+      "h1": 1,
+      "words": 255
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/criminal-defense/",
+      "title": "Criminal Defense Attorney | Law Office: The Chandler Law Firm",
+      "description": 124,
+      "h1": 1,
+      "words": 262
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/drug-trafficking/",
+      "title": "Drug Possession Lawyer | Law Office | Aiken SC: The Chandler Law Firm",
+      "description": 127,
+      "h1": 1,
+      "words": 453
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/dui-duac/",
+      "title": "DUI Attorney | Law Office | Aiken, SC: The Chandler Law Firm",
+      "description": 126,
+      "h1": 1,
+      "words": 353
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/nursing-home-neglect-abuse/",
+      "title": "Nursing Home Abuse Attorney | Aiken, SC: The Chandler Law Firm",
+      "description": 131,
+      "h1": 1,
+      "words": 446
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/personal-injury/",
+      "title": "Personal Injury Lawyer | Aiken, SC: The Chandler Law Firm",
+      "description": 117,
+      "h1": 1,
+      "words": 288
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/workers-compensation/",
+      "title": "Workers Compensation Attorney | Law Office: The Chandler Law Firm",
+      "description": 142,
+      "h1": 1,
+      "words": 352
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/services/wrongful-death/",
+      "title": "Wrongful Death Lawyer | Law Firm: The Chandler Law Firm",
+      "description": 135,
+      "h1": 1,
+      "words": 149
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/contact/",
+      "title": "Contact The Chandler Law Firm - Aiken, SC (803) 644-5335",
+      "description": 56,
+      "h1": 1,
+      "words": 216
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/faqs/",
+      "title": "FAQ's Law Office --The Chandler Law Firm-- Aiken, South Carolina (803) 644-5335",
+      "description": 79,
+      "h1": 1,
+      "words": 1251
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/terms-of-service/",
+      "title": "Terms of Service - The Chandler Law Firm",
+      "description": 0,
+      "h1": 0,
+      "words": 812
+     },
+     {
+      "url": "https://thechandlerlawfirm.com/privacy-policy/",
+      "title": "Privacy Policy - The Chandler Law Firm",
+      "description": 0,
+      "h1": 0,
+      "words": 2950
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 16,
+    "broken": [
+     {
+      "url": "https://thechandlerlawfirm.com/services/dui-dwi",
+      "status": 404,
+      "from": "https://thechandlerlawfirm.com/services"
+     }
+    ],
+    "brokenCount": 1
+   },
+   "social": {
+    "Facebook": "https://www.facebook.com/CountOnChandler/",
+    "Google Business Profile": "https://www.google.com/maps/place/Chandler+Law+Firm/@33.5644143,-81.8018381,12z/data=!4m18!1m12!4m11!1m3!2m2!1d-81.7321436!2d33.5704217!1m6!1m2!1s0x88f84d0a01f57b47:0x9c607133c8388e7d!2sThe+Chandler+Law+Firm,+P.A.+103+Waterloo+St.+SW.+Aiken,+SC+29801!2m2!1d-81.731798!2d33.564434!3m4!1s0x88f84d0a01f57b47:0x9c607133c8388e7d!8m2!3d33.564434!4d-81.731798"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Criminal Defense",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": true,
+    "count": 7
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=318&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=5dd6e78d0f727cd5fc8ef82e2e8d7acb",
+    "name": "Chandler Law Firm, PA",
+    "phone": "(803) 644-5335",
+    "website": "http://www.thechandlerlawfirm.com",
+    "address": "103 Waterloo Street, SW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Facebook": "https://www.facebook.com/CountOnChandler/",
+    "Google Business Profile": "https://www.google.com/maps/place/Chandler+Law+Firm/@33.5644143,-81.8018381,12z/data=!4m18!1m12!4m11!1m3!2m2!1d-81.7321436!2d33.5704217!1m6!1m2!1s0x88f84d0a01f57b47:0x9c607133c8388e7d!2sThe+Chandler+Law+Firm,+P.A.+103+Waterloo+St.+SW.+Aiken,+SC+29801!2m2!1d-81.731798!2d33.564434!3m4!1s0x88f84d0a01f57b47:0x9c607133c8388e7d!8m2!3d33.564434!4d-81.731798"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/CountOnChandler/"
+   }
+  },
+  "domain": {
+   "name": "thechandlerlawfirm.com",
+   "created": "2005-12-22",
+   "expires": "2026-12-22",
+   "registrar": "Bluehost Inc.",
+   "years": 20
+  },
+  "performance": {
+   "performance": 50,
+   "accessibility": 72,
+   "bestPractices": 57,
+   "seo": 77,
+   "fcp": 4058,
+   "lcp": 5098,
+   "tbt": 656,
+   "si": 7110,
+   "cls": 0.004,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1205,
+   "lcp": 1955,
+   "tbt": 0,
+   "si": 1205,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "andrew-c-marine-attorney",
+   "austin-and-pethick-law-firm",
+   "hull-barrett-attorneys-pc",
+   "john-harte-law",
+   "johnson-johnson-whittle-lancer-and-staggs-attorn"
+  ],
+  "scores": {
+   "seo": 71,
+   "social": 65,
+   "lighthouseSeo": 77
+  },
+  "competitors": [
+   {
+    "slug": "andrew-c-marine-attorney",
+    "name": "Andrew C. Marine, Attorney",
+    "website": "https://www.andrewmarine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "austin-and-pethick-law-firm",
+    "name": "Austin & Pethick Law Firm",
+    "website": "https://www.austinpethick.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.3,
+    "a11ySerious": 26,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "hull-barrett-attorneys-pc",
+    "name": "Hull Barrett Attorneys, PC",
+    "website": "https://www.hullbarrett.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "john-harte-law",
+    "name": "John Harte Law",
+    "website": "https://www.jwhartelaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 5,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 7
+   },
+   {
+    "slug": "johnson-johnson-whittle-lancer-and-staggs-attorn",
+    "name": "Johnson, Johnson, Whittle, Lancer, & Staggs Attorneys, PA",
+    "website": "https://aikenattorneys.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 5.3,
+    "a11ySerious": 15,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 21
+   }
+  ]
+ },
+ "bill-cunningham-fitness": {
+  "slug": "bill-cunningham-fitness",
+  "name": "Bill Cunningham Fitness",
+  "checked": "2026-11-24",
+  "hasSite": true,
+  "siteState": "Online",
+  "site": {
+   "host": "billcunninghamfitness.com",
+   "https": true,
+   "pagesCrawled": 15,
+   "placeholderSocial": [],
+   "home": {
+    "url": "https://billcunninghamfitness.com/",
+    "title": "Best Personal Trainer in Aiken | Bill Cunningham Fitness",
+    "description": "Stop skipping the gym and get semi-private personal training from Bill Cunningham Fitness. We work with real people to get real results.",
+    "canonical": "https://billcunninghamfitness.com/",
+    "noindex": false,
+    "lang": "en-US",
+    "viewport": true,
+    "favicon": true,
+    "og": {
+     "title": "Best Personal Trainer in Aiken | Bill Cunningham Fitness",
+     "description": "Stop skipping the gym and get semi-private personal training from Bill Cunningham Fitness. We work with real people to get real results.",
+     "image": "",
+     "type": "website"
+    },
+    "twitterCard": "summary",
+    "h1": [
+     "Parents, Professionals & Everyone Between - WE CAN HELP!"
+    ],
+    "h1Count": 1,
+    "h2": 15,
+    "h3": 12,
+    "words": 1164,
+    "images": 10,
+    "imagesNoAlt": 2,
+    "schemaTypes": [
+     "WPHeader",
+     "WPFooter",
+     "Organization",
+     "ImageObject",
+     "ContactPoint",
+     "WebSite",
+     "SearchAction",
+     "BreadcrumbList",
+     "ListItem",
+     "Person",
+     "WebPage",
+     "SiteNavigationElement",
+     "HealthClub",
+     "PostalAddress",
+     "AggregateRating",
+     "OpeningHoursSpecification"
+    ],
+    "schemaLocal": true,
+    "schemaHas": {
+     "address": true,
+     "telephone": true,
+     "hours": true,
+     "geo": false,
+     "rating": true
+    },
+    "microdata": false,
+    "tel": true,
+    "mapEmbed": false,
+    "tags": {
+     "Google Analytics": false,
+     "Google Tag Manager": true,
+     "Meta Pixel": false
+    }
+   },
+   "robots": {
+    "found": true,
+    "blocksAll": false,
+    "sitemaps": 1
+   },
+   "sitemap": {
+    "url": "https://billcunninghamfitness.com/sitemap.xml",
+    "pages": 68
+   },
+   "crawl": {
+    "pages": 15,
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingH1": 4,
+    "multipleH1": 0,
+    "thin": 0,
+    "noindex": 1,
+    "dupTitles": 0,
+    "dupDescs": 0,
+    "imagesNoAlt": 35,
+    "images": 196,
+    "sample": [
+     {
+      "url": "https://billcunninghamfitness.com/",
+      "title": "Best Personal Trainer in Aiken | Bill Cunningham Fitness",
+      "description": 136,
+      "h1": 1,
+      "words": 1164
+     },
+     {
+      "url": "https://billcunninghamfitness.com/services/",
+      "title": "Personal Training and Nutrition Counseling Services in Aiken",
+      "description": 137,
+      "h1": 1,
+      "words": 369
+     },
+     {
+      "url": "https://billcunninghamfitness.com/testimonials/",
+      "title": "Bill Cunningham Fitness Testimonials | Personal Training in Aiken",
+      "description": 140,
+      "h1": 1,
+      "words": 975
+     },
+     {
+      "url": "https://billcunninghamfitness.com/about-us/",
+      "title": "About Bill Cunningham Fitness | Your Aiken Personal Trainer",
+      "description": 143,
+      "h1": 1,
+      "words": 864
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/",
+      "title": "Blog | Bill Cunningham Fitness",
+      "description": 91,
+      "h1": 1,
+      "words": 753
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/confidence/what-your-rest-days-are-actually-for/",
+      "title": "What Your Rest Days Are Actually For | Bill Cunningham Fitness",
+      "description": 150,
+      "h1": 1,
+      "words": 1165
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/author/bcunningham/",
+      "title": "Bill Cunningham | Bill Cunningham Fitness",
+      "description": 279,
+      "h1": 0,
+      "words": 538
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/category/confidence/",
+      "title": "Mindset & Motivation | Bill Cunningham Fitness",
+      "description": 289,
+      "h1": 0,
+      "words": 605
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/confidence/when-you-are-taking-care-of-everyone-else/",
+      "title": "When You Are Taking Care of Everyone Else | Bill Cunningham Fitness",
+      "description": 160,
+      "h1": 1,
+      "words": 1133
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/strength-training/what-grip-strength-and-balance-say-about-how-you-will-age/",
+      "title": "What Grip Strength and Balance Say About How You Will Age | Bill Cunningham Fitness",
+      "description": 160,
+      "h1": 1,
+      "words": 1130
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/category/strength-training/",
+      "title": "Strength & Movement | Bill Cunningham Fitness",
+      "description": 326,
+      "h1": 0,
+      "words": 603
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/strength-training/four-women-four-programs-what-small-group-personal-training-actually-looks-like/",
+      "title": "Four Women, Four Programs: What Small Group Personal Training Actually Looks Like | Bill Cunningham Fitness",
+      "description": 160,
+      "h1": 1,
+      "words": 926
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/strength-training/what-strength-training-actually-does-for-your-blood-sugar/",
+      "title": "What Strength Training Actually Does for Your Blood Sugar | Bill Cunningham Fitness",
+      "description": 160,
+      "h1": 1,
+      "words": 1142
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/nutrition/what-diet-coaching-in-aiken-actually-looks-like/",
+      "title": "Why Diets Don't Stick in Aiken, and What Actually Works | Bill Cunningham Fitness",
+      "description": 138,
+      "h1": 1,
+      "words": 1073
+     },
+     {
+      "url": "https://billcunninghamfitness.com/blog/category/nutrition/",
+      "title": "Nutrition & Fueling | Bill Cunningham Fitness",
+      "description": 296,
+      "h1": 0,
+      "words": 603
+     }
+    ]
+   },
+   "links": {
+    "internalChecked": 34,
+    "broken": [],
+    "brokenCount": 0
+   },
+   "social": {
+    "Google Business Profile": "https://maps.app.goo.gl/aM7J1s9DFNFVrnc4A",
+    "Facebook": "https://www.facebook.com/billcunninghamenterprises",
+    "Instagram": "https://www.instagram.com/billcunninghamfitness",
+    "YouTube": "https://www.youtube.com/@billcunninghamfitness",
+    "X (Twitter)": "https://apha.confex.com/apha/136am/webprogram/Paper173704.html"
+   }
+  },
+  "keywords": [
+   {
+    "term": "Personal Training",
+    "title": false,
+    "h1": false,
+    "description": true,
+    "firstWords": true,
+    "count": 2
+   },
+   {
+    "term": "Aiken",
+    "title": true,
+    "h1": false,
+    "description": false,
+    "firstWords": false,
+    "count": 2
+   }
+  ],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=247&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=df114cbef9fc1110d86519e0252df964",
+    "name": "Bill Cunningham Fitness",
+    "phone": "(803) 622-5254",
+    "website": "http://www.billcunninghamfitness.com",
+    "address": "816 East Pine Log Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {
+    "Google Business Profile": "https://maps.app.goo.gl/aM7J1s9DFNFVrnc4A",
+    "Facebook": "https://www.facebook.com/billcunninghamenterprises",
+    "Instagram": "https://www.instagram.com/billcunninghamfitness",
+    "YouTube": "https://www.youtube.com/@billcunninghamfitness",
+    "X (Twitter)": "https://apha.confex.com/apha/136am/webprogram/Paper173704.html"
+   },
+   "listed": {
+    "Facebook": "https://www.facebook.com/billcunninghamenterprises",
+    "Instagram": "https://www.instagram.com/billcunninghamfitness"
+   }
+  },
+  "domain": {
+   "name": "billcunninghamfitness.com",
+   "created": "2017-02-23",
+   "expires": "2027-02-23",
+   "registrar": "Tucows Domains Inc.",
+   "years": 9
+  },
+  "performance": {
+   "performance": 48,
+   "accessibility": 86,
+   "bestPractices": 79,
+   "seo": 92,
+   "fcp": 2952,
+   "lcp": 20287,
+   "tbt": 574,
+   "si": 7681,
+   "cls": 0.004,
+   "at": "2026-11-24"
+  },
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 66,
+   "fcp": 945,
+   "lcp": 2028,
+   "tbt": 11,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-24"
+  },
+  "competitorSlugs": [
+   "soulshine-yoga-and-wellness",
+   "aiken-wellness-spa-and-boutique",
+   "cultivating-wellness-llc",
+   "downtown-hydration-and-wellness",
+   "fitlife-aiken"
+  ],
+  "scores": {
+   "seo": 85,
+   "social": 80,
+   "lighthouseSeo": 92
+  },
+  "competitors": [
+   {
+    "slug": "soulshine-yoga-and-wellness",
+    "name": "SoulShine Yoga & Wellness",
+    "website": "https://www.soulshineyogaandwellness.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 1.5,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "aiken-wellness-spa-and-boutique",
+    "name": "Aiken Wellness Spa & Boutique",
+    "website": "https://www.aikenwellnessspa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 35,
+    "pageMB": 3.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "cultivating-wellness-llc",
+    "name": "Cultivating Wellness LLC",
+    "website": "https://cultivatingwellnessllc.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 2.3,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "downtown-hydration-and-wellness",
+    "name": "Downtown Hydration and Wellness",
+    "website": "https://www.downtownhydration.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "fitlife-aiken",
+    "name": "FITLIFE Aiken",
+    "website": "https://maxfitnessaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 0.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
    }
   ]
  }

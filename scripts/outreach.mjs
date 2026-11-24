@@ -107,7 +107,9 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const local = email.split('@')[0].toLowerCase();
   // A shared inbox, or a store inbox named after its town (aiken@…), is read by the owner.
   const shared = /^(info|contact|office|sales|admin|hello|mail|service|support|fun|insurance|aiken|northaugusta|augusta|graniteville)\d*$/.test(local);
-  const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase())) ? contactFirst : '';
+  // A personal inbox counts as the contact's when it holds their first name or their surname (cwallace@ for Coleen Wallace).
+  const surname = (row.contact || '').split(',')[0].trim().split(/\s+/).filter((w) => /^[A-Za-z'-]{4,}$/.test(w)).slice(1).pop()?.toLowerCase().replace(/[^a-z]/g, '') || '';
+  const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase()) || (surname && local.includes(surname))) ? contactFirst : '';
   const broken = row.tier === 'broken';
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
   const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);

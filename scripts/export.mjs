@@ -102,6 +102,10 @@ function pitchScore(r) {
   return Math.min(100, s);
 }
 
+// Directory listings sometimes mistype a name's capitals ("BIll"); fix a word that starts with two
+// capitals and then goes lowercase. All-caps credentials (CPA, ASLA) are left alone.
+const tidyName = (n = '') => n.replace(/\b([A-Z])([A-Z])([a-z]+)\b/g, (_, a, b, c) => a + b.toLowerCase() + c);
+
 const rows = businesses.filter((b) => b.include).map((b) => {
   const a = audit[b.slug];
   let tier;
@@ -145,11 +149,11 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     facebook: a?.facebook || b.social || '',
     instagram: a?.instagram || '',
     address: b.address,
-    contact: useOwner ? own.name : b.contact || own?.name || '',
+    contact: useOwner ? own.name : tidyName(b.contact) || own?.name || '',
     contactRole: useOwner ? own.role : b.contact ? '' : own?.role || '',
     contactSource: useOwner ? own.source : b.contact ? 'Directory listing' : own?.source || '',
     // The name a first email opens with: a listed contact's first name, or an owner's chosen greeting (empty when unsure).
-    greet: useOwner ? own.greet : b.contact ? b.contact.split(/\s+/)[0] : own?.greet || '',
+    greet: useOwner ? own.greet : b.contact ? tidyName(b.contact).split(/\s+/)[0] : own?.greet || '',
     familyNote: a?.familySignal || '',
     since: a?.since || null,
     blurb: b.blurb,
