@@ -370,8 +370,9 @@ await pool(targets, 3, async (d) => {
   const cites = citations(b, sitePhones, d.source.none ? '' : siteHost);
   const dirSocial = {};
   // Directory fields sometimes hold a website in the Facebook box: keep only real profile links.
-  const fb = [row.facebook, a.facebook, d.contact?.facebook].find((u) => u && /facebook\.com\//i.test(u) && !NOT_BUSINESS.test(u));
-  const ig = [row.instagram, a.instagram, d.contact?.instagram].find((u) => u && /instagram\.com\//i.test(u) && !NOT_BUSINESS.test(u));
+  const pageSocial = !['hijacked', 'parked'].includes(a.state); // a spam or parking page's links are not the business's
+  const fb = [row.facebook, pageSocial && a.facebook, d.contact?.facebook].find((u) => u && /facebook\.com\//i.test(u) && !NOT_BUSINESS.test(u));
+  const ig = [row.instagram, pageSocial && a.instagram, d.contact?.instagram].find((u) => u && /instagram\.com\//i.test(u) && !NOT_BUSINESS.test(u));
   if (fb) dirSocial.Facebook = fb;
   if (ig) dirSocial.Instagram = ig;
   const kw = site && !site.error ? keywordCheck(d, site.home) : [];

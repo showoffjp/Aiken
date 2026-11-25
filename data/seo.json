@@ -7910,7 +7910,7 @@
     "performance": 79,
     "pageMB": 0.5,
     "a11ySerious": 10,
-    "facebook": true,
+    "facebook": false,
     "instagram": false,
     "domainYears": 25
    },
@@ -22726,7 +22726,7 @@
     "performance": null,
     "pageMB": 1.4,
     "a11ySerious": 0,
-    "facebook": true,
+    "facebook": false,
     "instagram": false,
     "domainYears": 1
    },
@@ -37796,7 +37796,7 @@
     "performance": null,
     "pageMB": 1.4,
     "a11ySerious": 0,
-    "facebook": true,
+    "facebook": false,
     "instagram": false,
     "domainYears": 1
    },
@@ -42503,7 +42503,7 @@
     "performance": 79,
     "pageMB": 0.5,
     "a11ySerious": 10,
-    "facebook": true,
+    "facebook": false,
     "instagram": false,
     "domainYears": 25
    },
@@ -44837,7 +44837,7 @@
     "performance": 79,
     "pageMB": 0.5,
     "a11ySerious": 10,
-    "facebook": true,
+    "facebook": false,
     "instagram": false,
     "domainYears": 25
    },
@@ -46318,6 +46318,150 @@
     "facebook": true,
     "instagram": true,
     "domainYears": 21
+   }
+  ]
+ },
+ "g-and-p-construction-hauling-and-environmental-l": {
+  "slug": "g-and-p-construction",
+  "name": "G & P Construction, Hauling and Environmental",
+  "checked": "2026-11-25",
+  "hasSite": false,
+  "siteState": "Hacked or taken over: shows spam (online gambling or pharmacy)",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/g-p-construction-hauling-and-environmental-llc-north-augusta-4283",
+    "name": "G & P Construction, Hauling and Environmental, LLC",
+    "phone": "(803) 624-9735",
+    "website": "http://Www.g-p-constructionllc.com",
+    "address": "310 Belair Road, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "g-p-constructionllc.com",
+   "created": "2016-08-13",
+   "expires": "2027-08-13",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 10
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1091,
+   "lcp": 1954,
+   "tbt": 146,
+   "si": 1091,
+   "cls": 0,
+   "at": "2026-11-25"
+  },
+  "competitorSlugs": [
+   "aiken-housing-center",
+   "all-south-siding-window-and-roofing",
+   "all-safe-industrial-services-inc",
+   "apex-home-repair-corporation",
+   "b-and-k-grading-and-paving-llc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-housing-center",
+    "name": "Aiken Housing Center",
+    "website": "https://aikenhousingcenter.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": false,
+    "performance": 36,
+    "pageMB": 13.9,
+    "a11ySerious": 55,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 23
+   },
+   {
+    "slug": "all-south-siding-window-and-roofing",
+    "name": "All South Siding, Window & Roofing",
+    "website": "https://augustabuilt.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.9,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 14
+   },
+   {
+    "slug": "all-safe-industrial-services-inc",
+    "name": "All-Safe Industrial Services, Inc.",
+    "website": "https://allsafe1.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 6.5,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 23
+   },
+   {
+    "slug": "apex-home-repair-corporation",
+    "name": "Apex Home Repair Corporation",
+    "website": "https://repairwithapex.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 44,
+    "pageMB": 34.6,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 2
+   },
+   {
+    "slug": "b-and-k-grading-and-paving-llc",
+    "name": "B&K Grading and Paving, LLC",
+    "website": "https://bkgradingandpaving.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 49,
+    "pageMB": 10.1,
+    "a11ySerious": 34,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
    }
   ]
  }

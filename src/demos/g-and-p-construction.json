@@ -1,0 +1,219 @@
+{
+  "name": "G & P Construction, Hauling and Environmental",
+  "short": "G & P Construction",
+  "category": "Construction, Demolition & Abatement",
+  "group": "Trades & Industry",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f4f4ef",
+    "surface": "#ffffff",
+    "ink": "#1a1d16",
+    "muted": "#53594b",
+    "primary": "#38482b",
+    "onPrimary": "#ffffff",
+    "accent": "#d4901f",
+    "line": "#e1e3d9"
+  },
+  "radius": 6,
+  "icon": "hard-hat",
+  "contact": {
+    "phone": "(803) 624-9735",
+    "address": [
+      "310 Belair Road",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "G & P Construction, 310 Belair Road, North Augusta, SC 29841",
+    "hours": [
+      [
+        "Monday – Friday",
+        "7:00 am – 6:00 pm"
+      ],
+      [
+        "Saturday – Sunday",
+        "Closed"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Woman-owned and operated · North Augusta, SC",
+    "title": "From abatement *to the final pour*",
+    "lede": "Asbestos abatement, lead and mold inspections, interior demolition, site work and new construction for homes and businesses, from a woman-owned team on Belair Road.",
+    "points": [
+      "Asbestos abatement",
+      "Demolition",
+      "Site work",
+      "Construction"
+    ],
+    "cta": {
+      "label": "Call (803) 624-9735",
+      "href": "tel:+18036249735"
+    },
+    "cta2": {
+      "label": "Our services",
+      "href": "#services"
+    }
+  },
+  "facts": [
+    {
+      "value": "Woman-owned",
+      "label": "A woman-owned and operated management team"
+    },
+    {
+      "value": "USACE · NAVFAC",
+      "label": "Certifications held by the team"
+    },
+    {
+      "value": "7 am – 6 pm",
+      "label": "Monday to Friday"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Environmental, demolition *and construction*",
+      "items": [
+        {
+          "icon": "biohazard",
+          "title": "Asbestos abatement",
+          "text": "Removing asbestos-containing materials, with air monitoring."
+        },
+        {
+          "icon": "microscope",
+          "title": "Lead and mold inspections",
+          "text": "Know what is in a building before the work starts."
+        },
+        {
+          "icon": "paint-roller",
+          "title": "RRP renovation",
+          "text": "Lead-safe renovation, repair and painting in buildings from before 1978."
+        },
+        {
+          "icon": "hammer",
+          "title": "Interior demolition",
+          "text": "Interiors cleared out safely, ready for the rebuild."
+        },
+        {
+          "icon": "building-2",
+          "title": "Building construction",
+          "text": "Commercial and residential construction."
+        },
+        {
+          "icon": "brick-wall",
+          "title": "Concrete work",
+          "text": "Concrete for commercial and residential jobs."
+        },
+        {
+          "icon": "shovel",
+          "title": "Grading and grubbing",
+          "text": "Land cleared and graded, plus ponds and basements."
+        },
+        {
+          "icon": "truck",
+          "title": "Hauling",
+          "text": "Debris and materials hauled to and from the job."
+        },
+        {
+          "icon": "drafting-compass",
+          "title": "Design and consulting",
+          "text": "Project design, and advice before and during the work."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "About us",
+      "title": "Woman-owned, *certified, local*",
+      "body": [
+        "G & P Construction, Hauling and Environmental is run by a woman-owned and operated management team, working out of Belair Road in North Augusta.",
+        "The team is certified by the U.S. Army Corps of Engineers and the Naval Facilities Engineering Command, and takes on environmental, demolition and construction work for commercial and residential customers."
+      ],
+      "list": [
+        "Woman-owned and operated",
+        "U.S. Army Corps of Engineers certified team",
+        "NAVFAC certified team",
+        "Commercial and residential"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before *you renovate*",
+      "items": [
+        {
+          "q": "What is RRP?",
+          "a": "The EPA’s Renovation, Repair and Painting rule. Work that disturbs paint in homes, child care facilities and schools built before 1978 must be done by a certified firm using lead-safe practices."
+        },
+        {
+          "q": "Why inspect before demolition?",
+          "a": "Older buildings can hold asbestos, lead paint or mold. An inspection first shows what has to be removed safely before the walls come down."
+        },
+        {
+          "q": "Do you work on homes and businesses?",
+          "a": "Yes: commercial and residential construction, renovation and demolition."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Planning a renovation or demolition?",
+      "text": "Call the office on Belair Road, weekdays 7 to 6.",
+      "cta": {
+        "label": "Call (803) 624-9735",
+        "href": "tel:+18036249735"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Belair Road*",
+    "formTitle": "Tell us about your project",
+    "formTopics": [
+      "Asbestos or lead",
+      "Mold inspection",
+      "Demolition",
+      "Construction",
+      "Site work or ponds",
+      "Hauling"
+    ]
+  },
+  "slug": "g-and-p-construction",
+  "added": "2026-11-25",
+  "prospect": "g-and-p-construction-hauling-and-environmental-l",
+  "source": {
+    "url": "http://www.g-p-constructionllc.com/",
+    "before": [
+      "The company’s web address, g-p-constructionllc.com, now shows an online-gambling spam page instead of the business",
+      "The North Augusta Chamber listing still sends customers to that address",
+      "The words on this concept come from the company’s Google listing; the owner would confirm every detail"
+    ],
+    "after": [
+      "A working page, today: phone, address and hours in one obvious place",
+      "Every service, from asbestos abatement to ponds and basements, where a contractor or homeowner can find it",
+      "One-tap call and directions on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "stripes",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

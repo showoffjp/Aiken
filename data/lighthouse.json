@@ -371,16 +371,16 @@
  },
  "broome-service-center-inc": {
   "concept": {
-   "performance": 99,
+   "performance": 94,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1676,
+   "fcp": 964,
    "lcp": 1804,
-   "tbt": 0,
-   "si": 1676,
+   "tbt": 262,
+   "si": 1018,
    "cls": 0,
-   "at": "2026-11-19"
+   "at": "2026-11-25"
   }
  },
  "carolina-bar-b-que": {
@@ -1047,16 +1047,16 @@
  },
  "the-ivy-cottage-flowers-and-gifts": {
   "concept": {
-   "performance": 99,
+   "performance": 92,
    "accessibility": 100,
    "bestPractices": 96,
    "seo": 63,
-   "fcp": 1709,
-   "lcp": 1802,
-   "tbt": 0,
-   "si": 1709,
-   "cls": 0,
-   "at": "2026-11-18"
+   "fcp": 1059,
+   "lcp": 1959,
+   "tbt": 325,
+   "si": 1059,
+   "cls": 0.007,
+   "at": "2026-11-25"
   }
  },
  "the-jewelers-loupe": {
@@ -4901,6 +4901,20 @@
    "si": 948,
    "cls": 0,
    "at": "2026-11-24"
+  }
+ },
+ "g-and-p-construction-hauling-and-environmental-l": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1091,
+   "lcp": 1954,
+   "tbt": 146,
+   "si": 1091,
+   "cls": 0,
+   "at": "2026-11-25"
   }
  }
 }

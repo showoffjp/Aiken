@@ -55,7 +55,8 @@
     "points": [
       "Autos",
       "Trucks",
-      "Trailers"
+      "Trailers",
+      "Towing"
     ]
   },
   "facts": [
@@ -95,6 +96,21 @@
           "icon": "container",
           "title": "Trailer repair",
           "text": "Trailers repaired and back on the road."
+        },
+        {
+          "icon": "siren",
+          "title": "Towing",
+          "text": "Wrecker service when a car or truck can’t make it in."
+        },
+        {
+          "icon": "map-pin",
+          "title": "Mobile repair",
+          "text": "Some repairs done on site, where the vehicle is."
+        },
+        {
+          "icon": "gauge",
+          "title": "Diagnostics, tires and batteries",
+          "text": "Engine diagnostics, steering and suspension, tires and batteries."
         }
       ]
     },

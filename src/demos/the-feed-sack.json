@@ -118,8 +118,8 @@
   "source": {
     "url": "https://thefeedsackrestaurants.com/",
     "before": [
-      "The site's security certificate has expired, so browsers stop visitors with a full-page warning before they see the menu",
-      "A second check of the site returned a \"service unavailable\" error",
+      "The www address that listings give, www.thefeedsackrestaurants.com, still stops visitors with a full-page security warning; only the address without www works",
+      "Anyone who follows a listing with the www never reaches the menu",
       "The words on this concept come from the restaurant's public Visit Aiken listing; the menu itself would come from the owner"
     ],
     "after": [

@@ -148,8 +148,9 @@ const rows = businesses.filter((b) => b.include).map((b) => {
     https: a?.https ?? null,
     mobileReady: a?.viewport ?? null,
     copyrightYear: a?.copyrightYear || null,
-    facebook: a?.facebook || b.social || '',
-    instagram: a?.instagram || '',
+    // A hijacked or parked page's social links belong to the spammer or the parking company, not the business.
+    facebook: (!['hijacked', 'parked'].includes(a?.state) && a?.facebook) || b.social || '',
+    instagram: (!['hijacked', 'parked'].includes(a?.state) && a?.instagram) || '',
     address: b.address,
     contact: useOwner ? own.name : tidyName(b.contact) || own?.name || '',
     contactRole: useOwner ? own.role : b.contact ? '' : own?.role || '',
