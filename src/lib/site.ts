@@ -9,6 +9,12 @@ export const site = {
   contactPhone: '(662) 688-7396',
   /** First name used to sign the outreach drafts (not shown on the site). */
   contactName: 'Jason',
+  /**
+   * Postal address printed at the foot of every outreach email (not shown on the site).
+   * US law (CAN-SPAM) requires one in sales email: a PO box or a private mailbox is fine.
+   * Leave empty to keep a [YOUR MAILING ADDRESS] placeholder in the drafts.
+   */
+  mailingAddress: '',
   /** The area the studio serves, for the home page's business markup. */
   areaServed: ['Aiken', 'North Augusta', 'Aiken County, South Carolina'],
   /** Public URL once deployed (used for canonical links). */
