@@ -261,6 +261,7 @@ const features = [
         <p class="foot-brand"><span class="glyph"><svg viewBox="0 0 32 32" width="16" height="16" aria-hidden="true"><path d="M7 24 16 7l9 17" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="glint" aria-hidden="true"></i></span><strong>{site.name}</strong></p>
         <p>{site.tagline}</p>
         {(site.contactPhone || site.contactEmail) && <p class="foot-contact">{site.contactPhone && <a href={telHref(site.contactPhone)}>{site.contactPhone}</a>}{site.contactPhone && site.contactEmail && <span aria-hidden="true"> · </span>}{site.contactEmail && <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>}</p>}
+        <p class="foot-contact"><a href="/work/">Other things I'm building</a></p>
         <p class="foot-motion"><MotionToggle variant="link" /></p>
         <p class="fine">These are unsolicited design concepts. Business names, logos, words and photographs belong to their respective owners and are shown only to illustrate a proposed redesign. No concept is the official website of the business it depicts.</p>
       </div>

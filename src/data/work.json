@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "legacy",
+    "name": "Legacy",
+    "kind": "Web app",
+    "url": "https://legacy-jason-pharr-s-projects.vercel.app/",
+    "blurb": "A Christian companion for planning a funeral: the service, clergy, casket and flowers, tribute videos and the printed order of service, in one place."
+  },
+  {
+    "slug": "april-dawn",
+    "name": "AprilDawn",
+    "kind": "Online store",
+    "url": "https://april-dawn.vercel.app/",
+    "blurb": "Digitizes, restores and reimagines photos, film and video, then prints them on almost anything, from t-shirts to gallery walls."
+  },
+  {
+    "slug": "usa-security-connect",
+    "name": "USA Security Connect",
+    "kind": "Business app · demo",
+    "url": "https://usa-security-connect.vercel.app/",
+    "blurb": "Workforce operations for a security and protection company. The demo runs on a sample company and people, and nothing you change is kept."
+  }
+]
