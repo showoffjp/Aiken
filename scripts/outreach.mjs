@@ -112,8 +112,13 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   // A shared inbox, or a store inbox named after its town (aiken@…), is read by the owner.
   const shared = /^(info|contact|office|sales|admin|hello|mail|service|support|fun|insurance|aiken|northaugusta|augusta|graniteville)\d*$/.test(local);
   // A personal inbox counts as the contact's when it holds their first name or their surname (cwallace@ for Coleen Wallace).
-  const surname = (row.contact || '').split(',')[0].trim().split(/\s+/).filter((w) => /^[A-Za-z'-]{4,}$/.test(w)).slice(1).pop()?.toLowerCase().replace(/[^a-z]/g, '') || '';
-  const first = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase()) || (surname && local.includes(surname))) ? contactFirst : '';
+  // (Drop the first name before filtering, so a short one does not leave the surname looking first: "JD Jury".)
+  const surname = (row.contact || '').split(',')[0].trim().split(/\s+/).slice(1).filter((w) => /^[A-Za-z'-]{4,}$/.test(w)).pop()?.toLowerCase().replace(/[^a-z]/g, '') || '';
+  const listed = contactFirst && (!email || shared || local.includes(contactFirst.toLowerCase()) || (surname && local.includes(surname))) ? contactFirst : '';
+  // A listing that names several people ("Brian Brittingham and George Claussen") greets no one, but a
+  // personal inbox named after one of them (brian@…) is that person's.
+  const people = (row.contact || '').split(/,|;|&|\band\b/).map((x) => x.trim().split(/\s+/)[0]).filter((w) => /^[A-Z][a-z'-]{2,}$/.test(w || ''));
+  const first = listed || (email && !shared ? people.find((w) => local.startsWith(w.toLowerCase().replace(/[^a-z]/g, ''))) : '') || '';
   const broken = row.tier === 'broken';
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
   const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);
