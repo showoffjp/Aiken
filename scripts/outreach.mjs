@@ -8,12 +8,16 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const siteTs = await readFile(path.join(ROOT, 'src', 'lib', 'site.ts'), 'utf8');
-const pick = (k) => (siteTs.match(new RegExp(`${k}:\\s*'([^']*)'`)) || [])[1] || '';
+// A setting's value in single or double quotes (an address may hold an apostrophe: "Goin' Postal").
+const pick = (k) => { const m = siteTs.match(new RegExp(`${k}:\\s*(?:'([^']*)'|"([^"]*)")`)); return (m && (m[1] ?? m[2])) || ''; };
 const studio = pick('name');
 const base = pick('url').replace(/\/$/, '');
-const me = { name: pick('contactName') || '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]', email: pick('contactEmail') || '[YOUR EMAIL]', address: '[YOUR MAILING ADDRESS]' };
+const me = { name: pick('contactName') || '[YOUR NAME]', phone: pick('contactPhone') || '[YOUR PHONE]', email: pick('contactEmail') || '[YOUR EMAIL]', address: pick('mailingAddress') || '[YOUR MAILING ADDRESS]' };
 
 const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json'), 'utf8'));
+// Addresses `npm run contacts` found on the business's own pages or listings, for concepts whose research
+// data has none (written to outreach/contacts.json; run contacts first).
+const found = JSON.parse(await readFile(path.join(ROOT, 'outreach', 'contacts.json'), 'utf8').catch(() => '{}'));
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
@@ -99,7 +103,7 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const host = new URL(d.source.url).hostname.replace(/^www\./, '');
   const link = `${base}/${d.slug}/`;
   const report = `${base}/${d.slug}/report/`;
-  const email = d.contact.email || row.email || '';
+  const email = d.contact.email || row.email || found[d.slug]?.email || '';
   const phone = d.contact.phone || row.phone || '';
   // Only greet by name when the listed contact plausibly reads this inbox.
   // The export says whom to greet (a listed contact's first name, or an owner's chosen greeting).
@@ -247,8 +251,7 @@ ${voicemail}
 
 - Open the concept and the checkup yourself first, on a phone.
 - Check the findings still hold: sites change.${/verify/.test(row.siteState || '') ? '\n- This site was unreachable from our checker. Confirm in your own browser that it is really down.' : ''}
-- Replace every [BRACKETED] placeholder.
-`);
+${me.address.startsWith('[') ? '- Replace every [BRACKETED] placeholder.\n' : ''}`);
   csv.push([d.name, d.town, email, phone, subject, link, report, file]);
   index.push(`| [${d.name}](${file}) | ${d.town} | ${email || '-'} | ${phone || '-'} |`);
 }
@@ -301,7 +304,7 @@ One draft per concept: an email, a follow-up email for a week later, a text mess
 
 \`urgent-calls.md\` lists businesses whose website is down or whose web address has lapsed, with a short call script for each.
 
-Fill in the [BRACKETED] placeholders (your name, phone, email and mailing address) before using any of it. US law (CAN-SPAM) requires a real postal address and a working way to opt out in commercial email; both are in the template.
+${me.address.startsWith('[') ? 'Fill in the [BRACKETED] placeholders (your name, phone, email and mailing address) before using any of it. ' : `Every draft is signed with your details and mailing address from src/lib/site.ts. `}US law (CAN-SPAM) requires a real postal address and a working way to opt out in commercial email; both are in the template.
 
 | Business | Town | Email | Phone |
 | --- | --- | --- | --- |

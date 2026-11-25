@@ -3,7 +3,7 @@
 // report. Emails are gathered from the research data and, where that has none,
 // from every page already fetched for the business (its own site's pages and
 // its directory listings in .cache), so nothing new is requested.
-//   node scripts/contacts.mjs   -> outreach/contacts.csv and outreach/contacts.md (not committed)
+//   node scripts/contacts.mjs   -> outreach/contacts.csv, contacts.md and contacts.json (not committed)
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync, statSync } from 'node:fs';
 import path from 'node:path';
 
@@ -84,6 +84,7 @@ const rows = demos.map((d) => {
   const extras = all.slice(1).filter((e) => !echo(e) && (!COMMON.test(e) || named(e)) && (!franchise || LOCAL.test(e.split('@')[0])));
   const emails = all.length ? [all[0], ...extras.slice(0, 6)] : [];
   return {
+    slug: d.slug,
     business: d.name, category: d.category, town: d.town.replace(/,?\s*SC$/i, ''),
     phone: phones[0] || '', otherPhones: phones.slice(1).join('; '),
     email: emails[0] || '', otherEmails: emails.slice(1).join('; '), emailSource: !emails.length ? '' : known.includes(emails[0]) ? 'directory or website' : 'found on a cached page',
@@ -102,5 +103,7 @@ mkdirSync(out, { recursive: true });
 writeFileSync(path.join(out, 'contacts.csv'), `﻿${[cols.map(([h]) => h).join(','), ...rows.map((r) => cols.map(([, k]) => csvCell(r[k])).join(','))].join('\r\n')}\r\n`);
 const md = ['| Business | Phone | Email | Contact | Website |', '|---|---|---|---|---|', ...rows.map((r) => `| ${r.business} | ${[r.phone, r.otherPhones].filter(Boolean).join(', ') || '–'} | ${[r.email, r.otherEmails].filter(Boolean).join(', ') || '–'} | ${r.contact || '–'} | ${r.currentSite === '(none)' ? 'none' : r.siteStatus === 'Online' ? 'online' : (r.siteStatus || '').split(/[(-]/)[0].trim().toLowerCase()} |`)];
 writeFileSync(path.join(out, 'contacts.md'), `${md.join('\n')}\n`);
+// The best address per concept, for the outreach drafts (npm run outreach reads it).
+writeFileSync(path.join(out, 'contacts.json'), `${JSON.stringify(Object.fromEntries(rows.filter((r) => r.email).map((r) => [r.slug, { email: r.email, source: r.emailSource }])), null, 1)}\n`);
 const withEmail = rows.filter((r) => r.email).length, newly = rows.filter((r) => r.emailSource === 'found on a cached page').length;
 console.log(`contacts: ${rows.length} businesses; ${rows.filter((r) => r.phone).length} with a phone, ${withEmail} with an email (${newly} found on cached pages); ${pages.length} cached pages searched`);
