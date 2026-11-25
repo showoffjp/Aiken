@@ -13,6 +13,17 @@ const OUT = path.join(ROOT, 'public', 'cards');
 await mkdir(OUT, { recursive: true });
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const wanted = process.argv.slice(2);
+// What a visitor meets at a broken address, in the card's words (from the prospect export).
+const prospects = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json'), 'utf8').catch(() => '[]'));
+const stateOf = new Map(prospects.map((r) => [r.slug, r]));
+const brokenWords = (d) => {
+  if (d.source.none) return ['No website yet', 'only a listing or a social page'];
+  const r = stateOf.get(d.prospect || d.slug) || {};
+  if (/^Hacked/.test(r.siteState || '')) return ['Site taken over', 'visitors see spam instead'];
+  if (r.siteState === 'Parked domain') return ['Address parked', 'visitors see an ad page'];
+  if (/^Lapsed/.test(r.domainState || '')) return ['Address expired', 'the site no longer loads'];
+  return ['Site not loading', 'visitors see an error'];
+};
 
 const W = 1200, H = 630, PAD = 44, GAP = 24;
 const tw = (W - PAD * 2 - GAP) / 2, th = Math.round(tw * 753 / 1120);
@@ -28,7 +39,7 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   const tile = async (file) => sharp(file).resize(tw, th, { fit: 'cover', position: 'top' }).composite([{ input: round, blend: 'dest-in' }]).png().toBuffer();
   const leftTile = existsSync(before) && !d.source.none
     ? await tile(before)
-    : await sharp(Buffer.from(`<svg width="${tw}" height="${th}" xmlns="http://www.w3.org/2000/svg"><rect width="${tw}" height="${th}" rx="12" fill="#2a2f33"/><text x="${tw / 2}" y="${th / 2 - 10}" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="30" font-weight="700" fill="#f3e9c9">${d.source.none ? 'No website yet' : 'Site not loading'}</text><text x="${tw / 2}" y="${th / 2 + 32}" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="20" fill="#c9cfd3">${d.source.none ? 'only a listing or a social page' : 'visitors see an error'}</text></svg>`)).png().toBuffer();
+    : await sharp(Buffer.from(`<svg width="${tw}" height="${th}" xmlns="http://www.w3.org/2000/svg"><rect width="${tw}" height="${th}" rx="12" fill="#2a2f33"/><text x="${tw / 2}" y="${th / 2 - 10}" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="30" font-weight="700" fill="#f3e9c9">${brokenWords(d)[0]}</text><text x="${tw / 2}" y="${th / 2 + 32}" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="20" fill="#c9cfd3">${brokenWords(d)[1]}</text></svg>`)).png().toBuffer();
   const name = esc(d.name.length > 44 ? (d.short || d.name) : d.name);
   const overlay = Buffer.from(`<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
     <rect width="${W}" height="${H}" fill="#143d2f"/>

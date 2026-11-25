@@ -1653,6 +1653,13 @@
    "loadMs": 6802,
    "url": "https://g-p-constructionllc.com/",
    "at": "2026-11-17"
+  },
+  "concept": {
+   "bytes": 334897,
+   "requests": 6,
+   "loadMs": 135,
+   "url": "/g-and-p-construction/",
+   "at": "2026-11-25"
   }
  },
  "g1-land-services-llc": {
@@ -4474,11 +4481,11 @@
  },
  "broome-service-center-inc": {
   "concept": {
-   "bytes": 216827,
+   "bytes": 318469,
    "requests": 6,
-   "loadMs": 153,
+   "loadMs": 166,
    "url": "/broome-service-center/",
-   "at": "2026-11-18"
+   "at": "2026-11-25"
   }
  },
  "dos-potrillos-mexican-restaurant": {
@@ -4564,11 +4571,11 @@
  },
  "the-ivy-cottage-flowers-and-gifts": {
   "concept": {
-   "bytes": 225173,
-   "requests": 9,
-   "loadMs": 135,
+   "bytes": 339136,
+   "requests": 8,
+   "loadMs": 174,
    "url": "/the-ivy-cottage/",
-   "at": "2026-11-18"
+   "at": "2026-11-25"
   }
  },
  "york-cottage-antiques": {

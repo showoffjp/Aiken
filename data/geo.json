@@ -440,6 +440,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "g-and-p-construction": {
+  "q": "310 Belair Road, North Augusta, SC 29841",
+  "lat": 33.520494,
+  "lon": -81.942711,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-25"
+ },
  "g-and-s-computing": {
   "q": "37 Capital Drive, Aiken, SC 29803",
   "lat": 33.53055,

@@ -269,7 +269,9 @@ for (const f of await readdir(path.join(ROOT, 'public', 'cards')).catch(() => []
 
 // Urgent calls: businesses whose site is down or whose web address has lapsed.
 // No concept needed to call; the news itself is the reason.
-const urgent = rows.filter((r) => r.phone && (/^Lapsed|^On hold/.test(r.domainState || '') || ['Parked domain', 'Forwards to another website'].includes(r.siteState) || (r.tier === 'broken' && !/verify/.test(r.siteState))));
+// Businesses checked against their Google listing (data/status.json) that are closed, have moved or are not a fit.
+const status = JSON.parse(await readFile(path.join(ROOT, 'data', 'status.json'), 'utf8').catch(() => '{}'));
+const urgent = rows.filter((r) => !status[r.slug] && r.phone && (/^Lapsed|^On hold/.test(r.domainState || '') || ['Parked domain', 'Forwards to another website'].includes(r.siteState) || (r.tier === 'broken' && !/verify/.test(r.siteState))));
 const poss = (n) => (/s$/i.test(n) ? `${n}'` : `${n}'s`);
 const script = (r) => /^Lapsed/.test(r.domainState || '')
   ? `Hi, this is ${me.name}, a web designer here in Aiken. I was checking local business websites and noticed ${r.domain} is no longer registered, so the address listed for ${r.name} in local directories leads nowhere, and anyone could buy it. I can help you get it back or set up a new one. Do you have a minute?`

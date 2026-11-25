@@ -1,0 +1,43 @@
+{
+  "_about": "Businesses checked against their Google listing that should not get a 'your website is down' call. closed: Google lists it as permanently closed. moved: its current site works elsewhere; only an old address that directories still list is broken. skip: not a fit for a small-business site. Keyed by prospect slug.",
+  "bottom-line-bakery": {
+    "status": "closed",
+    "note": "Google lists it as permanently closed",
+    "checked": "2026-11-25"
+  },
+  "victoria-mexican-restaurant": {
+    "status": "closed",
+    "note": "Google lists the Silver Bluff Road restaurant as permanently closed",
+    "checked": "2026-11-25"
+  },
+  "mi-rancho": {
+    "status": "skip",
+    "note": "Part of a multi-location restaurant chain with a working site",
+    "currentSite": "https://miranchorestaurants.com/",
+    "checked": "2026-11-25"
+  },
+  "cedar-creek-golf-club": {
+    "status": "moved",
+    "note": "Only the old .net address shows spam; the club's current site works",
+    "currentSite": "https://cedarcreekgolfclub.com/",
+    "checked": "2026-11-25"
+  },
+  "mccalls-supply": {
+    "status": "moved",
+    "note": "The directory misspells the address; the real site works",
+    "currentSite": "https://mccallssupply.com/",
+    "checked": "2026-11-25"
+  },
+  "the-ivy-cottage-flowers-and-gifts": {
+    "status": "moved",
+    "note": "Directory listings still point to an old address that shows an error page",
+    "currentSite": "https://www.theivycottageofaiken.com/",
+    "checked": "2026-11-25"
+  },
+  "feed-sack-aiken": {
+    "status": "moved",
+    "note": "Only the www address is broken; the address without www works",
+    "currentSite": "https://thefeedsackrestaurants.com/",
+    "checked": "2026-11-25"
+  }
+}

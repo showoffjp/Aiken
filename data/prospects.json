@@ -1,5 +1,55 @@
 [
  {
+  "slug": "g-and-p-construction-hauling-and-environmental-l",
+  "name": "G & P Construction, Hauling and Environmental, LLC",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "North Augusta",
+  "category": "Excavation & Site Work",
+  "phone": "(803) 624-9735",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://www.g-p-constructionllc.com/",
+  "siteState": "Hacked or taken over: shows spam (online gambling or pharmacy)",
+  "score": 3,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "32 of 53 images have no alt text"
+  ],
+  "https": true,
+  "mobileReady": true,
+  "copyrightYear": 2026,
+  "facebook": "",
+  "instagram": "",
+  "address": "310 Belair Road, North Augusta SC 29841",
+  "contact": "",
+  "contactRole": "",
+  "contactSource": "",
+  "greet": "",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "About Us Demolition Construction, Hauling and Environmental company.",
+  "sources": [
+   "North Augusta Chamber"
+  ],
+  "demo": "g-and-p-construction",
+  "pageMB": 4.7,
+  "a11yIssues": 32,
+  "a11ySerious": 32,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 45,
+  "domain": "g-p-constructionllc.com",
+  "domainExpires": "2027-08-13",
+  "domainState": "",
+  "pitch": 85,
+  "rank": 1
+ },
+ {
   "slug": "the-vintage-bobbin",
   "name": "The Vintage Bobbin",
   "priority": "B · Dated",
@@ -50,56 +100,6 @@
   "domainExpires": "2027-11-16",
   "domainState": "",
   "pitch": 73,
-  "rank": 1
- },
- {
-  "slug": "g-and-p-construction-hauling-and-environmental-l",
-  "name": "G & P Construction, Hauling and Environmental, LLC",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "North Augusta",
-  "category": "Excavation & Site Work",
-  "phone": "(803) 624-9735",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.g-p-constructionllc.com/",
-  "siteState": "Hacked or taken over: shows spam (online gambling or pharmacy)",
-  "score": 3,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "32 of 53 images have no alt text"
-  ],
-  "https": true,
-  "mobileReady": true,
-  "copyrightYear": 2026,
-  "facebook": "https://www.facebook.com/TeePubliccom-865099700332025",
-  "instagram": "https://www.instagram.com/teepublic/",
-  "address": "310 Belair Road, North Augusta SC 29841",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
-  "familyNote": "",
-  "holdNote": "",
-  "since": null,
-  "blurb": "About Us Demolition Construction, Hauling and Environmental company.",
-  "sources": [
-   "North Augusta Chamber"
-  ],
-  "demo": "",
-  "pageMB": 4.7,
-  "a11yIssues": 32,
-  "a11ySerious": 32,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": null,
-  "domain": "g-p-constructionllc.com",
-  "domainExpires": "2027-08-13",
-  "domainState": "",
-  "pitch": 71,
   "rank": 2
  },
  {
@@ -673,59 +673,6 @@
   "rank": 13
  },
  {
-  "slug": "mi-rancho",
-  "name": "Mi Rancho",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 644-1111",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://www.miranchomexicanrestaurants.com/",
-  "siteState": "Parked domain",
-  "score": 38,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "No working HTTPS: browsers show \"Not secure\"",
-   "Very old jQuery 1.11",
-   "No social sharing (Open Graph) tags",
-   "No structured data for Google business results"
-  ],
-  "https": false,
-  "mobileReady": true,
-  "copyrightYear": 2026,
-  "facebook": "",
-  "instagram": "",
-  "address": "3607 Richland Ave W 124 Dominion Dr Aiken SC",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
-  "familyNote": "",
-  "holdNote": "",
-  "since": null,
-  "blurb": "Tasty Mexican meals and drinks to satisfy your needs!",
-  "sources": [
-   "Visit Aiken"
-  ],
-  "demo": "mi-rancho",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": 0,
-  "domain": "miranchomexicanrestaurants.com",
-  "domainExpires": "2027-08-30",
-  "domainState": "",
-  "pitch": 64,
-  "rank": 14
- },
- {
   "slug": "mobile-office-management-llc-mom",
   "name": "Mobile Office Management, LLC (M.O.M.)",
   "priority": "A · Rebuild candidate",
@@ -777,7 +724,7 @@
   "domainExpires": "2027-07-01",
   "domainState": "",
   "pitch": 62,
-  "rank": 15
+  "rank": 14
  },
  {
   "slug": "the-jewelers-loupe",
@@ -830,56 +777,7 @@
   "domainExpires": "2027-04-25",
   "domainState": "",
   "pitch": 62,
-  "rank": 16
- },
- {
-  "slug": "bottom-line-bakery",
-  "name": "Bottom Line Bakery",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 226-0911",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "https://www.bottomlinebakeryaiken.com/",
-  "siteState": "Error page (404 / 500)",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "https://www.facebook.com/profile.php?id=61555722472922",
-  "instagram": "",
-  "address": "148 Laurens Street SW, Aiken, SC 29801",
-  "contact": "Kelsey Lucius",
-  "contactRole": "owner and head baker",
-  "contactSource": "City Lifestyle",
-  "greet": "Kelsey",
-  "familyNote": "",
-  "holdNote": "",
-  "since": null,
-  "blurb": "Simply cooked fresh, delicious, food in a peaceful and inspiring environment.",
-  "sources": [
-   "Downtown Aiken (ADDA)",
-   "Visit Aiken"
-  ],
-  "demo": "bottom-line-bakery",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": 25,
-  "domain": "bottomlinebakeryaiken.com",
-  "domainExpires": "2027-01-11",
-  "domainState": "Renews or expires 2027-01-11",
-  "pitch": 62,
-  "rank": 17
+  "rank": 15
  },
  {
   "slug": "feed-sack-aiken",
@@ -928,7 +826,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 62,
-  "rank": 18
+  "rank": 16
  },
  {
   "slug": "augusta-ready-mix-inc",
@@ -982,7 +880,7 @@
   "domainExpires": "2031-08-10",
   "domainState": "",
   "pitch": 61,
-  "rank": 19
+  "rank": 17
  },
  {
   "slug": "cedar-creek-golf-club",
@@ -1030,7 +928,7 @@
   "domainExpires": "2027-10-26",
   "domainState": "",
   "pitch": 61,
-  "rank": 20
+  "rank": 18
  },
  {
   "slug": "howell-printing-company",
@@ -1084,7 +982,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 60,
-  "rank": 21
+  "rank": 19
  },
  {
   "slug": "help-me-rhonda-bookkeeping-llc",
@@ -1138,7 +1036,7 @@
   "domainExpires": "2027-05-06",
   "domainState": "",
   "pitch": 59,
-  "rank": 22
+  "rank": 20
  },
  {
   "slug": "mitch-johnson-construction-company-inc",
@@ -1192,7 +1090,7 @@
   "domainExpires": "2027-03-11",
   "domainState": "",
   "pitch": 58,
-  "rank": 23
+  "rank": 21
  },
  {
   "slug": "broome-service-center-inc",
@@ -1240,7 +1138,7 @@
   "domainExpires": "2027-01-31",
   "domainState": "",
   "pitch": 58,
-  "rank": 24
+  "rank": 22
  },
  {
   "slug": "kens-warehouse",
@@ -1288,55 +1186,7 @@
   "domainExpires": "2028-05-27",
   "domainState": "",
   "pitch": 58,
-  "rank": 25
- },
- {
-  "slug": "victoria-mexican-restaurant",
-  "name": "Victoria Mexican Restaurant",
-  "priority": "A · Site down or broken",
-  "tier": "broken",
-  "town": "Aiken",
-  "category": "Restaurant",
-  "phone": "(803) 998-9234",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://ordervictoriamexicangrillandbarrestaurant.com/",
-  "siteState": "Forwards to another website",
-  "score": null,
-  "platform": "",
-  "issues": [],
-  "https": null,
-  "mobileReady": null,
-  "copyrightYear": null,
-  "facebook": "",
-  "instagram": "",
-  "address": "510 Silver Bluff Rd. Aiken, SC 29803",
-  "contact": "",
-  "contactRole": "",
-  "contactSource": "",
-  "greet": "",
-  "familyNote": "",
-  "holdNote": "",
-  "since": null,
-  "blurb": "This restaurant offers a wide array of fresh food – camarones al chipotle, carnitas dinner, chicken finger with fries, super costillas, burritos wet, victoria's enchiladas, combo fajitas, and lunch flautas.",
-  "sources": [
-   "Visit Aiken"
-  ],
-  "demo": "victoria-mexican-restaurant",
-  "pageMB": null,
-  "a11yIssues": null,
-  "a11ySerious": null,
-  "lhPerformance": null,
-  "lhAccessibility": null,
-  "seoHealth": null,
-  "socialPresence": 0,
-  "domain": "ordervictoriamexicangrillandbarrestaurant.com",
-  "domainExpires": "2027-05-13",
-  "domainState": "",
-  "pitch": 58,
-  "rank": 26
+  "rank": 23
  },
  {
   "slug": "woodchuckers-axe-throwing",
@@ -1390,7 +1240,7 @@
   "domainExpires": "2027-06-16",
   "domainState": "",
   "pitch": 58,
-  "rank": 27
+  "rank": 24
  },
  {
   "slug": "zier-law-firm",
@@ -1438,7 +1288,7 @@
   "domainExpires": "2027-10-02",
   "domainState": "",
   "pitch": 58,
-  "rank": 28
+  "rank": 25
  },
  {
   "slug": "prescott-and-sons-construction-llc",
@@ -1490,7 +1340,7 @@
   "domainExpires": "2035-08-23",
   "domainState": "",
   "pitch": 57,
-  "rank": 29
+  "rank": 26
  },
  {
   "slug": "durban-laird-insurance",
@@ -1544,7 +1394,7 @@
   "domainExpires": "2027-11-01",
   "domainState": "",
   "pitch": 56,
-  "rank": 30
+  "rank": 27
  },
  {
   "slug": "massage-mavin",
@@ -1598,7 +1448,7 @@
   "domainExpires": "2027-01-28",
   "domainState": "",
   "pitch": 56,
-  "rank": 31
+  "rank": 28
  },
  {
   "slug": "ads-supply",
@@ -1646,7 +1496,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 32
+  "rank": 29
  },
  {
   "slug": "mccalls-supply",
@@ -1695,7 +1545,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 33
+  "rank": 30
  },
  {
   "slug": "northgroup-real-estate-llc",
@@ -1747,7 +1597,7 @@
   "domainExpires": "2026-10-05",
   "domainState": "On hold at the registrar (redemption period): about to be released",
   "pitch": 56,
-  "rank": 34
+  "rank": 31
  },
  {
   "slug": "twin-willows-medical-and-dental-center",
@@ -1795,7 +1645,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 56,
-  "rank": 35
+  "rank": 32
  },
  {
   "slug": "lambert-insurance-agency-inc",
@@ -1849,7 +1699,7 @@
   "domainExpires": "2027-02-17",
   "domainState": "",
   "pitch": 54,
-  "rank": 36
+  "rank": 33
  },
  {
   "slug": "affordable-quality-marble-and-granite",
@@ -1899,7 +1749,7 @@
   "domainExpires": "2028-10-05",
   "domainState": "",
   "pitch": 54,
-  "rank": 37
+  "rank": 34
  },
  {
   "slug": "arthur-w-rich-pa",
@@ -1947,7 +1797,7 @@
   "domainExpires": "",
   "domainState": "Lapsed: the address is no longer registered and anyone can buy it",
   "pitch": 52,
-  "rank": 38
+  "rank": 35
  },
  {
   "slug": "aiken-flooring",
@@ -1998,7 +1848,7 @@
   "domainExpires": "2027-08-21",
   "domainState": "",
   "pitch": 52,
-  "rank": 39
+  "rank": 36
  },
  {
   "slug": "aiken-housing-center",
@@ -2050,7 +1900,7 @@
   "domainExpires": "2026-12-28",
   "domainState": "Renews or expires 2026-12-28",
   "pitch": 51,
-  "rank": 40
+  "rank": 37
  },
  {
   "slug": "b-and-k-grading-and-paving-llc",
@@ -2098,7 +1948,7 @@
   "domainExpires": "2026-12-17",
   "domainState": "Renews or expires 2026-12-17",
   "pitch": 51,
-  "rank": 41
+  "rank": 38
  },
  {
   "slug": "radioactive-pinball-arcade",
@@ -2152,7 +2002,7 @@
   "domainExpires": "2029-04-24",
   "domainState": "",
   "pitch": 51,
-  "rank": 42
+  "rank": 39
  },
  {
   "slug": "the-restaurant-at-the-willcox",
@@ -2205,7 +2055,60 @@
   "domainExpires": "2027-06-22",
   "domainState": "",
   "pitch": 51,
-  "rank": 43
+  "rank": 40
+ },
+ {
+  "slug": "mi-rancho",
+  "name": "Mi Rancho",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Restaurant",
+  "phone": "(803) 644-1111",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://www.miranchomexicanrestaurants.com/",
+  "siteState": "Parked domain",
+  "score": 38,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "No working HTTPS: browsers show \"Not secure\"",
+   "Very old jQuery 1.11",
+   "No social sharing (Open Graph) tags",
+   "No structured data for Google business results"
+  ],
+  "https": false,
+  "mobileReady": true,
+  "copyrightYear": 2026,
+  "facebook": "",
+  "instagram": "",
+  "address": "3607 Richland Ave W 124 Dominion Dr Aiken SC",
+  "contact": "",
+  "contactRole": "",
+  "contactSource": "",
+  "greet": "",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "Tasty Mexican meals and drinks to satisfy your needs!",
+  "sources": [
+   "Visit Aiken"
+  ],
+  "demo": "",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "miranchomexicanrestaurants.com",
+  "domainExpires": "2027-08-30",
+  "domainState": "",
+  "pitch": 50,
+  "rank": 41
  },
  {
   "slug": "tequilas-mexican-grill-and-bar",
@@ -2259,7 +2162,7 @@
   "domainExpires": "2027-08-25",
   "domainState": "",
   "pitch": 50,
-  "rank": 44
+  "rank": 42
  },
  {
   "slug": "palmetto-bowls",
@@ -2307,7 +2210,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 45
+  "rank": 43
  },
  {
   "slug": "rhumba-rum-and-cigar-lounge",
@@ -2355,7 +2258,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 46
+  "rank": 44
  },
  {
   "slug": "scotch-hutch",
@@ -2403,7 +2306,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 47
+  "rank": 45
  },
  {
   "slug": "the-wildemont",
@@ -2451,7 +2354,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 50,
-  "rank": 48
+  "rank": 46
  },
  {
   "slug": "apex-home-repair-corporation",
@@ -2501,7 +2404,7 @@
   "domainExpires": "2027-08-10",
   "domainState": "",
   "pitch": 50,
-  "rank": 49
+  "rank": 47
  },
  {
   "slug": "glassworks-by-fishburne-and-shultz-hill",
@@ -2554,7 +2457,7 @@
   "domainExpires": "2027-12-05",
   "domainState": "",
   "pitch": 49,
-  "rank": 50
+  "rank": 48
  },
  {
   "slug": "tailored-tours-of-aiken",
@@ -2606,7 +2509,7 @@
   "domainExpires": "2027-04-12",
   "domainState": "",
   "pitch": 49,
-  "rank": 51
+  "rank": 49
  },
  {
   "slug": "thomas-p-murphy-pc-attorney-at-law",
@@ -2659,7 +2562,7 @@
   "domainExpires": "2027-09-09",
   "domainState": "",
   "pitch": 49,
-  "rank": 52
+  "rank": 50
  },
  {
   "slug": "toki-jr-llc",
@@ -2713,7 +2616,56 @@
   "domainExpires": "2026-12-02",
   "domainState": "Renews or expires 2026-12-02",
   "pitch": 49,
-  "rank": 53
+  "rank": 51
+ },
+ {
+  "slug": "bottom-line-bakery",
+  "name": "Bottom Line Bakery",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Restaurant",
+  "phone": "(803) 226-0911",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "https://www.bottomlinebakeryaiken.com/",
+  "siteState": "Error page (404 / 500)",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "https://www.facebook.com/profile.php?id=61555722472922",
+  "instagram": "",
+  "address": "148 Laurens Street SW, Aiken, SC 29801",
+  "contact": "Kelsey Lucius",
+  "contactRole": "owner and head baker",
+  "contactSource": "City Lifestyle",
+  "greet": "Kelsey",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "Simply cooked fresh, delicious, food in a peaceful and inspiring environment.",
+  "sources": [
+   "Downtown Aiken (ADDA)",
+   "Visit Aiken"
+  ],
+  "demo": "",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 25,
+  "domain": "bottomlinebakeryaiken.com",
+  "domainExpires": "2027-01-11",
+  "domainState": "Renews or expires 2027-01-11",
+  "pitch": 48,
+  "rank": 52
  },
  {
   "slug": "antonios-italian-eatery",
@@ -2763,7 +2715,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 48,
-  "rank": 54
+  "rank": 53
  },
  {
   "slug": "hic-warehouse-indoor-skateboard-park",
@@ -2817,7 +2769,7 @@
   "domainExpires": "2027-01-19",
   "domainState": "",
   "pitch": 48,
-  "rank": 55
+  "rank": 54
  },
  {
   "slug": "empire-tree",
@@ -2865,7 +2817,7 @@
   "domainExpires": "2027-03-05",
   "domainState": "",
   "pitch": 47,
-  "rank": 56
+  "rank": 55
  },
  {
   "slug": "aiken-antique-mall",
@@ -2915,7 +2867,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 57
+  "rank": 56
  },
  {
   "slug": "antiques-and-more-mall",
@@ -2964,7 +2916,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 58
+  "rank": 57
  },
  {
   "slug": "apizza-di-napoli",
@@ -3012,7 +2964,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 59
+  "rank": 58
  },
  {
   "slug": "big-house-outpost",
@@ -3060,7 +3012,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 60
+  "rank": 59
  },
  {
   "slug": "briar-patch-antiques",
@@ -3109,7 +3061,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 61
+  "rank": 60
  },
  {
   "slug": "carolina-bar-b-que",
@@ -3157,7 +3109,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 62
+  "rank": 61
  },
  {
   "slug": "dinner-bell",
@@ -3205,7 +3157,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 63
+  "rank": 62
  },
  {
   "slug": "dos-potrillos-mexican-restaurant",
@@ -3253,7 +3205,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 64
+  "rank": 63
  },
  {
   "slug": "el-charrito-taqueria",
@@ -3301,7 +3253,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 65
+  "rank": 64
  },
  {
   "slug": "farm-dog",
@@ -3349,7 +3301,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 66
+  "rank": 65
  },
  {
   "slug": "flanigans-ice-cream",
@@ -3399,7 +3351,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 67
+  "rank": 66
  },
  {
   "slug": "indigo-bleu",
@@ -3447,7 +3399,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 68
+  "rank": 67
  },
  {
   "slug": "its-all-good-market-and-catering",
@@ -3495,7 +3447,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 69
+  "rank": 68
  },
  {
   "slug": "la-parisienne-french-restaurant-and-bakery",
@@ -3543,7 +3495,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 70
+  "rank": 69
  },
  {
   "slug": "los-tres-compadres",
@@ -3591,7 +3543,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 71
+  "rank": 70
  },
  {
   "slug": "macalusos-restaurant",
@@ -3640,7 +3592,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 72
+  "rank": 71
  },
  {
   "slug": "okinawa-japanese-steakhouse-and-sushi-bowl",
@@ -3688,7 +3640,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 73
+  "rank": 72
  },
  {
   "slug": "pats-sub-shop",
@@ -3737,7 +3689,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 74
+  "rank": 73
  },
  {
   "slug": "pitter-patter-carolines",
@@ -3786,7 +3738,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 75
+  "rank": 74
  },
  {
   "slug": "romas-italian-restaurant",
@@ -3834,7 +3786,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 76
+  "rank": 75
  },
  {
   "slug": "smoothie-groove",
@@ -3882,7 +3834,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 77
+  "rank": 76
  },
  {
   "slug": "soul-and-seafood-house",
@@ -3930,7 +3882,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 78
+  "rank": 77
  },
  {
   "slug": "taj-aiken",
@@ -3978,7 +3930,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 79
+  "rank": 78
  },
  {
   "slug": "track-kitchen",
@@ -4026,7 +3978,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 80
+  "rank": 79
  },
  {
   "slug": "trail-riding-the-trail-riding-company",
@@ -4074,7 +4026,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 81
+  "rank": 80
  },
  {
   "slug": "unique-catering",
@@ -4122,7 +4074,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 82
+  "rank": 81
  },
  {
   "slug": "white-rose-eclectics",
@@ -4170,7 +4122,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 83
+  "rank": 82
  },
  {
   "slug": "york-cottage-antiques",
@@ -4218,7 +4170,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 46,
-  "rank": 84
+  "rank": 83
  },
  {
   "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
@@ -4271,7 +4223,7 @@
   "domainExpires": "2027-08-30",
   "domainState": "",
   "pitch": 45,
-  "rank": 85
+  "rank": 84
  },
  {
   "slug": "hals-hair-center",
@@ -4324,7 +4276,7 @@
   "domainExpires": "2027-07-21",
   "domainState": "",
   "pitch": 45,
-  "rank": 86
+  "rank": 85
  },
  {
   "slug": "inn-at-houndslake",
@@ -4380,7 +4332,7 @@
   "domainExpires": "2027-07-31",
   "domainState": "",
   "pitch": 45,
-  "rank": 87
+  "rank": 86
  },
  {
   "slug": "southern-magnolia-dentistry",
@@ -4434,7 +4386,7 @@
   "domainExpires": "2028-01-06",
   "domainState": "",
   "pitch": 45,
-  "rank": 88
+  "rank": 87
  },
  {
   "slug": "the-fermata-club",
@@ -4485,7 +4437,7 @@
   "domainExpires": "2026-12-03",
   "domainState": "Renews or expires 2026-12-03",
   "pitch": 45,
-  "rank": 89
+  "rank": 88
  },
  {
   "slug": "arthur-w-buzz-rich-pc",
@@ -4533,7 +4485,7 @@
   "domainExpires": "2028-05-16",
   "domainState": "",
   "pitch": 44,
-  "rank": 90
+  "rank": 89
  },
  {
   "slug": "eastside-village",
@@ -4581,7 +4533,7 @@
   "domainExpires": "",
   "domainState": "",
   "pitch": 44,
-  "rank": 91
+  "rank": 90
  },
  {
   "slug": "electric-selfie-360",
@@ -4629,7 +4581,7 @@
   "domainExpires": "2028-09-03",
   "domainState": "",
   "pitch": 44,
-  "rank": 92
+  "rank": 91
  },
  {
   "slug": "overstreet-and-associates-cpas-llc",
@@ -4677,7 +4629,7 @@
   "domainExpires": "2028-08-30",
   "domainState": "",
   "pitch": 44,
-  "rank": 93
+  "rank": 92
  },
  {
   "slug": "pat-cunning-woodside-aiken-realty-commercial-div",
@@ -4725,7 +4677,7 @@
   "domainExpires": "2027-11-04",
   "domainState": "",
   "pitch": 44,
-  "rank": 94
+  "rank": 93
  },
  {
   "slug": "salsas-mex-mex-grill",
@@ -4774,7 +4726,7 @@
   "domainExpires": "2027-02-28",
   "domainState": "",
   "pitch": 44,
-  "rank": 95
+  "rank": 94
  },
  {
   "slug": "strength-after-storms-network-llc",
@@ -4822,7 +4774,7 @@
   "domainExpires": "2029-05-23",
   "domainState": "",
   "pitch": 44,
-  "rank": 96
+  "rank": 95
  },
  {
   "slug": "the-aiken-sign-co",
@@ -4870,7 +4822,7 @@
   "domainExpires": "2027-04-01",
   "domainState": "",
   "pitch": 44,
-  "rank": 97
+  "rank": 96
  },
  {
   "slug": "urban-canine-pest-and-wildlife-solutions",
@@ -4916,6 +4868,54 @@
   "socialPresence": null,
   "domain": "ucpaws.com",
   "domainExpires": "2027-12-30",
+  "domainState": "",
+  "pitch": 44,
+  "rank": 97
+ },
+ {
+  "slug": "victoria-mexican-restaurant",
+  "name": "Victoria Mexican Restaurant",
+  "priority": "A · Site down or broken",
+  "tier": "broken",
+  "town": "Aiken",
+  "category": "Restaurant",
+  "phone": "(803) 998-9234",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "",
+  "otherEmails": [],
+  "website": "http://ordervictoriamexicangrillandbarrestaurant.com/",
+  "siteState": "Forwards to another website",
+  "score": null,
+  "platform": "",
+  "issues": [],
+  "https": null,
+  "mobileReady": null,
+  "copyrightYear": null,
+  "facebook": "",
+  "instagram": "",
+  "address": "510 Silver Bluff Rd. Aiken, SC 29803",
+  "contact": "",
+  "contactRole": "",
+  "contactSource": "",
+  "greet": "",
+  "familyNote": "",
+  "holdNote": "",
+  "since": null,
+  "blurb": "This restaurant offers a wide array of fresh food – camarones al chipotle, carnitas dinner, chicken finger with fries, super costillas, burritos wet, victoria's enchiladas, combo fajitas, and lunch flautas.",
+  "sources": [
+   "Visit Aiken"
+  ],
+  "demo": "",
+  "pageMB": null,
+  "a11yIssues": null,
+  "a11ySerious": null,
+  "lhPerformance": null,
+  "lhAccessibility": null,
+  "seoHealth": null,
+  "socialPresence": 0,
+  "domain": "ordervictoriamexicangrillandbarrestaurant.com",
+  "domainExpires": "2027-05-13",
   "domainState": "",
   "pitch": 44,
   "rank": 98
