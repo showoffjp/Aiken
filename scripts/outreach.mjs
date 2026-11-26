@@ -18,6 +18,10 @@ const rows = JSON.parse(await readFile(path.join(ROOT, 'data', 'prospects.json')
 // Addresses `npm run contacts` found on the business's own pages or listings, for concepts whose research
 // data has none (written to outreach/contacts.json; run contacts first).
 const found = JSON.parse(await readFile(path.join(ROOT, 'outreach', 'contacts.json'), 'utf8').catch(() => '{}'));
+// First names a personal mailbox can be greeted by (scripts/lib/first-names.txt).
+const FIRST_NAMES = new Set((await readFile(path.join(ROOT, 'scripts', 'lib', 'first-names.txt'), 'utf8')).split('\n').filter((l) => !l.startsWith('#')).join(' ').split(/\s+/).filter(Boolean));
+// Businesses checked against their Google listing (data/status.json) that are closed, have moved or are not a fit.
+const status = JSON.parse(await readFile(path.join(ROOT, 'data', 'status.json'), 'utf8').catch(() => '{}'));
 const a11y = JSON.parse(await readFile(path.join(ROOT, 'data', 'a11y.json'), 'utf8').catch(() => '{}'));
 const weights = JSON.parse(await readFile(path.join(ROOT, 'data', 'weights.json'), 'utf8').catch(() => '{}'));
 const lighthouse = JSON.parse(await readFile(path.join(ROOT, 'data', 'lighthouse.json'), 'utf8').catch(() => '{}'));
@@ -118,8 +122,14 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   // A listing that names several people ("Brian Brittingham and George Claussen") greets no one, but a
   // personal inbox named after one of them (brian@…) is that person's.
   const people = (row.contact || '').split(/,|;|&|\band\b/).map((x) => x.trim().split(/\s+/)[0]).filter((w) => /^[A-Z][a-z'-]{2,}$/.test(w || ''));
-  const first = listed || (email && !shared ? people.find((w) => local.startsWith(w.toLowerCase().replace(/[^a-z]/g, ''))) : '') || '';
-  const broken = row.tier === 'broken';
+  // A personal mailbox (tara@, john@) is read by the person it is named after; role inboxes and
+  // addresses built from the business's own name (anshuaiken@) are not.
+  const ROLE = /^(info|contact|office|sales|admin|hello|hi|mail|email|service|support|help|team|fun|insurance|orders?|bookings?|reservations?|events?|catering|manager|management|owner|store|shop|web|website|marketing|billing|accounts?|accounting|jobs|careers|hr|press|media|studio|design|print(?:ing)?|shipping|rentals?|tours?|tickets|cafe|bakery|pizza|grill|bar|pub|kitchen|farm|inn|hotel|spa|salon|clinic|dental|law|legal|realty|homes|auto|tires|roofing|church|aiken|augusta|northaugusta|graniteville)$/;
+  const bizWords = `${d.name} ${short}`.toLowerCase().split(/[^a-z]+/).filter((w) => w.length >= 3);
+  const mailboxName = email && FIRST_NAMES.has(local) && !ROLE.test(local) && !bizWords.some((w) => local.includes(w) || w.includes(local)) ? local[0].toUpperCase() + local.slice(1) : '';
+  const first = listed || (email && !shared ? people.find((w) => local.startsWith(w.toLowerCase().replace(/[^a-z]/g, ''))) : '') || mailboxName || '';
+  // A site that only moved (data/status.json) still works for its visitors: no "your site is down" pitch.
+  const broken = row.tier === 'broken' && !status[row.slug];
   const lhLine = broken || d.source.none ? '' : lhNote(d.prospect || d.slug);
   const rankLine = broken || d.source.none ? '' : rankNote(d.prospect || d.slug);
   const callLine = broken || d.source.none ? '' : callNote(d.prospect || d.slug);
@@ -139,7 +149,8 @@ for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x
   // A typo is concrete and quick to check, so it takes the third spot when there is one.
   const typo = broken || d.source.none ? '' : typoNote(d.prospect || d.slug, d.source.before);
   const access = broken || d.source.none ? '' : a11yNote(d.prospect || d.slug);
-  if (typo || access) findings.push(typo || access);
+  const third = typo || (findings.some((x) => /accessib/i.test(x)) ? '' : access);
+  if (third) findings.push(third);
   const none = !!d.source.none;
   const subject = none ? `A website for ${short}` : broken ? `${short}: your website is not loading for visitors` : `A new website idea for ${short}`;
 
@@ -269,8 +280,6 @@ for (const f of await readdir(path.join(ROOT, 'public', 'cards')).catch(() => []
 
 // Urgent calls: businesses whose site is down or whose web address has lapsed.
 // No concept needed to call; the news itself is the reason.
-// Businesses checked against their Google listing (data/status.json) that are closed, have moved or are not a fit.
-const status = JSON.parse(await readFile(path.join(ROOT, 'data', 'status.json'), 'utf8').catch(() => '{}'));
 const urgent = rows.filter((r) => !status[r.slug] && r.phone && (/^Lapsed|^On hold/.test(r.domainState || '') || ['Parked domain', 'Forwards to another website'].includes(r.siteState) || (r.tier === 'broken' && !/verify/.test(r.siteState))));
 const poss = (n) => (/s$/i.test(n) ? `${n}'` : `${n}'s`);
 const script = (r) => /^Lapsed/.test(r.domainState || '')

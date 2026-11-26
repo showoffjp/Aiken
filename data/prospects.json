@@ -42,7 +42,7 @@
   "lhPerformance": null,
   "lhAccessibility": null,
   "seoHealth": null,
-  "socialPresence": 45,
+  "socialPresence": 0,
   "domain": "g-p-constructionllc.com",
   "domainExpires": "2027-08-13",
   "domainState": "",
@@ -673,6 +673,64 @@
   "rank": 13
  },
  {
+  "slug": "mitch-johnson-construction-company-inc",
+  "name": "Mitch Johnson Construction Company, Inc.",
+  "priority": "A · Rebuild candidate",
+  "tier": "rebuild",
+  "town": "Aiken",
+  "category": "Builders + Construction (Residential)",
+  "phone": "(803) 642-8388",
+  "listedPhone": "",
+  "phoneNote": "",
+  "email": "mitch@mitchjohnsonconstruction.com",
+  "otherEmails": [
+   "sherrie@mitchjohnsonconstruction.com",
+   "mjohnsons@aol.com",
+   "techsupport@mitchjohnsonconstruction.com"
+  ],
+  "website": "http://www.mitchjohnsonconstruction.com/",
+  "siteState": "Online",
+  "score": 63,
+  "platform": "Custom / hand-coded",
+  "issues": [
+   "No mobile viewport: the page does not adapt to phones",
+   "Footer copyright says 2010",
+   "Home page file last changed in 2017",
+   "Deprecated HTML: <center> tags ×2",
+   "No social sharing (Open Graph) tags"
+  ],
+  "https": true,
+  "mobileReady": false,
+  "copyrightYear": 2010,
+  "facebook": "",
+  "instagram": "",
+  "address": "26 Commerce Court, Aiken, SC 29803",
+  "contact": "Mitch Johnson",
+  "contactRole": "",
+  "contactSource": "Directory listing",
+  "greet": "Mitch",
+  "familyNote": "",
+  "holdNote": "",
+  "since": 1989,
+  "blurb": "",
+  "sources": [
+   "Aiken Chamber"
+  ],
+  "demo": "mitch-johnson-construction",
+  "pageMB": 0.5,
+  "a11yIssues": 1,
+  "a11ySerious": 1,
+  "lhPerformance": 84,
+  "lhAccessibility": 90,
+  "seoHealth": 47,
+  "socialPresence": 0,
+  "domain": "mitchjohnsonconstruction.com",
+  "domainExpires": "2027-03-11",
+  "domainState": "",
+  "pitch": 62,
+  "rank": 14
+ },
+ {
   "slug": "mobile-office-management-llc-mom",
   "name": "Mobile Office Management, LLC (M.O.M.)",
   "priority": "A · Rebuild candidate",
@@ -724,7 +782,7 @@
   "domainExpires": "2027-07-01",
   "domainState": "",
   "pitch": 62,
-  "rank": 14
+  "rank": 15
  },
  {
   "slug": "the-jewelers-loupe",
@@ -777,7 +835,7 @@
   "domainExpires": "2027-04-25",
   "domainState": "",
   "pitch": 62,
-  "rank": 15
+  "rank": 16
  },
  {
   "slug": "feed-sack-aiken",
@@ -826,7 +884,7 @@
   "domainExpires": "2027-02-23",
   "domainState": "",
   "pitch": 62,
-  "rank": 16
+  "rank": 17
  },
  {
   "slug": "augusta-ready-mix-inc",
@@ -880,7 +938,7 @@
   "domainExpires": "2031-08-10",
   "domainState": "",
   "pitch": 61,
-  "rank": 17
+  "rank": 18
  },
  {
   "slug": "cedar-creek-golf-club",
@@ -928,7 +986,7 @@
   "domainExpires": "2027-10-26",
   "domainState": "",
   "pitch": 61,
-  "rank": 18
+  "rank": 19
  },
  {
   "slug": "howell-printing-company",
@@ -982,7 +1040,7 @@
   "domainExpires": "2027-02-16",
   "domainState": "",
   "pitch": 60,
-  "rank": 19
+  "rank": 20
  },
  {
   "slug": "help-me-rhonda-bookkeeping-llc",
@@ -1036,60 +1094,6 @@
   "domainExpires": "2027-05-06",
   "domainState": "",
   "pitch": 59,
-  "rank": 20
- },
- {
-  "slug": "mitch-johnson-construction-company-inc",
-  "name": "Mitch Johnson Construction Company, Inc.",
-  "priority": "A · Rebuild candidate",
-  "tier": "rebuild",
-  "town": "Aiken",
-  "category": "Builders + Construction (Residential)",
-  "phone": "(803) 642-8388",
-  "listedPhone": "",
-  "phoneNote": "",
-  "email": "",
-  "otherEmails": [],
-  "website": "http://www.mitchjohnsonconstruction.com/",
-  "siteState": "Online",
-  "score": 63,
-  "platform": "Custom / hand-coded",
-  "issues": [
-   "No mobile viewport: the page does not adapt to phones",
-   "Footer copyright says 2010",
-   "Home page file last changed in 2017",
-   "Deprecated HTML: <center> tags ×2",
-   "No social sharing (Open Graph) tags"
-  ],
-  "https": true,
-  "mobileReady": false,
-  "copyrightYear": 2010,
-  "facebook": "",
-  "instagram": "",
-  "address": "26 Commerce Court, Aiken, SC 29803",
-  "contact": "Mitch Johnson",
-  "contactRole": "",
-  "contactSource": "Directory listing",
-  "greet": "Mitch",
-  "familyNote": "",
-  "holdNote": "",
-  "since": 1989,
-  "blurb": "",
-  "sources": [
-   "Aiken Chamber"
-  ],
-  "demo": "mitch-johnson-construction",
-  "pageMB": 0.5,
-  "a11yIssues": 1,
-  "a11ySerious": 1,
-  "lhPerformance": 84,
-  "lhAccessibility": 90,
-  "seoHealth": 47,
-  "socialPresence": 0,
-  "domain": "mitchjohnsonconstruction.com",
-  "domainExpires": "2027-03-11",
-  "domainState": "",
-  "pitch": 58,
   "rank": 21
  },
  {
@@ -1974,7 +1978,7 @@
   "https": true,
   "mobileReady": true,
   "copyrightYear": 2026,
-  "facebook": "https://www.facebook.com/events/1091497860515830/",
+  "facebook": "https://www.facebook.com/events/1318379675946169/",
   "instagram": "",
   "address": "113 Laurens Street, SW, Suite 103, Aiken, SC 29801",
   "contact": "Erin Edwards",
@@ -10384,7 +10388,7 @@
   "score": 13,
   "platform": "Custom / hand-coded",
   "issues": [
-   "Deprecated HTML: <font> tags ×22",
+   "Deprecated HTML: <font> tags ×20",
    "Outdated jQuery 2.2",
    "No favicon declared"
   ],
