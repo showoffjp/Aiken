@@ -1,5 +1,9 @@
 ---
 import { site } from '../lib/site';
+import { client } from '../lib/client';
+import { demos } from '../lib/demos';
+// On a launched business site the way back is that business's home page.
+const biz = client ? demos[0] : undefined;
 ---
 <!doctype html>
 <html lang="en">
@@ -9,7 +13,7 @@ import { site } from '../lib/site';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
     <title>Page not found</title>
-    <meta name="description" content="This page does not exist. Browse the website concepts from the home page." />
+    <meta name="description" content={biz ? `This page does not exist. Go back to ${biz.name}.` : 'This page does not exist. Browse the website concepts from the home page.'} />
     <style>
       body { margin: 0; min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 24px; isolation: isolate; overflow: hidden; color: #fff; background: linear-gradient(160deg, #06201a 0%, #0a2e24 45%, #0b2536 100%); font: 400 1.05rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
       body::before { content: ""; position: fixed; inset: -20vmax; z-index: -1; pointer-events: none; background: radial-gradient(36vmax 36vmax at 18% 22%, rgb(18 184 134 / .4), transparent 70%), radial-gradient(32vmax 32vmax at 84% 30%, rgb(20 163 184 / .32), transparent 70%), radial-gradient(38vmax 38vmax at 60% 92%, rgb(242 179 61 / .24), transparent 70%); animation: drift 24s ease-in-out infinite alternate; }
@@ -30,8 +34,8 @@ import { site } from '../lib/site';
   <body>
     <main>
       <h1>That page <em>isn't here.</em></h1>
-      <p>The concept may have been renamed or retired.</p>
-      <a href="/">See all concepts from {site.name}</a>
+      <p>{biz ? 'It may have moved, or the link may be old.' : 'The concept may have been renamed or retired.'}</p>
+      <a href="/">{biz ? `Back to ${biz.name}` : `See all concepts from ${site.name}`}</a>
     </main>
   </body>
 </html>

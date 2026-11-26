@@ -2,6 +2,7 @@
 // A one-page, plain-English "website checkup" for each business that has a
 // concept: what its current site looks like, what we noticed, and what the
 // concept changes. Made to be sent as a link or printed.
+import { client } from '../../lib/client';
 import { builtIn } from '../../lib/features';
 import { assetUrl } from '../../lib/asset-url';
 import { existsSync, readFileSync, statSync } from 'node:fs';
@@ -15,6 +16,7 @@ import '../../styles/report.css';
 import { accessible } from '../../lib/contrast';
 
 export function getStaticPaths() {
+  if (client) return []; // a launched site has no checkup, SEO report or leave-behind
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
 }
 interface Props { demo: Demo }
