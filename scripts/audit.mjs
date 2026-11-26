@@ -187,7 +187,11 @@ function analyse(res, httpsWorks, httpOnlyFinal) {
   const spam = [...new Set((`${(html.match(/<title[^>]*>([^<]*)/i) || [])[1] || ''} ${text}`.match(SPAM) || []).map((x) => x.toLowerCase()))];
   if (spam.length >= 2 && ['ok', 'empty', 'placeholder'].includes(state)) state = 'hijacked';
 
-  const family = (text.match(/[^.!?]{0,60}\b(family[- ]owned|family[- ]operated|family[- ]run|locally[- ]owned|owned and operated|veteran[- ]owned|woman[- ]owned|women[- ]owned|second generation|third generation|generations)\b[^.!?]{0,60}/i) || [''])[0].replace(/\s+/g, ' ').trim();
+  // The site's own claim ("family owned since 1962"), never a customer review quoted in a reviews
+  // widget ("...locally owned... K. G. 3 months ago, Google"): reviews carry customers' names.
+  const REVIEWISH = /\bgoogle\b|\bago\b|★|\breview|\bstars?\b|\byelp\b/i;
+  const family = [...text.matchAll(/[^.!?]{0,60}\b(family[- ]owned|family[- ]operated|family[- ]run|locally[- ]owned|owned and operated|veteran[- ]owned|woman[- ]owned|women[- ]owned|second generation|third generation|generations)\b[^.!?]{0,60}/gi)]
+    .map((m) => m[0].replace(/\s+/g, ' ').trim()).find((x) => !REVIEWISH.test(x)) || '';
   const since = (text.match(/\b(?:since|established|est\.?|founded in|serving [^.]{0,40} since|in business since)\s+((?:18|19|20)\d{2})\b/i) || [])[1];
 
   if (state === 'blocked') { score = 0; findings.length = 0; }
