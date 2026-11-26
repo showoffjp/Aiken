@@ -3,6 +3,7 @@
 // and the opening hours in the structured form Google reads. Shared by the
 // concept page and the SEO report so the two always agree.
 import type { Demo } from './demos';
+import { isClient, clientUrl } from './client';
 
 const TYPE: Record<string, string> = {
   'Food & Drink': 'FoodEstablishment', 'Shops & Boutiques': 'Store', Services: 'LocalBusiness', 'Home & Garden': 'HomeAndConstructionBusiness',
@@ -167,7 +168,7 @@ export function businessLd(demo: Demo, siteUrl = '') {
     '@type': businessType(demo),
     name: demo.name,
     description: hero.lede,
-    ...(siteUrl && { url: `${siteUrl}/${demo.slug}/` }),
+    ...(isClient(demo.slug) && clientUrl ? { url: `${clientUrl}/` } : siteUrl && { url: `${siteUrl}/${demo.slug}/` }),
     ...(contact.phone && { telephone: contact.phone }),
     ...(contact.email && { email: contact.email }),
     ...(addr && { address: { '@type': 'PostalAddress', streetAddress: addr.length > 1 ? addr[0] : undefined, addressLocality: town, addressRegion: 'SC', addressCountry: 'US' } }),

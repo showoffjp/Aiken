@@ -4,6 +4,7 @@
 // the concept changes, and a QR code to open it. Laid out for a Letter page
 // (scripts/leave-behind.mjs prints it to outreach/print/one-page/<slug>.pdf);
 // on screen it shows the same sheet.
+import { client } from '../../lib/client';
 import { existsSync } from 'node:fs';
 import { assetUrl } from '../../lib/asset-url';
 import path from 'node:path';
@@ -15,6 +16,7 @@ import { accessible } from '../../lib/contrast';
 import { builtIn } from '../../lib/features';
 
 export function getStaticPaths() {
+  if (client) return []; // a launched site has no checkup, SEO report or leave-behind
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
 }
 interface Props { demo: Demo }

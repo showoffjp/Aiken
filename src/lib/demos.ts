@@ -1,6 +1,7 @@
 // Every redesign concept is one JSON file in src/demos. This module loads
 // them all and gives the pages a typed, sorted list.
 import fontsJson from './fonts.json';
+import { client } from './client';
 import sizesJson from './image-sizes.json';
 import tintsJson from './image-tints.json';
 
@@ -84,9 +85,12 @@ function withSizes<T>(node: T): T {
   return node;
 }
 
-export const demos: Demo[] = Object.values(files)
+const all: Demo[] = Object.values(files)
   .map((m) => withSizes(m.default))
   .sort((a, b) => a.name.localeCompare(b.name));
+// In launch mode (CLIENT=<slug>, src/lib/client.ts) only that business's concept is built.
+if (client && !all.some((d) => d.slug === client)) throw new Error(`CLIENT=${client} does not match any concept in src/demos`);
+export const demos: Demo[] = client ? all.filter((d) => d.slug === client) : all;
 
 export const fonts = fontsJson as Record<string, { family: string; fallback: string; normal: string; italic?: string }>;
 

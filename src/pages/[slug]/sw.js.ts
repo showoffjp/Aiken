@@ -3,6 +3,7 @@
 // so the page still opens with no signal (the number, hours and address are
 // always at hand). The page itself is fetched fresh whenever there is a
 // connection; the copy is only a fallback.
+import { pageBase } from '../../lib/client';
 import type { APIRoute } from 'astro';
 import { demos, type Demo } from '../../lib/demos';
 
@@ -16,10 +17,11 @@ const BUILD = Date.now().toString(36);
 
 export const GET: APIRoute = ({ props }) => {
   const { slug } = (props as { demo: Demo }).demo;
-  const js = `// Offline copy of /${slug}/ (build ${BUILD})
+  const base = pageBase(slug); // '/' on a launched site
+  const js = `// Offline copy of ${base} (build ${BUILD})
 const CACHE = ${JSON.stringify(`${slug}-${BUILD}`)};
-const PAGE = ${JSON.stringify(`/${slug}/`)};
-const ASSET = new RegExp(${JSON.stringify(`^/(_astro|fonts|demo-assets/${slug})/|^/${slug}/(icon-|manifest)`)});
+const PAGE = ${JSON.stringify(base)};
+const ASSET = new RegExp(${JSON.stringify(`^/(_astro|fonts|demo-assets/${slug})/|^${base}(icon-|manifest)`)});
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {

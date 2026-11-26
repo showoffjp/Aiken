@@ -1,5 +1,6 @@
 // Web app manifest per concept, so "Add to Home Screen" / "Install" uses the
 // business's name, colours and icon, and opens straight to its page.
+import { pageBase } from '../../lib/client';
 import type { APIRoute } from 'astro';
 import { demos, type Demo } from '../../lib/demos';
 import { appName } from '../../lib/appicon';
@@ -10,7 +11,7 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = ({ props }) => {
   const demo = (props as { demo: Demo }).demo;
-  const base = `/${demo.slug}/`;
+  const base = pageBase(demo.slug); // '/' on a launched site
   const manifest = {
     name: demo.name,
     short_name: appName(demo),

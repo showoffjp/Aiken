@@ -3,6 +3,7 @@
 // measured, how it compares with local competitors, and what to fix first.
 // Data: data/seo.json (scripts/seo.mjs), data/rankings.json (scripts/rankings.mjs,
 // optional), data/lighthouse.json. Made to be sent as a link or saved as a PDF.
+import { client } from '../../lib/client';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import Icon from '../../components/Icon.astro';
@@ -15,6 +16,7 @@ import { accessible } from '../../lib/contrast';
 import { existsSync } from 'node:fs';
 
 export function getStaticPaths() {
+  if (client) return []; // a launched site has no checkup, SEO report or leave-behind
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
 }
 interface Props { demo: Demo }

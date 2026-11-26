@@ -24,6 +24,7 @@ import QRCode from 'qrcode';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { accessible, ratio } from '../lib/contrast';
+import { isClient, clientUrl, clientForm, pageBase } from '../lib/client';
 
 export function getStaticPaths() {
   return demos.map((demo) => ({ params: { slug: demo.slug }, props: { demo } }));
@@ -31,6 +32,11 @@ export function getStaticPaths() {
 interface Props { demo: Demo }
 const { demo } = Astro.props;
 const { contact, hero, colors } = demo;
+// Launch mode: this concept is the business's own live site (src/lib/client.ts, docs/LAUNCH.md).
+const live = isClient(demo.slug);
+const base = pageBase(demo.slug);
+// A live site shows its form only once an email service is connected to it.
+const formOn = !demo.visit?.hideForm && (!live || !!clientForm);
 
 const display = fonts[demo.fonts.display];
 const body = fonts[demo.fonts.body];
@@ -106,9 +112,9 @@ const hoursSpec = openingHours(contact.hours);
 const hasPhotos = demo.sections.some((s) => s.type === 'gallery' || (s.type === 'story' && s.image));
 const vcardName = `${vcardFile(demo)}.vcf`;
 // On a computer: a code to scan, so the page (call button, directions) opens on the visitor's phone.
-const pageUrl = `${site.url}/${demo.slug}/`;
+const pageUrl = live ? `${clientUrl}/` : `${site.url}/${demo.slug}/`;
 const phoneQr = await QRCode.toString(pageUrl, { type: 'svg', margin: 0, color: { dark: '#111111', light: '#00000000' } });
-const vcard = `/${demo.slug}/${vcardName}`;
+const vcard = `${base}${vcardName}`;
 // Facts are sized on phones so the longest word always fits its column.
 const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
 ---
@@ -118,20 +124,21 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
     <meta charset="utf-8" />
     <script is:inline>try { if (localStorage.getItem('motion') === 'paused') document.documentElement.classList.add('motion-paused'); } catch {}</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>{`${demo.name} — website concept`}</title>
-    <meta name="description" content={`A redesign concept for ${demo.name} in ${demo.town}. Not the business's official website.`} />
+    {!live && <meta name="robots" content="noindex, nofollow" />}
+    <title>{live ? `${demo.name} | ${demo.category}, ${demo.town}` : `${demo.name} — website concept`}</title>
+    <meta name="description" content={live ? hero.lede : `A redesign concept for ${demo.name} in ${demo.town}. Not the business's official website.`} />
     <meta name="theme-color" content={colors.primary} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={site.name} />
-    <meta property="og:title" content={`${demo.name}: a website concept`} />
+    <meta property="og:site_name" content={live ? demo.name : site.name} />
+    <meta property="og:title" content={live ? demo.name : `${demo.name}: a website concept`} />
     <meta property="og:description" content={hero.lede} />
-    {site.url && <meta property="og:url" content={`${site.url}/${demo.slug}/`} />}
-    {site.url && <meta property="og:image" content={`${site.url}/shots/${demo.slug}-after.jpg`} />}
+    {(live ? clientUrl : site.url) && <meta property="og:url" content={pageUrl} />}
+    {(live ? clientUrl : site.url) && <meta property="og:image" content={`${live ? clientUrl : site.url}/shots/${demo.slug}-after.jpg`} />}
+    {live && clientUrl && <link rel="canonical" href={`${clientUrl}/`} />}
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="${colors.primary}"/><text x="16" y="22" font-size="17" font-family="Georgia,serif" font-weight="700" text-anchor="middle" fill="${colors.onPrimary}">${short.replace(/^the\s+/i, '').charAt(0)}</text></svg>`)}`} />
-    <link rel="apple-touch-icon" href={`/${demo.slug}/icon-180.png`} />
-    <link rel="manifest" href={`/${demo.slug}/manifest.webmanifest`} />
+    <link rel="apple-touch-icon" href={`${base}icon-180.png`} />
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
     <meta name="apple-mobile-web-app-title" content={appName(demo)} />
     <link rel="preload" href={display.normal} as="font" type="font/woff2" crossorigin />
     {body.normal !== display.normal && <link rel="preload" href={body.normal} as="font" type="font/woff2" crossorigin />}
@@ -142,15 +149,17 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
   <body class="demo" data-look={demo.look} data-cinematic={demo.cinematic ? '' : undefined} data-hero={archetype} data-frame={st.frame} data-flip={st.flip ? '' : undefined} data-services={st.services} data-facts={st.facts} data-pattern={st.pattern} data-divider={st.divider} data-heads={st.heads} data-motion={st.motion} data-buttons={st.buttons} data-backdrop={backdrop} data-band-ink={ratio(safe['--on-primary'], '#000000') >= ratio(safe['--on-primary'], '#ffffff') ? 'light' : 'dark'} data-hours={hoursSpec ? JSON.stringify(hoursSpec) : undefined} style={vars}>
     <a class="skip" href="#main">Skip to content</a>
 
-    <aside class="concept" aria-label="About this preview">
-      <div class="wrap">
-        <span class="dot"></span>
-        <span class="grow"><b>Concept<span class="long"> preview</span>.</b> <span class="long">{demo.source.none ? `A first-website idea for ${demo.name}, which has no site of its own yet.` : `A redesign idea for ${demo.name}, not their live website (${sourceHost}).`}</span><span class="short">Not the live site.</span></span>
-        <button type="button" data-tour-start><span class="long">Take the tour</span><span class="short">Tour</span></button>
-        <button type="button" data-open-notes>What changed?</button>
-        <a class="studio" href="/">{site.name}</a>
-      </div>
-    </aside>
+    {!live && (
+      <aside class="concept" aria-label="About this preview">
+        <div class="wrap">
+          <span class="dot"></span>
+          <span class="grow"><b>Concept<span class="long"> preview</span>.</b> <span class="long">{demo.source.none ? `A first-website idea for ${demo.name}, which has no site of its own yet.` : `A redesign idea for ${demo.name}, not their live website (${sourceHost}).`}</span><span class="short">Not the live site.</span></span>
+          <button type="button" data-tour-start><span class="long">Take the tour</span><span class="short">Tour</span></button>
+          <button type="button" data-open-notes>What changed?</button>
+          <a class="studio" href="/">{site.name}</a>
+        </div>
+      </aside>
+    )}
 
     <header class="site-head" data-head>
       <div class="wrap">
@@ -264,7 +273,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
             <h2 set:html={title(demo.visit?.title || 'Come *see us*')} />
             {demo.visit?.intro && <p>{demo.visit.intro}</p>}
           </div>
-          <div class={`grid ${!mapSrc && demo.visit?.hideForm ? 'solo' : ''}`}>
+          <div class={`grid ${!mapSrc && !formOn ? 'solo' : ''}`}>
             <div class="info">
               {contact.phone && (
                 <div class="row"><Icon name="phone" size={22} /><div>
@@ -325,8 +334,8 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                 </div>
               )}
               {mapSrc && !streets && <div class="map"><span class="map-ph" aria-hidden="true"><i class="road a"></i><i class="road b"></i><i class="road c"></i><i class="road d"></i><span class="map-pin"><Icon name="map-pin" size={30} stroke={2} /></span>{contact.address && <span class="map-addr">{contact.address[0]}</span>}</span><iframe src={mapSrc} title={`Map to ${demo.name}`} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>}
-              {!demo.visit?.hideForm && (
-                <form class="form" data-form data-to={contact.email || ""} data-biz={short} novalidate>
+              {formOn && (
+                <form class="form" data-form data-to={contact.email || ""} data-biz={short} data-phone={contact.phone || ""} data-endpoint={live ? clientForm : undefined} novalidate>
                   <h3>{demo.visit?.formTitle || 'Send us a message'}</h3>
                   <div class="two">
                     <label>Name<input type="text" name="name" autocomplete="name" /></label>
@@ -339,8 +348,8 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
                   <label>Message<textarea name="message"></textarea></label>
                   <button class="btn" type="submit">Send message</button>
                   <p class="form-missing" role="alert" data-form-missing hidden>Add your name and a phone number or email, so we can get back to you.</p>
-                  <p class="sent" role="status" data-form-sent>Thanks! In the live site this lands in your inbox. (Preview only: nothing was sent.)</p>
-                  <p class="note">Preview form: it is not connected and collects nothing.</p>
+                  <p class="sent" role="status" data-form-sent>{live ? 'Thanks! Your message is on its way.' : 'Thanks! In the live site this lands in your inbox. (Preview only: nothing was sent.)'}</p>
+                  {!live && <p class="note">Preview form: it is not connected and collects nothing.</p>}
                 </form>
               )}
             </div>
@@ -371,7 +380,9 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         </div>
         <div class="legal">
           <span>© {year} {demo.name}</span>
-          <span>Website concept by <a href="/">{site.name}</a>. Not affiliated with or endorsed by {demo.name.replace(/\.$/, '')}.</span>
+          {live
+            ? <span>Website by <a href={site.url || '/'}>{site.name}</a></span>
+            : <span>Website concept by <a href="/">{site.name}</a>. Not affiliated with or endorsed by {demo.name.replace(/\.$/, '')}.</span>}
           <MotionToggle variant="link" />
         </div>
       </div>
@@ -384,8 +395,9 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       </nav>
     )}
 
-    <a class="to-top" href="#top" aria-label="Back to top" data-to-top tabindex="-1"><Icon name="arrow-up" size={22} stroke={2.2} /></a>
+    <a class="to-top" href="#top" aria-label="Back to top" aria-hidden="true" data-to-top tabindex="-1"><Icon name="arrow-up" size={22} stroke={2.2} /></a>
     <div class="toast" role="status" aria-live="polite" data-toast><span data-toast-text></span></div>
+    {!live && (
     <aside class="tour" aria-label="Guided tour of this concept" data-tour hidden data-food={demo.group === 'Food & Drink' ? '' : undefined} data-studio={site.contactName ? `${site.contactName} at ${site.name}` : site.name} data-studio-phone={site.contactPhone || undefined}>
       <div class="tour-ring" data-tour-ring aria-hidden="true"></div>
       <div class="tour-pop" role="dialog" aria-labelledby="tour-title" aria-describedby="tour-text" data-tour-pop>
@@ -401,6 +413,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         </div>
       </div>
     </aside>
+    )}
     {hasPhotos && (
       <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
         <figure><figcaption><span data-lb-cap></span><span class="lb-count" data-lb-count></span></figcaption></figure>
@@ -410,6 +423,7 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
       </dialog>
     )}
 
+    {!live && (
     <dialog class="notes" data-notes aria-labelledby="notes-title">
       <header>
         <h2 id="notes-title">What this concept changes</h2>
@@ -447,8 +461,9 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
         Words, hours and photos here come from {demo.source.none ? `the public listing for ${demo.name}` : `${demo.name}'s own public pages`} (<a href={demo.source.url} target="_blank" rel="noopener nofollow">{sourceHost}</a>) and would be confirmed with the owner before anything goes live.
       </p>
     </dialog>
+    )}
 
-    <script is:inline define:vars={{ swUrl: `/${demo.slug}/sw.js` }}>
+    <script is:inline define:vars={{ swUrl: `${base}sw.js` }}>
       // Keep an offline copy of this page once it has loaded (see sw.js).
       if ('serviceWorker' in navigator) addEventListener('load', () => setTimeout(() => navigator.serviceWorker.register(swUrl).catch(() => {}), 1500));
     </script>
@@ -699,6 +714,17 @@ const factCh = (v: string) => Math.max(...v.split(/\s+/).map((w) => w.length));
           missing.hidden = !gap;
           if (gap) { f.classList.remove('done'); gap.focus(); return; }
           const first = v('name').split(/\s+/)[0], topic = v('topic');
+          // A launched site sends the message to its email service (data-endpoint).
+          if (f.dataset.endpoint) {
+            const btn = f.querySelector('button[type="submit"]'), sent = f.querySelector('[data-form-sent]');
+            btn.disabled = true;
+            const body = JSON.stringify({ ...Object.fromEntries(new FormData(f)), page: location.href });
+            fetch(f.dataset.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body })
+              .then((r) => { if (!r.ok) throw new Error(String(r.status)); sent.textContent = `Thanks, ${first}! Your message is on its way, and we'll get back to you soon.`; f.reset(); })
+              .catch(() => { sent.textContent = `Sorry, that didn't send.${f.dataset.phone ? ` Please call ${f.dataset.phone}` : ''}${f.dataset.to ? `${f.dataset.phone ? ' or' : ' Please'} email ${f.dataset.to}` : ''}.`; })
+              .finally(() => { btn.disabled = false; f.classList.add('done'); });
+            return;
+          }
           f.querySelector('[data-form-sent]').textContent = `Thanks, ${first}! On the live site, your ${topic ? `"${topic}" ` : ''}message would go straight to ${f.dataset.to || f.dataset.biz}, with your ${v('phone') ? 'number' : 'email'} to reply to. (Preview only: nothing was sent.)`;
           f.classList.add('done');
         });
