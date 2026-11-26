@@ -3,7 +3,7 @@
     "slug": "legacy",
     "name": "Legacy",
     "kind": "Web app",
-    "url": "https://legacy-jason-pharr-s-projects.vercel.app/",
+    "url": "https://legacy-tawny.vercel.app/",
     "blurb": "A Christian companion for planning a funeral: the service, clergy, casket and flowers, tribute videos and the printed order of service, in one place."
   },
   {
@@ -14,10 +14,38 @@
     "blurb": "Digitizes, restores and reimagines photos, film and video, then prints them on almost anything, from t-shirts to gallery walls."
   },
   {
+    "slug": "vine",
+    "name": "Vine",
+    "kind": "Community platform · beta",
+    "url": "https://vine-lake.vercel.app/",
+    "blurb": "An all-in-one Christian platform: community, Bible tools, devotionals and discussion in one place."
+  },
+  {
+    "slug": "meridian-ai",
+    "name": "Meridian AI",
+    "kind": "Courses & consulting",
+    "url": "https://ai-consulting-site-sepia.vercel.app/",
+    "blurb": "AI consulting, self-paced courses, guided walkthroughs and live cohorts that help teams put AI to work in their business."
+  },
+  {
+    "slug": "amalgam",
+    "name": "Amalgam",
+    "kind": "Web app",
+    "url": "https://amalgam-three.vercel.app/",
+    "blurb": "Say what you want done once: Amalgam plans it, writes a version for every site, and posts where it can."
+  },
+  {
     "slug": "usa-security-connect",
     "name": "USA Security Connect",
     "kind": "Business app · demo",
     "url": "https://usa-security-connect.vercel.app/",
     "blurb": "Workforce operations for a security and protection company. The demo runs on a sample company and people, and nothing you change is kept."
+  },
+  {
+    "slug": "leopard",
+    "name": "LEOPARDØ",
+    "kind": "Album site",
+    "url": "https://leopard-five.vercel.app/",
+    "blurb": "The home of DYSTØPIA, an album of cinematic horns and strings over heavy 808s."
   }
 ]
