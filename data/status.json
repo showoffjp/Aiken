@@ -39,5 +39,11 @@
     "note": "Only the www address is broken; the address without www works",
     "currentSite": "https://thefeedsackrestaurants.com/",
     "checked": "2026-11-25"
+  },
+  "pat-cunning-woodside-aiken-realty-commercial-div": {
+    "status": "skip",
+    "note": "An agent at a larger realty company whose site works for visitors: the server answers with an error code (500), but the page shows normally",
+    "currentSite": "https://www.woodside-aikenrealty.com/",
+    "checked": "2026-11-26"
   }
 }
