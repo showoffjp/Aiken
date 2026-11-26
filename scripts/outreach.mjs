@@ -164,12 +164,9 @@ So I went ahead and built a working concept of what a ${none ? 'first' : 'new'} 
 
   ${link}
 
-For a one-minute guided tour of what it does for your customers, open ${link}?tour
+The Tour button at the top of the page walks through what it does for your customers in about a minute.
 
 It is free to look at and there is no obligation. If you like it, I can have it live on your own web address within a few days. If not, no hard feelings.
-
-A one-page ${none ? 'summary' : 'checkup of the current site'} is here: ${report}
-And a full search and social media report, with how you compare to local competitors: ${base}/${d.slug}/seo/
 
 ${me.name}
 ${studio}
@@ -185,6 +182,8 @@ P.S. While checking, I noticed a local business directory lists your number as $
   const messenger = `Hi! I'm ${me.name}, a web designer here in Aiken. I put together a free concept for a ${none ? 'first ' : 'new '}${short} website, built from what you already have online. Here's a one-page look: ${report} (the concept itself: ${link}). No cost or obligation, just thought you might like to see it.`;
   const voicemail = `Hi${first ? ` ${first}` : ''}, this is ${me.name}. I build websites for small businesses here in the Aiken area. ${none ? `I could not find a website for ${short}` : `I noticed that ${lower(findings[0]).replace(/\.$/, '')}`}, so I put together a free concept of a new site for ${short}. I'd love to send you the link. My number is ${me.phone}. Again, that's ${me.name} at ${me.phone}. Thanks.`;
 
+  // The first email carries one link (the concept) so it reads like a person and stays out of
+  // spam folders; the checkup goes in the follow-up, as something new to look at.
   // A short second note, a week later, with one new reason to look.
   const secs = none || broken ? 0 : slowSecs(d.prospect || d.slug);
   const nudge = none
@@ -201,6 +200,12 @@ Just following up on the website concept I sent last week for ${short}:
   ${link}
 
 ${nudge}
+
+${none
+    ? `I also put together a one-page summary of how ${short} shows up online today: ${report}`
+    : broken
+      ? `Here is a one-page checkup of what visitors see there: ${report}`
+      : `I also put together a one-page checkup of ${host}, with what works and what I would fix, whether or not you use the concept: ${report}`}
 
 Happy to change anything in it, or to take it down if you'd rather I didn't keep it online. Either way, a one-line reply helps.
 
