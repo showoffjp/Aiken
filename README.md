@@ -2,7 +2,7 @@
 
 Research, audit and redesign concepts for independent, locally owned businesses in and around Aiken, South Carolina.
 
-**Live site:** https://aiken-web-refresh.vercel.app (deploys automatically from `main` via Vercel)
+**Live site:** https://pharrgo.com (deploys automatically from `main` via Vercel; https://aiken-web-refresh.vercel.app still works)
 
 The repo does three things:
 
