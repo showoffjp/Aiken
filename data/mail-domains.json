@@ -1,0 +1,651 @@
+{
+  "aiken-cpa.com": {
+    "mail": true,
+    "mx": [
+      "aspmx2.googlemail.com",
+      "aspmx5.googlemail.com",
+      "aspmx4.googlemail.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "aspmx3.googlemail.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikencarriagehouse.com": {
+    "mail": true,
+    "mx": [
+      "alt4.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt3.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikendowntowndog.com": {
+    "mail": true,
+    "mx": [
+      "SMTP.GOOGLE.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikengranite.com": {
+    "mail": true,
+    "mx": [
+      "mx1-us1.ppe-hosted.com",
+      "mx2-us1.ppe-hosted.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikenhousingcenter.com": {
+    "mail": true,
+    "mx": [
+      "aikenhousingcenter-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikenite-electrical.com": {
+    "mail": true,
+    "mx": [
+      "aikeniteelectrical-com02b.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aikenpetsitters.com": {
+    "mail": true,
+    "mx": [
+      "smtp.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "allsafe1.com": {
+    "mail": true,
+    "mx": [
+      "mx1-us1.ppe-hosted.com",
+      "mx2-us1.ppe-hosted.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "andrewmarine.com": {
+    "mail": true,
+    "mx": [
+      "andrewmarine-com.inbound.emailservice.io",
+      "andrewmarine-com.inbound.emailservice.cc",
+      "andrewmarine-com.inbound.emailservice.co"
+    ],
+    "checked": "2026-11-27"
+  },
+  "aol.com": {
+    "mail": true,
+    "mx": [
+      "mx-aol.mail.gm0.yahoodns.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "apexhomerepair.com": {
+    "mail": false,
+    "why": "no mail servers",
+    "checked": "2026-11-27"
+  },
+  "asrtents.com": {
+    "mail": true,
+    "mx": [
+      "asrtents-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "atomichvac.com": {
+    "mail": true,
+    "mx": [
+      "smtp.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "att.net": {
+    "mail": true,
+    "mx": [
+      "mx-att.mail.am0.yahoodns.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "austinpethick.com": {
+    "mail": true,
+    "mx": [
+      "austinpethick-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "awbench.com": {
+    "mail": true,
+    "mx": [
+      "alt3.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "bellsouth.net": {
+    "mail": true,
+    "mx": [
+      "mx-att.mail.am0.yahoodns.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "bfdaiken.com": {
+    "mail": true,
+    "mx": [
+      "bfdaiken-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "bitimber.com": {
+    "mail": true,
+    "mx": [
+      "mailstore1.secureserver.net",
+      "smtp.secureserver.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "biz-mom.com": {
+    "mail": true,
+    "mx": [
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx2.googlemail.com",
+      "aspmx3.googlemail.com",
+      "alt2.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "bkgradingandpaving.com": {
+    "mail": true,
+    "mx": [
+      "bkgradingandpaving-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "bravefriend.net": {
+    "mail": true,
+    "mx": [
+      "aspmx2.googlemail.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx3.googlemail.com",
+      "aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "brinkleyschophouse.com": {
+    "mail": true,
+    "mx": [
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt4.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "carolina-hvac.com": {
+    "mail": true,
+    "mx": [
+      "carolina-hvac-com.inbound.emailservice.io",
+      "carolina-hvac-com.inbound.emailservice.co"
+    ],
+    "checked": "2026-11-27"
+  },
+  "carolinadragway.com": {
+    "mail": true,
+    "mx": [
+      "mail.carolinadragway.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "cavscoffee.com": {
+    "mail": true,
+    "mx": [
+      "alt4.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "coleenwallacedesign.com": {
+    "mail": true,
+    "mx": [
+      "coleenwallacedesign-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "comcast.net": {
+    "mail": true,
+    "mx": [
+      "mx2c1.comcast.net",
+      "mx2a1.comcast.net",
+      "mx1h1.comcast.net",
+      "mx2.mxge.comcast.net",
+      "mx1a1.comcast.net",
+      "mx2h1.comcast.net",
+      "mx1c1.comcast.net",
+      "mx1.mxge.comcast.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "cowardandmcneill.com": {
+    "mail": true,
+    "mx": [
+      "mail.cowardandmcneill.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "cpaaiken.com": {
+    "mail": true,
+    "mx": [
+      "cpaaiken-com.inbound.emailservice.io",
+      "cpaaiken-com.inbound.emailservice.co",
+      "cpaaiken-com.inbound.emailservice.cc"
+    ],
+    "checked": "2026-11-27"
+  },
+  "durban-laird.com": {
+    "mail": true,
+    "mx": [
+      "durbanlaird-com01e.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "eudorasafaripark.com": {
+    "mail": true,
+    "mx": [
+      "alt3.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "feedsackaiken.com": {
+    "mail": true,
+    "mx": [
+      "alt3.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt2.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "glassworksaiken.com": {
+    "mail": true,
+    "mx": [
+      "mx20.mailspamprotection.com",
+      "mx10.mailspamprotection.com",
+      "mx30.mailspamprotection.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "gmail.com": {
+    "mail": true,
+    "mx": [
+      "alt4.gmail-smtp-in.l.google.com",
+      "gmail-smtp-in.l.google.com",
+      "alt1.gmail-smtp-in.l.google.com",
+      "alt2.gmail-smtp-in.l.google.com",
+      "alt3.gmail-smtp-in.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "goinpostal.com": {
+    "mail": true,
+    "mx": [
+      "mx2.emailsrvr.com",
+      "mx1.emailsrvr.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "gutterspecialtyservices.com": {
+    "mail": true,
+    "mx": [
+      "aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "harrisonk9.com": {
+    "mail": true,
+    "mx": [
+      "aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "hbolarchitecture.com": {
+    "mail": true,
+    "mx": [
+      "hbolarchitecture-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "hibbittsdrug.com": {
+    "mail": true,
+    "mx": [
+      "lastmx.spamexperts.net",
+      "mx.spamexperts.com",
+      "fallbackmx.spamexperts.eu"
+    ],
+    "checked": "2026-11-27"
+  },
+  "hmrhonda.net": {
+    "mail": true,
+    "mx": [
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "hotmail.com": {
+    "mail": true,
+    "mx": [
+      "hotmail-com.olc.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "howellprinting.net": {
+    "mail": true,
+    "mx": [
+      "mx002.netsol.xion.oxcs.net",
+      "mx004.netsol.xion.oxcs.net",
+      "mx001.netsol.xion.oxcs.net",
+      "mx003.netsol.xion.oxcs.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "icloud.com": {
+    "mail": true,
+    "mx": [
+      "mx02.mail.icloud.com",
+      "mx01.mail.icloud.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "jurypest.com": {
+    "mail": true,
+    "mx": [
+      "jurypest-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "kellypaintandbody.net": {
+    "mail": true,
+    "mx": [
+      "mx.kellypaintandbody.net.cust.b.hostedemail.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "legisequine.com": {
+    "mail": true,
+    "mx": [
+      "legisequine-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "lookawayinn.com": {
+    "mail": true,
+    "mx": [
+      "lookawayinn-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "mariacardonatherapeuticmassage.com": {
+    "mail": true,
+    "mx": [
+      "mx.zoho.com",
+      "mx3.zoho.com",
+      "mx2.zoho.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "marktaylorinsurance.com": {
+    "mail": true,
+    "mx": [
+      "aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx2.googlemail.com",
+      "aspmx3.googlemail.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "mitchjohnsonconstruction.com": {
+    "mail": true,
+    "mx": [
+      "mitchjohnsonconstruction.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "parkaveoysterbar.com": {
+    "mail": true,
+    "mx": [
+      "mx1-usg1.ppe-hosted.com",
+      "mx3-usg1.ppe-hosted.com",
+      "mx2-usg1.ppe-hosted.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "pavewayofaugusta.com": {
+    "mail": true,
+    "mx": [
+      "pavewayofaugusta-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "playlandofaiken.com": {
+    "mail": true,
+    "mx": [
+      "mail.playlandofaiken.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "prescottandsons.com": {
+    "mail": true,
+    "mx": [
+      "prescottandsons-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "qpgraphics.com": {
+    "mail": true,
+    "mx": [
+      "mx00.1and1.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "radioactivepinball.com": {
+    "mail": true,
+    "mx": [
+      "radioactivepinball-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "rebelranchhorsetours.com": {
+    "mail": true,
+    "mx": [
+      "aspmx3.googlemail.com",
+      "alt2.aspmx.l.google.com",
+      "aspmx2.googlemail.com",
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "rhodesmurphy.com": {
+    "mail": true,
+    "mx": [
+      "rhodesmurphy-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "sbofaiken.com": {
+    "mail": true,
+    "mx": [
+      "alt3.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "aspmx.l.google.com",
+      "alt4.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "simplysocialsc.com": {
+    "mail": true,
+    "mx": [
+      "mailserver.businessidentity.llc"
+    ],
+    "checked": "2026-11-27"
+  },
+  "snocapdrivein.com": {
+    "mail": true,
+    "mx": [
+      "snocapdrivein-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "southboundsmokehouse.com": {
+    "mail": true,
+    "mx": [
+      "aspmx2.googlemail.com",
+      "aspmx3.googlemail.com",
+      "alt2.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "superiorofficeonline.com": {
+    "mail": true,
+    "mx": [
+      "superiorofficeonline.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "tabsprofessionaltransportation.com": {
+    "mail": true,
+    "mx": [
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "tailgatetavern2.com": {
+    "mail": true,
+    "mx": [
+      "mail.tailgatetavern2.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "thejewelersloupe.net": {
+    "mail": true,
+    "mx": [
+      "thejewelersloupe-net.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "thevillagecafeaiken.com": {
+    "mail": true,
+    "mx": [
+      "mx1.mailchannels.net",
+      "mx2.mailchannels.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "thewillcox.com": {
+    "mail": true,
+    "mx": [
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "tpmurphylaw.com": {
+    "mail": true,
+    "mx": [
+      "tpmurphylaw-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "tuckerorthodontics.com": {
+    "mail": true,
+    "mx": [
+      "tuckerorthodontics-com.mail.protection.outlook.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "tylerpress.com": {
+    "mail": true,
+    "mx": [
+      "ASPMX.L.GOOGLE.com",
+      "ALT4.ASPMX.L.GOOGLE.com",
+      "ALT1.ASPMX.L.GOOGLE.com",
+      "ALT2.ASPMX.L.GOOGLE.com",
+      "ALT3.ASPMX.L.GOOGLE.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "vintagebobbin.com": {
+    "mail": true,
+    "mx": [
+      "mx00.ionos.com",
+      "mx01.ionos.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "wisewarehousingsolutions.com": {
+    "mail": true,
+    "mx": [
+      "mx10.antispam.mailspamprotection.com",
+      "mx30.antispam.mailspamprotection.com",
+      "mx20.antispam.mailspamprotection.com"
+    ],
+    "checked": "2026-11-27"
+  },
+  "yahoo.com": {
+    "mail": true,
+    "mx": [
+      "mta5.am0.yahoodns.net",
+      "mta6.am0.yahoodns.net",
+      "mta7.am0.yahoodns.net"
+    ],
+    "checked": "2026-11-27"
+  },
+  "zookhomes.com": {
+    "mail": true,
+    "mx": [
+      "aspmx.l.google.com",
+      "alt1.aspmx.l.google.com",
+      "alt4.aspmx.l.google.com",
+      "alt2.aspmx.l.google.com",
+      "alt3.aspmx.l.google.com"
+    ],
+    "checked": "2026-11-27"
+  }
+}
