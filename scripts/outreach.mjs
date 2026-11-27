@@ -2,6 +2,8 @@
 // message and a voicemail script, each using that business's own findings.
 // Output goes to ./outreach (not committed). Nothing is sent.
 //   node scripts/outreach.mjs
+import { execFileSync } from 'node:child_process';
+import { promises as dns } from 'node:dns';
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -100,14 +102,52 @@ const lower = (s) => (/^(Google|Lighthouse|An automated|When I)/.test(s) ? s.rep
 const csv = [['Business', 'Town', 'Email', 'Phone', 'Subject', 'Concept link', 'Checkup link', 'Draft file']];
 const index = [];
 
-for (const f of (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x.endsWith('.json')).sort()) {
-  const d = JSON.parse(await readFile(path.join(ROOT, 'src', 'demos', f), 'utf8'));
-  const row = rows.find((r) => r.slug === (d.prospect || d.slug)) || {};
+const demoFiles = (await readdir(path.join(ROOT, 'src', 'demos'))).filter((x) => x.endsWith('.json')).sort();
+const demoList = await Promise.all(demoFiles.map(async (f) => JSON.parse(await readFile(path.join(ROOT, 'src', 'demos', f), 'utf8'))));
+const rowOf = (d) => rows.find((r) => r.slug === (d.prospect || d.slug)) || {};
+// Every address a draft could use, best source first: the concept's own, the research data, then contacts.json.
+const candidates = (d) => [d.contact.email, rowOf(d).email, found[d.slug]?.email].filter(Boolean);
+
+// Email domains that take no mail. An address there bounces, and bounces hurt a new sender's
+// reputation (an old address on a domain the business has let go, for instance). Each domain is
+// looked up once and remembered in data/mail-domains.json; a lookup that fails blocks nothing.
+const mailFile = path.join(ROOT, 'data', 'mail-domains.json');
+const mailDomains = JSON.parse(await readFile(mailFile, 'utf8').catch(() => '{}'));
+const domainOf = (e) => (e.split('@')[1] || '').toLowerCase();
+async function lookupMail(domain) {
+  // Google's DNS over HTTPS first (some networks pass only address lookups), then the system resolver.
+  try {
+    const j = JSON.parse(execFileSync('curl', ['-s', '--max-time', '10', `https://dns.google/resolve?name=${encodeURIComponent(domain)}&type=MX`], { encoding: 'utf8' }));
+    if (j.Status === 3) return { mail: false, why: 'the domain does not exist' };
+    if (j.Status === 0) {
+      const mx = (j.Answer || []).filter((a) => a.type === 15).map((a) => a.data.split(' ').pop().replace(/\.$/, ''));
+      return mx.length && !(mx.length === 1 && mx[0] === '') ? { mail: true, mx } : { mail: false, why: 'no mail servers' };
+    }
+  } catch {}
+  try {
+    const mx = await dns.resolveMx(domain);
+    return mx.length ? { mail: true, mx: mx.map((m) => m.exchange) } : { mail: false, why: 'no mail servers' };
+  } catch (e) {
+    return e.code === 'ENOTFOUND' ? { mail: false, why: 'the domain does not exist' } : null;
+  }
+}
+const unchecked = [...new Set(demoList.flatMap(candidates).map(domainOf).filter((x) => x && !mailDomains[x]))];
+for (const domain of unchecked) {
+  const r = await lookupMail(domain);
+  if (r) mailDomains[domain] = { ...r, checked: new Date().toISOString().slice(0, 10) };
+}
+if (unchecked.length) await writeFile(mailFile, `${JSON.stringify(Object.fromEntries(Object.entries(mailDomains).sort()), null, 2)}\n`);
+const takesMail = (e) => mailDomains[domainOf(e)]?.mail !== false;
+
+for (const d of demoList) {
+  const row = rowOf(d);
   const short = d.short || d.name;
   const host = new URL(d.source.url).hostname.replace(/^www\./, '');
   const link = `${base}/${d.slug}/`;
   const report = `${base}/${d.slug}/report/`;
-  const email = d.contact.email || row.email || found[d.slug]?.email || '';
+  const email = candidates(d).find(takesMail) || '';
+  // An address that would bounce is named in the draft, so nobody adds it back by hand.
+  const deadEmail = email ? '' : candidates(d).find((e) => !takesMail(e)) || '';
   const phone = d.contact.phone || row.phone || '';
   // Only greet by name when the listed contact plausibly reads this inbox.
   // The export says whom to greet (a listed contact's first name, or an owner's chosen greeting).
@@ -222,7 +262,7 @@ ${row.holdNote ? `\n> **Hold before sending:** ${row.holdNote}\n` : ''}
 | | |
 | --- | --- |
 | Town | ${d.town} |
-| Email | ${email || 'none on file: call or visit'} |
+| Email | ${email || (deadEmail ? `none that works: ${deadEmail} no longer takes mail (${mailDomains[domainOf(deadEmail)].why}). Call or visit` : 'none on file: call or visit')} |
 | Phone | ${phone || 'none on file'} |
 | Contact | ${row.contact || 'unknown'} |
 | Current site | ${none ? 'none (listing: ' + d.source.url + ')' : `${d.source.url} (${row.siteState || 'not audited'})`} |
