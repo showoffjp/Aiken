@@ -18,7 +18,7 @@ export const site = {
   /** The area the studio serves, for the home page's business markup. */
   areaServed: ['Aiken', 'North Augusta', 'Aiken County, South Carolina'],
   /** Public URL once deployed (used for canonical links). */
-  url: 'https://aiken-web-refresh.vercel.app',
+  url: 'https://pharrgo.com',
   /**
    * Keep search engines away from the portfolio index until you are ready.
    * Demo pages are always noindex regardless of this flag, so a concept can
