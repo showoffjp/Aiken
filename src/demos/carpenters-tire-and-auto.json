@@ -1,0 +1,171 @@
+{
+  "name": "Carpenter's Tire & Auto",
+  "short": "Carpenter's",
+  "category": "Tires & Auto Repair",
+  "group": "Automotive",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "oswald",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f6f5f2",
+    "surface": "#ffffff",
+    "ink": "#17191c",
+    "muted": "#53575e",
+    "primary": "#b3261e",
+    "onPrimary": "#ffffff",
+    "accent": "#f2b632",
+    "line": "#e2e0da"
+  },
+  "radius": 6,
+  "icon": "wrench",
+  "established": "1977",
+  "contact": {
+    "phone": "(803) 279-5469",
+    "address": [
+      "429 Georgia Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "Carpenter's Tire & Auto, 429 Georgia Ave, North Augusta, SC 29841"
+  },
+  "hero": {
+    "eyebrow": "Family-owned on Georgia Avenue since 1977",
+    "title": "Three generations of *keeping North Augusta rolling*",
+    "lede": "Tires, repairs and maintenance from the Carpenter family, at 429 Georgia Avenue. The North Augusta Chamber's 2025 Micro-Business of the Year.",
+    "points": [
+      "Tires",
+      "Auto repair",
+      "Maintenance"
+    ],
+    "cta": {
+      "label": "Call (803) 279-5469",
+      "href": "tel:+18032795469"
+    },
+    "cta2": {
+      "label": "Our story",
+      "href": "#story"
+    }
+  },
+  "facts": [
+    {
+      "value": "1977",
+      "label": "Serving North Augusta since"
+    },
+    {
+      "value": "3",
+      "label": "Generations of one family"
+    },
+    {
+      "value": "2025",
+      "label": "Chamber Micro-Business of the Year"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Tires and *everything under the hood*",
+      "items": [
+        {
+          "icon": "circle-dot",
+          "title": "Tires",
+          "text": "New tires, from the shop with tires in its name since 1977."
+        },
+        {
+          "icon": "wrench",
+          "title": "Auto repair",
+          "text": "Diagnosing and fixing what's wrong, from the family that has done it here since 1977."
+        },
+        {
+          "icon": "gauge",
+          "title": "Maintenance",
+          "text": "The routine work that keeps a car on the road."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "story",
+      "nav": "Our story",
+      "eyebrow": "Since 1977",
+      "title": "A family name *on the sign*",
+      "body": [
+        "Carpenter's Tire & Auto has served North Augusta since 1977, and three generations of one family have owned it.",
+        "Ken Carpenter, the owner and namesake, moved the shop across Georgia Avenue for a larger space. In 2025 the North Augusta Chamber of Commerce named Carpenter's its Micro-Business of the Year."
+      ],
+      "list": [
+        "Family-owned since 1977",
+        "Owners Kenneth and Frank Carpenter",
+        "2025 Micro-Business of the Year"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "Where is the shop?",
+          "a": "429 Georgia Avenue in North Augusta, SC 29841."
+        },
+        {
+          "q": "Do I need an appointment?",
+          "a": "Call (803) 279-5469 and the shop will tell you when they can look at your car."
+        },
+        {
+          "q": "Who owns Carpenter's?",
+          "a": "The Carpenter family, owners for three generations. Kenneth and Frank Carpenter run the shop today."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Something sound wrong?",
+      "text": "Call the shop on Georgia Avenue.",
+      "cta": {
+        "label": "Call (803) 279-5469",
+        "href": "tel:+18032795469"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Georgia Avenue*",
+    "hideForm": true
+  },
+  "slug": "carpenters-tire-and-auto",
+  "added": "2026-11-28",
+  "prospect": "carpenters-tire-and-auto",
+  "source": {
+    "none": true,
+    "url": "https://northaugustachamber.chambermaster.com/list/member/carpenter-s-tire-auto-1202",
+    "before": [
+      "No website of its own: the chamber listing's link points at a free Google business page that now shows an error (404)",
+      "Hours differ from one directory to the next",
+      "The first thing a new customer sees is not something the shop controls"
+    ],
+    "after": [
+      "A site the shop owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "Since 1977 and the chamber award, told in the family's own words",
+      "Room to add services, tire brands and photos as the shop supplies them"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

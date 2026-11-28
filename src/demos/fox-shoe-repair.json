@@ -1,0 +1,164 @@
+{
+  "name": "Fox Shoe Repair",
+  "short": "Fox Shoe Repair",
+  "category": "Shoe & Leather Repair",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f7f2ea",
+    "surface": "#fffdf9",
+    "ink": "#241a12",
+    "muted": "#5f5246",
+    "primary": "#8a4b1f",
+    "onPrimary": "#ffffff",
+    "accent": "#d9a441",
+    "line": "#e7dccd"
+  },
+  "radius": 8,
+  "icon": "footprints",
+  "contact": {
+    "phone": "(803) 643-9974",
+    "address": [
+      "130 Park Avenue SE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Fox Shoe Repair, 130 Park Ave SE, Aiken, SC 29801",
+    "hours": [
+      [
+        "Monday – Friday",
+        "8:30 am – 5:30 pm"
+      ],
+      [
+        "Saturday & Sunday",
+        "Closed"
+      ]
+    ]
+  },
+  "hero": {
+    "eyebrow": "Downtown Aiken, on Park Avenue",
+    "title": "Good shoes deserve *a second life*",
+    "lede": "Shoe, boot and leather repair at 130 Park Avenue SE, from a downtown shop that has been in business for more than seventy years.",
+    "points": [
+      "Shoes",
+      "Boots",
+      "Leather"
+    ],
+    "cta": {
+      "label": "Call (803) 643-9974",
+      "href": "tel:+18036439974"
+    },
+    "cta2": {
+      "label": "What we fix",
+      "href": "#repairs"
+    }
+  },
+  "facts": [
+    {
+      "value": "70+",
+      "label": "Years in business"
+    },
+    {
+      "value": "Mon–Fri",
+      "label": "8:30 am to 5:30 pm"
+    },
+    {
+      "value": "Park Ave",
+      "label": "Downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "repairs",
+      "nav": "What we fix",
+      "columns": 3,
+      "eyebrow": "At the bench",
+      "title": "Bring it in *before you throw it out*",
+      "items": [
+        {
+          "icon": "footprints",
+          "title": "Shoe repair",
+          "text": "Shoes brought back into service instead of the trash."
+        },
+        {
+          "icon": "hammer",
+          "title": "Boots",
+          "text": "Bring in the boots you have already broken in."
+        },
+        {
+          "icon": "scissors",
+          "title": "Leather work",
+          "text": "Repairs to the leather goods you'd rather not replace."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "When are you open?",
+          "a": "Monday to Friday, 8:30 am to 5:30 pm. Closed Saturday and Sunday."
+        },
+        {
+          "q": "Where is the shop?",
+          "a": "130 Park Avenue SE in downtown Aiken."
+        },
+        {
+          "q": "Can you fix this?",
+          "a": "Call (803) 643-9974 and describe it, or bring it by and we'll take a look."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Worn heel? Torn strap?",
+      "text": "Bring it to Park Avenue, Monday to Friday.",
+      "cta": {
+        "label": "Call (803) 643-9974",
+        "href": "tel:+18036439974"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Park Avenue*",
+    "hideForm": true
+  },
+  "slug": "fox-shoe-repair",
+  "added": "2026-11-28",
+  "prospect": "fox-shoe-repair",
+  "source": {
+    "none": true,
+    "url": "https://www.yellowpages.com/aiken-sc/mip/fox-shoe-repair-12051491",
+    "before": [
+      "No website of its own: a search leads to directory listings and a Facebook page",
+      "One listing still gives an old Richland Avenue address",
+      "The first thing a new customer sees is not something the shop controls"
+    ],
+    "after": [
+      "A site the shop owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add before-and-after photos of repairs as the shop supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "grid",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "flip",
+    "buttons": "outline"
+  }
+}

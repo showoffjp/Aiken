@@ -1,0 +1,181 @@
+{
+  "name": "Jamrock Caribana Restaurant & Grill",
+  "short": "Jamrock Caribana",
+  "category": "Jamaican Restaurant",
+  "group": "Food & Drink",
+  "town": "Warrenville, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "bricolage-grotesque",
+    "body": "outfit",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fffaf0",
+    "surface": "#ffffff",
+    "ink": "#1b1a12",
+    "muted": "#57543f",
+    "primary": "#1d7a34",
+    "onPrimary": "#ffffff",
+    "accent": "#f5c518",
+    "line": "#ece3c8"
+  },
+  "radius": 14,
+  "icon": "flame",
+  "contact": {
+    "phone": "(803) 270-0645",
+    "address": [
+      "730 Augusta Road",
+      "Warrenville, SC 29851"
+    ],
+    "mapQuery": "Jamrock Caribana Restaurant & Grill, 730 Augusta Rd, Warrenville, SC 29851"
+  },
+  "hero": {
+    "eyebrow": "Jamaican cooking on the old Aiken–Augusta road",
+    "title": "Jerk chicken, oxtail and *rice & peas*",
+    "lede": "A hospitable, out-of-the-way spot on Highway 421 in Warrenville, cooking Jamaican favorites to eat in, take out or have delivered.",
+    "points": [
+      "Dine in",
+      "Takeout",
+      "Delivery"
+    ],
+    "cta": {
+      "label": "Call (803) 270-0645",
+      "href": "tel:+18032700645"
+    },
+    "cta2": {
+      "label": "What we cook",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Jerk",
+      "label": "Chicken: regulars ask for extra jerk"
+    },
+    {
+      "value": "Oxtail",
+      "label": "Tender and full of flavor, say reviewers"
+    },
+    {
+      "value": "Hwy 421",
+      "label": "Between Aiken and Augusta"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "What we cook",
+      "eyebrow": "From the kitchen",
+      "title": "Island *favorites*",
+      "intro": "The dishes our regulars come back for. Call for today's full menu and prices.",
+      "groups": [
+        {
+          "title": "Plates",
+          "items": [
+            {
+              "name": "Jerk chicken"
+            },
+            {
+              "name": "Oxtail"
+            },
+            {
+              "name": "Curry goat"
+            }
+          ]
+        },
+        {
+          "title": "On the side",
+          "items": [
+            {
+              "name": "Rice & peas"
+            },
+            {
+              "name": "Cabbage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Welcome",
+      "title": "Worth the *drive*",
+      "body": [
+        "Jamrock Caribana sits on Highway 421, the old road between Aiken and Augusta, in Warrenville.",
+        "The kitchen cooks Deep South Jamaican food, and caters to vegetarians, vegans and anyone trying Jamaican food for the first time."
+      ],
+      "list": [
+        "Vegetarian and vegan friendly",
+        "New to Jamaican food? Ask us",
+        "Takeout and delivery"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *come by*",
+      "items": [
+        {
+          "q": "Do you have vegetarian or vegan food?",
+          "a": "Yes. The kitchen caters to vegetarians and vegans. Call and ask what's on today."
+        },
+        {
+          "q": "Can I get it delivered?",
+          "a": "Yes. Jamrock Caribana offers takeout and delivery as well as dining in."
+        },
+        {
+          "q": "I've never had Jamaican food. Where do I start?",
+          "a": "Customer favorites include jerk chicken, oxtail, and rice & peas with cabbage."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Find us at 730 Augusta Road in Warrenville.",
+      "cta": {
+        "label": "Call (803) 270-0645",
+        "href": "tel:+18032700645"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Augusta Road*",
+    "hideForm": true
+  },
+  "slug": "jamrock-caribana",
+  "added": "2026-11-28",
+  "prospect": "jamrock-caribana",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/jamrock-caribana/",
+    "before": [
+      "No website of its own: a search leads to delivery apps, review sites and directory listings",
+      "Hours, prices and the menu differ from one of those sites to the next",
+      "The first thing a new customer sees is not something the restaurant controls"
+    ],
+    "after": [
+      "A site the restaurant owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room to add the full menu, photos and specials as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "pills",
+    "facts": "ticker",
+    "pattern": "waves",
+    "divider": "curve",
+    "heads": "outline",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

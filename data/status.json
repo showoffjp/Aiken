@@ -45,5 +45,35 @@
     "note": "An agent at a larger realty company whose site works for visitors: the server answers with an error code (500), but the page shows normally",
     "currentSite": "https://www.woodside-aikenrealty.com/",
     "checked": "2026-11-26"
+  },
+  "salsas-mex-mex-grill": {
+    "status": "moved",
+    "note": "Part of a three-location chain whose own site works; the directory links an old address",
+    "currentSite": "https://aiken.salsasbargrill.com/locations",
+    "checked": "2026-11-28"
+  },
+  "horizon-physical-therapy-and-wellness": {
+    "status": "moved",
+    "note": "Has its own website now (opened in 2025); the chamber listing has no link yet",
+    "currentSite": "https://www.horizonptw.com/",
+    "checked": "2026-11-28"
+  },
+  "rock-creek-irrigation-and-landscapes": {
+    "status": "moved",
+    "note": "Has its own website (rockcreeklandscapes.com); the chamber listing has no link to it",
+    "currentSite": "https://rockcreeklandscapes.com/",
+    "checked": "2026-11-28"
+  },
+  "the-pub-at-cedar-creek": {
+    "status": "moved",
+    "note": "The pub is part of Cedar Creek Golf Club, whose own site has a dining page with its menus",
+    "currentSite": "https://cedarcreekgolfclub.com/dining/",
+    "checked": "2026-11-28"
+  },
+  "moonbeams-coffee-roasters": {
+    "status": "moved",
+    "note": "MoonBeans is New Moon Cafe's sister roaster and has a page on the cafe's own site",
+    "currentSite": "https://www.newmoondowntown.com/location/new-moon-cafe-moonbeans/",
+    "checked": "2026-11-28"
   }
 }

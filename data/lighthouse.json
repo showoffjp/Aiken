@@ -4916,5 +4916,89 @@
    "cls": 0,
    "at": "2026-11-25"
   }
+ },
+ "carpenters-tire-and-auto": {
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 965,
+   "lcp": 1578,
+   "tbt": 208,
+   "si": 965,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "jamrock-caribana": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1356,
+   "lcp": 2406,
+   "tbt": 26,
+   "si": 1356,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "tequilas-mexican-grill-and-bar": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 945,
+   "lcp": 1953,
+   "tbt": 91,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "twin-willows-medical-and-dental-center": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 945,
+   "lcp": 1729,
+   "tbt": 92,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "fox-shoe-repair": {
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1205,
+   "lcp": 1955,
+   "tbt": 236,
+   "si": 1205,
+   "cls": 0.004,
+   "at": "2026-11-28"
+  }
+ },
+ "solo-vino-marchand-de-vin": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 1954,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0.002,
+   "at": "2026-11-28"
+  }
  }
 }

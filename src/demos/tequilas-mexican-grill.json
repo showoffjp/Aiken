@@ -1,0 +1,214 @@
+{
+  "name": "Tequila's Mexican Grill & Bar",
+  "short": "Tequila's",
+  "category": "Mexican Restaurant & Bar",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "unbounded",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fdf8ee",
+    "surface": "#ffffff",
+    "ink": "#1d1a16",
+    "muted": "#5c554b",
+    "primary": "#0b6b4f",
+    "onPrimary": "#ffffff",
+    "accent": "#e8a33a",
+    "line": "#eadfcb"
+  },
+  "radius": 16,
+  "icon": "flame",
+  "contact": {
+    "phone": "(803) 226-0495",
+    "address": [
+      "1860 Richland Avenue West",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Tequila's Mexican Grill and Bar, 1860 Richland Ave W, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Mexican grill & bar on Richland Avenue",
+    "title": "Fajitas, molcajetes and *fresh guacamole*",
+    "lede": "A fan favorite for authentic Mexican cooking in Aiken: sizzling fajitas, tacos on corn tortillas with cilantro and onion, seafood from the grill and a molcajete built for sharing.",
+    "points": [
+      "Dine in or order online",
+      "Vegetarian plates",
+      "Richland Avenue West"
+    ],
+    "cta": {
+      "label": "Call (803) 226-0495",
+      "href": "tel:+18032260495"
+    },
+    "cta2": {
+      "label": "See the menu",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "9",
+      "label": "Kinds of fajitas"
+    },
+    {
+      "value": "15",
+      "label": "Seafood plates"
+    },
+    {
+      "value": "10",
+      "label": "Vegetarian plates"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Menu",
+      "eyebrow": "From the grill",
+      "title": "A taste of *the menu*",
+      "intro": "A few favorites from the full menu. Fajitas come with rice, beans, lettuce, tomatoes, sour cream, guacamole and grilled vegetables, with corn or flour tortillas.",
+      "footnote": "Prices from the restaurant's online ordering menu, November 2026. Call to confirm today's prices.",
+      "printLabel": "Tequila's menu",
+      "groups": [
+        {
+          "title": "To start",
+          "items": [
+            { "name": "Cheese Dip", "price": "$6.46" },
+            { "name": "Tequilas Dip", "desc": "Beans, ground beef and cheese dip", "price": "$6.19" },
+            { "name": "Guacamole Mexicano", "desc": "Fresh avocado diced with cilantro, onion, fresh jalapeño and tomato, seasoned with lime", "price": "$8.56" },
+            { "name": "Morelias Dip", "desc": "Shrimp, grilled chicken and steak topped with melted cheese", "price": "$12.76" },
+            { "name": "Papas Locas", "desc": "Fries with chorizo, chicken and steak, topped with cheese", "price": "$15.60" }
+          ]
+        },
+        {
+          "title": "Fajitas",
+          "items": [
+            { "name": "Steak or Chicken Fajita", "price": "$15.64" },
+            { "name": "Shrimp Fajita", "price": "$16.69" },
+            { "name": "Fajita Tequila", "desc": "Steak, chicken and shrimp", "price": "$18.79" },
+            { "name": "Fajitas Parrilla", "desc": "Steak, chicken, shrimp, pork and chorizo", "price": "$20.85" },
+            { "name": "Fajita Vegetarianas", "price": "$13.81" }
+          ]
+        },
+        {
+          "title": "Tacos",
+          "note": "On corn tortillas with cilantro and fresh onion, served with rice and beans",
+          "items": [
+            { "name": "Taco al Pastor", "price": "$15.64" },
+            { "name": "Taco de Carne Asada", "price": "$15.64" },
+            { "name": "Taco de Carnitas", "price": "$15.64" },
+            { "name": "Taco de Chorizo", "price": "$15.64" }
+          ]
+        },
+        {
+          "title": "House specialties",
+          "items": [
+            { "name": "Molcajete", "desc": "Carne asada, grilled chicken, shrimp, chorizo, quesadilla slices, queso fresco, grilled cactus and jalapeños, served in a stone molcajete", "price": "$30.34" },
+            { "name": "Casa Grande", "desc": "Grilled steak with bacon, poblano pepper, onions and red bell pepper", "price": "$16.96" },
+            { "name": "Pollo en Salsa Verde", "desc": "Grilled chicken with tomatillo green salsa", "price": "$15.91" },
+            { "name": "Burrito Texano", "desc": "Shrimp, chicken, steak and rice, topped with cheese dip", "price": "$16.96" }
+          ]
+        },
+        {
+          "title": "From the sea",
+          "items": [
+            { "name": "David Scallops", "desc": "Grilled scallops with vegetables, onions and red pepper. Spicy", "price": "$19.06" },
+            { "name": "Camarones al Tequila", "desc": "Grilled shrimp with onions and red pepper", "price": "$16.69" },
+            { "name": "Tostadas de Ceviche", "desc": "Three crisp tortillas with shrimp marinated in lime, pico de gallo and avocado", "price": "$16.65" },
+            { "name": "Filet del Mar", "desc": "Grilled fish, shrimp and scallops with onions, jalapeños and tomatoes", "price": "$24.04" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "ways",
+      "nav": "Ways to eat",
+      "columns": 3,
+      "eyebrow": "Your table or your couch",
+      "title": "However you're *hungry*",
+      "items": [
+        {
+          "icon": "utensils",
+          "title": "Dine in",
+          "text": "A full Mexican grill and bar on Richland Avenue West."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Order ahead",
+          "text": "Order online for pickup and skip the wait."
+        },
+        {
+          "icon": "salad",
+          "title": "Vegetarian plates",
+          "text": "Ten meat-free plates, from the vegetarian chimichanga to the chile poblano."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *come in*",
+      "items": [
+        {
+          "q": "Do you have vegetarian dishes?",
+          "a": "Yes. There are ten vegetarian plates, including a vegetarian chimichanga, a mushroom quesadilla, a spinach quesadilla and a chile poblano, plus vegetarian fajitas."
+        },
+        {
+          "q": "Can I order online?",
+          "a": "Yes. The full menu is available to order online for pickup."
+        },
+        {
+          "q": "Is there anything to share for a group?",
+          "a": "The molcajete is made for sharing: carne asada, chicken, shrimp, chorizo, queso fresco and grilled cactus, with rice, beans, salad and tortillas. Fajitas Parrilla brings five meats to the table."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry, Aiken?",
+      "text": "Call ahead or come in at 1860 Richland Avenue West.",
+      "cta": {
+        "label": "Call (803) 226-0495",
+        "href": "tel:+18032260495"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue West*",
+    "hideForm": true
+  },
+  "slug": "tequilas-mexican-grill",
+  "added": "2026-11-28",
+  "prospect": "tequilas-mexican-grill-and-bar",
+  "source": {
+    "url": "https://tequilasmexicangrillsc.com/",
+    "before": [
+      "The restaurant's web address, tequilasmexicangrillsc.com, no longer loads",
+      "Visit Aiken still links to it, and lists 3566 Richland Avenue while the online ordering menu gives 1860 Richland Avenue West",
+      "The menu on this concept comes from the restaurant's own online ordering page; the photos and hours would come from the owner"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "The full menu, searchable and printable, on a phone",
+      "One-tap call and directions",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "tiles",
+    "facts": "big",
+    "pattern": "checker",
+    "divider": "zigzag",
+    "heads": "rule",
+    "motion": "zoom",
+    "buttons": "shadow"
+  }
+}
