@@ -5032,5 +5032,59 @@
    "url": "/fox-shoe-repair/",
    "at": "2026-11-28"
   }
+ },
+ "electric-selfie-360": {
+  "concept": {
+   "bytes": 286569,
+   "requests": 7,
+   "loadMs": 269,
+   "url": "/electric-selfie-360/",
+   "at": "2026-11-28"
+  }
+ },
+ "jade-of-china": {
+  "concept": {
+   "bytes": 362861,
+   "requests": 7,
+   "loadMs": 373,
+   "url": "/jade-of-china/",
+   "at": "2026-11-28"
+  }
+ },
+ "connies-framing": {
+  "concept": {
+   "bytes": 372553,
+   "requests": 7,
+   "loadMs": 357,
+   "url": "/connies-framing/",
+   "at": "2026-11-28"
+  }
+ },
+ "arthur-w-buzz-rich-pc": {
+  "concept": {
+   "bytes": 330417,
+   "requests": 6,
+   "loadMs": 397,
+   "url": "/buzz-rich-law/",
+   "at": "2026-11-28"
+  }
+ },
+ "john-m-bailey-and-associates-pc": {
+  "concept": {
+   "bytes": 352163,
+   "requests": 6,
+   "loadMs": 122,
+   "url": "/john-m-bailey-surveyors/",
+   "at": "2026-11-28"
+  }
+ },
+ "southern-dental-associates": {
+  "concept": {
+   "bytes": 354262,
+   "requests": 7,
+   "loadMs": 163,
+   "url": "/southern-dental-associates/",
+   "at": "2026-11-28"
+  }
  }
 }

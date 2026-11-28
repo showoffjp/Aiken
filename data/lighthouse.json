@@ -5000,5 +5000,89 @@
    "cls": 0.002,
    "at": "2026-11-28"
   }
+ },
+ "arthur-w-buzz-rich-pc": {
+  "concept": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1055,
+   "lcp": 1655,
+   "tbt": 294,
+   "si": 1055,
+   "cls": 0.002,
+   "at": "2026-11-28"
+  }
+ },
+ "connies-framing": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 2104,
+   "tbt": 60,
+   "si": 1204,
+   "cls": 0.005,
+   "at": "2026-11-28"
+  }
+ },
+ "electric-selfie-360": {
+  "concept": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 947,
+   "lcp": 1803,
+   "tbt": 204,
+   "si": 947,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "jade-of-china": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 2028,
+   "tbt": 69,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "john-m-bailey-and-associates-pc": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 128,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "southern-dental-associates": {
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 1956,
+   "tbt": 159,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
  }
 }

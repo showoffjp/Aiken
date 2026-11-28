@@ -1,0 +1,166 @@
+{
+  "name": "Connie's Framing",
+  "short": "Connie's Framing",
+  "category": "Custom Picture Framing",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "work-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f8f5ef",
+    "surface": "#ffffff",
+    "ink": "#201c19",
+    "muted": "#5d5650",
+    "primary": "#3d5a6c",
+    "onPrimary": "#ffffff",
+    "accent": "#c98b4e",
+    "line": "#e6dfd4"
+  },
+  "radius": 2,
+  "icon": "frame",
+  "contact": {
+    "phone": "(803) 643-3696",
+    "address": [
+      "145 Pendleton Street NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Connie's Framing, 145 Pendleton St NW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Full-service custom frame shop in Aiken",
+    "title": "The right frame for *what matters to you*",
+    "lede": "Custom framing for anything from artwork to family photos to antique shadow boxes, from Connie Rule's full-service frame shop in Aiken.",
+    "points": [
+      "Artwork",
+      "Family photos",
+      "Shadow boxes"
+    ],
+    "cta": {
+      "label": "Call (803) 643-3696",
+      "href": "tel:+18036433696"
+    },
+    "cta2": {
+      "label": "What we frame",
+      "href": "#framing"
+    }
+  },
+  "facts": [
+    {
+      "value": "Custom",
+      "label": "Every frame made to fit"
+    },
+    {
+      "value": "Local art",
+      "label": "Work by local artists"
+    },
+    {
+      "value": "Aiken",
+      "label": "Pendleton Street"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "framing",
+      "nav": "What we frame",
+      "columns": 3,
+      "eyebrow": "What we frame",
+      "title": "From the gallery wall *to the family album*",
+      "items": [
+        {
+          "icon": "palette",
+          "title": "Artwork",
+          "text": "Paintings, prints and drawings, framed to suit the piece."
+        },
+        {
+          "icon": "image",
+          "title": "Family photos",
+          "text": "Portraits and snapshots worth seeing every day."
+        },
+        {
+          "icon": "frame",
+          "title": "Shadow boxes",
+          "text": "Antique keepsakes and objects, displayed in depth."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The shop",
+      "title": "Connie *Rule*",
+      "body": [
+        "Connie's Framing is a full-service custom frame shop in Aiken, owned by Connie Rule.",
+        "Alongside the framing, the shop carries artwork by local artists."
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "Can you frame an object, not just a picture?",
+          "a": "Yes. Shadow boxes display keepsakes and antique pieces with depth."
+        },
+        {
+          "q": "Can I just bring my piece in?",
+          "a": "Call (803) 643-3696 to ask about your piece, or bring it by the shop."
+        },
+        {
+          "q": "Where is the shop?",
+          "a": "145 Pendleton Street NW in Aiken."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Have something worth framing?",
+      "text": "Bring it to Connie's on Pendleton Street.",
+      "cta": {
+        "label": "Call (803) 643-3696",
+        "href": "tel:+18036433696"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pendleton Street*",
+    "hideForm": true
+  },
+  "slug": "connies-framing",
+  "added": "2026-11-28",
+  "prospect": "connies-framing",
+  "source": {
+    "none": true,
+    "url": "https://www.yellowpages.com/aiken-sc/mip/connies-framing-11224499",
+    "before": [
+      "No working website: the address some directories give, conniesframing.homestead.com, now sends visitors to Homestead's own home page",
+      "Directories disagree on the shop's address (Pendleton Street NW, Pendleton Street SW or Park Avenue)",
+      "The first thing a new customer sees is not something the shop controls"
+    ],
+    "after": [
+      "A site the shop owns, at its own address",
+      "The right address, phone and map in one obvious place",
+      "A gallery of finished frames, the best advertising a frame shop has",
+      "One-tap call on a phone",
+      "Room for local artists' work as the shop supplies it"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "plain",
+    "motion": "flip",
+    "buttons": "outline"
+  }
+}

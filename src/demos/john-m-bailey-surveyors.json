@@ -1,0 +1,167 @@
+{
+  "name": "John M. Bailey & Associates, P.C.",
+  "short": "John M. Bailey & Associates",
+  "category": "Professional Land Surveyors",
+  "group": "Professional Services",
+  "town": "North Augusta, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "archivo",
+    "body": "libre-franklin",
+    "accent": "jetbrains-mono"
+  },
+  "colors": {
+    "bg": "#f4f6f2",
+    "surface": "#ffffff",
+    "ink": "#18211b",
+    "muted": "#4d5a51",
+    "primary": "#2c5e3f",
+    "onPrimary": "#ffffff",
+    "accent": "#d8a13a",
+    "line": "#dbe2da"
+  },
+  "radius": 4,
+  "icon": "compass",
+  "established": "1985",
+  "contact": {
+    "phone": "(803) 278-0721",
+    "address": [
+      "101 LeCompte Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "John M. Bailey & Associates, 101 LeCompte Ave, North Augusta, SC 29841"
+  },
+  "hero": {
+    "eyebrow": "Professional land surveyors since 1985",
+    "title": "Know exactly *where your land begins and ends*",
+    "lede": "Land surveying and mapping from a North Augusta firm led by John M. Bailey, on LeCompte Avenue since 1985.",
+    "points": [
+      "Land surveying",
+      "Mapping",
+      "Since 1985"
+    ],
+    "cta": {
+      "label": "Call (803) 278-0721",
+      "href": "tel:+18032780721"
+    },
+    "cta2": {
+      "label": "What we do",
+      "href": "#services"
+    }
+  },
+  "facts": [
+    {
+      "value": "1985",
+      "label": "Surveying since"
+    },
+    {
+      "value": "P.C.",
+      "label": "Professional land surveyors"
+    },
+    {
+      "value": "LeCompte Ave",
+      "label": "North Augusta"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 2,
+      "eyebrow": "What we do",
+      "title": "Surveying *and mapping*",
+      "items": [
+        {
+          "icon": "compass",
+          "title": "Land surveying",
+          "text": "The firm's core work: professional land surveying."
+        },
+        {
+          "icon": "map",
+          "title": "Mapping",
+          "text": "Surveying and mapping services."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Since 1985",
+      "title": "A North Augusta *survey firm*",
+      "body": [
+        "John M. Bailey & Associates has practiced professional land surveying from North Augusta since 1985. John M. Bailey is the firm's president.",
+        "The firm is registered in the federal government's vendor system for surveying and mapping services, and is a member of the North Augusta Chamber of Commerce."
+      ],
+      "list": [
+        "Established 1985",
+        "Registered federal vendor",
+        "North Augusta Chamber member"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before you *call*",
+      "items": [
+        {
+          "q": "Are you a law firm?",
+          "a": "No. Some directories list the firm under attorneys, but John M. Bailey & Associates is a firm of professional land surveyors."
+        },
+        {
+          "q": "Where is the office?",
+          "a": "101 LeCompte Avenue, North Augusta, SC 29841."
+        },
+        {
+          "q": "How do I get a quote for a survey?",
+          "a": "Call (803) 278-0721 with the property address and what the survey is for."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Need a survey?",
+      "text": "Call the office on LeCompte Avenue.",
+      "cta": {
+        "label": "Call (803) 278-0721",
+        "href": "tel:+18032780721"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *LeCompte Avenue*",
+    "hideForm": true
+  },
+  "slug": "john-m-bailey-surveyors",
+  "added": "2026-11-28",
+  "prospect": "john-m-bailey-and-associates-pc",
+  "source": {
+    "none": true,
+    "url": "http://northaugustachamber.chambermaster.com/list/member/john-m-bailey-associates-p-c-1424",
+    "before": [
+      "No website of its own: a search turns up directory pages",
+      "Some of those directories list the firm under attorneys, and one describes it as a law firm",
+      "The first thing a new client sees is not something the firm controls"
+    ],
+    "after": [
+      "A site the firm owns, that says plainly what it does",
+      "Phone, address and map in one obvious place",
+      "One-tap call on a phone",
+      "Room for survey types, sample plats and a quote request as the firm supplies them",
+      "A proper preview when the link is shared by email or text"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "list",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "square"
+  }
+}

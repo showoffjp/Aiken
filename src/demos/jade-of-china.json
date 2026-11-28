@@ -1,0 +1,198 @@
+{
+  "name": "Jade of China",
+  "short": "Jade of China",
+  "category": "Chinese Restaurant",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf7f0",
+    "surface": "#ffffff",
+    "ink": "#1c1a16",
+    "muted": "#5b554a",
+    "primary": "#a3231f",
+    "onPrimary": "#ffffff",
+    "accent": "#2f8f6b",
+    "line": "#ebe1cf"
+  },
+  "radius": 12,
+  "icon": "soup",
+  "contact": {
+    "phone": "(803) 642-8509",
+    "address": [
+      "1014 Pine Log Road, Suite C",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Jade of China, 1014 Pine Log Rd Ste C, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "Chinese restaurant on Pine Log Road",
+    "title": "Lunch specials and *takeout favorites*",
+    "lede": "General Tso's, sesame chicken, Mongolian beef and hot and sour soup, to eat in or take home, on Pine Log Road in Aiken. Catering for a crowd, too.",
+    "points": [
+      "Dine in",
+      "Takeout",
+      "Catering"
+    ],
+    "cta": {
+      "label": "Call (803) 642-8509",
+      "href": "tel:+18036428509"
+    },
+    "cta2": {
+      "label": "Favorites",
+      "href": "#menu"
+    }
+  },
+  "facts": [
+    {
+      "value": "Lunch",
+      "label": "Specials diners come back for"
+    },
+    {
+      "value": "Takeout",
+      "label": "Call ahead and pick up"
+    },
+    {
+      "value": "Catering",
+      "label": "Ask about your event"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "Favorites",
+      "eyebrow": "What people order",
+      "title": "Our *regulars' favorites*",
+      "intro": "A few of the dishes diners mention most. Call for the full menu, today's lunch specials and prices.",
+      "groups": [
+        {
+          "title": "Chicken",
+          "items": [
+            {
+              "name": "General Tso's Chicken"
+            },
+            {
+              "name": "Sesame Chicken"
+            }
+          ]
+        },
+        {
+          "title": "Beef",
+          "items": [
+            {
+              "name": "Mongolian Beef"
+            },
+            {
+              "name": "Beef with Broccoli"
+            }
+          ]
+        },
+        {
+          "title": "Soups & starters",
+          "items": [
+            {
+              "name": "Hot and Sour Soup"
+            },
+            {
+              "name": "Fried Wontons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "ways",
+      "nav": "Ways to eat",
+      "columns": 3,
+      "eyebrow": "However you like it",
+      "title": "Eat in, take out, *feed a crowd*",
+      "items": [
+        {
+          "icon": "utensils",
+          "title": "Dine in",
+          "text": "A casual dining room on Pine Log Road."
+        },
+        {
+          "icon": "shopping-bag",
+          "title": "Takeout",
+          "text": "Call ahead and your order is ready when you arrive."
+        },
+        {
+          "icon": "users",
+          "title": "Catering",
+          "text": "Catering for offices, parties and gatherings. Call with your head count."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *order*",
+      "items": [
+        {
+          "q": "Do you have lunch specials?",
+          "a": "Yes, and they're one of the things diners mention most. Call for today's."
+        },
+        {
+          "q": "Do you cater?",
+          "a": "Yes. Call (803) 642-8509 with your date and head count."
+        },
+        {
+          "q": "Where are you?",
+          "a": "1014 Pine Log Road, Suite C, in Aiken."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Call ahead for takeout on Pine Log Road.",
+      "cta": {
+        "label": "Call (803) 642-8509",
+        "href": "tel:+18036428509"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pine Log Road*",
+    "hideForm": true
+  },
+  "slug": "jade-of-china",
+  "added": "2026-11-28",
+  "prospect": "jade-of-china",
+  "source": {
+    "none": true,
+    "url": "https://www.mapquest.com/us/south-carolina/jade-of-china-304189843",
+    "before": [
+      "No website of its own: a search leads to delivery apps, menu sites and review pages",
+      "Those sites disagree on the hours, and on whether the restaurant delivers or is open on Mondays",
+      "The first thing a new customer sees is not something the restaurant controls"
+    ],
+    "after": [
+      "A site the restaurant owns, at its own address",
+      "The right hours, phone and address in one obvious place",
+      "The full menu, searchable and printable, as the owner supplies it",
+      "One-tap call for takeout on a phone",
+      "A proper preview when the link is shared by text or on Facebook"
+    ]
+  },
+  "style": {
+    "hero": "poster",
+    "services": "pills",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "zigzag",
+    "heads": "numbered",
+    "motion": "blur",
+    "buttons": "shadow"
+  }
+}
