@@ -98,5 +98,108 @@
     "status": "skip",
     "note": "The same law firm as Arthur W. Buzz Rich, PC, which has the concept",
     "checked": "2026-11-28"
+  },
+  "dos-potrillos-taqueria-llc": {
+    "status": "skip",
+    "note": "The same restaurant as Dos Potrillos Mexican Restaurant, which has the concept",
+    "checked": "2026-11-28"
+  },
+  "pita-mediterranean-street-food": {
+    "status": "moved",
+    "note": "Part of a 40-location chain whose own site lists the Aiken store",
+    "currentSite": "https://pitastreetfood.com/locations/",
+    "checked": "2026-11-28"
+  },
+  "nail-pro": {
+    "status": "moved",
+    "note": "Has its own website (Nail Pro & Spa)",
+    "currentSite": "https://nailproinaiken.us/",
+    "checked": "2026-11-28"
+  },
+  "scissors-and-sofas": {
+    "status": "moved",
+    "note": "Has its own website",
+    "currentSite": "https://scissorsandsofas.com/",
+    "checked": "2026-11-28"
+  },
+  "big-putts-mobile-miniature-golf": {
+    "status": "moved",
+    "note": "Has its own website",
+    "currentSite": "https://bigputtsmobilegolf.com/",
+    "checked": "2026-11-28"
+  },
+  "conde-fitness-and-recovery": {
+    "status": "moved",
+    "note": "Has its own website",
+    "currentSite": "https://www.condefitnessandrecovery.com/",
+    "checked": "2026-11-28"
+  },
+  "new-haven-farm": {
+    "status": "moved",
+    "note": "The farm's polo is on its own site (newbridgepolo.com)",
+    "currentSite": "https://www.newbridgepolo.com/",
+    "checked": "2026-11-28"
+  },
+  "american-honey-boutique": {
+    "status": "moved",
+    "note": "Has its own website",
+    "currentSite": "https://theamericanhoneyboutique.com/",
+    "checked": "2026-11-28"
+  },
+  "eastside-village": {
+    "status": "skip",
+    "note": "The event space is being reworked by The Backyard next door; its old address shows their coming-soon page",
+    "checked": "2026-11-28"
+  },
+  "comprehensive-therapy-and-rehab": {
+    "status": "skip",
+    "note": "Only the chamber lists it; the contact now practices as Palmetto Motion on Park Avenue",
+    "checked": "2026-11-28"
+  },
+  "c-e-dudley": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "edith-corley-stone": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "hugh-johnston-md": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "jen-auer": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "paul-brewer": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "tony-islan": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "woody-malone": {
+    "status": "skip",
+    "note": "An individual chamber membership, not a business",
+    "checked": "2026-11-28"
+  },
+  "gallery-j-salon": {
+    "status": "moved",
+    "note": "Has its own website (galleryjsalon.com)",
+    "currentSite": "https://www.galleryjsalon.com/",
+    "checked": "2026-11-28"
+  },
+  "ads-supply": {
+    "status": "skip",
+    "note": "Could not confirm the business: its only profile gives another address and line of work, and the phone is out of state",
+    "checked": "2026-11-28"
   }
 }

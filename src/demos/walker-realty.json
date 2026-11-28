@@ -1,0 +1,171 @@
+{
+  "name": "Walker Realty Company, Inc.",
+  "short": "Walker Realty",
+  "category": "Real Estate, Rentals & Property Management",
+  "group": "Real Estate",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "lora",
+    "body": "libre-franklin"
+  },
+  "colors": {
+    "bg": "#f7f4ee",
+    "surface": "#ffffff",
+    "ink": "#1f1d1a",
+    "muted": "#5a554d",
+    "primary": "#5b2333",
+    "onPrimary": "#ffffff",
+    "accent": "#c7a55a",
+    "line": "#e5ddd0"
+  },
+  "radius": 6,
+  "icon": "key",
+  "established": "1972",
+  "contact": {
+    "phone": "(803) 648-3293",
+    "address": [
+      "207 Pendleton Street NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Walker Realty Company, 207 Pendleton St NW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Aiken real estate since 1972",
+    "title": "Renting, buying and *managing property in Aiken*",
+    "lede": "Rentals, sales and property management from Walker Realty Company, on Pendleton Street since 1972.",
+    "points": [
+      "Rentals",
+      "Property management",
+      "Sales"
+    ],
+    "cta2": {
+      "label": "What we do",
+      "href": "#services"
+    },
+    "cta": {
+      "label": "Call (803) 648-3293",
+      "href": "tel:+18036483293"
+    }
+  },
+  "facts": [
+    {
+      "value": "1972",
+      "label": "Established"
+    },
+    {
+      "value": "Rentals",
+      "label": "Homes to rent in Aiken"
+    },
+    {
+      "value": "Pendleton St",
+      "label": "Downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Three sides of *Aiken property*",
+      "items": [
+        {
+          "icon": "key",
+          "title": "Rentals",
+          "text": "Looking for a place to rent? Call to ask what's available."
+        },
+        {
+          "icon": "building-2",
+          "title": "Property management",
+          "text": "Property management for owners of Aiken rentals."
+        },
+        {
+          "icon": "house",
+          "title": "Buying & selling",
+          "text": "Agents for buyers and sellers in the Aiken area."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Since 1972",
+      "title": "In Aiken *since 1972*",
+      "body": [
+        "Walker Realty Company was established in 1972 and is incorporated in South Carolina.",
+        "From its office at 207 Pendleton Street NW, it rents, manages and sells property in Aiken."
+      ],
+      "list": [
+        "Established 1972",
+        "Rentals and property management",
+        "207 Pendleton Street NW"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "Do you have rentals available?",
+          "a": "Call (803) 648-3293 to ask what's available now."
+        },
+        {
+          "q": "I own a rental. Can you manage it?",
+          "a": "Property management is one of the firm's services. Call to talk it through."
+        },
+        {
+          "q": "Where is the office?",
+          "a": "207 Pendleton Street NW in Aiken."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Looking for a place?",
+      "text": "Call the office on Pendleton Street.",
+      "cta": {
+        "label": "Call (803) 648-3293",
+        "href": "tel:+18036483293"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Pendleton Street*",
+    "hideForm": true
+  },
+  "slug": "walker-realty",
+  "added": "2026-11-28",
+  "prospect": "walker-realty-company-inc",
+  "source": {
+    "none": true,
+    "url": "https://www.manta.com/c/mm2f13p/walker-realty-co",
+    "before": [
+      "No website of its own: a search turns up directory pages, one of them misspelled \"Walker Reality\"",
+      "Renters can't see what's available without calling",
+      "The first thing a new tenant or owner sees is not something the firm controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for a list of available rentals and an owner's page as the office supplies them"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "rows",
+    "facts": "big",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "name": "The Salty Hyena",
+  "short": "The Salty Hyena",
+  "category": "Coastal Boutique",
+  "group": "Shops & Services",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "fraunces",
+    "body": "outfit",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f6f8f6",
+    "surface": "#ffffff",
+    "ink": "#12262b",
+    "muted": "#4b5f63",
+    "primary": "#0e6b74",
+    "onPrimary": "#ffffff",
+    "accent": "#f2b27a",
+    "line": "#dbe5e3"
+  },
+  "radius": 16,
+  "icon": "shell",
+  "contact": {
+    "phone": "(907) 738-3449",
+    "address": [
+      "345 Hayne Avenue SW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "The Salty Hyena, 345 Hayne Ave SW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "A coastal boutique in downtown Aiken",
+    "title": "A little *beach* on Hayne Avenue",
+    "lede": "Beach- and surf-inspired women's clothing, a few pieces for men, swimwear and coastal home décor, from Michele Warren, who also owns The Urban Hyena on Laurens Street.",
+    "points": [
+      "Women's wear",
+      "Swimwear",
+      "Coastal décor"
+    ],
+    "cta2": {
+      "label": "What's inside",
+      "href": "#shop"
+    },
+    "cta": {
+      "label": "Call (907) 738-3449",
+      "href": "tel:+19077383449"
+    }
+  },
+  "facts": [
+    {
+      "value": "Coastal",
+      "label": "Beach and surf style"
+    },
+    {
+      "value": "Hayne Ave",
+      "label": "Downtown Aiken"
+    },
+    {
+      "value": "Sister shop",
+      "label": "The Urban Hyena"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "shop",
+      "nav": "What's inside",
+      "columns": 3,
+      "eyebrow": "What's inside",
+      "title": "Sun, salt and *something to wear*",
+      "items": [
+        {
+          "icon": "shirt",
+          "title": "Women's wear",
+          "text": "Most of the shop: clothing with a beach and surf feel."
+        },
+        {
+          "icon": "sun",
+          "title": "Swimwear",
+          "text": "Swimwear, in a shop built around the beach."
+        },
+        {
+          "icon": "shell",
+          "title": "Home décor",
+          "text": "Coastal pieces for the house, plus a few things for men."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet the owner",
+      "title": "From the Urban Hyena *to the Salty one*",
+      "body": [
+        "Michele Warren opened The Urban Hyena on Hayne Avenue, then moved it to a larger space on Laurens Street.",
+        "Rather than leave the Hayne Avenue shop empty, she opened a second boutique there with a beach and surf theme: The Salty Hyena."
+      ],
+      "list": [
+        "Owner Michele Warren",
+        "Sister shop: The Urban Hyena, Laurens Street",
+        "345 Hayne Avenue SW"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *stop in*",
+      "items": [
+        {
+          "q": "Is this the same shop as The Urban Hyena?",
+          "a": "Same owner, different shop. The Urban Hyena is now on Laurens Street; The Salty Hyena took over its old space on Hayne Avenue."
+        },
+        {
+          "q": "Do you carry men's clothing?",
+          "a": "A few men's pieces, alongside mostly women's wear and swimwear."
+        },
+        {
+          "q": "Where are you?",
+          "a": "345 Hayne Avenue SW in downtown Aiken."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Need a beach day?",
+      "text": "Stop by on Hayne Avenue.",
+      "cta": {
+        "label": "Call (907) 738-3449",
+        "href": "tel:+19077383449"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hayne Avenue*",
+    "hideForm": true
+  },
+  "slug": "the-salty-hyena",
+  "added": "2026-11-28",
+  "prospect": "the-salty-hyena",
+  "source": {
+    "none": true,
+    "url": "https://www.wrdw.com/2026/08/28/aiken-boutique-owner-opens-second-shop-less-than-year/",
+    "before": [
+      "No website of its own: the shop appears only in local news and listings",
+      "Its sister shop's website still gives 345 Hayne Avenue as The Urban Hyena's address, which is now The Salty Hyena",
+      "The words on this concept come from WRDW and the Aiken Standard; photos, hours and new arrivals would come from the owner"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for new arrivals and a link to The Urban Hyena, so each shop sends shoppers to the other"
+    ]
+  },
+  "style": {
+    "hero": "collage",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "waves",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

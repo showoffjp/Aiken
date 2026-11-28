@@ -1,0 +1,169 @@
+{
+  "name": "Overstreet & Associates CPAs, LLC",
+  "short": "Overstreet & Associates",
+  "category": "Certified Public Accountants",
+  "group": "Professional Services",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "manrope",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f5f7f9",
+    "surface": "#ffffff",
+    "ink": "#152030",
+    "muted": "#4c5869",
+    "primary": "#24497a",
+    "onPrimary": "#ffffff",
+    "accent": "#5fae8f",
+    "line": "#dde3ea"
+  },
+  "radius": 8,
+  "icon": "calculator",
+  "contact": {
+    "phone": "(803) 226-0101",
+    "address": [
+      "6250 Woodside Executive Court",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Overstreet & Associates CPAs, Woodside Executive Ct, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "CPA firm in Aiken",
+    "title": "Taxes, planning and the books, *handled by a CPA*",
+    "lede": "Tax preparation, tax planning and accounting from an Aiken CPA firm led by Troy Overstreet, a life-long resident of Aiken County.",
+    "points": [
+      "Tax preparation",
+      "Tax planning",
+      "Accounting"
+    ],
+    "cta2": {
+      "label": "Services",
+      "href": "#services"
+    },
+    "cta": {
+      "label": "Call (803) 226-0101",
+      "href": "tel:+18032260101"
+    }
+  },
+  "facts": [
+    {
+      "value": "CPA",
+      "label": "Certified public accountants"
+    },
+    {
+      "value": "Aiken",
+      "label": "A life-long Aiken County resident"
+    },
+    {
+      "value": "Woodside",
+      "label": "Executive Court"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "services",
+      "nav": "Services",
+      "columns": 3,
+      "eyebrow": "What we do",
+      "title": "Three ways *we help*",
+      "items": [
+        {
+          "icon": "receipt",
+          "title": "Tax preparation",
+          "text": "Returns prepared by a CPA firm."
+        },
+        {
+          "icon": "piggy-bank",
+          "title": "Tax planning",
+          "text": "Planning ahead, so April holds fewer surprises."
+        },
+        {
+          "icon": "calculator",
+          "title": "Accounting",
+          "text": "Keeping the numbers right through the year."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The firm",
+      "title": "An Aiken firm, *Aiken-raised*",
+      "body": [
+        "Overstreet & Associates CPAs is a certified public accounting firm in Woodside Executive Court.",
+        "Troy Overstreet, the CPA who leads it, is a life-long resident of Aiken County and a member of the AICPA and the South Carolina Association of CPAs."
+      ],
+      "list": [
+        "Troy W. Overstreet, CPA",
+        "AICPA and SCACPA member",
+        "Woodside Executive Court"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before you *call*",
+      "items": [
+        {
+          "q": "Do you prepare individual returns?",
+          "a": "Tax preparation is one of the firm's services. Call (803) 226-0101 to ask about yours."
+        },
+        {
+          "q": "Where is the office?",
+          "a": "Woodside Executive Court in Aiken. Directories give both 6250 and 6270 as the street number; call for directions."
+        },
+        {
+          "q": "Can you help me plan, not just file?",
+          "a": "Yes. Tax planning is one of the firm's core services."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Tax season is coming.",
+      "text": "Call the office in Woodside Executive Court.",
+      "cta": {
+        "label": "Call (803) 226-0101",
+        "href": "tel:+18032260101"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us in *Woodside*",
+    "hideForm": true
+  },
+  "slug": "overstreet-cpas",
+  "added": "2026-11-28",
+  "prospect": "overstreet-and-associates-cpas-llc",
+  "source": {
+    "url": "http://www.oacpa.net/",
+    "before": [
+      "The firm's web address, oacpa.net, answers with a server error (503) instead of a page",
+      "Directories disagree on the street number and the phone number",
+      "The words on this concept come from CPA directories; the firm would confirm and add to them"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One street number and one phone number, the right ones",
+      "One-tap call on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "Room for a client portal link, deadlines and checklists as the firm supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "list",
+    "facts": "strip",
+    "pattern": "grid",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

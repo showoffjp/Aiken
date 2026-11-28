@@ -47867,5 +47867,781 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "the-salty-hyena": {
+  "slug": "the-salty-hyena",
+  "name": "The Salty Hyena",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1221&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=5301dff114c3981bf6f74e3811836519",
+    "name": "The Salty Hyena",
+    "phone": "(907) 738-3449",
+    "website": "",
+    "address": "345 Hayne Avenue, Aiken , SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1207,
+   "lcp": 2032,
+   "tbt": 51,
+   "si": 1207,
+   "cls": 0.001,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "candy-shop-vintage-llc",
+   "curated-clothiers-llc",
+   "dear-soul-candle-co",
+   "fox-and-the-bee-farm",
+   "high-cotton-uptown"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "candy-shop-vintage-llc",
+    "name": "Candy Shop Vintage LLC",
+    "website": "https://www.candyshopvintage.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 66,
+    "pageMB": 2.7,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 17
+   },
+   {
+    "slug": "curated-clothiers-llc",
+    "name": "Curated Clothiers LLC",
+    "website": "https://www.curatedclothiers.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 81,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "dear-soul-candle-co",
+    "name": "Dear Soul Candle Co.",
+    "website": "https://www.dearsoulcandleco.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 38,
+    "pageMB": 3.9,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "fox-and-the-bee-farm",
+    "name": "Fox & The Bee Farm",
+    "website": "https://foxandthebeefarm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 69,
+    "pageMB": 1.2,
+    "a11ySerious": 9,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "high-cotton-uptown",
+    "name": "High Cotton Uptown",
+    "website": "https://highcottondowntown.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 22,
+    "pageMB": 2.7,
+    "a11ySerious": 3,
+    "facebook": false,
+    "instagram": true,
+    "domainYears": 2
+   }
+  ]
+ },
+ "overstreet-and-associates-cpas-llc": {
+  "slug": "overstreet-cpas",
+  "name": "Overstreet & Associates CPAs, LLC",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No response - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=739&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=1d892a6c269c2d4fd747e49cdbbaf9a6",
+    "name": "Overstreet & Associates CPA's, LLC",
+    "phone": "(803) 226-0101",
+    "website": "http://www.oacpa.net",
+    "address": "6250 Woodside Executive Court, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "oacpa.net",
+   "created": "2018-08-30",
+   "expires": "2028-08-30",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 8
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1803,
+   "tbt": 93,
+   "si": 1053,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "arnold-advisors-llc",
+   "bolster-bookkeeping-llc",
+   "deeper-dive-bookkeeping",
+   "fliflet-cassels-and-durant-pa-cpa",
+   "help-me-rhonda-bookkeeping-llc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "arnold-advisors-llc",
+    "name": "Arnold Advisors, LLC",
+    "website": "https://www.aiken-cpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 62,
+    "pageMB": 3.5,
+    "a11ySerious": 12,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "bolster-bookkeeping-llc",
+    "name": "Bolster Bookkeeping LLC",
+    "website": "https://bolsterbookkeeping.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 0.8,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "deeper-dive-bookkeeping",
+    "name": "Deeper Dive Bookkeeping",
+    "website": "https://www.deeperdivebook.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 36,
+    "pageMB": 7.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   },
+   {
+    "slug": "fliflet-cassels-and-durant-pa-cpa",
+    "name": "Fliflet, Cassels & DuRant, PA CPA",
+    "website": "https://www.flifletcpa.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 79,
+    "pageMB": 0.5,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 25
+   },
+   {
+    "slug": "help-me-rhonda-bookkeeping-llc",
+    "name": "Help Me Rhonda Bookkeeping, LLC",
+    "website": "https://hmrhonda.net/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 61,
+    "pageMB": 3.1,
+    "a11ySerious": 4,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 16
+   }
+  ]
+ },
+ "walker-realty-company-inc": {
+  "slug": "walker-realty",
+  "name": "Walker Realty Company, Inc.",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1053&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=75e45ea4938a7749f70f3ca3f1e01bc2",
+    "name": "Walker Realty Company, Inc.",
+    "phone": "(803) 648-3293",
+    "website": "",
+    "address": "207 Pendleton Street, NW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 47,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "concierge-property-management-group",
+   "laurens-street-holdings",
+   "aiken-properties-inc",
+   "broadwater-toole-realty-llc",
+   "carolina-real-estate-company"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "concierge-property-management-group",
+    "name": "Concierge Property Management Group",
+    "website": "https://www.conciergepmgroup.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "laurens-street-holdings",
+    "name": "Laurens Street Holdings",
+    "website": "http://www.normandunagan.com/",
+    "state": "blocked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "aiken-properties-inc",
+    "name": "Aiken Properties, Inc.",
+    "website": "https://aikenproperties.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "broadwater-toole-realty-llc",
+    "name": "Broadwater-Toole Realty, LLC.",
+    "website": "https://www.broadwatertoolerealty.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.6,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 3
+   },
+   {
+    "slug": "carolina-real-estate-company",
+    "name": "Carolina Real Estate Company",
+    "website": "https://carolinacompany.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.6,
+    "a11ySerious": 8,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   }
+  ]
+ },
+ "mcneelys-place": {
+  "slug": "mcneelys-place",
+  "name": "McNeely's Place",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/mcneely-s-place-3945",
+    "name": "McNeely's Place",
+    "phone": "(803) 426-8540",
+    "website": "https://www.facebook.com/somethingsorightevents/",
+    "address": "301 Georgia Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/somethingsorightevents/"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1805,
+   "lcp": 2705,
+   "tbt": 0,
+   "si": 1805,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "brinks-tavern",
+   "brinkleys-chop-house",
+   "southbound-aiken",
+   "antonios-italian-eatery",
+   "beanie-bens"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "brinks-tavern",
+    "name": "Brink's Tavern",
+    "website": "https://brinkstavern.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 46,
+    "pageMB": 6.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "brinkleys-chop-house",
+    "name": "Brinkley's Chop House",
+    "website": "https://www.brinkleyschophouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 40,
+    "pageMB": 3.5,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 5
+   },
+   {
+    "slug": "southbound-aiken",
+    "name": "Southbound Aiken",
+    "website": "https://southboundsmokehouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 50,
+    "pageMB": 5.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 11
+   },
+   {
+    "slug": "antonios-italian-eatery",
+    "name": "Antonio's Italian Eatery",
+    "website": "https://antoniositalianeatery.wordpress.com/menu/",
+    "state": "ok",
+    "https": true,
+    "mobile": false,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 1.7,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": null
+   },
+   {
+    "slug": "beanie-bens",
+    "name": "Beanie Bens",
+    "website": "https://www.beaniebens.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 41,
+    "pageMB": 1.3,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   }
+  ]
+ },
+ "aiken-systems-unlimited-inc": {
+  "slug": "aiken-systems-unlimited",
+  "name": "Aiken Systems Unlimited, Inc.",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=149&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=cb70e717195067ba8c2f9828a2dc0849",
+    "name": "Aiken Systems Unlimited, Inc.",
+    "phone": "(803) 641-7300",
+    "website": "",
+    "address": "303 Silver Bluff Road, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 952,
+   "lcp": 1808,
+   "tbt": 135,
+   "si": 952,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "carver-security-systems-inc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "carver-security-systems-inc",
+    "name": "Carver Security Systems, Inc.",
+    "website": "https://www.carversecurity.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": null,
+    "pageMB": 0.7,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 20
+   }
+  ]
+ },
+ "the-parlour-coffee-and-company": {
+  "slug": "the-parlour-coffee",
+  "name": "The Parlour Coffee & Company",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=979&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=c16fc4b8b080800424df2f97a8ec4e36",
+    "name": "The Parlour Coffee & Company",
+    "phone": "(916) 430-2868",
+    "website": "",
+    "address": "703 Richland Avenue East, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   },
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/roma-restaurant-and-pizza/",
+    "name": "Parlour Coffee & Company",
+    "phone": "",
+    "website": "https://www.facebook.com/profile.php?id=61584660965948",
+    "address": "703 Richland Ave, Aiken, SC, United States, South Carolina, 29801",
+    "phoneMatch": null,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/profile.php?id=61584660965948"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 1804,
+   "tbt": 103,
+   "si": 1204,
+   "cls": 0.084,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
  }
 }

@@ -55,6 +55,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "aiken-systems-unlimited": {
+  "q": "303 Silver Bluff Road, Aiken, SC 29803",
+  "lat": 33.515876,
+  "lon": -81.729681,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "aikenite-electrical": {
   "q": "237 Park Avenue SW, attn: 211, Aiken, SC 29801",
   "lat": 33.559765,
@@ -842,6 +850,14 @@
   "exact": true,
   "at": "2026-11-20"
  },
+ "mcneelys-place": {
+  "q": "301 Georgia Avenue, North Augusta, SC 29841",
+  "lat": 33.49106,
+  "lon": -81.971906,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "mi-rancho": {
   "q": "124 Dominion Drive, Aiken, SC 29803",
   "lat": 33.483813,
@@ -897,6 +913,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "overstreet-cpas": {
+  "q": "6250 Woodside Executive Court, Aiken, SC 29803",
+  "lat": 33.506687,
+  "lon": -81.738644,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "pablos-mexican-restaurant": {
   "q": "1069 Edgefield Road, Suite 101, North Augusta, SC 29860",
@@ -1223,6 +1247,22 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "the-parlour-coffee": {
+  "q": "703 Richland Avenue East, Aiken, SC 29801",
+  "lat": 33.557579,
+  "lon": -81.710799,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
+ "the-salty-hyena": {
+  "q": "345 Hayne Avenue SW, Aiken, SC 29801",
+  "lat": 33.560502,
+  "lon": -81.723612,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "the-vintage-bobbin": {
   "q": "754 Silver Bluff Road, Aiken, SC 29803",
   "lat": 33.499139,
@@ -1355,6 +1395,14 @@
   "kind": "amenity",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "walker-realty": {
+  "q": "207 Pendleton Street NW, Aiken, SC 29801",
+  "lat": 33.564293,
+  "lon": -81.722492,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "wayne-heath-automotive": {
   "q": "3900 Richland Avenue West, Aiken, SC 29801",

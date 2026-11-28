@@ -1,0 +1,185 @@
+{
+  "name": "Aiken Systems Unlimited, Inc.",
+  "short": "Aiken Systems Unlimited",
+  "category": "Security Systems & Monitoring",
+  "group": "Home Services",
+  "town": "Aiken, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "archivo",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f5f8",
+    "surface": "#ffffff",
+    "ink": "#121a26",
+    "muted": "#4b5566",
+    "primary": "#163d7a",
+    "onPrimary": "#ffffff",
+    "accent": "#e63946",
+    "line": "#dae0e8"
+  },
+  "radius": 10,
+  "icon": "shield-check",
+  "contact": {
+    "phone": "(803) 641-7300",
+    "address": [
+      "303 Silver Bluff Road",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Aiken Systems Unlimited, 303 Silver Bluff Rd, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "Family-operated security company in Aiken",
+    "title": "Alarms, cameras and *someone watching*",
+    "lede": "Burglar, fire, hold-up and medical alarms, camera systems and monitoring, from a family-operated Aiken company that has been accredited by the Better Business Bureau since 2007.",
+    "points": [
+      "Burglar & fire alarms",
+      "Cameras",
+      "Monitoring"
+    ],
+    "cta2": {
+      "label": "Systems",
+      "href": "#systems"
+    },
+    "cta": {
+      "label": "Call (803) 641-7300",
+      "href": "tel:+18036417300"
+    }
+  },
+  "facts": [
+    {
+      "value": "1990s",
+      "label": "Family operated since the mid-1990s"
+    },
+    {
+      "value": "A+",
+      "label": "BBB rating, accredited since 2007"
+    },
+    {
+      "value": "Aiken",
+      "label": "Silver Bluff Road"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "systems",
+      "nav": "Systems",
+      "columns": 3,
+      "eyebrow": "What we install",
+      "title": "Protection for *home and business*",
+      "items": [
+        {
+          "icon": "bell",
+          "title": "Burglar alarms",
+          "text": "Alarm systems for homes and businesses."
+        },
+        {
+          "icon": "flame",
+          "title": "Residential fire",
+          "text": "Fire alarm systems for the home."
+        },
+        {
+          "icon": "siren",
+          "title": "Hold-up alarms",
+          "text": "For businesses that handle cash."
+        },
+        {
+          "icon": "heart-pulse",
+          "title": "Medical alarms",
+          "text": "Help at the press of a button."
+        },
+        {
+          "icon": "cctv",
+          "title": "Camera systems",
+          "text": "Video coverage of what matters."
+        },
+        {
+          "icon": "shield-check",
+          "title": "Monitoring",
+          "text": "Monthly monitoring for your system."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Who we are",
+      "title": "A family company *since the 1990s*",
+      "body": [
+        "Aiken Systems Unlimited is a family-operated security company that has served Aiken since the mid-1990s.",
+        "It has been accredited by the Better Business Bureau since 2007, with an A+ rating, and customers mention a monthly monitoring price that is easy on the budget."
+      ],
+      "list": [
+        "Family operated",
+        "BBB accredited since 2007, A+",
+        "Silver Bluff Road, Aiken"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before you *call*",
+      "items": [
+        {
+          "q": "Do you monitor the systems you install?",
+          "a": "Yes. Customers pay a monthly monitoring fee. Call for today's price."
+        },
+        {
+          "q": "Can you add cameras to my alarm?",
+          "a": "Camera systems are one of the company's services. Call (803) 641-7300 to talk it through."
+        },
+        {
+          "q": "Where is the office?",
+          "a": "303 Silver Bluff Road in Aiken. Some directories still list an older Marlboro Street address."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Time to protect what's yours?",
+      "text": "Call the office on Silver Bluff Road.",
+      "cta": {
+        "label": "Call (803) 641-7300",
+        "href": "tel:+18036417300"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Silver Bluff Road*",
+    "hideForm": true
+  },
+  "slug": "aiken-systems-unlimited",
+  "added": "2026-11-28",
+  "prospect": "aiken-systems-unlimited-inc",
+  "source": {
+    "none": true,
+    "url": "https://www.bbb.org/us/sc/aiken/profile/burglar-alarm-systems/aiken-systems-unlimited-inc-0743-13046",
+    "before": [
+      "No website of its own: a search turns up the BBB and directory pages",
+      "Directories give two different street addresses",
+      "The first thing a new customer sees is not something the company controls"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for system packages, monitoring plans and a quote request as the company supplies them"
+    ]
+  },
+  "style": {
+    "hero": "diagonal",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "stripes",
+    "divider": "slant",
+    "heads": "numbered",
+    "motion": "clip",
+    "buttons": "shadow"
+  }
+}

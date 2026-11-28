@@ -5084,5 +5084,89 @@
    "cls": 0,
    "at": "2026-11-28"
   }
+ },
+ "aiken-systems-unlimited-inc": {
+  "concept": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 952,
+   "lcp": 1808,
+   "tbt": 135,
+   "si": 952,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "mcneelys-place": {
+  "concept": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1805,
+   "lcp": 2705,
+   "tbt": 0,
+   "si": 1805,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "overstreet-and-associates-cpas-llc": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1053,
+   "lcp": 1803,
+   "tbt": 93,
+   "si": 1053,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
+ },
+ "the-parlour-coffee-and-company": {
+  "concept": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 1804,
+   "tbt": 103,
+   "si": 1204,
+   "cls": 0.084,
+   "at": "2026-11-28"
+  }
+ },
+ "the-salty-hyena": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1207,
+   "lcp": 2032,
+   "tbt": 51,
+   "si": 1207,
+   "cls": 0.001,
+   "at": "2026-11-28"
+  }
+ },
+ "walker-realty-company-inc": {
+  "concept": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 47,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  }
  }
 }
