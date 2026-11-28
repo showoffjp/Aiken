@@ -46464,5 +46464,752 @@
     "domainYears": 7
    }
   ]
+ },
+ "tequilas-mexican-grill-and-bar": {
+  "slug": "tequilas-mexican-grill",
+  "name": "Tequila's Mexican Grill & Bar",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "Placeholder or error page",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/tequilas_mexican_restaurant_grill_and_bar/",
+    "name": "Tequila's Mexican Grill & Bar",
+    "phone": "(803) 226-0495",
+    "website": "https://tequilasmexicangrillsc.com/",
+    "address": "3566 Richland Avenue Aiken SC",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "tequilasmexicangrillsc.com",
+   "created": "2022-08-25",
+   "expires": "2027-08-25",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 4
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 945,
+   "lcp": 1953,
+   "tbt": 91,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "marias-mexican-restaurant",
+   "mi-rancho",
+   "salsas-mex-mex-grill",
+   "victoria-mexican-restaurant",
+   "aiken-fish-house-and-oyster-bar"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "marias-mexican-restaurant",
+    "name": "Maria's Mexican Restaurant",
+    "website": "http://mariasmexicanrestaurantaiken.com/",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": 2.5,
+    "a11ySerious": 0,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "mi-rancho",
+    "name": "Mi Rancho",
+    "website": "http://www.miranchomexicanrestaurants.com/index.php",
+    "state": "parked",
+    "https": false,
+    "mobile": true,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 13
+   },
+   {
+    "slug": "salsas-mex-mex-grill",
+    "name": "Salsa's Mex-Mex Grill",
+    "website": "https://www.salsasbarandgrill.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "victoria-mexican-restaurant",
+    "name": "Victoria Mexican Restaurant",
+    "website": "https://lodge-coco.com/",
+    "state": "redirects-away",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 0
+   },
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   }
+  ]
+ },
+ "twin-willows-medical-and-dental-center": {
+  "slug": "twin-willows-dental",
+  "name": "Twin Willows Medical and Dental Center",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "Domain does not resolve (likely expired) - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1028&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=6c572646e285c10ac6919d318ad7ed6a",
+    "name": "Twin Willows Medical and Dental Center",
+    "phone": "(803) 392-7092",
+    "website": "http://www.twmeddent.com",
+    "address": "1 Hickman Street, Graniteville, SC 29829",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "twmeddent.com",
+   "years": null
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 945,
+   "lcp": 1729,
+   "tbt": 92,
+   "si": 945,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "aiken-dental",
+   "baker-family-dentistry",
+   "dental-care-at-woodside",
+   "hale-dentistry-and-oral-wellness",
+   "southern-magnolia-dentistry"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-dental",
+    "name": "Aiken Dental",
+    "website": "https://www.aikendental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 70,
+    "pageMB": 0.7,
+    "a11ySerious": 10,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   },
+   {
+    "slug": "baker-family-dentistry",
+    "name": "Baker Family Dentistry",
+    "website": "https://bakerfamilydentistryaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 10
+   },
+   {
+    "slug": "dental-care-at-woodside",
+    "name": "Dental Care at Woodside",
+    "website": "https://dentalcareatwoodside.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 44,
+    "pageMB": 2.2,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 1
+   },
+   {
+    "slug": "hale-dentistry-and-oral-wellness",
+    "name": "Hale Dentistry & Oral Wellness",
+    "website": "https://www.dralicehale.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": null,
+    "pageMB": 3.6,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 15
+   },
+   {
+    "slug": "southern-magnolia-dentistry",
+    "name": "Southern Magnolia Dentistry",
+    "website": "https://www.southernmagnoliadental.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": false,
+    "performance": 71,
+    "pageMB": 2.8,
+    "a11ySerious": 8,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 3
+   }
+  ]
+ },
+ "jamrock-caribana": {
+  "slug": "jamrock-caribana",
+  "name": "Jamrock Caribana Restaurant & Grill",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/jamrock-caribana/",
+    "name": "Jamrock Caribana",
+    "phone": "803.270.0645",
+    "website": "https://www.facebook.com/jamrock.caribana.7",
+    "address": "730 Augusta Rd., Warrenville",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {
+    "Facebook": "https://www.facebook.com/jamrock.caribana.7"
+   }
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1356,
+   "lcp": 2406,
+   "tbt": 26,
+   "si": 1356,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 25,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "carpenters-tire-and-auto": {
+  "slug": "carpenters-tire-and-auto",
+  "name": "Carpenter's Tire & Auto",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/carpenter-s-tire-auto-1202",
+    "name": "Carpenter's Tire & Auto",
+    "phone": "(803) 279-5469",
+    "website": "https://carprnters-tires-auto.business.site",
+    "address": "429 Georgia Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 965,
+   "lcp": 1578,
+   "tbt": 208,
+   "si": 965,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "sunbreak-window-tinting",
+   "broome-service-center-inc",
+   "automotive-workbench",
+   "big-chris-collision",
+   "bradley-plumbing-and-heating-inc-mechanical-cont"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "sunbreak-window-tinting",
+    "name": "SunBreak Window Tinting",
+    "website": "https://sunbreaktint.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 27,
+    "pageMB": 2.3,
+    "a11ySerious": 5,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 2
+   },
+   {
+    "slug": "broome-service-center-inc",
+    "name": "Broome Service Center Inc.",
+    "website": "https://broomeservicecenter.com/",
+    "state": "cert-error",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "automotive-workbench",
+    "name": "Automotive Workbench",
+    "website": "https://www.awbench.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 63,
+    "pageMB": 5.4,
+    "a11ySerious": 7,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   },
+   {
+    "slug": "big-chris-collision",
+    "name": "Big Chris Collision",
+    "website": "https://bigchriscollision.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 68,
+    "pageMB": 2.2,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 9
+   },
+   {
+    "slug": "bradley-plumbing-and-heating-inc-mechanical-cont",
+    "name": "Bradley Plumbing & Heating, Inc. Mechanical Contractor",
+    "website": "https://bradleyplbghtg.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 0,
+    "a11ySerious": 11,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 16
+   }
+  ]
+ },
+ "solo-vino-marchand-de-vin": {
+  "slug": "solo-vino",
+  "name": "Solo Vino / Marchand de Vin",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=1202&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=b83bd25ab5d82aebbf8e7ea19e6862cb",
+    "name": "Solo Vino - Marchand de Vin",
+    "phone": "(803) 967-2006",
+    "website": "",
+    "address": "110 Horry Street, SE, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 1954,
+   "tbt": 0,
+   "si": 1204,
+   "cls": 0.002,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "fox-shoe-repair": {
+  "slug": "fox-shoe-repair",
+  "name": "Fox Shoe Repair",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=473&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=a2201f9874a981c1d3c0862d9eb16cb7",
+    "name": "Fox Shoe Repair",
+    "phone": "(803) 643-9974",
+    "website": "",
+    "address": "130 Park Avenue, SE, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 95,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1205,
+   "lcp": 1955,
+   "tbt": 236,
+   "si": 1205,
+   "cls": 0.004,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }

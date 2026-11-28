@@ -791,6 +791,17 @@
    "at": "2026-11-19"
   }
  },
+ "carpenters-tire-and-auto": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 23,
+   "smallTargets": 0,
+   "at": "2026-11-28"
+  }
+ },
  "carriage-house-inn": {
   "site": {
    "call": true,
@@ -1055,6 +1066,17 @@
    "targets": 18,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "fox-shoe-repair": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 22,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "g-and-p-construction-hauling-and-environmental-l": {
@@ -1488,6 +1510,17 @@
    "targets": 18,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "jamrock-caribana": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 24,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "janson-construction": {
@@ -2275,6 +2308,17 @@
    "at": "2026-11-21"
   }
  },
+ "solo-vino-marchand-de-vin": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 23,
+   "smallTargets": 0,
+   "at": "2026-11-28"
+  }
+ },
  "soul-and-seafood-house": {
   "concept": {
    "call": true,
@@ -2475,6 +2519,17 @@
    "targets": 41,
    "smallTargets": 0,
    "at": "2026-11-21"
+  }
+ },
+ "tequilas-mexican-grill-and-bar": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 28,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "thai-jasmine-rice": {
@@ -2770,6 +2825,17 @@
    "targets": 30,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "twin-willows-medical-and-dental-center": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 4,
+   "targets": 21,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "unique-catering": {

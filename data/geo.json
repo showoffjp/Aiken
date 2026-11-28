@@ -320,6 +320,14 @@
   "missing": true,
   "at": "2026-11-19"
  },
+ "carpenters-tire-and-auto": {
+  "q": "429 Georgia Avenue, North Augusta, SC 29841",
+  "lat": 33.492785,
+  "lon": -81.971207,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "carriage-house-inn": {
   "q": "139 Laurens Street NW, Aiken, SC 29801",
   "lat": 33.562529,
@@ -439,6 +447,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "fox-shoe-repair": {
+  "q": "130 Park Avenue SE, Aiken, SC 29801",
+  "lat": 33.558695,
+  "lon": -81.71957,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "g-and-p-construction": {
   "q": "310 Belair Road, North Augusta, SC 29841",
@@ -612,6 +628,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "jamrock-caribana": {
+  "q": "730 Augusta Road, Warrenville, SC 29851",
+  "lat": 33.552192,
+  "lon": -81.795467,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "janson-construction": {
   "q": "10976 Atomic Road, North Augusta, SC 29841",
@@ -1010,6 +1034,14 @@
   "exact": true,
   "at": "2026-11-21"
  },
+ "solo-vino": {
+  "q": "110 Horry Street SE, Aiken, SC 29801",
+  "lat": 33.557409,
+  "lon": -81.710942,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "soul-and-seafood-house": {
   "q": "3553 Richland Avenue West, Aiken, SC",
   "lat": 33.562571,
@@ -1097,6 +1129,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-21"
+ },
+ "tequilas-mexican-grill": {
+  "q": "1860 Richland Avenue West, Aiken, SC 29801",
+  "lat": 33.564683,
+  "lon": -81.745491,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "thai-jasmine-rice": {
   "q": "1552 Whiskey Road, Aiken, SC 29803",
@@ -1222,6 +1262,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-19"
+ },
+ "twin-willows-dental": {
+  "q": "1 Hickman Street, Graniteville, SC 29829",
+  "lat": 33.561909,
+  "lon": -81.809051,
+  "kind": "unclassified",
+  "exact": false,
+  "at": "2026-11-28"
  },
  "unique-catering": {
   "q": "1624 Hampton Avenue NW, Aiken, SC",

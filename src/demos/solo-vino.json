@@ -1,0 +1,171 @@
+{
+  "name": "Solo Vino / Marchand de Vin",
+  "short": "Solo Vino",
+  "category": "Wine Shop & Wine Bar",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "boutique",
+  "fonts": {
+    "display": "cormorant",
+    "body": "manrope",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#faf6f1",
+    "surface": "#ffffff",
+    "ink": "#22161b",
+    "muted": "#5e4f55",
+    "primary": "#6b1d35",
+    "onPrimary": "#ffffff",
+    "accent": "#c9a45c",
+    "line": "#eadfd6"
+  },
+  "radius": 4,
+  "icon": "wine",
+  "contact": {
+    "phone": "(803) 967-2006",
+    "address": [
+      "110 Horry Street SE",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Solo Vino Marchand de Vin, 110 Horry St SE, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Wine parlor & merchant in downtown Aiken",
+    "title": "Curated pours *and bottles to take home*",
+    "lede": "A downtown Aiken wine shop and bar on Horry Street. Marchand de vin is French for wine merchant: come for a glass, a weekly mystery-wine tasting or live music on Saturdays, and leave with a bottle.",
+    "points": [
+      "Wine by the glass",
+      "Bottles to go",
+      "Live music Saturdays"
+    ],
+    "cta": {
+      "label": "Call (803) 967-2006",
+      "href": "tel:+18039672006"
+    },
+    "cta2": {
+      "label": "What's on",
+      "href": "#whats-on"
+    }
+  },
+  "facts": [
+    {
+      "value": "Weekly",
+      "label": "Mystery-wine tasting"
+    },
+    {
+      "value": "Saturdays",
+      "label": "Live music, 6 to 8 pm"
+    },
+    {
+      "value": "Horry St",
+      "label": "Downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "whats-on",
+      "nav": "What's on",
+      "columns": 3,
+      "eyebrow": "Pull up a chair",
+      "title": "Three reasons to *stop in*",
+      "items": [
+        {
+          "icon": "wine",
+          "title": "Curated pours",
+          "text": "Wine by the glass in a small downtown parlor."
+        },
+        {
+          "icon": "grape",
+          "title": "The mystery-wine tasting",
+          "text": "Once a week the owners pour everyone a small sip, then quiz the room on what's in the glass."
+        },
+        {
+          "icon": "music",
+          "title": "Live music on Saturdays",
+          "text": "Saturday evenings from 6 to 8 pm."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Marchand de vin",
+      "title": "Four owners, *one wine shop*",
+      "body": [
+        "Solo Vino / Marchand de Vin is owned by two couples: Marold and Kristin Kamai and Greg and Lori Cefus. At the weekly mystery-wine tasting you'll find them circulating through the crowd, pouring small sips and asking what you taste.",
+        "The shop shares its address with The BackYard restaurant, which charges no corkage when you bring a bottle bought next door at Solo Vino."
+      ],
+      "list": [
+        "Glasses to sip, bottles to take home",
+        "No corkage at The BackYard next door",
+        "110 Horry Street SE"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *visit*",
+      "items": [
+        {
+          "q": "Can I drink a bottle from Solo Vino with dinner next door?",
+          "a": "Yes. The BackYard, at the same address, charges no corkage on wine bought from Solo Vino."
+        },
+        {
+          "q": "When is the live music?",
+          "a": "Saturday evenings from 6 to 8 pm, as listed by Visit Aiken. Call to check this week's line-up."
+        },
+        {
+          "q": "How does the mystery-wine tasting work?",
+          "a": "The owners pour everyone a small sip of the same wine, then quiz the group about it. Call for this week's day and time."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Saturday plans?",
+      "text": "Live music from 6 to 8 pm on Horry Street.",
+      "cta": {
+        "label": "Call (803) 967-2006",
+        "href": "tel:+18039672006"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Horry Street*",
+    "hideForm": true
+  },
+  "slug": "solo-vino",
+  "added": "2026-11-28",
+  "prospect": "solo-vino-marchand-de-vin",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/event/live-music-saturdays-at-solo-vino/",
+    "before": [
+      "No working website: the address printed in its opening-day press, solovinomarchanddevin.com, has lapsed",
+      "Directories list two different phone numbers",
+      "The words on this concept come from Visit Aiken, local press and Forbes; hours and the wine list would come from the owners"
+    ],
+    "after": [
+      "A site the shop owns again, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "This week's tasting and Saturday's music, where people look for them",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for the wine list and events as the owners supply them"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "list",
+    "facts": "badges",
+    "pattern": "none",
+    "divider": "curve",
+    "heads": "plain",
+    "motion": "blur",
+    "buttons": "underline"
+  }
+}

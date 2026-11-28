@@ -1,0 +1,184 @@
+{
+  "name": "Twin Willows Medical and Dental Center",
+  "short": "Twin Willows",
+  "category": "Family Dentistry",
+  "group": "Health & Wellness",
+  "town": "Graniteville, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans"
+  },
+  "colors": {
+    "bg": "#f4f8f5",
+    "surface": "#ffffff",
+    "ink": "#15241d",
+    "muted": "#4c5d55",
+    "primary": "#2f6b4f",
+    "onPrimary": "#ffffff",
+    "accent": "#a9d18e",
+    "line": "#dbe6df"
+  },
+  "radius": 18,
+  "icon": "smile",
+  "contact": {
+    "phone": "(803) 392-7092",
+    "address": [
+      "1 Hickman Street",
+      "Graniteville, SC 29829"
+    ],
+    "mapQuery": "Twin Willows Medical and Dental Center, 1 Hickman St, Graniteville, SC 29829"
+  },
+  "hero": {
+    "eyebrow": "Dentistry in Graniteville",
+    "title": "Everyday dental care, *close to home*",
+    "lede": "Exams, cleanings, fillings, crowns and urgent dental care with Dr. Christy Sikes, at 1 Hickman Street in Graniteville.",
+    "points": [
+      "Exams & cleanings",
+      "Crowns & bridges",
+      "Urgent dental care"
+    ],
+    "cta": {
+      "label": "Call (803) 392-7092",
+      "href": "tel:+18033927092"
+    },
+    "cta2": {
+      "label": "What we do",
+      "href": "#care"
+    }
+  },
+  "facts": [
+    {
+      "value": "2010",
+      "label": "Dr. Sikes began her career"
+    },
+    {
+      "value": "Local",
+      "label": "Native to the Georgia and South Carolina area"
+    },
+    {
+      "value": "Graniteville",
+      "label": "1 Hickman Street"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "care",
+      "nav": "Our care",
+      "columns": 3,
+      "eyebrow": "Our care",
+      "title": "From check-ups to *the tooth that can't wait*",
+      "items": [
+        {
+          "icon": "search",
+          "title": "Exams",
+          "text": "New-patient exams and regular check-ups."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Cleanings",
+          "text": "Professional cleanings to keep teeth and gums healthy."
+        },
+        {
+          "icon": "circle-check",
+          "title": "Fillings",
+          "text": "Repairing cavities before they grow."
+        },
+        {
+          "icon": "crown",
+          "title": "Crowns & bridges",
+          "text": "Restoring damaged teeth and replacing missing ones."
+        },
+        {
+          "icon": "activity",
+          "title": "Root canals",
+          "text": "Saving a tooth when the infection reaches the nerve."
+        },
+        {
+          "icon": "siren",
+          "title": "Extractions & urgent care",
+          "text": "When a tooth hurts now, call the office."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Meet the dentist",
+      "title": "Dr. Christy *Sikes*",
+      "body": [
+        "Dr. Sikes is a native of the Georgia and South Carolina area. Since beginning her career in 2010, she has served under-served communities.",
+        "She trained at the dental school of Augusta University and practices at Twin Willows in Graniteville."
+      ],
+      "list": [
+        "Augusta University dental school",
+        "Practicing since 2010",
+        "Graniteville, SC"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "Where is the office?",
+          "a": "1 Hickman Street, Graniteville, SC 29829."
+        },
+        {
+          "q": "I have a toothache. Can I be seen?",
+          "a": "Urgent dental care is one of the services the center offers. Call (803) 392-7092 and the office will tell you how soon you can come in."
+        },
+        {
+          "q": "Which insurance do you take?",
+          "a": "Call the office with your plan's name and they will check it for you."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Time for a check-up?",
+      "text": "Call the office to book a visit.",
+      "cta": {
+        "label": "Call (803) 392-7092",
+        "href": "tel:+18033927092"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Hickman Street*",
+    "hideForm": true
+  },
+  "slug": "twin-willows-dental",
+  "added": "2026-11-28",
+  "prospect": "twin-willows-medical-and-dental-center",
+  "source": {
+    "url": "http://www.twmeddent.com/",
+    "before": [
+      "The center's web address, twmeddent.com, no longer exists",
+      "The Aiken Chamber listing still sends patients to it, so the link leads nowhere",
+      "The words on this concept come from public dental directories; hours, insurance plans and photos would come from the office"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "One-tap call for a patient with a toothache",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Room for hours, insurance plans and new-patient forms once the office supplies them"
+    ]
+  },
+  "style": {
+    "hero": "blueprint",
+    "services": "grid",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "center",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}

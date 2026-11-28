@@ -4978,5 +4978,59 @@
    "url": "https://goinpostal.com/store/GP460.1",
    "at": "2026-11-20"
   }
+ },
+ "jamrock-caribana": {
+  "concept": {
+   "bytes": 384408,
+   "requests": 8,
+   "loadMs": 140,
+   "url": "/jamrock-caribana/",
+   "at": "2026-11-28"
+  }
+ },
+ "carpenters-tire-and-auto": {
+  "concept": {
+   "bytes": 302452,
+   "requests": 5,
+   "loadMs": 176,
+   "url": "/carpenters-tire-and-auto/",
+   "at": "2026-11-28"
+  }
+ },
+ "tequilas-mexican-grill-and-bar": {
+  "concept": {
+   "bytes": 348701,
+   "requests": 5,
+   "loadMs": 174,
+   "url": "/tequilas-mexican-grill/",
+   "at": "2026-11-28"
+  }
+ },
+ "twin-willows-medical-and-dental-center": {
+  "concept": {
+   "bytes": 296856,
+   "requests": 6,
+   "loadMs": 186,
+   "url": "/twin-willows-dental/",
+   "at": "2026-11-28"
+  }
+ },
+ "solo-vino-marchand-de-vin": {
+  "concept": {
+   "bytes": 338104,
+   "requests": 6,
+   "loadMs": 112,
+   "url": "/solo-vino/",
+   "at": "2026-11-28"
+  }
+ },
+ "fox-shoe-repair": {
+  "concept": {
+   "bytes": 349097,
+   "requests": 6,
+   "loadMs": 181,
+   "url": "/fox-shoe-repair/",
+   "at": "2026-11-28"
+  }
  }
 }
