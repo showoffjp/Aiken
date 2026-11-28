@@ -1,0 +1,171 @@
+{
+  "name": "The Parlour Coffee & Company",
+  "short": "The Parlour",
+  "category": "Coffee Shop & Café",
+  "group": "Food & Drink",
+  "town": "Aiken, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "playfair-display",
+    "body": "dm-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#f9f4ec",
+    "surface": "#fffdf9",
+    "ink": "#2a1d16",
+    "muted": "#62554b",
+    "primary": "#6f3f24",
+    "onPrimary": "#ffffff",
+    "accent": "#c99a4b",
+    "line": "#eadfcf"
+  },
+  "radius": 18,
+  "icon": "coffee",
+  "contact": {
+    "phone": "(916) 430-2868",
+    "address": [
+      "703 Richland Avenue East",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "The Parlour Coffee & Company, 703 Richland Ave E, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "A coffee parlour in Eastside Village",
+    "title": "Sit back, *stay a while*",
+    "lede": "Coffee, pastries baked in house and full lunches, with a lounge full of books and a game room behind a sliding bookshelf, on Richland Avenue East.",
+    "points": [
+      "Coffee",
+      "Fresh pastries",
+      "Lunch"
+    ],
+    "cta2": {
+      "label": "Inside",
+      "href": "#inside"
+    },
+    "cta": {
+      "label": "Call (916) 430-2868",
+      "href": "tel:+19164302868"
+    }
+  },
+  "facts": [
+    {
+      "value": "Books",
+      "label": "A lounge stocked with them"
+    },
+    {
+      "value": "Games",
+      "label": "A room behind the bookshelf"
+    },
+    {
+      "value": "Eastside",
+      "label": "Richland Avenue East"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "inside",
+      "nav": "Inside",
+      "columns": 3,
+      "eyebrow": "What's inside",
+      "title": "Coffee, food and *conversation*",
+      "items": [
+        {
+          "icon": "coffee",
+          "title": "Coffee",
+          "text": "Your usual, made to linger over."
+        },
+        {
+          "icon": "cake-slice",
+          "title": "Pastries & lunch",
+          "text": "Pastries baked in house, and full lunches."
+        },
+        {
+          "icon": "book-open",
+          "title": "The lounge",
+          "text": "A lounge stocked with books, and a sliding bookshelf that opens onto a room for game nights."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "Our story",
+      "title": "Growing *slowly, on purpose*",
+      "body": [
+        "Heather Willaby spent her days helping other people launch businesses before opening The Parlour in Eastside Village. Brad Gutierrez, a Marine Corps veteran, is her partner.",
+        "The shop opened with coffee and pre-packaged treats, and now bakes its own pastries and makes full lunches. \"We are trying to grow slowly so that we don't overwhelm ourselves,\" Heather says."
+      ],
+      "list": [
+        "Owner and CEO Heather Willaby",
+        "Partner Brad Gutierrez, Marine Corps veteran",
+        "Eastside Village, Richland Avenue East"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *come by*",
+      "items": [
+        {
+          "q": "Can I order ahead?",
+          "a": "Yes, through the shop's online ordering page."
+        },
+        {
+          "q": "When are game nights?",
+          "a": "Call or check Facebook for the next one in the room behind the bookshelf."
+        },
+        {
+          "q": "Where are you?",
+          "a": "703 Richland Avenue East, in Aiken's Eastside Village."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Coffee break?",
+      "text": "Find us in Eastside Village.",
+      "cta": {
+        "label": "Call (916) 430-2868",
+        "href": "tel:+19164302868"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Richland Avenue East*",
+    "hideForm": true
+  },
+  "slug": "the-parlour-coffee",
+  "added": "2026-11-28",
+  "prospect": "the-parlour-coffee-and-company",
+  "source": {
+    "none": true,
+    "url": "https://www.visitaikensc.com/eat/roma-restaurant-and-pizza/",
+    "before": [
+      "No website of its own: a search leads to an online ordering page and Facebook",
+      "Listings give three different closing times, and Visit Aiken files the shop under another restaurant's old web address",
+      "The words on this concept come from WRDW and the Aiken Standard; the menu, photos and hours would come from the owner"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Game nights and specials where people look for them, next to the order-ahead link"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "tiles",
+    "facts": "badges",
+    "pattern": "dots",
+    "divider": "curve",
+    "heads": "plain",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

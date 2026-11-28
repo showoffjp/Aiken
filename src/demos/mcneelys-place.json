@@ -1,0 +1,230 @@
+{
+  "name": "McNeely's Place",
+  "short": "McNeely's Place",
+  "category": "Southern Restaurant & Catering",
+  "group": "Food & Drink",
+  "town": "North Augusta, SC",
+  "look": "warm",
+  "fonts": {
+    "display": "fraunces",
+    "body": "nunito-sans",
+    "accent": "caveat"
+  },
+  "colors": {
+    "bg": "#fbf6ee",
+    "surface": "#ffffff",
+    "ink": "#241c16",
+    "muted": "#5e5349",
+    "primary": "#7a3b2e",
+    "onPrimary": "#ffffff",
+    "accent": "#7fa66b",
+    "line": "#ecdfcf"
+  },
+  "radius": 14,
+  "icon": "cake-slice",
+  "contact": {
+    "phone": "(803) 426-8540",
+    "address": [
+      "301 Georgia Avenue",
+      "North Augusta, SC 29841"
+    ],
+    "mapQuery": "McNeely's Place, 301 Georgia Ave, North Augusta, SC 29841",
+    "facebook": "https://www.facebook.com/mcneelysplace/"
+  },
+  "hero": {
+    "eyebrow": "Southern cooking in an old house on Georgia Avenue",
+    "title": "As close to *grandma's* as it gets",
+    "lede": "A menu that changes every day, sides straight from a 1960s cookbook, and cake in the glass cases by the door. Lunch in the dining rooms or on the porch, and catering for your gathering.",
+    "points": [
+      "Daily menu",
+      "Porch seating",
+      "Catering"
+    ],
+    "cta2": {
+      "label": "From the kitchen",
+      "href": "#menu"
+    },
+    "cta": {
+      "label": "Call (803) 426-8540",
+      "href": "tel:+18034268540"
+    }
+  },
+  "facts": [
+    {
+      "value": "Daily",
+      "label": "A menu that changes every day"
+    },
+    {
+      "value": "3 rooms",
+      "label": "Plus the porch"
+    },
+    {
+      "value": "Catering",
+      "label": "Saturdays are for catering"
+    }
+  ],
+  "sections": [
+    {
+      "type": "menu",
+      "id": "menu",
+      "nav": "From the kitchen",
+      "eyebrow": "A taste of the menu",
+      "title": "What might be *on today*",
+      "intro": "The menu changes daily. These are dishes it has featured; call for today's.",
+      "groups": [
+        {
+          "title": "Entrées",
+          "items": [
+            {
+              "name": "Slow-cooked beef tips over rice"
+            },
+            {
+              "name": "Shrimp and grits"
+            },
+            {
+              "name": "Chicken smothered in mushroom and onion gravy"
+            },
+            {
+              "name": "Sausage and cream gravy biscuits with grits"
+            },
+            {
+              "name": "Croissant French toast"
+            },
+            {
+              "name": "Chicken salad sandwich"
+            }
+          ]
+        },
+        {
+          "title": "Sides",
+          "items": [
+            {
+              "name": "Collards"
+            },
+            {
+              "name": "Mac and cheese"
+            },
+            {
+              "name": "Black-eyed peas"
+            },
+            {
+              "name": "Broccoli rice casserole"
+            },
+            {
+              "name": "Southern grape salad"
+            },
+            {
+              "name": "Sour cream cucumber salad"
+            }
+          ]
+        },
+        {
+          "title": "Breads & desserts",
+          "note": "Each entrée comes with a choice of bread",
+          "items": [
+            {
+              "name": "Jalapeño cheddar corn muffin"
+            },
+            {
+              "name": "Pineapple banana nut bread"
+            },
+            {
+              "name": "German chocolate cake"
+            },
+            {
+              "name": "Almond cake with white chocolate icing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "catering",
+      "nav": "Catering",
+      "columns": 3,
+      "eyebrow": "Your table or ours",
+      "title": "Lunch here, *catering anywhere*",
+      "items": [
+        {
+          "icon": "utensils",
+          "title": "Dine in",
+          "text": "Three dining rooms in an old house, plus the porch."
+        },
+        {
+          "icon": "users",
+          "title": "Groups",
+          "text": "Private groups can book the house after closing."
+        },
+        {
+          "icon": "cake-slice",
+          "title": "Catering",
+          "text": "Saturdays belong to catering. Call with your date."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Good to know",
+      "title": "Before you *come*",
+      "items": [
+        {
+          "q": "Are you open on Saturday?",
+          "a": "No. The restaurant closes on Saturdays to cater events."
+        },
+        {
+          "q": "What's on the menu today?",
+          "a": "It changes every day. Call (803) 426-8540 or check Facebook for today's."
+        },
+        {
+          "q": "Can I book the restaurant for a group?",
+          "a": "Private groups can be booked after closing. Call to ask about your date."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Hungry?",
+      "text": "Find us at 301 Georgia Avenue.",
+      "cta": {
+        "label": "Call (803) 426-8540",
+        "href": "tel:+18034268540"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Georgia Avenue*",
+    "hideForm": true
+  },
+  "slug": "mcneelys-place",
+  "added": "2026-11-28",
+  "prospect": "mcneelys-place",
+  "source": {
+    "none": true,
+    "url": "https://theaugustapress.com/dine-and-dish-mcneelys-place/",
+    "before": [
+      "No website of its own: today's menu lives on Facebook, where it scrolls away",
+      "Listings disagree on whether the menu changes daily or weekly",
+      "The words on this concept come from The Augusta Press, Tripadvisor and the chamber listing; photos and hours would come from the owner"
+    ],
+    "after": [
+      "A site the business owns, at its own address",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call and directions on a phone",
+      "A proper preview when the link is shared by text or on Facebook",
+      "Today's menu in one place that doesn't scroll away, and a catering request page"
+    ]
+  },
+  "style": {
+    "hero": "board",
+    "services": "pills",
+    "facts": "ticker",
+    "pattern": "checker",
+    "divider": "curve",
+    "heads": "outline",
+    "motion": "rise",
+    "buttons": "pill"
+  }
+}
