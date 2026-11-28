@@ -1,0 +1,167 @@
+{
+  "name": "Southern Dental Associates",
+  "short": "Southern Dental",
+  "category": "General Dentistry",
+  "group": "Health & Wellness",
+  "town": "Aiken, SC",
+  "look": "clean",
+  "fonts": {
+    "display": "manrope",
+    "body": "inter"
+  },
+  "colors": {
+    "bg": "#f3f7fa",
+    "surface": "#ffffff",
+    "ink": "#13212c",
+    "muted": "#4a5966",
+    "primary": "#1d5f8a",
+    "onPrimary": "#ffffff",
+    "accent": "#7cc4c0",
+    "line": "#d9e3ea"
+  },
+  "radius": 14,
+  "icon": "smile",
+  "contact": {
+    "phone": "(803) 641-3883",
+    "address": [
+      "174 Crepe Myrtle Drive",
+      "Aiken, SC 29803"
+    ],
+    "mapQuery": "Southern Dental Associates, 174 Crepe Myrtle Dr, Aiken, SC 29803"
+  },
+  "hero": {
+    "eyebrow": "General dentistry in Aiken",
+    "title": "Three dentists, *one familiar office*",
+    "lede": "Dr. Kevin Eubanks, Dr. Trent Yoder and Dr. Matthew Wall practice general dentistry together at 174 Crepe Myrtle Drive.",
+    "points": [
+      "General dentistry",
+      "Three dentists",
+      "Crepe Myrtle Drive"
+    ],
+    "cta": {
+      "label": "Call (803) 641-3883",
+      "href": "tel:+18036413883"
+    },
+    "cta2": {
+      "label": "Meet the dentists",
+      "href": "#dentists"
+    }
+  },
+  "facts": [
+    {
+      "value": "3",
+      "label": "Dentists under one roof"
+    },
+    {
+      "value": "DMD",
+      "label": "Doctors of Dental Medicine"
+    },
+    {
+      "value": "Aiken",
+      "label": "174 Crepe Myrtle Drive"
+    }
+  ],
+  "sections": [
+    {
+      "type": "columns",
+      "id": "dentists",
+      "nav": "Our dentists",
+      "eyebrow": "Meet the dentists",
+      "title": "Who you'll *see*",
+      "columns": [
+        {
+          "title": "Kevin G. Eubanks, DMD",
+          "items": [
+            "Dentist"
+          ]
+        },
+        {
+          "title": "Trent D. Yoder, DMD",
+          "items": [
+            "General practice dentist"
+          ]
+        },
+        {
+          "title": "Matthew T. Wall, DMD",
+          "items": [
+            "General practice dentist"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The practice",
+      "title": "Also known as *Drs. Eubanks & Yoder*",
+      "body": [
+        "Southern Dental Associates is a general dental practice on Crepe Myrtle Drive in Aiken. Some patients know it by its other name, Drs. Eubanks & Yoder, and listings give both.",
+        "Patients mention a friendly staff, easy scheduling and a dentist who works to keep them comfortable."
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Good to *know*",
+      "items": [
+        {
+          "q": "Is Southern Dental Associates the same office as Drs. Eubanks & Yoder?",
+          "a": "Yes. Both names belong to the practice at 174 Crepe Myrtle Drive, phone (803) 641-3883."
+        },
+        {
+          "q": "Which insurance do you take?",
+          "a": "Listings show Delta Dental PPO and Delta Dental Premier. Call with your plan's name to check it."
+        },
+        {
+          "q": "Are you taking new patients?",
+          "a": "Call the office and ask which dentist has openings."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Due for a visit?",
+      "text": "Call the office on Crepe Myrtle Drive.",
+      "cta": {
+        "label": "Call (803) 641-3883",
+        "href": "tel:+18036413883"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Crepe Myrtle Drive*",
+    "hideForm": true
+  },
+  "slug": "southern-dental-associates",
+  "added": "2026-11-28",
+  "prospect": "southern-dental-associates",
+  "source": {
+    "none": true,
+    "url": "https://www.vitadox.com/practice/aiken-sc-29803/southern-dental-associates/QoRYD5GoL8yesYzyzfmpgH",
+    "before": [
+      "No website of its own: a search turns up directory pages under two different names",
+      "Hours and new-patient status differ from one directory to the next",
+      "The first thing a new patient sees is not something the practice controls"
+    ],
+    "after": [
+      "A site the practice owns, under the name it chooses",
+      "Hours, phone, address and map in one obvious place",
+      "One-tap call on a phone",
+      "Each dentist introduced in the practice's own words",
+      "Room for insurance plans and new-patient forms as the office supplies them"
+    ]
+  },
+  "style": {
+    "hero": "bento",
+    "services": "grid",
+    "facts": "big",
+    "pattern": "grid",
+    "divider": "curve",
+    "heads": "center",
+    "motion": "slide",
+    "buttons": "pill"
+  }
+}

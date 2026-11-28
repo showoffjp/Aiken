@@ -1,0 +1,185 @@
+{
+  "name": "Arthur W. \"Buzz\" Rich, P.A.",
+  "short": "Buzz Rich, P.A.",
+  "category": "Real Estate, Elder Law & Estate Planning",
+  "group": "Professional Services",
+  "town": "Aiken, SC",
+  "look": "editorial",
+  "fonts": {
+    "display": "bodoni-moda",
+    "body": "source-sans-3"
+  },
+  "colors": {
+    "bg": "#f6f4ef",
+    "surface": "#ffffff",
+    "ink": "#1a1f2b",
+    "muted": "#525a6a",
+    "primary": "#1f3a5f",
+    "onPrimary": "#ffffff",
+    "accent": "#b08d57",
+    "line": "#e1ddd3"
+  },
+  "radius": 2,
+  "icon": "scale",
+  "established": "1981",
+  "contact": {
+    "phone": "(803) 649-3923",
+    "address": [
+      "205 Barnwell Avenue NW",
+      "Aiken, SC 29801"
+    ],
+    "mapQuery": "Arthur W. Buzz Rich PA, 205 Barnwell Ave NW, Aiken, SC 29801"
+  },
+  "hero": {
+    "eyebrow": "Attorney at law in Aiken since 1981",
+    "title": "Closings, wills and *the paperwork of a lifetime*",
+    "lede": "Residential and commercial real estate closings, elder law, estate planning, wills, trusts and probate, from an Aiken law office on Barnwell Avenue.",
+    "points": [
+      "Real estate closings",
+      "Elder law",
+      "Wills, trusts & probate"
+    ],
+    "cta": {
+      "label": "Call (803) 649-3923",
+      "href": "tel:+18036493923"
+    },
+    "cta2": {
+      "label": "Practice areas",
+      "href": "#practice"
+    }
+  },
+  "facts": [
+    {
+      "value": "1981",
+      "label": "The firm was established"
+    },
+    {
+      "value": "1973",
+      "label": "Admitted to the South Carolina bar"
+    },
+    {
+      "value": "Barnwell Ave",
+      "label": "Downtown Aiken"
+    }
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "id": "practice",
+      "nav": "Practice areas",
+      "columns": 3,
+      "eyebrow": "Practice areas",
+      "title": "What the office *handles*",
+      "items": [
+        {
+          "icon": "house",
+          "title": "Residential closings",
+          "text": "Buying or selling a home in Aiken County."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Commercial closings",
+          "text": "Real estate transactions for businesses and investors."
+        },
+        {
+          "icon": "landmark",
+          "title": "Foreclosures",
+          "text": "Real estate foreclosure matters."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Elder law",
+          "text": "Legal planning for older adults and their families."
+        },
+        {
+          "icon": "scroll",
+          "title": "Wills & trusts",
+          "text": "Estate planning documents that say what you want."
+        },
+        {
+          "icon": "file-text",
+          "title": "Probate",
+          "text": "Settling an estate after a death in the family."
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "id": "about",
+      "nav": "About",
+      "eyebrow": "The attorney",
+      "title": "Arthur W. *\"Buzz\" Rich*",
+      "body": [
+        "Buzz Rich was admitted to practice in South Carolina in 1973 and established his Aiken firm in 1981.",
+        "He earned his bachelor's degree at Wofford College and his law degree at the University of South Carolina."
+      ],
+      "list": [
+        "B.A., Wofford College",
+        "J.D., University of South Carolina",
+        "Practicing in South Carolina since 1973"
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Before you *call*",
+      "items": [
+        {
+          "q": "Where is the office?",
+          "a": "205 Barnwell Avenue NW in Aiken. Mail goes to Drawer 1690, Aiken, SC 29802."
+        },
+        {
+          "q": "Do you handle closings for buyers and sellers?",
+          "a": "The firm handles residential and commercial real estate closings. Call to talk through yours."
+        },
+        {
+          "q": "My parent has died. Can you help with the estate?",
+          "a": "Probate is one of the firm's practice areas. Call (803) 649-3923 to set a time to talk."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Have a closing or an estate to plan?",
+      "text": "Call the office on Barnwell Avenue.",
+      "cta": {
+        "label": "Call (803) 649-3923",
+        "href": "tel:+18036493923"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Find us on *Barnwell Avenue*",
+    "hideForm": true
+  },
+  "slug": "buzz-rich-law",
+  "added": "2026-11-28",
+  "prospect": "arthur-w-buzz-rich-pc",
+  "source": {
+    "url": "http://www.buzzrich.com/",
+    "before": [
+      "The firm's web address, buzzrich.com, answers with a server error (503) instead of a page",
+      "A second address in the downtown directory, buzzrichaiken.com, no longer exists",
+      "The words on this concept come from legal directories (Martindale, Lawyers.com); the attorney would confirm and add to them"
+    ],
+    "after": [
+      "A working page, today: phone, address and map in one obvious place",
+      "Each practice area in plain English, so a caller knows they've found the right office",
+      "One-tap call on a phone",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "Room for fees, forms and checklists for a closing as the office supplies them"
+    ]
+  },
+  "style": {
+    "hero": "magazine",
+    "services": "rows",
+    "facts": "strip",
+    "pattern": "none",
+    "divider": "none",
+    "heads": "rule",
+    "motion": "rise",
+    "buttons": "square"
+  }
+}

@@ -345,6 +345,17 @@
    "at": "2026-11-21"
   }
  },
+ "arthur-w-buzz-rich-pc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 23,
+   "smallTargets": 0,
+   "at": "2026-11-28"
+  }
+ },
  "atomic-heating-and-air": {
   "site": {
    "call": false,
@@ -862,6 +873,17 @@
    "at": "2026-11-24"
   }
  },
+ "connies-framing": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 1,
+   "targets": 23,
+   "smallTargets": 0,
+   "at": "2026-11-28"
+  }
+ },
  "covenant-family-allergy": {
   "site": {
    "call": true,
@@ -993,6 +1015,17 @@
    "targets": 17,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "electric-selfie-360": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 19,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "empire-tree": {
@@ -1512,6 +1545,17 @@
    "at": "2026-11-19"
   }
  },
+ "jade-of-china": {
+  "concept": {
+   "call": true,
+   "number": false,
+   "overflow": false,
+   "tinyText": 0,
+   "targets": 27,
+   "smallTargets": 0,
+   "at": "2026-11-28"
+  }
+ },
  "jamrock-caribana": {
   "concept": {
    "call": true,
@@ -1541,6 +1585,17 @@
    "targets": 40,
    "smallTargets": 0,
    "at": "2026-11-19"
+  }
+ },
+ "john-m-bailey-and-associates-pc": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 4,
+   "targets": 23,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "joyful-caf": {
@@ -2368,6 +2423,17 @@
    "targets": 40,
    "smallTargets": 0,
    "at": "2026-11-21"
+  }
+ },
+ "southern-dental-associates": {
+  "concept": {
+   "call": true,
+   "number": true,
+   "overflow": false,
+   "tinyText": 2,
+   "targets": 22,
+   "smallTargets": 0,
+   "at": "2026-11-28"
   }
  },
  "southern-magnolia-dentistry": {

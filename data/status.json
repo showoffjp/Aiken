@@ -75,5 +75,28 @@
     "note": "MoonBeans is New Moon Cafe's sister roaster and has a page on the cafe's own site",
     "currentSite": "https://www.newmoondowntown.com/location/new-moon-cafe-moonbeans/",
     "checked": "2026-11-28"
+  },
+  "hixons-roofing-and-construction-llc": {
+    "status": "moved",
+    "note": "Has its own website (hixonsroofing.com), listed under Hixon Services",
+    "currentSite": "https://hixonsroofing.com/",
+    "checked": "2026-11-28"
+  },
+  "standard-pool-company": {
+    "status": "moved",
+    "note": "Has its own website (standardpoolcompany.com)",
+    "currentSite": "https://standardpoolcompany.com/",
+    "checked": "2026-11-28"
+  },
+  "black-forest-equestrian-center-inc": {
+    "status": "moved",
+    "note": "Has its own website (blackforestfarm.com)",
+    "currentSite": "https://www.blackforestfarm.com/",
+    "checked": "2026-11-28"
+  },
+  "arthur-w-rich-pa": {
+    "status": "skip",
+    "note": "The same law firm as Arthur W. Buzz Rich, PC, which has the concept",
+    "checked": "2026-11-28"
   }
 }

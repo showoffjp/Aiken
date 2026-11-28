@@ -47211,5 +47211,661 @@
    "lighthouseSeo": null
   },
   "competitors": []
+ },
+ "arthur-w-buzz-rich-pc": {
+  "slug": "buzz-rich-law",
+  "name": "Arthur W. \"Buzz\" Rich, P.A.",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No response - verify",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=203&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=de8652efaf83f35e9201f875e6ec8d31",
+    "name": "Arthur W. Buzz Rich, PC",
+    "phone": "(803) 649-3923",
+    "website": "http://www.buzzrich.com",
+    "address": "205 Barnwell Avenue, NW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": true
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "buzzrich.com",
+   "created": "2000-05-16",
+   "expires": "2028-05-16",
+   "registrar": "Network Solutions, LLC",
+   "years": 26
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 93,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1055,
+   "lcp": 1655,
+   "tbt": 294,
+   "si": 1055,
+   "cls": 0.002,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "andrew-c-marine-attorney",
+   "austin-and-pethick-law-firm",
+   "chandler-law-firm-pa",
+   "hull-barrett-attorneys-pc",
+   "john-harte-law"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "andrew-c-marine-attorney",
+    "name": "Andrew C. Marine, Attorney",
+    "website": "https://www.andrewmarine.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 58,
+    "pageMB": 1.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 24
+   },
+   {
+    "slug": "austin-and-pethick-law-firm",
+    "name": "Austin & Pethick Law Firm",
+    "website": "https://www.austinpethick.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 73,
+    "pageMB": 1.3,
+    "a11ySerious": 26,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 8
+   },
+   {
+    "slug": "chandler-law-firm-pa",
+    "name": "Chandler Law Firm, PA",
+    "website": "https://thechandlerlawfirm.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 50,
+    "pageMB": 3.2,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "hull-barrett-attorneys-pc",
+    "name": "Hull Barrett Attorneys, PC",
+    "website": "https://www.hullbarrett.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 4.8,
+    "a11ySerious": 10,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 17
+   },
+   {
+    "slug": "john-harte-law",
+    "name": "John Harte Law",
+    "website": "https://www.jwhartelaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.4,
+    "a11ySerious": 5,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 7
+   }
+  ]
+ },
+ "electric-selfie-360": {
+  "slug": "electric-selfie-360",
+  "name": "Electric Selfie 360",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "Error page (404 / 500)",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/electric-selfie-360-4278",
+    "name": "Electric Selfie 360",
+    "phone": "(803) 634-6313",
+    "website": "http://electricselfie360.com",
+    "address": "North Augusta SC 29861",
+    "phoneMatch": true,
+    "websiteMatch": false
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": {
+   "name": "electricselfie360.com",
+   "created": "2022-09-03",
+   "expires": "2028-09-03",
+   "registrar": "GoDaddy.com, LLC",
+   "years": 4
+  },
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 96,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 947,
+   "lcp": 1803,
+   "tbt": 204,
+   "si": 947,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "argus-visuals",
+   "wilson-studio-of-fine-photography",
+   "a-p-gouge-photography",
+   "aikenite-electrical-services-llc",
+   "anderson-plumbing-co-inc"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "argus-visuals",
+    "name": "Argus Visuals",
+    "website": "https://www.argusvisuals.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 57,
+    "pageMB": 8.8,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 6
+   },
+   {
+    "slug": "wilson-studio-of-fine-photography",
+    "name": "Wilson Studio of Fine Photography",
+    "website": "https://www.wilsonstudio.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 3.9,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 27
+   },
+   {
+    "slug": "a-p-gouge-photography",
+    "name": "A. P. Gouge Photography",
+    "website": "https://www.apgougephotography.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 28,
+    "pageMB": 4.2,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 12
+   },
+   {
+    "slug": "aikenite-electrical-services-llc",
+    "name": "Aikenite Electrical Services LLC",
+    "website": "https://www.aikenite-electrical.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 33,
+    "pageMB": 4.8,
+    "a11ySerious": 3,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "anderson-plumbing-co-inc",
+    "name": "Anderson Plumbing Co., Inc.",
+    "website": "https://www.andersonplumbingaiken.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": null,
+    "pageMB": 1.6,
+    "a11ySerious": 6,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 18
+   }
+  ]
+ },
+ "southern-dental-associates": {
+  "slug": "southern-dental-associates",
+  "name": "Southern Dental Associates",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=894&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=8274f09879d44c9310300c51805ea084",
+    "name": "Southern Dental Associates",
+    "phone": "(803) 641-3883",
+    "website": "",
+    "address": "174 Crepe Myrtle Drive, Aiken, SC 29803",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 97,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1206,
+   "lcp": 1956,
+   "tbt": 159,
+   "si": 1206,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
+ },
+ "jade-of-china": {
+  "slug": "jade-of-china",
+  "name": "Jade of China",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Visit Aiken (city tourism)",
+    "url": "https://www.visitaikensc.com/eat/jade-of-china/",
+    "name": "Jade of China",
+    "phone": "803.642.8509",
+    "website": "",
+    "address": "1014 Pine Log Rd., Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 2028,
+   "tbt": 69,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "aiken-fish-house-and-oyster-bar",
+   "anshu-asian-caf",
+   "blue-collard",
+   "bobbys-bar-b-q-buffet",
+   "chemistrys-tapas-and-tonics"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "aiken-fish-house-and-oyster-bar",
+    "name": "Aiken Fish House & Oyster Bar",
+    "website": "https://aikenfishhouse.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 43,
+    "pageMB": 6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 7
+   },
+   {
+    "slug": "anshu-asian-caf",
+    "name": "AnShu Asian Café",
+    "website": "https://anshuasiancafe.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": true,
+    "og": false,
+    "performance": 59,
+    "pageMB": 2.3,
+    "a11ySerious": 1,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "blue-collard",
+    "name": "Blue Collard",
+    "website": "https://bluecollard.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 47,
+    "pageMB": 3.2,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 10
+   },
+   {
+    "slug": "bobbys-bar-b-q-buffet",
+    "name": "Bobby's Bar-B-Q Buffet",
+    "website": "https://bobbysbbq.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 54,
+    "pageMB": 6.5,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 24
+   },
+   {
+    "slug": "chemistrys-tapas-and-tonics",
+    "name": "Chemistry’s Tapas & Tonics",
+    "website": "https://chemistrys803.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": false,
+    "og": true,
+    "performance": 78,
+    "pageMB": 1.6,
+    "a11ySerious": 0,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 4
+   }
+  ]
+ },
+ "john-m-bailey-and-associates-pc": {
+  "slug": "john-m-bailey-surveyors",
+  "name": "John M. Bailey & Associates, P.C.",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "North Augusta Chamber",
+    "url": "https://northaugustachamber.chambermaster.com/list/member/john-m-bailey-associates-p-c-1424",
+    "name": "John M. Bailey & Associates, P.C.",
+    "phone": "(803) 278-0721",
+    "website": "",
+    "address": "101 LeCompte Avenue, North Augusta SC 29841",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 98,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1203,
+   "lcp": 1953,
+   "tbt": 128,
+   "si": 1203,
+   "cls": 0,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [
+   "maxwell-law-group-llc",
+   "rhodes-law-firm",
+   "thomas-p-murphy-pc-attorney-at-law",
+   "wessels-white-and-earley-pc",
+   "malchow-johnson-injury-lawyers"
+  ],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": [
+   {
+    "slug": "maxwell-law-group-llc",
+    "name": "Maxwell Law Group, LLC",
+    "website": "https://www.maxwellgroup.law/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 51,
+    "pageMB": 1.8,
+    "a11ySerious": 2,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 1
+   },
+   {
+    "slug": "rhodes-law-firm",
+    "name": "Rhodes Law Firm",
+    "website": "https://gorhodeslaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 45,
+    "pageMB": 1.7,
+    "a11ySerious": 53,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 20
+   },
+   {
+    "slug": "thomas-p-murphy-pc-attorney-at-law",
+    "name": "Thomas P. Murphy, P.C., Attorney at Law",
+    "website": "https://thomaspmurphylaw.com/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": false,
+    "schema": false,
+    "og": true,
+    "performance": 63,
+    "pageMB": 2.1,
+    "a11ySerious": 6,
+    "facebook": false,
+    "instagram": false,
+    "domainYears": 11
+   },
+   {
+    "slug": "wessels-white-and-earley-pc",
+    "name": "Wessels, White, & Earley, P.C.",
+    "website": "https://wwe.law/",
+    "state": "ok",
+    "https": true,
+    "mobile": true,
+    "description": true,
+    "schema": true,
+    "og": true,
+    "performance": 56,
+    "pageMB": 1.9,
+    "a11ySerious": 45,
+    "facebook": true,
+    "instagram": true,
+    "domainYears": 0
+   },
+   {
+    "slug": "malchow-johnson-injury-lawyers",
+    "name": "Malchow Johnson Injury Lawyers",
+    "website": "https://www.nmjfirm.com/",
+    "state": "blocked",
+    "https": null,
+    "mobile": null,
+    "description": null,
+    "schema": null,
+    "og": null,
+    "performance": null,
+    "pageMB": null,
+    "a11ySerious": null,
+    "facebook": true,
+    "instagram": false,
+    "domainYears": 7
+   }
+  ]
+ },
+ "connies-framing": {
+  "slug": "connies-framing",
+  "name": "Connie's Framing",
+  "checked": "2026-11-28",
+  "hasSite": false,
+  "siteState": "No website",
+  "site": null,
+  "keywords": [],
+  "citations": [
+   {
+    "source": "Aiken Chamber of Commerce",
+    "url": "https://aiken.membersthrive.com/index.php?id=204&httpReferer=https%3A%2F%2Fwww.aikenchamber.net%2Fdirectory%2F&chamberpid=175&tx_nkchambermembers_nkchambermembersfe%5Bmember%5D=363&tx_nkchambermembers_nkchambermembersfe%5Baction%5D=feshow&tx_nkchambermembers_nkchambermembersfe%5Bcontroller%5D=Member&cHash=9a66464c375197942f6c1c6d5f16e4fb",
+    "name": "Connie's Framing",
+    "phone": "(803) 643-3696",
+    "website": "",
+    "address": "145 Pendleton Street, NW, Aiken, SC 29801",
+    "phoneMatch": true,
+    "websiteMatch": null
+   }
+  ],
+  "social": {
+   "onSite": {},
+   "listed": {}
+  },
+  "domain": null,
+  "performance": null,
+  "conceptPerformance": {
+   "performance": 99,
+   "accessibility": 100,
+   "bestPractices": 96,
+   "seo": 63,
+   "fcp": 1204,
+   "lcp": 2104,
+   "tbt": 60,
+   "si": 1204,
+   "cls": 0.005,
+   "at": "2026-11-28"
+  },
+  "competitorSlugs": [],
+  "scores": {
+   "seo": null,
+   "social": 0,
+   "lighthouseSeo": null
+  },
+  "competitors": []
  }
 }

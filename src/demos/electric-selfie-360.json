@@ -1,0 +1,172 @@
+{
+  "name": "Electric Selfie 360",
+  "short": "Electric Selfie 360",
+  "category": "360 Photo Booth Rental",
+  "group": "Events & Entertainment",
+  "town": "North Augusta, SC",
+  "look": "bold",
+  "fonts": {
+    "display": "syne",
+    "body": "outfit"
+  },
+  "colors": {
+    "bg": "#0f0c1d",
+    "surface": "#1a1630",
+    "ink": "#f4f1ff",
+    "muted": "#b9b2d6",
+    "primary": "#ff3d9a",
+    "onPrimary": "#14051c",
+    "accent": "#36e2ff",
+    "line": "#2e2850"
+  },
+  "radius": 20,
+  "icon": "camera",
+  "contact": {
+    "phone": "(803) 634-6313",
+    "address": [
+      "North Augusta, SC"
+    ]
+  },
+  "hero": {
+    "eyebrow": "360° photo booth rental · North Augusta",
+    "title": "Step on. *Spin.* Smile.",
+    "lede": "A 360-degree video booth for weddings, festivals, fairs and special occasions. Guests step onto the platform, the camera circles them, and the moment is captured on video.",
+    "points": [
+      "Weddings",
+      "Festivals & fairs",
+      "Special occasions"
+    ],
+    "cta": {
+      "label": "Call (803) 634-6313",
+      "href": "tel:+18036346313"
+    },
+    "cta2": {
+      "label": "How it works",
+      "href": "#how"
+    }
+  },
+  "facts": [
+    {
+      "value": "360°",
+      "label": "Video, all the way around"
+    },
+    {
+      "value": "Neon",
+      "label": "Custom signs and backdrops"
+    },
+    {
+      "value": "Local",
+      "label": "Based in North Augusta"
+    }
+  ],
+  "sections": [
+    {
+      "type": "steps",
+      "id": "how",
+      "nav": "How it works",
+      "eyebrow": "How it works",
+      "title": "Three steps to *the video everyone wants*",
+      "items": [
+        {
+          "title": "Step onto the platform",
+          "text": "Guests take their place on the booth's platform."
+        },
+        {
+          "title": "The camera circles you",
+          "text": "A full 360-degree spin captures the moment as video."
+        },
+        {
+          "title": "Take the moment home",
+          "text": "The spin is recorded as a short video of your guests."
+        }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "events",
+      "nav": "Events",
+      "columns": 3,
+      "eyebrow": "Book it for",
+      "title": "Any party that needs *a little spin*",
+      "items": [
+        {
+          "icon": "heart-handshake",
+          "title": "Weddings",
+          "text": "The booth has spun at wedding receptions around the area."
+        },
+        {
+          "icon": "party-popper",
+          "title": "Festivals & fairs",
+          "text": "A line that keeps a crowd entertained."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Special occasions",
+          "text": "Whatever you're celebrating, with custom neon signs and backdrops."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "faq",
+      "nav": "FAQ",
+      "eyebrow": "Questions",
+      "title": "Planning *your event*",
+      "items": [
+        {
+          "q": "What is a 360 photo booth?",
+          "a": "A platform with a camera on a rotating arm. Guests stand on the platform while the camera circles them, recording a short video."
+        },
+        {
+          "q": "Can the backdrop match my event?",
+          "a": "Custom neon signs and backdrops are available. Call to talk through your theme."
+        },
+        {
+          "q": "How do I check my date?",
+          "a": "Call (803) 634-6313 with your date and venue."
+        }
+      ]
+    },
+    {
+      "type": "band",
+      "title": "Got a date?",
+      "text": "Call to book the booth for your event.",
+      "cta": {
+        "label": "Call (803) 634-6313",
+        "href": "tel:+18036346313"
+      }
+    }
+  ],
+  "visit": {
+    "title": "Booking events around *North Augusta*",
+    "hideForm": true
+  },
+  "slug": "electric-selfie-360",
+  "added": "2026-11-28",
+  "prospect": "electric-selfie-360",
+  "source": {
+    "url": "http://electricselfie360.com/",
+    "before": [
+      "The business's web address, electricselfie360.com, now forwards to a page builder's \"page not found\" error (404)",
+      "The North Augusta Chamber listing still sends planners to it",
+      "The words on this concept come from the chamber listing, its directory listings and Augusta Business Daily; photos and packages would come from the owner"
+    ],
+    "after": [
+      "A working page, today, with one-tap call to check a date",
+      "What a 360 booth is, explained for a planner who has never seen one",
+      "A home for the 360 videos themselves: the best advertising this business has",
+      "HTTPS that renews itself, with nothing to patch or let lapse",
+      "Room for packages, prices and a booking form as the owner supplies them"
+    ]
+  },
+  "style": {
+    "hero": "spotlight",
+    "services": "tiles",
+    "facts": "ticker",
+    "pattern": "dots",
+    "divider": "wave",
+    "heads": "outline",
+    "motion": "zoom",
+    "buttons": "pill"
+  }
+}

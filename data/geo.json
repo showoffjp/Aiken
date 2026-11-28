@@ -283,6 +283,14 @@
   "exact": true,
   "at": "2026-11-21"
  },
+ "buzz-rich-law": {
+  "q": "205 Barnwell Avenue NW, Aiken, SC 29801",
+  "lat": 33.563285,
+  "lon": -81.719993,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "c-wallace-design": {
   "q": "241 Cheltenham Drive, Aiken, SC 29803",
   "lat": 33.489899,
@@ -351,6 +359,14 @@
   "kind": "place",
   "exact": true,
   "at": "2026-11-24"
+ },
+ "connies-framing": {
+  "q": "145 Pendleton Street NW, Aiken, SC 29801",
+  "lat": 33.562942,
+  "lon": -81.723153,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "covenant-family-allergy": {
   "q": "130 Allen Court, North Augusta, SC 29860",
@@ -629,6 +645,14 @@
   "exact": true,
   "at": "2026-11-19"
  },
+ "jade-of-china": {
+  "q": "1014 Pine Log Road, Suite C, Aiken, SC 29803",
+  "lat": 33.515253,
+  "lon": -81.734676,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
+ },
  "jamrock-caribana": {
   "q": "730 Augusta Road, Warrenville, SC 29851",
   "lat": 33.552192,
@@ -644,6 +668,14 @@
   "kind": "secondary",
   "exact": false,
   "at": "2026-11-19"
+ },
+ "john-m-bailey-surveyors": {
+  "q": "101 LeCompte Avenue, North Augusta, SC 29841",
+  "lat": 33.508409,
+  "lon": -81.96219,
+  "kind": "place",
+  "exact": true,
+  "at": "2026-11-28"
  },
  "joyful-cafe": {
   "q": "245 White Pond Road, Williston, SC 29853",
@@ -1065,6 +1097,11 @@
   "kind": "amenity",
   "exact": true,
   "at": "2026-11-21"
+ },
+ "southern-dental-associates": {
+  "q": "174 Crepe Myrtle Drive, Aiken, SC 29803",
+  "missing": true,
+  "at": "2026-11-28"
  },
  "southern-magnolia-dentistry": {
   "q": "598 Silver Bluff Road, Suite 1, Aiken, SC 29803",
